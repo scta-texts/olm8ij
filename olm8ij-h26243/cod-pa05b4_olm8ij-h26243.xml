@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,14 +53,14 @@
       </front>
       <body>
          <div xml:id="olm8ij-h26243"> <!-- l4-d9prae -->
-            <head>Distinctio 9</head>
-            <p>
+            <head xml:id="olm8ij-h26243-Hd1e102">Distinctio 9</head>
+            <p xml:id="olm8ij-h26243-d1e104">
                <lb ed="#R" n="43"/>DISTINCTIO IX 
       <lb ed="#R" n="44"/>DE SVSCIPIENTIBUS 
       <lb ed="#R" n="45"/>SACRAMENTVM
       <lb ed="#R" n="46"/>EVCHARISTIAE 
     </p>
-            <p>
+            <p xml:id="olm8ij-h26243-d1e115">
                <lb ed="#R" n="47"/>Et sicut sunt duae res, &amp;c. In ista Distinctione 
       <lb ed="#R" n="48"/>nona postquam Magister egit de 
       Sacra<lb ed="#R" n="49" break="no"/>mento Eucharistiae in se, &amp; absolute, 
@@ -71,7 +69,7 @@
       <lb ed="#R" n="52"/>ad suscipientes: quaero ergo ad euidentiam 
       <lb ed="#R" n="53"/>totius distinctionis tres quaestiones.
     </p>
-            <p>
+            <p xml:id="olm8ij-h26243-d1e133">
                <lb ed="#R" n="54"/>Prima est: Vtrum vsus huius Sacramenti sit 
       <lb ed="#R" n="55"/>congrue institutus. Secunda est: Vtrum 
       <lb ed="#R" n="56"/>omnis homo, &amp; peccator sit idoneus 

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,8 +53,8 @@
       </front>
       <body>
          <div xml:id="olm8ij-h32116"> <!-- l4-d10q4 -->
-            <head>Quaestio 4</head>
-            <p>
+            <head xml:id="olm8ij-h32116-Hd1e102">Quaestio 4</head>
+            <p xml:id="olm8ij-h32116-d1e104">
       <!--0094.xml-->
                <cb ed="#R" n="b"/>
                <lb ed="#R" n="68"/>Quaestio <sic>III</sic>
@@ -65,14 +63,14 @@
       al<lb ed="#R" n="71" break="no"/>taris in ordine ad agens 
       <lb ed="#R" n="72"/>extrinsecum. 
   </p>
-            <p>
+            <p xml:id="olm8ij-h32116-d1e124">
                <lb ed="#R" n="73"/>Postquam visum est de modo existentiae 
       cor<lb ed="#R" n="74" break="no"/>poris Christi in Sacramento altaris quo ad 
       <lb ed="#R" n="75"/>suas dimensiones, quaero nunc de modo 
       <lb ed="#R" n="76"/>suae existentiae in ordine ad agens 
       extrinse<lb ed="#R" n="77" break="no"/>cum, &amp; quaero tres quaestiones.
   </p>
-            <p>
+            <p xml:id="olm8ij-h32116-d1e137">
                <lb ed="#R" n="78"/>1 Prima est: Vtrum Christus in Sacramento 
       <lb ed="#R" n="79"/>possit esse subiectum de nouo naturalis 
       apprehen<lb ed="#R" n="80" break="no"/>sionis. 
@@ -81,18 +79,18 @@
       <lb ed="#R" n="83"/>3 Tertia est: Vtrum possit esse principium 
       na<lb ed="#R" n="84" break="no"/>turalis apprehensionis, &amp; actionis naturalis. 
     </p>
-            <div>
-               <head>Articulus 1</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h32116-Dd1e156">
+               <head xml:id="olm8ij-h32116-Hd1e158">Articulus 1</head>
+               <head xml:id="olm8ij-h32116-Hd1e160" type="question-title">
       Utrum Christus in Sacramento possit esse 
       subiectum de nouo naturalis apprehensionis.
     </head>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e163">
                   <lb ed="#R" n="85"/>ARTICVLVUS I. 
       <lb ed="#R" n="86"/>Vtrum Christus in Sacramento possit esse 
       subie<lb ed="#R" n="87" break="no"/>ctum de nouo naturalis apprehensionis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e172">
     <!-- missing line break -->QVOAD prima 
       quaestio<lb ed="#R" n="88" break="no"/>nem arguo primo, quod 
       <lb ed="#R" n="89"/>Christus, vt existens in Sa 
@@ -109,7 +107,7 @@
       <lb ed="#R" n="100"/>existenti, vt hic, nisi posset Christus, vt hic, scilicet 
       <lb ed="#R" n="101"/>in Sacramento, esse subiectum auditionis: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e207">
                   <lb ed="#R" n="102"/>In oppositum arguo, quia qua ratione posset 
       <lb ed="#R" n="103"/>Christus esse subiectum apprehensionis posset esse 
       <lb ed="#R" n="104"/>subiectum sensationis secundum sensum tactus: hoc 
@@ -117,12 +115,12 @@
       <lb ed="#R" n="106"/>vt in Sacramento, posset tangi, &amp; corrumpi per 
       <lb ed="#R" n="107"/>consequens, &amp; huiusmodi. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e224">
                   <lb ed="#R" n="108"/>Respondeo hic videndum est de duobus. Primo 
       <lb ed="#R" n="109"/>de apprehensione sensitiua. Secundo de 
       appraehen<lb ed="#R" n="110" break="no"/>sione intellectiua. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e233">
                   <lb ed="#R" n="111"/>Quo ad primum pono istam propositionem 
       <lb ed="#R" n="112"/>quod Christus potest esse in Sacramento subiectum 
       <lb ed="#R" n="113"/>sensationis per concomitantiam, ita quod per 
@@ -130,14 +128,14 @@
       <lb ed="#R" n="115"/>inest sibi existenti in caelo quantum ad absolutum, 
       <lb ed="#R" n="116"/>quod importat ipsa apprehensio sensitiua. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e249">
                   <lb ed="#R" n="117"/>Secunda est, quod Christus in hoc Sacramento 
       <lb ed="#R" n="118"/>non potest per concomitantiam esse susceptiuus 
       <lb ed="#R" n="119"/>sensationis, siue apprehensionis sensitiuae, quo ad 
       <lb ed="#R" n="120"/>respectum quem importat ad obiectum, siue quo 
       <lb ed="#R" n="121"/>ad transitum super illud. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e262">
                   <lb ed="#R" n="122"/>Tertia Propositio est, quod directe non potest 
      <lb ed="#R" n="123"/>
                   <!-- line coord error -->
@@ -148,7 +146,7 @@
       <lb ed="#R" n="2"/>apprehensionis sensitiuae, siue quo ad absolutum, 
       <lb ed="#R" n="3"/>siue quo ad transitum super obiectum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e284">
                   <lb ed="#R" n="4"/>Primam conclusionem probo sic: Omne illud 
       <lb ed="#R" n="5"/>est necessario ponendum, quo non posito tollitur 
       <lb ed="#R" n="6"/>primum principium, de quolibet affirmatio, &amp; 
@@ -169,7 +167,7 @@
       <lb ed="#R" n="21"/>quoad absolutum inesse Christo in caelo, quin 
       se<lb ed="#R" n="22" break="no"/>cundo concomitanter insit eidem in Sacramento. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e328">
                   <lb ed="#R" n="23"/>Secundam Conclusionem probo: Videtur enim 
       <lb ed="#R" n="24"/>valde mirabile, quod Christus existens in caelo 
       vi<lb ed="#R" n="25" break="no"/>deat vultum beatae Virginis, &amp; illum non videat in 
@@ -177,7 +175,7 @@
       <lb ed="#R" n="27"/>Christo exisenti in Sacramento, &amp; tamen quod 
       <lb ed="#R" n="28"/>non transeat super vultum Virginis sicut in caelo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e345">
                   <lb ed="#R" n="29"/>Probo tamen hoc non obstante, quod conclusio 
       <lb ed="#R" n="30"/>sit necessaria, &amp; arguo quod sit: Illud, quod est 
       ab<lb ed="#R" n="31" break="no"/>solutum ab omni situ, &amp; distantia, &amp; per modum 
@@ -196,14 +194,14 @@
       <lb ed="#R" n="44"/>Sacramento ad aliquid situatum, sicut ad 
       termi<lb ed="#R" n="45" break="no"/>num illius lineae, puta ad vultum Virginis in caelo: 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e384">
                   <lb ed="#R" n="46"/>Confirmo hoc, quia secundum regulam 
       perspe<lb ed="#R" n="47" break="no"/>ctiui visio transit super obiectum per modum 
       py<lb ed="#R" n="48" break="no"/>ramidis, cuius basis est in re visa, conus vero estt in 
       <lb ed="#R" n="49"/>oculo: sed oculus Christi in Sacramento non potest 
       <lb ed="#R" n="50"/>esse terminus coni piramidis: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e397">
                   <lb ed="#R" n="51"/>Sunt tamen in ista conclusione duae difficultates. 
       <lb ed="#R" n="52"/>Vna est, quia si in triduo, siue tempore passionis, 
       <lb ed="#R" n="53"/>quando Christus fuit passus, fuisset hostia 
@@ -211,7 +209,7 @@
       ve<lb ed="#R" n="55" break="no"/>rus dolor: sed dolor praesupponit apprehensionem sen 
       <lb ed="#R" n="56"/>sitiuam etiam, vt transeuntem super obiectum: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e413">
                   <lb ed="#R" n="57"/>Respondeo vno modo posset dici, quod ibi 
       fuis<lb ed="#R" n="58" break="no"/>set dolor quo ad abstractum doloris, &amp; quod 
       do<lb ed="#R" n="59" break="no"/>lor quo ad abstractum non plus requirit, quam 
@@ -221,7 +219,7 @@
       <lb ed="#R" n="63"/>ibi apprehensio sensitiua per modum pyramidis, 
       <lb ed="#R" n="64"/>transiens super rem apprehensam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e433">
                   <lb ed="#R" n="65"/>Alio modo posset dici, quod non est simile de sen 
       <lb ed="#R" n="66"/>su tactus, &amp; visus, quoniam tactus non sentit extra 
       <lb ed="#R" n="67"/>se per modum pyramidis sicut visus: dico quod om 
@@ -232,7 +230,7 @@
       <lb ed="#R" n="70"/>modum propinquitatis distantiae, quae non 
       compe<lb ed="#R" n="71" break="no"/>tunt corpori Christi existenti in Sacramento. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e455">
                   <lb ed="#R" n="72"/>Alia difficultas est: Quando respectus fundatur 
       <lb ed="#R" n="73"/>necessario super absolutum, vbi ponitur idem 
       ab<lb ed="#R" n="74" break="no"/>solutum ponitur idem respectus, alias super idem 
@@ -245,7 +243,7 @@
       Sacra<lb ed="#R" n="81" break="no"/>mento fundabit respectum, &amp; transitum super obie 
       <lb ed="#R" n="82"/>ctum. Respondeas tu hic. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e482">
                   <lb ed="#R" n="83"/>Tertiam Conclusionem probo: Quia illud, quod 
       <lb ed="#R" n="84"/>non est terminus distantiae, &amp; contactus, non potest 
       <lb ed="#R" n="85"/>esse receptiuum a subiecto sensibili apprehensionis 
@@ -258,7 +256,7 @@
       obie<lb ed="#R" n="92" break="no"/>cto sensibili, nec quo ad absolutum, nec quo ad 
       re<lb ed="#R" n="93" break="no"/>spectum 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e508">
                   <lb ed="#R" n="94"/>Quantum ad secundum articulum de apprehen 
       <lb ed="#R" n="95"/>sione intellectiua, pono istam conclusionem, quod 
       <lb ed="#R" n="96"/>corpori existenti in Sacramento inest per concomi 
@@ -270,7 +268,7 @@
       re<lb ed="#R" n="102" break="no"/>spectum, &amp; transitum super obiectum, &amp; hoc 
       con<lb ed="#R" n="103" break="no"/>comitanter. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e532">
                   <lb ed="#R" n="104"/>Vbi considerandum est, quod notitia 
       intellecti<lb ed="#R" n="105" break="no"/>na non dependet a situ, &amp; distantia, nec quo ad eius 
       <lb ed="#R" n="106"/>subiecum, nec quo ad eius terminum, nec quo ad 
@@ -301,7 +299,7 @@
       <lb ed="#R" n="131"/>non magis intelligit eum, vt hic, quam vt in 
       cae<lb ed="#R" n="132" break="no"/>lo; nec e conuerso. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e597">
                   <lb ed="#R" n="133"/>Qui tamen dicunt, quod distantia situalis 
       im<lb ed="#R" n="134" break="no"/>pedit apprehensionem intellectiuam, &amp; quod 
       in<lb ed="#R" n="135" break="no"/>tellectus transit super obiectum per modum lineae 
@@ -320,7 +318,7 @@
       <lb ed="#R" n="9"/>in apprehensione intellectiua, dicetur in secundo 
       <lb ed="#R" n="10"/>libro: non video enim necessitatem ponendi illam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e636">
                   <lb ed="#R" n="11"/>Ad argumentum in oppositum dico, quod 
       de<lb ed="#R" n="12" break="no"/>oratione sacerdotis habet Christus non apprehen 
       <lb ed="#R" n="13"/>sionem auditiuam, sed tantum notitiam 
@@ -329,20 +327,20 @@
       <lb ed="#R" n="16"/>ab omni situ. 
     </p>
             </div>
-            <div>
-               <head>Articulus 2</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h32116-Dd1e653">
+               <head xml:id="olm8ij-h32116-Hd1e655">Articulus 2</head>
+               <head xml:id="olm8ij-h32116-Hd1e657" type="question-title">
       Verum corpus Christi in Sacramento possit esse 
       subiectum naturalis actionis, et 
       passionis.
     </head>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e660">
                   <lb ed="#R" n="17"/>ARTICVLVS II 
       <lb ed="#R" n="18"/>Verum corpus Christi in Sacramento possit esse 
       <lb ed="#R" n="19"/>subiectum naturalis actionis, &amp; 
       <lb ed="#R" n="20"/>passionis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e671">
                   <lb ed="#R" n="21"/>QVo ad secundam quaestionem arguo primo, 
       <lb ed="#R" n="22"/>Qquod corpus Christi possit esse subiectum 
       na<lb ed="#R" n="23" break="no"/>turalis actionis, siue transmutationis ab 
@@ -356,12 +354,12 @@
       <lb ed="#R" n="31"/>mutationis; alioquin fuisset Sacramentum illud 
       fal<lb ed="#R" n="32" break="no"/>sum signum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e700">
                   <lb ed="#R" n="33"/>In oppositum est, quia subiectum naturalis trans 
       <lb ed="#R" n="34"/>mutationis est corruptibile: sed Cristus existens 
       <lb ed="#R" n="35"/>in Sacramento non est corruptibilis: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e710">
                   <lb ed="#R" n="36"/>Respondeo: in ista quaestione pono aliquas 
       pro<lb ed="#R" n="37" break="no"/>positiones. Prima est iila, quod corpus Domini 
       <lb ed="#R" n="38"/>existeus in Sacramento potest per concomitantiam 
@@ -369,7 +367,7 @@
       s<lb ed="#R" n="40" break="no"/>mutationem, licet non sit subiectum, vt ibi transmu 
       <lb ed="#R" n="41"/>tationis, actionis, vel passionis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e726">
                   <lb ed="#R" n="42"/>Hanc conclusionem primo declaro: secundo 
       <lb ed="#R" n="43"/>probabo eam. Propter primum sciendum, quod 
       <lb ed="#R" n="44"/>aliud est forma inducta, puta calor, &amp; aliud est 
@@ -380,7 +378,7 @@
       re<lb ed="#R" n="49" break="no"/>spectum actionis, &amp; passionis: habet ergo, vt 
       pa<lb ed="#R" n="50" break="no"/>tet conclusio ista duas partes. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e748">
                   <lb ed="#R" n="51"/>Probo nunc secundo ipsam: &amp; primo quo ad eius 
       <lb ed="#R" n="52"/>primam partem: arguo ergo sic. Illud oportet 
       po<lb ed="#R" n="53" break="no"/>nere in corpore Christi existente in Sacramento, 
@@ -409,7 +407,7 @@
       <lb ed="#R" n="74"/>&amp; conuersio alimenti in carnem, &amp; miulta 
       huius<lb ed="#R" n="75" break="no"/>modi. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e809">
                   <lb ed="#R" n="76"/>Secundum, scilicet de transmutatione, &amp; 
       actio<lb ed="#R" n="77" break="no"/>ne, &amp; passione probo sic: Illa realitas, quae 
       necessa<lb ed="#R" n="78" break="no"/>rio concernit situm, &amp; distantiam, nec potes ab 
@@ -422,7 +420,7 @@
       <lb ed="#R" n="85"/>ergo. Corpus autem Christi non est alicui prope, 
       <lb ed="#R" n="86"/>nec distans. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e835">
                   <lb ed="#R" n="87"/>Sed est hic vnum dubium, quia impossibile est 
       <lb ed="#R" n="88"/>aliquid transire a contradictorio in 
       contradicto<lb ed="#R" n="89" break="no"/>rium, nisi per aliquam mutationem: sed in 
@@ -430,7 +428,7 @@
       non<lb ed="#R" n="91" break="no"/>erat: ergo aliqua mutatio facta est circa ipsum, &amp; 
       <lb ed="#R" n="92"/>ita actio, seu passio. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e851">
                   <lb ed="#R" n="93"/>Respondeo. Concedo maiorem, quod per 
       ali<lb ed="#R" n="94" break="no"/>quam actionem, quam alibi recipit, vbi natura 
       li<lb ed="#R" n="95" break="no"/>ter existit, scilicet in caelo, vnde ibi tangit caelum; 
@@ -439,13 +437,13 @@
       <lb ed="#R" n="98"/>oportet habere talem formam, quam ante non 
       <lb ed="#R" n="99"/>habebat per acticnem receptam hic, sed alibi; &amp; 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e870">
                   <lb ed="#R" n="100"/>hoc non est impossibile, quia hic, vel ibi non 
       va<lb ed="#R" n="101" break="no"/>riant has formas, licet varient transmutationes, 
       <lb ed="#R" n="102"/>quae semper fiunt per distantiam aliquam, &amp; 
       con<lb ed="#R" n="103" break="no"/>tacum 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e881">
                   <lb ed="#R" n="104"/>Dices: Saltem non potes, nisi dicere, quin 
       tran<lb ed="#R" n="105" break="no"/>seat hoc a negatione ad affirmationem: ergo sicut 
       <lb ed="#R" n="106"/>hic, vt hoc transit in hoc, habet in se mutatione m 
@@ -458,7 +456,7 @@
       es<lb ed="#R" n="113" break="no"/>sendi naturali, &amp; corpus Christi se habet tantum, 
       <lb ed="#R" n="114"/>vt terminus ad quem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e907">
                   <lb ed="#R" n="115"/>Tertia Propositio est, quod per agens 
       termina<lb ed="#R" n="116" break="no"/>tum, nulla potest transmutatio fieri in corpore-- 
       <lb ed="#R" n="117"/>Christi in Sacramento, etiam quo ad formam 
@@ -467,12 +465,12 @@
       <lb ed="#R" n="120"/>ergo non potest attingere illud, quod abstrahit ab 
       <lb ed="#R" n="121"/>omni situ, &amp; distantia. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e925">
                   <lb ed="#R" n="122"/>Sed dubium est de actione Angeli, cuius actio non 
       <lb ed="#R" n="123"/>est situata, Vtrum possit agere in corpus Christi, 
       <lb ed="#R" n="124"/>vt existens in Sacramento? 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e934">
                   <lb ed="#R" n="125"/>Respondeo: Actio Angeli non est formam 
       indu<lb ed="#R" n="126" break="no"/>cere, sed tantummodo applicare actiua passiuis: 
       <lb ed="#R" n="127"/>ergo ad hoc, quod Angelus ageret in corpus 
@@ -481,7 +479,7 @@
       <lb ed="#R" n="130"/>in corpus Christi: nullum autem naturale agens 
       <lb ed="#R" n="131"/>est tale, vt praedictum est: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e952">
                   <lb ed="#R" n="132"/>Dico hic secundo, quod a solo Deo potest 
       trans<lb ed="#R" n="133" break="no"/>mutatio aliqua fieri in corpore Christi etiam, vt 
       <!--0097.xml-->
@@ -490,7 +488,7 @@
                   <lb ed="#R" n="1"/>in Sacramento existenti, etiam si per impossibile 
       <lb ed="#R" n="2"/>non alicubi esset, nisi in Sacramento. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e971">
                   <lb ed="#R" n="3"/>Probatio istius, quia si virtute diuina non 
       pos<lb ed="#R" n="4" break="no"/>set calor induci in corpore Christi exiltente in 
       Sa<lb ed="#R" n="5" break="no"/>cramento, hoc esset, vel quia corpus Christi in 
@@ -505,7 +503,7 @@
       <lb ed="#R" n="14"/>inter quam, &amp; corpus Chrisi non mediat modus 
       <lb ed="#R" n="15"/>essendi naturaliter. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e1002">
                   <lb ed="#R" n="16"/>Quarta Propositio est, quod motus localis non 
       <lb ed="#R" n="17"/>poteit inferri in corpus Cristi in Sacramento etiam 
       <lb ed="#R" n="18"/>virtute diuina, &amp; intelligendo per motum proprium 
@@ -526,7 +524,7 @@
       <lb ed="#R" n="33"/>ita esset, videtur mihi, quod positio Doctoris illius 
       <lb ed="#R" n="34"/>dicat verum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e1046">
                   <lb ed="#R" n="35"/>Sed probaui supra, quod sua existentia in 
       Sacra<lb ed="#R" n="36" break="no"/>mento non est praesentia, quae sit respectus: sed sua 
       <lb ed="#R" n="37"/>existentia est concursus quidam ad vnam rem 
@@ -539,7 +537,7 @@
       <lb ed="#R" n="44"/>scilicet determinatio ad situm, &amp; terminatio 
       quid<lb ed="#R" n="45" break="no"/>ditatiua.
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e1072">
                   <lb ed="#R" n="46"/>Tunc formabo rationem talem: Illud non pote st 
       <lb ed="#R" n="47"/>esse subiectum motus localis proprie sumpti, nec 
       <lb ed="#R" n="48"/>improprie, quod non potest esse subiectum 
@@ -551,7 +549,7 @@
       Sacramen<lb ed="#R" n="54" break="no"/>to altaris non est subiectum circumiscriptionis 
       se<lb ed="#R" n="55" break="no"/>cundum omnes, nec praesentiae, quae est respectus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e1096">
                   <lb ed="#R" n="56"/>Probo. Praesentia enim ista idem est, quod 
       si<lb ed="#R" n="57" break="no"/>multas: quae autem simul sunt in aliquo situ, 
       secun<lb ed="#R" n="58" break="no"/>dum aliquid sui simul sunt: aut ergo corpus, &amp; 
@@ -576,7 +574,7 @@
       <lb ed="#R" n="75"/>terminatum entitatiue, quod dat ipsa praesentia 
       <lb ed="#R" n="76"/>corporis Christi. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e1148">
                   <lb ed="#R" n="77"/>Sed adhuc stare videtur dubium contra isam 
       <lb ed="#R" n="78"/>quartam conclusionem: nunquid enim non posset 
       <lb ed="#R" n="79"/>Deus transferre substantiam corporis Christi 
@@ -591,7 +589,7 @@
       <lb ed="#R" n="88"/>autem tantummodo se habet, vt terminus ad 
       <lb ed="#R" n="89"/>quem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e1180">
                   <lb ed="#R" n="90"/>Quinta Propositio est, quod corpus Christi 
       in<lb ed="#R" n="91" break="no"/>Sacramento mouetur loca liter per accidens ad 
       mo<lb ed="#R" n="92" break="no"/>tum specierum: hoc dico propter opinionem 
@@ -625,7 +623,7 @@
       dimen<lb ed="#R" n="120" break="no"/>sionibus indiuisum in illo tertio: ergo motis dimen 
       <lb ed="#R" n="121"/>sionibus mouetur per accidens corpus Christi. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e1252">
                   <lb ed="#R" n="122"/>Sed minor propositio quantum ad illam partem, 
       <lb ed="#R" n="123"/>quod corpus Domini cum illis dimensionibus 
       in<lb ed="#R" n="124" break="no"/>diuidatur in hoc tertio, quod est esse vnum hoc sen 
@@ -640,14 +638,14 @@
       opposi<lb ed="#R" n="133" break="no"/>tum patet ex dictis.
     </p>
             </div>
-            <div>
-               <head>Articulus 3</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h32116-Dd1e1282">
+               <head xml:id="olm8ij-h32116-Hd1e1284">Articulus 3</head>
+               <head xml:id="olm8ij-h32116-Hd1e1286" type="question-title">
         Utrum Christus in Sacramento Eucharistiae possis 
         esse terminus, et principium 
         naturalit apprehensionis.
       </head>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e1289">
       <!--0098.xml-->
                   <pb ed="#R" n="98"/>
                   <cb ed="#R" n="a"/>
@@ -656,7 +654,7 @@
       <lb ed="#R" n="3"/>esse terminus, &amp; principium 
       natura<lb ed="#R" n="4" break="no"/>lit apprehensionis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e1307">
                   <lb ed="#R" n="5"/>AD tertiam quaestionem arguo primo: vtrum 
       <lb ed="#R" n="6"/>
                   <!-- line coord error -->
@@ -665,7 +663,7 @@
       natura<lb ed="#R" n="9" break="no"/>lis. Respondeo sine argumentis dico tres 
       conclu<lb ed="#R" n="10" break="no"/>siones. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e1325">
                   <lb ed="#R" n="11"/>Prima est, quod non potest esse principium 
       ali<lb ed="#R" n="12" break="no"/>cuius operationis egredientis per modum 
       situa<lb ed="#R" n="13" break="no"/>lem, ideo etsi corpus Christi in Eucharistia sit 
@@ -675,7 +673,7 @@
       <lb ed="#R" n="17"/>eandem rationem non potest mouere visum, nec 
       <lb ed="#R" n="18"/>mouere se, vel aliud localiter, &amp; organice. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e1346">
                   <lb ed="#R" n="19"/>Secunda Conclusio est, quod potest esse 
       princi<lb ed="#R" n="20" break="no"/>pium omnis operationis abstrahentis a situ, &amp; 
       di<lb ed="#R" n="21" break="no"/>sttantia, ideo potest intellecum mouere de nouo, 
@@ -684,7 +682,7 @@
       <lb ed="#R" n="24"/>mouere intellecum altaris ad acum intelligendi, 
       <lb ed="#R" n="25"/>quod aliqui vocant locutionem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h32116-d1e1364">
                   <lb ed="#R" n="26"/>Tertia Conclusio est, quod si in Christo sit 
       ali<lb ed="#R" n="27" break="no"/>qua virtus motiua, non organica, sicut dicunt 
       ali<lb ed="#R" n="28" break="no"/>qui de anima separata, quod potest mouere 

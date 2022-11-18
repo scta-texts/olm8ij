@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,29 +53,29 @@
       </front>
       <body>
          <div xml:id="olm8ij-h64906"> <!-- l4-d41q1 -->
-            <head>Quaestio 1</head>
-            <p>
+            <head xml:id="olm8ij-h64906-Hd1e102">Quaestio 1</head>
+            <p xml:id="olm8ij-h64906-d1e104">
                <lb ed="#R" n="54"/>Quaestio Vnica.
     </p>
-            <p>
+            <p xml:id="olm8ij-h64906-d1e109">
                <lb ed="#R" n="55"/>Nunc de affinitate. In ista Distinctione 
       Qua<lb ed="#R" n="56" break="no"/>dragesimaprima agit Magister de alio 
       im<lb ed="#R" n="57" break="no"/>pedimento, puta de affinitate, de qua 
       quae<lb ed="#R" n="58" break="no"/>ro istam Quaestionem: Vtrum impediat 
       <lb ed="#R" n="59"/>matrimonium. 
     </p>
-            <div>
-               <head>Articulus 1</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h64906-Dd1e122">
+               <head xml:id="olm8ij-h64906-Hd1e124">Articulus 1</head>
+               <head xml:id="olm8ij-h64906-Hd1e126" type="question-title">
           Utrum Affinitas impediat matrimonium.
         </head>
-               <p>
+               <p xml:id="olm8ij-h64906-d1e129">
       <!--0189.xml-->
                   <cb ed="#R" n="b"/>
                   <lb ed="#R" n="60"/>ARTICVLVS VNJCVS. 
       <lb ed="#R" n="61"/>Vtrum Affinitas impediat matrimonium. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h64906-d1e140">
                   <lb ed="#R" n="62"/>RESPONDEO: Affinitas 
       <lb ed="#R" n="63"/>dicitur vinculum, quod 
       con<lb ed="#R" n="64" break="no"/>trahitur ex 

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,11 +53,11 @@
       </front>
       <body>
          <div xml:id="olm8ij-hb8742"> <!-- l4-d1q3 -->
-            <head>Quaestio 3</head>
-            <p>
+            <head xml:id="olm8ij-hb8742-Hd1e102">Quaestio 3</head>
+            <p xml:id="olm8ij-hb8742-d1e104">
                <lb ed="#R" n="14"/>Quaestio III.
     </p>
-            <p>
+            <p xml:id="olm8ij-hb8742-d1e109">
                <lb ed="#R" n="15"/>
                <!-- line coord error -->
                <lb ed="#R" n="16"/>Postquam visum est de quidditate, &amp; 
@@ -71,7 +69,7 @@
       ali<lb ed="#R" n="22" break="no"/>quid de effectu Sacramentorum. &amp; ad 
       eui<lb ed="#R" n="23" break="no"/>dentiam horum quaero quatuor Quaestiones.
     </p>
-            <p>
+            <p xml:id="olm8ij-hb8742-d1e133">
                <lb ed="#R" n="24"/>1 Prima est: Vtrum Circuncisio, &amp; baptismus 
       <lb ed="#R" n="25"/>differant in gratiae collatione. 
       <lb ed="#R" n="26"/>2 Secunda est: Vtrum differant in culpae 
@@ -83,18 +81,18 @@
       baptis<lb ed="#R" n="32" break="no"/>malis, &amp; gratia virtutum, &amp; donorum, quae 
       infun<lb ed="#R" n="33" break="no"/>duntur in baptismo. 
     </p>
-            <div>
-               <head>Articulus 1</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-hb8742-Dd1e158">
+               <head xml:id="olm8ij-hb8742-Hd1e160">Articulus 1</head>
+               <head xml:id="olm8ij-hb8742-Hd1e162" type="question-title">
       Utrum Circumcisio, et Baptismus differant in 
       gratiae collatione.
     </head>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e165">
                   <lb ed="#R" n="34"/>ARTICVLVUS I. 
       <lb ed="#R" n="35"/>Vtrum Circuncisio, &amp; Baptismus differant in 
       <lb ed="#R" n="36"/>gratiae collatione. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e174">
                   <lb ed="#R" n="37"/>QVANTVM ad primam 
       quae<lb ed="#R" n="38" break="no"/>stionem arguo primo, quod 
       <lb ed="#R" n="39"/>baptismus, &amp; circuncisio non 
@@ -109,7 +107,7 @@
       fa<lb ed="#R" n="48" break="no"/>ciebant ad hoc quod gratia conferretur animae ex se 
       <lb ed="#R" n="49"/>ipsis, sed ex solo pacto diuinae voluntatis: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e205">
                   <lb ed="#R" n="50"/>In oppositum arguo: Lex nobilior, &amp; alterius 
       ra<lb ed="#R" n="51" break="no"/>tionis debet habere Sacramenta nobiliora, &amp; 
       alte<lb ed="#R" n="52" break="no"/>rius rationis infundendo gratiam: sed Lex Noua est 
@@ -118,11 +116,11 @@
       <lb ed="#R" n="55"/>Sacramenta Veteris Legis, sunt alterius rationis in 
       <lb ed="#R" n="56"/>gratiam conferendo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e224">
                   <lb ed="#R" n="57"/>Respondeo primo pono punctum inquisitionis. 
       <lb ed="#R" n="58"/>Secundo ponam propositiones intentas. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e231">
                   <lb ed="#R" n="59"/>De primo inquisitio huius quaestionis est, 
       pro<lb ed="#R" n="60" break="no"/>pter opiniones aliquorum diuersas. 
       <!--0027.xml-->
@@ -133,36 +131,36 @@
       Sacra<lb ed="#R" n="64" break="no"/>menta vero Nouae Legis cum hoc, quod delent cul 
       <lb ed="#R" n="65"/>pam, conferunt gratiam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e253">
                   <lb ed="#R" n="66"/>Alij dicunt, quod in circuncisione bene dabatur 
       <lb ed="#R" n="67"/>gratia ex pacto: Sacramenta vero Nouae Legis 
       con<lb ed="#R" n="68" break="no"/>ferunt gratiam per virtutem formaliter eis 
       inhae<lb ed="#R" n="69" break="no"/>rentem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e264">
                   <lb ed="#R" n="70"/>Alij dicunt, quod differunt quo ad ordinem, quia 
       <lb ed="#R" n="71"/>in circuncisione primo delebatur culpa, &amp; ex 
       con<lb ed="#R" n="72" break="no"/>sequenti conferebatur gratia; in baptismo vero e 
       <lb ed="#R" n="73"/>conuerso. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e275">
                   <lb ed="#R" n="74"/>Alij dicunt, quod dabatur gratia in 
       circuncisio<lb ed="#R" n="75" break="no"/>ne, quo ad deletionem fomitis, non autem, vt esset 
       <lb ed="#R" n="76"/>coadiutrix ad bene operandum; in Sacramentis 
       <lb ed="#R" n="77"/>autem Nouae Legis datur ad vtrumque. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e286">
                   <lb ed="#R" n="78"/>Alij dicunt, quod vtrobique dabatur gratia, 
       ta<lb ed="#R" n="79" break="no"/>men non in tanto gradu in circumcisione, in quanto 
       <lb ed="#R" n="80"/>datur in baptismo, &amp; alijs Sacramentis Nouae Legis. 
       <lb ed="#R" n="81"/>Ad videndum ergo quid, &amp; quantum veritatis sit 
       <lb ed="#R" n="82"/>in isis, posita est praesens quaestio. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e300">
                   <lb ed="#R" n="83"/>De secundo articulo pono quatuor 
       propositio<lb ed="#R" n="84" break="no"/>nes per ordinem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e307">
                   <lb ed="#R" n="85"/>Prima est, quod Sacramēta Nouae, &amp; Veteris 
       Le<lb ed="#R" n="86" break="no"/>gis non differunt per hoc, quod in Sacramentis No 
       <lb ed="#R" n="87"/>uae legis remittitur culpa, &amp; infunditur gratia, in Sa 
@@ -170,13 +168,13 @@
       remit<lb ed="#R" n="89" break="no"/>teretur culpa. Haec propositio probata est supra 
       <lb ed="#R" n="90"/>quaestione immediate praecedenti. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e323">
                   <lb ed="#R" n="91"/>Secunda propositio est, quod Sacramenta Legis 
       <lb ed="#R" n="92"/>Nouae, &amp; circuncisio non differebant per alium, &amp; 
       <lb ed="#R" n="93"/>alium modum conferendi gratiam. Hoc dico 
       pro<lb ed="#R" n="94" break="no"/>pter duas opiniones. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e334">
                   <lb ed="#R" n="95"/>Quidam enim dicunt, quod in Sacramentis 
       Vete<lb ed="#R" n="96" break="no"/>ris Legis infundebatur gratia ex solo pacto diuinae 
       <lb ed="#R" n="97"/>voluntatis, in Sacramentis autem Nouae Legis 
@@ -186,20 +184,20 @@
       <lb ed="#R" n="101"/>procedentem ab eis mediante tali virtute ad 
       ip<lb ed="#R" n="102" break="no"/>sam gratiam, siue dispositionem ad gratiam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e354">
                   <lb ed="#R" n="103"/>Alij vero dicunt, quod per prius Sacramenta No 
       <lb ed="#R" n="104"/>uae Legis infundunt gratiam, &amp; ex consequenti 
       de<lb ed="#R" n="105" break="no"/>lent culpam: e conuerso autem Circuncisio, &amp; 
       Sacra<lb ed="#R" n="106" break="no"/>menta Veteris Legis, per prius delent culpam, ex 
       <lb ed="#R" n="107"/>consequenti infundunt gratiam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e367">
                   <lb ed="#R" n="108"/>Amba istae opiniones dicunt concorditer, quod 
       <lb ed="#R" n="109"/>Sacramēta Nouae Legis, &amp; Circuncisio, siue 
       Sacra<lb ed="#R" n="110" break="no"/>menta alia Veteris Legis differunt secundum alium 
       <lb ed="#R" n="111"/>&amp; alium modum conferendi gratiam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e379">
                   <lb ed="#R" n="112"/>Sed non teneo cum istis opimionibus. Ideo pono 
       <lb ed="#R" n="113"/>istam conclusionem, &amp; arguo ad hoc per vnicam 
       <lb ed="#R" n="114"/>rationem talem. Nobilitas instrumenti, &amp; cuiuscũ- 
@@ -218,7 +216,7 @@
       ae<lb ed="#R" n="127" break="no"/>qualis nobilitatis, si tantummodo differant modo, 
       <lb ed="#R" n="128"/>quo ponunt opiniones praedictae.
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e418">
       <!--0028.xml-->
                   <pb ed="#R" n="28"/>
                   <cb ed="#R" n="a"/>
@@ -236,7 +234,7 @@
       <lb ed="#R" n="12"/>de, vndecunque veniat talis operatio, aequalis 
       no<lb ed="#R" n="13" break="no"/>bilitatis iudicabuntur.
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e455">
                   <lb ed="#R" n="14"/>Ratione probo idem, sic: Nobilitas alicuius 
       il<lb ed="#R" n="15" break="no"/>lius, quod nullam habet appetibilitatem propter 
       <lb ed="#R" n="16"/>se: sed propter aliud, debet pensari ex 
@@ -251,16 +249,16 @@
       <lb ed="#R" n="25"/>alia ex consequenti, aequalis erunt nobilitatis in 
       <lb ed="#R" n="26"/>ratione instrumenti. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e486">
                   <lb ed="#R" n="27"/>Confirmo hoc, videtur vtrobique tantum vnum 
       <lb ed="#R" n="28"/>2. Topic. sed nobilitas Sacramenti est propter 
       no<lb ed="#R" n="29" break="no"/>bilitatem effectus: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e495">
                   <lb ed="#R" n="30"/>Confirmo etiam per illud 1. Ethic. bonum est ad 
       <lb ed="#R" n="31"/>aliquid sicut virtus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e502">
                   <lb ed="#R" n="32"/>Confirmo hoc contra primam harum opinionum, 
       <lb ed="#R" n="33"/>quia talis virtus infusa in Sacramentis est 
       impossi<lb ed="#R" n="34" break="no"/>bilis maxime in quibusdam, vt probatum est in 
@@ -272,14 +270,14 @@
       <lb ed="#R" n="40"/>differentia Sacramentorum Nouae, &amp; Veteris 
       Le<lb ed="#R" n="41" break="no"/>gis, quo ad eorum dignitatem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e527">
                   <lb ed="#R" n="42"/>Quomodo autem Sacramenta non sunt causa 
       <lb ed="#R" n="43"/>gratiae per accidens dato, quod nullam habeant 
       <lb ed="#R" n="44"/>virtutem infusam, per quam agant, sed tantum ap 
       <lb ed="#R" n="45"/>plicent virtutem actiuam diuinam, determinato 
       su<lb ed="#R" n="46" break="no"/>sceptiuo, dictum est in principio istius quaestionis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e540">
                   <lb ed="#R" n="47"/>Tertia propositio est, quod Sacramenta Nouae 
       <lb ed="#R" n="48"/>Legis, &amp; Veteris differunt, non tantum quo ad 
       gra<lb ed="#R" n="49" break="no"/>dum gratiae: imo in alio oportet assignare 
@@ -287,7 +285,7 @@
       dif<lb ed="#R" n="51" break="no"/>ferunt propter hoc, quod in Sacramentis Nouae 
       <lb ed="#R" n="52"/>Legis datur maior gradus gratiae, &amp; arguo sic. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e556">
                   <lb ed="#R" n="53"/>Illis, qui sunt alterius rationis in sanctificando, 
       <lb ed="#R" n="54"/>oportet assignare effectus sanctificationis alterius 
       <lb ed="#R" n="55"/>rationis: sed Sacramenta Nouae Legis, &amp; Antiquae 
@@ -297,7 +295,7 @@
       <lb ed="#R" n="59"/>alterius rationis: ergo. Magis enim, &amp; minus non 
       <lb ed="#R" n="60"/>diuersificant speciem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e576">
                   <lb ed="#R" n="61"/>Item secundo. Maior debet ponĩ differentia inter 
       <lb ed="#R" n="62"/>baptismum, &amp; circumcisionem, quam inter 
       baptis<lb ed="#R" n="63" break="no"/>mum, &amp; baptismum: sed inter baptismum, &amp; 
@@ -310,7 +308,7 @@
       <cb ed="#R" n="b"/>
                   <lb ed="#R" n="69"/>mo, quam vnus paruulus, quando baptizatur? 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e602">
                   <lb ed="#R" n="70"/>Quarta propositio, quid ergo dicendum de 
       dif<lb ed="#R" n="71" break="no"/>ferentia istorum Sacramentorum. Respondeo 
       di<lb ed="#R" n="72" break="no"/>co, quod concordando opiniones istas diuersas, 
@@ -324,7 +322,7 @@
       ex<lb ed="#R" n="80" break="no"/>trinsecum, respectu cuius gratia ipsa ponitur 
       prin<lb ed="#R" n="81" break="no"/>cipium. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e631">
                   <lb ed="#R" n="82"/>Respondeo sciendum, quod vt habetur a 
       Philo<lb ed="#R" n="83" break="no"/>sopho cap. vltimo in fine de sensu, &amp; sensato: 
       opor<lb ed="#R" n="84" break="no"/>ter, quod illud, quod est principium naturalis 
@@ -345,7 +343,7 @@
       fomi<lb ed="#R" n="99" break="no"/>tem, vel saltem non erit adiutrix voluntatis ad 
       be<lb ed="#R" n="100" break="no"/>ne operandum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e676">
                   <lb ed="#R" n="101"/>Tunc ad propositum, etsi tam Sacramentis 
       No<lb ed="#R" n="102" break="no"/>uae Legis, quam Veteris legis gratia infundatur 
       in<lb ed="#R" n="103" break="no"/>aliquo gradu, nihilominus in hoc est differentia 
@@ -358,7 +356,7 @@
       <lb ed="#R" n="110"/>ab ipsa possit effluere aliqua praedictarum 
       opera<lb ed="#R" n="111" break="no"/>tionum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e702">
                   <lb ed="#R" n="112"/>Hanc propositionem credo esse de mēte 
       Sancto<lb ed="#R" n="113" break="no"/>rum, &amp; Doctorum. Et primo dico, quod est de 
       men<lb ed="#R" n="114" break="no"/>te Magistri, nam Magister, vt puto, non negauit 
@@ -376,7 +374,7 @@
       <lb ed="#R" n="126"/>trix, &amp; principium gratia, quae infunditur in 
       ba<lb ed="#R" n="127" break="no"/>ptismo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e739">
                   <lb ed="#R" n="128"/>Similiter hoc intendebat opinio, quae dicit, quod 
       <lb ed="#R" n="129"/>dabatur gratia in Circuncisione quo ad aliquos 
       <lb ed="#R" n="130"/>effectus, non quo ad omnes: bene enim verum est, 
@@ -392,13 +390,13 @@
                   <lb ed="#R" n="1"/>dicit, quod gratia adiutrix ad bene operandum in 
       <lb ed="#R" n="2"/>circuncisione non dabatur. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e772">
                   <lb ed="#R" n="3"/>Ad argumentum in oppositum respondeo: Etsi 
       <lb ed="#R" n="4"/>gratia vtrobique daretur ex pacto quo ad 
       essen<lb ed="#R" n="5" break="no"/>tiam; non tamen quo ad hoc, quod est principium 
       <lb ed="#R" n="6"/>operationis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e783">
                   <lb ed="#R" n="7"/>Item ex alio, quia baptismus statim de 
       praesen<lb ed="#R" n="8" break="no"/>ti aperit ianuam, non circumcisio, quia non nisi 
       <lb ed="#R" n="9"/>de futuro: nunc autem sicut si Papa daret 
@@ -408,18 +406,18 @@
       <lb ed="#R" n="13"/>illi: sic in proposito de baptismo, &amp; circumcisione, 
     </p>
             </div>
-            <div>
-               <head>Articulus 2</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-hb8742-Dd1e802">
+               <head xml:id="olm8ij-hb8742-Hd1e804">Articulus 2</head>
+               <head xml:id="olm8ij-hb8742-Hd1e806" type="question-title">
       Utrum Sacramenta Nouae, et Veteris Legis 
       differant in culpae remissione.
     </head>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e809">
                   <lb ed="#R" n="14"/>ARTICVLVS II 
       <lb ed="#R" n="15"/>Vtrum Sacramenta Nouae, &amp; Veteris Legis 
       dif<lb ed="#R" n="16" break="no"/>ferant in culpae remissione.
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e818">
                   <lb ed="#R" n="17"/>SIne argumentis respondeo. Dicunt aliqui, quod 
       <lb ed="#R" n="18"/>Qsic est in peccato originali tria considerare, 
       sci<lb ed="#R" n="19" break="no"/>llcet culpam, Secundo obligationem ad poenam 
@@ -431,7 +429,7 @@
       <lb ed="#R" n="25"/>delet culpam. Secundo soluit obligationem, &amp; 
       <lb ed="#R" n="26"/>tertio remittit fomitem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e842">
                   <lb ed="#R" n="27"/>Hac autem conclusio probatur, quia 
       Sacramen<lb ed="#R" n="28" break="no"/>tum inducit prius effectum, quem per prius 
       signifi<lb ed="#R" n="29" break="no"/>cat: sed circuncisio per prius significat remissionem 
@@ -445,14 +443,14 @@
       ab<lb ed="#R" n="37" break="no"/>lutio, significat per prius ablutionem interiorem, 
       <lb ed="#R" n="38"/>&amp; lotionem a peccato: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e872">
                   <lb ed="#R" n="39"/>Ista autem positio, etsi sit subtilis, tamen 
       appa<lb ed="#R" n="40" break="no"/>ret mihi rationabilis in hoc quod dicit, quod 
       cir<lb ed="#R" n="41" break="no"/>cuncisio primo deleret obligationem, &amp; ex 
       conse<lb ed="#R" n="42" break="no"/>quenti deleret culpam, quicquid sit de dicis alijs. 
       <lb ed="#R" n="43"/>Arguo enim sic. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e885">
                   <lb ed="#R" n="44"/>Vbi vnum sequitur, &amp; inest propter aliud, vt 
       <lb ed="#R" n="45"/>per causam propriam, non conuenienter aufertur 
       <lb ed="#R" n="46"/>secundum, non prius ablato primo, Verbi gratia 
@@ -464,7 +462,7 @@
       ani<lb ed="#R" n="52" break="no"/>mam, per, prius curat causam morbi: ergo per 
       <lb ed="#R" n="53"/>prius delet culpam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e909">
                   <lb ed="#R" n="54"/>Secundo, quia si per prius circuncisio deleret 
       <lb ed="#R" n="55"/>obligationem quam culpam, sequeretur, quod in 
       <lb ed="#R" n="56"/>alio instanti rationis esset aliquis dignus visione 
@@ -475,7 +473,7 @@
       <lb ed="#R" n="61"/>inesset simul vtrumque; scilicet culpa, &amp; spes 
       diui<lb ed="#R" n="62" break="no"/>nae visionis, quod est impossibile. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e931">
                   <lb ed="#R" n="63"/>Haec similiter positio videtur esse contra 
       men<lb ed="#R" n="64" break="no"/>tem capituli de consecratione, vbi dicit textus, &amp; 
       <lb ed="#R" n="65"/>est auctoritas Augustini: Tantum valebat in paruu- 
@@ -484,7 +482,7 @@
                   <lb ed="#R" n="66"/>lo circunciso, ex quo est instituta, quo ad 
       deletio<lb ed="#R" n="67" break="no"/>nem peccari, quantum baptismus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e949">
                   <lb ed="#R" n="68"/>Ad motiuum autem opinionis. Dicendum 
       <lb ed="#R" n="69"/>quod non tantum figurabat circuncisio cum 
       cul<lb ed="#R" n="70" break="no"/>tro in illo membro remissionem fomitis, sed 
@@ -496,20 +494,20 @@
       genera<lb ed="#R" n="76" break="no"/>tionem transfundebatur ad posteros. 
     </p>
             </div>
-            <div>
-               <head>Articulus 3</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-hb8742-Dd1e972">
+               <head xml:id="olm8ij-hb8742-Hd1e974">Articulus 3</head>
+               <head xml:id="olm8ij-hb8742-Hd1e976" type="question-title">
       Utrum tempore legis naturae deleretur peccatum 
       originale in paruulis absque aliquo 
       speciali sacrificio.
     </head>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e979">
                   <lb ed="#R" n="77"/>ARTICVLVS III 
       <lb ed="#R" n="78"/>Vtrum tempore legis naturae deleretur peccatum 
       <lb ed="#R" n="79"/>originale in paruulis absque aliquo 
       spe<lb ed="#R" n="80" break="no"/>ciali sacrificio. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e990">
                   <lb ed="#R" n="81"/>Quoad tertiam quaestionem arguo primo, 
       <lb ed="#R" n="82"/>quod ante legem scriptam fuit prouisum 
       lacri<lb ed="#R" n="83" break="no"/>ficium paruulis ad deletionem originalis 
@@ -521,7 +519,7 @@
       institu<lb ed="#R" n="89" break="no"/>ta. Sed non apparet, quod fuerit instituta 
       medi<lb ed="#R" n="90" break="no"/>cina alia, quam sacrificium: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1014">
                   <lb ed="#R" n="91"/>In oppositum est illud Gregorij lib. 4. cap. 2. in 
       <lb ed="#R" n="92"/>moralibus, &amp; ponitur de consecratione dist. 4. cap. 
       <lb ed="#R" n="93"/>quod autem: vbi dicitur. Quod autem apud nos 
@@ -529,12 +527,12 @@
       <lb ed="#R" n="95"/>paruulis sola fides, vel pro maioribus virtus 
       sacri<lb ed="#R" n="96" break="no"/>ficij. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1031">
                   <lb ed="#R" n="97"/>Respondeo in hac quaestione pono 
       propositio<lb ed="#R" n="98" break="no"/>nes aliquas ad euidentiam Sacramentorum legis 
       <lb ed="#R" n="99"/>antiquae, &amp; ante legem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1040">
                   <lb ed="#R" n="100"/>Et prima est isa, quod Deo sacrificare 
       aliquan<lb ed="#R" n="101" break="no"/>do in generali est de dictamine legis naturae, &amp; hoc 
       <lb ed="#R" n="102"/>ante legem scriptam, siue post. Sacrificare autem 
@@ -542,13 +540,13 @@
       inspiratione<lb ed="#R" n="104" break="no"/>facta alicui illius temporis, vel ex speciali eius 
       in<lb ed="#R" n="105" break="no"/>stitutione, &amp; mandato. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1056">
                   <lb ed="#R" n="106"/>Et primo probo, quod sacrificium offerre Deo 
       <lb ed="#R" n="107"/>in generali apud quoscunque, est de 
       dicamine<lb ed="#R" n="108" break="no"/>legis naturae, quod probo primo auctoritate 
       dein<lb ed="#R" n="109" break="no"/>de ratione. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1067">
                   <lb ed="#R" n="110"/>Primo sic Philosophus 4. Ethic. cap. 2. de 
       ma<lb ed="#R" n="111" break="no"/>gnificentia, magnificentia apud omnes attenditur 
       <lb ed="#R" n="112"/>in magnis sumptibus, &amp; potissime in sumptibus, 
@@ -560,7 +558,7 @@
       <lb ed="#R" n="118"/>iure positiuo; hoc idem dicit ibidem 
       Commenta<lb ed="#R" n="119" break="no"/>tor expresse. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1091">
                   <lb ed="#R" n="120"/>Secundo probo hoc idem ratione: Illud, quod est 
       <lb ed="#R" n="121"/>idem apud omnes, videtur esse de dictamine legis 
       <lb ed="#R" n="122"/>naturae, vnde quod ignis calefaciat, hoc est 
@@ -573,7 +571,7 @@
       <lb ed="#R" n="129"/>Met. cap. 1. in fine. ergo Deo sacrificare in generali 
       <lb ed="#R" n="130"/>est ius naturale.
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1117">
       <!--0030.xml-->
                   <pb ed="#R" n="30"/>
                   <cb ed="#R" n="a"/>
@@ -585,12 +583,12 @@
       ani<lb ed="#R" n="6" break="no"/>mal, ius vero gentium, quod docuit natura animal 
       <lb ed="#R" n="7"/>rationale. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1142">
                   <lb ed="#R" n="8"/>Et apud Theologum ius naturale est illud, quod 
       <lb ed="#R" n="9"/>sequitur naturam hominis, &amp; dictamen naturalis 
       <lb ed="#R" n="10"/>rationis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1151">
                   <lb ed="#R" n="11"/>Tertio probo idem ratione. Suppono primo 
       <lb ed="#R" n="12"/>duo: Vnum est, quod ait Philosophus 2. Rhetoricae, 
       <lb ed="#R" n="13"/>quod bene fortunati sunt maxime erga Deum pij, 
@@ -604,32 +602,32 @@
       na<lb ed="#R" n="21" break="no"/>turali instinctu timeant beneficiorum 
       subsra<lb ed="#R" n="22" break="no"/>ctioncm 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1180">
                   <lb ed="#R" n="23"/>Secundo, suppono, quod apud antiquos 
       sacrifi<lb ed="#R" n="24" break="no"/>cia fiebant quatuor de causis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1187">
                   <lb ed="#R" n="25"/>Vel ad honorandum, sicut fuit sacrificium 
       <lb ed="#R" n="26"/>Abel. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1194">
                   <lb ed="#R" n="27"/>Vel ad regnandum, quale fuit sacrificium 
       Mel<lb ed="#R" n="28" break="no"/>chisedech, &amp; Noe post exitum de arca. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1201">
                   <lb ed="#R" n="29"/>Vel ad obtinendum, quale fuit sacrificium 
       Ge<lb ed="#R" n="30" break="no"/>deon, &amp; Saul. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1209">
                   <lb ed="#R" n="31"/>Vel ad placandum, quale fuit sacrificium Iob
     <!-- missing line coord -->pro filius.
   </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1216">
                   <lb ed="#R" n="32"/>Et ista omnia sacrificia fiebant. &amp; oriebantur 
       a<lb ed="#R" n="33" break="no"/>pud homines, ex hoc, quod pernotum erat eis esse 
       <lb ed="#R" n="34"/>largitorem aliquem bonorum omnium. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1225">
                   <lb ed="#R" n="35"/>Tunc formo rationem meam: De iure naturae, 
       <lb ed="#R" n="36"/>&amp; dictamine rationis estt, quod omnis homo 
       reco<lb ed="#R" n="37" break="no"/>gnoscat aliquod diuinum principium, a quo 
@@ -648,14 +646,14 @@
       a<lb ed="#R" n="50" break="no"/>lia necessaria vitae, quae signabantur per fruges 
       <lb ed="#R" n="51"/>essent a Deo: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1264">
                   <lb ed="#R" n="52"/>Dices forte, quod falsum supponitur, quod Deum 
       <lb ed="#R" n="53"/>esse sit per se notum, cum aliqui negauerint Deum 
       <lb ed="#R" n="54"/>esse. Respondeo, non propter hoc Deum esse non 
       <lb ed="#R" n="55"/>est per ie notum, sicut dicit Damasc. vnde aliqui 
       <lb ed="#R" n="56"/>negarunt prima principia. 4. metaph. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1277">
                   <lb ed="#R" n="57"/>Ex hoc patet, quod latria est secundum 
       dicta<lb ed="#R" n="58" break="no"/>men recae rationis, in qua Deo adhibetur honos 
       <lb ed="#R" n="59"/>Deitatis, qui non conuenit creaturae; nam honor 
@@ -675,7 +673,7 @@
       aspicie<lb ed="#R" n="71" break="no"/>bat, propter quod coram eo, quod non praetendit 
       <lb ed="#R" n="72"/>vtilitatem aliquam, cremabantur. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1318">
                   <lb ed="#R" n="73"/>Secundo dico, quod offerre specialia 
       sacrificia<lb ed="#R" n="74" break="no"/>fuit ex diuina determinatione, ac reuelatione 
       spe<lb ed="#R" n="75" break="no"/>ciali maioribus illius temporis facta, sicut de 
@@ -683,23 +681,23 @@
       excel<lb ed="#R" n="77" break="no"/>si. Quandoque vero fuerunt a voluntate off
       feren<lb ed="#R" n="78" break="no"/>tis, vt de decimis &amp; hostijs pacificis Jacob. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1335">
                   <lb ed="#R" n="79"/>Ex his apparet differentia aliquorum 
       sacrificio<lb ed="#R" n="80" break="no"/>rum veteris legis. Quaedam enim dicebantur 
       sa<lb ed="#R" n="81" break="no"/>crificia, quaedam oblationes, quaedam decimae. 
       <lb ed="#R" n="82"/>Fiebant autem ista ex speciali causa &amp; 
       sacrifica<lb ed="#R" n="83" break="no"/>tione 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1348">
                   <lb ed="#R" n="84"/>Nam sacrificia, quae siebant de animalibus viuis, 
       <lb ed="#R" n="85"/>fiebant ad protestandum, quod ipse erat per 
       mor<lb ed="#R" n="86" break="no"/>tem nos redempturus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1357">
                   <lb ed="#R" n="87"/>Oblationes vero de frugibus, ad protestandum 
       <lb ed="#R" n="88"/>quod ab eo effluebant nobis beneficia cuncta. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1364">
                   <lb ed="#R" n="89"/>Decimae, ad protestandum quod ab eo erat 
       om<lb ed="#R" n="90" break="no"/>nis nosra perfectio, vnde retento nobis minimo 
       <lb ed="#R" n="91"/>imperfecto, perfectum sacrificium Deo off
@@ -707,19 +705,19 @@
       <lb ed="#R" n="93"/>Secunda Propositio principalis est, quod 
       nun<lb ed="#R" n="94" break="no"/>quam fuerit salus, nisi in virtute vnius Mediatoris. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1380">
                   <lb ed="#R" n="95"/>Hoc de facto apparet per illud Genes. quod 
       pro<lb ed="#R" n="96" break="no"/>misit Dominus Abrahae: In semine tuo, inquit, 
       be<lb ed="#R" n="97" break="no"/>nedicentur omnes gentes. &amp; Apostolus exponens 
       <lb ed="#R" n="98"/>illud verbum ad Galat. 4. dicit, In semine tuo, quod 
       <lb ed="#R" n="99"/>est Christus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1393">
                   <lb ed="#R" n="100"/>Item ad hoc est illud ad Romanos: Sicut per 
       <lb ed="#R" n="101"/>per vnum hominem mors introiuit in orbem 
       ter<lb ed="#R" n="102" break="no"/>rarum, sic per vnum hominem gratia. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1403">
                   <lb ed="#R" n="103"/>Secundo, probo hoc idem de congiuo: Nam 
       pec<lb ed="#R" n="104" break="no"/>catum originale non fuit vitium personae, sed 
       na<lb ed="#R" n="105" break="no"/>turae, &amp; ex consequenti fuit vitium personae: cum 
@@ -730,7 +728,7 @@
       es<lb ed="#R" n="110" break="no"/>set purgata: ergo oportuit quod esset vnus solus 
       <lb ed="#R" n="111"/>aliquis mediator talis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1425">
                   <lb ed="#R" n="112"/>Tertio probo hoc idem ex necessitate: 
       Jmpossi<lb ed="#R" n="113" break="no"/>bile est, quod iuste remittatur culpa, nisi in 
       virtu<lb ed="#R" n="114" break="no"/>te meriti tantae diligibilitatis, quantae odibilitatis 
@@ -739,7 +737,7 @@
       <lb ed="#R" n="117"/>nulla persona potuit esse diligibilitas infinita, nisi 
       <lb ed="#R" n="118"/>in Chriso: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1443">
                   <lb ed="#R" n="119"/>Probo: Nullus actus habet diligibilitatem 
       infi<lb ed="#R" n="120" break="no"/>nitam, nisi vel ratione ipsius actus infiniti, vel 
       ra<lb ed="#R" n="121" break="no"/>tione gratiae infinitae, vel ratione circumstantiae, 
@@ -757,7 +755,7 @@
       <lb ed="#R" n="133"/>virtute Christi est omnis salus, &amp; hoc est quod 
       A<lb ed="#R" n="134" break="no"/>postolus ait: Sicut per vnum hominem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1480">
       <!-- missing line break 135 -->Tertia Propositio est, quod nulla culpa nec ori- 
       <!--0031.xml-->
       <pb ed="#R" n="31"/>
@@ -767,7 +765,7 @@
       <lb ed="#R" n="3"/>nam sunt damnati omnes, qui non habuerunt hanc 
       <lb ed="#R" n="4"/>fidem, sicut Aristoteles, &amp; multi Gentilium. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1500">
                   <lb ed="#R" n="5"/>Respondeo: Dico primo istam propositionem, 
       <lb ed="#R" n="6"/>quod probabile est, quod sic, &amp; ratio est, quia nun 
       <lb ed="#R" n="7"/>quam in virtute alicuius deletur culpa, nisi illud in 
@@ -776,7 +774,7 @@
       <lb ed="#R" n="10"/>deletur culpa, Christus vero nulli applicatur nisi 
       <lb ed="#R" n="11"/>per fidem: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1518">
                   <lb ed="#R" n="12"/>Tunc secundo dico vlterius, quod non 
       oporte<lb ed="#R" n="13" break="no"/>bat habere fidem immediate transeuntem super 
       <lb ed="#R" n="14"/>Christum, sed sufficiebat, quod mediante alio, sicut 
@@ -785,12 +783,12 @@
       Eccle<lb ed="#R" n="17" break="no"/>sia, quia credunt quod credit Ecclesia; Iudaei vero 
       <lb ed="#R" n="18"/>credebant, quod credidit pater eorum Abraham. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1537">
                   <lb ed="#R" n="19"/>Similiter lob inter Gentiles habuit reuelationem 
       <lb ed="#R" n="20"/>de fide, &amp; ideo tota posteritas Gentium sequens 
       <lb ed="#R" n="21"/>Job retulit fidem suam in Chrisum mediante Iob. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1546">
                   <lb ed="#R" n="22"/>Quid de Philosophis? forte Plato retulit fidem 
       <lb ed="#R" n="23"/>suam in Christum mediante Jeremia, ad quem 
       au<lb ed="#R" n="24" break="no"/>diendum descendit in Aegyptum, vnde tenuit quod 
@@ -805,7 +803,7 @@
       <lb ed="#R" n="33"/>iuncti petrae iudices eorum, videtur damnare 
       Ari<lb ed="#R" n="34" break="no"/>stotelem, vnde dicit, Aristoteles adiunctus petrae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1577">
                   <lb ed="#R" n="35"/>Alij dicunt, quod oportet hanc habere fidem, 
       <lb ed="#R" n="36"/>quam Apostolus: Oportet accedentem 
       credere<lb ed="#R" n="37" break="no"/>quod remunerator est omnium bonorum, &amp; qui 
@@ -815,14 +813,14 @@
       <lb ed="#R" n="41"/>Deus est cunctorum remunerator. &amp; vtrum hoc 
       <lb ed="#R" n="42"/>sufficeret, an non, saluet ipsum qui potest. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1597">
                   <lb ed="#R" n="43"/>Secunda Propositio est, quod pro remedio 
       par<lb ed="#R" n="44" break="no"/>uulorum nullum fuit Sacramentum institutum 
       in<lb ed="#R" n="45" break="no"/>speciali, tempore ante legem scriptam, sed 
       suffi<lb ed="#R" n="46" break="no"/>ciebat quod parentes referrent eos per fidem suam 
       <lb ed="#R" n="47"/>in Mediatorem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1610">
                   <lb ed="#R" n="48"/>Est autem hic vna opinio, quod ad hoc 
       sacrifi<lb ed="#R" n="49" break="no"/>cium aliquod fuerat institutum. Sed hoc non 
       vide<lb ed="#R" n="50" break="no"/>tur verum, tum quia estt contra Gregorium, vt 
@@ -832,31 +830,31 @@
       pro<lb ed="#R" n="54" break="no"/>testata sacrificio, sed Glossa haec textum destruit, 
       <lb ed="#R" n="55"/>quia tunc illud non faceret sola fides. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1630">
                   <lb ed="#R" n="56"/>Ad hoc est ratio, quia secundum regulam 
       Hie<lb ed="#R" n="57" break="no"/>ronymi, quod de Scripturis non habet 
       auctorita<lb ed="#R" n="58" break="no"/>tem, eadem facilitate contemnitur, qua probatur. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1640">
                   <lb ed="#R" n="59"/>Ad hoc etiam facit, quod mulieres tunc 
       salua<lb ed="#R" n="60" break="no"/>bantur ante Baptismum, absque Sacramento 
       ali<lb ed="#R" n="61" break="no"/>quo per solam fidem parentum: sufficiebat ergo, 
       <lb ed="#R" n="62"/>quod parentes referrent eos in Mediatorem per 
       fi<lb ed="#R" n="63" break="no"/>dem suam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1653">
                   <lb ed="#R" n="64"/>Sed nunquid poterant hoc facere alij, quam 
       pa<lb ed="#R" n="65" break="no"/>rentes? Respondeo, quod etiam illi, qui curam 
       ha<lb ed="#R" n="66" break="no"/>bebant paruulorum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1662">
                   <lb ed="#R" n="67"/>Sed nunquid etiam quilibet videns paruulos, 
       <lb ed="#R" n="68"/>poterat eos referre in Mediatorem: &amp; vtrum hoc 
       <!--0031.xml-->
       <cb ed="#R" n="b"/>
                   <lb ed="#R" n="69"/>sufficeret? 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1675">
                   <lb ed="#R" n="70"/>Dicunt quidam quod sic, sicut hodie quilibet 
       <lb ed="#R" n="71"/>potest esse minister Baptismi, propter necessitatem 
       <lb ed="#R" n="72"/>Sacramenti. Mihi tamen videtur quod non 
@@ -872,20 +870,20 @@
       oppo<lb ed="#R" n="82" break="no"/>situm patet ex corpore quaestionis. 
     </p>
             </div>
-            <div>
-               <head>Articulus 4</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-hb8742-Dd1e1707">
+               <head xml:id="olm8ij-hb8742-Hd1e1709">Articulus 4</head>
+               <head xml:id="olm8ij-hb8742-Hd1e1711" type="question-title">
       Utrum gratia Baptismalis, et gratia Virtutum, 
       et Donorum, quae infunduntur in 
       Baptismo, sit eadem 
     </head>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1714">
                   <lb ed="#R" n="83"/>ARTICVLVS IIII 
       <lb ed="#R" n="84"/>Vtrum gratia Baptismalis, &amp; gratia Virtutum, 
       <lb ed="#R" n="85"/>&amp; Donorum, quae infunduntur in 
       Ba<lb ed="#R" n="86" break="no"/>ptismo, sit eadem 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1725">
                   <lb ed="#R" n="87"/>QVoad quartam quaestionem arguo primo, 
       <lb ed="#R" n="88"/>quod gratia Sacramentalis, &amp; gratia 
       virtu<lb ed="#R" n="89" break="no"/>atum non sit eadem gratia, sic: Illae formae 
@@ -895,17 +893,17 @@
       vir<lb ed="#R" n="93" break="no"/>tutum acquiritur per actus, &amp; assuefactionem; 
       gra<lb ed="#R" n="94" break="no"/>tia vero Sacramentalis per solam infusionem: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1745">
                   <lb ed="#R" n="95"/>In oppositum arguo, quod impossibile est 
       pone<lb ed="#R" n="96" break="no"/>re plures gratias gratum facientes, sed tam gratia 
       <lb ed="#R" n="97"/>sacramentalis, quam gratia virtutum, quaelibet est 
       <lb ed="#R" n="98"/>gratia gratum faciens: ergo non sunt plures gratiae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1757">
                   <lb ed="#R" n="99"/>Respondeo, primo ponam punctum quaestionis: 
       <lb ed="#R" n="100"/>secundo ponam propositiones intentas. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1764">
                   <lb ed="#R" n="101"/>De primo, quaestio isa mouetur propter 
       opinio<lb ed="#R" n="102" break="no"/>nem antiquorum. Dicunt enim quidam, quod 
       <lb ed="#R" n="103"/>gratia sacramentalis, &amp; gratia virtutum sunt 
@@ -913,12 +911,12 @@
       gratia<lb ed="#R" n="105" break="no"/>virtutum sacramentalis, inquantum per Sacramen 
       <lb ed="#R" n="106"/>ta virtutes acquiruntur. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1780">
                   <lb ed="#R" n="107"/>Alia opinio est in alio extremo, quod gratia 
       sa<lb ed="#R" n="108" break="no"/>cramentalis, &amp; gratia virtutum differunt per 
       es<lb ed="#R" n="109" break="no"/>sentiam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1789">
                   <lb ed="#R" n="110"/>Alia est opinio media solemnior, quod sunt vna 
       <lb ed="#R" n="111"/>gratia per essentiam, tamen ab ista vna gratia sunt 
       <lb ed="#R" n="112"/>apta nata diuersa fluere; quandoque quidem a 
@@ -933,7 +931,7 @@
       ipsa<lb ed="#R" n="121" break="no"/>profluunt reparatiua defectuum humanorum, 
       di<lb ed="#R" n="122" break="no"/>citur gratia sacramentalis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1820">
                   <lb ed="#R" n="123"/>Exemplum ponitur de anima, &amp; suis potentijs; 
       <lb ed="#R" n="124"/>nam anima est eadem omnino, quod suae potentiae 
       <lb ed="#R" n="125"/>per essentiam, ita quod eadem essentia est ipsa 
@@ -954,7 +952,7 @@
       <lb ed="#R" n="4"/>gratia sacramentalis, tale namque reparatiuum 
       <lb ed="#R" n="5"/>non confertur nisi mediante aliquo Sacramento. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1864">
                   <lb ed="#R" n="6"/>Dicit enim vlterius, quod cum dona &amp; virtutes 
       <lb ed="#R" n="7"/>sint connexae, ita quod nulli datur vna virtus sine 
       <lb ed="#R" n="8"/>alia, ideo a quolibet Sacramento profluit perfecte, 
@@ -966,22 +964,22 @@
       de<lb ed="#R" n="14" break="no"/>veritate harum opinionum, quid dicendum 
       cir<lb ed="#R" n="15" break="no"/>ca hoc. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1889">
                   <lb ed="#R" n="16"/>Nunc secundo pono propositiones. 
       <lb ed="#R" n="17"/>Prima est, quod dona &amp; virtutes non profluunt 
       <lb ed="#R" n="18"/>d gratia. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1898">
                   <lb ed="#R" n="19"/>Secunda est, quod gratia magis e conuerso 
       pro<lb ed="#R" n="20" break="no"/>sluit, &amp; resultat ex donis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1905">
                   <lb ed="#R" n="21"/>Tertia est, quod gratia reparatiua humanorum 
       <lb ed="#R" n="22"/>defectuum, non differt a quibusdam virtutibus &amp; 
       <lb ed="#R" n="23"/>donis, &amp; sic gratia virtutum non differret a gratia 
       <lb ed="#R" n="24"/>sacramentali. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1916">
                   <lb ed="#R" n="25"/>Primam propositionem probo sic: Si dona, &amp; 
       <lb ed="#R" n="26"/>virtutes, quae infunduntur in Sacramentis, profluunt 
       <lb ed="#R" n="27"/>a gratia, aut ergo subiectiue, aut sicur effectus 
@@ -997,14 +995,14 @@
       <lb ed="#R" n="37"/>quod talia sunt in nobis per infufionem a Deo 
       <lb ed="#R" n="38"/>solo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1949">
                   <lb ed="#R" n="39"/>Et probo hoc ratione, quia aut gratia 
       infunde<lb ed="#R" n="40" break="no"/>ret illas, aut educeret. Non est dicendum, quod 
       <lb ed="#R" n="41"/>infundat, quia tunc crearet; nec secundo, quod 
       <lb ed="#R" n="42"/>educat, quia accidens non educit aliquid de 
       subie<lb ed="#R" n="43" break="no"/>co in quo est: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1962">
                   <lb ed="#R" n="44"/>Et confirmatur, quia dona, &amp; virtutes cum sint 
       <lb ed="#R" n="45"/>per creationem, non sunt eductiue ab aliquo 
       crea<lb ed="#R" n="46" break="no"/>to. Similiter nec fluunt sicut effectus formaliter a 
@@ -1015,7 +1013,7 @@
       <lb ed="#R" n="51"/>a subiecto, vt manifestum est, non enim gratia est 
       <lb ed="#R" n="52"/>subiectum ipsarum virtutum, sed sola anima. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e1985">
                   <lb ed="#R" n="53"/>Dices: Jmo virtutes profluunt aliquo modo 
       ef<lb ed="#R" n="54" break="no"/>fectiue a gratia, non obstante quod sit vna 
       gratia<lb ed="#R" n="55" break="no"/>per essentiam. Exemplum datur ad hoc: quoniam 
@@ -1026,7 +1024,7 @@
       <lb ed="#R" n="60"/>prostuit in diuersos radios &amp; colores spirituales, 
       <lb ed="#R" n="61"/>qui sunt diuersae virtutes. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e2007">
                   <lb ed="#R" n="62"/>Sed ista imaginatio non valet ad propositum 
       <lb ed="#R" n="63"/>nam lux, quae hoc modo profluit in diuersos 
       colo<lb ed="#R" n="64" break="no"/>res, non est, vt isti imaginantur, radius tinctus 
@@ -1050,25 +1048,25 @@
       <lb ed="#R" n="80"/>participant de colore albedinis, &amp; diuersificantur 
       <lb ed="#R" n="81"/>in hoc, quod magis vel minus appropinquant. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e2057">
                   <lb ed="#R" n="82"/>Tunc ergo in exemplo de Jride, ipsemet radius 
       <lb ed="#R" n="83"/>magis &amp; minus debilitatus induit rationem diuer. 
       <lb ed="#R" n="84"/>sorum colorum, &amp; non se habet subiectiue respectu 
       <lb ed="#R" n="85"/>colorum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e2068">
                   <lb ed="#R" n="86"/>Isti autem non dicunt, quod gratia sit ipsaemet 
       <lb ed="#R" n="87"/>virtutes; ex quo patet, quod exemplum non est ad 
       <lb ed="#R" n="88"/>propositum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e2077">
                   <lb ed="#R" n="89"/>Secunda ratio est ista ad conclusionem: Ab illo 
       <lb ed="#R" n="90"/>non profluunt dona, &amp; virtutes, in quo consistit 
       <lb ed="#R" n="91"/>formaliter ratio formalis gratiae. Probo, quia idem 
       <lb ed="#R" n="92"/>non profluita seipso: sed in virtutibus &amp; donis 
       exi<lb ed="#R" n="93" break="no"/>stit formaliter ratio gratiae: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e2090">
                   <lb ed="#R" n="94"/>Probatio minoris: Aut enim qualitas, a qua 
       di<lb ed="#R" n="95" break="no"/>cit virtutes, &amp; dona effluere, est gratia, quia gratis 
       <lb ed="#R" n="96"/>data, &amp; habeo propositum, &amp; hoc modo dona &amp; virtu 
@@ -1090,7 +1088,7 @@
       con<lb ed="#R" n="112" break="no"/>placet in talibus virtutibus, puta in innocentia, 
       vn<lb ed="#R" n="113" break="no"/>de dicitur in Psal. Dilexisti iustitiam, &amp; c. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e2137">
                   <lb ed="#R" n="114"/>Similiter in charitate, &amp; dilectione causata, 
       iux<lb ed="#R" n="115" break="no"/>ta illud: Ego diligentes me diligo. Similiter in mi 
       <lb ed="#R" n="116"/>sericordia &amp; obedientia, iuxta illud: Misericordiam 
@@ -1105,7 +1103,7 @@
       <lb ed="#R" n="125"/>hoc ab hoc, quia scilicet ex se formaliter habent 
       <lb ed="#R" n="126"/>rationem boni, &amp; optimi. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e2168">
                   <lb ed="#R" n="127"/>Tertia ratio pro eadem propositione est ista: Si 
       <lb ed="#R" n="128"/>dona &amp; virtutes profluunt in anima ab ipsa gratia, 
       <lb ed="#R" n="129"/>aut profluunt ab ea libere, aut naturaliter: non 
@@ -1121,11 +1119,11 @@
                   <cb ed="#R" n="a"/>
                   <lb ed="#R" n="1"/>non est necesse inesse omni habenti gratiam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e2201">
                   <lb ed="#R" n="2"/>Dices: Jmo in habente gratiam inest virginitas, 
       <lb ed="#R" n="3"/>quantum ad propositum saltem.
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e2208">
       <!-- missing line break --> Respondeo: Sufficit mihi ad propositum, quod
       <lb ed="#R" n="4"/>non oporteat inesse formaliter, quia sic sequitur, 
       <lb ed="#R" n="5"/>quod formaliter virtutes non profluanta gratia. 
@@ -1134,7 +1132,7 @@
       exi<lb ed="#R" n="8" break="no"/>stens in anima, reddens Deo charum &amp; acceptum, 
       <lb ed="#R" n="9"/>&amp; ab illa dona &amp; virtutes dicuntur accepta &amp; chara. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e2226">
                   <lb ed="#R" n="10"/>Sed contra, nil reddit aliquid Deo acceptum &amp; 
       <lb ed="#R" n="11"/>charum, nisi pro quanto est similitudo diuina, ac 
       <lb ed="#R" n="12"/>diuinarum perfectionum, in quibus complacet Deo 
@@ -1154,12 +1152,12 @@
       mise<lb ed="#R" n="26" break="no"/>ricordia, obedientia, ac caeteris, vt dictum est 
       <lb ed="#R" n="27"/>supra. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e2268">
                   <lb ed="#R" n="28"/>Secundam Propositionem, quod gratia magis 
       <lb ed="#R" n="29"/>resulteta donis, &amp; virtutibus, quam a conuerso: 
       <lb ed="#R" n="30"/>probo exemplo, auctoritate, &amp; ratione. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e2278">
                   <lb ed="#R" n="31"/>Exemplo sic: Sicut gratia corporalis se habet ad 
       <lb ed="#R" n="32"/>corpus, sic gratia spiritualis ad animam: sed 
       gra<lb ed="#R" n="33" break="no"/>tia corporalis, siue pulchritudo(quod idem est)non 
@@ -1177,7 +1175,7 @@
       <lb ed="#R" n="45"/>donorum in anima, anima ipsa dicatur 
       materiali<lb ed="#R" n="46" break="no"/>ter Deo accepta &amp; grata. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e2315">
                   <lb ed="#R" n="47"/>Confirmo hoc, quia esse gratum est quaedam 
       <lb ed="#R" n="48"/>denominatio ab actu transeunte super obiectum 
       <lb ed="#R" n="49"/>aliquod primo, &amp; per se, &amp; formaliter, siue 
@@ -1191,14 +1189,14 @@
       <lb ed="#R" n="57"/>vnius totalis gratiae, quaelibet autem partialis 
       vir<lb ed="#R" n="58" break="no"/>tus habet rationem gratiae partialis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e2344">
                   <lb ed="#R" n="59"/>Secundo, probo hoc idem ratione sic: 
       Gratia<lb ed="#R" n="60" break="no"/>est quaedam denominatio extrinseca ab actu 
       diui<lb ed="#R" n="61" break="no"/>nae acceptationis, vt dictum est: illud ergo gratia 
       <lb ed="#R" n="62"/>est in te, quod facit te mihi gratum: sed virtutes 
       <lb ed="#R" n="63"/>principaliter sunt huiusmodi in quolibet virtuoso. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e2357">
                   <lb ed="#R" n="64"/>Probo, nam de ratione virtuosi est, quod fundet 
       <lb ed="#R" n="65"/>amicitiam, &amp; complacentiam ad alterum 
       virtuo<lb ed="#R" n="66" break="no"/>sum ratione communicationis virtutum, ita quod 
@@ -1218,7 +1216,7 @@
       cor<lb ed="#R" n="78" break="no"/>poralis, resultat ex integritate &amp; concursu debitae 
       <lb ed="#R" n="79"/>figurae, &amp; colorum, &amp; huiusmodi. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e2399">
                   <lb ed="#R" n="80"/>Tertio probo eandem conclusionem 
       auctorita<lb ed="#R" n="81" break="no"/>te: Haec enim est intentio Augustini, vt patet per 
       <lb ed="#R" n="82"/>auctoritates expresas, quas Magister adducit in 
@@ -1229,7 +1227,7 @@
       qualita<lb ed="#R" n="87" break="no"/>tem per se, non video vnde moueatur efficaciter, 
       <lb ed="#R" n="88"/>nec videtur esse aliud quam pura imaginatio. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e2421">
                   <lb ed="#R" n="89"/>Illam autem sententiam secuti sunt Doctores an 
       <lb ed="#R" n="90"/>tiqui a principio: dicunt enim quod gratia 
       Baptis<lb ed="#R" n="91" break="no"/>malis, &amp; gratia donorum sunt idem quantum ad 
@@ -1239,7 +1237,7 @@
       gratiae<lb ed="#R" n="95" break="no"/>pro quanto gratia, non est aliud quam quiddam 
       <lb ed="#R" n="96"/>resultans ex substratis virtutum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e2442">
                   <lb ed="#R" n="97"/>Tertia Propositio est, quod reparatiua, quae 
       pro<lb ed="#R" n="98" break="no"/>sluunt secundum istos a gratia Baptismali, siue quae 
       <lb ed="#R" n="99"/>idem sunt, quod ipsa gratia Baptismalis, non 
@@ -1247,7 +1245,7 @@
       <lb ed="#R" n="101"/>specialia dona, quae in Sacramentis specialibus 
       in<lb ed="#R" n="102" break="no"/>funduntur. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e2458">
                   <lb ed="#R" n="103"/>Quomodo ergo talia differunt? Respondeo, gra 
       <lb ed="#R" n="104"/>tia sacramentalis, &amp; gratia virtutum differunt, quia 
       <lb ed="#R" n="105"/>gratia virtutum nominat ipsam integritatem 
@@ -1255,7 +1253,7 @@
       specia<lb ed="#R" n="107" break="no"/>les virtutes, quae in Sacramentis specialibus 
       infun<lb ed="#R" n="108" break="no"/>duntur. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e2474">
                   <lb ed="#R" n="109"/>Et quod hoc ita sit, potest patere etiam per 
       opi<lb ed="#R" n="110" break="no"/>nionem aliorum: secundum enim eos gratia 
       sacra<lb ed="#R" n="111" break="no"/>mentalis dicitur, prout ab ea profluunt quaedam 
@@ -1269,7 +1267,7 @@
       <lb ed="#R" n="119"/>quaedam roboratio Spei, transeunt enim virtute 
       <lb ed="#R" n="120"/>extremae Vnctionis cum maiori spe. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e2503">
                   <lb ed="#R" n="121"/>Similiter in Sacramento Ordinis scientia contra 
       <lb ed="#R" n="122"/>ignorantiam: In Matrimonio vero infunditur 
       ca<lb ed="#R" n="123" break="no"/>stitas spiritualis ad seruandum fidem thori: In 
@@ -1283,7 +1281,7 @@
       opi<lb ed="#R" n="131" break="no"/>nionem, vt qualitates disparatae, sed vt generale, 
       <lb ed="#R" n="132"/>&amp; speciale. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e2532">
                   <lb ed="#R" n="133"/>Sed hic similiter respondeo ad sormam 
       quaesttio<lb ed="#R" n="134" break="no"/>nis: quia quando quaeritur; Vtrum gratia 
       Baptis<lb ed="#R" n="135" break="no"/>malis differata gratia virtutum, aut quaeris, si 
@@ -1304,7 +1302,7 @@
       <lb ed="#R" n="10"/>virtutum &amp; donorum, quae alij vocant reparatiua 
       <lb ed="#R" n="11"/>defecuum humanorum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e2576">
                   <lb ed="#R" n="12"/>Si vero intendas quaerere, Vtrum differant 
       ra<lb ed="#R" n="13" break="no"/>tione pro eo, quod gratia sacramentalis nominat 
       <lb ed="#R" n="14"/>speciales virtutes, &amp; doua, inquantum sunt 
@@ -1313,7 +1311,7 @@
       <lb ed="#R" n="17"/>vt sunt principia actuum, hoc modo concedo, &amp; si 
       <lb ed="#R" n="18"/>sic intellexit alia opinio, dicit verum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e2595">
                   <lb ed="#R" n="19"/>Si vero tertio intendas quaerere, Vtrum differant 
       <lb ed="#R" n="20"/>sicut vniuersale, siue generale a speciali &amp; 
       partia<lb ed="#R" n="21" break="no"/>li, dico quod differunt isto modo: &amp; hoc, quia gra 
@@ -1326,14 +1324,14 @@
       <lb ed="#R" n="28"/>reparant singulos desecus humanos, de quibus 
       di<lb ed="#R" n="29" break="no"/>cum est tertia propositione. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e2621">
                   <lb ed="#R" n="30"/>Ex his apparet, quod non est definibile, quae sint 
       <lb ed="#R" n="31"/>illa reparatiua humanorum defectuum, quae 
       infun<lb ed="#R" n="32" break="no"/>duntur in Baptismo, sicut &amp; secundum aliam 
       opi<lb ed="#R" n="33" break="no"/>nionem, ponendo sicut ipsi ponunt, quod talia nec 
       <lb ed="#R" n="34"/>sunt dona, nec sunt virtutes. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb8742-d1e2634">
                   <lb ed="#R" n="35"/>Ad argumentum in oppositum dico, quod dona 
       <lb ed="#R" n="36"/>&amp; virtutes, &amp; gratia aequaliter sunt per infusionem 
       <lb ed="#R" n="37"/>&amp; virtutem Sacramenti, &amp; per exercitium, &amp; 

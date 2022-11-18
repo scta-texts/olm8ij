@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,16 +53,16 @@
       </front>
       <body>
          <div xml:id="olm8ij-h36351"> <!-- l1-d11q4 -->
-            <head>Quaestio 4</head>
-            <head type="question-title">De transubstantiatione in ordine ad terminum ad quem</head>
-            <p>
+            <head xml:id="olm8ij-h36351-Hd1e102">Quaestio 4</head>
+            <head xml:id="olm8ij-h36351-Hd1e104" type="question-title">De transubstantiatione in ordine ad terminum ad quem</head>
+            <p xml:id="olm8ij-h36351-d1e107">
                <lb ed="#R" n="127"/>Quaestio IIII. 
       <lb ed="#R" n="128"/>
                <!-- line coord error -->
                <lb ed="#R" n="129"/>DE TRANSVBSTANTJATJONE 
       <lb ed="#R" n="130"/>in ordine ad terminum ad quem.
     </p>
-            <p>
+            <p xml:id="olm8ij-h36351-d1e120">
                <lb ed="#R" n="131"/>Vltimo de Transubstantiatione in ordine ad 
       <lb ed="#R" n="132"/>terminum ad quem, quaero duas quaestiones. 
       <!--0107.xml-->
@@ -76,22 +74,22 @@
       <lb ed="#R" n="4"/>2 Secunda est: Vtrum quodlibet possit 
       tran<lb ed="#R" n="5" break="no"/>subsantiari in quodlibet. 
     </p>
-            <div>
-               <head>Articulus 1</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h36351-Dd1e145">
+               <head xml:id="olm8ij-h36351-Hd1e147">Articulus 1</head>
+               <head xml:id="olm8ij-h36351-Hd1e149" type="question-title">
       Utrum terminus ad quem istius 
       transubstantiationis sit anima dans esse corporeum, vel 
       materia cum forma alia 
       substantiali.
     </head>
-               <p>
+               <p xml:id="olm8ij-h36351-d1e152">
                   <lb ed="#R" n="6"/>ARTICVLVUS I. 
       <lb ed="#R" n="7"/>Vtrum terminus ad quem istius 
       transubstantia<lb ed="#R" n="8" break="no"/>tionis sit anima dans esse corporeum, vel 
       <lb ed="#R" n="9"/>materia cum forma alia 
       <lb ed="#R" n="10"/>substantiali. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h36351-d1e165">
                   <lb ed="#R" n="11"/>QVANTVM ad primam 
       <lb ed="#R" n="12"/>
                   <!-- line coord error -->
@@ -119,7 +117,7 @@
       alia<lb ed="#R" n="29" break="no"/>praeter animam, iam inueniret anima adueniens 
       <lb ed="#R" n="30"/>esse simpliciter. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h36351-d1e224">
                   <lb ed="#R" n="31"/>In oppositum arguo, quod istud Sacramentum 
       <lb ed="#R" n="32"/>fuit semper vniforme: sed si aliquis Apostolus 
       con<lb ed="#R" n="33" break="no"/>fecisset in triduo, non fuisset tunc 
@@ -131,7 +129,7 @@
       in<lb ed="#R" n="39" break="no"/>homine sint plures formae, nisi quantum pertinet 
       <lb ed="#R" n="40"/>ad propositum pono propositiones aliquas. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h36351-d1e249">
                   <lb ed="#R" n="41"/>Prima est, quod impossibile est, quod formalis 
       <lb ed="#R" n="42"/>terminus istius conuersionis sit materia 
       acciden<lb ed="#R" n="43" break="no"/>tibus affectata, vt dicit opinio cuiusdam Doctoris. 
@@ -151,14 +149,14 @@
       <lb ed="#R" n="57"/>quantitatis est ipsa extensio: ergo contradictio est, 
       <lb ed="#R" n="58"/>quod corpus sit extensum sine quantitate. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h36351-d1e291">
                   <lb ed="#R" n="59"/>Decipitur autem ista opinio, quia imaginatur, 
       <lb ed="#R" n="60"/>quod accidentia sint quaedam res terminatae, &amp; 
       <lb ed="#R" n="61"/>quasi causantes affectiones aliquas in subiecto, q 
       <lb ed="#R" n="62"/>non puto verum, sed credo, quod sint ipsae purae 
       af<lb ed="#R" n="63" break="no"/>fectiones, sed de hoc infra. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h36351-d1e304">
                   <lb ed="#R" n="64"/>Secunda Propositio est, quod impossibile est, 
       <lb ed="#R" n="65"/>quod transubstantiatio sit in materiam &amp; animam 
       <lb ed="#R" n="66"/>dans esse corporeum, sicut informari est corpus 
@@ -166,7 +164,7 @@
       Sacra<lb ed="#R" n="68" break="no"/>mento nisi concomitanter, vt dicit communis 
       o<lb ed="#R" n="69" break="no"/>pinio. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h36351-d1e320">
                   <lb ed="#R" n="70"/>Hanc conclusionem probo sic: Quando aliqua 
       <lb ed="#R" n="71"/>differunt sola ratione, impossibile est quod per a- 
       <!--0107.xml-->
@@ -183,21 +181,21 @@
       <lb ed="#R" n="81"/>&amp; quod anima vt intellectiua tantummodo sit 
       ter<lb ed="#R" n="82" break="no"/>minus per concomitantiam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h36351-d1e355">
                   <lb ed="#R" n="83"/>Tertia Propositio est, quod transubstantiatio fit 
       <lb ed="#R" n="84"/>sicut in terminum in materiam sub aliqua forma 
       <lb ed="#R" n="85"/>siue realitate, quae non est ipsa anima, sed est ipsa 
       <lb ed="#R" n="86"/>corporeitas, &amp; carneitas ipsa, quae aliud est a 
       rea<lb ed="#R" n="87" break="no"/>litate animae, &amp; non nisi formaliter differt. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h36351-d1e368">
                   <lb ed="#R" n="88"/>Hanc conclusionem teneo specialiter propter au 
       <lb ed="#R" n="89"/>ctoritates, quarum prima est Innocentij de officio 
       <lb ed="#R" n="90"/>Missae particula 8. Ego, inquit, qui vitam aeternam 
       <lb ed="#R" n="91"/>habere desidero, carnem Christi comedo veraciter, 
       <lb ed="#R" n="92"/>illam, quam extraxit de Virgine. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h36351-d1e382">
                   <lb ed="#R" n="93"/>Ex hoc articulo dicitur primo sic: In triduo si 
       <lb ed="#R" n="94"/>aliquis Apostolorum confecisset, aut fuisset caro, 
       <lb ed="#R" n="95"/>quae hodie est, aut non: si sic, habeo propositum 
@@ -208,18 +206,18 @@
       <lb ed="#R" n="100"/>enim emanauita carne exanimi, vt habetur Ioan. 
       <lb ed="#R" n="101"/>cap. 19 
     </p>
-               <p>
+               <p xml:id="olm8ij-h36351-d1e404">
                   <lb ed="#R" n="102"/>Similiter non fieret transubstantiatio in 
       sangui<lb ed="#R" n="103" break="no"/>nem, qui emanauit de Christi latere, quia non erat 
       <lb ed="#R" n="104"/>animatus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h36351-d1e413">
                   <lb ed="#R" n="105"/>Similiter secundo ipse dicit, quod carnem illam 
       <lb ed="#R" n="106"/>manduco, quam Christus extraxit de Virgine: sed 
       <lb ed="#R" n="107"/>non extraxit animam de Virgine, cum non sit 
       ani<lb ed="#R" n="108" break="no"/>ma ex traduce: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h36351-d1e424">
                   <lb ed="#R" n="109"/>Item alia est auctoritas de Consecratione dist. 2. 
       <lb ed="#R" n="110"/>cap. omnia quaecumque, vbi dicitur, non alia, quam 
       <lb ed="#R" n="111"/>quae in Cruce passa est, &amp; de sepulchro surrexit, 
@@ -235,13 +233,13 @@
       notabi<lb ed="#R" n="121" break="no"/>lia, &amp; subdit, quod idem corpus, quod iacuit in 
       se<lb ed="#R" n="122" break="no"/>pulchro, est in altari. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h36351-d1e457">
                   <lb ed="#R" n="123"/>Propter has, &amp; similes auctoritates, etsi 
       appa<lb ed="#R" n="124" break="no"/>reret mihi demonstratio, ad oppositum 
       tenerem<lb ed="#R" n="125" break="no"/>propositionem istam; nec est noua philosophia, sed 
       <lb ed="#R" n="126"/>est philosophia Aristotelis &amp; Commentatoris. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h36351-d1e468">
                   <lb ed="#R" n="127"/>Jmo oppositum, quod in animato non sit nisi vna 
       <lb ed="#R" n="128"/>forma, est vere philosophia noua. Probo per 
       ex<lb ed="#R" n="129" break="no"/>pressas auctoritates Commentatoris, &amp; miror, quod 
@@ -253,7 +251,7 @@
       ali<lb ed="#R" n="135" break="no"/>bi etiam in secundo de anima, &amp; alias, vt dicetur 
       <lb ed="#R" n="136"/>suo loco in secundo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h36351-d1e493">
                   <lb ed="#R" n="137"/>Item idem 5. metaph. comm. 15. dicit sic: Et 
       di<lb ed="#R" n="138" break="no"/>xit, supple Philosophus, &amp; dicitur substantia, &amp; de 
       <lb ed="#R" n="139"/>sorma, idest de illo per quod indiuiduum substan- 
@@ -264,7 +262,7 @@
       <lb ed="#R" n="2"/>anima, quia est forma in substantia in actu, e 
       con<lb ed="#R" n="3" break="no"/>tra est de formis corporum simplicium. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h36351-d1e515">
                   <lb ed="#R" n="4"/>Item idem 8. metaph. in fine: Sicut prima 
       mate<lb ed="#R" n="5" break="no"/>ria se habet ad formas, sic se habet corpus ad 
       ani<lb ed="#R" n="6" break="no"/>mam: In eodem commento penultimo. Et anima 
@@ -273,7 +271,7 @@
       da<lb ed="#R" n="9" break="no"/>rem solutionem ad rationem illam, vnius rei vnum 
       <lb ed="#R" n="10"/>est esse, nisi solutionem Commentatoris. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h36351-d1e533">
                   <lb ed="#R" n="11"/>Vnde ad argumentum in oppositum alias dicam 
       <lb ed="#R" n="12"/>solutionem Commentatoris. Ipse enim dat illam 
       <lb ed="#R" n="13"/>propositionem &amp; intellectum eius, pro nunc dico, 
@@ -286,18 +284,18 @@
       ma<lb ed="#R" n="20" break="no"/>teria est composita. 
     </p>
             </div>
-            <div>
-               <head>Articulus 2</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h36351-Dd1e558">
+               <head xml:id="olm8ij-h36351-Hd1e560">Articulus 2</head>
+               <head xml:id="olm8ij-h36351-Hd1e562" type="question-title">
       Utrum quodlibet possit transubstantiari in 
       quodlibet.
     </head>
-               <p>
+               <p xml:id="olm8ij-h36351-d1e565">
                   <lb ed="#R" n="21"/>ARTICVLVS II 
       <lb ed="#R" n="22"/>Vtrum quodlibet possit transubstantiari in 
       <lb ed="#R" n="23"/>quodlibet. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h36351-d1e574">
                   <lb ed="#R" n="24"/>AD secundam quaestionem sine argumentis 
       re<lb ed="#R" n="25" break="no"/>C spondeo. Dicunt aliqui, quod quodlibet per 
       <lb ed="#R" n="26"/>diuinam virtutem potest transubstantiari in 
@@ -318,7 +316,7 @@
       ca<lb ed="#R" n="41" break="no"/>piat de nouo respectum praesentiae, scilicet esse hic 
       <lb ed="#R" n="42"/>vi ipsius transubstantiationis, sicut ipsimet dicunt. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h36351-d1e618">
                   <lb ed="#R" n="43"/>Alij dicunt, quod corpus, licet possit 
       transubstan<lb ed="#R" n="44" break="no"/>tiari in corpus, non tamen in spiritum: ratio est ex 
       <lb ed="#R" n="45"/>dico Augustini lib. 7. super Gen. ad literam cap. 
@@ -326,7 +324,7 @@
       <lb ed="#R" n="47"/>284. tom. 3. operum Augustini, quod corpus 
       in<lb ed="#R" n="48" break="no"/>spiritum mutari non potest. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h36351-d1e635">
                   <lb ed="#R" n="49"/>Secundo dicunt, quod non quodlibet corpus 
       po<lb ed="#R" n="50" break="no"/>testt transubstantiari in quodlibet corpus, sed 
       tan<lb ed="#R" n="51" break="no"/>tum in illud, quod habet materiam eiusdem 
@@ -337,7 +335,7 @@
       tran<lb ed="#R" n="56" break="no"/>substantiationis, quae in termino a quo, desinit 
       es<lb ed="#R" n="57" break="no"/>se, in termino vero ad quem capit hoc esse 
     </p>
-               <p>
+               <p xml:id="olm8ij-h36351-d1e657">
                   <lb ed="#R" n="58"/>Videtur mihi distinguendum de 
       transubstantia<lb ed="#R" n="59" break="no"/>tione: potest enim accipi, vel pro transitu termini 
       <lb ed="#R" n="60"/>2. in terminum praecise, absque hoc, quod aliquid 
@@ -345,7 +343,7 @@
       <lb ed="#R" n="62"/>sit possibili, non video, quare non quodlibet possit 
       <lb ed="#R" n="63"/>conuerti in quodlibet.
     </p>
-               <p>
+               <p xml:id="olm8ij-h36351-d1e673">
                   <lb ed="#R" n="64"/>Sed loquendo de transubstantiatione secundo 
       <!--0108.xml-->
       <cb ed="#R" n="b"/>
@@ -359,7 +357,7 @@
       <lb ed="#R" n="72"/>communi, quod signatur per ly, hoc, quod prius 
       e<lb ed="#R" n="73" break="no"/>rat panis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h36351-d1e702">
                   <lb ed="#R" n="74"/>Vtrum ergo Deus posset aliter conuertere, 
       si<lb ed="#R" n="75" break="no"/>cut &amp; facit, quod Deus est homo, nescio, illum 
       ta<lb ed="#R" n="76" break="no"/>men transitum non intelligo: sed transitum illum, 

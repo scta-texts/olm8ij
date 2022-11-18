@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,20 +53,20 @@
       </front>
       <body>
          <div xml:id="olm8ij-h19735"> <!-- l4-d5q2 -->
-            <head>Quaestio 2</head>
-            <p>
+            <head xml:id="olm8ij-h19735-Hd1e102">Quaestio 2</head>
+            <p xml:id="olm8ij-h19735-d1e104">
                <lb ed="#R" n="57"/>Quaestio II
     </p>
-            <div>
-               <head>Articulus 1</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h19735-Dd1e109">
+               <head xml:id="olm8ij-h19735-Hd1e111">Articulus 1</head>
+               <head xml:id="olm8ij-h19735-Hd1e113" type="question-title">
           Utrum Baptismus possit iterari.
         </head>
-               <p>
+               <p xml:id="olm8ij-h19735-d1e116">
                   <lb ed="#R" n="58"/>ARTICVLVS VNICVS
       <lb ed="#R" n="59"/>Vtrum Baptismus possit iterari.
     </p>
-               <p>
+               <p xml:id="olm8ij-h19735-d1e123">
                   <lb ed="#R" n="60"/>AD secundam quaestionem, Vtrum 
       Baptis<lb ed="#R" n="61" break="no"/>mus possit iterari, respondeo quod non, 
       <lb ed="#R" n="62"/>sine poena irregularitatis, sciendum 
@@ -79,21 +77,21 @@
       <lb ed="#R" n="65"/>sed iteranti ipsum secrete, dimitti potest ab alio 
       <lb ed="#R" n="66"/>puta a proprio Episcopo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h19735-d1e145">
                   <lb ed="#R" n="67"/>Sed quid de iterato baptizato, estne irregularis? 
       <lb ed="#R" n="68"/>Respondeo, aut est rebaptizatus scienter, aut 
       igno<lb ed="#R" n="69" break="no"/>ranter. Si scienter, manifestum est, quod estt 
       irre<lb ed="#R" n="70" break="no"/>gularis, vt patet per illud de Consecratione. dist. 4. 
       <lb ed="#R" n="71"/>cap. qui his. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h19735-d1e159">
                   <lb ed="#R" n="72"/>Si vero quis sit rebaptizatus ignoranter, potest 
       <lb ed="#R" n="73"/>dupliciter contingere, vel ignorantia Juris, vel 
       fa<lb ed="#R" n="74" break="no"/>cti, &amp; de vtroque modo videtur illud capitulum 
       <lb ed="#R" n="75"/>praedictum intelligere, quod bis baptizatus sit 
       ir<lb ed="#R" n="76" break="no"/>regularis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h19735-d1e172">
                   <lb ed="#R" n="77"/>Tamen Glosator mouet ibi quaestionem istamt, &amp; 
       <lb ed="#R" n="78"/>arguit ad partem negatiuam, quia alias vnus 
       ma<lb ed="#R" n="79" break="no"/>lus sacerdos posset omnes de parochia facere 
@@ -105,7 +103,7 @@
       <lb ed="#R" n="85"/>non est irregularis, quia est ignorans simpliciter, 
       <lb ed="#R" n="86"/>non solum ius, sed ipsum facum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h19735-d1e196">
                   <lb ed="#R" n="87"/>Quidam autem dicit, quod illud capitulum est 
       <lb ed="#R" n="88"/>antiquum ius, &amp; hodie cessat. Glosator vero tenet 
       <lb ed="#R" n="89"/>vltimo quod sic, &amp; ad argumentum in contrarium 

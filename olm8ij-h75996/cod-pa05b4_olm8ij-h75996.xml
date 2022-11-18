@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,13 +53,13 @@
       </front>
       <body>
          <div xml:id="olm8ij-h75996"> <!-- l4-d47Bprae -->
-            <head>Praeambulum</head>
-            <p>
+            <head xml:id="olm8ij-h75996-Hd1e102">Praeambulum</head>
+            <p xml:id="olm8ij-h75996-d1e104">
                <lb ed="#R" n="30"/>DISTINCTIO <sic>XLVII</sic>
                <lb ed="#R" n="31"/>DE IMMVTATIONE 
       <lb ed="#R" n="32"/>caelorum &amp; elementorum. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h75996-d1e115">
                <lb ed="#R" n="33"/>Solet etiam quaeri. In ista distinctione 
       qua<lb ed="#R" n="34" break="no"/>dragesimaseptima agit Magister in speciali 
       <lb ed="#R" n="35"/>de immutatione caelorum, &amp; elementorum 

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -54,15 +52,15 @@
          </div>
       </front>
       <body>
-         <div xml:id="olm8ij-h39631"> <!-- l1-d12q3 -->
-            <head>Quaestio 3</head>
-            <head type="question-title">
+         <div xml:id="olm8ij-h39631"> <!-- l4-d12q3 -->
+            <head xml:id="olm8ij-h39631-Hd1e102">Quaestio 3</head>
+            <head xml:id="olm8ij-h39631-Hd1e104" type="question-title">
       De naturali operatione 
       <!-- line coord error -->
       accidentium in Sacramento 
       Altaris.
     </head>
-            <p>
+            <p xml:id="olm8ij-h39631-d1e109">
                <lb ed="#R" n="31"/>Quaestio III. 
       <lb ed="#R" n="32"/>
                <!-- line coord error -->
@@ -72,14 +70,14 @@
                <lb ed="#R" n="35"/>accidentium in Sacramento 
       <lb ed="#R" n="36"/>Altaris.
   </p>
-            <p>
+            <p xml:id="olm8ij-h39631-d1e129">
                <lb ed="#R" n="37"/>Postquam quaesitum est de accidentium 
       enti<lb ed="#R" n="38" break="no"/>tate, similiter de eorum separabilitate 
       <lb ed="#R" n="39"/>quaero nunc de eorum naturali 
       operatio<lb ed="#R" n="40" break="no"/>ne, siue transmutatione. Et quaero circa 
       <lb ed="#R" n="41"/>hoc tres quaestiones.
   </p>
-            <p>
+            <p xml:id="olm8ij-h39631-d1e143">
                <lb ed="#R" n="42"/>1 Prima est: Vtrum accidentia in 
       Sacramen<lb ed="#R" n="43" break="no"/>to possint esse principium naturalis actionis. 
       <lb ed="#R" n="44"/>2 Secunda est: Vtrum possint esse subiectum 
@@ -88,18 +86,18 @@
       <lb ed="#R" n="47"/>3 Tertia est: Vtrum ex illis accidentibus 
       pos<lb ed="#R" n="48" break="no"/>sit aliqua subsantia generari. 
     </p>
-            <div>
-               <head>Articulus 1</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h39631-Dd1e161">
+               <head xml:id="olm8ij-h39631-Hd1e163">Articulus 1</head>
+               <head xml:id="olm8ij-h39631-Hd1e165" type="question-title">
       Utrum accidentia in Sacramento possint esse 
       principium naturalis actionis.
     </head>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e168">
                   <lb ed="#R" n="49"/>ARTICVLVUS I. 
       <lb ed="#R" n="50"/>Utrum accidentia in Sacramento possint esse 
       prin<lb ed="#R" n="51" break="no"/>cipium naturalis actionis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e177">
                   <lb ed="#R" n="52"/>QVANTVM ad primam 
       quae<lb ed="#R" n="53" break="no"/>stionem arguo primo, quod 
       <lb ed="#R" n="54"/>
@@ -114,14 +112,14 @@
                   <lb ed="#R" n="60"/>cnis, quoniam illud, quod est 
       <lb ed="#R" n="61"/>materia separatum non 
       po<lb ed="#R" n="62" break="no"/>test esse principium 
-      transmu<lb ed="#R" n="63" break="no"/>tandi materiam secundum <ref>Aristotelem, &amp; Com- 
+      transmu<lb ed="#R" n="63" break="no"/>tandi materiam secundum <ref xml:id="olm8ij-h39631-Rd1e211">Aristotelem, &amp; Com- 
       <!--0116.xml-->
       <cb ed="#R" n="b"/>
                      <lb ed="#R" n="64"/>mentatorem 7. Metaph. comm. 30.</ref> Ratio est, tum 
       <lb ed="#R" n="65"/>quia agens agendo assimilat sibi passum, tum quia 
       <lb ed="#R" n="66"/>actio est in habentibus materiam communem.
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e226">
                   <lb ed="#R" n="67"/>In oppositum est, quia experientia facit artem 
       <lb ed="#R" n="68"/>1. Metaphysicae: ergo illud est necessarium, quod 
       <lb ed="#R" n="69"/>capitur per experientiam: sed experientia docet, 
@@ -131,13 +129,13 @@
       <lb ed="#R" n="73"/>de actionibus caeteris: ergo. Respondeo pono in 
       <lb ed="#R" n="74"/>ista quaestione duas Propositiones. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e247">
                   <lb ed="#R" n="75"/>Prima est, quod accidentia ista possunt esse 
       prin<lb ed="#R" n="76" break="no"/>cipium cuiuslibet actionis, quae habet pro termino 
       <lb ed="#R" n="77"/>realitatem accidentis, sicut alterationis, 
       augmen<lb ed="#R" n="78" break="no"/>ti, &amp; huiusmodi.
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e258">
                   <lb ed="#R" n="79"/>Hanc conclusionem probo vnica ratione tali, 
       <lb ed="#R" n="80"/>Quando aliquid conuenit alicui per se, conuenit ei 
       <lb ed="#R" n="81"/>circumscripto omni eo, quod respicit illud per 
@@ -152,14 +150,14 @@
       er<lb ed="#R" n="90" break="no"/>go circumscripto subiecto, non minus inerit 
       acci<lb ed="#R" n="91" break="no"/>denti separato actio respectu illius termini. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e289">
                   <lb ed="#R" n="92"/>Probatio maioris. Illud est per accidens, quo 
       <lb ed="#R" n="93"/>variato nulla variatio dicitur fieri in hoc, quod 
       <lb ed="#R" n="94"/>inest per se: sic autem est in proposito, nam 
       pone<lb ed="#R" n="95" break="no"/>re albedinem in vno, &amp; eodem gradu, varia sicut 
       <lb ed="#R" n="96"/>vis, ipsa substantia eodem modo disgregabit: ergo.
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e302">
                   <lb ed="#R" n="97"/>Ex hoc infero, quod non est vera quorundam 
       <lb ed="#R" n="98"/>opinio, quod quantitas eo, quod non habet 
       mo<lb ed="#R" n="99" break="no"/>dum essendi, quem prius habuit, ideo non potest 
@@ -173,7 +171,7 @@
       quae<lb ed="#R" n="107" break="no"/>rimus hic de acttione quantitatis, quia non est 
       for<lb ed="#R" n="108" break="no"/>ma actiua, ex 4. Physic. tex. 97. &amp; infra. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e331">
                   <lb ed="#R" n="109"/>Secundo, quia illud facit per se, quo variato 
       <lb ed="#R" n="110"/>perpenditur variatio actus a sensu: sed variata 
       <lb ed="#R" n="111"/>quantitate immutatio in actu visionis perpenditur 
@@ -184,7 +182,7 @@
       <lb ed="#R" n="116"/>&amp; post, difformiter immutabitur, cuius oppositum 
       <lb ed="#R" n="117"/>experimur. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e353">
                   <lb ed="#R" n="118"/>Sed contra minorem rationis videtur esse illud 
       <lb ed="#R" n="119"/>Phylosophi 2. de anima tex. 11. vbi volens habere, 
       <lb ed="#R" n="120"/>quod in nobis est aliqua substantia abstracta, 
@@ -194,7 +192,7 @@
       subie<lb ed="#R" n="124" break="no"/>cum per se ad actionem non per accidens, minor 
       <lb ed="#R" n="125"/>ergo erat falsa. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e374">
                   <lb ed="#R" n="126"/>Respondeo: forma eo modo communicat 
       subie<lb ed="#R" n="127" break="no"/>cto actionem, quo communicat ei suam realitatem, 
       <lb ed="#R" n="128"/>non per vnionem, siue relationem mediam: ergo 
@@ -210,7 +208,7 @@
       <lb ed="#R" n="4"/>agit, separatum autem retinet actionem sine 
       sub<lb ed="#R" n="5" break="no"/>iecto, sicut &amp; entitatem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e407">
                   <lb ed="#R" n="6"/>Tunc ad formam concedo, quod in omni actione 
       <lb ed="#R" n="7"/>sormae existentis in materia, siue accidentis in 
       sub<lb ed="#R" n="8" break="no"/>iecto concurrit per se subiectum sicut per se fundat 
@@ -218,7 +216,7 @@
       <lb ed="#R" n="10"/>quod si entitas accidentis siue alterius formae 
       sepa<lb ed="#R" n="11" break="no"/>retur, non est inconueniens quodeius actio separetur. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e423">
                   <lb ed="#R" n="12"/>Secunda Propositio est, quod accidentia sunt 
       <lb ed="#R" n="13"/>principium naturalis actionis respectu substantiae, 
       <lb ed="#R" n="14"/>quae apparet per huiusmodi species generari, verbi 
@@ -239,7 +237,7 @@
       <lb ed="#R" n="29"/>illius actionis, non in virtute alterius, eadem 
       ra<lb ed="#R" n="30" break="no"/>tione illud accidens, de quo est sermo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e467">
                   <lb ed="#R" n="31"/>Dico ergo quod accidentia in Sacramento 
       pos<lb ed="#R" n="32" break="no"/>sunt agere ad eductionem formae suostantialis in 
       <lb ed="#R" n="33"/>passo approximato. haec propositio licet dependeat 
@@ -258,7 +256,7 @@
       <lb ed="#R" n="46"/>necessario per concomitantiam fit forma ignis, vt 
       <lb ed="#R" n="47"/>necessaria quaedam sequela: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e506">
                   <lb ed="#R" n="48"/>Confirmo hoc, quoniam da oppositum, sequitur, 
       <lb ed="#R" n="49"/>quod forma substantialis bis fiet, semel per 
       conco<lb ed="#R" n="50" break="no"/>mitantiam, &amp; semel per actionem directe 
@@ -295,7 +293,7 @@
       Do<lb ed="#R" n="79" break="no"/>ctores moderni. Est ergo sciendum, quod in 
       gene<lb ed="#R" n="80" break="no"/>ratione substantiae est ordo iste. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e584">
                   <lb ed="#R" n="81"/>Primo enim accidentia capiunta forma substan 
       <lb ed="#R" n="82"/>tiali, quod sint talia non quidem effectiue, sed 
       exi<lb ed="#R" n="83" break="no"/>gitiue, &amp; determinatiue, eo modo quo membra 
@@ -322,7 +320,7 @@
       inten<lb ed="#R" n="104" break="no"/>tio Commentatoris expressa, similiter &amp; 
       Philoso<lb ed="#R" n="105" break="no"/>phi a. de anima tex. com. 24 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e642">
                   <lb ed="#R" n="106"/>Sed hic sunt quaedam facientia difficultatem 
       ali<lb ed="#R" n="107" break="no"/>quibus magnis Doctoribus, quia primo hoc 
       posi<lb ed="#R" n="108" break="no"/>to termino formalis generationis, ponitur 
@@ -335,7 +333,7 @@
       <lb ed="#R" n="115"/>esset causa coeli, &amp; specialiter auserretur via ad 
       <lb ed="#R" n="116"/>probandum perfect. onem primi principij. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e668">
                   <lb ed="#R" n="117"/>Primo sicut dicitur communiter, quod accidens 
       <lb ed="#R" n="118"/>potest esse causa termini nobilioris se, &amp; hoc in 
       <lb ed="#R" n="119"/>virtute substantiae, quod si bene intelligatur 
@@ -352,7 +350,7 @@
       <lb ed="#R" n="130"/>isttius necessariae sequelae, ex quo bene dictum est, 
       <lb ed="#R" n="131"/>quod accidentia agunt in virtute substantiae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e703">
                   <lb ed="#R" n="132"/>Et quando dicitur, quod ignobilius est causa 
       no<lb ed="#R" n="133" break="no"/>bilioris. Respondeo, quod bene ignobilius potest 
       <lb ed="#R" n="134"/>esse causa nobilioris, per modum sequelae, quando 
@@ -364,14 +362,14 @@
                   <lb ed="#R" n="1"/>modum sequelae ad substantiam, per hoc, quod 
       sub<lb ed="#R" n="2" break="no"/>stantia est causa illius. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e727">
                   <lb ed="#R" n="3"/>Et cum dicitur, quod nihil agit vltra suam 
       spe<lb ed="#R" n="4" break="no"/>ciem, &amp; ignobilius se, concedo, quod nihil agit hoc 
       <lb ed="#R" n="5"/>modo directe, &amp; vt causa sequelae: nihil autem 
       <lb ed="#R" n="6"/>prohibet aliquando agere vltra suam speciem 
       in<lb ed="#R" n="7" break="no"/>virtute alterius, quod est causa illius sequelae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e740">
                   <lb ed="#R" n="8"/>Alia responsio est Commentatoris 7. Metaph. 
       <lb ed="#R" n="9"/>comm. 3. vbi post distinctionem de agente dicens, 
       <lb ed="#R" n="10"/>quod agens est duplex, producens, &amp; faciens, 
@@ -395,7 +393,7 @@
       <lb ed="#R" n="28"/>compositi fit per hoc, quod forma extrahitur a mo 
       <lb ed="#R" n="29"/>uente materiam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e790">
                   <lb ed="#R" n="30"/>Tunc ad formam, cum dicitur, nihil agit vltra 
       <lb ed="#R" n="31"/>speciem, &amp; in nobilius se, verum est de agente 
       pro<lb ed="#R" n="32" break="no"/>ducente, &amp; faciente: si autem de agente 
@@ -418,7 +416,7 @@
       composi<lb ed="#R" n="49" break="no"/>ti tertia, materia quidem, vt inchoamentum, sed 
       <lb ed="#R" n="50"/>forma vt complementum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e839">
                   <lb ed="#R" n="51"/>Aliud dubium est, quare cum forma 
       substantia<lb ed="#R" n="52" break="no"/>lis sit prior accidente tempore, cognitione, &amp; 
       na<lb ed="#R" n="53" break="no"/>tura, magis debet accidens induci, vt sequela 
@@ -431,14 +429,14 @@
       in<lb ed="#R" n="60" break="no"/>executione, ideo magis est sequela alterius, quam 
       <lb ed="#R" n="61"/>e conuerso, vt patet expresse de forma domus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e865">
                   <lb ed="#R" n="62"/>Dices: Forma est immediatior materiae, quam 
       ac<lb ed="#R" n="63" break="no"/>cidens: secundum te autem est e conuerso. 
       Respon<lb ed="#R" n="64" break="no"/>dec: aliud est mediare inter materiam, &amp; formam, 
       <lb ed="#R" n="65"/>&amp; aliud inter formam, &amp; agens accidentia: ergo 
       me<lb ed="#R" n="66" break="no"/>diant tantum secundo modo, non primo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e878">
                   <lb ed="#R" n="67"/>Vbi considerandum est, quod materia est quod- 
       <!--0118.xml-->
       <cb ed="#R" n="b"/>
@@ -461,7 +459,7 @@
       <lb ed="#R" n="84"/>quidem esse actu, &amp; simpliciter requiritur in 
       ma<lb ed="#R" n="85" break="no"/>teria, vt est susceptiua accidentium.
   </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e926">
                   <lb ed="#R" n="86"/>Sciendum est etiam, quod ordo naturae vno 
       mo<lb ed="#R" n="87" break="no"/>do est ordo secundum productionem, prius, &amp; sic 
       <lb ed="#R" n="88"/>accidentia sunt prius ipsa forma, quia sunt 
@@ -472,7 +470,7 @@
       <lb ed="#R" n="93"/>inhaerentiae perfectionem, &amp; hoc modo forma est 
       <lb ed="#R" n="94"/>prior natura propter causam praedictam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e948">
                   <lb ed="#R" n="95"/>Ad argumentum in oppositum. Respondeo 
       ab<lb ed="#R" n="96" break="no"/>stractio formae vno modo potest intelligi a 
       mate<lb ed="#R" n="97" break="no"/>ria, alio modo a trina dimensione. Forma ergo 
@@ -483,18 +481,18 @@
       <lb ed="#R" n="102"/>corpus, vel virtus in corpore. 
     </p>
             </div>
-            <div>
-               <head>Articulus 2</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h39631-Dd1e969">
+               <head xml:id="olm8ij-h39631-Hd1e971">Articulus 2</head>
+               <head xml:id="olm8ij-h39631-Hd1e973" type="question-title">
       Utrum accidentia in Sacramento possint 
       transmutari ab agente naturali.
     </head>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e976">
                   <lb ed="#R" n="103"/>ARTICVLVS II 
       <lb ed="#R" n="104"/>Vtrum accidentia in Sacramento possint 
       transmu<lb ed="#R" n="105" break="no"/>tari ab agente naturali. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e985">
                   <lb ed="#R" n="106"/>QVantum ad secundam quaestionem arguo 
       pri<lb ed="#R" n="107" break="no"/>mo, quod accidentia in Sacramento non pos 
       <lb ed="#R" n="108"/>sint transmutari ab agente naturali sic. Nulla actio 
@@ -503,7 +501,7 @@
       <lb ed="#R" n="111"/>te naturali circa accidentia, esset sine subiecto, quia 
       <lb ed="#R" n="112"/>ibi nullum subiectum est: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e1003">
                   <lb ed="#R" n="113"/>In oppositum est, quia sensus est principium 
       con<lb ed="#R" n="114" break="no"/>gnitionis ex primo post. tex. 1. experimur autem per 
       <lb ed="#R" n="115"/>sensum, quod species illae transmutantur ab 
@@ -511,18 +509,18 @@
       <lb ed="#R" n="117"/>de sanguine, quod potest per frigus condensari, per 
       <lb ed="#R" n="118"/>calorem rarefieri. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e1020">
                   <lb ed="#R" n="119"/>Respondeo ad euidentiam huius quaestionis 
       po<lb ed="#R" n="120" break="no"/>no tres propositiones. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e1027">
                   <lb ed="#R" n="121"/>Prima est, quod accidentia in Sacramento 
       pos<lb ed="#R" n="122" break="no"/>sunt esse subiectum transmutationis ab agente 
       na<lb ed="#R" n="123" break="no"/>turali, quod non variat quantitatem: potest enim 
       <lb ed="#R" n="124"/>hostia dealbari, denigrari, &amp; alterius saporis 
       effi<lb ed="#R" n="125" break="no"/>fici ab agente naturali. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e1040">
                   <lb ed="#R" n="126"/>Hanc conclusionem probo sic: Omnis actio, quae 
       <lb ed="#R" n="127"/>non est nisi extractio rei possibilis ad formam, &amp; 
       <lb ed="#R" n="128"/>actualis ad actum, est posibilis creaturae, siue 
@@ -560,7 +558,7 @@
       acciden<lb ed="#R" n="25" break="no"/>tium, &amp; sic probata est minor illa, &amp; per consequens 
       <lb ed="#R" n="26"/>ratio videtur bona. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e1121">
                   <lb ed="#R" n="27"/>Secunda Propositio est, quod agens 
       naturale<lb ed="#R" n="28" break="no"/>potest esse causa actionis, vbi quantitas variatur, 
       <lb ed="#R" n="29"/>quia transmutatio quantitatis non est aliud, quam 
@@ -570,7 +568,7 @@
       <lb ed="#R" n="33"/>est aliud, quam extractio, &amp;c. Talis estt actio in 
       pro<lb ed="#R" n="34" break="no"/>posito: ergo. Probatur autem minor sic. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e1141">
                   <lb ed="#R" n="35"/>Vbi sciendum, quod subiectum quantitatis sunt 
       <lb ed="#R" n="36"/>ipsae qualitates, licet non principale, sed secundum 
       <lb ed="#R" n="37"/>quid, vt dictum fuit quaestione 3. supra. Et in 
@@ -584,12 +582,12 @@
       <lb ed="#R" n="45"/>quantitate ad minorem, siue e conuerso. Sed hic 
       <lb ed="#R" n="46"/>occurrunt quaedam dubia.
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e1170">
                   <lb ed="#R" n="47"/>Primum, quia falsum videtur, quod quantitas 
       <lb ed="#R" n="48"/>sit subiectiue in qualitate, tum quia 4. Metaph. tex. 
       <lb ed="#R" n="49"/>2. proprium est superficici primo loco collocari. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e1180">
                   <lb ed="#R" n="50"/>Secundo, quia secundum hoc est circulus in cau 
       <lb ed="#R" n="51"/>sis, quia hoc modo qualitas estt subiectum 
       quanti<lb ed="#R" n="52" break="no"/>tatis, &amp; quantitas qualitatis: consequens est 
@@ -598,7 +596,7 @@
       sorma<lb ed="#R" n="55" break="no"/>bile illud est formabile respectu istius, &amp; e 
       conuer<lb ed="#R" n="56" break="no"/>so istud respectu illius. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e1198">
                   <lb ed="#R" n="57"/>Item: Ratio per quam probas, quod quantitas sit 
       <lb ed="#R" n="58"/>subiectiue in quantitate, videtur peccare secundum 
       <lb ed="#R" n="59"/>consequens: licet enim accidens denominet 
@@ -606,7 +604,7 @@
       subie<lb ed="#R" n="61" break="no"/>ctum, nam formia quandoque denominatur per ma 
       <lb ed="#R" n="62"/>teriam, sicut cum dicitur circulus aeneus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e1214">
                   <lb ed="#R" n="63"/>Respondeo ad ista. Difficultas ex hoc oritur, 
       <lb ed="#R" n="64"/>quod imaginantur homines quantitatem 
       habere<lb ed="#R" n="65" break="no"/>partes, &amp; secundum hoc in rarefactione 
@@ -623,12 +621,12 @@
       <lb ed="#R" n="74"/>ergo qualitates partes habeant, sequitur, quod sint 
       <lb ed="#R" n="75"/>subiectum quantitatis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e1249">
                   <lb ed="#R" n="76"/>Tunc ad illud Philosophi dico, quod accipit 
       <lb ed="#R" n="77"/>ibi superficiem pro toto concreto, quod capit subie 
       <lb ed="#R" n="78"/>ctum, &amp; ipsam partibilitatem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e1258">
                   <lb ed="#R" n="79"/>Ad illud de circulo, concedo, quod impossibile 
       <lb ed="#R" n="80"/>est circulum in eodem genere esse, &amp; iu eadem 
       spe<lb ed="#R" n="81" break="no"/>cie, vt quod quantitas daret esse partibile, &amp; quod 
@@ -639,7 +637,7 @@
       <lb ed="#R" n="86"/>formalem, scilicet esse partibile, &amp; recipit per 
       qua<lb ed="#R" n="87" break="no"/>litatem alium, scilicet ele quale. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e1280">
                   <lb ed="#R" n="88"/>Ad illud de fallacia consequentis, Respondeo, 
       <lb ed="#R" n="89"/>multum est dissimile de effectu formali, &amp; de 
       deno<lb ed="#R" n="90" break="no"/>minatione materiae, &amp; ex alia parte de effectu 
@@ -658,7 +656,7 @@
       <lb ed="#R" n="103"/>albedo enim per quantitatem trahitur ad habere-- 
       <lb ed="#R" n="104"/>partem 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e1320">
                   <lb ed="#R" n="105"/>Secunda Propositio est, quod duae opiniones, 
       <lb ed="#R" n="106"/>quae ponuntur circa hoc, stare non possunt. Prima 
       <lb ed="#R" n="107"/>quae dicit, quod quando species illae rarefiunt, 
@@ -668,7 +666,7 @@
       quan<lb ed="#R" n="111" break="no"/>titas creatur, quia fit ex praecedenti sicut ex 
       ter<lb ed="#R" n="112" break="no"/>mino. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e1340">
                   <lb ed="#R" n="113"/>Sed ista opinio, puto, quod non sit rationabilis, 
       <lb ed="#R" n="114"/>ratio es, quia per impossibile habeo, quod 
       virtu<lb ed="#R" n="115" break="no"/>te naturali accidens siue in facto esse, siue in fieri 
@@ -677,7 +675,7 @@
       <lb ed="#R" n="118"/>crearet necessario, nec terminus, a quo tollit 
       ditio<lb ed="#R" n="119" break="no"/>nem eo, quod nihil est sui. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e1358">
                   <lb ed="#R" n="120"/>Similiter nec opinio secunda est vera, quod ibi 
       <lb ed="#R" n="121"/>concurrit agens supernatura le supplens vicem ma 
       <lb ed="#R" n="122"/>teriae, non quidem in recipiendo, sed in 
@@ -687,7 +685,7 @@
       si<lb ed="#R" n="126" break="no"/>militer virtute diuina in ratione causalitatis 
       agen<lb ed="#R" n="127" break="no"/>tis, &amp; materiae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e1378">
                   <lb ed="#R" n="128"/>Ista inquam opinio non placet mihi, tum 
       quia<lb ed="#R" n="129" break="no"/>causalitas materiae est extrahi ad actum, hoc Deus 
       <lb ed="#R" n="130"/>non potest supplere; tum quia agens naturale 
@@ -696,7 +694,7 @@
       <lb ed="#R" n="133"/>per modum possibilis, quia trahitur ad actum, &amp; 
       <lb ed="#R" n="134"/>hoc Deus non supplet. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e1396">
                   <lb ed="#R" n="135"/>Ad argumentum in oppositum patet ex dictis: 
       <lb ed="#R" n="136"/>nullum enim accidens est in Sacramento, quod 
       <!--0120.xml-->
@@ -709,25 +707,25 @@
       principa<lb ed="#R" n="5" break="no"/>li, &amp; simpliciter, vt dictum est. 
     </p>
             </div>
-            <div>
-               <head>Articulus 3</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h39631-Dd1e1421">
+               <head xml:id="olm8ij-h39631-Hd1e1423">Articulus 3</head>
+               <head xml:id="olm8ij-h39631-Hd1e1425" type="question-title">
       Utrum ex accidentibus in Sacramento possit 
       aliqua substantia generari.
     </head>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e1428">
                   <lb ed="#R" n="6"/>ARTICVLVS III 
       <lb ed="#R" n="7"/>Vtrum ex accidentibus in Sacramento possit 
       ali<lb ed="#R" n="8" break="no"/>qua substantia generari. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e1437">
                   <lb ed="#R" n="9"/>QVo ad tertiam quaestionem arguo primo, quod 
       <lb ed="#R" n="10"/>ex accidentibus in Sacramento possit aliqua 
       <lb ed="#R" n="11"/>-substantia generari, quia sensu experimur 
       <lb ed="#R" n="12"/>ex speciebus illis quandoque vermes, 
       quando<lb ed="#R" n="13" break="no"/>que substantias alias generari. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e1450">
                   <lb ed="#R" n="14"/>In oppositum est, quia aut generabitur ex 
       sub<lb ed="#R" n="15" break="no"/>stantia, aut ex accidentibus: non primo modo, quia 
       <lb ed="#R" n="16"/>ibi non est substantia: nec ex accidentibus, nec ex 
@@ -742,7 +740,7 @@
       propositio<lb ed="#R" n="25" break="no"/>nem probo. Primo quod sit possibilis. Secundo 
       <lb ed="#R" n="26"/>de facto. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e1482">
                   <lb ed="#R" n="27"/>Primo sic: Si agens naturale in vltimo instanti, 
       <lb ed="#R" n="28"/>quo inducit vltimas dispositiones, non posset 
       indu<lb ed="#R" n="29" break="no"/>cere formam substantialem, hoc est, vel quia 
@@ -763,7 +761,7 @@
       <lb ed="#R" n="44"/>dispositionum; similiter nec est defectus ex 
       parte<lb ed="#R" n="45" break="no"/>agentis ex eadem ratione. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e1526">
                   <lb ed="#R" n="46"/>Nec secundo, quia materia non possit in 
       instan<lb ed="#R" n="47" break="no"/>ri, quo redit, formam suscipere, quia pro 
       quocun<lb ed="#R" n="48" break="no"/>que instanti, quo res aliqua est, potest recipere, quod 
@@ -778,7 +776,7 @@
       in<lb ed="#R" n="57" break="no"/>ducere: nunc autem supponitur, quod in instanti 
       <lb ed="#R" n="58"/>illo materia ibi sit actione Dei: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e1557">
                   <lb ed="#R" n="59"/>Secundo probo, quod ita est de facto, quia 
       po<lb ed="#R" n="60" break="no"/>nenda non sunt plura miracula ad aliquem effectum, 
       <lb ed="#R" n="61"/>qui potest saluari per pauciora: sed ponendo, quod 
@@ -787,7 +785,7 @@
       <lb ed="#R" n="64"/>materia redeunte, est ponere pauciora miracula, &amp; 
       <lb ed="#R" n="65"/>cum hoc possibile, vt probatum est: ergo.
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e1575">
       <!--0120.xml-->
                   <cb ed="#R" n="b"/>
                   <lb ed="#R" n="66"/>Probatio minoris, nam modus qui poneret, quod 
@@ -796,13 +794,13 @@
       Domi<lb ed="#R" n="69" break="no"/>ni nulla est alia substantia, quandiu ipse manet 
       se<lb ed="#R" n="70" break="no"/>cundum dicta Sanctorum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e1593">
                   <lb ed="#R" n="71"/>Ex praeterea si rediret, nihil faceret, eo quod 
       al<lb ed="#R" n="72" break="no"/>teratio habet sufficiens subiectum, vsque ad 
       vlti<lb ed="#R" n="73" break="no"/>mum instans, in quo debet induci forma: ergo pro 
       <lb ed="#R" n="74"/>illo tantum instanti sufficit ponere materiam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e1604">
                   <lb ed="#R" n="75"/>Sed sunt hic quaedam dubia. Primum est, quod 
       <lb ed="#R" n="76"/>alterans, siue naturale agens non attingit materiam, 
       <lb ed="#R" n="77"/>nisi quantam: Deus autem agendo, quod redeat 
@@ -810,7 +808,7 @@
       <lb ed="#R" n="79"/>nec videtur, quod sit quanta quantitate priori: 
       <lb ed="#R" n="80"/>ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e1621">
                   <lb ed="#R" n="81"/>Et confirmo: quomodo enim efficietur 
       quanta<lb ed="#R" n="82" break="no"/>quantitate illa, quae fuit prioris transmutationis, 
       <lb ed="#R" n="83"/>aut impressiue, vel quomodo aliter, non apparet mo 
@@ -818,7 +816,7 @@
       actua<lb ed="#R" n="85" break="no"/>bilis ad actum, quod autem extrahitur oportet 
       <lb ed="#R" n="86"/>praeexistere acttui. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e1637">
                   <lb ed="#R" n="87"/>Respondeo ad primum, quod agens materiam 
       <lb ed="#R" n="88"/>inuenit quantam: fit enim in instanti, quo redit 
       <lb ed="#R" n="89"/>sub dimensionibus, &amp; modus est iste, quod sicut 
@@ -829,13 +827,13 @@
       <lb ed="#R" n="94"/>sic potest materiam nouiter inductam vnire praeexi 
       <lb ed="#R" n="95"/>stenti quantitati. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e1659">
                   <lb ed="#R" n="96"/>Ad illud de extractione, respondeo non 
       opor<lb ed="#R" n="97" break="no"/>tet, quod illud, quod extrahitur, praeexistat, nisi 
       <lb ed="#R" n="98"/>quando extractio est succesiua, qualis non est in 
       <lb ed="#R" n="99"/>proposito. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h39631-d1e1670">
                   <lb ed="#R" n="100"/>Ad argumentum in oppositum, aliqui dicunt, 
       <lb ed="#R" n="101"/>quod generabitur in substantia ex quantitate 
       in<lb ed="#R" n="102" break="no"/>terminata: mihi non videtur rationabile dictum, 

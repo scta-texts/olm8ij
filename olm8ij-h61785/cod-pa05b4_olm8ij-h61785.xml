@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,13 +53,13 @@
       </front>
       <body>
          <div xml:id="olm8ij-h61785"> <!-- l4-d34prae -->
-            <head>Praeambulum</head>
-            <p>
+            <head xml:id="olm8ij-h61785-Hd1e102">Praeambulum</head>
+            <p xml:id="olm8ij-h61785-d1e104">
                <lb ed="#R" n="28"/>DJSTJNCTJO XXXIV. 
       <lb ed="#R" n="29"/>DE MATERIA 
       <lb ed="#R" n="30"/>MATRIMONII.
     </p>
-            <p>
+            <p xml:id="olm8ij-h61785-d1e113">
                <lb ed="#R" n="31"/>Nunc superest, &amp;c. In ista Trigesimaquarta 
       <lb ed="#R" n="32"/>Distinctione agit Magister de Matrimonio 
       <lb ed="#R" n="33"/>in ordine ad materiam istius Sacramenti, 
@@ -70,7 +68,7 @@
       <lb ed="#R" n="36"/>Ad euidentiam istius Distinctionis quaero 
       <lb ed="#R" n="37"/>duas Quae stiones. 
   </p>
-            <p>
+            <p xml:id="olm8ij-h61785-d1e131">
                <lb ed="#R" n="38"/>1 Prima est: Vtrum impotentia ad actum 
       ma<lb ed="#R" n="39" break="no"/>trimonialem impediat matrimonium. 
       <lb ed="#R" n="40"/>2 Secunda est: Vtrum maleficium possit 

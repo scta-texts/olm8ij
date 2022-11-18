@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,15 +53,15 @@
       </front>
       <body>
          <div xml:id="olm8ij-h62747"> <!-- l4-d36prae -->
-            <head>Praeambulum</head>
-            <p>
+            <head xml:id="olm8ij-h62747-Hd1e102">Praeambulum</head>
+            <p xml:id="olm8ij-h62747-d1e104">
                <lb ed="#R" n="10"/>DISTINCTIO XXXVI 
       <lb ed="#R" n="11"/>DE SERVJTVTJS 
       <lb ed="#R" n="12"/>
                <!--line coord error -->
                <lb ed="#R" n="13"/>IMPEDJMENTO. 
   </p>
-            <p>
+            <p xml:id="olm8ij-h62747-d1e117">
                <lb ed="#R" n="14"/>Nunc de conditione videamus. In ista 
       <lb ed="#R" n="15"/>Distinctione Trigesima sexta agit Magister 
       <lb ed="#R" n="16"/>de alio impedimento matrimonij, scilicet 

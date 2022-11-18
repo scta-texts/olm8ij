@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,21 +53,21 @@
       </front>
       <body>
          <div xml:id="olm8ij-h41283"> <!-- l4-d13q1 -->
-            <head>Quaestio 1</head>
-            <p>
+            <head xml:id="olm8ij-h41283-Hd1e102">Quaestio 1</head>
+            <p xml:id="olm8ij-h41283-d1e104">
       <!--0121.xml-->
                <pb ed="#R" n="121"/>
                <cb ed="#R" n="a"/>
                <lb ed="#R" n="1"/>Quaestio Vnica. 
   </p>
-            <div>
-               <head>Articulus 1</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h41283-Dd1e115">
+               <head xml:id="olm8ij-h41283-Hd1e117">Articulus 1</head>
+               <head xml:id="olm8ij-h41283-Hd1e119" type="question-title">
       Utrum miracula, quae fiunt actione diuina in hoc 
       Sacramento, sint contra propositiones per 
       se in secundo modo.
     </head>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e122">
                   <lb ed="#R" n="2"/>ARTICVLVUS I. 
       <lb ed="#R" n="3"/>Vtrum miracula, quae fiunt actione diuina in hoc 
       <lb ed="#R" n="4"/>Sacramento, sint contra propositiones per 
@@ -79,7 +77,7 @@
                   <lb ed="#R" n="7"/>
                   <!-- line coord error -->
                </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e142">
                   <lb ed="#R" n="8"/>QVANTVM ad primum 
       <lb ed="#R" n="9"/>quaestionem arguo, quod 
       <lb ed="#R" n="10"/>
@@ -93,14 +91,14 @@
                   <lb ed="#R" n="15"/>modo, Deus non potest 
       fa<lb ed="#R" n="16" break="no"/>cre sea veus illa facit: 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e171">
                   <lb ed="#R" n="17"/>Probatio maioris, quia 
       <lb ed="#R" n="18"/>quae repugnant ex 
       termi<lb ed="#R" n="19" break="no"/>ns in secundo modo, sunt impossibilia in se: sed 
       <lb ed="#R" n="20"/>quod est in se impossibile, omni potentiae est impos 
       <lb ed="#R" n="21"/>sibile: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e185">
                   <lb ed="#R" n="22"/>In oppositum est, quia propositiones, per quas 
       <lb ed="#R" n="23"/>procedit, sicut per principia mathematica, sunt per 
       <lb ed="#R" n="24"/>se in secundo modo: probo per Simplicium super 
@@ -114,12 +112,12 @@
       <lb ed="#R" n="32"/>vt patet de quantitate corporis Christi, &amp; 
       quanti<lb ed="#R" n="33" break="no"/>tate hostiae: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e214">
                   <lb ed="#R" n="34"/>Respondeo primo ponam propositionem inten · 
       <lb ed="#R" n="35"/>tam. Secundo recitabo instantias factas 
       contra<lb ed="#R" n="36" break="no"/>eam. Tertio soluam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e223">
                   <lb ed="#R" n="37"/>Quoad primum pono istam propositionem, quod 
       <lb ed="#R" n="38"/>Deus potestt simpliciter illud, quod repugnat ex 
       <lb ed="#R" n="39"/>terminis in secundo modo: &amp; praeterea, quod non 
@@ -131,13 +129,13 @@
       <lb ed="#R" n="45"/>modo, &amp; haec est mens antiquorum Doctorum, quod 
       <lb ed="#R" n="46"/>Deus potest, quicquid non includit contradictionem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e247">
                   <lb ed="#R" n="47"/>Primam partem istius propositionis de 
       possibi<lb ed="#R" n="48" break="no"/>litate probaui in prima quaestione istius quarti, 
       <lb ed="#R" n="49"/>contra probationem vero illam fecit Doctor 
       qui<lb ed="#R" n="50" break="no"/>dam solemnis instantias, quas inferius recitabo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e258">
                   <lb ed="#R" n="51"/>Secundam partem propositionis, quae est de 
       fa<lb ed="#R" n="52" break="no"/>cto probo: vbi probare intendo tria. Primo quod 
       <lb ed="#R" n="53"/>secundum fidem Deus facit de facto contra 
@@ -146,7 +144,7 @@
       <lb ed="#R" n="56"/>quod est contra propositiones physicas, quae 
       om<lb ed="#R" n="57" break="no"/>nes clarum es, quod sint in secundo modo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e276">
                   <lb ed="#R" n="58"/>Primum sic probo, nam ista est per se in secundo 
       mo<lb ed="#R" n="59" break="no"/>do propositio Mathematica: Jmpossibile est duas 
       <lb ed="#R" n="60"/>dimensiones esse simul, ita quod propositio ista 
@@ -185,7 +183,7 @@
       termi<lb ed="#R" n="91" break="no"/>norum multiplicari passionem, atque 
       quicunque<lb ed="#R" n="92" break="no"/>intellectus capit terminos, capit passionem.
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e360">
                   <lb ed="#R" n="93"/>Dicunt quidam, quod dimensio repugnat 
       dimen<lb ed="#R" n="94" break="no"/>sioni propter actiuitatem. Sed contra, quia dimensio 
       <lb ed="#R" n="95"/>non est forma actiua 4. Physic. comm. penult. 2. 
@@ -202,7 +200,7 @@
       <lb ed="#R" n="106"/>in alio, quaelibet. n. linea habet in se, quod simul cum 
       <lb ed="#R" n="107"/>linea cadente super eam constituat angulum rectum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e395">
                   <lb ed="#R" n="108"/>Tertio: Jsta propositio est per se secundo modo, 
       <lb ed="#R" n="109"/>&amp; ponitur J1. libro Euclidis, quod impossibile est 
       <lb ed="#R" n="110"/>duas lineas in directum applicari, ratio est, quia 
@@ -212,7 +210,7 @@
       <lb ed="#R" n="114"/>poteris ducere lineam in directum, quae lineae tunc 
       <lb ed="#R" n="115"/>applicabuntur in directum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e415">
                   <lb ed="#R" n="116"/>Quarto: Propositio est per se secundo modo in 
       <lb ed="#R" n="117"/>Mathematica, quod ab eodem situ ad eundem situm 
       <lb ed="#R" n="118"/>impossibile est trahere, nisi vnam lineam: contra 
@@ -222,7 +220,7 @@
       si<lb ed="#R" n="122" break="no"/>tum, vbi sunt duo alia corpora, potes trahere duas 
       <lb ed="#R" n="123"/>lineas, imo tot lineas, quot sunt simul corpora. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e435">
                   <lb ed="#R" n="124"/>Item quinto specialiter in Sacramento altaris, 
       <lb ed="#R" n="125"/>ista est propositio per se nota in mathematicis, 
       <lb ed="#R" n="126"/>quod impossibile est duo corpora esse simul, &amp; q 
@@ -247,7 +245,7 @@
       <lb ed="#R" n="2"/>&amp; tamen nullus ibi est contactus, sic quod Deus a 
       <lb ed="#R" n="3"/>quantitatibus simul existentibus abstrahit contactum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e487">
                   <lb ed="#R" n="4"/>Dices, quod hoc non est mirum: ratio est, quia 
       <lb ed="#R" n="5"/>ibi sunt dimensiones modo non quantitatiuo, quia 
       <lb ed="#R" n="6"/>sunt in modo subsantiae. Contra, hoc 
@@ -264,14 +262,14 @@
       commensuratione<lb ed="#R" n="17" break="no"/>Respondet, quod ideo quia quantitas est ibi 
       sine<lb ed="#R" n="18" break="no"/>contacttu, &amp; commensuratione. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e522">
                   <lb ed="#R" n="19"/>Sexto haec proposit io est in secundo modo dicen 
       <lb ed="#R" n="20"/>di per se. Duae dimensiones simul existentes 
       ne<lb ed="#R" n="21" break="no"/>cessario ad inuicem commensurantur. Hic dixit 
       <lb ed="#R" n="22"/>quidam, quod commensuratio non fundatur super 
       <lb ed="#R" n="23"/>quantitatem, sed super contactum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e536">
                   <lb ed="#R" n="24"/>Contra, tum quia relatio non fundatur super 
       re<lb ed="#R" n="25" break="no"/>lationem, tum quia possibile est, quod duae 
       quanti<lb ed="#R" n="26" break="no"/>tates se non contingant, &amp; tamen se 
@@ -285,7 +283,7 @@
       di<lb ed="#R" n="34" break="no"/>mensiones corporis Christi, &amp; panis absque hoc, 
       <lb ed="#R" n="35"/>quod se commensurent: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e565">
                   <lb ed="#R" n="36"/>Secundo principaliter probo, quod Deus facit 
       <lb ed="#R" n="37"/>de facto contra propositiones metaphysicas in 
       se<lb ed="#R" n="38" break="no"/>cundo modo dicendi per se. Probo, haec est in secun 
@@ -313,14 +311,14 @@
       ha<lb ed="#R" n="60" break="no"/>bere, quod sit in secundo modo. Confirmo hoc 
       <lb ed="#R" n="61"/>per Aristotelem in praedicamentis substantiae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e624">
                   <lb ed="#R" n="62"/>Prima substantia est, quae proprie, &amp; principaliter 
       <lb ed="#R" n="63"/>&amp; maxime subsistit; nec intelligit subsistere tantum 
       <lb ed="#R" n="64"/>accidentibus, sed omni quidditati, &amp; secundae 
       sub<lb ed="#R" n="65" break="no"/>stantiae, alias secundae substantiae essent primae: sed 
       <lb ed="#R" n="66"/>subsistere hoc modo est esse suppositum: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e637">
                   <lb ed="#R" n="67"/>Ad idem: Omne illud inest per se alicui, quod inest 
       <lb ed="#R" n="68"/>omni alio circũscripto, patet de omnibus passio- 
       <!--0122.xml-->
@@ -330,7 +328,7 @@
       <lb ed="#R" n="71"/>Doctores si natura humana sibi relinqueretur, essset 
       <lb ed="#R" n="72"/>per se suppositum, nullo alio addito: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e657">
                   <lb ed="#R" n="73"/>Secundo, quantum ad istum articulum ista est per 
       <lb ed="#R" n="74"/>se in secundo modo. Accidens inhaeret. Probatio 
       <lb ed="#R" n="75"/>istius. Vbicunque praedicatur effectus formalis de 
@@ -342,7 +340,7 @@
       ac<lb ed="#R" n="81" break="no"/>cidens inhaeret, &amp; accidens accidit, sed Deus facit 
       <lb ed="#R" n="82"/>contra propositionem istam in Sacramento: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e681">
                   <lb ed="#R" n="83"/>Dices: Tu capis actu inhaerere, sed illud non est 
       pas<lb ed="#R" n="84" break="no"/>sio propria accidentis, sed aptitudo ad inhaerendum, 
       <lb ed="#R" n="85"/>sicut conceditur, nam passio non consistit in actu, sed 
@@ -369,7 +367,7 @@
       determina<lb ed="#R" n="106" break="no"/>tio ad actum, nec est sola potentialitas ad actum, 
       <lb ed="#R" n="107"/>vt putant alij. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e739">
                   <lb ed="#R" n="108"/>Confirmo hoc quia ista propositio: Anima habet 
       <lb ed="#R" n="109"/>tres potentias, est per se secundo modo, &amp; 
       tamen<lb ed="#R" n="110" break="no"/>praedicatum est de actu, non de sola habitudine, nec 
@@ -385,7 +383,7 @@
       neces<lb ed="#R" n="120" break="no"/>sario, quod oritur ex essentia subiecti: sed inhaerere 
       <lb ed="#R" n="121"/>actu est huiusmodi: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e772">
                   <lb ed="#R" n="122"/>Item idem probo aliter, quia per se secundum 
       <lb ed="#R" n="123"/>Commentatorem 5. Metaph, com. 4. &amp; infra, es 
       il<lb ed="#R" n="124" break="no"/>lud, quod immediate inhaeret, &amp; habet causam in 
@@ -396,7 +394,7 @@
       proposi<lb ed="#R" n="129" break="no"/>tiones, in quibus praedicatur accidens actu de 
       sub<lb ed="#R" n="130" break="no"/>iecto, sunt huiusmodi: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e794">
                   <lb ed="#R" n="131"/>Item tertio: Omnis propositio est per se, quae 
       po<lb ed="#R" n="132" break="no"/>nitur pro conclusione in scientijs demonstratiuis, 
       <lb ed="#R" n="133"/>sed actualitas passionis ponitur pro conclusione in 
@@ -417,7 +415,7 @@
       praedi<lb ed="#R" n="9" break="no"/>catur actualitas passionis de subiecto, non tantum 
       <lb ed="#R" n="10"/>illa vbi praedicatur aptitudo: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e838">
                   <lb ed="#R" n="11"/>Tertio principaliter probo, quod Deus facit de 
       <lb ed="#R" n="12"/>facto secundum fidem contra propositiones 
       physi<lb ed="#R" n="13" break="no"/>cas per se in secundo modo. Primo quia ista est 
@@ -431,7 +429,7 @@
       <lb ed="#R" n="21"/>intrinseca naturae terrae, quia secundum aliquos 
       <lb ed="#R" n="22"/>grauitas est forma substantialis eius
    </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e867">
     <!-- missing line break -->Confirmo hoc: si Deus transubstantiaret vnum
       <lb ed="#R" n="23"/>hominem, remanentibus accidentibus, ita 
       rema<lb ed="#R" n="24" break="no"/>nerent accidentia hominis sicut panis, vnde 
@@ -454,7 +452,7 @@
       gra<lb ed="#R" n="41" break="no"/>uitas a pane, &amp; quod grauitas non dicit nisi 
       respe<lb ed="#R" n="42" break="no"/>ctum, sicut nec risibile secundum eos. 
    </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e915">
                   <lb ed="#R" n="43"/>Illud etiam, quod additur a quibusdam ad 
       pro<lb ed="#R" n="44" break="no"/>bandum, quod ridere actu est proprium hominis, 
       <lb ed="#R" n="45"/>non procedunt ex similibus, quoniam ridere est 
@@ -473,7 +471,7 @@
       <lb ed="#R" n="58"/>quia videns quidditates rerum, videt necessarium 
       <lb ed="#R" n="59"/>ortum passionum suaruma quiditate. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e955">
                   <lb ed="#R" n="60"/>Secundo principaliter recito quasdam 
       instan<lb ed="#R" n="61" break="no"/>tias factas contra praedicta, &amp; contra ea quae 
       di<lb ed="#R" n="62" break="no"/>xi in prima quaestione huius quarti, quando 
@@ -482,7 +480,7 @@
       <lb ed="#R" n="65"/>ratione alterius extremi non includeret 
       repugnan<lb ed="#R" n="66" break="no"/>tiam primi modi. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e973">
       <!-- missing line break -->Arguitur ergo primo contra conclusionem in se 
       <!--0123.xml-->
       <cb ed="#R" n="b"/>
@@ -491,7 +489,7 @@
       crea<lb ed="#R" n="69" break="no"/>turae ad Deum est in secundo modo, &amp; tamen Deus 
       <lb ed="#R" n="70"/>non potest eam separare, &amp; absoluere a creatura. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e991">
                   <lb ed="#R" n="71"/>Item: duo alba sunt similia, est per se in secund o 
       <lb ed="#R" n="72"/>modo, tamen non potest Deus similitudinem a 
       <lb ed="#R" n="73"/>duobus albis separare. Primo quia nihil aliud est 
@@ -499,12 +497,12 @@
       <lb ed="#R" n="75"/>eiusdem speciei. Deus autem facere non potest, 
       <lb ed="#R" n="76"/>quin sint eiusdem speciei. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1007">
                   <lb ed="#R" n="77"/>Tertio quia Spiritum sanctum procedere a filio, 
       <lb ed="#R" n="78"/>est secundo modo: ergo facere, quod Spiritus 
       san<lb ed="#R" n="79" break="no"/>ctus non procederet a filio. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1016">
                   <lb ed="#R" n="80"/>Secundo Probatur, quod conclusio sit 
       vniuersa<lb ed="#R" n="81" break="no"/>liter falsa, quia propositio, quae tenet ex 
       termi<lb ed="#R" n="82" break="no"/>nis secundo modo, fundatur super aptitudinem 
@@ -512,14 +510,14 @@
       <lb ed="#R" n="84"/>Deus stante natura terminorum non potest 
       auser<lb ed="#R" n="85" break="no"/>re aptitudinem earum: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1032">
                   <lb ed="#R" n="86"/>Tertio, quod exempla sunt non ad propositum, 
       <lb ed="#R" n="87"/>quia in Sacramento altaris non est quantitas 
       mo<lb ed="#R" n="88" break="no"/>do quantitatis, sed modo substantiae, &amp; ideo non 
       <lb ed="#R" n="89"/>oportet, quod insint sibi passiones, quas 
       mathe<lb ed="#R" n="90" break="no"/>maticus probat de quantitate. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1046">
                   <lb ed="#R" n="91"/>Quarto contra rationem, qua probaui 
       conclu<lb ed="#R" n="92" break="no"/>sionem istam in prima quaestione, quando argui 
       <lb ed="#R" n="93"/>quia illud, quod in primo modo dicendi per se est 
@@ -528,7 +526,7 @@
       <lb ed="#R" n="96"/>possibile, alias potentia passiua esset in entibus 
       re<lb ed="#R" n="97" break="no"/>spectu alicuius, respectu cuiusnon estipotentia actiua. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1064">
                   <lb ed="#R" n="98"/>Contra istam rationem arguitur, quod esse 
       im<lb ed="#R" n="99" break="no"/>possibile simpliciter potest dupliciter intelligi, vel 
       <lb ed="#R" n="100"/>quia habet omnes causas impossibilitatis, sicut 
@@ -555,7 +553,7 @@
       <lb ed="#R" n="121"/>ad hoc, quod nulla vera potentia possit super illud. 
       <lb ed="#R" n="122"/>Respondeo nunc ad istas instantias. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1121">
                   <lb ed="#R" n="123"/>Ad primam dico, quod Deus non potest facere 
       <lb ed="#R" n="124"/>creaturam sine dependentia ad Deum, &amp; hoc quia 
       <lb ed="#R" n="125"/>ratione alterius extremi includit repugnantiam 
@@ -569,7 +567,7 @@
       ali<lb ed="#R" n="133" break="no"/>quid, quod concludit repugnantiam in primo modo 
       <lb ed="#R" n="134"/>scilicet hoc, quod dicitur fieri sine dependentia.
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1150">
       <!--0124.xml-->
                   <pb ed="#R" n="124"/>
                   <cb ed="#R" n="a"/>
@@ -582,7 +580,7 @@
       di<lb ed="#R" n="7" break="no"/>cendi per se, nisi ratione alterius extremi 
       includa<lb ed="#R" n="8" break="no"/>tur repugnantia de primo modo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1176">
                   <lb ed="#R" n="9"/>Ad aliud, quod dicitur de similitudine, 
       Respon<lb ed="#R" n="10" break="no"/>deo, aut similitudo est res tertia a duobus albis, aut 
       <lb ed="#R" n="11"/>vt ipse videtur dicere, similitudo non est aliud, quam 
@@ -591,7 +589,7 @@
       <lb ed="#R" n="14"/>contradictio est facere duo alba, &amp; quod non fiunt 
       <lb ed="#R" n="15"/>album, &amp; coalbum.
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1194">
                   <lb ed="#R" n="16"/>Si vero detur, quod sit res tertia, dico quod 
       po<lb ed="#R" n="17" break="no"/>testt manutenere realitatem duorum alborum, sine 
       <lb ed="#R" n="18"/>similitudine, vt Doctores quidam dicunt. Et ego 
@@ -606,7 +604,7 @@
       vniuersali<lb ed="#R" n="27" break="no"/>ter, quando propositio, quae ponitur in secundo mo 
       <lb ed="#R" n="28"/>do fundatur super habitudinem duarum rerum.
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1226">
                   <lb ed="#R" n="29"/>Ad illud de Spiritu sancto Respondeo quasi per 
       <lb ed="#R" n="30"/>idem: propositio enim de secundo modo 
       quando<lb ed="#R" n="31" break="no"/>que fundatur super connexionem praedicati 
@@ -621,11 +619,11 @@
       <lb ed="#R" n="40"/>fundatam super connexionem praedicati, quae est 
       <lb ed="#R" n="41"/>res alia a subiecto, alias non. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1257">
                   <lb ed="#R" n="42"/>Ad propositum essentia, &amp; spirare non sunt duae 
       <lb ed="#R" n="43"/>res, sed sunt res vna habens duos modos identitatis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1264">
                   <lb ed="#R" n="44"/>Quod postea arguitur, quod propositio de secun 
       <lb ed="#R" n="45"/>do modo fundatur super aptitudinem terminorum, 
       <lb ed="#R" n="46"/>quae non potest terminis stantibus separari. Respon 
@@ -635,13 +633,13 @@
       <lb ed="#R" n="50"/>non tantum super aptitudinem, vt visum est in 
       cor<lb ed="#R" n="51" break="no"/>pore quaestionis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1284">
                   <lb ed="#R" n="52"/>Ad aliud, quod est contra rationem. Dicendum 
       <lb ed="#R" n="53"/>primo, quomodo ratio concludat, &amp; in qua 
       virtu<lb ed="#R" n="54" break="no"/>te &amp; sorma, dimitto nunc, quia satis habetur 
       <lb ed="#R" n="55"/>prima quaestione.
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1295">
                   <lb ed="#R" n="56"/>Ad instantiam ergo respondeo, non capio ego ibi 
       <lb ed="#R" n="57"/>impossibile tantummodo pro carente aliqua 
       cau<lb ed="#R" n="58" break="no"/>sa impossibilitatis, sed pro carente ipsa 
@@ -673,7 +671,7 @@
       <lb ed="#R" n="82"/>pos sibile absolute; quod vero venit contra, habet 
       <lb ed="#R" n="83"/>impossibilitatem absolutam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1363">
                   <lb ed="#R" n="84"/>Alia autem impossibilitas est ex connexione 
       re<lb ed="#R" n="85" break="no"/>rum, quae potest immutari ab eo, qui potest super 
       <lb ed="#R" n="86"/>totam naturam. Et haec est intentio Hugonis de 
@@ -684,7 +682,7 @@
       <lb ed="#R" n="91"/>facere naturam eius talem, quod possit esse in 
       plu<lb ed="#R" n="92" break="no"/>ribus locis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1386">
                   <lb ed="#R" n="93"/>Dices forte, quod arguere, hoc est possibile in 
       <lb ed="#R" n="94"/>primo modo: ergo est possibile simpliciter, est 
       fal<lb ed="#R" n="95" break="no"/>lacia consequentis, quia ex vno modo 
@@ -699,7 +697,7 @@
       in<lb ed="#R" n="104" break="no"/>telligo, quod illud, quod non repugnat primo 
       mo<lb ed="#R" n="105" break="no"/>do, sit possibile simpliciter, idest absolute 
       abs<lb ed="#R" n="106" break="no"/>que repugnantia primi principij. Exemplum est 
-      <lb ed="#R" n="107"/>ad hoc <ref>5. Physic. tex. 14.</ref> vbi arguit Philosophus, 
+      <lb ed="#R" n="107"/>ad hoc <ref xml:id="olm8ij-h41283-Rd1e1420">5. Physic. tex. 14.</ref> vbi arguit Philosophus, 
       <lb ed="#R" n="108"/>quod materia non potest moueri, quia non ens: 
       <lb ed="#R" n="109"/>ergo: vbi ly non ens potest accipi simpliciter, hoc 
       <lb ed="#R" n="110"/>est vniuersaliter, &amp; sic minor est falsa, quia materia 
@@ -710,7 +708,7 @@
       <lb ed="#R" n="115"/>possibile simpliciter, &amp; eius oppositum est 
       impos<lb ed="#R" n="116" break="no"/>sibile vniuersaliter, quia nullomodo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1443">
                   <lb ed="#R" n="117"/>Alij arguunt contra propositionem principalem, 
       <lb ed="#R" n="118"/>quia haec est in secundo modo per se, homo non est 
       <lb ed="#R" n="119"/>asinus, &amp; tamen non potest Deus facere, quod 
@@ -727,18 +725,18 @@
       dicen<lb ed="#R" n="130" break="no"/>dum sit ex corpore quaestionis. 
     </p>
             </div>
-            <div>
-               <head>Articulus 2</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h41283-Dd1e1477">
+               <head xml:id="olm8ij-h41283-Hd1e1479">Articulus 2</head>
+               <head xml:id="olm8ij-h41283-Hd1e1481" type="question-title">
       Utrum transubstantiatio sit actio de genere 
       actionis.
     </head>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1484">
                   <lb ed="#R" n="131"/>ARTICVLVS II 
       <lb ed="#R" n="132"/>Vtrum transubstantiatio sit actio de genere 
       <lb ed="#R" n="133"/>actionis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1493">
                   <lb ed="#R" n="134"/>QVoad secundam quaestionem arguo primo, 
       <lb ed="#R" n="135"/>quod transubstantiatio non sit actio de genere 
       <!--0125.xml-->
@@ -749,7 +747,7 @@
       <lb ed="#R" n="3"/>non est illa forma acta: ergo. Probatio minoris, 
       <lb ed="#R" n="4"/>quia nec panis, nec corpus Christi sunt acta. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1515">
                   <lb ed="#R" n="5"/>In oppositum est, quia illud, quod profluit a 
       di<lb ed="#R" n="6" break="no"/>uina virtute, est actio profluens: sed quod illud, quod 
       <lb ed="#R" n="7"/>est panis, mutetur in corpus Christi, profluit a 
@@ -757,18 +755,18 @@
       <lb ed="#R" n="9"/>illud, quod est panis mutatur in corpus Cristi, est 
       <lb ed="#R" n="10"/>transubstantiatio: ergo transubstantiatio est actio. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1532">
                   <lb ed="#R" n="11"/>Respondeo primo ponam conclusiones intentas. 
       <lb ed="#R" n="12"/>Secundo recitabo quasdam instantias facas 
       con<lb ed="#R" n="13" break="no"/>tra. Tertio soluam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1541">
                   <lb ed="#R" n="14"/>Primo pono propositionem vnam negatiuam 
       <lb ed="#R" n="15"/>quod impossibile est, quod actio sit forma facta, &amp; 
       <lb ed="#R" n="16"/>agere sit calorem a se habere, vt dicit opinio 
       Do<lb ed="#R" n="17" break="no"/>ctoris solemnis moderni. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1552">
                   <lb ed="#R" n="18"/>Hanc conclusionem probo aliquibus 
       rationi<lb ed="#R" n="19" break="no"/>bus. Prima sumitur ab ipsa denominatione, quia 
       <lb ed="#R" n="20"/>isti dicunt, quod forma facta, vt denominat agens, 
@@ -790,7 +788,7 @@
       <lb ed="#R" n="36"/>habeo propositum, quod non erit, nisi 
       materiali<lb ed="#R" n="37" break="no"/>ter ipsa forma facta. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1598">
                   <lb ed="#R" n="38"/>Secunda ratio sumitur ex praesuppositione sic: 
       <lb ed="#R" n="39"/>In illo non consistit actio, quod praesupponit 
       actio<lb ed="#R" n="40" break="no"/>nem, quia nihil supponit seipsum: sed 
@@ -802,7 +800,7 @@
       poste<lb ed="#R" n="46" break="no"/>rius se. Item: tunc idem erit me percutere te, quod 
       <lb ed="#R" n="47"/>te habere percussum a me. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1622">
                   <lb ed="#R" n="48"/>Item: Aut calor factus dicit aliquid vltra 
       calo<lb ed="#R" n="49" break="no"/>rem, aut nihil: non secundo modo, ergo primo 
       <lb ed="#R" n="50"/>modo: illud non est aliud, quam passio: sed 
@@ -814,7 +812,7 @@
       <lb ed="#R" n="56"/>non dicit aliud, quam actionem, vt transiuit 
       in<lb ed="#R" n="57" break="no"/>praeteritum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1646">
                   <lb ed="#R" n="58"/>Tertio arguo principaliter ex separatione, sic: 
       <lb ed="#R" n="59"/>Quando duo sic se habent, quod vnum transit alio 
       <lb ed="#R" n="60"/>manente, siue e conuerso, illud quod manet, non est 
@@ -827,7 +825,7 @@
       <lb ed="#R" n="67"/>generat: ergo transit generatio manente hoc, quod 
       <lb ed="#R" n="68"/>est habere genitum a se. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1673">
       <!--0125.xml-->
                   <cb ed="#R" n="b"/>
                   <lb ed="#R" n="69"/>Confirmo exemplo. Pono, quod ignis 
@@ -838,7 +836,7 @@
       a<lb ed="#R" n="74" break="no"/>gat, quia non est in dispositione qua possit agere: 
       <lb ed="#R" n="75"/>ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1695">
                   <lb ed="#R" n="76"/>Quarta ratio principalis est ex causatione, sic: 
       <lb ed="#R" n="77"/>Jmpossibile est, quod aliquid sit sibi causa, vt sit, 
       <lb ed="#R" n="78"/>dico causa reducibilis ad genus causae efficientis: 
@@ -852,7 +850,7 @@
       au<lb ed="#R" n="86" break="no"/>tem agere vere importat causalitatem, &amp; rem 
       de<lb ed="#R" n="87" break="no"/>genere actionis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1724">
                   <lb ed="#R" n="88"/>Dices: per actionem intelligo formam, vt in 
       fie<lb ed="#R" n="89" break="no"/>ri, &amp; tunc cessant multae rationes tuae. Contra 
       <lb ed="#R" n="90"/>videtur mihi, quod habeam propositum: albedo 
@@ -861,7 +859,7 @@
       for<lb ed="#R" n="93" break="no"/>mam est aliquid aliud, quod sic facit eam diffferre 
       <lb ed="#R" n="94"/>a seipsa 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1742">
                   <lb ed="#R" n="95"/>Dices: est ergo semper vnum post aliud, quando 
       <lb ed="#R" n="96"/>forma fit, &amp; pars post partem, in facto esse autem 
       <lb ed="#R" n="97"/>est tota simul. Contra: licet hoc sit verum, non 
@@ -870,7 +868,7 @@
       manen<lb ed="#R" n="100" break="no"/>te ipsa illud transit, quia manet forma, &amp; non est 
       <lb ed="#R" n="101"/>fieri. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1760">
                   <lb ed="#R" n="102"/>Item: solutio, &amp; euasio ista non valet, vbi forma 
       <lb ed="#R" n="103"/>fit in instanti: tunc enim non potes assignare, in 
       <lb ed="#R" n="104"/>quo differat forma facta a fieri formae, &amp; tamem 
@@ -879,7 +877,7 @@
       secun<lb ed="#R" n="107" break="no"/>dum rationem, sicut dicimus, quod deitas est ratio 
       <lb ed="#R" n="108"/>&amp; causa Deo, vt sit; Deus enim deitate est Deus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1778">
                   <lb ed="#R" n="109"/>Ista responsio non tangit puntum quaestionis: 
       <lb ed="#R" n="110"/>secus enim est de effectu formali, &amp; effectu 
       efficien<lb ed="#R" n="111" break="no"/>tis: effectus enim formalis est idem ipsi formae 
@@ -889,7 +887,7 @@
       <lb ed="#R" n="115"/>est effecus formalis actionis, sed reducitur ad 
       ge<lb ed="#R" n="116" break="no"/>nus causa efficientis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1799">
                   <lb ed="#R" n="117"/>Dicitur, quod actio non habet causalitatem 
       es<lb ed="#R" n="118" break="no"/>fectiuam respectu formae, sed respectu compositi. 
       <lb ed="#R" n="119"/>Contra: Commentator 7. Metaph. comm. 31. actio 
@@ -897,7 +895,7 @@
       <lb ed="#R" n="121"/>pendeta forma: sic ergo cum forma capiat 
       esse<lb ed="#R" n="122" break="no"/>virtute actionis, impossibile est, quod sit ipsa actio. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1815">
                   <lb ed="#R" n="123"/>Quinto arguo principaliter ex permixtione 
       prae<lb ed="#R" n="124" break="no"/>dicamentorum. Jsti enim habent pro 
       inconuenien<lb ed="#R" n="125" break="no"/>ti, quod praedicamenta sint permixta. Tunc sic: 
@@ -907,13 +905,13 @@
       for<lb ed="#R" n="129" break="no"/>ma, vt denominat, dicit duo, ipsam scilicet formam 
       <lb ed="#R" n="130"/>&amp; denominationem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1835">
                   <lb ed="#R" n="131"/>Dices, quod forma, vt denominans, non est actio 
       <lb ed="#R" n="132"/>formaliter. Contra: habeo propositum, non enim 
       <lb ed="#R" n="133"/>inquiro hic de composito accidentium, sed de 
       for<lb ed="#R" n="134" break="no"/>mali ratione, quam hoc addit super hoc. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1846">
                   <lb ed="#R" n="135"/>Vltimo arguo ex diuina abstractione: pono 
       <lb ed="#R" n="136"/>enim, quod- hic sit, stuppa, &amp; pono duos ignes 
       <!--0126.xml-->
@@ -933,7 +931,7 @@
       li<lb ed="#R" n="12" break="no"/>gans istam formam cum hoc igne, &amp; non cum 
       <lb ed="#R" n="13"/>alio. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1888">
                   <lb ed="#R" n="14"/>Similiter Deus abstrahit igni isti, vt non ageret, 
       <lb ed="#R" n="15"/>quaero quid ei subtraxit: non enim subtrahit 
       for<lb ed="#R" n="16" break="no"/>mam agentem, nec formam factam: ergo aliquid 
@@ -943,7 +941,7 @@
       qui<lb ed="#R" n="20" break="no"/>dem Deus subtrahit, quando facit, quoda, non 
       <lb ed="#R" n="21"/>agar. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1908">
                   <lb ed="#R" n="22"/>Vltima ratio est ex habere. Habere est vnum 
       <lb ed="#R" n="23"/>praedicamentum: dicere ergo, quod omnia 
       prae<lb ed="#R" n="24" break="no"/>dicamenta sint habere, est tantum inconueniens, 
@@ -956,7 +954,7 @@
       <lb ed="#R" n="31"/>lucem fieri, sed aliquid aliud, puta illud actio, istud 
       <lb ed="#R" n="32"/>passio. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1935">
                   <lb ed="#R" n="33"/>Secundo pono Propositionem affirmatiuam 
       <lb ed="#R" n="34"/>quod cum praedicamenta sint prima intelligibilia, 
       <lb ed="#R" n="35"/>quia prima intellecta secundum Commentatorem 
@@ -964,7 +962,7 @@
       pos<lb ed="#R" n="37" break="no"/>sumus definire, nec declarare a priori: tamen 
       ip<lb ed="#R" n="38" break="no"/>sum nomen importat, quod agere b, est aliud, qua 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e1951">
                   <lb ed="#R" n="39"/>b; nec est alius modus probandi. hoc nisi 
       Philoso<lb ed="#R" n="40" break="no"/>phi. cum enim definiuit motum dixit, quod est actus 
       <lb ed="#R" n="41"/>entis in potentia, scilicet illud quo ens in potentia 
@@ -1010,12 +1008,12 @@
       <lb ed="#R" n="79"/>hoc volo, quod sit respectus, quia aliud est 
       respi<lb ed="#R" n="80" break="no"/>cere aliud est causare. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e2049">
                   <lb ed="#R" n="81"/>Nunc secundo principaliter recito quasdam 
       in<lb ed="#R" n="82" break="no"/>stantias, quas Reuerendus Magiser Heruaeus 
       fe<lb ed="#R" n="83" break="no"/>cit supra ea, quae dixi in primo de actione. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e2058">
                   <lb ed="#R" n="84"/>Primo, quia dixi, quod rea litas praedicamenti 
       <lb ed="#R" n="85"/>actionis, importatur per verbum puta per agere, 
       <lb ed="#R" n="86"/>producere, &amp; huiusmodi, per actionem vero 
@@ -1023,7 +1021,7 @@
       <lb ed="#R" n="88"/>actionis, sed relationis, vt expresse Symplicius 
       tra<lb ed="#R" n="89" break="no"/>dit super praedicamenta. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e2074">
                   <lb ed="#R" n="90"/>Contra hoc sic: Quando forma aliqua in 
       abstra<lb ed="#R" n="91" break="no"/>cto est forma alia quidditatiue in abstracto, 
       con<lb ed="#R" n="92" break="no"/>cretum praedicamenti dicitur quidditatiue de 
@@ -1032,7 +1030,7 @@
       <lb ed="#R" n="95"/>est quidditatiue referre, quod est concretum 
       rela<lb ed="#R" n="96" break="no"/>tionis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e2092">
                   <lb ed="#R" n="97"/>Secundo: Praedicamentum est ordo praedicabilium 
       <lb ed="#R" n="98"/>ad vnum, quod continet omnia per essentiam: sed 
       <lb ed="#R" n="99"/>omnia de praedicamento actionis reducuntur per 
@@ -1040,36 +1038,36 @@
       <lb ed="#R" n="101"/>omnia illius praedicamenti: ergo acttio non est 
       re<lb ed="#R" n="102" break="no"/>latio, cum sit praedicamentum distinctum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e2109">
                   <lb ed="#R" n="103"/>Item Auctor 6. principiorum. Actio est secundum 
       <lb ed="#R" n="104"/>quam in id, quod subijcitur, agere dicimur, &amp; 
       in<lb ed="#R" n="105" break="no"/>telligitur in illud quod, non tantum subiectiue, sed 
       <lb ed="#R" n="106"/>obiectiue: sed relatio non est huiusmodi: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e2120">
                   <lb ed="#R" n="107"/>Secundo probat, quod agere non sit interuallum, 
       <lb ed="#R" n="108"/>quia aut loqueris pronrie, &amp; sic est spatium: aut me 
       <lb ed="#R" n="109"/>taphorice, &amp; sic est respectus, quod negatur.
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e2129">
                   <lb ed="#R" n="110"/>Item contra illud, quod dicitur, quod actio est 
       <lb ed="#R" n="111"/>legressus, quia ab agente nihil egreditur, nisi forma: 
       <lb ed="#R" n="112"/>ergo agere non est aliud quam forma. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e2138">
                   <lb ed="#R" n="113"/>Item specialiter quod non sit interuallum, quia 
       <lb ed="#R" n="114"/>quod est commune sex praedicamentis, non est ratio 
       pro<lb ed="#R" n="115" break="no"/>pria praedicamenti actionis: interuallum est 
       huius<lb ed="#R" n="116" break="no"/>modi; omnia enim sex principia sunt interuallum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e2149">
                   <lb ed="#R" n="117"/>Dices: est speciale interuallum importans 
       causa<lb ed="#R" n="118" break="no"/>litatem. Contra, causalitas est relatio: ergo agere 
       <lb ed="#R" n="119"/>quo ad suum formale est relatio. Item, tunc actio 
       <lb ed="#R" n="120"/>erit permixta ex interuallo, &amp; relatione. Ad ista 
       <lb ed="#R" n="121"/>per ordinem respondendo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e2162">
                   <lb ed="#R" n="122"/>Dico ad primum capio istam propositionem 
       <lb ed="#R" n="123"/>nulla dicio significat rem de praedicamento 
       age<lb ed="#R" n="124" break="no"/>re, nisi verbum vnum, vnde cum dico Deus 
@@ -1082,7 +1080,7 @@
       <lb ed="#R" n="131"/>dicit, vt illuminare, &amp; secare, non dicit 
       illumina<lb ed="#R" n="132" break="no"/>tio, &amp; secatio. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e2189">
                   <lb ed="#R" n="133"/>Et Simplicius similiter praedicamenta dicit, 
       <lb ed="#R" n="134"/>quod secundum coarctationem hanc ad aliquid 
       <lb ed="#R" n="135"/>reducuntur agens, &amp; patiens, secundum aliam 
@@ -1095,7 +1093,7 @@
       habitudi<lb ed="#R" n="3" break="no"/>ne ad inuicem, sed in factum ab ipsis, secundum 
       <lb ed="#R" n="4"/>quod illud factum est, hoc autem facit. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e2215">
                   <lb ed="#R" n="5"/>Dices, quod ego vado ad grammaticum. 
       Respon<lb ed="#R" n="6" break="no"/>deo: Jdem, quod grammaticus diuersificat secundum 
       <lb ed="#R" n="7"/>modos significandi, metaphysicus diuersificat 
@@ -1122,7 +1120,7 @@
       <lb ed="#R" n="28"/>mas conceptas per modum egressus, &amp; actus 
       ver<lb ed="#R" n="29" break="no"/>balis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e2272">
                   <lb ed="#R" n="30"/>Tunc respondeo, ad primam instantiam dico, 
       <lb ed="#R" n="31"/>quod nunquam consequentia a coniugatis tenet 
       <lb ed="#R" n="32"/>respectu illorum praedicamentorum, quae 
@@ -1150,7 +1148,7 @@
       vniuersa<lb ed="#R" n="54" break="no"/>liter de omni agere, fiue sit transiens, siue 
       quomo<lb ed="#R" n="55" break="no"/>docunque aliter. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e2331">
                   <lb ed="#R" n="56"/>Sciendum tamen, quod talium, quae concepta 
       <lb ed="#R" n="57"/>per modum nominis sunt de aliquo vno 
       praedica<lb ed="#R" n="58" break="no"/>mentorum, &amp; concepta per modum verbi sunt de 
@@ -1179,7 +1177,7 @@
       <lb ed="#R" n="79"/>mento actionis, realiter vero sunt in 
       praedicamen<lb ed="#R" n="80" break="no"/>to aliquo quocumque aliorum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e2392">
                   <lb ed="#R" n="81"/>Ad illud, quod dicitur, quod praedicamentum 
       <lb ed="#R" n="82"/>est ordo. Concedo maiorem, sed minorem nego: 
       <lb ed="#R" n="83"/>Illud enim quod continet omnia, quae sunt in 
@@ -1188,7 +1186,7 @@
       ver<lb ed="#R" n="86" break="no"/>bales dictiones reductas ad vnum communem 
       <lb ed="#R" n="87"/>conceptum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e2410">
                   <lb ed="#R" n="88"/>Dices: quare ergo dicitur communiter 
       praedi<lb ed="#R" n="89" break="no"/>camentum acttionis? dico, quod hoc est ex 
       commu<lb ed="#R" n="90" break="no"/>ni vsu loquentium. Aristoteles autem in 
@@ -1212,7 +1210,7 @@
       <lb ed="#R" n="108"/>generatione genitor, &amp; genitus generatione 
       pas<lb ed="#R" n="109" break="no"/>siua genitus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e2461">
                   <lb ed="#R" n="110"/>Ad illud de interuallo non concludit, si enim 
       <lb ed="#R" n="111"/>bona sit forma, arguitur contra Arillotelem &amp; 
       Com<lb ed="#R" n="112" break="no"/>mentatorem eodem modo, vt arguitur contra me. 
@@ -1221,7 +1219,7 @@
       a<lb ed="#R" n="115" break="no"/>ctio erit spatium; aut metaphorice, &amp; similiter 
       a<lb ed="#R" n="116" break="no"/>ctio erit respectus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e2479">
                   <lb ed="#R" n="117"/>Dico ergo, quod pro tanto est via, quia ea capit 
       <lb ed="#R" n="118"/>res quod sit, nec omnino intermedium est relatio. 
       <lb ed="#R" n="119"/>Capio enim intermediam formam indigentem 
@@ -1233,13 +1231,13 @@
       <lb ed="#R" n="125"/>sunt formae extrinsecus aduenientes, secundum 
       Au<lb ed="#R" n="126" break="no"/>ctorem sex Principiorum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e2503">
                   <lb ed="#R" n="127"/>Horum autem quaedam sunt, quae sunt connexio 
       <lb ed="#R" n="128"/>terminorum, cuiusmodi est relatio; quaedam, quae 
       <lb ed="#R" n="129"/>sunt via ad terminum, idest acceptio termini, 
       cu<lb ed="#R" n="130" break="no"/>iusmodi est actio. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e2514">
                   <lb ed="#R" n="131"/>Ad illud de egressu, respondeo: Alius est egressus, 
       <lb ed="#R" n="132"/>&amp; aliud illud quod egreditur; sicut aliud est 
       albe<lb ed="#R" n="133" break="no"/>do, &amp; aliud album: quando ergo dico, quod agere 
@@ -1253,7 +1251,7 @@
       <lb ed="#R" n="2"/>est considerare illud quod, &amp; illud quo, &amp; illud quo 
       <lb ed="#R" n="3"/>ego voco actionem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e2543">
                   <lb ed="#R" n="4"/>Ad illud, quod interuallum est aliquid 
       commu<lb ed="#R" n="5" break="no"/>ne septem praedicamentis. Respondeo, esse 
       inter<lb ed="#R" n="6" break="no"/>uallum non dicit aliquam rationem, vel conceptum 
@@ -1270,7 +1268,7 @@
       <lb ed="#R" n="17"/>sunt interuallum, quia non sunt eodem modo inter 
       <lb ed="#R" n="18"/>duos terminos. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e2578">
                   <lb ed="#R" n="19"/>Ad illud, quod dicitur, quod praedicamentum 
       <lb ed="#R" n="20"/>actionis esset compositum. Respondeo: 
       Conce<lb ed="#R" n="21" break="no"/>ptus quilibet praedicabilis est simplicissimus, quia 
@@ -1291,18 +1289,18 @@
                   <!-- line coord error -->
                </p>
             </div>
-            <div> <!-- l1-d14q3 -->
-               <head>Articulus 3</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h41283-Dd1e2621"> <!-- l1-d14q3 -->
+               <head xml:id="olm8ij-h41283-Hd1e2625">Articulus 3</head>
+               <head xml:id="olm8ij-h41283-Hd1e2627" type="question-title">
         Utrum Deus possit separare accidens a subiecto, 
         non obstante eius indivisione cum subiecto.
       </head>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e2630">
                   <lb ed="#R" n="36"/>ARJJLVLVO III. 
       <lb ed="#R" n="37"/>Vtrum Deus possit separare accidens a subiecto, 
       <lb ed="#R" n="38"/>non obstante eius indiuisione cum subiecto. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e2639">
                   <lb ed="#R" n="39"/>AD tertiam quaestionem respondeo: 
       Conclu<lb ed="#R" n="40" break="no"/>sio mea est ista. Quod accidens facit vnum 
       <lb ed="#R" n="41"/>cum sub: ecio vnitate, quae est vnitas in subiecto, 
@@ -1313,12 +1311,12 @@
       indiuisio<lb ed="#R" n="46" break="no"/>ne. Contentum vero, &amp; continens sunt vnum 
       re<lb ed="#R" n="47" break="no"/>latione, &amp; connexione. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e2662">
                   <lb ed="#R" n="48"/>Nunc dico, quod non est intelligibile, quod 
       vni<lb ed="#R" n="49" break="no"/>tas accidentis &amp; subiecti sit relatiua, &amp; 
       connexio<lb ed="#R" n="50" break="no"/>nis, sed est vnitas indiuisionis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h41283-d1e2671">
                   <lb ed="#R" n="51"/>Tunc ad propositum pono secundam 
       conclusio<lb ed="#R" n="52" break="no"/>nem, quod hoc non obstante, accidens est 
       separa<lb ed="#R" n="53" break="no"/>bile a subiecto per diuinam potentiam. Ratio est. 

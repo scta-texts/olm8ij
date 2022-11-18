@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,20 +53,20 @@
       </front>
       <body>
          <div xml:id="olm8ij-h62780"> <!-- l4-d36q1 -->
-            <head>Quaestio 1</head>
-            <p>
+            <head xml:id="olm8ij-h62780-Hd1e102">Quaestio 1</head>
+            <p xml:id="olm8ij-h62780-d1e104">
                <lb ed="#R" n="20"/>Quaestio Vnica. 
     </p>
-            <div>
-               <head>Articulus 1</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h62780-Dd1e109">
+               <head xml:id="olm8ij-h62780-Hd1e111">Articulus 1</head>
+               <head xml:id="olm8ij-h62780-Hd1e113" type="question-title">
         Utrum servitus impediat matrimonium.
       </head>
-               <p>
+               <p xml:id="olm8ij-h62780-d1e116">
                   <lb ed="#R" n="21"/>ARTICVLVS VNJCVS. 
       <lb ed="#R" n="22"/>Vtrum seruitus impediat matrimonium. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h62780-d1e123">
                   <lb ed="#R" n="23"/>ARGVO quod non, sic: 
       <lb ed="#R" n="24"/>Illud quod est de iure po 
       <lb ed="#R" n="25"/>sitiuo, non impedit illud, 
@@ -83,13 +81,13 @@
       Ma<lb ed="#R" n="34" break="no"/>gister in litera. Respondeo pono aliquas 
       proposi<lb ed="#R" n="35" break="no"/>tiones. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h62780-d1e154">
                   <lb ed="#R" n="36"/>Prima est ista, quod virtus politica, &amp; ciuilis 
       <lb ed="#R" n="37"/>potest esse de iure naturae, quae autem vsitate, &amp; 
       <lb ed="#R" n="38"/>magis proprie est seruitus, licet possit esse iusta 
       <lb ed="#R" n="39"/>non tamen est de iure naturae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h62780-d1e166">
                   <lb ed="#R" n="40"/>Primum horum probo, vbi considerandum est, 
       <lb ed="#R" n="41"/>quod seruitus politica est illa qua liber seruit 
       prin<lb ed="#R" n="42" break="no"/>cipi, sub quo est politice quidem, non dispotice, eo 
@@ -123,7 +121,7 @@
       <lb ed="#R" n="68"/>1. Polit. cap. 1. ad probandum, quod seruitus 
       po<lb ed="#R" n="69" break="no"/>litica sit secundum dictamen rectae rationis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h62780-d1e238">
                   <lb ed="#R" n="70"/>Secundam partem probo, scilicet, quod seruitus 
       <lb ed="#R" n="71"/>despotica, quae est seruitus proprie dicta, licet 
       pos<lb ed="#R" n="72" break="no"/>sit esse iusta, non tamen est de iure naturae, 
@@ -139,7 +137,7 @@
       ser<lb ed="#R" n="82" break="no"/>uitus estt de iure gentium, quod quidem ius 
       quili<lb ed="#R" n="83" break="no"/>bet grammaticus vocat ius naturae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h62780-d1e271">
                   <lb ed="#R" n="84"/>Quod autem non sit absolute de iure naturae 
       pro<lb ed="#R" n="85" break="no"/>bo, quia illud quod est natura liberum, &amp; habet do 
       <lb ed="#R" n="86"/>minium actuum suorum, quod ipsum amittat 
@@ -156,7 +154,7 @@
       <lb ed="#R" n="97"/>domini: ergo quod aliquis hoc modo sit seruus, 
       vi<lb ed="#R" n="98" break="no"/>detur esse contra ius naturae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h62780-d1e306">
                   <lb ed="#R" n="99"/>Sed dico, quod talis seruitus potestt induere 
       ali<lb ed="#R" n="100" break="no"/>quo modo rationem iuris, &amp; introduci ex dicta 
       cau<lb ed="#R" n="101" break="no"/>sa: hoc autem est interueniente voluntate vtriusque, 
@@ -165,7 +163,7 @@
       <lb ed="#R" n="104"/>se &amp; actus suos, &amp; libere se &amp; alteri subijcientis, &amp; 
       <lb ed="#R" n="105"/>alterius dominium in sua potestate recipientis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h62780-d1e324">
                   <lb ed="#R" n="106"/>Sed quid de capto in bello, potest ne iuste redigi 
       <lb ed="#R" n="107"/>in talem seruitutem? Respondeo: talis seruitus 
       vide<lb ed="#R" n="108" break="no"/>tur esse de iure belli, eo quod videtur ibi 
@@ -193,7 +191,7 @@
                   <lb ed="#R" n="1"/>ergo iste de iure gentium videtur esse possessio 
       al<lb ed="#R" n="2" break="no"/>terius, &amp; seruus seruitute despotica. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h62780-d1e383">
                   <lb ed="#R" n="3"/>Sed quid ad Aristotelem, qui videtur 
       dicere<lb ed="#R" n="4" break="no"/>primo politic. quod captus in bello non sit seruus 
       <lb ed="#R" n="5"/>naturaliter. Respondeo, Arist. dicit, quod seruitus 
@@ -215,7 +213,7 @@
       prin<lb ed="#R" n="21" break="no"/>ceps nollet cessare ab iniustitia sua, &amp; 
       praesumere<lb ed="#R" n="22" break="no"/>tur malitia eius incorrigibilis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h62780-d1e430">
                   <lb ed="#R" n="23"/>Nunc viso de seruitute, quae est secundum leges 
       <lb ed="#R" n="24"/>naturales secundum dicamen rationis, &amp; quae 
       se<lb ed="#R" n="25" break="no"/>cundum ius gentium, &amp; quae iusta, &amp; quae non iusta, 
@@ -236,7 +234,7 @@
       li<lb ed="#R" n="40" break="no"/>bera, poterit rescindere illud, si nesciens 
       conditio<lb ed="#R" n="41" break="no"/>nem seruitutis contraxit. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h62780-d1e474">
                   <lb ed="#R" n="42"/>Quod si sint pares, &amp; vterque eiusdem 
       conditio<lb ed="#R" n="43" break="no"/>nis simul, tunc tenet matrimonium, nec potest 
       di<lb ed="#R" n="44" break="no"/>rimi ex parte cuiuscunque; sed si impares sint, 
@@ -250,12 +248,12 @@
       par<lb ed="#R" n="52" break="no"/>te mulieris, quia foetus sequitur matrem quo ad 
       <lb ed="#R" n="53"/>seruitutem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h62780-d1e503">
                   <lb ed="#R" n="54"/>Est etiam secundo contra bonum fidei, quia 
       tem<lb ed="#R" n="55" break="no"/>pore, quo serua teneretur reddere debitum viro, po 
       <lb ed="#R" n="56"/>terit eum dominus destinare ad remota. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h62780-d1e512">
                   <lb ed="#R" n="57"/>Est etiam contra bonum Sacramenti, quod est 
       <lb ed="#R" n="58"/>insolubilitas, poterit enim dominus diuidere 
       ser<lb ed="#R" n="59" break="no"/>uam a viro quoad propriam cohabitationem. Et 
@@ -266,7 +264,7 @@
       <lb ed="#R" n="64"/>coniugum se facit seruum post contractum 
       matri<lb ed="#R" n="65" break="no"/>monium. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h62780-d1e534">
                   <lb ed="#R" n="66"/>Quod autem vxor se facit seruam, aut vir: Si 
       <lb ed="#R" n="67"/>vxor, talis seruitus non tenet: mulier enim est in 
       <lb ed="#R" n="68"/>potestate viri, &amp; quo ad corpus, &amp; quo ad coha- 
@@ -281,7 +279,7 @@
       <lb ed="#R" n="75"/>actus matrimonialis, ad quem fuit primo 
       obli<lb ed="#R" n="76" break="no"/>gatus.
     </p>
-               <p>
+               <p xml:id="olm8ij-h62780-d1e565">
                   <lb ed="#R" n="77"/>Sed est dubium, vtrum seruus, &amp; ancilla possint 
       <lb ed="#R" n="78"/>contrahere sine voluntate domini. Dicunt 
       qui<lb ed="#R" n="79" break="no"/>dam, quod sic. Ratio eorum est, quia fortior est 
@@ -294,7 +292,7 @@
       <lb ed="#R" n="86"/>tamen est de iure naturae, quod quilibet contrahat, 
       <lb ed="#R" n="87"/>&amp; quod ille, vel ille. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h62780-d1e592">
                   <lb ed="#R" n="88"/>Dico tamen, quod licet seruus ipse, &amp; actus 
       <lb ed="#R" n="89"/>eius sint domini, actus tamen generationis non 
       <lb ed="#R" n="90"/>est domini, imo respectu illius acttus seruus liber 
@@ -303,7 +301,7 @@
       <lb ed="#R" n="93"/>sub dominio alterius, quia de se est liber, ideo quo 
       <lb ed="#R" n="94"/>ad hoc iste est liber. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h62780-d1e610">
                   <lb ed="#R" n="95"/>Arguo sic: Licet seruus non se possit obligare quo 
       <lb ed="#R" n="96"/>ad actus, qui sunt domini; potest tamen 
       obligare<lb ed="#R" n="97" break="no"/>quo ad actus, respectu quorum est liber, sed 
@@ -315,7 +313,7 @@
       an<lb ed="#R" n="103" break="no"/>cilla, nec pertinet ad dominum prohibere eos, quin 
       <lb ed="#R" n="104"/>imo dominus peccaret impediendo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h62780-d1e634">
                   <lb ed="#R" n="105"/>Sed nunquid si dominus praecipiat vni ire 
       Ro<lb ed="#R" n="106" break="no"/>mam, &amp; alteri Parisios, vnde contingat 
       cohabi<lb ed="#R" n="107" break="no"/>tationem eorum mutuam impedire, tenentur ne 

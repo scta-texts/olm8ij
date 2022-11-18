@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,16 +53,16 @@
       </front>
       <body>
          <div xml:id="olm8ij-h14326"> <!-- l4-d3q3 -->
-            <head>Quaestio 3</head>
-            <head type="question-title">De institutione baptismi quantum ad materiam, siue de 
+            <head xml:id="olm8ij-h14326-Hd1e102">Quaestio 3</head>
+            <head xml:id="olm8ij-h14326-Hd1e104" type="question-title">De institutione baptismi quantum ad materiam, siue de 
       materia Baptismi</head>
-            <p>
+            <p xml:id="olm8ij-h14326-d1e107">
                <lb ed="#R" n="122"/>Quaestio III. 
       <lb ed="#R" n="123"/>DE INSTITVTIONE BAPTJSMI 
       <lb ed="#R" n="124"/>quantum ad materiam, siue de 
       <lb ed="#R" n="125"/>materia Baptismi. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h14326-d1e118">
                <lb ed="#R" n="126"/>AD tertiam Quaestionem arguo primo, 
       <lb ed="#R" n="127"/>quod forma Baptismi, non bene sit 
       <lb ed="#R" n="128"/>quo ad materiam instituta: 
@@ -74,7 +72,7 @@
       <lb ed="#R" n="132"/>
                <!-- line coord error -->
             </p>
-            <p>
+            <p xml:id="olm8ij-h14326-d1e139">
       <!--0043.xml-->
                <pb ed="#R" n="43"/>
                <cb ed="#R" n="a"/>
@@ -84,44 +82,44 @@
       <lb ed="#R" n="4"/>vero magis figurat, ac significat Christi 
       sepultu<lb ed="#R" n="5" break="no"/>ram, quam aqua: ergo. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h14326-d1e159">
                <lb ed="#R" n="6"/>In oppositum est auctoritas Christl, qui 
       baptis<lb ed="#R" n="7" break="no"/>mum instituit in materia aquae. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h14326-d1e166">
                <lb ed="#R" n="8"/>Respondeo in ista quaestione pono duas 
       proposi<lb ed="#R" n="9" break="no"/>tiones, quod baptismus est rationabiliter 
       institu<lb ed="#R" n="10" break="no"/>tus quo ad materiam remotam. Secundo quod con 
       <lb ed="#R" n="11"/>grue institutus est quo ad materiam propinquam. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h14326-d1e177">
                <lb ed="#R" n="12"/>Ad euidentiam propositionis primae pono vnam 
       <lb ed="#R" n="13"/>regulam, quod materia remota baptismi est aqua 
       <lb ed="#R" n="14"/>simplex naturalis potens abluere. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h14326-d1e186">
                <lb ed="#R" n="15"/>In regula ista exprimuntur quatuor conditiones. 
       <lb ed="#R" n="16"/>Dicitur enim primo, aqua, rationaliter propter tri 
       <lb ed="#R" n="17"/>plicem aquae proprietatem, triplicem effectum 
       ba<lb ed="#R" n="18" break="no"/>ptismi repraesentantem. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h14326-d1e197">
                <lb ed="#R" n="19"/>Primo quidem aqua est naturaliter frigida, 
       re<lb ed="#R" n="20" break="no"/>frigerationem, ac repressionem fomitis virtute 
       Ba<lb ed="#R" n="21" break="no"/>ptismi repraesentans. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h14326-d1e207">
                <lb ed="#R" n="22"/>Secundo, aqua est naturaliter humida ad 
       abster<lb ed="#R" n="23" break="no"/>gendum apta, ablutionem in baptismo originalis 
       <lb ed="#R" n="24"/>criminis praefigurans. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h14326-d1e216">
                <lb ed="#R" n="25"/>Tertio, aqua est clara, siue perspicua vndique, 
       <lb ed="#R" n="26"/>de facili diffusiua, significans charitatem, &amp; 
       illumi<lb ed="#R" n="27" break="no"/>nationem fidei, quae in Sacramento baptismi 
       prin<lb ed="#R" n="28" break="no"/>cipalius, quam in alijs obtinetur. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h14326-d1e227">
                <lb ed="#R" n="29"/>Posset &amp; ratio alia ad propositum assignari, ex 
       <lb ed="#R" n="30"/>necessitate baprismi, cum enim sit summae 
       necessi<lb ed="#R" n="31" break="no"/>tatis, ac per consequens oporteat esse 
@@ -130,14 +128,14 @@
       ba<lb ed="#R" n="34" break="no"/>ptismi maxime congruebat aqua: nulla enim est 
       <lb ed="#R" n="35"/>homini habitatio carens ea. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h14326-d1e245">
                <lb ed="#R" n="36"/>Quod vero in nullo liquore alio sit baptisini 
       ma<lb ed="#R" n="37" break="no"/>teria instituta, congruum apparet ex hoc, quod 
       <lb ed="#R" n="38"/>liquores caeteri, siue ratione odoris, siue 
       qualita<lb ed="#R" n="39" break="no"/>tis alterius, ex se habent sordidare potius quam 
       <lb ed="#R" n="40"/>lauare 
     </p>
-            <p>
+            <p xml:id="olm8ij-h14326-d1e258">
                <lb ed="#R" n="41"/>Secunda conditio, est simplex, idest non mixta, 
       <lb ed="#R" n="42"/>per quod soluitur quaestio illa. Vtrum licet 
       bapti<lb ed="#R" n="43" break="no"/>zare in lixiuio. Dicendum est, quod non; 
@@ -146,7 +144,7 @@
       transinu<lb ed="#R" n="46" break="no"/>tatio aquae in speciem aliam, quam quidem docent 
       <lb ed="#R" n="47"/>operationes oppositae cineris, &amp; aquae. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h14326-d1e276">
                <lb ed="#R" n="48"/>Hoc idem dico, si fiat admixtio ex aqua, &amp; 
       pin<lb ed="#R" n="49" break="no"/>guedine, siue butiro, &amp; ideo in brodio non licet 
       ba<lb ed="#R" n="50" break="no"/>ptizare, quia mutatur species, vt patet ex 
@@ -154,17 +152,17 @@
       bro<lb ed="#R" n="52" break="no"/>dium non est aptum natum lauare, quod requiritur 
       <lb ed="#R" n="53"/>ad materiam baptismi, sed potius sordidare. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h14326-d1e293">
                <lb ed="#R" n="54"/>Sed nunquid si aquae admisceatur salsedo, eritne 
       <lb ed="#R" n="55"/>materia congrua baptismi. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h14326-d1e300">
                <lb ed="#R" n="56"/>Respondeo de mari. Dico, quod salsedo ab aqua 
       <lb ed="#R" n="57"/>maris non aufert speciem aquae, licet det sibi aliam 
       <lb ed="#R" n="58"/>naturam accidentalem, vnde &amp; mare ponitur esse 
       <lb ed="#R" n="59"/>sphaera aquae. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h14326-d1e311">
                <lb ed="#R" n="60"/>Sed nunquid licet baptizare in aqua reliquata a 
       <lb ed="#R" n="61"/>sale; videtur quod sic, sicut de aqua maris. Sed 
       <lb ed="#R" n="62"/>respondeo, videtur mihi, quod maior sit mixtio, 
@@ -175,7 +173,7 @@
       ventatio<lb ed="#R" n="67" break="no"/>nes, &amp; exalationes multas, reducere ad 
       dulcedi<lb ed="#R" n="68" break="no"/>nem aquam maris, &amp; reddere eam potabilem.
     </p>
-            <p>
+            <p xml:id="olm8ij-h14326-d1e333">
       <!--0043.xml-->
                <cb ed="#R" n="b"/>
                <lb ed="#R" n="69"/>Tertia conditio est, potens lauare, hoc dico 
@@ -190,13 +188,13 @@
       congela<lb ed="#R" n="78" break="no"/>ta, quod prius resolueretur, &amp; sic fieret congua ad 
       <lb ed="#R" n="79"/>baptismum. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h14326-d1e364">
                <lb ed="#R" n="80"/>Ex eodem apparet, quod lutum non est congrua 
       <lb ed="#R" n="81"/>baptismi materia. non enim habet ex natura 
       pro<lb ed="#R" n="82" break="no"/>pria, quod lauet: sed eius potius est foedare, sic &amp; 
       <lb ed="#R" n="83"/>dicendum est de niue. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h14326-d1e375">
                <lb ed="#R" n="84"/>Quarta conditio est naturalis, idest non 
       artificia<lb ed="#R" n="85" break="no"/>lis, ex qua apparet solutio ad quasdam communes 
       <lb ed="#R" n="86"/>quaestiones, nunquid ergo aqua rosacea, vel aqua 
@@ -206,12 +204,12 @@
       <lb ed="#R" n="90"/>operationes; habet enim naturaliter exsiccare, 
       pro<lb ed="#R" n="91" break="no"/>pter quod permixta est cum sicco. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h14326-d1e396">
                <lb ed="#R" n="92"/>Similiter, nunquid aqua supernatans in 
       cruore<lb ed="#R" n="93" break="no"/>puta slegma, est congrua materia, dico quod non, 
       <lb ed="#R" n="94"/>ex eodem, non enim est elementum, sed mixtum. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h14326-d1e405">
                <lb ed="#R" n="95"/>Sed nunquid licuisset baptizare in aqua, quae exi 
       <lb ed="#R" n="96"/>uit de latere pendentis Christi in cruce. 
       Respon<lb ed="#R" n="97" break="no"/>deo, illa fuit vera aqua in specie aquae, vt patet 
@@ -219,7 +217,7 @@
       Ale<lb ed="#R" n="99" break="no"/>xander, quod illa fuit vera aqua de vero sanguine 
       <lb ed="#R" n="100"/>Christi producta. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h14326-d1e421">
                <lb ed="#R" n="101"/>Sed hic occurrit dubium, quomodo perpendi 
       <lb ed="#R" n="102"/>potest, quod nix sit magis in specie aquae, vel 
       gla<lb ed="#R" n="103" break="no"/>cies, quam aqua rosacea: &amp; videtur, quod nix non 
@@ -231,10 +229,10 @@
       appa<lb ed="#R" n="109" break="no"/>ret in resolutione materia terrea: ergo videtur, 
       <lb ed="#R" n="110"/>quod sit mixtum quoddam, non ergo simplex aqua. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h14326-d1e445">
                <lb ed="#R" n="111"/>Respondeo ad ista dubia. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h14326-d1e450">
                <lb ed="#R" n="112"/>Ad primum dicendum, quod Commentator 
       in<lb ed="#R" n="113" break="no"/>principio de substantia orbis, &amp; 1. Phys. com. 2.dat 
       <lb ed="#R" n="114"/>quandam regulam ad cognoscendum 
@@ -253,7 +251,7 @@
       <lb ed="#R" n="127"/>potest ne per hanc regulam perpendi, quod nix sit 
       <lb ed="#R" n="128"/>in specie aquae, vel non. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h14326-d1e489">
                <lb ed="#R" n="129"/>Et secundum istam regulam videretur, quod non 
       <lb ed="#R" n="130"/>sit in specie aquae, ita quod transmutatio ab aqua 
       <lb ed="#R" n="131"/>in niuem sit substantialis, &amp; non accidentalis, cum 
@@ -261,7 +259,7 @@
       re<lb ed="#R" n="133" break="no"/>spondetur aqua, sed nix: ergo mutatur natura, &amp; 
       <lb ed="#R" n="134"/>similiter definitio, vt videtur. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h14326-d1e506">
                <lb ed="#R" n="135"/>Dices, respondebitur, quod nix est aqua 
       conge<lb ed="#R" n="136" break="no"/>lata. Contra: sic possem dicere, quod vinum est 
       <!--0044.xml-->
@@ -270,7 +268,7 @@
                <lb ed="#R" n="1"/>aqua putrefaca in vite, quod dicit Phylosophus 6. 
       <lb ed="#R" n="2"/>Topic. Quid ergo dicendum circa hoc? 
     </p>
-            <p>
+            <p xml:id="olm8ij-h14326-d1e524">
                <lb ed="#R" n="3"/>Dico, quod mutatio figurae multum 
       probabili<lb ed="#R" n="4" break="no"/>ter arguit mutationem substantialis formae: cuius 
       <lb ed="#R" n="5"/>ratio est, quia figura, quae estt qualitas de 
@@ -285,13 +283,13 @@
       cogno<lb ed="#R" n="14" break="no"/>sci habet formarum subsantialium alietas, si 
       ope<lb ed="#R" n="15" break="no"/>rationes propriae essent notae. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h14326-d1e555">
                <lb ed="#R" n="16"/>Secundo pono propositionem secundam de 
       ma<lb ed="#R" n="17" break="no"/>teria propinqua. Dico autem, quod materia 
       pro<lb ed="#R" n="18" break="no"/>pinqua baptismi est ablutio immersiua trina. Hic 
       <lb ed="#R" n="19"/>sunt tres conditiones. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h14326-d1e566">
                <lb ed="#R" n="20"/>Prima est, ablutio: non enim debet esse fricatio, 
       <lb ed="#R" n="21"/>vel tinctio, vel vnctio, per quod soluitur casus 
       qui<lb ed="#R" n="22" break="no"/>dam: Si volens puerum baptizare non haberet aquam 
@@ -302,7 +300,7 @@
       <lb ed="#R" n="27"/>non, quia talis actus non est ablutio, sed magis 
       <lb ed="#R" n="28"/>mersio. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h14326-d1e588">
                <lb ed="#R" n="29"/>Secunda conditio est, immersiua: oportet enim, 
       <lb ed="#R" n="30"/>quod vbi potest fieri, qui baptizat, immergat, &amp; 
       <lb ed="#R" n="31"/>hoc ratione significationis: significat enim 
@@ -320,7 +318,7 @@
       <lb ed="#R" n="43"/>factum est tempore Apostolorum, vbi multi simul 
       <lb ed="#R" n="44"/>suscipiebant baptismum. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h14326-d1e625">
                <lb ed="#R" n="45"/>Tertia conditio est, trina, hanc apposui propter 
       <lb ed="#R" n="46"/>hoc, non quia sit de forma Sacramenti absolute, sed 
       <lb ed="#R" n="47"/>oportet talem modum seruare ministrum, &amp; hoc 
@@ -329,7 +327,7 @@
       ali<lb ed="#R" n="50" break="no"/>qua, quae consueuerat trinam facere immersionem, 
       <lb ed="#R" n="51"/>consuetudini illius Ecclesiae obuiaret. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h14326-d1e644">
                <lb ed="#R" n="52"/>Ista potest probari per illud, quod habetur 
       de<lb ed="#R" n="53" break="no"/>consecratione dist. 4. cap. de Trina immersione, vbi 
       <lb ed="#R" n="54"/>dicitur; In vna fide nihil officit Ecclesiae consuetudo 
@@ -338,7 +336,7 @@
       <lb ed="#R" n="57"/>vna vtuntur immersione, vnitatem essentiae 
       pro<lb ed="#R" n="58" break="no"/>testantur. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h14326-d1e662">
                <lb ed="#R" n="59"/>Sed circa conditionem primam, vbi dicitur, 
       <lb ed="#R" n="60"/>quod baptismus est ablutio, consurgit dubium: 
       <lb ed="#R" n="61"/>Vtrum sit ablutio actio, vel passio. Ad quod 
@@ -346,7 +344,7 @@
       acti<lb ed="#R" n="63" break="no"/>ue, vel passiue: sic materia eius propinqua est 
       ablu<lb ed="#R" n="64" break="no"/>tio proportionabiliter actiue, vel passiue.
     </p>
-            <p>
+            <p xml:id="olm8ij-h14326-d1e678">
                <lb ed="#R" n="65"/>Sed quid de Sacramento? Vtrum baptismus, 
       in<lb ed="#R" n="66" break="no"/>quantum Sacramentum, dicat ablutionem actiuam, 
       <lb ed="#R" n="67"/>vel passiuam. Respondeo, dico, quod includit vtrũ- 
@@ -357,7 +355,7 @@
       ba<lb ed="#R" n="70" break="no"/>ptizato, vt requirantur &amp; baptizans, &amp; 
       baptiza<lb ed="#R" n="71" break="no"/>tus, &amp; hoc distincte. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h14326-d1e700">
                <lb ed="#R" n="72"/>Ad argumentum in oppositum respondeo, dico, 
       <lb ed="#R" n="73"/>quod aqualmagis proprie significat, quod 
       baptis<lb ed="#R" n="74" break="no"/>mus figurat; significat enim &amp; sepu lturam, quia 

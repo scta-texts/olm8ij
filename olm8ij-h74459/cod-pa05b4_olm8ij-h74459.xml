@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,24 +53,24 @@
       </front>
       <body>
          <div xml:id="olm8ij-h74459"> <!-- l4-d46q1 -->
-            <head>Quaestio 1</head>
-            <p>
+            <head xml:id="olm8ij-h74459-Hd1e102">Quaestio 1</head>
+            <p xml:id="olm8ij-h74459-d1e104">
                <lb ed="#R" n="106"/>Quaestio Vnica.
     </p>
-            <div>
-               <head>Articulus 1</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h74459-Dd1e109">
+               <head xml:id="olm8ij-h74459-Hd1e111">Articulus 1</head>
+               <head xml:id="olm8ij-h74459-Hd1e113" type="question-title">
         Utrum miseria damnatorum consistat magis in 
         afflictione paenali, quam in carentia 
         visionis diuinae, vel e conuerso.
       </head>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e116">
                   <lb ed="#R" n="107"/>ARTICVLVS J. 
       <lb ed="#R" n="108"/>Vtrum miseria damnatorum consistat magis in 
       <lb ed="#R" n="109"/>afflictione paenali, quam in carentia 
       vi<lb ed="#R" n="110" break="no"/>sionis diuinae, vel e conuerso. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e127">
                   <lb ed="#R" n="111"/>ARGVO primo, quod 
       <lb ed="#R" n="112"/>magis consistat in 
       affi<lb ed="#R" n="113" break="no"/>ctione poenali: In illo 
@@ -86,7 +84,7 @@
       <lb ed="#R" n="121"/>qui non est infelix, habet carentiam diuinae 
       visio<lb ed="#R" n="122" break="no"/>nis: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e156">
                   <lb ed="#R" n="123"/>Dices; viator habet carentiam visionis annexam 
       <lb ed="#R" n="124"/>spei, infaelix autem non habet spem, ideo caren- 
       <!--0218.xml-->
@@ -97,18 +95,18 @@
       <lb ed="#R" n="3"/>haec formaliter, vel inest viatori, sicut damnato, 
       <lb ed="#R" n="4"/>licet sit varietas quo ad extrinsecum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e179">
                   <lb ed="#R" n="5"/>In oppositum est, quia foelicitas consisit in 
       op<lb ed="#R" n="6" break="no"/>posito eius, in quo consistit miseria damnatorum, 
       <lb ed="#R" n="7"/>sed foelicitas non consistit in delectatione: ergo 
       <lb ed="#R" n="8"/>nec miseria damnatorum in poenali afflictione, quae 
       <lb ed="#R" n="9"/>opponitur delectioni.
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e192">
       <!-- missing line coord --> Respondeo in ista quaestione pono tres 
       proposi<lb ed="#R" n="10" break="no"/>tiones.
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e199">
                   <lb ed="#R" n="11"/>Prima est, quod miseria damnatorum 
       principa<lb ed="#R" n="12" break="no"/>lius formalius, &amp; essentialibus consistit in 
       displi<lb ed="#R" n="13" break="no"/>centia de Deo aeterna, inquantum Deitas occurrit 
@@ -123,7 +121,7 @@
       <lb ed="#R" n="22"/>deitate quam alius, tanto est infoelicior illo. Hanc 
       <lb ed="#R" n="23"/>conclusionem probo aliquibus rationibus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e230">
                   <lb ed="#R" n="24"/>Prima est haec. In illo actu consistit infoelicitas 
       <lb ed="#R" n="25"/>damnatorum, quod est summum malum illorum, 
       <lb ed="#R" n="26"/>hoc patet quoniam sicut foelicitas est summum 
@@ -157,7 +155,7 @@
       <lb ed="#R" n="54"/>malo, quam illa, quae est ab huiusmodi 
       obsinatio<lb ed="#R" n="55" break="no"/>ne in displicentia deitatis: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e302">
                   <lb ed="#R" n="56"/>Secunda ratio est ex natura beatitudinis: arguo 
       <lb ed="#R" n="57"/>sic: Beatitudo, &amp; infoelicitas opponuntur, tunc sic, 
       <lb ed="#R" n="58"/>maior est oppositio inter actus contrarios positiue, 
@@ -182,7 +180,7 @@
       complace<lb ed="#R" n="75" break="no"/>re priuatiue, sed aliquod oppositum contrarie, 
       pu<lb ed="#R" n="76" break="no"/>ta displicere.
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e354">
                   <lb ed="#R" n="77"/>Tertia ratio ad idem est ista: Beatitudo consistit 
       <lb ed="#R" n="78"/>in quietatione vltimi finis: ergo per oppositum 
       in<lb ed="#R" n="79" break="no"/>foelicitas consistit in inquietatione formali finis vl 
@@ -194,7 +192,7 @@
       <lb ed="#R" n="85"/>autem displicentia non est aliud, quam 
       odire<lb ed="#R" n="86" break="no"/>Deum: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e379">
                   <lb ed="#R" n="87"/>Sed est aduertendum, quia aliud est odire Deum 
       <lb ed="#R" n="88"/>optando sibi malum; aliud est odire Deum, idest, 
       <lb ed="#R" n="89"/>non quietari in eo per displicentiam de ipso: odium 
@@ -209,13 +207,13 @@
       quae<lb ed="#R" n="98" break="no"/>dam in deitate per displicentiam perpetuam 
       <lb ed="#R" n="99"/>de ea 
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e410">
                   <lb ed="#R" n="100"/>Sed contra hanc conclusionem videntur esse duo 
       <lb ed="#R" n="101"/>dubia. Primum est, quod miseria damnatorum 
       <lb ed="#R" n="102"/>non est culpa, sed est poena: displicentia vero de 
       <lb ed="#R" n="103"/>deitate potius videtur esse culpa, quam poena. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e421">
                   <lb ed="#R" n="104"/>Ad istud ego respondeo, quod idem potest esse 
       <lb ed="#R" n="105"/>culpa, &amp; poena: culpabilitas enim in actu non 
       vide<lb ed="#R" n="106" break="no"/>tur aliud addere, quam imputabilitatem: 
@@ -232,7 +230,7 @@
       <lb ed="#R" n="117"/>sed est meritum sibi ipsi, vt idem sit ibi praemium, 
       <lb ed="#R" n="118"/>&amp; meritum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e456">
                   <lb ed="#R" n="119"/>Dices: odire Deum non videtur esse aliqua 
       poe<lb ed="#R" n="120" break="no"/>na. Respondeo: accipiendo odire pro optare Deo 
       <lb ed="#R" n="121"/>malum, concedo. Sed capiendo odire pro actu 
@@ -251,7 +249,7 @@
       tri<lb ed="#R" n="134" break="no"/>stitia est summum malum, non quidem tristitia quae 
       <lb ed="#R" n="135"/>cadit super actum, sed quae cadit super obiectum.
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e495">
       <!--0219.xml-->
                   <pb ed="#R" n="219"/>
                   <cb ed="#R" n="a"/>
@@ -263,7 +261,7 @@
       <lb ed="#R" n="6"/>omnia: non ergo videtur, quod semper sit in 
       con<lb ed="#R" n="7" break="no"/>tinuo Dei odio. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e519">
                   <lb ed="#R" n="8"/>Respondeo, quamuis naturalia in eis fuerint 
       in<lb ed="#R" n="9" break="no"/>tegra, &amp; sint hodie, &amp; ideo naturalis inclinatio 
       re<lb ed="#R" n="10" break="no"/>manserit in eis ad diligendum Deum super omnia, 
@@ -274,12 +272,12 @@
       su<lb ed="#R" n="15" break="no"/>per omnia, licet sit inclinatus ad diligere super 
       <lb ed="#R" n="16"/>omnia 
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e542">
                   <lb ed="#R" n="17"/>Tertium dubium est, quia secundum hoc 
       vide<lb ed="#R" n="18" break="no"/>tur, quod daemon, &amp; damnati semper sint in actu 
       <lb ed="#R" n="19"/>mialo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e551">
                   <lb ed="#R" n="20"/>Respondeo concedo, quod infertur, vnde sunt 
       <lb ed="#R" n="21"/>in continua Dei malignatione, secundum illud Psal. 
       <lb ed="#R" n="22"/>Superbia eorum, qui te oderunt, ascendit semper, &amp; 
@@ -290,7 +288,7 @@
       <lb ed="#R" n="27"/>sicut est beatis obiectum beatificum, sic damnatis 
       <lb ed="#R" n="28"/>obiectum summe tristabile
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e573">
                   <lb ed="#R" n="29"/>Secunda propositio est, quod miseria 
       damnato<lb ed="#R" n="30" break="no"/>rum aliquo modo consistit in carentia diuinae 
       vi<lb ed="#R" n="31" break="no"/>sionis. Hanc conclusionem probo, quia malum 
@@ -307,18 +305,18 @@
       <lb ed="#R" n="42"/>priuatiue; ergo infaelicitas quae est oppositum 
       fae<lb ed="#R" n="43" break="no"/>licitatis, consistet in priuatione visionis diuinae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e608">
                   <lb ed="#R" n="44"/>Dices: ergo nos, qui priuamur visione, erimus 
       <lb ed="#R" n="45"/>infaelices. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e615">
                   <lb ed="#R" n="46"/>Respondeo: proprie priuatio est in subiecto apto 
       <lb ed="#R" n="47"/>nato, pro statu viae non sumus subiectum aptum 
       <lb ed="#R" n="48"/>natum ad visionem: ergo carentia visionis non est 
       <lb ed="#R" n="49"/>nobis priuatio eo modo, quo in damnatis, qui sunt 
       <lb ed="#R" n="50"/>in termino. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e628">
                   <lb ed="#R" n="51"/>Ex hoc patet, qualis est infaelicitas paruulorum, 
       <lb ed="#R" n="52"/>non enim consistit eorum miseria in displicentia 
       <lb ed="#R" n="53"/>de Deitate, quae est principale in miseria, &amp; poena 
@@ -330,11 +328,11 @@
       <lb ed="#R" n="59"/>principaliter, sed secundario, &amp; hoc loquendo de 
       <lb ed="#R" n="60"/>damnatione, &amp; miseria insernali.
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e653">
                   <lb ed="#R" n="61"/>Vltima propositio est, quod pro peccato 
       morta<lb ed="#R" n="62" break="no"/>li Deus iuste punit peccatorem aeterna poena 
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e660">
                   <lb ed="#R" n="63"/>Contra hanc propositionem facit difficultatem 
       <lb ed="#R" n="64"/>aliquibus, eo quod miseria exigit proportionem 
       <lb ed="#R" n="65"/>poenae ad culpam: hic autem non videtur esse 
@@ -351,12 +349,12 @@
       <lb ed="#R" n="74"/>quia mors sit aeternum rei corruptibilis, non tamem 
       <lb ed="#R" n="75"/>est aeternum animae, quae manet post mortem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e695">
                   <lb ed="#R" n="76"/>Respondeo, quod immo, quia licet absolute quo 
       <lb ed="#R" n="77"/>ad esse mors non sit aeternum animae, est tamen quo ad 
       <lb ed="#R" n="78"/>mereri, quia vlterius non potest anima poenitere. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e704">
                   <lb ed="#R" n="79"/>Sed contra: Jmpotentia illa scilicet penitendi, est 
       <lb ed="#R" n="80"/>animae data in poenam, &amp; in punitionem, vnde 
       ani<lb ed="#R" n="81" break="no"/>ma sibi derelicta posset vtique poenitere, &amp; quod 
@@ -364,11 +362,11 @@
       <lb ed="#R" n="83"/>impoenitentia facit, quod culpa sit aeterna, licet 
       fa<lb ed="#R" n="84" break="no"/>ciat, quod poena sit aeterna. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e720">
                   <lb ed="#R" n="85"/>Alij dicunt, quod culpa est infinita intensiue, 
       <lb ed="#R" n="86"/>quia ille, in quem peccauit, est infinitus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e727">
                   <lb ed="#R" n="87"/>Contra: Jsta infinitas in actu tantummodo 
       ex<lb ed="#R" n="88" break="no"/>trinseca, hoc enim modo diceretur, quod poena, 
       <lb ed="#R" n="89"/>qua Deus punit animam per duos dies in 
@@ -377,22 +375,22 @@
       <lb ed="#R" n="92"/>est esse in Deum, culpa sit infinita; ergo rationem 
       <lb ed="#R" n="93"/>huius, quod est esse a Deo, esset infinita poena dicta. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e746">
                   <lb ed="#R" n="94"/>Dicitur, quod non est simile, quia in primo est 
       <lb ed="#R" n="95"/>habitudo actus ad obiectum, in secundo ad efficiens; 
       <lb ed="#R" n="96"/>magis autem mensuratur actus ab obiecto, quam 
       <lb ed="#R" n="97"/>ab efficiente. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e757">
                   <lb ed="#R" n="98"/>Contra. Ita parum sortitur actus infinitatem ex 
       <lb ed="#R" n="99"/>obiecto, sicut ex efficiente, alias actus beati esset 
       <lb ed="#R" n="100"/>infinitus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e766">
                   <lb ed="#R" n="101"/>Alij dicunt, quod culpa est infinita/ eo quod 
       pri<lb ed="#R" n="102" break="no"/>uat honorem Dei, qui ex se est bonum infinitum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e773">
                   <lb ed="#R" n="103"/>Contra: honor iste Dei, quem culpa priuat, non 
       <lb ed="#R" n="104"/>est nisi obedientia, quam quilibet debet Deo, sed 
       <lb ed="#R" n="105"/>obedientia huiusmodi patet, quod non est bonum 
@@ -400,13 +398,13 @@
       difficul<lb ed="#R" n="107" break="no"/>tas, quare poena non sit improportionata culpae, si 
       <lb ed="#R" n="108"/>sit infinita. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e789">
                   <lb ed="#R" n="109"/>Dico ergo, quod quaedam est iustitia simpliciter, 
       <lb ed="#R" n="110"/>quae est contra passum, vt dicitur 5. Ethic. cap. 3. 
       <lb ed="#R" n="111"/>quo lex praecipit oculum pro oculo, dentem pro 
       <lb ed="#R" n="112"/>dente 
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e800">
                   <lb ed="#R" n="113"/>Alia est iustitia proportionalis, vt sicut se habet 
       <lb ed="#R" n="114"/>hoc ad illud, sic se habeat illud ad istud. 
       Difficul<lb ed="#R" n="115" break="no"/>tas igitur praedicta oritur, quia imaginantur 
@@ -454,7 +452,7 @@
       <lb ed="#R" n="18"/>quae infinita est, priuat debitum infinitum; ergo 
       <lb ed="#R" n="19"/>peccatum hoc modo poterit dici malum infinitum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e903">
                   <lb ed="#R" n="20"/>Sed si velimus dimittere iustum simpliciter, &amp; 
       <lb ed="#R" n="21"/>contra passum, &amp; ire ad iustum proportionale, hoc 
       <lb ed="#R" n="22"/>modo bene apparet, quomodo in punitione 
@@ -472,7 +470,7 @@
       <lb ed="#R" n="34"/>cuiusdam immobilitatis, quod non potest homo 
       <lb ed="#R" n="35"/>assequi in via. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e940">
                   <lb ed="#R" n="36"/>Secundo, quia videmus in alijs rebus 
       naturali<lb ed="#R" n="37" break="no"/>bus, quod eorum perfecio exigit, quod non sint in 
       <lb ed="#R" n="38"/>processu, &amp; via, sed quandoque sunt in termino 
@@ -481,7 +479,7 @@
       ratione<lb ed="#R" n="41" break="no"/>termini est aeternitas, alias magis esset via, quam 
       <lb ed="#R" n="42"/>terminus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e958">
                   <lb ed="#R" n="43"/>Hoc praemisso, arguo sic. Sicut se habet 
       meri<lb ed="#R" n="44" break="no"/>tum &amp; demeritum secundum finitatem viae, sic se 
       <lb ed="#R" n="45"/>habent ex alia parte praemium, puta gloria &amp; 
@@ -496,24 +494,24 @@
       re<lb ed="#R" n="54" break="no"/>dire sic &amp; sic, &amp; hoc in infinitum: ergo non erit in 
       <lb ed="#R" n="55"/>statu termini, sed in statu tendentiae, &amp; viae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e989">
                   <lb ed="#R" n="56"/>Huic propositioni addo aliam, quod pro 
       puni<lb ed="#R" n="57" break="no"/>tione aeterna pro peccato mortali semper 
       concur<lb ed="#R" n="58" break="no"/>rit misericordia Dei praeuenientis, &amp; hoc quia 
       pu<lb ed="#R" n="59" break="no"/>nit semper citra condignum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e1000">
                   <lb ed="#R" n="60"/>Sed dubium est, quomodo Justitia, &amp; 
       misericor<lb ed="#R" n="61" break="no"/>dia distinguantur in Deo, quae dicuntur 
       concurre<lb ed="#R" n="62" break="no"/>re ad damnatorum punitionem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e1009">
                   <lb ed="#R" n="63"/>Respondeo secundum sententiam Magistri 
       in<lb ed="#R" n="64" break="no"/>littera, non aliter distinguuntur in Deo, quam in 
       <lb ed="#R" n="65"/>ordine ad connotata extrinsecus, ut patet licteram 
       <lb ed="#R" n="66"/>intuenti. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e1021">
                   <lb ed="#R" n="67"/>Sed arguitur contra hoc, quia necesssario 
       opor<lb ed="#R" n="68" break="no"/>tet dare priorem dillinctionem, quam ipsorum- 
       <!--0220.xml-->
@@ -525,7 +523,7 @@
       opor<lb ed="#R" n="73" break="no"/>tet necessario ponere distinctionem priorem ipsis 
       <lb ed="#R" n="74"/>connotatis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e1045">
                   <lb ed="#R" n="75"/>Respondeo: Connotare non est actus profluens a 
       <lb ed="#R" n="76"/>connotante, nec praedicamentum aliquod attributum 
       <lb ed="#R" n="77"/>ipsi connotanti, sed est ipsa res accepta cum hoc, 
@@ -554,7 +552,7 @@
       <lb ed="#R" n="100"/>alium. Et tunc volo, quod iustitia, &amp; misericordia 
       <lb ed="#R" n="101"/>distinguantur, quo ad alterum, quod includunt.
     </p>
-               <p>
+               <p xml:id="olm8ij-h74459-d1e1106">
                   <lb ed="#R" n="102"/>Quod si accipias iustitiam pro ipsa Deitate 
       prae<lb ed="#R" n="103" break="no"/>cise, quam primo importat, &amp; similiter 
       misericor<lb ed="#R" n="104" break="no"/>diam, tunc respondeo, quod propositio, quae 

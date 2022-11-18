@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -54,10 +52,10 @@
          </div>
       </front>
       <body>
-         <div xml:id="olm8ij-h38408"> <!-- l1-d12q2 -->
-            <head>Quaestio 2</head>
-            <head type="question-title">De accidentium separabilitate</head>
-            <p>
+         <div xml:id="olm8ij-h38408"> <!-- l4-d12q2 -->
+            <head xml:id="olm8ij-h38408-Hd1e102">Quaestio 2</head>
+            <head xml:id="olm8ij-h38408-Hd1e104" type="question-title">De accidentium separabilitate</head>
+            <p xml:id="olm8ij-h38408-d1e107">
                <lb ed="#R" n="104"/>Quaestio II. 
       <lb ed="#R" n="105"/>LC ACCJDENTJVM 
       <lb ed="#R" n="106"/>
@@ -66,12 +64,12 @@
       <lb ed="#R" n="108"/>
                <!-- line coord error -->
             </p>
-            <p>
+            <p xml:id="olm8ij-h38408-d1e125">
                <lb ed="#R" n="109"/>Viso de accidentium entitate, nunc est 
       vi<lb ed="#R" n="110" break="no"/>dendum de ipsorum separabilitate, &amp; 
       quae<lb ed="#R" n="111" break="no"/>ro circa hoc tres quaestiones. Prima est:
     </p>
-            <p>
+            <p xml:id="olm8ij-h38408-d1e135">
                <lb ed="#R" n="112"/>1 Vtrum virtute diuina accidens possit fieri 
       si<lb ed="#R" n="113" break="no"/>ne subiecto. 
       <lb ed="#R" n="114"/>2 Vtrum quodlibet accidens virtute diuina 
@@ -79,18 +77,18 @@
       <lb ed="#R" n="116"/>3 Vtrum de facto quodlibet accidens sit in Sa 
       <lb ed="#R" n="117"/>cramento altaris sine subiecto. 
     </p>
-            <div>
-               <head>Articulus 1</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h38408-Dd1e151">
+               <head xml:id="olm8ij-h38408-Hd1e153">Articulus 1</head>
+               <head xml:id="olm8ij-h38408-Hd1e155" type="question-title">
       Utrum virtute diuina accidens possit esse 
       sinesubiecto.
     </head>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e158">
                   <lb ed="#R" n="118"/>ARTICVLVUS I. 
       <lb ed="#R" n="119"/>Vtrum virtute diuina accidens possit esse 
       sine<lb ed="#R" n="120" break="no"/>subiecto. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e167">
                   <lb ed="#R" n="121"/>CIrca primam quaestionem arguo, 
       <lb ed="#R" n="122"/>quod accidens non possit fieri 
       <lb ed="#R" n="123"/>virtute diuina sine subiecto, 
@@ -106,7 +104,7 @@
     <lb ed="#R" n="131"/>
                   <!-- lien coord error -->
                </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e200">
       <!--0113.xml-->
                   <pb ed="#R" n="113"/>
                   <cb ed="#R" n="a"/>
@@ -122,14 +120,14 @@
       ter<lb ed="#R" n="10" break="no"/>minationem in se, vt per hoc fiant separata, quia 
       <lb ed="#R" n="11"/>fuerunt terminata. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e234">
                   <lb ed="#R" n="12"/>Alio modo potest intelligi separatio, quod virtu 
       <lb ed="#R" n="13"/>te diuina maneat eorum realitas sine subiecto, sic 
       <lb ed="#R" n="14"/>tamen, quod non detur eis ex hoc terminatio 
       ali<lb ed="#R" n="15" break="no"/>qua, sed virtute diuina maneant sine subiecto 
       inter<lb ed="#R" n="16" break="no"/>minata &amp; incompleta, &amp; diminuta.
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e247">
                   <lb ed="#R" n="17"/>Tunc secundo pono propositiones. Prima est ista, 
       <lb ed="#R" n="18"/>quod contradictio est, quod virtute aliqua accidēs 
       <lb ed="#R" n="19"/>fiat sine subiecto, sic qui sua essentia fiat terminata, 
@@ -153,7 +151,7 @@
       se<lb ed="#R" n="37" break="no"/>cundum genus suum conuenit praecise esse 
       natu<lb ed="#R" n="38" break="no"/>ram terminatam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e297">
                   <lb ed="#R" n="39"/>Ex hac propositione apparet irrationabilitas 
       a<lb ed="#R" n="40" break="no"/>liquarum opinionum circa quaestionem istam. 
       Pri<lb ed="#R" n="41" break="no"/>mo quod dicunt quidam, quod accidentibus 
@@ -167,17 +165,17 @@
       sepa<lb ed="#R" n="49" break="no"/>rarentur de nouo crearentur, illud enim dicitur crea 
       <lb ed="#R" n="50"/>ri, qui non habet esse, &amp; post datur sibi nouum esse. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e326">
                   <lb ed="#R" n="51"/>Dices: Non creantur, quia non fiunt de nouo, sed 
       <lb ed="#R" n="52"/>spoliantur esse subiecti, quod participabant, &amp; 
       in<lb ed="#R" n="53" break="no"/>duunt esse nouum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e335">
                   <lb ed="#R" n="54"/>Contra: Nunquam spoliatur esse ab aliquo, nisi 
       <lb ed="#R" n="55"/>illud desinat esse, &amp; per consequens annihiletur: 
       se<lb ed="#R" n="56" break="no"/>quitur ergo quod accidentia annihilabuntur. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e344">
                   <lb ed="#R" n="57"/>Dices, no annihilatur, quia statim datur eis aliud 
       <lb ed="#R" n="58"/>ese. Contra: Hoc non prohibet ea annihilari, nam 
       li<lb ed="#R" n="59" break="no"/>cet statim detur aliud esse, tamem esse pristinum desinit 
@@ -188,7 +186,7 @@
       <lb ed="#R" n="64"/>ese numero: ergo non sunt eadem accidentia 
       nu<lb ed="#R" n="65" break="no"/>mero, quae prius. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e367">
                   <lb ed="#R" n="66"/>Confirmo etiam hoc, quia opinio ista fundatur in 
       <lb ed="#R" n="67"/>falsa imaginatione, quod esse ab essentia differat, quod 
       <lb ed="#R" n="68"/>falsum est, vt alias patuit. Quapropter sicut se habent 
@@ -201,14 +199,14 @@
       <lb ed="#R" n="73"/>hoc modo non habent propriam realitatem per 
       in<lb ed="#R" n="74" break="no"/>diuisionem cum subiecto. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e393">
                   <lb ed="#R" n="75"/>Secunda Propositio est, quod accidentia diuina 
       <lb ed="#R" n="76"/>virtute possunt separari a subiecto, &amp; manuteneri 
       <lb ed="#R" n="77"/>absque hoc, quod manuteneatur subiectum, sic 
       ta<lb ed="#R" n="78" break="no"/>men quod non detur eis esse terminatum, sed 
       ma<lb ed="#R" n="79" break="no"/>nuteneantur a Deo in sua interminatione. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e406">
                   <lb ed="#R" n="80"/>Hanc conclusionem probo sic: Illud non repugnat 
       <lb ed="#R" n="81"/>Deo, quod non implicat repugnantiam primo 
       mo<lb ed="#R" n="82" break="no"/>do dicendi per se, &amp; contradictionem. Probatum 
@@ -224,7 +222,7 @@
       <lb ed="#R" n="92"/>praedicatum sit idem, tamen subiecum non est idē, 
       <lb ed="#R" n="93"/>idem dico simpliciter, licet sit idem per indiuisionem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e439">
                   <lb ed="#R" n="94"/>Secundo ad idem, quia Deus potest manutenere 
       <lb ed="#R" n="95"/>realitates in suo esse. Tunc sic, quando duae 
       realita<lb ed="#R" n="96" break="no"/>tes sic se habent, quod vna non est alia, licet sundent 
@@ -232,7 +230,7 @@
       ma<lb ed="#R" n="98" break="no"/>nutenere vnam illarum, &amp; non aliam, similiter nec 
       <lb ed="#R" n="99"/>eorum indiuisionem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e455">
                   <lb ed="#R" n="100"/>Tertia ratio ad idem: Plus potest Deus per 
       poten<lb ed="#R" n="101" break="no"/>tiam facere, quam intellectus arguere, vel intueri: 
       <lb ed="#R" n="102"/>ratio est, quia etiam multa possibilia non potest 
@@ -250,7 +248,7 @@
       <lb ed="#R" n="114"/>si hoc intellectus potest arguere, illud non est 
       im<lb ed="#R" n="115" break="no"/>possibile Deo fieri. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e492">
                   <lb ed="#R" n="116"/>Tertio mouebo dubia. Primum est de modo 
       pos<lb ed="#R" n="117" break="no"/>sibilitatis, videtur enim valde mirabile. Respondeo, 
       <lb ed="#R" n="118"/>concedo quod est mirabile, ideo est miraculum, quod si 
@@ -269,7 +267,7 @@
       <lb ed="#R" n="131"/>talia separari propter intimam vnitatem, quam 
       si<lb ed="#R" n="132" break="no"/>mul fundant cum subiecto. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e532">
                   <lb ed="#R" n="133"/>Tunc moueo dubia aliqua contra rationes, &amp; pri 
       <lb ed="#R" n="134"/>mo contra primam rationem, &amp; ostendo quod accidens 
       <lb ed="#R" n="135"/>separari a,subiecto, est contradictio plana in primo 
@@ -281,17 +279,17 @@
       <lb ed="#R" n="2"/>per se tertio modo: sed accidens non est per se 
       ter<lb ed="#R" n="3" break="no"/>tio modo, pateti. Poster. ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e556">
                   <lb ed="#R" n="4"/>Ad idem. Contradictio est, quod res, quae est 
       <lb ed="#R" n="5"/>indiuisa in se, &amp; non diu:sa in alio, fiat diuisa ab 
       a<lb ed="#R" n="6" break="no"/>lio: sed accidens est res in se indiuisa, &amp; a subieco 
       <lb ed="#R" n="7"/>diuisa: ergo. Sed si separetur, ponitur diuisa: ergo.
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e567">
       <!-- missing line break -->Et confirmo, quia post separationem sunt duae
       <lb ed="#R" n="8"/>res: ergo ibi est vnitas, &amp; vnitas: ergo diuisio. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e574">
                   <lb ed="#R" n="9"/>Item: per te non aliter imaginandum est de 
       acci<lb ed="#R" n="10" break="no"/>dente &amp; substantia, quam de partibus continui: sed 
       <lb ed="#R" n="11"/>partes continui licet sint vnum indiuisum in 
@@ -299,7 +297,7 @@
       <lb ed="#R" n="13"/>separata habent propriam vnitatem &amp; 
       separatio<lb ed="#R" n="14" break="no"/>nem: ergo simile est de accidentibus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e590">
                   <lb ed="#R" n="15"/>Contra secundam rationem arguo dupliciter. 
       <lb ed="#R" n="16"/>Primo quaero de ista indiuisione quid est, vtrum sit 
       <lb ed="#R" n="17"/>de essentia accidentis, vel compositi: si primo 
@@ -308,12 +306,12 @@
       <lb ed="#R" n="20"/>essentia qualis, quod non est minus inconueniens, 
       <lb ed="#R" n="21"/>quam quod vna relatio sit de essentia eius. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e608">
                   <lb ed="#R" n="22"/>Confirmo, quia tunc esse quale est negatiuum, 
       <lb ed="#R" n="23"/>sicut tu arguis, quod si ibi esset relatio media, esse 
       <lb ed="#R" n="24"/>quale esset esse relatum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e618">
                   <lb ed="#R" n="25"/>Secundo: Quia Deus separando agit, non est 
       au<lb ed="#R" n="26" break="no"/>tem per actionem possibile tolli indiuisionem, nisi 
       <lb ed="#R" n="27"/>data diuisione. Diuisio est aliquid positiuum: 
@@ -323,7 +321,7 @@
       <lb ed="#R" n="31"/>quod tu superius improbasti in prima 
       Conclu<lb ed="#R" n="32" break="no"/>fione 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e638">
                   <lb ed="#R" n="33"/>Item contra rationem tertiam: Si intellectus 
       <lb ed="#R" n="34"/>necessario intelligit accidens cum indiuisione ad 
       <lb ed="#R" n="35"/>substantiam, aut hoc est ex natura rei, aut ex 
@@ -332,18 +330,18 @@
       <lb ed="#R" n="38"/>ergo Deus non intelligit accidens sine indiuisione: 
       <lb ed="#R" n="39"/>ergo nec faciet accidens sine ea. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e656">
                   <lb ed="#R" n="40"/>Sed in oppositum est, quia sensus attingit isa 
       ac<lb ed="#R" n="41" break="no"/>cidentia separata: ergo &amp; intellectus, quia plus 
       po<lb ed="#R" n="42" break="no"/>test, quam sensus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e665">
                   <lb ed="#R" n="43"/>Vnde ad primam rationem respondeo, quod 
       ac<lb ed="#R" n="44" break="no"/>cidens non fit per se tertio modo, ex hoc quod 
       ma<lb ed="#R" n="45" break="no"/>net sine subiecto, quia sustentatur miraculose, &amp; id 
       <lb ed="#R" n="46"/>excedit naturalia. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e676">
                   <lb ed="#R" n="47"/>Ad secundum negatur, quod accidens sit res in 
       <lb ed="#R" n="48"/>se indiuisa a parte rei, siue naturaliter, eso quod 
       <lb ed="#R" n="49"/>per intellectum possit concipi vt separatum a 
@@ -357,7 +355,7 @@
       manu<lb ed="#R" n="57" break="no"/>teneri a Deo separatum, &amp; ita procedit etiam 
       alte<lb ed="#R" n="58" break="no"/>ra illatio. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e705">
                   <lb ed="#R" n="59"/>Ad rationem contra secundum dico, quod non 
       <lb ed="#R" n="60"/>repugnat per diuinam potentiam fieri, quod per 
       in<lb ed="#R" n="61" break="no"/>tellectum potest concipi vt tale: sed per intellectum 
@@ -372,7 +370,7 @@
                   <lb ed="#R" n="68"/>cipitur, cum sint duae res substantia &amp; accidens 
       ex<lb ed="#R" n="69" break="no"/>tra animam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e737">
                   <lb ed="#R" n="70"/>Ad rationem contra tertiam patet similiter, &amp; 
       <lb ed="#R" n="71"/>falsa est contraria, quod Deus non intelligat 
       acci<lb ed="#R" n="72" break="no"/>dens sine iudiuisione a substantia, sicut etiam per 
@@ -380,18 +378,18 @@
       <lb ed="#R" n="74"/>se extra animam: ergo. 
     </p>
             </div>
-            <div>
-               <head>Articulus 2</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h38408-Dd1e751">
+               <head xml:id="olm8ij-h38408-Hd1e753">Articulus 2</head>
+               <head xml:id="olm8ij-h38408-Hd1e755" type="question-title">
       Utrum virtute diuina accidens possit separari 
       a subiecto.
     </head>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e758">
                   <lb ed="#R" n="75"/>ARTICVLVS II 
       <lb ed="#R" n="76"/>Vtrum virtute diuina accidens possit separari 
       <lb ed="#R" n="77"/>a subiecto. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e767">
                   <lb ed="#R" n="78"/>QVantum ad secundam quaestionem arguo 
       pri<lb ed="#R" n="79" break="no"/>mo, quod Deus potest quodlibet accidens 
       <lb ed="#R" n="80"/>aseparare a subiecto, sic: Deus potest illud 
@@ -401,18 +399,18 @@
       se<lb ed="#R" n="84" break="no"/>cundo modo: ergo. Probatio minoris, quia 
       su<lb ed="#R" n="85" break="no"/>biectum in nullo accidente clauditur primo modo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e787">
                   <lb ed="#R" n="86"/>Contra, quia tunc faceret absurdissima, nam 
       <lb ed="#R" n="87"/>destrueret totam mathematicam, vnde faceret, 
       <lb ed="#R" n="88"/>quod totum non esset maius sua parte, quod trian 
       <lb ed="#R" n="89"/>gulus non haberet tres angulos, &amp; multa 
       huius<lb ed="#R" n="90" break="no"/>modi. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e801">
                   <lb ed="#R" n="91"/>Respondeo: in ista quaestione ponam tres 
       con<lb ed="#R" n="92" break="no"/>clusiones. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e808">
                   <lb ed="#R" n="93"/>Prima est, quod Deus potest qualitatem de quar 
       <lb ed="#R" n="94"/>ea specie qualitatis separare a quantitate, sicut po 
       <lb ed="#R" n="95"/>test quantitatem a substantia. Hoc dico propter 
@@ -420,7 +418,7 @@
       <lb ed="#R" n="97"/>potest a quantitate separari. Motiuum eorum est, 
       <lb ed="#R" n="98"/>rum quia quantitas est principium indiuiduationis, 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e824">
                   <lb ed="#R" n="99"/>tum quia tunc qualitas non esset sensibilis, &amp; sic 
       <lb ed="#R" n="100"/>species esset sine propria differentia; tum quia talis 
       <lb ed="#R" n="101"/>qualitas non erit accidens corporale, &amp; mutaretur 
@@ -432,13 +430,13 @@
       pro<lb ed="#R" n="107" break="no"/>fundum, ex quo videtur, quod sola quantitas possit 
       <lb ed="#R" n="108"/>per se esse 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e848">
                   <lb ed="#R" n="109"/>Confirmatur etiam, quia quantitas 
       immedia<lb ed="#R" n="110" break="no"/>te adhaeret materiae, propter hoc antiqui moueban 
       <lb ed="#R" n="111"/>tur ad opinandum, quod dimensiones essent 
       sub<lb ed="#R" n="112" break="no"/>stantiae rerum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e859">
                   <lb ed="#R" n="113"/>Alij tenent oppositum, &amp; motiuum eorum est, 
       <lb ed="#R" n="114"/>quia qualitates huiusmodi dependenta substantia 
       <lb ed="#R" n="115"/>&amp; quantitate, &amp; magis a substantia quam a 
@@ -446,7 +444,7 @@
       ma<lb ed="#R" n="117" break="no"/>gis dependet a primo, quam a secundo: sed hoc non 
       <lb ed="#R" n="118"/>obstante separatur qualitas a substantia. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e875">
                   <lb ed="#R" n="119"/>Secundo, quia qualitas est absolutum, &amp; 
       perfe<lb ed="#R" n="120" break="no"/>ctius quantitate: Probatur, quia quanto res est 
       per<lb ed="#R" n="121" break="no"/>fectior, tanto habet plus de qualitate, quia 
@@ -460,7 +458,7 @@
       <lb ed="#R" n="129"/>simpliciter, multae autem qualitates sunt 
       perse<lb ed="#R" n="130" break="no"/>ctiones simpliciter. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e905">
                   <lb ed="#R" n="131"/>Propter controuersiam ergo harum opinionum 
       <lb ed="#R" n="132"/>pono propositionem propositam, licet sit valde- 
       <!--0115.xml-->
@@ -505,14 +503,14 @@
       albedi<lb ed="#R" n="37" break="no"/>nis fit albedo nunc sub vna partibilitate, nunc sub 
       <lb ed="#R" n="38"/>alia 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e1001">
                   <lb ed="#R" n="39"/>Ex hoc etiam patet, quod falsa est imaginatio 
       <lb ed="#R" n="40"/>eorum, qui imaginantur, quod linea sit quiddam 
       <lb ed="#R" n="41"/>longum, &amp; hoc verum non est: longum enim dicit 
       <lb ed="#R" n="42"/>duo, scilicet quantitatem, &amp; ipsum subiectum 
       <lb ed="#R" n="43"/>quantitatis, quod est denominatiue longum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e1014">
                   <lb ed="#R" n="44"/>Et licet in illo subiecto sint multa quidditatiue, 
       <lb ed="#R" n="45"/>puta substantia, qualitas, &amp; huiusmodi, tamen illa 
       <lb ed="#R" n="46"/>omnia sunt indiuisa, &amp; vnum in esse partem, &amp; ideo 
@@ -520,7 +518,7 @@
       quo<lb ed="#R" n="48" break="no"/>modo ibi, etsi sint multae quidditates extensae 
       om<lb ed="#R" n="49" break="no"/>nium, non tamen est nisi vna quantitas. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e1030">
                   <lb ed="#R" n="50"/>Secunda Propositio est, quod non videtur mihi, 
       <lb ed="#R" n="51"/>absque terminabilitate posse teneri, quin 
       omne<lb ed="#R" n="52" break="no"/>accidens sit separabile a subiecto diuina 
@@ -528,7 +526,7 @@
       quantumcuoque<lb ed="#R" n="54" break="no"/>intelligatur indiuise a subiecto, &amp; quantumcunque 
       <lb ed="#R" n="55"/>habeat modicam entitatem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e1046">
                   <lb ed="#R" n="56"/>Et dico notabiliter, si sit res alia a subiecto. 
       <lb ed="#R" n="57"/>quia forte sunt multa accidentia, quae non habent 
       <lb ed="#R" n="58"/>entra animam quidditatem distinctam a subiecto, 
@@ -563,7 +561,7 @@
       <lb ed="#R" n="85"/>potest separare omnem veram rem, quae est in 
       se<lb ed="#R" n="86" break="no"/>cundo modo per se. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e1120">
                   <lb ed="#R" n="87"/>Et si arguatur, quod Deus possset facere, quod 
       <lb ed="#R" n="88"/>Spiritus sanctus procederet a filio, &amp; non 
       distin<lb ed="#R" n="89" break="no"/>gueretur a silio, &amp; non procederet ab eo, vel 
@@ -572,7 +570,7 @@
       diui<lb ed="#R" n="92" break="no"/>nis enim omnia sunt indiuisa actu, &amp; potentia, &amp; 
       <lb ed="#R" n="93"/>communicabiliter, non sic in creaturis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e1139">
                   <lb ed="#R" n="94"/>Dices: ergo Deus posset facere re ctitudinem sine 
       <lb ed="#R" n="95"/>linea, &amp; asperitatem, &amp; leuitatem sine partibus. 
       <lb ed="#R" n="96"/>Respondeo ostende causam, quare Deus potest 
@@ -594,18 +592,18 @@
       <lb ed="#R" n="112"/>patet ex dictis. 
     </p>
             </div>
-            <div>
-               <head>Articulus 3</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h38408-Dd1e1184">
+               <head xml:id="olm8ij-h38408-Hd1e1186">Articulus 3</head>
+               <head xml:id="olm8ij-h38408-Hd1e1188" type="question-title">
       Utrum de facto in Sacramento altaris accidens sit 
       sine subiecto.
     </head>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e1191">
                   <lb ed="#R" n="113"/>ARTICVLVS III 
       <lb ed="#R" n="114"/>Vtrum de facto in Sacramento altaris accidens sit 
       <lb ed="#R" n="115"/>sine subiecto. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e1200">
                   <lb ed="#R" n="116"/>AD tertiam quaestionem sine argumentis 
       re<lb ed="#R" n="117" break="no"/>spondeo, pono duas conclusiones. 
       <lb ed="#R" n="118"/>prima est, quod de facto in Sacramento altaris 
@@ -613,12 +611,12 @@
       prin<lb ed="#R" n="120" break="no"/>cipali, &amp; simpliciter, quia huiusmodi est sola 
       sub<lb ed="#R" n="121" break="no"/>stantia resuectu omnium accidentium.
   </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e1216">
                   <lb ed="#R" n="122"/>Secunda Conclusio est. quod ibi nullum accidens 
       <lb ed="#R" n="123"/>est sine subiecto secundum quid, vnde qualitas est 
       <lb ed="#R" n="124"/>ibi in quantitate. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e1226">
                   <lb ed="#R" n="125"/>Vbi considerandum est. quod aliud est esse 
       subie<lb ed="#R" n="126" break="no"/>ctum, aliud est esse rationem subiecti; nam modo 
       <lb ed="#R" n="127"/>imaginor, quod substantia est subiectum 
@@ -626,7 +624,7 @@
       par<lb ed="#R" n="129" break="no"/>tibilitas est substantiae ratio, qua possit subiectum 
       <lb ed="#R" n="130"/>esse 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e1242">
                   <lb ed="#R" n="131"/>Non ergo est imaginandum, quod accidentia 
       <lb ed="#R" n="132"/>cuiusinodi sunt color, &amp; aliae qualitates, sint in 
       su<lb ed="#R" n="133" break="no"/>perficie ipsa, vt putant quidam: ratio est, quia su- 
@@ -648,7 +646,7 @@
       <lb ed="#R" n="13"/>in vno, &amp; recttitudo in alio sunt ratio tangendi 
       in<lb ed="#R" n="14" break="no"/>puncto. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h38408-d1e1288">
                   <lb ed="#R" n="15"/>Nunc ad propositum, substantia, &amp; quantitas 
       <lb ed="#R" n="16"/>habent rationem vnius subiecti integri respectu 
       <lb ed="#R" n="17"/>aliorum accidentium integrati ex ratione 

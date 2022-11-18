@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,20 +53,20 @@
       </front>
       <body>
          <div xml:id="olm8ij-h59564"> <!-- l4-d30q1 -->
-            <head>Quaestio 1</head>
-            <p>
+            <head xml:id="olm8ij-h59564-Hd1e102">Quaestio 1</head>
+            <p xml:id="olm8ij-h59564-d1e104">
                <lb ed="#R" n="83"/>Quaestio Vnica. 
     </p>
-            <div>
-               <head>Articulus 1</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h59564-Dd1e109">
+               <head xml:id="olm8ij-h59564-Hd1e111">Articulus 1</head>
+               <head xml:id="olm8ij-h59564-Hd1e113" type="question-title">
       Utrum error impediat Matrimonium.
     </head>
-               <p>
+               <p xml:id="olm8ij-h59564-d1e116">
                   <lb ed="#R" n="84"/>ARTICVLVUS I. 
       <lb ed="#R" n="85"/>Vtrum error impediat Matrimonium. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h59564-d1e123">
                   <lb ed="#R" n="86"/>ARGVO primo ad 
       par<lb ed="#R" n="87" break="no"/>tem negatiuam, quod 
       <lb ed="#R" n="88"/>non, quia si aliquid 
@@ -84,13 +82,13 @@
       per<lb ed="#R" n="98" break="no"/>sonae, &amp; tamen Matrimonium non fuit impeditum, 
       <lb ed="#R" n="99"/>imo permansit ratum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h59564-d1e156">
                   <lb ed="#R" n="100"/>Sed in oppositum est, quia illud, quod impedit 
       <lb ed="#R" n="101"/>consensum, impedit Matrimonium: sed error est 
       <lb ed="#R" n="102"/>huiusmodi: ergo. Respondeo, pono tres 
       conclu<lb ed="#R" n="103" break="no"/>siones. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h59564-d1e168">
                   <lb ed="#R" n="104"/>Prima est generalis, quod error impedit in 
       ge<lb ed="#R" n="105" break="no"/>nerali Matrimonium. hanc conclusionem probo sic: 
       <lb ed="#R" n="106"/>Illud quod impedit voluntarium, impedit omnem 
@@ -114,7 +112,7 @@
       in<lb ed="#R" n="10" break="no"/>tellectus, quod est cuius gratia, puta finem 
       osten<lb ed="#R" n="11" break="no"/>sum ab intellectu. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h59564-d1e218">
                   <lb ed="#R" n="12"/>Vbi considerandum est, quod actus voluntatis 
       <lb ed="#R" n="13"/>nobilissimus habet intra se omnes causas suas: 
       ha<lb ed="#R" n="14" break="no"/>bet enim eliciens suam voluntatem, &amp; recipiens, &amp; 
@@ -128,7 +126,7 @@
       habi<lb ed="#R" n="22" break="no"/>tuato ad oppositum veritatis circa necessaria ipsi 
       <lb ed="#R" n="23"/>contractui. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h59564-d1e247">
                   <lb ed="#R" n="24"/>Secunda Propositio est, quod triplex error 
       im<lb ed="#R" n="25" break="no"/>pedit matrimonium: &amp; primus quidem est error 
       <lb ed="#R" n="26"/>personae, vt si credens quis contrahere cum 
@@ -148,14 +146,14 @@
       <lb ed="#R" n="40"/>in omni contractu matrimoniali corpus pro 
       cor<lb ed="#R" n="41" break="no"/>pore commutetur. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h59564-d1e289">
                   <lb ed="#R" n="42"/>Secundo claudicat contractus ex defectu 
       alte<lb ed="#R" n="43" break="no"/>rius contrahentium non potentis contrahere, &amp; hoc 
       <lb ed="#R" n="44"/>efficit error conditionis; qui enim seruus est, 
       non<lb ed="#R" n="45" break="no"/>potest contrahere corpus suum in alterum 
       commu<lb ed="#R" n="46" break="no"/>tando, eo quod seruus non habet sui potestatem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h59564-d1e302">
                   <lb ed="#R" n="47"/>Tertio contractus claudicat ex defectu circa 
       vo<lb ed="#R" n="48" break="no"/>tum, nam translatio in isto contracu, quae fit 
       de<lb ed="#R" n="49" break="no"/>corpore contrahentis in alterius dominium, non 
@@ -173,7 +171,7 @@
       au<lb ed="#R" n="61" break="no"/>tem claudicationem efficit defectus in voto, &amp; 
       <lb ed="#R" n="62"/>consensu. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h59564-d1e339">
                   <lb ed="#R" n="63"/>Ex his potest responderi ad vnum casum, qui 
       <lb ed="#R" n="64"/>proponitur quandoque, scilicet, quid fiet de 
       illa<lb ed="#R" n="65" break="no"/>quae plene consentit in eum, qui consentit ficte, &amp; 
@@ -190,7 +188,7 @@
       <lb ed="#R" n="74"/>nec tunc constitisset sibi de fraude, &amp; ex alia parte 
       <lb ed="#R" n="75"/>iste dicit nunc veraciter se non consensisse. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h59564-d1e375">
                   <lb ed="#R" n="76"/>Alij dicunt, quod in tali casu materialiter ista 
       <lb ed="#R" n="77"/>non esset perplexa, debet praesumere, quod 
       vere<lb ed="#R" n="78" break="no"/>consensit, cuius ratio est, quia in tali casu debet 
@@ -198,20 +196,20 @@
       <lb ed="#R" n="80"/>praesumet illum consensisse, vbi constaret eum 
       ex<lb ed="#R" n="81" break="no"/>pressisse verba consensus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h59564-d1e391">
                   <lb ed="#R" n="82"/>Sed quid faciet vir, qui scit se veraciter non 
       con<lb ed="#R" n="83" break="no"/>sensisse? Dicitur, quod non debet petere debitum: 
       <lb ed="#R" n="84"/>debet tamen reddere, si exigatur, nec quantumcun 
       <lb ed="#R" n="85"/>que ab Ecclesia compellatur, licitum est ei debitum 
       <lb ed="#R" n="86"/>exigere. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h59564-d1e404">
                   <lb ed="#R" n="87"/>Alij dicunt, quod nec debet reddere, imo debet 
       <lb ed="#R" n="88"/>potius excommunicationem sustinere, quam 
       red<lb ed="#R" n="89" break="no"/>dat, quia non est debitum, sed peccatum, tamen 
       <lb ed="#R" n="90"/>consulendum esset sibi, quod consentiat. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h59564-d1e415">
                   <lb ed="#R" n="91"/>Tertia Propositio est, quod alius error a 
       praedi<lb ed="#R" n="92" break="no"/>ctis tribus est fortunae, vt si credat 
       contrahere<lb ed="#R" n="93" break="no"/>cum diuite, &amp; contrahat cum paupere, siue sit 
@@ -221,7 +219,7 @@
       <lb ed="#R" n="97"/>Ratio communis est, quia nullum horum 
       contra<lb ed="#R" n="98" break="no"/>ctum impedit, aut facit claudicare. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h59564-d1e435">
                   <lb ed="#R" n="99"/>Ad argumentum in oppositum, Respondeo, quod 
       <lb ed="#R" n="100"/>non est simile de errore, &amp; infidelitate, quia error 
       <lb ed="#R" n="101"/>per se, &amp; directe est contra matrimonium, 
@@ -230,23 +228,23 @@
       <lb ed="#R" n="104"/>virtute consensus, quo postmodum consensit in Lyam. 
     </p>
             </div>
-            <div>
-               <head>Articulus 2</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h59564-Dd1e452">
+               <head xml:id="olm8ij-h59564-Hd1e454">Articulus 2</head>
+               <head xml:id="olm8ij-h59564-Hd1e456" type="question-title">
       Utrum inter Mariam, et Ioseph fuerit verum 
       Matrimonium
     </head>
-               <p>
+               <p xml:id="olm8ij-h59564-d1e459">
                   <lb ed="#R" n="105"/>ARTICVLVS II 
       <lb ed="#R" n="106"/>Vtrum inter Mariam, &amp; Ioseph fuerit verum 
       <lb ed="#R" n="107"/>Matrimonium 
     </p>
-               <p>
+               <p xml:id="olm8ij-h59564-d1e468">
                   <lb ed="#R" n="108"/>SEcundo sine argumentis quaero: Vtrum inter 
       <lb ed="#R" n="109"/>Mariam, &amp; Joseph fuerit verum matrimonium. 
       <lb ed="#R" n="110"/>Respondeo, pono hic tres conclusiones. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h59564-d1e477">
                   <lb ed="#R" n="111"/>Prima, quod Virgo Maria virginitatem habuit 
       <lb ed="#R" n="112"/>sub voto, quando eam concepturam Dei filium 
       <lb ed="#R" n="113"/>Angelus nuntiauit. Hanc probo ex responsione, 
@@ -287,7 +285,7 @@
       su<lb ed="#R" n="15" break="no"/>per caeteras virtutes, eas habet consecrare, &amp; ipsas 
       <lb ed="#R" n="16"/>sua excellentia augere, &amp; dignificare. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h59564-d1e565">
                   <lb ed="#R" n="17"/>Sed dubium est, quomodo, si sic est, non venerit 
       <lb ed="#R" n="18"/>Maria vouendo contra legem, in qua praeceptum 
       <lb ed="#R" n="19"/>erat, quod omnes contraherent? Respondeo 
@@ -312,7 +310,7 @@
       <lb ed="#R" n="38"/>rationem Matrimonij, &amp; de noua virginitatis 
       vo<lb ed="#R" n="39" break="no"/>tum 
     </p>
-               <p>
+               <p xml:id="olm8ij-h59564-d1e617">
                   <lb ed="#R" n="40"/>Secunda Propositio est, quod decuit matrem 
       <lb ed="#R" n="41"/>Cristi esse nuptam, &amp; ad hoc possunt induci 
       ra<lb ed="#R" n="42" break="no"/>tiones Magistri in littera. Decuit enim hoc primo 
@@ -323,12 +321,12 @@
       <lb ed="#R" n="47"/>parte diaboli, vt Incarnationis mysterium diabolo 
       <lb ed="#R" n="48"/>celaretur. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h59564-d1e639">
                   <lb ed="#R" n="49"/>Et si dicatur, nunquid diabolus potuit virginem 
       <lb ed="#R" n="50"/>cognouisse, an esset virgo, vel non. Respondeo, 
       ce<lb ed="#R" n="51" break="no"/>labatur ei continue, angeli ministerio. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h59564-d1e648">
                   <lb ed="#R" n="52"/>Tertia Propositio est, quod inter Mariam &amp; 
       Io<lb ed="#R" n="53" break="no"/>seph fuit verum Matrimonium. Hoc dico propter 
       <lb ed="#R" n="54"/>opinionem quorundam, qui dicunt, quod fuit 
@@ -337,7 +335,7 @@
       <lb ed="#R" n="57"/>contra textum Euangelii Matt. 2. vbi legitur: Cum 
       <lb ed="#R" n="58"/>esset desponsata Maria Joseph. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h59564-d1e666">
                   <lb ed="#R" n="59"/>Alius est hic error nefandus Ventidii, qui dixit, 
       <lb ed="#R" n="60"/>Mariam postquam genuit Crisum, consensisse in 
       <lb ed="#R" n="61"/>carnalem copulam, &amp; filios alios concepisse, qui 
@@ -354,7 +352,7 @@
       <lb ed="#R" n="70"/>sequenter oritur mutua obligatio, quae est 
       verissi<lb ed="#R" n="71" break="no"/>ma ratio matrimonii. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h59564-d1e701">
                   <lb ed="#R" n="72"/>Nunc inter Ioseph &amp; Mariam fuit obligatio, 
       se<lb ed="#R" n="73" break="no"/>cundum veram sui rationem. Probo: Certum est 
       <lb ed="#R" n="74"/>enim, quod Virgo potuit habere super corpus 
@@ -372,7 +370,7 @@
       <lb ed="#R" n="86"/>non obstante fuit in vtroque votum, cum 
       propo<lb ed="#R" n="87" break="no"/>sito non vtendi huiusmodi dominio. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h59564-d1e739">
                   <lb ed="#R" n="88"/>Et quod possit votum cadere sub renunciatione 
       <lb ed="#R" n="89"/>vsus retento dominio, probo primo exemplo, 
       de<lb ed="#R" n="90" break="no"/>inde ratione. Exemplo: Potest enim miles aliquis 
@@ -380,14 +378,14 @@
       <lb ed="#R" n="92"/>nunquam vti ipso, nec enim eo, quod vouet 
       non<lb ed="#R" n="93" break="no"/>vti eo, transfertur eo ipso dominium in alterum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h59564-d1e755">
                   <lb ed="#R" n="94"/>Item probo ratione, quia differunt ista, 
       domi<lb ed="#R" n="95" break="no"/>nium, &amp; ius vtendi, &amp; simplex facti vsus, &amp; posssunt 
       <lb ed="#R" n="96"/>ab inuicem separari: ergo vouens renunciationem 
       <lb ed="#R" n="97"/>simplicis iuris vtendi, non propter hoc dicitur 
       vo<lb ed="#R" n="98" break="no"/>uere renunciationem dominii. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h59564-d1e768">
                   <lb ed="#R" n="99"/>Dicetur, quod dicta isa non sufficiunt, nam 
       con<lb ed="#R" n="100" break="no"/>cesso, quod votum de virginitate seruanda possit 
       <lb ed="#R" n="101"/>stare cum retentione dominii, tamen videtur, quod 
@@ -399,7 +397,7 @@
       ser<lb ed="#R" n="107" break="no"/>uanda virginitate: ratio est, quia certificata est. 
       <lb ed="#R" n="108"/>quod Joseph nunquam erat debitum petiturus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h59564-d1e792">
                   <lb ed="#R" n="109"/>Aliter videtur mihi dicendum. Vbi 
       consideran<lb ed="#R" n="110" break="no"/>dum est, quod consensus, qui requiritur ad 
       ratio<lb ed="#R" n="111" break="no"/>nem matrimonii per se, &amp; directe cadit super 

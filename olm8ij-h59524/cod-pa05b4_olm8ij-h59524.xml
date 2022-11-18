@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,8 +53,8 @@
       </front>
       <body>
          <div xml:id="olm8ij-h59524"> <!-- l4-d30prae -->
-            <head>Praeambulum</head>
-            <p>
+            <head xml:id="olm8ij-h59524-Hd1e102">Praeambulum</head>
+            <p xml:id="olm8ij-h59524-d1e104">
                <lb ed="#R" n="71"/>DISTINCTIO XXX 
       <lb ed="#R" n="72"/>DE IMPEDIMENTO
       <lb ed="#R" n="73"/>ERRORIS 
@@ -65,12 +63,12 @@
                <lb ed="#R" n="75"/>
                <!-- line coord error -->
             </p>
-            <p>
+            <p xml:id="olm8ij-h59524-d1e122">
                <lb ed="#R" n="76"/>In ista Distinctione Trigesima, agitur de 
       erro<lb ed="#R" n="77" break="no"/>re consensus, quaero ergo ad euidentiam 
       <lb ed="#R" n="78"/>istius Distinctionis duas Quaestiones. 
   </p>
-            <p>
+            <p xml:id="olm8ij-h59524-d1e131">
                <lb ed="#R" n="79"/>1 Prima est: Vtrum error impediat 
       Matri<lb ed="#R" n="80" break="no"/>monium 
       <lb ed="#R" n="81"/>2 Secunda est: Vtrum inter Mariam, &amp; 

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,21 +53,21 @@
       </front>
       <body>
          <div xml:id="olm8ij-h49304"> <!-- l4-d17prae -->
-            <head>Praeambulum</head>
-            <p>
+            <head xml:id="olm8ij-h49304-Hd1e102">Praeambulum</head>
+            <p xml:id="olm8ij-h49304-d1e104">
       <!--0144.xml-->
                <pb ed="#R" n="144"/>
                <cb ed="#R" n="a"/>
                <lb ed="#R" n="1"/>DISTINCTIO XVII 
       <lb ed="#R" n="2"/>VLNFESSJO NE. 
   </p>
-            <p>
+            <p xml:id="olm8ij-h49304-d1e117">
                <lb ed="#R" n="3"/>Hìc oritur quaestio multiplex. In ista 
       disttin<lb ed="#R" n="4" break="no"/>cttione Decimaseptima Magister quaerit in 
       <lb ed="#R" n="5"/>speciali de confessione. Circa quam 
       quae<lb ed="#R" n="6" break="no"/>ro de duobus specialiter. 
   </p>
-            <p>
+            <p xml:id="olm8ij-h49304-d1e128">
                <lb ed="#R" n="7"/>1 Primo de eius obligatione: vtrum confessio 
       <lb ed="#R" n="8"/>sit obligatiua ex praecepto Christi, vel Ecclesiae. 
       <lb ed="#R" n="9"/>2 Secundo quaeram de quibusdam quae in ge - 

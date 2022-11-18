@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -54,10 +52,10 @@
          </div>
       </front>
       <body>
-         <div xml:id="olm8ij-h43934"> <!-- l1-d14q1 -->
-            <head>Quaestio 1</head>
-            <head type="question-title">De poenitentia</head>
-            <p>
+         <div xml:id="olm8ij-h43934"> <!-- l4-d14q1 -->
+            <head xml:id="olm8ij-h43934-Hd1e102">Quaestio 1</head>
+            <head xml:id="olm8ij-h43934-Hd1e104" type="question-title">De poenitentia</head>
+            <p xml:id="olm8ij-h43934-d1e107">
                <lb ed="#R" n="83"/>Quaestio Vnica. 
       <lb ed="#R" n="84"/>DE POENITENTIA 
       <lb ed="#R" n="85"/>
@@ -65,25 +63,25 @@
                <lb ed="#R" n="86"/>
                <!-- line coord error -->
             </p>
-            <p>
+            <p xml:id="olm8ij-h43934-d1e122">
                <lb ed="#R" n="87"/>1 Prima est: Vtrum peccatum commissum a 
       <lb ed="#R" n="88"/>se vt expiabile fit subiectum poenitentiae. 
       <lb ed="#R" n="89"/>2 Vtrum Poenitentia Sacramentum sit virtus. 
       <lb ed="#R" n="90"/>3 Vtrum sit in voluntate sicut in subiecto. 
       <lb ed="#R" n="91"/>4 Vtrum virtute eius peccatum dimittatur. 
     </p>
-            <div>
-               <head>Articulus 1</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h43934-Dd1e136">
+               <head xml:id="olm8ij-h43934-Hd1e138">Articulus 1</head>
+               <head xml:id="olm8ij-h43934-Hd1e140" type="question-title">
       Utrum peccatum commissum a se, vt expiabile, sit 
       subiectum Poenitentia.
     </head>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e143">
                   <lb ed="#R" n="92"/>ARTICVLVUS I. 
       <lb ed="#R" n="93"/>Vtrum peccatum commissum a se, vt expiabile, sit 
       <lb ed="#R" n="94"/>subiectum Poenitentia. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e152">
                   <lb ed="#R" n="95"/>QVANTVM ad primam 
       <lb ed="#R" n="96"/>
                   <!-- line coord error -->
@@ -99,7 +97,7 @@
       <lb ed="#R" n="105"/>virtus: sed peccatum non 
       <lb ed="#R" n="106"/>e it bonum arduum: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e185">
                   <lb ed="#R" n="107"/>In oppositum est, quia illud per quod poe
       niten<lb ed="#R" n="108" break="no"/>tia habet cognosci &amp; definiri, videtur esse 
       subie<lb ed="#R" n="109" break="no"/>ctum Poenitentiae, eo quod habitus cognoscitur per 
@@ -109,12 +107,12 @@
       poe<lb ed="#R" n="113" break="no"/>nitentia dist. 3 cap. poenitentia: Poenitentia est 
       prae<lb ed="#R" n="114" break="no"/>terita mala destere.
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e206">
       <!-- missing line break -->Respondeo: Primo praemittam distinctionem
       <!-- missing line break -->quandam de obiecto virtutis: secundo ponam 
       pro<lb ed="#R" n="115" break="no"/>positiones intentas. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e215">
                   <lb ed="#R" n="116"/>Quo ad primum sciendum, quod subiectum 
       vir<lb ed="#R" n="117" break="no"/>tutis quoddam est remotissimum, quoddam 
       pro<lb ed="#R" n="118" break="no"/>pinquum, quoddam propinquissimum. Exemplum 
@@ -150,19 +148,19 @@
       <lb ed="#R" n="23"/>duplex in virtutibus, scilicet propinquum, 
       circa<lb ed="#R" n="24" break="no"/>quod immediate inducitur bonum ipsum rationis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e291">
                   <lb ed="#R" n="25"/>Secundo pono propositionem intentam, quod 
       <lb ed="#R" n="26"/>obiectum poenitentiae sunt poenae voluntariae 
       adae<lb ed="#R" n="27" break="no"/>quatiuae inaequalitatis, quam peccatum induxit 
       in<lb ed="#R" n="28" break="no"/>ter Deum &amp; hominem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e302">
                   <lb ed="#R" n="29"/>Hanc propositionem pono propter opinionem 
       <lb ed="#R" n="30"/>quorundam, circa materiam istam. Dicunt enim 
       <lb ed="#R" n="31"/>quidam, quod peccatum directe est obiectum 
       poe<lb ed="#R" n="32" break="no"/>nitentiae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e313">
                   <lb ed="#R" n="33"/>Alij dicunt, quod peccatum vt commissum 
       con<lb ed="#R" n="34" break="no"/>tra legem Dei. Dico tunc, quod peccatum non est 
       <lb ed="#R" n="35"/>obiectum poenitentiae proprie; &amp; propinquum, est 
@@ -171,13 +169,13 @@
       <lb ed="#R" n="38"/>propinquum poenitentiae est circa peccatum, sicut 
       <lb ed="#R" n="39"/>circa suum obiectum suo modo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e331">
                   <lb ed="#R" n="40"/>Propter ista ego posui propositionem assumptam, 
       <lb ed="#R" n="41"/>quam probo primo ex dicto Philosophi 5. Ethic. c.4 
       <lb ed="#R" n="42"/>Justitia punitiua in paenis est, quae reducit offensam 
       <lb ed="#R" n="43"/>ad aequalitatem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e343">
                   <lb ed="#R" n="44"/>Considerandum est enim, quod ille: qui iniurias 
       <lb ed="#R" n="45"/>habet, plus honoris sibi tribuens, quod non debuit, 
       <lb ed="#R" n="46"/>qui vero passus est iniuriam, habet minus, quod 
@@ -186,7 +184,7 @@
       <lb ed="#R" n="49"/>quod poena, vt sic est obiectum iustitiae 
       puni<lb ed="#R" n="50" break="no"/>tiuae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e361">
                   <lb ed="#R" n="51"/>A simili, peccatum enim inducit inaequalitatem 
       <lb ed="#R" n="52"/>quandam inter Deum, &amp; hominem, auferendo Deo, 
       <lb ed="#R" n="53"/>quod suum est puta reuerentiam, obedientiam, &amp; 
@@ -203,7 +201,7 @@
       <lb ed="#R" n="64"/>absolute, sed vt reductiua illius inaequalitatis ad 
       ae<lb ed="#R" n="65" break="no"/>qualitatem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e396">
                   <lb ed="#R" n="66"/>Secundo probo propositionem hanc per 
       ratio<lb ed="#R" n="67" break="no"/>nes, quas patitur materia moralis, vbi non demon 
       <lb ed="#R" n="68"/>strationes, sed persuasiones potius sunt quaerendae. 
@@ -230,7 +228,7 @@
       <lb ed="#R" n="87"/>cum ipsa habeat modificare suum proprium 
       obie<lb ed="#R" n="88" break="no"/>ctum: sed paenitentia corrumpit peccatum: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e453">
                   <lb ed="#R" n="89"/>Secundo sic: Sicut est de iustitia punitiua &amp; 
       vin<lb ed="#R" n="90" break="no"/>dicatiua, sic est de paenitentia suo modo. Vbi 
       con<lb ed="#R" n="91" break="no"/>siderandum, quod differt iusttitia punitiua, &amp; 
@@ -245,7 +243,7 @@
       <lb ed="#R" n="100"/>praesentia non essset, &amp; haec vindicatiua est virtus 
       <lb ed="#R" n="101"/>alia a iustitia punitiua. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e484">
                   <lb ed="#R" n="102"/>Vltra istas est virtus alia tertia punitiua 
       suiip<lb ed="#R" n="103" break="no"/>sius infligendo debitam sibiipsi paenam, secundum 
       <lb ed="#R" n="104"/>iudicium rationis, &amp; haec vocatur paenitentia, 
@@ -258,7 +256,7 @@
       fur<lb ed="#R" n="111" break="no"/>tum, vel homicidium, sed paenas, quas coniecturat 
       <lb ed="#R" n="112"/>secundum rectam rationem infligendas in alterum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e510">
                   <lb ed="#R" n="113"/>Sic &amp; vindicatiua, licet moueatur ex peccato 
       <lb ed="#R" n="114"/>commisso, tamen actus illius, vt talis virtus est, 
       to<lb ed="#R" n="115" break="no"/>tus est circa moderationem paenarum in alterum, 
@@ -268,11 +266,11 @@
       circa<lb ed="#R" n="119" break="no"/>paenas, vt reductiuas inaequalitatis ad 
       aequali<lb ed="#R" n="120" break="no"/>tatem 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e531">
                   <lb ed="#R" n="121"/>Tertio declaro quaedam, quae faciunt ad 
       eui<lb ed="#R" n="122" break="no"/>dentiam huius Sacramenti. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e538">
                   <lb ed="#R" n="123"/>Et primo de nomine: Nomen est panitentia 
       <lb ed="#R" n="124"/>dicitur autem a puniendo, vel paenam inferendo, 
       <lb ed="#R" n="125"/>patet per Augustinum expresse. Dicitur etiam a 
@@ -282,7 +280,7 @@
       Pani<lb ed="#R" n="129" break="no"/>tentia est paenam tenens, &amp; paenitere est paenam 
       <lb ed="#R" n="130"/>tenere. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e558">
                   <lb ed="#R" n="131"/>Secundo de definitione. Datur autem vna 
       de<lb ed="#R" n="132" break="no"/>finitio, quae est Ambrosij &amp; Cregorij, &amp; ponitur 
       <lb ed="#R" n="133"/>de paenitentia dist. prima. Paenitentia est 
@@ -295,13 +293,13 @@
                   <lb ed="#R" n="1"/>requisita, quia dicitur, vlterius illa non 
       commit<lb ed="#R" n="2" break="no"/>tere. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e584">
                   <lb ed="#R" n="3"/>Alia est definitio Magisri, &amp; patet in litera 
       <lb ed="#R" n="4"/>quae vltra praedictam definitionem ponit genus pae 
       <lb ed="#R" n="5"/>nitentiae, cum dicit, penitentia est gratia, 
       siue<lb ed="#R" n="6" break="no"/>virtus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e595">
                   <lb ed="#R" n="7"/>Alia est Augustini loco supra citato de 
       peniten<lb ed="#R" n="8" break="no"/>tia: Paenitentia, inquit, est vindicta, &amp;c. vbi 
       poni<lb ed="#R" n="9" break="no"/>tur propinquum genus, non est enim quaelibet 
@@ -309,7 +307,7 @@
       vin<lb ed="#R" n="11" break="no"/>dicatiua, &amp; dicitur vindicare, quasi vim ad 
       men<lb ed="#R" n="12" break="no"/>suram deducere. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e611">
                   <lb ed="#R" n="13"/>Tertio, videndum est de eius accidentibus: 
       di<lb ed="#R" n="14" break="no"/>citur de ea, quod est prima virtutum, &amp; 
       funda<lb ed="#R" n="15" break="no"/>mentum hoc intelligendum est non simpliciter, sed 
@@ -317,7 +315,7 @@
       <lb ed="#R" n="17"/>illud Joannis: Poenitentiam agite, appropinquabit 
       <lb ed="#R" n="18"/>regnum caelorum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e628">
                   <lb ed="#R" n="19"/>Secundo dicitur de paenitentia, quod est tabula, 
       <lb ed="#R" n="20"/>&amp; hoc patet per Hieronymum: Intelligendum enim 
       <lb ed="#R" n="21"/>metaphorice: prima enim tabula nauis dicitur, qua 
@@ -333,7 +331,7 @@
       <lb ed="#R" n="31"/>gium, sed comparando eam ad nauem innocentiae 
       <lb ed="#R" n="32"/>fractam per peccatum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e661">
                   <lb ed="#R" n="33"/>Tertio attribuitur sibi, quod timor est eius 
       prin<lb ed="#R" n="34" break="no"/>cipium: concipitur enim in timore. Vbi sciendum, 
       <lb ed="#R" n="35"/>quod 4. Ethic. cap. 1. dicitur, quod non omnes 
@@ -346,30 +344,30 @@
       pae<lb ed="#R" n="42" break="no"/>nitentiam incipere, quod quidem, vt in pluribus 
       <lb ed="#R" n="43"/>verum est. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e687">
                   <lb ed="#R" n="44"/>Ad argumentum in oppositum: Licet peccatum 
       <lb ed="#R" n="45"/>non sit bonum arduum, tamen paena ipsa, vt 
       adae<lb ed="#R" n="46" break="no"/>quatiua inaequalitatis factae per peccatum inter 
       <lb ed="#R" n="47"/>Deum &amp; hominem, est bonum quoddam &amp; arduum, 
       <lb ed="#R" n="48"/>&amp; hanc dixi esse immediatum obiectum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e700">
                   <lb ed="#R" n="49"/>Ad aliud in oppositum dico, quod aliud aliquid 
       <lb ed="#R" n="50"/>ponitur immediatius in definitione paenitentiae, 
       <lb ed="#R" n="51"/>quam peccatum, scilicet paena ipsa, quae 
       exprimi<lb ed="#R" n="52" break="no"/>tur per hoc, quod ibi dicitur, deflere. 
     </p>
             </div>
-            <div>
-               <head>Articulus 2</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h43934-Dd1e712">
+               <head xml:id="olm8ij-h43934-Hd1e714">Articulus 2</head>
+               <head xml:id="olm8ij-h43934-Hd1e716" type="question-title">
       Utrum Poenitentia sit virtus.
     </head>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e719">
                   <lb ed="#R" n="53"/>ARTICVLVS II 
       <lb ed="#R" n="54"/>Vtrum Poenitentia sit virtus.
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e726">
                   <lb ed="#R" n="55"/>QVo ad secundam quaestionem arguo primo, 
       <lb ed="#R" n="56"/>Q quod paenitentia non sit virtus, quia vanum 
       <lb ed="#R" n="57"/>est ponere habitum aliquem esse virtutem 
@@ -378,7 +376,7 @@
       nume<lb ed="#R" n="60" break="no"/>rus moralium virtutum, non sit mentio de 
       paeni<lb ed="#R" n="61" break="no"/>tentia: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e744">
                   <lb ed="#R" n="62"/>In oppositum est, quia virtus quae habet pro 
       ob<lb ed="#R" n="63" break="no"/>iecto aliquid reductiuum inaequalitatis ad 
       aequali<lb ed="#R" n="64" break="no"/>tatem, est virtus specialis contenta sub iustitia, quia 
@@ -388,7 +386,7 @@
                   <lb ed="#R" n="66"/>litatem, 5. Ethic. sed poenitentia est huiusmodi, vt 
       <lb ed="#R" n="67"/>patet: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e765">
                   <lb ed="#R" n="68"/>Respondeo: Primo praemitto quoddam ad 
       eui<lb ed="#R" n="69" break="no"/>dentiam specierum iustitiae. Vbi sciendum, quod 
       <lb ed="#R" n="70"/>virtutes Cardinales, vt vtuntur eis Sancti, non sunt 
@@ -401,7 +399,7 @@
       vir<lb ed="#R" n="77" break="no"/>tutes speciales morales non sunt aliae ab istis 
       vir<lb ed="#R" n="78" break="no"/>tutibus, sed sunt contentae sub eis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e791">
                   <lb ed="#R" n="79"/>Tunc descendendo ad propositum dico, quod iu 
       <lb ed="#R" n="80"/>stitia est virtus quaedam generalis, continens sub 
       <lb ed="#R" n="81"/>se omnes morales virtutes, quae sunt 
@@ -424,7 +422,7 @@
       e<lb ed="#R" n="98" break="no"/>nim debitum exigit aequitas communicationis 
       eius<lb ed="#R" n="99" break="no"/>dem naturae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e839">
                   <lb ed="#R" n="100"/>Debitum primo modo, quod fundatur super 
       ob<lb ed="#R" n="101" break="no"/>ligatione causati, &amp; causae, potest esse triplex, 
       secun<lb ed="#R" n="102" break="no"/>dum quod triplex potest esse causa; aliquid enim 
@@ -433,7 +431,7 @@
       <lb ed="#R" n="105"/>vel simpliciter, &amp; primo, vel diminute, &amp; 
       secun<lb ed="#R" n="106" break="no"/>dum quid. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e857">
                   <lb ed="#R" n="107"/>Ex hac ergo triplici obligatione consurgit 
       tri<lb ed="#R" n="108" break="no"/>plex debitum, &amp; triplex virtus specialis sub 
       iusti<lb ed="#R" n="109" break="no"/>tia coniecturatiua illius debiti: obligatio ergo cau 
@@ -472,7 +470,7 @@
       e<lb ed="#R" n="6" break="no"/>nim debetur honor, vt sua praecepta &amp; statuta 
       ob<lb ed="#R" n="7" break="no"/>seruentur. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e940">
                   <lb ed="#R" n="8"/>Habemus ergo quatuor virtutes speciales, 
       scili<lb ed="#R" n="9" break="no"/>cet religionem, siue latriam respectu Dei, pietatem 
       <lb ed="#R" n="10"/>respectu patriae, &amp; parentum, duliam &amp; 
@@ -481,7 +479,7 @@
       <lb ed="#R" n="13"/>omnes fundantur in obligatione causati ad 
       cau<lb ed="#R" n="14" break="no"/>sam 
   </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e958">
                   <lb ed="#R" n="15"/>Sequitur nunc de virtutibus, quae sunt respectu 
       <lb ed="#R" n="16"/>debiti in obligatione, non causae &amp; causati: sed 
       su<lb ed="#R" n="17" break="no"/>per esse ex natura rei: sed esse huiusmodi, vel est 
@@ -492,7 +490,7 @@
       li<lb ed="#R" n="22" break="no"/>beralitas, quae reddit debitum, quantum arrident 
       <lb ed="#R" n="23"/>bona fortunae, &amp; quantum exigunt. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e981">
                   <lb ed="#R" n="24"/>Si vero sit bonum animae, puta scientia &amp; 
       virtu<lb ed="#R" n="25" break="no"/>tes, &amp; alia diuina, &amp; perfectiones gratuitae, vt quia 
       <lb ed="#R" n="26"/>es melior clericus, quam alius; vel magis 
@@ -511,7 +509,7 @@
       la<lb ed="#R" n="39" break="no"/>triam, hiperduliam, duliam, pietatem, iustitiam 
       le<lb ed="#R" n="40" break="no"/>galem, liberalitatem, &amp; obseruantiam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1020">
                   <lb ed="#R" n="41"/>Tunc sequitur debitum, quod fundatur super 
       <lb ed="#R" n="42"/>obligatione communicationis eiusdem naturae: 
       na<lb ed="#R" n="43" break="no"/>tura enim nostra est politica, &amp; ciuilis, &amp; 
@@ -532,7 +530,7 @@
       spe<lb ed="#R" n="58" break="no"/>ciali, dante se vno alteri verbo &amp; facto, &amp; talem 
       <lb ed="#R" n="59"/>habet coniecturari virtus amicitiae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1064">
                   <lb ed="#R" n="60"/>Item, quia homo est animal politicum, &amp; debet 
       <lb ed="#R" n="61"/>ideo alteri affabilitatem, sciendum, quod 
       quando<lb ed="#R" n="62" break="no"/>que communicatio affabilitatis aspicit conceptum 
@@ -547,7 +545,7 @@
                   <lb ed="#R" n="69"/>res erant sex, &amp; habemus decem, quae fundantur 
       su<lb ed="#R" n="70" break="no"/>per obligatione necessaria ex natura rei. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1095">
                   <lb ed="#R" n="71"/>Sequitur secundo obligatio voluntaria, haec 
       au<lb ed="#R" n="72" break="no"/>tem obligatio aspicit mutuam communicationem 
       <lb ed="#R" n="73"/>non esse, sed rerum ad inuicem, &amp; necessariorum 
@@ -567,7 +565,7 @@
       <lb ed="#R" n="87"/>quae potest vocari iustitia retributiua, &amp; habemus 
       <lb ed="#R" n="88"/>tresdecim species iustitiae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1137">
                   <lb ed="#R" n="89"/>Vlterius sciendum est, quod aliud est 
       reddere<lb ed="#R" n="90" break="no"/>debitum, aliud indebitum restituere, &amp; 
       reducere<lb ed="#R" n="91" break="no"/>ad debitum. Et hoc contingit dupliciter; aut 
@@ -589,7 +587,7 @@
       prio<lb ed="#R" n="107" break="no"/>ribus habemus sexdecim species iustitiae in 
       vni<lb ed="#R" n="108" break="no"/>uerso 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1183">
                   <lb ed="#R" n="109"/>His visis pono propositionem istam primam 
       <lb ed="#R" n="110"/>quod Poenitentia est virtus specialis. Hanc 
       con<lb ed="#R" n="111" break="no"/>clusionem probo, quia virtus habens speciale 
@@ -611,7 +609,7 @@
       <lb ed="#R" n="127"/>rientia, habetur virtus poenitentiae, &amp; acttus 
       specia<lb ed="#R" n="128" break="no"/>lis virtutis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1230">
                   <lb ed="#R" n="129"/>Alij duo actus etiam concurrunt in speciali ad 
       <lb ed="#R" n="130"/>virtutem poenitentiae, &amp; vnus quidem est interior, 
       <lb ed="#R" n="131"/>puta dolor in sensu, &amp; vsque ad lachrymas; alius 
@@ -629,14 +627,14 @@
       <lb ed="#R" n="4"/>talis. Tertio sequitur poena tertia, quae est afflictio 
       <lb ed="#R" n="5"/>corporalis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1267">
                   <lb ed="#R" n="6"/>Sed hic est dubium, quia videtur, quod dolere de 
       <lb ed="#R" n="7"/>peccato magis pertinet ad charitatem. Item 
       vide<lb ed="#R" n="8" break="no"/>cur, quod pertineat ad omnem virtutem, nam non 
       <lb ed="#R" n="9"/>es liberalis, qui non tristatur, quando egit 
       illibera<lb ed="#R" n="10" break="no"/>liter. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1280">
                   <lb ed="#R" n="11"/>Respondeo: Actus doloris potest importari in di 
       <lb ed="#R" n="12"/>nersis virtutibus, secundum diuersos fines: 
       dolere<lb ed="#R" n="13" break="no"/>ergo &amp; tristari, quia Deum offendit, pertinet ad 
@@ -653,7 +651,7 @@
       <lb ed="#R" n="24"/>prima: sed inquantum est velle punire, &amp; hoc 
       mo<lb ed="#R" n="25" break="no"/>do est prima poena in voluntate.
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1315">
                   <lb ed="#R" n="26"/>Secunda Propositio est, quod est virtus moralis. 
       <lb ed="#R" n="27"/>Probo: Philosophus enim definiens virtutem 
       mora<lb ed="#R" n="28" break="no"/>lem 2. Ethic. c. 2. &amp; 6. dicit, quod virtus moralis, est 
@@ -675,7 +673,7 @@
       <lb ed="#R" n="44"/>vel mortis periculum incurreret, hic vtique 
       exce<lb ed="#R" n="45" break="no"/>deret in abstinendo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1361">
                   <lb ed="#R" n="46"/>Similiter patet, quod in eligendo poenas potest 
       <lb ed="#R" n="47"/>ese defectus, puta parum abstinere, &amp; huiusmodi: 
       <lb ed="#R" n="48"/>ergo eligere poenas habet medium rationis, &amp; quo 
@@ -683,7 +681,7 @@
       sa<lb ed="#R" n="50" break="no"/>piens determinabit, vel dictamine naturali, vel per 
       <lb ed="#R" n="51"/>scripturas. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1377">
                   <lb ed="#R" n="52"/>Tertia Propositio est, quod poenitentia est virtus 
       <lb ed="#R" n="53"/>moralis specialis, contenta sub iustitia similis iusti 
       <lb ed="#R" n="54"/>tia vindicatiuae, differens tamen, quia illa infligit 
@@ -693,7 +691,7 @@
       <lb ed="#R" n="58"/>vero punitiua inclinat ad poenam in alio vsque ad 
       <lb ed="#R" n="59"/>poenam mortis quandoque. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1398">
                   <lb ed="#R" n="60"/>Contra propositionem est, quod ista virtus potest 
       <lb ed="#R" n="61"/>dici infusa, &amp; acquisita, licet dicant quidam, quod 
       <lb ed="#R" n="62"/>non sit infusa, tamen propter dicta Sanctorum, quae 
@@ -701,11 +699,11 @@
       <lb ed="#R" n="64"/>tus etiam infusa, licet possit esse etiam aliqua 
       ac<lb ed="#R" n="65" break="no"/>quisita. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1414">
                   <lb ed="#R" n="66"/>Sed in quo differunt? Dicunt quidam, quod 
       ac<lb ed="#R" n="67" break="no"/>quisita innititur dictamini rationis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1421">
                   <lb ed="#R" n="68"/>Sed contra hoc est, quia ex bonis operibus dicta- 
       <!--0132.xml-->
       <cb ed="#R" n="b"/>
@@ -716,7 +714,7 @@
       <lb ed="#R" n="73"/>faciliter, immobiliter, &amp; delectabiliter, aut 
       prom<lb ed="#R" n="74" break="no"/>pte in actibus repentinis.
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1443">
                   <lb ed="#R" n="75"/>Sed virtus infusa non dat circumstantias ex 
       par<lb ed="#R" n="76" break="no"/>te agentis, sed ex parte actus; &amp; tot quidem sunt 
       <lb ed="#R" n="77"/>circumstantiae, quas Deus exigit in acttu, quod 
@@ -729,16 +727,16 @@
       <lb ed="#R" n="84"/>tutem infusam. 
     </p>
             </div>
-            <div>
-               <head>Articulus 3</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h43934-Dd1e1468">
+               <head xml:id="olm8ij-h43934-Hd1e1470">Articulus 3</head>
+               <head xml:id="olm8ij-h43934-Hd1e1472" type="question-title">
       Utrum paenitentia sit subiectiue in voluntate.
     </head>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1475">
                   <lb ed="#R" n="85"/>ARTICVLVS III 
       <lb ed="#R" n="86"/>Vtrum paenitentia sit subiectiue in voluntate. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1482">
                   <lb ed="#R" n="87"/>AD tertiam quaestionem, Vtrum poenitentia sit 
       <lb ed="#R" n="88"/>subiectiue in voluntate, arguo primo quod 
       <lb ed="#R" n="89"/>non, quia actus, &amp; habitus sunt in eodem subiecto: 
@@ -746,12 +744,12 @@
       do<lb ed="#R" n="91" break="no"/>lere: patet quod eius oppositum, scilicet 
       gaudere<lb ed="#R" n="92" break="no"/>est in concupiscibili: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1498">
                   <lb ed="#R" n="93"/>In oppositum est, quia poenitentia est pars 
       iusti<lb ed="#R" n="94" break="no"/>tiae: sed iustitia est in voluntate: ergo. Minor patet 2. 
       <lb ed="#R" n="95"/>Ethic. c. 4. Respondeo, pono tres propositiones. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1508">
                   <lb ed="#R" n="96"/>Prima est de subiecto remoto poenitentiae, &amp; est 
       <lb ed="#R" n="97"/>haec: Omnis persona naturae intellectualis potest es 
       <lb ed="#R" n="98"/>se subiectum poenitentiae, in qua potest esse eius 
@@ -767,7 +765,7 @@
       aequa<lb ed="#R" n="108" break="no"/>litatem: ergo vbi possunt esse tales poenae, ibi 
       po<lb ed="#R" n="109" break="no"/>test ese poenitentia, vbi non, non 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1541">
                   <lb ed="#R" n="110"/>Ex his patet solutio quaestionum multarum. 
       Pri<lb ed="#R" n="111" break="no"/>ma quarum est, vtrum pueri baptizati statim 
       mor<lb ed="#R" n="112" break="no"/>tui post baptisium habeant virtutem poenitentiae 
@@ -780,14 +778,14 @@
       <lb ed="#R" n="119"/>&amp; habent actum, quod si peccassent, amplius 
       do<lb ed="#R" n="120" break="no"/>luissent. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1567">
                   <lb ed="#R" n="121"/>Sed nunquid in angelis. Dicitur communiter, 
       <lb ed="#R" n="122"/>quod non, quia non potest in eis esse subiectum 
       <lb ed="#R" n="123"/>poenitentiae, eo quod peccatum Angeli est 
       irremis<lb ed="#R" n="124" break="no"/>sibile, &amp; ideo ibi poena nunquam reduceret 
       inae<lb ed="#R" n="125" break="no"/>qualitatem ad aequalitatem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1580">
                   <lb ed="#R" n="126"/>Secunda Propositio est de subiecto propinquo, &amp; 
       <lb ed="#R" n="127"/>est haec, quod poenitentia infusa est in 
       voluntate<lb ed="#R" n="128" break="no"/>subiectiue. Probo. Ille dicitur habitus infusus, vt 
@@ -807,7 +805,7 @@
       <lb ed="#R" n="6"/>actualis est virtus infusa: sed huiusmodi instinctus 
       <lb ed="#R" n="7"/>est in voluntate: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1622">
                   <lb ed="#R" n="8"/>Tertia Propositio est de poenitentia habitu 
       ac<lb ed="#R" n="9" break="no"/>quisito. Vltra infusam enim pono aliam a cquisitam, 
       <lb ed="#R" n="10"/>quae dat circumstantias tenentes se ex parte 
@@ -840,7 +838,7 @@
       <lb ed="#R" n="37"/>delectabilia, &amp; sic est de omnibus alijs virtutibus 
       <lb ed="#R" n="38"/>moralibus acquisitis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1692">
                   <lb ed="#R" n="39"/>Exemplum ad hoc est tale: Pulchritudo speciei 
       <lb ed="#R" n="40"/>non est vna simplex qualitas: non enim consistit 
       <lb ed="#R" n="41"/>in sola coloratione, quia multi bene colorati sunt, 
@@ -854,14 +852,14 @@
       <lb ed="#R" n="49"/>est integrata ex pluribus concurrentibus ad eius 
       <lb ed="#R" n="50"/>integritatem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1722">
                   <lb ed="#R" n="51"/>Dico tunc, quod sicut plura vel pauciora 
       con<lb ed="#R" n="52" break="no"/>currunt ad eius integritatem, quae sunt in alio, &amp; 
       <lb ed="#R" n="53"/>alio subiecto, sic ipsa est in alio, &amp; alio subiecto, 
       li<lb ed="#R" n="54" break="no"/>cet principalius in illo, quod principalius 
       concur<lb ed="#R" n="55" break="no"/>rit ad eius integritatem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1735">
                   <lb ed="#R" n="56"/>Et per simile dico idem de poenitentia. Sic 
       di<lb ed="#R" n="57" break="no"/>co in proposito, nam illae poenae, quae sunt 
       obie<lb ed="#R" n="58" break="no"/>ctum illius, sunt in diuersis subiectis, sicut eligere 
@@ -876,7 +874,7 @@
       <lb ed="#R" n="67"/>sunt de ratione poenitentiae infusae, sed solum 
       ac<lb ed="#R" n="68" break="no"/>quisitae.
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1766">
       <!--0133.xml-->
                   <cb ed="#R" n="b"/>
                   <lb ed="#R" n="69"/>Dicetur contra, quia habitus speculatiuus solum 
@@ -885,7 +883,7 @@
       naturali<lb ed="#R" n="72" break="no"/>bus arguitur ad moralia, quoniam plura requirun 
       <lb ed="#R" n="73"/>tur ad moralia, quam ad naturalia. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1784">
                   <lb ed="#R" n="74"/>Ad argumentum in oppositum, concedo quod 
       vir<lb ed="#R" n="75" break="no"/>tus moralis partialiter est in concupiscibili 
       secun<lb ed="#R" n="76" break="no"/>dum dolorem, quoniam concurrit ad eius 
@@ -893,18 +891,18 @@
       <lb ed="#R" n="78"/>infusa in voluntate est. 
     </p>
             </div>
-            <div>
-               <head>Articulus 4</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h43934-Dd1e1798">
+               <head xml:id="olm8ij-h43934-Hd1e1800">Articulus 4</head>
+               <head xml:id="olm8ij-h43934-Hd1e1802" type="question-title">
       Utrum per poenitentiam remittatur peccatum 
       mortale.
     </head>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1805">
                   <lb ed="#R" n="79"/>ARTICVLVS IIII 
       <lb ed="#R" n="80"/>Vtrum per poenitentiam remittatur peccatum 
       <lb ed="#R" n="81"/>mortale. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1814">
                   <lb ed="#R" n="82"/>CIrca quartam quaestionem arguo primo, quod 
       <lb ed="#R" n="83"/>per paenitentiam non deleatur peccatum mor 
       <lb ed="#R" n="84"/>tale, quia si sic, aut hoc est per actum exercitum, 
@@ -917,13 +915,13 @@
       <lb ed="#R" n="91"/>ratione infunderentur alĳ habitus: sed alij 
       habi<lb ed="#R" n="92" break="no"/>tus non sunt sine gratia: ergo. 
   </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1840">
                   <lb ed="#R" n="93"/>In oppositum est Scriptura, quae dicit, quod 
       <lb ed="#R" n="94"/>Deus dissimulat peccata hominum propter 
       paeni<lb ed="#R" n="95" break="no"/>tentiam. Respondeo, hic quaeritur de paenitentia, 
       <lb ed="#R" n="96"/>vt est virtus, non vt est Sacramentum. 
   </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1852">
                   <lb ed="#R" n="97"/>Ad euidentiam autem istius quaestionis, primo 
       <lb ed="#R" n="98"/>videndum est, quid est illud, quo peccator 
       formali<lb ed="#R" n="99" break="no"/>ter dicitur peccator actu transeunte, quod per 
@@ -933,20 +931,20 @@
       <lb ed="#R" n="103"/>ad poenitentiam. Quo ad primum pono 
       conclu<lb ed="#R" n="104" break="no"/>siones aliquas. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1872">
                   <lb ed="#R" n="105"/>Prima est, quod illud quo peccator dicitur 
       for<lb ed="#R" n="106" break="no"/>maliter peccator transeunte actu, non est actualis 
       <lb ed="#R" n="107"/>priuatio iuscitiae, vt quidam putant, quod ratione 
       <lb ed="#R" n="108"/>deformitatis acttus praeteriti, relinquitur priuatio 
       <lb ed="#R" n="109"/>gratiae in voluntate, qua formaliter dicitur peccator. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1885">
                   <lb ed="#R" n="110"/>Alij dicunt, quod ex peccato relinquitur macula 
       <lb ed="#R" n="111"/>quaedam, &amp; contagium, sicut ex tactu morticinij con 
       <lb ed="#R" n="112"/>trahebatur contagium in antiqua lege, non videtur 
       <lb ed="#R" n="113"/>mihi quod sit tale contagium, vel priuatio. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1896">
                   <lb ed="#R" n="114"/>Hanc conclusionem probo ratione tali: Illud non 
       <lb ed="#R" n="115"/>potest dici formaliter ratio peccati, quo non remis 
       <lb ed="#R" n="116"/>so, nec intenso peccatum dicitur intendi, &amp; remitti: 
@@ -960,13 +958,13 @@
       <lb ed="#R" n="124"/>peccator, sicut ille qui crearetur in puris 
       natura<lb ed="#R" n="125" break="no"/>libus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1925">
                   <lb ed="#R" n="126"/>Dices, quod ex priuatione gratiae simpliciter non 
       <lb ed="#R" n="127"/>dicitur quis peccator, sed oportet, quod 
       praecesse<lb ed="#R" n="128" break="no"/>rit culpa, per quam gratia se priuauit. Contra, non 
       <lb ed="#R" n="129"/>curo, quia ego loquor de formali ratione peccati. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1936">
                   <lb ed="#R" n="130"/>Nec secundo potest esse contagio, vt dicunt alij, 
       <lb ed="#R" n="131"/>quia aut illud esset quaedam habilitatio derelicta, 
       <lb ed="#R" n="132"/>&amp; hoc non potest esse, quia aliquis non 
@@ -977,7 +975,7 @@
                   <lb ed="#R" n="1"/>aut aliquid aliud, &amp; non apparet quid illud 
       pos<lb ed="#R" n="2" break="no"/>sit esse 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1959">
                   <lb ed="#R" n="3"/>Secunda Propositio est, quod illud, quo quis dici 
       <lb ed="#R" n="4"/>tur peccator forma liter, non est respectus realis in 
       <lb ed="#R" n="5"/>anima, qui dicatur reatus; nec est obligatio ad 
@@ -985,19 +983,19 @@
       <lb ed="#R" n="7"/>voluntate ordinante ipsum ad poenam propter pec 
       <lb ed="#R" n="8"/>catum commisium. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1975">
                   <lb ed="#R" n="9"/>Quod enim non est reatus, qui sit respectus 
       rea<lb ed="#R" n="10" break="no"/>lis, arguo sic: Nullus respectus realis potest de 
       no<lb ed="#R" n="11" break="no"/>uo acquiri, nisi acquisito aliquo nouo absoluto: sed 
       <lb ed="#R" n="12"/>transeunte actu nullum aduenit de nouo absolutum 
       <lb ed="#R" n="13"/>reale: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1988">
                   <lb ed="#R" n="14"/>Item cum iste respectus non sit de genere relatio 
       <lb ed="#R" n="15"/>nis secundum istos, nec apparet de quo genere sit, 
       <lb ed="#R" n="16"/>non videtur rationabile, quod ponatur.
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e1997">
                   <lb ed="#R" n="17"/>Secundo quantum ad illud, quod dicitur, quod 
       <lb ed="#R" n="18"/>est respectus rationis, qui es obligatio ad poenam, 
       <lb ed="#R" n="19"/>&amp;c. bene concedo, quod iste est obligatus, &amp; 
@@ -1007,25 +1005,25 @@
       prae<lb ed="#R" n="23" break="no"/>fatos non tantum remanet iste obligatus transeun 
       <lb ed="#R" n="24"/>te actu, sed &amp; vltra hoc remanet in culpa: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e2017">
                   <lb ed="#R" n="25"/>Praeterea manente illa obligatione non dicitur 
       <lb ed="#R" n="26"/>formaliter peccator: ergo non est formaliter ratio 
       <lb ed="#R" n="27"/>peccati. Antecedens patet, quia iustificato 
       existen<lb ed="#R" n="28" break="no"/>te aliquo per aliquam poenitentiam, adhuc manet 
       <lb ed="#R" n="29"/>obligatio eius ad aliquam aliam poenam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e2030">
                   <lb ed="#R" n="30"/>Dices, quod obligatio ad poenam est illud, quo 
       <lb ed="#R" n="31"/>peccator dicitur formaliter peccator, non 
       quaecum<lb ed="#R" n="32" break="no"/>que, sed sola illa, quae ad poenam aeternam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e2040">
                   <lb ed="#R" n="33"/>Contra, quia peccatum veniale manet sine 
       obli<lb ed="#R" n="34" break="no"/>gatione ad poenam aeternam: vbi ergo non est 
       ob<lb ed="#R" n="35" break="no"/>ligatio ad aeternam paenam, &amp; tamen est ibi ratio 
       <lb ed="#R" n="36"/>culpae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e2051">
                   <lb ed="#R" n="37"/>Nunc pono propositionem affirmatiuam, ad 
       cu<lb ed="#R" n="38" break="no"/>ius euidentiam, &amp; multorum dicendorum alias; 
       <lb ed="#R" n="39"/>sciendum est, quod aliud est esse naturale, &amp; aliud 
@@ -1040,8 +1038,8 @@
       <lb ed="#R" n="48"/>morale non consistit in re extra, sed in aestimatione 
       <lb ed="#R" n="49"/>hominum. 
     </p>
-               <p>
-                  <lb ed="#R" n="50"/>Similiter <ref>1. Ethic. cap. 5. dicit Philosophus</ref>, quod 
+               <p xml:id="olm8ij-h43934-d1e2082">
+                  <lb ed="#R" n="50"/>Similiter <ref xml:id="olm8ij-h43934-Rd1e2086">1. Ethic. cap. 5. dicit Philosophus</ref>, quod 
       <lb ed="#R" n="51"/>honor est in honorante, &amp; non in honorato, in esse 
       <lb ed="#R" n="52"/>tamen naturali est in honorato, licet in esse 
       mora<lb ed="#R" n="53" break="no"/>li sit in honorante. Honorans enim agit virtuose, 
@@ -1059,7 +1057,7 @@
       dice<lb ed="#R" n="65" break="no"/>retur ei fieri aliquod dedecus magis, quam 
       pa<lb ed="#R" n="66" break="no"/>rieti. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e2124">
                   <lb ed="#R" n="67"/>His visis pono istam propositionem, quod actu 
       <lb ed="#R" n="68"/>peccati transeunte, puta homicidio, non solum 
       <!--0134.xml-->
@@ -1086,7 +1084,7 @@
       inde<lb ed="#R" n="88" break="no"/>centia, tunc remittitur culpa; quando vero non 
       <lb ed="#R" n="89"/>concipit eum sub obligatione, dimittitur reatus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e2181">
                   <lb ed="#R" n="90"/>Secundo est videndum, vtrum deletio culpae 
       <lb ed="#R" n="91"/>sit effectus paenitentiae virtutis. Dico, quod 
       dele<lb ed="#R" n="92" break="no"/>tio culpae reputatur effectus paenitentiae. Dicum 
@@ -1116,14 +1114,14 @@
       circum<lb ed="#R" n="116" break="no"/>stantionatus circumstantia, quae tenet se tantum 
       <lb ed="#R" n="117"/>ex parte actus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e2244">
                   <lb ed="#R" n="118"/>Loquendo de acu paenitentiae virtuoso, &amp; 
       vir<lb ed="#R" n="119" break="no"/>tuose elicito. Dico, quod iste non est 
       necessa<lb ed="#R" n="120" break="no"/>rius ad deletionem culpae. Multi enim poenitent, 
       <lb ed="#R" n="121"/>qui non eliciunt actum delectabiliter, imo cum 
       <lb ed="#R" n="122"/>tristitia, &amp; magna difficultate. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e2258">
                   <lb ed="#R" n="123"/>Si autem loquamur de actu virtuoso tantum 
       <lb ed="#R" n="124"/>dico, quod talem oportet esse istum actum, 
       qua<lb ed="#R" n="125" break="no"/>lem eliceret habitus acquisitus quantum ad 
@@ -1131,7 +1129,7 @@
       <lb ed="#R" n="127"/>autem quantum ad illas, quae se tenent ex 
       parte<lb ed="#R" n="128" break="no"/>operantis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e2274">
                   <lb ed="#R" n="129"/>Quomodo autem habitus penitentiae infusus 
       de<lb ed="#R" n="130" break="no"/>let. Est sciendum, quod delere culpam potest 
       in<lb ed="#R" n="131" break="no"/>telligi, vel dispositiue formaliter, vel effectiue: 
@@ -1140,7 +1138,7 @@
       <lb ed="#R" n="134"/>stant cum ipsa; effectiue vero dicitur delere per 
       <lb ed="#R" n="135"/>actum. Vbi est talis ordo imaginandus.
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e2292">
       <!-- missing line break -->Primo namque peccator habet actum paenitentiae
       <!--0135.xml-->
       <pb ed="#R" n="135"/>
@@ -1156,7 +1154,7 @@
       <lb ed="#R" n="9"/>remissionem culpae, &amp; dicitur completiue 
       delere<lb ed="#R" n="10" break="no"/>culpam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e2325">
                   <lb ed="#R" n="11"/>Sed qui sunt efffectus poenitentiae, &amp; quot sunt, 
       <lb ed="#R" n="12"/>&amp; quales? Respondeo, puto quod sint quinque: 
       <lb ed="#R" n="13"/>vnus est remissio culpae: secundus relaxatio 
@@ -1169,13 +1167,13 @@
       <lb ed="#R" n="20"/>mortuorum per peccatum subsequens, quae per 
       <lb ed="#R" n="21"/>poenitentiam reuiuiscunt. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e2351">
                   <lb ed="#R" n="22"/>Nunc tertio dico de conditionibus 
       poeniten<lb ed="#R" n="23" break="no"/>tiae. Prima quidem est continuatio; alia est 
       ite<lb ed="#R" n="24" break="no"/>ratio, alia gaudij immixtio; alia solemnizatio, 
       a<lb ed="#R" n="25" break="no"/>lia publicatio. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e2362">
                   <lb ed="#R" n="26"/>Dico primo continuatio. Ideo dicit Ambros. 
       <lb ed="#R" n="27"/>in quodam Serm. Quadrag. &amp; habetur de paenit. 
       <lb ed="#R" n="28"/>dist. 3. cap. paenitentia, quod paenitentia est 
@@ -1189,14 +1187,14 @@
       <lb ed="#R" n="36"/>&amp; non successiua, nec praeteritio, nec futuritio est 
       <lb ed="#R" n="37"/>de sua ratione, vel essentia. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e2392">
                   <lb ed="#R" n="38"/>Secunda autem conditio est reiteratio, 
       contra<lb ed="#R" n="39" break="no"/>errorem illorum, qui dixerunt, quod non potest 
       <lb ed="#R" n="40"/>reiterari, &amp; hoc estt error, quoniam sicut potest 
       re<lb ed="#R" n="41" break="no"/>iterari morbus, ita &amp; remedium a clementia Dei 
       <lb ed="#R" n="42"/>miserentis, in delictum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e2405">
                   <lb ed="#R" n="43"/>Tertia conditio, gaudij immixtio cum do lore, non 
       <lb ed="#R" n="44"/>quidem simultanee, quia impossibile est, sed 
       tem<lb ed="#R" n="45" break="no"/>pore quasi imperceptibili debet dolere de 
@@ -1204,7 +1202,7 @@
       <lb ed="#R" n="47"/>de vera &amp; falsa religione cap. 13. Tom. 4. peccator 
       <lb ed="#R" n="48"/>de peccato doleat, &amp; de dolore gaudeat. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e2421">
                   <lb ed="#R" n="49"/>Quarta conditio est solemnizatio, idest publica; 
       <lb ed="#R" n="50"/>talis. n. non debet imponi nisi pro peccatis 
       grauissi<lb ed="#R" n="51" break="no"/>mis, nec sacerdoti, nec clerico, &amp; ille cui 
@@ -1216,7 +1214,7 @@
       Eccle<lb ed="#R" n="57" break="no"/>siae indutus sacco, pedibus nudis, capite 
       demis<lb ed="#R" n="58" break="no"/>so, &amp; alia multa, quae ponuntur in Decreto. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h43934-d1e2445">
                   <lb ed="#R" n="59"/>Quinta est publicatio: poenitentia publica, sicut 
       <lb ed="#R" n="60"/>faciunt isti, qui vadunt per mundum nudi, quae 
       <lb ed="#R" n="61"/>infligitur pro morte patris vel matris, vel 

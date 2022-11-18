@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,22 +53,22 @@
       </front>
       <body>
          <div xml:id="olm8ij-h20415"> <!-- l4-d6q2 -->
-            <head>Quaestio 2</head>
-            <p>
+            <head xml:id="olm8ij-h20415-Hd1e102">Quaestio 2</head>
+            <p xml:id="olm8ij-h20415-d1e104">
                <lb ed="#R" n="47"/>Quaestio II.
     </p>
-            <div>
-               <head>Articulus 1</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h20415-Dd1e109">
+               <head xml:id="olm8ij-h20415-Hd1e111">Articulus 1</head>
+               <head xml:id="olm8ij-h20415-Hd1e113" type="question-title">
           Utrum Catechismus, et Exorcismus sint proprie 
           Sacramentum.
         </head>
-               <p>
+               <p xml:id="olm8ij-h20415-d1e116">
                   <lb ed="#R" n="48"/>ARTICVLVS VNJCVS. 
       <lb ed="#R" n="49"/>Vtrum Catechismus, &amp; Exorcismus sint proprie 
       <lb ed="#R" n="50"/>Sacramentum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h20415-d1e125">
                   <lb ed="#R" n="51"/>QVO ad secundam 
       Quaestio<lb ed="#R" n="52" break="no"/>nem arguo primo, quod 
       Exor<lb ed="#R" n="53" break="no"/>cismus, &amp; Catechismus sint 
@@ -87,16 +85,16 @@
       <lb ed="#R" n="62"/>&amp; efficiunt aliquem effectum inuisibilem, alias 
       fru<lb ed="#R" n="63" break="no"/>stra exhiberentur: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h20415-d1e160">
                   <lb ed="#R" n="64"/>In oppositum est, quia secundum 
       determinatio<lb ed="#R" n="65" break="no"/>nem Doctorum tantummodo sunt septem 
       Sacra<lb ed="#R" n="66" break="no"/>menta. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h20415-d1e170">
                   <lb ed="#R" n="67"/>Respondeo, in ista quaestione ponam tres 
       propo<lb ed="#R" n="68" break="no"/>sitiones. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h20415-d1e177">
                   <lb ed="#R" n="69"/>Prima est, quod grauiter peccat, qui baptizat 
       di<lb ed="#R" n="70" break="no"/>missso Catechisino, vbi potest fieri, &amp; necessitatis 
       <lb ed="#R" n="71"/>articulo non imminente; quod si necessitatis 
@@ -105,7 +103,7 @@
       <lb ed="#R" n="74"/>reportandus, &amp; et sunt Catechisinus, &amp; 
       Exorcis<lb ed="#R" n="75" break="no"/>mus exhibendi. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h20415-d1e195">
                   <lb ed="#R" n="76"/>Dico tunc, quod grauiter peccaret, qui sine 
       Ca<lb ed="#R" n="77" break="no"/>techismo, &amp; Exorcismo praeuijs baptizaret. haec 
       <lb ed="#R" n="78"/>conclusio habet euidentiam. Primo exemplo 
@@ -113,11 +111,11 @@
       <lb ed="#R" n="80"/>Nouae Legis in ipsorum administratione debemus 
       <lb ed="#R" n="81"/>nos per omnia confirmare. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h20415-d1e211">
     <!-- missing line break -->Secundo, auctoritate Ecclesiae, quae hunc modum
       <lb ed="#R" n="82"/>tenuit tempore Apostolorum
     </p>
-               <p>
+               <p xml:id="olm8ij-h20415-d1e218">
                   <lb ed="#R" n="83"/>Primum de Christi exemplo, quantum ad 
       Ca<lb ed="#R" n="84" break="no"/>techismum confirmatur per illud Joannis 9. 
       Cate<lb ed="#R" n="85" break="no"/>chismus autem Craece, idem est, quod informatio 
@@ -131,12 +129,12 @@
       <lb ed="#R" n="93"/>debet baptizandus instrui in Incarnatione 
       Chri<lb ed="#R" n="94" break="no"/>sti, &amp; ad Baptismum sic credulus adduci. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h20415-d1e247">
                   <lb ed="#R" n="95"/>Item Matth. vlt. cum dedit Christus formam ba 
       <lb ed="#R" n="96"/>ptizandi Apostolis, dicit: Ite, docete omnes gentes, 
       <lb ed="#R" n="97"/>&amp; tunc sequitur, baptizantes eos, &amp;c. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h20415-d1e257">
                   <lb ed="#R" n="98"/>Hoc idem patet de Exorcismo. Exorcismus 
       e<lb ed="#R" n="99" break="no"/>nim est exsufflatio spiritus immundi, vt habetur 
       <lb ed="#R" n="100"/>Extra de Consecratione dist. 2. cap. Baptiz andi no 
@@ -144,7 +142,7 @@
       <lb ed="#R" n="102"/>eiecit spiritum immundum, exufflauit, &amp; dixit, 
       Ef<lb ed="#R" n="103" break="no"/>feta, quod est adaperire. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h20415-d1e273">
                   <lb ed="#R" n="104"/>Secundo. habet ista conclusio euidentiam ex 
       au<lb ed="#R" n="105" break="no"/>ctoritate Ecclesiae a tempore Aposolorum, secundum 
       <lb ed="#R" n="106"/>quod expresse habetur apud Dionysium, qui 
@@ -158,7 +156,7 @@
       <lb ed="#R" n="114"/>in decem &amp; septem capitulis de 
       Consecratione<lb ed="#R" n="115" break="no"/>dist. quarta. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h20415-d1e302">
                   <lb ed="#R" n="116"/>Secunda Propositio est, quod ritus, qui instirutus 
       <lb ed="#R" n="117"/>est debere obseruari tam in Catechismo, quam Exor 
       <lb ed="#R" n="118"/>cismo, est congrue institutus. Vbi sciendum est, 
@@ -168,7 +166,7 @@
       <lb ed="#R" n="122"/>Catechismus, quod doctrina, &amp; eruditio, doctrina 
       <lb ed="#R" n="123"/>ista debet esse de symbolo, &amp; articulis Fidei. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h20415-d1e322">
                   <lb ed="#R" n="124"/>Sciendum tamen est, quod Augustinus dicit, 
       <lb ed="#R" n="125"/>quod eruditio ista eit fienda de septem aetatibus, 
       <lb ed="#R" n="126"/>sed intelligendum est hoc quando Baptismus 
@@ -178,25 +176,25 @@
                   <cb ed="#R" n="a"/>
                   <lb ed="#R" n="1"/>leguntur ante Missam multae Lectiones. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h20415-d1e342">
                   <lb ed="#R" n="2"/>Quarum prima est de creatione mundi, ac 
       pri<lb ed="#R" n="3" break="no"/>ma aetate. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h20415-d1e349">
                   <lb ed="#R" n="4"/>Secunda vero de aetate secunda, scilicet de Noe. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h20415-d1e355">
                   <lb ed="#R" n="5"/>Tertia vero de Abraham, siue aetate tertia, ac sic 
       <lb ed="#R" n="6"/>de alijs: ad quas Lectiones debebant erudiendi 
       <lb ed="#R" n="7"/>Catechumeni conuenire. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h20415-d1e364">
                   <lb ed="#R" n="8"/>Tertio, potest comparari ad modum 
       examina<lb ed="#R" n="9" break="no"/>tionis, nam facta interrogatione de symbolo debet 
       <lb ed="#R" n="10"/>ipse respondere, si adultus fuerit, vel patrinus, si fue 
       <lb ed="#R" n="11"/>rit paruulus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h20415-d1e375">
                   <lb ed="#R" n="12"/>Secundus etiam ritus Exorcismi est congrue 
       in<lb ed="#R" n="13" break="no"/>stitutus: primo enim in Exorcismo fit consignatio 
       <lb ed="#R" n="14"/>in pectore, &amp; oculis, &amp; naribus, ad significandum, 
@@ -208,7 +206,7 @@
       <lb ed="#R" n="20"/>significandum sapientiam, quam habiturus est per 
       <lb ed="#R" n="21"/>Baptismum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h20415-d1e399">
                   <lb ed="#R" n="22"/>Tertio, ibi fit exsufflatio, cum qua etiam fit adiu 
       <lb ed="#R" n="23"/>ratio, vt detur intelligi, quod potestas diaboli est 
       <lb ed="#R" n="24"/>de caetero exsusflata. 
@@ -216,7 +214,7 @@
       <lb ed="#R" n="26"/>signandum, quod quinque sensus debent sapere Chri 
       <lb ed="#R" n="27"/>stum, qui est fons sapientiae in excelsis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h20415-d1e415">
                   <lb ed="#R" n="28"/>Tertia Propositio est, quod Catechismus, &amp; 
       Exor<lb ed="#R" n="29" break="no"/>eismus non sunt Sacrameuta Nouae legis, eo quod 
       <lb ed="#R" n="30"/>non efficiunt, quod figurant. Nam effectus quidem 
@@ -229,7 +227,7 @@
       sa<lb ed="#R" n="37" break="no"/>cramentalia, quam Sacramenta, eo quod sunt 
       prae<lb ed="#R" n="38" break="no"/>ambulum ad verum Sacramentum.
     </p>
-               <p>
+               <p xml:id="olm8ij-h20415-d1e441">
                   <lb ed="#R" n="39"/>Hic tamen de effectu Catechismi, &amp; Exorcismi 
       <lb ed="#R" n="40"/>est dubitandum. Dicit enim Praepositus, quod non 
       <lb ed="#R" n="41"/>conferunt aliquid, vnde si moriatur catechumenus, 
@@ -237,13 +235,13 @@
       gra<lb ed="#R" n="43" break="no"/>tiae, siue effectum quemcumque alium, quem 
       figu<lb ed="#R" n="44" break="no"/>rant.
     </p>
-               <p>
+               <p xml:id="olm8ij-h20415-d1e458">
                   <lb ed="#R" n="45"/>Et si arguitur contra eum, quod tunc 
       Catechis<lb ed="#R" n="46" break="no"/>mus, &amp; Exorcismus sunt inutiles; respondet, quod 
       <lb ed="#R" n="47"/>non, quia catechizatus, &amp; exorcizatus, si sine 
       Ba<lb ed="#R" n="48" break="no"/>ptismo decedant, patiuntur minores tenebras. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h20415-d1e469">
                   <lb ed="#R" n="49"/>Sed opinio haec non concordat cum dicis Docto 
       <lb ed="#R" n="50"/>rum, qui ponunt, quod qui sine Baptismo decedunt, 
       <lb ed="#R" n="51"/>omnes carent aequaliter Dei visione. Alij concedunt, 
@@ -262,18 +260,18 @@
       diabo<lb ed="#R" n="64" break="no"/>li nocumenta, puto, quod valeat Exorcismus, ideo 
       <lb ed="#R" n="65"/>praemittendus est Baptismo.
     </p>
-               <p>
+               <p xml:id="olm8ij-h20415-d1e508">
                   <lb ed="#R" n="66"/>Posset ergo dici, quod valent ad tria: primo ad 
       <lb ed="#R" n="67"/>retinendam memoriam de Baptismo, quod scilicet 
       <lb ed="#R" n="68"/>talis baptizatus sit. 
   </p>
-               <p>
+               <p xml:id="olm8ij-h20415-d1e517">
       <!--0061.xml-->
                   <cb ed="#R" n="b"/>
                   <lb ed="#R" n="69"/>Secundo, ad sciendum, quid Christo promisit, cn 
       <lb ed="#R" n="70"/>ius imaginem recepit postea in Baptismo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h20415-d1e528">
                   <lb ed="#R" n="71"/>Tertio, ad prohibendum illusiones 
       multiplices<lb ed="#R" n="72" break="no"/>quas posset exercere diabolus circa aquam, &amp; 
       im<lb ed="#R" n="73" break="no"/>pedimenta, quae posset adducere ad impediendum 

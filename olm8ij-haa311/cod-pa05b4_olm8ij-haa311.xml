@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,8 +53,8 @@
       </front>
       <body>
          <div xml:id="olm8ij-haa311"> <!-- l4-prooemprae -->
-            <head>Praeambulum</head>
-            <p><!--0001.xml-->
+            <head xml:id="olm8ij-haa311-Hd1e102">Praeambulum</head>
+            <p xml:id="olm8ij-haa311-d1e104"><!--0001.xml-->
                <pb ed="#R" n="1"/>
                <cb ed="#R" n="a"/>
                <lb ed="#R" n="1"/>COMMENJ ARJORVM 
@@ -65,7 +63,7 @@
       <lb ed="#R" n="4"/>Ordinis Minorum Archiepiscopo Aquensi 
       <lb ed="#R" n="5"/>S. R. E. Cardinali.
    </p>
-            <p>
+            <p xml:id="olm8ij-haa311-d1e123">
                <lb ed="#R" n="6"/>SPIRITVS vitae erat in rotis. Sacramentorum septenarius in 
       curatio<lb ed="#R" n="7" break="no"/>nem hominis semiuiui a Samaritano illo pijssimo misericorditer 
       institu<lb ed="#R" n="8" break="no"/>tus rotarum septenario non incongrue comparatur; &amp; ratione 

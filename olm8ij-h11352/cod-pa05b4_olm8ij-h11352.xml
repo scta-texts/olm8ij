@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -54,20 +52,20 @@
          </div>
       </front>
       <body>
-         <div xml:id="olm8ij-h11352"> <!-- l1-d2q1 -->
-            <head>Quaestio 1</head>
-            <div>
-               <head>Articulus 1</head>
-               <head type="question-title">
+         <div xml:id="olm8ij-h11352"> <!-- l4-d2q1 -->
+            <head xml:id="olm8ij-h11352-Hd1e102">Quaestio 1</head>
+            <div xml:id="olm8ij-h11352-Dd1e104">
+               <head xml:id="olm8ij-h11352-Hd1e106">Articulus 1</head>
+               <head xml:id="olm8ij-h11352-Hd1e108" type="question-title">
       Utrum in Lege Noua debuerunt institui aliqua 
       specialia Sacramenta.
     </head>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e111">
                   <lb ed="#R" n="61"/>ARTICVLVUS I. 
       <lb ed="#R" n="62"/>Vtrum in Lege Noua debuerunt institui aliqua 
       <lb ed="#R" n="63"/>specialia Sacramenta. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e120">
                   <lb ed="#R" n="64"/>QVANTVM ad primam 
       <lb ed="#R" n="65"/>Quaestionem arguo 
       pri<lb ed="#R" n="66" break="no"/>mo, quod in Lege 
@@ -85,7 +83,7 @@
       <lb ed="#R" n="78"/>sub elementis inquam, ides sub Sacramentis 
       sen<lb ed="#R" n="79" break="no"/>sibilibus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e157">
                   <lb ed="#R" n="80"/>In oppositum est auctoritas Christi, Joannis 3. 
       <lb ed="#R" n="81"/>Nisi quis renatus fuerit ex aqua, &amp; Spiritu sancto, 
       <lb ed="#R" n="82"/>&amp;c. &amp; Matth. cap. vlt. Ite, baptizate eos in nomine 
@@ -93,11 +91,11 @@
       Sacramen<lb ed="#R" n="84" break="no"/>to Eucharistiae Joannis 6. Qui manducat meam 
       <lb ed="#R" n="85"/>carnem, &amp; bibit meum sanguinem, &amp; c. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e174">
                   <lb ed="#R" n="86"/>Respondeo: In ista quaestione ponam tres 
       pro<lb ed="#R" n="87" break="no"/>positiones per ordinem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e181">
                   <lb ed="#R" n="88"/>Prima est ad propositum, quod in Noua Lege 
       de<lb ed="#R" n="89" break="no"/>buerunt congrue institui specialia Sacramenta, &amp; 
       <lb ed="#R" n="90"/>hoc quantum ad congruentiam. 
@@ -105,12 +103,12 @@
       con<lb ed="#R" n="92" break="no"/>stitui specialia Sacramenta, &amp; haec propositio 
       aspi<lb ed="#R" n="93" break="no"/>cit necessitatem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e197">
                   <lb ed="#R" n="94"/>Tertia Propositio est, quod Sacramenta Legis 
       <lb ed="#R" n="95"/>Euangelicae instituenda fuerunt, in quanto minori 
       <lb ed="#R" n="96"/>numero institui potuerunt. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e206">
                   <lb ed="#R" n="97"/>Primam Propositionem probo colligendo 
       ratio<lb ed="#R" n="98" break="no"/>nes antiquorum Sanctorum, &amp; Doctorum. Et est: 
       <lb ed="#R" n="99"/>Prima ratio propter maiorem deuotionem, eo 
@@ -125,7 +123,7 @@
       feruentissi<lb ed="#R" n="108" break="no"/>ma exhibenda, congruum fuit instituere sensibilia 
       <lb ed="#R" n="109"/>signa, per quae haberet fidelium deuotio excitari. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e237">
                   <lb ed="#R" n="110"/>Secunda ratio est: Ex ratione maioris 
       humilia<lb ed="#R" n="111" break="no"/>tionis, nam sicut homo ceciderat per superbiam; 
       <lb ed="#R" n="112"/>sic oportebat quod releuaretur per humilitatem 
@@ -135,7 +133,7 @@
       <lb ed="#R" n="116"/>se contra superiorem, per humilitatem subderet se 
       <lb ed="#R" n="117"/>creaturae inferiori. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e257">
                   <lb ed="#R" n="118"/>Tertia ratio est, causa maioris exercitationis: 
       <lb ed="#R" n="119"/>multa enim mala docuit ociositas, nunc autem 
       <lb ed="#R" n="120"/>exercitia mentalia non sufficienter mentem 
@@ -157,14 +155,14 @@
       <lb ed="#R" n="11"/>animae inimico populus in talibus spiritualibus 
       a<lb ed="#R" n="12" break="no"/>ctionibus occupetur. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e304">
                   <lb ed="#R" n="13"/>Alia ratio est causa eruditionis, nam 
       Sacramen<lb ed="#R" n="14" break="no"/>ta significant effectum gratiae interiorem, vnde &amp; 
       <lb ed="#R" n="15"/>multi propter inexperientiam non aliter 
       intelle<lb ed="#R" n="16" break="no"/>xissent ablutionem interiorem, quae fit per 
       Baptis<lb ed="#R" n="17" break="no"/>mum, nisi per exteriorem corporis ablutionem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e317">
                   <lb ed="#R" n="18"/>Alia ratio est ex ratione compositionis. Cum 
       <lb ed="#R" n="19"/>enim homo componatur ex duplici natura 
       corpo<lb ed="#R" n="20" break="no"/>rali, scilicet &amp; spirituali, vtraque autem natura per 
@@ -175,7 +173,7 @@
       corre<lb ed="#R" n="25" break="no"/>spondet corpori, vt signa ipsa sensibilia, cuiusmodi 
       <lb ed="#R" n="26"/>sunt ablutio, tactus, &amp; huiusmodi. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e339">
                   <lb ed="#R" n="27"/>Alia causa est ratione assuefactionis, eo quod ho 
       <lb ed="#R" n="28"/>mo assuefactus est sensibilibus ratione conditionis 
       <lb ed="#R" n="29"/>humanae in acquirendo scientiam; acquirimus enim 
@@ -186,13 +184,13 @@
       in<lb ed="#R" n="34" break="no"/>eruditionem, &amp; cognitionem effectus interioris, 
       <lb ed="#R" n="35"/>qui est gratia. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e361">
                   <lb ed="#R" n="36"/>Secunda Propositio est, quod non solum fuit 
       con<lb ed="#R" n="37" break="no"/>gruum instituere in Lege Euangelica specialia 
       Sa<lb ed="#R" n="38" break="no"/>cramenta, sed fuit aliqualiter necessarium. 
       Prae<lb ed="#R" n="39" break="no"/>mitto tamen vnam distinctionem de necessario. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e372">
                   <lb ed="#R" n="40"/>Necessitas enim quaedam est ex parte efficientis, 
       <lb ed="#R" n="41"/>&amp; sic non capio necessitatem in proposito: non enim 
       <lb ed="#R" n="42"/>fuit Deo necessarium talia Sacramenta 
@@ -200,7 +198,7 @@
       <lb ed="#R" n="44"/>potuisset, &amp; aeque bene ex parte sua sine talibus sen 
       <lb ed="#R" n="45"/>sibilibus signis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e388">
                   <lb ed="#R" n="46"/>Alia vero necessitas est ex parte finis. Finis 
       au<lb ed="#R" n="47" break="no"/>tem horum signorum sensibilium est gratia, &amp; 
       vl<lb ed="#R" n="48" break="no"/>tima gloria; nec igitur talem necessitatem capio in 
@@ -210,14 +208,14 @@
       <lb ed="#R" n="52"/>&amp; gloriam, siue producere potuisset, quam per 
       si<lb ed="#R" n="53" break="no"/>gna huiusmodi sensibilia. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e409">
                   <lb ed="#R" n="54"/>Alia vero necessitas est ex parte subiecti, &amp; 
       ma<lb ed="#R" n="55" break="no"/>teriae, cuiusmodi est homo ipse, &amp; nec sic accipio 
       <lb ed="#R" n="56"/>necesitatem quasi Sacramenta ista necessario 
       me<lb ed="#R" n="57" break="no"/>dient inter hominem &amp; gratiam; vel quod sit neces 
       <lb ed="#R" n="58"/>saria habitudo hominis ad haec sensibilia signa. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e422">
                   <lb ed="#R" n="59"/>Alia necessitas est ex parte formae, &amp; haec est 
       du<lb ed="#R" n="60" break="no"/>plex: Vel absolute ex parte formae in se; vel ex 
       par<lb ed="#R" n="61" break="no"/>te impermanentiae formae, si forma debeat diu 
@@ -226,7 +224,7 @@
       <lb ed="#R" n="64"/>sed permanentiae ipsius formae hominis, quia aliter 
       <lb ed="#R" n="65"/>non posset homo diu permanere. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e440">
                   <lb ed="#R" n="66"/>Hoc ergo vltimo modo capio necessitatem in 
       <lb ed="#R" n="67"/>proposito. Dico ergo, quod necessarium fuit 
       ali<lb ed="#R" n="68" break="no"/>qua Sacramenta instituere in Lege Euangelica, ad 
@@ -238,7 +236,7 @@
       <lb ed="#R" n="72"/>ergo necessarium fuit ad permanentiam legis 
       Euan<lb ed="#R" n="73" break="no"/>gelicae instituere talia sensibilia signa. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e464">
                   <lb ed="#R" n="74"/>Maiorem propositionem, siue antecedens istius 
       <lb ed="#R" n="75"/>rationis probo auctoritate &amp; ratione. Auctoritas 
       <lb ed="#R" n="76"/>est Augustini 19. contra Faustum: In nullum, 
@@ -247,7 +245,7 @@
       <lb ed="#R" n="79"/>seu Sacramentorum visibilium consortio 
       colli<lb ed="#R" n="80" break="no"/>gentur. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e482">
                   <lb ed="#R" n="81"/>Secundo probo idem ratione sic: Id quidem 
       <lb ed="#R" n="82"/>videtur esse necessarium, quod sequitur, &amp; infertur 
       <lb ed="#R" n="83"/>ex dictamine recae rationis, eo modo quo r. Ethic. 
@@ -278,7 +276,7 @@
       <lb ed="#R" n="108"/>quibus solent se caeteri immiscere, aliqualiter 
       se<lb ed="#R" n="109" break="no"/>gregatus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e547">
                   <lb ed="#R" n="110"/>Secunda ratio ad idem est ista; Nulla lex potest 
       <lb ed="#R" n="111"/>diu permanere, in qua obseruatores legis non 
       pos<lb ed="#R" n="112" break="no"/>sunt a non obseruantibus distingui. Ratio vero 
@@ -297,7 +295,7 @@
       <lb ed="#R" n="125"/>Ecclesia Catholica fuisset olim ante multa 
       tempo<lb ed="#R" n="126" break="no"/>ra exsufflata. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e587">
                   <lb ed="#R" n="127"/>Tertia ratio est ista: Nulla lex potest diu 
       per<lb ed="#R" n="128" break="no"/>manere, vbi obseruatores legis non possunt se 
       exen<lb ed="#R" n="129" break="no"/>plis mutuis ad deuotiorem, &amp; feruentiorem 
@@ -324,14 +322,14 @@
         <lb ed="#R" n="11"/>diu permanserit, quod ibi non paruae haereses 
       pul<lb ed="#R" n="12" break="no"/>Jularunt.
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e644">
                   <lb ed="#R" n="13"/>Et confirmo hoc, quia in Moralibus magis sunt 
         <lb ed="#R" n="14"/>quaerendae persuasiones, quae sunt certae in 
       huma<lb ed="#R" n="15" break="no"/>nis, quam demonstrationes, tales autem 
       demon<lb ed="#R" n="16" break="no"/>srationes magis signis sensibilibus, quam 
       rationi<lb ed="#R" n="17" break="no"/>bus exhibentur. 
       </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e657">
                   <lb ed="#R" n="18"/>Tertia Propositio est, quod in Lege Euangelica 
         <lb ed="#R" n="19"/>debuerunt institui pauciora Sacramenta, quam 
         <lb ed="#R" n="20"/>potuerunt. haec propositio probatur per 
@@ -351,7 +349,7 @@
         <lb ed="#R" n="34"/>concluditur, quod Sacramenta in Lege noua debue 
         <lb ed="#R" n="35"/>runt ese numero pauciora. 
       </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e699">
                   <lb ed="#R" n="36"/>Secundo, est lex libertatis, secundum Apostolũ, 
         <lb ed="#R" n="37"/>&amp; ideo debet esse vsui facillima, &amp; per consequens 
         <lb ed="#R" n="38"/>facillima Sacramenta, quae in Lege veteri erant 
@@ -360,7 +358,7 @@
         <lb ed="#R" n="41"/>sanguinẽ aspergi in faciem, &amp; alia multa, quae erant 
         <lb ed="#R" n="42"/>grauisima ad seruandum. 
       </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e717">
                   <lb ed="#R" n="43"/>Tertio, Lex noua est lex veritatis, &amp; ideo 
       Sacra<lb ed="#R" n="44" break="no"/>menta eius non possunt esse signa falsa, sed 
       debue<lb ed="#R" n="45" break="no"/>runt habere annexam veritatem, vt non sint signa 
@@ -371,7 +369,7 @@
       passio<lb ed="#R" n="50" break="no"/>ne, quae in Lege veteri figurabatur vt futura; 
       Jn<lb ed="#R" n="51" break="no"/>noua autem Lege est iam exhibita. 
       </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e739">
                   <lb ed="#R" n="52"/>Quarto, Lex noua non estt lex instituta ab 
       ho<lb ed="#R" n="53" break="no"/>mine, siue a solo homine, vel a creatura aliqua 
       pro<lb ed="#R" n="54" break="no"/>mulgata, sed a Deo &amp; homine, Christo scilicet, 
@@ -379,25 +377,25 @@
       tem<lb ed="#R" n="56" break="no"/>pore debet esse diuturnior: sic ergo patet ad 
       quae<lb ed="#R" n="57" break="no"/>stionem. 
       </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e756">
                   <lb ed="#R" n="58"/>Ad argumentum in oppositum nego minorem. 
         <lb ed="#R" n="59"/>Ad probationem dico, quod Apostolus ibi 
       loqui<lb ed="#R" n="60" break="no"/>tur de Sacramentis antiquae Legis, quae sine dubio 
         <lb ed="#R" n="61"/>redigebant in maximam seruitutem. 
       </p>
             </div>
-            <div>
-               <head>Articulus 2</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h11352-Dd1e768">
+               <head xml:id="olm8ij-h11352-Hd1e770">Articulus 2</head>
+               <head xml:id="olm8ij-h11352-Hd1e772" type="question-title">
         Utrum Sacramenta Nouae Legis conuenienter 
         instituta fuerint a Christo in numero septenario.
       </head>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e775">
                   <lb ed="#R" n="62"/>ARAACVLVS II. 
         <lb ed="#R" n="63"/>Vtrum Sacramenta Nouae Legis conuenienter 
         in<lb ed="#R" n="64" break="no"/>stituta fuerint a Christo in numero septenario.
       </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e784">
                   <lb ed="#R" n="65"/>QVoad secundam quaestionem arguo primo, 
         <lb ed="#R" n="66"/>A quod Sacramenta nouae Legis non congruè 
         <!--0036.xml-->
@@ -407,13 +405,13 @@
       non<lb ed="#R" n="69" break="no"/>enim apparet ex Euangelio, vbi Sacramentum hoc 
         <lb ed="#R" n="70"/>a Christo fuerit institutum.
       </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e804">
                   <lb ed="#R" n="71"/>In oppositum est auctoritas Ecclesiae, vnde 
       in<lb ed="#R" n="72" break="no"/>Decretis 25. cap. in nouo Testa mento dicitur, quod 
         <lb ed="#R" n="73"/>illa, quae tenet Ecclesia de Sacramentis sunt 
       tradi<lb ed="#R" n="74" break="no"/>ta a Christo, &amp; Apostolis.
       </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e816">
                   <lb ed="#R" n="75"/>Respondeo: Primo videndum est de numero 
       Sa<lb ed="#R" n="76" break="no"/>cramentorum. Vnum est certum, quod sunt septem, 
         <lb ed="#R" n="77"/>ratio vero talis numeri potest esse vna ex 
@@ -426,40 +424,40 @@
         <lb ed="#R" n="84"/>Matrimonio vero Castitas. In Confirmatione 
       ve<lb ed="#R" n="85" break="no"/>ro Fortitudo. 
       </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e842">
                   <lb ed="#R" n="86"/>Secunda ratio potest sumi ex hoc, quod 
       Sacra<lb ed="#R" n="87" break="no"/>mẽta sunt quaedam media reparatiua humanorum 
         <lb ed="#R" n="88"/>defectuum. Ad cuius euidentiam sciendũ est, quod 
         <lb ed="#R" n="89"/>defectus quidam sunt defectus culpae, &amp; quidam 
         <lb ed="#R" n="90"/>defectus pœnae.
       </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e855">
                   <lb ed="#R" n="91"/>Culpa vero est triplex, scilicet originalis, quam 
         <lb ed="#R" n="92"/>delet Baptismus: mortalis, quam delet Pœnitentia: 
         <lb ed="#R" n="93"/>venialis, quam delet Extrema vnctio.
       </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e864">
                   <lb ed="#R" n="94"/>Defectus vero pœnales sunt decem. Et quidam 
         <lb ed="#R" n="95"/>quidem est in intellectu, scilicet ignorantia, contra 
         <lb ed="#R" n="96"/>quam est Sacramentum Ordinis, in quo dantur 
       cla<lb ed="#R" n="97" break="no"/>ues Scientiae. 
       </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e875">
                   <lb ed="#R" n="98"/>Secunda vero pœna est in voluntate defectus 
         <lb ed="#R" n="99"/>malitiae, contra quam est Sacramentum Eucharistiae, 
         <lb ed="#R" n="100"/>vbi infunditur Charitas.
       </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e884">
                   <lb ed="#R" n="101"/>Tertia pœna est in irascibili, pusillanimitas, 
       con<lb ed="#R" n="102" break="no"/>tra quam est Sacramentum Confirmationis, vbi 
       da<lb ed="#R" n="103" break="no"/>tur virtus Fortitudinis. 
       </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e894">
                   <lb ed="#R" n="104"/>Quarta pœna est in concupiscibili, 
       concupiscen<lb ed="#R" n="105" break="no"/>tia mala, contra quam est Sacramentum Matrimo 
         <lb ed="#R" n="106"/>nij, vbi infunditur spiritualis Temperantia.
       </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e903">
                   <lb ed="#R" n="107"/>Alij assignant aliam rationem ex 
       similitudine<lb ed="#R" n="108" break="no"/>vitae corporalis ad vitam spiritualem, quae datur 
         <lb ed="#R" n="109"/>per Sacramenta: nam in vita corporali quaedam 
@@ -468,7 +466,7 @@
       vi<lb ed="#R" n="112" break="no"/>ta spirituali Baptismus, per quem omnia 
       regene<lb ed="#R" n="113" break="no"/>rantur Christo.
       </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e921">
                   <lb ed="#R" n="114"/>Secundum est nutrimentum, &amp; huic in vita 
       spiri<lb ed="#R" n="115" break="no"/>tuali correspondet Eucharistia, quam qui 
       mandu<lb ed="#R" n="116" break="no"/>cat, habet vitam aeternam. 
@@ -476,21 +474,21 @@
         <lb ed="#R" n="118"/>Confirmatio. Ex parte vero communicantis 
       requi<lb ed="#R" n="119" break="no"/>runtur quatuor. 
       </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e937">
                   <lb ed="#R" n="120"/>Primum est propagatio, &amp; huic correspondet in 
         <lb ed="#R" n="121"/>vita spirituali Matrimonium.
       </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e944">
                   <lb ed="#R" n="122"/>Secundum est gradus, in quo necessarium est 
       ali<lb ed="#R" n="123" break="no"/>quos promoueri ad actum necessarium 
       communi<lb ed="#R" n="124" break="no"/>tati, &amp; huic correspondet Ordo.
       </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e953">
                   <lb ed="#R" n="125"/>Tertium est ad remouendum impedimenta vite, 
         <lb ed="#R" n="126"/>cuiuimodi est infirmitas, &amp; ad hoc ordinatum est 
         <lb ed="#R" n="127"/>Sacramentum Paenitentiae.
       </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e963">
                   <lb ed="#R" n="128"/>Quartum est ad remouendum ineptitudinem, &amp; 
         <lb ed="#R" n="129"/>hebetudinem quam homo consequitur ex 
       infirmi<lb ed="#R" n="130" break="no"/>tate, &amp; huic correspondet in vita spirituali 
@@ -498,7 +496,7 @@
         <lb ed="#R" n="132"/>imbecillitates &amp; ineptitudines, quas homo in vita 
         <lb ed="#R" n="133"/>praesenti contraxit, remouentur.
       </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e979">
                   <lb ed="#R" n="134"/>Vltimo potest sufficientia magis congrua, &amp; con- 
       <!--0037.xml-->
       <pb ed="#R" n="37"/>
@@ -509,7 +507,7 @@
       <lb ed="#R" n="4"/>est in omni lege instituere specialia Sacramenta, si 
       <lb ed="#R" n="5"/>lex debeat diutius permanere.
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e1001">
                   <lb ed="#R" n="6"/>Primum ergo, quod est necessarium in omni 
       le<lb ed="#R" n="7" break="no"/>ge, &amp; ad quod exhibendum inclinat ius naturae, est 
       <lb ed="#R" n="8"/>sacrificium; vnde nunquam fuit populus, nec lex, 
@@ -522,14 +520,14 @@
       per<lb ed="#R" n="15" break="no"/>mansionis, &amp; huic correspondet in lege noua 
       Sa<lb ed="#R" n="16" break="no"/>cramentum Eucharistiae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e1027">
                   <lb ed="#R" n="17"/>Ex hoc autem Sacramento in omni lege 
       necessa<lb ed="#R" n="18" break="no"/>rius erat Sacerdos: ergo necessarium est legem 
       no<lb ed="#R" n="19" break="no"/>uam excellentibus personis, &amp; ministris sacrificij 
       <lb ed="#R" n="20"/>dignissimi adornari, &amp; ad hoc institutum est 
       Sacra<lb ed="#R" n="21" break="no"/>mentum Ordinis.
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e1040">
                   <lb ed="#R" n="22"/>Tertio: In omni lege permansura necessarium 
       <lb ed="#R" n="23"/>fuit semper aliquod signum distinctiuum degentium 
       <lb ed="#R" n="24"/>sub lege illa a caeteris aliarum legum: ergo hoc 
@@ -540,7 +538,7 @@
       qui<lb ed="#R" n="29" break="no"/>dem intrantibus religionem, in ipso religionis 
       in<lb ed="#R" n="30" break="no"/>troitu adhibentur.
   </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e1062">
                   <lb ed="#R" n="31"/>Quarto: In omni lege permansiua necessarij 
       sue<lb ed="#R" n="32" break="no"/>runt aliqui defen sores legis, &amp; propugnatores, &amp; 
       <lb ed="#R" n="33"/>per consequens signum erat aliquod, quo 
@@ -554,7 +552,7 @@
       Confirmatio<lb ed="#R" n="41" break="no"/>nem trepidassent, nec fuissent confessi ita audacter 
       <lb ed="#R" n="42"/>nomen Christi. 
   </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e1092">
                   <lb ed="#R" n="43"/>Quinto: Omnis lex habuit ritum aliquem in recon 
       <lb ed="#R" n="44"/>ciliando praeuaricatores legis, &amp; hoc multo magis 
       <lb ed="#R" n="45"/>fuit congruum in lege noua, quae congrue, vel 
@@ -562,7 +560,7 @@
       Sacra<lb ed="#R" n="47" break="no"/>mentum Poenitentiae, per quam cognoscit homo se 
       <lb ed="#R" n="48"/>ese perfecte Deo reconciliatum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e1108">
                   <lb ed="#R" n="49"/>Sexto: De necessitate permansionis cuiuslibet le 
       <lb ed="#R" n="50"/>gis fuit, quod homines permansuri sub lege 
       propa<lb ed="#R" n="51" break="no"/>garentur ab hominibus illius legis, vnde &amp; hoc fuit 
@@ -575,7 +573,7 @@
       <lb ed="#R" n="58"/>propagationem huiusmodi conseruandam, &amp; ad hoc 
       <lb ed="#R" n="59"/>institutum est Sacramentum Matrimonij. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e1134">
                   <lb ed="#R" n="60"/>Septimo, &amp; vltimo, quia haec lex non finitur hic, 
       <lb ed="#R" n="61"/>sed alibi, &amp; habet duplicem populum, militantem, 
       <lb ed="#R" n="62"/>&amp; triumphantem, aliquid fuit necessarium in ista le 
@@ -592,7 +590,7 @@
       <lb ed="#R" n="71"/>&amp; quod perseuerauit in militanti populo, &amp; nunc 
       <lb ed="#R" n="72"/>venit perseueraturus cum populo triumphante.
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e1169">
                   <lb ed="#R" n="73"/>Secundus modus est de institutione. Vtrum fuerint 
       <lb ed="#R" n="74"/>haec Sacramenta instituta a Deo solo sine Christo, an 
       <lb ed="#R" n="75"/>aliqua ab ipsis. Ad quod dicunt quidam, quod solus 
@@ -617,14 +615,14 @@
       possi<lb ed="#R" n="94" break="no"/>bili non video, quare executiue Sacramenta non po 
       <lb ed="#R" n="95"/>tuerunt ab aliquo institui, quam a solo Deo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e1221">
                   <lb ed="#R" n="96"/>Sed de facto teneo determinationem Concilij vbi 
       <lb ed="#R" n="97"/>supra, arguendo ad principale, quod Sacramenta 
       <lb ed="#R" n="98"/>omnia a Christo fuerunt immediate instituta, tamem 
       <lb ed="#R" n="99"/>aliquae circumstantiae sunt postmodum ab Ecclesia 
       <lb ed="#R" n="100"/>propter causas rationabiles institutae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e1234">
                   <lb ed="#R" n="101"/>Hic tamen est specialis difficultas de duobus 
       Sa<lb ed="#R" n="102" break="no"/>cramentis, scilicet Extrema vnctione, &amp; 
       Confirma<lb ed="#R" n="103" break="no"/>tione, vtrũa Christo fuerunt immediate instituta, 
@@ -633,7 +631,7 @@
       <lb ed="#R" n="106"/>sancto, &amp; sanabantur, non faciebant autem hoc 
       ni<lb ed="#R" n="107" break="no"/>si in virtute Christi.
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e1253">
                   <lb ed="#R" n="108"/>De confirmatione Christi similiter patet in 
       im<lb ed="#R" n="109" break="no"/>positione manuum, vbi dabatur Spiritus sanctus, &amp; 
       <lb ed="#R" n="110"/>patet ex Euangelio, quod Christus confirmauit 
@@ -641,18 +639,18 @@
       <lb ed="#R" n="112"/>hoc patet ad argumentum principale. 
     </p>
             </div>
-            <div>
-               <head>Articulus 3</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h11352-Dd1e1267">
+               <head xml:id="olm8ij-h11352-Hd1e1269">Articulus 3</head>
+               <head xml:id="olm8ij-h11352-Hd1e1271" type="question-title">
       De Baptismo Joannis, Utrum fuerit verum 
       Sacramentum.
     </head>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e1274">
                   <lb ed="#R" n="113"/>ARTICVLVS III 
       <lb ed="#R" n="114"/>De Baptismo Joannis, Vtrum fuerit verum 
       <lb ed="#R" n="115"/>Sacramentum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e1283">
                   <lb ed="#R" n="116"/>AD tertiam quaestionem de Baptismo Joannis, 
       <lb ed="#R" n="117"/>vtrum fuerit verum Sacramentum, sine 
       argu<lb ed="#R" n="118" break="no"/>mentis. Respondeo primo, quae fuit eius materia? &amp; 
@@ -664,7 +662,7 @@
       <lb ed="#R" n="124"/>baptizauit populum in eum dicens, qui venturus 
       <lb ed="#R" n="125"/>esset post ipsum. 
   </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e1307">
                   <lb ed="#R" n="126"/>Sed hoc non videtur bene dictum, quia quomodo 
       <lb ed="#R" n="127"/>baptizauit Christum? numquid in nomine ipsiusmet, 
       <lb ed="#R" n="128"/>vt diceret, Baptizo te in nomine tui venturi: ideo 
@@ -681,28 +679,28 @@
       necessita<lb ed="#R" n="2" break="no"/>tem, quare oportuerit, quod loannes baptizaret 
       <lb ed="#R" n="3"/>in forma aliqua. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e1343">
                   <lb ed="#R" n="4"/>De suscipientibus vero, fuitne generale quoad 
       <lb ed="#R" n="5"/>omnes. Respondeo, susceptiuum congruum erat so 
       <lb ed="#R" n="6"/>lummodo adultis, non paruulis: &amp; ratio est, 
       quia<lb ed="#R" n="7" break="no"/>Baptismus erat tantum poenitentiae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e1354">
                   <lb ed="#R" n="8"/>Sed nunquid Christus fuit congruum susceptiuum. 
       <lb ed="#R" n="9"/>Respondeo: Christus baptizari voluit ex duplici cau 
       <lb ed="#R" n="10"/>sa; &amp; ad dandum humilitatis exemplum, &amp; secundum 
       <lb ed="#R" n="11"/>
-                  <name>Bedam</name> ad aquas sanctificandum, vt conserret aquis 
+                  <name xml:id="olm8ij-h11352-Nd1e1364">Bedam</name> ad aquas sanctificandum, vt conserret aquis 
       <lb ed="#R" n="12"/>vim regeneratiuam, quod mouet aliquos ad 
       po<lb ed="#R" n="13" break="no"/>nendum in Sacramentis virtutem infusam. sed 
       mo<lb ed="#R" n="14" break="no"/>tiuum non est congruum, quia concluderet, quod in 
       <lb ed="#R" n="15"/>omni aqua esset virtus talis infusa. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e1376">
                   <lb ed="#R" n="16"/>Secundo propter exemplum praebendum poe
       ni<lb ed="#R" n="17" break="no"/>tentiae, sicut &amp; ob hoc ieiunare voluit in deserto. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e1383">
                   <lb ed="#R" n="18"/>Sed quid de efficacia, nunquid conferebat 
       gra<lb ed="#R" n="19" break="no"/>tiam? Respondeo, aliqui dicunt quod sic, alii vero 
       <lb ed="#R" n="20"/>tenent oppositum, cuius opinionis videtur esse 
@@ -715,13 +713,13 @@
       Augu<lb ed="#R" n="27" break="no"/>stinum delebat culpam: culpa autem non deletur 
       <lb ed="#R" n="28"/>sine gratia. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e1409">
                   <lb ed="#R" n="29"/>Sed quid de sufficientia? nunquid baptizati 
       ba<lb ed="#R" n="30" break="no"/>ptismo Joannis tenebantur baptizari possea baptis 
       <lb ed="#R" n="31"/>mo Christi. Respondeo, haec est opinio Magistri, 
       <lb ed="#R" n="32"/>quae videtur fundari super dicta Hieron. super Joel. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e1420">
                   <lb ed="#R" n="33"/>Distinguit autem Magister de baptizatis baptis 
       <lb ed="#R" n="34"/>mo Joannis, quia aut ponebant spem in baptismo 
       <lb ed="#R" n="35"/>Joannis, nihil scientes de Spiritu sancto, &amp; Fide Chri 
@@ -733,7 +731,7 @@
       <lb ed="#R" n="41"/>populum, &amp; c. &amp; sequitur: his auditis baptizati sunt 
       <lb ed="#R" n="42"/>in nomine Domini sesu. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e1445">
                   <lb ed="#R" n="43"/>Si vero baptizati baptismo Joannis non figebant 
       <lb ed="#R" n="44"/>spem ibi, sed fidem habebant in Patre, &amp; Filio, &amp; 
       <lb ed="#R" n="45"/>Spiritu sancto, non oportebat eos rebaptizari 
@@ -744,7 +742,7 @@
       <lb ed="#R" n="50"/>tamen sequitur, quod fuerunt rebaptizati 
       baptis<lb ed="#R" n="51" break="no"/>mo Christi. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e1467">
                   <lb ed="#R" n="52"/>Sed Magister communiter in hoc non tenetur. Ideo 
       <lb ed="#R" n="53"/>dicunt alij, quod baptismus Joannis fuit in forma 
       <lb ed="#R" n="54"/>baptismi Christi, quam potuit audire a discipulis 
@@ -752,7 +750,7 @@
       <lb ed="#R" n="56"/>sed Christi, &amp; sic certum est, quod non oportuisset 
       <lb ed="#R" n="57"/>tales rebaptizari baptismo Chrisi. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e1483">
                   <lb ed="#R" n="58"/>Vel Joannis baptismus potuit fuisse in alia 
       for<lb ed="#R" n="59" break="no"/>ma,puta in nomine venturi, vel quadam alia, vel 
       si<lb ed="#R" n="60" break="no"/>ne forma aliqua, &amp; de tali dicunt, quod oportebat 
@@ -763,7 +761,7 @@
       <lb ed="#R" n="65"/>tamen quia fuit mandatum generale de baptismo 
       <lb ed="#R" n="66"/>Christi, videtur obligasse vniuersaliter omnes. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e1505">
                   <lb ed="#R" n="67"/>Sed iste habet contra se auctoritatem Act. cap. 8. 
       <lb ed="#R" n="68"/>quam Magister adducit pro se in littera. Ideo di- 
       <!--0038.xml-->
@@ -772,7 +770,7 @@
       <lb ed="#R" n="70"/>dictum suum possit concordare opiniones illorum 
       <lb ed="#R" n="71"/>oppositas. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e1523">
                   <lb ed="#R" n="72"/>Dicit ergo Doctor ille, quod aut post haptismum 
       <lb ed="#R" n="73"/>Joannis receptum sequebatur manuum impositio 
       <lb ed="#R" n="74"/>Apostolorum, vel non: si sic, hoc conurue dicitur, 
@@ -795,7 +793,7 @@
       te<lb ed="#R" n="91" break="no"/>nendum est secundum istos, quod non esset postea 
       <lb ed="#R" n="92"/>baptizandus baptismo Christi. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e1571">
                   <lb ed="#R" n="93"/>Si vero ad impositionem manus in baptizatis ba 
       <lb ed="#R" n="94"/>ptismo Joannis non apparebat sensibile signum, tunc 
       <lb ed="#R" n="95"/>talis impositio manuum erat tantum confirmatio, 
@@ -811,14 +809,14 @@
       baptiza<lb ed="#R" n="105" break="no"/>uit Judas, baptizauit &amp; Christus, &amp;c. quos vero 
       <lb ed="#R" n="106"/>baptizauit Joannes, &amp; c. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e1605">
                   <lb ed="#R" n="107"/>Quicquid sit de istis opinionibus videtur mihi, 
       <lb ed="#R" n="108"/>quod multum probabiliter posset teneri opinio 
       il<lb ed="#R" n="109" break="no"/>lius antiqui Doctoris, &amp; apparenter exponi ea, quae 
       <lb ed="#R" n="110"/>videntur facere in contrarium, &amp; hoc modo, quo 
       <lb ed="#R" n="111"/>statim dictum est, cum opinio recitaretur. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e1618">
                   <lb ed="#R" n="112"/>Sed quid dicendum de auctoritate: Vtrum 
       baptis<lb ed="#R" n="113" break="no"/>mus ille haberet auctoritatem a Joanne, ita qui loannes 
       <lb ed="#R" n="114"/>auctoritatiue instituisset illum baptismum. Respon 
@@ -830,7 +828,7 @@
       <lb ed="#R" n="120"/>Joannis 1. Qui miisit me baptirare, &amp;c. Sed 
       quare<lb ed="#R" n="121" break="no"/>dicebatur baptismus Joannis? 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e1642">
                   <lb ed="#R" n="122"/>Dicunt quidam, quod ideo, quia soli Joanni 
       da<lb ed="#R" n="123" break="no"/>tum fuit tanquam ministro, quod baptizaret. Sed 
       <lb ed="#R" n="124"/>istud est expresse contra textum Act. vbi dicitur, qui 
@@ -841,7 +839,7 @@
       Ba<lb ed="#R" n="129" break="no"/>ptismus ille fuerit auctoritatiue a diuina 
       volunta<lb ed="#R" n="130" break="no"/>te, sed tamen mediante Joanne ipso, executiue. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e1664">
                   <lb ed="#R" n="131"/>Vltimo quo ad propositum, Vtrum baptismus 
       <lb ed="#R" n="132"/>Joannis fuit Sacramentum, hoc certum est, quod 
       <lb ed="#R" n="133"/>fuerit praeuium ad Sacramentum, scilicet ad 
@@ -855,7 +853,7 @@
       li<lb ed="#R" n="2" break="no"/>cet non causa. Dicitur communiter, quod tantum 
       <lb ed="#R" n="3"/>significabat baptismum Christi.
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e1693">
                   <lb ed="#R" n="4"/>Sed vtrum significabat baptismum fluminis, vel 
       <lb ed="#R" n="5"/>flaminis. Dicunt quidam, quod baptismum 
       flu<lb ed="#R" n="6" break="no"/>minis. Sed hoc videtur irrationabile, quia 
@@ -865,7 +863,7 @@
       <lb ed="#R" n="10"/>baptizauit aqua, nos autem baptizamus in 
       Spiri<lb ed="#R" n="11" break="no"/>tu sancto. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h11352-d1e1713">
                   <lb ed="#R" n="12"/>Potest ergo dici, quod haptismus Ioannis aliter 
       <lb ed="#R" n="13"/>se habebat, &amp; cooperabatur ad Baptismum 
       flumi<lb ed="#R" n="14" break="no"/>nis, &amp; aliter ad baptismum flaminis: quoniam ad 

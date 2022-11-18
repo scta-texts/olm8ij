@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,8 +53,8 @@
       </front>
       <body>
          <div xml:id="olm8ij-h61181"> <!-- l4-d33prae -->
-            <head>Praeambulum</head>
-            <p>
+            <head xml:id="olm8ij-h61181-Hd1e102">Praeambulum</head>
+            <p xml:id="olm8ij-h61181-d1e104">
       <!--0178.xml-->
                <cb ed="#R" n="b"/>
                <lb ed="#R" n="64"/>DISTINCTIO XXXIII 
@@ -69,7 +67,7 @@
                <!-- line coord error -->
                <lb ed="#R" n="69"/>VXORVM. 
   </p>
-            <p>
+            <p xml:id="olm8ij-h61181-d1e130">
                <lb ed="#R" n="70"/>Circa Distinctionem Trigesimamtertiam 
       quae<lb ed="#R" n="71" break="no"/>ro istam Quaestionem: Vtrum habere 
       plu<lb ed="#R" n="72" break="no"/>res vxores sit contra ius naturae. 

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,14 +53,14 @@
       </front>
       <body>
          <div xml:id="olm8ij-haa861"> <!-- l4-prooemq1 -->
-            <head>Quaestio 1</head>
-            <head type="question-title">
+            <head xml:id="olm8ij-haa861-Hd1e102">Quaestio 1</head>
+            <head xml:id="olm8ij-haa861-Hd1e104" type="question-title">
       Utrum Sacramentis, seu Sacramentorum 
       Ministris communicari potuit aliqua virtus 
       creatiua respectu sacramentalis 
       effectus.
     </head>
-            <p>
+            <p xml:id="olm8ij-haa861-d1e107">
       <!--0002.xml-->
                <pb ed="#R" n="2"/>
                <cb ed="#R" n="a"/>
@@ -71,13 +69,13 @@
       <lb ed="#R" n="3"/>Ad euidentiam Sacramentorum in generali, 
       <lb ed="#R" n="4"/>quaero istam Quaestionem.
   </p>
-            <p>
+            <p xml:id="olm8ij-haa861-d1e125">
                <lb ed="#R" n="5"/>Vtrum Sacramentis, seu Sacramentorum 
       Mini<lb ed="#R" n="6" break="no"/>stris communicari potuit aliqua virtus 
       crea<lb ed="#R" n="7" break="no"/>tiua respectu sacramentalis 
       <lb ed="#R" n="8"/>effectus. 
   </p>
-            <p>
+            <p xml:id="olm8ij-haa861-d1e137">
                <lb ed="#R" n="9"/>NALLJVR, quod sic: 
       Om<lb ed="#R" n="10" break="no"/>nis namque virtus 
       commu<lb ed="#R" n="11" break="no"/>nicabilis est creaturae, &amp; 
@@ -104,7 +102,7 @@
       <lb ed="#R" n="32"/>distantia est inter contraria: ergo nulla ratio 
       appa<lb ed="#R" n="33" break="no"/>ret, cur potentia creatiua poni debeat infinita. 
     </p>
-            <p>
+            <p xml:id="olm8ij-haa861-d1e194">
                <lb ed="#R" n="34"/>Secundo sic: Magis est notum esse formam, quam 
       <lb ed="#R" n="35"/>materiam, cum forma sit nobilior, &amp; perfectior, 
       <lb ed="#R" n="36"/>quam materia: sed virtus productiua formae non 
@@ -115,7 +113,7 @@
       conse<lb ed="#R" n="41" break="no"/>quens virtus creatiua, cum productio materiae non 
       <lb ed="#R" n="42"/>sit nisi per formationem. 
     </p>
-            <p>
+            <p xml:id="olm8ij-haa861-d1e216">
                <lb ed="#R" n="43"/>Tertio sic: Virtus cretiua, &amp; virtus annihilatiua 
       <lb ed="#R" n="44"/>sunt aequales, quia non est magis ex nihilo aliquid 
       <lb ed="#R" n="45"/>facere, quam allquid reduci in nihil: ergo virtus 
@@ -128,7 +126,7 @@
       <lb ed="#R" n="52"/>suam: non enim ipsa annihilat scipsam, nec virtus 
       <lb ed="#R" n="53"/>diuina annihilat illam, igitur peccator. 
     </p>
-            <p>
+            <p xml:id="olm8ij-haa861-d1e242">
                <lb ed="#R" n="54"/>In oppositum arguo: Quia nec Angelo, nee 
       cor<lb ed="#R" n="55" break="no"/>pori communicari potest virtus creandi: ergo nec 
       <lb ed="#R" n="56"/>Sacramentis, nec corum ministris. Consequentia 
@@ -142,7 +140,7 @@
       a<lb ed="#R" n="62" break="no"/>ctione, quae non habet subiectum, &amp; sic non potest 
       <lb ed="#R" n="63"/>creare. 
     </p>
-            <p>
+            <p xml:id="olm8ij-haa861-d1e271">
                <lb ed="#R" n="64"/>De Angelo, probo idem, nam Angelus, &amp; 
       sub<lb ed="#R" n="65" break="no"/>stantia separata non agunt, nisi per intellectum, &amp; 
       <lb ed="#R" n="66"/>voluntatem: actus autem intellectus, &amp; voluntatis 
@@ -153,7 +151,7 @@
       <lb ed="#R" n="71"/>potes aliquid producere actione, quae non habet 
       <lb ed="#R" n="72"/>subiectum, &amp; sic non potest creare. 
     </p>
-            <p>
+            <p xml:id="olm8ij-haa861-d1e293">
                <lb ed="#R" n="73"/>Respondeo. Hic primo videndum est, 
       quomo<lb ed="#R" n="74" break="no"/>do, &amp; quare creatio apud Philosophos 
       reputata<lb ed="#R" n="75" break="no"/>est impossibilis. Secundo: An soli virtuti infinitae sit 
@@ -162,17 +160,17 @@
       commu<lb ed="#R" n="78" break="no"/>nicata Sacramentis, &amp; eorum ministris, siue 
       prin<lb ed="#R" n="79" break="no"/>cipaliter, siue instrumentaliter. 
     </p>
-            <div>
-               <head>Articulus 1</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-haa861-Dd1e312">
+               <head xml:id="olm8ij-haa861-Hd1e314">Articulus 1</head>
+               <head xml:id="olm8ij-haa861-Hd1e316" type="question-title">
       Quomodo, et quare Creatio reputata est impossibilis apud Philosophos.
     </head>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e319">
                   <lb ed="#R" n="80"/>ARTICVLVUS I. 
       <lb ed="#R" n="81"/>Quomodo, &amp; quare Creatio reputata est 
       impossibi<lb ed="#R" n="82" break="no"/>lis apud Philosophos. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e328">
                   <lb ed="#R" n="83"/>CIrca primum sciendum est, quod ipsi 
       Auicen<lb ed="#R" n="84" break="no"/>nae Creatio non est visa impossibilis, 
       vnde<lb ed="#R" n="85" break="no"/>ipse attribuit eam non solum substantiae primae, 
@@ -193,12 +191,12 @@
       creatio<lb ed="#R" n="100" break="no"/>nem esse impossibilem, &amp; propositionem illam per 
       <lb ed="#R" n="101"/>se notam: Ex nihilo nihil fit. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e372">
                   <lb ed="#R" n="102"/>Inquirendum est ergo quomodo, &amp; quare 
       repu<lb ed="#R" n="103" break="no"/>tauerunt creationem esse impossibilem: &amp; primo 
       <lb ed="#R" n="104"/>quomodo: secundo quare. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e382">
                   <lb ed="#R" n="105"/>De primo sciendum, quod impossibilitas duplex 
       <lb ed="#R" n="106"/>est: Vna quae reducitur ad impotentiam, &amp; 
       dimi<lb ed="#R" n="107" break="no"/>nutionem agentis, vt coecum videre. Alia quae 
@@ -210,7 +208,7 @@
       <lb ed="#R" n="113"/>nix est alba, vel quae habetur ex terminis, vt quod 
       <lb ed="#R" n="114"/>omne totum est maius sua parte. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e406">
                   <lb ed="#R" n="115"/>Putant ergo aliqui, quod Arist. &amp; Commentator 
       <lb ed="#R" n="116"/>reputauerunt creationem impossibilem propter 
       <lb ed="#R" n="117"/>impotentiam agentis, &amp; non propter 
@@ -229,7 +227,7 @@
       <lb ed="#R" n="3"/>omne totum est maius sua parte, &amp; hoc ex 
       ter<lb ed="#R" n="4" break="no"/>minis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e445">
                   <lb ed="#R" n="5"/>Hoc probo fuisse de intentione Arist. nam r. 
       <lb ed="#R" n="6"/>physic. tex. 34. hanc declarat ex terminis, seu ex 
       si<lb ed="#R" n="7" break="no"/>gnificato terminorum, dicens, quod ex hoc fit hoc, 
@@ -242,7 +240,7 @@
       contradictio<lb ed="#R" n="14" break="no"/>nem, &amp; per consequens eius opposita est omnino 
       <lb ed="#R" n="15"/>necesaria. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e471">
                   <lb ed="#R" n="16"/>Sed patet idem per Commentatorem a. Metaph. 
       <lb ed="#R" n="17"/>qui dicit, quod accidit aliquibus hominibus 
       ne<lb ed="#R" n="18" break="no"/>gare per se nota, cum eorum opposita fuerint 
@@ -251,7 +249,7 @@
       mul<lb ed="#R" n="21" break="no"/>tos homines dantes se ad Philosophiam, qui negant 
       <lb ed="#R" n="22"/>illam propositionem esse primam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e489">
                   <lb ed="#R" n="23"/>Item idem in prologo tertij Physic. dicit, quod 
       <lb ed="#R" n="24"/>consuetudo est maxima causa impediens a 
       pluri<lb ed="#R" n="25" break="no"/>bus rebus manifestis per se; cum enim suerit homo 
@@ -262,7 +260,7 @@
       <lb ed="#R" n="30"/>etiam accidit modernis, dicentibus quod ex nihilo 
       <lb ed="#R" n="31"/>sit aliquid. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e511">
                   <lb ed="#R" n="32"/>Item idem 8. Physic: comm. 10. dicit, quod 
       Sar<lb ed="#R" n="33" break="no"/>raceni habent pro possibili, aliquid fieri ex nihilo, 
       <lb ed="#R" n="34"/>&amp; nituntur ad confirmandum hoc, ex eo, quia 
@@ -277,7 +275,7 @@
       <lb ed="#R" n="43"/>quod ex nihilo aliquid fiat in J. Physic. &amp; in 1. 
       coe<lb ed="#R" n="44" break="no"/>li, &amp; mundi. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e543">
                   <lb ed="#R" n="45"/>De secundo quare, &amp; propter quid ita 
       existi<lb ed="#R" n="46" break="no"/>mauerunt Philosophi, mirum est, quia cum 
       signifi<lb ed="#R" n="47" break="no"/>cata sint communia eis &amp; nobis, quomodo nobis 
@@ -286,7 +284,7 @@
       <lb ed="#R" n="50"/>quod habuerunt ingenia praeclarissima, talis 
       repu<lb ed="#R" n="51" break="no"/>gnantia apparebat. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e561">
                   <lb ed="#R" n="52"/>Propter quod sciendum, quod repugnantiam 
       <lb ed="#R" n="53"/>huius propositionis: ex nihilo aliquid fit, primo 
       o<lb ed="#R" n="54" break="no"/>stenderunt Philosophi ex-natura huius termini, ex 
@@ -294,7 +292,7 @@
       proposi<lb ed="#R" n="56" break="no"/>tionis. Tertio ex ratione oppositi, videlicet 
       anni<lb ed="#R" n="57" break="no"/>hilationis. Quarto ex natura producti. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e577">
                   <lb ed="#R" n="58"/>Prima ratio sic deducitur. De formali omnis 
       <lb ed="#R" n="59"/>productionis. est, quod sit inter duos terminos, 
       <lb ed="#R" n="60"/>nam producio terminatur ad aliquid, quod 
@@ -307,7 +305,7 @@
       ip<lb ed="#R" n="67" break="no"/>sum nihil, quod excluditur, terminus vero ad quem 
       <lb ed="#R" n="68"/>est aliquid, quod ponitur. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e603">
       <!--0003.xml-->
                   <cb ed="#R" n="b"/>
                   <lb ed="#R" n="69"/>Tunc arguo, si aliquid sit ex nihilo tanquam ex 
@@ -328,7 +326,7 @@
       <lb ed="#R" n="84"/>contradictionem ergo implicat dicere, quod 
       ali<lb ed="#R" n="85" break="no"/>quid fiat ex nihilo.
   </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e647">
                   <lb ed="#R" n="86"/>Diceretur forte quod ex, non notat 
       habitudi<lb ed="#R" n="87" break="no"/>nem materiae, nec termini, sed prioris, &amp; 
       poste<lb ed="#R" n="88" break="no"/>rioris, scilicet posterioris ad prius, vt sit sensus, 
@@ -359,7 +357,7 @@
       <lb ed="#R" n="113"/>quia nunquam ex die sit nox, nisi succedente sibi in 
       <lb ed="#R" n="114"/>aliquo communi. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e712">
                   <lb ed="#R" n="115"/>Praeterea si ly, ex, notet habitudinem posterioris 
       <lb ed="#R" n="116"/>ad prius, non notat alium ordinem, nisi illum 
       <lb ed="#R" n="117"/>quem habet terminus ad quem ad terminum a 
@@ -379,7 +377,7 @@
       <lb ed="#R" n="131"/>a quo fiat exclusio nihili, adueniente eo quod 
       <lb ed="#R" n="132"/>fit. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e755">
                   <lb ed="#R" n="133"/>Praetera: Vbicunque est ordo termini a quo, &amp; ad 
       <lb ed="#R" n="134"/>quem, oportet, quod aliquid. transeat a termino 
       <lb ed="#R" n="135"/>a quo ad terminum ad quem, vt sic dicatur esse sub 
@@ -396,7 +394,7 @@
       <lb ed="#R" n="5"/>includat substratum, &amp; sic habetur propositum, &amp; 
       <lb ed="#R" n="6"/>remanet ratio principalis, &amp; hanc innuit Philos. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e790">
                   <lb ed="#R" n="7"/>Secunda ratio ex aequipollentia harum 
       proposi<lb ed="#R" n="8" break="no"/>tionum. Ex nihilo nihil fit, &amp; nihil fit aliquid. Tunc 
       <lb ed="#R" n="9"/>arguo sic. Hac propositio est impossibilis, &amp; 
@@ -408,7 +406,7 @@
       sub<lb ed="#R" n="15" break="no"/>strati, &amp; tunc non esset nihil, &amp; ita in vtroque sensu 
       <lb ed="#R" n="16"/>implicat contradictionem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e814">
                   <lb ed="#R" n="17"/>Consequentia probatur primo inductiue, quia 
       <lb ed="#R" n="18"/>non reperitur instantia, quin idem significet, ex hoc 
       <lb ed="#R" n="19"/>sit hoc, &amp; hoc fit hoc, sicut cum dicitur ex aere fit 
@@ -416,20 +414,20 @@
       <lb ed="#R" n="21"/>puer fit vir, similiter ex die fit nox, conceditur, 
       <lb ed="#R" n="22"/>quod dies fit nox. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e830">
                   <lb ed="#R" n="23"/>Dicetur forte, quod tunc aequipollent, quando 
       <lb ed="#R" n="24"/>ly, ex, notat habitudinem causae materialis, quod 
       <lb ed="#R" n="25"/>non est in proposito. Jmo sensus est, ex nihilo fit 
       ali<lb ed="#R" n="26" break="no"/>quid, idest non de aliquo, vel non ex aliquo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e841">
                   <lb ed="#R" n="27"/>Sed responsio non valet, quoniam 
       qualemcun<lb ed="#R" n="28" break="no"/>que ordinem importet ly, ex nihilo, siue sit 
       termi<lb ed="#R" n="29" break="no"/>ni, siue sit subiecti, siue termini oppositi 
       succeden<lb ed="#R" n="30" break="no"/>ris, &amp; posterioris ad prius, semper aequipollet, ex 
       <lb ed="#R" n="31"/>hoc fit hoc. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e854">
                   <lb ed="#R" n="32"/>Et confirmatur, quia vbi est habitudo materiae 
       <lb ed="#R" n="33"/>tantum, conceditur hoc fit hoc, non tamen hoc 
       <lb ed="#R" n="34"/>fit ex hoc, vt homo fit sanus, non tamen ex 
@@ -445,7 +443,7 @@
       subie<lb ed="#R" n="44" break="no"/>cti, quia nulla connexio esset termini ad 
       termi<lb ed="#R" n="45" break="no"/>num, nisi poneretur subiectum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e888">
                   <lb ed="#R" n="46"/>Vlterius forte dicetur, quod ly, ex, non notat 
       ha<lb ed="#R" n="47" break="no"/>bitudinem termini a quo, nec prioris, vt sit sensus 
       <lb ed="#R" n="48"/>non de aliquo, vel non ex aliquo, vt sic ly, nil, neget 
@@ -457,7 +455,7 @@
       <lb ed="#R" n="54"/>non esse praecedens: non ergo negant eam 
       habitu<lb ed="#R" n="55" break="no"/>dinem 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e912">
                   <lb ed="#R" n="56"/>Item Ansel. dicit Monolog. cap. 8. Quod sine omni 
       <lb ed="#R" n="57"/>repugnantia a creatrice substantia dici potest esse 
       <lb ed="#R" n="58"/>omnia facta ex nihilo, eo modo quo dici 
@@ -472,7 +470,7 @@
       dere<lb ed="#R" n="67" break="no"/>linquitur inter ens &amp; nihil, cum dicitur, quod 
       crea<lb ed="#R" n="68" break="no"/>tio est ex nihilo, &amp; sic ratio stat.
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e943">
       <!--0004.xml-->
                   <cb ed="#R" n="b"/>
                   <lb ed="#R" n="69"/>Tertia ratio procedit ex ratione oppositi, 
@@ -499,7 +497,7 @@
       repu<lb ed="#R" n="90" break="no"/>tant impossibile, quod transmutet ab non esse 
       in<lb ed="#R" n="91" break="no"/>ese: hoc ille. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1000">
                   <lb ed="#R" n="92"/>Quarta ratio sumitur ex natura termini 
       produ<lb ed="#R" n="93" break="no"/>cti, sicut Commentator 12. Metaph. com. 28. dicit, 
       <lb ed="#R" n="94"/>quod impossibile est intelligere aliquid factum 
@@ -510,7 +508,7 @@
       <lb ed="#R" n="99"/>ligatur virtute productionis habere aliquid, quod 
       <lb ed="#R" n="100"/>ante non habebat. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1022">
                   <lb ed="#R" n="101"/>Tunc arguo sic: Cum lapis dicitur totaliter 
       crea<lb ed="#R" n="102" break="no"/>tus, aut virtute productionis factum est, quod prius 
       <lb ed="#R" n="103"/>erat; aut facum est, qnod omnino nil erat; aut 
@@ -528,13 +526,13 @@
       <lb ed="#R" n="115"/>
                   <!-- line coord error -->
                </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1059">
                   <lb ed="#R" n="116"/>Sed forte dicetur, quod nullo modo erat, aut 
       ni<lb ed="#R" n="117" break="no"/>hil erat lapis, priusquam crearetur, nec tamen ex 
       <lb ed="#R" n="118"/>hoc sequitur, quod nihil sit sic conuersum in lapidem, 
       <lb ed="#R" n="119"/>sed lapis, qui prius erat nihil, modo est. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1071">
                   <lb ed="#R" n="120"/>Sed ista responsio non valet: cum enim dicitur 
       <lb ed="#R" n="121"/>lapis, qui prius erat nihil, aut intelligitur purum 
       <lb ed="#R" n="122"/>nihil, aut esse aliquid vltra nihil: si dicatur, quod 
@@ -544,14 +542,14 @@
       proposi<lb ed="#R" n="126" break="no"/>tum, quia productio ista iam non erit ex non ente 
       <lb ed="#R" n="127"/>simpliciter. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1091">
                   <lb ed="#R" n="128"/>Ex his concludo, quod processus Philosophi ini. 
       <lb ed="#R" n="129"/>Phys. tex. 50. &amp; infra, quo inquisiuit tria principia, 
       <lb ed="#R" n="130"/>scilicet materiam, formam, &amp; priuationem, non 
       <lb ed="#R" n="131"/>fuit apud eum tantummodo persuasiuus, sed ex 
       <lb ed="#R" n="132"/>terminis credebat se demonstrare. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1104">
                   <lb ed="#R" n="133"/>Et primo quidem quantum ad duo principia 
       <lb ed="#R" n="134"/>mater iam, scilicet, &amp; priuationem, per hoc quod 
       om<lb ed="#R" n="135" break="no"/>nis productio est inter duos terminos, &amp; hoc ex 
@@ -560,7 +558,7 @@
       <lb ed="#R" n="138"/>
                   <!-- line coord error -->
                </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1122">
       <!--0005.xml-->
                   <pb ed="#R" n="5"/>
                   <cb ed="#R" n="a"/>
@@ -572,7 +570,7 @@
       <lb ed="#R" n="6"/>esse &amp; non esse, quae sunt de intellectu cuiusdam 
       no<lb ed="#R" n="7" break="no"/>uae factionis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1146">
                   <lb ed="#R" n="8"/>Secundo. Ex hoc probant tertium principium, 
       <lb ed="#R" n="9"/>scilicet materiam demonstratiue, &amp; ex terminis, vt 
       <lb ed="#R" n="10"/>sibi videbatur: nam ex quo esse productum exiuit 
@@ -586,14 +584,14 @@
       demonstrata<lb ed="#R" n="18" break="no"/>in mathematicis. 
     </p>
             </div>
-            <div>
-               <head>Articulus 2</head>
-               <head type="question-title">Utrum creatio soli virtuti infinitae sit possibilis?</head>
-               <p>
+            <div xml:id="olm8ij-haa861-Dd1e1173">
+               <head xml:id="olm8ij-haa861-Hd1e1175">Articulus 2</head>
+               <head xml:id="olm8ij-haa861-Hd1e1177" type="question-title">Utrum creatio soli virtuti infinitae sit possibilis?</head>
+               <p xml:id="olm8ij-haa861-d1e1180">
                   <lb ed="#R" n="19"/>ARTICVLVS II 
       <lb ed="#R" n="20"/>Vtrum creatio soli virtuti infinitae sit possibilis? 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1187">
                   <lb ed="#R" n="21"/>MJrca secundum articulum considerandum est, 
       <lb ed="#R" n="22"/>quod firma fide tenendum est creationem 
       <lb ed="#R" n="23"/>esse possibilem, &amp; producttionem ex nihilo virtuti 
@@ -610,7 +608,7 @@
       <lb ed="#R" n="34"/>effectus vniuersalis: ergo sibi competit producere 
       es<lb ed="#R" n="35" break="no"/>se vniuersaliter, &amp; totaliter, quare creare ex nihilo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1222">
                   <lb ed="#R" n="36"/>Item: Enti per essentiam competit creare 
       omne<lb ed="#R" n="37" break="no"/>ens per participationem: sed Deus est ens per 
       essen<lb ed="#R" n="38" break="no"/>tiam: omnis autem entitas creata est entitas per 
@@ -618,7 +616,7 @@
       <lb ed="#R" n="40"/>verum etiam entitas materiae: ergo tam materiam, 
       <lb ed="#R" n="41"/>quam formam poterit Deus producere, &amp; sic creare. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1239">
                   <lb ed="#R" n="42"/>Quarto sic. Virtuti infinitae competit absoluere 
       <lb ed="#R" n="43"/>distantiam infinitam, &amp; eam pertransire per suam 
       <lb ed="#R" n="44"/>actionem: sed inter ens, &amp; nihil est distantia infinita, 
@@ -626,7 +624,7 @@
       <lb ed="#R" n="46"/>tiam; imo Dei virtute potest absolui haec 
       distan<lb ed="#R" n="47" break="no"/>tia, &amp; fieri ens, quod prius erat nihil. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1255">
                   <lb ed="#R" n="48"/>Sed istae rationes non vadunt ad punctum, nec 
       cu<lb ed="#R" n="49" break="no"/>rant locum vulneris, nam procedunt, ac si 
       Philo<lb ed="#R" n="50" break="no"/>sophi negarent creationem propter imperfectionem 
@@ -634,7 +632,7 @@
       <lb ed="#R" n="52"/>Contra quos arguit Commentator 8. Phys. com. 4 
       <lb ed="#R" n="53"/>vt dictum est in principio quaestionis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1271">
                   <lb ed="#R" n="54"/>Tunc ad <sic>ad</sic> primam rationem respondent Philo 
       <lb ed="#R" n="55"/>sophi, quod agens licet agat se toto, non potest 
       in<lb ed="#R" n="56" break="no"/>effectum totaliter, &amp; de nihilo propter 
@@ -643,7 +641,7 @@
       <lb ed="#R" n="59"/>Item Angelus videtur agere se toto, cum sit 
       for<lb ed="#R" n="60" break="no"/>ma simplex, non tamen propter hoc potest creare. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1291">
                   <lb ed="#R" n="61"/>Similiter ad secundam dicerent, quod esse ex 
       ni<lb ed="#R" n="62" break="no"/>hilo non est effectus vniuersalis, cum non habeant 
       <lb ed="#R" n="63"/>rationem effectus, sed rationem impossibilis. Item, 
@@ -653,7 +651,7 @@
       <cb ed="#R" n="b"/>
                   <lb ed="#R" n="66"/>esse secundum quid. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1311">
                   <lb ed="#R" n="67"/>Similiter ad tertium, quod licet materia sit 
       im<lb ed="#R" n="68" break="no"/>perfectior forma, non tamen potest per aliquod 
       a<lb ed="#R" n="69" break="no"/>gens produci, non quin agens, quod potest in formam 
@@ -664,14 +662,14 @@
       <lb ed="#R" n="74"/>per quam putat se demonstrasle materiam esse 
       in<lb ed="#R" n="75" break="no"/>generabilem, &amp; incorruptibilem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1333">
                   <lb ed="#R" n="76"/>De ente autem per participationem dicerent, 
       <lb ed="#R" n="77"/>quod non oportet, quod in essentia sua sit productum, 
       <lb ed="#R" n="78"/>sed sufficit, quod sit entitas diminuta, &amp; 
       incomple<lb ed="#R" n="79" break="no"/>ta respectu entitatis principalis, vt sic principatio 
       <lb ed="#R" n="80"/>intelligatur formalis, non effectiua. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1347">
                   <lb ed="#R" n="81"/>Similiter ad quartum diceretur, quod inter nihil 
       <lb ed="#R" n="82"/>&amp; ens, si sit distantia infinita, impossibile est, quod 
       <lb ed="#R" n="83"/>talis distantia absoluatur a quacunque potentia, seu 
@@ -680,7 +678,7 @@
       <lb ed="#R" n="86"/>sit virtus, &amp; distantia infinita, sequitur quod actio 
       <lb ed="#R" n="87"/>sit infinita, &amp; nunquam cessans, sicut patet 6. Phys. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1365">
                   <lb ed="#R" n="88"/>Nec etiam verum, quod inter nihil, &amp; ens sit 
       ali<lb ed="#R" n="89" break="no"/>qua distantia positiua, dato quod sit distantia, hoc 
       <lb ed="#R" n="90"/>est differentia: tanta est autem differentia, quanta 
@@ -691,11 +689,11 @@
       limi<lb ed="#R" n="95" break="no"/>tatum, quamuis Deus diffferat in infinitum a 
       quo<lb ed="#R" n="96" break="no"/>libet ente creato. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1387">
                   <lb ed="#R" n="97"/>Postea pono nunc, quod mihi videtur, ad cuius 
       <lb ed="#R" n="98"/>euidentiam pono nunc tres conclusiones. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1394">
                   <lb ed="#R" n="99"/>Prima quidem, quod infinitas diuinae virtutis, 
       <lb ed="#R" n="100"/>secundum ea, quae fide tenemus non solum consistit 
       <lb ed="#R" n="101"/>in posse facere multa, ad quae non attingit potentia 
@@ -707,7 +705,7 @@
       impossi<lb ed="#R" n="107" break="no"/>bilia aliqualiter in seipsis, propter aliquem 
       mo<lb ed="#R" n="108" break="no"/>dum repugnantiae formalis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1418">
                   <lb ed="#R" n="109"/>Vbi notandum est, quod repugnantia formaliter 
       <lb ed="#R" n="110"/>potest intelligi, vel in primo modo dicendi per se, 
       <lb ed="#R" n="111"/>vt homo, &amp; non rationale repugnant; vel in 
@@ -741,7 +739,7 @@
       <lb ed="#R" n="3"/>posito, quod homo non esset animali, iam vero 
       <lb ed="#R" n="4"/>hypotesis nulla est quia iam amplius non est homo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1490">
                   <lb ed="#R" n="5"/>Secunda autem hypotesis, etsi oriatur ex 
       condi<lb ed="#R" n="6" break="no"/>tione formae, tamen fit hypotesis de opposito, qua 
       <lb ed="#R" n="7"/>posita adhuc remanet dubitabilis inquisitio. 
@@ -757,7 +755,7 @@
       <lb ed="#R" n="17"/>natura formae estt, quod determinet sibi talem 
       pro<lb ed="#R" n="18" break="no"/>prietatem in secundo modo dicendi per se. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1524">
                   <lb ed="#R" n="19"/>Nunc probo istam conclusionem, scilicet, quod 
       <lb ed="#R" n="20"/>infinitas virtutis diuinae secundum ea quae tenemus 
       <lb ed="#R" n="21"/>ex fide, extendit se ad multa, quae includunt 
@@ -772,7 +770,7 @@
       commensura<lb ed="#R" n="30" break="no"/>tur illi, ita quod si sit maior, extenditur vltra illam, 
       <lb ed="#R" n="31"/>si minor, concluditur infra illam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1555">
                   <lb ed="#R" n="32"/>Oppositum autem huius fit in Sacramento 
       Eu<lb ed="#R" n="33" break="no"/>charistiae secundum fidei veritatem, vbi tota 
       quan<lb ed="#R" n="34" break="no"/>titas corporis Christi existit sub speciebus panis, 
@@ -783,7 +781,7 @@
       <lb ed="#R" n="39"/>secundum fidem Deus facit illa quae in secundo 
       mo<lb ed="#R" n="40" break="no"/>do dicendi per se includudunt repugnantiam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1577">
                   <lb ed="#R" n="41"/>Et confirmatur: quoniam ita videtur proprium 
       <lb ed="#R" n="42"/>corporis mixti, in quo dominatur terra, grauitas, 
       <lb ed="#R" n="43"/>sicut hominis risibilitas, &amp; tamen Dominus 
@@ -792,7 +790,7 @@
       cor<lb ed="#R" n="46" break="no"/>poris mixti a grauitate, quia corpora beatorum 
       <lb ed="#R" n="47"/>non sunt grauia: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1595">
                   <lb ed="#R" n="48"/>Similiter, dimensiones esse simul non est 
       repu<lb ed="#R" n="49" break="no"/>gnantia efficientia formalis: dimensiones enim 
       <lb ed="#R" n="50"/>non agunt ad inuicem, cum quantitas non sit forma 
@@ -806,14 +804,14 @@
       Chri<lb ed="#R" n="58" break="no"/>sti de sepulchro, &amp; in translatione corporum 
       glo<lb ed="#R" n="59" break="no"/>riosorum in coelo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1624">
                   <lb ed="#R" n="60"/>Secunda Conclusio est, quod Deus virtute sua 
       <lb ed="#R" n="61"/>infinita potest aliqua componere, quae intellectus 
       <lb ed="#R" n="62"/>non potest componere; &amp; multa separare, quae 
       in<lb ed="#R" n="63" break="no"/>tellectus non potest separare, loquendo de 
       intelle<lb ed="#R" n="64" break="no"/>ctu directo, quamuis non de actu arguitiuo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1637">
                   <lb ed="#R" n="65"/>Hoc probo, quia tanta est connexio eorum, quae 
       <lb ed="#R" n="66"/>sunt in secundo modo dicendi per se connexa, quod 
       <lb ed="#R" n="67"/>ea non potest intellectus diuidere enunciatiue, aut 
@@ -832,7 +830,7 @@
       <lb ed="#R" n="78"/>habent connexionem ad inuicem in secundo modo 
       <lb ed="#R" n="79"/>dicendi per se: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1677">
                   <lb ed="#R" n="80"/>Confirmo: quia multa potest Deus sacere, quae 
       <lb ed="#R" n="81"/>intellectus non potest comprehendere: Jmo illos 
       <lb ed="#R" n="82"/>reprehendit Hugo de Sacramentis, qui volunt Dei 
@@ -840,7 +838,7 @@
       <lb ed="#R" n="84"/>Gregorium: Fides non habet meritum, vbi 
       huma<lb ed="#R" n="85" break="no"/>na ratio praebet experimentum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1693">
                   <lb ed="#R" n="86"/>Tertia Conclusio est, quod creatip debet conci 
       <lb ed="#R" n="87"/>pi, vt quaedam simplex emanatio rei in esse absque 
       <lb ed="#R" n="88"/>omni subiecto, &amp; absque omni termino, &amp; per 
@@ -872,7 +870,7 @@
       pro<lb ed="#R" n="114" break="no"/>ductio ex nihilo non es impossibilis, 
       impossibili<lb ed="#R" n="115" break="no"/>tate primi modi. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1761">
                   <lb ed="#R" n="116"/>Ex his potest probari intentum istius articuli, 
       <lb ed="#R" n="117"/>scilicet quod aliqua virtus infinita possit in talem 
       <lb ed="#R" n="118"/>productionem sic abstrahentem a termino a quo, &amp; 
@@ -899,7 +897,7 @@
                   <cb ed="#R" n="a"/>
                   <lb ed="#R" n="1"/>impossibile ex consequenti, &amp; in secundo modo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1818">
                   <lb ed="#R" n="2"/>Quod sit possibile absolute, patet, quia 
       possibi<lb ed="#R" n="3" break="no"/>le absolute implicans contradictionem 
       importa<lb ed="#R" n="4" break="no"/>tam per esse, &amp; non esse, quam exprimit primum 
@@ -910,7 +908,7 @@
       <lb ed="#R" n="9"/>quia in natura est virtus potens in talem 
       operatio<lb ed="#R" n="10" break="no"/>nem, siue productionem.
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1840">
                   <lb ed="#R" n="11"/>Quod autem haec virtus sit infinita, patet, nam 
       <lb ed="#R" n="12"/>per infinitatem huiusmodi non intelligitur aliud, 
       <lb ed="#R" n="13"/>quam virtus, quae est incomprehensibilis 
@@ -918,7 +916,7 @@
       <lb ed="#R" n="15"/>resistit, nisi illa contra quam agere esset 
       non<lb ed="#R" n="16" break="no"/>agere. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1856">
                   <lb ed="#R" n="17"/>Et primum patet, quia intellectus noster est 
       vir<lb ed="#R" n="18" break="no"/>tus quaedam infinita, quia infinita apprehendit in 
       <lb ed="#R" n="19"/>vniuersa li propositione, vt Commentator 3. 
@@ -931,7 +929,7 @@
       <lb ed="#R" n="26"/>te, talis virtus est infinita, quia est excedens 
       virtu<lb ed="#R" n="27" break="no"/>tem intellectus, quae est aliqualiter infinita. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1883">
                   <lb ed="#R" n="28"/>Secundum patet, quia cuicumque virtuti, 
       quan<lb ed="#R" n="29" break="no"/>tumcumque excellenti, dum tamen sit creata, 
       quae<lb ed="#R" n="30" break="no"/>cumquae repugnantia quantumcumque 
@@ -952,7 +950,7 @@
       <lb ed="#R" n="45"/>do, &amp; repugnantiam formalem ipsi intellectui: 
       er<lb ed="#R" n="46" break="no"/>go virtus, cui attribuitur talis actio, est infinita. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1927">
                   <lb ed="#R" n="47"/>Ex hoc apparet, quid dicendum est ad rationes 
       <lb ed="#R" n="48"/>Philosophi inductas in primo Articulo: omnes 
       e<lb ed="#R" n="49" break="no"/>nim probant quod ex nihilo aliquid fieri est 
@@ -967,18 +965,18 @@
       <lb ed="#R" n="58"/>quae non est quidditatiua, &amp; eadem cum ipsa re. 
     </p>
             </div>
-            <div>
-               <head>Articulus 3</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-haa861-Dd1e1957">
+               <head xml:id="olm8ij-haa861-Hd1e1959">Articulus 3</head>
+               <head xml:id="olm8ij-haa861-Hd1e1961" type="question-title">
       Utrum potentia creandi possit communicari 
       creaturae.
     </head>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1964">
                   <lb ed="#R" n="59"/>ARTICVLVS III 
       <lb ed="#R" n="60"/>Vtrum potentia creandi possit communicari 
       <lb ed="#R" n="61"/>creaturae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e1973">
                   <lb ed="#R" n="62"/>QVantum ad tertium Articulum sciendum est. 
       <lb ed="#R" n="63"/>quod aliquibus visum fuit potentiam 
       crean<lb ed="#R" n="64" break="no"/>di possibilem esse communicari creaturae, non 
@@ -1003,7 +1001,7 @@
       <lb ed="#R" n="81"/>cor, &amp; hoc patet, dum generat mineralia in 
       visceri<lb ed="#R" n="82" break="no"/>bus terrae.
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e2025">
                   <lb ed="#R" n="83"/>Similiter de Angelo dicetur, quod agit per actum 
       <lb ed="#R" n="84"/>intellectus directiue, per actum vero voluntatis 
       <lb ed="#R" n="85"/>imperatiue, scilicet per suam substantiam 
@@ -1012,7 +1010,7 @@
       creare<lb ed="#R" n="88" break="no"/>quamuis per imperium voluntatis, &amp; intellectus 
       <lb ed="#R" n="89"/>directionem.
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e2044">
                   <lb ed="#R" n="90"/>Sed quoniam Sancti omnino sunt ad oppositum, 
       <lb ed="#R" n="91"/>sicut patet per Augustinum 3. de Trinit. cap. 8. per 
       <lb ed="#R" n="92"/>totum Tom. 3. de Angelis, vbi dicit, quod nec 
@@ -1034,14 +1032,14 @@
       lo<lb ed="#R" n="108" break="no"/>quuntur, ideo non teneo, quod virtus creatiua sit 
       <lb ed="#R" n="109"/>communicabilis creaturae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e2090">
                   <lb ed="#R" n="110"/>Hoc autem potest probari ex dictis sic: Illud 
       <lb ed="#R" n="111"/>namque, quod includit repugnantiam ex terminis 
       <lb ed="#R" n="112"/>in secundo modo, in tantum quod resistit 
       intelle<lb ed="#R" n="113" break="no"/>ctui, ne possit id negare, illud non potest subesse 
       <lb ed="#R" n="114"/>alicui virtuti comprehensibili &amp; finitae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e2103">
                   <lb ed="#R" n="115"/>Hoc patet exemplis &amp; ratione. Exemplis 
       qui<lb ed="#R" n="116" break="no"/>dem, sicut duo corpora in eodem loco esse non 
       pos<lb ed="#R" n="117" break="no"/>sunt simul, vel idem corpus in diuersis, vel 
@@ -1053,7 +1051,7 @@
       <lb ed="#R" n="123"/>immutare quoad esse secundum, quod non videtur 
       <lb ed="#R" n="124"/>pertinere ad naturam aliquam particularem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e2127">
                   <lb ed="#R" n="125"/>Hoc autem idem patet, quoniam intellectiua 
       <lb ed="#R" n="126"/>potentia cum sit nobilior potentia executiua, 
       vide<lb ed="#R" n="127" break="no"/>tur quod possit attingere quemcumque effectum, 
@@ -1064,7 +1062,7 @@
       con<lb ed="#R" n="132" break="no"/>cipi, &amp; quod tenet ex terminis: ergo hoc non subest 
       <lb ed="#R" n="133"/>alicui virtuti creatae.
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e2149">
       <!--0008.xml-->
                   <pb ed="#R" n="8"/>
                   <cb ed="#R" n="a"/>
@@ -1088,7 +1086,7 @@
       <lb ed="#R" n="18"/>facere quantumcumque immensa, sicut est de alijs 
       <lb ed="#R" n="19"/>mirabilibus, quae tenemus per Fidei veritatem.
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e2199">
                   <lb ed="#R" n="20"/>Est vltimo considerandum, quod Magiser 
       senti<lb ed="#R" n="21" break="no"/>re videtur de Sacramentis, &amp; eorum ministris, quod 
       <lb ed="#R" n="22"/>eis potest communicari virtus creandi, siue 
@@ -1101,7 +1099,7 @@
       <lb ed="#R" n="29"/>igni, sicut incendiarius dicitur comburere domum 
       <lb ed="#R" n="30"/>applicando ignem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e2226">
                   <lb ed="#R" n="31"/>Pono ergo duas conclusiones. Prima est, qui nec 
       <lb ed="#R" n="32"/>communicata est, nec communicari potuit Sacramen 
       <lb ed="#R" n="33"/>tis, aut illorum ministris virtus cooperandi ad 
@@ -1115,14 +1113,14 @@
       <lb ed="#R" n="41"/>omnis talis virtus sit inferior virtute 
       intelle<lb ed="#R" n="42" break="no"/>ctiua
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e2255">
                   <lb ed="#R" n="43"/>Secunda vero Propositio, quod communicata est, 
       <lb ed="#R" n="44"/>&amp; potuit communicari virtus cooperandi ad 
       crea<lb ed="#R" n="45" break="no"/>tionem Sacramentis, &amp; eorum ministris, 
       insrumen<lb ed="#R" n="46" break="no"/>taliter applicando actiua passiuis, quia habent 
       vir<lb ed="#R" n="47" break="no"/>tutem diuinam ad agere &amp; sanctificare. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e2268">
                   <lb ed="#R" n="48"/>Hoc probo sic: Si Sacramenta &amp; eorum 
       exhibi<lb ed="#R" n="49" break="no"/>tio per ministros necessitarent virtutem diuinam 
       <lb ed="#R" n="50"/>ad agere, vere &amp; proprie dicerentur creare, &amp; 
@@ -1137,7 +1135,7 @@
       <lb ed="#R" n="59"/>Deum violentare, applicando ipsum ad agere, vere 
       <lb ed="#R" n="60"/>diceretur agere, &amp; sanctificare.
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e2299">
                   <lb ed="#R" n="61"/>Consequentia patet: tum quia nec Deus 
       necessi<lb ed="#R" n="62" break="no"/>tatur ad insundendum animam intellectiuam 
       ma<lb ed="#R" n="63" break="no"/>teriae dispositae, &amp; tamen homo dicitur ita vere 
@@ -1158,7 +1156,7 @@
       prae<lb ed="#R" n="76" break="no"/>cibus: ergo praeces vere habent ibi rationem 
       cau<lb ed="#R" n="77" break="no"/>sae, &amp; tamen nonnisi applicatiue. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e2343">
                   <lb ed="#R" n="78"/>Cum ergo Deus sic statuerit, quod exhibitio 
       Sa<lb ed="#R" n="79" break="no"/>cramentorum inducat ipsum, &amp; quod applicet, &amp; 
       <lb ed="#R" n="80"/>determinet ad efectum sancttificationis, quia ex 
@@ -1182,7 +1180,7 @@
       <lb ed="#R" n="98"/>Christus dicitur nos redemisse inquantum homo, 
       <lb ed="#R" n="99"/>&amp; Virgo Maria mirabilia facere. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e2393">
                   <lb ed="#R" n="100"/>Nec etiam intelligit Augustinus in lib. 
       Quaestio<lb ed="#R" n="101" break="no"/>num quaest. 81. super Leuitico, cum ait: Ego sum 
       <lb ed="#R" n="102"/>qui sanctifico. &amp; de Moyse dictum est: 
@@ -1202,7 +1200,7 @@
       <lb ed="#R" n="116"/>licet tantum comburat per hoc, quod applicat 
       a<lb ed="#R" n="117" break="no"/>ctiua passiuis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e2436">
                   <lb ed="#R" n="118"/>Ad argumentum in oppositum, nego minorem. 
       <lb ed="#R" n="119"/>Probatio vero procedit ex insufficienti, nam 
       di<lb ed="#R" n="120" break="no"/>ctum es in corpore quaestionis, quod requiritur 
@@ -1213,11 +1211,11 @@
       <lb ed="#R" n="125"/>imperfectionem agentis, sed quia repugnat ex 
       ter<lb ed="#R" n="126" break="no"/>minis quod producat aliquid de nihilo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e2458">
                   <lb ed="#R" n="127"/>Ad tertiam probationem nego, quod creatura 
       <lb ed="#R" n="128"/>possit annihilare. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e2465">
                   <lb ed="#R" n="129"/>Ad probationem de forma, respondeo, quod nec 
       <lb ed="#R" n="130"/>formae eductio est creatio, nec ipsius productio est 
       <lb ed="#R" n="131"/>annihilatio, quia forma non est aliquid, cui 
@@ -1226,7 +1224,7 @@
       di<lb ed="#R" n="134" break="no"/>recte pro opposito ipsum nihil, sicut magis 
       dice<lb ed="#R" n="135" break="no"/>tur in secundo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-haa861-d1e2483">
                   <lb ed="#R" n="136"/>Ad illud de peccatore dico, quod peccator de- 
       <!--0009.xml-->
       <pb ed="#R" n="9"/>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,22 +53,22 @@
       </front>
       <body>
          <div xml:id="olm8ij-h56496"> <!-- l4-d25q1 -->
-            <head>Quaestio 1</head>
-            <p>
+            <head xml:id="olm8ij-h56496-Hd1e102">Quaestio 1</head>
+            <p xml:id="olm8ij-h56496-d1e104">
                <lb ed="#R" n="102"/>Quaestio Vnica. 
     </p>
-            <div>
-               <head>Articulus 1</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h56496-Dd1e109">
+               <head xml:id="olm8ij-h56496-Hd1e111">Articulus 1</head>
+               <head xml:id="olm8ij-h56496-Hd1e113" type="question-title">
       Utrum solis Episcopis conueniat ministrare hoc 
       Sacramentum Ordinis.
     </head>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e116">
                   <lb ed="#R" n="103"/>ARTICVLVUS I. 
       <lb ed="#R" n="104"/>Vtrum solis Episcopis conueniat ministrare hoc 
       <lb ed="#R" n="105"/>Sacramentum Ordinis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e125">
                   <lb ed="#R" n="106"/>QVANTVM ad primam 
       <lb ed="#R" n="107"/>quaestionem arguo primo. 
       <lb ed="#R" n="108"/>quod non: imo quod 
@@ -83,13 +81,13 @@
       com<lb ed="#R" n="115" break="no"/>municatur maius, quam sit ordines ministrare, 
       sci<lb ed="#R" n="116" break="no"/>licet conficere corpus Domini: ergo.
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e151">
                   <lb ed="#R" n="117"/>In oppositum est, quia ad solum principem 
       in<lb ed="#R" n="118" break="no"/>Ecclesia pertinet gradus, &amp; status in Ecclesia 
       dis<lb ed="#R" n="119" break="no"/>ponere, &amp; dispensare, sed soli Episcopi sunt 
       prin<lb ed="#R" n="120" break="no"/>cipes in Ecclesia: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e163">
                   <lb ed="#R" n="121"/>Respondeo hic sunt videnda tria. Primum est 
       <lb ed="#R" n="122"/>de identitate suscipientium. Secundum de idonti- 
       <!--0165.xml-->
@@ -98,23 +96,23 @@
                   <lb ed="#R" n="1"/>eate ministrorum, &amp; tertio de idoneitate signorum, 
       <lb ed="#R" n="2"/>in quibus imprimitur character. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e181">
                   <lb ed="#R" n="3"/>De primo do istam regulam: Jdoneus suscipiens 
       <lb ed="#R" n="4"/>est vir habens vsum rationis, non vitiatus corpore, 
       <lb ed="#R" n="5"/>natus legitime, non prohibitus 
       excommunicatio<lb ed="#R" n="6" break="no"/>ne, vel irregularitate, liber conditione. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e192">
                   <lb ed="#R" n="7"/>Dico primo vir, vt excludam sexum muliebrem, 
       <lb ed="#R" n="8"/>&amp; hoc ratione immunditiae, &amp; honestatis in circũ- 
       <lb ed="#R" n="9"/>stantibus, &amp; ratione imbecillitatis deliberatiuae ex 
       <lb ed="#R" n="10"/>primo Politicorum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e203">
                   <lb ed="#R" n="11"/>Secundo dico, habens vsum rationis, vt 
       exclu<lb ed="#R" n="12" break="no"/>dam amentes, fatuos, &amp; insensatos, &amp; pueros. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e210">
                   <lb ed="#R" n="13"/>Sed nunquid posset Papa dispensare in 
       ordinan<lb ed="#R" n="14" break="no"/>do pueros. Respondeo: Credo, quod peccaret 
       gra<lb ed="#R" n="15" break="no"/>uiter, non curo modo dicere, si de facto esset puer 
@@ -125,24 +123,24 @@
       <lb ed="#R" n="20"/>Tridentinum statutum est tempus suscipiendi 
       or<lb ed="#R" n="21" break="no"/>dines, quod debet seruari. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e232">
                   <lb ed="#R" n="22"/>Sed quid de ordinibus maioribus? Puto, quod 
       <lb ed="#R" n="23"/>grauiter peccaret, qui talibus sacros ordines 
       mini<lb ed="#R" n="24" break="no"/>straret. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e242">
                   <lb ed="#R" n="25"/>Tertio dico, corpore non vitiatus, &amp; intelligo 
       <lb ed="#R" n="26"/>enormiter, sicut mutilatus, &amp; huiusmodi. Ratio 
       <lb ed="#R" n="27"/>est quia minister debet essse in corpore expeditus, 
       <lb ed="#R" n="28"/>&amp; ne sit in turpitudinem, &amp; scandalum 
       circum<lb ed="#R" n="29" break="no"/>santium. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e255">
                   <lb ed="#R" n="30"/>Quarto dixi, natus legitime, &amp; hoc propter 
       ho<lb ed="#R" n="31" break="no"/>nestatem, &amp; decentiam status, &amp; hoc nisi 
       interue<lb ed="#R" n="32" break="no"/>niat alia dispensatio. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e264">
                   <lb ed="#R" n="33"/>Quinto dixi, conditione liber, ad excludendum 
       <lb ed="#R" n="34"/>seruum qui non debet ordinari. Ratio est, quia 
       <lb ed="#R" n="35"/>ratione gradus, &amp; status Ecclesiastici, qui ad 
@@ -150,13 +148,13 @@
       manumit<lb ed="#R" n="37" break="no"/>titur, &amp; fit extra Domini potestatem, &amp; ideo 
       com<lb ed="#R" n="38" break="no"/>mitteretur, &amp; fieret iniustitia Domino suo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e280">
                   <lb ed="#R" n="39"/>Vltimo dico, excommunicatione non 
       prohibi<lb ed="#R" n="40" break="no"/>tus, vel irregularitate, hoc dico, quia 
       excommu<lb ed="#R" n="41" break="no"/>nicatus, etsi forte reciperet characterem, non 
       reci<lb ed="#R" n="42" break="no"/>peret tamen gratiam, &amp; rem vltimam Sacramenti. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e291">
                   <lb ed="#R" n="43"/>Sed de irregularitate sciendum est, quod 
       irre<lb ed="#R" n="44" break="no"/>gularitas cum sit poena, quandoque potest alicui 
       ad<lb ed="#R" n="45" break="no"/>uenire sine culpa. vt propter homicidium iustum 
@@ -170,7 +168,7 @@
       <lb ed="#R" n="53"/>consimili poena plectitur, qui ministrat in 
       ordine<lb ed="#R" n="54" break="no"/>non suscepto. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e320">
                   <lb ed="#R" n="55"/>Nunc secundo de ministro do regulam: Minister 
       <lb ed="#R" n="56"/>idoneus est solus Episcopus, licet ex dispensatione 
       <lb ed="#R" n="57"/>possit esse sacerdos. Dico secundo Episcopus 
@@ -185,7 +183,7 @@
       Epi<lb ed="#R" n="66" break="no"/>scopo in consecratione committitur indelebilis po 
       <lb ed="#R" n="67"/>testas modo dicto questione praecedenti. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e352">
                   <lb ed="#R" n="68"/>Alij dicunt, quod talis Episcopus potest mini- 
       <!--0165.xml-->
       <cb ed="#R" n="b"/>
@@ -194,12 +192,12 @@
       inuaria<lb ed="#R" n="71" break="no"/>bilem respectu vtriusque potestatem: tamen alij 
       te<lb ed="#R" n="72" break="no"/>nentur a tali ministro ordines non suscipere. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e370">
                   <lb ed="#R" n="73"/>Alij dicunt, quod bene habet potestatem, quoad 
       <lb ed="#R" n="74"/>vtrumque effectum, sed non potestt ministrare sine 
       <lb ed="#R" n="75"/>speciali dispensatione. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e379">
                   <lb ed="#R" n="76"/>Nunc tertio videndum est de signis, in quibus 
       im<lb ed="#R" n="77" break="no"/>primitur character. Vbi sciendum, quod facile est 
       <lb ed="#R" n="78"/>hoc videre in illis ordinibus, in quibus non 
@@ -212,7 +210,7 @@
       <lb ed="#R" n="85"/>circa ministros, alium circa materiam, vt portare 
       <lb ed="#R" n="86"/>hostias, &amp; vinum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e405">
                   <lb ed="#R" n="87"/>Circa hoc dicunt Docttores, quod res 
       Sacramen<lb ed="#R" n="88" break="no"/>ti infunditur in tactu eius, quod est magis 
       princi<lb ed="#R" n="89" break="no"/>pale, puta in tactu vasis, sed non in tactu cerei. 
@@ -220,32 +218,32 @@
       <lb ed="#R" n="91"/>in tactu vtriusque successiue potestas aliqua, &amp; 
       am<lb ed="#R" n="92" break="no"/>ba integrent vnam potestatem totalem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e421">
                   <lb ed="#R" n="93"/>De subdia cono dicitur, quod non datur ei 
       effe<lb ed="#R" n="94" break="no"/>ctus &amp; res, &amp; Sacramentum, quando tangit 
       librum<lb ed="#R" n="95" break="no"/>sed quando tangit patenam, &amp; calicem cum pane, 
       <lb ed="#R" n="96"/>&amp; vino. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e432">
                   <lb ed="#R" n="97"/>Videtur mihi, quod totum sit necessarium, vt in 
       <lb ed="#R" n="98"/>ambobus consistat ratio integri Sacramenti, sicut 
       <lb ed="#R" n="99"/>dictum est de Sacramento poenitentiae, quod 
       consi<lb ed="#R" n="100" break="no"/>stit in confessione, &amp; absolutione. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e444">
                   <lb ed="#R" n="101"/>De Diacono alij dicunt, quod in 
       impositione<lb ed="#R" n="102" break="no"/>manuum, alij aliter. Dico, sicut dixi de alĳs, quod 
       <lb ed="#R" n="103"/>totum est necessarium, vt vnum totale integrum 
       <lb ed="#R" n="104"/>signum 
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e455">
                   <lb ed="#R" n="105"/>De Sacerdote dicunt aliqui, quod potestas 
       con<lb ed="#R" n="106" break="no"/>ficiendi datur in tactu calicis cum patena: sed 
       po<lb ed="#R" n="107" break="no"/>testas absoluendi datur cum dicitur, accipe 
       spiri<lb ed="#R" n="108" break="no"/>tum sanctum, &amp;c. vnde &amp; omnes illae formae, vt 
       pa<lb ed="#R" n="109" break="no"/>tet, sunt indicatiuae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e468">
                   <lb ed="#R" n="110"/>Ad argumentum in oppositum, Etsi conficere 
       <lb ed="#R" n="111"/>corpus Christi sit dignius, quam ordines conferre, 
       <lb ed="#R" n="112"/>&amp; hoc sit maius, est tamen difficilius, &amp; ideo ad 
@@ -256,18 +254,18 @@
       <lb ed="#R" n="117"/>electis de omnibus personis. 
     </p>
             </div>
-            <div>
-               <head>Articulus 2</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h56496-Dd1e489">
+               <head xml:id="olm8ij-h56496-Hd1e491">Articulus 2</head>
+               <head xml:id="olm8ij-h56496-Hd1e493" type="question-title">
         Verum Simonia sit vitium directe oppositum 
         iustitiae.
       </head>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e496">
                   <lb ed="#R" n="118"/>ARTICULUS II. 
       <lb ed="#R" n="119"/>Verum Simonia sit vitium directe oppositum 
       <lb ed="#R" n="120"/>iustitiae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e505">
                   <lb ed="#R" n="121"/>AD secundam quaestionem: Vtrum Simonia 
       <lb ed="#R" n="122"/>sit peccatum speciale oppositum iustitiae, 
       ar<lb ed="#R" n="123" break="no"/>guo, quod non sic: ex prima ad Corinth. 1ο. cap. Si 
@@ -275,12 +273,12 @@
       <lb ed="#R" n="125"/>velle Apostolus, quod pro spiritualibus accipere 
       <lb ed="#R" n="126"/>mercedem non sit peccatum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e521">
                   <lb ed="#R" n="127"/>In oppositum est illud Act. 8. vbi dicit Petrus 
       <lb ed="#R" n="128"/>Simoni volenti emere gratiam Spiritus sancti: 
       Pe<lb ed="#R" n="129" break="no"/>cunia tua tecum sit in perditionem, &amp; c.
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e531">
                   <lb ed="#R" n="130"/>Respondeo primo praemitto aliquas 
       distinctio<lb ed="#R" n="131" break="no"/>nes. Secundo formabo propositiones. De primo 
       <lb ed="#R" n="132"/>praemitto istam distinctionem. Vbi 
@@ -300,7 +298,7 @@
       commu<lb ed="#R" n="10" break="no"/>tationis, nec per consequens potest committi 
       Si<lb ed="#R" n="11" break="no"/>monia. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e573">
                   <lb ed="#R" n="12"/>Alio modo potest huiusmodi gratia accipi 
       cau<lb ed="#R" n="13" break="no"/>saliter pro eo, quod confert quasi effectiue hanc 
       <lb ed="#R" n="14"/>gratiam, &amp; hoc modo Sacramenta dicuntur 
@@ -313,7 +311,7 @@
       Baptis<lb ed="#R" n="21" break="no"/>mus, Missa &amp; huiusmodi, &amp; ideo ibi habet locum 
       <lb ed="#R" n="22"/>Simonia: imo istud est pessimum genus Simoniae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e599">
                   <lb ed="#R" n="23"/>Si vero accipimus gratiam gratis datam, 
       puta<lb ed="#R" n="24" break="no"/>praedicare, docere, &amp; huiusmodi, aut accipietur 
       <lb ed="#R" n="25"/>quo ad actum intrinsecum, &amp; hic nulla cadit 
@@ -325,14 +323,14 @@
       con<lb ed="#R" n="31" break="no"/>silium, testimonium, &amp; huiusmodi, &amp; omnibus istis 
       <lb ed="#R" n="32"/>contingit esse peccatum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e623">
                   <lb ed="#R" n="33"/>Vlterius autem sciendum est, quod aliqua 
       di<lb ed="#R" n="34" break="no"/>cuntur esse spiritualia, non quod sint gratia, sed 
       <lb ed="#R" n="35"/>quaedam emolumenta annexa, &amp; hoc modo 
       reddi<lb ed="#R" n="36" break="no"/>tus pertinentes ad sustentationem sunt spiritualia 
       <lb ed="#R" n="37"/>quedam, quia spiritualibus annexa. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e636">
                   <lb ed="#R" n="38"/>Tunc ergo recolligendo potest tripliciter 
       intel<lb ed="#R" n="39" break="no"/>ligi committi, vel quia vendatur gratia gratum 
       <lb ed="#R" n="40"/>faciens, non quidem sormaliter, sed causaliter 
@@ -343,12 +341,12 @@
       <lb ed="#R" n="45"/>quod vendatur non gratia gratum faciens, nec 
       <lb ed="#R" n="46"/>gratis data, sed annexa, puta redditus temporales. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e658">
                   <lb ed="#R" n="47"/>Secunda Distinctio est de Simonia ex parte dan. 
       <lb ed="#R" n="48"/>tis, quia Simonia quaedam est a lingua, quaedam ab 
       <lb ed="#R" n="49"/>obsequio, quaedam pecuniaria. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e668">
                   <lb ed="#R" n="50"/>Ad euidentiam autem istius distinctionis 
       scien<lb ed="#R" n="51" break="no"/>dum est, quod emere aliquid spirituale potest esse 
       <lb ed="#R" n="52"/>tripliciter, vel quando illud emitur, vel venditur 
@@ -364,7 +362,7 @@
       il<lb ed="#R" n="62" break="no"/>la allegatiua, &amp; testificationis, quam verba 
       praeca<lb ed="#R" n="63" break="no"/>toria, &amp; obsecrationis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e701">
                   <lb ed="#R" n="64"/>Secundo committitur simonia, quando 
       spiritua<lb ed="#R" n="65" break="no"/>le illud obsequio aliquo praeuio impetratur, &amp; 
       im<lb ed="#R" n="66" break="no"/>penditur, &amp; dicitur simonia haec ab obsequio, &amp; 
@@ -375,13 +373,13 @@
                   <lb ed="#R" n="69"/>&amp; sufficientiam personae, dato quod aliqualiter ab 
       <lb ed="#R" n="70"/>obsequio traheretur, non esset species simoniae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e723">
                   <lb ed="#R" n="71"/>Tertio modo simonia potest committi pro 
       pe<lb ed="#R" n="72" break="no"/>cunia, &amp; nomine pecuniae intelligo hic rem 
       quam<lb ed="#R" n="73" break="no"/>cumque temporalem, puta si detur ager, domus 
       <lb ed="#R" n="74"/>vel equus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e734">
                   <lb ed="#R" n="75"/>Secundo pono Propositiones, &amp; est prima 
       pro<lb ed="#R" n="76" break="no"/>positio, quod loquendo de emptione gratiae gratum 
       <lb ed="#R" n="77"/>facientis causaliter, &amp; gratiae gratis datae, 
@@ -403,7 +401,7 @@
       appro<lb ed="#R" n="93" break="no"/>priatur Spiritui sancto, vnde peccatum istud pote st 
       <lb ed="#R" n="94"/>dici peccatum in Spiritum sanctum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e780">
                   <lb ed="#R" n="95"/>Secunda Propositio est, quod non tantum 
       spiri<lb ed="#R" n="96" break="no"/>tualia praedicta non possunt vendi, sed nec labor, qui 
       <lb ed="#R" n="97"/>acquiritur in ministrando altari. Tamen sciendum 
@@ -441,18 +439,18 @@
       argumen<lb ed="#R" n="129" break="no"/>tum principale. 
     </p>
             </div>
-            <div>
-               <head>Articulus 3</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h56496-Dd1e860">
+               <head xml:id="olm8ij-h56496-Hd1e862">Articulus 3</head>
+               <head xml:id="olm8ij-h56496-Hd1e864" type="question-title">
       Utrum Dominus Papa possit in aliquo casu 
       committere Simoniam.
     </head>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e867">
                   <lb ed="#R" n="130"/>ARTICVLVS III 
       <lb ed="#R" n="131"/>Vtrum Dominus Papa possit in aliquo casu 
       com<lb ed="#R" n="132" break="no"/>mittere Simoniam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e876">
                   <lb ed="#R" n="133"/>AD tertiam quaestionem: Vtrum Dominus 
       Pa<lb ed="#R" n="134" break="no"/>pa in aliquo gradu committere possit Simo- 
       <!--0167.xml-->
@@ -465,7 +463,7 @@
       spi<lb ed="#R" n="5" break="no"/>ritualium, puta Sacramentorum, &amp; huiusmodi; sed 
       <lb ed="#R" n="6"/>Simonia secundo modo est venditatio annexorum.
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e902">
                   <lb ed="#R" n="7"/>Tunc ad propositum, vendendo spiritualia Papa 
       <lb ed="#R" n="8"/>committeret Simoniam, &amp; ideo talia nullo modo 
       <lb ed="#R" n="9"/>possunt a Papa vendi: sed Simoniam, quae est 
@@ -475,7 +473,7 @@
       <lb ed="#R" n="13"/>venditio autem annexorum, ideo est Simonia, quia 
       <lb ed="#R" n="14"/>est prohibita. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h56496-d1e923">
                   <lb ed="#R" n="15"/>Sed ista distinctio non videtur rationabilis. 
       Fa<lb ed="#R" n="16" break="no"/>ciens enim contra prohibitionem non ex hoc 
       dici<lb ed="#R" n="17" break="no"/>tur Simoniacus, nisi aliud interueniat, licet tamen 

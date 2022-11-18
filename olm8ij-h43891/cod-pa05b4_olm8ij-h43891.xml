@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -54,14 +52,14 @@
          </div>
       </front>
       <body>
-         <div xml:id="olm8ij-h43891"> <!-- l1-d14prae -->
-            <head>Praeambulum</head>
-            <p>
+         <div xml:id="olm8ij-h43891"> <!-- l4-d14prae -->
+            <head xml:id="olm8ij-h43891-Hd1e102">Praeambulum</head>
+            <p xml:id="olm8ij-h43891-d1e104">
                <lb ed="#R" n="69"/>DJSTJNCTJO XJV. 
       <lb ed="#R" n="70"/>DE SACRAMENTO 
       <lb ed="#R" n="71"/>POENJTENTJAE. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h43891-d1e113">
                <lb ed="#R" n="72"/>Post hoc de prima, &amp;c. Expleto tractatu de 
       <lb ed="#R" n="73"/>Sacramento Eucharistiae, in ista 
       Distinctio<lb ed="#R" n="74" break="no"/>ne incipit Magister agere de Sacramento 
@@ -70,7 +68,7 @@
       pri<lb ed="#R" n="77" break="no"/>mo in generali de Paenitentia quoad 
       qua<lb ed="#R" n="78" break="no"/>tuor. 
   </p>
-            <p>
+            <p xml:id="olm8ij-h43891-d1e131">
                <lb ed="#R" n="79"/>Primo quo ad eius obiectum: secundo quo ad 
       <lb ed="#R" n="80"/>habitum in se: tertio, quo ad subiectum: 
       <lb ed="#R" n="81"/>quarto quo ad effectum. Quantum ergo 

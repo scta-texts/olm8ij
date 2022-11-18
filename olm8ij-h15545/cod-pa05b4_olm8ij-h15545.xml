@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,13 +53,13 @@
       </front>
       <body>
          <div xml:id="olm8ij-h15545"> <!-- l4-d4prae -->
-            <head>Praeambulum</head>
-            <p>
+            <head xml:id="olm8ij-h15545-Hd1e102">Praeambulum</head>
+            <p xml:id="olm8ij-h15545-d1e104">
                <lb ed="#R" n="48"/>DISTINCTIO IIII 
       <lb ed="#R" n="49"/>DE SVSCIPIENTIBVS 
       <lb ed="#R" n="50"/>BAPTISMA. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h15545-d1e113">
                <lb ed="#R" n="51"/>Hic dicendum est, &amp;c. In ista distinctione 
       <lb ed="#R" n="52"/>Quatuor agit Magister de suscipientibus 
       <lb ed="#R" n="53"/>Sacramentum baptismi, &amp; quia Magister 
@@ -70,7 +68,7 @@
       <lb ed="#R" n="56"/>inquirendum primo de re Sacramenti. 
       Se<lb ed="#R" n="57" break="no"/>cundo de suscipientibus. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h15545-d1e131">
                <lb ed="#R" n="58"/>Quantum ad primum quaerendum est de 
       duo<lb ed="#R" n="59" break="no"/>bus. Primo de re prima, quae datur in ba- 
       <!--0046.xml-->
@@ -80,7 +78,7 @@
       scien<lb ed="#R" n="62" break="no"/>tia, &amp; virtutibus. Quoad primum quaero 
       <lb ed="#R" n="63"/>quatuor quaestiones. 
   </p>
-            <p>
+            <p xml:id="olm8ij-h15545-d1e152">
                <lb ed="#R" n="64"/>1 Prima est: Vtrum character sit aliquid 
       ab<lb ed="#R" n="65" break="no"/>solutum in anima, de genere qualitatis, vel 
       rela<lb ed="#R" n="66" break="no"/>tionis tantum. 

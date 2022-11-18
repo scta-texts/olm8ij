@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -54,21 +52,21 @@
          </div>
       </front>
       <body>
-         <div xml:id="olm8ij-h48697"> <!-- l1-d16prae -->
-            <head>Praeambulum</head>
-            <p>
+         <div xml:id="olm8ij-h48697"> <!-- l4-d16prae -->
+            <head xml:id="olm8ij-h48697-Hd1e102">Praeambulum</head>
+            <p xml:id="olm8ij-h48697-d1e104">
                <lb ed="#R" n="29"/>JOLLLVQLLAVA 
       <lb ed="#R" n="30"/>QE POENJTENTJA, 
       <lb ed="#R" n="31"/>VTESTSACRAMENTVM.
     </p>
-            <p>
+            <p xml:id="olm8ij-h48697-d1e113">
                <lb ed="#R" n="32"/>In perfectione autem, &amp;c. In ista Distinctione 
       <lb ed="#R" n="33"/>Decimasexta agit Magister de poe
       niten<lb ed="#R" n="34" break="no"/>tia, vt es Sacramentum: superius enim 
       <lb ed="#R" n="35"/>egerat de ipsa, vt est virtus. Ad cuius 
       eui<lb ed="#R" n="36" break="no"/>dentiam quaero hic duas quaestiones.
   </p>
-            <p>
+            <p xml:id="olm8ij-h48697-d1e126">
                <lb ed="#R" n="37"/>1 Prima est: Vtrum ista tria, contritio, 
       con<lb ed="#R" n="38" break="no"/>fessio, &amp; satisfactio sint partes poenitentiae, quae est 
       <lb ed="#R" n="39"/>Sa cramentum. 

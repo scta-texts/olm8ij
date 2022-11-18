@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,26 +53,26 @@
       </front>
       <body>
          <div xml:id="olm8ij-h15621"> <!-- l4-d4q1 -->
-            <head>Quaestio 1</head>
-            <head type="question-title">De charactere</head>
-            <p>
+            <head xml:id="olm8ij-h15621-Hd1e102">Quaestio 1</head>
+            <head xml:id="olm8ij-h15621-Hd1e104" type="question-title">De charactere</head>
+            <p xml:id="olm8ij-h15621-d1e107">
                <lb ed="#R" n="74"/>Quaesito I. 
       <lb ed="#R" n="75"/>DE CHARACTERE. 
     </p>
-            <div>
-               <head>Articulus 1</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h15621-Dd1e114">
+               <head xml:id="olm8ij-h15621-Hd1e116">Articulus 1</head>
+               <head xml:id="olm8ij-h15621-Hd1e118" type="question-title">
       Utrum character sit aliquid absolutum in anima 
       de genere qualitatis, vel relationis 
       tantum
     </head>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e121">
                   <lb ed="#R" n="76"/>ARTICVLVUS I. 
       <lb ed="#R" n="77"/>Vtrum character sit aliquid absolutum in anima 
       <lb ed="#R" n="78"/>de genere qualitatis, vel relationis 
       <lb ed="#R" n="79"/>tantum 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e132">
                   <lb ed="#R" n="80"/>QVANTVM ad primam 
       <lb ed="#R" n="81"/>quaestionem arguo, quod 
       <lb ed="#R" n="82"/>character sit aliquid de 
@@ -88,35 +86,35 @@
       <lb ed="#R" n="90"/>sed genus, quod ponitur in definitione characteris, 
       <lb ed="#R" n="91"/>est de genere relationis: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e161">
                   <lb ed="#R" n="92"/>Probo minorem, quia secundum Magistrum 
       cha<lb ed="#R" n="93" break="no"/>racter est sacrum signum communicationis 
       fide<lb ed="#R" n="94" break="no"/>lium: signum vero relationem importat. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e171">
                   <lb ed="#R" n="95"/>In oppositum est, quia nulla relatio potest acquiri 
       <lb ed="#R" n="96"/>nisi mediante aliquo absoluto: sed character 
       ac<lb ed="#R" n="97" break="no"/>quiritur de nouo in anima: ergo vel est absolutum, 
       <lb ed="#R" n="98"/>vel includit aliquid absolutum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e182">
                   <lb ed="#R" n="99"/>Respondeo in ista quaestione sic procedo. 
       Pri<lb ed="#R" n="100" break="no"/>mo ponam punctum inquisitionis, quare moueo 
       <lb ed="#R" n="101"/>istam quaestionem. Secundo ponam istam 
       proposi<lb ed="#R" n="102" break="no"/>tionem intentam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e193">
                   <lb ed="#R" n="103"/>Propter primum sciendum, quod moui 
       quaestio<lb ed="#R" n="104" break="no"/>nem isam, quia circa hoc fuerunt opiniones 
       va<lb ed="#R" n="105" break="no"/>riae, &amp; antiquorum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e202">
                   <lb ed="#R" n="106"/>Dixerunt enim quidam, quod character non est 
       <lb ed="#R" n="107"/>nisi relatio, &amp; secundum quosdam relatio rationis 
       <lb ed="#R" n="108"/>tantum: secundum alios autem respectps 
       extrinse<lb ed="#R" n="109" break="no"/>cus adueniens. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e213">
                   <lb ed="#R" n="110"/>Et quidam dicunt vlterius, quod inquisitio 
       de<lb ed="#R" n="111" break="no"/>isto charactere noua est, &amp; nouella adinuentio, 
       <lb ed="#R" n="112"/>cuius ratio est, quia Magister determinans de 
@@ -128,7 +126,7 @@
       quapro<lb ed="#R" n="118" break="no"/>pter doctrina de isto charactere omnino videtur 
       <lb ed="#R" n="119"/>noua.
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e237">
       <!--0047.xml-->
                   <pb ed="#R" n="47"/>
                   <cb ed="#R" n="a"/>
@@ -147,19 +145,19 @@
       <lb ed="#R" n="13"/>deputatio, &amp; ordinatio ad diuinum obsequium, ac 
       <lb ed="#R" n="14"/>communionem Sacramentorum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e277">
                   <lb ed="#R" n="15"/>Alij autem dicunt, quod si oportet, quod 
       cha<lb ed="#R" n="16" break="no"/>racter sit aliquid reale, non oportet ponere, quod 
       <lb ed="#R" n="17"/>sit, nisi respectus extrinsecus adueniens. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e286">
                   <lb ed="#R" n="18"/>Alij dicunt, quod oportet ponere, quod 
       chara<lb ed="#R" n="19" break="no"/>cter sit forma absoluta de genere qualitatis, quae 
       <lb ed="#R" n="20"/>sit fundamentum istius respectus, quem alij ponunt 
       <lb ed="#R" n="21"/>praecipue, quia respectus de nouo non acquiritur, 
       <lb ed="#R" n="22"/>nisi quia acquiritur aliquod absolutum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e299">
                   <lb ed="#R" n="23"/>Ad videndum ergo quid veritatis sit in 
       opinio<lb ed="#R" n="24" break="no"/>nibus istis, hanc introduxi specialiter quaestionem. 
       <lb ed="#R" n="25"/>Secundo pono propositionem intentam: 
@@ -174,7 +172,7 @@
       <lb ed="#R" n="34"/>forma absoluta, ideo pono propositionem isam, 
       <lb ed="#R" n="35"/>quod character est forma absoluta in anima. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e330">
                   <lb ed="#R" n="36"/>Hanc quaestionem probo procedendo ex dictis 
       <lb ed="#R" n="37"/>Sanctorum quinque, vel sex rationibus. Et prima 
       <lb ed="#R" n="38"/>sumitur ex ratione impressionis, sic. Illud quod 
@@ -192,14 +190,14 @@
       <lb ed="#R" n="50"/>quod impressio ibi accipitur, vt sonat idem quod 
       <lb ed="#R" n="51"/>collatio. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e367">
                   <lb ed="#R" n="52"/>Contra: Ratio videtur apparens, quod vbi 
       con<lb ed="#R" n="53" break="no"/>clusio aliqua tenetur ex dictis, &amp; auctoritatibus 
       <lb ed="#R" n="54"/>Scripturae, &amp; Ecclesiae, illud praecise debet teneri. 
       <lb ed="#R" n="55"/>quod habet sensus verborum, nec in talibus 
       lici<lb ed="#R" n="56" break="no"/>tum est ad placitum vti quacumque vis expositione. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e380">
                   <lb ed="#R" n="57"/>Confirmo hoc, quia iste modus arguendi est 
       <lb ed="#R" n="58"/>Commentatoris 3. de anima comm. 5. vbi volens 
       <lb ed="#R" n="59"/>probare, quod de mente Aristotelis fuit, quod 
@@ -210,7 +208,7 @@
       <lb ed="#R" n="64"/>Sanctorum intentio ex modo loquendi proprio 
       <lb ed="#R" n="65"/>corundem 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e403">
                   <lb ed="#R" n="66"/>Secundo arguo ex conformitate, sic. Illud quod 
       <lb ed="#R" n="67"/>est fundamentum conformitatis vnius ad alterum, 
       <lb ed="#R" n="68"/>videtur essse absolutum, nam relatio nulla potest 
@@ -220,7 +218,7 @@
       ra<lb ed="#R" n="70" break="no"/>tio. characteris est fundamentum conformitatis 
       <lb ed="#R" n="71"/>animae ad Christum: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e423">
                   <lb ed="#R" n="72"/>Dicetur, quod bene relatio est sund amentum 
       <lb ed="#R" n="73"/>relationis, sicut proportio est fundamentum 
       pro<lb ed="#R" n="74" break="no"/>portionalitatis: est enim proportionalitas 
@@ -233,7 +231,7 @@
       princi<lb ed="#R" n="81" break="no"/>piorum. Sed quicquid sit de assumpto ostendo, 
       <lb ed="#R" n="82"/>quod non iuuat eos in proposito.
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e449">
                   <lb ed="#R" n="83"/>Arguo enim sic: Nunquam respectus dicitur esse 
       <lb ed="#R" n="84"/>in aliquo fundamentum similitudinis ad alterum, 
       <lb ed="#R" n="85"/>nisi respectus consimilis sit in illo altero. 
@@ -246,14 +244,14 @@
       <lb ed="#R" n="92"/>sus non asimilatur alteri alicui, sed est id, quo 
       a<lb ed="#R" n="93" break="no"/>lius assimilatur Christo: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e475">
                   <lb ed="#R" n="94"/>Tertia ratio est ex parte distinctiuae cognitionis 
       <lb ed="#R" n="95"/>sic: Secundum intentionem Sanctorum, &amp; 
       Docto<lb ed="#R" n="96" break="no"/>rum characer datur ad distinguendum fideles ab 
       <lb ed="#R" n="97"/>infidelibus, confirmatos a non confirmatis, 
       sacer<lb ed="#R" n="98" break="no"/>dotes a non sacerdotibus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e488">
                   <lb ed="#R" n="99"/>Tunc arguo sic: Nullus respectus, nec realis, nec 
       <lb ed="#R" n="100"/>rationis est proprium signum distinctiuum, ducens in 
       <lb ed="#R" n="101"/>propriam distinctiuam cognitionem rei, relatio enim 
@@ -269,12 +267,12 @@
       <lb ed="#R" n="111"/>ab omni alia anima, quae non fuit de Christi 
       fami<lb ed="#R" n="112" break="no"/>lia: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e521">
                   <lb ed="#R" n="113"/>Dicetur ad hoc, quod licet relatio rationis non 
       <lb ed="#R" n="114"/>moueat ad notitiam rei distincam, tamen hoc 
       po<lb ed="#R" n="115" break="no"/>test relatio realis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e531">
                   <lb ed="#R" n="116"/>Contra: Relatio realis ex se non mouet 
       intelle<lb ed="#R" n="117" break="no"/>ctum, vel sensum nisi ratione fundamenti. Quod 
       <lb ed="#R" n="118"/>confirmo per hoc, quod vnio naturae ad Verbum 
@@ -285,7 +283,7 @@
       didice<lb ed="#R" n="123" break="no"/>runt, secundum illud Apostoli, vt innotesceret prin 
       <lb ed="#R" n="124"/>cipatibus, &amp; potestatibus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e553">
                   <lb ed="#R" n="125"/>Quarta ratio est ista: Impossibile est quod 
       ali<lb ed="#R" n="126" break="no"/>quid sit respectus, &amp; non contineatur in aliquo 
       ge<lb ed="#R" n="127" break="no"/>nerum septem respectiuorum: sed si character 
@@ -304,7 +302,7 @@
                   <lb ed="#R" n="1"/>praedicamento situs, quia non per hoc quod res 
       ac<lb ed="#R" n="2" break="no"/>cipit characterem, capit quod situetur: ergo
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e592">
       <!-- missing line break -->Dicetur quod praedicamenta non euacuant
       to<lb ed="#R" n="3" break="no"/>tum ambitum entis: Vel secundo quod 
       prdicamen<lb ed="#R" n="4" break="no"/>ta euacuant entia, quae sunt secundum notitiam no 
@@ -314,7 +312,7 @@
       <lb ed="#R" n="8"/>in praedicamento aliquo, hoc impossibile non est, 
       <lb ed="#R" n="9"/>&amp; huiusmodi est character.
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e612">
                   <lb ed="#R" n="10"/>Contra: Quicquid sit de potentia Dei, Vtrum 
       <lb ed="#R" n="11"/>possit facere rem quae non sit in praedicamento, 
       ta<lb ed="#R" n="12" break="no"/>men in proposito non oportet ire ad ista vana, ex 
@@ -327,7 +325,7 @@
       <lb ed="#R" n="19"/>Omnes enim qui in Christo baptizati estis, 
       Chri<lb ed="#R" n="20" break="no"/>stum induistis, secundum Apostolum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e638">
                   <lb ed="#R" n="21"/>Quinta ratio sumitur ex similitudine sic: Sicut se 
       <lb ed="#R" n="22"/>habet consecratio in calice ad esse signum 
       corpo<lb ed="#R" n="23" break="no"/>rale sensui, sic se habet dedicatio per characterem 
@@ -338,13 +336,13 @@
       vi<lb ed="#R" n="28" break="no"/>detur esse signum intellectuale, nisi dato aliquo 
       <lb ed="#R" n="29"/>absoluto. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e660">
                   <lb ed="#R" n="30"/>Vltimo, hoc confirmo auctoritatibus Sanctorum, 
       <lb ed="#R" n="31"/>&amp; prima est Damasceni: Signum datum est nobis 
       <lb ed="#R" n="32"/>in fronte, quemadmodum Jsraeli data estt 
       Circum<lb ed="#R" n="33" break="no"/>cisio.
   </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e672">
                   <lb ed="#R" n="34"/>Secunda es Dionysij de E:clesiastica 
       Hierar<lb ed="#R" n="35" break="no"/>chia, vbi dicit, quod dato quodam lumine, quasi 
       <lb ed="#R" n="36"/>signo proprio ipsi tradit communicatorem esse in 
@@ -352,7 +350,7 @@
       <lb ed="#R" n="38"/>a Hierarcha accedenti data significatio, &amp; 
       sacer<lb ed="#R" n="39" break="no"/>dotum salutaris descriptio. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e688">
                   <lb ed="#R" n="40"/>Similiter ad hoc sunt auctoritates Augustini. 
       <lb ed="#R" n="41"/>Et quod dicunt aliqui, quod Sancti non faciunt men 
       <lb ed="#R" n="42"/>tionem de charactere, non videtur bene dicum, 
@@ -362,7 +360,7 @@
       Om<lb ed="#R" n="46" break="no"/>nis (inquam) errans charactterem recipit, &amp; eo 
       re<lb ed="#R" n="47" break="no"/>diente characterem recognoscit. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e708">
                   <lb ed="#R" n="48"/>Item Augustinus lib. contra Parmenian. si 
       mili<lb ed="#R" n="49" break="no"/>tia characterem in suo corpore non militans 
       pa<lb ed="#R" n="50" break="no"/>uidus inhorruit, ad clementiam Jmperatoris 
@@ -370,14 +368,14 @@
       <lb ed="#R" n="52"/>cxpit; nunquid homini liberato, atque correcto cha 
       <lb ed="#R" n="53"/>racter ille repetitur. 
   </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e724">
                   <lb ed="#R" n="54"/>Sic ergo dico, quod character es aliquid 
       abso<lb ed="#R" n="55" break="no"/>lutum de genere qualitatis faciens animam 
       Chri<lb ed="#R" n="56" break="no"/>sto conformem, non quod sit ipsa conformitas, sed 
       <lb ed="#R" n="57"/>fundamentum conformitatis: respectu autem 
       cu<lb ed="#R" n="58" break="no"/>ius, patebit infra. 
   </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e737">
                   <lb ed="#R" n="59"/>Ad argumentum in oppositum concedo 
       maio<lb ed="#R" n="60" break="no"/>rem. Ad minorem dico, quod signum quod est 
       <lb ed="#R" n="61"/>genus ad characterem, est nomen concretum, non 
@@ -389,18 +387,18 @@
       si<lb ed="#R" n="67" break="no"/>gnum: relatio autem est ipsa significatio. 
   </p>
             </div>
-            <div>
-               <head>Articulus 2</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h15621-Dd1e761">
+               <head xml:id="olm8ij-h15621-Hd1e763">Articulus 2</head>
+               <head xml:id="olm8ij-h15621-Hd1e765" type="question-title">
         Utrum character sit de secunda specie qualitatis
       </head>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e768">
       <!--0048.xml-->
                   <cb ed="#R" n="b"/>
                   <lb ed="#R" n="68"/>ARTICVLVS II. 
       <lb ed="#R" n="69"/>Vtrum character sit de secunda specie qualitatis. 
   </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e779">
                   <lb ed="#R" n="70"/>QVantum ad secundam qua stionem arguo 
       pri<lb ed="#R" n="71" break="no"/>mo, quod character sit de alia specie 
       quali<lb ed="#R" n="72" break="no"/>ratis, sic: Secunda species qualitatis est na 
@@ -410,7 +408,7 @@
       <lb ed="#R" n="76"/>&amp; communicandi communione ipsa fidelium: 
       <lb ed="#R" n="77"/>ergo. 
   </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e799">
                   <lb ed="#R" n="78"/>In oppositum est, quia idem non est potestas, 
       <lb ed="#R" n="79"/>nec per consequens in secunda specie qualitatis, a 
       <lb ed="#R" n="80"/>quo nulla operatio profluit: sed a charactere nulla 
@@ -420,11 +418,11 @@
       <lb ed="#R" n="84"/>huiusmodi, quia tales actus non eliciuntur a chara 
       <lb ed="#R" n="85"/>ctere, vt manise stum est: ergo. 
   </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e820">
                   <lb ed="#R" n="86"/>Respondeo: in ista quae stione primo ponam 
       pun<lb ed="#R" n="87" break="no"/>ctum quaestionis: secundo propositiones intentas- 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e827">
                   <lb ed="#R" n="88"/>Propter primum sciendum, quod aliquibus 
       vi<lb ed="#R" n="89" break="no"/>detur, quod characer sit qualitas de secunda 
       spe<lb ed="#R" n="90" break="no"/>cie, nam omnis potentia, siue natura lis, vt duricies 
@@ -442,7 +440,7 @@
       red<lb ed="#R" n="102" break="no"/>dit enim dispositum ad suscipiendum caetera 
       sa<lb ed="#R" n="103" break="no"/>cramenta. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e864">
                   <lb ed="#R" n="104"/>Character vero ordinis facilitat respectu 
       opera<lb ed="#R" n="105" break="no"/>tionis: est enim specialis potestas, qua sacerdos 
       <lb ed="#R" n="106"/>conficit corpus Christi, &amp; absoluit, vnde secundum 
@@ -461,7 +459,7 @@
       <lb ed="#R" n="119"/>&amp; consecrare. Et similiter hic sundatur tota 
       inten<lb ed="#R" n="120" break="no"/>tio Doctoris communis in suo quarto. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e903">
                   <lb ed="#R" n="121"/>Post autem haec positio confirmari per illud 2. 
       <lb ed="#R" n="122"/>Ethic. cap. 5. quod ea quae sunt in anima, sunt tria 
       <lb ed="#R" n="123"/>tantum, scilicet, vel potentia, vel habitus, vel 
@@ -470,7 +468,7 @@
       secunda<lb ed="#R" n="126" break="no"/>specie qualitatis: ergo hic est punctus quaestionis, 
       <lb ed="#R" n="127"/>si positio haec contineat veritatem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e921">
                   <lb ed="#R" n="128"/>Secundo pono propositionem intentam, &amp; est 
       <lb ed="#R" n="129"/>ista, quae non videtur, quod character 
       quantum<lb ed="#R" n="130" break="no"/>cunque sit potestas (vt isti dicunt) sit in 
@@ -478,7 +476,7 @@
       pri<lb ed="#R" n="132" break="no"/>mo quoddam notabile. Secundo probabo 
       propo<lb ed="#R" n="133" break="no"/>sitionem
   </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e937">
       <!--0049.xml-->
                   <pb ed="#R" n="49"/>
                   <cb ed="#R" n="a"/>
@@ -500,7 +498,7 @@
       <lb ed="#R" n="16"/>in quodam gradu, a quo imperatiue sequuntur ope 
       <lb ed="#R" n="17"/>rationes aliquae, ab alio vero executiue. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e984">
                   <lb ed="#R" n="18"/>Ad propositum ergo potestas, quae confertur in 
       <lb ed="#R" n="19"/>baptismo, vel in susceptione Ordinum non est 
       po<lb ed="#R" n="20" break="no"/>testas aliqua, quae sit qualitas aliqua, a qua profluat 
@@ -508,7 +506,7 @@
       ac<lb ed="#R" n="22" break="no"/>quisita, nec infusa, sed tantum consistit in quodam 
       <lb ed="#R" n="23"/>gradu per mendum signi, vt dicetur infra. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1000">
                   <lb ed="#R" n="24"/>Probo secundo hoc per rationes. Prima est ista. 
       <lb ed="#R" n="25"/>Si character esset potentia actiua, huiusmodi esset 
       <lb ed="#R" n="26"/>character sacerdotalis: sed nulla potentia actiua 
@@ -530,7 +528,7 @@
       <lb ed="#R" n="42"/>panis, tum quia non apparet, qualis dispositio esset, 
       <lb ed="#R" n="43"/>vtrum calefactio, vel mollificatio, vel quid. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1046">
                   <lb ed="#R" n="44"/>Similiter nec secundo modo: nulla enim actio 
       <lb ed="#R" n="45"/>creaturae est sine subiecto, nec corruptiua sine panis 
       <lb ed="#R" n="46"/>subiecto: actio enim requirit, &amp; quid agat, &amp; in quid 
@@ -542,13 +540,13 @@
       nobi<lb ed="#R" n="52" break="no"/>lius; nec actio illa secundum opinionem istam 
       at<lb ed="#R" n="53" break="no"/>tingit terminum ad quem: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1070">
                   <lb ed="#R" n="54"/>Item: Actio illa, cum eset absque termino, ad 
       ip<lb ed="#R" n="55" break="no"/>sam sequeretur non esse panis, similiter absque 
       ali<lb ed="#R" n="56" break="no"/>quo termino vltra, &amp; sic actio illa esset 
       adnihilati<lb ed="#R" n="57" break="no"/>ua, quod non potest competere crcaturae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1081">
                   <lb ed="#R" n="58"/>Item: Si Deus iufundat partem virtutis in anima, 
       <lb ed="#R" n="59"/>partem in verbis, vt isti dicunt, &amp; quare oportet, 
       <lb ed="#R" n="60"/>quod illa, quae ponitur in anima, sit permanens, &amp; 
@@ -557,7 +555,7 @@
       imma<lb ed="#R" n="63" break="no"/>nens, &amp; altera transiens? Si dicas propter 
       nobilita<lb ed="#R" n="64" break="no"/>tem Sacramenti. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1099">
                   <lb ed="#R" n="65"/>Contra: Nobilitas instrumenti ponderatur non ex 
       <lb ed="#R" n="66"/>aliquo inhaerente, sed ex termino nobiliori inducto, 
       <lb ed="#R" n="67"/>sicut de medicina dato, quod induceret sanitatem, 
@@ -567,7 +565,7 @@
                   <lb ed="#R" n="69"/>esset, sicut illa, quae ageret a tota specie, si induceret 
       <lb ed="#R" n="70"/>sanitatem aeque perfectam, &amp; aeque per feco modo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1120">
                   <lb ed="#R" n="71"/>Item: Jsta qualitas in verbis, &amp; in anima, aut est 
       <lb ed="#R" n="72"/>eiusdem rationis, aut est alterius rationis. Dicunt 
       <lb ed="#R" n="73"/>tamen ad hoc, quod est eiusdem rationis. Sed 
@@ -577,7 +575,7 @@
       in<lb ed="#R" n="77" break="no"/>tendi altera, quod sufficeret per se ad actionem illam. 
       <lb ed="#R" n="78"/>m Jrs quous fpeu? tene posset hoc facere, con- 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1140">
                   <lb ed="#R" n="79"/>Item secundo idem apparet de potestate 
       Diaco<lb ed="#R" n="80" break="no"/>ni, &amp; Subdiaconi, non oportet ponere in eis 
       quali<lb ed="#R" n="81" break="no"/>tatem, a qua profluat operatio similiter, quia 
@@ -587,19 +585,19 @@
       <lb ed="#R" n="85"/>epistolam non Subdiaconus sine manipulo, sicut 
       <lb ed="#R" n="86"/>Diaconus cum manipulo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1160">
                   <lb ed="#R" n="87"/>Similiter probatum est in prima distinctione, quod 
       <lb ed="#R" n="88"/>nulla dispositio est in baptismo respectu gratiae, que 
       <lb ed="#R" n="89"/>sit dispositio ex natura rei. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1169">
                   <lb ed="#R" n="90"/>Item: Si esset character baptismi potentia 
       susce<lb ed="#R" n="91" break="no"/>ptiua, non deberet dici potentia, sed impotentia, 
       <lb ed="#R" n="92"/>nam potentia facile patiendi, quae ponitur in secun 
       <lb ed="#R" n="93"/>da specie qualitatis in praedicamentis, est impotea 
       <lb ed="#R" n="94"/>tia ad resistendum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1182">
                   <lb ed="#R" n="95"/>Dico ergo, quod character nullo modo es 
       pote<lb ed="#R" n="96" break="no"/>stas actiua, a qua e xeat operatio; sed est pote cas 
       <lb ed="#R" n="97"/>sicut in moralibus. In moralibus enim frequenter 
@@ -609,7 +607,7 @@
       <lb ed="#R" n="101"/>dicuntur aequiuoce, &amp; potestates naturales, quae 
       <lb ed="#R" n="102"/>sunt principia operationum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1202">
                   <lb ed="#R" n="103"/>
                   <sic>Postet</sic> autem ratio ex hoc formari: Illud, quod non 
       <lb ed="#R" n="104"/>est potestas, nisi moraliter, nec est dispositio ad agem 
@@ -619,16 +617,16 @@
       <lb ed="#R" n="108"/>ex corpore quaestionis. 
     </p>
             </div>
-            <div>
-               <head>Articulus 3</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h15621-Dd1e1221">
+               <head xml:id="olm8ij-h15621-Hd1e1223">Articulus 3</head>
+               <head xml:id="olm8ij-h15621-Hd1e1225" type="question-title">
         Utrum character sit in prima specie qualitatis.
       </head>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1228">
                   <lb ed="#R" n="109"/>ARTICVLVS III
       J1<lb ed="#R" n="110" break="no"/>Vtrum character sit in prima specie qualitatis.
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1235">
                   <lb ed="#R" n="111"/>QVoad tertiam quaestionem arguo primo, quod 
       <lb ed="#R" n="112"/>character non sit de prima specie qualitatis, 
       <lb ed="#R" n="113"/>quoniam prima species qualitatis est 
@@ -636,7 +634,7 @@
       praedica<lb ed="#R" n="115" break="no"/>mentis: sed character non est dispositio, quoniam 
       <lb ed="#R" n="116"/>dispositio est de facili mobilis, character non. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1251">
                   <lb ed="#R" n="117"/>Nec est habitus, quoniam per habitus 
       denomi<lb ed="#R" n="118" break="no"/>natur habens bonus, vel malus, cum sit indifferens 
       <lb ed="#R" n="119"/>respectu bonorum, &amp; malorum; ac per characterem 
@@ -644,17 +642,17 @@
       <lb ed="#R" n="121"/>respectu bonorum, vel malorum, ita enim habet 
       <lb ed="#R" n="122"/>characterem malus sacerdos sicut bonus: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1268">
                   <lb ed="#R" n="123"/>In oppositum est, quia character est decor, 
       orna<lb ed="#R" n="124" break="no"/>tus, &amp; pulchritudo secundum Sanctos: sed haec omnia 
       <lb ed="#R" n="125"/>important habitum de prima specie qualitatis: ergo.
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1277">
                   <lb ed="#R" n="126"/>Respondeo in ista quaestione sic procedam, quia 
       <lb ed="#R" n="127"/>primo ponam vnam distinctionem: secundo duas 
       <lb ed="#R" n="128"/>propositiones. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1286">
                   <lb ed="#R" n="129"/>Distinctio est ista, quod in prima specie 
       qualita<lb ed="#R" n="130" break="no"/>tis ponitur habitus, &amp; dispositio. Vbi nota, quod in 
       <lb ed="#R" n="131"/>prima specie ponitur etiam actus, cuius probatio 
@@ -679,7 +677,7 @@
       <lb ed="#R" n="15"/>prima specie qualitatis, nam in calore bono 
       consi<lb ed="#R" n="16" break="no"/>stit congruentia, &amp; perfectio ipsius ignis.
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1338">
                   <lb ed="#R" n="17"/>Vlterius autem considerandum est, quod 
       habi<lb ed="#R" n="18" break="no"/>tuum, in quibus consistit bonum, aliqui sunt 
       opera<lb ed="#R" n="19" break="no"/>tiui, &amp; in talibus bene sumitur in ordine ad 
@@ -687,7 +685,7 @@
       <lb ed="#R" n="21"/>1. &amp; 2. dicens: habitus est qui habentem perficit, &amp; 
       <lb ed="#R" n="22"/>opus bonum reddit. 
   </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1354">
                   <lb ed="#R" n="23"/>Alij vero sunt, qui non sunt operatiui, &amp; in talibus 
       <lb ed="#R" n="24"/>bene accipitur in ordine ad naturam, quam 
       perfi<lb ed="#R" n="25" break="no"/>ciunt, &amp; idem dico de male. Hoc ergo modo 
@@ -697,14 +695,14 @@
       ho<lb ed="#R" n="29" break="no"/>rum contraria, &amp; ratio est, quia sunt conuenientes, 
       <lb ed="#R" n="30"/>vel disconuenientes naturae. 
   </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1374">
                   <lb ed="#R" n="31"/>Secundo pono propositiones, &amp; prima est ista 
       <lb ed="#R" n="32"/>quod necessarium est dicere, quod charactter sit in 
       <lb ed="#R" n="33"/>aliqua determinata specie qualitatis, &amp; quod non 
       <lb ed="#R" n="34"/>est in diuersis speciebus, quantumcunque 
       conside<lb ed="#R" n="35" break="no"/>retur secundum diuersas rationes. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1388">
                   <lb ed="#R" n="36"/>Hoc dico propter opinionem quorundam, qui di 
       <lb ed="#R" n="37"/>cunt, quod character potest poni in qualibet 
       qua<lb ed="#R" n="38" break="no"/>tuor specierum: secundum enim, quod est ornatus 
@@ -715,7 +713,7 @@
       <lb ed="#R" n="43"/>quod est sigillum impressio &amp; figura, sic est in 
       quar<lb ed="#R" n="44" break="no"/>ta specie 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1410">
                   <lb ed="#R" n="45"/>Alij vero dicunt quod non est in aliqua quatuor 
       <lb ed="#R" n="46"/>specierum, sed in alia. E:si dicatur quod Philosophus 
       <lb ed="#R" n="47"/>non posuit speciem aliam, praeter illas quatuor, 
@@ -729,7 +727,7 @@
       innomina<lb ed="#R" n="55" break="no"/>ta. Isas autem opiniones non bene capio, ideo 
       <lb ed="#R" n="56"/>oppositam propositionem probo. 
   </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1439">
                   <lb ed="#R" n="57"/>Primo: Contra primam opinionem, quia 
       Aristo<lb ed="#R" n="58" break="no"/>teles dixit quatuor species qualitatis penes opposi 
       <lb ed="#R" n="59"/>tas differentias, puta penes esse illud, in quo consistit 
@@ -737,7 +735,7 @@
       <lb ed="#R" n="61"/>qualitatis. Penes vero esse principium actus 
       consi<lb ed="#R" n="62" break="no"/>stit secunda species, &amp; sic de alijs. 
   </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1455">
                   <lb ed="#R" n="63"/>Sed contra secundam opinionem videtur impro 
       <lb ed="#R" n="64"/>babile, quod si species esset alia, Philosophus de illa 
       <lb ed="#R" n="65"/>non feciset alicubi mentionem: Quod autem 
@@ -748,7 +746,7 @@
       <cb ed="#R" n="b"/>
                   <lb ed="#R" n="69"/>tandam pertinaciam.
   </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1477">
                   <lb ed="#R" n="70"/>Secunda propositio est, quod secundum dicta 
       <lb ed="#R" n="71"/>Sanctorum, &amp; circunstantiam Scripturae, character 
       <lb ed="#R" n="72"/>est qualitas quaedam existens in anima, specialis 
@@ -784,7 +782,7 @@
       <lb ed="#R" n="102"/>sed tantum dico, quod non est inconueniens talem 
       <lb ed="#R" n="103"/>speciem poni, &amp; quod de facto ita est. 
   </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1553">
                   <lb ed="#R" n="104"/>Probo primo auctoritatibus. Primo per 
       Apo<lb ed="#R" n="105" break="no"/>stolum ad Galat. 3. Omnes inquit, qui baptizati estis 
       <lb ed="#R" n="106"/>Christum induistis: aut ergo baptizatus omnis 
@@ -796,23 +794,23 @@
       <lb ed="#R" n="112"/>non ex alio videtur nisi, quia induit similitudinem 
       <lb ed="#R" n="113"/>ipsius animae Christi. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1578">
                   <lb ed="#R" n="114"/>Item ad Rom. 8. quos praesciuit, hos &amp; 
       praedesti<lb ed="#R" n="115" break="no"/>nauit conformes fieri imagini filij eius: ergo 
       ali<lb ed="#R" n="116" break="no"/>qua imago Christi in nobis deriuatur ex 
       diuina<lb ed="#R" n="117" break="no"/>praedestinatione. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1589">
                   <lb ed="#R" n="118"/>Item: sicut portamus imaginem terreni, sic 
       por<lb ed="#R" n="119" break="no"/>temus imaginem coelestids. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1596">
                   <lb ed="#R" n="120"/>Item Dionysius de Ecclesiastica hierarchia, cap. 
       <lb ed="#R" n="121"/>2. par. 3. parum ante medium, vocat characterem 
       <lb ed="#R" n="122"/>lumen quo signamur: lumen autem istud aliud non 
       <lb ed="#R" n="123"/>videtur, quam pulchritudo, &amp; assimilatio. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1607">
                   <lb ed="#R" n="124"/>Similiter Damasc. lib. 4. de fide cap. IO. vocat 
       <lb ed="#R" n="125"/>characterem sigillum: sigillum autem videtur 
       esse<lb ed="#R" n="126" break="no"/>qualitas quaedam. Praeter auctoritates autem 
@@ -836,7 +834,7 @@
       simili<lb ed="#R" n="5" break="no"/>tudinibus consignantur, ac per hoc alius, ac alius 
       <lb ed="#R" n="6"/>character in Sacramentis infunduntur. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1657">
                   <lb ed="#R" n="7"/>Igitur character non aliud est, quam species, &amp; 
       <lb ed="#R" n="8"/>imago praedicta, signumque distinctiuum Cristi 
       <lb ed="#R" n="9"/>familiae, vnde puto quod remanet non solum 
@@ -845,7 +843,7 @@
       de<lb ed="#R" n="12" break="no"/>Christi familia, vt sit damnatis occasio maioris 
       <lb ed="#R" n="13"/>poenae: beatis vero gaudij incrementum. 
   </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1675">
                   <lb ed="#R" n="14"/>Tertia Propositio est, quod huiusmodi qualitas 
       <lb ed="#R" n="15"/>ponenda est in prima specie qualitatis hanc 
       pro<lb ed="#R" n="16" break="no"/>positionem probo duabus, vel tribus rationibus. 
@@ -857,7 +855,7 @@
       <lb ed="#R" n="22"/>ac decentiam ipsius animae, non minus quam 
       pul<lb ed="#R" n="23" break="no"/>chritudo faciei: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1700">
                   <lb ed="#R" n="24"/>Secundo sic. Omnis qualitas, secundum quam 
       <lb ed="#R" n="25"/>subiectum disponitur bene, vel male est in prima 
       <lb ed="#R" n="26"/>specie qualitatis: sed qualitas ista disponit 
@@ -865,7 +863,7 @@
       perfectissi<lb ed="#R" n="28" break="no"/>mo, scilicet Christi capiti: ergo ipsa est in prima 
       <lb ed="#R" n="29"/>specie qualitatis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1716">
                   <lb ed="#R" n="30"/>Confirmatur: quia virtus est in prima specie 
       qua<lb ed="#R" n="31" break="no"/>litatis, cum sit dispositio perfecti ad optimum 6. 
       <lb ed="#R" n="32"/>Ethic. cap. 1. &amp; vltimo: ergo a simili, quod 
@@ -873,7 +871,7 @@
       <lb ed="#R" n="34"/>est quaedam dispositio secundum bene, qua propter 
       <lb ed="#R" n="35"/>ponetur rationabiliter in prima specie qualitatis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1732">
                   <lb ed="#R" n="36"/>Dico tamen vlterius, quod character in anima 
       <lb ed="#R" n="37"/>est potestas quaedam. Sed sciendum quod potestas 
       <lb ed="#R" n="38"/>quandoque accipitur pro signo, quandoque pro 
@@ -893,7 +891,7 @@
       <lb ed="#R" n="52"/>quidem signum est character, qui est qualitas, &amp; 
       si<lb ed="#R" n="53" break="no"/>militudo conformans Chriso. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1774">
                   <lb ed="#R" n="54"/>Ex his potest videri, in <sic>quotnam</sic> Sacramentis 
       da<lb ed="#R" n="55" break="no"/>tur character: quomodo enim character signum est 
       <lb ed="#R" n="56"/>acceptae potestatis: auctoritas autem datur 
@@ -905,31 +903,31 @@
       <lb ed="#R" n="62"/>lum, ac conficiendi corpus Christi, idcirco 
       chara<lb ed="#R" n="63" break="no"/>cter in istis tribus tantum infunditur Sacramentis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1800">
                   <lb ed="#R" n="64"/>Ad argumentum in oppositum patet ex corpore 
       <lb ed="#R" n="65"/>quaestionis. 
     </p>
             </div>
-            <div>
-               <head>Articulus 4</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h15621-Dd1e1808">
+               <head xml:id="olm8ij-h15621-Hd1e1810">Articulus 4</head>
+               <head xml:id="olm8ij-h15621-Hd1e1812" type="question-title">
         Utrum character sit in essentia animae, vel in 
         potentiis.
       </head>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1815">
       <!--0051.xml-->
                   <cb ed="#R" n="b"/>
                   <lb ed="#R" n="66"/>ARTICVLVS JJJJ. 
       <lb ed="#R" n="67"/>Vtrum character sit in essentia animae, vel in 
       <lb ed="#R" n="68"/>potentiis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1828">
                   <lb ed="#R" n="69"/>AD quartam quaestionem: Vtrum character 
       <lb ed="#R" n="70"/>sit in essentia animae, vel in potentia. Sine 
       ar<lb ed="#R" n="71" break="no"/>gumentis primo videndum est de definitione 
       cha<lb ed="#R" n="72" break="no"/>racteris. Secundo ad propositum.
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1839">
                   <lb ed="#R" n="73"/>De primo sciendum, quod duae definitiones 
       as<lb ed="#R" n="74" break="no"/>signantur de charactere, amba acceptae ex dicto 
       <lb ed="#R" n="75"/>Dionysij de Ecclesiastica hierarchia: cap. 2. vna 
@@ -937,7 +935,7 @@
       <lb ed="#R" n="77"/>sacrum communicationis fidei, &amp; sacrae ordinationis, 
       <lb ed="#R" n="78"/>datum a hierarcha, idest ab Episcopo, vel Sacerdote.
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1856">
                   <lb ed="#R" n="79"/>Et per hoc, quod dicitur, signum sacrum, 
       intel<lb ed="#R" n="80" break="no"/>ligitur formale ipsius characteris, scilicet qualitas, 
       <lb ed="#R" n="81"/>quae est fundamentum ipsius relationis. Per hoc 
@@ -947,13 +945,13 @@
       ordina<lb ed="#R" n="85" break="no"/>tionis, datur intelligi character alius, qui 
       infun<lb ed="#R" n="86" break="no"/>ditur in Sacramento Ordinum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1876">
                   <lb ed="#R" n="87"/>Alia vero definitio assignatur talis: Character est 
       <lb ed="#R" n="88"/>signum sacrum communionis fidelium, datum a di 
       <lb ed="#R" n="89"/>uina beatitudine, quod idem est, quod a hierarcha 
       <lb ed="#R" n="90"/>beato. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1887">
                   <lb ed="#R" n="91"/>Sed intuenti dicta Dionysij apparet, quod ponit 
       <lb ed="#R" n="92"/>plus in definitione characteris, quam isti ponant: 
       <lb ed="#R" n="93"/>ponit enim ipsum formale characteris expressius, 
@@ -967,7 +965,7 @@
       ac<lb ed="#R" n="101" break="no"/>cipitur autem hic lumen proprium pro ipsa 
       quali<lb ed="#R" n="102" break="no"/>tate, ac similitudine. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1916">
                   <lb ed="#R" n="103"/>Posset autem assignari definitio alia loquendo 
       <lb ed="#R" n="104"/>conformiter dictis supra: Character est qualitas 
       <lb ed="#R" n="105"/>quaedam assimlans animam essentiae animae Christi 
@@ -975,7 +973,7 @@
       <lb ed="#R" n="107"/>in Ecclesia, auctoritatis inquam siue 
       communio<lb ed="#R" n="108" break="no"/>nis Sanctorum, siue Regis, siue militiae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1932">
                   <lb ed="#R" n="109"/>Quantum ad secundum dicitur diuersimode 
       <lb ed="#R" n="110"/>Dicunt quidam, quod in intellecu, quidam quod 
       <lb ed="#R" n="111"/>in voluntate. Dico tamen, vt mihi videtur, quod 
@@ -990,24 +988,24 @@
       <lb ed="#R" n="120"/>pulchrificatur, ornatur, &amp; assimilatur essentiae 
       ani<lb ed="#R" n="121" break="no"/>mae Christi: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1963">
                   <lb ed="#R" n="122"/>Sed hic sunt duo dubia. Primum est, quod 
       cha<lb ed="#R" n="123" break="no"/>racter est dispositio ad gratiam, dispositio autem 
       <lb ed="#R" n="124"/>est subiectiue in eodem cum eo, ad quod disponit. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1973">
                   <lb ed="#R" n="125"/>Secundum est, quod character es quaedam 
       obli<lb ed="#R" n="126" break="no"/>gatio respectu mandatorum Dei, sed obligatio est 
       <lb ed="#R" n="127"/>per actum voluntatis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1982">
                   <lb ed="#R" n="128"/>Respondeo ad primum, nego antecedens, vt 
       su<lb ed="#R" n="129" break="no"/>pra alibi dictum est. Ad secundum dico, quod non 
       <lb ed="#R" n="130"/>oportet, quod obligatio, &amp; nota siue signum obliga 
       <lb ed="#R" n="131"/>tionis sint in eodem, nam annulus est nota 
       obligu<lb ed="#R" n="132" break="no"/>tionis, quae est in voluntate.
     </p>
-               <p>
+               <p xml:id="olm8ij-h15621-d1e1995">
       <!--0052.xml-->
                   <pb ed="#R" n="52"/>
                   <cb ed="#R" n="a"/>

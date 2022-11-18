@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,22 +53,22 @@
       </front>
       <body>
          <div xml:id="olm8ij-h61828"> <!-- l4-d34q1 -->
-            <head>Quaestio 1</head>
-            <p>
+            <head xml:id="olm8ij-h61828-Hd1e102">Quaestio 1</head>
+            <p xml:id="olm8ij-h61828-d1e104">
                <lb ed="#R" n="42"/>Quaestio Vnica. 
     </p>
-            <div>
-               <head>Articulus 1</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h61828-Dd1e109">
+               <head xml:id="olm8ij-h61828-Hd1e111">Articulus 1</head>
+               <head xml:id="olm8ij-h61828-Hd1e113" type="question-title">
       Utrum impotentia ad actum matrimonialem 
       impedias matrimonium.
     </head>
-               <p>
+               <p xml:id="olm8ij-h61828-d1e116">
                   <lb ed="#R" n="43"/>ARTICVLVUS I. 
       <lb ed="#R" n="44"/>Vtrum impotentia ad actum matrimonialem 
       im<lb ed="#R" n="45" break="no"/>pedias matrimonium. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h61828-d1e125">
                   <lb ed="#R" n="46"/>ARGVO primo, quod non, 
       <lb ed="#R" n="47"/>sic. Illud, quod est 
       poste<lb ed="#R" n="48" break="no"/>rius, non habet impedire 
@@ -87,7 +85,7 @@
       ma<lb ed="#R" n="57" break="no"/>trimonium secundum suam essentiam inter 
       Ma<lb ed="#R" n="58" break="no"/>riam, &amp; Ioseph. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h61828-d1e160">
                   <lb ed="#R" n="59"/>In oppositum est, quia illud, quod de sua 
       ratio<lb ed="#R" n="60" break="no"/>ne est ens ad finem, non est, quando finis est 
       impos<lb ed="#R" n="61" break="no"/>sibilis: sed coniugium est ordinatum ad bonum 
@@ -104,7 +102,7 @@
       <lb ed="#R" n="72"/>generale interdictum, vnde verius non dirimunt, 
       <lb ed="#R" n="73"/>sed impediunt, interdictum, feriaeque. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h61828-d1e196">
                   <lb ed="#R" n="74"/>Sciendum est hic, quod non est de essentia 
       matri<lb ed="#R" n="75" break="no"/>monij absolute, quod contrahatur tali, vel tali tē- 
       <lb ed="#R" n="76"/>pore, &amp; ideo licet propter praeceptum Ecclesiae 
@@ -114,12 +112,12 @@
       contra<lb ed="#R" n="80" break="no"/>ctus, nec dirimitur ex casu isto. 
       <lb ed="#R" n="81"/>Ant'a hets suoseciat: sque, ditimnitnr contracun 
     </p>
-               <p>
+               <p xml:id="olm8ij-h61828-d1e216">
                   <lb ed="#R" n="82"/>Error, conditio, votum, cognatio, crimen. 
       <lb ed="#R" n="83"/>Cultus disparitas, vis, ordo, ligamen, honestas. 
       <lb ed="#R" n="84"/>Si sis affinis, fi forte coire nequibis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h61828-d1e225">
                   <lb ed="#R" n="85"/>Haec socianda vetant coniugia, iuncta retractant. 
       <lb ed="#R" n="86"/>Dicitur primo error, idest personae. Secunda: 
       Con<lb ed="#R" n="87" break="no"/>ditio, puta si credit contrahere cum libera, &amp; 
@@ -141,7 +139,7 @@
       impo<lb ed="#R" n="103" break="no"/>tentia ad carnalem copulam, de quo in praesenti 
       <lb ed="#R" n="104"/>quaestione: de alijs autem dicetur suo loco. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h61828-d1e271">
                   <lb ed="#R" n="105"/>Secunda Propositio est, quod impotentia, quae 
       <lb ed="#R" n="106"/>praeuenit matrimonium, si sit perpetua, &amp; haec 
       siue<lb ed="#R" n="107" break="no"/>naturalis, siue accidentalis, impedit matrimonium 
@@ -149,7 +147,7 @@
       ve<lb ed="#R" n="109" break="no"/>ro non sit perpetua, &amp; etiam si sit consequens, 
       non<lb ed="#R" n="110" break="no"/>dirimit contracum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h61828-d1e287">
                   <lb ed="#R" n="111"/>Ad euidentiam autem istius propositionis scien 
       <lb ed="#R" n="112"/>dum, quod impotentia reddendi debitum quaedam 
       <lb ed="#R" n="113"/>est naturalis, quaedam accidentalis; &amp; quaelibet 
@@ -173,7 +171,7 @@
       contra<lb ed="#R" n="6" break="no"/>ctum, &amp; si contractum fuerit, debet iudicio 
       Eccle<lb ed="#R" n="7" break="no"/>siae separari.
     </p>
-               <p>
+               <p xml:id="olm8ij-h61828-d1e337">
                   <lb ed="#R" n="8"/>Si vero talia impedimenta non praeueniunt 
       ma<lb ed="#R" n="9" break="no"/>trimonium, sed accidunt posstt contractum, tunc 
       di<lb ed="#R" n="10" break="no"/>stinguo: aut enim eueniunt post copulam, aut ante: 
@@ -184,7 +182,7 @@
       <lb ed="#R" n="15"/>dominium corporum suorum mutuo, licet neuter 
       <lb ed="#R" n="16"/>eorum intrauerit possessionem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h61828-d1e360">
                   <lb ed="#R" n="17"/>Alij dicunt, quod quia primum est spirituale-: 
       <lb ed="#R" n="18"/>copula vero est quid carnale, ideo si eueniat 
       an<lb ed="#R" n="19" break="no"/>te copulam, dirimit matrimonium. &amp; hoc magis 
@@ -203,7 +201,7 @@
       contra<lb ed="#R" n="32" break="no"/>ctum fuit, quando adhuc erat potentia ad 
       copu<lb ed="#R" n="33" break="no"/>lam carnalem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h61828-d1e399">
                   <lb ed="#R" n="34"/>Tertia Propositio est de modo celebrandi diuor 
       <lb ed="#R" n="35"/>tia inter impotentes. Sciendum ergo, quod aut 
       vter<lb ed="#R" n="36" break="no"/>que coniugum confitetur impedimentum, quod est 
@@ -218,29 +216,29 @@
       mu<lb ed="#R" n="45" break="no"/>lieris, nisi mulier, quod asserit, ostendat per 
       aspe<lb ed="#R" n="46" break="no"/>ctum, siue manifesum signum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h61828-d1e430">
                   <lb ed="#R" n="47"/>Si vero e conuerso vir alleget impotentiam 
       in<lb ed="#R" n="48" break="no"/>eo, vel vxore, &amp; vxor neget, debet aspici tempus, 
       <lb ed="#R" n="49"/>quo simul cohabitauerant, &amp; debet expeti 
       iuramen<lb ed="#R" n="50" break="no"/>tum, &amp; iri ad caeteras circumstantias, &amp; sic est 
       di<lb ed="#R" n="51" break="no"/>uortium celebrandum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h61828-d1e443">
                   <lb ed="#R" n="52"/>Ad argumentum in oppositum, nego maiorem, 
       <lb ed="#R" n="53"/>quia illud, quod ponitur posterius, est prius in 
       in<lb ed="#R" n="54" break="no"/>tentione, licet sit posterius in executione. 
     </p>
             </div>
-            <div>
-               <head>Articulus 2</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h61828-Dd1e453">
+               <head xml:id="olm8ij-h61828-Hd1e455">Articulus 2</head>
+               <head xml:id="olm8ij-h61828-Hd1e457" type="question-title">
       Utrum male ficium possit maleficio destrui.
     </head>
-               <p>
+               <p xml:id="olm8ij-h61828-d1e460">
                   <lb ed="#R" n="55"/>ARTICVLVS II 
       <lb ed="#R" n="56"/>Vtrum male ficium possit maleficio destrui. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h61828-d1e467">
                   <lb ed="#R" n="57"/>IVxta hoc quaero secundo: Vtrum scienti 
       male<lb ed="#R" n="58" break="no"/>ficium sit licitum sine peccato illud tollere. 
       Re<lb ed="#R" n="59" break="no"/>spondeo, hic Primo videndum est si maleficium 
@@ -249,7 +247,7 @@
       per<lb ed="#R" n="62" break="no"/>mittere. Et tertio quantum ad propositum. si sit 
       <lb ed="#R" n="63"/>licitum illud affirmare. 
   </p>
-               <p>
+               <p xml:id="olm8ij-h61828-d1e485">
       <!--0181.xml-->
                   <cb ed="#R" n="b"/>
                   <lb ed="#R" n="64"/>De primo dico, quod effectus maleficij non 
@@ -269,7 +267,7 @@
       <lb ed="#R" n="78"/>ad talem effectum facto tali maleficio, &amp; hoc ex 
       <lb ed="#R" n="79"/>pacto. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h61828-d1e528">
                   <lb ed="#R" n="80"/>Circa secundum illud est valde mirabile, &amp; 
       stu<lb ed="#R" n="81" break="no"/>pendum, quod si pungatur imago aliqua alicubi, 
       <lb ed="#R" n="82"/>possit aliquis ad mortem deduci, &amp; hoc pro tanto: 
@@ -282,18 +280,18 @@
       <lb ed="#R" n="89"/>Deus non permittat daemonem agere sic in 
       homi<lb ed="#R" n="90" break="no"/>nem, vsque ad mortem, vt patet de Iob. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h61828-d1e554">
                   <lb ed="#R" n="91"/>Sed oppositum videtur de eodem, de 
       quinque<lb ed="#R" n="92" break="no"/>filjs Iob mortuis, actione diaboli concutientis 
       an<lb ed="#R" n="93" break="no"/>gulos, &amp; columnas domus: ergo tunc accepit a 
       <lb ed="#R" n="94"/>Deo potestatem agendi, vsque ad mortem 
       male<lb ed="#R" n="95" break="no"/>ficiati. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h61828-d1e567">
                   <lb ed="#R" n="96"/>Sed nunquid est rationabile, vsque ad mortem 
       <lb ed="#R" n="97"/>hominis existentis sine peccato, &amp; in gratia? 
     </p>
-               <p>
+               <p xml:id="olm8ij-h61828-d1e574">
                   <lb ed="#R" n="98"/>Respondeo: difficile est loqui de diuina 
       potesta<lb ed="#R" n="99" break="no"/>te. Sed de congruentia videtur dicendum, quod 
       <lb ed="#R" n="100"/>cum diuina iustitia semper admisceatur 
@@ -314,7 +312,7 @@
       eo<lb ed="#R" n="115" break="no"/>rum est vitium oppositum virtuti Latriae, &amp; 
       pecca<lb ed="#R" n="116" break="no"/>tum reducibile ad infidelitatem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h61828-d1e618">
                   <lb ed="#R" n="117"/>Circa tertium: Vtrum liceat agere ad 
       destru<lb ed="#R" n="118" break="no"/>ctionem horum male ficiorum homini scienti illa. 
       <lb ed="#R" n="119"/>Dicunt quidam, quod non sine peccato: Ratio 
@@ -326,7 +324,7 @@
       <lb ed="#R" n="125"/>cum videamus de facto, quod talia nocent 
       homi<lb ed="#R" n="126" break="no"/>nibus, &amp; quandoque ad intersectionem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h61828-d1e642">
                   <lb ed="#R" n="127"/>Videtur mihi distinguendum, quod aut tollitur 
       <lb ed="#R" n="128"/>maleficium a patiente; aut ab eo qui egit illud; aut 
       <lb ed="#R" n="129"/>procuratur, quod esset in virtute alterius malefici, 
@@ -357,12 +355,12 @@
       <lb ed="#R" n="20"/>non credo falsum: ergo non venio contra fidem 
       <lb ed="#R" n="21"/>quia nullum verum obuiat fidei. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h61828-d1e708">
                   <lb ed="#R" n="22"/>Alij autem Doctores, qui videntur tenere 
       oppo<lb ed="#R" n="23" break="no"/>situm, ad hoc accedunt, quando scilicet maleficium 
       <lb ed="#R" n="24"/>destrueretur operatione malefica. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h61828-d1e717">
                   <lb ed="#R" n="25"/>Sed posito, quod maleficium non inueniatur, nũ- 
       <lb ed="#R" n="26"/>quid consulendus esset maleficus de loco, vbi esset? 
       <lb ed="#R" n="27"/>Dicunt quidam, quod sic, &amp; ratio est, quia licet 
@@ -377,7 +375,7 @@
       alte<lb ed="#R" n="36" break="no"/>rius, puta in euasionem mortis, non videtur 
       pec<lb ed="#R" n="37" break="no"/>catum 
     </p>
-               <p>
+               <p xml:id="olm8ij-h61828-d1e748">
                   <lb ed="#R" n="38"/>Non puto, quod hoc sit recte dictum: secus enim 
       <lb ed="#R" n="39"/>est de illo, qui inducit ad actum, &amp; secus de illo, qui 
       <lb ed="#R" n="40"/>vtitur alio existente in actu iam posito. Primum 

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,21 +53,21 @@
       </front>
       <body>
          <div xml:id="olm8ij-h50858"> <!-- l4-d20q1 -->
-            <head>Quaestio 1</head>
-            <p>
+            <head xml:id="olm8ij-h50858-Hd1e102">Quaestio 1</head>
+            <p xml:id="olm8ij-h50858-d1e104">
                <lb ed="#R" n="48"/>Quaestio Vnica. 
     </p>
-            <div>
-               <head>Articulus 1</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h50858-Dd1e109">
+               <head xml:id="olm8ij-h50858-Hd1e111">Articulus 1</head>
+               <head xml:id="olm8ij-h50858-Hd1e113" type="question-title">
       Utrum potestas dandi indulgentias resideat apud Ecclesiam
     </head>
-               <p>
+               <p xml:id="olm8ij-h50858-d1e116">
                   <lb ed="#R" n="49"/>ARTICVLVUS I. 
       <lb ed="#R" n="50"/>Vtrum potestas dandi indulgentias resideat apud 
       <lb ed="#R" n="51"/>Ecclesiam 
     </p>
-               <p>
+               <p xml:id="olm8ij-h50858-d1e125">
                   <lb ed="#R" n="52"/>QVANTVM ad primum 
       <lb ed="#R" n="53"/>arguo, quod non, sic: 
       Nul<lb ed="#R" n="54" break="no"/>la nouitas debet in 
@@ -80,13 +78,13 @@
       Aposto<lb ed="#R" n="59" break="no"/>lorum, est nouitas magna: 
       <lb ed="#R" n="60"/>ergo.
     </p>
-               <p>
+               <p xml:id="olm8ij-h50858-d1e147">
                   <lb ed="#R" n="61"/>In oppositum est, quia vniuersalis Ecclesia 
       Ca<lb ed="#R" n="62" break="no"/>tholica vtitur istis indulgentijs, quae non potest 
       er<lb ed="#R" n="63" break="no"/>rare, regulata a Spiritu sancto. Respondeo pono 
       <lb ed="#R" n="64"/>hic tres conclusiones.
     </p>
-               <p>
+               <p xml:id="olm8ij-h50858-d1e159">
       <!--0148.xml-->
                   <cb ed="#R" n="b"/>
                   <lb ed="#R" n="65"/>Prima est, quod in Ecclesia est auctoritas per 
@@ -105,7 +103,7 @@
       <lb ed="#R" n="78"/>magis est rationale in tanta communione Ecclesiae 
       <lb ed="#R" n="79"/>totius, vbi omnes efficimus vnum corpus in Christo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h50858-d1e198">
                   <lb ed="#R" n="80"/>Secunda ratio est ista: Quicunque potest soluere 
       <lb ed="#R" n="81"/>debitum, pro quo debitor obligatur, potest 
       debito<lb ed="#R" n="82" break="no"/>rem ab obligatione relaxare, vt si debeas decem, 
@@ -132,7 +130,7 @@
       con<lb ed="#R" n="103" break="no"/>cludit, quia meritum Christi, &amp; Sanctorum non est 
       <lb ed="#R" n="104"/>in Ecclesiae potestate.
     </p>
-               <p>
+               <p xml:id="olm8ij-h50858-d1e255">
                   <lb ed="#R" n="105"/>Contra hoc sic: Non minus est meritum Christi 
       <lb ed="#R" n="106"/>in potesate Ecclesiae, vel meritum Sanctorum, quam 
       <lb ed="#R" n="107"/>meritum totius vnius congregationis sit in 
@@ -144,7 +142,7 @@
       pote<lb ed="#R" n="113" break="no"/>state praelati illius religionis, adeo vt possit illud, 
       <lb ed="#R" n="114"/>cui voluerit communicare: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h50858-d1e279">
                   <lb ed="#R" n="115"/>Dices: Meritum beatae Virginis, &amp; aliorum San 
       <lb ed="#R" n="116"/>ctorum est sufficienter, imo superabundanter 
       recon<lb ed="#R" n="117" break="no"/>pensatum, quia pro quolibet merito receperunt 
@@ -159,7 +157,7 @@
       cor<lb ed="#R" n="126" break="no"/>poris: haec autem nullo modo adaequant meritum 
       <lb ed="#R" n="127"/>Christi tantum: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h50858-d1e310">
                   <lb ed="#R" n="128"/>Sciendum tamen, quod nec etiam meritum 
       alio<lb ed="#R" n="129" break="no"/>rum est euacuatum, quin possint nobis mereri, 
       <lb ed="#R" n="130"/>sed tamen differenter a merito Christi; nam 
@@ -174,7 +172,7 @@
       remu<lb ed="#R" n="2" break="no"/>neratum: sed merita Sanctorum merentur nobis ex 
       <lb ed="#R" n="3"/>misericordia Dei magna. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h50858-d1e341">
                   <lb ed="#R" n="4"/>Secundam propositionem pono ex pietate fidei, 
       <lb ed="#R" n="5"/>licet a multis non teneatur, quod in Ecclesia sit 
       <lb ed="#R" n="6"/>potestas dandi indulgentias, non solum per 
@@ -216,7 +214,7 @@
       <lb ed="#R" n="42"/>patet, quod ibi non exprimitur, nisi Dei 
       misericor<lb ed="#R" n="43" break="no"/>dia, cuius ministri sumus, &amp; auctoritas Apostolica.
     </p>
-               <p>
+               <p xml:id="olm8ij-h50858-d1e431">
                   <lb ed="#R" n="44"/>Secundo probo eandem auctoritatem 
       ratione<lb ed="#R" n="45" break="no"/>sumpta ex Euangelio, quae est illa: dictum enim 
       <lb ed="#R" n="46"/>est Petro, quodcunque ligaueris, &amp; c. Tunc sic, qui 
@@ -229,7 +227,7 @@
       <lb ed="#R" n="53"/>ingreditur quousque reddat vltimum 
       quadran<lb ed="#R" n="54" break="no"/>tem: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h50858-d1e457">
                   <lb ed="#R" n="55"/>Tertia ratio ad idem est ista: Cui committitur 
       <lb ed="#R" n="56"/>maius, committitur minus: sed maius est 
       absolue<lb ed="#R" n="57" break="no"/>re a culpa, quam a poena, &amp; commissum est 
@@ -258,7 +256,7 @@
       <lb ed="#R" n="78"/>saltem ministrando Sacramentum poenitentiae 
       pos<lb ed="#R" n="79" break="no"/>sit totam poenam relaxare? non video quare non.
     </p>
-               <p>
+               <p xml:id="olm8ij-h50858-d1e518">
                   <lb ed="#R" n="80"/>Tertia Propositio est, quod indulgentiae illae non 
       <lb ed="#R" n="81"/>respiciunt directe poenas purgationis, ac poenas 
       <lb ed="#R" n="82"/>iuris: sed directe aspiciunt poenas porrectas, &amp; 
@@ -285,20 +283,20 @@
       <lb ed="#R" n="103"/>dies, nec noctes: ergo non intendit, nisi de 
       poe<lb ed="#R" n="104" break="no"/>nis a Jure
     </p>
-               <p>
+               <p xml:id="olm8ij-h50858-d1e575">
                   <lb ed="#R" n="105"/>Tertio confirmant propositum, quia si de 
       poe<lb ed="#R" n="106" break="no"/>nis purgatorij intelligeretur, tunc multi Episcopi 
       <lb ed="#R" n="107"/>simul possent facere euolare vnum morientem 
       <lb ed="#R" n="108"/>conferendo eorum cuilibet de indulgentia illud, 
       <lb ed="#R" n="109"/>quod posset. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h50858-d1e588">
                   <lb ed="#R" n="110"/>Alij dicunt, quod hae indulgentia aspiciunt 
       poe<lb ed="#R" n="111" break="no"/>nas purgatorij: motiuum eorum est, quia 
       videren<lb ed="#R" n="112" break="no"/>tur alias frustratoriae. Mediando inter istas duas 
       <lb ed="#R" n="113"/>opiniones. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h50858-d1e599">
                   <lb ed="#R" n="114"/>Dico, quod vtrumque aspicit, nec enim 
       dire<lb ed="#R" n="115" break="no"/>cte aspiciunt poenas iuris, nec poenas 
       purgato<lb ed="#R" n="116" break="no"/>rij, sed poenas debitas pro peccatis. Hanc 
@@ -318,7 +316,7 @@
       se<lb ed="#R" n="130" break="no"/>aspiciunt poenas debitas pro peccato, &amp; non vtrum 
       <lb ed="#R" n="131"/>a iure, vel purgatorio, nisi tantum per accidens. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h50858-d1e642">
                   <lb ed="#R" n="132"/>Imaginor autem sic, quod quando dicitur, do 
       <lb ed="#R" n="133"/>tibi tot dies de indulgentia, illi dies non 
       respi<lb ed="#R" n="134" break="no"/>ciunt poenas purgatorij, vel iuris, sed per se poenas 
@@ -328,7 +326,7 @@
                   <lb ed="#R" n="1"/>temporales debitas pro peccato, quae 
       tempore<lb ed="#R" n="2" break="no"/>mensurantur. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h50858-d1e662">
                   <lb ed="#R" n="3"/>Sciendum tamen vlterius, ad videndum quid per 
       <lb ed="#R" n="4"/>dies, &amp; quot dies remittantur de poena ijs, qui sunt 
       <lb ed="#R" n="5"/>in purgatorio, praesertim cum ibi non sint dies 
@@ -348,13 +346,13 @@
       <lb ed="#R" n="19"/>in purgatorio vndecim dies, cui primo 
       correspon<lb ed="#R" n="20" break="no"/>debant tres dies. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h50858-d1e704">
                   <lb ed="#R" n="21"/>Ex his sequitur primo, quod cum dicitur: 
       Indul<lb ed="#R" n="22" break="no"/>gemus decem dies, isti dies non sunt dies 
       purgato<lb ed="#R" n="23" break="no"/>rij per se, nec dies iuris, sed per se es tantum de 
       <lb ed="#R" n="24"/>poena, quae aequipollet decem diebus nostris. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h50858-d1e715">
                   <lb ed="#R" n="25"/>Secundo, quod cum dicitur: Relaxamus decem 
       <lb ed="#R" n="26"/>dies, non intelliguntur relaxari decem dies in 
       pur<lb ed="#R" n="27" break="no"/>gatorio, sed tantum de poena in purgatorio, 
@@ -368,7 +366,7 @@
       <lb ed="#R" n="35"/>aspicit poenas taxatas a iure, puta tot dies, vel tot; 
       <lb ed="#R" n="36"/>alia vero quae aspicit poenas purgatorij. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h50858-d1e744">
                   <lb ed="#R" n="37"/>Ad argumentum in oppositum principale 
       respon<lb ed="#R" n="38" break="no"/>deo in rei veritate, parum legimus de istis 
       indul<lb ed="#R" n="39" break="no"/>gentijs, vt sit nobis traditum ab Apostolis, vel 
@@ -378,7 +376,7 @@
       de<lb ed="#R" n="43" break="no"/>tali materia, forte ratio est, quia supponebant illas, 
       <lb ed="#R" n="44"/>tanquam aliquid per se notum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h50858-d1e764">
                   <lb ed="#R" n="45"/>Sed videndum est hic vnum de indulgentijs, quod 
       <lb ed="#R" n="46"/>est magis difficile. Vtrum scilicet indulgentiae 
       tan<lb ed="#R" n="47" break="no"/>tum valeant, quantum sonant; si enim tantum 
@@ -389,7 +387,7 @@
       <lb ed="#R" n="52"/>reportasssent, qui iuerunt Romam de Roma ipsa, 
       si<lb ed="#R" n="53" break="no"/>cut qui de Noruegia. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h50858-d1e787">
                   <lb ed="#R" n="54"/>Item, inaequaliter reportarent, qui dant 
       aequali<lb ed="#R" n="55" break="no"/>ter; si enim haberes centum peccata, &amp; alius vnum, 
       <lb ed="#R" n="56"/>tertia pars poenitentiae tuae, quae est multo maior 
@@ -399,7 +397,7 @@
       <lb ed="#R" n="60"/>pars tertia de poenis, quas debuisset exsoluere pro 
       <lb ed="#R" n="61"/>peccatis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h50858-d1e807">
                   <lb ed="#R" n="62"/>Item si dicatur in rescripto, Indulgemus centum 
       <lb ed="#R" n="63"/>annos, nunquid erat iste centum annis mansurus 
       <lb ed="#R" n="64"/>in purgatorio? Respondeo ad istud dubium, quod 
@@ -411,7 +409,7 @@
                   <lb ed="#R" n="68"/>recepti, esto sic in nomine Domini, ex quo factum 
       <lb ed="#R" n="69"/>est, valent, &amp; ex quo facit, factum est. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h50858-d1e831">
                   <lb ed="#R" n="70"/>Potest tamen dici ad primum inconueniens, quod 
       <lb ed="#R" n="71"/>aequaliter lucrabatur, qui tempore Bonifacij 
       per<lb ed="#R" n="72" break="no"/>rexit de Noruegia, quantum qui de Roma, &amp; hoc 
@@ -426,7 +424,7 @@
       <lb ed="#R" n="81"/>respondebit remissio poenae. Per idem dico ad 
       se<lb ed="#R" n="82" break="no"/>cundum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h50858-d1e862">
                   <lb ed="#R" n="83"/>Ad tertium respondeo, nescio bene 
       definire<lb ed="#R" n="84" break="no"/>quantum pro peccato stabit quis in purgatorio, 
       <lb ed="#R" n="85"/>tamen puto, quod intensa poena debeatur 
@@ -439,16 +437,16 @@
       <lb ed="#R" n="92"/>argumentum principale patet quid dicendum. 
     </p>
             </div>
-            <div>
-               <head>Articulus 2</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h50858-Dd1e887">
+               <head xml:id="olm8ij-h50858-Hd1e889">Articulus 2</head>
+               <head xml:id="olm8ij-h50858-Hd1e891" type="question-title">
       Utrum solus Papa possit indulgentias concedere.
     </head>
-               <p>
+               <p xml:id="olm8ij-h50858-d1e894">
                   <lb ed="#R" n="93"/>ARTICVLVS II 
       <lb ed="#R" n="94"/>Vtrum solus Papa possit indulgentias concedere.
     </p>
-               <p>
+               <p xml:id="olm8ij-h50858-d1e901">
                   <lb ed="#R" n="95"/>QVo ad secundam quaestionem arguo primo, 
       <lb ed="#R" n="96"/>quod solus Papa possit huiusmodi 
       indulgen<lb ed="#R" n="97" break="no"/>tias dare, sic: Solus ille, qui habet 
@@ -459,7 +457,7 @@
       <lb ed="#R" n="102"/>potestatem: sed auctoritas solius Papae est 
       vniuer<lb ed="#R" n="103" break="no"/>salis: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h50858-d1e923">
                   <lb ed="#R" n="104"/>In oppositum est, quia videmus de facto de 
       Epi<lb ed="#R" n="105" break="no"/>scopis, &amp; Archiepiscopis, qui huiusmodi indulgeo 
       <lb ed="#R" n="106"/>tias largiuntur, &amp; intra diocesim, de quibus 
@@ -467,7 +465,7 @@
       <lb ed="#R" n="108"/>ad euidentiam huius quaestionis pono duas 
       propo<lb ed="#R" n="109" break="no"/>sitiones. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h50858-d1e940">
                   <lb ed="#R" n="110"/>Prima est, quod loquendo de indulgentia per 
       <lb ed="#R" n="111"/>modum recompensationis, quae fit per bonorum 
       <lb ed="#R" n="112"/>communicationem, omnis praelatus habens 
@@ -491,7 +489,7 @@
       ae<lb ed="#R" n="130" break="no"/>qualitatem, &amp; hinc est, quod inseriores 
       communi<lb ed="#R" n="131" break="no"/>ter non sic relaxant. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h50858-d1e990">
       <!--0151.xml-->
                   <pb ed="#R" n="151"/>
                   <cb ed="#R" n="a"/>
@@ -503,7 +501,7 @@
       face<lb ed="#R" n="6" break="no"/>re tantum. Adhuc non sufficit hoc, ideo pono 
       pro<lb ed="#R" n="7" break="no"/>positionem secundam talem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h50858-d1e1014">
                   <lb ed="#R" n="8"/>Aliqui enim dicunt, quod solus Papa potest 
       au<lb ed="#R" n="9" break="no"/>ctoritate, &amp; de iure dare indulgentias, alij vero ex 
       <lb ed="#R" n="10"/>commissione, &amp; ideo taxatus est eis modus, &amp; 
@@ -511,7 +509,7 @@
       <lb ed="#R" n="12"/>quilibet Episcopus est successor Apostolorum, ideo 
       <lb ed="#R" n="13"/>auctoritatem habet super meritum Christi. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h50858-d1e1030">
                   <lb ed="#R" n="14"/>Mihi videtur, quod solus Papa auctoritatiue 
       po<lb ed="#R" n="15" break="no"/>test per modum relaxationis authenticae poenas 
       re<lb ed="#R" n="16" break="no"/>laxare. Ratio est, quia sibi soli dictum: 
@@ -529,7 +527,7 @@
       <lb ed="#R" n="28"/>medium arctatae satisfactionis, &amp; 
       recompensatio<lb ed="#R" n="29" break="no"/>nis etiam elargiri. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h50858-d1e1067">
                   <lb ed="#R" n="30"/>Tunc restat dubium: Quantum possunt Episcopi. 
       <lb ed="#R" n="31"/>Respondeo, fon possunt nic magnae 
       demonstratio<lb ed="#R" n="32" break="no"/>nes fieri, dico tamen quod non video, hoc 

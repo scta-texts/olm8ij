@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,17 +53,17 @@
       </front>
       <body>
          <div xml:id="olm8ij-h49913"> <!-- l4-d18prae -->
-            <head>Praeambulum</head>
-            <p>
+            <head xml:id="olm8ij-h49913-Hd1e102">Praeambulum</head>
+            <p xml:id="olm8ij-h49913-d1e104">
                <lb ed="#R" n="97"/>DISTINCTIO XVIII 
       <lb ed="#R" n="98"/>DE ABSOLVTIONE
     </p>
-            <p>
+            <p xml:id="olm8ij-h49913-d1e111">
                <lb ed="#R" n="99"/>In ista Distinctione Decimaoctaua Magister 
       <lb ed="#R" n="100"/>agit de absolutione, quae fit virtute clauium. 
       <lb ed="#R" n="101"/>ad cuius euidentiam quaero duas quaestiones.
   </p>
-            <p>
+            <p xml:id="olm8ij-h49913-d1e120">
                <lb ed="#R" n="102"/>1 Prima est: Vtrum claues regni caelorum sint 
       <lb ed="#R" n="103"/>in Ecclesia. 
       <lb ed="#R" n="104"/>2 Secunda est: Vtrum in Ecclesia sint claues 

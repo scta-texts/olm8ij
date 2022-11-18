@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,8 +53,8 @@
       </front>
       <body>
          <div xml:id="olm8ij-hb2486"> <!-- l4-d1prae -->
-            <head>Praeambulum</head>
-            <p>
+            <head xml:id="olm8ij-hb2486-Hd1e102">Praeambulum</head>
+            <p xml:id="olm8ij-hb2486-d1e104">
                <lb ed="#R" n="4"/>DISTINCTIO 1 
       <lb ed="#R" n="5"/>
                <!-- line coord error -->
@@ -65,7 +63,7 @@
                <!-- line cord error -->
                <lb ed="#R" n="8"/>SACRAMENTORVM. 
     </p>
-            <p>
+            <p xml:id="olm8ij-hb2486-d1e122">
                <lb ed="#R" n="9"/>Samaritanus, &amp;c. In isto quarto Libro 
       post<lb ed="#R" n="10" break="no"/>quam Magister in aljs Libris egit de 
       re<lb ed="#R" n="11" break="no"/>bus, agit nunc de signis, idest de 
@@ -78,7 +76,7 @@
       eren<lb ed="#R" n="18" break="no"/>tiam, ex quibus etiam constent, quare ex 
       <lb ed="#R" n="19"/>verbis &amp; elementis. 
   </p>
-            <p>
+            <p xml:id="olm8ij-hb2486-d1e148">
                <lb ed="#R" n="20"/>Quod vero de Sacramentis dicitur, quod 
       ef<lb ed="#R" n="21" break="no"/>ficiunt, quod figurant, ideo in 
       definitio<lb ed="#R" n="22" break="no"/>ne ista inquiro de duobus. Primo de 
@@ -87,10 +85,10 @@
       quid<lb ed="#R" n="25" break="no"/>ditate. Ad euidentiam primi quaero 
       qua<lb ed="#R" n="26" break="no"/>tuor quaestiones. Prima est. 
     </p>
-            <p>
+            <p xml:id="olm8ij-hb2486-d1e167">
                <lb ed="#R" n="27"/>Quaestio I. 
     </p>
-            <p>
+            <p xml:id="olm8ij-hb2486-d1e172">
                <lb ed="#R" n="28"/>1 Vtrum in Sacramentis nouae legis praeter 
       <lb ed="#R" n="29"/>virtutem increatam oporteat ponere virtutem 
       in<lb ed="#R" n="30" break="no"/>fuxam Sacramentis formaliter inhaerentem, quae 
@@ -98,16 +96,16 @@
       <lb ed="#R" n="32"/>Deus mediantibus Sacramentis virtute eis infusa, 
       <lb ed="#R" n="33"/>dicatur gratiam in anima creare. 
     </p>
-            <p>
+            <p xml:id="olm8ij-hb2486-d1e188">
                <lb ed="#R" n="34"/>2 Vtrum ponentes virtutem actiuam in 
       Sacra<lb ed="#R" n="35" break="no"/>mentis sormaliter inhaerentem respectu gratiae, 
       <lb ed="#R" n="36"/>maiorem causalitatem attribuant Sacramentis. 
     </p>
-            <p>
+            <p xml:id="olm8ij-hb2486-d1e197">
                <lb ed="#R" n="37"/>3 Vtrum Sacramenta nouae Legis agant instru 
       <lb ed="#R" n="38"/>mentaliter ad gratiam. 
     </p>
-            <p>
+            <p xml:id="olm8ij-hb2486-d1e204">
                <lb ed="#R" n="39"/>4 Vtrum Sacramenta nouae Legis sint causa 
       <lb ed="#R" n="40"/>per accidens, vel per se, causa sine qua non, vel 
       cau<lb ed="#R" n="41" break="no"/>sa qua sic. 

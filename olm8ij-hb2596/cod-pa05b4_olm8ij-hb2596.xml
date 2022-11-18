@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,10 +53,10 @@
       </front>
       <body>
          <div xml:id="olm8ij-hb2596"> <!-- l4-d1q1 -->
-            <head>Quaestio 1</head>
-            <div>
-               <head>Articulus 1</head>
-               <head type="question-title">
+            <head xml:id="olm8ij-hb2596-Hd1e102">Quaestio 1</head>
+            <div xml:id="olm8ij-hb2596-Dd1e104">
+               <head xml:id="olm8ij-hb2596-Hd1e106">Articulus 1</head>
+               <head xml:id="olm8ij-hb2596-Hd1e108" type="question-title">
       Utrum in Sacramentis nouae Legis, praeter 
       virtutem increatam oporteat ponere virtutem 
       influxam Sacramentis formaliter inhaerentem, quae sit 
@@ -66,7 +64,7 @@
       Deus mediantibus Sacramentis virtute eis 
       infusa, dicatur gratiam in anima creare.
     </head>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e111">
                   <lb ed="#R" n="42"/>ARTICVLVUS I. 
       <lb ed="#R" n="43"/>Vtrum in Sacramentis nouae Legis, praeter 
       virtu<lb ed="#R" n="44" break="no"/>tem increatam oporteat ponere virtutem 
@@ -75,7 +73,7 @@
       <lb ed="#R" n="47"/>Deus mediantibus Sacramentis virtute eis 
       in<lb ed="#R" n="48" break="no"/>fusa, dicatur gratiam in anima creare. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e129">
                   <lb ed="#R" n="49"/>QVANTVM ad primam 
       Quae<lb ed="#R" n="50" break="no"/>stionem, arguo primo quod sic, 
       <lb ed="#R" n="51"/>quoniam impossibile est nouam 
@@ -99,7 +97,7 @@
       acti<lb ed="#R" n="67" break="no"/>ua, per quam habeat rationem medicinae, &amp; 
       instru<lb ed="#R" n="68" break="no"/>menti Christi: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e179">
                   <lb ed="#R" n="69"/>In oppositum arguo per illud Bern. in Serm. de 
       <lb ed="#R" n="70"/>Coena Domini, sicut vestitur Canonicus per librum, 
       <lb ed="#R" n="71"/>Abbas per baculum, Episcopus per annulum, sic 
@@ -107,17 +105,17 @@
       <lb ed="#R" n="73"/>sed in libro, vel baculo, vel annulo nulla est virtus 
       <lb ed="#R" n="74"/>talis actiua: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e196">
                   <lb ed="#R" n="75"/>Respondeo: In ista quaestione ponam duas 
       pro<lb ed="#R" n="76" break="no"/>positiones per ordinem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e203">
                   <lb ed="#R" n="77"/>Prima est, quod in Sacramentis legis Nouae non 
       <lb ed="#R" n="78"/>oportet ponere aliquam virtutem creatam 
       forma<lb ed="#R" n="79" break="no"/>liter inhaerentem vltra solam virtutem increatam, 
       <lb ed="#R" n="80"/>propter reuerentiam Sacramentorum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e214">
                   <lb ed="#R" n="81"/>Hoc dico propter quandam opinionem, quae 
       di<lb ed="#R" n="82" break="no"/>cit, quod propter reuerentiam exhibendam 
       San<lb ed="#R" n="83" break="no"/>ctis, quorum auctoritates sonantvirtutem aliquam 
@@ -138,7 +136,7 @@
       <lb ed="#R" n="98"/>minimam reperirem, fuit enim haec opinio 
       Magi<lb ed="#R" n="99" break="no"/>stri Alexandri antiqui, quam(vt dixi)non teneo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e258">
                   <lb ed="#R" n="100"/>Et ideo pono conclusionem oppositam, quam 
       <lb ed="#R" n="101"/>probo sic: Illud non oportet ponere propter 
       reue<lb ed="#R" n="102" break="no"/>rentiam Sanctorum, ad quod non magis declinant 
@@ -163,7 +161,7 @@
       <lb ed="#R" n="121"/>&amp; loquens de virtute Sacramenti subdit, aliud est 
       <lb ed="#R" n="122"/>sonus transiens, &amp; aliud virtus manens.
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e310">
                   <lb ed="#R" n="123"/>Ecce, quod circumstantia expressa verborum hu 
       <lb ed="#R" n="124"/>ius auctoritatis, ipsa ostendit oppositum eius, quod 
       <lb ed="#R" n="125"/>opinio intendebat; videlicet, quod virtus Sacra- 
@@ -176,19 +174,19 @@
       <lb ed="#R" n="4"/>quod dicit manens, est contra opinionem 
       dupli<lb ed="#R" n="5" break="no"/>citer. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e336">
                   <lb ed="#R" n="6"/>Primo, quia opinio ponit qualitatem illam, &amp; 
       <lb ed="#R" n="7"/>virtutem essse in Sacramentis tantum in fluxu, &amp; 
       <lb ed="#R" n="8"/>in fieri: sed auctoritas dicit virtus manens. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e346">
                   <lb ed="#R" n="9"/>Secundo, quia isti ponunt virtutem illam 
       for<lb ed="#R" n="10" break="no"/>maliter inhaerere Sacramentis: ergo oportet, quod 
       <lb ed="#R" n="11"/>transeat transeunte Sacramento: sed aucoritas 
       di<lb ed="#R" n="12" break="no"/>cit, quod transeunte sono remanet virtus 
       ma<lb ed="#R" n="13" break="no"/>nens. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e359">
                   <lb ed="#R" n="14"/>Et confirmo hoc: Impossibile est accidens 
       ma<lb ed="#R" n="15" break="no"/>nere transeunte suo subiecto: sed per te 
       Sacramen<lb ed="#R" n="16" break="no"/>tum est subiectum illius virtutis, &amp; virtus illa 
@@ -197,11 +195,11 @@
       il<lb ed="#R" n="19" break="no"/>la: ergo non est virtus manens. Cuius oppositum 
       <lb ed="#R" n="20"/>dicit Augustinus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e377">
                   <lb ed="#R" n="21"/>Dices: Virtus illa est remanens in aqua, licet 
       <lb ed="#R" n="22"/>verbum transeat. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e384">
                   <lb ed="#R" n="23"/>Contra hoc est expresse praefata auctoritas. ait 
       <lb ed="#R" n="24"/>enim: Detrahe verbum, non manet aqua nisi aqua, 
       <lb ed="#R" n="25"/>vnde secundum Augustinum, &amp; secundum 
@@ -209,7 +207,7 @@
       gra<lb ed="#R" n="27" break="no"/>tiae infunditur in vtroque tam in elemento, quam 
       <lb ed="#R" n="28"/>in verbo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e400">
                   <lb ed="#R" n="29"/>Alia est auctoritas Augustini contra Faustum 
       <lb ed="#R" n="30"/>quae dicit sic: Virtus, quae operatur in Sacramentis, 
       <lb ed="#R" n="31"/>iugiter manet, nam transeunt verba, transit 
@@ -233,7 +231,7 @@
       <lb ed="#R" n="49"/>dunt auctoritatem ipsam magis esse ad 
       oppositum<lb ed="#R" n="50" break="no"/>nam exponens se, starim subdit. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e450">
                   <lb ed="#R" n="51"/>Quis sermo Christi, hic nempe quo facta sunt 
       <lb ed="#R" n="52"/>omnia, iussit &amp; facta sunt, caelum, terra, &amp; mare 
       <lb ed="#R" n="53"/>&amp; infra. Si ergo tanta vis erat in sermone 
@@ -244,7 +242,7 @@
       <lb ed="#R" n="58"/>increatum: ergo nec virtus operatiua talis verbi 
       <lb ed="#R" n="59"/>est creata, sed increata: non ergo virtus infusa. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e473">
                   <lb ed="#R" n="60"/>Quarta aucoritas est Gregorij, licet quidam 
       <lb ed="#R" n="61"/>dicant, quod est Augustini, quoniam in libris 
       Au<lb ed="#R" n="62" break="no"/>gustini inueni nunquam, sed est Gregorij, &amp; 
@@ -253,7 +251,7 @@
       <lb ed="#R" n="65"/>sola, &amp; intra effectum Sacramentorum, virtus 
       Spi<lb ed="#R" n="66" break="no"/>ritus sancti latens in eis operatur.
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e491">
                   <lb ed="#R" n="67"/>Ex hac auctoritate volunt habere illi de 
       opinio<lb ed="#R" n="68" break="no"/>ne alia, quod sit virtus aliqua infusa Sacramentis, 
       <!--0010.xml-->
@@ -266,14 +264,14 @@
       <lb ed="#R" n="74"/>non sit virtus alia, quam virtus increata, alias non 
       <lb ed="#R" n="75"/>diceret, diuira sala: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e517">
                   <lb ed="#R" n="76"/>Ad hoc respondeo, quod Gregorius per hoc quod 
       <lb ed="#R" n="77"/>dicit, sola, non intencit excludere 
       inferumentale<lb ed="#R" n="78" break="no"/>agens, sed tentummodo aliquid principale agens; 
       <lb ed="#R" n="79"/>sicut si dice:etu:, snius scriptur scripsit hunc librum, 
       <lb ed="#R" n="80"/>non excluditur calamus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e530">
                   <lb ed="#R" n="81"/>Sed contra dicitur primo, quia ex quo 
       conclu<lb ed="#R" n="82" break="no"/>sio, quam intundit, non a:betur ex expressa 
       auctori<lb ed="#R" n="83" break="no"/>tate, sed tantum per glosam tuam, quae est 
@@ -281,13 +279,13 @@
       <lb ed="#R" n="85"/>quam auctoritas non explicat, sed tantum 
       glo<lb ed="#R" n="86" break="no"/>sa tua 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e546">
                   <lb ed="#R" n="87"/>Secundo, quia Glosa vicletur nulla. arguo enim 
       <lb ed="#R" n="88"/>sic: Si scriptor lateret in calamo, dicendo, solus 
       <lb ed="#R" n="89"/>scriptor latens in calamo, non est dubium quod 
       ex<lb ed="#R" n="90" break="no"/>cluditur calamus: ergo sic in proposito. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e557">
                   <lb ed="#R" n="91"/>Contra opinianem istam est etiam expressa 
       au<lb ed="#R" n="92" break="no"/>coritas Hugonis de Sacramentis, vbi loquens de 
       <lb ed="#R" n="93"/>cathaplasma illo Jsaiae, quaerit quare voluit Deus, 
@@ -295,7 +293,7 @@
       il<lb ed="#R" n="95" break="no"/>li haberent efectum oppositum curationis 
       vul<lb ed="#R" n="96" break="no"/>neris. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e574">
                   <lb ed="#R" n="97"/>Et respondet, quod ideo fecit vt ostenderet, quod 
       <lb ed="#R" n="98"/>a solo Deo, &amp; a nulla virtute in ficis illis existente 
       <lb ed="#R" n="99"/>fuerit cura vulneris. Tunc dicit Hugo, quod sic est 
@@ -307,7 +305,7 @@
       in<lb ed="#R" n="105" break="no"/>Sacramentis virtutem aliquam inhaerentem 
       crea<lb ed="#R" n="106" break="no"/>tam, praeter solam virtutem diuinam increatam.
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e598">
                   <lb ed="#R" n="107"/>Secunda Propositio est, quod non oportet 
       po<lb ed="#R" n="108" break="no"/>nere in Sacramentis nouae legis aliquam 
       virtu<lb ed="#R" n="109" break="no"/>tem creatam infusam actiuam respectu gratiae, 
@@ -318,7 +316,7 @@
       <lb ed="#R" n="114"/>ad ponendum in Sacramentis virtutem actiuam 
       <lb ed="#R" n="115"/>formaliter inhaerentem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e620">
                   <lb ed="#R" n="116"/>Hanc propositionem probo sic: Si talis virtus 
       es<lb ed="#R" n="117" break="no"/>set ponenda propter dignitatem Sacramentorum 
       <lb ed="#R" n="118"/>nouae legis, multo magis deberet virtus ilta poni 
@@ -328,7 +326,7 @@
       Eu<lb ed="#R" n="122" break="no"/>charistiae: ergo propter dignitatem, virtutem 
       <lb ed="#R" n="123"/>talem non expedit ponero in alijs Sacramentis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e640">
                   <lb ed="#R" n="124"/>Maior nota est. Probatio minoris: 
       Transubscan<lb ed="#R" n="125" break="no"/>tiatio est actio incomprehensibilis intellectui 
       om<lb ed="#R" n="126" break="no"/>nino, puta quod aliud transeat in aliud, &amp; nihil 
@@ -339,7 +337,7 @@
       <lb ed="#R" n="131"/>subiectum in natura sua determinet sibi isam 
       pas<lb ed="#R" n="132" break="no"/>sionem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e662">
                   <lb ed="#R" n="133"/>Secundo, quia virtute Transubstantiationis fiunt 
       <lb ed="#R" n="134"/>mirabilia in termino ad quem, mirabilia (inquam) 
       <lb ed="#R" n="135"/>quae impossibile est subiacere nisi potentiae diuinae, 
@@ -362,7 +360,7 @@
       <lb ed="#R" n="11"/>non sit maius parte, quod quantitas maior 
       appli<lb ed="#R" n="12" break="no"/>cata minori non excedat illam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e710">
                   <lb ed="#R" n="13"/>Tum quia immutare ordinem qui sequitur res 
       <lb ed="#R" n="14"/>ex natura terminorum, non videtur subesse 
       poten<lb ed="#R" n="15" break="no"/>tiae creatae, vnde nulli potentiae creatae, inquantum 
@@ -374,7 +372,7 @@
       <lb ed="#R" n="21"/>sit aliqua qualitas creata infusa a Deo, efficiens 
       il<lb ed="#R" n="22" break="no"/>lam operationem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e735">
                   <lb ed="#R" n="23"/>Ad ista inconuenientia respondetur per hoc, 
       <lb ed="#R" n="24"/>quod in Transubstantiatione ipsa possumus duo 
       <lb ed="#R" n="25"/>considerare, scilicet terminum ad quem, puta 
@@ -387,7 +385,7 @@
       <lb ed="#R" n="32"/>apparent circa terminum ad quem, &amp; ideo nullum 
       <lb ed="#R" n="33"/>apparet inconueniens. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e761">
                   <lb ed="#R" n="34"/>Contra istam responsionem arguo sic: Non 
       in<lb ed="#R" n="35" break="no"/>telligo quid ista velit dicere, quod virtute 
       Tran<lb ed="#R" n="36" break="no"/>substantiationis fiat aliquid in pane, puta 
@@ -397,7 +395,7 @@
       <lb ed="#R" n="40"/>hoc panis non apparet magis aptus ad transitionem 
       <lb ed="#R" n="41"/>in corpus Christi. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e781">
                   <lb ed="#R" n="42"/>Secundo, quia qualitas illa &amp; dispositio 
       induce<lb ed="#R" n="43" break="no"/>retur in pane in vltimo prolationis verborum 
       sa<lb ed="#R" n="44" break="no"/>cramentalium: sed in vltimo prolationis verborum 
@@ -412,7 +410,7 @@
       pa<lb ed="#R" n="53" break="no"/>nis, ita quod virtute eorum panis desinit elle 
       <lb ed="#R" n="54"/>panis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e812">
                   <lb ed="#R" n="55"/>Sed si opinio sic intelligatur, arguo contra eam, 
       <lb ed="#R" n="56"/>&amp; probo, quod si agunt ad desitionem panis, 
       neces<lb ed="#R" n="57" break="no"/>sario agant ad transitum in corpus Christi. &amp; 
@@ -424,7 +422,7 @@
       re<lb ed="#R" n="63" break="no"/>cessus a substantia ipsius panis, &amp; virtute eorum fit 
       <lb ed="#R" n="64"/>accessus ad positionem corporis Christi. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e836">
                   <lb ed="#R" n="65"/>Secundo: quia si virtus verborum agit ad 
       desi<lb ed="#R" n="66" break="no"/>tionem panis: ergo actio eorum erit actio 
       annihi<lb ed="#R" n="67" break="no"/>latiua: sed annihilare impossibile est, quod 
@@ -438,7 +436,7 @@
       <lb ed="#R" n="73"/>non desinit essse simpliciter, sed conuertitur in 
       cor<lb ed="#R" n="74" break="no"/>pus Christi, &amp; hoc virtute Transubstantiationis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e865">
                   <lb ed="#R" n="75"/>Tertio ad idem arguo sic: Desitio esse panis 
       ni<lb ed="#R" n="76" break="no"/>hil aliud est, quam subtractio inflluxus diuini 
       in<lb ed="#R" n="77" break="no"/>esse panis: ergo agere ad hoc est agere ad hoc, 
@@ -449,7 +447,7 @@
       Sacramen<lb ed="#R" n="82" break="no"/>ti Eucharisiae non potest agere ad desitionem 
       <lb ed="#R" n="83"/>panis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e888">
                   <lb ed="#R" n="84"/>Confirmo hoc, quia panis sic desinit esse, quod 
       <lb ed="#R" n="85"/>totum esse panis, scilicet materia &amp; forma desinit 
       <lb ed="#R" n="86"/>esse, tunc sic: Jmpossibile est entitatis creaturae 
@@ -459,14 +457,14 @@
       <lb ed="#R" n="90"/>modo quo in proposito desinit esse. Consequentia 
       <lb ed="#R" n="91"/>probata est. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e908">
                   <lb ed="#R" n="92"/>Probatio Antecedentis, quia nullum accidens 
       <lb ed="#R" n="93"/>agit primo ad desitionem sui subiecti: omnis 
       au<lb ed="#R" n="94" break="no"/>tem actio creatura est accidens habens creaturam 
       <lb ed="#R" n="95"/>pro subiecto: ergo nulla creaturae actio est primo 
       <lb ed="#R" n="96"/>ad desitionem ipsius materiae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e921">
                   <lb ed="#R" n="97"/>Quarto principaliter ad idem sic: Suppono 
       pri<lb ed="#R" n="98" break="no"/>mo, quod omnis acttio creaturae est accidens. 
       Se<lb ed="#R" n="99" break="no"/>cundo suppono, quod Transubstantiatio fit, in quo 
@@ -482,14 +480,14 @@
       <lb ed="#R" n="109"/>in instanti, in quo est Transubstantiatio, primo non 
       <lb ed="#R" n="110"/>est panis, quia in illo instanti est corpus Christti. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e954">
                   <lb ed="#R" n="111"/>Nec potest dari secundum, quia per te actio 
       <lb ed="#R" n="112"/>procedensa virtute illorum verborum non 
       attin<lb ed="#R" n="113" break="no"/>git terminum ad quem: relinquitur ergo tertius 
       <lb ed="#R" n="114"/>modus, quod actio illa sit subsistens; vel oportet 
       <lb ed="#R" n="115"/>dicere, quod talis actio sit impossibilis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e967">
                   <lb ed="#R" n="116"/>Dices, quod actio illa est in substantia panis, 
       <lb ed="#R" n="117"/>quae desinit esse; substantia enim panis in aliquo 
       vl<lb ed="#R" n="118" break="no"/>timo est, &amp; in toto tempore sequenti non est, &amp; 
@@ -497,7 +495,7 @@
       im<lb ed="#R" n="120" break="no"/>mediate sequitur totum instans, in quo panis 
       ha<lb ed="#R" n="121" break="no"/>bet esse. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e983">
                   <lb ed="#R" n="122"/>Contra istam responsionem arguo sic: Suppono 
       <lb ed="#R" n="123"/>quod panis non desinit esse per motum, sed in 
       in<lb ed="#R" n="124" break="no"/>stanti prolationis completae illorum verborum 
@@ -537,37 +535,37 @@
       <lb ed="#R" n="19"/>miracula, quae impossibile est subesse nisi virtuti 
       <lb ed="#R" n="20"/>diuinae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1069">
                   <lb ed="#R" n="21"/>Ad argumentum principale respondeo primo 
       <lb ed="#R" n="22"/>posset dici, quod nulla relatio noua aduenit aquae 
       <lb ed="#R" n="23"/>per accessum verborum sacramentalium. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1078">
                   <lb ed="#R" n="24"/>Ad probationem dico, quod Sacramentum esse 
       <lb ed="#R" n="25"/>medicinam, vel instrumentum sunt verba 
       meta<lb ed="#R" n="26" break="no"/>phorica: Scriptura autem non est argumentatiua, 
       <lb ed="#R" n="27"/>vbi tantum est mistica, non literalis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1089">
                   <lb ed="#R" n="28"/>Secundo posset dici, quod ista relatio est 
       respe<lb ed="#R" n="29" break="no"/>ctus extrinsecus adueniens, qui potest esse per 
       se<lb ed="#R" n="30" break="no"/>terminus motus, sine nouo absoluto. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1098">
                   <lb ed="#R" n="31"/>Tertio posset dici, quod ista relatio est relatio 
       <lb ed="#R" n="32"/>rationis, quae potest esse noua absque nouitate in 
       <lb ed="#R" n="33"/>aliquo absoluto. 
     </p>
             </div>
-            <div>
-               <head>Articulus 2</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-hb2596-Dd1e1108">
+               <head xml:id="olm8ij-hb2596-Hd1e1110">Articulus 2</head>
+               <head xml:id="olm8ij-hb2596-Hd1e1112" type="question-title">
       Utrum ponentes virtutem actiuam in 
       Sacramentis formaliter inhaerentem respectu 
       gratia, maiorem causalitatem 
       attribuant Sacramentis.
     </head>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1115">
                   <lb ed="#R" n="34"/>ARTICVLVS II 
       <lb ed="#R" n="35"/>
                   <!-- line coord error -->
@@ -576,7 +574,7 @@
       gra<lb ed="#R" n="38" break="no"/>tia, maiorem causalitatem 
       attri<lb ed="#R" n="39" break="no"/>buant Sacramentis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1133">
                   <lb ed="#R" n="40"/>QVantum ad secundam quaestionem arguo pri 
       <lb ed="#R" n="41"/>mo, quod ponentes virtutem infusam 
       acti<lb ed="#R" n="42" break="no"/>uam formaliter inhaerentem Sacramentis, melius 
@@ -593,7 +591,7 @@
       <lb ed="#R" n="53"/>sint per se acttiua, quam qui nullam ponunt talem 
       <lb ed="#R" n="54"/>virtutem.
   </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1168">
                   <lb ed="#R" n="55"/>In oppositum est auctoritas Hugonis, &amp; 
       Magi<lb ed="#R" n="56" break="no"/>stri in littera, qui dicunt, quod effectus 
       Sacramen<lb ed="#R" n="57" break="no"/>torum non est ex Sacramentis, sed ex virtute diuina, 
@@ -605,11 +603,11 @@
       <lb ed="#R" n="63"/>iste erit per sacramenta a Deo, sed ex 
       Sacramen<lb ed="#R" n="64" break="no"/>tis: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1193">
                   <lb ed="#R" n="65"/>Respondeo: In ista quaestione pono aliquas 
       pro<lb ed="#R" n="66" break="no"/>positiones.
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1200">
       <!--0012.xml-->
                   <cb ed="#R" n="b"/>
                   <lb ed="#R" n="67"/>Prima est, quod Sacramenta respectu gratiae 
@@ -620,7 +618,7 @@
       opi<lb ed="#R" n="72" break="no"/>nio, sed respecu gratiae, &amp; quod Sacramenta vere, 
       <lb ed="#R" n="73"/>&amp; proprie sanctificant suscipientem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1222">
                   <lb ed="#R" n="74"/>Hanc propositionem probo, quia Sancti omnes, 
       <lb ed="#R" n="75"/>qui de actiuitate Sacramentorum tractant, non 
       fa<lb ed="#R" n="76" break="no"/>ciunt mentionem de charactere, vel ornatu, sed de 
@@ -632,7 +630,7 @@
       <lb ed="#R" n="82"/>efficiunt gratiam quam figurant, vt Magister dicit 
       <lb ed="#R" n="83"/>in littera. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1246">
                   <lb ed="#R" n="84"/>Similiter haec est intentio Hugonis, nam Hugo 
       <lb ed="#R" n="85"/>lib. de Sacramentis dicit, quod Sacramenta 
       be<lb ed="#R" n="86" break="no"/>nedictione sanctificantur, &amp; sanctificata gratiam 
@@ -642,13 +640,13 @@
       re<lb ed="#R" n="90" break="no"/>spectu gratiae, non tantum respectu dispositionis ad 
       <lb ed="#R" n="91"/>gratiam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1266">
                   <lb ed="#R" n="92"/>Secunda propositio est, quod hanc virtutem &amp; 
       <lb ed="#R" n="93"/>efficaciam non magis saluant illi, qui ponunt 
       vir<lb ed="#R" n="94" break="no"/>tutem insusam inhaerentem Sacramentis, quam qui 
       <lb ed="#R" n="95"/>nullam ponunt talem virtutem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1277">
                   <lb ed="#R" n="96"/>Hanc conclusionem probo duplici ratione. 
       Pro<lb ed="#R" n="97" break="no"/>pter primam autem rationem sciendum, quod 
       po<lb ed="#R" n="98" break="no"/>nentes qualitatem actiuam infusam Sacramentis, 
@@ -662,7 +660,7 @@
       <lb ed="#R" n="106"/>dispositiue, isti tamen alibi videntur dicere 
       oppo<lb ed="#R" n="107" break="no"/>situm. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1307">
                   <lb ed="#R" n="108"/>Alij vero dicunt aliter, quod Sacramenta 
       nul<lb ed="#R" n="109" break="no"/>lam talem causant dispositionem, sed operatio 
       Su<lb ed="#R" n="110" break="no"/>cramentorum exterior, vt lauare, vel vngerc, vel 
@@ -675,7 +673,7 @@
       ta<lb ed="#R" n="117" break="no"/>ctui, &amp; huiusmodi, non autem characteris, vel 
       or<lb ed="#R" n="118" break="no"/>natus aliquid interius, vt isti ponunt. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1333">
                   <lb ed="#R" n="119"/>Tunc formo rationem meam sic: Quando duae 
       <lb ed="#R" n="120"/>dispositiones se habent ad aliquam formam sic, 
       <lb ed="#R" n="121"/>qnod vna non est magis dispositio, vel necessitas ex 
@@ -685,7 +683,7 @@
       tan<lb ed="#R" n="125" break="no"/>tum per secundam dispositionem, quam ille, qui po 
       <lb ed="#R" n="126"/>nit quod inducitur per primam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1353">
                   <lb ed="#R" n="127"/>Probatio istius: Nam per te causalitas 
       Sacra<lb ed="#R" n="128" break="no"/>mentorum non est nisi dispositiua per hoc, quod 
       in<lb ed="#R" n="129" break="no"/>ducunt dispositionem ad gratiam: si ergo hoc, quod 
@@ -700,7 +698,7 @@
                   <lb ed="#R" n="1"/>ret inducendo primam dispositionem, quam tu 
       <lb ed="#R" n="2"/>ponis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1384">
                   <lb ed="#R" n="3"/>Sed character, vel ornatus qui ponitur dispositio 
       <lb ed="#R" n="4"/>ad gratiam in anima, non magis, est dispositio, vel 
       <lb ed="#R" n="5"/>necessitas ex natura rei, quam sit illa 
@@ -714,12 +712,12 @@
       <lb ed="#R" n="13"/>in Sacramentis tantum operationem naturalem 
       <lb ed="#R" n="14"/>exteriorem. Maior nota est. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1413">
                   <lb ed="#R" n="15"/>Probo minorem, scilicet quia character non est 
       <lb ed="#R" n="16"/>magis dispositio ad gratiam ex natura rei, quam 
       <lb ed="#R" n="17"/>sit operatio naturalis extrinseca Sacramenti. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1422">
                   <lb ed="#R" n="18"/>Primo, quia da oppositum, sequitur primo, φ 
       ha<lb ed="#R" n="19" break="no"/>bens summam gratiam deberet ipse habere summum 
       <lb ed="#R" n="20"/>characterem. Probo, quia habens formam in 
@@ -734,7 +732,7 @@
       spe<lb ed="#R" n="29" break="no"/>cialis a Christo deriuata: haec autem potesas 
       spi<lb ed="#R" n="30" break="no"/>ritualis non es in Christo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1454">
                   <lb ed="#R" n="31"/>Secundo, ad idem: Quando aliquid est dispositio 
       <lb ed="#R" n="32"/>ex natura rei, vbicumque est forma, ibi est 
       disposi<lb ed="#R" n="33" break="no"/>tio. Consequens est falsum, quia in antiquis 
@@ -742,7 +740,7 @@
       <lb ed="#R" n="35"/>gratia, &amp; tamen in eis nullus ponitur ornatus, vel 
       <lb ed="#R" n="36"/>character. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1470">
                   <lb ed="#R" n="37"/>Tertio ad idem, quia gratia praecedit 
       characte<lb ed="#R" n="38" break="no"/>rem, forma vero non disponit ad suam 
       dispositio<lb ed="#R" n="39" break="no"/>nem. Probo assumptum, quia in cathecumeno 
@@ -754,7 +752,7 @@
       <lb ed="#R" n="45"/>&amp; tamen character non datur in sola 
       contritione<lb ed="#R" n="46" break="no"/>cordis, sed post susceptionem Sacramenti. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1494">
                   <lb ed="#R" n="47"/>Quarto ad idem: Aeque immediate anima est 
       su<lb ed="#R" n="48" break="no"/>sceptiua gratiae sicut gloriae: sed anima secundum 
       <lb ed="#R" n="49"/>solam essentiam suam est immediate susceptiua 
@@ -763,19 +761,19 @@
       si<lb ed="#R" n="52" break="no"/>militer secundum substantiam suam est capax 
       <lb ed="#R" n="53"/>gratiae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1512">
                   <lb ed="#R" n="54"/>Confirmo hoc, quia dispositio ad gratiam non 
       <lb ed="#R" n="55"/>est nisi conatus per modum instrumenti: non ergo 
       <lb ed="#R" n="56"/>talis character. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1521">
                   <lb ed="#R" n="57"/>Confirmo etiam, quia dispositio, quae est-
       neces<lb ed="#R" n="58" break="no"/>saria, quamdiu manet, manet forma: sed quamdiu 
       <lb ed="#R" n="59"/>manet character, non manet gratia, patet de 
       ma<lb ed="#R" n="60" break="no"/>lo sacerdote, quo cadente in peccatum mortale 
       <lb ed="#R" n="61"/>manet character, nec tamen manet gratia. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1534">
                   <lb ed="#R" n="62"/>Sic ergo apparet, quod character non est 
       dispo<lb ed="#R" n="63" break="no"/>sitio ad gratiam, nisi sola voluntate diuina, puta 
       <lb ed="#R" n="64"/>quia placet Deo, quod qui habet illum, habeat 
@@ -790,7 +788,7 @@
       <lb ed="#R" n="71"/>per hoc, quod habent naturales proprias 
       opera<lb ed="#R" n="72" break="no"/>tiones. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1566">
                   <lb ed="#R" n="73"/>Secunda ratio principalis est ista. Ille modus, 
       <lb ed="#R" n="74"/>qui saluat efficaciam Sacramentorum cum 
       pluri<lb ed="#R" n="75" break="no"/>bus pactis, &amp; inconuenientibus, non saluat aeque 
@@ -802,13 +800,13 @@
       pa<lb ed="#R" n="81" break="no"/>ca. Probo, nam ad minus oportet, quod ponant 
       <lb ed="#R" n="82"/>quatuor paca.
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1590">
                   <lb ed="#R" n="83"/>Et primum quidem pactum est de 
       infusione<lb ed="#R" n="84" break="no"/>illius virtutis, puta quod Deus accedente 
       ver<lb ed="#R" n="85" break="no"/>bo ad elementum pepigerit infundere huiusmodi 
       <lb ed="#R" n="86"/>virtutem.
   </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1601">
                   <lb ed="#R" n="87"/>Et secundum pactum est in electione, nam si 
       <lb ed="#R" n="88"/>Sacerdos habeat tres hostias coram se, &amp; 
       profe<lb ed="#R" n="89" break="no"/>rat verba sacramentalia, dirigendo intentionem 
@@ -819,7 +817,7 @@
       <lb ed="#R" n="94"/>quam infundit verbis, non agat nisi circa illud, ad 
       <lb ed="#R" n="95"/>quod dirigitur intentio proferentis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1623">
                   <lb ed="#R" n="96"/>Et tertium pactum est in expectatione, nam 
       in<lb ed="#R" n="97" break="no"/>Sacramento Baptismi, quod integratur ex 
       ablu<lb ed="#R" n="98" break="no"/>tione &amp; verbo,non enim oportet, quod in eodem 
@@ -834,12 +832,12 @@
       <lb ed="#R" n="107"/>pepigit, quod non dabit gratiam, quousque ambo 
       <lb ed="#R" n="108"/>finiantur. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1654">
                   <lb ed="#R" n="109"/>Quartum vero pactum est, quia pepigit Deus, 
       <lb ed="#R" n="110"/>quod habenti characterem dabit gratiam, quod est 
       <lb ed="#R" n="111"/>pactum aliud a praedictis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1663">
                   <lb ed="#R" n="112"/>Secundo ponit iste modus multa 
       inconuenien<lb ed="#R" n="113" break="no"/>tia, quae superius sunt adducta. Confirmo hoc, quia 
       <lb ed="#R" n="114"/>aut verba alia causant characterem per vltimam 
@@ -852,14 +850,14 @@
       ali<lb ed="#R" n="121" break="no"/>quam aliam, per eandem rationem vltimam; ergo 
       <lb ed="#R" n="122"/>nullo modo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1690">
                   <lb ed="#R" n="123"/>Quod si dicas per primam, in virtute tamen prae 
       <lb ed="#R" n="124"/>cedentium, iam venis ad pactum, quod oportet 
       te<lb ed="#R" n="125" break="no"/>dicere quod sic est, quia Deus sic statuit: ergo quare 
       <lb ed="#R" n="126"/>Deus non sic potuit statuere, quod cui fuerit appli 
       <lb ed="#R" n="127"/>cata ablutio, immediate conferat gratiam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1703">
                   <lb ed="#R" n="128"/>Confirmo adhuc, quia non apparet si ponatur ta 
       <lb ed="#R" n="129"/>lis virtus in verbis, vbi sint subiectiue, quia vel 
       in<lb ed="#R" n="130" break="no"/>sono, &amp; non, quia est quaedam qualitas, qualitas 
@@ -878,18 +876,18 @@
       se<lb ed="#R" n="4" break="no"/>vt dicetur in quaestione quarta huius Distinctionis. 
     </p>
             </div>
-            <div>
-               <head>Articulus 3</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-hb2596-Dd1e1741">
+               <head xml:id="olm8ij-hb2596-Hd1e1743">Articulus 3</head>
+               <head xml:id="olm8ij-hb2596-Hd1e1745" type="question-title">
       Utrum Sacramenta Noua legis agant 
       instrumentaliter ad gratiam.
     </head>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1748">
                   <lb ed="#R" n="5"/>ARTICVLVS III 
       <lb ed="#R" n="6"/>Vtrum Sacramenta Noua legis agant 
       instru<lb ed="#R" n="7" break="no"/>mentaliter ad gratiam.
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1757">
                   <lb ed="#R" n="8"/>QVoad tertiam quaestionem probo primo, q 
       <lb ed="#R" n="9"/>Sacramenta Nouae legis agant 
       instrumenta<lb ed="#R" n="10" break="no"/>aliter ad gratiam, quoniam Hugo de 
@@ -898,7 +896,7 @@
       Sa<lb ed="#R" n="13" break="no"/>cramenta, scilicet, vt dicit habitudinem causae 
       in<lb ed="#R" n="14" break="no"/>strumentalis: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1775">
                   <lb ed="#R" n="15"/>In oppositum est, quia in omni agente 
       instrumen<lb ed="#R" n="16" break="no"/>tali est virtus deriuata a principali agente, sicut pa 
       <lb ed="#R" n="17"/>tet de dolabra, quod in ea est motus deriuatus ab 
@@ -907,13 +905,13 @@
       ali<lb ed="#R" n="20" break="no"/>qua virtus infusa inhaerens, mediante qua agunt ad 
       <lb ed="#R" n="21"/>gratiam: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1794">
                   <lb ed="#R" n="22"/>Respondeo, in quaesttione ista pono tres 
       propo<lb ed="#R" n="23" break="no"/>sitiones per ordinem, &amp; prima est de iustrumentis 
       <lb ed="#R" n="24"/>artificialibus; secunda est de instrumentis 
       natura<lb ed="#R" n="25" break="no"/>libus: &amp; tertia est ad propositum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1805">
                   <lb ed="#R" n="26"/>Quantum ad primum pono istam propositionem, 
       <lb ed="#R" n="27"/>quod instrumenta artis non sunt principia actiua, 
       <lb ed="#R" n="28"/>nec est in eis virtus deriuata aliqua a principali 
@@ -926,11 +924,11 @@
       pro<lb ed="#R" n="35" break="no"/>pter incompossibilitatem vnius subiecti respectu 
       <lb ed="#R" n="36"/>duarum formarum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1831">
                   <lb ed="#R" n="37"/>Hanc propositionem pono propter duas 
       opinio<lb ed="#R" n="38" break="no"/>nes, quae sunt circa istam materiam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1838">
                   <lb ed="#R" n="39"/>Nam opinio quorundam est, quod instrumenta 
       <lb ed="#R" n="40"/>artis sunt principia actiua, &amp; agunt per virtutem 
       <lb ed="#R" n="41"/>quandam immissam in eis, ac deriuatam a 
@@ -940,14 +938,14 @@
       <lb ed="#R" n="45"/>enim motum a principali agente, quo attingit 
       fi<lb ed="#R" n="46" break="no"/>guram ipsius denarij. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1858">
                   <lb ed="#R" n="47"/>Dicunt tamen isti vltra, quod talis virtus in 
       hu<lb ed="#R" n="48" break="no"/>iusmodi insrumentis non est in facto esse, sed 
       tan<lb ed="#R" n="49" break="no"/>tum in fieri, &amp; ideo non habent rationem principij 
       <lb ed="#R" n="50"/>actiui, nisi in quodam fieri, vt actualiter mouentur 
       <lb ed="#R" n="51"/>ab agente. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1871">
                   <lb ed="#R" n="52"/>Alij Doctores solemnes dicunt oppositum, quod 
       <lb ed="#R" n="53"/>scilicet in instrumentis artium nulla est talis virtus 
       <lb ed="#R" n="54"/>infusa &amp; deriuata ab agente, nec instrumentum 
@@ -976,7 +974,7 @@
       <lb ed="#R" n="75"/>impossibile est duo corpora simul esse, imo 
       repu<lb ed="#R" n="76" break="no"/>gnant in eodem situ. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1933">
                   <lb ed="#R" n="77"/>Dolabra ergo primo recipit effectum primum 
       <lb ed="#R" n="78"/>principalis agentis, scilicet motum localem ad 
       si<lb ed="#R" n="79" break="no"/>tum, vbi est pars expellenda, &amp; mediante motu 
@@ -990,14 +988,14 @@
       <lb ed="#R" n="87"/>ab agente siue ab artifice, a dolabra autem 
       forma<lb ed="#R" n="88" break="no"/>lis repugnantia. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1962">
                   <lb ed="#R" n="89"/>Exemplum est ad hoc, agens enim aliquod 
       ex<lb ed="#R" n="90" break="no"/>pellit frigus per calorem, ibi calor non mediat 
       in<lb ed="#R" n="91" break="no"/>ter agens &amp; frigus expellendum in ratione 
       agen<lb ed="#R" n="92" break="no"/>tis, sed tantum in ratione formae, in expellendo 
       in<lb ed="#R" n="93" break="no"/>compossibilis, &amp; repagnantis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e1975">
                   <lb ed="#R" n="94"/>Ego autem de istis opinionibus eligo, &amp; 
       adhae<lb ed="#R" n="95" break="no"/>reo opinioni secundae arctificato termino vno 
       ver<lb ed="#R" n="96" break="no"/>bo: non enim video quod in instrumento artis sit 
@@ -1014,7 +1012,7 @@
       <lb ed="#R" n="107"/>vel eo modo quo duae formae repugnant in eodem 
       <lb ed="#R" n="108"/>subiecto. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e2010">
                   <lb ed="#R" n="109"/>Ego rectificando istud dico, quod magis debet 
       <lb ed="#R" n="110"/>dici incompossibilitas subiectiua eo modo, quo 
       re<lb ed="#R" n="111" break="no"/>pugnant duo subiecta respectu vnius formae: 
@@ -1024,7 +1022,7 @@
       <lb ed="#R" n="115"/>remouenda per securim repugnant in eodem situ, 
       <lb ed="#R" n="116"/>est repugnantia tantum subiectiua non formalis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e2030">
                   <lb ed="#R" n="117"/>Exemplum, si esset albedo in vno subie cto, &amp; 
       <lb ed="#R" n="118"/>stante ea in illo vellem ponere in alio subiecto, haec 
       <lb ed="#R" n="119"/>esset repugnantia subiectiua, quia duo subiecta 
@@ -1051,7 +1049,7 @@
       quo<lb ed="#R" n="4" break="no"/>rum diuersitatem sequitur necessario diuersitas 
       fi<lb ed="#R" n="5" break="no"/>gurarum.
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e2087">
                   <lb ed="#R" n="6"/>Ex his ergo praemissis potest talis ratio 
       forma<lb ed="#R" n="7" break="no"/>ri ad istam primam propositionem probandam: 
       <lb ed="#R" n="8"/>sicut est in alĳs motibus, sic etiam est suo modo in 
@@ -1084,7 +1082,7 @@
       <lb ed="#R" n="35"/>alia &amp; alia figura, quia alietas figurae sequitur ad 
       <lb ed="#R" n="36"/>alietatem situs. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e2158">
                   <lb ed="#R" n="37"/>Sed forte dicetur contra ista. Primo, quia si sic 
       <lb ed="#R" n="38"/>est, quod diuersi artifices indigent diuersis 
       instru<lb ed="#R" n="39" break="no"/>mentis. Secundo, si repugnantia est subiectiua 
@@ -1093,12 +1091,12 @@
       <lb ed="#R" n="42"/>Deus non possit super repugnantiam formae, &amp; 
       ef<lb ed="#R" n="43" break="no"/>fectus formalis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e2176">
                   <lb ed="#R" n="44"/>Respondeo ad primum, diuersitas 
       insrumen<lb ed="#R" n="45" break="no"/>torum est propter diuersitatem formarum, &amp; 
       fi<lb ed="#R" n="46" break="no"/>gurarum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e2185">
                   <lb ed="#R" n="47"/>Sciendum tamen est, quod formarum quaedam 
       <lb ed="#R" n="48"/>sunt, quae proprie &amp; directe inducuntur per artem, 
       <lb ed="#R" n="49"/>&amp; omnia talia acquiruntur per motum localem, 
@@ -1118,7 +1116,7 @@
       Medi<lb ed="#R" n="63" break="no"/>cina inducit sanitatem, quae vere &amp; proprie est 
       <lb ed="#R" n="64"/>forma naturalis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e2227">
                   <lb ed="#R" n="65"/>Tunc ergo in proposito loquor de formis, quae 
       <lb ed="#R" n="66"/>directe &amp; proprie sunt formae artificia les: de 
       tali<lb ed="#R" n="67" break="no"/>bus enim formis dico, quod ideo artifices indigent 
@@ -1127,7 +1125,7 @@
                   <lb ed="#R" n="68"/>diuersis instrumentis, quia intendunt diuersas tales 
       <lb ed="#R" n="69"/>figuras, &amp; formas. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e2245">
                   <lb ed="#R" n="70"/>Et hoc est rationabiliter, nam motus localis 
       va<lb ed="#R" n="71" break="no"/>riat situm ipsarum partium: variato autem situ par 
       <lb ed="#R" n="72"/>tium variatur figura. Probo, quia figura non est 
@@ -1147,7 +1145,7 @@
       pannifi<lb ed="#R" n="86" break="no"/>cem ad mouendum ouum, fila, &amp; alia ad 
       compri<lb ed="#R" n="87" break="no"/>mendum ea. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e2287">
                   <lb ed="#R" n="88"/>Ex his apparet, quod nolentes ponere in 
       Sa<lb ed="#R" n="89" break="no"/>cramentis virtutem instrumentaliter coagentem 
       <lb ed="#R" n="90"/>Deo, nullum habent rationale motiuum; nam cum 
@@ -1157,7 +1155,7 @@
       <lb ed="#R" n="94"/>primo recipitur in ipsis Sacramentis, non apparet 
       <lb ed="#R" n="95"/>vnde hoc(quod dicunt)sit rationabile. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e2308">
                   <lb ed="#R" n="96"/>Secunda Propositio est de agentibus 
       instrumen<lb ed="#R" n="97" break="no"/>talibus naturalibus, &amp; de his est vnum concessum 
       <lb ed="#R" n="98"/>ab omnibus, quod talia sunt principia vere actiua: 
@@ -1179,12 +1177,12 @@
       <lb ed="#R" n="114"/>ignis, &amp; propriam formam substantia lem. Alij 
       ve<lb ed="#R" n="115" break="no"/>ro Docttores dicunt oppositum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e2354">
                   <lb ed="#R" n="116"/>Ego autem eligo opinionem Philosophi, &amp; 
       <lb ed="#R" n="117"/>Commentatoris, propter quod pono istam 
       pro<lb ed="#R" n="118" break="no"/>positionem.
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e2363">
                   <lb ed="#R" n="119"/>Quod agens principale in generatione 
       substan<lb ed="#R" n="120" break="no"/>tiae, de qua est sermo, non inducit per formam 
       <lb ed="#R" n="121"/>suam immediate in materia formam substantialem, 
@@ -1211,7 +1209,7 @@
       acquisi<lb ed="#R" n="5" break="no"/>tis in materia statim ibi sequitur forma 
       substantia<lb ed="#R" n="6" break="no"/>lis per modum finis, &amp; sequelae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e2420">
                   <lb ed="#R" n="7"/>Sciendum est enim, quod sicut qui facit domum, 
       <lb ed="#R" n="8"/>non est imaginandum quod primo eleuet lapidem 
       <lb ed="#R" n="9"/>post lapidem, &amp; postquam facta est vltima 
@@ -1226,14 +1224,14 @@
       mo<lb ed="#R" n="18" break="no"/>tum ipsarum partium per modum cuiusdam 
       se<lb ed="#R" n="19" break="no"/>quelae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e2451">
                   <lb ed="#R" n="20"/>Sic dico in proposito, quando agens 
       naturale<lb ed="#R" n="21" break="no"/>alterat materiam, in vltimo instanti non agit ad 
       <lb ed="#R" n="22"/>eductionem formae per formam suam, sed forma 
       <lb ed="#R" n="23"/>in eodem instanti sequitur eandem alterationem 
       <lb ed="#R" n="24"/>per modum sequelae, &amp; finis alterationis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e2464">
                   <lb ed="#R" n="25"/>Hanc autem probo, quoniam si in vitimo 
       in<lb ed="#R" n="26" break="no"/>stanti forma substantialis influeret per formam 
       <lb ed="#R" n="27"/>substantialem, &amp; accidentia influerent per 
@@ -1256,7 +1254,7 @@
       in<lb ed="#R" n="44" break="no"/>stanti per modum cuiusdam sequelae sequitur 
       for<lb ed="#R" n="45" break="no"/>ma pulli. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e2513">
                   <lb ed="#R" n="46"/>Videtur autem quibusdam, quod forma pulli 
       <lb ed="#R" n="47"/>geniti in instanti, quo completa est praecedens 
       al<lb ed="#R" n="48" break="no"/>teratio inducitur a forma caeli. 
@@ -1264,7 +1262,7 @@
       Phi<lb ed="#R" n="50" break="no"/>losophia, sicut Deus est refugium miserorum in 
       <lb ed="#R" n="51"/>Theologia. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e2529">
                   <lb ed="#R" n="52"/>Et probo, quod non possit esse a caelo, nam cum 
       <lb ed="#R" n="53"/>substantia coeli tantum distet ab ista substantia, &amp; 
       <lb ed="#R" n="54"/>materia quomodo porest esse causa istius 
@@ -1274,7 +1272,7 @@
       alte<lb ed="#R" n="58" break="no"/>rare, cum sit forma accidentalis, sequitur quod 
       ta<lb ed="#R" n="59" break="no"/>lis forma non inducitur nisi per alterationem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e2549">
                   <lb ed="#R" n="60"/>Si vero dicas, quod non oportet, quod agens sit 
       <lb ed="#R" n="61"/>simul cum paso ad hoc, quod inducat formnam 
       <lb ed="#R" n="62"/>cum eo, &amp; hoc quando passum fuit vltimate 
@@ -1282,7 +1280,7 @@
       appa<lb ed="#R" n="64" break="no"/>ret de aere, qui est dispositus ad lucem, in quo sol, 
       <lb ed="#R" n="65"/>licet sit distans, inducit formam luminis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e2565">
                   <lb ed="#R" n="66"/>Si sic dicatur, non video quod hoc sit 
       possibi<lb ed="#R" n="67" break="no"/>le; tum quia secundum Augustinum, agens cor- 
       <!--0016.xml-->
@@ -1290,7 +1288,7 @@
                   <lb ed="#R" n="68"/>poreum agit per contactum; tum quia ageret 
       in<lb ed="#R" n="69" break="no"/>infinitum; tum quia esset illimitatus.
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e2581">
                   <lb ed="#R" n="70"/>Haec Conclusio est expresse de mente 
       Commen<lb ed="#R" n="71" break="no"/>tatoris 12. metaph. commen. J8. vbi ait: Vna 
       quae<lb ed="#R" n="72" break="no"/>cumque forma substantialis habet complexionem 
@@ -1308,7 +1306,7 @@
       <lb ed="#R" n="84"/>&amp; generatio, quae est inductio formae, sint eadem 
       <lb ed="#R" n="85"/>actio. 
   </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e2618">
                   <lb ed="#R" n="86"/>Haec est ergo intentio Commentatoris &amp; 
       Phi<lb ed="#R" n="87" break="no"/>losophi, &amp; omnium philosophantium; vnde 
       ima<lb ed="#R" n="88" break="no"/>ginatur Commentator, quod accidentia 
@@ -1351,7 +1349,7 @@
       <lb ed="#R" n="125"/>proprias vltimate, idem per modum sequelae facit 
       <lb ed="#R" n="126"/>formam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e2710">
                   <lb ed="#R" n="127"/>Dico ergo pro ista secunda propositione, quod 
       <lb ed="#R" n="128"/>agens instrumentale in naturalibus non est aliud, 
       <lb ed="#R" n="129"/>quam qualitates complexionales formae 
@@ -1366,7 +1364,7 @@
                   <lb ed="#R" n="1"/>terminus generationis, non inducitur in instanti 
       <lb ed="#R" n="2"/>generationis per ipsam formam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e2741">
                   <lb ed="#R" n="3"/>Respondeo, dico, quod forma substantialis 
       de<lb ed="#R" n="4" break="no"/>terminat qualitates illas ad huiusmodi 
       dispositio<lb ed="#R" n="5" break="no"/>nem, vnde forma substantialis ignis generantis 
@@ -1382,7 +1380,7 @@
       <lb ed="#R" n="15"/>habent istam dispositionem, &amp; temperamentum 
       <lb ed="#R" n="16"/>determinatiue a forma substantiali. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e2774">
                   <lb ed="#R" n="17"/>Sed hic sunt aliqua dubia. Primum, quia 
       secun<lb ed="#R" n="18" break="no"/>dum hoc forma accidentales prius inerunt 
       mate<lb ed="#R" n="19" break="no"/>riae, quam forma substantialis. Secundo, quia eff
@@ -1392,7 +1390,7 @@
       <lb ed="#R" n="23"/>isam, dissoluentur infra, cum tractabitur de 
       acci<lb ed="#R" n="24" break="no"/>dentibus in materia de Eucharistia. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e2794">
                   <lb ed="#R" n="25"/>Tertia Propositio est quantum ad propositum, 
       <lb ed="#R" n="26"/>an Sacramenta respectu gratiae agant 
       insrumen<lb ed="#R" n="27" break="no"/>taliter. Dico autem hanc propositionem, quod 
@@ -1411,7 +1409,7 @@
       sequi<lb ed="#R" n="40" break="no"/>tur necessario forma substantialis, sic non potest po 
       <lb ed="#R" n="41"/>ni in proposito. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e2833">
                   <lb ed="#R" n="42"/>Quomodo ergo? dico, quod agunt vere sicut agit 
       <lb ed="#R" n="43"/>agens applicans actiua passiuis, vt dicum est in 
       <lb ed="#R" n="44"/>praecedentibus, &amp; ideo non proprie agunt 
@@ -1424,18 +1422,18 @@
       Sacra<lb ed="#R" n="51" break="no"/>menta. 
     </p>
             </div>
-            <div>
-               <head>Articulus 4</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-hb2596-Dd1e2859">
+               <head xml:id="olm8ij-hb2596-Hd1e2861">Articulus 4</head>
+               <head xml:id="olm8ij-hb2596-Hd1e2863" type="question-title">
       Utrum Sacramenta sint causa gratiae per accidens, 
       vel causa sine qua non.
     </head>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e2866">
                   <lb ed="#R" n="52"/>ARTICVLVS IIII 
       <lb ed="#R" n="53"/>Vtrum Sacramenta sint causa gratiae per accidens, 
       <lb ed="#R" n="54"/>vel causa sine qua non.
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e2875">
                   <lb ed="#R" n="55"/>HAnc Propositionem, seu Articulum sic 
       decla<lb ed="#R" n="56" break="no"/>rd: Esse enim sine quo non circuit omnes cau 
       <lb ed="#R" n="57"/>sas, nam omnes causae sunt causae sine qua non: 
@@ -1457,7 +1455,7 @@
       <lb ed="#R" n="71"/>magis causa istius sine qua non, quam 
       quodcum<lb ed="#R" n="72" break="no"/>que aliud extraneum ab isto. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e2921">
                   <lb ed="#R" n="73"/>Ad maiorem autem euidentiam eorum, quae sunt 
       <lb ed="#R" n="74"/>dicenda, distinguo de causis, non enim omnis 
       cau<lb ed="#R" n="75" break="no"/>sa est illa, a qua profluit effecus, nam a fine non 
@@ -1474,7 +1472,7 @@
       <lb ed="#R" n="86"/>quod homo &amp; sol faciunt aliquid, quo facto Deus 
       <lb ed="#R" n="87"/>inducit formam hominis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e2957">
                   <lb ed="#R" n="88"/>Hoc etiam modo incendiarius est causa per 
       se<lb ed="#R" n="89" break="no"/>combustionis domus, non quod combustio effluat 
       <lb ed="#R" n="90"/>ab eo, imo effluit ab igne, sed quia facit aliquid 
@@ -1486,13 +1484,13 @@
       <lb ed="#R" n="96"/>qua sic, non tantum sine qua non; imo quia 
       ali<lb ed="#R" n="97" break="no"/>quid facit, ideo ipsum est causa sine qua non.
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e2981">
                   <lb ed="#R" n="98"/>Secundo pono propositionem istam: Quod 
       Sa<lb ed="#R" n="99" break="no"/>cramenta non sunt causa gratiae in anima tantum 
       <lb ed="#R" n="100"/>per accidens, sed per se. Ad cuius euidentiam 
       di<lb ed="#R" n="101" break="no"/>stinguo de per se. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e2992">
                   <lb ed="#R" n="102"/>Causarum enim per se quaedam sunt, quarum 
       <lb ed="#R" n="103"/>causalitas est directe, &amp; per se in effectum; 
       quae<lb ed="#R" n="104" break="no"/>dam vero quarum causalitas non est directe in 
@@ -1509,7 +1507,7 @@
       virtu<lb ed="#R" n="115" break="no"/>tem diuinam ad agere, quae alias non ageret, nisi 
       <lb ed="#R" n="116"/>sic applicata. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e3027">
                   <lb ed="#R" n="117"/>Sed dices: Deus non necessitatur respectu 
       ali<lb ed="#R" n="118" break="no"/>cuius, quod fit ad extra, quomodo ergo 
       Sacra<lb ed="#R" n="119" break="no"/>menta applicant virtutem diuinam ad 
@@ -1527,7 +1525,7 @@
       <lb ed="#R" n="131"/>sensibile: sed Petrus nunc recipit hoc signum 
       sen<lb ed="#R" n="132" break="no"/>sibile: ergo Petro volo dare nunc gratiam
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e3064">
                   <lb ed="#R" n="133"/>
                   <!-- line break missing in line coords --> Ecce quomodo Sacramentum, quod est ipsum
       <!--0018.xml-->
@@ -1543,7 +1541,7 @@
       <lb ed="#R" n="8"/>determinat, hinc est quod non necessitat Deum in 
       <lb ed="#R" n="9"/>aliquo ad agendum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e3097">
                   <lb ed="#R" n="10"/>Exemplum huius est, quia qui impetrat alteri 
       <lb ed="#R" n="11"/>praebendam, vere &amp; per se dicitur esse causa 
       il<lb ed="#R" n="12" break="no"/>lius praebendae, per hoc solum quod applicauit dan 
@@ -1554,7 +1552,7 @@
       <lb ed="#R" n="17"/>tatem alterius ad actum, licet ab eo non effluxerit 
       <lb ed="#R" n="18"/>ille actus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e3120">
                   <lb ed="#R" n="19"/>Sed contra ista. Videtur secundum hoc 
       Baptis<lb ed="#R" n="20" break="no"/>mum non esse causam per se, sed per accidens: si 
       <lb ed="#R" n="21"/>tamen est causa per hoc, quod applicat actiuum 
@@ -1564,7 +1562,7 @@
       remo<lb ed="#R" n="25" break="no"/>uens prohibens quae remouet distantiam, quae 
       im<lb ed="#R" n="26" break="no"/>pedit actionem agentis in passum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e3140">
                   <lb ed="#R" n="27"/>Et confirmatur, quia aperiens fenestram, certum 
       <lb ed="#R" n="28"/>est quod est causa illuminationis per accidens, &amp; ta 
       <lb ed="#R" n="29"/>men ille non aliud facit, nisi quod applicat actiuum 
@@ -1587,7 +1585,7 @@
       <lb ed="#R" n="46"/>quod est causa approximationis, &amp; applicationis 
       <lb ed="#R" n="47"/>est causa per se. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e3188">
                   <lb ed="#R" n="48"/>Item secundo, quia secundum Philosophum 6. 
       <lb ed="#R" n="49"/>Ethic. tria sunt in nobis dominatiua actus, &amp; quae 
       <lb ed="#R" n="50"/>per fe faciunt ad operationem, scilicet intellectus, 
@@ -1596,7 +1594,7 @@
       <lb ed="#R" n="53"/>uam ad agere: ergo causa applicans secundum Phi 
       <lb ed="#R" n="54"/>losophum, est vere causa per se. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e3206">
                   <lb ed="#R" n="55"/>Item secundum Philosophum 5. metaph. 
       causa<lb ed="#R" n="56" break="no"/>per accidens est, quae est cniuncta causae per se, &amp; 
       <lb ed="#R" n="57"/>nihil operatur. sicut Policletus est causa per 
@@ -1604,7 +1602,7 @@
       <lb ed="#R" n="59"/>causa, quia coniungitur in eodem subiecto, vel sup 
       <lb ed="#R" n="60"/>posito cum causa per se: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e3222">
                   <lb ed="#R" n="61"/>Dico ergo breuiter, quod illud, per cuius 
       appli<lb ed="#R" n="62" break="no"/>cationem aliquid se habet aliter ad causalitatem, 
       <lb ed="#R" n="63"/>&amp; modum causalitatis, quam alias se haberet, 
@@ -1612,7 +1610,7 @@
       <lb ed="#R" n="65"/>non enim se habet solummodo sicut Policletus, 
       <lb ed="#R" n="66"/>quare applicans elt vera causa per se. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e3238">
                   <lb ed="#R" n="67"/>Et confirmo: quia quod per se negatiue facit ad 
       <lb ed="#R" n="68"/>non agere, per se affirmatiue facit ad agere, quia 
       <!--0018.xml-->
@@ -1620,13 +1618,13 @@
                   <lb ed="#R" n="69"/>si negatio est per se causa negationis, &amp; affirmatio 
       <lb ed="#R" n="70"/>est per se causa affirmationis.
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e3255">
                   <lb ed="#R" n="71"/>Confirmo etiam, quia non aliter Sancti 
       dicun<lb ed="#R" n="72" break="no"/>tur facere miracula, nisi per hoc, quod applicant 
       <lb ed="#R" n="73"/>diuinam voluntatem ad agere, &amp; tamen vere, &amp; per 
       <lb ed="#R" n="74"/>se Sancti dicuntur agere mirabilia. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e3266">
                   <lb ed="#R" n="75"/>Ad illud autem quod dicitur, quod remouens 
       <lb ed="#R" n="76"/>prohibens est causa per accidens, respondeo, quod 
       <lb ed="#R" n="77"/>motor potest dici per accidens duobus modis, vno 
@@ -1634,7 +1632,7 @@
       <lb ed="#R" n="79"/>non transit directe super effectum, licet motor 
       re<lb ed="#R" n="80" break="no"/>spectu istius motus sit causa per se. 
     </p>
-               <p>
+               <p xml:id="olm8ij-hb2596-d1e3282">
                   <lb ed="#R" n="81"/>Quandoque aliquis dicitur motor per accidens, 
       <lb ed="#R" n="82"/>quia accidit causae per se, sicut Policletus dicitur 
       <lb ed="#R" n="83"/>domi ficare per accidens, eo quod actualiter 

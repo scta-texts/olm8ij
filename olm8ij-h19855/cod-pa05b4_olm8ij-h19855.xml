@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,13 +53,13 @@
       </front>
       <body>
          <div xml:id="olm8ij-h19855"> <!-- l4-d6prae -->
-            <head>Praeambulum</head>
-            <p>
+            <head xml:id="olm8ij-h19855-Hd1e102">Praeambulum</head>
+            <p xml:id="olm8ij-h19855-d1e104">
                <lb ed="#R" n="96"/>DISTINCTIO VI 
       <lb ed="#R" n="97"/>DE SOLEMNITATIBVS 
       <lb ed="#R" n="98"/>BAPTISMI.
     </p>
-            <p>
+            <p xml:id="olm8ij-h19855-d1e113">
                <lb ed="#R" n="99"/>Nunc quibus liceat baptizare, &amp;c. In ista 
       <lb ed="#R" n="100"/>sexta Disttinctione Magiser agit de septem 
       <lb ed="#R" n="101"/>scilicet, quibus liceat baptizare: secundo 
@@ -79,12 +77,12 @@
       <lb ed="#R" n="113"/>sufficienter, ideo circa duo reliqua 
       quae<lb ed="#R" n="114" break="no"/>ro duas quaestiones. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h19855-d1e150">
                <lb ed="#R" n="115"/>Prima est: Vtrum obseruantia, quae est 
       ordi<lb ed="#R" n="116" break="no"/>nata in Baptismo quo ad solemnitatem, sit 
       <lb ed="#R" n="117"/>congrue instituta.
   </p>
-            <p>
+            <p xml:id="olm8ij-h19855-d1e160">
                <lb ed="#R" n="118"/>Secunda est: Vtrum Cathechismus, &amp; 
       Exor<lb ed="#R" n="119" break="no"/>cismus sint proprie Sacramenta.
   </p>

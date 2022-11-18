@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,8 +53,8 @@
       </front>
       <body>
          <div xml:id="olm8ij-h41213"> <!-- l4-d13prae -->
-            <head>Praeambulum</head>
-            <p>
+            <head xml:id="olm8ij-h41213-Hd1e102">Praeambulum</head>
+            <p xml:id="olm8ij-h41213-d1e104">
                <lb ed="#R" n="106"/>DISTINCTIO XIII 
       <lb ed="#R" n="107"/>
       QJOAAJVLAJAJJJ<lb ed="#R" n="108" break="no"/>QODM 
@@ -71,7 +69,7 @@
                <lb ed="#R" n="113"/>
                <!-- line coord error -->
             </p>
-            <p>
+            <p xml:id="olm8ij-h41213-d1e135">
                <lb ed="#R" n="114"/>Solet &amp; quaeri, &amp;c. Ista est vltima pars 
       tra<lb ed="#R" n="115" break="no"/>ctatus de Sacramento Eucharistiae, &amp; est 
       <lb ed="#R" n="116"/>Distinctio xiij. in qua Magister agit de 
@@ -81,7 +79,7 @@
                <lb ed="#R" n="119"/>&amp; ministrum. Ad euidentiam autem istius 
       <lb ed="#R" n="120"/>materiae quaero tres quaestiones.
   </p>
-            <p>
+            <p xml:id="olm8ij-h41213-d1e155">
                <lb ed="#R" n="121"/>1 Prima est: Vtrum miracula, quae fiunt 
       actio<lb ed="#R" n="122" break="no"/>ne diuina in hoc Sacramento, sint contra proposis 
       <lb ed="#R" n="123"/>tiones per se in secundo modo. 

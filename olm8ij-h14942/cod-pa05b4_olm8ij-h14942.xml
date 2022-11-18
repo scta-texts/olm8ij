@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,22 +53,22 @@
       </front>
       <body>
          <div xml:id="olm8ij-h14942"> <!-- l4-d3q4 -->
-            <head>Quaestio 4</head>
-            <p>
+            <head xml:id="olm8ij-h14942-Hd1e102">Quaestio 4</head>
+            <p xml:id="olm8ij-h14942-d1e104">
                <lb ed="#R" n="78"/>Quaestio IIII.
     </p>
-            <div>
-               <head>Articulus 1</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h14942-Dd1e109">
+               <head xml:id="olm8ij-h14942-Hd1e111">Articulus 1</head>
+               <head xml:id="olm8ij-h14942-Hd1e113" type="question-title">
         Utrum institutio Baptismi evacuaveris 
         Circumcisionem. 
       </head>
-               <p>
+               <p xml:id="olm8ij-h14942-d1e116">
                   <lb ed="#R" n="79"/>ARTICVLVS VNJCVS. 
       <lb ed="#R" n="80"/>Vtrum institutio Baptismi euacuaueris 
       <lb ed="#R" n="81"/>Circumcisionem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h14942-d1e125">
                   <lb ed="#R" n="82"/>VLTIMO ad quartam 
       <lb ed="#R" n="83"/>quaestionem, arguo primo 
       <lb ed="#R" n="84"/>quod institutio baptismi 
@@ -85,13 +83,13 @@
       Cir<lb ed="#R" n="93" break="no"/>cumcisio Abraham in foedus sempiternum: ergo 
       <lb ed="#R" n="94"/>nunquam fuit mutatum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h14942-d1e156">
                   <lb ed="#R" n="95"/>In oppositum est auctoritas Scripturae, &amp; 
       Magi<lb ed="#R" n="96" break="no"/>stri, vnde ad Galat. 5. Si circuncidimini Christo, 
       <lb ed="#R" n="97"/>nihil vobis proderit. Respondeo in ista quaestione 
       <lb ed="#R" n="98"/>pono per ordinem quatuor propositiones. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h14942-d1e168">
                   <lb ed="#R" n="99"/>Prima est, quod baptismus debuit 
       immutare<lb ed="#R" n="100" break="no"/>Circuncisionem. Hanc conclusionem probo 
       aliqui<lb ed="#R" n="101" break="no"/>bus rationibus. Primo sic: Omne falsum signum 
@@ -109,7 +107,7 @@
       <lb ed="#R" n="113"/>vt significant, futurum fuerunt falsa tempore 
       passio<lb ed="#R" n="114" break="no"/>nis Christi exhibitae. ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h14942-d1e205">
                   <lb ed="#R" n="115"/>Dices, quod ratio concludit bene, quod Circũ- 
       <lb ed="#R" n="116"/>cisio immutari debuit, quantum ad id, quod 
       for<lb ed="#R" n="117" break="no"/>maliter importat inquantum est Sacramentum, 
@@ -121,7 +119,7 @@
       <lb ed="#R" n="123"/>idem fundamentum fundare aliam, &amp; aliam 
       habi<lb ed="#R" n="124" break="no"/>tudinem signi pro alio, &amp; alio instanti. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h14942-d1e229">
                   <lb ed="#R" n="125"/>Contra hanc responsionem arguo primo, quod 
       <lb ed="#R" n="126"/>Circumcisio, ne dum debuit immutari non solum 
       <lb ed="#R" n="127"/>quo ad relationem signi, scilicet suum formale; 
@@ -143,7 +141,7 @@
       so<lb ed="#R" n="11" break="no"/>lum quo ad formale, sed quo ad fundamentum 
       <lb ed="#R" n="12"/>quod est signum sensibile. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h14942-d1e275">
                   <lb ed="#R" n="13"/>Secunda Propositio est, quod necessitas legalium 
       <lb ed="#R" n="14"/>cessauit tempore praedicationis Christi: quod dico, 
       <lb ed="#R" n="15"/>quia videtur aliquibus, quod necessitas legalium 
@@ -161,13 +159,13 @@
       <lb ed="#R" n="27"/>in die illa. Similiter, quando permisit Apostolos 
       e<lb ed="#R" n="28" break="no"/>uellere spicas in Sabbato. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h14942-d1e312">
                   <lb ed="#R" n="29"/>Secundo, quia adorare in templo erat 
       solemnis<lb ed="#R" n="30" break="no"/>simum omnium legalium, de quo ait Jesus 
       Sama<lb ed="#R" n="31" break="no"/>ritanae: Venit hora, quando non in monte, nec in-- 
       <lb ed="#R" n="32"/>Hierosolymis adorabitis Patrem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h14942-d1e323">
                   <lb ed="#R" n="33"/>Similiter immutauit tempore praedicationis 
       le<lb ed="#R" n="34" break="no"/>galia, vt expresse habetur de muliere adultera, 
       <lb ed="#R" n="35"/>quam praecipiebat lex Moysis lapidari, ad quam 
@@ -182,7 +180,7 @@
       dimit<lb ed="#R" n="44" break="no"/>tere, nisi auctoritate instituentis, vel auctoritatem 
       <lb ed="#R" n="45"/>consimilem obtinentis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h14942-d1e355">
                   <lb ed="#R" n="46"/>Sed qui tempore praedicationis eius certi non 
       <lb ed="#R" n="47"/>fuerunt de eius diuinitate, ac per consequens 
       de<lb ed="#R" n="48" break="no"/>pari potestate, cum potestate instituentis legem 
@@ -197,7 +195,7 @@
       li<lb ed="#R" n="57" break="no"/>cet qui ignorantiam habebant de eius 
       diuinitate<lb ed="#R" n="58" break="no"/>ad talia non tenerentur. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h14942-d1e386">
                   <lb ed="#R" n="59"/>Tertiam propositionem pono de 
       Circumcisio<lb ed="#R" n="60" break="no"/>nis vtilitate, quando scilicet primo debuit 
       ineffi<lb ed="#R" n="61" break="no"/>cax reputari. Ad quod dicunt quidam, quod 
@@ -212,7 +210,7 @@
                   <lb ed="#R" n="68"/>templum, ac Sancta Sanctorum, quod congruebat 
       <lb ed="#R" n="69"/>legi gratiae, ac maxime libertatis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h14942-d1e417">
                   <lb ed="#R" n="70"/>Alij vero dicunt, quod cessauit eius vtilitas, 
       quan<lb ed="#R" n="71" break="no"/>do sanctum Euangeiium publica Apostolorum, ac 
       <lb ed="#R" n="72"/>discipulorum praedicatione primo ad hominum no 
@@ -228,7 +226,7 @@
       ali<lb ed="#R" n="82" break="no"/>quam factam a Deo circa legem, vel circa seipsos, 
       <lb ed="#R" n="83"/>vt erant sub lege: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h14942-d1e450">
                   <lb ed="#R" n="84"/>Secundo ad idem, quia nullo tempore dimisit 
       <lb ed="#R" n="85"/>Deus naturam humanam sine remedio contra mor 
       <lb ed="#R" n="86"/>bum peccati: tunc autem, si Circumcisio non ha 
@@ -237,7 +235,7 @@
       <lb ed="#R" n="89"/>homines communiter absque noto sibi remedio 
       con<lb ed="#R" n="90" break="no"/>tra morbum: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h14942-d1e468">
                   <lb ed="#R" n="91"/>Quantum ad istum articulum dico, quod secus 
       <lb ed="#R" n="92"/>est in naturalibus, secus in moralibus: nam licet in 
       <lb ed="#R" n="93"/>moralibus actus aliquis, &amp; conditio pro eodem 
@@ -266,7 +264,7 @@
       <lb ed="#R" n="116"/>sed pro alio, quo doctrina Euangelij vbique fuit 
       <lb ed="#R" n="117"/>praedicata. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h14942-d1e529">
                   <lb ed="#R" n="118"/>Quarta Propositio est de licentia 
       circumcisio<lb ed="#R" n="119" break="no"/>nis &amp; legalium, quo scilicet tempore fuit primo 
       <lb ed="#R" n="120"/>illicitum seruare eam, vtrum. statim post 
@@ -278,11 +276,11 @@
       ob<lb ed="#R" n="126" break="no"/>seruabat legem, Act. 21. Et de Petro legitur, quod 
       <lb ed="#R" n="127"/>separabat se a gentibus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h14942-d1e554">
                   <lb ed="#R" n="128"/>Respondeo, hic fuit pugna magna inter 
       Hiero<lb ed="#R" n="129" break="no"/>nymum, &amp; Augustinum, &amp; hoc in duobus punctis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h14942-d1e561">
                   <lb ed="#R" n="130"/>Primus punctus erat quo ad licentiam legalium, 
       <lb ed="#R" n="131"/>Vtrum fuerit statim post Pentecosten prohibita, &amp; 
       <lb ed="#R" n="132"/>dicebat Hieronymus, quod sic, scilicet, quia cir. 
@@ -295,7 +293,7 @@
                   <lb ed="#R" n="1"/>fecerunt ad vitandum scandalum Iudaeorum, qui 
       <lb ed="#R" n="2"/>erant conuersi ad fidem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h14942-d1e587">
                   <lb ed="#R" n="3"/>Sed Augustinus arguit contra eum, quod non 
       <lb ed="#R" n="4"/>debuerunt propter scandalum vitandum 
       facere<lb ed="#R" n="5" break="no"/>illicita, quia vtilius scandalum nasci permittitur, quam 
@@ -309,14 +307,14 @@
       <lb ed="#R" n="13"/>verum, quia iam fieret scandalum actiuum, si fieret 
       <lb ed="#R" n="14"/>quocunque modo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h14942-d1e616">
                   <lb ed="#R" n="15"/>Dico ergo aliter, quod apud Gentiles 
       cessaue<lb ed="#R" n="16" break="no"/>runt in Concilio facto in Hierusalem sub Iacobo 
       <lb ed="#R" n="17"/>Episcopo ibidem, qui determinauit, quod onus 
       le<lb ed="#R" n="18" break="no"/>gis non imponeretur eis, &amp; ideo definitum suit, vt 
       <lb ed="#R" n="19"/>abstinerent ab eis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h14942-d1e629">
                   <lb ed="#R" n="20"/>Sed quid de Thimotheo, qui erat filius mulieris 
       <lb ed="#R" n="21"/>gentilis, quem post illud Concil. Paulus 
       circunci<lb ed="#R" n="22" break="no"/>dit, respondeo quamdiu maneret aliquod dubium 
@@ -330,14 +328,14 @@
       cre<lb ed="#R" n="30" break="no"/>ditur, quod tunc, quando clamauit ad Galat. Si 
       <lb ed="#R" n="31"/>circuncidimini, Cristus nihil vobis prodest. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h14942-d1e658">
                   <lb ed="#R" n="32"/>Alius punctus, in quo discordabantHieronymus 
       <lb ed="#R" n="33"/>&amp; Auguscinus est, quod Hieronymus dicit, quod 
       <lb ed="#R" n="34"/>Petrus non erat reprehensibilis. Augustinus dicit, 
       <lb ed="#R" n="35"/>quod imo, quia textus dicit hoc expresse, cui nihil 
       <lb ed="#R" n="36"/>falsum debet subesse. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h14942-d1e672">
                   <lb ed="#R" n="37"/>Sed quid dicemus, quod Paulus circuncidit 
       Thi<lb ed="#R" n="38" break="no"/>mothaeum? Dicendum, quod aliud ese obseruare 
       <lb ed="#R" n="39"/>legalia simpliciter, aliud obseruare, vt alij 
@@ -348,7 +346,7 @@
       <lb ed="#R" n="44"/>dicit sibi Paulus: Quomodo tu Judaeus cum sis, 
       co<lb ed="#R" n="45" break="no"/>gis gentes iudaizare, &amp; c. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h14942-d1e694">
                   <lb ed="#R" n="46"/>Ad argumentum patet quid dicendum; in foedus 
       <lb ed="#R" n="47"/>sempiternum, quousque veniret signatum. 
     </p>

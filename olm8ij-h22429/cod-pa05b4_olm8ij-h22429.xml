@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,13 +53,13 @@
       </front>
       <body>
          <div xml:id="olm8ij-h22429"> <!-- l4-d8prae -->
-            <head>Praeambulum</head>
-            <p>
+            <head xml:id="olm8ij-h22429-Hd1e102">Praeambulum</head>
+            <p xml:id="olm8ij-h22429-d1e104">
                <lb ed="#R" n="11"/>DISTINCTIO VIII. 
       <lb ed="#R" n="12"/>DE SACRAMENTO 
       <lb ed="#R" n="13"/>EVCHARISTIAE. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h22429-d1e113">
                <lb ed="#R" n="14"/>Post Sacramentum Consirmationis in isa 
       Di<lb ed="#R" n="15" break="no"/>stinctione Octaua Magister incipit agere 
       <lb ed="#R" n="16"/>de Sacramento Eucharistiae, &amp; primo de 
@@ -69,7 +67,7 @@
       comparati<lb ed="#R" n="18" break="no"/>ue, &amp; hoc in principio Decimae 
       Distin<lb ed="#R" n="19" break="no"/>ctionis. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h22429-d1e129">
                <lb ed="#R" n="20"/>In ista ergo octaua Distinctione quaero de 
       <lb ed="#R" n="21"/>duobus in generali, sicut Magiser inquirit 
       <lb ed="#R" n="22"/>in littera, &amp; primo, An Eucharistiae 

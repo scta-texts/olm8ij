@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,20 +53,20 @@
       </front>
       <body>
          <div xml:id="olm8ij-h19165"> <!-- l4-d5q1 -->
-            <head>Quaestio 1</head>
-            <p>
+            <head xml:id="olm8ij-h19165-Hd1e102">Quaestio 1</head>
+            <p xml:id="olm8ij-h19165-d1e104">
                <lb ed="#R" n="97"/>Quaestio I. 
     </p>
-            <div>
-               <head>Articulus 1</head>
-               <head type="question-title">Utrum ad Sacramentum Baptismi requiratur 
+            <div xml:id="olm8ij-h19165-Dd1e109">
+               <head xml:id="olm8ij-h19165-Hd1e111">Articulus 1</head>
+               <head xml:id="olm8ij-h19165-Hd1e113" type="question-title">Utrum ad Sacramentum Baptismi requiratur 
         determinatus minister.</head>
-               <p>
+               <p xml:id="olm8ij-h19165-d1e116">
                   <lb ed="#R" n="98"/>ARTICVLVS VNJCVS. 
       <lb ed="#R" n="99"/>Vtrum ad Sacramentum Baptismi requiratur 
       de<lb ed="#R" n="100" break="no"/>terminatus minister. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h19165-d1e125">
                   <lb ed="#R" n="101"/>QVO ad primam 
       quaestio<lb ed="#R" n="102" break="no"/>nem arguo, quod sic. Actus 
       <lb ed="#R" n="103"/>Hierarchicus exercetur 
@@ -80,22 +78,22 @@
       <lb ed="#R" n="109"/>terminatus minister: 
       er<lb ed="#R" n="110" break="no"/>go. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h19165-d1e149">
       In oppositum est Ecclesiae consuetudo. 
       Re<lb ed="#R" n="111" break="no"/>spondeo, pono hic tres propositiones. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h19165-d1e155">
                   <lb ed="#R" n="112"/>Prima est, quod absolute loquendo, minister 
       Sa<lb ed="#R" n="113" break="no"/>cramenti Baptismi es viator quilibet vnus 
       perso<lb ed="#R" n="114" break="no"/>naliter distinctus, potens contingere &amp; verba 
       pro<lb ed="#R" n="115" break="no"/>ferre intendens in habitu facere, quod facit 
       Eccle<lb ed="#R" n="116" break="no"/>sia, vel de quo praesumitur quod intendat. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h19165-d1e168">
                   <lb ed="#R" n="117"/>Hìc circa ministrum ponuntur sex conditiones, 
       <lb ed="#R" n="118"/>per quas soluuntur multi casus, &amp; quaestiones. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h19165-d1e175">
       <!-- missing line break -->Primo dico, viator, per quod excluditur 
       Ange<lb ed="#R" n="119" break="no"/>lus siue daemon, siue sanctus homo in Ecclesia 
       <!--0057.xml-->
@@ -108,7 +106,7 @@
       <lb ed="#R" n="5"/>oportet, quod sit viator est, quia hoc Sacramentum 
       <lb ed="#R" n="6"/>est Sacramentum tantum viatorum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h19165-d1e201">
                   <lb ed="#R" n="7"/>Dico autem quilibet, vt nulla excludetur 
       se<lb ed="#R" n="8" break="no"/>cta. Ideo autem siue baptizans sit Sarracenus, 
       si<lb ed="#R" n="9" break="no"/>ue Judaeus, siue Paganus, potest vtique vere 
@@ -118,7 +116,7 @@
       <lb ed="#R" n="13"/>sexus, quia siue mulier, siue masculus, &amp; status, 
       <lb ed="#R" n="14"/>siue bonus moraliter, siue malus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h19165-d1e221">
                   <lb ed="#R" n="15"/>Secundo dico vnus. Est enim dubium, vtrum 
       <lb ed="#R" n="16"/>possint plures simul baptizare. Distinguo, quia 
       <lb ed="#R" n="17"/>vel vtuntur forma verborum exprimendo ministrum 
@@ -134,7 +132,7 @@
       <lb ed="#R" n="27"/>omnes noui presbyteri ordinati proferunt super 
       <lb ed="#R" n="28"/>vnicam hosiam verba sua. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h19165-d1e254">
                   <lb ed="#R" n="29"/>Tertio dico, personaliter distinctus, quia 
       extra<lb ed="#R" n="30" break="no"/>de Baptismo, &amp; eius effectu. In cap. debitum 
       mo<lb ed="#R" n="31" break="no"/>uetur quaesttio ista, Vtrum idem possit seipsum 
@@ -142,7 +140,7 @@
       <lb ed="#R" n="33"/>adducit figuram de Christo, qui non a se, sed a 
       <lb ed="#R" n="34"/>Joanne voluit baptizari. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h19165-d1e271">
                   <lb ed="#R" n="35"/>Item auctoritas Matth. vlt. Ite baptizate eos, 
       <lb ed="#R" n="36"/>&amp;c. vbi exprimitur baptizans in vna persona, &amp; 
       <lb ed="#R" n="37"/>baptizandus in alia. Posset etiam adduci ratio, 
@@ -150,7 +148,7 @@
       <lb ed="#R" n="39"/>nerans a generato personaliter, sic oportet esse 
       in<lb ed="#R" n="40" break="no"/>generatione spirituali, quae est per Baptismum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h19165-d1e287">
                   <lb ed="#R" n="41"/>Quarto dico, potens contingere, ex quo patet, 
       <lb ed="#R" n="42"/>quod nullus potest alium baptizare in vtero: &amp; 
       ra<lb ed="#R" n="43" break="no"/>tio est, quia natiuitas corporalis &amp; naturalis 
@@ -160,7 +158,7 @@
       tantum<lb ed="#R" n="47" break="no"/>modo appareret pes vel manus, non esset hic vere 
       <lb ed="#R" n="48"/>baptizatus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h19165-d1e307">
                   <lb ed="#R" n="49"/>Sed quid si puer nascitur cum secundina, &amp; 
       pro<lb ed="#R" n="50" break="no"/>pter periculum oporteat statim baptizari, nunquid 
       <lb ed="#R" n="51"/>amouenda erit primo secondina. Respondeo, si 
@@ -174,7 +172,7 @@
       col<lb ed="#R" n="59" break="no"/>ligitur, quod mancus non potest baptizare, quia 
       <lb ed="#R" n="60"/>non potest contingendo abluere. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h19165-d1e336">
                   <lb ed="#R" n="61"/>Quinto dico, verba proferre. Vnde mutus 
       nul<lb ed="#R" n="62" break="no"/>lo modo potest esse minister Baptismi. Ex quo 
       sol<lb ed="#R" n="63" break="no"/>uitur quaestio quaedam &amp; casus, qui 
@@ -189,14 +187,14 @@
       pro<lb ed="#R" n="70" break="no"/>ferat, alias falsum diceret, qui non ablueret, verba 
       <lb ed="#R" n="71"/>proferendo, Ego te baptizo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h19165-d1e367">
                   <lb ed="#R" n="72"/>Sexto dico, intendens facere quod facit 
       Eccle<lb ed="#R" n="73" break="no"/>sia; non enim exigitur, quod minister Baptismi 
       ha<lb ed="#R" n="74" break="no"/>beat fidem, vel credat quod Baptismus valeat 
       ba<lb ed="#R" n="75" break="no"/>ptizato, sed sufficit quod intendat facere, quod 
       fa<lb ed="#R" n="76" break="no"/>cit Ecclesia. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h19165-d1e380">
                   <lb ed="#R" n="77"/>Addo autem, vel praesumatur, quod intendat 
       fa<lb ed="#R" n="78" break="no"/>cere, quod intendit Ecclesia, hoc dico praecipue 
       <lb ed="#R" n="79"/>quia posito, quod minister non intendat, quod 
@@ -206,21 +204,21 @@
       <lb ed="#R" n="83"/>&amp; quod sic baptizatus rebaptiz andus esset, nisi 
       sci<lb ed="#R" n="84" break="no"/>retur de tali intentione ministri. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h19165-d1e401">
                   <lb ed="#R" n="85"/>Videtur mihi, quod oppositum oporteat dici 
       a<lb ed="#R" n="86" break="no"/>lias posset fraus in Ecclesia fieri: posset enim 
       mini<lb ed="#R" n="87" break="no"/>ster dicere, non intendi facere quod facit Ecclesia, 
       <lb ed="#R" n="88"/>vnde talem accipit Ecclesia Dei modo proferat, ac 
       <lb ed="#R" n="89"/>si intendat. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h19165-d1e414">
                   <lb ed="#R" n="90"/>Confirmatur, quia in matrimonio carnali 
       suf<lb ed="#R" n="91" break="no"/>ficit verborum forma prolata exterius, &amp; habetur 
       <lb ed="#R" n="92"/>ratum matrimonium, dato quod non intendat 
       fa<lb ed="#R" n="93" break="no"/>cere quod facit Ecclesia, quare non sic in 
       matri<lb ed="#R" n="94" break="no"/>monio spirituali. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h19165-d1e427">
                   <lb ed="#R" n="95"/>Secunda Propositio est, quod minister ordinarius 
       <lb ed="#R" n="96"/>non est nisi Sacerdos vel Diaconus in absen:ia 
       Sa<lb ed="#R" n="97" break="no"/>cerdotis: si enim Sacerdos sit praesens, peccaret 
@@ -232,14 +230,14 @@
       <lb ed="#R" n="103"/>si mulier baptizaret in casu necessitatis praesente 
       <lb ed="#R" n="104"/>viro, ac sic de caeteris. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h19165-d1e451">
                   <lb ed="#R" n="105"/>Tertia Propositio est, quod potestas aliqua 
       po<lb ed="#R" n="106" break="no"/>tuit conferri a Christo, quae non est collata, hoc 
       <lb ed="#R" n="107"/>expresse habetur per Augustinum super cap. 1. Joan. 
       <lb ed="#R" n="108"/>Tract. 5. super illud verbum, Et ego nesciebam cum, 
       <lb ed="#R" n="109"/>sicut Magilter adducit, &amp; patet in littera. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h19165-d1e464">
                   <lb ed="#R" n="110"/>Ad cuius euidentiam notandum est, quod 
       pote<lb ed="#R" n="111" break="no"/>stas est triplex, quantum spectat ad propositum 
       <lb ed="#R" n="112"/>respectu acramenti Baptismi, &amp; aliorum; vna 
@@ -248,7 +246,7 @@
       infunde<lb ed="#R" n="115" break="no"/>re, ac culpam remittere, &amp; haec potestas soli Deo 
       <lb ed="#R" n="116"/>conuenit, nulliq. creaturae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h19165-d1e482">
                   <lb ed="#R" n="117"/>Alia est potestas executionis, &amp; 
       subaucttorita<lb ed="#R" n="118" break="no"/>tis, &amp; haec est potesas applicatiua primae 
       auctori<lb ed="#R" n="119" break="no"/>tatis ad agendum, quae est duplex: quaedam 
@@ -261,7 +259,7 @@
       effe<lb ed="#R" n="126" break="no"/>cum omnem collatum in Baptismo, deletionem 
       <lb ed="#R" n="127"/>culpae, &amp; aperitionem ianuae caelorum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h19165-d1e509">
                   <lb ed="#R" n="128"/>Est etiam potestas Christi applicatiua, &amp; 
       colla<lb ed="#R" n="129" break="no"/>tiua gratiae per modum applicantis simpliciter, 
       <lb ed="#R" n="130"/>vniuersaliter &amp; absolute, non concrete, vel 
@@ -284,7 +282,7 @@
       attri<lb ed="#R" n="8" break="no"/>buitur nomen Sacramenti, co modo quo 
       Baptis<lb ed="#R" n="9" break="no"/>mus dicitur Joannis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h19165-d1e557">
                   <lb ed="#R" n="10"/>Alia vero est auctoritas tantum ministerij non 
       <lb ed="#R" n="11"/>vendicationis nominis Sacramenti. Prima 
       aucto<lb ed="#R" n="12" break="no"/>ritas harum duarum, respectu Sacramentorum 
@@ -303,13 +301,13 @@
       admini<lb ed="#R" n="25" break="no"/>stratiua, nec tamen Sacramenti appropriatiua 
       <lb ed="#R" n="26"/>Tunc ad propositum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h19165-d1e596">
                   <lb ed="#R" n="27"/>Prima harum auctoritatum non potuit 
       confer<lb ed="#R" n="28" break="no"/>ri Christo, etiam inquantum homo: vltima vero 
       au<lb ed="#R" n="29" break="no"/>ctoritas est collata ministris Sacramentorum a 
       <lb ed="#R" n="30"/>Christo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h19165-d1e607">
                   <lb ed="#R" n="31"/>Secunda vero &amp; tertia, etsi potuerint conferri 
       <lb ed="#R" n="32"/>alijs minisris, tamen collata est soli Christo, 
       Chri<lb ed="#R" n="33" break="no"/>stusq. solus eas sibi retinuit, nulli alteri 
@@ -328,7 +326,7 @@
       <lb ed="#R" n="46"/>pa te absoluit, quia inferiori sacerdoti potestatem 
       <lb ed="#R" n="47"/>clauium retentam sibi tribuit. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h19165-d1e646">
                   <lb ed="#R" n="48"/>Similiter tertiam auctoritatem, quae est ministri 
       <lb ed="#R" n="49"/>appropriantis, scilicet sibi, &amp; suo nomini ipsum 
       Sa<lb ed="#R" n="50" break="no"/>cramentum nulli fuit collata nisi Christo, nec 

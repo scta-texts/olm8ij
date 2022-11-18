@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,15 +53,15 @@
       </front>
       <body>
          <div xml:id="olm8ij-h30087"> <!-- l4-d10q3 -->
-            <head>Quaestio 3</head>
-            <head type="question-title">
+            <head xml:id="olm8ij-h30087-Hd1e102">Quaestio 3</head>
+            <head xml:id="olm8ij-h30087-Hd1e104" type="question-title">
       De modo existendi 
       corporis Christi in Sacramento in 
       ordine ad agens intrinsecum, 
       siue respectu suarum 
       dimensionum. 
     </head>
-            <p>
+            <p xml:id="olm8ij-h30087-d1e107">
                <lb ed="#R" n="79"/>Quaestio III. 
       <lb ed="#R" n="80"/>De modo existendi 
       <lb ed="#R" n="81"/>corporis Christi in Sacramento in 
@@ -71,14 +69,14 @@
       <lb ed="#R" n="83"/>siue respectu suarum 
       <lb ed="#R" n="84"/>dimensionum. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h30087-d1e123">
                <lb ed="#R" n="85"/>Postquam visum est de existentia rei contentae 
       <lb ed="#R" n="86"/>in Eucharistia absolute, videndum est nunc 
       <lb ed="#R" n="87"/>de modo existentiae eius, quoad eius 
       quan<lb ed="#R" n="88" break="no"/>titatem, &amp; naturales passiones quantitatis, 
       <lb ed="#R" n="89"/>&amp; quaero circa hoc quatuor quaestiones.
   </p>
-            <p>
+            <p xml:id="olm8ij-h30087-d1e137">
                <lb ed="#R" n="90"/>1 Vtrum substantia corporis Domini sit in hoc 
       <lb ed="#R" n="91"/>Sacramento cum suis dimensionibus, siue cum sua 
       <lb ed="#R" n="92"/>quantitate. 
@@ -92,20 +90,20 @@
       <lb ed="#R" n="100"/>poris Christi in hoc Sacramento, sit positio de 
       ge<lb ed="#R" n="101" break="no"/>nere quantitatis. 
     </p>
-            <div>
-               <head>Articulus 1</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h30087-Dd1e166">
+               <head xml:id="olm8ij-h30087-Hd1e168">Articulus 1</head>
+               <head xml:id="olm8ij-h30087-Hd1e170" type="question-title">
       Utrum substantia corporis Christi sit in hoc 
       Sacramento cum suis dimensionibus, siue cum 
       sua quantitate
     </head>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e173">
                   <lb ed="#R" n="102"/>ARTICVLVUS I. 
       <lb ed="#R" n="103"/>Vtrum substantia corporis Christi sit in hoc 
       Sacra<lb ed="#R" n="104" break="no"/>mento cum suis dimensionibus, siue cum 
       <lb ed="#R" n="105"/>sua quantitate 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e184">
                   <lb ed="#R" n="106"/>QVANTVM ad tertiam quaestionem 
       <lb ed="#R" n="107"/>arguo primo, quod corpus Christi 
       <lb ed="#R" n="108"/>in hoc Sacramento non est secundum 
@@ -125,18 +123,18 @@
       <lb ed="#R" n="122"/>quidditatem: ergo ex intentione eius nobiscum non est 
       <lb ed="#R" n="123"/>secundum suam quantitatem, sed tantũmodo in caelo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e226">
                   <lb ed="#R" n="124"/>In oppositum, quia corpus Christi in Sacramento 
       <lb ed="#R" n="125"/>est animatum: ergo quantum. Probatio 
       consequen<lb ed="#R" n="126" break="no"/>tiae, quia anima est actus corporis organici physi- 
       <!--0089.xml-->
       <pb ed="#R" n="89"/>
                   <cb ed="#R" n="a"/>
-                  <lb ed="#R" n="1"/>ci <ref>2. de anima tex. 6. &amp; 7.</ref> Respondeo, in ista 
+                  <lb ed="#R" n="1"/>ci <ref xml:id="olm8ij-h30087-Rd1e243">2. de anima tex. 6. &amp; 7.</ref> Respondeo, in ista 
       quae<lb ed="#R" n="2" break="no"/>stione primo ponam punctum quaestionis: secundo 
       <lb ed="#R" n="3"/>propositiones intentas. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e251">
                   <lb ed="#R" n="4"/>De primo, isam quaestionem moui propter 
       di<lb ed="#R" n="5" break="no"/>ctum quorundam Docorum, &amp; specialiter vnius 
       <lb ed="#R" n="6"/>Moderni dicentis, quod nulla est contradictio, quod 
@@ -146,21 +144,21 @@
       <lb ed="#R" n="10"/>quantum, hic autem non, &amp; dicunt, quod ita est 
       <lb ed="#R" n="11"/>hodie de facto. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e271">
                   <lb ed="#R" n="12"/>Alij vero Docttores communiter tenent, quod 
       <lb ed="#R" n="13"/>contradictio est, quod ibi sit quantum, hic non, &amp; 
       <lb ed="#R" n="14"/>hoc in primo modo dicendi per se. Punctus ergo 
       <lb ed="#R" n="15"/>quaestionis est videre, quid veritatis sit circa has op 
       <lb ed="#R" n="16"/>positas positiones. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e284">
                   <lb ed="#R" n="17"/>Secundo pono Propositiones intentas. Prima est 
       <lb ed="#R" n="18"/>ista, quod ponere quod corpus Cristi sit quantum 
       <lb ed="#R" n="19"/>per quantitatem inhaerentem absolutam, &amp; quod in 
       <lb ed="#R" n="20"/>caelo sit cum sua quantitate, in Sacramento vero 
       <lb ed="#R" n="21"/>non sit quantum, est contradictio. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e297">
                   <lb ed="#R" n="22"/>Hanc conclusionem probo sic: Quando aliquid 
       <lb ed="#R" n="23"/>sic se habet ad aliquam propositionem siue 
       affir<lb ed="#R" n="24" break="no"/>mationem, &amp; negationem de eodem, quod accidit 
@@ -181,14 +179,14 @@
       con<lb ed="#R" n="39" break="no"/>tradicunt, &amp; ratio est, quia hoc ly secundum, variat 
       <lb ed="#R" n="40"/>subiectum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e341">
                   <lb ed="#R" n="41"/>Similiter istae duae, linea est dupla ad hoc, &amp; 
       li<lb ed="#R" n="42" break="no"/>nea non est dupla ad illud, non contradicunt. 
       <lb ed="#R" n="43"/>Ratio est; quia ly ad hoc, &amp; ad illud variant 
       prae<lb ed="#R" n="44" break="no"/>dicatum: non enim est eadem dupleitas in linea 
       re<lb ed="#R" n="45" break="no"/>spectu diuersorum terminorum.
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e354">
                   <lb ed="#R" n="46"/>Similiter istae duae: Sedet hodie, non sedet cras, 
       <lb ed="#R" n="47"/>non contradicunt: &amp; ratio est, quia hodie &amp; cras, 
       <lb ed="#R" n="48"/>licet non varient subiectum, &amp; praedicatum, tamen 
@@ -196,14 +194,14 @@
       <lb ed="#R" n="50"/>mensuratur, &amp; ideo potest variari tempore 
       va<lb ed="#R" n="51" break="no"/>riato. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e371">
                   <lb ed="#R" n="52"/>Secundo probo idem ratione: Quia ex quo esse in 
       <lb ed="#R" n="53"/>caelo, &amp; esse hic non variant subiectum nec 
       praedi<lb ed="#R" n="54" break="no"/>catum, nec vnionem: affirmatio &amp; negatio erunt 
       <lb ed="#R" n="55"/>eiusdem, &amp; de eodem respectu eiusdem, &amp; erit 
       to<lb ed="#R" n="56" break="no"/>ta ratio elenchi. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e384">
                   <lb ed="#R" n="57"/>Maioris autem probatio nota est: Esse enim in-- 
       <lb ed="#R" n="58"/>caelo &amp; esse hic, non variat subiectum, scilicet 
       cor<lb ed="#R" n="59" break="no"/>pus, quia idem corpus est vtrobique, nec variat 
@@ -213,7 +211,7 @@
       om<lb ed="#R" n="63" break="no"/>nino corpori ad hoc, quod sit quantum, quod sit 
       <lb ed="#R" n="64"/>in loco hoc, vel illo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e404">
                   <lb ed="#R" n="65"/>Secunda ratio principalis ad conclusionem est 
       <lb ed="#R" n="66"/>ista: Nullum posterius tollit contradictionem ab 
       <lb ed="#R" n="67"/>affirmatione, &amp; negatione prioris, quia ex quo 
@@ -227,7 +225,7 @@
       substantiae<lb ed="#R" n="73" break="no"/>sed magis e conuerso locus, &amp; situs insunt 
       substan<lb ed="#R" n="74" break="no"/>tiae per quantitatem: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e433">
                   <lb ed="#R" n="75"/>Confirmo hoc sic: Ex quo quantitas est prior 
       lo<lb ed="#R" n="76" break="no"/>co: ergo substantia prius est quanta, quam sit in-- 
       <lb ed="#R" n="77"/>loco, vel prius non quanta, quia affirmatio &amp; 
@@ -235,7 +233,7 @@
       il<lb ed="#R" n="79" break="no"/>lo priori substantia est quanta, &amp; non quanta, estt 
       <lb ed="#R" n="80"/>contradictio. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e449">
                   <lb ed="#R" n="81"/>Tertia ratio principalis est ista: Quando ex 
       ad<lb ed="#R" n="82" break="no"/>dito affirmationi, &amp; negationi licet inferre 
       affir<lb ed="#R" n="83" break="no"/>mationem, &amp; negationem simpliciter, illud 
@@ -266,13 +264,13 @@
       si<lb ed="#R" n="108" break="no"/>cut diminuit ly ad hoc, cum dicitur linea est dupla 
       <lb ed="#R" n="109"/>ad hoc. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e514">
                   <lb ed="#R" n="110"/>Propter istas rationes teneo simpliciter, quod 
       cor<lb ed="#R" n="111" break="no"/>pus Christi habet easdem partes, &amp; proprietates 
       <lb ed="#R" n="112"/>absolutas in Sacramento, quas habet in caelo: 
       se<lb ed="#R" n="113" break="no"/>cundo mouebo dubia circa hoc. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e526">
                   <lb ed="#R" n="114"/>Primum est, quoniam sicut substantia corporis 
       <lb ed="#R" n="115"/>Christi, &amp; quantitas sunt vnum subiecto, sic 
       quanti<lb ed="#R" n="116" break="no"/>tas corporis Christi, &amp; contactus caeli: sed hoc non 
@@ -281,7 +279,7 @@
       <lb ed="#R" n="119"/>go a simili non videtur contradictio, quod sit quan 
       <lb ed="#R" n="120"/>tum in caelo, &amp; non quantum in Sacramento. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e544">
                   <lb ed="#R" n="121"/>Item secundo: Sicut se habet substantia ad 
       quan<lb ed="#R" n="122" break="no"/>titatem, sic quantitas ad per se passiones suas, &amp; e 
       <lb ed="#R" n="123"/>conuerso: sed quantitas corporis Christi est cum suis 
@@ -292,7 +290,7 @@
       <lb ed="#R" n="128"/>Christi in caelo cum sua per se quantitate, &amp; 
       sine<lb ed="#R" n="129" break="no"/>quantitate in Sacramento. 
   </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e566">
                   <lb ed="#R" n="130"/>Tertio, quia ad tollendam contradictionem 
       suf<lb ed="#R" n="131" break="no"/>ficit tollere simultatem, elenchus enim est 
       affirma<lb ed="#R" n="132" break="no"/>tio, &amp; negatio eiusdem de eodem simul, sed per hoc 
@@ -301,7 +299,7 @@
       con<lb ed="#R" n="135" break="no"/>sequens habitudo simul, quia idem dicunt. 
       Re<lb ed="#R" n="136" break="no"/>spondeo ad ista dubia. 
   </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e584">
       <!--0090.xml-->
                   <pb ed="#R" n="90"/>
                   <cb ed="#R" n="a"/>
@@ -334,7 +332,7 @@
       Sacramen<lb ed="#R" n="27" break="no"/>to, propter quod non tollitur contradictio, quae 
       <lb ed="#R" n="28"/>dicit contingere caelum, &amp; non contingere. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e654">
                   <lb ed="#R" n="29"/>Ad secundum dubium dico, quod variatio 
       ali<lb ed="#R" n="30" break="no"/>cuius non tollit contradictionem, nisi quia variat 
       <lb ed="#R" n="31"/>subiectum, vel praedicatum, vel vnionem; variatio 
@@ -347,7 +345,7 @@
       <lb ed="#R" n="38"/>locus non est huiusmodi, non enim mediante loco 
       <lb ed="#R" n="39"/>quantitas inest substantiae, sed potius e conuerso. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e680">
                   <lb ed="#R" n="40"/>Ad argumentum principale respondeo: 
       Inten<lb ed="#R" n="41" break="no"/>tio Augustini est, quod Christus est in caelo, 
       secun<lb ed="#R" n="42" break="no"/>dum leges quantitatis corporis sui, &amp; hoc vocat 
@@ -356,22 +354,22 @@
       <lb ed="#R" n="45"/>quam secundum omnia accidentia absoluta. 
     </p>
             </div>
-            <div>
-               <head>Articulus 2</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h30087-Dd1e697">
+               <head xml:id="olm8ij-h30087-Hd1e699">Articulus 2</head>
+               <head xml:id="olm8ij-h30087-Hd1e701" type="question-title">
       Verum quantitas corporis Christi absoluatur a 
       legibus quantitatis, per hoc quod est in 
       Sacramento non per se, et directe, 
       sed per concomitantiam.
     </head>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e704">
                   <lb ed="#R" n="46"/>ARTICVLVS II 
       <lb ed="#R" n="47"/>Verum quantitas corporis Christi absoluatur a 
       <lb ed="#R" n="48"/>legibus quantitatis, per hoc quod est in 
       Sa<lb ed="#R" n="49" break="no"/>cramento non per se, &amp; directe, 
       <lb ed="#R" n="50"/>sed per concomitantiam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e717">
                   <lb ed="#R" n="51"/>QVoad secundam quaestionem arguo primo, 
       <lb ed="#R" n="52"/>quod quantitas corporis Christi absoluitur 
       <lb ed="#R" n="53"/>in Sacramento a legibus quantitatis, eo 
@@ -393,7 +391,7 @@
       com<lb ed="#R" n="67" break="no"/>mensuratione: ergo &amp; quantitas, &amp; habetur 
       pro<lb ed="#R" n="68" break="no"/>positum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e763">
                   <lb ed="#R" n="69"/>Contra: Passio, quae non dependet nisi a forma, 
       <lb ed="#R" n="70"/>eo modo quo ponitur alicui forma, ponitur passio: 
       <lb ed="#R" n="71"/>sicut quia risibile dependet a forma hominis 
@@ -408,7 +406,7 @@
       le<lb ed="#R" n="80" break="no"/>gibus quantitatis. Respondeo, pono hic per 
       ordi<lb ed="#R" n="81" break="no"/>nem aliquas Propositiones. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e795">
                   <lb ed="#R" n="82"/>Prima est, quod non propter hoc, quod 
       quanti<lb ed="#R" n="83" break="no"/>tas est per concomitantiam in Sacramento, ex hoc 
       <lb ed="#R" n="84"/>solo absoluitur a legibus quantitatis. Hoc dico 
@@ -422,7 +420,7 @@
       sub<lb ed="#R" n="92" break="no"/>stantia autem talem ordinem non habet ad 
       spe<lb ed="#R" n="93" break="no"/>cies: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e824">
                   <lb ed="#R" n="94"/>Probo ergo Propositionem istam contra 
       opinio<lb ed="#R" n="95" break="no"/>nem istam. Primo, quia secundum sic ponentes 
       <lb ed="#R" n="96"/>dimensiones non sunt in materia etiam 
@@ -436,7 +434,7 @@
       <lb ed="#R" n="104"/>legibus quantitatis, alias omne corpus erit 
       indiui<lb ed="#R" n="105" break="no"/>sibile secundum suam quantitatem: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e853">
                   <lb ed="#R" n="106"/>Secundo: quia si ratio eorum sit bona, quod quia 
       <lb ed="#R" n="107"/>substantia est ibi sine legibus quantitatis, ideo 
       di<lb ed="#R" n="108" break="no"/>mensiones ibi sint sine proprietatibus quantitatis, 
@@ -445,7 +443,7 @@
       dimensio<lb ed="#R" n="111" break="no"/>nes illae sint reductae ad diuisibilitatem, quia sunt 
       <lb ed="#R" n="112"/>ibi modo substantiae, quae est de se indiuisibilis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e871">
                   <lb ed="#R" n="113"/>Item tertio, quia omne accidens, etsi sit 
       poste<lb ed="#R" n="114" break="no"/>rius subiecto, in illo tamen posteriori, quo aduenit 
       <lb ed="#R" n="115"/>subiecto ese album, &amp; disgregare: sed per te 
@@ -454,7 +452,7 @@
       er<lb ed="#R" n="118" break="no"/>go in illo posteriori dabit corpori Christi quantum 
       <lb ed="#R" n="119"/>&amp; passiones quantitatis.
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e889">
                   <lb ed="#R" n="120"/>Quarto sic: Illud quod concurrit cum 
       subscan<lb ed="#R" n="121" break="no"/>tia ad fundandum ordinem ad diuisibilitatem, 
       vi<lb ed="#R" n="122" break="no"/>detur habere per se ordinem ad illud: sed 
@@ -467,7 +465,7 @@
       <lb ed="#R" n="129"/>Domini in Sacramento non habet manus &amp; caput, 
       <lb ed="#R" n="130"/>&amp; caetera membra. 
   </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e915">
                   <lb ed="#R" n="131"/>Secunda Propositio est, quod non ideo 
       quanti<lb ed="#R" n="132" break="no"/>tas communis Christi in Sacramento altaris 
       absol<lb ed="#R" n="133" break="no"/>uitur a legibus quantitatis, quia non habet partem 
@@ -486,7 +484,7 @@
       mini<lb ed="#R" n="10" break="no"/>mum, &amp; ideo in quolibet est totum, siue quaelibet 
       <lb ed="#R" n="11"/>pars. Opinionem hanc non puto esse veram. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e955">
                   <lb ed="#R" n="12"/>Ideo probo Propositionem oppositam quam 
       <lb ed="#R" n="13"/>accepi, contra eam arguo sic: Minimum corporis 
       <lb ed="#R" n="14"/>organici, &amp; corporis animati, &amp; vniuersaliter 
@@ -508,7 +506,7 @@
       minima<lb ed="#R" n="30" break="no"/>carne: &amp; ratio estt, quia excedens non estt in 
       ex<lb ed="#R" n="31" break="no"/>cesso. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1001">
                   <lb ed="#R" n="32"/>Arguitur secundo: Corpus Christi in 
       Sacramen<lb ed="#R" n="33" break="no"/>to, quantumcunque sit minimum corpus, excedit 
       <lb ed="#R" n="34"/>minimum datum hostiae, &amp; sic non saluatur, quod 
@@ -517,7 +515,7 @@
       <lb ed="#R" n="37"/>quantitatis, quorum vnum est excessus &amp; 
       com<lb ed="#R" n="38" break="no"/>mensuratio.
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1019">
                   <lb ed="#R" n="39"/>Secunda ratio ad idem sit: Vbicumque sunt 
       ta<lb ed="#R" n="40" break="no"/>lia minima, talia possunt essse iuxta se posita, &amp; se 
       <lb ed="#R" n="41"/>contingentia, sicut minima caro potest contingere 
@@ -526,7 +524,7 @@
       <lb ed="#R" n="44"/>oportet causam aliam assignare, quam reductionem 
       <lb ed="#R" n="45"/>eius ad minimum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1037">
                   <lb ed="#R" n="46"/>Tertio sic: Vbi ponuntur talia minima, non 
       pro<lb ed="#R" n="47" break="no"/>pter hoc auferuntur proprietates, quae 
       attribuun<lb ed="#R" n="48" break="no"/>tur quanto, puta contingere situm, 
@@ -538,12 +536,12 @@
       com<lb ed="#R" n="54" break="no"/>mensurari, siue corrumpi, intelligendum estt 
       actio<lb ed="#R" n="55" break="no"/>ne transeunte in ipsum, vt hic. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1061">
                   <lb ed="#R" n="56"/>Praeterea ista opinio de minimo contento in 
       a<lb ed="#R" n="57" break="no"/>lio minimo improbatur expresse 4. Physic. a tex. 
       <lb ed="#R" n="58"/>a4. vsque ad 30. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1070">
                   <lb ed="#R" n="59"/>Ad argumentum in oppositum dico, quod licet 
       <lb ed="#R" n="60"/>quantitas corporis Christi sit habere per accidens, 
       <lb ed="#R" n="61"/>eo tamen modo, quo est ibi, ponit effectum suum, &amp; 
@@ -556,14 +554,14 @@
       <lb ed="#R" n="68"/>accidens, puta per esse extensum.
     </p>
             </div>
-            <div>
-               <head>Articulus 3</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h30087-Dd1e1095">
+               <head xml:id="olm8ij-h30087-Hd1e1097">Articulus 3</head>
+               <head xml:id="olm8ij-h30087-Hd1e1099" type="question-title">
         Utrum illud, a quo absoluitur quantitas corporis 
         Christi in hoc Sacramento, sit 
         tantummodo respectus situs et positionis.
       </head>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1102">
       <!--0091.xml-->
                   <cb ed="#R" n="b"/>
                   <lb ed="#R" n="69"/>ARTICVLVS III. 
@@ -571,7 +569,7 @@
       <lb ed="#R" n="71"/>Christi in hoc Sacramento, sit 
       tantummo<lb ed="#R" n="72" break="no"/>do respectus situs &amp; positionis. 
   </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1118">
                   <lb ed="#R" n="73"/>AD tertiam quaestionem arguo primo, quod 
       <lb ed="#R" n="74"/>illud, a quo absoluitur quantitas corporis 
       <lb ed="#R" n="75"/>Christi in hoc Sacramento, sit tantum respecus, 
@@ -592,16 +590,16 @@
       respe<lb ed="#R" n="90" break="no"/>ctus de genere positionis, quod est 
       praedicamen<lb ed="#R" n="91" break="no"/>tum 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1162">
                   <lb ed="#R" n="92"/>In oppositum est, quia corpus absoluitur a 
       con<lb ed="#R" n="93" break="no"/>tineri: sed contineri est de praedicamento Vbi: 
       <lb ed="#R" n="94"/>ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1172">
                   <lb ed="#R" n="95"/>Respondeo: Primo ponam punctum quaestionis, 
       <lb ed="#R" n="96"/>&amp; secundo ponam propositiones intentas. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1179">
                   <lb ed="#R" n="97"/>Pro primo sciendum est, quod modus quidam est 
       <lb ed="#R" n="98"/>hic cuiusdam Doctoris Moderni Subtilis, qui dicit, 
       <lb ed="#R" n="99"/>quod positiò vno modo potest accipi, prout est 
@@ -610,7 +608,7 @@
       in<lb ed="#R" n="102" break="no"/>toto, quod non est aliud, quam partem esse 
       ex<lb ed="#R" n="103" break="no"/>tra partem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1197">
                   <lb ed="#R" n="104"/>Secundo vero modo idem est, quod ordo partium 
       <lb ed="#R" n="105"/>corporis ad partes loci: Tunc positio primo modo 
       <lb ed="#R" n="106"/>est in corpore Christi existenti in Sacramento, 
@@ -626,7 +624,7 @@
       rema<lb ed="#R" n="116" break="no"/>nente, quae est totius ad totum, &amp; hoc secundum 
       <lb ed="#R" n="117"/>eum est bene possibile apud diuinam potentiam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1230">
                   <lb ed="#R" n="118"/>Et hoc probatur dupliciter. Primo, quia 
       quan<lb ed="#R" n="119" break="no"/>do aliquid respicit quamlibet formam alicuius ge 
       <lb ed="#R" n="120"/>neris contingenter, totum genus respicit contingen 
@@ -649,7 +647,7 @@
       <lb ed="#R" n="2"/>poterit absolui generaliter a totali ordine partium 
       <lb ed="#R" n="3"/>ad partes loci. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1278">
                   <lb ed="#R" n="4"/>Tertio; quia Deus per suam omnipotentiam 
       <lb ed="#R" n="5"/>potest absoluere quodcunque absolutum a 
       respe<lb ed="#R" n="6" break="no"/>cu, &amp; etiam respecum priorem a respecu 
@@ -664,7 +662,7 @@
       <lb ed="#R" n="15"/>ergo quaestionis est videre, quid veritatis contineat 
       <lb ed="#R" n="16"/>praedicta positio. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1309">
                   <lb ed="#R" n="17"/>Secundo principaliter pono propositiones 
       ali<lb ed="#R" n="18" break="no"/>quas: &amp; prima est ista, quod respectus siue 
       coexi<lb ed="#R" n="19" break="no"/>stentia partium locati ad partes loci, non est 
@@ -672,7 +670,7 @@
       <lb ed="#R" n="21"/>sed de genere vbi. Hanc propositionem probo 
       ali<lb ed="#R" n="22" break="no"/>quibus rationibus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1326">
                   <lb ed="#R" n="23"/>Prima est ista: Respectus totius locati ad totum 
       <lb ed="#R" n="24"/>locum, est de praedicamento vbi: ergo respectus, 
       <lb ed="#R" n="25"/>&amp; coexistentia partium locati ad partes loci est de 
@@ -683,7 +681,7 @@
       <lb ed="#R" n="30"/>non est aliud a partibus, sed est quoddam 
       integra<lb ed="#R" n="31" break="no"/>tum ex eis, sic respectus totalis corporis ad totum 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1348">
                   <lb ed="#R" n="32"/>locum non est aliud a respectibus partialibus 
       par<lb ed="#R" n="33" break="no"/>tium ad partes loci, sed integratum aliquid ex eis) 
       <lb ed="#R" n="34"/>ergo si respectus totius corporis ad locum eit 
@@ -713,7 +711,7 @@
       <lb ed="#R" n="58"/>corporis ad partes loci erunt partes totalis 
       respe<lb ed="#R" n="59" break="no"/>ctus totius ad totum, &amp; integrantes ipsum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1411">
                   <lb ed="#R" n="60"/>Confirmo hoc, quia si quaelibet pars habet respe 
       <lb ed="#R" n="61"/>cum suum in actu ad aliam partem, sequitur, vel 
       <lb ed="#R" n="62"/>quod erunt infiniti respectus in actu propter 
@@ -727,7 +725,7 @@
       <cb ed="#R" n="b"/>
                   <lb ed="#R" n="69"/>natas, &amp; super illas fundatur respectus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1440">
                   <lb ed="#R" n="70"/>Contra, quancumque partem signes, eius 
       respe<lb ed="#R" n="71" break="no"/>ctus in aliam partem est constitutus ex partialibus 
       <lb ed="#R" n="72"/>respectibus partium illius partis, sicut dicebatur de 
@@ -742,17 +740,17 @@
       <lb ed="#R" n="81"/>dictis suis, quod situatio partium loci consttituat 
       <lb ed="#R" n="82"/>ipsum locum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1471">
                   <lb ed="#R" n="83"/>Sed quid dicendum est de positione, vt est 
       prae<lb ed="#R" n="84" break="no"/>dicamentum, in quo differt ab vbi? 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1478">
                   <lb ed="#R" n="85"/>Respondeo. Ad cuius euidentiam dico, quod 
       <lb ed="#R" n="86"/>positio, quae est praedicamentum, non est aliud, 
       <lb ed="#R" n="87"/>quam qualificatio, &amp; modificatio tota lis coexisten 
       <lb ed="#R" n="88"/>tia locati ad locum, quae est Vbi. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1490">
                   <lb ed="#R" n="89"/>Vbi sciendum, quod locatum coexistit loco vna 
       <lb ed="#R" n="90"/>coexistentia continua: ista autem coexistentia est 
       <lb ed="#R" n="91"/>respectus de praedicamento vbi: potest autem ista 
@@ -769,7 +767,7 @@
       loci<lb ed="#R" n="102" break="no"/>sed est modificatio coexistentiae non quidem 
       par<lb ed="#R" n="103" break="no"/>tis, sed totius. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1525">
                   <lb ed="#R" n="104"/>Secunda Propositio est, quod quantitas 
       corpo<lb ed="#R" n="105" break="no"/>ris Christi in Sacramento altaris non solum 
       absol<lb ed="#R" n="106" break="no"/>uitur a respectu, qui est positio: sed etiam a respectu 
@@ -800,7 +798,7 @@
       al<lb ed="#R" n="131" break="no"/>terius corporis correspondentem eidem puncto 
       <lb ed="#R" n="132"/>loci. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1590">
                   <lb ed="#R" n="133"/>Item per se notum est Mathematico, quod 
       om<lb ed="#R" n="134" break="no"/>ne corpus existens simul cum alio corpore ipsum 
       <lb ed="#R" n="135"/>tangit, quod tamen Deus absoluit in Sacramento 
@@ -812,13 +810,13 @@
       <lb ed="#R" n="2"/>in secundo modo, licet repugnet intellectui nostro 
       <lb ed="#R" n="3"/>hoc intelligere. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1614">
                   <lb ed="#R" n="4"/>Ex dictis prius Respondeo ad argumentum 
       <lb ed="#R" n="5"/>in oppositum, dico enim, quod est ibi fallacia 
       con<lb ed="#R" n="6" break="no"/>sequentis: licet enim absoluatur ab illis, non tamen 
       <lb ed="#R" n="7"/>absoluitur ab illis solum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1625">
                   <lb ed="#R" n="8"/>Sed est dubium hic: Vtrum si Deus sedet in 
       cae<lb ed="#R" n="9" break="no"/>lo, eo ipso sedeat, vt estt in Sacramento. Et videtur, 
       <lb ed="#R" n="10"/>quod sic, quia si sedet in caelo, caput habet isum 
@@ -826,7 +824,7 @@
       <lb ed="#R" n="12"/>Sacramento, quia vbi eaedem partes, videtur esse 
       <lb ed="#R" n="13"/>idem ordo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1641">
                   <lb ed="#R" n="14"/>Respondeo: Aliud est figura, quam habet sedens 
       <lb ed="#R" n="15"/>puta curuitas, aliud est ipsa sessio: figura enim 
       <lb ed="#R" n="16"/>actualis, quam habet sedens, est in quarta 
@@ -836,20 +834,20 @@
       coexi<lb ed="#R" n="20" break="no"/>sentiae corporis ad locum. 
     </p>
             </div>
-            <div>
-               <head>Articulus 4</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h30087-Dd1e1660">
+               <head xml:id="olm8ij-h30087-Hd1e1662">Articulus 4</head>
+               <head xml:id="olm8ij-h30087-Hd1e1664" type="question-title">
         Utrum illud, a quo absoluitur quantitas corporis 
         Christi in hoc Sacramento sit positio de 
         genere quantitatis.
       </head>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1667">
                   <lb ed="#R" n="21"/>ARTICULUS IIII. 
       <lb ed="#R" n="22"/>Vtrum illud, a quo absoluitur quantitas corporis 
       <lb ed="#R" n="23"/>Christi in hoc Sacramento sit positio de 
       <lb ed="#R" n="24"/>genere quantitatis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1678">
                   <lb ed="#R" n="25"/>AD quartam quaestionem arguo primo, quod 
       <lb ed="#R" n="26"/>illud, a quo absoluitur dimensio corporis Chri 
       <lb ed="#R" n="27"/>sti in Sacramento altaris, non sit potentia de 
@@ -858,7 +856,7 @@
       po<lb ed="#R" n="30" break="no"/>test absolui a quantitate sine contradictione in 
       pri<lb ed="#R" n="31" break="no"/>mo modo, cum differentia sit pars definitionis. 
   </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1696">
                   <lb ed="#R" n="32"/>In oppositum est Philosophus in praedicamentis, 
       <lb ed="#R" n="33"/>de cuius intentione est, quod positio non est aliud, 
       <lb ed="#R" n="34"/>quam assignabilitas partium: est enim quantitas 
@@ -869,7 +867,7 @@
       <lb ed="#R" n="39"/>hic sunt pedes, &amp; huiusmodi, &amp;c. Respondeo 
       in<lb ed="#R" n="40" break="no"/>ista quaestione ponam duas propositiones. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1719">
                   <lb ed="#R" n="41"/>Prima est ista, quod quantitas corporis Christi 
       <lb ed="#R" n="42"/>in Sacramento Eucharistiae absoluitur a respectu 
       <lb ed="#R" n="43"/>distantiae, &amp; propinquitatis in ordine ad omne 
@@ -882,7 +880,7 @@
       <lb ed="#R" n="50"/>rat necessario tam dimensiones, quam 
       substantia<lb ed="#R" n="51" break="no"/>ad vnum ese hoc demonstratum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1745">
                   <lb ed="#R" n="52"/>Hanc conclusionem probo, quia inter me, &amp; 
       cor<lb ed="#R" n="53" break="no"/>pus Christi, siue inter quodcunque aliud, &amp; corpus 
       <lb ed="#R" n="54"/>Christi non potest cadere, vel imaginari linea, quae 
@@ -893,7 +891,7 @@
       <lb ed="#R" n="59"/>corpus Domini in Sacramento non potest esse 
       ter<lb ed="#R" n="60" break="no"/>minus alicuius distantiae, nec inter se, vt existens 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1767">
                   <lb ed="#R" n="61"/>in caelo, &amp; vt existens hic, nec inter ipsum, &amp; me 
       <lb ed="#R" n="62"/>nec inter ipsum, &amp; calum ergo. Maiorem probo 
       <lb ed="#R" n="63"/>sie, Quicquid distat ab aliquo, distat necessario in 
@@ -907,7 +905,7 @@
       ra<lb ed="#R" n="69" break="no"/>tio alicuius discantiae intrinsecae, vel extrinsecae, &amp; 
       <lb ed="#R" n="70"/>sic patet illa maior. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1795">
                   <lb ed="#R" n="71"/>Dices: pono, quod Deus absoluat illud medium 
       <lb ed="#R" n="72"/>interiacens, &amp; maneant extrema in eadem 
       dispo<lb ed="#R" n="73" break="no"/>sitione, vt quod destruat totum aerem medium, 
@@ -915,7 +913,7 @@
       <lb ed="#R" n="75"/>&amp; tamen non ero terminus alicuius medij 
       conti<lb ed="#R" n="76" break="no"/>gui mihi, vel continui. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1811">
                   <lb ed="#R" n="77"/>Respondeo, posito illo casu, etsi nullum sit ibi 
       me<lb ed="#R" n="78" break="no"/>dium reale, erit tamen medium imiaginarium: 
       Jm<lb ed="#R" n="79" break="no"/>possibile est enim concipere aliqua distare, nisi 
@@ -940,7 +938,7 @@
       <lb ed="#R" n="98"/>repugnat Angelo. Sic ergo patet illa maior 
       pro<lb ed="#R" n="99" break="no"/>positio principalis rationis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1863">
                   <lb ed="#R" n="100"/>Sed probo nunc minorem, scilicet, quod corpus 
       <lb ed="#R" n="101"/>Domini non possit esse terminus medij 
       interiacen<lb ed="#R" n="102" break="no"/>tis, nec per modum contigui, nec continui: Quia 
@@ -961,7 +959,7 @@
       <lb ed="#R" n="117"/>Domini ad illud hoc sensibile demonstratum, co 
       <lb ed="#R" n="118"/>modo quo prius concurrebat panis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1908">
                   <lb ed="#R" n="119"/>Secunda Propositio est, quod impossibile est, 
       <lb ed="#R" n="120"/>quod corpus Domini sit fundamentum 
       assignabi<lb ed="#R" n="121" break="no"/>litatis partium, quae est potentia de genere 
@@ -973,7 +971,7 @@
       po<lb ed="#R" n="127" break="no"/>test dicere corpus Christi esse hic, nisi sumendo 
       si<lb ed="#R" n="128" break="no"/>mul dimensiones. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1932">
                   <lb ed="#R" n="129"/>Hanc conclusionem probo specialiter sic. 
       Im<lb ed="#R" n="130" break="no"/>possibile est partes alicuius quanti esse 
       assignabi<lb ed="#R" n="131" break="no"/>les, nisi sint terminus, &amp; fundamentum distantiae: 
@@ -995,24 +993,24 @@
       <lb ed="#R" n="9"/>&amp; secundum suas partes absoluitur a distantia, vt 
       <lb ed="#R" n="10"/>probatum est supra: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1978">
                   <lb ed="#R" n="11"/>Sed insurgit hic dubium, quare negatum est, quod 
       <lb ed="#R" n="12"/>positio praedicamentum non est ordo partium 
       lo<lb ed="#R" n="13" break="no"/>cati ad partes loci, sed es modificatio ipsius vbi, 
       <lb ed="#R" n="14"/>sicut qualitas est modificatio quantitatis. Quid 
       <lb ed="#R" n="15"/>ergo est positio de genere quantitatis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1991">
                   <lb ed="#R" n="16"/>Respondeo: Simplicius facit hic magnam 
       diffi<lb ed="#R" n="17" break="no"/>cultatem in praedicamentis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e1998">
                   <lb ed="#R" n="18"/>Aliqui tamen dicunt, quod positio est ordo 
       par<lb ed="#R" n="19" break="no"/>tium in toto. Sed hoc non videtur conuenienter 
       <lb ed="#R" n="20"/>dictum: ordo enim est relatio, &amp; respectus: 
       respe<lb ed="#R" n="21" break="no"/>ctus autem non est differentia alicuius absoluti. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e2009">
                   <lb ed="#R" n="22"/>Alij dicunt, quod est ordo partium 
       permanen<lb ed="#R" n="23" break="no"/>tium adinuicem. Contra, quod arguo per idem, 
       <lb ed="#R" n="24"/>per quod argutum est immediate contra alios, 
@@ -1020,13 +1018,13 @@
       <lb ed="#R" n="26"/>ergo secundum mentem Symplicij: Positio non est 
       <lb ed="#R" n="27"/>aliud, quam extensio quaedam partium. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e2026">
                   <lb ed="#R" n="28"/>Sed contra: Per te corpus Christi absoluitur in 
       <lb ed="#R" n="29"/>Sacramento a positione: ergo absoluetur 
       secun<lb ed="#R" n="30" break="no"/>dum hoc ab extensione: ergo a quantitate, 
       quia<lb ed="#R" n="31" break="no"/>extensio est quantitas formaliter. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e2037">
                   <lb ed="#R" n="32"/>Respondeo: Non est intentio Symplicij, quod 
       <lb ed="#R" n="33"/>quantitas sit formaliter extensio praecise, sic enim, 
       <lb ed="#R" n="34"/>vt ipse facit, modo arguere esset nugatio dicendo, 
@@ -1036,7 +1034,7 @@
       <lb ed="#R" n="38"/>nihil enim assignari potest esse hic, nisi in ordine 
       <lb ed="#R" n="39"/>ad aliud vbi, extra vniuersum autem nullum est vbi- 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e2057">
                   <lb ed="#R" n="40"/>Dico ergo, quod positio non est praecise 
       exten<lb ed="#R" n="41" break="no"/>sio, sed est aliquid extensionis per modum 
       ter<lb ed="#R" n="42" break="no"/>mini, vel per modum contigui: sic ergo 
@@ -1046,7 +1044,7 @@
       <lb ed="#R" n="46"/>consurgit ex pluribus se habentibus continue, vel 
       <lb ed="#R" n="47"/>contigue. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e2077">
                   <lb ed="#R" n="48"/>Et quia corpus Domini in Sacramento 
       compa<lb ed="#R" n="49" break="no"/>ratum ad acrem circunstantem, vel ad dimensiones, 
       <lb ed="#R" n="50"/>cum eis non constituit contiguum, quia sic 
@@ -1055,7 +1053,7 @@
       <lb ed="#R" n="53"/>ac per consequens ab omnibus respectibus, qui 
       <lb ed="#R" n="54"/>consequuntur hanc positionem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e2095">
                   <lb ed="#R" n="55"/>Sed quando ista stant simul? Dictum enim est 
       <lb ed="#R" n="56"/>supra, quod corpus Christi est hic per dimensiones, 
       <lb ed="#R" n="57"/>&amp; cum hoc, quod non sit pars vniuersi, alias si esset 
@@ -1067,7 +1065,7 @@
       il<lb ed="#R" n="63" break="no"/>lud, quod respicit rem in secundo modo dicendi 
       <lb ed="#R" n="64"/>per se 
     </p>
-               <p>
+               <p xml:id="olm8ij-h30087-d1e2119">
                   <lb ed="#R" n="65"/>Ad argumentum in oppositum non est verum 
       <lb ed="#R" n="66"/>quod sit differentia essentialis quantitatis, quia 
       <lb ed="#R" n="67"/>non est praecise extensio, sed aliquid extensionis.

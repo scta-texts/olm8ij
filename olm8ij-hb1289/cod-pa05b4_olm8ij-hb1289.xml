@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -54,14 +52,14 @@
          </div>
       </front>
       <body>
-         <div xml:id="olm8ij-hb1289"> <!-- l1-d2prae -->
-            <head>Praeambulum</head>
-            <p>
+         <div xml:id="olm8ij-hb1289"> <!-- l4-d2prae -->
+            <head xml:id="olm8ij-hb1289-Hd1e102">Praeambulum</head>
+            <p xml:id="olm8ij-hb1289-d1e104">
                <lb ed="#R" n="40"/>DISTINCTIO II 
       <lb ed="#R" n="41"/>DE SACRAMENTIS 
       <lb ed="#R" n="42"/>NOVAE LEGIS. 
     </p>
-            <p>
+            <p xml:id="olm8ij-hb1289-d1e113">
                <lb ed="#R" n="43"/>Iam ad Sacramenta Nouae Legis accedamus. 
       <lb ed="#R" n="44"/>In praecedenti Distinctione egit Magiser 
       <lb ed="#R" n="45"/>de Sacramentis in generali, &amp; in speciali 
@@ -75,7 +73,7 @@
       <lb ed="#R" n="53"/>loannis. Ideo ad euidentiam Quaestionis 
       <lb ed="#R" n="54"/>istius quaero tres quaestiones.
     </p>
-            <p>
+            <p xml:id="olm8ij-hb1289-d1e142">
                <lb ed="#R" n="55"/>1 Vtrum in Lege noua debuerunt institui 
       ali<lb ed="#R" n="56" break="no"/>qua specialia Sacramenta. 
       <lb ed="#R" n="57"/>a Vtrum Sacramenta Nouae Legis in 

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,14 +53,14 @@
       </front>
       <body>
          <div xml:id="olm8ij-h36984"> <!-- l4-d12prae -->
-            <head>Praeambulum</head>
-            <p>
+            <head xml:id="olm8ij-h36984-Hd1e102">Praeambulum</head>
+            <p xml:id="olm8ij-h36984-d1e104">
                <lb ed="#R" n="89"/>DISTINCTIO XII 
       <lb ed="#R" n="90"/>DE ACCIDENTIBVS 
       <lb ed="#R" n="91"/>remanentibus post 
       conse<lb ed="#R" n="92" break="no"/>crationem.
     </p>
-            <p>
+            <p xml:id="olm8ij-h36984-d1e115">
                <lb ed="#R" n="93"/>Si vero quaeritur, &amp;c. In ista Duodecima 
       Di<lb ed="#R" n="94" break="no"/>stinctione agit Magiser de 
       transubstantia<lb ed="#R" n="95" break="no"/>tione quantum ad concomitans, scilicet de 
@@ -72,7 +70,7 @@
       <lb ed="#R" n="99"/>separationem, &amp; quantum ad eorum 
       natu<lb ed="#R" n="100" break="no"/>ralem operationem. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h36984-d1e135">
                <lb ed="#R" n="101"/>Et quia operatio accidentium possibilis, vel 
       <lb ed="#R" n="102"/>impossibilis oritur ex eorum entitate, ideo 
       <lb ed="#R" n="103"/>inquiram in praesenti de tribus, scilicet de 

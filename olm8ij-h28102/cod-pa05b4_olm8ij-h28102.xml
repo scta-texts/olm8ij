@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,14 +53,14 @@
       </front>
       <body>
          <div xml:id="olm8ij-h28102"> <!-- l4-d10prae -->
-            <head>Praeambulum</head>
-            <p>
+            <head xml:id="olm8ij-h28102-Hd1e102">Praeambulum</head>
+            <p xml:id="olm8ij-h28102-d1e104">
                <lb ed="#R" n="87"/>DISTINCTIO X 
       <lb ed="#R" n="88"/>DE EXISTENTIA 
       <lb ed="#R" n="89"/>Corporis Christi in Sacramento 
       <lb ed="#R" n="90"/>Eucharistiae. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h28102-d1e115">
                <lb ed="#R" n="91"/>Sunt quidam alj, &amp;c. Postquam immediate 
       <lb ed="#R" n="92"/>in Distinctione Nona determinauerat 
       Ma<lb ed="#R" n="93" break="no"/>gister de Sacramento Eucharistiae in 
@@ -71,27 +69,27 @@
       ip<lb ed="#R" n="96" break="no"/>so in comparatione ad contentum, scilicet 
       <lb ed="#R" n="97"/>ad corpus Christi.
   </p>
-            <p>
+            <p xml:id="olm8ij-h28102-d1e133">
                <lb ed="#R" n="98"/>Ideo ad euidentiam huius materiae 
       plenio<lb ed="#R" n="99" break="no"/>rem quaero quatuor Quaestiones. 
       Pri<lb ed="#R" n="100" break="no"/>ma est: 
   </p>
-            <p>
+            <p xml:id="olm8ij-h28102-d1e143">
                <lb ed="#R" n="101"/>1De existentia Corporis Christi in 
       Euchari<lb ed="#R" n="102" break="no"/>stia. quid sit formaliter, Vtrum sit respectus 
       extrin<lb ed="#R" n="103" break="no"/>secus adueniens, vel sit aliquid de genere 
       relatio<lb ed="#R" n="104" break="no"/>nis, vel quid sit? 
     </p>
-            <p>
+            <p xml:id="olm8ij-h28102-d1e154">
                <lb ed="#R" n="105"/>2Vtrum corpus Christi incipiat esse in 
       Sacra<lb ed="#R" n="106" break="no"/>mento realiter vi conuersionis, absque aliqua 
       <lb ed="#R" n="107"/>mutatione reali facta circa corpus Christi. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h28102-d1e163">
                <lb ed="#R" n="108"/>3 Vtrum corpus Christi sit in Sacramento 
       al<lb ed="#R" n="109" break="no"/>taris sine quantitate propria. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h28102-d1e170">
                <lb ed="#R" n="110"/>4 Vtrum in hoc quod quantitas corporis 
       Chri<lb ed="#R" n="111" break="no"/>sti es concomitanter in hoc Sacramento, 
       absolua<lb ed="#R" n="112" break="no"/>tur ex hoc legibus quantitatis. 

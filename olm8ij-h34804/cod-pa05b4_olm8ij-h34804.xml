@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -54,31 +52,31 @@
          </div>
       </front>
       <body>
-         <div xml:id="olm8ij-h34804"> <!-- l1-d11q2 -->
-            <head>Quaestio 2</head>
-            <head type="question-title">De transubstantiatione in ordine ad subiectum</head>
-            <p>
+         <div xml:id="olm8ij-h34804"> <!-- l4-d11q2 -->
+            <head xml:id="olm8ij-h34804-Hd1e102">Quaestio 2</head>
+            <head xml:id="olm8ij-h34804-Hd1e104" type="question-title">De transubstantiatione in ordine ad subiectum</head>
+            <p xml:id="olm8ij-h34804-d1e107">
                <lb ed="#R" n="71"/>Quaestio II. 
       <lb ed="#R" n="72"/>DE TRANSVBSTANTIATIONE 
       <lb ed="#R" n="73"/>IN ORDINEAD 
       <lb ed="#R" n="74"/>SVBIECTVM. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h34804-d1e118">
                <lb ed="#R" n="75"/>Viso de transubstantiatione in se, videndum 
       <lb ed="#R" n="76"/>est de ipsa nunc in ordine ad subiectum. 
     </p>
-            <div>
-               <head>Articulus 1</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h34804-Dd1e126">
+               <head xml:id="olm8ij-h34804-Hd1e128">Articulus 1</head>
+               <head xml:id="olm8ij-h34804-Hd1e130" type="question-title">
       Utrum transubstantiatio sit in alique 
       subiectiue
     </head>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e133">
                   <lb ed="#R" n="77"/>ARTICVLVUS I. 
       <lb ed="#R" n="78"/>Vtrum transubstantiatio sit in alique 
       <lb ed="#R" n="79"/>subiectiue 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e142">
                   <lb ed="#R" n="80"/>ARGVO primo, quod 
       <lb ed="#R" n="81"/>non, sic: Quia si esset in 
       <lb ed="#R" n="82"/>subiecto, aut ergo in pa
@@ -110,20 +108,20 @@
       <lb ed="#R" n="101"/>quia accidens non est subiectum accidentis: ergo 
       <lb ed="#R" n="102"/>in nullo subiecto. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e209">
                   <lb ed="#R" n="103"/>In oppositum est, quod transubstantiatio est 
       ac<lb ed="#R" n="104" break="no"/>cidens, &amp; non absolutum: accidentia autem 
       <lb ed="#R" n="105"/>huiusmodi in Sacramento non ponuntur sine 
       su<lb ed="#R" n="106" break="no"/>biecto. Respondeo in ista quaestione pono duas 
       <lb ed="#R" n="107"/>conclusiones. Secundo mouebo quaedam dubia. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e223">
                   <lb ed="#R" n="108"/>Prima propositio est, quod transubstantiatio ese 
       <lb ed="#R" n="109"/>duplex mutatio, &amp; vna tantum actio. Secunda 
       <lb ed="#R" n="110"/>propositio est, quod ista actio non est subiectiue 
       <lb ed="#R" n="111"/>in pane 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e234">
                   <lb ed="#R" n="112"/>Primam propositionem probo quo ad primam 
       <lb ed="#R" n="113"/>partem, quod transubstantiatio sit duplex 
       muta<lb ed="#R" n="114" break="no"/>tio, arguo sic. Impossibile est esse transitum 
@@ -153,14 +151,14 @@
       <lb ed="#R" n="6"/>termini: ergo transubstantiatio est duplex 
       mu<lb ed="#R" n="7" break="no"/>tatio. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e297">
                   <lb ed="#R" n="8"/>Sed contra: Intentio istius propositionis videtur 
       <lb ed="#R" n="9"/>esse, quod in omni motu, &amp; mutatione est duplex 
       <lb ed="#R" n="10"/>mutatio, sicut quando aliquis ex albo fit niger, est 
       <lb ed="#R" n="11"/>duplex mutatio, quod tamen non videtur verum, 
       <lb ed="#R" n="12"/>quia est vna simplex alteratio. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e310">
                   <lb ed="#R" n="13"/>Respondeo, licet in talibus non appareat prima 
       <lb ed="#R" n="14"/>facie essse nisi vnam mutationem, tamen vere in 
       <lb ed="#R" n="15"/>omnibus talibus est duplex mutatio, &amp; hoc 
@@ -178,7 +176,7 @@
       <lb ed="#R" n="27"/>apparet duplex vna mutatio, puta de albo in 
       ni<lb ed="#R" n="28" break="no"/>grum 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e347">
                   <lb ed="#R" n="29"/>Accipiendo autem eos partim affirmatiue, &amp; 
       <lb ed="#R" n="30"/>partim negatiue, apparent duae mutationes, 
       quo<lb ed="#R" n="31" break="no"/>niam cum ex albo fit nigrum, vna mutatio est a 
@@ -188,7 +186,7 @@
       <lb ed="#R" n="35"/>mutatio, vna ex terminis positiuis, aliae duae ex vno 
       <lb ed="#R" n="36"/>positiuo, &amp; alio priuatiuo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e367">
                   <lb ed="#R" n="37"/>Et potest confirmari principalis propositio, 
       quo<lb ed="#R" n="38" break="no"/>niam generatio, &amp; corruptio non sunt vna 
       muta<lb ed="#R" n="39" break="no"/>tio, sed duae, vna acquisitiua, quae est de non 
@@ -200,7 +198,7 @@
       subie<lb ed="#R" n="45" break="no"/>ctum, &amp; de non subieco in non subiectum sunt 
       con<lb ed="#R" n="46" break="no"/>munes omni motui. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e392">
                   <lb ed="#R" n="47"/>Secundam partem illius propositionis, videlicet 
       <lb ed="#R" n="48"/>quod transubstantiatio sit vnica actio, sic quod 
       il<lb ed="#R" n="49" break="no"/>lae duae mutationes, quae sunt probatae esse ibi, sunt 
@@ -240,7 +238,7 @@
       <lb ed="#R" n="81"/>formam, sequitur necessario per modum sequelae 
       <lb ed="#R" n="82"/>desitio prioris formae; sic in proposito. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e477">
                   <lb ed="#R" n="83"/>Dicetur forte: Omnis mutatio est actio, vel 
       pas<lb ed="#R" n="84" break="no"/>sio, ita quod vel est mutatio actio, vel mutatio 
       pas<lb ed="#R" n="85" break="no"/>sio: ergo multiplicatis actionibus multiplicantur 
@@ -249,7 +247,7 @@
       <lb ed="#R" n="88"/>similiter sic corrumpere &amp; generare sunt duae 
       a<lb ed="#R" n="89" break="no"/>ctiones. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e495">
                   <lb ed="#R" n="90"/>Respondeo: Corrumpere &amp; generare sunt vnica 
       <lb ed="#R" n="91"/>simplex actio: non enim est imaginandum, quod 
       <lb ed="#R" n="92"/>ab agente prosuat duplex actio, vna positiua, &amp; 
@@ -258,7 +256,7 @@
       <lb ed="#R" n="95"/>&amp; per modum sequelae alterius formae 
       incompati<lb ed="#R" n="96" break="no"/>bilis illi. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e513">
                   <lb ed="#R" n="97"/>Tunc ad formam rationis dico, quod mutatio, 
       <lb ed="#R" n="98"/>siue actiua siue passiua, nec est actio, nec est 
       pas<lb ed="#R" n="99" break="no"/>sio: mutatio enim est respectus ad terminum; sed 
@@ -268,7 +266,7 @@
       <lb ed="#R" n="103"/>mutatio, sed non multiplicatur agens, ideo 
       non<lb ed="#R" n="104" break="no"/>multiplicatur actio. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e533">
                   <lb ed="#R" n="105"/>Secunda ratio ad idem est ista: Si ad illas duas 
       <lb ed="#R" n="106"/>mutationes, puta de non corpore in corpus, &amp; de 
       <lb ed="#R" n="107"/>pane in non panem, oporteat ponere duas 
@@ -292,7 +290,7 @@
       en<lb ed="#R" n="125" break="no"/>te: quare impossibile est esse actionem, quae sit 
       re<lb ed="#R" n="126" break="no"/>spectu tantum termini priuatiui. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e583">
                   <lb ed="#R" n="127"/>Confirmo hoc, quia super formalem terminum 
       <lb ed="#R" n="128"/>actionis fundatur respectus producentis ad 
       produ<lb ed="#R" n="129" break="no"/>ctum, ita enim dicit Commentator 7. metaphys. 
@@ -301,7 +299,7 @@
       posi<lb ed="#R" n="132" break="no"/>tiuus: ergo non ens non est respectus forma lis per 
       <lb ed="#R" n="133"/>se actionis ipsius agentis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e602">
                   <lb ed="#R" n="134"/>Dices, creatio est actio, &amp; similiter adnihilatio 
       <lb ed="#R" n="135"/>videtur actio: sed terminus adnihilationis est nihil: 
       <lb ed="#R" n="136"/>ergo. Respondeo: adnihilatio non est actio, sed ese 
@@ -311,7 +309,7 @@
                   <lb ed="#R" n="1"/>substractio actionis: est enim substractio influxus 
       <lb ed="#R" n="2"/>agentis, vel conseruantis, si creare sit conseruare.
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e622">
                   <lb ed="#R" n="3"/>Secunda Propositio est, quod ista actio non est 
       <lb ed="#R" n="4"/>in pane subiectiue: hoc dico propter dictum 
       cuius<lb ed="#R" n="5" break="no"/>dam Doctoris in quarto, &amp; in Summa, quod 
@@ -333,7 +331,7 @@
       <lb ed="#R" n="21"/>Contra istam ergo opinionem probo propositam 
       <lb ed="#R" n="22"/>secundam propositionem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e668">
                   <lb ed="#R" n="23"/>Arguo ergo primo sic: Jmpossibile est, quod 
       ac<lb ed="#R" n="24" break="no"/>cidens sit in subiecto, quod non est, quando 
       acci<lb ed="#R" n="25" break="no"/>dens est: probo, quia accidens esse in subiecto, non 
@@ -344,7 +342,7 @@
       <lb ed="#R" n="30"/>per isum Docttorem in instanti, quo 
       transubstan<lb ed="#R" n="31" break="no"/>tiatio est, panis non est: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e690">
                   <lb ed="#R" n="32"/>Item, secundum eum: Nihil transubstantiationis 
       <lb ed="#R" n="33"/>est in tempore praecedente, sed est totaliter in 
       in<lb ed="#R" n="34" break="no"/>stanti: ergo nihil facit pro eo dicere, quod panis 
@@ -353,13 +351,13 @@
       transubsta<lb ed="#R" n="37" break="no"/>tiatio: ergo in illo instanti habet subiectum, sed 
       <lb ed="#R" n="38"/>tunc panis non est: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e708">
                   <lb ed="#R" n="39"/>Tertia Propositio est, quod transubstantiatio 
       <lb ed="#R" n="40"/>est subiectiue in illo communi effecu formali, quod 
       <lb ed="#R" n="41"/>transit in corpus Christi, sicut saepe dictum est, &amp; 
       <lb ed="#R" n="42"/>hoc demonstrat forma verborum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e719">
                   <lb ed="#R" n="43"/>Hanc conclusionem probo in speciali, sic: In 
       il<lb ed="#R" n="44" break="no"/>lo est subiectiue versio, &amp; transubstantiatio, quod 
       <lb ed="#R" n="45"/>dicitur formaliter transire, siue de hoc in hoc ire: 
@@ -367,7 +365,7 @@
       de<lb ed="#R" n="47" break="no"/>inde hoc, nisi illud commune, quod significatur per 
       <lb ed="#R" n="48"/>hoc demonstratum: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e736">
                   <lb ed="#R" n="49"/>Vnde imaginor, quod ex quo circa istud 
       com<lb ed="#R" n="50" break="no"/>mune sunt duae mutationes, vna quidem, qua 
       acce<lb ed="#R" n="51" break="no"/>dit vt sit corpus Domini, &amp; iste accessus est 
@@ -380,7 +378,7 @@
       a<lb ed="#R" n="58" break="no"/>ctionis estt, sed per modum sequelae sequitur 
       tran<lb ed="#R" n="59" break="no"/>situm nominatum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e762">
                   <lb ed="#R" n="60"/>Tertio pono quaedam dubia. Primum est: 
       quo<lb ed="#R" n="61" break="no"/>modo potestt essse, quod idem demonsrabile 
       tran<lb ed="#R" n="62" break="no"/>seat de pane in corpus· Christi: arguo enim, quod 
@@ -396,7 +394,7 @@
       <lb ed="#R" n="70"/>primo concurrebat panis, nunc concurrit corpus 
       <lb ed="#R" n="71"/>Christi: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e795">
                   <lb ed="#R" n="72"/>Secundo sic: Quando aliquid debetur alicui per 
       <lb ed="#R" n="73"/>se, variato illo aliquo, variatur illud quod 
       debe<lb ed="#R" n="74" break="no"/>tur: sed esse hoc per se debetur substantiae: omnis 
@@ -407,7 +405,7 @@
       signi<lb ed="#R" n="79" break="no"/>ficat meram substantiam secundum Grammaticum, 
       <lb ed="#R" n="80"/>nec videtur per se demonsrare subiectum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e817">
                   <lb ed="#R" n="81"/>Tertio sic: Si remaneat idem 
       demonstrabile<lb ed="#R" n="82" break="no"/>aut illud est ipsae species precise, aut est aliquid 
       de<lb ed="#R" n="83" break="no"/>relictum a speciebus: non est species ipsae, quia 
@@ -416,14 +414,14 @@
       <lb ed="#R" n="86"/>est accidens, accidens autem non migrat de 
       subie<lb ed="#R" n="87" break="no"/>cto in subiectum: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e835">
                   <lb ed="#R" n="88"/>Quarto sic: Esse demonstratum non est aliud, 
       <lb ed="#R" n="89"/>quam esse suppositum, quod inest rei per materiam: 
       <lb ed="#R" n="90"/>ergo si non manet eadem materia, non manet idem 
       <lb ed="#R" n="91"/>demonstratum, nec per consequens idem 
       supposi<lb ed="#R" n="92" break="no"/>tum: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e848">
                   <lb ed="#R" n="93"/>Secundo ostendo, quod istud hoc demonstratum 
       <lb ed="#R" n="94"/>non sit subiectum transubstantiationis, quoniam 
       <lb ed="#R" n="95"/>accidens non estt subiecum accidentis, sicut 
@@ -432,7 +430,7 @@
       dispo<lb ed="#R" n="98" break="no"/>nitur per seipsam 5. Phys. te x. 3. sed istud commune 
       <lb ed="#R" n="99"/>demonstratum est accidens: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e867">
                   <lb ed="#R" n="100"/>Item: Si sit transubstantiatio subiectiue in hoc 
       de<lb ed="#R" n="101" break="no"/>monstrato, quod per te idem est quod ens 
       deter<lb ed="#R" n="102" break="no"/>minatum ad situm, sequitur, quod non erit aliud 
@@ -440,7 +438,7 @@
       <lb ed="#R" n="104"/>subiectum: sed transitus huiusmodi non dicitur 
       <lb ed="#R" n="105"/>transubstantiatio, sed magis transubeatio: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e883">
                   <lb ed="#R" n="106"/>Ad primum respondeo: Quandoque dicitur 
       ali<lb ed="#R" n="107" break="no"/>quid concurrere ad aliud, quo tamen sumpto adhuc 
       <lb ed="#R" n="108"/>manet illud, &amp; hoc quia remanet pars magis 
@@ -457,19 +455,19 @@
       com<lb ed="#R" n="119" break="no"/>pleatur per substantiam: &amp; ratio est, quia 
       dimen<lb ed="#R" n="120" break="no"/>siones concurrunt vt pars magis principalis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e918">
                   <lb ed="#R" n="121"/>Ad secundum dicendum, quod per ly hoc, potest 
       <lb ed="#R" n="122"/>intelligi indiuiduum, sicut alias dixi, &amp; tunc 
       con<lb ed="#R" n="123" break="no"/>cedo totam rationem, quia non facit contra me. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e927">
                   <lb ed="#R" n="124"/>Alio modo, per ly hoc potest intelligi aliquid, 
       <lb ed="#R" n="125"/>quod est terminatum &amp; completum, &amp; hoc modo, 
       <lb ed="#R" n="126"/>secundum Aristotelem 7. metaphys. tex. 26. 27. &amp; 
       <lb ed="#R" n="127"/>28. nec materia, nec forma, sed solum compositum 
       <lb ed="#R" n="128"/>est hoc. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e940">
                   <lb ed="#R" n="129"/>Tertio modo potest intelligi ens terminatum, &amp; 
       <lb ed="#R" n="130"/>vltra hoc determinatum ad situm, &amp; hoc modo An 
       <lb ed="#R" n="131"/>gelus, nec substantia non quanta est hoc: 
@@ -494,13 +492,13 @@
       <lb ed="#R" n="11"/>certitudine, qua corporalia transferimus saepe ad 
       <lb ed="#R" n="12"/>spiritualia. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e992">
                   <lb ed="#R" n="13"/>Ad illud de pronomine dico, quod talia non 
       si<lb ed="#R" n="14" break="no"/>gnificant proprie, sed exercent, exercent autem 
       <lb ed="#R" n="15"/>non quomodocumque, sed demonstrationem rei 
       <lb ed="#R" n="16"/>determinatae ad situm. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e1004">
                   <lb ed="#R" n="17"/>Dices, quando Sacerdos dicit, hoc est corpus 
       <lb ed="#R" n="18"/>meum, nunquid demonstrare intendit aliquid 
       de<lb ed="#R" n="19" break="no"/>terminatum ad situm, quid enim ad eum de situ? 
@@ -518,7 +516,7 @@
       <lb ed="#R" n="31"/>intentio Innocentij videtur, quod corpus Cristi 
       <lb ed="#R" n="32"/>terminatur ad situm per dimensiones. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e1041">
                   <lb ed="#R" n="33"/>Ad hoc etiam facit illud Hugonis de 
       Sacramen<lb ed="#R" n="34" break="no"/>tis lib. 2. par. 8. cap. 18. quod tamdiu est corpus Do 
       <lb ed="#R" n="35"/>mini praesens in Sacramento, quamdiu manent 
@@ -528,11 +526,11 @@
       <lb ed="#R" n="39"/>secundum, scilicet quo ad esse hoc, licet non 
       quan<lb ed="#R" n="40" break="no"/>tum ad primum, scilicet quo ad esse extensum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e1061">
                   <lb ed="#R" n="41"/>Ad aliud, quod quaerit, quid est illud tale 
       com<lb ed="#R" n="42" break="no"/>mune hoc demonstratum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e1068">
                   <lb ed="#R" n="43"/>Respondeo: Aliud est de importato per hoc, &amp; 
       <lb ed="#R" n="44"/>per esse hic, aliud de alijs accidentibus: nam 4. Phys. 
       <lb ed="#R" n="45"/>tex. 30. &amp; 36. dicitur, quod locus quo ad situm, &amp; 
@@ -547,7 +545,7 @@
       <lb ed="#R" n="54"/>tionem ad situm, &amp; ad esse hic, &amp; illud, quod est for 
       <lb ed="#R" n="55"/>male in loco. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e1099">
                   <lb ed="#R" n="56"/>Ad propositum, quia dimensiones panis sunt 
       il<lb ed="#R" n="57" break="no"/>Jud, per quod trahitur substantia panis ad esse hic, 
       <lb ed="#R" n="58"/>&amp; ad situm determinatum respectu totius vniuersi, 
@@ -570,12 +568,12 @@
       <lb ed="#R" n="73"/>Christi per dimensiones huiusmodi nullo modo 
       <lb ed="#R" n="74"/>extenditur. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e1147">
                   <lb ed="#R" n="75"/>Respondeo, extendi, &amp; ad situm determinari sunt 
       <lb ed="#R" n="76"/>duae habitudines distinctae, &amp; vna ab alia potest per 
       <lb ed="#R" n="77"/>diuinam potentiam separari. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e1157">
                   <lb ed="#R" n="78"/>Ad quartum respondeo, quod philosophice 
       lo<lb ed="#R" n="79" break="no"/>quendo, aliquid dicitur hoc per materiam non 
       ab<lb ed="#R" n="80" break="no"/>solute, sed inquantum habet annexam trinam 
@@ -583,13 +581,13 @@
       <lb ed="#R" n="82"/>materia, manet tamen trina dimensio, quare mane 
       <lb ed="#R" n="83"/>bit etiam &amp; idem hoc. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e1173">
                   <lb ed="#R" n="84"/>Ad aliud non habeo pro inconuenienti, quod 
       ac<lb ed="#R" n="85" break="no"/>cidens sit subiectum accidentis specialiter in fieri, 
       <lb ed="#R" n="86"/>sicut est situs quod transit, nec volo quod sit idem, 
       <lb ed="#R" n="87"/>quod relatio distantiae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e1184">
                   <lb ed="#R" n="88"/>Ad aliud, quod infertur, quod 
       transubstantia<lb ed="#R" n="89" break="no"/>tio esset transubeatio, respondeo: Omnis 
       muta<lb ed="#R" n="90" break="no"/>tio denominatur a termino ad quem: quando ergo 
@@ -600,7 +598,7 @@
       <lb ed="#R" n="95"/>habet substantiam pro termino, sed ipsum vbi, 
       si<lb ed="#R" n="96" break="no"/>ue situm. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h34804-d1e1206">
                   <lb ed="#R" n="97"/>Dices, corpus Domini non acquirit nisi vbi, &amp; 
       <lb ed="#R" n="98"/>situm. Respondeo, non acquirit vbi, quia vbi est 
       <lb ed="#R" n="99"/>formaliter circumscriptio; nec acquirit situm, sed 

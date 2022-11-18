@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,26 +53,26 @@
       </front>
       <body>
          <div xml:id="olm8ij-h69371"> <!-- l4-d44q1 -->
-            <head>Quaestio 1</head>
-            <p>
+            <head xml:id="olm8ij-h69371-Hd1e102">Quaestio 1</head>
+            <p xml:id="olm8ij-h69371-d1e104">
                <lb ed="#R" n="85"/>Questio Vnica. 
     </p>
-            <div>
-               <head>Articulus 1</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h69371-Dd1e109">
+               <head xml:id="olm8ij-h69371-Hd1e111">Articulus 1</head>
+               <head xml:id="olm8ij-h69371-Hd1e113" type="question-title">
       Utrum materia, quae fuit de veritate humanae 
       naturae resurgat in duobus, vel in altero, idest 
       commesto, et generato ex semine, siue 
       materia prima, et secunda.
     </head>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e116">
                   <lb ed="#R" n="86"/>ARTICVLVUS I. 
       <lb ed="#R" n="87"/>Vtrum materia, quae fuit de veritate humanae 
       na<lb ed="#R" n="88" break="no"/>turae resurgat in duobus, vel in altero, idest 
       <lb ed="#R" n="89"/>commesto, &amp; generato ex semine, siue 
       <lb ed="#R" n="90"/>materia prima, &amp; secunda. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e129">
                   <lb ed="#R" n="91"/>QVANTVM ad primam 
       <lb ed="#R" n="92"/>quaestionem ad 
       euiden<lb ed="#R" n="93" break="no"/>tiam eius, quod 
@@ -91,7 +89,7 @@
       verita<lb ed="#R" n="104" break="no"/>te naturae generati ex semine illo, quaero in quo 
       re<lb ed="#R" n="105" break="no"/>surget: Vtrum in altero, vel quomodo? 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e164">
                   <lb ed="#R" n="106"/>Et arguo, quod non in altero, quia qua ratione 
       <lb ed="#R" n="107"/>resurget in vno, resurget in altero, vel ergo 
       resur<lb ed="#R" n="108" break="no"/>get in nullo, vel resurget in ambobus: sed impossi. 
@@ -99,7 +97,7 @@
       <lb ed="#R" n="110"/>nota est. Probo minorem, quoniam imposibile 
       <lb ed="#R" n="111"/>est, quod eadem materia sit sub diuersis formis: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e181">
                   <lb ed="#R" n="112"/>In oppositum est, quia in resurrectione erit idem 
       <lb ed="#R" n="113"/>numero homo, qui ante fuit: sed nisi haberet eandem 
       <lb ed="#R" n="114"/>materiam numero, non esset idem homo: probo 
@@ -123,7 +121,7 @@
       for<lb ed="#R" n="11" break="no"/>mam siue sit substantialis, siue accidentalis puta 
       <lb ed="#R" n="12"/>complexionalis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e231">
                   <lb ed="#R" n="13"/>Si secundo modo capiatur materia, quaestio 
       nul<lb ed="#R" n="14" break="no"/>lum habet dubium, imo supponit falsum manifestum, 
       <lb ed="#R" n="15"/>quia numquam talis materia est communis vtrique, 
@@ -140,7 +138,7 @@
       <lb ed="#R" n="26"/>in quo resurget, vt sit in illo de veritate humanae 
       <lb ed="#R" n="27"/>naturae. Hoc praemisso.
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e266">
                   <lb ed="#R" n="28"/>Sciendum est, quod sunt hic tres modi 
       dicendi<lb ed="#R" n="29" break="no"/>Vnus quod materia, qui pertinet ad veritatem 
       huma<lb ed="#R" n="30" break="no"/>nae naturae, non est materia cibalis, sed materia, quae 
@@ -157,7 +155,7 @@
       <lb ed="#R" n="41"/>quae fuit in comesto, ideo est alia materia hic, 
       <lb ed="#R" n="42"/>&amp; ibi. 
   </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e301">
                   <lb ed="#R" n="43"/>Alia est opinio, quod materia illa quae 
       transfun<lb ed="#R" n="44" break="no"/>ditur per generationem, non fuit illa, quae 
       creata<lb ed="#R" n="45" break="no"/>fuit in Adam, sed fuit acquisita in parente, &amp; est 
@@ -177,7 +175,7 @@
       <lb ed="#R" n="59"/>In propagato enim a comedente non est nisi 
       praeci<lb ed="#R" n="60" break="no"/>se illud, quod transfunditur per semen. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e343">
                   <lb ed="#R" n="61"/>Alia opinio est, quod non modo materia 
       tra<lb ed="#R" n="62" break="no"/>cta aa parentibus, sed etiam illa cibalis, quae 
       adiun<lb ed="#R" n="63" break="no"/>cta est alteri, vsque ad debitum augmentum, &amp; 
@@ -193,7 +191,7 @@
       <lb ed="#R" n="71"/>tunt dicunt, quod Deus supplebit eam in 
       resur<lb ed="#R" n="72" break="no"/>recione 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e376">
                   <lb ed="#R" n="73"/>Sed nunquid si tota materia, quae praefuit in vno, 
       <lb ed="#R" n="74"/>posea fuit in alio, ita quod aequaliter esset de 
       ve<lb ed="#R" n="75" break="no"/>ritate naturae vtriusque resurgeret in vtroque, vel 
@@ -203,7 +201,7 @@
       <lb ed="#R" n="79"/>suppleret, quod deesset, vel totam vni, &amp; causaret 
       <lb ed="#R" n="80"/>nouam materiam in alio. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e397">
                   <lb ed="#R" n="81"/>In ista responsione non est difficultas aliqua 
       <lb ed="#R" n="82"/>quo ad hoc, quomodo posset eadem materia 
       re<lb ed="#R" n="83" break="no"/>surgere in duobus, quia potest teneri alter 
@@ -220,12 +218,12 @@
       dis<lb ed="#R" n="94" break="no"/>ficultatem moui quaestionem istam. Ideo sic 
       pro<lb ed="#R" n="95" break="no"/>cedam. 
   </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e432">
                   <lb ed="#R" n="96"/>Primo ponam modum quendam dicendi, &amp; istum 
       <lb ed="#R" n="97"/>improbabo. Secundo ponam aliquos alios. 
       Ter<lb ed="#R" n="98" break="no"/>tio ponam modum, qui mihi videtur rationabilis. 
   </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e441">
                   <lb ed="#R" n="99"/>Quoad primum quidam dicit, quod ille, qui 
       re<lb ed="#R" n="100" break="no"/>isurgeret cum noua materia, esset idem numero qui 
       <lb ed="#R" n="101"/>prius, ac si haberet eandem materiam, &amp; ratio est 
@@ -250,9 +248,9 @@
       deter<lb ed="#R" n="120" break="no"/>minate, nec negationes eorum, sed est susceptiuum 
       <lb ed="#R" n="121"/>omnium in potentia. 
   </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e493">
                   <lb ed="#R" n="122"/>Item Commentator ibidem: in fundamento 
-      na<lb ed="#R" n="123" break="no"/>turae nihil est distinctum. Item <ref>Augustinus 12. 
+      na<lb ed="#R" n="123" break="no"/>turae nihil est distinctum. Item <ref xml:id="olm8ij-h69371-Rd1e499">Augustinus 12. 
       con<lb ed="#R" n="124" break="no"/>fessionum cap. 6.</ref> materia non erit corpus, nec 
       spi<lb ed="#R" n="125" break="no"/>ritus, nec aliquid huiusmodi. Item 
       Commenta<lb ed="#R" n="126" break="no"/>tor de substantia orbis dicit, quod materia substan 
@@ -266,7 +264,7 @@
       <lb ed="#R" n="134"/>intentione Philosophi, ideo arguo contra eam. 
       Pri<lb ed="#R" n="135" break="no"/>mo ostensiue. Secundo deducendo ad impossibile. 
   </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e529">
     <!-- missing line coord --> De primo sic. Illud non est causa distinctionis
       <!--0204.xml-->
       <pb ed="#R" n="204"/>
@@ -292,7 +290,7 @@
       <lb ed="#R" n="19"/>Ratio est, quia in eadem parte materiae impossibile 
       <lb ed="#R" n="20"/>est esse plures formis eiusdem speciei. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e584">
                   <lb ed="#R" n="21"/>Secunda ratio ad idem est ista. Materia 
       distin<lb ed="#R" n="22" break="no"/>guitur a materia, &amp; particulatur contra aliam 
       par<lb ed="#R" n="23" break="no"/>tem materiae per dimensiones interminatas: sed 
@@ -341,7 +339,7 @@
       formali<lb ed="#R" n="66" break="no"/>ter ipsa partibilitas, &amp; illud est formaliter 
       quan<lb ed="#R" n="67" break="no"/>titas. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e689">
                   <lb ed="#R" n="68"/>Dicendum ergo, quod materia partitur &amp; di- 
       <!--0204.xml-->
       <cb ed="#R" n="b"/>
@@ -360,7 +358,7 @@
       in<lb ed="#R" n="81" break="no"/>imaginatione; non ergo per formam distinguitur 
       <lb ed="#R" n="82"/>materia a materia. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e728">
                   <lb ed="#R" n="83"/>Tertia ratio deducens ad impossibile est ista 
       <lb ed="#R" n="84"/>Opinio ista dicit, quod forma non solum actuat 
       ma<lb ed="#R" n="85" break="no"/>teriam, &amp; distinguit compositum a composito, sed 
@@ -385,14 +383,14 @@
       <lb ed="#R" n="104"/>materia, quae fuit sub forma stupae quam a materia 
       <lb ed="#R" n="105"/>que fuit, &amp; est sub forma lapidis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e780">
                   <lb ed="#R" n="106"/>Sed haec opinio tollit, quod materia non manet 
       <lb ed="#R" n="107"/>eadem in tota transmutatione contra omnem 
       Phi<lb ed="#R" n="108" break="no"/>losophiam, quia secundum hoc alia est materia, 
       <lb ed="#R" n="109"/>quae praefuit sub aere, a materia, quae est sub igne, 
       <lb ed="#R" n="110"/>quando ex aere generatur ignis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e793">
                   <lb ed="#R" n="111"/>Ideo considerandum est quod distinctio 
       mate<lb ed="#R" n="112" break="no"/>riae est duplex, vel quidditatiua per quam distin. 
       <lb ed="#R" n="113"/>guitura forma, vel numeralis per quam 
@@ -418,7 +416,7 @@
       <lb ed="#R" n="133"/>sua formatione, &amp; terminatione, &amp; sic 
       quidifica<lb ed="#R" n="134" break="no"/>bile, &amp; terminabile ab actu, per quem trahitur ad 
       <lb ed="#R" n="135"/>esse, neutra tamen essset in tali materia distincttio 
-      <lb ed="#R" n="136"/>numeralis. &amp; hoc est quod ait <ref>Commentator 12. 
+      <lb ed="#R" n="136"/>numeralis. &amp; hoc est quod ait <ref xml:id="olm8ij-h69371-Rd1e851">Commentator 12. 
       <!--0205.xml-->
       <pb ed="#R" n="205"/>
                      <cb ed="#R" n="a"/>
@@ -449,7 +447,7 @@
       <lb ed="#R" n="25"/>residuum suppleretur a Deo, vtrum quilibet 
       isto<lb ed="#R" n="26" break="no"/>rum esset idem numero qui prius. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e917">
                   <lb ed="#R" n="27"/>Tunc ad rationes istius opinionis, ad maiorem 
       <lb ed="#R" n="28"/>conceditur. Minorem nego, quia licet non 
       ha<lb ed="#R" n="29" break="no"/>beat ex se distinctionem naturalem, illam tamen-- 
@@ -464,7 +462,7 @@
       <lb ed="#R" n="38"/>ideo transmutat dimensiones, quousque veniat ad 
       <lb ed="#R" n="39"/>terminum, quem exigit forma substantialis ignis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e948">
                   <lb ed="#R" n="40"/>Alius modus dicendi est, quod licet materia non 
       <lb ed="#R" n="41"/>rediret eadem, dum tamem forma esset eadem, esset 
       <lb ed="#R" n="42"/>idem homo qui prius. Motiuum opinionis est, quia 
@@ -480,7 +478,7 @@
       <lb ed="#R" n="52"/>vel 7. nos autem hic non loquimur de 
       identitate<lb ed="#R" n="53" break="no"/>quidditatis, sed indiuidui. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e982">
                   <lb ed="#R" n="54"/>Nunc pono modum qui mihi videtur, &amp; est iste. 
       <lb ed="#R" n="55"/>Vbi considerandum est quod Philosophus 8. 
       Me<lb ed="#R" n="56" break="no"/>taph. &amp; Commentator ibidem com. 7. quaerunt: vtrum 
@@ -494,7 +492,7 @@
       <lb ed="#R" n="64"/>forma est causa compositi, quicquid autem dicitur 
       <lb ed="#R" n="65"/>de causa, &amp; causato, per prius dicitur de causa. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e1011">
                   <lb ed="#R" n="66"/>Per hoc ego respondeo ad quaestionem, quod ille, 
       <lb ed="#R" n="67"/>in quo non resurgeret eadem materia, quam habuit 
       <lb ed="#R" n="68"/>prius, sed noua crearetur, esset idem quidem numero 
@@ -538,7 +536,7 @@
       Confir<lb ed="#R" n="104" break="no"/>mo, quia forma est illud, quod dat nomen, &amp; 
       de<lb ed="#R" n="105" break="no"/>finitionem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e1105">
                   <lb ed="#R" n="106"/>Secundum vero, quod illud non esset idem 
       nu<lb ed="#R" n="107" break="no"/>mero secundum quid, probo, quia illud, quod 
       se<lb ed="#R" n="108" break="no"/>cundum quid pertinet ad compositum, si variatur, 
@@ -547,25 +545,25 @@
       <lb ed="#R" n="111"/>secundum quid: ergo. 
     </p>
             </div>
-            <div>
-               <head>Articulus 2</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h69371-Dd1e1122">
+               <head xml:id="olm8ij-h69371-Hd1e1124">Articulus 2</head>
+               <head xml:id="olm8ij-h69371-Hd1e1126" type="question-title">
       Utrum spiritus incorporei possint pati ab igne 
       corporeo
     </head>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e1129">
                   <lb ed="#R" n="112"/>ARTICVLVS II 
       <lb ed="#R" n="113"/>Vtrum spiritus incorporei possint pati ab igne 
       <lb ed="#R" n="114"/>corporeo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e1138">
                   <lb ed="#R" n="115"/>QVo ad secundam quaestionem arguo primo, 
       <lb ed="#R" n="116"/>quod spiritus incorporeus pati non potest ab 
       <lb ed="#R" n="117"/>igne corporeo, sic. Agens praestantior est 
       <lb ed="#R" n="118"/>patiente secundum Augustinum: sed ignis est 
       igno<lb ed="#R" n="119" break="no"/>bilior spiritu incorporeo: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e1151">
                   <lb ed="#R" n="120"/>In oppositum est illud Matth. 5. quod dixit 
       Sal<lb ed="#R" n="121" break="no"/>uator se dicturum in die iudicij: Ite maledicti 
       in<lb ed="#R" n="122" break="no"/>ignem aeternum, qui paratus est diabolo, &amp; 
@@ -576,7 +574,7 @@
       <lb ed="#R" n="127"/>Pono primo difficultatem in qua consistit quaestio 
       <lb ed="#R" n="128"/>ista. Secundo dicam, quod intendo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e1174">
                   <lb ed="#R" n="129"/>Difficultas autem quaestionis consistit in hoc, 
       <lb ed="#R" n="130"/>quod vix inueniri potest ex dictis Doctorum 
       ali<lb ed="#R" n="131" break="no"/>quis modus idoneus, ex quo appareat 
@@ -586,7 +584,7 @@
                   <cb ed="#R" n="a"/>
                   <lb ed="#R" n="1"/>quod patet discurrendo per singulos modos. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e1194">
                   <lb ed="#R" n="2"/>Dicunt autem quidam, quod ignis dicitur 
       age<lb ed="#R" n="3" break="no"/>re in spiritum tantummodo similitudinarie, &amp; 
       se<lb ed="#R" n="4" break="no"/>cundum quandam coaptationem; aliter tamen, &amp; 
@@ -616,7 +614,7 @@
       Augulti<lb ed="#R" n="28" break="no"/>num, &amp; Cregorium, qui expresse dicunt, vbi supra, quod 
       <lb ed="#R" n="29"/>spiritus damnati patiuntur ab igne corporeo.
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e1257">
                   <lb ed="#R" n="30"/>Ideo dicunt alii, quod ignis ille agit in spiritus, 
       <lb ed="#R" n="31"/>non principaliter, &amp; ex se, sed inquantum est 
       in<lb ed="#R" n="32" break="no"/>strumentum diuinae iustitiae: &amp; sicut instrumentum 
@@ -625,14 +623,14 @@
       <lb ed="#R" n="35"/>in spiritus damnatos, nisi per virtutem quandam 
       <lb ed="#R" n="36"/>infusam sibi a Deo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e1275">
                   <lb ed="#R" n="37"/>Sed iste modus non sufficit. Primo quia virtus 
       <lb ed="#R" n="38"/>illi iufluxa, ex quo reciperetur subiectiue in 
       corpo<lb ed="#R" n="39" break="no"/>re, esset virtus corporalis, &amp; tunc oriretur eadem 
       <lb ed="#R" n="40"/>difficultas, quomodo virtus illa posset agere in 
       spi<lb ed="#R" n="41" break="no"/>ritum de ipso igne. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e1288">
                   <lb ed="#R" n="42"/>Ideo dixerunt aliĳ. quod ignis potest agere in spi 
       <lb ed="#R" n="43"/>ritum non propria virtute praecise, sed assistente 
       si<lb ed="#R" n="44" break="no"/>bi diuina actione, &amp; exemplum ponunt de 
@@ -648,7 +646,7 @@
       <lb ed="#R" n="54"/>&amp; hoc in virtute actionis diuinae sibi coassistentis, 
       <lb ed="#R" n="55"/>&amp; talis calor est vere afflictiuus ipsorum spirituum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e1321">
                   <lb ed="#R" n="56"/>Sed iste modus etiam non sufficit, tum quia dato, 
       <lb ed="#R" n="57"/>quod posset agere, non appareret quomodo spiritum 
       <lb ed="#R" n="58"/>affligeret, quia non abijceret aliquid a spiritu; tum 
@@ -657,7 +655,7 @@
       <lb ed="#R" n="61"/>rat assistentiam intellectus agentis, sed non 
       osten<lb ed="#R" n="62" break="no"/>ditur, quomodo ignis agere possit virtute propria. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e1340">
                   <lb ed="#R" n="63"/>Alius modus dicendi est, quod Deus dat spiritui 
       <lb ed="#R" n="64"/>habitum quendani, &amp; qualitatem, quo fit passibilis 
       <lb ed="#R" n="65"/>ab igne corporali. Sed ille modus non valet in 
@@ -683,7 +681,7 @@
       appre<lb ed="#R" n="83" break="no"/>hensi, vt disconueniens, &amp; ostensi a ratione, licet 
       <lb ed="#R" n="84"/>etiam a ratione errante, vt disconueniens. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e1395">
                   <lb ed="#R" n="85"/>Tunc ad propositum, agens est obiecum discon 
       <lb ed="#R" n="86"/>ueniens, &amp; nolitum, &amp; tamen positum ideo 
       tristabi<lb ed="#R" n="87" break="no"/>le, quia tristitia est de ijs, quae nobis nolentibus 
@@ -701,7 +699,7 @@
       <lb ed="#R" n="99"/>malo, maxime sub ista ratione, inquantum est a 
       vo<lb ed="#R" n="100" break="no"/>luntate diuina. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e1432">
                   <lb ed="#R" n="101"/>Secundo tristatur in ratione obiecti 
       disconue<lb ed="#R" n="102" break="no"/>nientis, in ratione immutantis obiectiue hoc modo. 
       <lb ed="#R" n="103"/>Determinatur enim perpetuo ad intense 
@@ -717,7 +715,7 @@
       <lb ed="#R" n="113"/>spiritus incorporeus possit pati ab igne agente 
       <lb ed="#R" n="114"/>Nunc pono aliquas propositiones. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e1465">
                   <lb ed="#R" n="115"/>Prima est, quod aflictio siue passio spirituum per 
       <lb ed="#R" n="116"/>ignem non est abiectiua siue realis, siue 
       intentiona<lb ed="#R" n="117" break="no"/>lis. Dico autem non realis, quia imaginantur 
@@ -729,7 +727,7 @@
       cale<lb ed="#R" n="123" break="no"/>fiat, quia calor impossibile est, quod aspiciat 
       spiri<lb ed="#R" n="124" break="no"/>tum, vt spiritum 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e1489">
                   <lb ed="#R" n="125"/>Dico secundo, quod nec etiam intentionalis 
       abie<lb ed="#R" n="126" break="no"/>ctiua, quia passio illa abijcit armoniam, quando est 
       <lb ed="#R" n="127"/>magis facta, sed in spiritu natura est armonia talis. 
@@ -762,7 +760,7 @@
       <lb ed="#R" n="15"/>tres imaginationes, eligat quilibet, quod magis 
       <lb ed="#R" n="16"/>placet.
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e1559">
                   <lb ed="#R" n="17"/>Prima imaginatio est, quod ardor ignis causee 
       <lb ed="#R" n="18"/>illam tristitiam, non elicitiue, sed applicatiue, 
       <lb ed="#R" n="19"/>eo modo quo dictum est supra, quod sacramenta 
@@ -802,7 +800,7 @@
       <lb ed="#R" n="53"/>applicat virtutem diuinam ad causandum 
       trisi<lb ed="#R" n="54" break="no"/>tiam in isto. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e1645">
                   <lb ed="#R" n="55"/>Secunda imaginatio est, quod si non sufficiat 
       pri<lb ed="#R" n="56" break="no"/>ma via, sed oporteat aliquam actiuitatem 
       pone<lb ed="#R" n="57" break="no"/>re in ardore ignis respecu spirituum, potest hoc 
@@ -830,7 +828,7 @@
       <lb ed="#R" n="77"/>alius. Ratio autem est, quia intensio in causa est 
       <lb ed="#R" n="78"/>causa intensionis in effectu. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e1704">
                   <lb ed="#R" n="79"/>Tunc ad propositum potest poni, quod spiritus 
       <lb ed="#R" n="80"/>malus apprehendit ignem sub ratione 
       disconue<lb ed="#R" n="81" break="no"/>nientis, quae disconuenientia non est ex hoc, quod 
@@ -849,7 +847,7 @@
       <lb ed="#R" n="94"/>causa maioris effectus, &amp; facum maxime tale est 
       <lb ed="#R" n="95"/>causa maximi tulis effectus.
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e1743">
                   <lb ed="#R" n="96"/>Et hoc modo potest intelligi, quod 
       concurren<lb ed="#R" n="97" break="no"/>te virtute diuina ignis causet aliquo modo eff
       ecti<lb ed="#R" n="98" break="no"/>ue tristitiam in voluntate, arguendo sic. Quicquid 
@@ -864,7 +862,7 @@
       <lb ed="#R" n="107"/>igne, &amp; hoc modo potest intelligi, quod ignis sit 
       in<lb ed="#R" n="108" break="no"/>strumentum iustitiae diuinae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e1774">
                   <lb ed="#R" n="109"/>Tertia imaginatio est. quod omnis forma 
       abso<lb ed="#R" n="110" break="no"/>luta, quae apta nata causari ab obiecto, potest 
       virtu<lb ed="#R" n="111" break="no"/>te diuina causari sine obiecto: Tristitia autem 
@@ -893,13 +891,13 @@
       <lb ed="#R" n="134"/>tres modi videntur sufficere.
     </p>
             </div>
-            <div>
-               <head>Articulus 3</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h69371-Dd1e1835">
+               <head xml:id="olm8ij-h69371-Hd1e1837">Articulus 3</head>
+               <head xml:id="olm8ij-h69371-Hd1e1839" type="question-title">
           Verum dos impassibilitatis in corporibus gloriosis 
           sit aliqua realis forma inhaerens.
         </head>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e1842">
       <!--0208.xml-->
                   <pb ed="#R" n="208"/>
                   <cb ed="#R" n="a"/>
@@ -907,21 +905,21 @@
       <lb ed="#R" n="2"/>Verum dos impassibilitatis in corporibus gloriosis 
       <lb ed="#R" n="3"/>sit aliqua realis forma inhaerens. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e1858">
                   <lb ed="#R" n="4"/>AD tertiam quaestionem arguo primo, quod 
       <lb ed="#R" n="5"/>dos impassibilitatis in corporibus gloriosis 
       <lb ed="#R" n="6"/>sit aliqua realis forma inhaerens, sic: Secundum om 
       <lb ed="#R" n="7"/>nes, corpora gloriosa habebunt dotem 
       impassibi<lb ed="#R" n="8" break="no"/>litatis, corpora vero damnatorum, non. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e1871">
                   <lb ed="#R" n="9"/>Tunc sic: Respectus non datur, nisi dato aliquo 
       <lb ed="#R" n="10"/>absoluto: sed corporibus gloriosis datur dos: ergo 
       <lb ed="#R" n="11"/>illa non est respectus, vel saltem si est respectus, 
       fun<lb ed="#R" n="12" break="no"/>dabitur in nouo aliquo absoluto dato: illud voco 
       <lb ed="#R" n="13"/>dotem: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e1885">
                   <lb ed="#R" n="14"/>In oppositum arguo: Nihil, quod debetur alicui 
       <lb ed="#R" n="15"/>naturaliter, potest tolli, nisi mediante diuina 
       virtu<lb ed="#R" n="16" break="no"/>re: sed corpori composito ex contrarijs debetur 
@@ -929,11 +927,11 @@
       <lb ed="#R" n="18"/>illud non tolletur per qualitatem aliquam, sed per 
       <lb ed="#R" n="19"/>solam diuinam virtutem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e1901">
                   <lb ed="#R" n="20"/>Respondeo pono primum duas propositiones 
       <lb ed="#R" n="21"/>negatiuas, deinde vnam afūrmatiuam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e1908">
                   <lb ed="#R" n="22"/>Prima Propositio est isa, quod corpora gloriosa 
       <lb ed="#R" n="23"/>mon erunt impassibilia, &amp; incorruptibilia propter 
       <lb ed="#R" n="24"/>causam priuatiuam. Hanc propositionem pono 
@@ -942,7 +940,7 @@
       <lb ed="#R" n="27"/>gloriosis, propter ablationem priuationis a 
       ma<lb ed="#R" n="28" break="no"/>ceria eorum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e1926">
                   <lb ed="#R" n="29"/>Modus ponendi est iste. Dicunt, quod materia 
       <lb ed="#R" n="30"/>machinatur ad malesicium, non de se, sed causa 
       <lb ed="#R" n="31"/>priuationis: si ergo tollitur priuatio, tollitur 
@@ -954,7 +952,7 @@
       <lb ed="#R" n="37"/>per se: sed materia, &amp; priuatio sunt per accidens 
       <lb ed="#R" n="38"/>coniuncta: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e1950">
                   <lb ed="#R" n="39"/>Aliorum opinio est, qui causa incorruptibilitatis, 
       <lb ed="#R" n="40"/>&amp; impassibilitatis corporum beatorum est ablatio 
       <lb ed="#R" n="41"/>qualitatum actiuarum, &amp; passiuarum: causa enim 
@@ -962,7 +960,7 @@
       <lb ed="#R" n="43"/>resurrectione aufertur secundum istos. Contra 
       <lb ed="#R" n="44"/>istas duas opiniones posui opinionem praedictam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e1966">
                   <lb ed="#R" n="45"/>Et arguo primo contra opinionem de ablatione 
       <lb ed="#R" n="46"/>priuationis, sic. Priuatio dicit duo, scilicet 
       nega<lb ed="#R" n="47" break="no"/>tionem formae, &amp; aptitudinem, quoniam priuatio est 
@@ -975,7 +973,7 @@
       ma<lb ed="#R" n="54" break="no"/>teria eius, nec tollatur natura materiae, sequitur, 
       <lb ed="#R" n="55"/>quod non tollitur priuatio illa. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e1993">
                   <lb ed="#R" n="56"/>Ad motiuum opin. concedo minorem, quod 
       pri<lb ed="#R" n="57" break="no"/>uatio per accidens coniungatur materiae, quia quo 
       <lb ed="#R" n="58"/>ad negationem non est de essentia materiae, sed 
@@ -986,7 +984,7 @@
       <lb ed="#R" n="63"/>materiam, quod secundum multos Deus non 
       po<lb ed="#R" n="64" break="no"/>test eam auferre, nisi auferendo naturam.
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2015">
       <!--0208.xml-->
                   <cb ed="#R" n="b"/>
                   <lb ed="#R" n="65"/>Contra secundam opinionem de ablatione 
@@ -1000,27 +998,27 @@
       ter<lb ed="#R" n="73" break="no"/>minata, quam sit in aere, &amp; sic de aliis sensibus: 
       <lb ed="#R" n="74"/>ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2044">
                   <lb ed="#R" n="75"/>Secunda Propositio negatiua est, quod causa 
       <lb ed="#R" n="76"/>impassibilitatis corporum beatorum non est 
       posi<lb ed="#R" n="77" break="no"/>tio alicuius formae creatae inhaerentis. Hanc 
       pro<lb ed="#R" n="78" break="no"/>positionem pono propter duas alias opiniones de 
       <lb ed="#R" n="79"/>causa impassibilitatis corporum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2057">
                   <lb ed="#R" n="80"/>Prima est, quod causa est qualitas aliqua 
       da<lb ed="#R" n="81" break="no"/>ta corpori a Deo, per quam habet plenum 
       domi<lb ed="#R" n="82" break="no"/>nium super qualitates actiuas, &amp; passiuas, ex 
       qua<lb ed="#R" n="83" break="no"/>rum mutua actione sequitur passibilitas, &amp; 
       corru<lb ed="#R" n="84" break="no"/>ptio in corpore. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2070">
                   <lb ed="#R" n="85"/>Alii dicunt, quod est qualitas quaedam actiua 
       <lb ed="#R" n="86"/>redundans a gloria animae in ipsum corpus, cuius 
       <lb ed="#R" n="87"/>actio est manutenere formam omnem in corpore 
       <lb ed="#R" n="88"/>tam substantialem, quam accidentalem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2081">
                   <lb ed="#R" n="89"/>Contra has ambas opiniones probo 
       propositio<lb ed="#R" n="90" break="no"/>nem propositam. Primo sic. Impassibilitas 
       cor<lb ed="#R" n="91" break="no"/>porum non solum est non posse pati passionem 
@@ -1038,7 +1036,7 @@
       <lb ed="#R" n="103"/>rioso, excedentem potentiam omnium angelorum, 
       <lb ed="#R" n="104"/>vel aliorum mouentium: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2119">
                   <lb ed="#R" n="105"/>Item: Virtus illa aut tolleret passibilitatem 
       abie<lb ed="#R" n="106" break="no"/>ctiuam impediendo agens ne ageret, vel 
       subtra<lb ed="#R" n="107" break="no"/>hendo actionem agentis, vel substrahendo 
@@ -1051,7 +1049,7 @@
       <lb ed="#R" n="114"/>passio est pati 1. de generatione comm. 55. sicut ait 
       <lb ed="#R" n="115"/>Commentator 2. caeli, &amp; mundi. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2145">
                   <lb ed="#R" n="116"/>Tertio ad idem, quia nulla virtus creata potest 
       <lb ed="#R" n="117"/>auferre illud, quod conuenit in secundo modo 
       di<lb ed="#R" n="118" break="no"/>cendi per se: sed compositio ex elementis 
@@ -1060,7 +1058,7 @@
       om<lb ed="#R" n="121" break="no"/>ne possibile patiatur, &amp; corruptibile 
       corrumpa<lb ed="#R" n="122" break="no"/>tur. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2163">
                   <lb ed="#R" n="123"/>Quarto sic: Nunquam passio abiectiua potest 
       <lb ed="#R" n="124"/>ab aliqua virtute impediri, nisi propter 
       manute<lb ed="#R" n="125" break="no"/>nentiam formaae contrariae: sed forma quaecunque 
@@ -1071,7 +1069,7 @@
       <lb ed="#R" n="130"/>manuteneri, quod per hoc excludatur omnis 
       pas<lb ed="#R" n="131" break="no"/>sio abiectiua.
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2185">
       <!--0209.xml-->
                   <pb ed="#R" n="209"/>
                   <cb ed="#R" n="a"/>
@@ -1082,7 +1080,7 @@
       contra<lb ed="#R" n="5" break="no"/>omne agens, tamen hoc potest habere 
       mediante<lb ed="#R" n="6" break="no"/>illa qualitate. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2207">
                   <lb ed="#R" n="7"/>Contra: Oporteret, quod qualitas fundaret 
       for<lb ed="#R" n="8" break="no"/>malem contrarietatem ad actiua, quae apta nata 
       <lb ed="#R" n="9"/>sunt agere in corpus, ex quo esset ratio corpori 
@@ -1092,7 +1090,7 @@
       pos<lb ed="#R" n="13" break="no"/>set diminui, &amp; corrumpi: ergo non redderet 
       cor<lb ed="#R" n="14" break="no"/>pus impassibile, &amp; incorruptibile.
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2227">
                   <lb ed="#R" n="15"/>Tertia Propositio affirmatiua est, quod corpus 
       <lb ed="#R" n="16"/>beati erit impassibile per virtutem diuinam, non 
       <lb ed="#R" n="17"/>quidem rebellantem, sed manutenentem formam 
@@ -1100,7 +1098,7 @@
       perfectio<lb ed="#R" n="19" break="no"/>nes determinat sibi forma substantialis, &amp; ex hoc 
       <lb ed="#R" n="20"/>corpora beatorum habebunt impassibilitatem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2244">
                   <lb ed="#R" n="21"/>Ad euidentiam autem huius propositionis 
       vi<lb ed="#R" n="22" break="no"/>dendum est primo, quid est causa passionis 
       abie<lb ed="#R" n="23" break="no"/>ctiuae. Et quidam dicunt, quod illud est forma: 
@@ -1116,7 +1114,7 @@
       disconue<lb ed="#R" n="33" break="no"/>nientis, sequitur quod materia non est ratio talis 
       <lb ed="#R" n="34"/>passionis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2277">
                   <lb ed="#R" n="35"/>Haec opinio non dicit iudicio meo sufficienter, 
       <lb ed="#R" n="36"/>ideo dico aliter. Vbi sciendum est, quod passio 
       <lb ed="#R" n="37"/>abiectiua dicit duo, scilicet receptionem formae 
@@ -1162,7 +1160,7 @@
       rece<lb ed="#R" n="75" break="no"/>ptiua caloris, si eadem sit potentia susceptiũa 
       con<lb ed="#R" n="76" break="no"/>trariorum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2375">
                   <lb ed="#R" n="77"/>Item ad idem arguo sic. Idem est subiectum 
       ter<lb ed="#R" n="78" break="no"/>mini a quo, &amp; ad quem, &amp; totius transmutationis 
       <lb ed="#R" n="79"/>ex primo de generatione: sed quando generatur 
@@ -1170,7 +1168,7 @@
       termi<lb ed="#R" n="81" break="no"/>ni a quo, &amp; totius transmutationis: ergo eadem 
       <lb ed="#R" n="82"/>est subiectum caloris ignis, qui est terminus ad quem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2391">
                   <lb ed="#R" n="83"/>Et confirmatur. Pono, quod debeat in 
       igne<lb ed="#R" n="84" break="no"/>generari aqua in transmutatione, quando incipit 
       <lb ed="#R" n="85"/>ignis infrigidari, forma ignis non potest essse 
@@ -1182,7 +1180,7 @@
       <lb ed="#R" n="91"/>terminus a quo est summus calor: ergo forma ibi 
       <lb ed="#R" n="92"/>non est subiectum caloris. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2415">
                   <lb ed="#R" n="93"/>Hanc eandem Conclusionem probo per 
       auctori<lb ed="#R" n="94" break="no"/>tates. Primo per Philosophum 7. Metaph. tex. 8. 
       <lb ed="#R" n="95"/>vbi dicit, quod materia nec est quid, nec quantum, 
@@ -1191,7 +1189,7 @@
       <lb ed="#R" n="98"/>formali, eo modo quo pluuia est hodic in potentia 
       <lb ed="#R" n="99"/>quae erit cras, sed in potentia subiectiua: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2433">
                   <lb ed="#R" n="100"/>Item Commentator 1. tractatu de substantia 
       or<lb ed="#R" n="101" break="no"/>bis, Aristoteles dixit ista corpora esse composita ex 
       <lb ed="#R" n="102"/>materia, &amp; forma: sequitur: &amp; vidit, quod forma 
@@ -1206,7 +1204,7 @@
       <lb ed="#R" n="111"/>intellectus causa est susceptionis, sed bene est 
       cau<lb ed="#R" n="112" break="no"/>sa susceptionis transinutabilis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2465">
                   <lb ed="#R" n="113"/>Dico ergo quantum occurrit, quod totum 
       com<lb ed="#R" n="114" break="no"/>positum est susceptiuum talium accidentium, secun 
       <lb ed="#R" n="115"/>dum quae est transmutatio per materiam tanquam 
@@ -1229,7 +1227,7 @@
       cae<lb ed="#R" n="132" break="no"/>lo extremas dispositiones, &amp; permanentiam 
       aeter<lb ed="#R" n="133" break="no"/>nam in lib. de substantia orbis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2513">
                   <lb ed="#R" n="134"/>Ex his apparet, quod passio abiectiua iucludit 
       <lb ed="#R" n="135"/>receptionem, &amp; ab iectionem formae 
       conuenien<lb ed="#R" n="136" break="no"/>tis, &amp; quatenus iucludit receptionem, &amp; abiectio- 
@@ -1240,7 +1238,7 @@
       <lb ed="#R" n="2"/>quod forma illa sit conueniens, hoc est ex natura 
       <lb ed="#R" n="3"/>formae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2535">
                   <lb ed="#R" n="4"/>Hoc viso patet conclusio tertia prius posita, quae 
       <lb ed="#R" n="5"/>est, quod impassibilitas corporum beatorum, non 
       <lb ed="#R" n="6"/>est aliud, quam manutenentia diuinae virtutis, quia 
@@ -1250,12 +1248,12 @@
       manu<lb ed="#R" n="10" break="no"/>tenentia puto sola est causa impassibilitatis 
       corpo<lb ed="#R" n="11" break="no"/>rum beatorum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2555">
                   <lb ed="#R" n="12"/>Respondeo ad hoc, quod talis manutenentia sit 
       <lb ed="#R" n="13"/>causa impassibilitatis, &amp; ita illud, quod manutenet 
       <lb ed="#R" n="14"/>formam oppositam formaae inducendae per altera- 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2564">
                   <lb ed="#R" n="15"/>tionem in subiecto, facit, quod subiectum sit 
       inal<lb ed="#R" n="16" break="no"/>terabile secundum talem formam, sicut manutenens 
       <lb ed="#R" n="17"/>me in isto vbi, facit, quod per nullum aliud mouens 
@@ -1269,7 +1267,7 @@
       <lb ed="#R" n="25"/>ne pateretur a quocunque agente. Sed hic sunt 
       <lb ed="#R" n="26"/>dubia: quaedam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2593">
                   <lb ed="#R" n="27"/>Primum est, quod materia potest esse 
       immedia<lb ed="#R" n="28" break="no"/>ta causa ante sormam substantialem ipsi 
       composi<lb ed="#R" n="29" break="no"/>to suscipiendi omnia accidentia, secundum enim 
@@ -1283,7 +1281,7 @@
       secun<lb ed="#R" n="37" break="no"/>dum quid: ergo prius oportet formam 
       substantia<lb ed="#R" n="38" break="no"/>lem inesse materiae, quam accidentalem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2623">
                   <lb ed="#R" n="39"/>Secundum dubium est quasi ex codem medio, 
       <lb ed="#R" n="40"/>quia illud, quod non habet esse simpliciter in actu 
       <lb ed="#R" n="41"/>secundum se, vt tale, impossibile est, quod sit 
@@ -1295,12 +1293,12 @@
       <lb ed="#R" n="47"/>esse simpliciter non habet materia, nisi per 
       for<lb ed="#R" n="48" break="no"/>mam substantialem: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2647">
                   <lb ed="#R" n="49"/>Respondeo ad primum, si loquamur de 
       ordine<lb ed="#R" n="50" break="no"/>immediationis in suscipiendo, eodem ordine 
       ma<lb ed="#R" n="51" break="no"/>teria recipit formam substantialem, &amp; accidentia. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2656">
                   <lb ed="#R" n="52"/>Si vero de ordine principalitatis, &amp; dantis esse, 
       <lb ed="#R" n="53"/>sic materia primo recipit formam substantialem, 
       <lb ed="#R" n="54"/>quam accidentalem: materia enim capit essse hoc 
@@ -1309,7 +1307,7 @@
       <lb ed="#R" n="57"/>sic materia ad ese terminatum in actu J. Fhy sic. 
       <lb ed="#R" n="58"/>tex. 8I. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2674">
                   <lb ed="#R" n="59"/>Ad secundum dubium. Illud habet calorem 
       <lb ed="#R" n="60"/>de materia denudata ab omni forma, non 
       tamen<lb ed="#R" n="61" break="no"/>de materia cum forma; nec etiam intelligo, quod 
@@ -1318,7 +1316,7 @@
       com<lb ed="#R" n="64" break="no"/>positum, sed tantum est ipsi composito ratio 
       su<lb ed="#R" n="65" break="no"/>scipiendi, vt quo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2692">
                   <lb ed="#R" n="66"/>Ad argumentum in oppositum dicunt Doctores 
       <lb ed="#R" n="67"/>diuersimode. Aliqui, quod impassibilitas non est 
       <lb ed="#R" n="68"/>aliqua dos, alij quod est qualitas absoluta; alij 
@@ -1333,26 +1331,26 @@
       po<lb ed="#R" n="75" break="no"/>test facere, quod duo corpora sint simul, &amp; tamen 
       <lb ed="#R" n="76"/>haec erit vna de dotibus in corpore glorioso. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2723">
                   <lb ed="#R" n="77"/>Sic dico in proposito, quod ista impassibilitas 
       <lb ed="#R" n="78"/>est mere donum Dei, quod est manutenentia 
       diui<lb ed="#R" n="79" break="no"/>na, vt patet in corpore quaestionis. 
     </p>
             </div>
-            <div>
-               <head>Articulus 4</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h69371-Dd1e2733">
+               <head xml:id="olm8ij-h69371-Hd1e2735">Articulus 4</head>
+               <head xml:id="olm8ij-h69371-Hd1e2737" type="question-title">
           Utrum corpora damnatorum patiantur ab 
           igneinfernali passione reali tantum, vel 
           intentionali tantum, an vtraque.
         </head>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2740">
                   <lb ed="#R" n="80"/>ARTICVLVS JV. 
       <lb ed="#R" n="81"/>Vtrum corpora damnatorum patiantur ab 
       igne<lb ed="#R" n="82" break="no"/>infernali passione reali tantum, vel 
       in<lb ed="#R" n="83" break="no"/>tentionali tantum, an vtraque. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2751">
                   <lb ed="#R" n="84"/>AD quartam quaestionem arguo primo, quod 
       <lb ed="#R" n="85"/>corpora damnatorum non patiantur in 
       infer<lb ed="#R" n="86" break="no"/>no passione aliqua reali, sed tantum intentionali, 
@@ -1360,7 +1358,7 @@
       <lb ed="#R" n="88"/>tunc autem cessabit motus caeli: ergo. Maior 
       pa<lb ed="#R" n="89" break="no"/>tet per Commentatorem tract. 3. de substantia orb. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2767">
                   <lb ed="#R" n="90"/>In oppositum est, quod nulla passio solum 
       inten<lb ed="#R" n="91" break="no"/>tionalis est asflictiua, cum sit salus, &amp; perfectio: sed 
       <lb ed="#R" n="92"/>passio corporum damnatorum erit summe 
@@ -1369,11 +1367,11 @@
       <lb ed="#R" n="95"/>erit intentionalis, ita quod experientur calorem 
       <lb ed="#R" n="96"/>absque hoc, quod calefiant, vel ardeant. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2786">
                   <lb ed="#R" n="97"/>Alij dicunt, quod erit realis, quoniam organum 
       <lb ed="#R" n="98"/>tactus summe calefiet. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2793">
                   <lb ed="#R" n="99"/>Primi dicunt, quod intentionalis sufficit ad 
       af<lb ed="#R" n="100" break="no"/>flictionem, quoniam organum summe affligitur ad 
       <lb ed="#R" n="101"/>apprehensionem excellentis sensibilis, vnde 
@@ -1381,7 +1379,7 @@
       <lb ed="#R" n="103"/>sufficit, ad affligendum intense. Ratio est, quia 
       ma<lb ed="#R" n="104" break="no"/>gis sentit. Nunc pono propositiones. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2809">
                   <lb ed="#R" n="105"/>Prima est, videtur mihi, quod ista controuersia 
       <lb ed="#R" n="106"/>at in vanum, ac si possit separari passsio 
       intentio<lb ed="#R" n="107" break="no"/>nalis a reali, quoniam passio intentionalis 
@@ -1395,16 +1393,16 @@
       <lb ed="#R" n="115"/>realis, vt cum apprehensione concurrat rea lis 
       <lb ed="#R" n="116"/>transmutatio: ergo. 
     </p>
-               <p>
-                  <lb ed="#R" n="117"/>Item <ref>idem Philosophus 3. de anima tex. 7.</ref> dat 
+               <p xml:id="olm8ij-h69371-d1e2838">
+                  <lb ed="#R" n="117"/>Item <ref xml:id="olm8ij-h69371-Rd1e2842">idem Philosophus 3. de anima tex. 7.</ref> dat 
       dif<lb ed="#R" n="118" break="no"/>ferentiam inter sensum, &amp; intellectum, quia 
       intel<lb ed="#R" n="119" break="no"/>lectus post intellectionem excellens 
       intelligibile<lb ed="#R" n="120" break="no"/>fortius intelligit, e contrario est de sensu, nam 
       <lb ed="#R" n="121"/>auditus post maximum sonum minus audit, quod 
       <lb ed="#R" n="122"/>non esset, nisi potentia sensitiua in apprehendendo 
       <lb ed="#R" n="123"/>transmutaretur. hoc idem patet per experientiam, 
-      <lb ed="#R" n="124"/>quam ponit <ref>
-                     <name>Alacen.</name> in perspectiua</ref>, quod post 
+      <lb ed="#R" n="124"/>quam ponit <ref xml:id="olm8ij-h69371-Rd1e2859">
+                     <name xml:id="olm8ij-h69371-Nd1e2861">Alacen.</name> in perspectiua</ref>, quod post 
       vi<lb ed="#R" n="125" break="no"/>si nem intensam coloris viridis remanet potentia 
       <lb ed="#R" n="126"/>alterata, adeo, vt alia videantur sibi viridia; 
       simi<lb ed="#R" n="127" break="no"/>liter post maximum lumen, apparent 
@@ -1415,7 +1413,7 @@
       <lb ed="#R" n="132"/>curant reuma: non ergo apprehensio sensus est 
       ab<lb ed="#R" n="133" break="no"/>stracta, sicut operatio intellectus.
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2885">
       <!--0211.xml-->
                   <pb ed="#R" n="211"/>
                   <cb ed="#R" n="a"/>
@@ -1453,7 +1451,7 @@
       <lb ed="#R" n="32"/>coloratio trahens medium ad extremum, &amp; ideo 
       <lb ed="#R" n="33"/>abijcit a substantia. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2966">
                   <lb ed="#R" n="34"/>Sed quid dicendum, quod Philosophus dicit 
       ex<lb ed="#R" n="35" break="no"/>presse, quod huiusmodi sensationes sunt salus, &amp; 
       <lb ed="#R" n="36"/>perfectio? Respondeo, quod huiusmodi passiones 
@@ -1461,7 +1459,7 @@
       <lb ed="#R" n="38"/>trahunt medium ad extrema, &amp; ideo tunc non 
       im<lb ed="#R" n="39" break="no"/>mutant armoniam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e2983">
                   <lb ed="#R" n="40"/>Sed sciendum, quod etiam in tali gradu possunt 
       <lb ed="#R" n="41"/>immutare armoniam, puta quando excederent in 
       <lb ed="#R" n="42"/>duratione, vnde armoniam immutant, &amp; 
@@ -1477,7 +1475,7 @@
       <lb ed="#R" n="52"/>mum, &amp; hoc est in duplici casu, quando scilicet 
       <lb ed="#R" n="53"/>obiectum sensibile excedit intensiue, vel extensiue. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e3016">
                   <lb ed="#R" n="54"/>Secunda Propositio est, quod organa 
       damnato<lb ed="#R" n="55" break="no"/>rum, puta organum tactus, calefient realiter, &amp; hoc 
       <lb ed="#R" n="56"/>est, quod, vt dictum est, apprehensio excellentis 
@@ -1489,7 +1487,7 @@
       auctoritati<lb ed="#R" n="62" break="no"/>bus Sancorum, &amp; Augustini, &amp; Cregorij, nec ibi 
       <lb ed="#R" n="63"/>distinguitur passio intentionalis a reali. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e3040">
                   <lb ed="#R" n="64"/>Dices. Eritne in carne passio aliqua, quae sit 
       rea<lb ed="#R" n="65" break="no"/>lis, &amp; non intentionalis. Respondeo, vel ipsamet 
       <lb ed="#R" n="66"/>caro es organum tactus, vel neruus aliquis 
@@ -1505,7 +1503,7 @@
       <lb ed="#R" n="74"/>illa passio erit comprehensio, que in ligno non esset 
       <lb ed="#R" n="75"/>comprehensio. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e3073">
                   <lb ed="#R" n="76"/>Sed hic sunt aliqua dubia. Primo, quia videtur, 
       <lb ed="#R" n="77"/>quod frustra ponatur talis passio realis, cum 
       inten<lb ed="#R" n="78" break="no"/>tionalis sufficiat ad afflictionem, sicut ponit 
@@ -1522,14 +1520,14 @@
       acttua<lb ed="#R" n="89" break="no"/>lis existentia obiecti ad actus sensuum exteriorum, 
       <lb ed="#R" n="90"/>de quibus maxime videtur difficultas. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e3108">
                   <lb ed="#R" n="91"/>Secundum dubium est, quod oportet ponere 
       mul<lb ed="#R" n="92" break="no"/>ta miracula plura, quam si ponatur sola passio 
       in<lb ed="#R" n="93" break="no"/>tentionalis, quia si ponatur passio realis, oportet 
       <lb ed="#R" n="94"/>quod ex speciali miraculo sit, quod organum, &amp; 
       <lb ed="#R" n="95"/>armonia non corrumpatur. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e3121">
                   <lb ed="#R" n="96"/>Respondeo ex hoc non sequitur speciale 
       mira<lb ed="#R" n="97" break="no"/>culum. Ideo enim miraculum oportet ponere de 
       <lb ed="#R" n="98"/>intentionali, cum illa magis faca abijciat a 
@@ -1545,7 +1543,7 @@
       quando<lb ed="#R" n="108" break="no"/>que corruptio, &amp; mors, non videtur fieri possse 
       si<lb ed="#R" n="109" break="no"/>ne miraculo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e3155">
                   <lb ed="#R" n="110"/>Quod autem aliqui imaginantur, quod in 
       tali<lb ed="#R" n="111" break="no"/>bus passionibus primo potentia realiter patiatur, 
       <lb ed="#R" n="112"/>deinde apprehendat, ac tertio sequatur dolor, hoc 
@@ -1555,7 +1553,7 @@
       <lb ed="#R" n="116"/>improportionem, facit etiam abiectionem, &amp; ideo 
       sequi<lb ed="#R" n="117" break="no"/>tur vltimo passio abiectiua, &amp; per consequens dolor. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e3175">
                   <lb ed="#R" n="118"/>Tertium dubium est, quomodo corpus beati pos 
       <lb ed="#R" n="119"/>sit sentire calorem, quia per te tale sentire est 
       pas<lb ed="#R" n="120" break="no"/>sio realis abiectiua. Respondeo: Corpus beati, si 
@@ -1570,7 +1568,7 @@
       <lb ed="#R" n="129"/>concedo, &amp; hoc virtute diuina, &amp; ideo transire 
       po<lb ed="#R" n="130" break="no"/>quod corpora damnatorum non moriantur. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e3206">
                   <lb ed="#R" n="131"/>Respondeo, puto, quod damnati satis habeant 
       <lb ed="#R" n="132"/>de miseria, vnde considerandum est quod excellens 
       <lb ed="#R" n="133"/>sensibile, puta ignis, vel huiusmodi, immutat 
@@ -1592,7 +1590,7 @@
       <lb ed="#R" n="8"/>corrupta corrumpitur complexionalis forma, &amp; 
       <lb ed="#R" n="9"/>per consequens vita. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e3252">
                   <lb ed="#R" n="10"/>Imaginor ergo, quod organa damnatorum 
       con<lb ed="#R" n="11" break="no"/>tinue naturaliter patiuntur ab excellenti, &amp; 
       im<lb ed="#R" n="12" break="no"/>proportionato sensibili, &amp; ideo sunt in continua 
@@ -1614,7 +1612,7 @@
       <lb ed="#R" n="28"/>qualis est illius hominis qui in igne constitutus in 
       <lb ed="#R" n="29"/>vltimo instanti esset vitam amissurus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h69371-d1e3298">
                   <lb ed="#R" n="30"/>Ad argumentum in oppositum dico, quod maior 
       <lb ed="#R" n="31"/>propositio est erronea: cessante enim motu caeli po 
       <lb ed="#R" n="32"/>terit adhuc esse motus, &amp; transmutatio, quia 

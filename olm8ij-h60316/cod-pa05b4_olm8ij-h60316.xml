@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,25 +53,25 @@
       </front>
       <body>
          <div xml:id="olm8ij-h60316"> <!-- l4-d31q1 -->
-            <head>Quaestio 1</head>
-            <p>
+            <head xml:id="olm8ij-h60316-Hd1e102">Quaestio 1</head>
+            <p xml:id="olm8ij-h60316-d1e104">
       <!--0176.xml-->
                <pb ed="#R" n="176"/>
                <cb ed="#R" n="a"/>
                <lb ed="#R" n="1"/>Quaestio Vnica. 
   </p>
-            <div>
-               <head>Articulus 1</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h60316-Dd1e115">
+               <head xml:id="olm8ij-h60316-Hd1e117">Articulus 1</head>
+               <head xml:id="olm8ij-h60316-Hd1e119" type="question-title">
         Utrum Matrimonium indigeat excusari per 
         bona aliqua.
       </head>
-               <p>
+               <p xml:id="olm8ij-h60316-d1e122">
                   <lb ed="#R" n="2"/>ARTICVLVS VNJCVS. 
       <lb ed="#R" n="3"/>Vtrum Matrimonium indigeat excusari per 
       <lb ed="#R" n="4"/>bona aliqua. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h60316-d1e131">
                   <lb ed="#R" n="5"/>ARGVO primo, quod non, 
       <lb ed="#R" n="6"/>sic. Illud, quod est bonum 
       <lb ed="#R" n="7"/>ex se, non indiget bonis, 
@@ -94,7 +92,7 @@
       mo<lb ed="#R" n="22" break="no"/>do quo ad acttus ipsius determinationem ad 
       boni<lb ed="#R" n="23" break="no"/>tatem, qui de se est indifferens ad bonum, &amp; malum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h60316-d1e175">
                   <lb ed="#R" n="24"/>Primo modo acus dicitur excusari, quando de 
       <lb ed="#R" n="25"/>se est malus ex genere, concurrit tamen circumstan 
       <lb ed="#R" n="26"/>tia ex parte agentis excusans, vt si proijciendo 
@@ -106,21 +104,21 @@
       im<lb ed="#R" n="32" break="no"/>putabilitatem, vt non sit imputabilis ipsi. 
       proij<lb ed="#R" n="33" break="no"/>cienti. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h60316-d1e200">
                   <lb ed="#R" n="34"/>Secundo modo potest intelligi actus excusari, vt 
       <lb ed="#R" n="35"/>actus, qui de se es malus, fiat bonus:&amp; hoc modo 
       <lb ed="#R" n="36"/>est impossibile acum aliquem excusari, vt malitia 
       <lb ed="#R" n="37"/>mutetur in bonitatem: Jmpossibile est enim quod 
       <lb ed="#R" n="38"/>actus in malitia conuolutus vnquam siat bonus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h60316-d1e213">
                   <lb ed="#R" n="39"/>Tertio modo potest actus excusari, quia de se 
       <lb ed="#R" n="40"/>nec malus est, nec bonus, vt cibum sumere: potest 
       <lb ed="#R" n="41"/>enim bene fieri, &amp; male, &amp; circumstantia aliqua 
       <lb ed="#R" n="42"/>ipsum dicitur excusare, quia de indifferentia 
       redu<lb ed="#R" n="43" break="no"/>cit ipsum ad bonitatem determinando. 
   </p>
-               <p>
+               <p xml:id="olm8ij-h60316-d1e226">
                   <lb ed="#R" n="44"/>Tunc ad propositum: Matrimonium non indiget 
       <lb ed="#R" n="45"/>excusari primo modo, quia matrimonium non est 
       <lb ed="#R" n="46"/>actus conuolutus cum malo, quemadmodum 
@@ -139,7 +137,7 @@
       <lb ed="#R" n="59"/>malum, trahit ad bonum moris, afferendo bonam 
       <lb ed="#R" n="60"/>circumstantiam. 
   </p>
-               <p>
+               <p xml:id="olm8ij-h60316-d1e265">
                   <lb ed="#R" n="61"/>His visis resumo propositionem illam, quod 
       bo<lb ed="#R" n="62" break="no"/>na coniugij excusant coniugium, pro quanto 
       ip<lb ed="#R" n="63" break="no"/>sum trahunt ad bonum moris. Et conclusionem 
@@ -162,7 +160,7 @@
       deter<lb ed="#R" n="78" break="no"/>minant, &amp; faciunt esse virtutis specialis, scilicet 
       <lb ed="#R" n="79"/>iustitiae particularis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h60316-d1e313">
                   <lb ed="#R" n="80"/>Vbi considerandum est, quod iustitia 
       particula<lb ed="#R" n="81" break="no"/>ris est redditiua alteri, quod suum es. Illud 
       simi<lb ed="#R" n="82" break="no"/>liter, quod facit, quod actus reddat alicui, quod 
@@ -177,7 +175,7 @@
       red<lb ed="#R" n="91" break="no"/>dens bonum Sacramenti reddit, quod suum est 
       Sa<lb ed="#R" n="92" break="no"/>cramento. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h60316-d1e344">
                   <lb ed="#R" n="93"/>Vbi considerandum, quod Sacramentum istud 
       ha<lb ed="#R" n="94" break="no"/>bet, quod de sui ratione significet vnionem 
       Chri<lb ed="#R" n="95" break="no"/>sti, &amp; Ecclesiae, &amp; hic tam vnionem spiritualem 
@@ -193,7 +191,7 @@
       iu<lb ed="#R" n="105" break="no"/>stitiae. Sed cuius iustitiae actus est? dico, quod 
       le<lb ed="#R" n="106" break="no"/>galis. 
   </p>
-               <p>
+               <p xml:id="olm8ij-h60316-d1e378">
                   <lb ed="#R" n="107"/>Ad cuius euidentiam considerandum est, quod 
       <lb ed="#R" n="108"/>sunt tres leges, quantum spectat ad propositum, 
       <lb ed="#R" n="109"/>scilicet naturalis, humana, &amp; diuina. Dictamen 
@@ -208,7 +206,7 @@
       iusti<lb ed="#R" n="118" break="no"/>tiam legis humanae: sed bonum Sacramenti ad 
       iu<lb ed="#R" n="119" break="no"/>stitiam legis diuinae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h60316-d1e409">
                   <lb ed="#R" n="120"/>Sufficientia horum bonorum ista est. Possumus 
       <lb ed="#R" n="121"/>enim considerare is Matrimonio officium, &amp; huic 
       <lb ed="#R" n="122"/>respondet bonum fidelitatis. Secundo debitum, scu 
@@ -219,7 +217,7 @@
       <lb ed="#R" n="127"/>quam actus habet determinare aliquod 
       praedicto<lb ed="#R" n="128" break="no"/>rum bonorum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h60316-d1e431">
                   <lb ed="#R" n="129"/>Secunda Propositio est, quod bonum 
       Sacramen<lb ed="#R" n="130" break="no"/>ti inter ista bona Matrimonij est nobilius: cuius 
       ra<lb ed="#R" n="131" break="no"/>tio est, quia bona gratiae sunt dignioris conditionis 
@@ -230,7 +228,7 @@
                   <lb ed="#R" n="1"/>est bonum gratuitum: bonum vero prolis est 
       bo<lb ed="#R" n="2" break="no"/>num naturae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h60316-d1e453">
                   <lb ed="#R" n="3"/>Sed quod horum trium est essentialius? Dico, 
       <lb ed="#R" n="4"/>quod accipiendo Sacramentum quantum ad actum, 
       <lb ed="#R" n="5"/>bonum prolis non est de essentia huius 
@@ -240,14 +238,14 @@
       quo<lb ed="#R" n="9" break="no"/>niam potest vterque coniugum vouere perpetuam 
       <lb ed="#R" n="10"/>continentiam stante vera ratione Matrimonij. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h60316-d1e473">
                   <lb ed="#R" n="11"/>Similiter hoc modo non est de essentia 
       Sacra<lb ed="#R" n="12" break="no"/>menti bonum Sacramenti, quantum ad vtrumque 
       <lb ed="#R" n="13"/>signatum, sed tantum quantum Christi, &amp; Ecclesiae 
       <lb ed="#R" n="14"/>per charitatem, sed non quantum ad 
       coniunctio<lb ed="#R" n="15" break="no"/>nem Christi, &amp; Ecclesiae secundum carnem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h60316-d1e486">
                   <lb ed="#R" n="16"/>Sed accipiendo Matrimonium secundum votum, 
       <lb ed="#R" n="17"/>&amp; obligationem, tunc omnia haec tria sunt de 
       essen<lb ed="#R" n="18" break="no"/>tia Sacramenti: obligatio enim illa, &amp; votum est 
@@ -256,7 +254,7 @@
       <lb ed="#R" n="21"/>habet rationem finis. Alia vero bona magis sunt 
       <lb ed="#R" n="22"/>quaedam circumstantiae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h60316-d1e505">
                   <lb ed="#R" n="23"/>Tertia Propositio est ad propositum, iuxta illud, 
       <lb ed="#R" n="24"/>quod quaerit quaestio, quod ista tria bona 
       excu<lb ed="#R" n="25" break="no"/>sant Matrimonium hoc modo, quia reddunt acum 
@@ -270,7 +268,7 @@
       <lb ed="#R" n="33"/>est res secunda huius Sacramenti, quae comitatur 
       <lb ed="#R" n="34"/>actum sicut rem primam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h60316-d1e534">
                   <lb ed="#R" n="35"/>Sed quid dicendum est, quando ista tria bona 
       <lb ed="#R" n="36"/>vel alterum non suerunt in intentione exercentis actum: 
       <lb ed="#R" n="37"/>verbi gratia, iste vtitur praecise timens 
@@ -284,7 +282,7 @@
       <lb ed="#R" n="45"/>vteretur ea, nisi esset sua, dicitur, quod peccat 
       tan<lb ed="#R" n="46" break="no"/>tummodo venialiter. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h60316-d1e563">
                   <lb ed="#R" n="47"/>Mihi videtur distinguendum, quia vel cum 
       a<lb ed="#R" n="48" break="no"/>ctuali delectatione assumit, &amp; copulat aliquid 
       il<lb ed="#R" n="49" break="no"/>lorum trium bonorum in voto, vel intentione 
@@ -296,13 +294,13 @@
       pu<lb ed="#R" n="55" break="no"/>to, quod ibi non sit aliquod peccatum: hoc tamen 
       <lb ed="#R" n="56"/>committendum est arbitrio boni viri. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h60316-d1e587">
                   <lb ed="#R" n="57"/>Sed quid si vtitur mulier causa fornicationis 
       vi<lb ed="#R" n="58" break="no"/>tandae in viro, qui alias fornicareturidicitur, quod 
       <lb ed="#R" n="59"/>vxor non peccat in hoc casu, sed meretur, quia 
       mo<lb ed="#R" n="60" break="no"/>uetur a bono fidei. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h60316-d1e598">
                   <lb ed="#R" n="61"/>Sed quid si vtatur, vt vitet fornicationem 
       in<lb ed="#R" n="62" break="no"/>se? Dicunt quidam, quod peccat mortaliter, eo 
       <lb ed="#R" n="63"/>quod non debet tantum passio dominari, quod in 

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,13 +53,13 @@
       </front>
       <body>
          <div xml:id="olm8ij-h82301"> <!-- l4-d50prae -->
-            <head>Praeambulum</head>
-            <p>
+            <head xml:id="olm8ij-h82301-Hd1e102">Praeambulum</head>
+            <p xml:id="olm8ij-h82301-d1e104">
                <lb ed="#R" n="121"/>DJSTJNCTJO L. 
       <lb ed="#R" n="122"/>DE STATV 
       DAMNA<lb ed="#R" n="123" break="no"/>torum. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h82301-d1e113">
                <lb ed="#R" n="124"/>Hic oritur quaestio, &amp;. In Distinctione ista 
       <lb ed="#R" n="125"/>quinquagesima &amp; vltima, istius quarti 
       li<lb ed="#R" n="126" break="no"/>bri, agit Magister de statu damnatorum, &amp; 
@@ -73,7 +71,7 @@
                <lb ed="#R" n="1"/>a beatis, ideo circa praesentem 
       distinctio<lb ed="#R" n="2" break="no"/>nem quaero quatuor quaestiones.
   </p>
-            <p>
+            <p xml:id="olm8ij-h82301-d1e137">
                <lb ed="#R" n="3"/>Prima est. Vtrum damnati appetant non esse 
       <lb ed="#R" n="4"/>propter miseriam fugiendam. 
       <lb ed="#R" n="5"/>Secunda est. Vtrum anima separata possit 

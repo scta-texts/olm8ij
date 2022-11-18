@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,8 +53,8 @@
       </front>
       <body>
          <div xml:id="olm8ij-h46294"> <!-- l4-d15prae -->
-            <head>Praeambulum</head>
-            <p>
+            <head xml:id="olm8ij-h46294-Hd1e102">Praeambulum</head>
+            <p xml:id="olm8ij-h46294-d1e104">
       <!--0135.xml-->
                <cb ed="#R" n="b"/>
                <lb ed="#R" n="66"/>DISTINCTIO XV 
@@ -70,16 +68,16 @@
                <lb ed="#R" n="71"/>
                <!-- line coord error -->
             </p>
-            <p>
+            <p xml:id="olm8ij-h46294-d1e132">
                <lb ed="#R" n="72"/>Et sicut praedictis authoritatibus &amp;c. In ista 
       <lb ed="#R" n="73"/>Distinctione Decimaquinta agit Magister 
       <lb ed="#R" n="74"/>de Satisfactione, ad cuius euidentiam 
       quae<lb ed="#R" n="75" break="no"/>ro sex quaestiones. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h46294-d1e143">
                <lb ed="#R" n="76"/>Quaestio Vnica.
     </p>
-            <p>
+            <p xml:id="olm8ij-h46294-d1e149">
                <lb ed="#R" n="77"/>1 Prima est: Vtrum satisfactio sit pars poe
       ni<lb ed="#R" n="78" break="no"/>tentiae. 
       <lb ed="#R" n="79"/>2 Vtrum satisfactio sit possibilis fieri a nobis 

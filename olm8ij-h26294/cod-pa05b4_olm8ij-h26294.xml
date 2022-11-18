@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,22 +53,22 @@
       </front>
       <body>
          <div xml:id="olm8ij-h26294"> <!-- l4-d9q1 -->
-            <head>Quaestio 1</head>
-            <p>
+            <head xml:id="olm8ij-h26294-Hd1e102">Quaestio 1</head>
+            <p xml:id="olm8ij-h26294-d1e104">
       <!--0077.xml-->
                <cb ed="#R" n="b"/>
                <lb ed="#R" n="60"/>Quaestio J. 
     </p>
-            <div>
-               <head>Articulus 1</head>
-               <head type="question-title">De usu huius Sacramenti, an sit 
+            <div xml:id="olm8ij-h26294-Dd1e113">
+               <head xml:id="olm8ij-h26294-Hd1e115">Articulus 1</head>
+               <head xml:id="olm8ij-h26294-Hd1e117" type="question-title">De usu huius Sacramenti, an sit 
           congrue institutum</head>
-               <p>
+               <p xml:id="olm8ij-h26294-d1e120">
                   <lb ed="#R" n="61"/>ARTICVLVS VNJCVS. 
       <lb ed="#R" n="62"/>De vsu huius Sacramenti, an sit 
       congrue<lb ed="#R" n="63" break="no"/>institutum 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26294-d1e129">
                   <lb ed="#R" n="64"/>QVANTVM ad primam 
       <lb ed="#R" n="65"/>quaestionem arguo primo 
       <lb ed="#R" n="66"/>quod vsus istius 
@@ -87,11 +85,11 @@
       <lb ed="#R" n="77"/>rationabile, quod conficeretur, ac postmodum 
       <lb ed="#R" n="78"/>seruaretur. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26294-d1e164">
                   <lb ed="#R" n="79"/>In oppositum est, quod Christus instituit huius 
       <lb ed="#R" n="80"/>vsum Matth. 26. dicens, accipite, &amp; manducate. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26294-d1e172">
                   <lb ed="#R" n="81"/>Respondeo hic fuit vna haeresis dicentium, quod 
       <lb ed="#R" n="82"/>hoc Sacramentum nullatenus debet manducari, 
       <lb ed="#R" n="83"/>quae quidem haeresis ponitur de consecratione dist. 
@@ -101,7 +99,7 @@
       <lb ed="#R" n="87"/>retrorsum. Ad euidentiam huius quaestionis pono 
       <lb ed="#R" n="88"/>tres propositiones. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26294-d1e192">
                   <lb ed="#R" n="89"/>Prima est, quod rationabile est. quod hoc Sacra 
       <lb ed="#R" n="90"/>mentum sumatur, &amp; comedatur, &amp; sumo rationem 
       <lb ed="#R" n="91"/>ex natura Sacramenti sic: Illud rationabiliter non 
@@ -117,7 +115,7 @@
       o<lb ed="#R" n="101" break="no"/>stenderetur familiaritas eiusmodi cum Deo suo. 
       <lb ed="#R" n="102"/>quaelibet lex sacrificium suum comedebat. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26294-d1e225">
                   <lb ed="#R" n="103"/>Secunda ratio sumitur ex parte signi, sic. Illud 
       <lb ed="#R" n="104"/>maxime competit nobilissimo Sacramento Nouae 
       <lb ed="#R" n="105"/>Legis, per quod maxime habet, quod sit signum 
@@ -132,7 +130,7 @@
       sen<lb ed="#R" n="114" break="no"/>su, tanta apparet vnio, &amp; intimatio quanta 
       ap<lb ed="#R" n="115" break="no"/>paret in cibo cum comedente per sensum gustus.
     </p>
-               <p>
+               <p xml:id="olm8ij-h26294-d1e256">
                   <lb ed="#R" n="116"/>Tertia ratio ex ratione causalitatis, quae 
       com<lb ed="#R" n="117" break="no"/>petit Sacramentis Nouae Legis: arguo enim sic: 
       <lb ed="#R" n="118"/>Illud quod facit circa signum, quod maxime 
@@ -149,13 +147,13 @@
       <lb ed="#R" n="3"/>spiritualem charitatis, ac in horrorem Domini cae 
       <lb ed="#R" n="4"/>passionis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26294-d1e291">
                   <lb ed="#R" n="5"/>Secunda Propositio est, quod Sacramentum 
       po<lb ed="#R" n="6" break="no"/>test manducari in genere duobus modis, &amp; tribus 
       <lb ed="#R" n="7"/>alijs modis conflatis ex ijs duobus, vt sic sint quin. 
       <lb ed="#R" n="8"/>que modi sumendi, &amp; manducandi istud. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26294-d1e302">
                   <lb ed="#R" n="9"/>Duo enim primi modi sunt manducare Christum 
       <lb ed="#R" n="10"/>carnaliter, &amp; corporaliter, &amp; manducare ipsum 
       <lb ed="#R" n="11"/>spiritualiter, &amp; mystice: spiritualiter enim 
@@ -163,7 +161,7 @@
       denti<lb ed="#R" n="13" break="no"/>bus realiter, tamen in passione, &amp; doctrina eius, &amp; 
       <lb ed="#R" n="14"/>cxemplis habent deuotionem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26294-d1e319">
                   <lb ed="#R" n="15"/>Hi nimirum Christum spiritualiter manducant, 
       <lb ed="#R" n="16"/>dum ipsum ad intima mentis suae attrahunt per 
       de<lb ed="#R" n="17" break="no"/>uotionis affectum, ac in mente attractum 
@@ -172,7 +170,7 @@
       <lb ed="#R" n="20"/>ore suscipiunt, ac ad fomnachum dirigendum 
       <lb ed="#R" n="21"/>trahunt. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26294-d1e337">
                   <lb ed="#R" n="22"/>Hoc autem secundo modo potest comedi 
       Chri<lb ed="#R" n="23" break="no"/>stus dupliciter, scilicet realiter, &amp; sacramentaliter, 
       <lb ed="#R" n="24"/>vel realiter tantum: hi realiter, &amp; non 
@@ -187,7 +185,7 @@
       <lb ed="#R" n="33"/>Chrisii, quia non credit ibi existere realiter 
       cor<lb ed="#R" n="34" break="no"/>pus Chrilli. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26294-d1e368">
                   <lb ed="#R" n="35"/>Sed sacramentaliter comedit corpus Christi, 
       <lb ed="#R" n="36"/>quando species, quae sumuntur realiter, referuntur 
       <lb ed="#R" n="37"/>a comedente vere non ficte in suum signatum 
@@ -205,7 +203,7 @@
       <lb ed="#R" n="49"/>tamien non recipit effectum spiritualem, gratiam 
       sci<lb ed="#R" n="50" break="no"/>licet, &amp; charitatem propter obicem peccati mortalis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26294-d1e405">
                   <lb ed="#R" n="51"/>Vlterius, primus duorum modorum primorum man 
       <lb ed="#R" n="52"/>ducandi corpus Christi, scilicet spiritualiter 
       tan<lb ed="#R" n="53" break="no"/>tum non realiter, potest etiam subdiuidi in alios duos 
@@ -219,7 +217,7 @@
       man<lb ed="#R" n="61" break="no"/>ducare sacramentaliter praesupponit naturaliter 
       <lb ed="#R" n="62"/>n:anducare 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26294-d1e434">
                   <lb ed="#R" n="63"/>Primo autem modo manducant rem Sacramenti 
       <lb ed="#R" n="64"/>non Sacramentum, qui contemplantur Christi pas 
       <lb ed="#R" n="65"/>nonem, acta eius, &amp; exempla, ac doctrinam 
@@ -239,7 +237,7 @@
       <lb ed="#R" n="77"/>Sacramentum. hos modos manducandi docet 
       Au<lb ed="#R" n="78" break="no"/>gustinus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26294-d1e476">
                   <lb ed="#R" n="79"/>Sufficientia autem istorum potest esse ista. Est 
       <lb ed="#R" n="80"/>enim considerare duos essectus, scilicet corpus 
       Do<lb ed="#R" n="81" break="no"/>mini, &amp; gratiae vnionem: Potest ergo suscipere 
@@ -249,14 +247,14 @@
       su<lb ed="#R" n="85" break="no"/>mendo vtrumque. In hoc potest apparere 
       sufficien<lb ed="#R" n="86" break="no"/>tia illorum modorum trium. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26294-d1e497">
                   <lb ed="#R" n="87"/>Tertia Propositio principalis est, quod istud 
       Sa<lb ed="#R" n="88" break="no"/>cramentum est de necessitate sumendum a 
       quoli<lb ed="#R" n="89" break="no"/>bet ficeli ad minus semel in anno, vt patet per 
       il<lb ed="#R" n="90" break="no"/>lud praeceptum Ecclesiae. cap. 1. Omnes vtriusque 
       <lb ed="#R" n="91"/>sexus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26294-d1e510">
                   <lb ed="#R" n="92"/>Sed dubium est: Vtrum sumptio istius Sacramēti 
       <lb ed="#R" n="93"/>sit necessaria absolute dato, quod non interueniret 
       <lb ed="#R" n="94"/>praeceptum Ecclesiae. Dicunt quidam, quod non, 
@@ -269,7 +267,7 @@
       <lb ed="#R" n="101"/>Ecclesiae peccaret grauiter, qui staret toto 
       tempo<lb ed="#R" n="102" break="no"/>re vitae suae, quod non communicaret. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26294-d1e536">
                   <lb ed="#R" n="103"/>Hanc conclusionem probo. Primo, quia omnia 
       <lb ed="#R" n="104"/>Sacramenta generalia sunt quandoque a quolibet 
       <lb ed="#R" n="105"/>suscipienda, non loquor modo de specialibus 
@@ -282,7 +280,7 @@
       <lb ed="#R" n="112"/>tenetur poenitere: &amp; ad hoc aspiciunt Docores, qui 
       <lb ed="#R" n="113"/>dicunt hoc Sacramentum non esse necessarium absolute. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26294-d1e562">
                   <lb ed="#R" n="114"/>Ad argumentum in oppositum nego minorem. 
       <lb ed="#R" n="115"/>Probatio autem eius procedit, ac si manducaretur 
       <lb ed="#R" n="116"/>in specie propria: sed cum manducetur in 

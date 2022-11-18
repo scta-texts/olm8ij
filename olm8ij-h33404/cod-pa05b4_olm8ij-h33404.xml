@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,14 +53,14 @@
       </front>
       <body>
          <div xml:id="olm8ij-h33404"> <!-- l4-d11prae -->
-            <head>Praeambulum</head>
-            <p>
+            <head xml:id="olm8ij-h33404-Hd1e102">Praeambulum</head>
+            <p xml:id="olm8ij-h33404-d1e104">
                <lb ed="#R" n="36"/>DISTINCTIO XI 
       <lb ed="#R" n="37"/>VL JRANSVBSTANTJATJONE. 
       <lb ed="#R" n="38"/>
                <!-- line coord error -->
             </p>
-            <p>
+            <p xml:id="olm8ij-h33404-d1e115">
                <lb ed="#R" n="39"/>Si autem quaeritur, &amp;c. In ista Distinctione 
       <lb ed="#R" n="40"/>Decima prima agit Magister de 
       Sacramen<lb ed="#R" n="41" break="no"/>to Eucharistiae in ordine ad 
@@ -74,7 +72,7 @@
       <lb ed="#R" n="47"/>procedendo, quaero primo circa 
       transub<lb ed="#R" n="48" break="no"/>stantiationem in se quatuor quaestiones.
   </p>
-            <p>
+            <p xml:id="olm8ij-h33404-d1e139">
                <lb ed="#R" n="49"/>1 Prima est: Vtrum transubstantiatio sit 
       suc<lb ed="#R" n="50" break="no"/>cessio totalis totius corporis Domini post 
       totale<lb ed="#R" n="51" break="no"/>non esse panis. 

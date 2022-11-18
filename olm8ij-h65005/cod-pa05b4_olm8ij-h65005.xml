@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,22 +53,22 @@
       </front>
       <body>
          <div xml:id="olm8ij-h65005"> <!-- l4-d42q1 -->
-            <head>Quaestio 1</head>
-            <p>
+            <head xml:id="olm8ij-h65005-Hd1e102">Quaestio 1</head>
+            <p xml:id="olm8ij-h65005-d1e104">
                <lb ed="#R" n="82"/>Quaestio Vnica. 
     </p>
-            <div>
-               <head>Articulus 1</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h65005-Dd1e109">
+               <head xml:id="olm8ij-h65005-Hd1e111">Articulus 1</head>
+               <head xml:id="olm8ij-h65005-Hd1e113" type="question-title">
         Utrum affinitas spiritualis impediat 
         matrimonium, quae dicitur cognatio legalis?
       </head>
-               <p>
+               <p xml:id="olm8ij-h65005-d1e116">
                   <lb ed="#R" n="83"/>ARTICVLVS VNJCVS. 
       <lb ed="#R" n="84"/>Vtrum affinitas spiritualis impediat 
       matrimo<lb ed="#R" n="85" break="no"/>nium, quae dicitur cognatio legalis? 
     </p>
-               <p>
+               <p xml:id="olm8ij-h65005-d1e125">
                   <lb ed="#R" n="86"/>RESPONDEO: Cognatio 
       <lb ed="#R" n="87"/>legalis contrahitur 
       in<lb ed="#R" n="88" break="no"/>tribus sacramentis, 
@@ -96,7 +94,7 @@
       <lb ed="#R" n="108"/>quod non, tamen non debet debitum petere, licet 
       <lb ed="#R" n="109"/>possit reddere 
     </p>
-               <p>
+               <p xml:id="olm8ij-h65005-d1e180">
                   <lb ed="#R" n="110"/>Sed dubium est, si cognatio lega lis impedit, quae 
       <lb ed="#R" n="111"/>est adoptio. Respondeo: Cognatio legalis est 
       intro<lb ed="#R" n="112" break="no"/>ducta in fauorem non habentium prolem, vt possint 

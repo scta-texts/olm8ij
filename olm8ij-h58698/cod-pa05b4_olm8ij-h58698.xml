@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,20 +53,20 @@
       </front>
       <body>
          <div xml:id="olm8ij-h58698"> <!-- l4-d27q1 -->
-            <head>Quaestio 1</head>
-            <p>
+            <head xml:id="olm8ij-h58698-Hd1e102">Quaestio 1</head>
+            <p xml:id="olm8ij-h58698-d1e104">
                <lb ed="#R" n="26"/>Quaestio Vnica. 
     </p>
-            <div>
-               <head>Articulus 1</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h58698-Dd1e109">
+               <head xml:id="olm8ij-h58698-Hd1e111">Articulus 1</head>
+               <head xml:id="olm8ij-h58698-Hd1e113" type="question-title">
         Utrum indivisibilitas sit de essentia Matrimonii.
       </head>
-               <p>
+               <p xml:id="olm8ij-h58698-d1e116">
                   <lb ed="#R" n="27"/>ARTICVLVS VNICVS. 
       <lb ed="#R" n="28"/>Vtrum indiuisibilitas sit de essentia Matrimonij. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h58698-d1e123">
                   <lb ed="#R" n="29"/>VIDETVR mihi, quod 
       <lb ed="#R" n="30"/>
                   <!-- Line coord error -->
@@ -91,13 +89,13 @@
       determi<lb ed="#R" n="43" break="no"/>nationem Canonis a 
       vin<lb ed="#R" n="44" break="no"/>culo Matrimonij. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h58698-d1e171">
                   <lb ed="#R" n="45"/>In oppositum est illud Matth. 19. Quod Deus 
       <lb ed="#R" n="46"/>coniunxit, homo non separet. Respondeo ad 
       eui<lb ed="#R" n="47" break="no"/>dentiam huius quaestionis pono aliquas 
       conclu<lb ed="#R" n="48" break="no"/>siones. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h58698-d1e183">
                   <lb ed="#R" n="49"/>Prima est, quod indissolubilitas temporis est de 
       <lb ed="#R" n="50"/>essentia Matrimonij, ita quod Matrimonium 
       essen<lb ed="#R" n="51" break="no"/>tialiter ex sua ratione est perpetuum vinculum, 
@@ -126,7 +124,7 @@
       <lb ed="#R" n="72"/>sed oportet, quod sit erudita, hominum enim 
       ge<lb ed="#R" n="73" break="no"/>nus arte, &amp; experimentis viuit r. Metaph. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h58698-d1e244">
                   <lb ed="#R" n="74"/>Sed nec hoc est ei sufficiens, sed oportet quarto, 
       <lb ed="#R" n="75"/>quod habeat patrimonium, &amp; haereditatem, vnde 
       <lb ed="#R" n="76"/>habeat aliqua bona, quibus possit vitam 
@@ -166,7 +164,7 @@
       ma<lb ed="#R" n="110" break="no"/>gis, &amp; minus, secundum quod proles plus, &amp; 
       mi<lb ed="#R" n="111" break="no"/>nus eget educatione. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h58698-d1e329">
                   <lb ed="#R" n="112"/>Similiter cum educatio debitae prolis in 
       homi<lb ed="#R" n="113" break="no"/>nibus requirat perpetuam possessionem 
       patrimo<lb ed="#R" n="114" break="no"/>nii, quae non habetur, vt dictum est, nisi 
@@ -174,7 +172,7 @@
       <lb ed="#R" n="116"/>quod ex dictamine naturali associatio eorum 
       ha<lb ed="#R" n="117" break="no"/>bet perpetuitatem quo ad tempus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h58698-d1e345">
                   <lb ed="#R" n="118"/>Secundo Probo idem, quod scilicet de essentia 
       <lb ed="#R" n="119"/>eius associationis sit perpetuitas, &amp; hoc, inquantum 
       <lb ed="#R" n="120"/>ei coniugatur actus signi. De ratione enim signi 
@@ -184,7 +182,7 @@
       <lb ed="#R" n="124"/>ipsa coniunctio matrimonialis, quae est signum eius 
       <lb ed="#R" n="125"/>verax, debet esse perpetua. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h58698-d1e365">
                   <lb ed="#R" n="126"/>Tertio hoc probo, inquantum coniunctioni 
       ma<lb ed="#R" n="127" break="no"/>ritali conuenit esse causam respectu gratiae, &amp; 
       cha<lb ed="#R" n="128" break="no"/>ritatis in anima; nam Deus (inquantum in se est) 
@@ -205,7 +203,7 @@
       <lb ed="#R" n="8"/>non semper, quantum ex se est, posset dici gratiam 
       <lb ed="#R" n="9"/>in anima causare. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h58698-d1e409">
                   <lb ed="#R" n="10"/>Sed tunc restat dubium de eo, quod adductum 
       <lb ed="#R" n="11"/>est argumentando ad principale. Quomodo 
       sci<lb ed="#R" n="12" break="no"/>licet Matrimonium possit solui per ingressum 
@@ -215,11 +213,11 @@
       <lb ed="#R" n="16"/>Matrimonium non est completum ante copulam 
       <lb ed="#R" n="17"/>carnalem 
     </p>
-               <p>
+               <p xml:id="olm8ij-h58698-d1e430">
     <!-- missing line break -->Sed si hoc sit bene dictum, sequeretur, quod 
       in<lb ed="#R" n="18" break="no"/>ter Mariam, &amp; Ioseph non fuerit Matrimonium 
     </p>
-               <p>
+               <p xml:id="olm8ij-h58698-d1e437">
                   <lb ed="#R" n="19"/>Alij dicunt, quod hoc ideo est, quia fortior est 
       <lb ed="#R" n="20"/>conditio possidentis. Nunc autem ante carnalem 
       <lb ed="#R" n="21"/>copulam ingrediens religionem est actualiter 
@@ -230,12 +228,12 @@
       <lb ed="#R" n="26"/>&amp; dissoluitur obligatio ad vxorem in virtute istius 
       <lb ed="#R" n="27"/>regulae: fortior est conditio possidentis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h58698-d1e459">
                   <lb ed="#R" n="28"/>Sed contra hoc est, quia idem esset, si contraxisset 
       <lb ed="#R" n="29"/>per verba de praesenti, &amp; statim consumaret per co 
       <lb ed="#R" n="30"/>pulam, &amp; postea cum alio rediret ad primum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h58698-d1e468">
                   <lb ed="#R" n="31"/>Alij. dicunt, quod obligatio ad maius bonum 
       <lb ed="#R" n="32"/>tollit obligationem ad minus bonum: obligatio 
       au<lb ed="#R" n="33" break="no"/>tem ad Matrimonium est minus bonum, quam 
@@ -243,7 +241,7 @@
       <lb ed="#R" n="35"/>hoc posset post introitum religionis dissolui 
       Ma<lb ed="#R" n="36" break="no"/>trimonium post copulam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h58698-d1e484">
                   <lb ed="#R" n="37"/>Praeterea dicitur, quod relatio soluitur 
       corru<lb ed="#R" n="38" break="no"/>pto altero extremorum. Ma trimonium autem est 
       quae<lb ed="#R" n="39" break="no"/>dam relatio, quia mutua obligatio coniugum, &amp; 
@@ -263,7 +261,7 @@
       <lb ed="#R" n="53"/>ergo indissolubilitas non est de essentia 
       Matri<lb ed="#R" n="54" break="no"/>monij. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h58698-d1e526">
                   <lb ed="#R" n="55"/>Adhuc facit difficultatem, quia commune 
       di<lb ed="#R" n="56" break="no"/>ctum omnium loquentium est, quod 
       Matrimo<lb ed="#R" n="57" break="no"/>nium per carnalem copulam consumatur. Tunc 
@@ -273,7 +271,7 @@
       <lb ed="#R" n="61"/>indissolubilitas, non de essentia Matrimonij 
       pri<lb ed="#R" n="62" break="no"/>mo modo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h58698-d1e547">
                   <lb ed="#R" n="63"/>Ad istam difficultatem ergo respondeo, quod 
       <lb ed="#R" n="64"/>sicut relatio, quae fundatur super potentiam 
       natu<lb ed="#R" n="65" break="no"/>ralem, non fundatur super eam, nisi vt reducta 
@@ -287,7 +285,7 @@
       <lb ed="#R" n="71"/>haec autem potestas non habet actum vltimate, nisi 
       <lb ed="#R" n="72"/>in carnali copula. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h58698-d1e576">
                   <lb ed="#R" n="73"/>Ex his posset dist ingui de Matrimonio, quia Ma 
       <lb ed="#R" n="74"/>trimonium potest accipi, vt dicit potestatem 
       ha<lb ed="#R" n="75" break="no"/>bitualem; vel vt dicit potestatem reductam ad 
@@ -308,7 +306,7 @@
       <lb ed="#R" n="90"/>vnde non soluitur per ingressum Religionis, nec 
       <lb ed="#R" n="91"/>per quemcunque alium casum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h58698-d1e620">
                   <lb ed="#R" n="92"/>Secunda Propositio est: quod indiuisio carnis, 
       <lb ed="#R" n="93"/>non est de essentia huius Sacramenti, &amp; hoc inquan 
       <lb ed="#R" n="94"/>tum est de iure naturae, nec inquantum habet 
@@ -326,19 +324,19 @@
       columba<lb ed="#R" n="106" break="no"/>mea, &amp;c. Hoc modo indiuisio carnis est de eius 
       <lb ed="#R" n="107"/>ratione, cuius oppositum dicitur bigamia. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h58698-d1e657">
                   <lb ed="#R" n="108"/>De bigamia autem sciendum est, quod habet 
       an<lb ed="#R" n="109" break="no"/>nexam irritabilitatem, sed propter quam causam, 
       <lb ed="#R" n="110"/>dubium est. Dicunt quidam, quod propter 
       vo<lb ed="#R" n="111" break="no"/>tum continentiae, quod exprimitur in 
       ordinan<lb ed="#R" n="112" break="no"/>dis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h58698-d1e670">
                   <lb ed="#R" n="113"/>Sed contra est, quod incontinentes posssunt 
       or<lb ed="#R" n="114" break="no"/>dinari, &amp; recipere Sacramentum Ordinis, saltem 
       <lb ed="#R" n="115"/>quo ad rem primam.
     </p>
-               <p>
+               <p xml:id="olm8ij-h58698-d1e679">
                   <lb ed="#R" n="116"/>Ideo dico, quod hoc non estt ex defectu 
       Matri<lb ed="#R" n="117" break="no"/>monii, sed ex ordinis conditione: sacramentum 
       <lb ed="#R" n="118"/>enim ordinis significat, quod est sponsus Ecclesiae, 
@@ -347,7 +345,7 @@
       <lb ed="#R" n="121"/>nec est vnus vnius, ideo non potest sibi 
       correspon<lb ed="#R" n="122" break="no"/>dere signatum Sacramenti Ordinis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h58698-d1e698">
                   <lb ed="#R" n="123"/>Sed quot modis contrahitur bigamia? Dico quod 
       <lb ed="#R" n="124"/>sex modis, vel in contrahendo de iure cum 
       dua<lb ed="#R" n="125" break="no"/>bus successiue cum vna post aliam; vel 
@@ -369,7 +367,7 @@
       apo<lb ed="#R" n="3" break="no"/>staticis, &amp; hoc intelligendum est, si antequam 
       or<lb ed="#R" n="4" break="no"/>dinentur. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h58698-d1e744">
                   <lb ed="#R" n="5"/>Sed nunquid Papa potest dispensare? Dico quod 
       <lb ed="#R" n="6"/>sic. Quid ergo ad auctoritatem Apostoli? 
       Respon<lb ed="#R" n="7" break="no"/>deo: Papa potest dispensare secundum iura in ijs, 

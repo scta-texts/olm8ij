@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,22 +53,22 @@
       </front>
       <body>
          <div xml:id="olm8ij-h26771"> <!-- l4-d9q2 -->
-            <head>Quaestio 2</head>
-            <p>
+            <head xml:id="olm8ij-h26771-Hd1e102">Quaestio 2</head>
+            <p xml:id="olm8ij-h26771-d1e104">
                <lb ed="#R" n="119"/>Quaestio II. 
     </p>
-            <div>
-               <head>Articulus 1</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h26771-Dd1e109">
+               <head xml:id="olm8ij-h26771-Hd1e111">Articulus 1</head>
+               <head xml:id="olm8ij-h26771-Hd1e113" type="question-title">
           Utrum omnis homo etiam peccator sit idoneus ad 
           sumendum hoc Sacramentum Eucharistiae.
         </head>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e116">
                   <lb ed="#R" n="120"/>ARTICVLVS VNJCVS. 
       <lb ed="#R" n="121"/>Vtrum omnis homo etiam peccator sit idoneus ad 
       <lb ed="#R" n="122"/>sumendum hoc Sacramentum Eucharistiae.
   </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e125">
                   <lb ed="#R" n="123"/>QVOAD secundam quaestionem arguo 
       <lb ed="#R" n="124"/>primo, quod peccator sit idoneus ad 
       <lb ed="#R" n="125"/>sumendum hoc Sacramentum: Quia 
@@ -80,7 +78,7 @@
       <lb ed="#R" n="129"/>attingit Deum, qui sumit ore per sensum tactus, 
       <lb ed="#R" n="130"/>quam qui attingit oculo corporali.
   </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e145">
       <!--0079.xml-->
                   <pb ed="#R" n="79"/>
                   <cb ed="#R" n="a"/>
@@ -88,14 +86,14 @@
       <lb ed="#R" n="2"/>cap. 1r. vbi dicitur, Qui manducat indigne, iudicium 
       <lb ed="#R" n="3"/>sibi manducat, &amp; bibit. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e162">
                   <lb ed="#R" n="4"/>Respondeo, hanc conclusionem introduxi 
       pro<lb ed="#R" n="5" break="no"/>pter quatuor conditiones, quae exiguntur ad digne 
       <lb ed="#R" n="6"/>suscipiendum hoc Sacramentum, ex quibus potest 
       <lb ed="#R" n="7"/>ad multos casus responderi, qui in hac 
       materia<lb ed="#R" n="8" break="no"/>consueuerunt quaeri. Pono ergo hanc regulam: 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e175">
                   <lb ed="#R" n="9"/>Jdoneus susceptor huius Sacramenti est homo, 
       <lb ed="#R" n="10"/>viator, ficelis, adultus, mente praeditus, ieiunus, 
       <lb ed="#R" n="11"/>deuotus, apparitione miraculosa non prohibitus, 
@@ -103,7 +101,7 @@
       conuersatio<lb ed="#R" n="13" break="no"/>ne crimine non notatus, corpore mundus, a 
       mini<lb ed="#R" n="14" break="no"/>stro idoneo, tempore debito, &amp; recta intentione. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e191">
                   <lb ed="#R" n="15"/>Dico ergo primo homo, vt excludatur omne 
       <lb ed="#R" n="16"/>aliud, siue brutum, siue angelus, &amp; dico 
       notabili<lb ed="#R" n="17" break="no"/>ter homo, olim enim fuit vna opinio immediate, 
@@ -122,7 +120,7 @@
       <lb ed="#R" n="30"/>transmutatae non fuerint per calorem stomachi, 
       tan<lb ed="#R" n="31" break="no"/>diu ibi remanet corpus Christi. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e230">
                   <lb ed="#R" n="32"/>Secundo dixi, Viator, hoc enim Sacramentum 
       <lb ed="#R" n="33"/>est viatoris, non comprehensoris: ideo si quando 
       <lb ed="#R" n="34"/>apparerent sacrificanti pater, &amp; mater defuncti, 
@@ -130,7 +128,7 @@
       <lb ed="#R" n="36"/>est, non debet Sacerdos Sacramentum eis 
       mini<lb ed="#R" n="37" break="no"/>strare 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e246">
                   <lb ed="#R" n="38"/>Tertio dico, fidelis, per quod intelligo non 
       so<lb ed="#R" n="39" break="no"/>lum illum qui habet fidem, sed qui iam recepit 
       Sa<lb ed="#R" n="40" break="no"/>cramentum Baptismi, ac factus es de familia Chri 
@@ -138,7 +136,7 @@
       Sacramen<lb ed="#R" n="42" break="no"/>tum non debet ministrari cathecumeno habenti 
       fi<lb ed="#R" n="43" break="no"/>dem perfecam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e262">
                   <lb ed="#R" n="44"/>Sed nunquid infidelis suscipit corpus Christi. 
       <lb ed="#R" n="45"/>Respondeo, hic fuit error, quem reprobat Magister 
       <lb ed="#R" n="46"/>in litera, dicentium quod statim, quod infidelis 
@@ -146,19 +144,19 @@
       di<lb ed="#R" n="48" break="no"/>cendum est ergo, vt supra, quod suscipit quidem 
       <lb ed="#R" n="49"/>realiter, sacramentaliter autem nullo modo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e279">
                   <lb ed="#R" n="50"/>Sed contra, omnis sumens Sacramentum videtur 
       <lb ed="#R" n="51"/>sumere sacramentaliter, quomodo enim potest 
       su<lb ed="#R" n="52" break="no"/>mi Sacramentum non sacramentaliter? 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e288">
                   <lb ed="#R" n="53"/>Respondeo: aliud est sumere Sacramentum, aliud 
       <lb ed="#R" n="54"/>sumere sacramentaliter, sumere enim 
       sacramenta<lb ed="#R" n="55" break="no"/>liter addit ad sumere Sacramentum sumere per 
       mo<lb ed="#R" n="56" break="no"/>dum signi, vt sumatur inquantum signat esse 
       cor<lb ed="#R" n="57" break="no"/>pus Christi. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e301">
                   <lb ed="#R" n="58"/>Quarto dico, adultus, Craeci enim Eucharisiam 
       <lb ed="#R" n="59"/>praebent pueris, &amp; quandoque hoc obseruabatur in 
       <lb ed="#R" n="60"/>antiqua Ecclesia, vt patet per illud capitulum de 
@@ -166,7 +164,7 @@
       <lb ed="#R" n="62"/>cap. 2. Eccl. Hierar. dicit, quod baptizatis 
       conti<lb ed="#R" n="63" break="no"/>nuo ministranda est synaxis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e317">
                   <lb ed="#R" n="64"/>Dico tamen, quod melius est talibus 
       Euchari<lb ed="#R" n="65" break="no"/>stiam non minisrare. Ratio est, quia 
       Sacramen<lb ed="#R" n="66" break="no"/>tum illud nulli ministrandum est, qui nec 
@@ -181,7 +179,7 @@
       com<lb ed="#R" n="73" break="no"/>muni cibo, &amp; quia propter discretionis carentiam 
       <lb ed="#R" n="74"/>non percipit se recipere corpus Christi. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e348">
                   <lb ed="#R" n="75"/>Sed vsque ad quot annos dicitur quis paruulus? 
       <lb ed="#R" n="76"/>Re spondeo, non est tempus determinatum, scilicet 
       <lb ed="#R" n="77"/>quando apparent in ipsis pueris actus discretionis, 
@@ -189,7 +187,7 @@
       <lb ed="#R" n="79"/>necdum in nouem annis, ideo hoc est in tali casu 
       <lb ed="#R" n="80"/>boni viri arbitrio committendum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e364">
                   <lb ed="#R" n="81"/>Quinto dico, mente praeditus. Hoc quidem 
       di<lb ed="#R" n="82" break="no"/>eo propter daemoniacos, &amp; amentes, quibus non est 
       <lb ed="#R" n="83"/>Eucharistia ministranda. Et sciendum est de talibus, 
@@ -202,7 +200,7 @@
       <lb ed="#R" n="90"/>sibi hoc Sacramentum non debet ei ministrare, si 
       <lb ed="#R" n="91"/>ipsum videat furiosum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e391">
                   <lb ed="#R" n="92"/>Si autem sit amens, &amp; non sit furiosus, sed 
       tan<lb ed="#R" n="93" break="no"/>tummodo loquens inania, ac alienus a sensu, tunc 
       <lb ed="#R" n="94"/>distinguendum est, quare praetendit ad 
@@ -218,7 +216,7 @@
       habe<lb ed="#R" n="104" break="no"/>ret quandoque lucida interualla, possumus tunc ei 
       <lb ed="#R" n="105"/>tempore lucido petenti Eucharistiam ministrare. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e424">
                   <lb ed="#R" n="106"/>Sexto dico, quod ieiunus, vt habetur de 
       Conse<lb ed="#R" n="107" break="no"/>cratione Dist. 2. cap. Liquido apparet, &amp; est 
       Augu<lb ed="#R" n="108" break="no"/>stini in lib. responsionum ad Januarium cap. 6. 
@@ -229,13 +227,13 @@
       rationa<lb ed="#R" n="113" break="no"/>biliter, ne sacrae illae epulae cum cibis alijs 
       immi<lb ed="#R" n="114" break="no"/>sceantur. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e446">
                   <lb ed="#R" n="115"/>Per quod patet, quod qui praecedenti die operam 
       <lb ed="#R" n="116"/>crapulae impendit, &amp; sentit se die sequenti 
       indige<lb ed="#R" n="117" break="no"/>stum ac ponderosum, debet a Communione 
       omni<lb ed="#R" n="118" break="no"/>mode abscinere. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e457">
                   <lb ed="#R" n="119"/>Sed quale ieiunium est hic necessarium, Vtrum 
       <lb ed="#R" n="120"/>corporis, vel naturae? Dico, quod naturae, ex quo 
       <lb ed="#R" n="121"/>patet ad illum casum, numquid post medicinam 
@@ -245,7 +243,7 @@
       <lb ed="#R" n="125"/>nunquid potest talis communicare, vel 
       celebrare<lb ed="#R" n="126" break="no"/>sequenti mane? 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e477">
                   <lb ed="#R" n="127"/>Respondeo, aliqui quandoque conscentiosi 
       di<lb ed="#R" n="128" break="no"/>xerunt, quod non: videtur obstare cap. Si 
       constite<lb ed="#R" n="129" break="no"/>rit de accusationibus. Sed respondeo ibi non 
@@ -262,7 +260,7 @@
                   <lb ed="#R" n="1"/>sentiens de mane se digestum, hoc non obstante 
       po<lb ed="#R" n="2" break="no"/>terit celebrare. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e512">
                   <lb ed="#R" n="3"/>Sed pone, quod mane in principio diei bibat 
       <lb ed="#R" n="4"/>quid modicum, ac hora modica tertia sentiat 
       se<lb ed="#R" n="5" break="no"/>digestum, nunquid. poterit celebrare? Respondeo 
@@ -271,7 +269,7 @@
       artifi<lb ed="#R" n="8" break="no"/>ciali, quia tunc incepit quando Missae incipiunt 
       ce<lb ed="#R" n="9" break="no"/>lebrari. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e531">
                   <lb ed="#R" n="10"/>Septimo dixi, deuotus, hoc enim Sacramentum 
       <lb ed="#R" n="11"/>datur vere in cibum &amp; potum, vbi 
       consideranda<lb ed="#R" n="12" break="no"/>est manducatio realis, quae consistit in specierum 
@@ -286,7 +284,7 @@
       <lb ed="#R" n="21"/>cap. Timorem, &amp; est Basilij in regulis breuioribus 
       <lb ed="#R" n="22"/>cap. 172. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e562">
                   <lb ed="#R" n="23"/>Octauo dixi, sine conscientia peccati mortalis, 
       <lb ed="#R" n="24"/>qui enim conscientiam habet de mortali, debet om 
       <lb ed="#R" n="25"/>nino abstinere a communione, licet hoc non 
@@ -307,7 +305,7 @@
       inqui<lb ed="#R" n="40" break="no"/>sitionem de commisis diligentiam debitam 
       non<lb ed="#R" n="41" break="no"/>adhibuit. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e606">
                   <lb ed="#R" n="42"/>Sed quando signum es, quod huiusmodi 
       non<lb ed="#R" n="43" break="no"/>conscientia de peccato sit excusabilis? Dico, quod 
       <lb ed="#R" n="44"/>huiusmodi non conscientia consistit in diligenter 
@@ -318,7 +316,7 @@
       <lb ed="#R" n="49"/>ac per consequens sine conscientia actualis 
       of<lb ed="#R" n="50" break="no"/>fensae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e628">
                   <lb ed="#R" n="51"/>Sed quid de praeparante se ad Missam dicendam, 
       <lb ed="#R" n="52"/>&amp; iam induto, &amp; pro tunc memoranti primo 
       de<lb ed="#R" n="53" break="no"/>aliquo mortali, de quo non confesssus fuerit, 
@@ -328,14 +326,14 @@
       posmo<lb ed="#R" n="57" break="no"/>dum illud, vt citius poterit, confiteri, quando sine 
       <lb ed="#R" n="58"/>scandalo, vel necessitate abstinere non posset. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e648">
                   <lb ed="#R" n="59"/>Idem dico de sacerdote parochiae non 
       habente<lb ed="#R" n="60" break="no"/>copiam alterius sacerdotis, si contingat, quod 
       me<lb ed="#R" n="61" break="no"/>mor sit peccati mortalis, etiam antequam induat 
       <lb ed="#R" n="62"/>se ad Missam, sufficit quod conteratur, &amp; habeat 
       <lb ed="#R" n="63"/>propositum, quando poterit, consitendi. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e661">
                   <lb ed="#R" n="64"/>Per idem dico de religioso, qui extra claustrum 
       <lb ed="#R" n="65"/>es cum socio non sacerdote, &amp; celebraturus est 
       <lb ed="#R" n="66"/>memor peccati mortalis, non enim debet 
@@ -346,7 +344,7 @@
                   <lb ed="#R" n="69"/>sed praemisssa contritione idonea, &amp; proposito 
       con<lb ed="#R" n="70" break="no"/>fitendi poterit celebrare. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e684">
                   <lb ed="#R" n="71"/>Sed quid si Sacerdos iam Missa incepta memor 
       <lb ed="#R" n="72"/>sit de peccato, &amp; habeat secum copiam sacerdotis, 
       <lb ed="#R" n="73"/>nunquid debet, antequam procedat vlterius, 
@@ -354,7 +352,7 @@
       <lb ed="#R" n="75"/>iam processit vlterius, sufficit conteri, &amp; cum 
       pro<lb ed="#R" n="76" break="no"/>posito postea confitendi. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e700">
                   <lb ed="#R" n="77"/>Sed hic est quaedam quaestio, quae frequenter 
       <lb ed="#R" n="78"/>consueuit fieri, posito quod quis accedat ad altare 
       <lb ed="#R" n="79"/>cum peccato carnis, alius cum peccato odij, &amp; 
@@ -371,19 +369,19 @@
       pec<lb ed="#R" n="90" break="no"/>catum directius opponitur Sacramento, quam 
       <lb ed="#R" n="91"/>maius. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e735">
                   <lb ed="#R" n="92"/>Propter quod dicunt quidam Doctores, quod 
       li<lb ed="#R" n="93" break="no"/>cet peccatum rancoris sit maius peccato carnis, 
       <lb ed="#R" n="94"/>peccatum tamen carnis magis directe opponitur 
       <lb ed="#R" n="95"/>Sacramento, ideo magis peccat accedens cum 
       pec<lb ed="#R" n="96" break="no"/>cato carnis, quam cum peccato odij &amp; rancoris. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e748">
                   <lb ed="#R" n="97"/>Alij autem Doctores tenent oppositum, eo quod 
       <lb ed="#R" n="98"/>peccatum quanto maius est, directius opponitur 
       <lb ed="#R" n="99"/>Sacramento. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e757">
                   <lb ed="#R" n="100"/>Videtur mihi dicendum, quod cum. turpitudo 
       <lb ed="#R" n="101"/>corporalis, &amp; immunditia non opponatur directe 
       <lb ed="#R" n="102"/>huic Sacramento, sed animae immunditia, quae 
@@ -393,7 +391,7 @@
       <lb ed="#R" n="106"/>cum peccato carnis, licet peccatum carnis 
       maio<lb ed="#R" n="107" break="no"/>rem habeat immunditiam corporalem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e777">
                   <lb ed="#R" n="108"/>De infideli autem non est dubium, quod 
       graui<lb ed="#R" n="109" break="no"/>ter peccat, sed puto quod fidelis peccator grauius 
       <lb ed="#R" n="110"/>faciendo irreuerentiam Sacramento, quam infidelis. 
@@ -401,7 +399,7 @@
       <lb ed="#R" n="112"/>Christi, forte talem irreuerentiam non exhiberet 
       <lb ed="#R" n="113"/>Sacramento. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e794">
                   <lb ed="#R" n="114"/>Nono cum dico, in conuersatione de 
       crimine<lb ed="#R" n="115" break="no"/>non notatus, regula generalis est, quod nulli 
       nota<lb ed="#R" n="116" break="no"/>to publice de infami crimine debe: Eucharistia mi 
@@ -411,7 +409,7 @@
       <lb ed="#R" n="120"/>
                   <!-- line coord error -->
                </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e814">
                   <lb ed="#R" n="121"/>Sed quid de suspendendis? Dicunt quidam, quod 
       <lb ed="#R" n="122"/>non debet eis Eucharistia ministrari. Videtur 
       mi<lb ed="#R" n="123" break="no"/>hi, quod tales debeant propter Sacramenti reueren 
@@ -420,12 +418,12 @@
       ha<lb ed="#R" n="126" break="no"/>beant ius suum in corpore Domini, sicut &amp; caeteri, 
       <lb ed="#R" n="127"/>dum tamen sint vere poenitentes. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e832">
                   <lb ed="#R" n="128"/>Quid de mulieribus publicis. Respondeo, si 
       ap<lb ed="#R" n="129" break="no"/>pareant poenitentes, &amp; vere conuersae poterit 
       Sa<lb ed="#R" n="130" break="no"/>cramentum eis administrari; si vero non, non. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e841">
                   <lb ed="#R" n="131"/>Sed quid de vno vsurario, &amp; publico peccatore? 
       <lb ed="#R" n="132"/>Respondeo, si est publicus &amp; notorius vsurarius &amp; 
       <lb ed="#R" n="133"/>peccator, debet Sacramentum vtique ei denegari. 
@@ -443,18 +441,18 @@
       <lb ed="#R" n="5"/>debet Sacramentum administrari, quousque 
       pera<lb ed="#R" n="6" break="no"/>cta sit poenitentia. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e878">
                   <lb ed="#R" n="7"/>Decimo dixi, corpore mundus, non intelligendo 
       <lb ed="#R" n="8"/>excludere immunditiam corporalis infirmitatis, 
       <lb ed="#R" n="9"/>puta leprae &amp; huiusmodi, sed loquor de 
       immundi<lb ed="#R" n="10" break="no"/>tia corporali, quam quis potest tollere, &amp; non 
       tol<lb ed="#R" n="11" break="no"/>lendo grauiter peccat. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e891">
                   <lb ed="#R" n="12"/>Sed quid de muliere in puerperio. Respondeo, si 
       <lb ed="#R" n="13"/>petat, non video, quare ei debeat denegari. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e899">
                   <lb ed="#R" n="14"/>Sed quid de pollutione nocturna? Respondet 
       <lb ed="#R" n="15"/>Gregorius, quod quandoque prouenit ex culpa 
       <lb ed="#R" n="16"/>quandoque ex debilitate naturae, quando non 
@@ -463,7 +461,7 @@
       <lb ed="#R" n="19"/>sine culpa euenit, cum ex memoria praeteritorum 
       <lb ed="#R" n="20"/>accidit. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e917">
                   <lb ed="#R" n="21"/>Vbi sciendum, quod nullus actus in somnijs 
       for<lb ed="#R" n="22" break="no"/>maliter est culpa, vel peccatum; est tamen 
       quan<lb ed="#R" n="23" break="no"/>doque aliquid peccatum virtualiter, &amp; ostensiue, 
@@ -490,13 +488,13 @@
       <lb ed="#R" n="44"/>factae in phantasmate in vigilia: hoc ergo dictum sit 
       <lb ed="#R" n="45"/>de pollutione. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e974">
                   <lb ed="#R" n="46"/>Tamen vnum generale consilium mihi videtur, 
       <lb ed="#R" n="47"/>quod pollutione quocumque casu interueniente, 
       <lb ed="#R" n="48"/>abstinendum sit a celebratione, vel communione, 
       <lb ed="#R" n="49"/>vbi necessitas non occurrit. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e985">
                   <lb ed="#R" n="50"/>Vndecimo dixi, apparitione miraculosa non 
       pro<lb ed="#R" n="51" break="no"/>hibitus, si enim in speciebus illis apparet frustum 
       <lb ed="#R" n="52"/>carnis, vel puer, vel aliquid huiusmodi, non essent 
@@ -506,11 +504,11 @@
       <lb ed="#R" n="56"/>non debent sumii. Et sic habemus vndecim 
       condi<lb ed="#R" n="57" break="no"/>tiones. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e1005">
                   <lb ed="#R" n="58"/>Aliae vero tres conditiones sumuntur in ordine 
       <lb ed="#R" n="59"/>ad ministrum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e1012">
                   <lb ed="#R" n="60"/>Quarum prima est, a ministro idoneo, non enim 
       <lb ed="#R" n="61"/>debet sumi a muliere, nec a laico homine, nec etiam 
       <lb ed="#R" n="62"/>a Diacono, vbi haberi potest copia sacerdotis; nec 
@@ -519,7 +517,7 @@
       <lb ed="#R" n="65"/>Sacramentum sumere. Et similiter dico de 
       schis<lb ed="#R" n="66" break="no"/>mati: is, &amp; chyromanticis.
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e1031">
                   <lb ed="#R" n="67"/>Secundo dico, tempore debito, quia laicus semel ad 
       <lb ed="#R" n="68"/>minus in anno, sacerdos autem frequenter tenetur 
       <!--0081.xml-->
@@ -531,7 +529,7 @@
       <lb ed="#R" n="73"/>haec sententia habetur extra de celebratione 
       Mis<lb ed="#R" n="74" break="no"/>sarum cap. Dolentes referimus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e1055">
                   <lb ed="#R" n="75"/>Sed nunquid bis in dieldico, quod bis nullus 
       de<lb ed="#R" n="76" break="no"/>bet sine causa necessitatis celebrare, vt habetur de 
       <lb ed="#R" n="77"/>Consecratione dist. 1. cap. Bis qui semel. Casus 
@@ -542,7 +540,7 @@
       <lb ed="#R" n="82"/>non sepeliri sine Missa, vel periculum esset de 
       reser<lb ed="#R" n="83" break="no"/>uatione. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e1077">
                   <lb ed="#R" n="84"/>Sed nunquid ad minus congruum est celebrare 
       <lb ed="#R" n="85"/>omni die? Respondeo, Augustinus hoc non 
       lau<lb ed="#R" n="86" break="no"/>dat, nec improbat; dico tamen vnam regulam, quod 
@@ -554,7 +552,7 @@
       Sa<lb ed="#R" n="92" break="no"/>cramentum quasi ad mensam accedere, in tali 
       ca<lb ed="#R" n="93" break="no"/>su consulerem rarius esse celebrandum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e1101">
                   <lb ed="#R" n="94"/>Tertia conditio est, recta intentio. Debet enim 
       <lb ed="#R" n="95"/>hoc Sacramentum sumi ad eam intentionem, qua 
       <lb ed="#R" n="96"/>a Christo institutum est, non ad medicinam, vel 
@@ -564,7 +562,7 @@
       <lb ed="#R" n="100"/>in corpore ipso dare operam generationi, vel actui 
       <lb ed="#R" n="101"/>consimili. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e1121">
                   <lb ed="#R" n="102"/>Sed numquid sumendum est corpus Christi ad 
       <lb ed="#R" n="103"/>probationem habendam, sicut in quibusdam mona 
       <lb ed="#R" n="104"/>sterijs factum est quandoque, quod si 
@@ -574,7 +572,7 @@
       <lb ed="#R" n="108"/>Respondeo, dico quod hac occasione 
       Eucharistia<lb ed="#R" n="109" break="no"/>nullo modo potest licite ab aliquo ministrari. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h26771-d1e1141">
                   <lb ed="#R" n="110"/>Ad argumentum in oppositum dico, qui multum 
       <lb ed="#R" n="111"/>interest inter visionem, &amp; sumptionem, quoniam per 
       <lb ed="#R" n="112"/>visionem non habetur praesentia Cristi corporis, 

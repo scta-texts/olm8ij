@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,12 +53,12 @@
       </front>
       <body>
          <div xml:id="olm8ij-h60293"> <!-- l4-d31prae -->
-            <head>Praeambulum</head>
-            <p>
+            <head xml:id="olm8ij-h60293-Hd1e102">Praeambulum</head>
+            <p xml:id="olm8ij-h60293-d1e104">
                <lb ed="#R" n="124"/>DISTINCTIO XXXI. 
       <lb ed="#R" n="125"/>DE FINE MATRIMONII 
     </p>
-            <p>
+            <p xml:id="olm8ij-h60293-d1e111">
                <lb ed="#R" n="126"/>In ista Distinctione Trigesimaprima Magister 
       <lb ed="#R" n="127"/>agit de fine Matrimonij, siue de eius bonis. 
       <lb ed="#R" n="128"/>Ad cuius euidentiam quaero istam 

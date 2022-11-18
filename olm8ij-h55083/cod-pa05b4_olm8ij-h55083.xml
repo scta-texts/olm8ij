@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,20 +53,20 @@
       </front>
       <body>
          <div xml:id="olm8ij-h55083"> <!-- l4-d24q1 -->
-            <head>Quaestio 1</head>
-            <p>
+            <head xml:id="olm8ij-h55083-Hd1e102">Quaestio 1</head>
+            <p xml:id="olm8ij-h55083-d1e104">
                <lb ed="#R" n="85"/>Quaestio Vnica.
     </p>
-            <div>
-               <head>Articulus 1</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h55083-Dd1e109">
+               <head xml:id="olm8ij-h55083-Hd1e111">Articulus 1</head>
+               <head xml:id="olm8ij-h55083-Hd1e113" type="question-title">
       Utrum Ordo sit Sacramentum Nouae legis.
     </head>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e116">
                   <lb ed="#R" n="86"/>ARTICVLVUS I. 
       <lb ed="#R" n="87"/>Vtrum Ordo sit Sacramentum Nouae legis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e123">
                   <lb ed="#R" n="88"/>QVO ad primam quaestionem 
       <lb ed="#R" n="89"/>arguo primo quod non, sic: 
       <lb ed="#R" n="90"/>Quia illud non est 
@@ -80,12 +78,12 @@
                   <!-- line coord error -->
                   <lb ed="#R" n="95"/>est huiusmodi: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e147">
                   <lb ed="#R" n="96"/>In oppositum est auctoritas 
       <lb ed="#R" n="97"/>Ecclesiae. Respondeo, ad 
       eui<lb ed="#R" n="98" break="no"/>dentiam huius quaestionis pono ꝓpositiones aliquas. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e157">
                   <lb ed="#R" n="99"/>Prima est, quod Ordo est Sacramentum nouae legis 
       <lb ed="#R" n="100"/>rationabiliter institutum: Verum quia probatio 
       pas<lb ed="#R" n="101" break="no"/>sionis de subiecto supponit quid nominis subiecti, 
@@ -96,7 +94,7 @@
       <lb ed="#R" n="106"/>&amp; hoc modo ordo in Ecclesia non est aliud, quam 
       <lb ed="#R" n="107"/>hierarchica quaedam dispositio inter praesidentes. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e179">
                   <lb ed="#R" n="108"/>Alio modo ordo accipitur pro fundamento illius 
       <lb ed="#R" n="109"/>relationis, maxime ex parte excellentis, &amp; hoc 
       mo<lb ed="#R" n="110" break="no"/>do, qui est in gradu aliquo digniori, dicitur esse 
@@ -104,7 +102,7 @@
       ordi<lb ed="#R" n="112" break="no"/>ne, qui est in gradu aliquo constitutus, vt 
       Diaco<lb ed="#R" n="113" break="no"/>nus, &amp; huiusmodi. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e195">
                   <lb ed="#R" n="114"/>Alio modo Ordo accipitur pro ipsa ordinatione, 
       <lb ed="#R" n="115"/>&amp; tunc est signum sensibile, puta verba ipsa, &amp; tactus, 
       <lb ed="#R" n="116"/>quibus vtitur Episcopus ordinando, &amp; hoc vtroque 
@@ -129,7 +127,7 @@
       e<lb ed="#R" n="2" break="no"/>nim illo modo significat ordinatum habere 
       pote<lb ed="#R" n="3" break="no"/>statem 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e247">
                   <lb ed="#R" n="4"/>Similiter, character est res signata per ipsum 
       or<lb ed="#R" n="5" break="no"/>dinem tertio modo acceptum, &amp; ipse significat gra 
       <lb ed="#R" n="6"/>tiam, quam virtute Sacramenti recipit, &amp; concomi 
@@ -138,7 +136,7 @@
       <lb ed="#R" n="9"/>signat, &amp; efficit, quod ab alio non efficitur, nec 
       si<lb ed="#R" n="10" break="no"/>gnatur. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e265">
                   <lb ed="#R" n="11"/>Tunc probo propositionem propositam, sic: 
       Sa<lb ed="#R" n="12" break="no"/>cramentum est signum sensibile efficiens, quod figu 
       <lb ed="#R" n="13"/>ratur: sed ordinatio sacra est huiusmodi, significat 
@@ -150,7 +148,7 @@
       coniun<lb ed="#R" n="19" break="no"/>ctam: ergo vtroque modo, scilicet primo &amp; 
       secun<lb ed="#R" n="20" break="no"/>do, ordo vere est Sacramentum Nouae legis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e289">
                   <lb ed="#R" n="21"/>Secundo addo, quod hoc Sacramentum est 
       ratio<lb ed="#R" n="22" break="no"/>nabiliter institutum, quod probo sic: Illud quo 
       nul<lb ed="#R" n="23" break="no"/>la lex caruit, rationabiliter est institutum in noua 
@@ -161,7 +159,7 @@
       distin<lb ed="#R" n="28" break="no"/>ctae, &amp; singularis vitae, &amp; obseruationes ad 
       huius<lb ed="#R" n="29" break="no"/>modi sacrificium offerendum: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e312">
                   <lb ed="#R" n="30"/>Secunda Propositio est, quod istud Sacramentum 
       <lb ed="#R" n="31"/>est vnum, &amp; non tantum vnitate indiuisibilitatis: 
       <lb ed="#R" n="32"/>hoc dico propter opinionem quandam, quod istud 
@@ -191,7 +189,7 @@
       <lb ed="#R" n="56"/>haberemus Diaconatum, &amp; Subdiaconatum, &amp; 
       <lb ed="#R" n="57"/>quatuor alios ordines minores. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e375">
                   <lb ed="#R" n="58"/>Et si arguatur contra eos, quod ordines inferiores 
       <lb ed="#R" n="59"/>non possunt dici sacramentalia, eo qui sacramentale 
       <lb ed="#R" n="60"/>videtur esse coniunctum, &amp; eodem tempore cum 
@@ -199,7 +197,7 @@
       <lb ed="#R" n="62"/>exemplum datur de Catechismo, qui tamen per 
       mul<lb ed="#R" n="63" break="no"/>ta tempora ante praecedebat Baptismum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e391">
                   <lb ed="#R" n="64"/>Hanc opinionem non teneo, potissime quia 
       Ma<lb ed="#R" n="65" break="no"/>gister videtur esse expresse ad oppositum, qui 
       diui<lb ed="#R" n="66" break="no"/>dit Sacramentum Ordinis in septem, &amp; remouet a 
@@ -210,7 +208,7 @@
                   <lb ed="#R" n="69"/>Episcopatus: ergo aliter alia pertinent ad rationem 
       <lb ed="#R" n="70"/>Sacramenti, quam sacramentalia tantum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e413">
                   <lb ed="#R" n="71"/>Confirmo, quia Ecclesia videtur communiter hoc 
       <lb ed="#R" n="72"/>tenere, ideo posui propositionem praefatam, &amp; eam 
       <lb ed="#R" n="73"/>probo sic: Omne illud, quod est signum sensibile, &amp; 
@@ -224,7 +222,7 @@
       Consi<lb ed="#R" n="81" break="no"/>militer acquirit specialem characterem, vt commu 
       <lb ed="#R" n="82"/>niter tenet Ecclesia, &amp; gratiam: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e442">
                   <lb ed="#R" n="83"/>Tunc ad motiua eorum respondeo. Ad primum 
       <lb ed="#R" n="84"/>patet ex dictis, acquirit enim Diaconus vel Subdia 
       <lb ed="#R" n="85"/>conus spiritualem potestatem, etsi ante illud idem 
@@ -232,7 +230,7 @@
       <lb ed="#R" n="87"/>Domini administrandi, &amp; sacerdoti assisendi, ipsi 
       <lb ed="#R" n="88"/>etiam potestati annectitur gratia, &amp; charactter. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e458">
                   <lb ed="#R" n="89"/>Ad secundum dico, quod non erunt tot 
       sacramen<lb ed="#R" n="90" break="no"/>ta. Ratio est, quia omnes ordines concurrunt ad con 
       <lb ed="#R" n="91"/>stitutionem vnius perfecti sacramenti Ordinis, quod 
@@ -262,16 +260,16 @@
       ar<lb ed="#R" n="115" break="no"/>gumentum in oppositu patet ex corpore quaestionis. 
     </p>
             </div>
-            <div>
-               <head>Articulus 2</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h55083-Dd1e520">
+               <head xml:id="olm8ij-h55083-Hd1e522">Articulus 2</head>
+               <head xml:id="olm8ij-h55083-Hd1e524" type="question-title">
       Utrum in Ecclesia sint tantum septem Ordines
     </head>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e527">
                   <lb ed="#R" n="116"/>ARTICVLVS II 
       <lb ed="#R" n="117"/>Vtrum in Ecclesia sint tantum septem Ordines.
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e534">
                   <lb ed="#R" n="118"/>AD secundam quaestionem arguitur primo, quod 
       <lb ed="#R" n="119"/>non sint tantum septem ordines, sic: quia Dion. 
       <lb ed="#R" n="120"/>c. 5. de Eccl. Hierar. non ponit nisi tres ordines, 
@@ -279,7 +277,7 @@
       <lb ed="#R" n="122"/>ergo vel non sunt septem, vel erunt octo, quia 
       Epi<lb ed="#R" n="123" break="no"/>scopatus erit secundum eum per se ordo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e550">
                   <lb ed="#R" n="124"/>In oppositum est Magister in litera, &amp; opinio 
       con<lb ed="#R" n="125" break="no"/>munis Ecclesiae. Respondeo: In hac quaestione faciunt 
       <lb ed="#R" n="126"/>difficultatem, primo, gradus Episcopalis: secundo, 
@@ -289,7 +287,7 @@
       Episco<lb ed="#R" n="130" break="no"/>palis sit ordo, &amp; Sacramentum. Secundo quaeretur idem 
       <lb ed="#R" n="131"/>de tonsura, &amp; tertio videbitur de sufficientia Ordinum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e571">
                   <lb ed="#R" n="132"/>De primo sciendum est, qui sunt quinque opiniones: 
       <lb ed="#R" n="133"/>&amp; prima quidem est Juristarum discordantium in hoc a 
       <lb ed="#R" n="134"/>Theologis, quod Episcopatus est verus ordo. Ad hoc vi 
@@ -309,7 +307,7 @@
       com<lb ed="#R" n="9" break="no"/>munis omnium Juristarum, &amp; dicunt, quod nos 
       <lb ed="#R" n="10"/>Theologi in hoc a vero deuiamus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e612">
                   <lb ed="#R" n="11"/>Et videtur mihi, quod haec opinio posset ostendi 
       <lb ed="#R" n="12"/>esse rationalis, &amp; primo arguendo per locum a 
       mi<lb ed="#R" n="13" break="no"/>nori, quia minus videretur, quod ostiarius 
@@ -329,7 +327,7 @@
       <lb ed="#R" n="27"/>corpus Domini, quia nec ostiarius nisi mediante 
       <lb ed="#R" n="28"/>domo, circa quam habet actum suum immediatum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e654">
                   <lb ed="#R" n="29"/>Secunda ratio, quia tota definitio Sacramenti 
       <lb ed="#R" n="30"/>nouae legis conuenit gradui Episcopali, est enim 
       <lb ed="#R" n="31"/>signum sensibile efficiens, quod figurat. Vnctio 
@@ -341,7 +339,7 @@
       <lb ed="#R" n="37"/>non esset, nisi Episcopatus importaret gradum 
       ali<lb ed="#R" n="38" break="no"/>quem determinatum in Ecclesia
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e678">
     <!-- missing line coord -->Tertia ratio est ista: Ea quae sunt ordinum, omnes
       <lb ed="#R" n="39"/>recipiunt immediate a Christo, ita quod in 
       pote<lb ed="#R" n="40" break="no"/>state nullius, imo nec Papae est illa auferre: quae 
@@ -355,7 +353,7 @@
       <lb ed="#R" n="48"/>non potest Papa Episcopo quantumcumque 
       degra<lb ed="#R" n="49" break="no"/>dato ordinandi potestatem auferre. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e707">
                   <lb ed="#R" n="50"/>Tunc arguo sic: Illud habet rationem Sacramen 
       <lb ed="#R" n="51"/>ti, sub quo, sicut sub velamine signi sensibilis, 
       da<lb ed="#R" n="52" break="no"/>tur potestas indelebilis, quae non subest alterius 
@@ -365,7 +363,7 @@
       <lb ed="#R" n="56"/>iusmodi est conferre ordines, ita quod Papa illam 
       <lb ed="#R" n="57"/>non posset suspendere: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e727">
                   <lb ed="#R" n="58"/>Quarta ratio est ista: Communiter consueuit 
       <lb ed="#R" n="59"/>distingui, quod electi habent eo ipso omnia, quae 
       <lb ed="#R" n="60"/>iurisdictionis sunt, non autem eo ipso ea quae 
@@ -382,7 +380,7 @@
       <lb ed="#R" n="69"/>es vere Sacramentum Ordinis, cuiusmodi est 
       con<lb ed="#R" n="70" break="no"/>secratio Episcopi: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e763">
                   <lb ed="#R" n="71"/>Secunda opinio est, quod gradus Episcopalis, 
       <lb ed="#R" n="72"/>licet sit ordo sacramentalis, non est tamen 
       sacra<lb ed="#R" n="73" break="no"/>mentum, &amp; addunt isti, quod tantummodo 
@@ -392,7 +390,7 @@
       Sa<lb ed="#R" n="77" break="no"/>cramento est virtus actiua infusa: sed in nullo alio 
       <lb ed="#R" n="78"/>ordine, nisi in sacerdotio, est virtus infusa: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e783">
                   <lb ed="#R" n="79"/>Haec opinio est contra Magistrum expresse in 
       li<lb ed="#R" n="80" break="no"/>tera: Agamus nunc de Ordine Sacramento, &amp; statim 
       <lb ed="#R" n="81"/>illud diuidit in septem, &amp; postmodum excludit ab 
@@ -401,7 +399,7 @@
       tan<lb ed="#R" n="84" break="no"/>tum sacramentalia. Similiter est contra dicta 
       San<lb ed="#R" n="85" break="no"/>ctorum, quae Magister adducit in litera. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e801">
                   <lb ed="#R" n="86"/>Tertia opinio est, quod Sacramentum potest 
       re<lb ed="#R" n="87" break="no"/>ferri vel in ordine ad characterem, qui 
       imprimi<lb ed="#R" n="88" break="no"/>tur, vel in ordine ad potestatem aliquam specialem, 
@@ -415,13 +413,13 @@
       <lb ed="#R" n="96"/>Episcopus, nisi circa corpus Domini mysticum 
       <lb ed="#R" n="97"/>scilicet circa Ecclesiam: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e830">
                   <lb ed="#R" n="98"/>Sed capiendo Ordinem &amp; Sacramentum in 
       or<lb ed="#R" n="99" break="no"/>dine ad specialem aliquam potestatem, quae alij 
       <lb ed="#R" n="100"/>non confertur, sic dicunt, quod Episcopatus est 
       <lb ed="#R" n="101"/>Sacramentum, &amp; Ordo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e841">
                   <lb ed="#R" n="102"/>Alia opinio quarta est, quod Episcopatus 
       e<lb ed="#R" n="103" break="no"/>tiam non est Ordo &amp; Sacramentum, vt ordo siue 
       <lb ed="#R" n="104"/>Sacramentum accipitur pro potestate aliqua, quae 
@@ -433,7 +431,7 @@
       il<lb ed="#R" n="110" break="no"/>lud conatur ostendere multis auctoritatibus, &amp; 
       ra<lb ed="#R" n="111" break="no"/>tionibus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e865">
                   <lb ed="#R" n="112"/>Ad hoc etiam sunt auctoritates Scripturae, quia 
       <lb ed="#R" n="113"/>in Actis Apostolorum sacerdotes dicuntur 
       Episco<lb ed="#R" n="114" break="no"/>pi, &amp; hoc habet ipsa ethymologia vocabuli. 
@@ -444,7 +442,7 @@
       <lb ed="#R" n="119"/>communiter sacerdotibus restringitur, ac paucis 
       <lb ed="#R" n="120"/>eorum est concessa. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e888">
                   <lb ed="#R" n="121"/>Ista autem opinio non placet, ratio estt, quia 
       <lb ed="#R" n="122"/>Dionysius fuit tempore Aposcolorum, &amp; 
       tamen<lb ed="#R" n="123" break="no"/>iste diuidit in lib. de Ecclesiast. Hierar. cap. 5. 
@@ -457,7 +455,7 @@
       septua<lb ed="#R" n="130" break="no"/>gintaduos, qui erant sacerdotes, vt patet de 
       Mar<lb ed="#R" n="131" break="no"/>co, &amp; huiusmodi. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e914">
                   <lb ed="#R" n="132"/>Quinta opinio est, quae iudicio meo est magis 
       <lb ed="#R" n="133"/>tuta, scilicet quod Episcopatus non est ordo 
       distin<lb ed="#R" n="134" break="no"/>ctus a sacerdotio, nec potestas, nec gradus, sed ese 
@@ -479,11 +477,11 @@
       in<lb ed="#R" n="10" break="no"/>virtute. haec videtur expressa opinio Magistri, &amp; 
       <lb ed="#R" n="11"/>Bonauenturae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e960">
                   <lb ed="#R" n="12"/>Secundo pono propositionem intentam circa 
       <lb ed="#R" n="13"/>hoc, &amp; sit 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e967">
                   <lb ed="#R" n="14"/>Prima propositio isa. Quod gradus 
       Episcopa<lb ed="#R" n="15" break="no"/>lis non est ordo distinctus a sacerdotio: hanc 
       pro<lb ed="#R" n="16" break="no"/>positionem probo: quia aut esset ordo superior 
@@ -493,7 +491,7 @@
       con<lb ed="#R" n="20" break="no"/>secratio in Episcopum non praesupponitur ordini 
       <lb ed="#R" n="21"/>in sacerdotium, sed magis e conuerso. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e987">
                   <lb ed="#R" n="22"/>Secundo non est superior, quia ordo dicitur 
       su<lb ed="#R" n="23" break="no"/>perior ex actu superiori: sed nullum talem acum 
       <lb ed="#R" n="24"/>habet Episcopus, vt diuiditur contra sacerdotium. 
@@ -503,14 +501,14 @@
       <lb ed="#R" n="28"/>nobilior actus est conficere corpus Christi, quam 
       <lb ed="#R" n="29"/>ordinare: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e1007">
                   <lb ed="#R" n="30"/>Dicetur ad hoc, quod gradus Episcopalis est 
       di<lb ed="#R" n="31" break="no"/>gnior eo, quod includit ordinem sacerdotalem, &amp; 
       <lb ed="#R" n="32"/>vltra hoc addit aliquid aliud, quod est sibi proprium, 
       <lb ed="#R" n="33"/>&amp; ambo simul digniora sunt, quam alterum 
       eo<lb ed="#R" n="34" break="no"/>rum per se 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e1021">
                   <lb ed="#R" n="35"/>Contra, non comparo hic Episcopatum ad 
       sa<lb ed="#R" n="36" break="no"/>cerdotium, quantum ad id, quod ambo includunt: 
       <lb ed="#R" n="37"/>sed praecise quantum ad id, quo vnum differt ab alio. 
@@ -525,7 +523,7 @@
       <lb ed="#R" n="46"/>ordinare non sunt actus aequales, tum quia duo in 
       <lb ed="#R" n="47"/>ordine hierarchico non possunt esse aequalia. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e1052">
                   <lb ed="#R" n="48"/>Secundo dico, quod gradus Episcopalis, &amp; 
       sa<lb ed="#R" n="49" break="no"/>cerdotium non sunt distincta potestas. hanc 
       conclu<lb ed="#R" n="50" break="no"/>sionem probo sic, quando aliqua forma sic se 
@@ -568,7 +566,7 @@
       <lb ed="#R" n="85"/>vsum impedimento remoto, &amp; haec reductio illius 
       <lb ed="#R" n="86"/>potestatis ad vsum dicitur ampliatio potestatis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e1143">
                   <lb ed="#R" n="87"/>Tertia Propositio est, quod ex his apparet, quod 
       <lb ed="#R" n="88"/>Episcopatus non est gradus altior, nec intensior 
       sa<lb ed="#R" n="89" break="no"/>cerdotio, sed sicut dicit Magister est aliud officium. 
@@ -600,7 +598,7 @@
       <lb ed="#R" n="115"/>sicut est audire confessiones, absoluere, &amp; alia 
       <lb ed="#R" n="116"/>huiusmodi. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e1211">
                   <lb ed="#R" n="117"/>Et nota, quod aliter comparatur Episcopus ad 
       <lb ed="#R" n="118"/>ordinem sacerdotalem, &amp; aliter ad gradum 
       dein<lb ed="#R" n="119" break="no"/>ceps superiorem, quoniam inter Episcopum, &amp; 
@@ -636,7 +634,7 @@
       <lb ed="#R" n="10"/>quo ad iurisdictionem, iurisdictio autem nullam 
       <lb ed="#R" n="11"/>requirit specialem consecrationem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e1287">
                   <lb ed="#R" n="12"/>Ex his facile est respondere ad rationes 
       Jurista<lb ed="#R" n="13" break="no"/>rum: non enim probant, quod sit alius ordo, sed 
       be<lb ed="#R" n="14" break="no"/>ne probant ordinis ampliationem. Per idem ad 
@@ -646,7 +644,7 @@
       <lb ed="#R" n="18"/>Et eodem modo re spondeo ad capitulum illud: Cle 
       <lb ed="#R" n="19"/>ro, vel cleros. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e1307">
                   <lb ed="#R" n="20"/>Nunc videndum est de tonsura, vbi dico, quod 
       <lb ed="#R" n="21"/>non est ordo, sed dispositio ad ordinem, vnde peccat 
       <lb ed="#R" n="22"/>grauiter, qui recipit ordinem absque illa. Ratio 
@@ -664,7 +662,7 @@
       sta<lb ed="#R" n="34" break="no"/>tum prius aliqualiter disponerentur, ad quod 
       ton<lb ed="#R" n="35" break="no"/>sura de facto est instituta. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e1345">
                   <lb ed="#R" n="36"/>Vltimo de sufficientia ordinis sciendum, quod 
       <lb ed="#R" n="37"/>tantum sunt septem ordines, qui sunt partes quasi 
       <lb ed="#R" n="38"/>integratiuae, &amp; completiuae vnius perfeci ordinis, 
@@ -676,14 +674,14 @@
       compara<lb ed="#R" n="44" break="no"/>tione ad sacrificium nouae Legis, quod est 
       Eucha<lb ed="#R" n="45" break="no"/>ristia 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e1369">
                   <lb ed="#R" n="46"/>Tunc sciendum, quod minister Eucharistiae, quidam 
       <lb ed="#R" n="47"/>ministrat circa locum, vbi Eucharistia offertur; 
       qui<lb ed="#R" n="48" break="no"/>dam vero circa populum, coram quo offertur, 
       qui<lb ed="#R" n="49" break="no"/>dam circa ministros principales; quidam 
       circa<lb ed="#R" n="50" break="no"/>corpus, &amp; Eucharistiam immediate. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e1382">
                   <lb ed="#R" n="51"/>Si ergo accipiamus ministrantes circa domum, 
       <lb ed="#R" n="52"/>sic instituit Spiritus sanctus ostiarium, cuius est 
       pul<lb ed="#R" n="53" break="no"/>sare, &amp; domum claudere, &amp; reserare, &amp; hic est 
@@ -701,7 +699,7 @@
       <lb ed="#R" n="65"/>&amp; cantare, &amp; iste est gradus tertius, &amp; ordo in 
       Ec<lb ed="#R" n="66" break="no"/>clesia 
     </p>
-               <p>
+               <p xml:id="olm8ij-h55083-d1e1419">
                   <lb ed="#R" n="67"/>Si vero accipiantur ministrantes circa ministros 
       <lb ed="#R" n="68"/>principales, sic habemus quartum gradum, &amp; ordi- 
       <!--0164.xml-->

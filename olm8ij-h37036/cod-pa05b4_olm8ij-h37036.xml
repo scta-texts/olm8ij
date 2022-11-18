@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -54,12 +52,12 @@
          </div>
       </front>
       <body>
-         <div xml:id="olm8ij-h37036"> <!-- l1-d12q1 -->
-            <head>Quaestio 1</head>
-            <head type="question-title">
+         <div xml:id="olm8ij-h37036"> <!-- l4-d12q1 -->
+            <head xml:id="olm8ij-h37036-Hd1e102">Quaestio 1</head>
+            <head xml:id="olm8ij-h37036-Hd1e104" type="question-title">
           De entitate accidentium
         </head>
-            <p>
+            <p xml:id="olm8ij-h37036-d1e107">
                <lb ed="#R" n="107"/>Quaestio I. 
       <lb ed="#R" n="108"/>
                <!-- line cord error -->
@@ -68,7 +66,7 @@
                <!-- line coord error -->
                <lb ed="#R" n="111"/>ACCIDENTIVM.
     </p>
-            <p>
+            <p xml:id="olm8ij-h37036-d1e125">
                <lb ed="#R" n="112"/>1 Vtrum accidens habeat essentiam, &amp; 
       reali<lb ed="#R" n="113" break="no"/>tatem terminatam &amp; completam, vel 
       incomple<lb ed="#R" n="114" break="no"/>tam &amp; interminatam. 
@@ -76,14 +74,14 @@
       in<lb ed="#R" n="116" break="no"/>terminatam &amp; incompletam, hoc fuerit de 
       inten<lb ed="#R" n="117" break="no"/>tione Philosophi, &amp; Commentatoris.
   </p>
-            <div>
-               <head>Articulus 1</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h37036-Dd1e142">
+               <head xml:id="olm8ij-h37036-Hd1e144">Articulus 1</head>
+               <head xml:id="olm8ij-h37036-Hd1e146" type="question-title">
             Verum accidens habeat essentiam, et realitatem 
             terminatam, et completam, vel 
             incompletam, et interminatam.
           </head>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e149">
       <!--0109.xml-->
                   <pb ed="#R" n="109"/>
                   <cb ed="#R" n="a"/>
@@ -92,7 +90,7 @@
       <lb ed="#R" n="3"/>terminatam, &amp; completam, vel 
       incom<lb ed="#R" n="4" break="no"/>pletam, &amp; interminatam.
   </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e167">
                   <lb ed="#R" n="5"/>CIrca primum arguo primo, quod 
       <lb ed="#R" n="6"/>accidentia habeant entitatem 
       <lb ed="#R" n="7"/>completam, &amp; terminatam, sic: 
@@ -110,7 +108,7 @@
       acciden<lb ed="#R" n="18" break="no"/>tali verum est dicere omni alio circum scripto, quod 
       <lb ed="#R" n="19"/>ens quidditatiue, &amp; per se praedicatur de ipso. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e204">
                   <lb ed="#R" n="20"/>Contra: Illud, qui non est ens, sed entis, non habet 
       <lb ed="#R" n="21"/>entitatem completam, &amp; terminatam: sed accidens non 
       <lb ed="#R" n="22"/>est ens, sed entis per Philosoph. 7. met. tex. 12. ergo. 
@@ -118,7 +116,7 @@
       e<lb ed="#R" n="24" break="no"/>nim ponam conclusionem intentam: secundo 
       explica<lb ed="#R" n="25" break="no"/>bo eam per exempla: tertio probabo eam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e221">
                   <lb ed="#R" n="26"/>De primo pono talem propositionem, quod accidens 
       <lb ed="#R" n="27"/>est vera res, propter antiquorum opinionem, qui 
       di<lb ed="#R" n="28" break="no"/>cunt, quod accidens non est realitas extra animam: 
@@ -129,7 +127,7 @@
       <lb ed="#R" n="33"/>in se ind iuisa absolute, &amp; sic est a substantia, quae est 
       <lb ed="#R" n="34"/>subiectum eius diuisa relatiue: secundo pono exempla. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e243">
                   <lb ed="#R" n="35"/>Primum est de linea, &amp; puncto. Linea enim est essen 
       <lb ed="#R" n="36"/>tia, &amp; res quae non est punctus, non tamen est 
       essen<lb ed="#R" n="37" break="no"/>tia terminata &amp; completa sine puncto, sed termina 
@@ -140,7 +138,7 @@
       termi<lb ed="#R" n="42" break="no"/>natio lineae, non enim punctus est res posita, sed 
       <lb ed="#R" n="43"/>terminus positionis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e265">
                   <lb ed="#R" n="44"/>Item, recte imaginor de albedine, quod sit res 
       <lb ed="#R" n="45"/>quaedam in se indiuisa, intrinsece tamem 
       intermina<lb ed="#R" n="46" break="no"/>ta, nec terminatur nisi termino extrinseco, scilicet 
@@ -152,7 +150,7 @@
       <lb ed="#R" n="52"/>facit vnum nisi per indiuisionem intimam, non 
       ta<lb ed="#R" n="53" break="no"/>men per simultatem, vel per vnionem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e289">
                   <lb ed="#R" n="54"/>Aliud exemplum est, quia sicut figura de quarta 
       <lb ed="#R" n="55"/>specie qualitatis se habet ad quantitatem, sic 
       acci<lb ed="#R" n="56" break="no"/>dens ad subiectum: sed figura est res quaedam, quae 
@@ -175,14 +173,14 @@
       en<lb ed="#R" n="71" break="no"/>titatem debilem, &amp; egentem susentaculo, quod 
       <lb ed="#R" n="72"/>non est bene ad mentem Philosophi. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e337">
                   <lb ed="#R" n="73"/>Tertio probo conclusionem illam aliquibus 
       ra<lb ed="#R" n="74" break="no"/>tionibus. Prima sumitur ex parte effectus formalis: 
       <lb ed="#R" n="75"/>secunda ex parte vnitatis accidentis cum subiecto: 
       <lb ed="#R" n="76"/>tertia ex parte inhaerentiae: quarta a maiori, &amp; 
       quin<lb ed="#R" n="77" break="no"/>ta deducendo ad impossibile. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e350">
                   <lb ed="#R" n="78"/>Quoad primum arguo sic: Forma &amp; effectus 
       for<lb ed="#R" n="79" break="no"/>malis sunt eadem formalitas: sed effectus formalis 
       <lb ed="#R" n="80"/>accidentis non est res diuisa a subiecto; sed 
@@ -192,7 +190,7 @@
       omnimo<lb ed="#R" n="84" break="no"/>dam indiuisionem. Antecedens probo auctoritate &amp; 
       <lb ed="#R" n="85"/>ratione, auctoritas est Auicennae 6. metaphysicae suae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e371">
                   <lb ed="#R" n="86"/>Ratione, sic, Effectus formalis formae est 
       forma<lb ed="#R" n="87" break="no"/>re, &amp; actus actuare. Probo ergo primo in generali 
       <lb ed="#R" n="88"/>de omni forma sic: Effectus formalis formae, &amp; 
@@ -208,14 +206,14 @@
       for<lb ed="#R" n="98" break="no"/>ma, quia ex quo est absolutum, potest Deus ipsum 
       <lb ed="#R" n="99"/>per suam potentiam separare. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e404">
                   <lb ed="#R" n="100"/>Item, tunc forma non est causa formalis, sed 
       effi<lb ed="#R" n="101" break="no"/>ciens, nam hoc modo forma imprimeret effectum 
       <lb ed="#R" n="102"/>suum in materia, sicut faceret efficiens. Nec illud 
       po<lb ed="#R" n="103" break="no"/>test esse aliquid relatiuum, si enim esset relatio, tunc es 
       <lb ed="#R" n="104"/>se actuatum, &amp; esse formatum erit esse relatum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e417">
                   <lb ed="#R" n="105"/>Secundo, quia de quo genere &amp; praedicamento 
       <lb ed="#R" n="106"/>erit? Dicetur forte, quod actuatio actiua est de 
       ge<lb ed="#R" n="107" break="no"/>nere actionis, actuatio vero passiua est de 
@@ -224,7 +222,7 @@
       <lb ed="#R" n="110"/>nisi agendo, &amp; tunc causulitas formae non erit 
       di<lb ed="#R" n="111" break="no"/>stincta a causalitate agentis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e435">
                   <lb ed="#R" n="112"/>Secundo probo idem antecedens sic: Quia si actus sit 
       <lb ed="#R" n="113"/>alius ab actuatione, tunc sicut materia actuatur per 
       <lb ed="#R" n="114"/>actum, sic actuabitur per actuationem, tunc quaero de 
@@ -233,7 +231,7 @@
       for<lb ed="#R" n="117" break="no"/>ma est eadem cum sua acuatione, quaeram de illa, 
       <lb ed="#R" n="118"/>&amp; sic semper procedendo quaeram in infinitum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e453">
                   <lb ed="#R" n="119"/>Tertio probo idem antecedens ex intentione 
       Phi<lb ed="#R" n="120" break="no"/>losophi, approbantis dictum Lycophrontis J. Phys. 
       <lb ed="#R" n="121"/>qui auferebat a propositionibus, hoc verbum est, vt 
@@ -258,14 +256,14 @@
                   <cb ed="#R" n="a"/>
                   <lb ed="#R" n="1"/>se indiuisum a linea; similiter de raritate, &amp; partibus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e505">
                   <lb ed="#R" n="2"/>Dices, quod per albere importatur non respectus, 
       <lb ed="#R" n="3"/>sed modus absolutus ipsius albedinis. Contra: talem 
       <lb ed="#R" n="4"/>modum, ex quo absolutus est, possem intelligere 
       si<lb ed="#R" n="5" break="no"/>ne albedine, &amp; per consequens intelligere album 
       <lb ed="#R" n="6"/>sine albedine, 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e519">
                   <lb ed="#R" n="7"/>Probo nunc minorem, quod effectus formalis 
       ac<lb ed="#R" n="8" break="no"/>cidentis sit indiuisio a subiecto, sic: Si enim 
       actua<lb ed="#R" n="9" break="no"/>tio sit res diuisa ab actuabili, cum actuatio ista 
@@ -284,7 +282,7 @@
       es<lb ed="#R" n="22" break="no"/>set aliquid imprimens ipsam terminationem. Sic di 
       <lb ed="#R" n="23"/>co in proposito de actuatione ipsa, &amp; actuabili. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e558">
                   <lb ed="#R" n="24"/>Ex his posset formari vna talis ratio: Quando ali 
       <lb ed="#R" n="25"/>qua duo sunt indiuisa, quod libet eorum necessario 
       <lb ed="#R" n="26"/>sunt res indiuisae inter se: sed accidens &amp; substantia 
@@ -296,7 +294,7 @@
       <lb ed="#R" n="32"/>per indiuisionem, &amp; haec indiuisio vocatur 
       compo<lb ed="#R" n="33" break="no"/>sitio accidentis cum substantia. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e582">
                   <lb ed="#R" n="34"/>Secunda ratio principalis conclusionem est ex 
       <lb ed="#R" n="35"/>vnitate accidentis cum subiecto sic: Quando aliquae 
       <lb ed="#R" n="36"/>res faciunt vnum vnitate, quae est relatio positiua, 
@@ -307,12 +305,12 @@
       mo<lb ed="#R" n="41" break="no"/>dum acerui: ergo vnio eorum non est relatio, sed 
       <lb ed="#R" n="42"/>indiuisio relatiua, siue negatio diuisionis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e604">
                   <lb ed="#R" n="43"/>Maiorem, etsi sit Philosopli, probo tamen 
       ratio<lb ed="#R" n="44" break="no"/>ne, quia aceruus non es aliud, nisi vnio ex 
       aggre<lb ed="#R" n="45" break="no"/>gatione diuisorum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e613">
                   <lb ed="#R" n="46"/>Dices: Accidens, &amp; subiectum fundant relationem 
       <lb ed="#R" n="47"/>istam vnionis per essentias suas, &amp; ideo non sunt 
       <lb ed="#R" n="48"/>vnum sicut aceruus. Haec euasio non multum valet, 
@@ -351,7 +349,7 @@
       <lb ed="#R" n="79"/>situm est tertia res, non addita, sed resultans, pro 
       <lb ed="#R" n="80"/>quanto est ipsa materia &amp; forma, vt indiuisa. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e696">
                   <lb ed="#R" n="81"/>Tertia ratio principalis est ista: Illud. quod non 
       <lb ed="#R" n="82"/>est aliud, nisi quaedam inhaerentia, non est diuisa ab 
       <lb ed="#R" n="83"/>eo, cui inhaeret, sed facit vnum cum illo per 
@@ -363,7 +361,7 @@
       <lb ed="#R" n="89"/>hic faciunt multi magnam difficultatem, vtrum 
       in<lb ed="#R" n="90" break="no"/>haerentia sit de essentia accidentis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e721">
                   <lb ed="#R" n="91"/>Et ego respondeo, quod inhaerentia est ipsummet 
       <lb ed="#R" n="92"/>accidens. &amp; probo, quia certum est, quod non est 
       a<lb ed="#R" n="93" break="no"/>liud absolutum: si ergo sit aliud, aut est relatio, aut 
@@ -373,7 +371,7 @@
       <lb ed="#R" n="97"/>accidens inhaerendo det esse tale, omne esse 
       tale<lb ed="#R" n="98" break="no"/>erit esse relatum.
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e741">
                   <lb ed="#R" n="99"/>Item secundo non magis est inhaerentia per 
       essen<lb ed="#R" n="100" break="no"/>tiam quarta species qualitatis, quam alia acciden. 
       <lb ed="#R" n="101"/>tia, alias essentialius esset accidens, quam alia acci 
@@ -387,7 +385,7 @@
       quo<lb ed="#R" n="109" break="no"/>dam antiquo Commento Phys. 2. dicit 
       Commen<lb ed="#R" n="110" break="no"/>tator, quod albedo non est, sed album, 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e770">
                   <lb ed="#R" n="111"/>Confirmatio: Si esse formaliter accidentis estt 
       ac<lb ed="#R" n="112" break="no"/>cidere, sicut albedinis est albere, cum albedo non sit 
       <lb ed="#R" n="113"/>nisi pura albedo, nec accidens erit nisi pura 
@@ -395,7 +393,7 @@
       <lb ed="#R" n="115"/>sed est praecise ipsa inhaerentia, &amp; inhaerentia est 
       ip<lb ed="#R" n="116" break="no"/>samet essentia accidentis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e786">
                   <lb ed="#R" n="117"/>Sed contra: accidens manet, quando non manet 
       <lb ed="#R" n="118"/>inhaerentia: ergo accidens non est inhaerentia ipsa, 
       <lb ed="#R" n="119"/>vt dicitur. Respondeo. Inhaerentia accidentis ad 
@@ -410,7 +408,7 @@
       <lb ed="#R" n="128"/>sed est res fundans indiuisionem cum linea, sic de 
       acci<lb ed="#R" n="129" break="no"/>dente in proposito. Sed de hoc amplius in secundo.
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e817">
                   <lb ed="#R" n="130"/>Quarta ratio a maiori, sic: Si aliquod accidens 
       <lb ed="#R" n="131"/>esset realitas terminata, hoc maxime verum esset 
       <lb ed="#R" n="132"/>de quantitate: sed quantitas non est res diuisa faciens 
@@ -436,7 +434,7 @@
       <lb ed="#R" n="13"/>modo derelicto, non faciendo eam sub quantitate, 
       <lb ed="#R" n="14"/>vt imaginatur alia opinio. 
   </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e872">
                   <lb ed="#R" n="15"/>Similiter tunc causalitas eius erit causalitas effi 
       <lb ed="#R" n="16"/>cientis, non formae: ergo oportet dare secundum 
       <lb ed="#R" n="17"/>modum, quod quantitas sit ipsamet partibilitas 
@@ -449,7 +447,7 @@
       par<lb ed="#R" n="24" break="no"/>tibilitate formali, sic vt quaelibet pars ligni possit 
       <lb ed="#R" n="25"/>resolui in duo, in ligneitatem &amp; partibilitatem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e899">
                   <lb ed="#R" n="26"/>Hoc viso apparet propositum. Dico enim, quod 
       <lb ed="#R" n="27"/>ipsa partibilitas non aduenit ligno isti per 
       relatio<lb ed="#R" n="28" break="no"/>nem mediam, quasi adueniat partibilitas ipsis 
@@ -461,7 +459,7 @@
       <lb ed="#R" n="34"/>esset causalitas efficientis, aut est ipsamet quanti 
       <lb ed="#R" n="35"/>tas, &amp; standum erat in primo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e923">
                   <lb ed="#R" n="36"/>Confirmo hoc, quia aliter non potestt vitari, quin 
       <lb ed="#R" n="37"/>plures dimensiones essent simul, nam cum dimensio 
       <lb ed="#R" n="38"/>immediate consequatur partes, &amp; per te partes 
@@ -492,7 +490,7 @@
       <lb ed="#R" n="63"/>vbi vna quantitas, quia plures totalitates hoc 
       mo<lb ed="#R" n="64" break="no"/>do possunt indiuidi in vna partibilitate. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e988">
                   <lb ed="#R" n="65"/>Propter istam imaginationem aliqui putauerunt, 
       <lb ed="#R" n="66"/>quod quantitas esset idem realiter cum substantia, 
       <lb ed="#R" n="67"/>quod faciliter improbatur ex natura vnionis, quia 
@@ -504,7 +502,7 @@
       <lb ed="#R" n="71"/>diuisae quantumcumque vnitae, sed veniunt ad 
       vni<lb ed="#R" n="72" break="no"/>tatem vnius indiuisionis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e1012">
                   <lb ed="#R" n="73"/>Quinta ratio est deducens ad impossibile, quia si 
       <lb ed="#R" n="74"/>accidens sit realitas terminata diuisa a substantia, 
       <lb ed="#R" n="75"/>sequuntur multa inconuenientia, &amp; specialiter tria. 
@@ -513,7 +511,7 @@
       <lb ed="#R" n="78"/>plibet accidens est per se vnum corpus. Tertio, quia 
       <lb ed="#R" n="79"/>multae dimensiones, &amp; multa corpora erunt simul.
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e1030">
                   <lb ed="#R" n="80"/>Primum patet, quia cum simitas sit figura nasi, 
       <lb ed="#R" n="81"/>non est aliud quam indiuisio quaedam partium simi: 
       <lb ed="#R" n="82"/>ergo quot sunt partes in naso, tot erunt simitates, 
@@ -530,7 +528,7 @@
       conse<lb ed="#R" n="93" break="no"/>quenti indiuisio eorum erit alia, &amp; alia figura per 
       <lb ed="#R" n="94"/>consequens, &amp; sic simitas vltimo erit alia &amp; alia. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e1065">
                   <lb ed="#R" n="95"/>Dices, quod est vna simitas, quia est vna figuratio 
       <lb ed="#R" n="96"/>&amp; vnica indiuisio partium subiecti, &amp; accidentium. 
       <lb ed="#R" n="97"/>Contra hoc arguo, quia impossibile est 
@@ -538,7 +536,7 @@
       <lb ed="#R" n="99"/>vnum indiuisum: sed per te substantia nasi, &amp; quilibet 
       <lb ed="#R" n="100"/>eius accidens est res vna diuisa &amp; terminata: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e1082">
                   <lb ed="#R" n="101"/>Secundum inconueniens sic ostendo, quia corpus 
       <lb ed="#R" n="102"/>est illud, quod est longum, latum, &amp; profundum: ergo 
       <lb ed="#R" n="103"/>in longum, latum, &amp; profundum est diuisum corpus: 
@@ -550,14 +548,14 @@
       <lb ed="#R" n="109"/>&amp; profundum indiuise, sed per vuionem relatiuam 
       <lb ed="#R" n="110"/>tantum: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e1106">
                   <lb ed="#R" n="111"/>Tertium inconueniens patet ex eodem medio, 
       <lb ed="#R" n="112"/>quia antecedens erat subiectum. Sic ergo dico, q 
       <lb ed="#R" n="113"/>accidens est aliud a substantia: transmutatio enim 
       <lb ed="#R" n="114"/>facit scire maxime realitatum alietatem: substantia 
       <lb ed="#R" n="115"/>autem transmutatur ab accidente in accidens: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e1119">
                   <lb ed="#R" n="116"/>Dico tamen secundo, qui non est sic aliud, quin cum 
       <lb ed="#R" n="117"/>illo fundet indiuisionem intimam. venit enim cum 
       <lb ed="#R" n="118"/>substantia, non per relationem mediam, sed per 
@@ -569,7 +567,7 @@
       <lb ed="#R" n="124"/>non per vnionem, &amp; relationem mutuam, sed per 
       <lb ed="#R" n="125"/>mutuam relatiuam vnitatem &amp; indiuisionei. 1. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e1143">
                   <lb ed="#R" n="126"/>Ad argumentum in oppositum, concedo quod ens 
       <lb ed="#R" n="127"/>praedicatur in recto, &amp; per se de accidente, distinguo 
       <lb ed="#R" n="128"/>tamem de per se: potest enim accipi per se primo 
@@ -585,13 +583,13 @@
                   <!-- line coord error -->
                </p>
             </div>
-            <div>
-               <head>Articulus 2</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h37036-Dd1e1175">
+               <head xml:id="olm8ij-h37036-Hd1e1177">Articulus 2</head>
+               <head xml:id="olm8ij-h37036-Hd1e1179" type="question-title">
             Utrum accidens habeat entitatem interminatam 
             et indiuisam a subiecto.
           </head>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e1182">
       <!--0112.xml-->
                   <pb ed="#R" n="112"/>
                   <cb ed="#R" n="a"/>
@@ -599,7 +597,7 @@
       <lb ed="#R" n="2"/>Vtrum accidens habeat entitatem interminatam 
       <lb ed="#R" n="3"/>&amp; indiuisam a subieco. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e1198">
                   <lb ed="#R" n="4"/>QVo ad secundam quaestionem arguo primo, 
       <lb ed="#R" n="5"/>quod si poneretur accidens habere entitatem 
       <lb ed="#R" n="6"/>interminatam &amp; indiuisam a subiecto, non 
@@ -610,7 +608,7 @@
       fa<lb ed="#R" n="11" break="no"/>ciunt vnum cum substantia per vnitatem, &amp; 
       inti<lb ed="#R" n="12" break="no"/>mam indiuisionem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e1220">
                   <lb ed="#R" n="13"/>In oppositum est, quia sola substantia est hoc 
       ali<lb ed="#R" n="14" break="no"/>quid, idest terminatum per Philosophum in 
       praedi<lb ed="#R" n="15" break="no"/>camentis. Respondeo, pono conclusionem quod po 
@@ -632,7 +630,7 @@
       intel<lb ed="#R" n="31" break="no"/>ligi, &amp; sic habeo propositum, quia color non est nisi 
       <lb ed="#R" n="32"/>coloratio ipsa, &amp; affectio, quae intrinsece est alterius. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e1267">
                   <lb ed="#R" n="33"/>Dices ibidem, dicit August. quod candor dicitur 
       <lb ed="#R" n="34"/>ad se candor. Respondeo: Non dicit hoc, quin 
       can<lb ed="#R" n="35" break="no"/>dor essentialiter, &amp; totaliter dicatur ad subiectum, 
@@ -640,7 +638,7 @@
       <lb ed="#R" n="37"/>quia potest se denominare, dicendo candidatio est 
       <lb ed="#R" n="38"/>candida, vel candor est candidus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e1283">
                   <lb ed="#R" n="39"/>Item idem lib. 6. contra Julianum cap. 18. 
       appro<lb ed="#R" n="40" break="no"/>bat Julianum, qui dicit quod tertia species 
       quali<lb ed="#R" n="41" break="no"/>tatis non est nisi quaedam affectio, &amp; ponit exemplum 
@@ -648,8 +646,8 @@
       <lb ed="#R" n="43"/>candor non est res, a qua profluat candidatio, sed 
       <lb ed="#R" n="44"/>est candidatio ipsa. 
     </p>
-               <p>
-                  <lb ed="#R" n="45"/>Item haec est mens <ref>Arist. 7. metaph. tex. 12.</ref> cum 
+               <p xml:id="olm8ij-h37036-d1e1299">
+                  <lb ed="#R" n="45"/>Item haec est mens <ref xml:id="olm8ij-h37036-Rd1e1303">Arist. 7. metaph. tex. 12.</ref> cum 
       di<lb ed="#R" n="46" break="no"/>cit, qui accidens non est ens, sed entis: oblique autem 
       <lb ed="#R" n="47"/>significat eandem realitatem quam rectum, in 
       adia<lb ed="#R" n="48" break="no"/>centia tamen quadam per modum cuiusdam 
@@ -662,33 +660,33 @@
       <lb ed="#R" n="55"/>suam importat per modum cuiusdam terminati, 
       fi<lb ed="#R" n="56" break="no"/>guratio vero per modum adiacentis. 
     </p>
-               <p>
-                  <lb ed="#R" n="57"/>Item <ref>Commentator 7. met. com. 3.</ref> Aristoteles, 
-      in<lb ed="#R" n="58" break="no"/>quit, intelligit, quod <quote source="http://scta.info/resource/xch7dn-d1e102-d1e558@86-91">substantia est causa essentiae 
-        <lb ed="#R" n="59"/>accidentium</quote>, &amp; post com. 4. dicit, quod <quote source="http://scta.info/resource/xch7dn-d1e102-d1e691@42-46">accidentia 
+               <p xml:id="olm8ij-h37036-d1e1330">
+                  <lb ed="#R" n="57"/>Item <ref xml:id="olm8ij-h37036-Rd1e1334">Commentator 7. met. com. 3.</ref> Aristoteles, 
+      in<lb ed="#R" n="58" break="no"/>quit, intelligit, quod <quote xml:id="olm8ij-h37036-Qd1e1338" source="http://scta.info/resource/xch7dn-d1e102-d1e558@86-91">substantia est causa essentiae 
+        <lb ed="#R" n="59"/>accidentium</quote>, &amp; post com. 4. dicit, quod <quote xml:id="olm8ij-h37036-Qd1e1343" source="http://scta.info/resource/xch7dn-d1e102-d1e691@42-46">accidentia 
       <lb ed="#R" n="60"/>constituuntur per substantiam</quote>, &amp; ideo ponitur 
       sub<lb ed="#R" n="61" break="no"/>stantia in definitione eorum. Nec intelligit 
       Com<lb ed="#R" n="62" break="no"/>mentator per constitui idem quod sustentari, sed 
       <lb ed="#R" n="63"/>per constitui intelligit terminari. 
     </p>
-               <p>
-                  <lb ed="#R" n="64"/>Item <ref>4. met. Comm. 2.</ref> vbi dicit Aristoteles, quod 
-      <lb ed="#R" n="65"/>entia sunt sicut sana, dicit Comment. <quote source="http://scta.info/resource/xch7dn-d1e77-d1e475@44-59">praedicamenta 
+               <p xml:id="olm8ij-h37036-d1e1356">
+                  <lb ed="#R" n="64"/>Item <ref xml:id="olm8ij-h37036-Rd1e1360">4. met. Comm. 2.</ref> vbi dicit Aristoteles, quod 
+      <lb ed="#R" n="65"/>entia sunt sicut sana, dicit Comment. <quote xml:id="olm8ij-h37036-Qd1e1364" source="http://scta.info/resource/xch7dn-d1e77-d1e475@44-59">praedicamenta 
       <lb ed="#R" n="66"/>attribuuntur substantiae, non quia sit agens, aut 
       fi<lb ed="#R" n="67" break="no"/>nis eorum, sed quia constituuntur per ipsam</quote>.
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e1372">
       <!--0112.xml-->
                   <cb ed="#R" n="b"/>
-                  <lb ed="#R" n="68"/>Item <ref>12. met. com. 3.</ref> dat differentiam inter 
-      sub<lb ed="#R" n="69" break="no"/>stantiam &amp; accidens, dicens, quoniam <quote source="http://scta.info/resource/xch7dn-d1e143-d1e568@160-165">substantia est
+                  <lb ed="#R" n="68"/>Item <ref xml:id="olm8ij-h37036-Rd1e1380">12. met. com. 3.</ref> dat differentiam inter 
+      sub<lb ed="#R" n="69" break="no"/>stantiam &amp; accidens, dicens, quoniam <quote xml:id="olm8ij-h37036-Qd1e1385" source="http://scta.info/resource/xch7dn-d1e143-d1e568@160-165">substantia est
       <lb ed="#R" n="70"/>constans per se</quote>, idest habet terminos per se 
       constan<lb ed="#R" n="71" break="no"/>tes, accidens autem constat cum substantia; &amp; non 
       <lb ed="#R" n="72"/>loquitur tantum de accidentibus secundum 
       exi<lb ed="#R" n="73" break="no"/>stentias suas, sed etiam secundum quidditates, vt 
       <lb ed="#R" n="74"/>patet intuenti processum suum ibidem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e1400">
                   <lb ed="#R" n="75"/>Item Arist. 7. met. tex. 12. &amp; infra, dat causam, 
       qua<lb ed="#R" n="76" break="no"/>re accidentia non habent definitionem, etiam 
       quid<lb ed="#R" n="77" break="no"/>ditatiuam, abstractiuam, &amp; dicit, quod ideo quia non 
@@ -699,7 +697,7 @@
       <lb ed="#R" n="82"/>non habent quid sine substantia: ergo nec 
       defini<lb ed="#R" n="83" break="no"/>tionem. Haec est sua ratio ibi. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e1422">
                   <lb ed="#R" n="84"/>Confirmo hoc, quia Aristoteles dicit, quod 
       acci<lb ed="#R" n="85" break="no"/>dentia sunt entia secundum quid, certum est, quod 
       <lb ed="#R" n="86"/>non intelligit per secundum quid, quod sint 
@@ -708,7 +706,7 @@
       enti<lb ed="#R" n="89" break="no"/>ras nisi modificatio, &amp; adiacentia, sicut figura non 
       <lb ed="#R" n="90"/>est aliud, quam figuratio, &amp; candor candidatio. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e1440">
                   <lb ed="#R" n="91"/>Ad argumentum in oppositum respondeo, 
       non<lb ed="#R" n="92" break="no"/>permisceo praedicamenta in suis entitatibus 
       diminu<lb ed="#R" n="93" break="no"/>tis: alia est enim realitas diminuta istius, &amp; illius: 
@@ -716,7 +714,7 @@
       po<lb ed="#R" n="95" break="no"/>no ea permixta, imo hoc modo si essent 
       impermix<lb ed="#R" n="96" break="no"/>te, essent non accidentia, sed substantiae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h37036-d1e1456">
                   <lb ed="#R" n="97"/>Dices: Accidentia &amp; substantia non faciunt vnum, 
       <lb ed="#R" n="98"/>nisi subiecto: ergo non per se vnum. Respondeo: 
       vni<lb ed="#R" n="99" break="no"/>tas subiecti non opponitur vnitati indiuisionis, vn 

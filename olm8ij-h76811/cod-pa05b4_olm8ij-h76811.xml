@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,12 +53,12 @@
       </front>
       <body>
          <div xml:id="olm8ij-h76811"> <!-- l4-d48prae -->
-            <head>Praeambulum</head>
-            <p>
+            <head xml:id="olm8ij-h76811-Hd1e102">Praeambulum</head>
+            <p xml:id="olm8ij-h76811-d1e104">
                <lb ed="#R" n="95"/>DISTINCTIO XLVIII 
       <lb ed="#R" n="96"/>DE BEATJTVDJNE. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h76811-d1e111">
                <lb ed="#R" n="97"/>In ista Quadragesimaoctaua distinctione 
       Ma<lb ed="#R" n="98" break="no"/>gister incipit agere de beatitudine, &amp; 
       glo<lb ed="#R" n="99" break="no"/>ria beatorum, quam recipiunt post 
@@ -73,7 +71,7 @@
       <lb ed="#R" n="106"/>Quantum ad dotem subtilitatis quaero tres 
       <lb ed="#R" n="107"/>Questiones. 
   </p>
-            <p>
+            <p xml:id="olm8ij-h76811-d1e137">
                <lb ed="#R" n="108"/>Vtrum duo corpora possint simul esse in 
       co<lb ed="#R" n="109" break="no"/>dem loco. 
       <lb ed="#R" n="110"/>a Vtrum idem corpus possit esse in diuersis 
@@ -82,7 +80,7 @@
       glo<lb ed="#R" n="113" break="no"/>riosum possit simul esse cum alio corpore glorioso 
       <lb ed="#R" n="114"/>in eodem loco. 
     </p>
-            <p>
+            <p xml:id="olm8ij-h76811-d1e156">
                <lb ed="#R" n="115"/>DE DOTE SVBTJLJTATJS.
     </p>
          </div>

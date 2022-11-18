@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -31,8 +30,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0"
-                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
          <editorialDecl>
             <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
        guidelines for a diplomatic edition.</p>
@@ -55,19 +53,19 @@
       </front>
       <body>
          <div xml:id="olm8ij-h52721"> <!-- l4-d22q1 -->
-            <head>Quaestio 1</head>
-            <div>
-               <head>Articulus 1</head>
-               <head type="question-title">
+            <head xml:id="olm8ij-h52721-Hd1e102">Quaestio 1</head>
+            <div xml:id="olm8ij-h52721-Dd1e104">
+               <head xml:id="olm8ij-h52721-Hd1e106">Articulus 1</head>
+               <head xml:id="olm8ij-h52721-Hd1e108" type="question-title">
       Utrum peccata dimissa per paenitentiam redeant 
       in recidivante per culpam.
     </head>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e111">
                   <lb ed="#R" n="104"/>ARTICVLVUS I. 
       <lb ed="#R" n="105"/>Vtrum peccata dimissa per paenitentiam redeant 
       <lb ed="#R" n="106"/>in recidiuante per culpam. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e120">
                   <lb ed="#R" n="107"/>QVANTVM ad primam 
       <lb ed="#R" n="108"/>quaesttionem arguo primo, 
       <lb ed="#R" n="109"/>quod in recidiuante per 
@@ -87,7 +85,7 @@
       <lb ed="#R" n="123"/>per multas auctoritates Sanctorum, quas Magister 
       <lb ed="#R" n="124"/>ponit in litera.
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e162">
       <!--0154.xml-->
                   <pb ed="#R" n="154"/>
                   <cb ed="#R" n="a"/>
@@ -99,7 +97,7 @@
       Re<lb ed="#R" n="6" break="no"/>spondeo, pono primo punctum quaestionis, deinde 
       <lb ed="#R" n="7"/>propositiones intentas. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e187">
                   <lb ed="#R" n="8"/>Punctus est propter duas opiniones, quarum 
       <lb ed="#R" n="9"/>vna est, quod impossibile est, quod peccatum redeat 
       <lb ed="#R" n="10"/>idem numero, quoniam si sic, aut hoc esset virtute 
@@ -110,7 +108,7 @@
       <lb ed="#R" n="15"/>redire, ex 5. Physic. tex. 14. &amp; 2. de generat. tex 
       <lb ed="#R" n="16"/>comm. vlt. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e209">
                   <lb ed="#R" n="17"/>Alij dicunt oppositum, quod virtute diuina 
       de<lb ed="#R" n="18" break="no"/>potentia eius absoluta potest peccatum 
       redire<lb ed="#R" n="19" break="no"/>idem numero. Ratio ad hoc est, quia peccatum 
@@ -126,13 +124,13 @@
       termi<lb ed="#R" n="29" break="no"/>nante illud tempus, iterum eadem obligari 
       obli<lb ed="#R" n="30" break="no"/>gatione. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e242">
                   <lb ed="#R" n="31"/>Confirmo hoc, quia Deus potestt velle illum 
       ob<lb ed="#R" n="32" break="no"/>ligari pro instantia, &amp; b, &amp; c, &amp; remittere potest 
       <lb ed="#R" n="33"/>in b: ergo iste erit obligatus eadem obligatione in 
       <lb ed="#R" n="34"/>c, qua ina, &amp; tamen non fuit obligatus in b. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e253">
                   <lb ed="#R" n="35"/>Confirmo, quia non plus potest Deus facere cum 
       <lb ed="#R" n="36"/>continuatione temporis, quam sine continuatione: 
       <lb ed="#R" n="37"/>sed Deus potest facere cum continuatione 
@@ -142,7 +140,7 @@
       <lb ed="#R" n="41"/>non cras, &amp; iterum erit obligatus post cras eadem 
       <lb ed="#R" n="42"/>obligatione: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e273">
                   <lb ed="#R" n="43"/>Potest opinio ista confirmari per exemplum de 
       <lb ed="#R" n="44"/>seruo manumisso, qui propter ingratitudinem 
       po<lb ed="#R" n="45" break="no"/>test reduci in priorem seruitutem: sic ergo Deus 
@@ -151,7 +149,7 @@
       magnitu<lb ed="#R" n="48" break="no"/>dinem, nolentis bis punire. Secundo pono 
       propo<lb ed="#R" n="49" break="no"/>sitiones. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e291">
                   <lb ed="#R" n="50"/>Prima est ista: Teneo cum Doctore secundo, q 
       <lb ed="#R" n="51"/>de potentia Dei absoluta possit culpa eadem 
       nu<lb ed="#R" n="52" break="no"/>mero redire. Sed quantum ad hoc, quod dicit, 
@@ -159,7 +157,7 @@
       <lb ed="#R" n="54"/>quam obligatio ad poenam, in hoc non teneo 
       <lb ed="#R" n="55"/>cum eo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e308">
                   <lb ed="#R" n="56"/>Dico enim, quod vltra obligationem dicit 
       sta<lb ed="#R" n="57" break="no"/>tum quendam indecentem secundum esse morale 
       <lb ed="#R" n="58"/>in apprehensione omnis naturae apprehendentis 
@@ -177,12 +175,12 @@
       <cb ed="#R" n="b"/>
                   <lb ed="#R" n="69"/>turpis, quae turpitudo est macula illa. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e345">
                   <lb ed="#R" n="70"/>Tunc dico, quod non solum de potentia 
       absolu<lb ed="#R" n="71" break="no"/>ta redire potest eadem obligatio, sed etiam eadem 
       <lb ed="#R" n="72"/>macula. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e354">
                   <lb ed="#R" n="73"/>Hanc conclusionem etiam probo, quia quando 
       <lb ed="#R" n="74"/>aliquid non habet esse reale extra animam, sed 
       tan<lb ed="#R" n="75" break="no"/>tum in conceptu, non est inconueniens, quod redeat 
@@ -197,7 +195,7 @@
       se<lb ed="#R" n="84" break="no"/>cundum suum conceptum specificum non habet 
       es<lb ed="#R" n="85" break="no"/>se nisi in conceptu. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e385">
                   <lb ed="#R" n="86"/>Et confirmo ex hoc, quia si propter hoc vellet 
       <lb ed="#R" n="87"/>variare speciem, quia indiuiduum variatur, vel 
       <lb ed="#R" n="88"/>quia non actu semper cogitas, tunc species 
@@ -211,7 +209,7 @@
       <lb ed="#R" n="96"/>hoc consequens ipsum apud animam apprehenden 
       <lb ed="#R" n="97"/>tem tantum: ergo. Sed sunt hic duo dubia. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e414">
                   <lb ed="#R" n="98"/>Primum est, quia impossibile videtur, quod 
       in<lb ed="#R" n="99" break="no"/>tellectus apprehendat rem, &amp; post non 
       apprehen<lb ed="#R" n="100" break="no"/>dat; &amp; iterum post apprehendat, nisi facta alia mu 
@@ -221,7 +219,7 @@
       <lb ed="#R" n="104"/>&amp; nunc iterum est sub ca. Respondeo, dico, quod in 
       <lb ed="#R" n="105"/>tali factum est aliquid. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e434">
                   <lb ed="#R" n="106"/>Vbi considerandum est, quod aliud est 
       dispen<lb ed="#R" n="107" break="no"/>sare in culpa, &amp; aliud est dispensare in prna: 
       Ver<lb ed="#R" n="108" break="no"/>bi gratia, pone quod aliquis patiatur defectum 
@@ -239,7 +237,7 @@
       <lb ed="#R" n="120"/>reale, puta actus peccati consimilis priori, quo 
       <lb ed="#R" n="121"/>concepto natura concipitur sub priori indignitate. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e472">
                   <lb ed="#R" n="122"/>Aliud dubium est, quo agente redit culpa hoc 
       <lb ed="#R" n="123"/>modo eadem numero, vtrum Deo, vel natura? 
       Re<lb ed="#R" n="124" break="no"/>spondeo dico, quod redire potest agente 
@@ -252,7 +250,7 @@
       ali<lb ed="#R" n="131" break="no"/>quid reale positiuum, non posset natura illud 
       pro<lb ed="#R" n="132" break="no"/>ducere in identitate numerali. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e498">
                   <lb ed="#R" n="133"/>Secunda Propositio est, quod de facto non 
       re<lb ed="#R" n="134" break="no"/>deunt eadem numero, nec quo ad culpam, quia 
       <lb ed="#R" n="135"/>propter reuerentiam Sacramenti non placet Deo, 
@@ -267,14 +265,14 @@
       in<lb ed="#R" n="5" break="no"/>omnibus dictis suis, magis stetur sententiae libri de 
       <lb ed="#R" n="6"/>Sacramentis.
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e529">
                   <lb ed="#R" n="7"/>Alij dicunt, quod redeunt, &amp; hoc pro tanto quod 
       <lb ed="#R" n="8"/>in confessione dimittuntur sub conditione, puta si 
       <lb ed="#R" n="9"/>non recidiues. Sed hoc reputo irrationabiliter 
       di<lb ed="#R" n="10" break="no"/>ctum, quod sacerdos absoluat sub conditione, imo 
       <lb ed="#R" n="11"/>absolute absoluit. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e542">
                   <lb ed="#R" n="12"/>De iustitia autem dico, quod meretur recidiuus, 
       <lb ed="#R" n="13"/>quod redeant eadem numero, tanta fuit Dei 
       mise<lb ed="#R" n="14" break="no"/>ricordia in prius indulgendo, &amp; ingratitudo istius 
@@ -287,7 +285,7 @@
       prio<lb ed="#R" n="21" break="no"/>rem displicentiam, &amp; obligationem ac eandem 
       de<lb ed="#R" n="22" break="no"/>decentiam, quae est formaliter culpa ipsa. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e568">
                   <lb ed="#R" n="23"/>Sic videtur intelligere Saluator de malo seruo, 
       <lb ed="#R" n="24"/>Matth. 16. cui Dominus cum omne debitum 
       indul<lb ed="#R" n="25" break="no"/>sisset, postquam peccauit in seruum alium, 
@@ -299,7 +297,7 @@
       <lb ed="#R" n="31"/>quia pro recidiuatione in peccatum vltimum pro 
       <lb ed="#R" n="32"/>omnibus puniretur.
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e592">
                   <lb ed="#R" n="33"/>Sed hic est dubium, eadem enim merita redeunt 
       <lb ed="#R" n="34"/>post poenitentiam, quae fuerant ante peccatum, &amp; 
       <lb ed="#R" n="35"/>mortua fuerant per peccatum: quare ergo non sic 
@@ -323,7 +321,7 @@
       <lb ed="#R" n="53"/>Dei magnam, qui vult bona opera redire, mala 
       au<lb ed="#R" n="54" break="no"/>tem non 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e643">
                   <lb ed="#R" n="55"/>Tertia Propositio est, quod resurgens a 
       pecca<lb ed="#R" n="56" break="no"/>to resurgit in maiori charitate, non tantum in ma 
       <lb ed="#R" n="57"/>iori gradu quo ad actus, &amp; praemium 
@@ -352,7 +350,7 @@
       quan<lb ed="#R" n="78" break="no"/>tum est de se, stat cum minimo gradu gratiae, quan 
       <lb ed="#R" n="79"/>tus ei conferebatur ante per opera bona. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e704">
                   <lb ed="#R" n="80"/>Tunc ad propositum dicunt, quod talis resurgit 
       <lb ed="#R" n="81"/>in aequalibus meritis, vel maioribus, &amp; per 
       conse<lb ed="#R" n="82" break="no"/>quens ad aequale praemium, vel maius praemium; 
@@ -363,14 +361,14 @@
       cor<lb ed="#R" n="87" break="no"/>respondente meritis habet plus, qui resurgit a 
       pec<lb ed="#R" n="88" break="no"/>cato, quam habuit prius. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e726">
                   <lb ed="#R" n="89"/>Ex quo etiam patet, quod aliquis habens 
       maio<lb ed="#R" n="90" break="no"/>rem habitum gratiae, quam vnus heremita, qui 
       ta<lb ed="#R" n="91" break="no"/>men habebit plura merita, habebit maiorem 
       glo<lb ed="#R" n="92" break="no"/>riam correspondentem habitui. Heremita vero 
       ha<lb ed="#R" n="93" break="no"/>ro habebit maiorem correspondentem meritis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e739">
                   <lb ed="#R" n="94"/>Alij dicunt, quod etiam quo ad habitum gratiae 
       <lb ed="#R" n="95"/>resurgit poenitens in maiori gradu. Mihi videtur, 
       <lb ed="#R" n="96"/>quod ista opinio secunda sit rationabilis. Ideo 
@@ -399,7 +397,7 @@
       <lb ed="#R" n="119"/>meritorum debeatur poenitenti gratia amplior, &amp; 
       <lb ed="#R" n="120"/>ex hoc vlterius maior gloria. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e800">
                   <lb ed="#R" n="121"/>Confirmo hoc etiam secundum istos, qui dicunt, 
       <lb ed="#R" n="122"/>quod ex natura rei nullus habitus formaliter 
       red<lb ed="#R" n="123" break="no"/>dit gratum; esse enim gratum per eos 
@@ -410,12 +408,12 @@
       <lb ed="#R" n="128"/>tantum in maiori gradu praemij gloriae, sed etiam 
       <lb ed="#R" n="129"/>in maiori gradu gratiae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e822">
                   <lb ed="#R" n="130"/>Item: magis gratus est, qui est melior: sed qui 
       ha<lb ed="#R" n="131" break="no"/>bet plura opera meritoria, est melior: ergo magis 
       <lb ed="#R" n="132"/>gratus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e832">
                   <lb ed="#R" n="133"/>Item sequitur ex opposito hoc inconueniens, 
       <lb ed="#R" n="134"/>quod qui magis diligeretur a Deo, minus praemia 
       <lb ed="#R" n="135"/>retur; nam per te habentem minorem gratiam 
@@ -427,7 +425,7 @@
       <lb ed="#R" n="2"/>gradus gloriae, &amp; hoc quia non debetur gradus 
       <lb ed="#R" n="3"/>gloriae actibus, nisi habitu gratiae mediante. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e856">
                   <lb ed="#R" n="4"/>Dico ergo, quod vere poenitens resurgit de 
       ne<lb ed="#R" n="5" break="no"/>cessitate in aequali gloriae praemio, &amp; potest etiam 
       <lb ed="#R" n="6"/>resurgere in maiori. Ratio primi est, quia bona 
@@ -435,13 +433,13 @@
       <lb ed="#R" n="8"/>gloriae, quem primo, &amp; non solum hoc, sed aequalem 
       <lb ed="#R" n="9"/>gradum ipsius gratiae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e872">
                   <lb ed="#R" n="10"/>Secundum patet, quia per actum poenitentiae 
       ac<lb ed="#R" n="11" break="no"/>quisiuit nouum meritum, qui additus prioribus 
       <lb ed="#R" n="12"/>meretur ampliorem gradum gratiae, &amp; ex 
       consequen<lb ed="#R" n="13" break="no"/>ti gradum gloriae ampliorem. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e883">
                   <lb ed="#R" n="14"/>Dices, quod ex his non videtur haberi conclusio 
       <lb ed="#R" n="15"/>intenta, scilicet quod poenitens resurgat in maiori 
       <lb ed="#R" n="16"/>gratia &amp; charitate. Ratio est, quia gratia quaedam 
@@ -460,12 +458,12 @@
       <lb ed="#R" n="29"/>alteri; vel quam gratia, quam ipse prius habuit, quam 
       <lb ed="#R" n="30"/>peecaret, &amp; sic habetur propositum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e922">
                   <lb ed="#R" n="31"/>Ad argumentum in oppositum nego, quod 
       pri<lb ed="#R" n="32" break="no"/>uatio sit eadem numero, quae praefuit ante 
       habi<lb ed="#R" n="33" break="no"/>tum, &amp; quae sequitur post habitum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e931">
                   <lb ed="#R" n="34"/>Ad auctoritates, quae videntur sonare, quod 
       pec<lb ed="#R" n="35" break="no"/>cata redeant eadem numero. Respondeo, pro 
       tan<lb ed="#R" n="36" break="no"/>to hoc dicunt, quod grauiora sunt peccata 
@@ -474,18 +472,18 @@
       <lb ed="#R" n="39"/>peccata sequentia grauiora. 
     </p>
             </div>
-            <div>
-               <head>Articulus 2</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h52721-Dd1e948">
+               <head xml:id="olm8ij-h52721-Hd1e950">Articulus 2</head>
+               <head xml:id="olm8ij-h52721-Hd1e952" type="question-title">
         Utrum peccatum reiteratum post paenitentiam sit 
         grauius propter ingratitudinem.
       </head>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e955">
                   <lb ed="#R" n="40"/>ARTICVLVS II. 
       <lb ed="#R" n="41"/>Vtrum peccatum reiteratum post paenitentiam sit 
       <lb ed="#R" n="42"/>grauius propter ingratitudinem.
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e964">
                   <lb ed="#R" n="43"/>AD secundam quaestionem arguo primo, quod 
       <lb ed="#R" n="44"/>peccatum commissum post poenitentiam, 
       in<lb ed="#R" n="45" break="no"/>recidiuatione fit grauius peccatum: quam primum 
@@ -497,19 +495,19 @@
       <lb ed="#R" n="51"/>Poenitentiae, postmodum ad Dei sic liberaliter 
       mi<lb ed="#R" n="52" break="no"/>serantis iterum redire iniuriam &amp; offensam: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e988">
                   <lb ed="#R" n="53"/>In oppositum est: Natura circumstantia actus, 
       in<lb ed="#R" n="54" break="no"/>tantum aggrauat actum, vt posssit eum aequare prin 
       <lb ed="#R" n="55"/>cipali malitiae actus: sed ingratitudo est circumstan 
       <lb ed="#R" n="56"/>tia actus: ergo. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e1000">
                   <lb ed="#R" n="57"/>Confirmatur, quia malitia ex circumstantia 
       vi<lb ed="#R" n="58" break="no"/>detur esse alterius rationisa malitia ipsius actus: 
       <lb ed="#R" n="59"/>ergo illam non auget, vel minuit. Respondeo, hic 
       <lb ed="#R" n="60"/>pono conclusiones aliquas. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e1011">
                   <lb ed="#R" n="61"/>Prima est, quod gratitudo est virtus mora lis 
       con<lb ed="#R" n="62" break="no"/>tenta sub iultitia. Primum horum, quod scilicet 
       <lb ed="#R" n="63"/>sit virtus moralis, probo sic: Habitus, qui consistit 
@@ -528,7 +526,7 @@
       <lb ed="#R" n="74"/>multi pro vna refectione obligant se danti ad 
       con<lb ed="#R" n="75" break="no"/>silium, &amp; auxilium ad omne malum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e1050">
                   <lb ed="#R" n="76"/>Similiter in quali, vt si quis procuret alteri pecu 
       <lb ed="#R" n="77"/>niam, credat ille sibi iure gratitudinis obligari. 
       Se<lb ed="#R" n="78" break="no"/>cundo, potest essse defectus in parum 
@@ -538,7 +536,7 @@
       <lb ed="#R" n="82"/>consequens habitus coniecturans medium illud, 
       <lb ed="#R" n="83"/>cuiusmodi est gratitudo, erit habitus moralis. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e1070">
                   <lb ed="#R" n="84"/>Secundum probo, quod scilicet sit virtus 
       con<lb ed="#R" n="85" break="no"/>tenta sub iustitia, sic: Quia virtus quae coniecturat 
       <lb ed="#R" n="86"/>redditionem specialis debiti, secundum recam 
@@ -557,13 +555,13 @@
       re<lb ed="#R" n="99" break="no"/>cepto, Aristoteles vocat gratiam, siue 
       gratitudi<lb ed="#R" n="100" break="no"/>nem 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e1109">
                   <lb ed="#R" n="101"/>Secunda Propositio est, quod huic virtuti 
       oppo<lb ed="#R" n="102" break="no"/>nitur duplex vitium, vnum quidem per se, &amp; 
       dire<lb ed="#R" n="103" break="no"/>cte, &amp; illud est nominatum, &amp; dicitur ingratitudo, 
       <lb ed="#R" n="104"/>&amp; vitium; aliud attenditur penes de fectum in actum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e1120">
                   <lb ed="#R" n="105"/>Aliud autem est vitium, quod attenditur 
       secun<lb ed="#R" n="106" break="no"/>dum superabundantiam in actu, vt nimis 
       recogno<lb ed="#R" n="107" break="no"/>scendo beneficium, vel in quantitate, vel in 
@@ -576,7 +574,7 @@
       <lb ed="#R" n="114"/>abstinentiae, eo quod pauci ad illud declinant, est no 
       <lb ed="#R" n="115"/>bis innominatum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e1147">
                   <lb ed="#R" n="116"/>Vlterius etiam considerandum est, quod aliqui 
       <lb ed="#R" n="117"/>sunt habitus virtutis, quibus magis opponitur 
       al<lb ed="#R" n="118" break="no"/>terum extremorum, quam reliquum; imo habitus 
@@ -594,7 +592,7 @@
       <lb ed="#R" n="130"/>vitium secundum defectum, imo ingratitudo est 
       vi<lb ed="#R" n="131" break="no"/>tium maximum vitiorum. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e1184">
                   <lb ed="#R" n="132"/>Sed sciendum est, quod ingratitudo est duplex; 
       <lb ed="#R" n="133"/>quaedam quae opponitur gratitudini priuatiue; quae- 
       <!--0157.xml-->
@@ -607,7 +605,7 @@
       recogni<lb ed="#R" n="5" break="no"/>tionis beneficii tripliciter, scilicet corde, ore, &amp; 
       <lb ed="#R" n="6"/>opere. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e1210">
                   <lb ed="#R" n="7"/>Ingratitudo non contrarie accepta, sed 
       priuati<lb ed="#R" n="8" break="no"/>ue priuat hos gradus tres, vel eorum alterum; sunt 
       <lb ed="#R" n="9"/>enim quaedam rependentes corde non lingua, 
@@ -616,7 +614,7 @@
       ingratitudi<lb ed="#R" n="12" break="no"/>nis minor est, secundus autem maior, tertius 
       ad<lb ed="#R" n="13" break="no"/>huc maior. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e1228">
                   <lb ed="#R" n="14"/>Ingratitudo vero accepta contrarie adhuc est 
       <lb ed="#R" n="15"/>peior, &amp; hoc modo ingratitudo committitur altero 
       <lb ed="#R" n="16"/>trium modorum, vel opere tantum, vt quando non 
@@ -638,14 +636,14 @@
       <lb ed="#R" n="32"/>stantiis occurrentibus, quae recta ratio dictat 
       de<lb ed="#R" n="33" break="no"/>bere inesse. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e1274">
                   <lb ed="#R" n="34"/>Tertia Propositio est, quod caeteris paribus 
       con<lb ed="#R" n="35" break="no"/>siderando beneficium plus tenetur obligatione gra 
       <lb ed="#R" n="36"/>titudinis ad gratiarum actionem innocens, qui 
       prae<lb ed="#R" n="37" break="no"/>seruatus est a lapsu culpae, quam poenitens, qui post 
       <lb ed="#R" n="38"/>peccatum venia est praeuentus. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e1287">
                   <lb ed="#R" n="39"/>Ista est vna quaestio valde communis, ad quam 
       <lb ed="#R" n="40"/>respondet vnus Doctor, quod in tali casu potest 
       con<lb ed="#R" n="41" break="no"/>siderari ex vna parte donum innocentiae, &amp; 
@@ -659,7 +657,7 @@
       di<lb ed="#R" n="49" break="no"/>cit, quod magis tenetur resurgens per poenitentiam 
       <lb ed="#R" n="50"/>a peccato. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e1317">
                   <lb ed="#R" n="51"/>Sed ista dicta non euacuant difficultatem, quod 
       <lb ed="#R" n="52"/>enim beata Virgo non plus Deo teneatur modo in 
       <lb ed="#R" n="53"/>hoc, quod fuit in innocentia conseruata, quam si 
@@ -678,7 +676,7 @@
       <lb ed="#R" n="66"/>tenetur innocens conseruatus in innocentia, quam 
       <lb ed="#R" n="67"/>peccator resurgens per poenitentiam 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e1356">
     <!-- missing line break -->Quarta Propositio est, quantum ad propositum
       <!--0157.xml-->
       <cb ed="#R" n="b"/>
@@ -703,7 +701,7 @@
       <lb ed="#R" n="86"/>quod sit peccatum maius, licet inquantum 
       concur<lb ed="#R" n="87" break="no"/>rit, plus aggrauetur. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e1408">
                   <lb ed="#R" n="88"/>Sed hic videtur facere dubium, quia illud 
       non<lb ed="#R" n="89" break="no"/>videtur aggrauare peccatum, cuius oppositum, si 
       <lb ed="#R" n="90"/>fuisset, magis aggrauaret: sed si non fuisset 
@@ -714,7 +712,7 @@
       pecca<lb ed="#R" n="95" break="no"/>tum indultum per poenitentiam: ergo non videtur, 
       <lb ed="#R" n="96"/>quod sola recidiuatio ad peccatum sic aggrauet. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e1430">
                   <lb ed="#R" n="97"/>Respondeo, dico quod vtrumque aggrauat. Et ad 
       <lb ed="#R" n="98"/>formam rationis dico, quod non est inconueniens, 
       <lb ed="#R" n="99"/>quod vtrumque oppositum aggrauet ratione 
@@ -724,18 +722,18 @@
       ta<lb ed="#R" n="103" break="no"/>men poenitens. 
     </p>
             </div>
-            <div>
-               <head>Articulus 3</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h52721-Dd1e1449">
+               <head xml:id="olm8ij-h52721-Hd1e1451">Articulus 3</head>
+               <head xml:id="olm8ij-h52721-Hd1e1453" type="question-title">
       Utrum in Sacramento Paenitentiae detur praecisa 
       forma verborum, siue absolutio.
     </head>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e1456">
                   <lb ed="#R" n="104"/>ARTICVLVS III 
       <lb ed="#R" n="105"/>Vtrum in Sacramento Paenitentiae detur praecisa 
       <lb ed="#R" n="106"/>forma verborum, siue absolutio. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e1465">
                   <lb ed="#R" n="107"/>AD tertiam quaestionem, Vtrum in hoc 
       Sacra<lb ed="#R" n="108" break="no"/>mento sit praecisa forma verborum. 
       Respon<lb ed="#R" n="109" break="no"/>deo, quod fic, illa tamen ex Euangelio non habetur. 
@@ -744,18 +742,18 @@
       <lb ed="#R" n="112"/>cum inuocatione Trinitatis. 
     </p>
             </div>
-            <div>
-               <head>Articulus 4</head>
-               <head type="question-title">
+            <div xml:id="olm8ij-h52721-Dd1e1483">
+               <head xml:id="olm8ij-h52721-Hd1e1485">Articulus 4</head>
+               <head xml:id="olm8ij-h52721-Hd1e1487" type="question-title">
         Quid requiratur intrinsece ad essentiam huius 
         Sacramenti Paenitentiae.
       </head>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e1490">
                   <lb ed="#R" n="113"/>ARTICVLVS IV. 
       <lb ed="#R" n="114"/>Quid requiratur intrinsece ad essentiam huius 
       <lb ed="#R" n="115"/>Sacramenti Paenitentiae. 
     </p>
-               <p>
+               <p xml:id="olm8ij-h52721-d1e1499">
                   <lb ed="#R" n="116"/>AD quartam quaestionem respondeo. Dicunt 
       <lb ed="#R" n="117"/>quidam, quod de essentia istius Sacramenti est 
       <lb ed="#R" n="118"/>contritio interior. Alij vero, quod sola absolutio 
