@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="105"/>
+            <cb ed="#R" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h35951"> <!-- l1-d11q3 -->
+            <head>Quaestio 3</head>
+            <p>
+               <lb ed="#R" n="117"/>Quaestio III. 
+    </p>
+            <div>
+               <head>Articulus 1</head>
+               <head type="question-title">
+        De transubstantiatione in ordine a termino a quo, 
+        ad terminum ad quem.
+      </head>
+               <p>
+                  <lb ed="#R" n="118"/>ARTICVLVS VNJCVS. 
+      <lb ed="#R" n="119"/>De Transubstantiatione in ordine a termino a quo, 
+      <lb ed="#R" n="120"/>ad terminum ad quem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="121"/>Transubstantiatione in 
+      <lb ed="#R" n="122"/>
+                  <!-- line coord error-->
+                  <lb ed="#R" n="123"/>ordine ad terminum a quo 
+      <lb ed="#R" n="124"/>
+                  <!-- line coord error-->. 
+      <lb ed="#R" n="125"/>
+                  <!-- line coord error-->
+                  <lb ed="#R" n="126"/>qui est substantia panis, 
+      <lb ed="#R" n="127"/>
+                  <!-- line coord error-->
+                  <lb ed="#R" n="128"/>quaero vnam quaestionem. 
+      <lb ed="#R" n="129"/>Vtrum in ista 
+      transubscan<lb ed="#R" n="130" break="no"/>M 
+      <lb ed="#R" n="131"/>
+                  <!-- line coord error-->
+                  <lb ed="#R" n="132"/>tiatione panis vere dicatur 
+      <lb ed="#R" n="133"/>adnihilari. probo quod sic: 
+      <lb ed="#R" n="134"/>
+                  <!-- line coord error-->
+                  <lb ed="#R" n="135"/>
+                  <!-- line coord error-->
+                  <lb ed="#R" n="136"/>Illud vere dicitur 
+      adnihi<lb ed="#R" n="137" break="no"/>lari in aliqua actione, 
+      cu<lb ed="#R" n="138" break="no"/>ius nihil manet, nec materia, nec forma in illa 
+      a<lb ed="#R" n="139" break="no"/>ctione: sed post transubstantiationem nihil ipsius pa- 
+      <!--0106.xml-->
+      <pb ed="#R" n="106"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>nis manet, quod pertinet ad eius essentiam, nec 
+      <lb ed="#R" n="2"/>materia, nec forma: ergo. In oppositum est 
+      Au<lb ed="#R" n="3" break="no"/>gustinus 83. Quaestionum q. 21. 
+    </p>
+               <p>
+                  <lb ed="#R" n="4"/>Deus, inquit, non est causa tendentiae alicuius in 
+      <lb ed="#R" n="5"/>nihil, similiter Hugo lib. 2. de Sacramentis par. 8. 
+      <lb ed="#R" n="6"/>cap. 9. Panis non est adnihilatus, sed mutatus in 
+      <lb ed="#R" n="7"/>melius. Respondeo, pono hic aliquas Proposi. 
+      <lb ed="#R" n="8"/>tiones. 
+    </p>
+               <p>
+                  <lb ed="#R" n="9"/>Prima est, quod non est verum, quod panis non 
+      <lb ed="#R" n="10"/>sit adnihilatus propter hoc, quod remanet aliqua 
+      <lb ed="#R" n="11"/>eius pars, puta materia, vt dicunt quidam, quod 
+      <lb ed="#R" n="12"/>materia panis denudatur simpliciter a forma 
+      pa<lb ed="#R" n="13" break="no"/>nis, &amp; fit sub forma corporis Christi, eo modo quo 
+      <lb ed="#R" n="14"/>alimentum expoliatur forma propria, &amp; induit 
+      <lb ed="#R" n="15"/>formam aliti. 
+    </p>
+               <p>
+                  <lb ed="#R" n="16"/>Hanc positionem non puto sanam, &amp; ideo pono 
+      <lb ed="#R" n="17"/>propositionem propositam, &amp; contra eam arguo pri 
+      <lb ed="#R" n="18"/>mo sic: Illud non est ponendum, quod repugnat 
+      <lb ed="#R" n="19"/>dignitati ipsius, tum quia continue esset sub 
+      muta<lb ed="#R" n="20" break="no"/>tione, tum quia tanta esset materia corporis 
+      Chri<lb ed="#R" n="21" break="no"/>sti iam, quod forma eius non esset apta ipsam 
+      in<lb ed="#R" n="22" break="no"/>formare; forma enim determinat sibi aliquam 
+      <lb ed="#R" n="23"/>quantitatem materiae, vltra quam non posset aliam 
+      <lb ed="#R" n="24"/>informare: pone autem, quod dicantur mille 
+      mil<lb ed="#R" n="25" break="no"/>lia Misarum, tota materia illius panis transibit in 
+      <lb ed="#R" n="26"/>corpus Christi per te, quomodo poterit tunc totam 
+      <lb ed="#R" n="27"/>quantitatem materiae informare: tum quia 
+      conti<lb ed="#R" n="28" break="no"/>nue corpus Domini densaretur, quia sub eadem 
+      <lb ed="#R" n="29"/>forma fieret continue plus de partibus materiae; 
+      <lb ed="#R" n="30"/>tum quia corpori Domini accresceret continue 
+      no<lb ed="#R" n="31" break="no"/>ua substantia. 
+    </p>
+               <p>
+                  <lb ed="#R" n="32"/>Secundo: Quia positio repugnat veritati 
+      Sacra<lb ed="#R" n="33" break="no"/>menti, ex vi enim Sacramenti non haberetur nisi 
+      <lb ed="#R" n="34"/>sorma corporis, &amp; nihil plus: non enim materia, 
+      <lb ed="#R" n="35"/>&amp; sic ex vi Sacramenti non esset hic saltem per 
+      con<lb ed="#R" n="36" break="no"/>comitantiam tota essentia carnis corporis Christi. 
+    </p>
+               <p>
+                  <lb ed="#R" n="37"/>Item tertio: Non video, quod vna forma sic 
+      mi<lb ed="#R" n="38" break="no"/>gret de materia in materiam, vtdesinat nunc 
+      in<lb ed="#R" n="39" break="no"/>formare, nunc autem informet; hoc enim plus est 
+      <lb ed="#R" n="40"/>contra ipsam philosophiam, quam ponere, quod 
+      <lb ed="#R" n="41"/>panis sit adnihilatus, vt apparet expresse primo 
+      <lb ed="#R" n="42"/>de anima a tex. 50. ad 53. vbi Philosophus arguit 
+      <lb ed="#R" n="43"/>circa circulationem animarum. Et contra istam po 
+      <lb ed="#R" n="44"/>sitionem est opinio Innocentij, qui dicit de officio 
+      <lb ed="#R" n="45"/>Missae particula Mis. cap. 8. Panis continue in 
+      cor<lb ed="#R" n="46" break="no"/>pus Christi mutatur, &amp; corpus non crescit. &amp; 
+      Ma<lb ed="#R" n="47" break="no"/>gister in litera, Panis non transit in corpus Cristi, 
+      <lb ed="#R" n="48"/>vt sit eius materia: idem etiam dicit de vino. 
+    </p>
+               <p>
+                  <lb ed="#R" n="49"/>Secunda Propositio est, quod annihilatio panis 
+      <lb ed="#R" n="50"/>non tollitur, eo quod panis maneat in materia 
+      cor<lb ed="#R" n="51" break="no"/>poris Christi in potentia, vt quidam dicunt, quod 
+      <lb ed="#R" n="52"/>ideo non annihilatur, quia transit in corpus 
+      Do<lb ed="#R" n="53" break="no"/>mini, cuius materia est in potentia ad formam 
+      pa<lb ed="#R" n="54" break="no"/>nis; si enim dos impassibilitatis auferatur a 
+      corpo<lb ed="#R" n="55" break="no"/>re Christi, posset forma corporis corrumpi, &amp; 
+      in<lb ed="#R" n="56" break="no"/>duci in materia eius forma panis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="57"/>Sed contra istum modum probo propositionem 
+      <lb ed="#R" n="58"/>propositam, tum quia si ratio sit bona, sequitur 
+      <lb ed="#R" n="59"/>quod Deus non posset annihilare istud lignum, nisi 
+      <lb ed="#R" n="60"/>annihilaret omne ens materiale. Tum quia 
+      mate<lb ed="#R" n="61" break="no"/>ria corporis Domini non videtur (vt sic)esse in 
+      po<lb ed="#R" n="62" break="no"/>tentia, vt educatur inde forma panis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="63"/>Tertia Propositio est, quod annihilatio non 
+      sal<lb ed="#R" n="64" break="no"/>uatur propter hoc, quod potest esse reciprocatio 
+      <lb ed="#R" n="65"/>conuersionis, &amp; ideo manet corpus Domini in 
+      po<lb ed="#R" n="66" break="no"/>tentia: hoc(inquam)dictum non euadit, nec saluat, 
+      <lb ed="#R" n="67"/>quod panis non annihiletur, nam per hoc panis non 
+      <lb ed="#R" n="68"/>remanet nisi in potentia Dei actiua: non enim pa- 
+      <!--0106.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>nis ibi remanet in potentia subiectiua; similiter 
+      <lb ed="#R" n="70"/>nec in potentia obiectiua, potentia enim 
+      obiecti<lb ed="#R" n="71" break="no"/>ua non est nisi ens possibile, &amp; illud potest esse 
+      for<lb ed="#R" n="72" break="no"/>maliter nihil. 
+    </p>
+               <p>
+                  <lb ed="#R" n="73"/>Quarta Propositio est, quod annihilatio panis 
+      <lb ed="#R" n="74"/>non tollitur propter communem aliquitatem, quae 
+      <lb ed="#R" n="75"/>&amp; praedicatur de vtroque, &amp; manet per hoc, quod 
+      <lb ed="#R" n="76"/>manet corpus Domini, vt dicit opinio quaedam; &amp; 
+      <lb ed="#R" n="77"/>addit, quod haec es mens Sanctorum, quod 
+      non<lb ed="#R" n="78" break="no"/>annihilatur, sed mutatur in melius, quia videlicet 
+      <lb ed="#R" n="79"/>aliquitas transit de pane in corpus Christi. Hanc 
+      <lb ed="#R" n="80"/>propositionem probo, quia aut ex hoc dicitur 
+      re<lb ed="#R" n="81" break="no"/>manere panis, quia remanet aliquid quod fuit 
+      pa<lb ed="#R" n="82" break="no"/>nis; vel quia remanet corpus Christi; vel aliquid 
+      <lb ed="#R" n="83"/>aliud: non primo modo patet: nec secundo modo, 
+      <lb ed="#R" n="84"/>quia propositio ista est falsa, panis est corpus Chri 
+      <lb ed="#R" n="85"/>sti: ergo panis non remanet, quia manet ibi 
+      cor<lb ed="#R" n="86" break="no"/>pus: nec tertio modo, quia totaliter desineret esse. 
+      <lb ed="#R" n="87"/>Vltimo pono quintam Propositionem, quae est 
+      <lb ed="#R" n="88"/>secundum communem opinionem Doctorum, &amp; 
+      <lb ed="#R" n="89"/>est specialiter modus Moderni Doctoris Sutilis, 
+      <lb ed="#R" n="90"/>quod panis non est annihilatus, quia aliquid eius 
+      <lb ed="#R" n="91"/>maneat quocumque modo praedicto, sed quia non 
+      <lb ed="#R" n="92"/>desinit esse per actionem adnihilatiuam.
+    </p>
+               <p>
+                  <lb ed="#R" n="93"/>Potest autem sic argui. Res non dicitur 
+      annihi<lb ed="#R" n="94" break="no"/>lata ex hoc solum, quia nihil eius manet, sed ex hoc 
+      <lb ed="#R" n="95"/>quod desinit per annihilatiuam actionem; alias chimera 
+      <lb ed="#R" n="96"/>posset dici esse annih: ilata: sed haaec est falsa, quod 
+      <lb ed="#R" n="97"/>panis desinit esse simpliciter per annihilationem: 
+      <lb ed="#R" n="98"/>annihilatio enim non est conuersio aliqua, sed 
+      sub<lb ed="#R" n="99" break="no"/>tractio influxus manutenentiae communis: panis 
+      <lb ed="#R" n="100"/>autem non desinit esse hoc modo per 
+      annihilatio<lb ed="#R" n="101" break="no"/>nem, sed desinit esse sicut terminus a quo ipsius 
+      <lb ed="#R" n="102"/>transitus ad potentiam termini ad quem: quod 
+      <lb ed="#R" n="103"/>autem annihilatur, non desinit esse sicut terminus a 
+      <lb ed="#R" n="104"/>quo, ad potentiam termini ad quem, sed per 
+      so<lb ed="#R" n="105" break="no"/>lam subtractionem: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="106"/>Secundo sic: Annihilatio non est mutatio, quae 
+      <lb ed="#R" n="107"/>sit sequela alterius mutationis, sed est praecise 
+      so<lb ed="#R" n="108" break="no"/>la subtractio manutenentiae Dei: sed desitio panis 
+      <lb ed="#R" n="109"/>est sequela alterius mutationis: quod enim 
+      illud<lb ed="#R" n="110" break="no"/>quod importatur per hoc demonstratum, desinat 
+      <lb ed="#R" n="111"/>esse panis, vt hoc quod demonstro iam non sit 
+      pa<lb ed="#R" n="112" break="no"/>nis, sequitur ad illud, scilicet quod accipit, quod 
+      <lb ed="#R" n="113"/>sit corpus Christi: per hoc enim, quod vi 
+      transub<lb ed="#R" n="114" break="no"/>stantiationis capit, quod sit corpus Christi, de sinit 
+      <lb ed="#R" n="115"/>per modum sequelae esse panis: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="116"/>Ad argumentum in oppositum patet, quid 
+      dicen<lb ed="#R" n="117" break="no"/>dum, etsi enim nihil panis maneat, non tamen 
+      an<lb ed="#R" n="118" break="no"/>nihilatur propter causam dictam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="119"/>Sed dubium est hic, quia Sancti non tam 
+      ne<lb ed="#R" n="120" break="no"/>gant, quod panis annihilatur, sed negant quod 
+      <lb ed="#R" n="121"/>cedat in nihil; quomodocumque autem desinat 
+      es<lb ed="#R" n="122" break="no"/>se, siue vt sequela, siue aliter, verum est, quod 
+      ren<lb ed="#R" n="123" break="no"/>dit in nihil; Deus autem non est causa, quod 
+      ali<lb ed="#R" n="124" break="no"/>quid tendat in nihilum, vt argumentatum est ad 
+      <lb ed="#R" n="125"/>oppositum. Ad principale responsionem quaere.
+      <lb ed="#R" n="126"/>
+                  <!-- line coord error -->
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

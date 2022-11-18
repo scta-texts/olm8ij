@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="151"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h51886"> <!-- l1-d21q1 -->
+            <head>Quaestio 1</head>
+            <div>
+               <head>Articulus 1</head>
+               <head type="question-title">
+      Utrum peccata commissa deleantur post hanc 
+      vitam
+    </head>
+               <p>
+                  <lb ed="#R" n="51"/>ARTICVLVUS I. 
+      <lb ed="#R" n="52"/>Vtrum peccata commissa deleantur post hanc 
+      <lb ed="#R" n="53"/>vitam 
+    </p>
+               <p>
+                  <lb ed="#R" n="54"/>QVANTVM ad primam quaestionem 
+      <lb ed="#R" n="55"/>arguo primo, quod non, per illud 
+      Au<lb ed="#R" n="56" break="no"/>gustini lib. de vera &amp; falsa poenitentia 
+      <lb ed="#R" n="57"/>Pertranseat nos, &amp;c. In oppositum es 
+      <!--0151.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="58"/>Saluator, qui loquitur in speciali de peccato 
+      blas<lb ed="#R" n="59" break="no"/>phemiae, dicens: quod qui peccauerit in Spiritum 
+      <lb ed="#R" n="60"/>sanctum, non remittetur ei, neque in hoc saeculo, 
+      ne<lb ed="#R" n="61" break="no"/>que in futuro: ergo innuit, quod aliquid aliud 
+      pec<lb ed="#R" n="62" break="no"/>catum remittetur in futuro. Respondeo, pono 
+      ali<lb ed="#R" n="63" break="no"/>quas propositiones breues. Prima est, quod 
+      pec<lb ed="#R" n="64" break="no"/>catum mortale nec quo ad poenam, nec quo ad 
+      <lb ed="#R" n="65"/>culpam remittetur in futuro saeculo post hanc 
+      vi<lb ed="#R" n="66" break="no"/>tam, nisi vsque ad plenam satisfactionem in 
+      pur<lb ed="#R" n="67" break="no"/>gatorio tantum. Probatio huius est, quia poe
+      na<lb ed="#R" n="68" break="no"/>non remittitur nisi pro solutione: sed poena 
+      pecca<lb ed="#R" n="69" break="no"/>ti mortalis est aeterna: ergo. Consimiliter probo 
+      <lb ed="#R" n="70"/>idem de culpa, sic: Nullus actus valet ad 
+      remissio<lb ed="#R" n="71" break="no"/>nem culpae, nisi actus iustitiae vindicatiuae 
+      reducen<lb ed="#R" n="72" break="no"/>tis inaequalitatem factam per peccatum inter Deum 
+      <lb ed="#R" n="73"/>&amp; hominem, ad aequalitatem: sed nullae poenae nisi 
+      <lb ed="#R" n="74"/>voluntarie assumptae, &amp; gratia informatae sunt 
+      re<lb ed="#R" n="75" break="no"/>ductiuae illius inaequalitatis ad aequalitatem: 
+      ergo<lb ed="#R" n="76" break="no"/>Post mortem autem nulla poena est voluntaria: 
+      pro<lb ed="#R" n="77" break="no"/>bo, si enim sustinent poenas illas, sustinent 
+      murmu<lb ed="#R" n="78" break="no"/>rando, nec sunt in gratia: ergo. Et intelligo hoc 
+      <lb ed="#R" n="79"/>de potentia Dei ordinata, non enim intelligo 
+      de<lb ed="#R" n="80" break="no"/>potentia absoluta; quin Deus, si vellet, posset 
+      cul<lb ed="#R" n="81" break="no"/>pam remittere omnibus daemonibus de inferno, sed 
+      <lb ed="#R" n="82"/>loquimur de potentia secundum regulas suas, quas 
+      <lb ed="#R" n="83"/>statuit, &amp; taxauit secundum iustitiae aequitatem, &amp; 
+      <lb ed="#R" n="84"/>ex hoc cessat instantia de Traiano. 
+  </p>
+               <p>
+                  <lb ed="#R" n="85"/>Secunda propositio est, quod veniale dimittitur 
+      <lb ed="#R" n="86"/>in purgatorio quo ad panam. Ratio ad hoc est 
+      <lb ed="#R" n="87"/>istta, omnis debitor temporalis potest ad tempus 
+      <lb ed="#R" n="88"/>satisfacere de temporali poena: sed poena, quae 
+      de<lb ed="#R" n="89" break="no"/>betur veniali, est temporalis: ergo. Sicut etiam 
+      <lb ed="#R" n="90"/>poena, quae debetur mortali quoad tempus, 
+      fiue<lb ed="#R" n="91" break="no"/>partem non satisfacam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="92"/>De Purgatorio autem, an, sicut Graeci dicunt, 
+      <lb ed="#R" n="93"/>quod tantum sunt duo loca, scilicet Paradisus, &amp; 
+      <lb ed="#R" n="94"/>Insernus, &amp; quod Latini inuenerunt Purgatorium 
+      <lb ed="#R" n="95"/>propter lucrum, &amp; addunt, quod nullus est in 
+      glo<lb ed="#R" n="96" break="no"/>ria in caelo empyreo, nisi Christus: omnes vero 
+      <lb ed="#R" n="97"/>Sancti alij sunt in paradiso terrestri, in die vero 
+      iu<lb ed="#R" n="98" break="no"/>dicii simul omnes intrabunt in paradisum caelestem 
+      <lb ed="#R" n="99"/>in consortio Christi. 
+    </p>
+               <p>
+                  <lb ed="#R" n="100"/>Contra istam doctrinam non habetur faciliter 
+      <lb ed="#R" n="101"/>auctoritas Scripturae, tamen Sancti expresse loquum 
+      <lb ed="#R" n="102"/>tur de Purgatorio, sicut dicit Gregorius lib. 4. 
+      Dia<lb ed="#R" n="103" break="no"/>log. de purgutorio Patricii. Similiter de balneo 
+      il<lb ed="#R" n="104" break="no"/>lo, vbi sanctus ille Cardinalis iam faciens 
+      miracu<lb ed="#R" n="105" break="no"/>la poenam aliquam exoluebat, vt idem Gregorius 
+      <lb ed="#R" n="106"/>recitat lib. 4 Dialogorum. Ad hoc videtur facere 
+      <lb ed="#R" n="107"/>verbum Apostoli 1. Corinth. Jpse tamen saluus erit 
+      <lb ed="#R" n="108"/>sic tamen quasi per ignem. Sancti tamen multum 
+      <lb ed="#R" n="109"/>loquuntur de isto purgatorio, vnde Augustinus 
+      fe<lb ed="#R" n="110" break="no"/>cit vnum librum de cura agenda pro mortuis, vbi 
+      <lb ed="#R" n="111"/>scilicet haberetur cura, vt iuuarentur, &amp; liberaren 
+      <lb ed="#R" n="112"/>tur citius a poenis illis. Sed vbi est, quantum ad 
+      <lb ed="#R" n="113"/>situm? 
+    </p>
+               <p>
+                  <lb ed="#R" n="114"/>Dicitur communiter, quod iuxta infernum; alii 
+      <lb ed="#R" n="115"/>vero, quod nullibi determinate, sed vbi 
+      peccaue<lb ed="#R" n="116" break="no"/>runt, ibi puniuntur. Reputo primum magis 
+      pro<lb ed="#R" n="117" break="no"/>babile, licet aliqui puniantur, vbi peccanerunt, 
+      si<lb ed="#R" n="118" break="no"/>cut sib. 4. Dia logorum cap. 40. dicitur de Episcopo 
+      <lb ed="#R" n="119"/>itsento in balneis post mortem ibi seruiente pro 
+      <lb ed="#R" n="120"/>punitione, quia noluerat consentire in electionem 
+      <lb ed="#R" n="121"/>cuiusdam Papae. Et sic habetur, quid est 
+      purgato<lb ed="#R" n="122" break="no"/>rium, quia est locus determinatus ad puniendum 
+      <lb ed="#R" n="123"/>morientes in gratia, qui non satisfecerunt. 
+    </p>
+               <p>
+                  <lb ed="#R" n="124"/>Tertia Propositio est, quod poena debita pro 
+      <lb ed="#R" n="125"/>veniali non remittitur in inferno. Non sum tamen 
+      <!--0152.xml-->
+      <pb ed="#R" n="152"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>multum certus de propositione ista. Sciendum est 
+      <lb ed="#R" n="2"/>autem, quod hic sunt duae contrariae opiniones. 
+    </p>
+               <p>
+                  <lb ed="#R" n="3"/>Vna dicit, quod poena debita pro veniali ex 
+      se<lb ed="#R" n="4" break="no"/>est infinita, ratio est, quia culpa ex se est infinita 
+      <lb ed="#R" n="5"/>eo quod per illam offenditur infinitus: sed 
+      contra<lb ed="#R" n="6" break="no"/>hoc es, quia tunc veniale esset mortale. Item 
+      exi<lb ed="#R" n="7" break="no"/>stens in gratia, esset obligatus ad poenam aeternam. 
+      <lb ed="#R" n="8"/>Ideo dicunt alij oppositum, quod poena debita pro 
+      <lb ed="#R" n="9"/>veniali ex se est temporalis, &amp; ideo si damnatus sit 
+      <lb ed="#R" n="10"/>aliquis peccatis venialibus, non punietur pro eis ni 
+      <lb ed="#R" n="11"/>si ad tempus, ita quod postea manebit illa sola poe 
+      <lb ed="#R" n="12"/>na, quae debetur pro mortali. 
+    </p>
+               <p>
+                  <lb ed="#R" n="13"/>Ista opinio, licet videatur multum pia, mihi 
+      ta<lb ed="#R" n="14" break="no"/>men videtur, quod loquendo proprie de poena pro 
+      <lb ed="#R" n="15"/>beniali debita, potest dici quod non sit directe aeter 
+      <lb ed="#R" n="16"/>na, nec per se temporalis, sed indifferens: potest 
+      <lb ed="#R" n="17"/>enim respectu alterius coniuncti esse aeterna &amp; 
+      tem<lb ed="#R" n="18" break="no"/>poralis, vt sit temporalis ratione charitatis anne. 
+      <lb ed="#R" n="19"/>xae, aeterna vero ratione mortalis annexi: vt 
+      quem<lb ed="#R" n="20" break="no"/>admodum culpa sic est indifferens, quod stat cum 
+      <lb ed="#R" n="21"/>mortali, &amp; cum gratia; sic poena sit indifferens ad 
+      <lb ed="#R" n="22"/>poenam aeternam, &amp; temporalem, vt sit aeterna cum pec 
+      <lb ed="#R" n="23"/>cato mortali, temporalis vero cum gratia. Probo 
+      au<lb ed="#R" n="24" break="no"/>tem, quod poena pro peccato veniali non satisfaciat in 
+      <lb ed="#R" n="25"/>inferno, sic: Nulla poena satisfacit pro culpa, nisi 
+      in<lb ed="#R" n="26" break="no"/>quantum est actus iustitiae vindicatiuae reducentis 
+      in<lb ed="#R" n="27" break="no"/>aequa litatem ad aequalitatem: sed existens in inferno 
+      <lb ed="#R" n="28"/>non habet poenas, quae sint actus iustitiae vindicatiuae: 
+      <lb ed="#R" n="29"/>non enim sibi infligit poenas illas voluntarie, nec 
+      <lb ed="#R" n="30"/>inflictas voluntarie acceptat, imo remurmurat. 
+      Si<lb ed="#R" n="31" break="no"/>militer non est in gratia, quae requiritur ad actum 
+      <lb ed="#R" n="32"/>iustitiae vindicatiuae inquantum satisfaciens est: 
+      <lb ed="#R" n="33"/>ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="34"/>Et confirmo hoc: Quia inconueniens est, quod 
+      <lb ed="#R" n="35"/>tollatur poena, &amp; remaneat culpa, quae est quaedam 
+      <lb ed="#R" n="36"/>dedecentia, vt alias dictum est. Si dicatur, quod 
+      <lb ed="#R" n="37"/>hoc videtur nimis durum, quod pro veniali 
+      affli<lb ed="#R" n="38" break="no"/>gatur quis aeternaliter. Respondeo, non dico quod 
+      <lb ed="#R" n="39"/>affligatur per se poena aeterna absolute pro 
+      venia<lb ed="#R" n="40" break="no"/>li, sed pro mortali, cui est adiunca poena pro 
+      ve<lb ed="#R" n="41" break="no"/>niali, ipsa autem est iudifferens ad hoc, quod sit 
+      ae<lb ed="#R" n="42" break="no"/>terna, vel temporalis, &amp; contrahitur ad hoc, vel ad 
+      <lb ed="#R" n="43"/>illud ratione adiuncti. 
+    </p>
+               <p>
+                  <lb ed="#R" n="44"/>Vltima Propositio est de poena veniali, si 
+      remit<lb ed="#R" n="45" break="no"/>titur absolute post hanc vitam, &amp; non intelligendo 
+      <lb ed="#R" n="46"/>in casu vbi est coniuncta cum mortali. 
+    </p>
+               <p>
+                  <lb ed="#R" n="47"/>Ad hoc dicunt quidam, quod non, sed quod 
+      re<lb ed="#R" n="48" break="no"/>mittitur in instanti mortis per gratiam, &amp; ratio 
+      <lb ed="#R" n="49"/>est eorum, quia tunc perfecte extinguitur fomes in 
+      <lb ed="#R" n="50"/>anima, &amp; gratia obtinet totam animam. Sed hoc 
+      <lb ed="#R" n="51"/>non videtur rationabile: culpa enim venialis 
+      non<lb ed="#R" n="52" break="no"/>est aliud, quam quaedam indecentia, quae non est 
+      <lb ed="#R" n="53"/>macula remanens actu transeunte: sed 
+      tantummo<lb ed="#R" n="54" break="no"/>do est quaedam indignitas moralis, sub qua 
+      conci<lb ed="#R" n="55" break="no"/>pitur ab omni intellectu apprehendente ipsam sub 
+      <lb ed="#R" n="56"/>actu praeterito deformi, vt supra dictum est; tunc, 
+      <lb ed="#R" n="57"/>cum dicit, quod gratia obtinet totam animam 
+      <lb ed="#R" n="58"/>concedo. tamen adhuc manet indecentia illa. 
+    </p>
+               <p>
+                  <lb ed="#R" n="59"/>Alij dicunt, quod bona opera &amp; merita hominis 
+      <lb ed="#R" n="60"/>in fine auferunt, ac merentur deletionem venialium. 
+      <lb ed="#R" n="61"/>Sed hoc non videtur esse rationabile, non enim 
+      ap<lb ed="#R" n="62" break="no"/>paret ratio, quare deleant in instanti mortis, quod 
+      <lb ed="#R" n="63"/>non delebant in vita. 
+    </p>
+               <p>
+                  <lb ed="#R" n="64"/>Videtur ergo mihi dicendum, quod venialia pec 
+      <lb ed="#R" n="65"/>cata post mortem remittuntur in purgatorio, &amp; hoc 
+      <lb ed="#R" n="66"/>mediante actu iustitiae vindicatiuae, siue actu 
+      poe<lb ed="#R" n="67" break="no"/>nitentiae, qui continue infligitur, donec poena 
+      de<lb ed="#R" n="68" break="no"/>bita totaliter sit inflicta. 
+    </p>
+               <p>
+      <!--0152.xml-->
+                  <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>Sed dubium est, quomodo posset esse acttus 
+      poe<lb ed="#R" n="70" break="no"/>nitentiae, &amp; tamen quod ab alio infligatur? Respon 
+      <lb ed="#R" n="71"/>deo, non oportet, quod infligatur a seipso, sed 
+      sus<lb ed="#R" n="72" break="no"/>ficit, quod inflictus acceptetur voluntarie, &amp; talis 
+      <lb ed="#R" n="73"/>acceptatio sufficit ad actum, ad hoc quod cadat sub 
+      <lb ed="#R" n="74"/>iustitia vindicatiua. Et hoc est, quod dicitur 
+      com<lb ed="#R" n="75" break="no"/>muniter, quod animae agunt poenitentiam in 
+      pur<lb ed="#R" n="76" break="no"/>gatorio, nec illam sibi infligunt, sed tantum 
+      acce<lb ed="#R" n="77" break="no"/>ptant. 
+    </p>
+               <p>
+                  <lb ed="#R" n="78"/>Ex hoc, quod dicunt quidam, quod dominus 
+      <lb ed="#R" n="79"/>propterea habet auctoritatem rela xandi poenas 
+      <lb ed="#R" n="80"/>eorum, qui sunt in purgatorio. Hoc ego non 
+      de<lb ed="#R" n="81" break="no"/>termino, vtrum posset facere, quod in vno instanti 
+      <lb ed="#R" n="82"/>omnes animae purgatorij euolarent. 
+    </p>
+               <p>
+                  <lb ed="#R" n="83"/>Ad argumentum in oppositum: illa auctoritas 
+      <lb ed="#R" n="84"/>non dat intelligere, quod mortale aliquod 
+      delea<lb ed="#R" n="85" break="no"/>tur post hanc vitam, sed tantum veniale, vnde 
+      sen<lb ed="#R" n="86" break="no"/>sus illius verbi est: qui peccauerit in Spiritum sanctum, 
+      <lb ed="#R" n="87"/>non remittetur ei in hoc saeculo, nec in futuro, puta 
+      <lb ed="#R" n="88"/>quia non est veniale, quasi dicat, solum veniale est 
+      <lb ed="#R" n="89"/>remissibile in futuro: illud non est veuiale: ergo. 
+    </p>
+            </div>
+            <div>
+               <head>Articulus 2</head>
+               <head type="question-title">
+        Utrum sigillum Confessionis sit de iure naturae.
+      </head>
+               <p>
+                  <lb ed="#R" n="90"/>ARJAVLVS II. 
+      <lb ed="#R" n="91"/>Vtrum sigillum Confessionis sit de iure naturae.
+    </p>
+               <p>
+                  <lb ed="#R" n="92"/>QVo ad secundam arguo primo, quod sigillum 
+      <lb ed="#R" n="93"/>&amp; secretum confessionis, non sit de iure 
+      na<lb ed="#R" n="94" break="no"/>turae, sic: Quando subiectum non est 
+      de<lb ed="#R" n="95" break="no"/>iure naturae, nec passio eius est de iure naturae: 
+      <lb ed="#R" n="96"/>ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="97"/>In oppositum est, quia Papa non potes 
+      dispen<lb ed="#R" n="98" break="no"/>sare in figillo confessionis, sed posset dispensare, 
+      ni<lb ed="#R" n="99" break="no"/>si esset de iure naturae: ergo. Respondeo, istam 
+      <lb ed="#R" n="100"/>quaestionem introduxi propter controuersiam 
+      opi<lb ed="#R" n="101" break="no"/>nionum quae est in conclusione ista, omnes enim 
+      <lb ed="#R" n="102"/>tenent, quod sigillum confessionis est de iure 
+      diui<lb ed="#R" n="103" break="no"/>no, ac per consequens de iure naturali, sicut 
+      acci<lb ed="#R" n="104" break="no"/>pit grammaticus ius naturale dicens, quod illud 
+      <lb ed="#R" n="105"/>est ius naturale, quod in lege, &amp; in Euangelio 
+      con<lb ed="#R" n="106" break="no"/>tinetur. Sed assignando rationem sunt opiniones 
+      <lb ed="#R" n="107"/>variae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="108"/>Dicunt quidam, quod ideo, ne ille, qui reuelat 
+      <lb ed="#R" n="109"/>mentiatur, mentiretur autem, quia nihil scit, nisi 
+      <lb ed="#R" n="110"/>in persona Dei: si vero diceret, ego scio, iam 
+      ossen<lb ed="#R" n="111" break="no"/>deret se scire in persona sua. 
+    </p>
+               <p>
+                  <lb ed="#R" n="112"/>Alius <name>Doctor Subtilis modernus</name> hoc improbat 
+      <lb ed="#R" n="113"/>valde pulchre, &amp; probat multipliciter, quod 
+      au<lb ed="#R" n="114" break="no"/>diens confessionem audit, &amp; scit in persona sua, &amp; 
+      <lb ed="#R" n="115"/>hominis, &amp; non tantum in persona Dei. Primo sic: 
+      <lb ed="#R" n="116"/>Ille, qui conficiendo dicit, Hoc est corpus meum, 
+      <lb ed="#R" n="117"/>conficit in persona Dei, non minus quam absoluat 
+      <lb ed="#R" n="118"/>vel audiat confessor peccatum confitentis: sed hoc 
+      <lb ed="#R" n="119"/>non obstante mentiretur conficiens dicendo, Ego 
+      <lb ed="#R" n="120"/>confeci hodie. 
+    </p>
+               <p>
+                  <lb ed="#R" n="121"/>Item secundo: Audiens peccatum confitentis ad 
+      <lb ed="#R" n="122"/>dit vt minister, quod patet ex forma absolutionis. 
+      <lb ed="#R" n="123"/>Primo enim praemittit: Dominus te absoluat, 
+      dein<lb ed="#R" n="124" break="no"/>de subdit, Et auctoritate qua ego fungor, &amp;c. sed vt 
+      <lb ed="#R" n="125"/>minister, est homo: ergo ipse audit vt homo. 
+      Con<lb ed="#R" n="126" break="no"/>firmatur, quia licet dicere confesssori in 
+      genera<lb ed="#R" n="127" break="no"/>li: ego audiui confessiones, &amp; hoc sine mendacio: 
+      er<lb ed="#R" n="128" break="no"/>go &amp; in speciali dicendo, Ego audiui confessione m 
+      <lb ed="#R" n="129"/>Petri. 
+    </p>
+               <p>
+                  <lb ed="#R" n="130"/>Dicit ergo Doctor iste, quod secretum confessio 
+      <lb ed="#R" n="131"/>nis tenendum est, quia est de iure naturae, &amp; ex 
+      prae<lb ed="#R" n="132" break="no"/>cepto Christi, non autem quia reuelans 
+      mentire<lb ed="#R" n="133" break="no"/>tur. Quod autem sit de iure naturae, probat primo 
+      <!--0153.xml-->
+      <pb ed="#R" n="153"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>virtute charitatis, ex illo verbo Matth. cap. 7. 
+      Om<lb ed="#R" n="2" break="no"/>nia quaecumque vultis, quod homines vobis faciant, 
+      <lb ed="#R" n="3"/>facite illis. Hoc idem secundo patet ratione 
+      fide<lb ed="#R" n="4" break="no"/>litatis, &amp; veritatis, quia quasi promittis, quod 
+      no<lb ed="#R" n="5" break="no"/>lis reuela re, &amp; fingis te non reuelaturum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="6"/>Item secundo ex praecepto Christi, probo, quia 
+      <lb ed="#R" n="7"/>dedit praeceptum de confessione, &amp; per consequens 
+      <lb ed="#R" n="8"/>de illo, quod retrahere haberet homines a 
+      confef<lb ed="#R" n="9" break="no"/>sione consimiliter, quia voluit Christus, quod 
+      es<lb ed="#R" n="10" break="no"/>set forum secretum, nec posset deduci in publicum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="11"/>Nunc secundo pono propositiones. Prima est, 
+      <lb ed="#R" n="12"/>quod talis reuelans confessionem non mentiretur, 
+      <lb ed="#R" n="13"/>vt rationes tactae probant, quia audit vt minister: 
+      <lb ed="#R" n="14"/>ergo vt homo. Addo tamen hic vnum, quod 
+      se<lb ed="#R" n="15" break="no"/>cretum sigilli non solum est de praecepto Chrisi, 
+      <lb ed="#R" n="16"/>&amp; de iure naturae, sed etiam de essentia 
+      Sacramen<lb ed="#R" n="17" break="no"/>ti; ideo non tantum reuelans veniret contra 
+      chari<lb ed="#R" n="18" break="no"/>tatem, sed etiam contra rationem Sacramenti 
+      Ec<lb ed="#R" n="19" break="no"/>clesiae, ac faceret ipsum Sacramentum irritum 
+      <lb ed="#R" n="20"/>Hanc conclusionem probo, quia de ratione 
+      Sacra<lb ed="#R" n="21" break="no"/>menti est, quod sit signum efficax, est enim signum 
+      <lb ed="#R" n="22"/>sensibile efficiens, quod figurat: sed significat, &amp; 
+      <lb ed="#R" n="23"/>figurat, quod Deus audit peccatum, &amp; quod ibi 
+      <lb ed="#R" n="24"/>constituitur forum secretum, in quo mori debet 
+      <lb ed="#R" n="25"/>peccatum, &amp; extingui: ergo cum significatio 
+      Sa<lb ed="#R" n="26" break="no"/>cramenti Confessionis sit significatio occultae 
+      dele<lb ed="#R" n="27" break="no"/>tionis peccati, ac fori secreti; ideo qui reuelaret 
+      fa<lb ed="#R" n="28" break="no"/>ceret irritum Sacramentum, auferendo sibi naturam 
+      <lb ed="#R" n="29"/>suae significationis, &amp; figurationis.
+  </p>
+               <p>
+                  <lb ed="#R" n="30"/>Secunda Propositio est, quod licet esse secretum 
+      <lb ed="#R" n="31"/>fit de iure naturae, tamen istud est secretum 
+      omni<lb ed="#R" n="32" break="no"/>no alterius rationis. Primum horum patet, quia 
+      <lb ed="#R" n="33"/>omnis actus infringens iustitiam est prohibitus 
+      <lb ed="#R" n="34"/>de lege naturae: sed reuelans secretum 
+      quodcum<lb ed="#R" n="35" break="no"/>que, eliceret actum infringentem iustitiam: probo, 
+      <lb ed="#R" n="36"/>quoniam auferret alteri, quod suum est, scilicet 
+      bo<lb ed="#R" n="37" break="no"/>nam famam: ex fama autem consequitur quis 
+      ho<lb ed="#R" n="38" break="no"/>noremi, honor vero est praemium virtutis, &amp; ideo 
+      <lb ed="#R" n="39"/>qui aufert famam, aufert ex consequenti virtutem, 
+      <lb ed="#R" n="40"/>quantum saltem ad existimationem hominum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="41"/>Secundum probo, quia istud secretum in nullo 
+      <lb ed="#R" n="42"/>ca su potest infringi. Ratio vero huius est, quia 
+      <lb ed="#R" n="43"/>in nullo casu Sacramentum aliquod debet 
+      subuer<lb ed="#R" n="44" break="no"/>ti: subuerteretur autem in reuelando, quia 
+      aufere<lb ed="#R" n="45" break="no"/>tur ei debita significatio: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="46"/>Aliud autem secretum commune in casu aliquo 
+      <lb ed="#R" n="47"/>potest, &amp; debet reuelari; puta quando ex 
+      iustitia<lb ed="#R" n="48" break="no"/>obligor ad aliud seruandum, puta si commissum 
+      <lb ed="#R" n="49"/>secretum esset haeresis in praeiudicium Ecclesiae ver 
+      <lb ed="#R" n="50"/>gens, vel esset crimen laesae maiestatis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="51"/>Ex hoc infero, quod dictum quorundam videtur 
+      <lb ed="#R" n="52"/>rationabile, quod scilicet secretum Confessionis 
+      <lb ed="#R" n="53"/>possit reuelari de licentia confitentis: ratio est, quia 
+      <lb ed="#R" n="54"/>secretum istud est de essentia Sacramenti: in tali 
+      <lb ed="#R" n="55"/>autem casu, vbi vellet confitens, aliquid referri per 
+      <lb ed="#R" n="56"/>confessorem de his, quae dixit in confessione, debet 
+      <lb ed="#R" n="57"/>confessor petere sibi dici extra confessionem, &amp; tunc 
+      <lb ed="#R" n="58"/>poterit cui voluerit referre. 
+    </p>
+               <p>
+                  <lb ed="#R" n="59"/>Sed nunquid posset Papa mihi praecipere, quod 
+      <lb ed="#R" n="60"/>reuelarem sibi, quod audiui in confessione? 
+      Re<lb ed="#R" n="61" break="no"/>spondeo, nullo modo; veniret enim contra 
+      ratio<lb ed="#R" n="62" break="no"/>nem Sacramenti. 
+    </p>
+               <p>
+                  <lb ed="#R" n="63"/>Tunc ad quaestionem dico, quod secretum 
+      con<lb ed="#R" n="64" break="no"/>fessionis est de iure naturae, inquantum est secretum, 
+      <lb ed="#R" n="65"/>inquantum vero est secretum speciale puta 
+      confes<lb ed="#R" n="66" break="no"/>sionis, multo plus obligat, quia de iure diuino 
+      in<lb ed="#R" n="67" break="no"/>stituentis ipsum Sacramentum, esse sacrum signum 
+      <lb ed="#R" n="68"/>secreti fori. 
+    </p>
+               <p>
+      <!--0153.xml-->
+                  <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>Sed quis tenetur ad hoc secretum? Respondeo, 
+      <lb ed="#R" n="70"/>qui audit circumstans, &amp; similiter, cui sacerdos 
+      <lb ed="#R" n="71"/>reuelaret, teneretur, sicut &amp; ipsemet sacerdos non 
+      <lb ed="#R" n="72"/>reuelare- 
+    </p>
+               <p>
+                  <lb ed="#R" n="73"/>Sed quando est secretum habendum? 
+      Respon<lb ed="#R" n="74" break="no"/>deo quod semper, &amp; ad semper. 
+    </p>
+               <p>
+                  <lb ed="#R" n="75"/>Sed nunquid si audiret haereticum periculosum 
+      <lb ed="#R" n="76"/>Ecclesiae confitentem peccatum futurum in 
+      scan<lb ed="#R" n="77" break="no"/>dalum Ecclesiae, deberetne illud sacerdos 
+      detege<lb ed="#R" n="78" break="no"/>re? Respondeo, dico quod non, &amp; breuiter ex 
+      nul<lb ed="#R" n="79" break="no"/>lo casu interueniente, possent tamen cautelae 
+      adhi<lb ed="#R" n="80" break="no"/>beri aliae, de quibus non curo modo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="81"/>Sed quae poena est reuelantis? Respondeo, poena 
+      <lb ed="#R" n="82"/>suspensionis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="83"/>Ad argumentum principale dico, quod 
+      reuela<lb ed="#R" n="84" break="no"/>tio ista secreti de iure naturae concomitatur 
+      fidei<lb ed="#R" n="85" break="no"/>commissum. Vltra hoc etiam de iure diuino 
+      con<lb ed="#R" n="86" break="no"/>comitatur specialiter hoc Sacramentum, quod Deus 
+      <lb ed="#R" n="87"/>instituit vt signum secreti fori. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

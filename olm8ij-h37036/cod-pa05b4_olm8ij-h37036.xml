@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="108"/>
+            <cb ed="#R" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h37036"> <!-- l1-d12q1 -->
+            <head>Quaestio 1</head>
+            <head type="question-title">
+          De entitate accidentium
+        </head>
+            <p>
+               <lb ed="#R" n="107"/>Quaestio I. 
+      <lb ed="#R" n="108"/>
+               <!-- line cord error -->
+               <lb ed="#R" n="109"/>DE ENTITATE
+      <lb ed="#R" n="110"/>
+               <!-- line coord error -->
+               <lb ed="#R" n="111"/>ACCIDENTIVM.
+    </p>
+            <p>
+               <lb ed="#R" n="112"/>1 Vtrum accidens habeat essentiam, &amp; 
+      reali<lb ed="#R" n="113" break="no"/>tatem terminatam &amp; completam, vel 
+      incomple<lb ed="#R" n="114" break="no"/>tam &amp; interminatam. 
+      <lb ed="#R" n="115"/>2 Vtrum posito, quod habeant essentiam 
+      in<lb ed="#R" n="116" break="no"/>terminatam &amp; incompletam, hoc fuerit de 
+      inten<lb ed="#R" n="117" break="no"/>tione Philosophi, &amp; Commentatoris.
+  </p>
+            <div>
+               <head>Articulus 1</head>
+               <head type="question-title">
+            Verum accidens habeat essentiam, et realitatem 
+            terminatam, et completam, vel 
+            incompletam, et interminatam.
+          </head>
+               <p>
+      <!--0109.xml-->
+                  <pb ed="#R" n="109"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>ARTICVLVS I. 
+      <lb ed="#R" n="2"/>Verum accidens habeat essentiam, &amp; realitatem 
+      <lb ed="#R" n="3"/>terminatam, &amp; completam, vel 
+      incom<lb ed="#R" n="4" break="no"/>pletam, &amp; interminatam.
+  </p>
+               <p>
+                  <lb ed="#R" n="5"/>CIrca primum arguo primo, quod 
+      <lb ed="#R" n="6"/>accidentia habeant entitatem 
+      <lb ed="#R" n="7"/>completam, &amp; terminatam, sic: 
+      Il<lb ed="#R" n="8" break="no"/>
+                  <!-- line coord error -->
+                  <lb ed="#R" n="9"/>lud, de quo praedicatur ens 
+      quid<lb ed="#R" n="10" break="no"/>ditatiue per se, &amp; in quid, &amp; 
+      soli<lb ed="#R" n="11" break="no"/>tarie, habet entitatem 
+      termina<lb ed="#R" n="12" break="no"/>tam &amp; completam, praedicatum 
+      <lb ed="#R" n="13"/>includitur in subiecto: sed accidens est huiusmodi: 
+      <lb ed="#R" n="14"/>ergo. Maior nota est, quia ens non dicitur nisi 
+      de<lb ed="#R" n="15" break="no"/>habente essentiam, vnde sicut a sapientia dicitur sa 
+      <lb ed="#R" n="16"/>pere, sic ab essentia dicitur esse, secundum August. 
+      <lb ed="#R" n="17"/>Minorem probo: quia de qualibet realitate 
+      acciden<lb ed="#R" n="18" break="no"/>tali verum est dicere omni alio circum scripto, quod 
+      <lb ed="#R" n="19"/>ens quidditatiue, &amp; per se praedicatur de ipso. 
+    </p>
+               <p>
+                  <lb ed="#R" n="20"/>Contra: Illud, qui non est ens, sed entis, non habet 
+      <lb ed="#R" n="21"/>entitatem completam, &amp; terminatam: sed accidens non 
+      <lb ed="#R" n="22"/>est ens, sed entis per Philosoph. 7. met. tex. 12. ergo. 
+      <lb ed="#R" n="23"/>Respondeo, In ista quaestione sic procedo. Primo 
+      e<lb ed="#R" n="24" break="no"/>nim ponam conclusionem intentam: secundo 
+      explica<lb ed="#R" n="25" break="no"/>bo eam per exempla: tertio probabo eam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="26"/>De primo pono talem propositionem, quod accidens 
+      <lb ed="#R" n="27"/>est vera res, propter antiquorum opinionem, qui 
+      di<lb ed="#R" n="28" break="no"/>cunt, quod accidens non est realitas extra animam: 
+      <lb ed="#R" n="29"/>sed est res, quae non est ipsa substantia, non tamen est 
+      <lb ed="#R" n="30"/>res terminata &amp; completa sine substantia, &amp; ita 
+      ha<lb ed="#R" n="31" break="no"/>bet realitatem, quae non est substantia, &amp; tamen nō 
+      <lb ed="#R" n="32"/>est res diuersa a substantia, &amp; per consequens est res 
+      <lb ed="#R" n="33"/>in se ind iuisa absolute, &amp; sic est a substantia, quae est 
+      <lb ed="#R" n="34"/>subiectum eius diuisa relatiue: secundo pono exempla. 
+    </p>
+               <p>
+                  <lb ed="#R" n="35"/>Primum est de linea, &amp; puncto. Linea enim est essen 
+      <lb ed="#R" n="36"/>tia, &amp; res quae non est punctus, non tamen est 
+      essen<lb ed="#R" n="37" break="no"/>tia terminata &amp; completa sine puncto, sed termina 
+      <lb ed="#R" n="38"/>tur a pũcto; &amp; est res in se indiuisa, non tamen est res 
+      <lb ed="#R" n="39"/>a puncto relatiue diuisa: sic etiam e conuerso 
+      pun<lb ed="#R" n="40" break="no"/>ctus est realitas alia a realitate lineae, non tamen est 
+      <lb ed="#R" n="41"/>res terminata in se, sed cum linea: est enim 
+      termi<lb ed="#R" n="42" break="no"/>natio lineae, non enim punctus est res posita, sed 
+      <lb ed="#R" n="43"/>terminus positionis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="44"/>Item, recte imaginor de albedine, quod sit res 
+      <lb ed="#R" n="45"/>quaedam in se indiuisa, intrinsece tamem 
+      intermina<lb ed="#R" n="46" break="no"/>ta, nec terminatur nisi termino extrinseco, scilicet 
+      <lb ed="#R" n="47"/>superficie, vnde ex albedine &amp; superficie fit vnum 
+      <lb ed="#R" n="48"/>non per copulationem, vt res completa copuletur 
+      <lb ed="#R" n="49"/>rei completae, &amp; coniungantur ad inuicem: sed per 
+      <lb ed="#R" n="50"/>omnimodam indiuisionem relatiuam, non per 
+      vnio<lb ed="#R" n="51" break="no"/>nem vel simultatem, sicut punctus cum linea non 
+      <lb ed="#R" n="52"/>facit vnum nisi per indiuisionem intimam, non 
+      ta<lb ed="#R" n="53" break="no"/>men per simultatem, vel per vnionem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="54"/>Aliud exemplum est, quia sicut figura de quarta 
+      <lb ed="#R" n="55"/>specie qualitatis se habet ad quantitatem, sic 
+      acci<lb ed="#R" n="56" break="no"/>dens ad subiectum: sed figura est res quaedam, quae 
+      <lb ed="#R" n="57"/>non est res quantitatis, non est tamen res 
+      termina<lb ed="#R" n="58" break="no"/>ta, sed est terminatio quantitatis, vnde raritas &amp; 
+      <lb ed="#R" n="59"/>leuitas sunt realitates incompletae, &amp; interminatae, 
+      <lb ed="#R" n="60"/>nec terminantur vel complentur sine 
+      quantitate<lb ed="#R" n="61" break="no"/>puta sine partibilitate. Jmpossibile enim est 
+      conci<lb ed="#R" n="62" break="no"/>pere leuitatem, vel raritatem sine partibus, sic vt 
+      <lb ed="#R" n="63"/>raritas sit in se aliquid indiuisum, tamen a 
+      quanti<lb ed="#R" n="64" break="no"/>tate, puta a partibilitate non sit diuisa, sic recte 
+      <lb ed="#R" n="65"/>intelligo in proposito, nec possumus vti hic 
+      ver<lb ed="#R" n="66" break="no"/>bis ita proprijs, sicut verbis Aristotelis, qui dicit, 
+      <lb ed="#R" n="67"/>quod accidentia non sunt entia simpliciter: sed 
+      se<lb ed="#R" n="68" break="no"/>cundum quid, nec sunt absolute entia, sed entis, 
+      <lb ed="#R" n="69"/>quia sunt dispositio, siue qualificatio entis, &amp; a mo 
+      <!--0109.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="70"/>dernis exponitur secundum quid, quia habent 
+      en<lb ed="#R" n="71" break="no"/>titatem debilem, &amp; egentem susentaculo, quod 
+      <lb ed="#R" n="72"/>non est bene ad mentem Philosophi. 
+    </p>
+               <p>
+                  <lb ed="#R" n="73"/>Tertio probo conclusionem illam aliquibus 
+      ra<lb ed="#R" n="74" break="no"/>tionibus. Prima sumitur ex parte effectus formalis: 
+      <lb ed="#R" n="75"/>secunda ex parte vnitatis accidentis cum subiecto: 
+      <lb ed="#R" n="76"/>tertia ex parte inhaerentiae: quarta a maiori, &amp; 
+      quin<lb ed="#R" n="77" break="no"/>ta deducendo ad impossibile. 
+    </p>
+               <p>
+                  <lb ed="#R" n="78"/>Quoad primum arguo sic: Forma &amp; effectus 
+      for<lb ed="#R" n="79" break="no"/>malis sunt eadem formalitas: sed effectus formalis 
+      <lb ed="#R" n="80"/>accidentis non est res diuisa a subiecto; sed 
+      subie<lb ed="#R" n="81" break="no"/>ctum &amp; effectus formalis sunt vnum per intimam 
+      <lb ed="#R" n="82"/>indiuisionem: ergo forma siue accidens, &amp; suum subie 
+      <lb ed="#R" n="83"/>ctum non sunt res diuisae, sed sunt vnum per 
+      omnimo<lb ed="#R" n="84" break="no"/>dam indiuisionem. Antecedens probo auctoritate &amp; 
+      <lb ed="#R" n="85"/>ratione, auctoritas est Auicennae 6. metaphysicae suae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="86"/>Ratione, sic, Effectus formalis formae est 
+      forma<lb ed="#R" n="87" break="no"/>re, &amp; actus actuare. Probo ergo primo in generali 
+      <lb ed="#R" n="88"/>de omni forma sic: Effectus formalis formae, &amp; 
+      a<lb ed="#R" n="89" break="no"/>ctus est materiam formare &amp; actuare, quaero tunc, 
+      <lb ed="#R" n="90"/>Vtrum forma sit ipsamet actuatio, vel actuatio sit 
+      <lb ed="#R" n="91"/>aliquid derelictum a forma in subiecto: non pote st 
+      <lb ed="#R" n="92"/>dari secundum; illud enim derelictum, aut esset 
+      ali<lb ed="#R" n="93" break="no"/>quid absolutum, aut aliquid respectiuum, si 
+      absolu<lb ed="#R" n="94" break="no"/>tum ( vt imaginatur Doctor quidam) quod a 
+      quanti<lb ed="#R" n="95" break="no"/>tate relinquitur extensio quaedam, a rubedine rubi 
+      <lb ed="#R" n="96"/>cundatio, si inquam sit sic, sequitur quod aliquid po 
+      <lb ed="#R" n="97"/>test esse actuatum sine actu, &amp; formatum sine 
+      for<lb ed="#R" n="98" break="no"/>ma, quia ex quo est absolutum, potest Deus ipsum 
+      <lb ed="#R" n="99"/>per suam potentiam separare. 
+    </p>
+               <p>
+                  <lb ed="#R" n="100"/>Item, tunc forma non est causa formalis, sed 
+      effi<lb ed="#R" n="101" break="no"/>ciens, nam hoc modo forma imprimeret effectum 
+      <lb ed="#R" n="102"/>suum in materia, sicut faceret efficiens. Nec illud 
+      po<lb ed="#R" n="103" break="no"/>test esse aliquid relatiuum, si enim esset relatio, tunc es 
+      <lb ed="#R" n="104"/>se actuatum, &amp; esse formatum erit esse relatum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="105"/>Secundo, quia de quo genere &amp; praedicamento 
+      <lb ed="#R" n="106"/>erit? Dicetur forte, quod actuatio actiua est de 
+      ge<lb ed="#R" n="107" break="no"/>nere actionis, actuatio vero passiua est de 
+      genere<lb ed="#R" n="108" break="no"/>passionis. Si sic dicatur, sequitur, quod actio 
+      pro<lb ed="#R" n="109" break="no"/>suat a forma, &amp; quod forma non informiat, &amp; acttuat 
+      <lb ed="#R" n="110"/>nisi agendo, &amp; tunc causulitas formae non erit 
+      di<lb ed="#R" n="111" break="no"/>stincta a causalitate agentis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="112"/>Secundo probo idem antecedens sic: Quia si actus sit 
+      <lb ed="#R" n="113"/>alius ab actuatione, tunc sicut materia actuatur per 
+      <lb ed="#R" n="114"/>actum, sic actuabitur per actuationem, tunc quaero de 
+      <lb ed="#R" n="115"/>actuatione illius acuationis, vtrum differt ab ea, vel 
+      <lb ed="#R" n="116"/>sit eadem: si eadem, ergo forma pari ratione, &amp; 
+      for<lb ed="#R" n="117" break="no"/>ma est eadem cum sua acuatione, quaeram de illa, 
+      <lb ed="#R" n="118"/>&amp; sic semper procedendo quaeram in infinitum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="119"/>Tertio probo idem antecedens ex intentione 
+      Phi<lb ed="#R" n="120" break="no"/>losophi, approbantis dictum Lycophrontis J. Phys. 
+      <lb ed="#R" n="121"/>qui auferebat a propositionibus, hoc verbum est, vt 
+      <lb ed="#R" n="122"/>magis deberet dici: superficies albet, quam 
+      superfi<lb ed="#R" n="123" break="no"/>cies est alba: tantum enim est ibi differentia 
+      gram<lb ed="#R" n="124" break="no"/>maticalis: aut ergo albere est idem, quod albedo, &amp; 
+      <lb ed="#R" n="125"/>habeo propositum: aut est respectus albedinis ad 
+      sub<lb ed="#R" n="126" break="no"/>iectum, qui est respectus e xtrinsecus, &amp; accidit albedi 
+      <lb ed="#R" n="127"/>ni, &amp; subiecto, &amp; est ipsamet inhaerentia albedinis, vt 
+      <lb ed="#R" n="128"/>dicunt quidam: &amp; si sic dicatur, sequitur quod albe 
+      <lb ed="#R" n="129"/>re non est esse quale, nunquam enim relatio dat 
+      de<lb ed="#R" n="130" break="no"/>nominationem nisi sui generis: est ergo albere esse 
+      <lb ed="#R" n="131"/>relatum, &amp; non esse quale. Ex quo sequitur, quod 
+      <lb ed="#R" n="132"/>ista praedicatio: superficies est alba, non est 
+      prae<lb ed="#R" n="133" break="no"/>dicatio absoluta, sed praedicatio relatiua, 
+      sequi<lb ed="#R" n="134" break="no"/>tur etiam, quod ista: linea est recta, est multo mugis 
+      <lb ed="#R" n="135"/>praedicatio qualitatiua, quam ista: supersicies est al 
+      <lb ed="#R" n="136"/>ba, &amp; ratio est, quia inter lineam, &amp; rectitudinem est 
+      <lb ed="#R" n="137"/>respectus extrinsecus, nec esse rectum est aliud, quam es 
+      <!--0110.xml-->
+      <pb ed="#R" n="110"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>se indiuisum a linea; similiter de raritate, &amp; partibus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="2"/>Dices, quod per albere importatur non respectus, 
+      <lb ed="#R" n="3"/>sed modus absolutus ipsius albedinis. Contra: talem 
+      <lb ed="#R" n="4"/>modum, ex quo absolutus est, possem intelligere 
+      si<lb ed="#R" n="5" break="no"/>ne albedine, &amp; per consequens intelligere album 
+      <lb ed="#R" n="6"/>sine albedine, 
+    </p>
+               <p>
+                  <lb ed="#R" n="7"/>Probo nunc minorem, quod effectus formalis 
+      ac<lb ed="#R" n="8" break="no"/>cidentis sit indiuisio a subiecto, sic: Si enim 
+      actua<lb ed="#R" n="9" break="no"/>tio sit res diuisa ab actuabili, cum actuatio ista 
+      a<lb ed="#R" n="10" break="no"/>ctuet actuabile, quaero quid est illud actuare illius 
+      <lb ed="#R" n="11"/>actuationis? Si dicas, quod est illud idem, quod 
+      ip<lb ed="#R" n="12" break="no"/>sa actuatio, habeo propositum, quia pari 
+      ratione<lb ed="#R" n="13" break="no"/>standum erat in primo: si sit aliud, illud iterum 
+      actua<lb ed="#R" n="14" break="no"/>bit actuabile, &amp; quaero de actuatione eius, &amp; si 
+      ea<lb ed="#R" n="15" break="no"/>dem, habeo propositum, quod siandum erat in 
+      pri<lb ed="#R" n="16" break="no"/>mo; si vero sit aliud procedetur in infinitum. Vnde 
+      <lb ed="#R" n="17"/>sicut si vellem probare, quod punctus non est res 
+      di<lb ed="#R" n="18" break="no"/>uisa a linea, eo quod si linea esset sic diuisa a pũcto, 
+      <lb ed="#R" n="19"/>vel e conuerso, vtrumque esset terminatum sine 
+      al<lb ed="#R" n="20" break="no"/>tero, &amp; linea sine puncto, &amp; punctus sine linea, &amp; qui 
+      <lb ed="#R" n="21"/>punctus non esset determinatio ipsius lineae, sed 
+      es<lb ed="#R" n="22" break="no"/>set aliquid imprimens ipsam terminationem. Sic di 
+      <lb ed="#R" n="23"/>co in proposito de actuatione ipsa, &amp; actuabili. 
+    </p>
+               <p>
+                  <lb ed="#R" n="24"/>Ex his posset formari vna talis ratio: Quando ali 
+      <lb ed="#R" n="25"/>qua duo sunt indiuisa, quod libet eorum necessario 
+      <lb ed="#R" n="26"/>sunt res indiuisae inter se: sed accidens &amp; substantia 
+      <lb ed="#R" n="27"/>sunt indiuisa in vna re tertia, puta in vno effectu 
+      <lb ed="#R" n="28"/>formali, scilicet in vna formatione &amp; actuatione: 
+      <lb ed="#R" n="29"/>ergo. ergo accidens venit ad constituendum vnum 
+      <lb ed="#R" n="30"/>cum suostantia per omnimodam indiuisionem: Non 
+      <lb ed="#R" n="31"/>dico quod sint vna rcalitas, sed fundant vnam rem 
+      <lb ed="#R" n="32"/>per indiuisionem, &amp; haec indiuisio vocatur 
+      compo<lb ed="#R" n="33" break="no"/>sitio accidentis cum substantia. 
+    </p>
+               <p>
+                  <lb ed="#R" n="34"/>Secunda ratio principalis conclusionem est ex 
+      <lb ed="#R" n="35"/>vnitate accidentis cum subiecto sic: Quando aliquae 
+      <lb ed="#R" n="36"/>res faciunt vnum vnitate, quae est relatio positiua, 
+      <lb ed="#R" n="37"/>&amp; non vnitate, quae est negatio diuisionis relatiuae 
+      <lb ed="#R" n="38"/>necesse est quod eorum vnitas sit vnitas acerui: 
+      pro<lb ed="#R" n="39" break="no"/>bo, haec enim est via Philosophi S. metaph. tex. 15. 
+      <lb ed="#R" n="40"/>sed accidens, &amp; subiecum non sunt vnum per 
+      mo<lb ed="#R" n="41" break="no"/>dum acerui: ergo vnio eorum non est relatio, sed 
+      <lb ed="#R" n="42"/>indiuisio relatiua, siue negatio diuisionis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="43"/>Maiorem, etsi sit Philosopli, probo tamen 
+      ratio<lb ed="#R" n="44" break="no"/>ne, quia aceruus non es aliud, nisi vnio ex 
+      aggre<lb ed="#R" n="45" break="no"/>gatione diuisorum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="46"/>Dices: Accidens, &amp; subiectum fundant relationem 
+      <lb ed="#R" n="47"/>istam vnionis per essentias suas, &amp; ideo non sunt 
+      <lb ed="#R" n="48"/>vnum sicut aceruus. Haec euasio non multum valet, 
+      <lb ed="#R" n="49"/>quoniam ex quo relatio illa non est vnitas, non 
+      ha<lb ed="#R" n="50" break="no"/>bes vnum nisi per augregationem, non autem 
+      vni<lb ed="#R" n="51" break="no"/>tatem aliquam per se, in vno enim per se non potest 
+      <lb ed="#R" n="52"/>dici, quod sit respectus medius, alias etiam album 
+      <lb ed="#R" n="53"/>significaret subiectum &amp; albedinem, &amp; relationem, 
+      <lb ed="#R" n="54"/>&amp; tamen Arist. dicit 7. met. tex. 12. quod album non 
+      <lb ed="#R" n="55"/>est in genere propter duo significare, non dicit 
+      pro<lb ed="#R" n="56" break="no"/>pter tria, &amp; de essentia albi essent realitates trium 
+      <lb ed="#R" n="57"/>praedicamentorum, &amp; vlterius vnitas qualitatis cum 
+      <lb ed="#R" n="58"/>subiecto non esset vnitas reducibilis ad praedicamem 
+      <lb ed="#R" n="59"/>tum qualitatis, sed relationis: ergo oportet, quod 
+      <lb ed="#R" n="60"/>accidens &amp; subiectum sint vnum vnitate siue 
+      indi<lb ed="#R" n="61" break="no"/>uisione, &amp; non vnione. Haec est ratio 
+      Commentato<lb ed="#R" n="62" break="no"/>ris 2. de ani. com. 2. &amp; Arist. 8. met. tex. 15. Commen 
+      <lb ed="#R" n="63"/>tator ibidem. Secundi enim eos non est causa 
+      quae<lb ed="#R" n="64" break="no"/>renda, quare ex subiecto &amp; accidente fiat vnum, 
+      si<lb ed="#R" n="65" break="no"/>cut quarc ex cera &amp; figura fiat vnum, si autem 
+      es<lb ed="#R" n="66" break="no"/>sent vnum per relationem, eslet vtique tunc causa 
+      <lb ed="#R" n="67"/>quaerenda. Sed si ponatur. quod figura &amp; cera sint 
+      <lb ed="#R" n="68"/>fundantes indi uisionem, non autem relationem, tunc 
+      <!--0110.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>patet, quod non est quaerenda causa, vnde 
+      Commen<lb ed="#R" n="70" break="no"/>tator vbi supra: Congregatum enim non dicitur 
+      <lb ed="#R" n="71"/>vnum, nisi per vnitatem a forma. Ex hoc potest 
+      in<lb ed="#R" n="72" break="no"/>telligi ilud 8. met. tex. rj. &amp; 16. quomodo ex 
+      mate<lb ed="#R" n="73" break="no"/>ria &amp; forma fit vnum, quomodo etiam ex subiecto 
+      <lb ed="#R" n="74"/>&amp; accidente: faciunt enim vnum per se, quod 
+      non<lb ed="#R" n="75" break="no"/>esset verum, si corum vnitas esset relatiua. Sed pro 
+      <lb ed="#R" n="76"/>tanto faciunt vnum, quia indiuise conueniunt ad 
+      <lb ed="#R" n="77"/>vnam rem tertiam, scilicet ad compusitum, quod 
+      qui<lb ed="#R" n="78" break="no"/>dem est vnum per indiuisionem partium, nam compo 
+      <lb ed="#R" n="79"/>situm est tertia res, non addita, sed resultans, pro 
+      <lb ed="#R" n="80"/>quanto est ipsa materia &amp; forma, vt indiuisa. 
+    </p>
+               <p>
+                  <lb ed="#R" n="81"/>Tertia ratio principalis est ista: Illud. quod non 
+      <lb ed="#R" n="82"/>est aliud, nisi quaedam inhaerentia, non est diuisa ab 
+      <lb ed="#R" n="83"/>eo, cui inhaeret, sed facit vnum cum illo per 
+      indiui<lb ed="#R" n="84" break="no"/>sionem: sed accidens est huiusmodi: ergo. Maior pa 
+      <lb ed="#R" n="85"/>tet, quoniam impossibile est concipere inhaerentiam 
+      <lb ed="#R" n="86"/>sine termino inhaerentiae, quod est ipsum subiectum 
+      <lb ed="#R" n="87"/>accidentis. Minorem probo, quoniam non venit 
+      <lb ed="#R" n="88"/>inharentia ad accidens, sicut punctus ad lineam. Et 
+      <lb ed="#R" n="89"/>hic faciunt multi magnam difficultatem, vtrum 
+      in<lb ed="#R" n="90" break="no"/>haerentia sit de essentia accidentis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="91"/>Et ego respondeo, quod inhaerentia est ipsummet 
+      <lb ed="#R" n="92"/>accidens. &amp; probo, quia certum est, quod non est 
+      a<lb ed="#R" n="93" break="no"/>liud absolutum: si ergo sit aliud, aut est relatio, aut 
+      <lb ed="#R" n="94"/>est respectus de alio genere aliorum sex; non est 
+      re<lb ed="#R" n="95" break="no"/>latio, quia tunc accidens inhaerere non esset aliud, 
+      <lb ed="#R" n="96"/>quam ipsum referri, &amp; subiecum recipere, &amp; cum 
+      <lb ed="#R" n="97"/>accidens inhaerendo det esse tale, omne esse 
+      tale<lb ed="#R" n="98" break="no"/>erit esse relatum.
+    </p>
+               <p>
+                  <lb ed="#R" n="99"/>Item secundo non magis est inhaerentia per 
+      essen<lb ed="#R" n="100" break="no"/>tiam quarta species qualitatis, quam alia acciden. 
+      <lb ed="#R" n="101"/>tia, alias essentialius esset accidens, quam alia acci 
+      <lb ed="#R" n="102"/>dentia: sed qualitates de quarta specieaunt ipsamet 
+      <lb ed="#R" n="103"/>inhaerentia: verbi gratia, figura non est nisi inhaeren 
+      <lb ed="#R" n="104"/>tia; non enim est aliud quam adiacentia 
+      partium<lb ed="#R" n="105" break="no"/>vnde si liceret dicere, accidens magis est quaedam 
+      <lb ed="#R" n="106"/>adiacentia, quam accidens. Vnde Auctor 6. Princip. 
+      <lb ed="#R" n="107"/>assignans rationem sex praedicamentorum dicit, 
+      <lb ed="#R" n="108"/>quod talium ratio consistit in adiacentia, &amp; in 
+      quo<lb ed="#R" n="109" break="no"/>dam antiquo Commento Phys. 2. dicit 
+      Commen<lb ed="#R" n="110" break="no"/>tator, quod albedo non est, sed album, 
+    </p>
+               <p>
+                  <lb ed="#R" n="111"/>Confirmatio: Si esse formaliter accidentis estt 
+      ac<lb ed="#R" n="112" break="no"/>cidere, sicut albedinis est albere, cum albedo non sit 
+      <lb ed="#R" n="113"/>nisi pura albedo, nec accidens erit nisi pura 
+      acciden<lb ed="#R" n="114" break="no"/>tia: non ergo inhaerentia est de essentia accidentis, 
+      <lb ed="#R" n="115"/>sed est praecise ipsa inhaerentia, &amp; inhaerentia est 
+      ip<lb ed="#R" n="116" break="no"/>samet essentia accidentis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="117"/>Sed contra: accidens manet, quando non manet 
+      <lb ed="#R" n="118"/>inhaerentia: ergo accidens non est inhaerentia ipsa, 
+      <lb ed="#R" n="119"/>vt dicitur. Respondeo. Inhaerentia accidentis ad 
+      su<lb ed="#R" n="120" break="no"/>biectum non est realitas substantiae, nec realitas 
+      acci<lb ed="#R" n="121" break="no"/>dentis, tam substantia enim, quam accidens dicunt 
+      rea<lb ed="#R" n="122" break="no"/>litates positiuas, inhaerentia vero dicit quid 
+      priua<lb ed="#R" n="123" break="no"/>tiuum, quia dicit indiuisionem vtriusque in aliquo 
+      ter<lb ed="#R" n="124" break="no"/>tio, scilicet in effectu formali. Non addit ergo inhae 
+      <lb ed="#R" n="125"/>rentia realitatem aliquam positiuam, sed 
+      negatio<lb ed="#R" n="126" break="no"/>nem. &amp; illam tollit Deus, quando separat accidens a 
+      su<lb ed="#R" n="127" break="no"/>biecto: vnde sicut realitas puncti non est indiuisio, 
+      <lb ed="#R" n="128"/>sed est res fundans indiuisionem cum linea, sic de 
+      acci<lb ed="#R" n="129" break="no"/>dente in proposito. Sed de hoc amplius in secundo.
+    </p>
+               <p>
+                  <lb ed="#R" n="130"/>Quarta ratio a maiori, sic: Si aliquod accidens 
+      <lb ed="#R" n="131"/>esset realitas terminata, hoc maxime verum esset 
+      <lb ed="#R" n="132"/>de quantitate: sed quantitas non est res diuisa faciens 
+      <lb ed="#R" n="133"/>vnum indiuisum per se, non per aggregationem, &amp; 
+      re<lb ed="#R" n="134" break="no"/>spectum medium, sed per indiuisionem: ergo. Maior 
+      pro<lb ed="#R" n="135" break="no"/>positio patet. Propter hoc enim quidam dicunt, q 
+      <lb ed="#R" n="136"/>quantitas est idem quod substantia, propter conue 
+      <!--0111.xml-->
+      <pb ed="#R" n="111"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>nientiam eius ad substantiam, vnde &amp; in Sacramē- 
+      <lb ed="#R" n="2"/>to altaris ponitur quantitas sola separata, propter 
+      <lb ed="#R" n="3"/>hoc quia videtur qui sit magis ens separabile, quam 
+      <lb ed="#R" n="4"/>alia accidentia. Sed minorem rationis probo: quod 
+      <lb ed="#R" n="5"/>quantitas non sit res aliqua terminata &amp; diuisa, ca 
+      <lb ed="#R" n="6"/>pio enim lignum, verum est dicere, quod est 
+      parti<lb ed="#R" n="7" break="no"/>bile per quantitatem; aut per hoc quod quantitas 
+      re<lb ed="#R" n="8" break="no"/>linquit modum aliquem in substantia, quae est ipsa 
+      <lb ed="#R" n="9"/>partibilitas; aut quia quantitas est ipsamet 
+      partibi<lb ed="#R" n="10" break="no"/>litas partium substantiae: non primo modo, 
+      quia<lb ed="#R" n="11" break="no"/>tunc possem intelligere substantiam partibilem 
+      si<lb ed="#R" n="12" break="no"/>ne quantitate, &amp; posset Deus facere eam sub illo 
+      <lb ed="#R" n="13"/>modo derelicto, non faciendo eam sub quantitate, 
+      <lb ed="#R" n="14"/>vt imaginatur alia opinio. 
+  </p>
+               <p>
+                  <lb ed="#R" n="15"/>Similiter tunc causalitas eius erit causalitas effi 
+      <lb ed="#R" n="16"/>cientis, non formae: ergo oportet dare secundum 
+      <lb ed="#R" n="17"/>modum, quod quantitas sit ipsamet partibilitas 
+      par<lb ed="#R" n="18" break="no"/>tium. Et imaginor sic, quod cum dico partem, duo 
+      <lb ed="#R" n="19"/>dico, scilicet ipsam substantiam, &amp; materiam eius, 
+      <lb ed="#R" n="20"/>secundo partibilitatem eius, &amp; haec non sunt vnum, 
+      <lb ed="#R" n="21"/>&amp; idem, sicut non est idem in parte carnis carueitas, 
+      <lb ed="#R" n="22"/>&amp; ipsa partibilitas, sic quod est nomen concretum 
+      <lb ed="#R" n="23"/>ex ipso, quod est pars denominatiue, &amp; ex ipsa 
+      par<lb ed="#R" n="24" break="no"/>tibilitate formali, sic vt quaelibet pars ligni possit 
+      <lb ed="#R" n="25"/>resolui in duo, in ligneitatem &amp; partibilitatem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="26"/>Hoc viso apparet propositum. Dico enim, quod 
+      <lb ed="#R" n="27"/>ipsa partibilitas non aduenit ligno isti per 
+      relatio<lb ed="#R" n="28" break="no"/>nem mediam, quasi adueniat partibilitas ipsis 
+      par<lb ed="#R" n="29" break="no"/>tibus per modum vnionis, tunc enim oporteret, quod 
+      <lb ed="#R" n="30"/>substratum esset aliquid diuisibile, &amp; haberet 
+      par<lb ed="#R" n="31" break="no"/>tem sub partibilitate, quae est quantitas, &amp; 
+      partibi<lb ed="#R" n="32" break="no"/>litas ipsa. Vltra hoc autem esset aliquid derelictum 
+      <lb ed="#R" n="33"/>a quantitate in ligneitate, &amp; sic causalitas formae 
+      <lb ed="#R" n="34"/>esset causalitas efficientis, aut est ipsamet quanti 
+      <lb ed="#R" n="35"/>tas, &amp; standum erat in primo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="36"/>Confirmo hoc, quia aliter non potestt vitari, quin 
+      <lb ed="#R" n="37"/>plures dimensiones essent simul, nam cum dimensio 
+      <lb ed="#R" n="38"/>immediate consequatur partes, &amp; per te partes 
+      li<lb ed="#R" n="39" break="no"/>gni sunt diuisae a partibus quantitatis, necessario 
+      di<lb ed="#R" n="40" break="no"/>mensiones essent aliae ligni, &amp; aliae quantitatis: &amp; 
+      <lb ed="#R" n="41"/>ideo ego imaginor, quod sicut linea recta dicit vnum 
+      <lb ed="#R" n="42"/>per accidens vnica indiuisione fundata in iinea, &amp; 
+      <lb ed="#R" n="43"/>rectitudine, sic ligneitas &amp; partibilitas in parte 
+      li<lb ed="#R" n="44" break="no"/>gni dicunt vnum per omnimodam indiuisionem, vt 
+      <lb ed="#R" n="45"/>esse partibile non sit aliquid derelictum a 
+      quantita<lb ed="#R" n="46" break="no"/>te in ligno, sed sit indiuisio ipsius quantitatis, quae est 
+      <lb ed="#R" n="47"/>ipsamet partibilitas, &amp; ipsius ligni. Et ideo in eodem 
+      <lb ed="#R" n="48"/>composito, vbi sunt multa quanta per quantitatem, 
+      <lb ed="#R" n="49"/>sicut in homine substantia est quanta, &amp; qua litates, 
+      <lb ed="#R" n="50"/>&amp; alia accidentia extensibilia non est, nisi vna quan 
+      <lb ed="#R" n="51"/>titas, quod non esset, si quantitas non esset ipsamet 
+      <lb ed="#R" n="52"/>partibilitas: si enim illud, quod substernitur 
+      quan<lb ed="#R" n="53" break="no"/>titati, haberet partem, &amp; partem substratam corre 
+      <lb ed="#R" n="54"/>spondentem partibus quantitatis, cum diuisae 
+      rea<lb ed="#R" n="55" break="no"/>litates hoc modo haberent alias &amp; alias partes, 
+      ha<lb ed="#R" n="56" break="no"/>berent aliam, &amp; aliam partibilitatem, quia 
+      multi<lb ed="#R" n="57" break="no"/>plicato effectu formali multiplicatur formalis 
+      ra<lb ed="#R" n="58" break="no"/>tio illius effectus, &amp; tunc haberent necessario aliam, 
+      <lb ed="#R" n="59"/>&amp; aliam dimensionem. Sed ponendo quod 
+      partibi<lb ed="#R" n="60" break="no"/>litas ipsa sit ipsamet quantitas indiuisa a 
+      natura<lb ed="#R" n="61" break="no"/>fundante partibilitatem, tunc bene apparet, 
+      quomo<lb ed="#R" n="62" break="no"/>do non oportet quod sit in toto vnio per accidens, 
+      <lb ed="#R" n="63"/>vbi vna quantitas, quia plures totalitates hoc 
+      mo<lb ed="#R" n="64" break="no"/>do possunt indiuidi in vna partibilitate. 
+    </p>
+               <p>
+                  <lb ed="#R" n="65"/>Propter istam imaginationem aliqui putauerunt, 
+      <lb ed="#R" n="66"/>quod quantitas esset idem realiter cum substantia, 
+      <lb ed="#R" n="67"/>quod faciliter improbatur ex natura vnionis, quia 
+      <lb ed="#R" n="68"/>substantia manente inuariata transmutatur nunc in 
+      <!--0111.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>vnam quantitatem, nunc in aliam, licet tamen 
+      rea<lb ed="#R" n="70" break="no"/>liter differant, non differunt sicut duae realitates 
+      <lb ed="#R" n="71"/>diuisae quantumcumque vnitae, sed veniunt ad 
+      vni<lb ed="#R" n="72" break="no"/>tatem vnius indiuisionis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="73"/>Quinta ratio est deducens ad impossibile, quia si 
+      <lb ed="#R" n="74"/>accidens sit realitas terminata diuisa a substantia, 
+      <lb ed="#R" n="75"/>sequuntur multa inconuenientia, &amp; specialiter tria. 
+      <lb ed="#R" n="76"/>Primum, quod in naso simo erunt multae simitates, &amp; 
+      <lb ed="#R" n="77"/>in ligno quadrato multa quadrata. Secundo, quod 
+      <lb ed="#R" n="78"/>plibet accidens est per se vnum corpus. Tertio, quia 
+      <lb ed="#R" n="79"/>multae dimensiones, &amp; multa corpora erunt simul.
+    </p>
+               <p>
+                  <lb ed="#R" n="80"/>Primum patet, quia cum simitas sit figura nasi, 
+      <lb ed="#R" n="81"/>non est aliud quam indiuisio quaedam partium simi: 
+      <lb ed="#R" n="82"/>ergo quot sunt partes in naso, tot erunt simitates, 
+      <lb ed="#R" n="83"/>quae quidem non erunt vnum nisi per relationem 
+      <lb ed="#R" n="84"/>sed per te in naso est albedo, quae per te est realitas 
+      <lb ed="#R" n="85"/>terminata, simpliciter sunt ibi multa accidentia, quae 
+      <lb ed="#R" n="86"/>per te sunt vnum per vnionem: ergo indiuisiones 
+      <lb ed="#R" n="87"/>partium istorum accidentium sunt vnum per 
+      vnio<lb ed="#R" n="88" break="no"/>nem relationis, non per indiuisionennergo erunt ibi 
+      <lb ed="#R" n="89"/>multae simitates, quae erunt vnum per 
+      aggregatio<lb ed="#R" n="90" break="no"/>nem, non per vnionem. Ex quo enim quodlibet 
+      ac<lb ed="#R" n="91" break="no"/>cidens est in naso, &amp; est res terminata, similiter 
+      sub<lb ed="#R" n="92" break="no"/>stantia ipsius nasi, partes eorum erunt aliae, ex 
+      conse<lb ed="#R" n="93" break="no"/>quenti indiuisio eorum erit alia, &amp; alia figura per 
+      <lb ed="#R" n="94"/>consequens, &amp; sic simitas vltimo erit alia &amp; alia. 
+    </p>
+               <p>
+                  <lb ed="#R" n="95"/>Dices, quod est vna simitas, quia est vna figuratio 
+      <lb ed="#R" n="96"/>&amp; vnica indiuisio partium subiecti, &amp; accidentium. 
+      <lb ed="#R" n="97"/>Contra hoc arguo, quia impossibile est 
+      modifica<lb ed="#R" n="98" break="no"/>tionem esse vnam indiuisam, nisi modificabilia sint 
+      <lb ed="#R" n="99"/>vnum indiuisum: sed per te substantia nasi, &amp; quilibet 
+      <lb ed="#R" n="100"/>eius accidens est res vna diuisa &amp; terminata: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="101"/>Secundum inconueniens sic ostendo, quia corpus 
+      <lb ed="#R" n="102"/>est illud, quod est longum, latum, &amp; profundum: ergo 
+      <lb ed="#R" n="103"/>in longum, latum, &amp; profundum est diuisum corpus: 
+      <lb ed="#R" n="104"/>sed per te hic sunt distincta longa, lata, &amp; profunda 
+      <lb ed="#R" n="105"/>fundata super diuersas, &amp; diuersas partes subiecti, 
+      <lb ed="#R" n="106"/>&amp; aliorum accidentium, quae per te sunt res diuisae, 
+      <lb ed="#R" n="107"/>&amp; quodlibet in se terminatum, nec plura ista longa, 
+      <lb ed="#R" n="108"/>lata, &amp; profunda veniunt ad vnum longum, latum, 
+      <lb ed="#R" n="109"/>&amp; profundum indiuise, sed per vuionem relatiuam 
+      <lb ed="#R" n="110"/>tantum: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="111"/>Tertium inconueniens patet ex eodem medio, 
+      <lb ed="#R" n="112"/>quia antecedens erat subiectum. Sic ergo dico, q 
+      <lb ed="#R" n="113"/>accidens est aliud a substantia: transmutatio enim 
+      <lb ed="#R" n="114"/>facit scire maxime realitatum alietatem: substantia 
+      <lb ed="#R" n="115"/>autem transmutatur ab accidente in accidens: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="116"/>Dico tamen secundo, qui non est sic aliud, quin cum 
+      <lb ed="#R" n="117"/>illo fundet indiuisionem intimam. venit enim cum 
+      <lb ed="#R" n="118"/>substantia, non per relationem mediam, sed per 
+      in<lb ed="#R" n="119" break="no"/>diuisionem relatiuam, quae dicitur relatiua pro tanto, 
+      <lb ed="#R" n="120"/>quod habet extrema: ista autem indiuisio est 
+      com<lb ed="#R" n="121" break="no"/>positio ipsa accidentis cum substantia, &amp; potest tolli 
+      <lb ed="#R" n="122"/>per potentiam diuinam. Exemplum aptum ad hoc est 
+      <lb ed="#R" n="123"/>de partibus ligni continui, quae veniunt ad inuicem 
+      <lb ed="#R" n="124"/>non per vnionem, &amp; relationem mutuam, sed per 
+      <lb ed="#R" n="125"/>mutuam relatiuam vnitatem &amp; indiuisionei. 1. 
+    </p>
+               <p>
+                  <lb ed="#R" n="126"/>Ad argumentum in oppositum, concedo quod ens 
+      <lb ed="#R" n="127"/>praedicatur in recto, &amp; per se de accidente, distinguo 
+      <lb ed="#R" n="128"/>tamem de per se: potest enim accipi per se primo 
+      mo<lb ed="#R" n="129" break="no"/>do, vel tertio modo; tunc licet accidens sit ens per se 
+      <lb ed="#R" n="130"/>primo modo, non tamem tertio modo, &amp; vniuersaliter 
+      <lb ed="#R" n="131"/>nulla res est ens per se tertio modo, quae non venit ad 
+      <lb ed="#R" n="132"/>constitutionem tertij, nisi per indiuisionem 
+      relati<lb ed="#R" n="133" break="no"/>uam, quia per se tertio modo notat entitatem diuisam 
+      <lb ed="#R" n="134"/>&amp; terminatam, per se autem primo modo non, sed 
+      <lb ed="#R" n="135"/>tantum notat illud, quod sic inest per se, quod inest 
+      <lb ed="#R" n="136"/>sibi per rationem subiecti, &amp; per nihil aliud. 
+      <lb ed="#R" n="137"/>
+                  <!-- line coord error -->
+               </p>
+            </div>
+            <div>
+               <head>Articulus 2</head>
+               <head type="question-title">
+            Utrum accidens habeat entitatem interminatam 
+            et indiuisam a subiecto.
+          </head>
+               <p>
+      <!--0112.xml-->
+                  <pb ed="#R" n="112"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>ARTICVLVS JJ. 
+      <lb ed="#R" n="2"/>Vtrum accidens habeat entitatem interminatam 
+      <lb ed="#R" n="3"/>&amp; indiuisam a subieco. 
+    </p>
+               <p>
+                  <lb ed="#R" n="4"/>QVo ad secundam quaestionem arguo primo, 
+      <lb ed="#R" n="5"/>quod si poneretur accidens habere entitatem 
+      <lb ed="#R" n="6"/>interminatam &amp; indiuisam a subiecto, non 
+      <lb ed="#R" n="7"/>est antiqua philosophia, &amp; sententia Sanctorum 
+      <lb ed="#R" n="8"/>quia Aristoteles posuit praedicamenta esse 
+      imper<lb ed="#R" n="9" break="no"/>mixta, patet in praedicamentis: ista autem positio 
+      <lb ed="#R" n="10"/>ponit ea permixta, quia ponit quod accidentia 
+      fa<lb ed="#R" n="11" break="no"/>ciunt vnum cum substantia per vnitatem, &amp; 
+      inti<lb ed="#R" n="12" break="no"/>mam indiuisionem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="13"/>In oppositum est, quia sola substantia est hoc 
+      ali<lb ed="#R" n="14" break="no"/>quid, idest terminatum per Philosophum in 
+      praedi<lb ed="#R" n="15" break="no"/>camentis. Respondeo, pono conclusionem quod po 
+      <lb ed="#R" n="16"/>sitio ista est mens Sanctorum, &amp; Philosophi, &amp; Com 
+      <lb ed="#R" n="17"/>mentatoris. Probo per August. 7. de Trin. c. 4. de ma 
+      <lb ed="#R" n="18"/>gnis, qui dat differentiam inter seruum &amp; colorem: 
+      <lb ed="#R" n="19"/>nam secundum eum seruus dicitur relatiue, &amp; 
+      simi<lb ed="#R" n="20" break="no"/>liter color, sed differenter, quoniam seruus licet 
+      di<lb ed="#R" n="21" break="no"/>catur relatiue, est tamen aliquid ad se, puta homo, 
+      <lb ed="#R" n="22"/>qui est seruus: color autem sic dicitur relatiue, quod 
+      <lb ed="#R" n="23"/>non est aliquid ad se, sed eius esse est esse ad aliud. 
+      <lb ed="#R" n="24"/>Quaero ergo de intellectu horum verborum, quid 
+      in<lb ed="#R" n="25" break="no"/>tendit August. dicere, cum dicit, quod color non 
+      di<lb ed="#R" n="26" break="no"/>citur ad se, aut quia est purus respectus, &amp; hoc est 
+      <lb ed="#R" n="27"/>manifeste falsum, aut quia fundat respecum ad 
+      su<lb ed="#R" n="28" break="no"/>biectum, &amp; hoc modo etiam seruus non dicitur ad 
+      <lb ed="#R" n="29"/>se; vel tertio, quia quidditatiue, &amp; indiuise est 
+      enti<lb ed="#R" n="30" break="no"/>tas alterius, &amp; non videtur, quod possit aliter 
+      intel<lb ed="#R" n="31" break="no"/>ligi, &amp; sic habeo propositum, quia color non est nisi 
+      <lb ed="#R" n="32"/>coloratio ipsa, &amp; affectio, quae intrinsece est alterius. 
+    </p>
+               <p>
+                  <lb ed="#R" n="33"/>Dices ibidem, dicit August. quod candor dicitur 
+      <lb ed="#R" n="34"/>ad se candor. Respondeo: Non dicit hoc, quin 
+      can<lb ed="#R" n="35" break="no"/>dor essentialiter, &amp; totaliter dicatur ad subiectum, 
+      <lb ed="#R" n="36"/>sed pro tanto dicitur, quod dicitur ad se candor, 
+      <lb ed="#R" n="37"/>quia potest se denominare, dicendo candidatio est 
+      <lb ed="#R" n="38"/>candida, vel candor est candidus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="39"/>Item idem lib. 6. contra Julianum cap. 18. 
+      appro<lb ed="#R" n="40" break="no"/>bat Julianum, qui dicit quod tertia species 
+      quali<lb ed="#R" n="41" break="no"/>tatis non est nisi quaedam affectio, &amp; ponit exemplum 
+      <lb ed="#R" n="42"/>de languore: sic, nec ego volo dicere aliud, nisi quod 
+      <lb ed="#R" n="43"/>candor non est res, a qua profluat candidatio, sed 
+      <lb ed="#R" n="44"/>est candidatio ipsa. 
+    </p>
+               <p>
+                  <lb ed="#R" n="45"/>Item haec est mens <ref>Arist. 7. metaph. tex. 12.</ref> cum 
+      di<lb ed="#R" n="46" break="no"/>cit, qui accidens non est ens, sed entis: oblique autem 
+      <lb ed="#R" n="47"/>significat eandem realitatem quam rectum, in 
+      adia<lb ed="#R" n="48" break="no"/>centia tamen quadam per modum cuiusdam 
+      inti<lb ed="#R" n="49" break="no"/>mati. Intentio ergo Philosophi ex hoc colligi 
+      po<lb ed="#R" n="50" break="no"/>test, quod intentio Philosophi est, quod accidens, eo q 
+      <lb ed="#R" n="51"/>non est ens, sed entis, non sit res terminata, sed res in 
+      <lb ed="#R" n="52"/>adiacentia, imo ipsa adiacentia ad alterum, 
+      vnde<lb ed="#R" n="53" break="no"/>proprius figura exprimitur per hoc nomen 
+      figura<lb ed="#R" n="54" break="no"/>tio, quam per hoc nomen figura, quia sigura rem 
+      <lb ed="#R" n="55"/>suam importat per modum cuiusdam terminati, 
+      fi<lb ed="#R" n="56" break="no"/>guratio vero per modum adiacentis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="57"/>Item <ref>Commentator 7. met. com. 3.</ref> Aristoteles, 
+      in<lb ed="#R" n="58" break="no"/>quit, intelligit, quod <quote source="http://scta.info/resource/xch7dn-d1e102-d1e558@86-91">substantia est causa essentiae 
+        <lb ed="#R" n="59"/>accidentium</quote>, &amp; post com. 4. dicit, quod <quote source="http://scta.info/resource/xch7dn-d1e102-d1e691@42-46">accidentia 
+      <lb ed="#R" n="60"/>constituuntur per substantiam</quote>, &amp; ideo ponitur 
+      sub<lb ed="#R" n="61" break="no"/>stantia in definitione eorum. Nec intelligit 
+      Com<lb ed="#R" n="62" break="no"/>mentator per constitui idem quod sustentari, sed 
+      <lb ed="#R" n="63"/>per constitui intelligit terminari. 
+    </p>
+               <p>
+                  <lb ed="#R" n="64"/>Item <ref>4. met. Comm. 2.</ref> vbi dicit Aristoteles, quod 
+      <lb ed="#R" n="65"/>entia sunt sicut sana, dicit Comment. <quote source="http://scta.info/resource/xch7dn-d1e77-d1e475@44-59">praedicamenta 
+      <lb ed="#R" n="66"/>attribuuntur substantiae, non quia sit agens, aut 
+      fi<lb ed="#R" n="67" break="no"/>nis eorum, sed quia constituuntur per ipsam</quote>.
+    </p>
+               <p>
+      <!--0112.xml-->
+                  <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>Item <ref>12. met. com. 3.</ref> dat differentiam inter 
+      sub<lb ed="#R" n="69" break="no"/>stantiam &amp; accidens, dicens, quoniam <quote source="http://scta.info/resource/xch7dn-d1e143-d1e568@160-165">substantia est
+      <lb ed="#R" n="70"/>constans per se</quote>, idest habet terminos per se 
+      constan<lb ed="#R" n="71" break="no"/>tes, accidens autem constat cum substantia; &amp; non 
+      <lb ed="#R" n="72"/>loquitur tantum de accidentibus secundum 
+      exi<lb ed="#R" n="73" break="no"/>stentias suas, sed etiam secundum quidditates, vt 
+      <lb ed="#R" n="74"/>patet intuenti processum suum ibidem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="75"/>Item Arist. 7. met. tex. 12. &amp; infra, dat causam, 
+      qua<lb ed="#R" n="76" break="no"/>re accidentia non habent definitionem, etiam 
+      quid<lb ed="#R" n="77" break="no"/>ditatiuam, abstractiuam, &amp; dicit, quod ideo quia non 
+      <lb ed="#R" n="78"/>habent essentiam: nec loquitur ibi de definitione, vt 
+      <lb ed="#R" n="79"/>capit causas definiti, sed de quidditatiua, &amp; 
+      pro<lb ed="#R" n="80" break="no"/>pria, &amp; ratio sua est ibi, quia sicut accidentia se 
+      ha<lb ed="#R" n="81" break="no"/>bent ad esse quid, sic se habent ad definitionem: sed 
+      <lb ed="#R" n="82"/>non habent quid sine substantia: ergo nec 
+      defini<lb ed="#R" n="83" break="no"/>tionem. Haec est sua ratio ibi. 
+    </p>
+               <p>
+                  <lb ed="#R" n="84"/>Confirmo hoc, quia Aristoteles dicit, quod 
+      acci<lb ed="#R" n="85" break="no"/>dentia sunt entia secundum quid, certum est, quod 
+      <lb ed="#R" n="86"/>non intelligit per secundum quid, quod sint 
+      entia<lb ed="#R" n="87" break="no"/>debilia, sed intelligit secundum quid, quia sunt 
+      di<lb ed="#R" n="88" break="no"/>minuta ab entitate, &amp; hoc quia non est eorum 
+      enti<lb ed="#R" n="89" break="no"/>ras nisi modificatio, &amp; adiacentia, sicut figura non 
+      <lb ed="#R" n="90"/>est aliud, quam figuratio, &amp; candor candidatio. 
+    </p>
+               <p>
+                  <lb ed="#R" n="91"/>Ad argumentum in oppositum respondeo, 
+      non<lb ed="#R" n="92" break="no"/>permisceo praedicamenta in suis entitatibus 
+      diminu<lb ed="#R" n="93" break="no"/>tis: alia est enim realitas diminuta istius, &amp; illius: 
+      <lb ed="#R" n="94"/>sed capiendo permixtionem pro indiuisione, sic 
+      po<lb ed="#R" n="95" break="no"/>no ea permixta, imo hoc modo si essent 
+      impermix<lb ed="#R" n="96" break="no"/>te, essent non accidentia, sed substantiae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="97"/>Dices: Accidentia &amp; substantia non faciunt vnum, 
+      <lb ed="#R" n="98"/>nisi subiecto: ergo non per se vnum. Respondeo: 
+      vni<lb ed="#R" n="99" break="no"/>tas subiecti non opponitur vnitati indiuisionis, vn 
+      <lb ed="#R" n="100"/>de quae sunt vnum subiecto, non sunt necessario vnum 
+      <lb ed="#R" n="101"/>per relationem, imo vnitas subiecti est vnitas 
+      indi<lb ed="#R" n="102" break="no"/>uisionis, cum hoc tamen stat differentia essentialis 
+      <lb ed="#R" n="103"/>ipsorum indiuisorum. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="135"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h46294"> <!-- l4-d15prae -->
+            <head>Praeambulum</head>
+            <p>
+      <!--0135.xml-->
+               <cb ed="#R" n="b"/>
+               <lb ed="#R" n="66"/>DISTINCTIO XV 
+      <lb ed="#R" n="67"/>DE SATISFACTIONE. 
+    <lb ed="#R" n="68"/>
+               <!-- line coord error -->
+               <lb ed="#R" n="69"/>
+               <!-- line coord error -->
+               <lb ed="#R" n="70"/>
+               <!-- line coord error -->
+               <lb ed="#R" n="71"/>
+               <!-- line coord error -->
+            </p>
+            <p>
+               <lb ed="#R" n="72"/>Et sicut praedictis authoritatibus &amp;c. In ista 
+      <lb ed="#R" n="73"/>Distinctione Decimaquinta agit Magister 
+      <lb ed="#R" n="74"/>de Satisfactione, ad cuius euidentiam 
+      quae<lb ed="#R" n="75" break="no"/>ro sex quaestiones. 
+    </p>
+            <p>
+               <lb ed="#R" n="76"/>Quaestio Vnica.
+    </p>
+            <p>
+               <lb ed="#R" n="77"/>1 Prima est: Vtrum satisfactio sit pars poe
+      ni<lb ed="#R" n="78" break="no"/>tentiae. 
+      <lb ed="#R" n="79"/>2 Vtrum satisfactio sit possibilis fieri a nobis 
+      <lb ed="#R" n="80"/>pro peccato. 
+      <lb ed="#R" n="81"/>3 De partibus satisfactionis, Vtrum 
+      eleemosy<lb ed="#R" n="82" break="no"/>na sit pars satisfactionis. 
+      <lb ed="#R" n="83"/>4 Vtrum Jeiunium sit pars satis factionis. 
+      <lb ed="#R" n="84"/>5 Vtrum Oratio sit pars satis factionis. 
+      <lb ed="#R" n="85"/>6 Vtrum Restitutio sit pars satisfactionis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

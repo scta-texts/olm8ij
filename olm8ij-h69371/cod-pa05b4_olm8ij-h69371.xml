@@ -1,0 +1,1630 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="202"/>
+            <cb ed="#R" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h69371"> <!-- l4-d44q1 -->
+            <head>Quaestio 1</head>
+            <p>
+               <lb ed="#R" n="85"/>Questio Vnica. 
+    </p>
+            <div>
+               <head>Articulus 1</head>
+               <head type="question-title">
+      Utrum materia, quae fuit de veritate humanae 
+      naturae resurgat in duobus, vel in altero, idest 
+      commesto, et generato ex semine, siue 
+      materia prima, et secunda.
+    </head>
+               <p>
+                  <lb ed="#R" n="86"/>ARTICVLVUS I. 
+      <lb ed="#R" n="87"/>Vtrum materia, quae fuit de veritate humanae 
+      na<lb ed="#R" n="88" break="no"/>turae resurgat in duobus, vel in altero, idest 
+      <lb ed="#R" n="89"/>commesto, &amp; generato ex semine, siue 
+      <lb ed="#R" n="90"/>materia prima, &amp; secunda. 
+    </p>
+               <p>
+                  <lb ed="#R" n="91"/>QVANTVM ad primam 
+      <lb ed="#R" n="92"/>quaestionem ad 
+      euiden<lb ed="#R" n="93" break="no"/>tiam eius, quod 
+      quaeri<lb ed="#R" n="94" break="no"/>tur, pono casum istum, 
+      <lb ed="#R" n="95"/>quod nato puero, aliquis 
+      <lb ed="#R" n="96"/>alius cibetur de 
+      carni<lb ed="#R" n="97" break="no"/>bus pueri, ita quod nihil 
+      <lb ed="#R" n="98"/>remaneat, quod non sit 
+      <lb ed="#R" n="99"/>cibus eius, pono quod 
+      ci<lb ed="#R" n="100" break="no"/>bus conuertatur in semen, ex quo semine generetur 
+      <lb ed="#R" n="101"/>puer alius, hoc posito, quaero: vtrum ista materia, 
+      <lb ed="#R" n="102"/>quae prius fuit de veritate naturae pueri comesti, &amp; 
+      <lb ed="#R" n="103"/>post per transfusionem seminis facta est de 
+      verita<lb ed="#R" n="104" break="no"/>te naturae generati ex semine illo, quaero in quo 
+      re<lb ed="#R" n="105" break="no"/>surget: Vtrum in altero, vel quomodo? 
+    </p>
+               <p>
+                  <lb ed="#R" n="106"/>Et arguo, quod non in altero, quia qua ratione 
+      <lb ed="#R" n="107"/>resurget in vno, resurget in altero, vel ergo 
+      resur<lb ed="#R" n="108" break="no"/>get in nullo, vel resurget in ambobus: sed impossi. 
+      <lb ed="#R" n="109"/>bile est, quod resurgat in ambobus: ergo. Maior 
+      <lb ed="#R" n="110"/>nota est. Probo minorem, quoniam imposibile 
+      <lb ed="#R" n="111"/>est, quod eadem materia sit sub diuersis formis: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="112"/>In oppositum est, quia in resurrectione erit idem 
+      <lb ed="#R" n="113"/>numero homo, qui ante fuit: sed nisi haberet eandem 
+      <lb ed="#R" n="114"/>materiam numero, non esset idem homo: probo 
+      <lb ed="#R" n="115"/>secundum Philosophum, quia partes materiales 
+      <lb ed="#R" n="116"/>etsi non sint de essentia speciei, sunt tamen de 
+      es<lb ed="#R" n="117" break="no"/>sentia indiuidui. Secundo quia 5. Metaph. tex. 7. 
+      <lb ed="#R" n="118"/>&amp; S. dicit, quod identitas materiae facit ad vnitatem 
+      <!--0203.xml-->
+      <pb ed="#R" n="203"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>numeralem. Respondeo primo praemitto vnum, 
+      <lb ed="#R" n="2"/>quod habet magnam difficultatem. Vbi 
+      conside<lb ed="#R" n="3" break="no"/>randum est, quod materiam pertinere ad veritatem 
+      <lb ed="#R" n="4"/>potest intelligi, vel materiam primam nudam sine 
+      <lb ed="#R" n="5"/>omni forma; vel materiam cum aliqua forma, quae 
+      <lb ed="#R" n="6"/>pro tanto dicitur materia, quia totum est in 
+      poten<lb ed="#R" n="7" break="no"/>tia ad vlteriorem formam; &amp; hoc si sit aliqua talis 
+      <lb ed="#R" n="8"/>forma in homine praeter animam intellectiuam 
+      <lb ed="#R" n="9"/>quae simul cum materia prima sit vnum potentiale 
+      <lb ed="#R" n="10"/>respectu animae intellectiuae, &amp; intelligo hanc 
+      for<lb ed="#R" n="11" break="no"/>mam siue sit substantialis, siue accidentalis puta 
+      <lb ed="#R" n="12"/>complexionalis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="13"/>Si secundo modo capiatur materia, quaestio 
+      nul<lb ed="#R" n="14" break="no"/>lum habet dubium, imo supponit falsum manifestum, 
+      <lb ed="#R" n="15"/>quia numquam talis materia est communis vtrique, 
+      <lb ed="#R" n="16"/>scilicet comesto, &amp; generato ex semine. Ratio est, 
+      <lb ed="#R" n="17"/>quia in resolutione vsque ad formam seminis, 
+      cor<lb ed="#R" n="18" break="no"/>rumpitur forma illa, quae praeerat in comesto, 
+      pu<lb ed="#R" n="19" break="no"/>ta complexio, &amp; quaelibet forma, quae sit in isto 
+      in<lb ed="#R" n="20" break="no"/>diuiduo, siue substantialis, siue dispositio, siue 
+      con<lb ed="#R" n="21" break="no"/>plexio, siue humidum radicale corrumpitur 
+      vir<lb ed="#R" n="22" break="no"/>tute digestionis, quando resoluitur cibus vsque ad 
+      <lb ed="#R" n="23"/>semen. Si vero intelligitur mrateria primo modo, 
+      <lb ed="#R" n="24"/>tunc quaestio habet dubium, quia cum possibile sit, 
+      <lb ed="#R" n="25"/>quod sit eadem numero in vtroque, est difficultas, 
+      <lb ed="#R" n="26"/>in quo resurget, vt sit in illo de veritate humanae 
+      <lb ed="#R" n="27"/>naturae. Hoc praemisso.
+    </p>
+               <p>
+                  <lb ed="#R" n="28"/>Sciendum est, quod sunt hic tres modi 
+      dicendi<lb ed="#R" n="29" break="no"/>Vnus quod materia, qui pertinet ad veritatem 
+      huma<lb ed="#R" n="30" break="no"/>nae naturae, non est materia cibalis, sed materia, quae 
+      <lb ed="#R" n="31"/>fuit creata in Adam, quae non crescit per 
+      sumptio<lb ed="#R" n="32" break="no"/>nem alimenti, sed multiplicatur in quolibet, sicut 
+      <lb ed="#R" n="33"/>mulciplicati sunt panes a Christo in deserto: Itz 
+      <lb ed="#R" n="34"/>quod aliquid de materia creata in Adam transfun 
+      <lb ed="#R" n="35"/>ditur in quolibet generato, &amp; in eo multiplicatur 
+      <lb ed="#R" n="36"/>vsque ad certam quantitatem, &amp; partem huius 
+      ma<lb ed="#R" n="37" break="no"/>teriae sic multiplicatae transfundit in alterum, quod 
+      <lb ed="#R" n="38"/>generat. &amp; haec videtur opinio Magistri, &amp; 
+      secun<lb ed="#R" n="39" break="no"/>dum hoc quaestio non habet difficultatem, 
+      quo<lb ed="#R" n="40" break="no"/>niam per cibum, nihil est in alio de tali materia 
+      <lb ed="#R" n="41"/>quae fuit in comesto, ideo est alia materia hic, 
+      <lb ed="#R" n="42"/>&amp; ibi. 
+  </p>
+               <p>
+                  <lb ed="#R" n="43"/>Alia est opinio, quod materia illa quae 
+      transfun<lb ed="#R" n="44" break="no"/>ditur per generationem, non fuit illa, quae 
+      creata<lb ed="#R" n="45" break="no"/>fuit in Adam, sed fuit acquisita in parente, &amp; est 
+      il<lb ed="#R" n="46" break="no"/>la, quae est semen decisum a parente, illa est potius 
+      <lb ed="#R" n="47"/>de veritate humanae naturae in propagato, non 
+      au<lb ed="#R" n="48" break="no"/>tem illa quae est per cibum in isto propagato: quia 
+      <lb ed="#R" n="49"/>illa quae per cibum est, fluit, &amp; refluit; quae per 
+      ci<lb ed="#R" n="50" break="no"/>bum in propagato, acquiritur; quae autem fuit per 
+      <lb ed="#R" n="51"/>semen transfusa in eo, semper manet ingenerabilis 
+      <lb ed="#R" n="52"/>&amp; incorruptibilis. Sic ergo ista cibalis materia 
+      <lb ed="#R" n="53"/>non esset de veritate naturae in comedente eam, &amp; 
+      <lb ed="#R" n="54"/>digerente: posset autem esse de veritate naturae in 
+      <lb ed="#R" n="55"/>propagato ex comedente, cui posset transfundi per 
+      <lb ed="#R" n="56"/>semen: vel si esset de veritate naturae in 
+      vtroque<lb ed="#R" n="57" break="no"/>non tamen esset aequalis in vtroque, non tanta in 
+      <lb ed="#R" n="58"/>vno puta in propagato, quanta fuit in comedente. 
+      <lb ed="#R" n="59"/>In propagato enim a comedente non est nisi 
+      praeci<lb ed="#R" n="60" break="no"/>se illud, quod transfunditur per semen. 
+    </p>
+               <p>
+                  <lb ed="#R" n="61"/>Alia opinio est, quod non modo materia 
+      tra<lb ed="#R" n="62" break="no"/>cta aa parentibus, sed etiam illa cibalis, quae 
+      adiun<lb ed="#R" n="63" break="no"/>cta est alteri, vsque ad debitum augmentum, &amp; 
+      <lb ed="#R" n="64"/>perfectionem, est de veritate naturae; tamen ista 
+      <lb ed="#R" n="65"/>numquam potest esse aequaliter in duobus, quia 
+      sem<lb ed="#R" n="66" break="no"/>per est maior in illo, qui habuit eam per cibum 
+      <lb ed="#R" n="67"/>augmentando per eam illam, quam habuita paren 
+      <lb ed="#R" n="68"/>tibus, quam sit in quocunque, qui propagatus est 
+      <!--0203.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>ex homine, vel si esset aequaliter in isto, &amp; in illo 
+      <lb ed="#R" n="70"/>de veritate naturae erit imperfecte in vtroque, &amp; 
+      <lb ed="#R" n="71"/>tunt dicunt, quod Deus supplebit eam in 
+      resur<lb ed="#R" n="72" break="no"/>recione 
+    </p>
+               <p>
+                  <lb ed="#R" n="73"/>Sed nunquid si tota materia, quae praefuit in vno, 
+      <lb ed="#R" n="74"/>posea fuit in alio, ita quod aequaliter esset de 
+      ve<lb ed="#R" n="75" break="no"/>ritate naturae vtriusque resurgeret in vtroque, vel 
+      <lb ed="#R" n="76"/>in quo? Respondeo, quod esset alter duorum 
+      mo<lb ed="#R" n="77" break="no"/>dorum, quia vel Deus diuideret materiam illam, 
+      <lb ed="#R" n="78"/>&amp; partem daret vni, &amp; partem alteri, &amp; in vtroque 
+      <lb ed="#R" n="79"/>suppleret, quod deesset, vel totam vni, &amp; causaret 
+      <lb ed="#R" n="80"/>nouam materiam in alio. 
+    </p>
+               <p>
+                  <lb ed="#R" n="81"/>In ista responsione non est difficultas aliqua 
+      <lb ed="#R" n="82"/>quo ad hoc, quomodo posset eadem materia 
+      re<lb ed="#R" n="83" break="no"/>surgere in duobus, quia potest teneri alter 
+      dicto<lb ed="#R" n="84" break="no"/>rum modorum; sed tota difficultas est, vtrum 
+      po<lb ed="#R" n="85" break="no"/>sito, quod materia haec fuisset sub sorma vnius, &amp; 
+      <lb ed="#R" n="86"/>postmodum sub forma alterius, postea in 
+      resurre<lb ed="#R" n="87" break="no"/>ctione Deus dimitteret totam primam, &amp; crearet 
+      <lb ed="#R" n="88"/>nouam in alio, vtrum iste, in quo esset creata 
+      no<lb ed="#R" n="89" break="no"/>ua materia, esset idem numero qui fuit prius: vel 
+      <lb ed="#R" n="90"/>si Deus illam materiam diuideret, &amp; vtrique 
+      da<lb ed="#R" n="91" break="no"/>ret partem suam, &amp; reliquum in quolibet 
+      supple<lb ed="#R" n="92" break="no"/>ret, es difficultas, vtrum quilibet horum duorum 
+      <lb ed="#R" n="93"/>esset: idem numero qui prius. Et propter hanc 
+      dis<lb ed="#R" n="94" break="no"/>ficultatem moui quaestionem istam. Ideo sic 
+      pro<lb ed="#R" n="95" break="no"/>cedam. 
+  </p>
+               <p>
+                  <lb ed="#R" n="96"/>Primo ponam modum quendam dicendi, &amp; istum 
+      <lb ed="#R" n="97"/>improbabo. Secundo ponam aliquos alios. 
+      Ter<lb ed="#R" n="98" break="no"/>tio ponam modum, qui mihi videtur rationabilis. 
+  </p>
+               <p>
+                  <lb ed="#R" n="99"/>Quoad primum quidam dicit, quod ille, qui 
+      re<lb ed="#R" n="100" break="no"/>isurgeret cum noua materia, esset idem numero qui 
+      <lb ed="#R" n="101"/>prius, ac si haberet eandem materiam, &amp; ratio est 
+      <lb ed="#R" n="102"/>quia quando aliquis est idem, &amp; secundum 
+      mate<lb ed="#R" n="103" break="no"/>riam, &amp; secundum formam, illud est omnino idem 
+      <lb ed="#R" n="104"/>numero:: sed quaecunque materia fiat sub forma 
+      <lb ed="#R" n="105"/>cadem totum compositum erit. Idem probo &amp; 
+      <lb ed="#R" n="106"/>quo ad materiam, &amp; quo ad formam: ergo 
+      quan<lb ed="#R" n="107" break="no"/>tumcunque in isto sit noua materia, dum tamen sit 
+      <lb ed="#R" n="108"/>eadem forma, semper erit idem compositum 
+      nu<lb ed="#R" n="109" break="no"/>mero. Maior nota est: probo minorem sic: Illud, quod 
+      <lb ed="#R" n="110"/>non habet aliquam diuersitatem a se, sed ab alio 
+      <lb ed="#R" n="111"/>formaliter, non debet iudicari esse idem, vel 
+      diuer<lb ed="#R" n="112" break="no"/>sum nisi ab illo: materia autem non habet 
+      diuersi<lb ed="#R" n="113" break="no"/>tatem, &amp; distinctionem a se, sed ab alio, scilicet a 
+      <lb ed="#R" n="114"/>sorma:ergo vbi est eadem forma, quacunque 
+      ma<lb ed="#R" n="115" break="no"/>teria adueniat, erit eadem materia, &amp; sic habetur 
+      <lb ed="#R" n="116"/>propositum. Quod autem materia nullam habeat 
+      <lb ed="#R" n="117"/>distincionem formaliter nisi per formam, patet 
+      <lb ed="#R" n="118"/>7. Metaph. tex. S. quia materia nec est quid, nec 
+      <lb ed="#R" n="119"/>quanta, nec aliquid aliorum praedictorum 
+      deter<lb ed="#R" n="120" break="no"/>minate, nec negationes eorum, sed est susceptiuum 
+      <lb ed="#R" n="121"/>omnium in potentia. 
+  </p>
+               <p>
+                  <lb ed="#R" n="122"/>Item Commentator ibidem: in fundamento 
+      na<lb ed="#R" n="123" break="no"/>turae nihil est distinctum. Item <ref>Augustinus 12. 
+      con<lb ed="#R" n="124" break="no"/>fessionum cap. 6.</ref> materia non erit corpus, nec 
+      spi<lb ed="#R" n="125" break="no"/>ritus, nec aliquid huiusmodi. Item 
+      Commenta<lb ed="#R" n="126" break="no"/>tor de substantia orbis dicit, quod materia substan 
+      <lb ed="#R" n="127"/>tificatur per posse, tunc sic. Illud, quod quantum 
+      <lb ed="#R" n="128"/>est de se, est indistinctum, &amp; omnino in potentia 
+      <lb ed="#R" n="129"/>quantum est ex se nullam habet diuersitatem, &amp; 
+      <lb ed="#R" n="130"/>ideo totam diuersitatem contrahita forma, vnde si 
+      <lb ed="#R" n="131"/>materia quae est in te, corrumperetur, &amp; materia, 
+      <lb ed="#R" n="132"/>quae est in me, fieret in te, esset materia ista in te 
+      ea<lb ed="#R" n="133" break="no"/>dem cum priori. Haec positio distat multum ab 
+      <lb ed="#R" n="134"/>intentione Philosophi, ideo arguo contra eam. 
+      Pri<lb ed="#R" n="135" break="no"/>mo ostensiue. Secundo deducendo ad impossibile. 
+  </p>
+               <p>
+    <!-- missing line coord --> De primo sic. Illud non est causa distinctionis
+      <!--0204.xml-->
+      <pb ed="#R" n="204"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>materiae, quod supponit materiam esse distinctam, 
+      <lb ed="#R" n="2"/>sed distinctio forme materialis supponit, quod 
+      ma<lb ed="#R" n="3" break="no"/>teria sit disttinca, &amp; particulata. Hoc probo per 
+      <lb ed="#R" n="4"/>Commentatorem in primo de substantia orbis cap. 
+      <lb ed="#R" n="5"/>r. &amp; 1. caeli comm. 93. formae ideo multiplicantur, 
+      <lb ed="#R" n="6"/>&amp; possunt esse multae, quia materia est diuisa, &amp; 
+      di<lb ed="#R" n="7" break="no"/>uersitati formarum correspondet diuersitas 
+      par<lb ed="#R" n="8" break="no"/>tium materiae. Item Aristoteles 7. Metaph. tex. 29. 
+      <lb ed="#R" n="9"/>generans generat aliud propter materiam 
+      distin<lb ed="#R" n="10" break="no"/>ctam. Item per rationem Commentatoris, nisi 
+      <lb ed="#R" n="11"/>materia esset distincta ante eductionem formae, 
+      im<lb ed="#R" n="12" break="no"/>possibile esset, quod in tota materia esset nisi vna 
+      <lb ed="#R" n="13"/>forma: ratio est quia multitudo actuum est 
+      secun<lb ed="#R" n="14" break="no"/>dum multitudinem potentiarum: sed ratio, quare 
+      <lb ed="#R" n="15"/>est alia, &amp; alia potentia, est distinctio partium 
+      <lb ed="#R" n="16"/>materiae: ergo. Ideo dicit Commentator. Si 
+      ma<lb ed="#R" n="17" break="no"/>teria esset indistincta, &amp; impartita, nunquam 
+      geue<lb ed="#R" n="18" break="no"/>rans generaret nisi vnam formam eiusdem speciei. 
+      <lb ed="#R" n="19"/>Ratio est, quia in eadem parte materiae impossibile 
+      <lb ed="#R" n="20"/>est esse plures formis eiusdem speciei. 
+    </p>
+               <p>
+                  <lb ed="#R" n="21"/>Secunda ratio ad idem est ista. Materia 
+      distin<lb ed="#R" n="22" break="no"/>guitur a materia, &amp; particulatur contra aliam 
+      par<lb ed="#R" n="23" break="no"/>tem materiae per dimensiones interminatas: sed 
+      di<lb ed="#R" n="24" break="no"/>mensiones interminatae non insunt per formam 
+      <lb ed="#R" n="25"/>imo ipsae sunt inseparabiles a materia, &amp; 
+      ingenera<lb ed="#R" n="26" break="no"/>biles, &amp; incorruptibiles secundum 
+      Commentato<lb ed="#R" n="27" break="no"/>rem: ergo. Maior patet ex intentione 
+      Commen<lb ed="#R" n="28" break="no"/>tatoris, vbi supra de substantia orbis, vnde haec es 
+      <lb ed="#R" n="29"/>ratio apud eum, quod oportet materiam primam 
+      <lb ed="#R" n="30"/>habere dimensiones interminatas, quoniam si non 
+      <lb ed="#R" n="31"/>haberet partes esset, indiuisibilis: indiuisibile 
+      au<lb ed="#R" n="32" break="no"/>tem quicquid recipit, indiuisibiliter recipit: ideo si 
+      <lb ed="#R" n="33"/>non praecederent diuisiones, non posset recipere 
+      <lb ed="#R" n="34"/>nisi vnam formam: ergo materia habet 
+      diuisibili<lb ed="#R" n="35" break="no"/>eatem aliquam, vel ergo habet eam ex se, vt est sub 
+      <lb ed="#R" n="36"/>quantitate, ita quod sit imaginari partes 
+      quanti<lb ed="#R" n="37" break="no"/>tatis, &amp; partes ipsius substratae quantitati, 
+      corre<lb ed="#R" n="38" break="no"/>spondentes partibus quantitatis, ita quod alia sit 
+      <lb ed="#R" n="39"/>indiuisibilitas propria, &amp; alia diuisibilitas 
+      quan<lb ed="#R" n="40" break="no"/>titatis, vel habet eam non forma liter ex se, sed per 
+      <lb ed="#R" n="41"/>rationem quantitatis, vt ipsa sit partibilis 
+      forma<lb ed="#R" n="42" break="no"/>liter per quantitatem, quae est formaliter ipsa 
+      par<lb ed="#R" n="43" break="no"/>tibilitas. Et quando dicitur partibilis, siue 
+      par<lb ed="#R" n="44" break="no"/>tibile, ipsum partibile sit resolubile in duo, in illud, 
+      <lb ed="#R" n="45"/>scilicet quod est partibile, &amp; in rationem 
+      partibili<lb ed="#R" n="46" break="no"/>tatis, &amp; primum in proposito est materia 
+      subsra<lb ed="#R" n="47" break="no"/>ta ipsi quantitati, secundum vero est ipsa quantitas. 
+      <lb ed="#R" n="48"/>Si intelligatur primo modo, quod materia habeat 
+      <lb ed="#R" n="49"/>partes proprias correspondentes partibus 
+      quanti<lb ed="#R" n="50" break="no"/>tatis: quaero vtrum illae partes sint continuae, vel 
+      <lb ed="#R" n="51"/>discretae: si discretae: ergo erit dare infinita, quia 
+      <lb ed="#R" n="52"/>ex quo materia habet partes ex se, est partibilis in 
+      <lb ed="#R" n="53"/>infutum, &amp; cum partes istae nullam habeant 
+      vni<lb ed="#R" n="54" break="no"/>tatem continuitatis, omnes erunt, vna ab alia 
+      <lb ed="#R" n="55"/>discreta, &amp; sic infinita discreta in acttu. Si dicatur 
+      <lb ed="#R" n="56"/>quud partes illae sint continuae: ergo continuitas 
+      <lb ed="#R" n="57"/>est sine quantitate, quia per te illas partes 
+      conti<lb ed="#R" n="58" break="no"/>nuas habet, non per quantitatem, sed de se: Hoc 
+      <lb ed="#R" n="59"/>aurem es impossibile. Restat ergo dicendum 
+      se<lb ed="#R" n="60" break="no"/>cundo modo, quod materia non est de se 
+      partibi<lb ed="#R" n="61" break="no"/>lis, sed per quantitatem, ita quod ex se formaliter 
+      <lb ed="#R" n="62"/>omni alio circum scripto nullas partes habeat, vt 
+      <lb ed="#R" n="63"/>sic pars sit quod dam resolubile in duo, scilicet 
+      in<lb ed="#R" n="64" break="no"/>iillud, quod est pars denominatiue, &amp; illud est 
+      na<lb ed="#R" n="65" break="no"/>tura materiae substratae, &amp; illud quod est 
+      formali<lb ed="#R" n="66" break="no"/>ter ipsa partibilitas, &amp; illud est formaliter 
+      quan<lb ed="#R" n="67" break="no"/>titas. 
+    </p>
+               <p>
+                  <lb ed="#R" n="68"/>Dicendum ergo, quod materia partitur &amp; di- 
+      <!--0204.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>stinguitur per dimensiones, quae quidem dicuntur 
+      <lb ed="#R" n="70"/>interminatae, quoniam si essent determinatae, puta 
+      <lb ed="#R" n="71"/>quod essent bicubitum, impossibile esset ex materia 
+      <lb ed="#R" n="72"/>generari tricubitum, patet ergo ista maior. 
+      Pro<lb ed="#R" n="73" break="no"/>bo autem minorem, quod dimensiones non insunt 
+      <lb ed="#R" n="74"/>materiae per formam, sunt enim propria passio 
+      ma<lb ed="#R" n="75" break="no"/>teriae, vt dicit Commentator in de substantia orbis, 
+      <lb ed="#R" n="76"/>&amp; 1. Physic. comm. 63. dicit, Commentator quod 
+      <lb ed="#R" n="77"/>prima dimensio est proprietas materiae 
+      insepara<lb ed="#R" n="78" break="no"/>bilis a materia, ingenerabilis, &amp; incorruptibilis, &amp; 
+      <lb ed="#R" n="79"/>idem 4. Physic. com. 76. dicit, quod dimensiones 
+      <lb ed="#R" n="80"/>impossibile est a materia separari, &amp; in esse, &amp; 
+      in<lb ed="#R" n="81" break="no"/>imaginatione; non ergo per formam distinguitur 
+      <lb ed="#R" n="82"/>materia a materia. 
+    </p>
+               <p>
+                  <lb ed="#R" n="83"/>Tertia ratio deducens ad impossibile est ista 
+      <lb ed="#R" n="84"/>Opinio ista dicit, quod forma non solum actuat 
+      ma<lb ed="#R" n="85" break="no"/>teriam, &amp; distinguit compositum a composito, sed 
+      <lb ed="#R" n="86"/>etiam distinguit materiam a materia, vt materiam 
+      <lb ed="#R" n="87"/>meam a materia tua, quod manifeste falsum est. 
+      <lb ed="#R" n="88"/>Probo, quia hoc suppesito quando aliquid 
+      genera<lb ed="#R" n="89" break="no"/>tur ex aliquo, non esset magis verum dicere, quod 
+      <lb ed="#R" n="90"/>generatur ex illo, quam ex aliquo alio, vt si ignis 
+      <lb ed="#R" n="91"/>generetur ex stupa, non erit magis verum dicere 
+      <lb ed="#R" n="92"/>quod generatur ex stupa quam ex lapide 
+      ratione<lb ed="#R" n="93" break="no"/>materie partitae in stupa, &amp; lapide. Generatio 
+      <lb ed="#R" n="94"/>enim est per se ex materia sicut ex termino a quo 
+      <lb ed="#R" n="95"/>ex secundo Physic. si ergo materia habet totam 
+      <lb ed="#R" n="96"/>distinctionem a forma, tantum distinguitur 
+      mate<lb ed="#R" n="97" break="no"/>ria ignis, quae fuit sub forma stupaea materia 
+      scu<lb ed="#R" n="98" break="no"/>pae, quantum a materia, quae fuit sub forma lapidis: 
+      <lb ed="#R" n="99"/>non ergo plus generabitur iste ignis ex scupa, quam 
+      <lb ed="#R" n="100"/>ex lapide: tota enim ratio distinctionis, per te est 
+      <lb ed="#R" n="101"/>forma: Ideo non est ratio, quare aliquid 
+      genera<lb ed="#R" n="102" break="no"/>tur ex materia, &amp; secundum hoc materia, quam 
+      <lb ed="#R" n="103"/>habet iste ignis generatus, non plus discinguitur a 
+      <lb ed="#R" n="104"/>materia, quae fuit sub forma stupae quam a materia 
+      <lb ed="#R" n="105"/>que fuit, &amp; est sub forma lapidis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="106"/>Sed haec opinio tollit, quod materia non manet 
+      <lb ed="#R" n="107"/>eadem in tota transmutatione contra omnem 
+      Phi<lb ed="#R" n="108" break="no"/>losophiam, quia secundum hoc alia est materia, 
+      <lb ed="#R" n="109"/>quae praefuit sub aere, a materia, quae est sub igne, 
+      <lb ed="#R" n="110"/>quando ex aere generatur ignis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="111"/>Ideo considerandum est quod distinctio 
+      mate<lb ed="#R" n="112" break="no"/>riae est duplex, vel quidditatiua per quam distin. 
+      <lb ed="#R" n="113"/>guitura forma, vel numeralis per quam 
+      distingui<lb ed="#R" n="114" break="no"/>tur ab alia materia. Accipiendo ergo materiam, &amp; 
+      <lb ed="#R" n="115"/>circumscribendo eam ab omni forma tam 
+      substan<lb ed="#R" n="116" break="no"/>tiali quam accidentali, &amp; etiam a dimensionibus, 
+      <lb ed="#R" n="117"/>remanebit materis omnino eadem numero non 
+      <lb ed="#R" n="118"/>positiue, sed priuatiue, quia non habet vnde 
+      distin<lb ed="#R" n="119" break="no"/>guatur. Sint enim duae portiones, &amp; coniungantur 
+      <lb ed="#R" n="120"/>diuina virtute, necessario erit ibi continuitas, &amp; 
+      <lb ed="#R" n="121"/>sic quantitas, &amp; sicut non coniunguntur sine dimen 
+      <lb ed="#R" n="122"/>sione, sic nec sunt sine dimensione diuisae, nam 
+      ma<lb ed="#R" n="123" break="no"/>teria, quae est in me, habet partes etiam infinitas in 
+      <lb ed="#R" n="124"/>potentia: circumscribe ergo quantitatem, vel 
+      es<lb ed="#R" n="125" break="no"/>sent partes continuae, &amp; sic continuum sine 
+      quanti<lb ed="#R" n="126" break="no"/>tate, vel essent contiguae, &amp; sic esset dare infinita 
+      <lb ed="#R" n="127"/>in actu: ergo oportet, quod subtractis 
+      dimensioni<lb ed="#R" n="128" break="no"/>bus nulla remaneat distinctio numeralis, sed 
+      tan<lb ed="#R" n="129" break="no"/>tum adhuc manet materia distincta quidditatiue 
+      <lb ed="#R" n="130"/>a forma, non quidem in actu, vt sit distincta sicut 
+      <lb ed="#R" n="131"/>res terminata a re terminata, sed in potentia, sicut 
+      <lb ed="#R" n="132"/>illud, quod est purum modificabile, &amp; actuabile a 
+      <lb ed="#R" n="133"/>sua formatione, &amp; terminatione, &amp; sic 
+      quidifica<lb ed="#R" n="134" break="no"/>bile, &amp; terminabile ab actu, per quem trahitur ad 
+      <lb ed="#R" n="135"/>esse, neutra tamen essset in tali materia distincttio 
+      <lb ed="#R" n="136"/>numeralis. &amp; hoc est quod ait <ref>Commentator 12. 
+      <!--0205.xml-->
+      <pb ed="#R" n="205"/>
+                     <cb ed="#R" n="a"/>
+                     <lb ed="#R" n="1"/>Metaph.</ref> quod materia denudata ab omni 
+      quanti<lb ed="#R" n="2" break="no"/>tate est vna numero, tamen quod separetur ab 
+      om<lb ed="#R" n="3" break="no"/>ni quantitate est omnino impossibile; quoniam 
+      si<lb ed="#R" n="4" break="no"/>cut est imposs ibile, quod risibilitas separetur ab ho 
+      <lb ed="#R" n="5"/>mine, cum sit eius propria passio, sic est in 
+      propo<lb ed="#R" n="6" break="no"/>sito. Sed pone quod materia sit abstracta ab omni 
+      <lb ed="#R" n="7"/>forma substantiali, remanente sola trina 
+      dimen<lb ed="#R" n="8" break="no"/>sione, ibi sistendo, sicut Aristoteles iubet quiescere, 
+      <lb ed="#R" n="9"/>&amp; sistere in longo, &amp; lato, &amp; profundo, quod est 
+      tri<lb ed="#R" n="10" break="no"/>na dimensio, alias si imaginaremur materiam sine 
+      <lb ed="#R" n="11"/>istis dimensionibus, imaginaremur corpus esse non 
+      <lb ed="#R" n="12"/>corpus: sic ergo retenta trina sola dimensione 
+      <lb ed="#R" n="13"/>materia adhuc haberet ex se, vnde distingueretur, 
+      <lb ed="#R" n="14"/>quia per trinam dimensionem: sic ergo omnis 
+      di<lb ed="#R" n="15" break="no"/>stincio materiae es per formam numeraliter, sed nō 
+      <lb ed="#R" n="16"/>per formam substantialem, sed per formam 
+      actua<lb ed="#R" n="17" break="no"/>lem. Ideo quocunque vadit materia, semper 
+      re<lb ed="#R" n="18" break="no"/>manet distincta sub diuersis formis per trinam 
+      di<lb ed="#R" n="19" break="no"/>mensionem, &amp; ideo semper materia, quae fuit in me 
+      <lb ed="#R" n="20"/>est, distincta a materia, quae fuit in te, &amp; talis portio 
+      <lb ed="#R" n="21"/>materiae resurget in quolibet: &amp; de tali moueo 
+      <lb ed="#R" n="22"/>quaestionem, si alia noua crearetur in resurrectione 
+      <lb ed="#R" n="23"/>in aliquo: vtrum ille esset idem numero. Vel si non 
+      to<lb ed="#R" n="24" break="no"/>taliter crearetur noua, sed partiretur in duobus, &amp; 
+      <lb ed="#R" n="25"/>residuum suppleretur a Deo, vtrum quilibet 
+      isto<lb ed="#R" n="26" break="no"/>rum esset idem numero qui prius. 
+    </p>
+               <p>
+                  <lb ed="#R" n="27"/>Tunc ad rationes istius opinionis, ad maiorem 
+      <lb ed="#R" n="28"/>conceditur. Minorem nego, quia licet non 
+      ha<lb ed="#R" n="29" break="no"/>beat ex se distinctionem naturalem, illam tamen-- 
+      <lb ed="#R" n="30"/>non habet ex forma substantiali, sed accidentali 
+      <lb ed="#R" n="31"/>puta trina dimensione, vnde Commentator in de 
+      <lb ed="#R" n="32"/>substantia orbis cap. 1. dicit, quod quando ignis agit 
+      <lb ed="#R" n="33"/>in aquam corrumpendo eam, non corrumpit 
+      di<lb ed="#R" n="34" break="no"/>mensiones aquae, quia sic faceret de corpore non 
+      <lb ed="#R" n="35"/>corpus, sed eas transfert ad alium, &amp; alium 
+      termi<lb ed="#R" n="36" break="no"/>num, quia alium terminum habent, vt sunt sub 
+      for<lb ed="#R" n="37" break="no"/>ma ignis, quam vt erant prius sub forma aquae, &amp; 
+      <lb ed="#R" n="38"/>ideo transmutat dimensiones, quousque veniat ad 
+      <lb ed="#R" n="39"/>terminum, quem exigit forma substantialis ignis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="40"/>Alius modus dicendi est, quod licet materia non 
+      <lb ed="#R" n="41"/>rediret eadem, dum tamem forma esset eadem, esset 
+      <lb ed="#R" n="42"/>idem homo qui prius. Motiuum opinionis est, quia 
+      <lb ed="#R" n="43"/>materia non est de quidditate, sed sola forma. ad 
+      <lb ed="#R" n="44"/>hoc videtur habere multas auctoritates 7. &amp; S. Me 
+      <lb ed="#R" n="45"/>taph. Jsta opinio deficit dupliciter. Primo in hoc, 
+      <lb ed="#R" n="46"/>quod dicit solam formam pertinere ad 
+      quiddita<lb ed="#R" n="47" break="no"/>tem, non materiam, de hoc non curo modo, quia 
+      <lb ed="#R" n="48"/>locum habet in 3. libro. Secundo deficit, quia 
+      <lb ed="#R" n="49"/>etsi non esset de essentia, &amp; ratione quidditatis, est 
+      <lb ed="#R" n="50"/>tamen de ratione, &amp; essentia simul totius, idest 
+      in<lb ed="#R" n="51" break="no"/>diuidui, vt Philosophus concedit 8. Metaph. tex. 34. 
+      <lb ed="#R" n="52"/>vel 7. nos autem hic non loquimur de 
+      identitate<lb ed="#R" n="53" break="no"/>quidditatis, sed indiuidui. 
+    </p>
+               <p>
+                  <lb ed="#R" n="54"/>Nunc pono modum qui mihi videtur, &amp; est iste. 
+      <lb ed="#R" n="55"/>Vbi considerandum est quod Philosophus 8. 
+      Me<lb ed="#R" n="56" break="no"/>taph. &amp; Commentator ibidem com. 7. quaerunt: vtrum 
+      <lb ed="#R" n="57"/>ens, &amp; vnum, vel nomen puta homo, vel animal per 
+      <lb ed="#R" n="58"/>prius dicantur de forma, quam de composito, vel e 
+      <lb ed="#R" n="59"/>conuerso: &amp; respondet, quod ista dicuntur de 
+      for<lb ed="#R" n="60" break="no"/>ma, &amp; composito vniuoce, nec pure vniuoce, sed 
+      <lb ed="#R" n="61"/>medio modo analogice, quia per prius, &amp; 
+      poste<lb ed="#R" n="62" break="no"/>rius: per priusenim dicitur de forma, per posterius 
+      <lb ed="#R" n="63"/>vero de composito. &amp; ratio est secundum eum, quia 
+      <lb ed="#R" n="64"/>forma est causa compositi, quicquid autem dicitur 
+      <lb ed="#R" n="65"/>de causa, &amp; causato, per prius dicitur de causa. 
+    </p>
+               <p>
+                  <lb ed="#R" n="66"/>Per hoc ego respondeo ad quaestionem, quod ille, 
+      <lb ed="#R" n="67"/>in quo non resurgeret eadem materia, quam habuit 
+      <lb ed="#R" n="68"/>prius, sed noua crearetur, esset idem quidem numero 
+      <!--0205.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>principaliter, &amp; simpliciter, sed secundum quid, &amp; 
+      <lb ed="#R" n="70"/>quasi secundario esset non idem simpliciter. Vtrũ- 
+      <lb ed="#R" n="71"/>que probo: Quia manente eodem illo, cui primo 
+      <lb ed="#R" n="72"/>conuenit nomen entis &amp; vnius, simpliciter, &amp; 
+      prin<lb ed="#R" n="73" break="no"/>cipa liter manet idem ens, &amp; vnum animal, &amp; vnus 
+      <lb ed="#R" n="74"/>homo per se, &amp; primo &amp; principaliter: sed formae 
+      <lb ed="#R" n="75"/>primo conuenit, &amp; principaliter, &amp; simpliciter 
+      no<lb ed="#R" n="76" break="no"/>men entis, &amp; vnius: ergo remanente eadem sorma 
+      <lb ed="#R" n="77"/>erit idem ens, idem animal &amp; homo, &amp; vnum quid 
+      <lb ed="#R" n="78"/>primo simpliciter, &amp; principaliter. Maior 
+      nota<lb ed="#R" n="79" break="no"/>est, quia manente eadem ratione formali, manet 
+      <lb ed="#R" n="80"/>idem efectus. Maior patet ex Commentatore s. 
+      <lb ed="#R" n="81"/>Metaph. vbi supra. Sed tunc videtur dubium 
+      ali<lb ed="#R" n="82" break="no"/>quod exsurgere, quia secundum hoc anima 
+      separa<lb ed="#R" n="83" break="no"/>ta est primo, &amp; principaliter, &amp; simpliciter homo. 
+      <lb ed="#R" n="84"/>Re spondeo: si in homine non sit, nisi vna forma 
+      pu<lb ed="#R" n="85" break="no"/>ta anima, patet quid dicendum: dico enim, quod 
+      <lb ed="#R" n="86"/>oportet tunc concedere inconueniens, quod 
+      addu<lb ed="#R" n="87" break="no"/>cunt, &amp; negare, quod sit inconueniens. Primo hoc 
+      <lb ed="#R" n="88"/>declaro exemplo, quia secundum aliquos, 
+      Ver<lb ed="#R" n="89" break="no"/>mis qui generatur ex speciebus, est substantia, siue 
+      <lb ed="#R" n="90"/>materia, &amp; vniuoce, vt dicunt cum alijs vermibus 
+      <lb ed="#R" n="91"/>habentibus materiam: quare ergo est maius 
+      incon<lb ed="#R" n="92" break="no"/>ueniens ponere, quod sola anima sit homo, si 
+      in<lb ed="#R" n="93" break="no"/>homine non sit aliqua alia forma, quam 
+      ponere<lb ed="#R" n="94" break="no"/>quod sola forma vermis sit vermis? Nunc per 
+      ra<lb ed="#R" n="95" break="no"/>tionem. Quia illud, quod nihil est distinctum 
+      in<lb ed="#R" n="96" break="no"/>se, non videtur esse illud, quod distinguit: sed 
+      ma<lb ed="#R" n="97" break="no"/>teria nihil est distinctum, siue terminatum. 
+      Pro<lb ed="#R" n="98" break="no"/>bo: Illud, quod fundat potentiam ad distinctionem 
+      <lb ed="#R" n="99"/>omnium simpliciter, non est aliquid distinctum sim 
+      <lb ed="#R" n="100"/>pliciter: potentia enim ad distinctionem omnem 
+      <lb ed="#R" n="101"/>caret omni distinctione, alias non erit in potentia 
+      <lb ed="#R" n="102"/>ad distinctionem simpliciter: ergo illud, quod ibi 
+      <lb ed="#R" n="103"/>apparet distinctum, est forma, non materia. 
+      Confir<lb ed="#R" n="104" break="no"/>mo, quia forma est illud, quod dat nomen, &amp; 
+      de<lb ed="#R" n="105" break="no"/>finitionem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="106"/>Secundum vero, quod illud non esset idem 
+      nu<lb ed="#R" n="107" break="no"/>mero secundum quid, probo, quia illud, quod 
+      se<lb ed="#R" n="108" break="no"/>cundum quid pertinet ad compositum, si variatur, 
+      <lb ed="#R" n="109"/>oportet, quod varietur secundum quid etiam ipsum 
+      <lb ed="#R" n="110"/>compositum: sed materia pertinet ad compositum 
+      <lb ed="#R" n="111"/>secundum quid: ergo. 
+    </p>
+            </div>
+            <div>
+               <head>Articulus 2</head>
+               <head type="question-title">
+      Utrum spiritus incorporei possint pati ab igne 
+      corporeo
+    </head>
+               <p>
+                  <lb ed="#R" n="112"/>ARTICVLVS II 
+      <lb ed="#R" n="113"/>Vtrum spiritus incorporei possint pati ab igne 
+      <lb ed="#R" n="114"/>corporeo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="115"/>QVo ad secundam quaestionem arguo primo, 
+      <lb ed="#R" n="116"/>quod spiritus incorporeus pati non potest ab 
+      <lb ed="#R" n="117"/>igne corporeo, sic. Agens praestantior est 
+      <lb ed="#R" n="118"/>patiente secundum Augustinum: sed ignis est 
+      igno<lb ed="#R" n="119" break="no"/>bilior spiritu incorporeo: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="120"/>In oppositum est illud Matth. 5. quod dixit 
+      Sal<lb ed="#R" n="121" break="no"/>uator se dicturum in die iudicij: Ite maledicti 
+      in<lb ed="#R" n="122" break="no"/>ignem aeternum, qui paratus est diabolo, &amp; 
+      ange<lb ed="#R" n="123" break="no"/>lis eius. Respondeo, supponendo, quod ignis 
+      in<lb ed="#R" n="124" break="no"/>fernalis sit corporeus, &amp; hoc sonant auctoritates 
+      <lb ed="#R" n="125"/>Scripturae, similiter idem dicit expresse Gregorius 
+      <lb ed="#R" n="126"/>lib. 4. dialog. cap. 29. &amp; Aug. 21. de ciuit. cap. 10. 
+      <lb ed="#R" n="127"/>Pono primo difficultatem in qua consistit quaestio 
+      <lb ed="#R" n="128"/>ista. Secundo dicam, quod intendo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="129"/>Difficultas autem quaestionis consistit in hoc, 
+      <lb ed="#R" n="130"/>quod vix inueniri potest ex dictis Doctorum 
+      ali<lb ed="#R" n="131" break="no"/>quis modus idoneus, ex quo appareat 
+      possibili<lb ed="#R" n="132" break="no"/>tas quomodo ignis infernalis agat in spiritum 
+      <!--0206.xml-->
+      <pb ed="#R" n="206"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>quod patet discurrendo per singulos modos. 
+    </p>
+               <p>
+                  <lb ed="#R" n="2"/>Dicunt autem quidam, quod ignis dicitur 
+      age<lb ed="#R" n="3" break="no"/>re in spiritum tantummodo similitudinarie, &amp; 
+      se<lb ed="#R" n="4" break="no"/>cundum quandam coaptationem; aliter tamen, &amp; 
+      <lb ed="#R" n="5"/>magis proprie agit in animam, quam in spiritus 
+      in<lb ed="#R" n="6" break="no"/>corporeos. In animam enim agit, pro tanto, quod 
+      <lb ed="#R" n="7"/>anima apprehendens ignem proprie dicitur 
+      trista<lb ed="#R" n="8" break="no"/>ri: apprehensio autem ignis causat timorem 
+      tam<lb ed="#R" n="9" break="no"/>quam in ipsa de afflictione futura corporis sui, quae 
+      <lb ed="#R" n="10"/>futura est in igne, &amp; hoc modo ignis cruciat animam 
+      <lb ed="#R" n="11"/>eo modo, quo patibulum cruciat latronem, in quo 
+      <lb ed="#R" n="12"/>est suspendendus. Sed iste modus non potest poni 
+      <lb ed="#R" n="13"/>in spiritibus incorporeis puta in daemone. Ideo 
+      di<lb ed="#R" n="14" break="no"/>citur, quod ignis tantummodo agit in spiritus 
+      si<lb ed="#R" n="15" break="no"/>militudinarie: hoc autem sic declaratur. Tristitia 
+      <lb ed="#R" n="16"/>enim, quae est summa poena eorum, non est super 
+      ali<lb ed="#R" n="17" break="no"/>quid materiale, ideo non causatur ab igne, quia 
+      <lb ed="#R" n="18"/>eorum tristitia est tantum carentia visionis diuint, 
+      <lb ed="#R" n="19"/>ad quam nihil facit ignis; verum quia carentia 
+      vi<lb ed="#R" n="20" break="no"/>sionis est poena summe afflictiua spirituum 
+      intelle<lb ed="#R" n="21" break="no"/>ctualium, quia priuat illo, quod est summum 
+      bo<lb ed="#R" n="22" break="no"/>num eorum; hinc est, quod per quandam 
+      similitu<lb ed="#R" n="23" break="no"/>dinem dicitur poena ignis, eo quod ignis est 
+      sum<lb ed="#R" n="24" break="no"/>me corporis afflictiuus. Sed hic modus dicendi non 
+      <lb ed="#R" n="25"/>saluat auctoritates Scripturae, cuiusmodi est 
+      illa<lb ed="#R" n="26" break="no"/>Matth. 5. Ite in ignem aeternum, qui paratus est 
+      dia<lb ed="#R" n="27" break="no"/>bolo, &amp; angelis eius. Similiter non saluat 
+      Augulti<lb ed="#R" n="28" break="no"/>num, &amp; Cregorium, qui expresse dicunt, vbi supra, quod 
+      <lb ed="#R" n="29"/>spiritus damnati patiuntur ab igne corporeo.
+    </p>
+               <p>
+                  <lb ed="#R" n="30"/>Ideo dicunt alii, quod ignis ille agit in spiritus, 
+      <lb ed="#R" n="31"/>non principaliter, &amp; ex se, sed inquantum est 
+      in<lb ed="#R" n="32" break="no"/>strumentum diuinae iustitiae: &amp; sicut instrumentum 
+      <lb ed="#R" n="33"/>non agit per propriam virtutem, sed per virtutem 
+      <lb ed="#R" n="34"/>infusam sibi a principali agente, sic ignis non agit 
+      <lb ed="#R" n="35"/>in spiritus damnatos, nisi per virtutem quandam 
+      <lb ed="#R" n="36"/>infusam sibi a Deo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="37"/>Sed iste modus non sufficit. Primo quia virtus 
+      <lb ed="#R" n="38"/>illi iufluxa, ex quo reciperetur subiectiue in 
+      corpo<lb ed="#R" n="39" break="no"/>re, esset virtus corporalis, &amp; tunc oriretur eadem 
+      <lb ed="#R" n="40"/>difficultas, quomodo virtus illa posset agere in 
+      spi<lb ed="#R" n="41" break="no"/>ritum de ipso igne. 
+    </p>
+               <p>
+                  <lb ed="#R" n="42"/>Ideo dixerunt aliĳ. quod ignis potest agere in spi 
+      <lb ed="#R" n="43"/>ritum non propria virtute praecise, sed assistente 
+      si<lb ed="#R" n="44" break="no"/>bi diuina actione, &amp; exemplum ponunt de 
+      phantas<lb ed="#R" n="45" break="no"/>mate, quod cum sit forma corporalis, agit tamen 
+      <lb ed="#R" n="46"/>in intellecum possibilem, assisente sibi virtute 
+      in<lb ed="#R" n="47" break="no"/>tellectus agentis. Sicut ergo a specie in 
+      phantasma<lb ed="#R" n="48" break="no"/>te, quae est extensa &amp; quanta, ac per consequens 
+      cor<lb ed="#R" n="49" break="no"/>porea, causatur in intellectu possibili species 
+      inex<lb ed="#R" n="50" break="no"/>tensa, &amp; quasi spiritualis, &amp; hoc ex 
+      coassistentia<lb ed="#R" n="51" break="no"/>intellectus agentis, sic ab igne non obstante, quod 
+      <lb ed="#R" n="52"/>sit virtus corporea, causatur in spiritu calor 
+      sine<lb ed="#R" n="53" break="no"/>quantitate, habens quasi quoddam esse spirituale, 
+      <lb ed="#R" n="54"/>&amp; hoc in virtute actionis diuinae sibi coassistentis, 
+      <lb ed="#R" n="55"/>&amp; talis calor est vere afflictiuus ipsorum spirituum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="56"/>Sed iste modus etiam non sufficit, tum quia dato, 
+      <lb ed="#R" n="57"/>quod posset agere, non appareret quomodo spiritum 
+      <lb ed="#R" n="58"/>affligeret, quia non abijceret aliquid a spiritu; tum 
+      <lb ed="#R" n="59"/>quia non est simile de phantasmate, &amp; igne, quia 
+      <lb ed="#R" n="60"/>phantasma potest agere virtute propria, etsi requi 
+      <lb ed="#R" n="61"/>rat assistentiam intellectus agentis, sed non 
+      osten<lb ed="#R" n="62" break="no"/>ditur, quomodo ignis agere possit virtute propria. 
+    </p>
+               <p>
+                  <lb ed="#R" n="63"/>Alius modus dicendi est, quod Deus dat spiritui 
+      <lb ed="#R" n="64"/>habitum quendani, &amp; qualitatem, quo fit passibilis 
+      <lb ed="#R" n="65"/>ab igne corporali. Sed ille modus non valet in 
+      pro<lb ed="#R" n="66" break="no"/>posito, tum quia habitus iste, ex quo reciperetur in 
+      <lb ed="#R" n="67"/>subiecto spirituali, esset quid spirituale, &amp; tunc erit 
+      <lb ed="#R" n="68"/>cadem difficultas, quomodo posset esse ratio pa- 
+      <!--0206.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>tiendi a corpore ipsi spiritui, sicut est de 
+      natura<lb ed="#R" n="70" break="no"/>ipsius spiritus. Secundo, quia posito etiam tali 
+      ha<lb ed="#R" n="71" break="no"/>bitu non appareret, quomodo possit aliquid abijci 
+      <lb ed="#R" n="72"/>ex hoc a natura spiritus, &amp; per consequens, 
+      quo<lb ed="#R" n="73" break="no"/>modo ex hoc ignis asfligat, quia ignis non affligit, 
+      <lb ed="#R" n="74"/>nisi aliquid abiiciendo. Tertio, quia talis habitus 
+      <lb ed="#R" n="75"/>receptus subiectiue in spiritu non immutaret 
+      natu<lb ed="#R" n="76" break="no"/>ram ipsius spiritus: ergo non faceret eum 
+      passibi<lb ed="#R" n="77" break="no"/>lem ab igne, cum de natura spiritus sit, quod non 
+      <lb ed="#R" n="78"/>possit pati ab igne. Ideo dicit vnus Doctor 
+      mo<lb ed="#R" n="79" break="no"/>dernus subtilis, hoc modo: Passio enim summa 
+      na<lb ed="#R" n="80" break="no"/>turae purae spiritualis est tristitia in voluntate, quae 
+      <lb ed="#R" n="81"/>prouenit ex apprehensione disconuenientis, vel 
+      rea<lb ed="#R" n="82" break="no"/>liter, vel secundum apprehensionem, qua 
+      appre<lb ed="#R" n="83" break="no"/>hensi, vt disconueniens, &amp; ostensi a ratione, licet 
+      <lb ed="#R" n="84"/>etiam a ratione errante, vt disconueniens. 
+    </p>
+               <p>
+                  <lb ed="#R" n="85"/>Tunc ad propositum, agens est obiecum discon 
+      <lb ed="#R" n="86"/>ueniens, &amp; nolitum, &amp; tamen positum ideo 
+      tristabi<lb ed="#R" n="87" break="no"/>le, quia tristitia est de ijs, quae nobis nolentibus 
+      ac<lb ed="#R" n="88" break="no"/>cidunt. Est autem ignis iste disconueniens in 
+      ratio<lb ed="#R" n="89" break="no"/>ne detinentis dupliciter. Primo, vt detinens 
+      spiri<lb ed="#R" n="90" break="no"/>tum definitiue: secundo, vt immutans obiectiuë. Est 
+      <lb ed="#R" n="91"/>autem disconueniens in ratione detinentis 
+      defini<lb ed="#R" n="92" break="no"/>tiue, non quidem absolute ex natura rei: quia sicut 
+      <lb ed="#R" n="93"/>nullum corpus est natura liter conueniens angelo, 
+      <lb ed="#R" n="94"/>&amp; spiritui in ratione detinentis, sic nullum corpus 
+      <lb ed="#R" n="95"/>est naturaliter inconueniens eidem in ratione 
+      de<lb ed="#R" n="96" break="no"/>tinentis: ergo ad hoc oportet, quod concurrat 
+      no<lb ed="#R" n="97" break="no"/>litio ex parte voluntatis, &amp; sic est in proposito, quia 
+      <lb ed="#R" n="98"/>illa detentio in igne est summe nolita ipsi angelo 
+      <lb ed="#R" n="99"/>malo, maxime sub ista ratione, inquantum est a 
+      vo<lb ed="#R" n="100" break="no"/>luntate diuina. 
+    </p>
+               <p>
+                  <lb ed="#R" n="101"/>Secundo tristatur in ratione obiecti 
+      disconue<lb ed="#R" n="102" break="no"/>nientis, in ratione immutantis obiectiue hoc modo. 
+      <lb ed="#R" n="103"/>Determinatur enim perpetuo ad intense 
+      conside<lb ed="#R" n="104" break="no"/>randum ignem, quam determinationem summe odit, 
+      <lb ed="#R" n="105"/>&amp; quia ponitur a Deo, sunime tristatur. Sed iste mo 
+      <lb ed="#R" n="106"/>idus licet sit multum subtilis, tamen non videtur 
+      sus<lb ed="#R" n="107" break="no"/>ficere specialiter ex hoc, quod hoc modo posset 
+      au<lb ed="#R" n="108" break="no"/>rum affligere ipsum daemonem in ratione detinentis 
+      <lb ed="#R" n="109"/>definitiue, &amp; immutantis obiectiue, &amp; sic ignis non 
+      <lb ed="#R" n="110"/>haberet ex ratione sua magis, quod affligeret 
+      spiri<lb ed="#R" n="111" break="no"/>tum, quam aurum. Sic ergo ex insufficientia 
+      modo<lb ed="#R" n="112" break="no"/>rum ponendi, adhuc remanet difficultas quomodo 
+      <lb ed="#R" n="113"/>spiritus incorporeus possit pati ab igne agente 
+      <lb ed="#R" n="114"/>Nunc pono aliquas propositiones. 
+    </p>
+               <p>
+                  <lb ed="#R" n="115"/>Prima est, quod aflictio siue passio spirituum per 
+      <lb ed="#R" n="116"/>ignem non est abiectiua siue realis, siue 
+      intentiona<lb ed="#R" n="117" break="no"/>lis. Dico autem non realis, quia imaginantur 
+      qui<lb ed="#R" n="118" break="no"/>dam, quod illi ardeant, &amp; calefiant, quod omnino 
+      <lb ed="#R" n="119"/>reputo inintelligibile: sicut enim non potest 
+      liga<lb ed="#R" n="120" break="no"/>re intellectus, quod syllogismus sit albus, quia 
+      nul<lb ed="#R" n="121" break="no"/>lam habet omnino habitudinem subiecti, &amp; formae; 
+      <lb ed="#R" n="122"/>sic inintelligibile est, quod angelus ardeat, &amp; 
+      cale<lb ed="#R" n="123" break="no"/>fiat, quia calor impossibile est, quod aspiciat 
+      spiri<lb ed="#R" n="124" break="no"/>tum, vt spiritum 
+    </p>
+               <p>
+                  <lb ed="#R" n="125"/>Dico secundo, quod nec etiam intentionalis 
+      abie<lb ed="#R" n="126" break="no"/>ctiua, quia passio illa abijcit armoniam, quando est 
+      <lb ed="#R" n="127"/>magis facta, sed in spiritu natura est armonia talis. 
+      <lb ed="#R" n="128"/>Qualis ergo est? Dico, quod est formaliter passio, 
+      <lb ed="#R" n="129"/>quae est tristitia in voluntate, &amp; in hoc concordo 
+      <lb ed="#R" n="130"/>cum vltima opinione: non enim tristitia est 
+      tan<lb ed="#R" n="131" break="no"/>tum in appetitu sensitiuo, sed in voluntate, 
+      vn<lb ed="#R" n="132" break="no"/>de tristatur homo secundum voluntatem, nam 7. 
+      <lb ed="#R" n="133"/>Ethicorum cap. 1a. dicit Aristoteles, quod 
+      tristi<lb ed="#R" n="134" break="no"/>tiae quaedam sunt corporales, quaedam spirituales, 
+      <lb ed="#R" n="135"/>&amp; spiritualis tristitia secundum eum 
+      quandoque<lb ed="#R" n="136" break="no"/>excedit tristitiam corporalem, vnde subit homo 
+      <!--0207.xml-->
+      <pb ed="#R" n="207"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>quandoque tristitiam summam corporalem, 
+      pro<lb ed="#R" n="2" break="no"/>pter euitandam tristitiam spiritualem, sicut 
+      fre<lb ed="#R" n="3" break="no"/>quenter eligit homo mortem propter 
+      verecun<lb ed="#R" n="4" break="no"/>diam fugiendam, &amp; hoc modo intelligendum est, 
+      <lb ed="#R" n="5"/>quod ignis cruciat spiritum, sicut non habitum 
+      fre<lb ed="#R" n="6" break="no"/>quenter cruciat ambitiosum. Est autem tristitia 
+      <lb ed="#R" n="7"/>qualitas quaedam in voluntate, &amp; illam causat ignis 
+      <lb ed="#R" n="8"/>non causando ardorem, vel calorem, sed 
+      tantum<lb ed="#R" n="9" break="no"/>modo tristitiam, quae est summa afflictio naturae 
+      in<lb ed="#R" n="10" break="no"/>tellectualis: sicut enim tristitia carnis est affictio 
+      <lb ed="#R" n="11"/>corporis, sic tristtitia voluntatis est afllictio 
+      spiri<lb ed="#R" n="12" break="no"/>tus. Hrc ergo est poena spirituum damnatorum. 
+      <lb ed="#R" n="13"/>Sed vtrum talis qualitas possit causari ab igne 
+      cor<lb ed="#R" n="14" break="no"/>poreo in spiritum, difficile est videre: tango ergo 
+      <lb ed="#R" n="15"/>tres imaginationes, eligat quilibet, quod magis 
+      <lb ed="#R" n="16"/>placet.
+    </p>
+               <p>
+                  <lb ed="#R" n="17"/>Prima imaginatio est, quod ardor ignis causee 
+      <lb ed="#R" n="18"/>illam tristitiam, non elicitiue, sed applicatiue, 
+      <lb ed="#R" n="19"/>eo modo quo dictum est supra, quod sacramenta 
+      <lb ed="#R" n="20"/>sunt causa gratiae, &amp; sanctificant non eliciendo sed 
+      <lb ed="#R" n="21"/>applicando virtutem diuinam ad agere; sic quod 
+      <lb ed="#R" n="22"/>diuina voluntas statuit se semper assistere in 
+      agen<lb ed="#R" n="23" break="no"/>do, &amp; causando gratiam in eo, cui fuerint exhibita 
+      <lb ed="#R" n="24"/>sacramenta, &amp; hoc modo Deus lotione facta per 
+      <lb ed="#R" n="25"/>aquam baptismi applicat se ad fundandum gratiam, 
+      <lb ed="#R" n="26"/>quam non infunderet absente aqua. Sic potest 
+      di<lb ed="#R" n="27" break="no"/>ci in proposito, quod Deus vnit ignem spiritibus 
+      <lb ed="#R" n="28"/>damnatis, quo praesente statim applicat se ad 
+      cau<lb ed="#R" n="29" break="no"/>sandum tristitiam in voluntate, &amp; sit quasi in eo 
+      <lb ed="#R" n="30"/>iste syllogismus practicus: &amp; sit ista maior. Volo 
+      <lb ed="#R" n="31"/>omnem spiritum, cui vnitus fuerit ignis corporeus, 
+      <lb ed="#R" n="32"/>affligi tristitia in voluntate, tunc sequitur minor, 
+      <lb ed="#R" n="33"/>isti vnitus est ignis, &amp; sequitur conclusio tristitia 
+      <lb ed="#R" n="34"/>vel in voluntate elicitiue a Deo, ita quod 
+      secun<lb ed="#R" n="35" break="no"/>dum gradum maiorem ignis est maior gradus 
+      <lb ed="#R" n="36"/>tristitiae in voluntate a Deo elicitiue: &amp; ideo in die 
+      <lb ed="#R" n="37"/>iudicij, quando augmentabitur ignis, augebitur 
+      <lb ed="#R" n="38"/>proportionaliter tristitia in voluntate, &amp; hoc a 
+      <lb ed="#R" n="39"/>Deo elicitiue, ab igne vero Deus ad eliciendum 
+      <lb ed="#R" n="40"/>applicante, inquantum determinauit se Deus 
+      age<lb ed="#R" n="41" break="no"/>re ad praesentiam ignis, &amp; intense secundum 
+      in<lb ed="#R" n="42" break="no"/>tensionem gradus ignis. Tunc posset ratio sic 
+      for<lb ed="#R" n="43" break="no"/>mari: Non plus agit ardor ignis ad tristitiam in 
+      vo<lb ed="#R" n="44" break="no"/>luntate spiritus damnati, quam aqua baptiimalis 
+      <lb ed="#R" n="45"/>ad infusionem gratiae in anima: sed illa non agit ad 
+      <lb ed="#R" n="46"/>gratiam eliciendo, sed tantum diuinam virtutem 
+      <lb ed="#R" n="47"/>applicando: ergo: sic ergo non habebit ignis 
+      ma<lb ed="#R" n="48" break="no"/>iorem causalitatem ad tristandum, quam 
+      baptis<lb ed="#R" n="49" break="no"/>mus ad sanctificandum: applicans autem aliquo 
+      <lb ed="#R" n="50"/>modo dicitur agere in humanis, sicut dicimus, 
+      <lb ed="#R" n="51"/>quod corona Regis agit, ne Rex percutiatur; sic 
+      <lb ed="#R" n="52"/>causat ignis, quia secundum gradum caloris sui 
+      <lb ed="#R" n="53"/>applicat virtutem diuinam ad causandum 
+      trisi<lb ed="#R" n="54" break="no"/>tiam in isto. 
+    </p>
+               <p>
+                  <lb ed="#R" n="55"/>Secunda imaginatio est, quod si non sufficiat 
+      pri<lb ed="#R" n="56" break="no"/>ma via, sed oporteat aliquam actiuitatem 
+      pone<lb ed="#R" n="57" break="no"/>re in ardore ignis respecu spirituum, potest hoc 
+      <lb ed="#R" n="58"/>modo poni, quod apprehensio per intellectum 
+      <lb ed="#R" n="59"/>alicuius nocumenti, quantumcunque modici, 
+      cau<lb ed="#R" n="60" break="no"/>sat tristitiam in voluntate, non dico ipsum 
+      nocu<lb ed="#R" n="61" break="no"/>mentum apprehensum, quia non habet, vt sic esse 
+      <lb ed="#R" n="62"/>reale, &amp; per consequens non potest elicere 
+      actio<lb ed="#R" n="63" break="no"/>nem realem: effectus enim realis habet causam 
+      <lb ed="#R" n="64"/>realem. Intelligo ergo non quod ipsum 
+      nocumen<lb ed="#R" n="65" break="no"/>tum intellectum, sed quod ipsa intellectio 
+      nocu<lb ed="#R" n="66" break="no"/>menti apprehensi causat tristitiam in voluntate 
+      <lb ed="#R" n="67"/>tunc autem intellectio tristitiae poterit esse ex duo- 
+      <!--0207.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>bus, vel ex intentione obiecti, scilicet nocumenti; 
+      <lb ed="#R" n="69"/>vel ex intentioue ipsius actus, scilicet 
+      intellecttio<lb ed="#R" n="70" break="no"/>nis ipsius nocumenti, vt apprehendendo maius 
+      <lb ed="#R" n="71"/>malum; vel illud malum appresiendendo 
+      inten<lb ed="#R" n="72" break="no"/>sius, &amp; quolibet istorum moodorumi asslictio est 
+      <lb ed="#R" n="73"/>maior, &amp; ex parte intentionis nocumenti, vt 
+      pa<lb ed="#R" n="74" break="no"/>tet, &amp; ex parte intensionis actus quo 
+      apprehendi<lb ed="#R" n="75" break="no"/>tur nocunientum, vt videmus, quod de aquali 
+      no<lb ed="#R" n="76" break="no"/>cumento plus tristatur quis vno tempore, quam 
+      <lb ed="#R" n="77"/>alius. Ratio autem est, quia intensio in causa est 
+      <lb ed="#R" n="78"/>causa intensionis in effectu. 
+    </p>
+               <p>
+                  <lb ed="#R" n="79"/>Tunc ad propositum potest poni, quod spiritus 
+      <lb ed="#R" n="80"/>malus apprehendit ignem sub ratione 
+      disconue<lb ed="#R" n="81" break="no"/>nientis, quae disconuenientia non est ex hoc, quod 
+      <lb ed="#R" n="82"/>ignis comburat, vel calefaciat spiritum, sed ex 
+      <lb ed="#R" n="83"/>hoc, quod est sibi a Deo continue alligatus in 
+      poe<lb ed="#R" n="84" break="no"/>nam propter culpam: omne autem tale habet 
+      ra<lb ed="#R" n="85" break="no"/>tionem mali. Apprehensionem ergo istius 
+      alliga<lb ed="#R" n="86" break="no"/>tionis potest ignis causare in intellectu Angeli, 
+      si<lb ed="#R" n="87" break="no"/>cut naturale obiectum: &amp; quamuis nocumentum 
+      <lb ed="#R" n="88"/>puta obligatio ipsa sit paruum, &amp; ideo de se parum 
+      <lb ed="#R" n="89"/>tristaret: tamen potest Deus intensionem eius ita 
+      <lb ed="#R" n="90"/>augere in intellectu Angeli, quod causabit summam 
+      <lb ed="#R" n="91"/>tristtitiam in voluntate secundum gradum 
+      inten<lb ed="#R" n="92" break="no"/>sionis suae. Formari autem sic posset ratio. Illud 
+      <lb ed="#R" n="93"/>quod est causa talis effectus, factum magis tale est 
+      <lb ed="#R" n="94"/>causa maioris effectus, &amp; facum maxime tale est 
+      <lb ed="#R" n="95"/>causa maximi tulis effectus.
+    </p>
+               <p>
+                  <lb ed="#R" n="96"/>Et hoc modo potest intelligi, quod 
+      concurren<lb ed="#R" n="97" break="no"/>te virtute diuina ignis causet aliquo modo eff
+      ecti<lb ed="#R" n="98" break="no"/>ue tristitiam in voluntate, arguendo sic. Quicquid 
+      <lb ed="#R" n="99"/>est causa causae, est causa causati: ignis est causa 
+      <lb ed="#R" n="100"/>intellectionis angeli mali, qua apprehendit ignem, 
+      <lb ed="#R" n="101"/>vt disconueniens; ipsa autem est causa tristitiae in 
+      <lb ed="#R" n="102"/>voluntate: ergo. Ex quo patet, quomodo Deus, &amp; 
+      <lb ed="#R" n="103"/>ignis sunt vna causa integra, &amp; totalis tristitiae 
+      dan<lb ed="#R" n="104" break="no"/>nati, ignis quidem caulando intellectionem sui, 
+      <lb ed="#R" n="105"/>&amp; disconuenientis: Deus autem mediante 
+      intelle<lb ed="#R" n="106" break="no"/>cttione, quam intendit, &amp; ex consequenti mediante 
+      <lb ed="#R" n="107"/>igne, &amp; hoc modo potest intelligi, quod ignis sit 
+      in<lb ed="#R" n="108" break="no"/>strumentum iustitiae diuinae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="109"/>Tertia imaginatio est. quod omnis forma 
+      abso<lb ed="#R" n="110" break="no"/>luta, quae apta nata causari ab obiecto, potest 
+      virtu<lb ed="#R" n="111" break="no"/>te diuina causari sine obiecto: Tristitia autem 
+      <lb ed="#R" n="112"/>in voluntate est forma absoluta, &amp; apta nata 
+      cau<lb ed="#R" n="113" break="no"/>sari ab obiecto: ergo Deus potest causare isam 
+      si<lb ed="#R" n="114" break="no"/>ne obieco. Et confirmo, quia videtur, quod 
+      natu<lb ed="#R" n="115" break="no"/>ra saepe faciat tristitiam in me lancholicis sine 
+      cau<lb ed="#R" n="116" break="no"/>sa aliqua ex parte obiecti. Ex hoc infero, quod non 
+      <lb ed="#R" n="117"/>sit inconueniens, quod Deus virtutem aliquam 
+      <lb ed="#R" n="118"/>possit ingenerare, quae possit causare eandem 
+      tri<lb ed="#R" n="119" break="no"/>stitiam, quam causaret obiectum summe 
+      tristabi<lb ed="#R" n="120" break="no"/>le: obiecum autem summe tristabile aptum est 
+      <lb ed="#R" n="121"/>causare summam tristitiam: ergo Deus mediante 
+      <lb ed="#R" n="122"/>aliqua alia virtute spirituali creata, potest talem 
+      <lb ed="#R" n="123"/>tristitiam causare. Nec oportet talem virtutem 
+      es<lb ed="#R" n="124" break="no"/>se infinitam, cum tristitia non sit insinita, 
+      quantum<lb ed="#R" n="125" break="no"/>cunque summa: quod si huiusmodi virtus possit 
+      es<lb ed="#R" n="126" break="no"/>se corporalis, poterit dici, quod ista sit ignis, &amp; per 
+      <lb ed="#R" n="127"/>consequens ignis cruciat effectiue spiritus malos: 
+      <lb ed="#R" n="128"/>si vero non possit esse corporalis, sed oportet, 
+      <lb ed="#R" n="129"/>quod sit spiritualis, tunc potest dici, quod 
+      vir<lb ed="#R" n="130" break="no"/>tus illa sit intellectio ipsius ignis, vel virtus 
+      alli<lb ed="#R" n="131" break="no"/>gata intellectioni ipsi, &amp; sic tristitia spirituum 
+      <lb ed="#R" n="132"/>damnatorum erit effectiue a duabus causis, a Deo 
+      <lb ed="#R" n="133"/>scilicet, &amp; virtute ista sicut ab instrumento. Isti 
+      <lb ed="#R" n="134"/>tres modi videntur sufficere.
+    </p>
+            </div>
+            <div>
+               <head>Articulus 3</head>
+               <head type="question-title">
+          Verum dos impassibilitatis in corporibus gloriosis 
+          sit aliqua realis forma inhaerens.
+        </head>
+               <p>
+      <!--0208.xml-->
+                  <pb ed="#R" n="208"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>ARTICVLVSIII. 
+      <lb ed="#R" n="2"/>Verum dos impassibilitatis in corporibus gloriosis 
+      <lb ed="#R" n="3"/>sit aliqua realis forma inhaerens. 
+    </p>
+               <p>
+                  <lb ed="#R" n="4"/>AD tertiam quaestionem arguo primo, quod 
+      <lb ed="#R" n="5"/>dos impassibilitatis in corporibus gloriosis 
+      <lb ed="#R" n="6"/>sit aliqua realis forma inhaerens, sic: Secundum om 
+      <lb ed="#R" n="7"/>nes, corpora gloriosa habebunt dotem 
+      impassibi<lb ed="#R" n="8" break="no"/>litatis, corpora vero damnatorum, non. 
+    </p>
+               <p>
+                  <lb ed="#R" n="9"/>Tunc sic: Respectus non datur, nisi dato aliquo 
+      <lb ed="#R" n="10"/>absoluto: sed corporibus gloriosis datur dos: ergo 
+      <lb ed="#R" n="11"/>illa non est respectus, vel saltem si est respectus, 
+      fun<lb ed="#R" n="12" break="no"/>dabitur in nouo aliquo absoluto dato: illud voco 
+      <lb ed="#R" n="13"/>dotem: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="14"/>In oppositum arguo: Nihil, quod debetur alicui 
+      <lb ed="#R" n="15"/>naturaliter, potest tolli, nisi mediante diuina 
+      virtu<lb ed="#R" n="16" break="no"/>re: sed corpori composito ex contrarijs debetur 
+      na<lb ed="#R" n="17" break="no"/>turaliter, quod sit passibile, &amp; corruptibile: ergo 
+      <lb ed="#R" n="18"/>illud non tolletur per qualitatem aliquam, sed per 
+      <lb ed="#R" n="19"/>solam diuinam virtutem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="20"/>Respondeo pono primum duas propositiones 
+      <lb ed="#R" n="21"/>negatiuas, deinde vnam afūrmatiuam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="22"/>Prima Propositio est isa, quod corpora gloriosa 
+      <lb ed="#R" n="23"/>mon erunt impassibilia, &amp; incorruptibilia propter 
+      <lb ed="#R" n="24"/>causam priuatiuam. Hanc propositionem pono 
+      <lb ed="#R" n="25"/>propter duas opiniones, quarum vna est, quod 
+      im<lb ed="#R" n="26" break="no"/>passibilitas, &amp; incorruptibilitas est in corporibus 
+      <lb ed="#R" n="27"/>gloriosis, propter ablationem priuationis a 
+      ma<lb ed="#R" n="28" break="no"/>ceria eorum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="29"/>Modus ponendi est iste. Dicunt, quod materia 
+      <lb ed="#R" n="30"/>machinatur ad malesicium, non de se, sed causa 
+      <lb ed="#R" n="31"/>priuationis: si ergo tollitur priuatio, tollitur 
+      ma<lb ed="#R" n="32" break="no"/>chinatio ipsa, &amp; maleticium, &amp; potentia propinqua 
+      <lb ed="#R" n="33"/>ad corruptionem; hanc autem priuationem potest 
+      <lb ed="#R" n="34"/>Deus auferre: quod probatur, quoniam quando 
+      ali<lb ed="#R" n="35" break="no"/>qua sunt coniuncta per accidens potest Deus tolle. 
+      <lb ed="#R" n="36"/>re illud, quod est accidens, remanente eo, quod est 
+      <lb ed="#R" n="37"/>per se: sed materia, &amp; priuatio sunt per accidens 
+      <lb ed="#R" n="38"/>coniuncta: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="39"/>Aliorum opinio est, qui causa incorruptibilitatis, 
+      <lb ed="#R" n="40"/>&amp; impassibilitatis corporum beatorum est ablatio 
+      <lb ed="#R" n="41"/>qualitatum actiuarum, &amp; passiuarum: causa enim 
+      <lb ed="#R" n="42"/>corruptionis est mutua actio qualitatum, quae in 
+      <lb ed="#R" n="43"/>resurrectione aufertur secundum istos. Contra 
+      <lb ed="#R" n="44"/>istas duas opiniones posui opinionem praedictam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="45"/>Et arguo primo contra opinionem de ablatione 
+      <lb ed="#R" n="46"/>priuationis, sic. Priuatio dicit duo, scilicet 
+      nega<lb ed="#R" n="47" break="no"/>tionem formae, &amp; aptitudinem, quoniam priuatio est 
+      <lb ed="#R" n="48"/>negatio in subiecto apto nato: sed non tollitur 
+      ne<lb ed="#R" n="49" break="no"/>gatio, nisi per passionem formae: ergo. Similiter 
+      apti<lb ed="#R" n="50" break="no"/>tudo non potest tolli, nisi tollatur essentia materiae, 
+      <lb ed="#R" n="51"/>a qua intrinsece oritur talis aptitudo, quare cum in 
+      <lb ed="#R" n="52"/>resurrectione non ponatur in materia corporis 
+      re<lb ed="#R" n="53" break="no"/>surgentis omnis forma, cuius negatio erat in 
+      ma<lb ed="#R" n="54" break="no"/>teria eius, nec tollatur natura materiae, sequitur, 
+      <lb ed="#R" n="55"/>quod non tollitur priuatio illa. 
+    </p>
+               <p>
+                  <lb ed="#R" n="56"/>Ad motiuum opin. concedo minorem, quod 
+      pri<lb ed="#R" n="57" break="no"/>uatio per accidens coniungatur materiae, quia quo 
+      <lb ed="#R" n="58"/>ad negationem non est de essentia materiae, sed 
+      li<lb ed="#R" n="59" break="no"/>cet non sit de essentia materiae, concomitatur eam 
+      <lb ed="#R" n="60"/>tamen necessario, quia posita vna forma, 
+      necessa<lb ed="#R" n="61" break="no"/>rio concomitatur eam negatio alterius formae. 
+      Si<lb ed="#R" n="62" break="no"/>militer aptitudo adeo sequitur, &amp; concomitatur 
+      <lb ed="#R" n="63"/>materiam, quod secundum multos Deus non 
+      po<lb ed="#R" n="64" break="no"/>test eam auferre, nisi auferendo naturam.
+    </p>
+               <p>
+      <!--0208.xml-->
+                  <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="65"/>Contra secundam opinionem de ablatione 
+      qua<lb ed="#R" n="66" break="no"/>litatum arguo sic: Organa corporum beatorum 
+      <lb ed="#R" n="67"/>erunt apta ad sensationes, licet non sunt apta ad 
+      <lb ed="#R" n="68"/>huiusmodi sine qualitatibus actiuis, &amp; passiuis. 
+      <lb ed="#R" n="69"/>Probo, quoniam instrumenta sensuum vere 
+      viden<lb ed="#R" n="70" break="no"/>tur esse huiusmodi qualitates, sicut instrumentum 
+      <lb ed="#R" n="71"/>tactus sunt qualitates mediae: auditus autem, aer 
+      <lb ed="#R" n="72"/>frangibilis, visus vero dyaphaneitas magis 
+      ter<lb ed="#R" n="73" break="no"/>minata, quam sit in aere, &amp; sic de aliis sensibus: 
+      <lb ed="#R" n="74"/>ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="75"/>Secunda Propositio negatiua est, quod causa 
+      <lb ed="#R" n="76"/>impassibilitatis corporum beatorum non est 
+      posi<lb ed="#R" n="77" break="no"/>tio alicuius formae creatae inhaerentis. Hanc 
+      pro<lb ed="#R" n="78" break="no"/>positionem pono propter duas alias opiniones de 
+      <lb ed="#R" n="79"/>causa impassibilitatis corporum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="80"/>Prima est, quod causa est qualitas aliqua 
+      da<lb ed="#R" n="81" break="no"/>ta corpori a Deo, per quam habet plenum 
+      domi<lb ed="#R" n="82" break="no"/>nium super qualitates actiuas, &amp; passiuas, ex 
+      qua<lb ed="#R" n="83" break="no"/>rum mutua actione sequitur passibilitas, &amp; 
+      corru<lb ed="#R" n="84" break="no"/>ptio in corpore. 
+    </p>
+               <p>
+                  <lb ed="#R" n="85"/>Alii dicunt, quod est qualitas quaedam actiua 
+      <lb ed="#R" n="86"/>redundans a gloria animae in ipsum corpus, cuius 
+      <lb ed="#R" n="87"/>actio est manutenere formam omnem in corpore 
+      <lb ed="#R" n="88"/>tam substantialem, quam accidentalem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="89"/>Contra has ambas opiniones probo 
+      propositio<lb ed="#R" n="90" break="no"/>nem propositam. Primo sic. Impassibilitas 
+      cor<lb ed="#R" n="91" break="no"/>porum non solum est non posse pati passionem 
+      abie<lb ed="#R" n="92" break="no"/>ctiuam formae conuenientis, sed etiam 
+      translatio<lb ed="#R" n="93" break="no"/>nem violentam de loco ad locum: sed 
+      impassibi<lb ed="#R" n="94" break="no"/>litatem hanc secundam non videtur, quod corpus 
+      <lb ed="#R" n="95"/>possit habere per aliquam qualitatem, quia si sic, 
+      <lb ed="#R" n="96"/>oporteret, quod per illam fieret tale corpus 
+      for<lb ed="#R" n="97" break="no"/>tius, &amp; immobilius in resistendo, &amp; 
+      quiescen<lb ed="#R" n="98" break="no"/>do omni potentia motiua creata. 
+      Consequen<lb ed="#R" n="99" break="no"/>tiam probo per Aristotelem in lib. de motu 
+      ani<lb ed="#R" n="100" break="no"/>malium cap. 1. quod oportet potentiam 
+      quietan<lb ed="#R" n="101" break="no"/>tem fortiorem ese potentia mouente: sed non est 
+      <lb ed="#R" n="102"/>dare, vt videtur, potentiam aliquam in corpore glo 
+      <lb ed="#R" n="103"/>rioso, excedentem potentiam omnium angelorum, 
+      <lb ed="#R" n="104"/>vel aliorum mouentium: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="105"/>Item: Virtus illa aut tolleret passibilitatem 
+      abie<lb ed="#R" n="106" break="no"/>ctiuam impediendo agens ne ageret, vel 
+      subtra<lb ed="#R" n="107" break="no"/>hendo actionem agentis, vel substrahendo 
+      passio<lb ed="#R" n="108" break="no"/>nem materiae: sed nulla virtus creata potest 
+      su<lb ed="#R" n="109" break="no"/>spendere virtutem actiua ab agere, nes materiam 
+      <lb ed="#R" n="110"/>a pati, eo quod nulla virtus creata potest 
+      separa<lb ed="#R" n="111" break="no"/>re subiectum a sua passione; agere autem videtur 
+      <lb ed="#R" n="112"/>passio esse virtutis actiuae, sicut calefacere 
+      calo<lb ed="#R" n="113" break="no"/>ris, &amp; hoc passiuo praesente, similiter materiae 
+      <lb ed="#R" n="114"/>passio est pati 1. de generatione comm. 55. sicut ait 
+      <lb ed="#R" n="115"/>Commentator 2. caeli, &amp; mundi. 
+    </p>
+               <p>
+                  <lb ed="#R" n="116"/>Tertio ad idem, quia nulla virtus creata potest 
+      <lb ed="#R" n="117"/>auferre illud, quod conuenit in secundo modo 
+      di<lb ed="#R" n="118" break="no"/>cendi per se: sed compositio ex elementis 
+      conue<lb ed="#R" n="119" break="no"/>nit per se in secundo modo pati, &amp; corrũpi: 
+      ergo<lb ed="#R" n="120" break="no"/>Vnde 1. caeli, &amp; mundi in fine, per se est, quod 
+      om<lb ed="#R" n="121" break="no"/>ne possibile patiatur, &amp; corruptibile 
+      corrumpa<lb ed="#R" n="122" break="no"/>tur. 
+    </p>
+               <p>
+                  <lb ed="#R" n="123"/>Quarto sic: Nunquam passio abiectiua potest 
+      <lb ed="#R" n="124"/>ab aliqua virtute impediri, nisi propter 
+      manute<lb ed="#R" n="125" break="no"/>nentiam formaae contrariae: sed forma quaecunque 
+      <lb ed="#R" n="126"/>manuteneatur in corpore glorioso, non est tantae 
+      <lb ed="#R" n="127"/>acttiuitatis, quod possit resistere calori ignis, eo 
+      <lb ed="#R" n="128"/>quod qualitates in eo sunt redactae ad medium: 
+      er<lb ed="#R" n="129" break="no"/>go nulla talis forma in corpore glorioso sic potest 
+      <lb ed="#R" n="130"/>manuteneri, quod per hoc excludatur omnis 
+      pas<lb ed="#R" n="131" break="no"/>sio abiectiua.
+    </p>
+               <p>
+      <!--0209.xml-->
+                  <pb ed="#R" n="209"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Dices: Illa qualitas est ligans vnam formam cum 
+      <lb ed="#R" n="2"/>alia, ac reddens impossibilem separari ab alia, &amp; 
+      <lb ed="#R" n="3"/>ideo licet forma de se non habeat, quod possit 
+      ma<lb ed="#R" n="4" break="no"/>nuteneri in subiecto per resistentiam eius 
+      contra<lb ed="#R" n="5" break="no"/>omne agens, tamen hoc potest habere 
+      mediante<lb ed="#R" n="6" break="no"/>illa qualitate. 
+    </p>
+               <p>
+                  <lb ed="#R" n="7"/>Contra: Oporteret, quod qualitas fundaret 
+      for<lb ed="#R" n="8" break="no"/>malem contrarietatem ad actiua, quae apta nata 
+      <lb ed="#R" n="9"/>sunt agere in corpus, ex quo esset ratio corpori 
+      re<lb ed="#R" n="10" break="no"/>sisendi omni agenti. Quo posito sequitur, quod 
+      <lb ed="#R" n="11"/>illa qualitas posset pati cum omne contrarium 
+      pa<lb ed="#R" n="12" break="no"/>tiatur a contrario, &amp; ex hoc, quod quandoque 
+      pos<lb ed="#R" n="13" break="no"/>set diminui, &amp; corrumpi: ergo non redderet 
+      cor<lb ed="#R" n="14" break="no"/>pus impassibile, &amp; incorruptibile.
+    </p>
+               <p>
+                  <lb ed="#R" n="15"/>Tertia Propositio affirmatiua est, quod corpus 
+      <lb ed="#R" n="16"/>beati erit impassibile per virtutem diuinam, non 
+      <lb ed="#R" n="17"/>quidem rebellantem, sed manutenentem formam 
+      <lb ed="#R" n="18"/>substantialem in corpore, &amp; postremas 
+      perfectio<lb ed="#R" n="19" break="no"/>nes determinat sibi forma substantialis, &amp; ex hoc 
+      <lb ed="#R" n="20"/>corpora beatorum habebunt impassibilitatem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="21"/>Ad euidentiam autem huius propositionis 
+      vi<lb ed="#R" n="22" break="no"/>dendum est primo, quid est causa passionis 
+      abie<lb ed="#R" n="23" break="no"/>ctiuae. Et quidam dicunt, quod illud est forma: 
+      ra<lb ed="#R" n="24" break="no"/>tio est, quia passio abiectiua est abiectio formae 
+      di<lb ed="#R" n="25" break="no"/>sconuenientis, siue substantialis, siue accidentalis: 
+      <lb ed="#R" n="26"/>ratio autem huius passionis non potest esse 
+      mate<lb ed="#R" n="27" break="no"/>ria: ratio est quia materia quantum est de se est 
+      in<lb ed="#R" n="28" break="no"/>differens ad omnem formam, nec sibi magis 
+      de<lb ed="#R" n="29" break="no"/>terminat vnam, quam aliam: ergo ipsa non est 
+      ra<lb ed="#R" n="30" break="no"/>tio, quare qualitas siue accidens quodcunque 
+      ma<lb ed="#R" n="31" break="no"/>gis sit conueniens, quam suum oppositum, &amp; quia 
+      <lb ed="#R" n="32"/>passio abiectiua, vt dictum, est abiectio 
+      disconue<lb ed="#R" n="33" break="no"/>nientis, sequitur quod materia non est ratio talis 
+      <lb ed="#R" n="34"/>passionis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="35"/>Haec opinio non dicit iudicio meo sufficienter, 
+      <lb ed="#R" n="36"/>ideo dico aliter. Vbi sciendum est, quod passio 
+      <lb ed="#R" n="37"/>abiectiua dicit duo, scilicet receptionem formae 
+      <lb ed="#R" n="38"/>disconuenientis, &amp; abiectionem formae conuenien 
+      <lb ed="#R" n="39"/>tis: receptio ergo, &amp; abiectio est ex natura 
+      mate<lb ed="#R" n="40" break="no"/>riae, quae de se apta est recipere formam, sed 
+      conue<lb ed="#R" n="41" break="no"/>nientia puta, quod forma sit conueniens, est ex 
+      ra<lb ed="#R" n="42" break="no"/>tione formae substantialis, quae determinat talem 
+      <lb ed="#R" n="43"/>qualitatem. Ad cuius euidentiam considerandum 
+      <lb ed="#R" n="44"/>est, quod materia est subiectum omnium 
+      forma<lb ed="#R" n="45" break="no"/>rum, quae recipiuntur in composito: non puto enim 
+      <lb ed="#R" n="46"/>sicut ponunt quidam, quod forma sit subiectum 
+      <lb ed="#R" n="47"/>immediatum, &amp; mediet in ratione subiecti inter 
+      <lb ed="#R" n="48"/>compositum, &amp; suas proprietates, sicut forma 
+      <lb ed="#R" n="49"/>ignis inter ignem, &amp; calorem: ita quod calor 
+      ha<lb ed="#R" n="50" break="no"/>beat pro immediato subiecto formam ignis: 
+      ma<lb ed="#R" n="51" break="no"/>teriam vero mediate tantum, licet hoc multi teneant, 
+      <lb ed="#R" n="52"/>&amp; ratio eorum est potissima, quia talia accidentia 
+      <lb ed="#R" n="53"/>sunt propria composito: ergo non sunt ei per illud, 
+      <lb ed="#R" n="54"/>quod est commune huic composito: &amp; cuilibet 
+      al<lb ed="#R" n="55" break="no"/>teri. &amp; hinc est, quod dicitur quod accidentia 
+      quae<lb ed="#R" n="56" break="no"/>dam insunt composito per formam, quaedam per 
+      ma<lb ed="#R" n="57" break="no"/>teriam, hanc conclusionem non capio. Et 
+      oppo<lb ed="#R" n="58" break="no"/>situm probo auctoritatibus, &amp; ratione. Volo autem 
+      <lb ed="#R" n="59"/>hoc probare, quod licet totum compositum sit 
+      su<lb ed="#R" n="60" break="no"/>biecum omnium formarum accidentalium, hoc 
+      <lb ed="#R" n="61"/>tamen non habet per naturam formae in eo, sed per 
+      <lb ed="#R" n="62"/>rationem materiae, ita quod tales formae non 
+      pri<lb ed="#R" n="63" break="no"/>mo modo, &amp; immediate recipiuntur in forma, &amp; 
+      <lb ed="#R" n="64"/>per hoc in composito. Et quod dicitur 
+      communi<lb ed="#R" n="65" break="no"/>ter, quod accidentia quaedam insunt per formam, 
+      <lb ed="#R" n="66"/>ly per non habet, nisi habitudinem medij 
+      subiecti<lb ed="#R" n="67" break="no"/>ue, quoniam medium in ratione subiecttiui est 
+      so<lb ed="#R" n="68" break="no"/>la materia. Hoc probo primo, quia eadem poten- 
+      <!--0209.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>tia est susceptiua contrariorum per Philosophum 
+      <lb ed="#R" n="70"/>1O. Metaph. tex. 3. &amp; 17. sed forma ignis non est 
+      su<lb ed="#R" n="71" break="no"/>sceptiua formarum accidentalium contrariarum 
+      <lb ed="#R" n="72"/>quarumcunque, quas forma determinat in 
+      compo<lb ed="#R" n="73" break="no"/>sito: vnde forma ignis non est potentia receptiua 
+      <lb ed="#R" n="74"/>frigiditatis in summo: ergo non est potentia 
+      rece<lb ed="#R" n="75" break="no"/>ptiua caloris, si eadem sit potentia susceptiũa 
+      con<lb ed="#R" n="76" break="no"/>trariorum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="77"/>Item ad idem arguo sic. Idem est subiectum 
+      ter<lb ed="#R" n="78" break="no"/>mini a quo, &amp; ad quem, &amp; totius transmutationis 
+      <lb ed="#R" n="79"/>ex primo de generatione: sed quando generatur 
+      <lb ed="#R" n="80"/>summus calor ignis, materia est subiectum 
+      termi<lb ed="#R" n="81" break="no"/>ni a quo, &amp; totius transmutationis: ergo eadem 
+      <lb ed="#R" n="82"/>est subiectum caloris ignis, qui est terminus ad quem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="83"/>Et confirmatur. Pono, quod debeat in 
+      igne<lb ed="#R" n="84" break="no"/>generari aqua in transmutatione, quando incipit 
+      <lb ed="#R" n="85"/>ignis infrigidari, forma ignis non potest essse 
+      subie<lb ed="#R" n="86" break="no"/>cum frigiditatis, cum ipsa determinet summum 
+      <lb ed="#R" n="87"/>calorem, &amp; quia nulla transmutatio abijcit 
+      subie<lb ed="#R" n="88" break="no"/>ctum: transmutatio autem ignis ad frigiditatem 
+      <lb ed="#R" n="89"/>abijcit formam ignis: ergo forma non est ibi 
+      subie<lb ed="#R" n="90" break="no"/>ctum termini ad quem: ergo nec termini a quo: sed 
+      <lb ed="#R" n="91"/>terminus a quo est summus calor: ergo forma ibi 
+      <lb ed="#R" n="92"/>non est subiectum caloris. 
+    </p>
+               <p>
+                  <lb ed="#R" n="93"/>Hanc eandem Conclusionem probo per 
+      auctori<lb ed="#R" n="94" break="no"/>tates. Primo per Philosophum 7. Metaph. tex. 8. 
+      <lb ed="#R" n="95"/>vbi dicit, quod materia nec est quid, nec quantum, 
+      <lb ed="#R" n="96"/>nec aliquod aliorum praedictorum, sed est omnia 
+      <lb ed="#R" n="97"/>illa in potentia; non est autem omnia in potentia 
+      <lb ed="#R" n="98"/>formali, eo modo quo pluuia est hodic in potentia 
+      <lb ed="#R" n="99"/>quae erit cras, sed in potentia subiectiua: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="100"/>Item Commentator 1. tractatu de substantia 
+      or<lb ed="#R" n="101" break="no"/>bis, Aristoteles dixit ista corpora esse composita ex 
+      <lb ed="#R" n="102"/>materia, &amp; forma: sequitur: &amp; vidit, quod forma 
+      ta<lb ed="#R" n="103" break="no"/>lium accidentium subiectum esse non potest. Jdem 
+      <lb ed="#R" n="104"/>dicit Symplicius, idem Boetius de vnitate &amp; vno, 
+      <lb ed="#R" n="105"/>quod forma simplex subiectum esse non potest. Nec 
+      <lb ed="#R" n="106"/>intelligo hic loqui de accidentibus quibuscunque 
+      <lb ed="#R" n="107"/>absolute, sed tantum de illis, secundum quae potest 
+      <lb ed="#R" n="108"/>esse alteratio, &amp; transmutatio in composito. Vnde 
+      <lb ed="#R" n="109"/>Commentator 3. de anima comm. 18. materia 
+      pri<lb ed="#R" n="110" break="no"/>ma non est causa susceptionis simpliciter, quia etiam 
+      <lb ed="#R" n="111"/>intellectus causa est susceptionis, sed bene est 
+      cau<lb ed="#R" n="112" break="no"/>sa susceptionis transinutabilis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="113"/>Dico ergo quantum occurrit, quod totum 
+      com<lb ed="#R" n="114" break="no"/>positum est susceptiuum talium accidentium, secun 
+      <lb ed="#R" n="115"/>dum quae est transmutatio per materiam tanquam 
+      <lb ed="#R" n="116"/>quo subiectiue, &amp; per formam tanquam quo 
+      deter<lb ed="#R" n="117" break="no"/>minatiue. haec est intentio Commentatoris in de 
+      <lb ed="#R" n="118"/>substantia orbis, quod talia accidentia insunt per 
+      <lb ed="#R" n="119"/>formam, &amp; forma est causa eorum: hoc intelligo, 
+      <lb ed="#R" n="120"/>causa eorum exigitiue non effectiue, quia forma 
+      <lb ed="#R" n="121"/>talis exigit, &amp; determinat huius posremas 
+      perfe<lb ed="#R" n="122" break="no"/>ctiones, vnde forma simul dat composito actum 
+      pri<lb ed="#R" n="123" break="no"/>mum, &amp; actum secundum, ac determinat ipsum ad 
+      <lb ed="#R" n="124"/>determinata accidentia, &amp; extremas perfectiones, 
+      <lb ed="#R" n="125"/>eo modo quo anima cerui facit, quod membra 
+      cer<lb ed="#R" n="126" break="no"/>ui sint talia sic disposita, &amp; quod differant a 
+      mem<lb ed="#R" n="127" break="no"/>bris leonis ex 1. de anima. Commentator etiam 
+      <lb ed="#R" n="128"/>4. caeli, &amp; mundi com. 2. dicit, quod forma grauis 
+      <lb ed="#R" n="129"/>facit, quod graue descendat deorsum. Hoc modo 
+      <lb ed="#R" n="130"/>forma caeli, idest Intelligentia, non estt tantum 
+      mo<lb ed="#R" n="131" break="no"/>uens secundum Commentatorem, sed largitur 
+      cae<lb ed="#R" n="132" break="no"/>lo extremas dispositiones, &amp; permanentiam 
+      aeter<lb ed="#R" n="133" break="no"/>nam in lib. de substantia orbis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="134"/>Ex his apparet, quod passio abiectiua iucludit 
+      <lb ed="#R" n="135"/>receptionem, &amp; ab iectionem formae 
+      conuenien<lb ed="#R" n="136" break="no"/>tis, &amp; quatenus iucludit receptionem, &amp; abiectio- 
+      <!--0210.xml-->
+      <pb ed="#R" n="210"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>nem, est ex natura materiae, quod vero includit, 
+      <lb ed="#R" n="2"/>quod forma illa sit conueniens, hoc est ex natura 
+      <lb ed="#R" n="3"/>formae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="4"/>Hoc viso patet conclusio tertia prius posita, quae 
+      <lb ed="#R" n="5"/>est, quod impassibilitas corporum beatorum, non 
+      <lb ed="#R" n="6"/>est aliud, quam manutenentia diuinae virtutis, quia 
+      <lb ed="#R" n="7"/>manutenet formam substantialem in materia, &amp; 
+      <lb ed="#R" n="8"/>extremas perfectiones, quas determinat forma 
+      <lb ed="#R" n="9"/>quarum abiectio est passio abiectiua, &amp; haec 
+      manu<lb ed="#R" n="10" break="no"/>tenentia puto sola est causa impassibilitatis 
+      corpo<lb ed="#R" n="11" break="no"/>rum beatorum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="12"/>Respondeo ad hoc, quod talis manutenentia sit 
+      <lb ed="#R" n="13"/>causa impassibilitatis, &amp; ita illud, quod manutenet 
+      <lb ed="#R" n="14"/>formam oppositam formaae inducendae per altera- 
+    </p>
+               <p>
+                  <lb ed="#R" n="15"/>tionem in subiecto, facit, quod subiectum sit 
+      inal<lb ed="#R" n="16" break="no"/>terabile secundum talem formam, sicut manutenens 
+      <lb ed="#R" n="17"/>me in isto vbi, facit, quod per nullum aliud mouens 
+      <lb ed="#R" n="18"/>possim transferri ad aliquod aliud vbi: sed Deus in 
+      <lb ed="#R" n="19"/>corporibus gloriosis potest manutenere formam 
+      <lb ed="#R" n="20"/>substantialem, &amp; omnes perfectiones, quas sibi 
+      de<lb ed="#R" n="21" break="no"/>terminat: ergo ex hoc solo poterit facere corpus 
+      <lb ed="#R" n="22"/>impassibile. Superslua est ergo omnis alia 
+      quali<lb ed="#R" n="23" break="no"/>tas, quia nulla qualitas posset redderae subiectum 
+      <lb ed="#R" n="24"/>impassibile ab omni agente, nisi mannuteneretur, 
+      <lb ed="#R" n="25"/>ne pateretur a quocunque agente. Sed hic sunt 
+      <lb ed="#R" n="26"/>dubia: quaedam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="27"/>Primum est, quod materia potest esse 
+      immedia<lb ed="#R" n="28" break="no"/>ta causa ante sormam substantialem ipsi 
+      composi<lb ed="#R" n="29" break="no"/>to suscipiendi omnia accidentia, secundum enim 
+      <lb ed="#R" n="30"/>hoc forma substantialis, &amp; pariter alia accidentia 
+      <lb ed="#R" n="31"/>erunt subiectiue in materia: ergo ordine eodem 
+      <lb ed="#R" n="32"/>inerit forma substantiae, vel materiae, &amp; reliqua 
+      <lb ed="#R" n="33"/>accidentia. Hoc videtur falsum, quia prius 
+      quae<lb ed="#R" n="34" break="no"/>libet res capit esse simpliciter, quam esse secundum 
+      <lb ed="#R" n="35"/>quid: per formam autem substantialem materia 
+      <lb ed="#R" n="36"/>capit esse simpliciter, per accidens vero essse 
+      secun<lb ed="#R" n="37" break="no"/>dum quid: ergo prius oportet formam 
+      substantia<lb ed="#R" n="38" break="no"/>lem inesse materiae, quam accidentalem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="39"/>Secundum dubium est quasi ex codem medio, 
+      <lb ed="#R" n="40"/>quia illud, quod non habet esse simpliciter in actu 
+      <lb ed="#R" n="41"/>secundum se, vt tale, impossibile est, quod sit 
+      sub<lb ed="#R" n="42" break="no"/>iectum accidentium, quia accidentia adueniunt 
+      <lb ed="#R" n="43"/>enti in actu per Philosophum 1. de 
+      generatione<lb ed="#R" n="44" break="no"/>tex. 24. &amp; alibi, &amp; 5. Physic. tex. 3. &amp; infra. Tum 
+      <lb ed="#R" n="45"/>quia, vt dictum est, quod accipit esse secundum: 
+      <lb ed="#R" n="46"/>quid oportet, quod praehabeat esse simpliciter sed 
+      <lb ed="#R" n="47"/>esse simpliciter non habet materia, nisi per 
+      for<lb ed="#R" n="48" break="no"/>mam substantialem: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="49"/>Respondeo ad primum, si loquamur de 
+      ordine<lb ed="#R" n="50" break="no"/>immediationis in suscipiendo, eodem ordine 
+      ma<lb ed="#R" n="51" break="no"/>teria recipit formam substantialem, &amp; accidentia. 
+    </p>
+               <p>
+                  <lb ed="#R" n="52"/>Si vero de ordine principalitatis, &amp; dantis esse, 
+      <lb ed="#R" n="53"/>sic materia primo recipit formam substantialem, 
+      <lb ed="#R" n="54"/>quam accidentalem: materia enim capit essse hoc 
+      <lb ed="#R" n="55"/>determinate per formam substantialem, quae de se 
+      <lb ed="#R" n="56"/>est interminata omnino, quia sicut aes ad siguram, 
+      <lb ed="#R" n="57"/>sic materia ad ese terminatum in actu J. Fhy sic. 
+      <lb ed="#R" n="58"/>tex. 8I. 
+    </p>
+               <p>
+                  <lb ed="#R" n="59"/>Ad secundum dubium. Illud habet calorem 
+      <lb ed="#R" n="60"/>de materia denudata ab omni forma, non 
+      tamen<lb ed="#R" n="61" break="no"/>de materia cum forma; nec etiam intelligo, quod 
+      <lb ed="#R" n="62"/>materia recipiat illa accidentia, vt subiectum 
+      <lb ed="#R" n="63"/>quod, quia huiusmodi est solum subiecum 
+      com<lb ed="#R" n="64" break="no"/>positum, sed tantum est ipsi composito ratio 
+      su<lb ed="#R" n="65" break="no"/>scipiendi, vt quo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="66"/>Ad argumentum in oppositum dicunt Doctores 
+      <lb ed="#R" n="67"/>diuersimode. Aliqui, quod impassibilitas non est 
+      <lb ed="#R" n="68"/>aliqua dos, alij quod est qualitas absoluta; alij 
+      <!--0210.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>quod est donum Dei, nec oportet, quod omne 
+      do<lb ed="#R" n="70" break="no"/>num Dei sit qualitas, quoniam gratia 
+      miraculo<lb ed="#R" n="71" break="no"/>rum est Dei donum, quae tamem non est qualitas. 
+      Si<lb ed="#R" n="72" break="no"/>militer quod duo corpora sint in eodem loco, est 
+      <lb ed="#R" n="73"/>immediate a diuina virtute nulla media qualitate. 
+      <lb ed="#R" n="74"/>hanc puto meliorem viam, nam nulla qualitas 
+      po<lb ed="#R" n="75" break="no"/>test facere, quod duo corpora sint simul, &amp; tamen 
+      <lb ed="#R" n="76"/>haec erit vna de dotibus in corpore glorioso. 
+    </p>
+               <p>
+                  <lb ed="#R" n="77"/>Sic dico in proposito, quod ista impassibilitas 
+      <lb ed="#R" n="78"/>est mere donum Dei, quod est manutenentia 
+      diui<lb ed="#R" n="79" break="no"/>na, vt patet in corpore quaestionis. 
+    </p>
+            </div>
+            <div>
+               <head>Articulus 4</head>
+               <head type="question-title">
+          Utrum corpora damnatorum patiantur ab 
+          igneinfernali passione reali tantum, vel 
+          intentionali tantum, an vtraque.
+        </head>
+               <p>
+                  <lb ed="#R" n="80"/>ARTICVLVS JV. 
+      <lb ed="#R" n="81"/>Vtrum corpora damnatorum patiantur ab 
+      igne<lb ed="#R" n="82" break="no"/>infernali passione reali tantum, vel 
+      in<lb ed="#R" n="83" break="no"/>tentionali tantum, an vtraque. 
+    </p>
+               <p>
+                  <lb ed="#R" n="84"/>AD quartam quaestionem arguo primo, quod 
+      <lb ed="#R" n="85"/>corpora damnatorum non patiantur in 
+      infer<lb ed="#R" n="86" break="no"/>no passione aliqua reali, sed tantum intentionali, 
+      <lb ed="#R" n="87"/>quia cessante motu caeli cessat omnis actio realis: 
+      <lb ed="#R" n="88"/>tunc autem cessabit motus caeli: ergo. Maior 
+      pa<lb ed="#R" n="89" break="no"/>tet per Commentatorem tract. 3. de substantia orb. 
+    </p>
+               <p>
+                  <lb ed="#R" n="90"/>In oppositum est, quod nulla passio solum 
+      inten<lb ed="#R" n="91" break="no"/>tionalis est asflictiua, cum sit salus, &amp; perfectio: sed 
+      <lb ed="#R" n="92"/>passio corporum damnatorum erit summe 
+      affli<lb ed="#R" n="93" break="no"/>ctiua: ergo. Respondeo hic est controuersia 
+      in<lb ed="#R" n="94" break="no"/>ter Doctores: dicunt quidam, quod passio illa solum 
+      <lb ed="#R" n="95"/>erit intentionalis, ita quod experientur calorem 
+      <lb ed="#R" n="96"/>absque hoc, quod calefiant, vel ardeant. 
+    </p>
+               <p>
+                  <lb ed="#R" n="97"/>Alij dicunt, quod erit realis, quoniam organum 
+      <lb ed="#R" n="98"/>tactus summe calefiet. 
+    </p>
+               <p>
+                  <lb ed="#R" n="99"/>Primi dicunt, quod intentionalis sufficit ad 
+      af<lb ed="#R" n="100" break="no"/>flictionem, quoniam organum summe affligitur ad 
+      <lb ed="#R" n="101"/>apprehensionem excellentis sensibilis, vnde 
+      quan<lb ed="#R" n="102" break="no"/>do aliquis fuerit vulde infrigidatus, modicus calor 
+      <lb ed="#R" n="103"/>sufficit, ad affligendum intense. Ratio est, quia 
+      ma<lb ed="#R" n="104" break="no"/>gis sentit. Nunc pono propositiones. 
+    </p>
+               <p>
+                  <lb ed="#R" n="105"/>Prima est, videtur mihi, quod ista controuersia 
+      <lb ed="#R" n="106"/>at in vanum, ac si possit separari passsio 
+      intentio<lb ed="#R" n="107" break="no"/>nalis a reali, quoniam passio intentionalis 
+      neces<lb ed="#R" n="108" break="no"/>sario est realis maxime in tactu. Hanc probo 
+      pri<lb ed="#R" n="109" break="no"/>mo auctoritate. Secundum enim Philosophum 2. 
+      <lb ed="#R" n="110"/>de anima tex. 123. &amp; 143. &amp; 3. de anima tex. 7. 
+      ex<lb ed="#R" n="111" break="no"/>cellens sensibile corrumpit sensum, &amp; per experien 
+      <lb ed="#R" n="112"/>tiam patet in visu respectu intensissimi coloris, &amp; in 
+      <lb ed="#R" n="113"/>auditu respectu excellentis soni: sed impossibile est, 
+      <lb ed="#R" n="114"/>quod aliqua actio corrumpat sensum, nisi sit actio 
+      <lb ed="#R" n="115"/>realis, vt cum apprehensione concurrat rea lis 
+      <lb ed="#R" n="116"/>transmutatio: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="117"/>Item <ref>idem Philosophus 3. de anima tex. 7.</ref> dat 
+      dif<lb ed="#R" n="118" break="no"/>ferentiam inter sensum, &amp; intellectum, quia 
+      intel<lb ed="#R" n="119" break="no"/>lectus post intellectionem excellens 
+      intelligibile<lb ed="#R" n="120" break="no"/>fortius intelligit, e contrario est de sensu, nam 
+      <lb ed="#R" n="121"/>auditus post maximum sonum minus audit, quod 
+      <lb ed="#R" n="122"/>non esset, nisi potentia sensitiua in apprehendendo 
+      <lb ed="#R" n="123"/>transmutaretur. hoc idem patet per experientiam, 
+      <lb ed="#R" n="124"/>quam ponit <ref>
+                     <name>Alacen.</name> in perspectiua</ref>, quod post 
+      vi<lb ed="#R" n="125" break="no"/>si nem intensam coloris viridis remanet potentia 
+      <lb ed="#R" n="126"/>alterata, adeo, vt alia videantur sibi viridia; 
+      simi<lb ed="#R" n="127" break="no"/>liter post maximum lumen, apparent 
+      quandoque<lb ed="#R" n="128" break="no"/>omnia luminosa: hoc non esset, nisi apprehensio 
+      <lb ed="#R" n="129"/>sensuum esiet cum reali transmutatione. Similiter 
+      <lb ed="#R" n="130"/>experimur, quod ad sensationem odorum fiunt in 
+      <lb ed="#R" n="131"/>sensu reales transmutationes, nam prouocant, &amp; 
+      <lb ed="#R" n="132"/>curant reuma: non ergo apprehensio sensus est 
+      ab<lb ed="#R" n="133" break="no"/>stracta, sicut operatio intellectus.
+    </p>
+               <p>
+      <!--0211.xml-->
+                  <pb ed="#R" n="211"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Propter quod dicit Philosophus 2. de anima cap. 
+      <lb ed="#R" n="2"/>de visu, &amp; auditu, quod visio est quaedam 
+      colora<lb ed="#R" n="3" break="no"/>rio, similiter auditio quaedam sonatio: ratio est, 
+      <lb ed="#R" n="4"/>quia obiecum sensibile alterat, &amp; transmutat 
+      ali<lb ed="#R" n="5" break="no"/>quo modo ipsum sensum. Hanc conclusionem sine 
+      <lb ed="#R" n="6"/>auctoritatibus probo per rationem, sic. Organa 
+      <lb ed="#R" n="7"/>omnium sensuum consisunt in quadam 
+      exspolia<lb ed="#R" n="8" break="no"/>tione a forma apprehendenda, &amp; in quodam 
+      me<lb ed="#R" n="9" break="no"/>dio inter extrema: visus est expoliatus ab excellen 
+      <lb ed="#R" n="10"/>ti, &amp; minimo lumine, ideo eius organum 
+      consi<lb ed="#R" n="11" break="no"/>stit in quadam dyaphaneitate: similiter tactus con 
+      <lb ed="#R" n="12"/>sistit in medietate qualitatum sensibilium 
+      receden<lb ed="#R" n="13" break="no"/>te ab extremis. tale autem medium extremorum 
+      <lb ed="#R" n="14"/>in quolibet organo sensuum vocat Aristoteles 
+      ar<lb ed="#R" n="15" break="no"/>moniam. Tunc sic. Comprehensiones sensuum, 
+      <lb ed="#R" n="16"/>non sunt nisi immutationes mediorum: sed 
+      <lb ed="#R" n="17"/>huiusmodi immurationes mediorum sunt reales 
+      <lb ed="#R" n="18"/>transmutationes: ergo omnes immutationes 
+      sen<lb ed="#R" n="19" break="no"/>suum sunt passiones transmutatiuae. Et hinc est quod 
+      <lb ed="#R" n="20"/>magis factae abiiciunt a substantia, pro tanto, quod 
+      <lb ed="#R" n="21"/>sensibilia agentia secundum suas extremitates 
+      cor<lb ed="#R" n="22" break="no"/>rumpunt proportionem suam, pro tanto, quod 
+      tra<lb ed="#R" n="23" break="no"/>hunt illam a medio ad extrema. Nec Aristoteles 
+      in<lb ed="#R" n="24" break="no"/>tendit, quod huiusmodi immutationes, cuiusmodi 
+      <lb ed="#R" n="25"/>est visio, sit salus, &amp; perfectio, nisi de mutatione 
+      in<lb ed="#R" n="26" break="no"/>tellectus, &amp; de immutatione sensus, non 
+      vniuersa<lb ed="#R" n="27" break="no"/>liter, sed vsque ad gradum, qui proportionatur 
+      ar<lb ed="#R" n="28" break="no"/>monia organi, a qua cum exeunt, trahunt medium 
+      <lb ed="#R" n="29"/>ad extrema. Ideo comprehensio summi calidi in 
+      <lb ed="#R" n="30"/>tactu non est aliud, quam cale factio; similiter 
+      com<lb ed="#R" n="31" break="no"/>prehensio excellentis coloris in visu est quaedam 
+      <lb ed="#R" n="32"/>coloratio trahens medium ad extremum, &amp; ideo 
+      <lb ed="#R" n="33"/>abijcit a substantia. 
+    </p>
+               <p>
+                  <lb ed="#R" n="34"/>Sed quid dicendum, quod Philosophus dicit 
+      ex<lb ed="#R" n="35" break="no"/>presse, quod huiusmodi sensationes sunt salus, &amp; 
+      <lb ed="#R" n="36"/>perfectio? Respondeo, quod huiusmodi passiones 
+      <lb ed="#R" n="37"/>possunt accipi ad aliquem gradum, infra quem non 
+      <lb ed="#R" n="38"/>trahunt medium ad extrema, &amp; ideo tunc non 
+      im<lb ed="#R" n="39" break="no"/>mutant armoniam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="40"/>Sed sciendum, quod etiam in tali gradu possunt 
+      <lb ed="#R" n="41"/>immutare armoniam, puta quando excederent in 
+      <lb ed="#R" n="42"/>duratione, vnde armoniam immutant, &amp; 
+      excel<lb ed="#R" n="43" break="no"/>lens sensibile, &amp; medium sensibile, &amp; 
+      proportiona<lb ed="#R" n="44" break="no"/>le, quando apprehensio excedit in duratione; sicut 
+      <lb ed="#R" n="45"/>patet, quod diu videns colorem viridem, qui inter 
+      <lb ed="#R" n="46"/>colores est proportionale sensibile ipsi visui, quan 
+      <lb ed="#R" n="47"/>doque adeo immutatur armonia, quod diu postea 
+      <lb ed="#R" n="48"/>omnia sibi apparent viridia: dico ergo, quod 
+      in<lb ed="#R" n="49" break="no"/>aliquo gradu huiusinodi sensationes non sunt salus 
+      <lb ed="#R" n="50"/>&amp; perfectio, imo sunt reales transmutationes, 
+      qui<lb ed="#R" n="51" break="no"/>bus armonia consistens in medio trahitur ad extre. 
+      <lb ed="#R" n="52"/>mum, &amp; hoc est in duplici casu, quando scilicet 
+      <lb ed="#R" n="53"/>obiectum sensibile excedit intensiue, vel extensiue. 
+    </p>
+               <p>
+                  <lb ed="#R" n="54"/>Secunda Propositio est, quod organa 
+      damnato<lb ed="#R" n="55" break="no"/>rum, puta organum tactus, calefient realiter, &amp; hoc 
+      <lb ed="#R" n="56"/>est, quod, vt dictum est, apprehensio excellentis 
+      ca<lb ed="#R" n="57" break="no"/>lidi est quaedam calefactio trahens medium 
+      armo<lb ed="#R" n="58" break="no"/>niae tactus ad extremum. Hanc propositionem 
+      <lb ed="#R" n="59"/>probo primo ex circumstantia Scripturae, quae hoc 
+      <lb ed="#R" n="60"/>videtur habere; vnde Joan. 15. in Euangelio: &amp; in 
+      <lb ed="#R" n="61"/>ignem mittet, &amp; ardet; &amp; patet idem 
+      auctoritati<lb ed="#R" n="62" break="no"/>bus Sancorum, &amp; Augustini, &amp; Cregorij, nec ibi 
+      <lb ed="#R" n="63"/>distinguitur passio intentionalis a reali. 
+    </p>
+               <p>
+                  <lb ed="#R" n="64"/>Dices. Eritne in carne passio aliqua, quae sit 
+      rea<lb ed="#R" n="65" break="no"/>lis, &amp; non intentionalis. Respondeo, vel ipsamet 
+      <lb ed="#R" n="66"/>caro es organum tactus, vel neruus aliquis 
+      inten<lb ed="#R" n="67" break="no"/>sus in tota carne, &amp; vtroque modo comprehensio 
+      <lb ed="#R" n="68"/>calidi excellentis est realis passio, &amp; transmutati- 
+      <!--0211.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>ua: &amp; si caro sit ipsummet organum, non differt ibi 
+      <lb ed="#R" n="70"/>realis passio, &amp; intentionalis: si vero organum sit 
+      <lb ed="#R" n="71"/>ipse neruus, passio in carne, vt sic, non differet a 
+      <lb ed="#R" n="72"/>passione, qua lignum pateretur ab igne, nec esset 
+      <lb ed="#R" n="73"/>comprehensio. Ratione autem nerui sic extensi, 
+      <lb ed="#R" n="74"/>illa passio erit comprehensio, que in ligno non esset 
+      <lb ed="#R" n="75"/>comprehensio. 
+    </p>
+               <p>
+                  <lb ed="#R" n="76"/>Sed hic sunt aliqua dubia. Primo, quia videtur, 
+      <lb ed="#R" n="77"/>quod frustra ponatur talis passio realis, cum 
+      inten<lb ed="#R" n="78" break="no"/>tionalis sufficiat ad afflictionem, sicut ponit 
+      Augu<lb ed="#R" n="79" break="no"/>stinus exemplum de dormientibus, 
+      quandoque<lb ed="#R" n="80" break="no"/>summe affliguntur in occursu alicuius tristabilis. 
+      <lb ed="#R" n="81"/>Respondeo secundum Arisotelem, &amp; 
+      Commenta<lb ed="#R" n="82" break="no"/>torem de somno, &amp; vigilia cap. 1. organa sensuum 
+      <lb ed="#R" n="83"/>in somno patiuntur realiter, eo quod organa 
+      sen<lb ed="#R" n="84" break="no"/>suum immutantur realiter ab exteriori, vnde 
+      in<lb ed="#R" n="85" break="no"/>somniante se videre est vere visio in oculo, &amp; in 
+      <lb ed="#R" n="86"/>somniante se tangere est vere tactus, licet tales 
+      ta<lb ed="#R" n="87" break="no"/>ctus sint sine praesentia obiecti realiter existentis. 
+      <lb ed="#R" n="88"/>Vnde, sicut alias dictum est, non requiritur 
+      acttua<lb ed="#R" n="89" break="no"/>lis existentia obiecti ad actus sensuum exteriorum, 
+      <lb ed="#R" n="90"/>de quibus maxime videtur difficultas. 
+    </p>
+               <p>
+                  <lb ed="#R" n="91"/>Secundum dubium est, quod oportet ponere 
+      mul<lb ed="#R" n="92" break="no"/>ta miracula plura, quam si ponatur sola passio 
+      in<lb ed="#R" n="93" break="no"/>tentionalis, quia si ponatur passio realis, oportet 
+      <lb ed="#R" n="94"/>quod ex speciali miraculo sit, quod organum, &amp; 
+      <lb ed="#R" n="95"/>armonia non corrumpatur. 
+    </p>
+               <p>
+                  <lb ed="#R" n="96"/>Respondeo ex hoc non sequitur speciale 
+      mira<lb ed="#R" n="97" break="no"/>culum. Ideo enim miraculum oportet ponere de 
+      <lb ed="#R" n="98"/>intentionali, cum illa magis faca abijciat a 
+      substan<lb ed="#R" n="99" break="no"/>tia, quia non corrumpet armoniam: excellens enim 
+      <lb ed="#R" n="100"/>sensibile trahit medium, in quo consistit armonia, 
+      <lb ed="#R" n="101"/>ad extremum, &amp; ideo corrumpit armoniam, quae 
+      <lb ed="#R" n="102"/>consistit in medio calidi &amp; frigidi, sicci &amp; humidi: 
+      <lb ed="#R" n="103"/>talis autem armonia est necessaria ad vitam, quia 
+      <lb ed="#R" n="104"/>est ipsa complexio, &amp; idcirco corrupta armonia 
+      <lb ed="#R" n="105"/>necesario corrumpitur forma complexionalis, ac 
+      <lb ed="#R" n="106"/>per consequens vita: ergo quod sit apprehensio 
+      con<lb ed="#R" n="107" break="no"/>tinua obiecti excellentis, &amp; quod non sit 
+      quando<lb ed="#R" n="108" break="no"/>que corruptio, &amp; mors, non videtur fieri possse 
+      si<lb ed="#R" n="109" break="no"/>ne miraculo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="110"/>Quod autem aliqui imaginantur, quod in 
+      tali<lb ed="#R" n="111" break="no"/>bus passionibus primo potentia realiter patiatur, 
+      <lb ed="#R" n="112"/>deinde apprehendat, ac tertio sequatur dolor, hoc 
+      <lb ed="#R" n="113"/>non oportet. Imo primo est ibi ipsa apprehensio 
+      <lb ed="#R" n="114"/>obiecti excessiue improportionati, siue intensiue, 
+      <lb ed="#R" n="115"/>siue extensiue, quae quidem apprehensio, cum faciat 
+      <lb ed="#R" n="116"/>improportionem, facit etiam abiectionem, &amp; ideo 
+      sequi<lb ed="#R" n="117" break="no"/>tur vltimo passio abiectiua, &amp; per consequens dolor. 
+    </p>
+               <p>
+                  <lb ed="#R" n="118"/>Tertium dubium est, quomodo corpus beati pos 
+      <lb ed="#R" n="119"/>sit sentire calorem, quia per te tale sentire est 
+      pas<lb ed="#R" n="120" break="no"/>sio realis abiectiua. Respondeo: Corpus beati, si 
+      de<lb ed="#R" n="121" break="no"/>bet sentire calorem, oporteret necessario, quod 
+      im<lb ed="#R" n="122" break="no"/>mutetur realiter eius organum: oportet enim 
+      ne<lb ed="#R" n="123" break="no"/>cesario, quod aut medium armoniae trahatur ad 
+      <lb ed="#R" n="124"/>gradum excellentis sensibilis, &amp; tunc participet 
+      <lb ed="#R" n="125"/>dolorem; vel oporter dicere, quod non recipiet 
+      acttio<lb ed="#R" n="126" break="no"/>nem obiecti sensibilis, nisi in gradu proportionali, 
+      <lb ed="#R" n="127"/>in quo apprehensio est salus, &amp; perfectio, ac per hoc 
+      <lb ed="#R" n="128"/>nullum omnino dolorem experietur: &amp; hoc vltimum 
+      <lb ed="#R" n="129"/>concedo, &amp; hoc virtute diuina, &amp; ideo transire 
+      po<lb ed="#R" n="130" break="no"/>quod corpora damnatorum non moriantur. 
+    </p>
+               <p>
+                  <lb ed="#R" n="131"/>Respondeo, puto, quod damnati satis habeant 
+      <lb ed="#R" n="132"/>de miseria, vnde considerandum est quod excellens 
+      <lb ed="#R" n="133"/>sensibile, puta ignis, vel huiusmodi, immutat 
+      orga<lb ed="#R" n="134" break="no"/>num realiter, simul &amp; intentionaliter, ideo causat 
+      <lb ed="#R" n="135"/>
+                  <!-- line coord error -->
+                  <lb ed="#R" n="136"/>
+                  <!-- line coord error -->
+                  <!--0212.xml-->
+                  <pb ed="#R" n="212"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>dolorem, qui est passio abiectiua. In tantum 
+      au<lb ed="#R" n="2" break="no"/>tem posset esse obiectum excedens, &amp; 
+      impropor<lb ed="#R" n="3" break="no"/>tionale, quod eius actio subito traheret medium 
+      <lb ed="#R" n="4"/>armoniae ad extremum, &amp; hoc modo corrumperet 
+      <lb ed="#R" n="5"/>ipsam armoniam; vel tantum posset durare, quod 
+      <lb ed="#R" n="6"/>vltimo fieret ita improportionabilis armoniae ex 
+      <lb ed="#R" n="7"/>diuturna passione, quod corrumperet ipsam, qua 
+      <lb ed="#R" n="8"/>corrupta corrumpitur complexionalis forma, &amp; 
+      <lb ed="#R" n="9"/>per consequens vita. 
+    </p>
+               <p>
+                  <lb ed="#R" n="10"/>Imaginor ergo, quod organa damnatorum 
+      con<lb ed="#R" n="11" break="no"/>tinue naturaliter patiuntur ab excellenti, &amp; 
+      im<lb ed="#R" n="12" break="no"/>proportionato sensibili, &amp; ideo sunt in continua 
+      <lb ed="#R" n="13"/>passione abiecttiua, ac per consequens in continuo 
+      <lb ed="#R" n="14"/>dolore. Et quando sunt in puncto illo, in quo 
+      obie<lb ed="#R" n="15" break="no"/>ctum corrumperet armoniam, &amp; formam 
+      comple<lb ed="#R" n="16" break="no"/>xionalem, ac vitam, qui quidem punctus est 
+      vlti<lb ed="#R" n="17" break="no"/>mum instans mortis, Deus sua virtute manutenet 
+      <lb ed="#R" n="18"/>armoniam, ne corrumpatur. Ideo sunt 
+      continue<lb ed="#R" n="19" break="no"/>in tali dispositione, in quali est qui in excellēti 
+      do<lb ed="#R" n="20" break="no"/>lore est constitutus in instanti mortis, &amp; ideo 
+      dam<lb ed="#R" n="21" break="no"/>nati continue sunt quasi in fine vitae, &amp; in instanti 
+      <lb ed="#R" n="22"/>mortis, &amp; ideo damnati continue sunt quasi in fine 
+      <lb ed="#R" n="23"/>vitae, &amp; in instanti mortis ex doloris vehementia: 
+      <lb ed="#R" n="24"/>ita quod si Deus substraheret specialem 
+      manutenen<lb ed="#R" n="25" break="no"/>tiam, qua tenet eorum armoniam, ne corrumpatur 
+      <lb ed="#R" n="26"/>statim in instanti, quapropter morerentur, quia 
+      <lb ed="#R" n="27"/>eorum dolor, &amp; poena est mors continua eorum 
+      <lb ed="#R" n="28"/>qualis est illius hominis qui in igne constitutus in 
+      <lb ed="#R" n="29"/>vltimo instanti esset vitam amissurus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="30"/>Ad argumentum in oppositum dico, quod maior 
+      <lb ed="#R" n="31"/>propositio est erronea: cessante enim motu caeli po 
+      <lb ed="#R" n="32"/>terit adhuc esse motus, &amp; transmutatio, quia 
+      op<lb ed="#R" n="33" break="no"/>positum est articulus excommunicatus; vel si 
+      na<lb ed="#R" n="34" break="no"/>turaliter cessante motu esse, non poterit esse motus 
+      <lb ed="#R" n="35"/>alius naturalis, tamen virtute diuina poterit 
+      fie<lb ed="#R" n="36" break="no"/>ri, &amp; hoc sufficit. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

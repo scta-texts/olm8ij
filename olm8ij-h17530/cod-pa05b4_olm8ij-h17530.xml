@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="52"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h17530"> <!-- l4-d4q2 -->
+            <head>Quaestio 2</head>
+            <head type="question-title">De effectu baptismi</head>
+            <p>
+               <lb ed="#R" n="3"/>Quaestio II. 
+      <lb ed="#R" n="4"/>DE EFFECTV BAPTISMI
+    </p>
+            <p>
+               <lb ed="#R" n="5"/>Postquam visum est de primo effectu 
+      Baptis<lb ed="#R" n="6" break="no"/>mi, scilicet charactere, videndum est nunc 
+      <lb ed="#R" n="7"/>de secundo effectu, scilicet gratia, &amp; 
+      vir<lb ed="#R" n="8" break="no"/>tutibus: &amp; secundo videndum est aliquid 
+      <lb ed="#R" n="9"/>de suscipientibus effectum baptismi. Et 
+      <lb ed="#R" n="10"/>quaero circa hoc duas quaestiones.
+  </p>
+            <p>
+               <lb ed="#R" n="11"/>1 Prima est: Vtrum in baptismo paruulorum 
+      <lb ed="#R" n="12"/>infundantur gratia, &amp; virtutes. 
+      <lb ed="#R" n="13"/>2 Secunda est: Vtrum paruuli Judaeorum sint 
+      <lb ed="#R" n="14"/>per violentiam trahendi ad baptismum. 
+    </p>
+            <div>
+               <head>Articulus 1</head>
+               <head type="question-title">
+      Utrum in Baptismo paruulorum infundantur 
+      gratia, et virtutes.
+    </head>
+               <p>
+                  <lb ed="#R" n="15"/>ARTICVLVUS I. 
+      <lb ed="#R" n="16"/>Vtrum in Baptismo paruulorum infundantur 
+      <lb ed="#R" n="17"/>gratia, &amp; virtutes. 
+    </p>
+               <p>
+                  <lb ed="#R" n="18"/>QVANTVM ad primum 
+      ar<lb ed="#R" n="19" break="no"/>guo: quod gratia, &amp; 
+      virtu<lb ed="#R" n="20" break="no"/>res non insunduntur in 
+      ba<lb ed="#R" n="21" break="no"/>ptismo paruulorum, per 
+      il<lb ed="#R" n="22" break="no"/>lud Augustini de baptismo 
+      <lb ed="#R" n="23"/>paruulorum, qui sic dicit: 
+      Par<lb ed="#R" n="24" break="no"/>uulos saluos facit fides, non 
+      <lb ed="#R" n="25"/>quae in voluntate ipsorum 
+      <lb ed="#R" n="26"/>sed fidei Sacramentum: sed si infunderetur fides in 
+      <lb ed="#R" n="27"/>baptismo, ipsa esset in voluntate ipsorum: 
+      ergo<lb ed="#R" n="28" break="no"/>In oppositum arguo per auctoritates Magistri, &amp; 
+      <lb ed="#R" n="29"/>Augustini de Baptismo paruulorum cap. 27. a 
+      me<lb ed="#R" n="30" break="no"/>dio. tom. 9. in litera. 
+    </p>
+               <p>
+                  <lb ed="#R" n="31"/>Respondeo in ista quaestione pono quatuor 
+      pro<lb ed="#R" n="32" break="no"/>positiones. Prima est quod virtutes infunduntur 
+      <lb ed="#R" n="33"/>in baptismo. Ad cuius euidentiam primo pono 
+      <lb ed="#R" n="34"/>quoddam notabile. Secundo probabo 
+      propositio<lb ed="#R" n="35" break="no"/>nem, &amp; tertio instabo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="36"/>De primo sciendum est, quod circa 
+      conclusio<lb ed="#R" n="37" break="no"/>nem istam sunt quatuor opiniones. 
+    </p>
+               <p>
+                  <lb ed="#R" n="38"/>Prima est, quod in baptismo paruulorum non 
+      <lb ed="#R" n="39"/>infunditur fides, &amp; caeterae virtutes: cuius ratio est, 
+      <lb ed="#R" n="40"/>quia paruulus non est idoneum susceptiuum 
+      ha<lb ed="#R" n="41" break="no"/>rum virtutum, ad hoc enim requiritur, quod 
+      ha<lb ed="#R" n="42" break="no"/>beret vsum liberi arbitrij. Dicunt tamen, quod 
+      <lb ed="#R" n="43"/>cum peruenerit paruulus ad terminos discretionis, 
+      <lb ed="#R" n="44"/>tunc virtute recepti prius baptismi, infundit Deus 
+      <lb ed="#R" n="45"/>eis gratiam, &amp; virtutes. 
+    </p>
+               <p>
+                  <lb ed="#R" n="46"/>Alia opinio est, quod in baptismo paruulorum 
+      <lb ed="#R" n="47"/>infunditur gratia, non tamen virtutes: dicunt enim 
+      <lb ed="#R" n="48"/>isti quod gratia radix est, quae subiectiue est in 
+      es<lb ed="#R" n="49" break="no"/>sentia animae, a qua profuunt virtutes in potentijs: 
+      <lb ed="#R" n="50"/>paruulis ergo infunditur gratia in baptismo, 
+      virtu<lb ed="#R" n="51" break="no"/>tes tamen non profluunt propter impedimentum, 
+      <lb ed="#R" n="52"/>carentiam scilicet liberi arbitrij, tunc remoto 
+      pro<lb ed="#R" n="53" break="no"/>hibente non per nouam actionem aliquam effluunt 
+      <lb ed="#R" n="54"/>virtutes, &amp; dona in potentijs a gratia prius in 
+      es<lb ed="#R" n="55" break="no"/>sentia infusa. 
+    </p>
+               <p>
+                  <lb ed="#R" n="56"/>Alia opinio est, quod paruulis tantummodo 
+      in<lb ed="#R" n="57" break="no"/>funduntur virtutes Theologicae, nam nulla neces- 
+      <!--0052.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="58"/>sitas, nec congruentia est ponere morales infusas. 
+    </p>
+               <p>
+                  <lb ed="#R" n="59"/>Alij dicunt, quod paruulis infunduntur omnes 
+      <lb ed="#R" n="60"/>virtutes tam theologicae, quam morales, &amp; cum 
+      <lb ed="#R" n="61"/>hoc dicunt, quod post modum acquirere possunt 
+      <lb ed="#R" n="62"/>per actuum exercitium morales virtutes, quas 
+      ac<lb ed="#R" n="63" break="no"/>quisitas ponunt esse alterius rationis ab infusis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="64"/>Secundo ponam propositionem probandam 
+      <lb ed="#R" n="65"/>quod in baptiimo infundantur paruulis gratia, &amp; 
+      <lb ed="#R" n="66"/>virtutes tam theologicae quam morales. Non 
+      cu<lb ed="#R" n="67" break="no"/>ro modo de ipsarum distinctione, sed suppono cum 
+      <lb ed="#R" n="68"/>scriptura, quod virtutes morales sunt donum 
+      <lb ed="#R" n="69"/>Spiritus sancti, &amp; per consequens, quod non solae 
+      <lb ed="#R" n="70"/>virtutes theologicae dicuntur infusae, &amp; morales 
+      <lb ed="#R" n="71"/>tantum acquisitae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="72"/>Hoc autem supposito pono istam propositionem 
+      <lb ed="#R" n="73"/>probandam, qui in baptismo infunduntur virtutes vni 
+      <lb ed="#R" n="74"/>uersaliter in non habente, in habente vero prius 
+      ha<lb ed="#R" n="75" break="no"/>bitae intenduntur. Haec autem conclusio 
+      determina<lb ed="#R" n="76" break="no"/>ta est nouiter per ecclesiam, lib. 1. Decretal. 
+      Gre<lb ed="#R" n="77" break="no"/>gorij cap. 1. Firmiter: licet ambae opiniones essent 
+      <lb ed="#R" n="78"/>recitatae de baptismo, &amp; eius effectu. cap. 
+      Maio<lb ed="#R" n="79" break="no"/>res de Baptismo, &amp; eius effectu Titulo 42. hanc 
+      <lb ed="#R" n="80"/>nunc conclusionem probo rationibus aliquibus. 
+      <lb ed="#R" n="81"/>Prima est ista: Istud tenendum est infundi 
+      in<lb ed="#R" n="82" break="no"/>baptismo, sine quo baptizatus non est gratus, &amp; 
+      <lb ed="#R" n="83"/>acceptus Deo: sed sine gratia, &amp; virtutibus 
+      nul<lb ed="#R" n="84" break="no"/>lus es Deo acceptus: ergo. Maior nota est, 
+      <lb ed="#R" n="85"/>quod fide tenemus, quod baptizati eo ipso sunt 
+      <lb ed="#R" n="86"/>Deo accepti, &amp; ratio est ad hoc, quia nullus 
+      ingre<lb ed="#R" n="87" break="no"/>di dicitur nuptias, qui non est acceptus Deo non-- 
+      <lb ed="#R" n="88"/>habens vestem nuptialem, nec euolat, si moriatur, 
+      <lb ed="#R" n="89"/>ad gloriam: sed baptizati, vt fide tenemus, si post 
+      <lb ed="#R" n="90"/>baptismum morerentur, statim ad gloriam 
+      euola<lb ed="#R" n="91" break="no"/>rent: ergo. Minor autem expresse habetur ex 
+      scri<lb ed="#R" n="92" break="no"/>ptura. Primo de fide ad Haebr. 1I. 
+      Impossibile<lb ed="#R" n="93" break="no"/>est sine fide placere Deo, &amp; loquitur de fidei 
+      ha<lb ed="#R" n="94" break="no"/>bitu. Similiter ad Rom. 1. Justus ex fide viuit. De 
+      <lb ed="#R" n="95"/>charitate vero, quae secundum sanctos est vestis 
+      <lb ed="#R" n="96"/>nuptialis, sine qua nullus placet in nuptijs. De 
+      mi<lb ed="#R" n="97" break="no"/>sericordia similiter legimus, misericordiam volo, 
+      <lb ed="#R" n="98"/>&amp; non sacrificium. 
+    </p>
+               <p>
+                  <lb ed="#R" n="99"/>Secundo sic: In baptismo infunditur gratia: 
+      er<lb ed="#R" n="100" break="no"/>go &amp; virtutes. Antecedens patet, quoniam in 
+      ba<lb ed="#R" n="101" break="no"/>ptismo remittitur culpa: ergo datur gratia, 
+      sine<lb ed="#R" n="102" break="no"/>qua non remittitur culpa. Consequentiam probo 
+      <lb ed="#R" n="103"/>per Magistrum, &amp; Augustinum in litera huius dist. 
+      <lb ed="#R" n="104"/>qui expresse dicunt, quod gratia non est aliud, quam 
+      <lb ed="#R" n="105"/>ipsaemet virtutes; vnde dixi supra, quod 
+      gratia<lb ed="#R" n="106" break="no"/>non distinguitur ab ipsis virtutibus, sicut alius 
+      ha<lb ed="#R" n="107" break="no"/>bitus ab habitu virtutum: sed est aliquid resultans 
+      <lb ed="#R" n="108"/>ab integritate omnium virtutum, sicut resultat 
+      <lb ed="#R" n="109"/>pulchritudo ex proportione membrorum, &amp; 
+      colo<lb ed="#R" n="110" break="no"/>rum, &amp; huiusmodi. 
+    </p>
+               <p>
+                  <lb ed="#R" n="111"/>Tertio moueo instantiam, &amp; dubia. Primum est 
+      <lb ed="#R" n="112"/>quod secundum Aristotelem 2. Ethic. cap. 3. signum 
+      <lb ed="#R" n="113"/>ad generati habitus est superueniens delectatio, 
+      <lb ed="#R" n="114"/>sed paruulus perueniens ad aetatem perfectam 
+      <lb ed="#R" n="115"/>nullam experitur delectationem in actibus 
+      virtu<lb ed="#R" n="116" break="no"/>tum, imo sentit rebellionem, &amp; difficultatem, 
+      pati<lb ed="#R" n="117" break="no"/>turque frequenter maximum scrupulum in 
+      volun<lb ed="#R" n="118" break="no"/>tate, &amp; intellectu circa credenda. 
+    </p>
+               <p>
+                  <lb ed="#R" n="119"/>Secundum est, quod per actum distinguimus 
+      ha<lb ed="#R" n="120" break="no"/>bentem virtutem a non habente 9. Metaph. sed 
+      <lb ed="#R" n="121"/>nullus apparet actus in baptizato post baptismum, 
+      <lb ed="#R" n="122"/>qui non appareret ante, &amp; qui non appareat in 
+      <lb ed="#R" n="123"/>non baptizato, nam duo intemperati aequaliter 
+      <lb ed="#R" n="124"/>si vnus baptizaretur, alius non, aequalem sentiunt 
+      <lb ed="#R" n="125"/>difficultatem in actibus temperantiae. 
+      <!--0053.xml-->
+      <pb ed="#R" n="53"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Et confirmatur ex 1. Metaph. tex. 49. 
+      Inconue<lb ed="#R" n="2" break="no"/>niens est nos habere habitus nobilissimos, &amp; quod 
+      <lb ed="#R" n="3"/>lateat nos. Item, habitus est quo quis vtitur 
+      quan<lb ed="#R" n="4" break="no"/>do vult, sed paruulus, quando venit ad annos 
+      di<lb ed="#R" n="5" break="no"/>scretionis, non potest exire in actum per habitum 
+      <lb ed="#R" n="6"/>virtutis infusum: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="7"/>Vltimo: fides est habitus complexorum: nullus 
+      <lb ed="#R" n="8"/>autem habitus complexorum infunditur sine 
+      simi<lb ed="#R" n="9" break="no"/>litudine terminorum: probo in simili. 
+      Jmpossi<lb ed="#R" n="10" break="no"/>bile enim est habere habitum scientiae sine 
+      cogni<lb ed="#R" n="11" break="no"/>tione terminorum: cognitio autem terminorum 
+      <lb ed="#R" n="12"/>non habetur sine specie eorundem: sed in paruulis 
+      <lb ed="#R" n="13"/>nulla est notitia, nec similitudo terminorum 
+      com<lb ed="#R" n="14" break="no"/>plexionis illius, ad quod inclinat fides, nisi enim 
+      <lb ed="#R" n="15"/>specialiter erudiretur, nullam haberet prorsus 
+      no<lb ed="#R" n="16" break="no"/>titiam paruulus baptizatus, quam paruulus 
+      Ju<lb ed="#R" n="17" break="no"/>daeus non baptizatus. Ex his fuerunt moti illi, qui 
+      <lb ed="#R" n="18"/>sunt opinionis contrariae, quod in paruulis nulla 
+      <lb ed="#R" n="19"/>infunditur fides, nec virtus, nisi in radice, 
+      puta<lb ed="#R" n="20" break="no"/>in gratia, quae radix est virtutum; vel in 
+      proposi<lb ed="#R" n="21" break="no"/>to diuinae voluntatis se determinantis ad dandum 
+      <lb ed="#R" n="22"/>virtutes, cum fuerit idoneum susceptiuum.
+    </p>
+               <p>
+                  <lb ed="#R" n="23"/>Ad omnia ista dicta potest vnica via 
+      responde<lb ed="#R" n="24" break="no"/>ri, nam isti imaginantur, quod de ratione infusae 
+      <lb ed="#R" n="25"/>virtutis sit, quod possit per experientiam 
+      demon<lb ed="#R" n="26" break="no"/>strari, quod nullo modo tenendum est: sicut enim 
+      <lb ed="#R" n="27"/>sola fide tenemus, quod Sacramentum sit non per 
+      <lb ed="#R" n="28"/>rationem aliquam, vel per naturalem experientiam, 
+      <lb ed="#R" n="29"/>sic quod virtutes infundantur in baptismo, tenemus 
+      <lb ed="#R" n="30"/>ex solo testimonio Sanctorum, &amp; Scripturarum, &amp; 
+      <lb ed="#R" n="31"/>Ecclesiae determinatione.
+  </p>
+               <p>
+                  <lb ed="#R" n="32"/>Sed tunc resat difficultas, ad quid ponuntur 
+      <lb ed="#R" n="33"/>virtutes istae infusae, &amp; quid operantur: si enim 
+      <lb ed="#R" n="34"/>faciunt ad inclinationem voluntatis, possent 
+      ca<lb ed="#R" n="35" break="no"/>dere sub experientia, experiendo ipsam 
+      inclina<lb ed="#R" n="36" break="no"/>tionem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="37"/>Dicunt hic quidam, quod virtutes infusae 
+      incli<lb ed="#R" n="38" break="no"/>nant voluntatem sic, quod quando baptizatus 
+      per<lb ed="#R" n="39" break="no"/>uenit ad annos discretionis, experitur se magis 
+      in<lb ed="#R" n="40" break="no"/>clinatum ad credendum, quae sunt fidei, &amp; ad 
+      eli<lb ed="#R" n="41" break="no"/>ciendum operationes virtutum, quam alius, qui non 
+      <lb ed="#R" n="42"/>fuit baptizatus. Hanc autem opinionem non puto 
+      <lb ed="#R" n="43"/>veram esse, quia si sic, posset homo probare se 
+      ha<lb ed="#R" n="44" break="no"/>bere infusos habitus, puta fidem, &amp; charitatem, ac 
+      <lb ed="#R" n="45"/>per consequens posset scire, vtrum odio, vel amore 
+      <lb ed="#R" n="46"/>dignus sit, quod est contra determinationem 
+      scri<lb ed="#R" n="47" break="no"/>pturae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="48"/>Ad hoc faciunt argumenta pro alia 
+      opinione<lb ed="#R" n="49" break="no"/>statim inducta. Propter quod licet sit valde 
+      diffi<lb ed="#R" n="50" break="no"/>cile videre, ad quid ponuntur habitus tales infusi, 
+      <lb ed="#R" n="51"/>dico tamen quod virtutes infusae non ponuntur 
+      pro<lb ed="#R" n="52" break="no"/>pter illud, propter quod ponuntur virtutes 
+      acqui<lb ed="#R" n="53" break="no"/>sitae. Ad cuius euidentiam considerandum est, quod, 
+      <lb ed="#R" n="54"/>vt colligi potest ex 3. Ethic. cap. 2. 
+      circumstantia<lb ed="#R" n="55" break="no"/>rum quaedam sunt, quae se tenent ex parte agentis, 
+      <lb ed="#R" n="56"/>quaedam vero ex parte ipsius acttus. Primo mo 
+      <lb ed="#R" n="57"/>sicut faciliter, prompte, &amp; delectabiliter, &amp; 
+      im<lb ed="#R" n="58" break="no"/>mobiliter, &amp; huiusmodi, haec enim se tenent ex 
+      <lb ed="#R" n="59"/>parte elicientis actum: ex parte vero actus sunt 
+      <lb ed="#R" n="60"/>aliae circunstantiae, puta quod eliciatur in 
+      ordine<lb ed="#R" n="61" break="no"/>ad debitum finem, &amp; sicut oportet, &amp; quando 
+      <lb ed="#R" n="62"/>oportet, &amp; cum oportet. &amp; sic dicendum est de 
+      <lb ed="#R" n="63"/>circunstantijs alijs. 
+    </p>
+               <p>
+                  <lb ed="#R" n="64"/>Tunc pono propositionem isam, quod virtutes 
+      <lb ed="#R" n="65"/>acquisitae ponuntur propter circunstantias primo 
+      <lb ed="#R" n="66"/>modo, vtpote ex parte agentis ad faciendum 
+      cau<lb ed="#R" n="67" break="no"/>salitatem quandam inter agens, &amp; operationem, 
+      <lb ed="#R" n="68"/>ex qua sequitur delectatio, &amp; facilitas, immobi- 
+      <!--0053.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>litas, &amp; huiusmodi respectu virtuosae operationis; 
+      <lb ed="#R" n="70"/>sed virtutes infusae ponuntur non propter 
+      circun<lb ed="#R" n="71" break="no"/>stantiam ex parte agentis, sed propter 
+      circunstan<lb ed="#R" n="72" break="no"/>tias ex parte actus, propter quod habens virtutem 
+      <lb ed="#R" n="73"/>infusam non propter hoc ageret prompte, 
+      immo<lb ed="#R" n="74" break="no"/>biliter, ac delectabiliter, imo cum magna 
+      difficul<lb ed="#R" n="75" break="no"/>tate, &amp; scrupulo, vnde nonnulli Sancti viri 
+      frequen<lb ed="#R" n="76" break="no"/>ter sentiunt repugnantiam ad credendum, magis 
+      <lb ed="#R" n="77"/>quam vna simplex vetula, quae tamen tantam 
+      fi<lb ed="#R" n="78" break="no"/>dem infusam non hab ebit.
+    </p>
+               <p>
+                  <lb ed="#R" n="79"/>Et similiter dico de castitate, quod baptizatus 
+      <lb ed="#R" n="80"/>intemperatus aliquis non se promptiorem sentiat 
+      <lb ed="#R" n="81"/>ad actus temperantiae, quam sentiat 
+      intempera<lb ed="#R" n="82" break="no"/>tus alius, qui non fuerit baptizatus: virtutes 
+      er<lb ed="#R" n="83" break="no"/>go infusae tantummodo respiciunt circunstantias 
+      <lb ed="#R" n="84"/>ex parte actus, ex parte vero agentis nullam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="85"/>Sed sciendum vlterius, quod circa actum sunt 
+      <lb ed="#R" n="86"/>circunstantiae aliquae dictante ratione naturali, &amp; 
+      <lb ed="#R" n="87"/>in actum sic circunstantionatum potest homo, &amp; 
+      <lb ed="#R" n="88"/>non habens habitum virtuosum, ne dum infusum, 
+      <lb ed="#R" n="89"/>sed nec acquisitum; imo ex talibus actibus 
+      gene<lb ed="#R" n="90" break="no"/>ratur habitus 2. Ethic. cap. 1. in fine. Sic ex loqui 
+      <lb ed="#R" n="91"/>frequenter grammatice, generatur habitus 
+      gram<lb ed="#R" n="92" break="no"/>maticae, &amp; ex frequentibus actibus temperantiae 
+      ge<lb ed="#R" n="93" break="no"/>neratur habitus temperantiae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="94"/>Aliae vero sunt circunstantiae, quae non posssunt 
+      <lb ed="#R" n="95"/>dictari a ratione naturali, sed dictantur 
+      debere<lb ed="#R" n="96" break="no"/>inesse actui a diuina voluntate, &amp; huiusmodi 
+      cir<lb ed="#R" n="97" break="no"/>cunstantiae sunt non paucae: frequenter enim 
+      mul<lb ed="#R" n="98" break="no"/>tas circunstantias contingit indicare debere inesse 
+      <lb ed="#R" n="99"/>acttui a diuina voluntate, quae tamen non 
+      suffi<lb ed="#R" n="100" break="no"/>ciunt, imo nec erunt quandoque illae, quas diuina 
+      <lb ed="#R" n="101"/>voluntas exigit debere inesse actui; propter quod 
+      <lb ed="#R" n="102"/>non est in potestate nostra elicere talem actum 
+      <lb ed="#R" n="103"/>nisi assistat specialis motus Spiritus sancti: ita 
+      <lb ed="#R" n="104"/>quod voluntas volendo agatur, &amp; inducatur, ac 
+      <lb ed="#R" n="105"/>moueatur impulsu Spiritus sancti: hic autem 
+      im<lb ed="#R" n="106" break="no"/>pulsus, &amp; motus non est tantum actualis, ita 
+      <lb ed="#R" n="107"/>quod non maneat cessante actu. Non enim videtur 
+      <lb ed="#R" n="108"/>consonum in actu quolibet adesse nouum motum 
+      <lb ed="#R" n="109"/>Spiritus sancti: sed est habitualis in habitu 
+      quie<lb ed="#R" n="110" break="no"/>scente respectu actuum virtuosorum: Verbi 
+      gra<lb ed="#R" n="111" break="no"/>tia ad actum castitatis, vel temperantiae quando 
+      <lb ed="#R" n="112"/>se offert materia, non videtur cum omni etiam 
+      ha<lb ed="#R" n="113" break="no"/>bitu acquisito, vt actus eliciendus persecte 
+      cir<lb ed="#R" n="114" break="no"/>cunstantionetur circunstantijs, quas diuina 
+      vo<lb ed="#R" n="115" break="no"/>luntas exigit in actu, tam positiuis circunstantijs, 
+      <lb ed="#R" n="116"/>quam etiam priuatiuis; si enim abstineo, 
+      quomo<lb ed="#R" n="117" break="no"/>do sciam circunstantiam omnem priuatiuam 
+      <lb ed="#R" n="118"/>puta quod non sum in acttuali aliqua displicentia 
+      <lb ed="#R" n="119"/>erga Deum. Similiter circunstantiam omnem 
+      <lb ed="#R" n="120"/>positiuam, puta impletionem mandatorum, ac 
+      <lb ed="#R" n="121"/>omnium, quae exigit voluntas diuina debere 
+      con<lb ed="#R" n="122" break="no"/>currere ad actum: Quapropter respectu: talium 
+      <lb ed="#R" n="123"/>datur specialis directio, ac primum ductus 
+      Spi<lb ed="#R" n="124" break="no"/>ritus sancti, &amp; hoc in aliquo infuso habitu, non 
+      <lb ed="#R" n="125"/>quia talis ductus, &amp; motio sit inclinatio 
+      volunta<lb ed="#R" n="126" break="no"/>tis, sed voluntate se determinante adest Spiritus 
+      <lb ed="#R" n="127"/>sancus illo habitu mediante ad merendum has 
+      <lb ed="#R" n="128"/>circunstantias, ad quas non posset voluntas ex 
+      na<lb ed="#R" n="129" break="no"/>turalibus per seipsam. Dico ergo, quod habitus 
+      <lb ed="#R" n="130"/>infusi requiruntur ad eliciendum actum 
+      circun<lb ed="#R" n="131" break="no"/>stantionatum secundum impulsum Spiritus sancti; 
+      <lb ed="#R" n="132"/>&amp; distingui habent habitus isti, sicut &amp; morales, vt 
+      <lb ed="#R" n="133"/>tertio lib. latius apparebit. Tunc ad omnes illas 
+      <lb ed="#R" n="134"/>instantias, &amp; dubia. 
+    </p>
+               <p>
+                  <lb ed="#R" n="135"/>Ad primum enim de delectatione, non 
+      con<lb ed="#R" n="136" break="no"/>cludit, nisi de habitu acquisito, qui ponitur propter 
+      <!--0054.xml-->
+      <pb ed="#R" n="54"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>circunstantiam ex parte operantis: tales enim 
+      ha<lb ed="#R" n="2" break="no"/>bitus ex consuetudine actuum faciunt 
+      connatura<lb ed="#R" n="3" break="no"/>litatem quandam in potentia respectu actuum, ex 
+      <lb ed="#R" n="4"/>qua oritur delectatio praesente actu, quam non 
+      fa<lb ed="#R" n="5" break="no"/>cit habitus infusus, quia non aspicit circunstantiam 
+      <lb ed="#R" n="6"/>ex parte ipsius operantis; nunc baptizatus 
+      deter<lb ed="#R" n="7" break="no"/>minat se ad acum temperantiae, ex eo quod habet 
+      <lb ed="#R" n="8"/>habitum infusum, qui est habitualis motio Spiritus 
+      <lb ed="#R" n="9"/>sancti, habet autem se bene respectu omnium 
+      cir<lb ed="#R" n="10" break="no"/>cunstantiarum requisitarum ex parte actus motu 
+      <lb ed="#R" n="11"/>illo Spiritus sancti mediante. 
+    </p>
+               <p>
+                  <lb ed="#R" n="12"/>Dices, quare illud non experitur? Respondeo 
+      <lb ed="#R" n="13"/>concedo, quod non experitur, &amp; ratio est quia non 
+      <lb ed="#R" n="14"/>experitur concursum omnium circunstantiarum, 
+      <lb ed="#R" n="15"/>quas si experiri posset, non esset forte necessarius 
+      <lb ed="#R" n="16"/>talis motus habitualis: quantumcunque ergo 
+      aga<lb ed="#R" n="17" break="no"/>tur quis a Spiritu sancto, ac ducatur ad circunstan 
+      <lb ed="#R" n="18"/>tiam omnem requisitam, nunquam tamen 
+      operan<lb ed="#R" n="19" break="no"/>ti notum est se habere omnem circunstantiam 
+      il<lb ed="#R" n="20" break="no"/>lam, nec per consequens potest motum Spiritus 
+      <lb ed="#R" n="21"/>sancti huiusmodi mediantibus infusis habitibus 
+      <lb ed="#R" n="22"/>experiri. 
+    </p>
+               <p>
+                  <lb ed="#R" n="23"/>Ad secundum respondeo dicendo, quod per hoc 
+      <lb ed="#R" n="24"/>differt baptizatus a non baptizato, quia si 
+      bapti<lb ed="#R" n="25" break="no"/>zato proponantur articuli, licet cum tanta 
+      diffi<lb ed="#R" n="26" break="no"/>cultate credat ex parte credentis, sicut non 
+      bapti<lb ed="#R" n="27" break="no"/>zatus mouetur speciali motus Spiritus sancti ad 
+      <lb ed="#R" n="28"/>credendum, &amp; per consequens actus ille esset 
+      vir<lb ed="#R" n="29" break="no"/>tuosus, quia perfecte circunstantionatus: sed non 
+      <lb ed="#R" n="30"/>baptizatus crederet ex motu voluntatis propriae, 
+      <lb ed="#R" n="31"/>&amp; per consequens actus suus magis erit leuitatis, 
+      <lb ed="#R" n="32"/>&amp; pertinentiae quam virtutis: non enim habet 
+      mo<lb ed="#R" n="33" break="no"/>tiuum sufficiens ad circunstantiam omnem 
+      requi<lb ed="#R" n="34" break="no"/>sitam ad acum illum, sicut habet baptizatus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="35"/>Et si dicatur: Vnde nosti quod baptizatus habeat 
+      <lb ed="#R" n="36"/>talem impulsum habitualem, quem non habeat non 
+      <lb ed="#R" n="37"/>baptizatus? Respondeo concedo, quod non noui, 
+      <lb ed="#R" n="38"/>sed est mihi tantum creditum, nec aliter crederem, 
+      <lb ed="#R" n="39"/>me credendo elicere acum virtuosum; vnde 
+      cre<lb ed="#R" n="40" break="no"/>dere, quod duo corpora sint simul, &amp; quod se non 
+      <lb ed="#R" n="41"/>tangant, siue non commensurant, esset magnae 
+      le<lb ed="#R" n="42" break="no"/>uitatis, nec puto quod in me sint virtutes, nisi quia 
+      <lb ed="#R" n="43"/>puto esse in me motum ad hoc specialem Spiritus 
+      <lb ed="#R" n="44"/>sancti, qui non mouet ad leuitatem. Sic ergo ad 
+      <lb ed="#R" n="45"/>dubium illud dico, quod habetur sufficienter, 
+      vn<lb ed="#R" n="46" break="no"/>de distinguitur virtuosus a non virtuoso: licet enim 
+      <lb ed="#R" n="47"/>conueniant in sentiendo aequalem difficultatem, ac 
+      <lb ed="#R" n="48"/>in non experiendo motum, &amp; inclinationem 
+      vo<lb ed="#R" n="49" break="no"/>luntatis, tamen baptizatus credet, &amp; operabitur 
+      <lb ed="#R" n="50"/>virtuose: alius vero non baptizatus leuiter 
+      tan<lb ed="#R" n="51" break="no"/>tum. Per idem potest responderi ad tertium, &amp; 
+      <lb ed="#R" n="52"/>quartum 
+    </p>
+               <p>
+                  <lb ed="#R" n="53"/>Ad vltimum vero dico, quod habitus iste 
+      infu<lb ed="#R" n="54" break="no"/>sus qui est fides, tantummodo inclinat ad 
+      adhaeren<lb ed="#R" n="55" break="no"/>dum in ordine ad debitas ac requisitas 
+      circunstan<lb ed="#R" n="56" break="no"/>tias praesupposita notitia terminorum: alia enim 
+      <lb ed="#R" n="57"/>est notitia terminorum, &amp; alia adhaesio, &amp; aliquid 
+      <lb ed="#R" n="58"/>requiritur ad alterum horum, quod non 
+      requiri<lb ed="#R" n="59" break="no"/>tur ad reliquum, &amp; alterum potest haberi non 
+      ha<lb ed="#R" n="60" break="no"/>bito reliquo: adhaerere tamen semper supponit 
+      no<lb ed="#R" n="61" break="no"/>titiam terminorum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="62"/>Ad propositum ergo habitus fidei iufusae per se, 
+      <lb ed="#R" n="63"/>&amp; praecise non sufficit ad credendum, imo 
+      requiri<lb ed="#R" n="64" break="no"/>tur determinatio voluntatis: non enim mouet, nisi 
+      <lb ed="#R" n="65"/>ad illud ad quod determinat se voluntas: voluntas 
+      <lb ed="#R" n="66"/>vero non se determinat ad complexionem aliquam, 
+      <lb ed="#R" n="67"/>nisi sit prima notitia terminorum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="68"/>Secunda propositio quoad effectus baptismi est 
+      <!--0054.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>ista, quod vndecim efffectus baptismi tenendi sunt 
+      <lb ed="#R" n="70"/>per fidem esse in quolibet baptizato, quorum 
+      quin<lb ed="#R" n="71" break="no"/>que sunt priuatiui, sex vero positiui. 
+    </p>
+               <p>
+                  <lb ed="#R" n="72"/>Priuatiui quidem sunt isti. Purgatio a peccato 
+      <lb ed="#R" n="73"/>originali; lotio a peccato mortali in adultis; 
+      dele<lb ed="#R" n="74" break="no"/>tio peccati venialis, absolutio ab omni 
+      obligatio<lb ed="#R" n="75" break="no"/>ne poenali, &amp; gehennae pro mortali; ac releuatio a 
+      <lb ed="#R" n="76"/>carentia diuinae visionis debitae pro originali. 
+    </p>
+               <p>
+                  <lb ed="#R" n="77"/>Ex quo inferri potest Corollarium quoddam, quod 
+      <lb ed="#R" n="78"/>baptizato nulla deinceps poena debetur pro 
+      quo<lb ed="#R" n="79" break="no"/>cunque actuali peccato praeterito; nec adulto, si 
+      <lb ed="#R" n="80"/>baptizetur, est poena aliqua pro peccatis praeteritis 
+      <lb ed="#R" n="81"/>imponenda: totum enim tollit baptismus, ex quo 
+      <lb ed="#R" n="82"/>apparet, quod potior est quo ad istum effectum, 
+      <lb ed="#R" n="83"/>quam poeuitentiae Sacramentum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="84"/>Vltimo vero effectus priuatiuus est fomitis 
+      re<lb ed="#R" n="85" break="no"/>missio: habet enim quilibet baptizatus 
+      remissio<lb ed="#R" n="86" break="no"/>nem fomitis, &amp; deletionem stimuli per baptismum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="87"/>Sed dices, quod oppositum huius quilibet 
+      expe<lb ed="#R" n="88" break="no"/>ritur, nam tantum sentit homo de pronitate, &amp; 
+      sti<lb ed="#R" n="89" break="no"/>mulo ad malum post baptismum sicut prius, &amp; 
+      ba<lb ed="#R" n="90" break="no"/>ptizatus, sicut non baptizatus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="91"/>Respondeo: fomes deleri dicitur in baptismo, non 
+      <lb ed="#R" n="92"/>quidem quantum ad concupiscere, sed quo ad 
+      ty<lb ed="#R" n="93" break="no"/>rannizare; nam qui non est baptizatus, seruus, &amp; 
+      <lb ed="#R" n="94"/>mancipium est peccati, ac peccati stimulus 
+      tyran<lb ed="#R" n="95" break="no"/>nice trahit eum ad mortale. Sed qui baptizatus 
+      <lb ed="#R" n="96"/>fuerit, gratia Dei habet, quod possit resistere, quod 
+      <lb ed="#R" n="97"/>etsi aliquando concupiscat, ad mortale tamen 
+      ty<lb ed="#R" n="98" break="no"/>rannyce non trahatur: sed licet suadeat 
+      stimulus<lb ed="#R" n="99" break="no"/>non tamen in nobis tyrannizet. 
+    </p>
+               <p>
+                  <lb ed="#R" n="100"/>Sed nunquid baptismus priuat poenam 
+      irregu<lb ed="#R" n="101" break="no"/>laritatis, &amp; defectus natalium? 
+    </p>
+               <p>
+                  <lb ed="#R" n="102"/>Respondeo, circa hoc fuit controuersia inter 
+      Hie<lb ed="#R" n="103" break="no"/>ronymum, &amp; Augustinum, dicente Hieronymo, 
+      <lb ed="#R" n="104"/>quod sic. Augustino autem contrarium 
+      opinan<lb ed="#R" n="105" break="no"/>te. porro Ecclesia approbat Augustinum: 
+      vnde<lb ed="#R" n="106" break="no"/>dicendum est, quod non propter Ecclesiae 
+      deter<lb ed="#R" n="107" break="no"/>minationem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="108"/>Effectus vero positiui sunt sex, &amp; duo quidem 
+      <lb ed="#R" n="109"/>nominant gratiam gratis datam, &amp; gratum 
+      facien<lb ed="#R" n="110" break="no"/>tem. Prima es character. Secunda integritas 
+      vir<lb ed="#R" n="111" break="no"/>tutum, tam moralium, quam theologicarum. De 
+      <lb ed="#R" n="112"/>charactere patet per Augustinum, Dama sc. 
+      Diony<lb ed="#R" n="113" break="no"/>sium vbi supra: De gratia virtutum vero patet 
+      simi<lb ed="#R" n="114" break="no"/>liter ex praecedenti propositione. Duo vero effectus 
+      <lb ed="#R" n="115"/>sunt in ordine ad acttus meritorios, &amp; primus 
+      qui<lb ed="#R" n="116" break="no"/>dem pertinet ad voluntatem, secundus ad 
+      intel<lb ed="#R" n="117" break="no"/>lecum 
+    </p>
+               <p>
+                  <lb ed="#R" n="118"/>Primus quidem est foecundatio ad proferendum 
+      <lb ed="#R" n="119"/>dulces frucus, vnde Closa super illud Psal. Super 
+      <lb ed="#R" n="120"/>aquam refectionis educauit me, dicit, aquae foe
+      cun<lb ed="#R" n="121" break="no"/>dantes sunt aquae baptismales, &amp; dicitur 
+      notabili<lb ed="#R" n="122" break="no"/>ter foecundatio, quia sicut arbor non est foecunda 
+      <lb ed="#R" n="123"/>fructu sine irrigatione; sic anima originalis 
+      pecca<lb ed="#R" n="124" break="no"/>ti spiritu excaecata, non valet fructus dulces 
+      produ<lb ed="#R" n="125" break="no"/>cere, nisi dulcore gratiae irrigetur. 
+    </p>
+               <p>
+                  <lb ed="#R" n="126"/>Secundus effectus se tenet ex parte intellectus, 
+      <lb ed="#R" n="127"/>&amp; ille est illuminatio, &amp; hoc tam interioris oculi, 
+      <lb ed="#R" n="128"/>quam etiam exterioris. Interior quidem per 
+      fi<lb ed="#R" n="129" break="no"/>dem: exterior vero ad videndum 
+      Sacramento<lb ed="#R" n="130" break="no"/>rum, maxime Eucharistiae, misteria; vnde debet in 
+      <lb ed="#R" n="131"/>fidelibus celari, maxime Eucharistiae 
+      Sacramen<lb ed="#R" n="132" break="no"/>tum, propter quod in primitiua Ecclesia 
+      cathe<lb ed="#R" n="133" break="no"/>cumeni in hora consecrationis ab Ecclesia 
+      emitte<lb ed="#R" n="134" break="no"/>bantur. 
+    </p>
+               <p>
+                  <lb ed="#R" n="135"/>Alii vero duo effectus sunt respectu Ecclesiae, &amp; 
+      <lb ed="#R" n="136"/>vnus quidem respectu Ecclesiae militantis, quae est 
+      <!--0055.xml-->
+      <pb ed="#R" n="55"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>incorporatio Christi sponsi, iuxta illud ad Gal. 3. 
+      <lb ed="#R" n="2"/>Omnes, qui in Christo baptizati estis, Christum 
+      <lb ed="#R" n="3"/>induistis: alius vero effectus est respecu Ecclesiae 
+      <lb ed="#R" n="4"/>triumphantis, &amp; hic est apertio ianuae caelestis, quae 
+      <lb ed="#R" n="5"/>quidem aperta es meritorie per passionem 
+      Chri<lb ed="#R" n="6" break="no"/>sti, applicatiue vero per Sacramentum Baptismi.
+    </p>
+               <p>
+                  <lb ed="#R" n="7"/>Tertia propositio est, quod isti effectus non 
+      tan<lb ed="#R" n="8" break="no"/>tum dantur in baptismo fluminis, sed etiam in 
+      ba<lb ed="#R" n="9" break="no"/>ptismo sanguinis &amp; flaminis. Vbi sciendum, quod 
+      <lb ed="#R" n="10"/>licet Apostolus dicat vnum baptisma, quo ad 
+      suffi<lb ed="#R" n="11" break="no"/>cientiam respectu istorum effectuum, tamen sunt 
+      <lb ed="#R" n="12"/>tria baptismata habentia eundem effectum, scilicet 
+      <lb ed="#R" n="13"/>fluminis, sanguinis &amp; fllaminis. Fluminis quidem 
+      <lb ed="#R" n="14"/>in aqua verbo vitae sanctificata. Sanguinis vero in 
+      <lb ed="#R" n="15"/>effusione proprij sanguinis, ac martyrio accepto 
+      <lb ed="#R" n="16"/>pro Christo: sed flaminis in cordis interiori 
+      con<lb ed="#R" n="17" break="no"/>tritione, quomodo latro in Cruce baptizatus est, 
+      <lb ed="#R" n="18"/>secundum Augustinum, licet ipse aliquando videa 
+      <lb ed="#R" n="19"/>tur dicere, quod forte prius fuerat baptiz atus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="20"/>De charactere tamen dubium est, Vtrum in 
+      ba<lb ed="#R" n="21" break="no"/>ptismo flaminis &amp; sanguinis infundantur. Dicunt 
+      <lb ed="#R" n="22"/>quidam quod non. Ratio pro eis est, quia si 
+      ba<lb ed="#R" n="23" break="no"/>ptiratus baptismo flaminis, vel sanguinis 
+      superui<lb ed="#R" n="24" break="no"/>uat, est rebaptizandus. Respondeo, videtur mihi 
+      <lb ed="#R" n="25"/>dicendum, quod baptizati baptismo flaminis, vel 
+      <lb ed="#R" n="26"/>sanguinis non recipiunt primum effectum 
+      baptis<lb ed="#R" n="27" break="no"/>mi, scilicet characterem nisi in morte; vnde qui 
+      ef<lb ed="#R" n="28" break="no"/>fundit sanguinem pro Christo, non credo, quod 
+      re<lb ed="#R" n="29" break="no"/>cipiat characterem nisi in instanti mortis, &amp; 
+      quan<lb ed="#R" n="30" break="no"/>diu superuiueret, credo quod characterem non 
+      ha<lb ed="#R" n="31" break="no"/>beret, sed perueniens ad instans mortis, puto quod 
+      <lb ed="#R" n="32"/>tunc recipit effectum tam primarium scilicet 
+      cha<lb ed="#R" n="33" break="no"/>racterem, quam secundarium, scilicet gratiam, 
+      si<lb ed="#R" n="34" break="no"/>ue virtutes. De baptismo vero flaminis, dico quod 
+      <lb ed="#R" n="35"/>habet gratiam &amp; virtutes, vi talis baptismi, non 
+      <lb ed="#R" n="36"/>tamen habet characterem ante mortem, vt Ambros. 
+      <lb ed="#R" n="37"/>exponens verbum illud, Ventrem meum doleo, 
+      di<lb ed="#R" n="38" break="no"/>cit de cathecumeno. 
+    </p>
+               <p>
+                  <lb ed="#R" n="39"/>Hic tamen est error Georgianus. Georgiani 
+      e<lb ed="#R" n="40" break="no"/>nim vtuntur isto triplici baptismo: Primo 
+      baptis<lb ed="#R" n="41" break="no"/>mo flaminis, signantes se igne in fronte in modum 
+      <lb ed="#R" n="42"/>crucis: secundo sanguinis, auferentes corrigias de 
+      <lb ed="#R" n="43"/>spatulis, &amp; deinde mergunt in aqua baptizantes 
+      <lb ed="#R" n="44"/>baptismo fluminis, ac si ad effecum baptismi 
+      ha<lb ed="#R" n="45" break="no"/>bendum sit necessarius triplex talis baptismus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="46"/>Quarta Propositio, de suscipientibus effecum 
+      <lb ed="#R" n="47"/>baptismi est ista, quod omnes effectus baptismi 
+      re<lb ed="#R" n="48" break="no"/>cipiunt paruuli, nec in eis consensus requiritur 
+      a<lb ed="#R" n="49" break="no"/>ctualis, sed quid de adultis, nunquid consensus 
+      re<lb ed="#R" n="50" break="no"/>quiritur? 
+    </p>
+               <p>
+                  <lb ed="#R" n="51"/>Respondeo, quod respectu suscipiendi effectus 
+      <lb ed="#R" n="52"/>primi, puta characteris, sufficit in adultis 
+      consen<lb ed="#R" n="53" break="no"/>sus interpretatiuus, nec requiritur necessario 
+      con<lb ed="#R" n="54" break="no"/>sensus verus, &amp; proprius. Respectu autem effectus 
+      <lb ed="#R" n="55"/>posterioris, scilicet gratiae, ac virtutum, requiritur 
+      <lb ed="#R" n="56"/>consensus verus &amp; proprius.
+    </p>
+               <p>
+                  <lb ed="#R" n="57"/>Dixi ergo tria. Primum, quod in paruulis 
+      nul<lb ed="#R" n="58" break="no"/>lus requiritur consensus actualis: &amp; secundum 
+      <lb ed="#R" n="59"/>quod in adultis sufficit consensus interpretatiuus, 
+      <lb ed="#R" n="60"/>respectu characteris: tertio vero, quod in adultis 
+      <lb ed="#R" n="61"/>requiritur respectu gratiae, siue secundi effectus 
+      ba<lb ed="#R" n="62" break="no"/>ptismi consensus proprius &amp; actualis.
+  </p>
+               <p>
+                  <lb ed="#R" n="63"/>Primum horum patet. Manifestum est enim, quod 
+      <lb ed="#R" n="64"/>in paruulis non requiritur consensus proprius, sed 
+      <lb ed="#R" n="65"/>parentum, &amp; horum, qui curam gerunt 
+      paruulo<lb ed="#R" n="66" break="no"/>rum 
+    </p>
+               <p>
+                  <lb ed="#R" n="67"/>Sed numquid sufficeret ad hoc consensus 
+      quo<lb ed="#R" n="68" break="no"/>rumcumque aliorum? Respondeo, quod sic, pro- 
+      <!--0055.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>pter speciale priuilegium baptismi. 
+    </p>
+               <p>
+                  <lb ed="#R" n="70"/>Sed quomodo paruulus baptizatus ab infideli re 
+      <lb ed="#R" n="71"/>cipit essectum baptisini, cum non consentiat, imo 
+      <lb ed="#R" n="72"/>derideat baptismum? Respondeo, ibi est consensus 
+      <lb ed="#R" n="73"/>Ecclesiae generalis, vnde generaliter credendum est, 
+      <lb ed="#R" n="74"/>quod generalis consensus Ecclesiae concurrit ad 
+      ef<lb ed="#R" n="75" break="no"/>fectum baptismi primum, &amp; hoc sufficeret absque 
+      <lb ed="#R" n="76"/>alio consensu; vnde &amp; si nullus esset patrinus 
+      con<lb ed="#R" n="77" break="no"/>sentiens pro paruulo, adhuc paruulus non careret 
+      <lb ed="#R" n="78"/>effectu baptismi. 
+    </p>
+               <p>
+                  <lb ed="#R" n="79"/>Secundum vero de adultis manisestum est, quod 
+      <lb ed="#R" n="80"/>in eis sufficit consensus verus. Manifesum est etiam 
+      <lb ed="#R" n="81"/>quod si non fuerit in baptizato consensus verus, nec 
+      <lb ed="#R" n="82"/>interpretatiuus, puta qui vi, &amp; reclamans 
+      bapti<lb ed="#R" n="83" break="no"/>zaretur, quod talis non reciperet effectum 
+      baptis<lb ed="#R" n="84" break="no"/>mi, nec primum, nec secundum: sed de non 
+      haben<lb ed="#R" n="85" break="no"/>te consensum verum, habente tamen consensum 
+      <lb ed="#R" n="86"/>interpretatiuum, puta de eo qui propter minas, 
+      <lb ed="#R" n="87"/>vel poenas consentiret exterius, vel saltem non 
+      re<lb ed="#R" n="88" break="no"/>clamaret, interius autem totaliter dissentiret, de 
+      <lb ed="#R" n="89"/>hoc est dubium. 
+    </p>
+               <p>
+                  <lb ed="#R" n="90"/>Dicunt enim quidam, quod fictus qui extra 
+      prae<lb ed="#R" n="91" break="no"/>tendit assensum, interius autem disientit, aut est 
+      <lb ed="#R" n="92"/>fictus quo ad peccatum &amp; dispositionem, ostenden 
+      <lb ed="#R" n="93"/>do se esse atritum de peccato, &amp; non est; aut fidem 
+      <lb ed="#R" n="94"/>habet erroneam, fingit tamen veram, vt qui 
+      repu<lb ed="#R" n="95" break="no"/>taret baptismum esse nihil, &amp; si sic sictus, cum hoc 
+      <lb ed="#R" n="96"/>intendat facere, quod facit Ecclesia, talis (inquiunt) 
+      <lb ed="#R" n="97"/>esset vere baptizatus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="98"/>Si vero aliquis esset fictus quo ad consensum 
+      <lb ed="#R" n="99"/>puta quod nullum haberet consensum interius, 
+      ta<lb ed="#R" n="100" break="no"/>men fingeret exterius propter poenas, vel non 
+      re<lb ed="#R" n="101" break="no"/>clamando, talis, inquiunt, non esset vere 
+      baptiza<lb ed="#R" n="102" break="no"/>tus, nec reciperet characterem, &amp; recedente 
+      fictio<lb ed="#R" n="103" break="no"/>ne esset rebaptizandus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="104"/>Sed istud non puto esse bene dictum, 
+      conformi<lb ed="#R" n="105" break="no"/>ter determinationi Ecclesiae, nam extra de 
+      Baptis<lb ed="#R" n="106" break="no"/>mo, &amp; eius effectu cap. Maiores, dicitur, quod 
+      ta<lb ed="#R" n="107" break="no"/>lis compellendus esset ad fidem, &amp; si reinclinaret, 
+      <lb ed="#R" n="108"/>ac relaberetur, haereticus diceretur, nec esset 
+      vn<lb ed="#R" n="109" break="no"/>quam talis postea rebaptizandus: ergo 
+      Ecclesia<lb ed="#R" n="110" break="no"/>supponit, quod receperit esfectum Baptismi, alias 
+      <lb ed="#R" n="111"/>clauderetur ei via salutis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="112"/>Et praeterea posset fraus fieri in Ecclesia frequen 
+      <lb ed="#R" n="113"/>ter; posset enim quilibet, dum cogcretur ad fidem 
+      <lb ed="#R" n="114"/>seruandam dicere, non consensi. 
+    </p>
+               <p>
+                  <lb ed="#R" n="115"/>Alij dicunt, quod talis non esset baptizatus, nec 
+      <lb ed="#R" n="116"/>rebaptizandus, nec tamen clauderetur ei via 
+      salu<lb ed="#R" n="117" break="no"/>tis, quia Deus supplet: licet ego non video quare 
+      <lb ed="#R" n="118"/>oporteat, quod Deus suppleat, cum hoc fuerit in 
+      <lb ed="#R" n="119"/>hominis potestate. Ideo puto dicendum esse, quod 
+      <lb ed="#R" n="120"/>tantum est priuilegium baptismi, quod habens 
+      con<lb ed="#R" n="121" break="no"/>sensum saltem interpretatiuum, hoc est quod 
+      con<lb ed="#R" n="122" break="no"/>sentit exterius, vel non reclamat, quantumcumque 
+      <lb ed="#R" n="123"/>intra se dissentiat, recipiat perfecte characterem 
+      <lb ed="#R" n="124"/>licet non recipiat gratiam, nec virtutes, quas 
+      ta<lb ed="#R" n="125" break="no"/>men recipit recedente fictione. Pro 
+      conclusione<lb ed="#R" n="126" break="no"/>ista ergo 
+    </p>
+               <p>
+                  <lb ed="#R" n="127"/>Dico, quod ad recipiendum characterem, 
+      suffi<lb ed="#R" n="128" break="no"/>cit in adultis consensus saltem interpretatiuus, vt 
+      <lb ed="#R" n="129"/>dictum est. 
+    </p>
+               <p>
+                  <lb ed="#R" n="130"/>Sed quid de dormientibus, &amp; amentibus? dico, 
+      <lb ed="#R" n="131"/>quod de amentibus, quod si aliquando, antequam 
+      <lb ed="#R" n="132"/>adueniret amentia, consenserunt, vel saltem non 
+      dis<lb ed="#R" n="133" break="no"/>senserunt, si baptizentur, recipiunt effectum baptis 
+      <lb ed="#R" n="134"/>mi, consulendum tamen est de expeccatione, nisi 
+      <lb ed="#R" n="135"/>mortis periculum immineret. 
+    </p>
+               <p>
+                  <lb ed="#R" n="136"/>De dormientibus non est determinatio expressa 
+      <!--0056.xml-->
+      <pb ed="#R" n="56"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Ecclesiae, extra de Baptismo, &amp; eius effectu cap. illo 
+      <lb ed="#R" n="2"/>Maiores: sed si baptizentur, recipiunt characterem, 
+      <lb ed="#R" n="3"/>dum tamen ante dormitionem non apparuerit 
+      dis<lb ed="#R" n="4" break="no"/>sensus, puta si visi fuerunt inuoluntarij, vel si sint 
+      <lb ed="#R" n="5"/>de secta aliqua puta Judaei, vel Saraceni, &amp; alias 
+      <lb ed="#R" n="6"/>quomodocumque. 
+    </p>
+            </div>
+            <div>
+               <head>Articulus 2</head>
+               <head type="question-title">Utrum paruuli Iudaeorum sint baptizandi invitis parentibus</head>
+               <p>
+                  <lb ed="#R" n="7"/>ARTICVLVS II 
+      <lb ed="#R" n="8"/>Vtrum paruuli Iudaeorum sint baptizandi 
+      in<lb ed="#R" n="9" break="no"/>uitis parentibus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="10"/>AD secundam quaestionem, Vtrum paruuli 
+      Iu<lb ed="#R" n="11" break="no"/>daeorum sint inuitis parentibus 
+      baptizandi<lb ed="#R" n="12" break="no"/>sine argumentis respondeo. Circa hoc sunt duae 
+      <lb ed="#R" n="13"/>opiniones. 
+    </p>
+               <p>
+                  <lb ed="#R" n="14"/>Vna opinio dicit, quod paruuli Judaeorum 
+      nul<lb ed="#R" n="15" break="no"/>lo modo sunt inuitis parentibus baptizandi, ratio 
+      <lb ed="#R" n="16"/>eorum est, quia vel redderentur parentibus, &amp; tunc 
+      <lb ed="#R" n="17"/>baptismus eorum esset in contumeliam fidei 
+      Chri<lb ed="#R" n="18" break="no"/>stianae, quia post nutrirentur a parentibus in 
+      erro<lb ed="#R" n="19" break="no"/>re parentum, vel non redderentur, &amp; tunc 
+      paren<lb ed="#R" n="20" break="no"/>tibus fieret iniuria, quia quandiu sunt paruuli, sunt 
+      <lb ed="#R" n="21"/>possessio parentum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="22"/>Alia opinio est Doctoris Moderni Subtilis, quod 
+      <lb ed="#R" n="23"/>licet personae priuatae non possint paruulos 
+      Judaeo<lb ed="#R" n="24" break="no"/>rum inuitis parentibus baptizare, tamen hoc 
+      pos<lb ed="#R" n="25" break="no"/>sunt personae communes, scilicet principes 
+      terra<lb ed="#R" n="26" break="no"/>rum, quorum dominio subditi sunt parentes; imo 
+      <lb ed="#R" n="27"/>hoc non tantum licet eis, sed si fieret, esset eis 
+      vti<lb ed="#R" n="28" break="no"/>que meritorium. Haec autem opinio habet pro 
+      se<lb ed="#R" n="29" break="no"/>auctoritatem &amp; rationem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="30"/>Ratio est, quia in potestatibus ordinatis 
+      pote<lb ed="#R" n="31" break="no"/>stas inferior non obligat in eis, quae sunt contra 
+      <lb ed="#R" n="32"/>superiorem, secundum Augustinum de verbis 
+      Do<lb ed="#R" n="33" break="no"/>mini homil. 6. Si illud iubet potestas, quod non 
+      de<lb ed="#R" n="34" break="no"/>bet facere, licet sane contemnere potestatem, 
+      ti<lb ed="#R" n="35" break="no"/>mendo Potestatem maiorem. Similiter si essent 
+      <lb ed="#R" n="36"/>sub eodem dominio ordinata, scilicet quod aliquis 
+      <lb ed="#R" n="37"/>esset seruus Titij, &amp; Titius Petri, deberet 
+      Impera<lb ed="#R" n="38" break="no"/>tor, magis cogere seruum seruire Petro, quam 
+      Ti<lb ed="#R" n="39" break="no"/>tio: ergo a simili non solum potest princeps 
+      coge<lb ed="#R" n="40" break="no"/>re filios seruire Deo dimissum parentibus: sed 
+      de<lb ed="#R" n="41" break="no"/>bet, &amp; tenetur eos auferre a dominio parentum 
+      <lb ed="#R" n="42"/>volentium eos educare contra cultum Dei, qui est 
+      <lb ed="#R" n="43"/>superior dominus, &amp; secundum hoc quando posset 
+      <lb ed="#R" n="44"/>cum bona cautela agere, ne parentes cogitantes hoc 
+      <lb ed="#R" n="45"/>futurum, occiderent pueros suos. 
+    </p>
+               <p>
+                  <lb ed="#R" n="46"/>Auctoritas etiam videtur esse expressa pro hac 
+      <lb ed="#R" n="47"/>opinione, illa de Consecratione dist. 4. cap. qui 
+      pri<lb ed="#R" n="48" break="no"/>dem, vbi commendatur Rex ille, qui coegit omnes 
+      <lb ed="#R" n="49"/>infideles baptizari, &amp; vocat eum ex hoc capitulum 
+      <lb ed="#R" n="50"/>fidelisimum Regem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="51"/>Adhuc dicit iste plus, quod si ipsi parentes 
+      co<lb ed="#R" n="52" break="no"/>gerentur ad suscipiendum Baptismum, ac 
+      postmo<lb ed="#R" n="53" break="no"/>dum ad seruandam fidem, quod esto quod non 
+      <lb ed="#R" n="54"/>essent fideles, tamen sequeretur maius bonum 
+      <lb ed="#R" n="55"/>tum quia minus malum esset eis non posse legem 
+      <lb ed="#R" n="56"/>suam impune seruare, quam si permittantur libere 
+      <lb ed="#R" n="57"/>eam seruare; tum quia etsi ipsi non essent fideles, 
+      <lb ed="#R" n="58"/>tamen filij eorum educati in Fide essent in tertia 
+      <lb ed="#R" n="59"/>vel quarta generatione saltem fideles. 
+    </p>
+               <p>
+                  <lb ed="#R" n="60"/>Si obijciatur contra eos illud Apostoli ad 
+      <lb ed="#R" n="61"/>Rom. quod reliquiae Israel saluae fient, ideo non 
+      <lb ed="#R" n="62"/>oportet cogi Judeos ad relinquendum legem suam 
+      <lb ed="#R" n="63"/>totaliter. Respondet, quod pro tam paucis 
+      con<lb ed="#R" n="64" break="no"/>uertendis, non oporteret Judaeos in tanto numero, 
+      <lb ed="#R" n="65"/>ac tot terris permittere seruare illicite legem suam, 
+      <!--0056.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="66"/>quia finalis fructus eorum erit Ecclesiae patuus 
+      <lb ed="#R" n="67"/>valde 
+    </p>
+               <p>
+                  <lb ed="#R" n="68"/>Istarum duarum opinionum vna innititur fidei 
+      <lb ed="#R" n="69"/>pietati, altera iustitiae rigori. Pro ista autem 
+      opi<lb ed="#R" n="70" break="no"/>nione, quae iustitiae innititur, potest ratio vna 
+      ad<lb ed="#R" n="71" break="no"/>duci: si enim esset illud licitum, vt alij dicunt, imo 
+      <lb ed="#R" n="72"/>secundum eos congruum, quare Ecclesia Romana, 
+      <lb ed="#R" n="73"/>nullum super hoc praeceptum legibus, &amp; 
+      Principi<lb ed="#R" n="74" break="no"/>bus hactenus promulgauit; nec enim potuit 
+      sine<lb ed="#R" n="75" break="no"/>culpae periculo tot, quot baptizati fuissent, salus 
+      ne<lb ed="#R" n="76" break="no"/>gligi animarum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="77"/>Ideo ad quaestionem respondeo, quia aliud est, 
+      <lb ed="#R" n="78"/>Vtrum Principes ad hoc teneantur, &amp; aliud est, 
+      <lb ed="#R" n="79"/>Vtrum hoc eis liceat de bono, &amp; aequo. Certum 
+      <lb ed="#R" n="80"/>est, quod non tenentur, sed vtrum eis liceat est 
+      du<lb ed="#R" n="81" break="no"/>bium, praecipue autem mouet me ratio illa de 
+      Ec<lb ed="#R" n="82" break="no"/>clesia, quomodo tantam salutem neglexisset, 
+      pro<lb ed="#R" n="83" break="no"/>pter quod magis declino ad rigorem iustitiae, quia 
+      <lb ed="#R" n="84"/>paruuli possessio sunt parentum: Puto tamen quod 
+      <lb ed="#R" n="85"/>qui pietate fidei motus oppositum faceret, non 
+      <lb ed="#R" n="86"/>multum grauiter peccaret. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="142"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h48738"> <!-- l1-d16q1 -->
+            <head>Quaestio 1</head>
+            <head type="question-title">De Sacramento poenitentiae</head>
+            <p>
+               <lb ed="#R" n="42"/>Quaestio Vnica. 
+      <lb ed="#R" n="43"/>VL SACRAMENTO 
+      <lb ed="#R" n="44"/>POENJTENTJAE. 
+    </p>
+            <div>
+               <head>Articulus 1</head>
+               <head type="question-title">
+      Utrum Contritio, Confessio, et Satis factio sint 
+      partes integrales poenitentiae.
+    </head>
+               <p>
+                  <lb ed="#R" n="45"/>ARTICVLVUS I. 
+      <lb ed="#R" n="46"/>Vtrum Contritio, Confessio, &amp; Satis factio sint 
+      par<lb ed="#R" n="47" break="no"/>tes integrales poenitentiae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="48"/>QVANTVM ad primam 
+      quae<lb ed="#R" n="49" break="no"/>stionem arguitur primo, quod 
+      <lb ed="#R" n="50"/>ista tria non sint partes 
+      poeni<lb ed="#R" n="51" break="no"/>tentiae, quia illa tria non 
+      inte<lb ed="#R" n="52" break="no"/>grant poenitentiam, vt est 
+      vir<lb ed="#R" n="53" break="no"/>tus, quia virtus est simplex 
+      ha<lb ed="#R" n="54" break="no"/>bitus; nec poenitentiam, quae est 
+      <!--0142.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="55"/>Sacramentum, quia illud consistit in sola actione
+      <lb ed="#R" n="56" break="no"/>sacramentali: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="57"/>In oppositum est Magister in litera. 
+      Respon<lb ed="#R" n="58" break="no"/>deo hic primo ponam punctum quaestionis. 
+      Secun<lb ed="#R" n="59" break="no"/>do propositiones intentas. 
+    </p>
+               <p>
+                  <lb ed="#R" n="60"/>Quo ad primum sciendum, quod quaestionem 
+      <lb ed="#R" n="61"/>hanc moui propter quasdam opiniones. 
+    </p>
+               <p>
+                  <lb ed="#R" n="62"/>Dicunt enim quidam, quod illa tria non sunt 
+      par<lb ed="#R" n="63" break="no"/>tes poenitentiae habitus, sed poenitentiae actus. 
+      Poe<lb ed="#R" n="64" break="no"/>nitentia enim, vt est virtus, non includit ista 
+      tria<lb ed="#R" n="65" break="no"/>essentialiter, sed tantum importat illa in actu 
+      se<lb ed="#R" n="66" break="no"/>cundo, vt accipiuntur pro opere poenitentiali 
+      ex<lb ed="#R" n="67" break="no"/>trinseco, non autem pro opere poenitentiali 
+      intrin<lb ed="#R" n="68" break="no"/>seco. Sed loquendo de poenitentia sacramentali, 
+      <lb ed="#R" n="69"/>dicunt, quod illa tria sunt materia propria 
+      inte<lb ed="#R" n="70" break="no"/>grans rationem huius Sacramenti.
+    </p>
+               <p>
+                  <lb ed="#R" n="71"/>Alij dicunt, quod Sacramentum Poenitentiae 
+      con<lb ed="#R" n="72" break="no"/>sistit essentialiter in absolutione, praeuie vero, &amp; 
+      con<lb ed="#R" n="73" break="no"/>sequenter consistit in alĳs. Hic ergo est punctus 
+      <lb ed="#R" n="74"/>quaestionis, vt inquiratur veritas circa ista. 
+      Secun<lb ed="#R" n="75" break="no"/>do propositiones intentas pono. 
+    </p>
+               <p>
+                  <lb ed="#R" n="76"/>Prima est affirmatiua, quod ad essentiam istius 
+      <lb ed="#R" n="77"/>Sacramenti concurrit pro signo sensibili absolutio 
+      <lb ed="#R" n="78"/>sacerdotis, &amp; sacramentalis confessio peccatoris, 
+      <lb ed="#R" n="79"/>quamuis possint alia multa concurrere. Absolutio 
+      <lb ed="#R" n="80"/>autem ista potest esse quandoque a tota poena, 
+      <lb ed="#R" n="81"/>quandoque a parte tantum. Dico autem, quod 
+      <lb ed="#R" n="82"/>concurrunt alia, quoniam licet contritio sit 
+      neces<lb ed="#R" n="83" break="no"/>sario praeuia, non tamen est de essentia 
+      Sacramen<lb ed="#R" n="84" break="no"/>ti, sicut sunt aqua, &amp; verba de essentia baptismi. 
+      <lb ed="#R" n="85"/>Hanc probo Primo sic. Illud praecise est 
+      Sacra<lb ed="#R" n="86" break="no"/>mentum Nouae Legis, cui conuenit definitio 
+      Sacra<lb ed="#R" n="87" break="no"/>menti Nouae Legis. Probatio, Sacramenti enim 
+      de<lb ed="#R" n="88" break="no"/>finitio, vt in principio huius dictum, est isa, 
+      Sacra<lb ed="#R" n="89" break="no"/>mentum est inuisibilis gratiae, visibilis forma, idest 
+      <lb ed="#R" n="90"/>signum sensibile, vt eius similitudinem gerat, &amp; 
+      <lb ed="#R" n="91"/>causa existat: isca conueniunt absolutioni, &amp; 
+      sa<lb ed="#R" n="92" break="no"/>cramentali confessioni: sunt enim signum 
+      sensibi<lb ed="#R" n="93" break="no"/>le, &amp; causa similiter, quia denotatur, quod 
+      virtu<lb ed="#R" n="94" break="no"/>te eorum culpae, quae detectae sunt, remittuntur, vt 
+      <lb ed="#R" n="95"/>sic ambo concurrant ad vnam causalitatem, &amp; 
+      si<lb ed="#R" n="96" break="no"/>gnificationem respectu remissionis culpae; 
+      conses<lb ed="#R" n="97" break="no"/>sio per modum detegentis: absolutio per modum 
+      <lb ed="#R" n="98"/>remittentis. Alijs vero non conuenit ista definitio 
+      <lb ed="#R" n="99"/>Sacramenti, non quidem contritioni. cum non sit 
+      <lb ed="#R" n="100"/>signum sensibile. Similiter nec satisfactioni, non 
+      <lb ed="#R" n="101"/>enim in Sacramento confessionis necessario 
+      requi<lb ed="#R" n="102" break="no"/>ritur poenitentiae impositio. Tum quia alias Papa 
+      <lb ed="#R" n="103"/>non absolueret virtute Sacramenti, quando 
+      absol<lb ed="#R" n="104" break="no"/>uit a poena, &amp; culpa: tum quia, nec Sacerdos 
+      sim<lb ed="#R" n="105" break="no"/>plex tenetur poenitentiam imponere, si appareat 
+      <lb ed="#R" n="106"/>multum notabilis contritio in eo: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="107"/>Secunda ratio est ista. Jstud enim Sacramentum 
+      <lb ed="#R" n="108"/>non est medicina quaecunque, &amp; absolute, sed est Sa 
+      <lb ed="#R" n="109"/>cramentum iudiciarium: sed in quolibet 
+      iudicia<lb ed="#R" n="110" break="no"/>rio foro sunt de essentia iudicialis fori duo, scilicet 
+      <lb ed="#R" n="111"/>confessio delicti, &amp; absolutio: ergo sic in 
+      proposi<lb ed="#R" n="112" break="no"/>to. Ex hoc apparet, quod opinio illa, quae dicit, 
+      <lb ed="#R" n="113"/>quod sola absolutio sit de essentia huius Sacramen 
+      <lb ed="#R" n="114"/>ti, non est rationabilis. Probatum est enim, quod 
+      <lb ed="#R" n="115"/>ambo constituunt rationem vnius signi integri. 
+    </p>
+               <p>
+                  <lb ed="#R" n="116"/>Secunda Propositio est negatiua, quod alij actus 
+      <lb ed="#R" n="117"/>nostri non sunt de essentia huius Sacramenti, sicut 
+      <lb ed="#R" n="118"/>materia propria. Hanc propositionem probo 
+      pri<lb ed="#R" n="119" break="no"/>mo quantum ad satisfactionem, quia Sacramentum 
+      <lb ed="#R" n="120"/>istud potest esse sine satisfactione: vnde &amp; Papa 
+      po<lb ed="#R" n="121" break="no"/>test committere simplici sacerdoti, quod absoluat 
+      <lb ed="#R" n="122"/>ipsum a poena, &amp; culpa: &amp; similiter sacerdos nul- 
+      <!--0143.xml-->
+      <pb ed="#R" n="143"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>lam tenetur iniunger e poenitentiam; tanta posset 
+      ap<lb ed="#R" n="2" break="no"/>parere contritio in confitente: sed nullum 
+      Sacra<lb ed="#R" n="3" break="no"/>mentum potestt esse sine eo, quod est propria 
+      ma<lb ed="#R" n="4" break="no"/>teria Sacramenti: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="5"/>Item secundo: Illud non est materia Sacramenti 
+      <lb ed="#R" n="6"/>in quo non potest esse aliqua virtus supernaturalis 
+      <lb ed="#R" n="7"/>infusa: haec propositio nota est secundum istos, qui 
+      <lb ed="#R" n="8"/>dicunt, quod in materia Sacramenti est virtus 
+      su<lb ed="#R" n="9" break="no"/>pernaturalis infusa actiua respecu gratiae, siue 
+      di<lb ed="#R" n="10" break="no"/>spositionis: sed in satis factione nulla potest esse 
+      ta<lb ed="#R" n="11" break="no"/>lis virtus infusa actiua respectu gratiae, ante enim 
+      <lb ed="#R" n="12"/>satisfacttionem deletur culpa: ergo infunditur 
+      <lb ed="#R" n="13"/>gratia.
+  </p>
+               <p>
+                  <lb ed="#R" n="14"/>Dices: non deletur culpa sine satisfactione saltem 
+      <lb ed="#R" n="15"/>in proposito. Contra: satissactio, &amp; poenae in 
+      pro<lb ed="#R" n="16" break="no"/>posito non sunt signum sensibile: ergo nec 
+      mate<lb ed="#R" n="17" break="no"/>ria Sacramenti. 
+    </p>
+               <p>
+                  <lb ed="#R" n="18"/>Tertio sic: Nunquam essentia Sacramenti istius 
+      <lb ed="#R" n="19"/>manet, quando morbus, non manet: sed quando 
+      <lb ed="#R" n="20"/>poenitentia imposita expletur non manet morbus, 
+      <lb ed="#R" n="21"/>quia culpa iam deleta est: ergo. Consimiliter 
+      di<lb ed="#R" n="22" break="no"/>cendum est de contritione, quod non pote st esse ma 
+      <lb ed="#R" n="23"/>teria Sacramenti, cum non sit signum sensibile. 
+      <lb ed="#R" n="24"/>Sed quid dicetur ad auctoritates Sanctorum 
+      <lb ed="#R" n="25"/>quae videntur sonare, quod illa tria sint partes 
+      poe<lb ed="#R" n="26" break="no"/>nitentiae. Respondeo intelligendae sunt de poe
+      ni<lb ed="#R" n="27" break="no"/>tentia virtute, quoad actus imperatos. Praecipit enim 
+      <lb ed="#R" n="28"/>virtus poenitentiae, &amp; imperat illos actus.
+    </p>
+               <p>
+                  <lb ed="#R" n="29"/>Quomodo, &amp; penes quid capienda sit ratio poeni 
+      <lb ed="#R" n="30"/>tentiae, vt est Sacramentum, patet ex dicis. Sed 
+      quo<lb ed="#R" n="31" break="no"/>modo se habet ad poenitentiam virtutem? Dico, 
+      <lb ed="#R" n="32"/>quod quo ad alterum, puta quo ad sacramentalem 
+      <lb ed="#R" n="33"/>confessionem habet se praeuia virtus ad poe
+      niten<lb ed="#R" n="34" break="no"/>tiam Sacramentum, sicut ad actum quem imperat, 
+      <lb ed="#R" n="35"/>sed non quoad aliud secundum, puta quo ad 
+      abso<lb ed="#R" n="36" break="no"/>lutionem: ille enim actus est in alio, subiectiue 
+      au<lb ed="#R" n="37" break="no"/>tem in sacerdote, ideo praecipere non habet illum. 
+  </p>
+               <p>
+                  <lb ed="#R" n="38"/>Vltimo pono quaedam notabilia. Sciendum est 
+      <lb ed="#R" n="39"/>quod tria sunt impedimenta poenitentiae, vnum 
+      in<lb ed="#R" n="40" break="no"/>trinsecum, scilicet hipocrisis, alia extrinseca, vt 
+      lu<lb ed="#R" n="41" break="no"/>di spectacula, &amp; alia huiusmodi. De hipocrisi 
+      au<lb ed="#R" n="42" break="no"/>tem vtrum sit speciale vitium. Dico, quod 
+      con<lb ed="#R" n="43" break="no"/>currit ibi duplex vitium, scilicet superbiae, &amp; aliud 
+      <lb ed="#R" n="44"/>vitium, quod opponitur veritati, de quo 4. Ethic. 
+      <lb ed="#R" n="45"/>cap. 7. Quia aliter praetendit, quam se habet veritas; 
+      <lb ed="#R" n="46"/>&amp; quia finis hypocritae est apparere excellentior, 
+      <lb ed="#R" n="47"/>ideo admiscetur superbia. 
+    </p>
+               <p>
+                  <lb ed="#R" n="48"/>Sed estne semper peccatum morta le? Dico, quod 
+      <lb ed="#R" n="49"/>non semper ex suo genere, sed ratione finis, &amp; 
+      cir<lb ed="#R" n="50" break="no"/>cumstantiae, puta si hipocrisis sequitur oppositum 
+      <lb ed="#R" n="51"/>honoris Dei, &amp; proximi, cuiusmodi est hypocrisis 
+      <lb ed="#R" n="52"/>haeretici, quae est ad alterius deceptionem. Similiter 
+      <lb ed="#R" n="53"/>qui vt possit habere vanam gloriam, &amp; huiusmodi. 
+    </p>
+               <p>
+                  <lb ed="#R" n="54"/>Sed de ludis suntne peccatum mortale? 
+      Respon<lb ed="#R" n="55" break="no"/>deo, quod sic, qui sunt conuoluti cum malo 
+      ratio<lb ed="#R" n="56" break="no"/>ne circumstantiae, cuiusmodi sunt ludi in theatris, 
+      <lb ed="#R" n="57"/>ludi vero honesti, non. Ad argumentum in 
+      oppo<lb ed="#R" n="58" break="no"/>situm, patet, quid dicendum in oppositum 
+      quae<lb ed="#R" n="59" break="no"/>stionis. 
+    </p>
+            </div>
+            <div>
+               <head>Articulus 2</head>
+               <head type="question-title">
+      Utrum expulsio culpae, et infusio gratiae sint 
+      duae mutationes.
+    </head>
+               <p>
+                  <lb ed="#R" n="60"/>ARTICVLVS II 
+      <lb ed="#R" n="61"/>Vtrum expulsio culpae, &amp; infusio gratiae sint 
+      <lb ed="#R" n="62"/>duae mutationes. 
+    </p>
+               <p>
+                  <lb ed="#R" n="63"/>QVantum ad secundam quaestionem arguo 
+      pri<lb ed="#R" n="64" break="no"/>mo, quod expulsio culpae, &amp; infusio gratiae 
+      <lb ed="#R" n="65"/>non sint duae mutationes, sic: Priuatio eadem mu- 
+      <!--0143.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="66"/>tatione expellitur, qua habitus acquiritur: sed 
+      cul<lb ed="#R" n="67" break="no"/>pa est priuatio gratiae: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="68"/>In oppositum est, quia infusio gratiae est simplex 
+      <lb ed="#R" n="69"/>mutatio, cum sit simplex acquisitio: sed expulsio 
+      cul<lb ed="#R" n="70" break="no"/>pae non est simplex mutatio, cum sit expulsio 
+      mul<lb ed="#R" n="71" break="no"/>tarum culparum: ergo. Respondeo: Opiniones sunt 
+      <lb ed="#R" n="72"/>hinc inde propter rationes tactas ad principale. 
+    </p>
+               <p>
+                  <lb ed="#R" n="73"/>Videtur mihi dicendum, quod se habent sicut 
+      inu<lb ed="#R" n="74" break="no"/>tatio secundum esse reale, &amp; sicut mutatio secundum 
+      <lb ed="#R" n="75"/>ese morale: acquisitio enim gratiae es realis 
+      mu<lb ed="#R" n="76" break="no"/>tatio, quia gratia est realis forma, quae realiter 
+      ac<lb ed="#R" n="77" break="no"/>quiritur, sed remissio culpae est tantum secundum 
+      <lb ed="#R" n="78"/>esse mora le. Dixi enim supra, quod peccator non 
+      <lb ed="#R" n="79"/>dicitur aliquis actu transeunte propter aliquid 
+      rea<lb ed="#R" n="80" break="no"/>le inhaerens, nec propter obligationem ad poenam, 
+      <lb ed="#R" n="81"/>quae est relatio rationis, vt quidam dicunt, sed 
+      pro<lb ed="#R" n="82" break="no"/>pter esse morale, quod est esse indecens. Sciendum 
+      <lb ed="#R" n="83"/>enim est, quod artifex moralis aspicit esse aliquod, 
+      <lb ed="#R" n="84"/>quod non aspicit artifex realis, verbi gratia: Dicit 
+      <lb ed="#R" n="85"/>artifex moralis, quod honor est in honorante, sic, 
+      <lb ed="#R" n="86"/>dico in proposito, culpa actu transeunte nihil est 
+      <lb ed="#R" n="87"/>omnino secundum considerationem artificis 
+      rea<lb ed="#R" n="88" break="no"/>lis, sed est aliquid penes moralem: est enim quaedam 
+      <lb ed="#R" n="89"/>indecentia moralis, inquantum intellectus 
+      appre<lb ed="#R" n="90" break="no"/>hendens naturam sub actu malo, moraliter 
+      appre<lb ed="#R" n="91" break="no"/>hendit eum sub quadam indecentia. 
+    </p>
+               <p>
+                  <lb ed="#R" n="92"/>Vnde sicut posito actu generationis, 
+      quantum<lb ed="#R" n="93" break="no"/>cunque dicatur transire, intellectus tamen 
+      appre<lb ed="#R" n="94" break="no"/>hendens Petrum cum actu generationis praeterito, 
+      <lb ed="#R" n="95"/>necessario concipit in eo rationem paternitatis, sic 
+      <lb ed="#R" n="96"/>in proposito dico, tunc quod expulsio culpae est 
+      mu<lb ed="#R" n="97" break="no"/>tatio secundum esse morale, non secundum esse 
+      rea<lb ed="#R" n="98" break="no"/>le, eo quod est reductio de indecentia ad decentiam, 
+      <lb ed="#R" n="99"/>quae non habet aliud esse, quam morale. 
+    </p>
+               <p>
+                  <lb ed="#R" n="100"/>Tunc ad quaestionem respondeo, quod expulsio 
+      <lb ed="#R" n="101"/>culpae, &amp; infusio gratiae sunt duae mutationes: 
+      dire<lb ed="#R" n="102" break="no"/>cte tamen possunt dici vna mutatio consequenter, 
+      <lb ed="#R" n="103"/>quia ad infusionem gratiae, quae est infusio in 
+      esse<lb ed="#R" n="104" break="no"/>reali sequitur necessario expulsio culpae, quae est 
+      <lb ed="#R" n="105"/>mutatio in esse morali. Ex hoc infero, quod 
+      expul<lb ed="#R" n="106" break="no"/>sio culpae, &amp; insusio gratiae, vna simplici actione 
+      in<lb ed="#R" n="107" break="no"/>ducuntur. hoc probo sic. Quando duae 
+      mutatio<lb ed="#R" n="108" break="no"/>nes sic se habent, quod vna per necessitatem, aliam 
+      <lb ed="#R" n="109"/>concomitatur necessario, actio, quae est respectu 
+      <lb ed="#R" n="110"/>primae, est etiam respectu alterius, vt sequelae: sed 
+      <lb ed="#R" n="111"/>ablatio indecentiae per necessitatem sequitur 
+      infu<lb ed="#R" n="112" break="no"/>sionem gratiae. Probo, quia ad infusionem gratiae 
+      <lb ed="#R" n="113"/>sequitur necessario positio naturae in esse decenti: 
+      <lb ed="#R" n="114"/>ad illud autem necessario sequitur ablatio esse 
+      de<lb ed="#R" n="115" break="no"/>decentis: ergo. Ex hoc patet, quae sit prior: Vtrum 
+      <lb ed="#R" n="116"/>expulsio culpae, an effusio gratiae: dicendum enim 
+      <lb ed="#R" n="117"/>est, quod prior est infusio gratiae, ratio est, quia 
+      <lb ed="#R" n="118"/>quando actio aliqua attingit duas mutationes, vnam 
+      <lb ed="#R" n="119"/>per se, aliam concomitanter, ita est, quod semper 
+      <lb ed="#R" n="120"/>terminus per se prior est termino concomitante: 
+      <lb ed="#R" n="121"/>sed infusio gratiae est terminus per se, expulsio 
+      cul<lb ed="#R" n="122" break="no"/>pae est terminus per concomitantiam necessariam: 
+      <lb ed="#R" n="123"/>ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="124"/>Sed dubium facit hoc, quod dictum est in princi 
+      <lb ed="#R" n="125"/>pio libri, quod Deus posset remittere culpam 
+      non<lb ed="#R" n="126" break="no"/>infundendo gratiam. Respondeo ad infusionem 
+      <lb ed="#R" n="127"/>gratiae dico, quod sequitur expulsio culpae in haben 
+      <lb ed="#R" n="128"/>te culpam: alias non oportet, patet de Angelo. Sed 
+      <lb ed="#R" n="129"/>culpa praesupposita infusione gratiae facit naturam 
+      <lb ed="#R" n="130"/>in statu decenti: ad hoc autem necessario sequitur 
+      <lb ed="#R" n="131"/>ablatio indecentiae, quae prius fuerat per culpam 
+      <lb ed="#R" n="132"/>ergo. Ad argumentum patet.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

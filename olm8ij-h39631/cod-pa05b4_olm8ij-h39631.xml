@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="116"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h39631"> <!-- l1-d12q3 -->
+            <head>Quaestio 3</head>
+            <head type="question-title">
+      De naturali operatione 
+      <!-- line coord error -->
+      accidentium in Sacramento 
+      Altaris.
+    </head>
+            <p>
+               <lb ed="#R" n="31"/>Quaestio III. 
+      <lb ed="#R" n="32"/>
+               <!-- line coord error -->
+               <lb ed="#R" n="33"/>De naturali operatione 
+      <lb ed="#R" n="34"/>
+               <!-- line coord error -->
+               <lb ed="#R" n="35"/>accidentium in Sacramento 
+      <lb ed="#R" n="36"/>Altaris.
+  </p>
+            <p>
+               <lb ed="#R" n="37"/>Postquam quaesitum est de accidentium 
+      enti<lb ed="#R" n="38" break="no"/>tate, similiter de eorum separabilitate 
+      <lb ed="#R" n="39"/>quaero nunc de eorum naturali 
+      operatio<lb ed="#R" n="40" break="no"/>ne, siue transmutatione. Et quaero circa 
+      <lb ed="#R" n="41"/>hoc tres quaestiones.
+  </p>
+            <p>
+               <lb ed="#R" n="42"/>1 Prima est: Vtrum accidentia in 
+      Sacramen<lb ed="#R" n="43" break="no"/>to possint esse principium naturalis actionis. 
+      <lb ed="#R" n="44"/>2 Secunda est: Vtrum possint esse subiectum 
+      <lb ed="#R" n="45"/>naturalis alterationis, &amp; hoc in ordine ad agens 
+      <lb ed="#R" n="46"/>creatum. 
+      <lb ed="#R" n="47"/>3 Tertia est: Vtrum ex illis accidentibus 
+      pos<lb ed="#R" n="48" break="no"/>sit aliqua subsantia generari. 
+    </p>
+            <div>
+               <head>Articulus 1</head>
+               <head type="question-title">
+      Utrum accidentia in Sacramento possint esse 
+      principium naturalis actionis.
+    </head>
+               <p>
+                  <lb ed="#R" n="49"/>ARTICVLVUS I. 
+      <lb ed="#R" n="50"/>Utrum accidentia in Sacramento possint esse 
+      prin<lb ed="#R" n="51" break="no"/>cipium naturalis actionis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="52"/>QVANTVM ad primam 
+      quae<lb ed="#R" n="53" break="no"/>stionem arguo primo, quod 
+      <lb ed="#R" n="54"/>
+                  <!-- line coord error -->
+                  <lb ed="#R" n="55"/>accidentia, quae remanent in 
+      <lb ed="#R" n="56"/>
+                  <!-- line coord error -->
+                  <lb ed="#R" n="57"/>Sacramento, non possunt esse 
+      <lb ed="#R" n="58"/>principium naturalis 
+      actio<lb ed="#R" n="59" break="no"/>
+                  <!-- line coord error -->
+                  <lb ed="#R" n="60"/>cnis, quoniam illud, quod est 
+      <lb ed="#R" n="61"/>materia separatum non 
+      po<lb ed="#R" n="62" break="no"/>test esse principium 
+      transmu<lb ed="#R" n="63" break="no"/>tandi materiam secundum <ref>Aristotelem, &amp; Com- 
+      <!--0116.xml-->
+      <cb ed="#R" n="b"/>
+                     <lb ed="#R" n="64"/>mentatorem 7. Metaph. comm. 30.</ref> Ratio est, tum 
+      <lb ed="#R" n="65"/>quia agens agendo assimilat sibi passum, tum quia 
+      <lb ed="#R" n="66"/>actio est in habentibus materiam communem.
+    </p>
+               <p>
+                  <lb ed="#R" n="67"/>In oppositum est, quia experientia facit artem 
+      <lb ed="#R" n="68"/>1. Metaphysicae: ergo illud est necessarium, quod 
+      <lb ed="#R" n="69"/>capitur per experientiam: sed experientia docet, 
+      <lb ed="#R" n="70"/>quod accidentia illa habeant easdem similes 
+      opera<lb ed="#R" n="71" break="no"/>tiones, quas habuissent, si panis esset praesens, nam 
+      <lb ed="#R" n="72"/>species panis satiant, &amp; species vini inebriant, &amp; sic 
+      <lb ed="#R" n="73"/>de actionibus caeteris: ergo. Respondeo pono in 
+      <lb ed="#R" n="74"/>ista quaestione duas Propositiones. 
+    </p>
+               <p>
+                  <lb ed="#R" n="75"/>Prima est, quod accidentia ista possunt esse 
+      prin<lb ed="#R" n="76" break="no"/>cipium cuiuslibet actionis, quae habet pro termino 
+      <lb ed="#R" n="77"/>realitatem accidentis, sicut alterationis, 
+      augmen<lb ed="#R" n="78" break="no"/>ti, &amp; huiusmodi.
+    </p>
+               <p>
+                  <lb ed="#R" n="79"/>Hanc conclusionem probo vnica ratione tali, 
+      <lb ed="#R" n="80"/>Quando aliquid conuenit alicui per se, conuenit ei 
+      <lb ed="#R" n="81"/>circumscripto omni eo, quod respicit illud per 
+      <lb ed="#R" n="82"/>accidens, verbi gratia, aed ificatori conuenit per se 
+      <lb ed="#R" n="83"/>aedificare, ideo circumscripto Polycleto, quod 
+      aspi<lb ed="#R" n="84" break="no"/>cit per accidens aedificatorem, non minus 
+      aedifica<lb ed="#R" n="85" break="no"/>tori conueniet aedificare: &amp; ratio est, quia per 
+      ac<lb ed="#R" n="86" break="no"/>cidens nihil facit ad illud, quod inest alicui per se, 
+      <lb ed="#R" n="87"/>ideo circumscripto eo adhuc manet, quod inest 
+      <lb ed="#R" n="88"/>per se, sed respectu actionum habentium accidens 
+      <lb ed="#R" n="89"/>pro termino concurrit subiectum per accidens: 
+      er<lb ed="#R" n="90" break="no"/>go circumscripto subiecto, non minus inerit 
+      acci<lb ed="#R" n="91" break="no"/>denti separato actio respectu illius termini. 
+    </p>
+               <p>
+                  <lb ed="#R" n="92"/>Probatio maioris. Illud est per accidens, quo 
+      <lb ed="#R" n="93"/>variato nulla variatio dicitur fieri in hoc, quod 
+      <lb ed="#R" n="94"/>inest per se: sic autem est in proposito, nam 
+      pone<lb ed="#R" n="95" break="no"/>re albedinem in vno, &amp; eodem gradu, varia sicut 
+      <lb ed="#R" n="96"/>vis, ipsa substantia eodem modo disgregabit: ergo.
+    </p>
+               <p>
+                  <lb ed="#R" n="97"/>Ex hoc infero, quod non est vera quorundam 
+      <lb ed="#R" n="98"/>opinio, quod quantitas eo, quod non habet 
+      mo<lb ed="#R" n="99" break="no"/>dum essendi, quem prius habuit, ideo non potest 
+      es<lb ed="#R" n="100" break="no"/>se in Sacramento principium actionis. Hoc dictum 
+      <lb ed="#R" n="101"/>non continet veritatem, quoniam, licet quantitas 
+      <lb ed="#R" n="102"/>non sit principium Physicae transmutationis, tamem 
+      <lb ed="#R" n="103"/>est per se principium naturalis immutationis: est 
+      <lb ed="#R" n="104"/>enim per se sensibile, licet non sit sensibile proprium, 
+      <lb ed="#R" n="105"/>sed commune ex 2. de anima, tex. 64. de anima, &amp; 
+      <lb ed="#R" n="106"/>tamen non habet eundem modum essendi. Nec 
+      quae<lb ed="#R" n="107" break="no"/>rimus hic de acttione quantitatis, quia non est 
+      for<lb ed="#R" n="108" break="no"/>ma actiua, ex 4. Physic. tex. 97. &amp; infra. 
+    </p>
+               <p>
+                  <lb ed="#R" n="109"/>Secundo, quia illud facit per se, quo variato 
+      <lb ed="#R" n="110"/>perpenditur variatio actus a sensu: sed variata 
+      <lb ed="#R" n="111"/>quantitate immutatio in actu visionis perpenditur 
+      <lb ed="#R" n="112"/>a visu: quare quantitas per se facit ad actum 
+      visio<lb ed="#R" n="113" break="no"/>nis, vel alterius sensualis immutationis. Tunc si 
+      quan<lb ed="#R" n="114" break="no"/>titas eo, quod est sine subiecto, non est principium 
+      <lb ed="#R" n="115"/>actionis: ergo videns hostiam ante consecrationem, 
+      <lb ed="#R" n="116"/>&amp; post, difformiter immutabitur, cuius oppositum 
+      <lb ed="#R" n="117"/>experimur. 
+    </p>
+               <p>
+                  <lb ed="#R" n="118"/>Sed contra minorem rationis videtur esse illud 
+      <lb ed="#R" n="119"/>Phylosophi 2. de anima tex. 11. vbi volens habere, 
+      <lb ed="#R" n="120"/>quod in nobis est aliqua substantia abstracta, 
+      di<lb ed="#R" n="121" break="no"/>cit, si est actio in qua non communicet corpus: 
+      er<lb ed="#R" n="122" break="no"/>go intendit, quod in istis actionibus materialibus 
+      <lb ed="#R" n="123"/>communicat corpus cum forma: ergo facit 
+      subie<lb ed="#R" n="124" break="no"/>cum per se ad actionem non per accidens, minor 
+      <lb ed="#R" n="125"/>ergo erat falsa. 
+    </p>
+               <p>
+                  <lb ed="#R" n="126"/>Respondeo: forma eo modo communicat 
+      subie<lb ed="#R" n="127" break="no"/>cto actionem, quo communicat ei suam realitatem, 
+      <lb ed="#R" n="128"/>non per vnionem, siue relationem mediam: ergo 
+      <lb ed="#R" n="129"/>similiter actio hoc modo communicabitur 
+      subie<lb ed="#R" n="130" break="no"/>cto per indiuisionem, vt sicut concurrunt indiuise 
+      <lb ed="#R" n="131"/>in vno tertio, scilicet composito, sic in vna actione. 
+      <!--0117.xml-->
+      <pb ed="#R" n="117"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>vnde accidens existens in subiecto non est agens 
+      <lb ed="#R" n="2"/>in ratione subiecti, eo quod non est diuisum in actu 
+      <lb ed="#R" n="3"/>sed tantum in potentia: sed est quo ipsum subiectum 
+      <lb ed="#R" n="4"/>agit, separatum autem retinet actionem sine 
+      sub<lb ed="#R" n="5" break="no"/>iecto, sicut &amp; entitatem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="6"/>Tunc ad formam concedo, quod in omni actione 
+      <lb ed="#R" n="7"/>sormae existentis in materia, siue accidentis in 
+      sub<lb ed="#R" n="8" break="no"/>iecto concurrit per se subiectum sicut per se fundat 
+      <lb ed="#R" n="9"/>vnitatem cum subiecto, &amp; hoc vult habere Arist. 
+      <lb ed="#R" n="10"/>quod si entitas accidentis siue alterius formae 
+      sepa<lb ed="#R" n="11" break="no"/>retur, non est inconueniens quodeius actio separetur. 
+    </p>
+               <p>
+                  <lb ed="#R" n="12"/>Secunda Propositio est, quod accidentia sunt 
+      <lb ed="#R" n="13"/>principium naturalis actionis respectu substantiae, 
+      <lb ed="#R" n="14"/>quae apparet per huiusmodi species generari, verbi 
+      <lb ed="#R" n="15"/>gratia, si vinum ante consecrationem potuisset suo 
+      <lb ed="#R" n="16"/>calore aliquam generare substantiam, eandem 
+      po<lb ed="#R" n="17" break="no"/>terunt generare species vini, &amp; eius 
+      accidentia<lb ed="#R" n="18" break="no"/>remanentia post consecrationem, non quidem 
+      in<lb ed="#R" n="19" break="no"/>virtute substantia alia ab ipsis met accidentibus: 
+      <lb ed="#R" n="20"/>vnde quod consueuit dici, quod accidentia agunt 
+      <lb ed="#R" n="21"/>in virtute substantiae, verum est si intelligatur in 
+      <lb ed="#R" n="22"/>virtute substantiae, quae sit ipsamet accidentia 
+      <lb ed="#R" n="23"/>si vero intelligatur aliud quam ipsamet 
+      acciden<lb ed="#R" n="24" break="no"/>tia, quaero, quid est illud; aut ipsa, &amp; hoc non, quia 
+      <lb ed="#R" n="25"/>illa non est; aut relatio, &amp; hoc non, quia relatio 
+      <lb ed="#R" n="26"/>non est principium, nec terminus actionis; aut est 
+      <lb ed="#R" n="27"/>quod absolutum, &amp; si sic, illud est etiam accidens: 
+      <lb ed="#R" n="28"/>ergo qua ratione istud accidens esset principium 
+      <lb ed="#R" n="29"/>illius actionis, non in virtute alterius, eadem 
+      ra<lb ed="#R" n="30" break="no"/>tione illud accidens, de quo est sermo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="31"/>Dico ergo quod accidentia in Sacramento 
+      pos<lb ed="#R" n="32" break="no"/>sunt agere ad eductionem formae suostantialis in 
+      <lb ed="#R" n="33"/>passo approximato. haec propositio licet dependeat 
+      <lb ed="#R" n="34"/>ab eis quae dixi distinctione prima, probo tamen-- 
+      <lb ed="#R" n="35"/>eam nunc vnica ratione sic: Quando duae 
+      mutatio<lb ed="#R" n="36" break="no"/>nes concomitantur se ad inuicem necessario, ita 
+      <lb ed="#R" n="37"/>quod si vna sit necessario per concomitantiam, 
+      poni<lb ed="#R" n="38" break="no"/>tur alia eadem actione, &amp; eodem priuilegio formali 
+      <lb ed="#R" n="39"/>ponitur in esse vna &amp; alia: sed secundum mentem 
+      <lb ed="#R" n="40"/>Philosophi generatio &amp; alteratio sunt duae 
+      muta<lb ed="#R" n="41" break="no"/>tiones, habentes se necessario per concomitantiam; 
+      <lb ed="#R" n="42"/>nam impossibile est, quod alteratio sit vltimata quo 
+      <lb ed="#R" n="43"/>ad terminum, puta quod omnes dispositiones 
+      po<lb ed="#R" n="44" break="no"/>nantur in vltimo insanti, quin in eodem fiat 
+      for<lb ed="#R" n="45" break="no"/>ma; sicut si caliditas, &amp; raritas fiant in summo, 
+      <lb ed="#R" n="46"/>necessario per concomitantiam fit forma ignis, vt 
+      <lb ed="#R" n="47"/>necessaria quaedam sequela: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="48"/>Confirmo hoc, quoniam da oppositum, sequitur, 
+      <lb ed="#R" n="49"/>quod forma substantialis bis fiet, semel per 
+      conco<lb ed="#R" n="50" break="no"/>mitantiam, &amp; semel per actionem directe 
+      termina<lb ed="#R" n="51" break="no"/>tam ad eam, quod est inconueniens. Propter quod 
+      <lb ed="#R" n="52"/>sciendum, quod duae mutationes concurrunt in 
+      <lb ed="#R" n="53"/>qualibet naturali generatione; scilicet alteratio, 
+      <lb ed="#R" n="54"/>&amp; generatio, ambae correspondentes vni, &amp; eidem 
+      <lb ed="#R" n="55"/>actioni; vna quidem sicut terminus intrinsecus, 
+      al<lb ed="#R" n="56" break="no"/>tera vero sicut terminus extrinsecus, &amp; sequela. 
+      <lb ed="#R" n="57"/>Exemplum huius potest patere in 
+      productione<lb ed="#R" n="58" break="no"/>artis, actio enim domificatoris attingit duas 
+      mu<lb ed="#R" n="59" break="no"/>tationes, vnam per se, &amp; vt terminum intrinsecum 
+      <lb ed="#R" n="60"/>actionis suae, per motum enim localem 
+      Domifica<lb ed="#R" n="61" break="no"/>tor per se, &amp; primo inducit situm alium, &amp; alium 
+      <lb ed="#R" n="62"/>ipsarum partium domus, puta lapidis, &amp; 
+      ligno<lb ed="#R" n="63" break="no"/>rum; ex consequenti vero, &amp; vt termini motus 
+      <lb ed="#R" n="64"/>secundum extrinsecum inducit formam domus, 
+      <lb ed="#R" n="65"/>positis namq. &amp; sic situatis partibus, per 
+      necessita<lb ed="#R" n="66" break="no"/>tem nulla alia actione media sequitur forma 
+      do<lb ed="#R" n="67" break="no"/>mus. Sic in proposito, quia positis dispositionibus 
+      <lb ed="#R" n="68"/>pltimatis sequitur necesario forma substantialis. 
+      <!--0117.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>idcirco accidentia, quae inducunt, sicut intrinsecum 
+      <lb ed="#R" n="70"/>terminum actionis suae, ipsas dispositiones 
+      induce<lb ed="#R" n="71" break="no"/>re possunt; eadem actione sicut terminum 
+      extrin<lb ed="#R" n="72" break="no"/>secum secundum, &amp; per modum sequelae formam 
+      <lb ed="#R" n="73"/>substantialem. Et hoc est, quod Philosophus dicit 
+      <lb ed="#R" n="74"/>5. de historia animalium cap. r. quod virtute 
+      semi<lb ed="#R" n="75" break="no"/>nis inducuntur formae substantiales animalium: nec 
+      <lb ed="#R" n="76"/>oportet recurrere ad idaeas, vt Plato; nec ad agens 
+      <lb ed="#R" n="77"/>separatum, puta ad decimam intelligentiam, vt 
+      <lb ed="#R" n="78"/>posuit Auicenna; nec ad Deum, vt ponunt alij 
+      Do<lb ed="#R" n="79" break="no"/>ctores moderni. Est ergo sciendum, quod in 
+      gene<lb ed="#R" n="80" break="no"/>ratione substantiae est ordo iste. 
+    </p>
+               <p>
+                  <lb ed="#R" n="81"/>Primo enim accidentia capiunta forma substan 
+      <lb ed="#R" n="82"/>tiali, quod sint talia non quidem effectiue, sed 
+      exi<lb ed="#R" n="83" break="no"/>gitiue, &amp; determinatiue, eo modo quo membra 
+      <lb ed="#R" n="84"/>corporis humani exigitiue, &amp; determinatiue 
+      ca<lb ed="#R" n="85" break="no"/>piunt ab anima, quod sint talia, vt Commentator 
+      <lb ed="#R" n="86"/>ait secundo de anima, com. 24. cap. 1. &amp; tractatu de 
+      <lb ed="#R" n="87"/>substantia orbis dicit, quod licet dimensiones 
+      in<lb ed="#R" n="88" break="no"/>terminatae praecedant im materia, tamen 
+      determi<lb ed="#R" n="89" break="no"/>natio est a forma substantiali. Accidentia ergo sicut 
+      <lb ed="#R" n="90"/>sunt talia a forma tali in entitate, sic ab eadem 
+      <lb ed="#R" n="91"/>forma sunt talia, quod alterando materiam 
+      indu<lb ed="#R" n="92" break="no"/>cunt dispositiones in summo, ad quod sequitur 
+      for<lb ed="#R" n="93" break="no"/>ma substantialis necessario per modum sequelae, 
+      <lb ed="#R" n="94"/>&amp; hoc estt propter naturalem obligationem 
+      acci<lb ed="#R" n="95" break="no"/>dentium ipsius formae. Sicut enim subiectum 
+      im<lb ed="#R" n="96" break="no"/>possibile est esse sine accidentibus; sic est conuerso 
+      <lb ed="#R" n="97"/>impossibile est accidentia esse sine forma. Totus 
+      <lb ed="#R" n="98"/>autem iste ordo ortum habet principaliter a 
+      sub<lb ed="#R" n="99" break="no"/>stantia, vt substantia primo inducat talia 
+      acciden<lb ed="#R" n="100" break="no"/>tia talis dispositionis, &amp; talis entitatis; 
+      acciden<lb ed="#R" n="101" break="no"/>tia vero ipsa inducunt vltimas dispositiones, 
+      vlti<lb ed="#R" n="102" break="no"/>mis vero dispositionibus statim per modum 
+      leque<lb ed="#R" n="103" break="no"/>lae necessariae sequatur substantia. &amp; haec est 
+      inten<lb ed="#R" n="104" break="no"/>tio Commentatoris expressa, similiter &amp; 
+      Philoso<lb ed="#R" n="105" break="no"/>phi a. de anima tex. com. 24 
+    </p>
+               <p>
+                  <lb ed="#R" n="106"/>Sed hic sunt quaedam facientia difficultatem 
+      ali<lb ed="#R" n="107" break="no"/>quibus magnis Doctoribus, quia primo hoc 
+      posi<lb ed="#R" n="108" break="no"/>to termino formalis generationis, ponitur 
+      nobi<lb ed="#R" n="109" break="no"/>lior formali principio, &amp; per consequens effectus 
+      <lb ed="#R" n="110"/>aequiuocus excedet causam in nobilitate, &amp; per 
+      <lb ed="#R" n="111"/>consequens aget aliquid vltra suam speciem; quae 
+      <lb ed="#R" n="112"/>omnia inconuenientia videntur, propter hoc, quod 
+      <lb ed="#R" n="113"/>tolleretur omnis via ad probandum ordinem 
+      <lb ed="#R" n="114"/>agentium; imo non posset improbari, quod mufca 
+      <lb ed="#R" n="115"/>esset causa coeli, &amp; specialiter auserretur via ad 
+      <lb ed="#R" n="116"/>probandum perfect. onem primi principij. 
+    </p>
+               <p>
+                  <lb ed="#R" n="117"/>Primo sicut dicitur communiter, quod accidens 
+      <lb ed="#R" n="118"/>potest esse causa termini nobilioris se, &amp; hoc in 
+      <lb ed="#R" n="119"/>virtute substantiae, quod si bene intelligatur 
+      vide<lb ed="#R" n="120" break="no"/>tur dictum satis probabile, vt sit sensus in virtute 
+      <lb ed="#R" n="121"/>substantiae, hoc est, quia sunt virtus ipsius 
+      substan<lb ed="#R" n="122" break="no"/>tiae, vt dictum fuit statim, habent enim accidentia 
+      <lb ed="#R" n="123"/>ista exigitiue, &amp; determinatiue a substantia 
+      <lb ed="#R" n="124"/>quod alterantes materiam inducant dispositiones 
+      <lb ed="#R" n="125"/>vltimatas respectu formae inducendae, alias 
+      nulla<lb ed="#R" n="126" break="no"/>alia actione mediante sequitur forma 
+      substantia<lb ed="#R" n="127" break="no"/>lis per modum necessariae seque lae: ergo cum forma 
+      <lb ed="#R" n="128"/>substantialis sit causa determinatiua istius ordinis, 
+      <lb ed="#R" n="129"/>&amp; per consequens forma substantialis est causa 
+      <lb ed="#R" n="130"/>isttius necessariae sequelae, ex quo bene dictum est, 
+      <lb ed="#R" n="131"/>quod accidentia agunt in virtute substantiae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="132"/>Et quando dicitur, quod ignobilius est causa 
+      no<lb ed="#R" n="133" break="no"/>bilioris. Respondeo, quod bene ignobilius potest 
+      <lb ed="#R" n="134"/>esse causa nobilioris, per modum sequelae, quando 
+      <lb ed="#R" n="135"/>aliquid nobilius est causa illius sequelae: sic est 
+      in<lb ed="#R" n="136" break="no"/>proposito, quia accidentia habent, quod agant per 
+      <!--0118.xml-->
+      <pb ed="#R" n="118"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>modum sequelae ad substantiam, per hoc, quod 
+      sub<lb ed="#R" n="2" break="no"/>stantia est causa illius. 
+    </p>
+               <p>
+                  <lb ed="#R" n="3"/>Et cum dicitur, quod nihil agit vltra suam 
+      spe<lb ed="#R" n="4" break="no"/>ciem, &amp; ignobilius se, concedo, quod nihil agit hoc 
+      <lb ed="#R" n="5"/>modo directe, &amp; vt causa sequelae: nihil autem 
+      <lb ed="#R" n="6"/>prohibet aliquando agere vltra suam speciem 
+      in<lb ed="#R" n="7" break="no"/>virtute alterius, quod est causa illius sequelae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="8"/>Alia responsio est Commentatoris 7. Metaph. 
+      <lb ed="#R" n="9"/>comm. 3. vbi post distinctionem de agente dicens, 
+      <lb ed="#R" n="10"/>quod agens est duplex, producens, &amp; faciens, 
+      siue<lb ed="#R" n="11" break="no"/>mouens, &amp; extraliens verbi gratiu, qui facit 
+      figu<lb ed="#R" n="12" break="no"/>ram dicitur producens, qui vero mouet materiam 
+      <lb ed="#R" n="13"/>vsque ad formam, non dicitur faciens, nec 
+      produ<lb ed="#R" n="14" break="no"/>cens, sed mouens siue extrahens. Tunc dicit 
+      Com<lb ed="#R" n="15" break="no"/>mentator, quod qui imaginatur, quod sorma 
+      in<lb ed="#R" n="16" break="no"/>ducatur in materia, sicut aliquid impresum fecit 
+      <lb ed="#R" n="17"/>opinari, quod esset dare creans, &amp; producens, &amp; 
+      fa<lb ed="#R" n="18" break="no"/>cibilis, &amp; litera sua habet sic, &amp; demonstratio 
+      Ari<lb ed="#R" n="19" break="no"/>stotelis est in hoc, quod formae non gener antur per 
+      <lb ed="#R" n="20"/>se, siue in se, quoniam si sic esset, generatio esset non 
+      <lb ed="#R" n="21"/>a materia, &amp; cum ita sit gencrutum, &amp; formatum 
+      <lb ed="#R" n="22"/>generans: ergo est formans, scilicet illud, quod 
+      <lb ed="#R" n="23"/>mouet materiam, donec recipiat formam, &amp; illud 
+      <lb ed="#R" n="24"/>quod extrahit eam de potentia ad actum. Et infra 
+      <lb ed="#R" n="25"/>vult, quod actio eadem, quae est ad formam, sit ad 
+      <lb ed="#R" n="26"/>substantiam, ita quod actio agentis non dependet, 
+      <lb ed="#R" n="27"/>nisi quia pendet a forma, ita quod tota essentia 
+      <lb ed="#R" n="28"/>compositi fit per hoc, quod forma extrahitur a mo 
+      <lb ed="#R" n="29"/>uente materiam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="30"/>Tunc ad formam, cum dicitur, nihil agit vltra 
+      <lb ed="#R" n="31"/>speciem, &amp; in nobilius se, verum est de agente 
+      pro<lb ed="#R" n="32" break="no"/>ducente, &amp; faciente: si autem de agente 
+      extrahen<lb ed="#R" n="33" break="no"/>te, non: possibile enim est secundum eum, quod 
+      ali<lb ed="#R" n="34" break="no"/>quod agens moueat materiam, extrahendo ad actum 
+      <lb ed="#R" n="35"/>nobiliorem se, vt vult ibi, quod illud, quod 
+      gene<lb ed="#R" n="36" break="no"/>rat substantiam, est corpus agens per qualitatem 
+      <lb ed="#R" n="37"/>aliquam actiuam, &amp; quod non est aliud generans, 
+      <lb ed="#R" n="38"/>quin siuicftume: &amp; soimas, ex productione rerum 
+      <lb ed="#R" n="39"/>potest demonstrari primum principium 
+      perfectissi<lb ed="#R" n="40" break="no"/>mum esse, eo quod non est agens mouens tantum, 
+      <lb ed="#R" n="41"/>&amp; extrahens, sed est producens, &amp; creans. Et hinc 
+      <lb ed="#R" n="42"/>habuit ortum imaginatio antiquorum, quod 
+      opor<lb ed="#R" n="43" break="no"/>tet ponere incorruptionem formarum, quia agens 
+      <lb ed="#R" n="44"/>non producit aliquam nouam realitatem in actu: 
+      <lb ed="#R" n="45"/>sed acquiritur mouendo materiam perfectio 
+      eius<lb ed="#R" n="46" break="no"/>dem eminentiae cum materia. Non enim materia 
+      <lb ed="#R" n="47"/>est in se vnum ens praecisum, &amp; sorma aliud, sed 
+      <lb ed="#R" n="48"/>amho sunt per indiuisionem vna essentia 
+      composi<lb ed="#R" n="49" break="no"/>ti tertia, materia quidem, vt inchoamentum, sed 
+      <lb ed="#R" n="50"/>forma vt complementum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="51"/>Aliud dubium est, quare cum forma 
+      substantia<lb ed="#R" n="52" break="no"/>lis sit prior accidente tempore, cognitione, &amp; 
+      na<lb ed="#R" n="53" break="no"/>tura, magis debet accidens induci, vt sequela 
+      sub<lb ed="#R" n="54" break="no"/>stantiae, quam e conuerso. Respondeo: aliud est 
+      es<lb ed="#R" n="55" break="no"/>se prius, siue principale in intentione, &amp; aliud in 
+      <lb ed="#R" n="56"/>executione, sicut apparet de forma domus, &amp; 
+      mo<lb ed="#R" n="57" break="no"/>tu partium, scilicet lapidis, &amp; lignorum ad istum, 
+      <lb ed="#R" n="58"/>&amp; illum situm: In proposito, etsi forma 
+      substantia<lb ed="#R" n="59" break="no"/>lis sit prior in intentione, tamen est vltimum 
+      in<lb ed="#R" n="60" break="no"/>executione, ideo magis est sequela alterius, quam 
+      <lb ed="#R" n="61"/>e conuerso, vt patet expresse de forma domus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="62"/>Dices: Forma est immediatior materiae, quam 
+      ac<lb ed="#R" n="63" break="no"/>cidens: secundum te autem est e conuerso. 
+      Respon<lb ed="#R" n="64" break="no"/>dec: aliud est mediare inter materiam, &amp; formam, 
+      <lb ed="#R" n="65"/>&amp; aliud inter formam, &amp; agens accidentia: ergo 
+      me<lb ed="#R" n="66" break="no"/>diant tantum secundo modo, non primo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="67"/>Vbi considerandum est, quod materia est quod- 
+      <!--0118.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>dam purum actuabile, quia actuatur per formam: 
+      <lb ed="#R" n="69"/>materia enim de se nec est quid, nec quantum 
+      <lb ed="#R" n="70"/>nec quale, &amp;c. per formam autem trahitur ad esse 
+      <lb ed="#R" n="71"/>quid, &amp; ad esse simpliciter in actu, &amp; sic tracta 
+      ad<lb ed="#R" n="72" break="no"/>esse quid per formam, trahitur ex consequenti ad 
+      <lb ed="#R" n="73"/>esse quantum per quantitatem, ad qualem per 
+      qua<lb ed="#R" n="74" break="no"/>litatem: &amp; quia materia non trahitur ad esse 
+      quan<lb ed="#R" n="75" break="no"/>tum, vel quale, nisi tracta fuerit ad esse quid per 
+      <lb ed="#R" n="76"/>formam, quae est ipsa actuatio materiae, ideo 
+      di<lb ed="#R" n="77" break="no"/>citur, quod forma prius inhaeret materiae. Est 
+      au<lb ed="#R" n="78" break="no"/>tem ordo iste, quod agens alterans materiam 
+      in<lb ed="#R" n="79" break="no"/>eodem instanti inducit dispositiones vltimatas, &amp; 
+      <lb ed="#R" n="80"/>formam ipsam per modum sequelae, ita quod 
+      si<lb ed="#R" n="81" break="no"/>mul tempore ambo sint in materia; sed natura &amp; per 
+      <lb ed="#R" n="82"/>modum inhaerentiae forma est prior, quia dat 
+      ma<lb ed="#R" n="83" break="no"/>teriae esse actu, cum sit ipsa actuatio materiae, quod 
+      <lb ed="#R" n="84"/>quidem esse actu, &amp; simpliciter requiritur in 
+      ma<lb ed="#R" n="85" break="no"/>teria, vt est susceptiua accidentium.
+  </p>
+               <p>
+                  <lb ed="#R" n="86"/>Sciendum est etiam, quod ordo naturae vno 
+      mo<lb ed="#R" n="87" break="no"/>do est ordo secundum productionem, prius, &amp; sic 
+      <lb ed="#R" n="88"/>accidentia sunt prius ipsa forma, quia sunt 
+      termi<lb ed="#R" n="89" break="no"/>nus actionis directe, &amp; intrinsece, forma vero 
+      tan<lb ed="#R" n="90" break="no"/>tum extrinsece per modum sequelae: actio autem 
+      <lb ed="#R" n="91"/>prius natura respicit terminum intrinsecum, quam 
+      <lb ed="#R" n="92"/>extrinsecum. Aliud modo est prius natura secundum 
+      <lb ed="#R" n="93"/>inhaerentiae perfectionem, &amp; hoc modo forma est 
+      <lb ed="#R" n="94"/>prior natura propter causam praedictam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="95"/>Ad argumentum in oppositum. Respondeo 
+      ab<lb ed="#R" n="96" break="no"/>stractio formae vno modo potest intelligi a 
+      mate<lb ed="#R" n="97" break="no"/>ria, alio modo a trina dimensione. Forma ergo 
+      <lb ed="#R" n="98"/>abstracta primo modo bene potest esse principium 
+      <lb ed="#R" n="99"/>naturalis actionis, abstracta secundo modo, non, &amp; 
+      <lb ed="#R" n="100"/>hoc est, quod Commentator vult, &amp; non plus 
+      Com<lb ed="#R" n="101" break="no"/>mento, vbi supra, quod generans oportet, quod sit 
+      <lb ed="#R" n="102"/>corpus, vel virtus in corpore. 
+    </p>
+            </div>
+            <div>
+               <head>Articulus 2</head>
+               <head type="question-title">
+      Utrum accidentia in Sacramento possint 
+      transmutari ab agente naturali.
+    </head>
+               <p>
+                  <lb ed="#R" n="103"/>ARTICVLVS II 
+      <lb ed="#R" n="104"/>Vtrum accidentia in Sacramento possint 
+      transmu<lb ed="#R" n="105" break="no"/>tari ab agente naturali. 
+    </p>
+               <p>
+                  <lb ed="#R" n="106"/>QVantum ad secundam quaestionem arguo 
+      pri<lb ed="#R" n="107" break="no"/>mo, quod accidentia in Sacramento non pos 
+      <lb ed="#R" n="108"/>sint transmutari ab agente naturali sic. Nulla actio 
+      <lb ed="#R" n="109"/>est compossibilis creaturae, quae est sine subiecto: 
+      <lb ed="#R" n="110"/>sed omnis actio, &amp; transmutatio, quae esset ab agen 
+      <lb ed="#R" n="111"/>te naturali circa accidentia, esset sine subiecto, quia 
+      <lb ed="#R" n="112"/>ibi nullum subiectum est: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="113"/>In oppositum est, quia sensus est principium 
+      con<lb ed="#R" n="114" break="no"/>gnitionis ex primo post. tex. 1. experimur autem per 
+      <lb ed="#R" n="115"/>sensum, quod species illae transmutantur ab 
+      agen<lb ed="#R" n="116" break="no"/>te naturali, quia rarefiunt, &amp; condensantur, vt patet 
+      <lb ed="#R" n="117"/>de sanguine, quod potest per frigus condensari, per 
+      <lb ed="#R" n="118"/>calorem rarefieri. 
+    </p>
+               <p>
+                  <lb ed="#R" n="119"/>Respondeo ad euidentiam huius quaestionis 
+      po<lb ed="#R" n="120" break="no"/>no tres propositiones. 
+    </p>
+               <p>
+                  <lb ed="#R" n="121"/>Prima est, quod accidentia in Sacramento 
+      pos<lb ed="#R" n="122" break="no"/>sunt esse subiectum transmutationis ab agente 
+      na<lb ed="#R" n="123" break="no"/>turali, quod non variat quantitatem: potest enim 
+      <lb ed="#R" n="124"/>hostia dealbari, denigrari, &amp; alterius saporis 
+      effi<lb ed="#R" n="125" break="no"/>fici ab agente naturali. 
+    </p>
+               <p>
+                  <lb ed="#R" n="126"/>Hanc conclusionem probo sic: Omnis actio, quae 
+      <lb ed="#R" n="127"/>non est nisi extractio rei possibilis ad formam, &amp; 
+      <lb ed="#R" n="128"/>actualis ad actum, est posibilis creaturae, siue 
+      <lb ed="#R" n="129"/>agenti creato. Hanc propositionem probo ex inten 
+      <lb ed="#R" n="130"/>tione Commentatoris, vbi supra in praecedenti 
+      quae<lb ed="#R" n="131" break="no"/>stione, scilicet 7. Metaph. comm. 31. quod actio 
+      <lb ed="#R" n="132"/>agentis naturalis non est formam per se generare: 
+      <!--0119.xml-->
+      <pb ed="#R" n="119"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>ideo generans omne est formans: mouet enim per 
+      <lb ed="#R" n="2"/>se materiam, donec extrahat de potentia ad actum, 
+      <lb ed="#R" n="3"/>sed transmutatio, quae fit in speciebus 
+      inuariata<lb ed="#R" n="4" break="no"/>quantitate, non est aliud, quam extractio rei 
+      acua<lb ed="#R" n="5" break="no"/>lis ad actum, quare est compossibile agenti 
+      natu<lb ed="#R" n="6" break="no"/>rali. Minorem probo. Vbi sciendum est, quod 
+      <lb ed="#R" n="7"/>quantitas, quae estt hic inuariata, etsi non sit 
+      subie<lb ed="#R" n="8" break="no"/>cum principale ipsorum accidentium, eo quod 
+      il<lb ed="#R" n="9" break="no"/>lud est sola substantia, tamen est aliquid, quod con 
+      <lb ed="#R" n="10"/>currit indiuise in ratione subiecti. 
+      <lb ed="#R" n="11"/>Primum quidem patet, quia subiectum 
+      princi<lb ed="#R" n="12" break="no"/>pale recipit effectum formalem formae: quantitas 
+      <lb ed="#R" n="13"/>autem non recipit effectum formalem accidentium 
+      <lb ed="#R" n="14"/>aliorum, non enim dicitur, quantitas siue 
+      superfi<lb ed="#R" n="15" break="no"/>cies dealbatur. Ratio est tacta supra: quantitas enim 
+      <lb ed="#R" n="16"/>formaliter non est aliud, quam partibilitas, nec est 
+      <lb ed="#R" n="17"/>aliquid habens partes, sicut dicimus, quod 
+      simi<lb ed="#R" n="18" break="no"/>tas est illud, quo aliquid dicitur formaliter simum. 
+      <lb ed="#R" n="19"/>Nunc autem partibilitas ipsa non coloratur, sed 
+      <lb ed="#R" n="20"/>partes ipsae, tamen non nisi per rationem 
+      partibili<lb ed="#R" n="21" break="no"/>tatis, &amp; ideo Angelus non potestt colorari, quia 
+      <lb ed="#R" n="22"/>ei repugnat partibilitas. Ex quo patet secundum, 
+      <lb ed="#R" n="23"/>quod quantitas concurrit hic, vt aliquid, quod 
+      ha<lb ed="#R" n="24" break="no"/>bet cum alio integrare rationem subiecti 
+      acciden<lb ed="#R" n="25" break="no"/>tium, &amp; sic probata est minor illa, &amp; per consequens 
+      <lb ed="#R" n="26"/>ratio videtur bona. 
+    </p>
+               <p>
+                  <lb ed="#R" n="27"/>Secunda Propositio est, quod agens 
+      naturale<lb ed="#R" n="28" break="no"/>potest esse causa actionis, vbi quantitas variatur, 
+      <lb ed="#R" n="29"/>quia transmutatio quantitatis non est aliud, quam 
+      <lb ed="#R" n="30"/>extractio acttualis ad actum, &amp; formetur ratio 
+      as<lb ed="#R" n="31" break="no"/>sumpta propositione maiori, eadem, quae fuit 
+      ac<lb ed="#R" n="32" break="no"/>cepta in prima propositione, sic: Illa actio, quae non 
+      <lb ed="#R" n="33"/>est aliud, quam extractio, &amp;c. Talis estt actio in 
+      pro<lb ed="#R" n="34" break="no"/>posito: ergo. Probatur autem minor sic. 
+    </p>
+               <p>
+                  <lb ed="#R" n="35"/>Vbi sciendum, quod subiectum quantitatis sunt 
+      <lb ed="#R" n="36"/>ipsae qualitates, licet non principale, sed secundum 
+      <lb ed="#R" n="37"/>quid, vt dictum fuit quaestione 3. supra. Et in 
+      spe<lb ed="#R" n="38" break="no"/>ciali probo nunc illud sic. Omne habens partes, 
+      <lb ed="#R" n="39"/>&amp; partibile est vere subiectum partibilitatis: sed 
+      <lb ed="#R" n="40"/>albedo, &amp; sic de qualitatibus aljs est 
+      partibile<lb ed="#R" n="41" break="no"/>quiddam vere habens partes: ergo. Ex quo 
+      pro<lb ed="#R" n="42" break="no"/>batur maior illa, scilicet, quod actio, qua species 
+      <lb ed="#R" n="43"/>condensantur, &amp; rarescunt, non est aliud, quam 
+      ex<lb ed="#R" n="44" break="no"/>tracio accidentium, siue qualitatum de maiori 
+      <lb ed="#R" n="45"/>quantitate ad minorem, siue e conuerso. Sed hic 
+      <lb ed="#R" n="46"/>occurrunt quaedam dubia.
+    </p>
+               <p>
+                  <lb ed="#R" n="47"/>Primum, quia falsum videtur, quod quantitas 
+      <lb ed="#R" n="48"/>sit subiectiue in qualitate, tum quia 4. Metaph. tex. 
+      <lb ed="#R" n="49"/>2. proprium est superficici primo loco collocari. 
+    </p>
+               <p>
+                  <lb ed="#R" n="50"/>Secundo, quia secundum hoc est circulus in cau 
+      <lb ed="#R" n="51"/>sis, quia hoc modo qualitas estt subiectum 
+      quanti<lb ed="#R" n="52" break="no"/>tatis, &amp; quantitas qualitatis: consequens est 
+      im<lb ed="#R" n="53" break="no"/>possibile ex 5. Metaph. vbi Philosophus tex. 2. &amp; 3. 
+      <lb ed="#R" n="54"/>negat circulum in eodem genere causae: sed 
+      sorma<lb ed="#R" n="55" break="no"/>bile illud est formabile respectu istius, &amp; e 
+      conuer<lb ed="#R" n="56" break="no"/>so istud respectu illius. 
+    </p>
+               <p>
+                  <lb ed="#R" n="57"/>Item: Ratio per quam probas, quod quantitas sit 
+      <lb ed="#R" n="58"/>subiectiue in quantitate, videtur peccare secundum 
+      <lb ed="#R" n="59"/>consequens: licet enim accidens denominet 
+      subie<lb ed="#R" n="60" break="no"/>ctum, non tamen omne denominatum est 
+      subie<lb ed="#R" n="61" break="no"/>ctum, nam formia quandoque denominatur per ma 
+      <lb ed="#R" n="62"/>teriam, sicut cum dicitur circulus aeneus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="63"/>Respondeo ad ista. Difficultas ex hoc oritur, 
+      <lb ed="#R" n="64"/>quod imaginantur homines quantitatem 
+      habere<lb ed="#R" n="65" break="no"/>partes, &amp; secundum hoc in rarefactione 
+      transire<lb ed="#R" n="66" break="no"/>de minori partibilitate ad maiorem, ex quo 
+      sequi<lb ed="#R" n="67" break="no"/>tur, quod insint multae partibilitates, &amp; 
+      inconue<lb ed="#R" n="68" break="no"/>nientia multa, quae superius posita sunt. Propter 
+      <!--0119.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>quod quantitas magis est illud quo aliquid 
+      for<lb ed="#R" n="70" break="no"/>maliter habet partes, quam quod ipsa habeat 
+      par<lb ed="#R" n="71" break="no"/>tes: partes enim resoluuntur in duo, in illud quod 
+      <lb ed="#R" n="72"/>sunt, &amp; illud est de alio genere; &amp; in illud quo 
+      par<lb ed="#R" n="73" break="no"/>tes sunt, &amp; illud est de genere quantitatis; cum 
+      <lb ed="#R" n="74"/>ergo qualitates partes habeant, sequitur, quod sint 
+      <lb ed="#R" n="75"/>subiectum quantitatis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="76"/>Tunc ad illud Philosophi dico, quod accipit 
+      <lb ed="#R" n="77"/>ibi superficiem pro toto concreto, quod capit subie 
+      <lb ed="#R" n="78"/>ctum, &amp; ipsam partibilitatem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="79"/>Ad illud de circulo, concedo, quod impossibile 
+      <lb ed="#R" n="80"/>est circulum in eodem genere esse, &amp; iu eadem 
+      spe<lb ed="#R" n="81" break="no"/>cie, vt quod quantitas daret esse partibile, &amp; quod 
+      <lb ed="#R" n="82"/>iterum reciperet esse partibile ab eodem, sic non 
+      <lb ed="#R" n="83"/>est in proposito, sed sicut formae sunt alterius ge. 
+      <lb ed="#R" n="84"/>neris, sic effectus formales earum sunt alterius 
+      ge<lb ed="#R" n="85" break="no"/>neris, &amp; sic quantitas dat qualitati effecum vnum 
+      <lb ed="#R" n="86"/>formalem, scilicet esse partibile, &amp; recipit per 
+      qua<lb ed="#R" n="87" break="no"/>litatem alium, scilicet ele quale. 
+    </p>
+               <p>
+                  <lb ed="#R" n="88"/>Ad illud de fallacia consequentis, Respondeo, 
+      <lb ed="#R" n="89"/>multum est dissimile de effectu formali, &amp; de 
+      deno<lb ed="#R" n="90" break="no"/>minatione materiae, &amp; ex alia parte de effectu 
+      for<lb ed="#R" n="91" break="no"/>mali, &amp; denominatione formae: materia enim non 
+      <lb ed="#R" n="92"/>ponit efffectum formalem, &amp; denominationem 
+      cir<lb ed="#R" n="93" break="no"/>ca formam, sed circa compositum, vnde circulus 
+      <lb ed="#R" n="94"/>dicitur aeneus, non rotunditas: forma vero ponit 
+      <lb ed="#R" n="95"/>effecum formalem, &amp; denominationem circa 
+      ma<lb ed="#R" n="96" break="no"/>teriam, &amp; circa compositum, sicut dicimus ceram 
+      <lb ed="#R" n="97"/>rotundam, &amp; circulum. In proposito cum dicitur, 
+      <lb ed="#R" n="98"/>albedo est partibilis per quantitatem, haec 
+      partibi<lb ed="#R" n="99" break="no"/>litas non ponitur circa compositũ; nec volo, quod 
+      <lb ed="#R" n="100"/>albedo, nec alia qualitas sit subiectum quantitatis, 
+      <lb ed="#R" n="101"/>quasi sustentans quantitatem, sed es sicut 
+      modifi<lb ed="#R" n="102" break="no"/>cabile, trahibile ad modum, &amp; trahibile ad actum: 
+      <lb ed="#R" n="103"/>albedo enim per quantitatem trahitur ad habere-- 
+      <lb ed="#R" n="104"/>partem 
+    </p>
+               <p>
+                  <lb ed="#R" n="105"/>Secunda Propositio est, quod duae opiniones, 
+      <lb ed="#R" n="106"/>quae ponuntur circa hoc, stare non possunt. Prima 
+      <lb ed="#R" n="107"/>quae dicit, quod quando species illae rarefiunt, 
+      in<lb ed="#R" n="108" break="no"/>ducitur noua quantitas existens in fluxu, &amp; licet ibi 
+      <lb ed="#R" n="109"/>non subiectum nihil prohibet, quia motus bene 
+      po<lb ed="#R" n="110" break="no"/>test esse sine mobili: nec propter hoc noua illa 
+      quan<lb ed="#R" n="111" break="no"/>titas creatur, quia fit ex praecedenti sicut ex 
+      ter<lb ed="#R" n="112" break="no"/>mino. 
+    </p>
+               <p>
+                  <lb ed="#R" n="113"/>Sed ista opinio, puto, quod non sit rationabilis, 
+      <lb ed="#R" n="114"/>ratio es, quia per impossibile habeo, quod 
+      virtu<lb ed="#R" n="115" break="no"/>te naturali accidens siue in facto esse, siue in fieri 
+      <lb ed="#R" n="116"/>possit esse sine subiecto. Praeterea: tunc tale agens 
+      <lb ed="#R" n="117"/>non esset extrahens, sed faciens, &amp; producens, &amp; sic 
+      <lb ed="#R" n="118"/>crearet necessario, nec terminus, a quo tollit 
+      ditio<lb ed="#R" n="119" break="no"/>nem eo, quod nihil est sui. 
+    </p>
+               <p>
+                  <lb ed="#R" n="120"/>Similiter nec opinio secunda est vera, quod ibi 
+      <lb ed="#R" n="121"/>concurrit agens supernatura le supplens vicem ma 
+      <lb ed="#R" n="122"/>teriae, non quidem in recipiendo, sed in 
+      communi<lb ed="#R" n="123" break="no"/>nicando, nam subiectum, &amp; efficiens sunt vna 
+      cau<lb ed="#R" n="124" break="no"/>sa integra, &amp; sufficiens respectu effectus. Ideo 
+      di<lb ed="#R" n="125" break="no"/>cunt, quod rarefactio ibi est virtute naturali, &amp; 
+      si<lb ed="#R" n="126" break="no"/>militer virtute diuina in ratione causalitatis 
+      agen<lb ed="#R" n="127" break="no"/>tis, &amp; materiae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="128"/>Ista inquam opinio non placet mihi, tum 
+      quia<lb ed="#R" n="129" break="no"/>causalitas materiae est extrahi ad actum, hoc Deus 
+      <lb ed="#R" n="130"/>non potest supplere; tum quia agens naturale 
+      crea<lb ed="#R" n="131" break="no"/>ret, quia ex nihilo faceret; tum quia causa litas 
+      <lb ed="#R" n="132"/>materiae est eliciendo, &amp; sic materia esset agens, aut 
+      <lb ed="#R" n="133"/>per modum possibilis, quia trahitur ad actum, &amp; 
+      <lb ed="#R" n="134"/>hoc Deus non supplet. 
+    </p>
+               <p>
+                  <lb ed="#R" n="135"/>Ad argumentum in oppositum patet ex dictis: 
+      <lb ed="#R" n="136"/>nullum enim accidens est in Sacramento, quod 
+      <!--0120.xml-->
+      <pb ed="#R" n="120"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>non sit in aliquo subiecto saltem secundum quid: 
+      <lb ed="#R" n="2"/>nullum enim ibi est accidens, quod alteri non com 
+      <lb ed="#R" n="3"/>municet suum effecum formalem, tum bene volo, 
+      <lb ed="#R" n="4"/>quod omne accidens sit ibi sine subieco 
+      principa<lb ed="#R" n="5" break="no"/>li, &amp; simpliciter, vt dictum est. 
+    </p>
+            </div>
+            <div>
+               <head>Articulus 3</head>
+               <head type="question-title">
+      Utrum ex accidentibus in Sacramento possit 
+      aliqua substantia generari.
+    </head>
+               <p>
+                  <lb ed="#R" n="6"/>ARTICVLVS III 
+      <lb ed="#R" n="7"/>Vtrum ex accidentibus in Sacramento possit 
+      ali<lb ed="#R" n="8" break="no"/>qua substantia generari. 
+    </p>
+               <p>
+                  <lb ed="#R" n="9"/>QVo ad tertiam quaestionem arguo primo, quod 
+      <lb ed="#R" n="10"/>ex accidentibus in Sacramento possit aliqua 
+      <lb ed="#R" n="11"/>-substantia generari, quia sensu experimur 
+      <lb ed="#R" n="12"/>ex speciebus illis quandoque vermes, 
+      quando<lb ed="#R" n="13" break="no"/>que substantias alias generari. 
+    </p>
+               <p>
+                  <lb ed="#R" n="14"/>In oppositum est, quia aut generabitur ex 
+      sub<lb ed="#R" n="15" break="no"/>stantia, aut ex accidentibus: non primo modo, quia 
+      <lb ed="#R" n="16"/>ibi non est substantia: nec ex accidentibus, nec ex 
+      <lb ed="#R" n="17"/>nihilo, quia esset creatio. Respondeo pono 
+      pro<lb ed="#R" n="18" break="no"/>positionem istam, quod in Sacramento forma 
+      sub<lb ed="#R" n="19" break="no"/>stantialis potest ex accidentibus generari, sicut si 
+      <lb ed="#R" n="20"/>accidentia essent in subiecto, nisi quia in instanti 
+      <lb ed="#R" n="21"/>quo agens naturale inducit formam, agens 
+      super<lb ed="#R" n="22" break="no"/>naturale inducit materiam, &amp; breuiter totum 
+      <lb ed="#R" n="23"/>quod faceret accidens, si esset in subiecto, facit nunc 
+      <lb ed="#R" n="24"/>excepto eo, quod dictum est. Hanc 
+      propositio<lb ed="#R" n="25" break="no"/>nem probo. Primo quod sit possibilis. Secundo 
+      <lb ed="#R" n="26"/>de facto. 
+    </p>
+               <p>
+                  <lb ed="#R" n="27"/>Primo sic: Si agens naturale in vltimo instanti, 
+      <lb ed="#R" n="28"/>quo inducit vltimas dispositiones, non posset 
+      indu<lb ed="#R" n="29" break="no"/>cere formam substantialem, hoc est, vel quia 
+      re<lb ed="#R" n="30" break="no"/>quirit materiam prius existere, quam agat; vel quia 
+      <lb ed="#R" n="31"/>materia non posset pro instanti, in quo redit 
+      for<lb ed="#R" n="32" break="no"/>mam illam recipere: non primo modo, quia agens 
+      <lb ed="#R" n="33"/>non requirit materiam ante vltimum instans, nisi 
+      <lb ed="#R" n="34"/>vt sit subiectum generationis, &amp; alterationis; non 
+      <lb ed="#R" n="35"/>autem est subiectum generationis, nisi in vltimo 
+      <lb ed="#R" n="36"/>instanti; subiectum vero alterationis, etsi sit ante 
+      vl<lb ed="#R" n="37" break="no"/>timum instans; tamen hoc non est vi alterationis, 
+      <lb ed="#R" n="38"/>quae est inductio dispositionum propriarum, sed 
+      <lb ed="#R" n="39"/>propriae dispositiones possunt ibi fieri sine materia, 
+      <lb ed="#R" n="40"/>vt probatum est supra: non enim respectu illarum 
+      <lb ed="#R" n="41"/>requiritur subiectum simpliciter, &amp; principale, sed 
+      <lb ed="#R" n="42"/>sufficit aliquo modo subiectum secundum quid, 
+      <lb ed="#R" n="43"/>quo aliquo modo recipit effectum formalem talium 
+      <lb ed="#R" n="44"/>dispositionum; similiter nec est defectus ex 
+      parte<lb ed="#R" n="45" break="no"/>agentis ex eadem ratione. 
+    </p>
+               <p>
+                  <lb ed="#R" n="46"/>Nec secundo, quia materia non possit in 
+      instan<lb ed="#R" n="47" break="no"/>ri, quo redit, formam suscipere, quia pro 
+      quocun<lb ed="#R" n="48" break="no"/>que instanti, quo res aliqua est, potest recipere, quod 
+      <lb ed="#R" n="49"/>est ei proportionatum, si sit susceptiuum, &amp; 
+      agere<lb ed="#R" n="50" break="no"/>si sit agens. Et ratio est, quia materia non recipit, 
+      <lb ed="#R" n="51"/>nisi pro aliquo instanti, ideo accidit ei, vt sit 
+      instan<lb ed="#R" n="52" break="no"/>tia praecedentia: cum ergo agens naturale possit 
+      <lb ed="#R" n="53"/>totam alterationem facere, vsque ad vltimum 
+      alte<lb ed="#R" n="54" break="no"/>rationis, in quo sequitur generatio formae, vt seque 
+      <lb ed="#R" n="55"/>la: sed in illo insanti vltimo sit materia, non 
+      ap<lb ed="#R" n="56" break="no"/>paret, quare natura le agens non possit formam 
+      in<lb ed="#R" n="57" break="no"/>ducere: nunc autem supponitur, quod in instanti 
+      <lb ed="#R" n="58"/>illo materia ibi sit actione Dei: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="59"/>Secundo probo, quod ita est de facto, quia 
+      po<lb ed="#R" n="60" break="no"/>nenda non sunt plura miracula ad aliquem effectum, 
+      <lb ed="#R" n="61"/>qui potest saluari per pauciora: sed ponendo, quod 
+      <lb ed="#R" n="62"/>agens natura le possit species illas transmutare, &amp; 
+      <lb ed="#R" n="63"/>in vltimo instanti formam substantialem inducere, 
+      <lb ed="#R" n="64"/>materia redeunte, est ponere pauciora miracula, &amp; 
+      <lb ed="#R" n="65"/>cum hoc possibile, vt probatum est: ergo.
+    </p>
+               <p>
+      <!--0120.xml-->
+                  <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="66"/>Probatio minoris, nam modus qui poneret, quod 
+      <lb ed="#R" n="67"/>ante rediret substantia panis, poneret duo corpora 
+      <lb ed="#R" n="68"/>simul, &amp; hoc est in se falsum, quia in corpore 
+      Domi<lb ed="#R" n="69" break="no"/>ni nulla est alia substantia, quandiu ipse manet 
+      se<lb ed="#R" n="70" break="no"/>cundum dicta Sanctorum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="71"/>Ex praeterea si rediret, nihil faceret, eo quod 
+      al<lb ed="#R" n="72" break="no"/>teratio habet sufficiens subiectum, vsque ad 
+      vlti<lb ed="#R" n="73" break="no"/>mum instans, in quo debet induci forma: ergo pro 
+      <lb ed="#R" n="74"/>illo tantum instanti sufficit ponere materiam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="75"/>Sed sunt hic quaedam dubia. Primum est, quod 
+      <lb ed="#R" n="76"/>alterans, siue naturale agens non attingit materiam, 
+      <lb ed="#R" n="77"/>nisi quantam: Deus autem agendo, quod redeat 
+      <lb ed="#R" n="78"/>materia, non dat ei nouam quantitatem aliquam, 
+      <lb ed="#R" n="79"/>nec videtur, quod sit quanta quantitate priori: 
+      <lb ed="#R" n="80"/>ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="81"/>Et confirmo: quomodo enim efficietur 
+      quanta<lb ed="#R" n="82" break="no"/>quantitate illa, quae fuit prioris transmutationis, 
+      <lb ed="#R" n="83"/>aut impressiue, vel quomodo aliter, non apparet mo 
+      <lb ed="#R" n="84"/>dus. Secundo quia generatio est extracttio 
+      actua<lb ed="#R" n="85" break="no"/>bilis ad actum, quod autem extrahitur oportet 
+      <lb ed="#R" n="86"/>praeexistere acttui. 
+    </p>
+               <p>
+                  <lb ed="#R" n="87"/>Respondeo ad primum, quod agens materiam 
+      <lb ed="#R" n="88"/>inuenit quantam: fit enim in instanti, quo redit 
+      <lb ed="#R" n="89"/>sub dimensionibus, &amp; modus est iste, quod sicut 
+      <lb ed="#R" n="90"/>quantitatem nouam potest Deus indiuidere cum 
+      <lb ed="#R" n="91"/>materia praee xistente, quae indiuisio est vnitas 
+      ma<lb ed="#R" n="92" break="no"/>teriae, &amp; quantitatis, quia non aliter vniuntur, quam 
+      <lb ed="#R" n="93"/>per intimam indictionem, vt probatum est supra; 
+      <lb ed="#R" n="94"/>sic potest materiam nouiter inductam vnire praeexi 
+      <lb ed="#R" n="95"/>stenti quantitati. 
+    </p>
+               <p>
+                  <lb ed="#R" n="96"/>Ad illud de extractione, respondeo non 
+      opor<lb ed="#R" n="97" break="no"/>tet, quod illud, quod extrahitur, praeexistat, nisi 
+      <lb ed="#R" n="98"/>quando extractio est succesiua, qualis non est in 
+      <lb ed="#R" n="99"/>proposito. 
+    </p>
+               <p>
+                  <lb ed="#R" n="100"/>Ad argumentum in oppositum, aliqui dicunt, 
+      <lb ed="#R" n="101"/>quod generabitur in substantia ex quantitate 
+      in<lb ed="#R" n="102" break="no"/>terminata: mihi non videtur rationabile dictum, 
+      <lb ed="#R" n="103"/>quia ipsa non est subiectum formae substantialis. 
+      <lb ed="#R" n="104"/>Dico tunc, quod ex materia non praeexistente, sed 
+      <lb ed="#R" n="105"/>in instanti finis generationis producta. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

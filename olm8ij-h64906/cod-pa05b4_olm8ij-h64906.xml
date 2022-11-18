@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="189"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h64906"> <!-- l4-d41q1 -->
+            <head>Quaestio 1</head>
+            <p>
+               <lb ed="#R" n="54"/>Quaestio Vnica.
+    </p>
+            <p>
+               <lb ed="#R" n="55"/>Nunc de affinitate. In ista Distinctione 
+      Qua<lb ed="#R" n="56" break="no"/>dragesimaprima agit Magister de alio 
+      im<lb ed="#R" n="57" break="no"/>pedimento, puta de affinitate, de qua 
+      quae<lb ed="#R" n="58" break="no"/>ro istam Quaestionem: Vtrum impediat 
+      <lb ed="#R" n="59"/>matrimonium. 
+    </p>
+            <div>
+               <head>Articulus 1</head>
+               <head type="question-title">
+          Utrum Affinitas impediat matrimonium.
+        </head>
+               <p>
+      <!--0189.xml-->
+                  <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="60"/>ARTICVLVS VNJCVS. 
+      <lb ed="#R" n="61"/>Vtrum Affinitas impediat matrimonium. 
+    </p>
+               <p>
+                  <lb ed="#R" n="62"/>RESPONDEO: Affinitas 
+      <lb ed="#R" n="63"/>dicitur vinculum, quod 
+      con<lb ed="#R" n="64" break="no"/>trahitur ex 
+      consanguineita<lb ed="#R" n="65" break="no"/>te, quando scilicet aliquis 
+      <lb ed="#R" n="66"/>communicat in copula 
+      car<lb ed="#R" n="67" break="no"/>nali licita, vel illicita cum 
+      <lb ed="#R" n="68"/>aliquo, efficitur statim 
+      affi<lb ed="#R" n="69" break="no"/>nis consanguinei illius, cum 
+      <lb ed="#R" n="70"/>quo communicat, &amp; e 
+      con<lb ed="#R" n="71" break="no"/>uerso; hoc idem fit in desponsatione: haec ergo 
+      af<lb ed="#R" n="72" break="no"/>finitas impedit in eodem gradu, &amp; eodem modo, 
+      <lb ed="#R" n="73"/>quo consanguineitas propter easdem rationes. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

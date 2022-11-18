@@ -1,0 +1,1354 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="224"/>
+            <cb ed="#R" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h76872"> <!-- l4-d48q1 -->
+            <head>Quaestio 1</head>
+            <head type="question-title">De beatitudine respectu corporis</head>
+            <p>
+               <lb ed="#R" n="116"/>Quaestio Vnica. 
+      <lb ed="#R" n="117"/>DE BEATJTVDJNE 
+      <lb ed="#R" n="118"/>respectu corporis.
+    </p>
+            <div>
+               <head>Articulus 1</head>
+               <head type="question-title">
+        Utrum duo corpora possint esse simul in 
+        eodem loco.
+      </head>
+               <p>
+                  <lb ed="#R" n="119"/>ARTICVLVS VNJCVS. 
+      <lb ed="#R" n="120"/>Vtrum duo corpora possint esse simul in 
+      eo<lb ed="#R" n="121" break="no"/>dem loco.
+    </p>
+               <p>
+      <!--0225.xml-->
+                  <pb ed="#R" n="225"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>QVANTVM ad primam 
+      <lb ed="#R" n="2"/>questionem arguo primo, 
+      <lb ed="#R" n="3"/>quod impossibile es duo 
+      <lb ed="#R" n="4"/>corpora simul esse in 
+      eo<lb ed="#R" n="5" break="no"/>dem loco, sic: Quia qua 
+      <lb ed="#R" n="6"/>ratione possent duo esse 
+      <lb ed="#R" n="7"/>in eodem, pari 
+      ratione<lb ed="#R" n="8" break="no"/>possent esse infinita, ex 4 
+      <lb ed="#R" n="9"/>physic. tex. 55. sed infinita 
+      <lb ed="#R" n="10"/>corpora esse in eodem loco est impossibile, quoniam 
+      <lb ed="#R" n="11"/>infinitum in actu possibile non est: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="12"/>Oppositum tenet fides, tenet enim, quod 
+      dimen<lb ed="#R" n="13" break="no"/>siones corporis nosri simul erunt cum 
+      dimensio<lb ed="#R" n="14" break="no"/>nibus caeli empyrei post resurrectionem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="15"/>Respondeo pono primo propositionem 
+      istam<lb ed="#R" n="16" break="no"/>quod repugnantia, qua repugnant duo 
+      corpora<lb ed="#R" n="17" break="no"/>in eodem, non debet reduci ad genus causae 
+      efi<lb ed="#R" n="18" break="no"/>cientis, sed magis ad genus causae formalis, vel 
+      <lb ed="#R" n="19"/>subiectiuae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="20"/>Hoc dico propter quandam opinionem, quae 
+      di<lb ed="#R" n="21" break="no"/>cit, quod aliud est habere vbi, &amp; aliud est 
+      occupa<lb ed="#R" n="22" break="no"/>re vbi, non repugnat ergo duo corpora esse simul, 
+      <lb ed="#R" n="23"/>quia oportet necessario corpus habere vbi: sed 
+      <lb ed="#R" n="24"/>propter hoc, quod corpus necessario occupat vbi: 
+      <lb ed="#R" n="25"/>ita quod repugnat, quod duae dimensiones 
+      occu<lb ed="#R" n="26" break="no"/>pent, &amp; repleant eundem locum. Alij autem 
+      di<lb ed="#R" n="27" break="no"/>cunt, quod repugnantia, qua duo corpora non 
+      pos<lb ed="#R" n="28" break="no"/>sunt simul esse, non est repugnantia formalis, sed 
+      <lb ed="#R" n="29"/>effectiua, quia de ratione dimensionis est, quod 
+      <lb ed="#R" n="30"/>expellat alteram actiue, &amp; resistat alteri 
+      contra<lb ed="#R" n="31" break="no"/>agendo, &amp; quia Deus potest suspendere omnem 
+      <lb ed="#R" n="32"/>actionem agentis creati, ideo potestt facere, quod 
+      <lb ed="#R" n="33"/>duo corpora sint simul in eodem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="34"/>In oppositum ergo huius positionis. Ego 
+      po<lb ed="#R" n="35" break="no"/>no praedictam propositionem, quam probo 
+      ratio<lb ed="#R" n="36" break="no"/>nibus aliquibus, &amp; primo rationibus duabus 
+      fun<lb ed="#R" n="37" break="no"/>datis in duabus expressis auctoritatibus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="38"/>Prima est ista. Illud quod repugnat 
+      dimensio<lb ed="#R" n="39" break="no"/>nibus ex terminis mathematicis, &amp; natura 
+      quan<lb ed="#R" n="40" break="no"/>titatis, repugnantia illius non debet reduci ad 
+      ge<lb ed="#R" n="41" break="no"/>nus causae efficientis, sed ad genus causae formalis: 
+      <lb ed="#R" n="42"/>sed duas dimensiones esse simul in eodem situ 
+      re<lb ed="#R" n="43" break="no"/>pugnat ex terminis mathematicis, &amp; natura 
+      quan<lb ed="#R" n="44" break="no"/>titatis: ergo. Maior patet, quia termini 
+      mathe<lb ed="#R" n="45" break="no"/>matici abstrahunt ab omni efficientia, ideo non 
+      <lb ed="#R" n="46"/>est in mathematicis bonum nec finis: ergo 
+      nulla<lb ed="#R" n="47" break="no"/>repugnantia mathematica est in genere causae 
+      effi<lb ed="#R" n="48" break="no"/>ciantis. Consimiliter quantitas non est de genere 
+      <lb ed="#R" n="49"/>formarum actiuarum per Commentatorem 4. phys. 
+      <lb ed="#R" n="50"/>com. 133. penultimo: ergo quod repugnat per 
+      ra<lb ed="#R" n="51" break="no"/>tionem quantitatis, non repugnat effectiue in 
+      ge<lb ed="#R" n="52" break="no"/>nere causae efficientis. Maiorem probo expresse 
+      <lb ed="#R" n="53"/>per Philosophum 4. physic. tex. 55. vbi dicit, quod 
+      <lb ed="#R" n="54"/>dato, quod cubum nullam haberet omnino 
+      quan<lb ed="#R" n="55" break="no"/>titatem, adhuc non posset simul esse cum alio 
+      cor<lb ed="#R" n="56" break="no"/>pore, vnde dicit, quod duo corpora esse simul 
+      re<lb ed="#R" n="57" break="no"/>pugnat ex eorum essentijs, &amp; est de genere 
+      propo<lb ed="#R" n="58" break="no"/>sitionum inopinabilium. Et Commentator 
+      expo<lb ed="#R" n="59" break="no"/>nens illud 4. phy sic. com. 66. dicit, quod 
+      repugnan<lb ed="#R" n="60" break="no"/>tia illa est ex terminis mathematicis, non ex 
+      ratio<lb ed="#R" n="61" break="no"/>ne qualitatum, &amp; calidi, &amp; frigidi. Hoc etiam 
+      appa<lb ed="#R" n="62" break="no"/>ret, quia propositiones, &amp; principia mathematica 
+      <lb ed="#R" n="63"/>fundantur super naturam terminorum 
+      mathema<lb ed="#R" n="64" break="no"/>ticorum, &amp; quantitatis, vt quod inter duo puncta 
+      <lb ed="#R" n="65"/>impossibile est intercidere nisi vnam lineam: ergo 
+      <lb ed="#R" n="66"/>inter illa impossibile est esse nisi vnam dimensionem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="67"/>Secunda ratio est ista ad idem. Illa 
+      repugnan<lb ed="#R" n="68" break="no"/>tia, qua mens nostra non potest fingere, non redu- 
+      <!--0225.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>citur ad genus causae efficientis, sed reducitur 
+      ne<lb ed="#R" n="70" break="no"/>cessario ad naturam terminorum, &amp; per consequens 
+      <lb ed="#R" n="71"/>est formalis. Ratio huius est, quia intellectus noster 
+      <lb ed="#R" n="72"/>potest abstrahere quodcumque agens, &amp; 
+      intellige<lb ed="#R" n="73" break="no"/>re eum sine actione sua, ignis enim non causat 
+      ca<lb ed="#R" n="74" break="no"/>lorem suum in intellectu, vt per hoc oporteat 
+      in<lb ed="#R" n="75" break="no"/>tellectum intelligere ignem necessario calefacere, 
+      <lb ed="#R" n="76"/>sed, secundum Boetium 1. de Trinit. non longe a 
+      <lb ed="#R" n="77"/>medio libri, nullus potest intelligere, quod duae 
+      <lb ed="#R" n="78"/>dimensiones sint simul, quin vna aliam penetret: 
+      <lb ed="#R" n="79"/>ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="80"/>Tertia ratio ad idem est ista. Repugnantia, quod 
+      <lb ed="#R" n="81"/>duae dimensiones sint simul, est ex hoc, quod dimen 
+      <lb ed="#R" n="82"/>sio facit latera loci distare, hoc non est effectiue, 
+      <lb ed="#R" n="83"/>sed formaliter: ergo. Maiorem probo, quia enim 
+      <lb ed="#R" n="84"/>dimensio facit latera distare, ideo ex natura rei, 
+      <lb ed="#R" n="85"/>quando imaginor illam distantiam inter duo 
+      late<lb ed="#R" n="86" break="no"/>ra. necessario imaginor dimensionem puta 
+      longi<lb ed="#R" n="87" break="no"/>tudinem, eo quod necessario imaginor spatium 
+      <lb ed="#R" n="88"/>spatium autem non est, nisi dimensio ipsa in longum 
+      <lb ed="#R" n="89"/>vel latum, vel huiusmodi: si ergo imaginer duas 
+      <lb ed="#R" n="90"/>tales longitudines, necessario imaginor duo 
+      spa<lb ed="#R" n="91" break="no"/>tia: inter duo autem latera non duo spatia: ergo 
+      <lb ed="#R" n="92"/>nec duae dimensiones: ergo ex ratione distantiae 
+      <lb ed="#R" n="93"/>duarum dimensionum est, quod duae dimensiones 
+      <lb ed="#R" n="94"/>non sint simul. 
+    </p>
+               <p>
+                  <lb ed="#R" n="95"/>Secundo ad idem, quia impossibile est, quod ima 
+      <lb ed="#R" n="96"/>gineris inter duo puncta nisi vnam lineam, alias a 
+      <lb ed="#R" n="97"/>dato puncto ad datum punctum possent duci duae 
+      <lb ed="#R" n="98"/>lineae: sed tanta repugnantia est inter datas 
+      super<lb ed="#R" n="99" break="no"/>ficies ducere duo spatia, siue duo lata, &amp; profunda, 
+      <lb ed="#R" n="100"/>quanta inter duo puncta ducere duas lineas: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="101"/>Confirmo hoc tertio, quia licet inter duo 
+      pun<lb ed="#R" n="102" break="no"/>cta, siue inter duas superficies distantia media non 
+      <lb ed="#R" n="103"/>fundet respectum distantiae ipsarum inter se, eo quod 
+      <lb ed="#R" n="104"/>respectus ille distantiae immediate fundatur in 
+      ip<lb ed="#R" n="105" break="no"/>sis distinctis, est tamen ratio quare ipsa 
+      distantia<lb ed="#R" n="106" break="no"/>fundat respectum ipsum distantiae. Quod ex hoc pa 
+      <lb ed="#R" n="107"/>tet, quia variata distantia variatur respectus 
+      di<lb ed="#R" n="108" break="no"/>stantiae, si enim sit magnum spatium intermedium, 
+      <lb ed="#R" n="109"/>erit distantia magna, &amp; extrema magis distabunt; 
+      <lb ed="#R" n="110"/>si vero sit minus spatium, erit minor distantia 
+      ex<lb ed="#R" n="111" break="no"/>tremorum: ergo ratio fundandi respectum 
+      distan<lb ed="#R" n="112" break="no"/>tiae inter duas superficies est distantia ipsa, siue 
+      spa<lb ed="#R" n="113" break="no"/>tium medium interceptum. Ex hoc habetur, quod 
+      <lb ed="#R" n="114"/>inter duas superficies non possint esse duo spatia, 
+      <lb ed="#R" n="115"/>quia multiplicata ratione fundandi multiplicatur 
+      <lb ed="#R" n="116"/>respectus, qui est inter extrema: ergo si inter duas 
+      <lb ed="#R" n="117"/>superficies sint duo spatia, erunt duae rationes 
+      fun<lb ed="#R" n="118" break="no"/>dandi respectum distantiae inter ipsas: ergo 
+      super<lb ed="#R" n="119" break="no"/>ficies vna, a data superficie vna, bis distabit &amp; 
+      du<lb ed="#R" n="120" break="no"/>plici distantia: Consequens est impossibile, sicut 
+      <lb ed="#R" n="121"/>impossibile est, quod idem sit bis pater respecu 
+      <lb ed="#R" n="122"/>eiusdem. Sic ergo patet, quod maior est vera, quod 
+      <lb ed="#R" n="123"/>repugnat duas dimensiones esse simul propter 
+      di<lb ed="#R" n="124" break="no"/>stantiam mediam, quia dimensio facit latera 
+      dista<lb ed="#R" n="125" break="no"/>re, quia si sint duae dimensiones, necessario oportet 
+      <lb ed="#R" n="126"/>imaginari duo media: ergo duas distantias, quia 
+      <lb ed="#R" n="127"/>multiplicatis medijs multiplicatur distantia, sicut 
+      <lb ed="#R" n="128"/>facto maiori, &amp; minori medio sit maior &amp; minor 
+      <lb ed="#R" n="129"/>distantia. Minorem autem probo, quoniam etsi 
+      <lb ed="#R" n="130"/>corpori conueniat effectiue aliquid ratione 
+      quali<lb ed="#R" n="131" break="no"/>tatis, puta soliditatis, vel duritiei, tum 
+      ratione<lb ed="#R" n="132" break="no"/>qua est distantia media duarum superficierum, ex 
+      <lb ed="#R" n="133"/>hoc ipso facit distare formaliter praecise, quia est 
+      <lb ed="#R" n="134"/>ipsamet distantia, dimensio enim media inter duas 
+      <lb ed="#R" n="135"/>superficies non videtur aliud, quam distantia 
+      me<lb ed="#R" n="136" break="no"/>dia carum.
+    </p>
+               <p>
+      <!--0226.xml-->
+                  <pb ed="#R" n="226"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Quarta ratio ad conclusionem principalem est 
+      <lb ed="#R" n="2"/>ista, quod duo subiecta non subsint eidem passioni, 
+      <lb ed="#R" n="3"/>non est ex repugnantia effectiua, sed magis 
+      subie<lb ed="#R" n="4" break="no"/>ctiua; sicut repugnantia qua eadem simitas non po 
+      <lb ed="#R" n="5"/>test esse in duobus nasis, non est efficientia 
+      naso<lb ed="#R" n="6" break="no"/>rum: sed ratio eorum formalis, qua est 
+      impossibi<lb ed="#R" n="7" break="no"/>le, quod duo subiecta sint vnius passionis: ergo. 
+      <lb ed="#R" n="8"/>Probo minorem, quoniam propria passio 
+      quanti<lb ed="#R" n="9" break="no"/>tatis est habere positionem, &amp; ideo ponitur a 
+      phi<lb ed="#R" n="10" break="no"/>losopho positio differentia quantitatis, quae non est 
+      <lb ed="#R" n="11"/>aliud, quam habere in continuo, vbi assignes partes 
+      <lb ed="#R" n="12"/>ipsas, &amp; sumas hic, &amp; ibi. hoc autem est habere. 
+      <lb ed="#R" n="13"/>determinatum situm. 
+    </p>
+               <p>
+                  <lb ed="#R" n="14"/>Tunc sic: Quando ponis simul duas 
+      dimensio<lb ed="#R" n="15" break="no"/>nes, ponis eas in eodem ibi: ibi autem idem est, 
+      <lb ed="#R" n="16"/>quod situs, situs vero est positio, positio est 
+      quan<lb ed="#R" n="17" break="no"/>titatis passio: ergo ibi erunt duo subiecta sub vna 
+      <lb ed="#R" n="18"/>passione, quia duae dimensiones sub vna positione, 
+      <lb ed="#R" n="19"/>quod repugnare videtur ex rationibus 
+      forma<lb ed="#R" n="20" break="no"/>libus subiectorum, quae appropriant sibi proprias 
+      <lb ed="#R" n="21"/>passiones; sicut ex ratione splaerarum repugnat, 
+      <lb ed="#R" n="22"/>quod sit eadem circularitas in duabus sphaeris. 
+      <lb ed="#R" n="23"/>haec autem est antiqua opinio Thomae in 4. d. 44. 
+      <lb ed="#R" n="24"/>q. 2. art. 2. quaestiunc. 2. quaestione ista; est etiam 
+      <lb ed="#R" n="25"/>opinio Scoti in quarto libro in principio de 
+      Sacra<lb ed="#R" n="26" break="no"/>mentis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="27"/>Secunda Propositio est, quod non obstante 
+      prae<lb ed="#R" n="28" break="no"/>dicta repugnantia Deus potest facere duo corpora 
+      <lb ed="#R" n="29"/>simul in eodem loco. tota ratio est, quia Deus 
+      po<lb ed="#R" n="30" break="no"/>tes contra repugnantiam omnem quantumcunq. 
+      <lb ed="#R" n="31"/>formalem, dummodo non sit repugnantia in primo 
+      <lb ed="#R" n="32"/>modo dicendi per se vbi implicatur 
+      contradi<lb ed="#R" n="33" break="no"/>ctio non tantum repugnantia: nunc autem 
+      repu<lb ed="#R" n="34" break="no"/>gnantia duorum corporum ad idem vbi non est 
+      re<lb ed="#R" n="35" break="no"/>pugnantia in primo modo, sed tantum in secundo; 
+      <lb ed="#R" n="36"/>licet enim multiplicato subiecto necesssario 
+      multi<lb ed="#R" n="37" break="no"/>plicetur passio ex necessitate connexionis subiecti, 
+      <lb ed="#R" n="38"/>&amp; passionis in secundo modo, tamen non est 
+      con<lb ed="#R" n="39" break="no"/>tradictio in primo modo, quod subiectum sit mul 
+      <lb ed="#R" n="40"/>ciplicatum &amp; non passio, eo quod praedicatum non 
+      <lb ed="#R" n="41"/>affirmatur &amp; negatur ibi de eodem, quia subiectum 
+      <lb ed="#R" n="42"/>non est sua passio in primo modo.
+  </p>
+               <p>
+                  <lb ed="#R" n="43"/>Tertia Propositio est, quod ex hoc opinio 
+      quae<lb ed="#R" n="44" break="no"/>dam infringitur, quae dicit, quod Deus non 
+      po<lb ed="#R" n="45" break="no"/>test facere simul duo corpora in eodem situ; 
+      pro<lb ed="#R" n="46" break="no"/>pterea quod non possunt hoc imaginari. 
+  </p>
+               <p>
+                  <lb ed="#R" n="47"/>Ad auctoritates scripturae quae videntur dicere, 
+      <lb ed="#R" n="48"/>quod de facto fecerit duo corpora simul Deus, in 
+      <lb ed="#R" n="49"/>Christi natiuitate exeuntis de vtero Virginis clau 
+      <lb ed="#R" n="50"/>sis claustris. Similiter quod dicitur, quod exiuit 
+      <lb ed="#R" n="51"/>clauso sepulchro, &amp; quod intrauerit ianuis 
+      clau<lb ed="#R" n="52" break="no"/>sis. Ad ilias auctoritates respondent adducendo 
+      <lb ed="#R" n="53"/>ad expositionem eorum quaedam magna absurda, 
+      <lb ed="#R" n="54"/>Vnum quod adducitur de natiuitate Christi, dicunt 
+      <lb ed="#R" n="55"/>quod hoc fuit per dotem subtilitatis, per quam tan 
+      <lb ed="#R" n="56"/>tum subtiliatus est, quod potuit exire per 
+      modi<lb ed="#R" n="57" break="no"/>cam aperturam vteri virginalis.
+  </p>
+               <p>
+                  <lb ed="#R" n="58"/>Sed haec responsio non valet, quia certum est, 
+      <lb ed="#R" n="59"/>quod Beata Virgo remansit virgo post partum 
+      <lb ed="#R" n="60"/>sicut expresse haberi potest ex circunstantia 
+      Scri<lb ed="#R" n="61" break="no"/>pturae, vnde Ezech. cap. 44. Porta illa clausa crit in 
+      <lb ed="#R" n="62"/>aeternum. Videtur etiam supponere falsum, quod 
+      <lb ed="#R" n="63"/>caput hominis posset subtiliari vsque ad 
+      quantita<lb ed="#R" n="64" break="no"/>tem vnius filis hoc enim videtur impossibile, quia 
+      <lb ed="#R" n="65"/>tale corpus, cum careret debita organizatione, non 
+      <lb ed="#R" n="66"/>esset aptum susceptiuum animae, quae est actus cor 
+      <lb ed="#R" n="67"/>poris organici potentia vitam habentis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="68"/>Alij eiusdem opinionis dicunt, quod Deus po- 
+      <!--0226.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>test facere corpus Christi extra vterum 
+      absque<lb ed="#R" n="70" break="no"/>hoc, quod transiret per eum, &amp; per consequens 
+      <lb ed="#R" n="71"/>absque hoc quod duo corpora essent in eodem 
+      lo<lb ed="#R" n="72" break="no"/>co. Potest enim Deus trans ferre corpus de loco 
+      <lb ed="#R" n="73"/>extremo absque hoc, quod transiret per medium. 
+      <lb ed="#R" n="74"/>Sed haec solutio euadit vnum difficile per aliud 
+      ae<lb ed="#R" n="75" break="no"/>que difficile: nonne apud Aristote lem fuisset aeque 
+      <lb ed="#R" n="76"/>difficile &amp; impossibile, quod aliquod corpus 
+      pos<lb ed="#R" n="77" break="no"/>set moueri de extremo ad extremum, non 
+      transeun<lb ed="#R" n="78" break="no"/>do per medium, sicut quod duo corpora possint 
+      es<lb ed="#R" n="79" break="no"/>se simul in eodem loco? continuitas enim motus 
+      <lb ed="#R" n="80"/>dependet necessario ex continuitate spatij. Similiter 
+      <lb ed="#R" n="81"/>non iuuat eos solutio ista in hoc, quod ponitur de 
+      <lb ed="#R" n="82"/>caelo Empyreo, &amp; corporibus beatorum, quae 
+      si<lb ed="#R" n="83" break="no"/>mul erunt cum caelo Empyreo, nisi fingatur, quod 
+      <lb ed="#R" n="84"/>sint extra caelum, &amp; extra locum; vel cuilibet 
+      fe<lb ed="#R" n="85" break="no"/>cerit Deus capsulam suam de caelo Empyreo, vel 
+      <lb ed="#R" n="86"/>quod non moueri possint: aut si sic, oportet quod 
+      <lb ed="#R" n="87"/>caelum frangatur, quod est absurdum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="88"/>Hic tamen sunt duo dubia contra hoc, quod 
+      di<lb ed="#R" n="89" break="no"/>xi saepe, quod Deus sua virtute infinita non tantum 
+      <lb ed="#R" n="90"/>facit illa, quae sunt in potentia naturali, siue non re 
+      <lb ed="#R" n="91"/>pugnantia naturali, sed etiam illa, quae sunt 
+      repu<lb ed="#R" n="92" break="no"/>gnantia ex terminis in secundo modo per se. 
+      Con<lb ed="#R" n="93" break="no"/>tra hanc propositionem dicunt aliqui quod est 
+      ni<lb ed="#R" n="94" break="no"/>mis vniuersaliter dicta, &amp; quod non est vniuersaliter 
+      <lb ed="#R" n="95"/>vera: quoniam si sic, posset Deus facere quod 
+      to<lb ed="#R" n="96" break="no"/>tum non erit maius sua parte, quia maioritas non 
+      <lb ed="#R" n="97"/>est ipsum totum in primo modo dicendi per se. 
+    </p>
+               <p>
+                  <lb ed="#R" n="98"/>Respondeo: totum est maius sua parte, potest du 
+      <lb ed="#R" n="99"/>pliciter accipi, vel actualiter, idest, per relationem 
+      <lb ed="#R" n="100"/>actua lem maioritatis, quam fundat totum ad par 
+      <lb ed="#R" n="101"/>tem; vel aptitudinaliter, vel fundamentaliter, quia 
+      <lb ed="#R" n="102"/>concipiens totum fundat necessario relatione m 
+      <lb ed="#R" n="103"/>maioritatis ad partem etiam simul conceptam. 
+      <lb ed="#R" n="104"/>Primo-modo intelligendo non tantum Deus facit, 
+      <lb ed="#R" n="105"/>quod totum non sit maius parte, sed hoc facit 
+      na<lb ed="#R" n="106" break="no"/>tura, nam totum non habet actu relationem ad 
+      <lb ed="#R" n="107"/>partem suam, alias sicut habet relationem ad vnam 
+      <lb ed="#R" n="108"/>partem haberet relationem ad aliam, &amp; sic necessa 
+      <lb ed="#R" n="109"/>rio haberet infinitas relationes in actu ad infinitas 
+      <lb ed="#R" n="110"/>partes. Vel enim per eandem relationem dicetur 
+      <lb ed="#R" n="111"/>maior omnibus partibus, &amp; hoc est impossibile 
+      <lb ed="#R" n="112"/>cum termini sint alij, &amp; alij: vel per aliam &amp; aliam 
+      <lb ed="#R" n="113"/>relationem, tunc erunt infinitae, sic ergo non potest 
+      <lb ed="#R" n="114"/>intelligi, quod totum sit maius parte per actualem 
+      <lb ed="#R" n="115"/>relationem maioritatis, quam fundat. lit praeterea 
+      <lb ed="#R" n="116"/>hoc posito non video quare non posset Deus 
+      rela<lb ed="#R" n="117" break="no"/>tionem tollere non stantibus extremis, si relatio sit 
+      <lb ed="#R" n="118"/>alia realitas ab eis. Si autem intelligatur, quod to 
+      <lb ed="#R" n="119"/>tum est maius sua parte fundamentaliter, tunc con 
+      <lb ed="#R" n="120"/>cedo quod Deus non posset facere, nec illa 
+      separa<lb ed="#R" n="121" break="no"/>re, quia per suam quidditatem est fundamentum 
+      <lb ed="#R" n="122"/>illarum relationum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="123"/>Secundo arguitur contra propositionem, quod 
+      <lb ed="#R" n="124"/>falsum videtur, quod Deus possit facere circa ea 
+      <lb ed="#R" n="125"/>quae repugnant ex terminis. Ratio est, quia Deus 
+      <lb ed="#R" n="126"/>illud non potest nisi destruendo naturam 
+      termi<lb ed="#R" n="127" break="no"/>norum. Contradictio est ergo, quod termini sint 
+      <lb ed="#R" n="128"/>secundum corum naturam, &amp; quod non sint 
+      ter<lb ed="#R" n="129" break="no"/>mini. 
+    </p>
+               <p>
+                  <lb ed="#R" n="130"/>Respondeo, repugnare ex rationibus est 
+      dupli<lb ed="#R" n="131" break="no"/>citer, vel entitatiue, quia repugnat rationibus ter 
+      <lb ed="#R" n="132"/>minorumi, &amp; facere contra illa quae repugnant hoc 
+      <lb ed="#R" n="133"/>modo, est facere quod haec ratio non sit haec ratio; 
+      <lb ed="#R" n="134"/>hoc modo aliquid dicitur tale ex terminis, quia 
+      <lb ed="#R" n="135"/>ratio haec est ratio illa. Secundo modo dicitur 
+      <lb ed="#R" n="136"/>aliquid repugnare ex terminis, non quod opposi- 
+      <!--0227.xml-->
+      <pb ed="#R" n="227"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>tum destruat rationem rei, quia illud esse tale ex 
+      <lb ed="#R" n="2"/>terminis, non est rationem istam esse rationem 
+      il<lb ed="#R" n="3" break="no"/>lam; sed intelligitur, quod haec ratio vnius non sit 
+      <lb ed="#R" n="4"/>ratio alterius, tamen hoc, ex natura sua 
+      determi<lb ed="#R" n="5" break="no"/>nat sibi illud, &amp; hoc est oppositum repugnare ex 
+      <lb ed="#R" n="6"/>terminis. 
+  </p>
+               <p>
+                  <lb ed="#R" n="7"/>Ad propositum, licet Deus non possit facere quae 
+      <lb ed="#R" n="8"/>repugnant primo modo, quia facere ibi esset non 
+      <lb ed="#R" n="9"/>facere ibi esset non facere, potest tamen 
+      facere<lb ed="#R" n="10" break="no"/>quae repugnant secundo modo, quia hoc 
+      facere<lb ed="#R" n="11" break="no"/>etiam si sit contra connexionem naturalem 
+      termi<lb ed="#R" n="12" break="no"/>norum, non tamen est facere rationes proprias 
+      <lb ed="#R" n="13"/>esse rationes eorum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="14"/>Ad argumentum in oppositum, dico quod ex 
+      <lb ed="#R" n="15"/>alio est quod Deus non posssit facere infinita 
+      cor<lb ed="#R" n="16" break="no"/>pora simul quam ex hoc quod non possit 
+      facere<lb ed="#R" n="17" break="no"/>plura corpora in eodem loco, illud enim est 
+      ratio<lb ed="#R" n="18" break="no"/>ne infiniti, quod est impossibile in actu fieri. 
+    </p>
+            </div>
+            <div>
+               <head>Articulus 2</head>
+               <head type="question-title">
+      Utrum idem corpus possit esse in diuersis 
+      locis.
+    </head>
+               <p>
+                  <lb ed="#R" n="19"/>ARTICVLVS II 
+      <lb ed="#R" n="20"/>Vtrum idem corpus possit esse in diuersis 
+      <lb ed="#R" n="21"/>locis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="22"/>QVo ad secundam quaestionem arguo primo, 
+      <lb ed="#R" n="23"/>quod impossibile est idem corpus esse in 
+      di<lb ed="#R" n="24" break="no"/>uersis locis virtute diuina, sic: 
+      Impossibile<lb ed="#R" n="25" break="no"/>est quacunque virtute, quod idem diset a seipso, 
+      <lb ed="#R" n="26"/>quia si sic, cum illa quae distant inter se, distinguan 
+      <lb ed="#R" n="27"/>tur, idem distingueretur a seipso, sed si Deus 
+      face<lb ed="#R" n="28" break="no"/>ret idem corpus esse in diuersis locis faceret, quod 
+      <lb ed="#R" n="29"/>idem disaret a se: ergo. In oppositum est Hugo 
+      <lb ed="#R" n="30"/>de Sacramentis parte decima cap. 4. Respondeo, 
+      <lb ed="#R" n="31"/>pono isam propositionem, quod idem corpus esse 
+      <lb ed="#R" n="32"/>in diuersis locis non est repugnantia primi modi, 
+      <lb ed="#R" n="33"/>&amp; ideo potest Deus illud facere. potestergo ratio 
+      <lb ed="#R" n="34"/>sic formari. Deus potest illud quod non implicat 
+      <lb ed="#R" n="35"/>repugnantiam, quod videlicet facere non est non 
+      <lb ed="#R" n="36"/>facere, &amp; hoc est quando non est affirmatio, &amp; 
+      ne<lb ed="#R" n="37" break="no"/>gatio eiusdem de eodem, sed facere quod idem 
+      <lb ed="#R" n="38"/>corpus sit in diuersis locis non est conditio &amp; 
+      repu<lb ed="#R" n="39" break="no"/>gnantia in primo modo, quia non est affirmatio, 
+      <lb ed="#R" n="40"/>&amp; negatio ibi de eodem: ergo. Probo. si Deus 
+      fa<lb ed="#R" n="41" break="no"/>ciat idem corpus in diuersis locis, facit vnam 
+      affir<lb ed="#R" n="42" break="no"/>matiuam, &amp; aliam negatiuam, non de eodem 
+      <lb ed="#R" n="43"/>subiecto, licet de eodem praedicato, affirmatiua 
+      <lb ed="#R" n="44"/>est ista, plurificari, negatio vero est, non 
+      plurifica<lb ed="#R" n="45" break="no"/>ri, plurificatio ibi dicitur de situ, quia situs 
+      pluri<lb ed="#R" n="46" break="no"/>ficatur, non plurificatio vero dicitur de corpore, 
+      <lb ed="#R" n="47"/>quia corpus ibi non plurificatur, sed corpus &amp; situs 
+      <lb ed="#R" n="48"/>non sunt idem: ergo affirmatio &amp; negatio puta 
+      <lb ed="#R" n="49"/>plurificari &amp; non plurificari, non dicitur ibi 
+      de<lb ed="#R" n="50" break="no"/>eodem 
+    </p>
+               <p>
+                  <lb ed="#R" n="51"/>Secunda Propositio est, quod idem corpus fieri 
+      <lb ed="#R" n="52"/>in diuersis locis est repugnantia secundi modi, 
+      de<lb ed="#R" n="53" break="no"/>terminatio enim ad situm est propria passio 
+      cor<lb ed="#R" n="54" break="no"/>poris: impossibile est autem ex connexione in 
+      se<lb ed="#R" n="55" break="no"/>cundo modo, quod passio multiplicetur subiecto 
+      <lb ed="#R" n="56"/>non multiplicato. Aliqui tamen Doctores tenent 
+      <lb ed="#R" n="57"/>oppositum, quod Deus non possit illud facere, &amp; 
+      <lb ed="#R" n="58"/>ideo pono tertiam propositionem, quod rationes 
+      <lb ed="#R" n="59"/>&amp; inconuenientia quae adducuntur ab eis non 
+      con<lb ed="#R" n="60" break="no"/>cludunt: hoc pacet discurrendo breuiter per singu 
+      <lb ed="#R" n="61"/>las difficultates. Prima est ista. Corpus 
+      determi<lb ed="#R" n="62" break="no"/>natur necessario ad situm per dimensiones 
+      pro<lb ed="#R" n="63" break="no"/>prias. Tunc sic: quando aliquid per se determina 
+      <lb ed="#R" n="64"/>tur ad aliquid, illo plurificato necessario plurifica 
+      <lb ed="#R" n="65"/>tur aliud: sed corpus per se determinatur ad situm: 
+      <!--0227.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="66"/>ergo: Respondeo, concedo maiorem sic, quod si 
+      <lb ed="#R" n="67"/>aliquid determinetur ad aliud, illo alio 
+      plurifica<lb ed="#R" n="68" break="no"/>to plurificatur illud. Concedo in secundo modo 
+      <lb ed="#R" n="69"/>dicendi per se, licet non in primo modo, quia licet 
+      <lb ed="#R" n="70"/>ad plurificationem vnius sequatur in secundo 
+      mo<lb ed="#R" n="71" break="no"/>do plurificatio alterius, &amp; ideo potest Deus face 
+      <lb ed="#R" n="72"/>re vnum multiplicatum alio remanente 
+      immulti<lb ed="#R" n="73" break="no"/>plicato. 
+    </p>
+               <p>
+                  <lb ed="#R" n="74"/>Alij adducunt impossibilia, quae videntur sequi.
+    </p>
+               <p>
+                  <lb ed="#R" n="75"/>Primum est, quod ex hoc sequatur, quod duae for 
+      <lb ed="#R" n="76"/>mae essent in eadem parte materiae: probatur: 
+      po<lb ed="#R" n="77" break="no"/>natur hic vnus panis coram famelico, &amp; idem 
+      pa<lb ed="#R" n="78" break="no"/>nis ponatur coram alio famelico, vterque 
+      come<lb ed="#R" n="79" break="no"/>det panem, virtute etiam digestiua vterque 
+      dige<lb ed="#R" n="80" break="no"/>ret eum, virtute quoque nutritiua materia eiusdem 
+      <lb ed="#R" n="81"/>panis fiet sub forma carnis vtriusque, &amp; habetur 
+      <lb ed="#R" n="82"/>propositum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="83"/>Respondeo. Ista eadem difficultas oritur dato, 
+      <lb ed="#R" n="84"/>quod duo corpora ponantur in eodem loco, quod 
+      <lb ed="#R" n="85"/>tamen ipsi non negant. Probo. si ego &amp; tu simus 
+      <lb ed="#R" n="86"/>in eodem situ, omnino impossibile est, quod idem 
+      <lb ed="#R" n="87"/>panis assimilatur ad stomachum meum quin 
+      assimi<lb ed="#R" n="88" break="no"/>letur ad somachum tuum, tunc calor meus aget in 
+      <lb ed="#R" n="89"/>panem illum, &amp; similiter calor tuus, &amp; virtute 
+      ca<lb ed="#R" n="90" break="no"/>loris mei panis ille conuertetur in carnem meam, 
+      <lb ed="#R" n="91"/>virtute autem caloris tui conuertetur in carnem 
+      <lb ed="#R" n="92"/>tuam: ergo eadem materia eiusdem panis erit 
+      <lb ed="#R" n="93"/>sub forma carnis meae, &amp; sub forma corporis tui. 
+    </p>
+               <p>
+                  <lb ed="#R" n="94"/>Ideo ad difficultatem respondeo, quod peus 
+      po<lb ed="#R" n="95" break="no"/>test hoc facere, potest enim suspendere actionem 
+      <lb ed="#R" n="96"/>somachi alterius, nec est repugnantia aliqua, quia 
+      <lb ed="#R" n="97"/>propter hoc non desinet esse.
+    </p>
+               <p>
+                  <lb ed="#R" n="98"/>Alia ratio est, quia videntur sequi 
+      contradicto<lb ed="#R" n="99" break="no"/>ria, quia ponatur corpus vnum iuxta ignem, 
+      pone<lb ed="#R" n="100" break="no"/>idem iuxta frigus, in vno loco calescet, &amp; in altero 
+      <lb ed="#R" n="101"/>frigescet, in eodem etiam loco poterit famescere 
+      <lb ed="#R" n="102"/>vbi non sit cibus, in alio saturari vbi sit cibus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="103"/>Ad istud inconueniens diceretur, quod vel 
+      fri<lb ed="#R" n="104" break="no"/>gus &amp; calor aequabuntur hic &amp; ibi, &amp; tunc fiet ex 
+      <lb ed="#R" n="105"/>eis vna qualitas media, vel calor vincet, &amp; tunc 
+      <lb ed="#R" n="106"/>vtrobique calefiet, similiter si vincat frigus, 
+      vtro<lb ed="#R" n="107" break="no"/>bique frigefiet. Jdem enim iudicium esset tunc de 
+      <lb ed="#R" n="108"/>calore &amp; frigore in duobus locis applicatis ad idem 
+      <lb ed="#R" n="109"/>corpus vtrobique, quod est de calore &amp; frigore 
+      ap<lb ed="#R" n="110" break="no"/>plicatis eidem in vno loco. 
+    </p>
+               <p>
+                  <lb ed="#R" n="111"/>Alij adducunt mirabilia quae videntur sequi, nam 
+      <lb ed="#R" n="112"/>tunc idem poterit hastiludiare secum, &amp; idem solum 
+      <lb ed="#R" n="113"/>poterit facere vnam magnam choraeam, &amp; in vno lo 
+      <lb ed="#R" n="114"/>co eleuare manum, in alio vero simul deponere, &amp; 
+      <lb ed="#R" n="115"/>poterit in vno loco vertere faciem ad orientem, in 
+      <lb ed="#R" n="116"/>alio ad occidentem, &amp; sic idem venire, &amp; moueri 
+      <lb ed="#R" n="117"/>contra se, &amp; cum eadem hasta percutere se, &amp; 
+      <lb ed="#R" n="118"/>plura mirabilia huiusmodi quae videntur 
+      repu<lb ed="#R" n="119" break="no"/>gnare. 
+    </p>
+               <p>
+                  <lb ed="#R" n="120"/>Respondeo. Concedo quod talia repugnant in 
+      <lb ed="#R" n="121"/>secundo modo per se, non in primo, omnia enim 
+      <lb ed="#R" n="122"/>ista non aliud sunt, quam situm multiplicari 
+      subie<lb ed="#R" n="123" break="no"/>co eodem remanente. 
+    </p>
+               <p>
+                  <lb ed="#R" n="124"/>Alij adducunt quod tunc posset Deus 
+      facere<lb ed="#R" n="125" break="no"/>quod oppositae relationes essent in eodem, puta si 
+      <lb ed="#R" n="126"/>fiat idem simul sursum, &amp; deorsum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="127"/>Respondeo, licet subiectum sit idem, tamen 
+      ra<lb ed="#R" n="128" break="no"/>tio fundandi respectus illos variatur &amp; est spatium 
+      <lb ed="#R" n="129"/>&amp; distantia media, vt patet quod sunt alia, &amp; alia 
+      <lb ed="#R" n="130"/>ratio fundandi. 
+    </p>
+               <p>
+                  <lb ed="#R" n="131"/>Ad argumentum in oppositum Respondeo, tan 
+      <lb ed="#R" n="132"/>tum sequitur ex illo medio, quod idem differret a 
+      <lb ed="#R" n="133"/>se secundum situm, &amp; secundum consequentia si- 
+      <!--0228.xml-->
+      <pb ed="#R" n="228"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>tum, &amp; hoc non est inconueniens, nec arguitur 
+      <lb ed="#R" n="2"/>differentia aliqua in aliquo, quod sit prius ipso situ. 
+    </p>
+            </div>
+            <div>
+               <head>Articulus 3</head>
+               <head type="question-title">
+      Utrum duo corpora gloriosa possint ese simul in 
+      eodem loco per dotem subtilitatis.
+    </head>
+               <p>
+                  <lb ed="#R" n="3"/>DE SVBTJLJTATE 
+        COR<lb ed="#R" n="4" break="no"/>poris gloriosi. 
+      </p>
+               <p>
+                  <lb ed="#R" n="5"/>ARTICVLVS III 
+      <lb ed="#R" n="6"/>Vtrum duo corpora gloriosa possint ese simul in 
+      <lb ed="#R" n="7"/>eodem loco per dotem subtilitatis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="8"/>AD tertiam quaestionem Respondeo, sicut 
+      re<lb ed="#R" n="9" break="no"/>spondet antiqua opinio, quod nulla 
+      virtu<lb ed="#R" n="10" break="no"/>te naturali creata vel data a Deo, vel naturali 
+      po<lb ed="#R" n="11" break="no"/>test fieri, quod duo corpora gloriosa sint simul, sed 
+      <lb ed="#R" n="12"/>sola virtute Dei: Sicut enim sola Dei virtute 
+      po<lb ed="#R" n="13" break="no"/>test fieri, quod passio plurificetur subiecto impluri 
+      <lb ed="#R" n="14"/>ficato, quod oportet dicere, quando idem corpus 
+      <lb ed="#R" n="15"/>fit in diuersis sitibus, vel duo in eodem situ, &amp; ideo 
+      <lb ed="#R" n="16"/>non potest Deus dare qualitatem aliquam, per quam 
+      <lb ed="#R" n="17"/>duo corpora possint simul esse; sicut non potest 
+      da<lb ed="#R" n="18" break="no"/>re qualitatem, per quam accidens sit sine subiecto. 
+      <lb ed="#R" n="19"/>Sed hic sunt dubia. 
+    </p>
+               <p>
+                  <lb ed="#R" n="20"/>Primum est, quod videtur quod virtute creata 
+      <lb ed="#R" n="21"/>possint duo corpora ese in eodem loco &amp; situ, 
+      pa<lb ed="#R" n="22" break="no"/>tet de igne &amp; ferro, in ferro candente, idem patet 
+      <lb ed="#R" n="23"/>de vaporibus existentibus simul cum aere. Jdem 
+      pa<lb ed="#R" n="24" break="no"/>tet de nutrimento existente simul cum quacunq. par 
+      <lb ed="#R" n="25"/>re minima membri. Jdem patet de vesica non 
+      ha<lb ed="#R" n="26" break="no"/>bente nisi vnum foramen: ergo oportet ad hoc 
+      <lb ed="#R" n="27"/>quod non sit vacuum, quod prius mutet corpus ad 
+      <lb ed="#R" n="28"/>extra, quam exeat illud quod erat interius. 
+    </p>
+               <p>
+                  <lb ed="#R" n="29"/>Ad primum respondeo, quod in ferro candente 
+      <lb ed="#R" n="30"/>illud, quod apparet ignis, non est nisi calor, non 
+      ta<lb ed="#R" n="31" break="no"/>men in illo gradu quem requirit forma ignis. Vel 
+      <lb ed="#R" n="32"/>secundum aliquos dicendum, quod etsi sit ibi 
+      ve<lb ed="#R" n="33" break="no"/>re ignis, non tamen ignis ille est simul cum ferro, 
+      <lb ed="#R" n="34"/>sed est in quibusdam poris minutissimis ipsius 
+      <lb ed="#R" n="35"/>ferri. 
+    </p>
+               <p>
+                  <lb ed="#R" n="36"/>Ad secundum dico, quod vapores cum aere non 
+      <lb ed="#R" n="37"/>sunt simul, sed illud, quod videtur esse vapores, &amp; 
+      <lb ed="#R" n="38"/>aer, est aer inspissatus, tunc aer sic inspissatus 
+      ce<lb ed="#R" n="39" break="no"/>dit, &amp; dat locum vapori. 
+    </p>
+               <p>
+                  <lb ed="#R" n="40"/>Ad illud de vesica dico, quod semper trahit ad 
+      <lb ed="#R" n="41"/>se aliquam humiditatem, cum sit res valde porosa. 
+      <lb ed="#R" n="42"/>Ad illud de nutrimento nego, quod sint simul, 
+      <lb ed="#R" n="43"/>immo si essent simul, nunquam posset fieri nutritio, 
+      <lb ed="#R" n="44"/>dico tunc, quod nutrimentum illud est in diuersis 
+      <lb ed="#R" n="45"/>poris. 
+    </p>
+               <p>
+                  <lb ed="#R" n="46"/>Aliud dubium est, quia si sola virtute dinina 
+      il<lb ed="#R" n="47" break="no"/>lud fit, quomodo verum est, quod dicitur 
+      commu<lb ed="#R" n="48" break="no"/>niter, quod fit per dotem subtilitatis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="49"/>Respondeo, non est imaginandum, quod dos 
+      <lb ed="#R" n="50"/>subtilitatis sit aliqua qualitas, sed est sola Dei assi 
+      <lb ed="#R" n="51"/>stentia, sicut dicimus de gratia miraculorum: est 
+      <lb ed="#R" n="52"/>ergo assistentia Dei ad nutum beati, vt, cum vult, 
+      <lb ed="#R" n="53"/>possit se facere cum quocunque corpore. &amp; hoc 
+      <lb ed="#R" n="54"/>est quod dicunt aliqui quod dos isa non est aliud 
+      <lb ed="#R" n="55"/>quam dominium animae super corpus, quod debet 
+      <lb ed="#R" n="56"/>intelligi cum diuina assistentia. 
+    </p>
+            </div>
+            <div>
+               <head>Articulus 4</head>
+               <head type="question-title">
+        Utrum corpora gloriosa post resurrectionem erunt 
+        clara, et luminosa.
+      </head>
+               <p>
+                  <lb ed="#R" n="57"/>DECLARJTATE 
+      COR<lb ed="#R" n="58" break="no"/>poris gloriosi.
+    </p>
+               <p>
+      <!--0228.xml-->
+                  <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="59"/>ARTICVLVS JJJJ. 
+      <lb ed="#R" n="60"/>Vtrum corpora gloriosa post resurrectionem erunt 
+      <lb ed="#R" n="61"/>clara, &amp; luminosa. 
+    </p>
+               <p>
+                  <lb ed="#R" n="62"/>QVantum ad beatitudinem corporis quae est 
+      <lb ed="#R" n="63"/>Ados claritatis, quaro vnam quaestionem 
+      <lb ed="#R" n="64"/>&amp; arguo quod non: quia impossibile est opposita 
+      <lb ed="#R" n="65"/>simul esse: sed lumen, &amp; color requirunt in 
+      subie<lb ed="#R" n="66" break="no"/>co oppositas dispositiones, corpora autem 
+      beato<lb ed="#R" n="67" break="no"/>rum erunt colorata: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="68"/>Probo minorem, quia color requirit 
+      subie<lb ed="#R" n="69" break="no"/>cum terminatum cum sit lux in corpore 
+      termina<lb ed="#R" n="70" break="no"/>to: lumen autem requirit subiectum suum 
+      per<lb ed="#R" n="71" break="no"/>uium: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="72"/>In oppositum est auctoritas Scripturae, quae dicit: 
+      <lb ed="#R" n="73"/>Fulgebunt iusti sicut sol &amp; tanquam scintillae, &amp; c. 
+      <lb ed="#R" n="74"/>Sap. 3. 
+    </p>
+               <p>
+                  <lb ed="#R" n="75"/>Respondeo, pono primo aliquas propositiones 
+      <lb ed="#R" n="76"/>negatiuas. 
+    </p>
+               <p>
+                  <lb ed="#R" n="77"/>Prima est, quod luminositas illa non potest esse 
+      <lb ed="#R" n="78"/>ex refractione luminis extrinseci; nec quod sit 
+      so<lb ed="#R" n="79" break="no"/>la viuacitas colorum ex intentione lucis 
+      elemen<lb ed="#R" n="80" break="no"/>taris. Hanc propositionem pono propter duas 
+      opi<lb ed="#R" n="81" break="no"/>niones. 
+    </p>
+               <p>
+                  <lb ed="#R" n="82"/>Prima dicit, quod luminositas subiectiua intrin 
+      <lb ed="#R" n="83"/>seca non erit in corpore beati, sed sola venustas co 
+      <lb ed="#R" n="84"/>lorum. Motiua sunt, tum quia luminositas ista 
+      re<lb ed="#R" n="85" break="no"/>pugnat venustati faciei, nam pulchrior est facies 
+      <lb ed="#R" n="86"/>ornata venustis coloribus, quam facies quae 
+      luce<lb ed="#R" n="87" break="no"/>ret: Tum quia summe est delectabile videre faciem 
+      <lb ed="#R" n="88"/>beati; videre autem lumen vt sic non tantum 
+      vide<lb ed="#R" n="89" break="no"/>tur esse delectabile, quantum videre colorem 
+      pul<lb ed="#R" n="90" break="no"/>chrum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="91"/>Tertio quia lux, &amp; color videtur, quod sibi 
+      re<lb ed="#R" n="92" break="no"/>pugnent in eodem subiecto eo, quod color non 
+      vi<lb ed="#R" n="93" break="no"/>detur esse aliud quam quaedam diminuta lux, est 
+      <lb ed="#R" n="94"/>enim lux participata in corpore terminato- 
+    </p>
+               <p>
+                  <lb ed="#R" n="95"/>Propter quod dicunt aliĳ, quod luminositas illa 
+      <lb ed="#R" n="96"/>non est intrinseca subiectiue in corpore beati, sed 
+      <lb ed="#R" n="97"/>orietur ex refractione luminis solaris &amp; stellarum. 
+      <lb ed="#R" n="98"/>Corpus enim beati erit valde tersum &amp; politum. 
+      <lb ed="#R" n="99"/>ideo frangetur ibi lumen Solis &amp; stellarum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="100"/>Alij dicunt, quod luminositas illa non erit nisi 
+      <lb ed="#R" n="101"/>quaedam viuacitas colorum, hoc miodo. Color. n. 
+      <lb ed="#R" n="102"/>enim secundum eos non erit nisi lux elementaris, 
+      <lb ed="#R" n="103"/>illa autem lux fiet viuacissima, ac si rubedo, quae 
+      <lb ed="#R" n="104"/>est in facie, tantum fieret viuida, quod appareret 
+      <lb ed="#R" n="105"/>quasi lucida.
+    </p>
+               <p>
+    <!-- line break missing -->Istarum opinionum tertia mihi magis plact,
+      <lb ed="#R" n="106"/>nisi quia videtur repugnare Scripturae &amp; 
+      auctori<lb ed="#R" n="107" break="no"/>tatibus sanctorum. Ideo posui praedictam proposi 
+      <lb ed="#R" n="108"/>tionem, quam primo probo auctoritate Apostoli 
+      <lb ed="#R" n="109"/>qui dicit, quod corpus nostrum configurabitur cla 
+      <lb ed="#R" n="110"/>ritati corporis Christi: sed claritas corporis 
+      Chri<lb ed="#R" n="111" break="no"/>sti est claritas quasi solaris, non tantum venustas 
+      <lb ed="#R" n="112"/>siue viuacitas colorum: ergo. Minor patet Matt. 
+      <lb ed="#R" n="113"/>17. vbi in transfiguratione dicitur, quod 
+      resplen<lb ed="#R" n="114" break="no"/>duit facies eius, vt Sol, &amp; Apocalip. 7. dicitur, 
+      <lb ed="#R" n="115"/>quod facies eius lucebat, sicut Sol lucet in virtute 
+      <lb ed="#R" n="116"/>sua. Item Sap. 3. dicitur: tunc fulgebunt iusti sicut 
+      <lb ed="#R" n="117"/>Sol. &amp; vbique in Scriptura claritas illa 
+      exprimi<lb ed="#R" n="118" break="no"/>tur claritas solaris: sed certum est quod refractio 
+      <lb ed="#R" n="119"/>luminis Solis ad corpus quantumcunque politum 
+      <lb ed="#R" n="120"/>similiter venustas colorum, vel viuacitas quantum 
+      <lb ed="#R" n="121"/>Cssui tin essa nunquam adaequaret illam Solis 
+    </p>
+               <p>
+                  <lb ed="#R" n="122"/>Ad hoc etiam est aucoritas expressa Augusti- 
+      <!--0229.xml-->
+      <pb ed="#R" n="229"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>ni lib. 22. de ciuit. Dei cap. 19. tom. 5. vbi 
+      distin<lb ed="#R" n="2" break="no"/>guit lumen faciei Chrisi post resurrectionem a 
+      co<lb ed="#R" n="3" break="no"/>loreitate, vnde dicit, quod Apostoli post 
+      resurre<lb ed="#R" n="4" break="no"/>ctionem videbant colorem faciei Christi, 
+      clarita<lb ed="#R" n="5" break="no"/>tem autem non videbant.
+    </p>
+               <p>
+                  <lb ed="#R" n="6"/>Et ad motiua alterius opinionis. Ad primum 
+      <lb ed="#R" n="7"/>dico, quod ibi erunt colores venusti simul cum 
+      lu<lb ed="#R" n="8" break="no"/>minositate. Et cum dicitur, quod luminositas 
+      tol<lb ed="#R" n="9" break="no"/>lit venustatem colorum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="10"/>Respondeo, quod verum est vbi colores disper 
+      <lb ed="#R" n="11"/>guntur propter lumen; vbi vero colores non 
+      di<lb ed="#R" n="12" break="no"/>spergentur propter claritatem, quanto sunt 
+      lumi<lb ed="#R" n="13" break="no"/>nosiores, tanto sunt magis venusti, &amp; ideo ibi erunt 
+      <lb ed="#R" n="14"/>omnes colores in optima proportione, &amp; cum hoc 
+      <lb ed="#R" n="15"/>luminositas magna, &amp; in vtroque consiset eorum 
+      <lb ed="#R" n="16"/>pulchritudo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="17"/>Ad aliud, ratio illa valet, vbi organum oculi po 
+      <lb ed="#R" n="18"/>test pati passione abieca, quod nullo modo 
+      con<lb ed="#R" n="19" break="no"/>cedendum est in beatis propter dotem 
+      impassibi<lb ed="#R" n="20" break="no"/>litatis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="21"/>Ad vltimum dico, quod lux &amp; color licet sint 
+      <lb ed="#R" n="22"/>eiusdem generis, non tamen sunt eiusdem speciei, 
+      <lb ed="#R" n="23"/>&amp; ideo non repugnat, quod sint simul. Sed de hoc 
+      <lb ed="#R" n="24"/>amplius in secundo.
+    </p>
+               <p>
+                  <lb ed="#R" n="25"/>Secunda Propositio est, quod in corpore 
+      beato<lb ed="#R" n="26" break="no"/>rum cum coloribus pulcherrimis, ac venustissimis 
+      <lb ed="#R" n="27"/>erit quaedam luminositas solaris, ita, quod ambae 
+      <lb ed="#R" n="28"/>qualitates istae erunt ibi subiectiue.
+  </p>
+               <p>
+                  <lb ed="#R" n="29"/>Hanc Conclusionem quantum ad possibilitatem, 
+      <lb ed="#R" n="30"/>nituntur aliqui probare sic: Quando aliqua simul 
+      <lb ed="#R" n="31"/>possunt stare in eodem subiecto in aliquo gradu, 
+      <lb ed="#R" n="32"/>possunt simul stare in quocunque gradu, &amp; etiam 
+      <lb ed="#R" n="33"/>in summo saltem alterum illorum, sed color, &amp; lux 
+      <lb ed="#R" n="34"/>possunt simul stare in aliquo gradu, vt patet 
+      ex<lb ed="#R" n="35" break="no"/>pressse de noctiluca, vt dicunt. Sed ratio ista non 
+      <lb ed="#R" n="36"/>valet, quia non video, quod lux, &amp; color possint 
+      si<lb ed="#R" n="37" break="no"/>mul esse in eodem quantum ad immutandum 
+      vi<lb ed="#R" n="38" break="no"/>sum, quod tamen oportet dicere de corpore 
+      bea<lb ed="#R" n="39" break="no"/>ti, &amp; hoc patet in exemplo corummet, quoniam 
+      <lb ed="#R" n="40"/>noctiluca de die, quando immutat visum per 
+      colo<lb ed="#R" n="41" break="no"/>rem, non immutat eum per lucem, &amp; e conuerso 
+      <lb ed="#R" n="42"/>in noce. 
+    </p>
+               <p>
+                  <lb ed="#R" n="43"/>Ideo aliter arguo sic. Si lux solaris, &amp; varietas 
+      <lb ed="#R" n="44"/>colorum repugnaret esse simul in eodem subiecto, 
+      <lb ed="#R" n="45"/>etiam quantum ad immutandum, visum hoc est 
+      <lb ed="#R" n="46"/>propter alterum trium, aut propter oppositionem 
+      <lb ed="#R" n="47"/>quam requirunt in subiecto, quia lux requirit 
+      per<lb ed="#R" n="48" break="no"/>spicuitatem, color terminationem; aut erit 
+      pro<lb ed="#R" n="49" break="no"/>prer oppositionem eorum formalem, eo modo, quo 
+      <lb ed="#R" n="50"/>repugnat albedini esse in eodem, aut hoc erit, quia 
+      <lb ed="#R" n="51"/>alterum impedit alterum in operatione sua, vt lux 
+      <lb ed="#R" n="52"/>impedit ne color possit immutare visum in praesen 
+      <lb ed="#R" n="53"/>tia sua: sed nullo iitorum modorum repugnat sibi: 
+      <lb ed="#R" n="54"/>ergo nullo modo. Maior patet per locum a 
+      suffi<lb ed="#R" n="55" break="no"/>cienti diuisione. Minor patet quantum ad primum, 
+      <lb ed="#R" n="56"/>quia licet lumen requirat in subiecto 
+      diaphanei<lb ed="#R" n="57" break="no"/>tatem, non tamen lux. 
+    </p>
+               <p>
+                  <lb ed="#R" n="58"/>Probo: Corpus enim diaphanum est terminatum 
+      <lb ed="#R" n="59"/>secundum Commentatorem de substantia orbis, 
+      <lb ed="#R" n="60"/>&amp; secundo caeli &amp; mundi, &amp; hoc patet per 
+      expe<lb ed="#R" n="61" break="no"/>rientiam de Luna, alias enim non appareret 
+      ma<lb ed="#R" n="62" break="no"/>culata, ratio enim, quare apparet maculosa est, 
+      <lb ed="#R" n="63"/>quia in aliquibus partibus eius est terminata, &amp; in 
+      <lb ed="#R" n="64"/>aliquibus peruia. 
+    </p>
+               <p>
+                  <lb ed="#R" n="65"/>Item de substantia orbis, dicit Commentator, 
+      <lb ed="#R" n="66"/>quod claritas in caelis &amp; in istis inferioribus est 
+      ae<lb ed="#R" n="67" break="no"/>quiuoce, quia ibi est qualitas quaedam simplex; stel 
+      <lb ed="#R" n="68"/>la enim (secundum eum) non est aliud quam aggre 
+      <!--0229.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>gatio partium orbis quae facit illam qualitatem 
+      <lb ed="#R" n="70"/>simplicem. In istis autem mixtis inferioribus est 
+      <lb ed="#R" n="71"/>qualitas elementaris mixta. Similiter secundum 
+      <lb ed="#R" n="72"/>non repugnat, nam lux &amp; color non sunt 
+      opposi<lb ed="#R" n="73" break="no"/>ta formaliter, licet sint opposita in ordine ad omnem 
+      <lb ed="#R" n="74"/>virtutem creatam; id. n. est, quia color non est nisi 
+      <lb ed="#R" n="75"/>lux imperfecta, resultans ex commixtione elemen 
+      <lb ed="#R" n="76"/>torum, &amp; hoc apparet expraesse per experientiam 
+      <lb ed="#R" n="77"/>in coloribus Jridis, qui sunt cadentes a lumine 
+      so<lb ed="#R" n="78" break="no"/>lari, quia franguntur alij ad perpendicularem 
+      <lb ed="#R" n="79"/>alij a perpendiculari, &amp; concurrente alia, &amp; alia 
+      <lb ed="#R" n="80"/>nube causantur diuersi, &amp; varij colores, vnde 
+      co<lb ed="#R" n="81" break="no"/>lor ceruleus minus cadit, color vero rubeus plus, 
+      <lb ed="#R" n="82"/>gramineus autem plus, &amp; violaceus multo plus, 
+      <lb ed="#R" n="83"/>&amp; quanto magis cadunt, tanto minus habent de 
+      lu<lb ed="#R" n="84" break="no"/>ce. Per hoc etiam patet, quod albedo est mensura 
+      <lb ed="#R" n="85"/>aliorum colorum, quia plus participat de 
+      luce<lb ed="#R" n="86" break="no"/>secundum Philosophum lib. de coloribus, &amp; ideo 
+      <lb ed="#R" n="87"/>qui colores magis accedunt ad albedinem, magis 
+      <lb ed="#R" n="88"/>habent de luce. Differunt ergo color, &amp; lux sicut 
+      <lb ed="#R" n="89"/>qualitas perfecta &amp; imperfecta, sicut tepidum, &amp; 
+      <lb ed="#R" n="90"/>calidum, talia autem impossibile est essse simul, 
+      im<lb ed="#R" n="91" break="no"/>mo opponuntur ad inuicem in ordine ad 
+      quam<lb ed="#R" n="92" break="no"/>cunque virtutem creatam. Hoc patet per experien 
+      <lb ed="#R" n="93"/>tiam in vitrea, quando enim sol intrat per vitream, 
+      <lb ed="#R" n="94"/>in tantum color intenduntur ibi ratione luminis, 
+      <lb ed="#R" n="95"/>quod sit extra gradum suum, quem determinat 
+      ta<lb ed="#R" n="96" break="no"/>lis natura coloris, &amp; ideo non potest videri, &amp; 
+      tra<lb ed="#R" n="97" break="no"/>hitur quasi totaliter ad luminositatem, sed 
+      repu<lb ed="#R" n="98" break="no"/>gnantia ista non est in ordine ad virtutem 
+      increa<lb ed="#R" n="99" break="no"/>tam, &amp; hoc potissime, quia lux &amp; color sunt 
+      alte<lb ed="#R" n="100" break="no"/>rius speciei, nec vt erunt in corporibus gloriosis 
+      <lb ed="#R" n="101"/>miscebuntur in essendo, nec in operando, nec in 
+      vi<lb ed="#R" n="102" break="no"/>sum immutando. 
+    </p>
+               <p>
+                  <lb ed="#R" n="103"/>Tertium etiam non impedit, puta quod vnum 
+      <lb ed="#R" n="104"/>impediat actionem propriam vtrique, ac si alterum 
+      <lb ed="#R" n="105"/>solum esset ibi. 
+    </p>
+               <p>
+                  <lb ed="#R" n="106"/>Tertia Propositio est, quod illa luminositas erit 
+      <lb ed="#R" n="107"/>ex dono Dei, nec redundabit ab anima in corpus 
+      <lb ed="#R" n="108"/>sicut imaginantur aliqui, qui redundabit gloria 
+      corpo<lb ed="#R" n="109" break="no"/>ris a gloria animae, ita quod claritatem animae 
+      con<lb ed="#R" n="110" break="no"/>sequatur claritas in corpore per quandam 
+      redun<lb ed="#R" n="111" break="no"/>dantiam vnius in aliud. Nec obstat secundum 
+      <lb ed="#R" n="112"/>eos, quod claritas animae est spiritualis, corporis. 
+      <lb ed="#R" n="113"/>vero corporalis, claritas enim ista sequitur 
+      natu<lb ed="#R" n="114" break="no"/>ram receptiui, &amp; ideo vbi receptiuum est 
+      spiritua<lb ed="#R" n="115" break="no"/>le, ipsa est spiritualis, vbi vero est corpus ipsa est 
+      <lb ed="#R" n="116"/>est corporalis. &amp; idem dicunt isti de omnibus 
+      do<lb ed="#R" n="117" break="no"/>tibus, quod sunt per quandam redundantiam 
+      a<lb ed="#R" n="118" break="no"/>gloria animae in corpus. Ego non capio, quod 
+      il<lb ed="#R" n="119" break="no"/>la redundantia possit esse efficientia aliqua, &amp; ideo 
+      <lb ed="#R" n="120"/>si positio intelligat, quod illa redundantia sit per 
+      <lb ed="#R" n="121"/>modum efficientiae, vt dos ista in corpore sit eff
+      e<lb ed="#R" n="122" break="no"/>ctiue ab anima, puto, quod illud non sit 
+      benedi<lb ed="#R" n="123" break="no"/>ctum 
+    </p>
+               <p>
+                  <lb ed="#R" n="124"/>Si vero intelligat. quod sit effectiue a Deo, &amp; exi 
+      <lb ed="#R" n="125"/>gitiue a beatitudine animae, quia congruum est, 
+      <lb ed="#R" n="126"/>quod Deus ostendat exterius donum, quod influit 
+      <lb ed="#R" n="127"/>interius, sic intelligo, quod opinio est vera, sed 
+      <lb ed="#R" n="128"/>intelligendo primo modo non puto, quod sit verum. 
+      <lb ed="#R" n="129"/>Ratio est, quia illa luminositas animae cum sit spiri 
+      <lb ed="#R" n="130"/>tualis, non potest esse principium alterationis 
+      cor<lb ed="#R" n="131" break="no"/>poralis, vnde licet imaginatiua possit esse 
+      princi<lb ed="#R" n="132" break="no"/>pium transmutationis in corpore, hoc tamen 
+      nul<lb ed="#R" n="133" break="no"/>lo modo conuenit intellectiuae, quae est virtus mere 
+      <lb ed="#R" n="134"/>spiritualis. Per hoc patet ad argumentum in 
+      op<lb ed="#R" n="135" break="no"/>positum. 
+      <lb ed="#R" n="136"/>
+                  <!-- line coord error -->
+               </p>
+            </div>
+            <div>
+               <head>Articulus 5</head>
+               <head type="question-title">
+      Utrum corpora gloriosa possint moueri in 
+      instanti.
+    </head>
+               <p>
+        <!--0230.xml-->
+                  <pb ed="#R" n="230"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>DE AGJLJTATE 
+        COR<lb ed="#R" n="2" break="no"/>poris gloriosi.
+      </p>
+               <p>
+                  <lb ed="#R" n="3"/>Quantum ad dotem agilitatis quaero vnam 
+        <lb ed="#R" n="4"/>quaestionem. 
+      </p>
+               <p>
+                  <lb ed="#R" n="5"/>ARTICVLVS V 
+      <lb ed="#R" n="6"/>Vtrum corpora gloriosa possint moueri in 
+      <lb ed="#R" n="7"/>instanti.
+    </p>
+               <p>
+                  <lb ed="#R" n="8"/>ARguo primo, quod sic: quia secundum Augu 
+      <lb ed="#R" n="9"/>
+                  <!-- line coord error -->
+                  <lb ed="#R" n="10"/>stinum 12. de Ciuit. Dei cap. 30. tom. 5. 
+      Vbi<lb ed="#R" n="11" break="no"/>cunque volet esse spiritus, ibi confestim erit 
+      cor<lb ed="#R" n="12" break="no"/>pus: sed spiritus potest velle, quod in istanti sit in 
+      <lb ed="#R" n="13"/>aliquo loco: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="14"/>In oppositum est, quia motus in instanti est 
+      im<lb ed="#R" n="15" break="no"/>possibilis ex 8. physic. tex. 79. &amp; 80. vnde ex hoc 
+      <lb ed="#R" n="16"/>concludit Philosophus, quod virtus infinita, si esset 
+      <lb ed="#R" n="17"/>in magnitudine, non posset mouere, quia moueret 
+      <lb ed="#R" n="18"/>in instanti, quod ipse habet pro impossibili. 
+      Re<lb ed="#R" n="19" break="no"/>spondeo: pono tres propositiones. 
+    </p>
+               <p>
+                  <lb ed="#R" n="20"/>Prima est, quod virtute diuina corpora 
+      bea<lb ed="#R" n="21" break="no"/>torum efficientur neutra, hoc est, nec grauia, nec 
+      <lb ed="#R" n="22"/>leuia, sic quod grauitas, quae modo sequitur 
+      natu<lb ed="#R" n="23" break="no"/>ram praedominantis elementi in corpore humano, 
+      <lb ed="#R" n="24"/>tolletur ab eis, nec tamen propter hoc dabitur eis 
+      <lb ed="#R" n="25"/>grauitas aliqua. 
+    </p>
+               <p>
+      <!-- missing line coord -->Circa hanc Propositionem sic procedo.
+      <lb ed="#R" n="26"/>Primo ostendo, quod est possibilis. 
+      <lb ed="#R" n="27"/>Secundo, quod est congrua. 
+      <lb ed="#R" n="28"/>Tertio, quod est necessaria. 
+      <lb ed="#R" n="29"/>Quarto, quod vera est de facto. 
+      <lb ed="#R" n="30"/>Primum probo sic: Non magis possibile, immo 
+      vi<lb ed="#R" n="31" break="no"/>detur habere maiorem repugnantiam, passionem 
+      <lb ed="#R" n="32"/>fieri sine subiecto, quam e conuerso subiectum fieri 
+      <lb ed="#R" n="33"/>sine propria passione, sed in Sacramento altaris fit 
+      <lb ed="#R" n="34"/>passio sine subiecto, quia grauitas sine graui: 
+      er<lb ed="#R" n="35" break="no"/>go magis videtur possibile in proposito, quod subio 
+      <lb ed="#R" n="36"/>ctum fiat sine passione, vt graue sine grauitate. 
+    </p>
+               <p>
+                  <lb ed="#R" n="37"/>Secunda ratio ad idem est ista. Deus potest 
+      om<lb ed="#R" n="38" break="no"/>ne illud, quod non implicat contradictionem, vbi 
+      <lb ed="#R" n="39"/>ex illo non sequitur, quod affirmatio, &amp; negatio 
+      <lb ed="#R" n="40"/>dicantur de eodem: sed fieri corpus mixtum sine 
+      <lb ed="#R" n="41"/>grauitate, non includit contradictionem, quia ibi 
+      <lb ed="#R" n="42"/>afirmatio, &amp; negatio non dicuntur de eodem: 
+      er<lb ed="#R" n="43" break="no"/>go. Maior nota est. 
+    </p>
+               <p>
+                  <lb ed="#R" n="44"/>Probo minorem. Si enim fiat corpus mixtum 
+      <lb ed="#R" n="45"/>sine grauitate, ibi est vna affirmatiua, puta corpus 
+      <lb ed="#R" n="46"/>mixtum; ibi etiam est negatiua eiusdem praedicati, 
+      <lb ed="#R" n="47"/>puta grauitas non est: sed ista affirmatio, &amp; 
+      nega<lb ed="#R" n="48" break="no"/>tio licet sint eiusdem praedicati, non est tamen eius 
+      <lb ed="#R" n="49"/>dem subiecti, quia non sunt idem in primo modo 
+      <lb ed="#R" n="50"/>dicendi per se corpus mixtum, &amp; grauitas: ergo. 
+      <lb ed="#R" n="51"/>Ex hoc apparet verum esse, quod frequenter dixi, 
+      <lb ed="#R" n="52"/>scilicet, quod Deus potest immutare 
+      propositio<lb ed="#R" n="53" break="no"/>nos de secundo modo, quia, terra est grauis, &amp; cor 
+      <lb ed="#R" n="54"/>pus mixtum est passibile, sunt propositiones de 
+      se<lb ed="#R" n="55" break="no"/>cundo modo, secundum Philosophum de caelo &amp; 
+      <lb ed="#R" n="56"/>mundo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="57"/>Secundum quod sit rationale, probo ex duobus.
+    </p>
+               <p>
+                  <lb ed="#R" n="58"/>Primo, quia si corpus beati esset actu graue, 
+      in<lb ed="#R" n="59" break="no"/>clinaretur corpus beati ad esendum in centro: 
+      <!--0230.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="60"/>ergo caelum non erit locus eius naturalis, immo 
+      <lb ed="#R" n="61"/>erit ibi violenter: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="62"/>Secundo, quia inconueniens videtur, quod 
+      cor<lb ed="#R" n="63" break="no"/>pus beati habeat inclinationem naturalem contra 
+      <lb ed="#R" n="64"/>motum ipsius animae: sed grauitas si qua inesset, 
+      <lb ed="#R" n="65"/>haberet illud corpus inclinationem contra motum ani 
+      <lb ed="#R" n="66"/>mae, qui esset ad sursum, leuitas etiam, si qua inesset 
+      <lb ed="#R" n="67"/>haberet inclinationem contra motum animae, qui 
+      <lb ed="#R" n="68"/>esset ad deorsum: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="69"/>Confirmo hoc, quia grauitas, &amp; leuitas data 
+      <lb ed="#R" n="70"/>data sunt corporibus naturalibus, vt per illos cor 
+      <lb ed="#R" n="71"/>pus quodlibet tenderet in locum suum, vt ibi 
+      con<lb ed="#R" n="72" break="no"/>seruaretur, quod habet corrumpi, dum est 
+      extra<lb ed="#R" n="73" break="no"/>locum proprium, vt patet ex 3. &amp; 4. caeli &amp; mundi 
+      <lb ed="#R" n="74"/>tex. 18. &amp; 21. Sed ista causa non habet locum 
+      in<lb ed="#R" n="75" break="no"/>corporibus beatorum, quia immediate 
+      conser<lb ed="#R" n="76" break="no"/>nantur a Deo per dotem impassibilitatis: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="77"/>Tertium probo, scilicet, quod sit necessarium, fic 
+      <lb ed="#R" n="78"/>Grauitas imped it motum voluntarium animae, non 
+      <lb ed="#R" n="79"/>solum vt est actus secundus, sed vt est actus primus: 
+      <lb ed="#R" n="80"/>probo, quia actus secundus grauitatis est motus 
+      <lb ed="#R" n="81"/>localis: sed non obstante, quod sit aliquis motus 
+      <lb ed="#R" n="82"/>localis grauitatis, adhuc sola grauitas, vt est actus 
+      <lb ed="#R" n="83"/>primus, impedit, &amp; resistit motui voluntario, nam 
+      <lb ed="#R" n="84"/>quando quis mouet se sursum, grauitas eius 
+      non<lb ed="#R" n="85" break="no"/>est tunc in actu secundo, quia non mouetur quis 
+      <lb ed="#R" n="86"/>deorsum secundum illam, &amp; tamen grauitas eius 
+      <lb ed="#R" n="87"/>impedit motum eius, quo mouet se sursum: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="88"/>Vbi considerandum est, quod aliquibus videtur, q 
+      <lb ed="#R" n="89"/>inclinatio grauis, quam graue dat deorsum 
+      <lb ed="#R" n="90"/>quam experior in manu mea, sit actus secundus gra 
+      <lb ed="#R" n="91"/>uitatis, &amp; per consequens inclinatio auis ad 
+      deor<lb ed="#R" n="92" break="no"/>sum, quae impedit motum eius sursum, sit actus 
+      se<lb ed="#R" n="93" break="no"/>cundus: quod non reputo verum; immo 
+      inclina<lb ed="#R" n="94" break="no"/>tio ista grauitatis ad centrum, quam experitur ani 
+      <lb ed="#R" n="95"/>mal, est actus primus grauitatis, &amp; quaedam 
+      sensi<lb ed="#R" n="96" break="no"/>bilis qualitas, &amp; experimentalis: sed in 
+      corpore<lb ed="#R" n="97" break="no"/>glorioso non est aliquid, quod impediat motum vo 
+      <lb ed="#R" n="98"/>luntarium animae ad quemcumque situm: ergo in 
+      <lb ed="#R" n="99"/>corpore glorioso necesse est ponere quod nulla sit 
+      <lb ed="#R" n="100"/>grauitas in actu secundo, sed nec in actu primo.
+    </p>
+               <p>
+                  <lb ed="#R" n="101"/>Vnde ratio ista infringit quandam communem 
+      <lb ed="#R" n="102"/>opinionem, quae dicit, quod in corporibus 
+      beato<lb ed="#R" n="103" break="no"/>rum remanebit grauitas quantum ad actum 
+      pri<lb ed="#R" n="104" break="no"/>mum non quo ad actum secundum, &amp; ratio eorum 
+      <lb ed="#R" n="105"/>est quia acttus secundus quem ponunt esse 
+      inclina<lb ed="#R" n="106" break="no"/>tionem illam sensibilem haberet impedire motum 
+      <lb ed="#R" n="107"/>animae. Sed ista ratio concedat in medio cum 
+      ra<lb ed="#R" n="108" break="no"/>tione quam adduxi, tamen in alio discordat, puta 
+      <lb ed="#R" n="109"/>in conclusione, quia propter istam rationam opor 
+      <lb ed="#R" n="110"/>tet tenere, quod grauitas ibi non remaneat etiam 
+      <lb ed="#R" n="111"/>in actu primo, quia in actu primo habet resisere 
+      <lb ed="#R" n="112"/>motui voluntario ipsius animae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="113"/>Sed contra dicta est, quia inclinatio grauitatis 
+      <lb ed="#R" n="114"/>ad centrum videtur essse quaedam operatio. 
+      opera<lb ed="#R" n="115" break="no"/>tio autem dicit actum secundum. Respondeo, vt 
+      <lb ed="#R" n="116"/>prius, quod inclinatio illa non est actus secundus; 
+      <lb ed="#R" n="117"/>aut enim esset motus localis, aut alteratio; neutrum 
+      <lb ed="#R" n="118"/>horum apparet in proposito: nec enim per 
+      hoc<lb ed="#R" n="119" break="no"/>quod teneo graue in manu mea, acquiritur noua 
+      <lb ed="#R" n="120"/>qualitas, nec nouum vbi, ideo inclinatio illa non 
+      <lb ed="#R" n="121"/>est operatio aliqua, vt operatio nominat actum 
+      <lb ed="#R" n="122"/>secundum; est tamen actus primus quoniam 
+      for<lb ed="#R" n="123" break="no"/>maliter inclinat ad centrum. &amp; hinc est, quod opor 
+      <lb ed="#R" n="124"/>tet, quod tollatur in corpore beati, &amp; in hoc 
+      opi<lb ed="#R" n="125" break="no"/>nio illa confirmat propositum, qui dicunt, quod 
+      <lb ed="#R" n="126"/>auferetur impedimentum motus animae, licet non 
+      <!--0231.xml-->
+      <pb ed="#R" n="231"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>putent, quod grauitas impediat, vt est actus 
+      pri<lb ed="#R" n="2" break="no"/>mus. Vltimo probo, quod ita sit de facto, &amp; hoc per 
+      <lb ed="#R" n="3"/>Augustinum 21. de Ciuitate Dei cap. JJ, qui dicit, 
+      <lb ed="#R" n="4"/>quod talia faciet Deus illa corpora, scilicet 
+      bea<lb ed="#R" n="5" break="no"/>torum, quod erunt sine ponderis grauitate. 
+    </p>
+               <p>
+                  <lb ed="#R" n="6"/>Ex hoc patet quid est dos agilitatis. Ad cuius 
+      <lb ed="#R" n="7"/>euidentiam sciendum est, quod secundum 
+      Com<lb ed="#R" n="8" break="no"/>mentatorem de substantia orbis cap. 1. &amp; 2. &amp; 8. 
+      <lb ed="#R" n="9"/>physic. comm. 79. &amp; primo caeli comm. 17. &amp; 18. 
+      <lb ed="#R" n="10"/>causa quare corpus caeleste non est graue, nec 
+      <lb ed="#R" n="11"/>leue, est ipsa anima corporis caelestis, &amp; 
+      intel<lb ed="#R" n="12" break="no"/>ligit de propria anima cuiuslibet caeli, quae ei 
+      vni<lb ed="#R" n="13" break="no"/>tur in ratione non largientis actum primum, sed 
+      <lb ed="#R" n="14"/>actum secundum, &amp; extremas perfectiones: quia 
+      <lb ed="#R" n="15"/>yero motus animae corporis caelestis siue Intelligen 
+      <lb ed="#R" n="16"/>tiae, non est rectus, sed circularis, oportet dare 
+      cor<lb ed="#R" n="17" break="no"/>pus, quod non habeat inclinationem ad motum op 
+      <lb ed="#R" n="18"/>positum mnotui circulari: ergo illud corpus impos 
+      <lb ed="#R" n="19"/>sibile est, quod sit graue, vel leue, sed necessario 
+      <lb ed="#R" n="20"/>oportet ese neutrum. hac est ratio 
+      Commentato<lb ed="#R" n="21" break="no"/>ris vbi supra.
+    </p>
+               <p>
+                  <lb ed="#R" n="22"/>Sic potest dici in proposito, quod dos agilitatis 
+      <lb ed="#R" n="23"/>non est aliud, quam corpus esse in pleno dominio 
+      <lb ed="#R" n="24"/>aimae, vt per nullam inclinationem naturalem 
+      <lb ed="#R" n="25"/>resisat motui voluntario animae, vt sic nulla sit 
+      re<lb ed="#R" n="26" break="no"/>sistentia, quae resistat animae, nec qualitas in 
+      corpo<lb ed="#R" n="27" break="no"/>re, nec spatium aliquod medium excepta sola 
+      di<lb ed="#R" n="28" break="no"/>stantia termini a quo, &amp; ad quem; &amp; potest 
+      con<lb ed="#R" n="29" break="no"/>cedi, vt aliqui dicunt, quod intendetur virtus 
+      ani<lb ed="#R" n="30" break="no"/>mae beatorum, ita vt per hoc illa resistentia 
+      du<lb ed="#R" n="31" break="no"/>plex tollatur.
+  </p>
+               <p>
+                  <lb ed="#R" n="32"/>Non intelligo autem, quod dos illa sit qualitas, 
+      <lb ed="#R" n="33"/>quae inclinet corpus ad nutum voluntatis superius 
+      <lb ed="#R" n="34"/>vel inferius, vel ad situm quem voluerit. 
+      Jmpossi<lb ed="#R" n="35" break="no"/>bile est enim motum talem indifferentem esse a for 
+      <lb ed="#R" n="36"/>ma naturali, primo celi &amp; mun. tex. 5. &amp; 3. de ani. 
+      <lb ed="#R" n="37"/>tex. 48. quia talis motus proprius est soli animae, vt 
+      <lb ed="#R" n="38"/>ibidem dicitur. Similiter multo melius est, &amp; 
+      con<lb ed="#R" n="39" break="no"/>gruentius ponere, quod motus corporum 
+      beato<lb ed="#R" n="40" break="no"/>rum sinta voluntate animae, quam ponere, quod sit 
+      <lb ed="#R" n="41"/>ab vna qualitate quasi per modum praeuij. 
+    </p>
+               <p>
+                  <lb ed="#R" n="42"/>Secunda Propositio est, quod virtute 
+      creata<lb ed="#R" n="43" break="no"/>nullo modo potest motus esse in instanti, virtute 
+      <lb ed="#R" n="44"/>autem diuina potest motus esse in instanti 
+      sorma<lb ed="#R" n="45" break="no"/>liter, potest tamen esse in instanti materialiter. hanc 
+      <lb ed="#R" n="46"/>propositionem pono propter duas opiniones oppo 
+      <lb ed="#R" n="47"/>sitas, quae secundum rei veritatem possunt ad 
+      con<lb ed="#R" n="48" break="no"/>cordiam reduci.
+    </p>
+               <p>
+                  <lb ed="#R" n="49"/>Vna quidem opinio Philosophi s. phys. tex. 79. 
+      <lb ed="#R" n="50"/>&amp; illam prosequitur specialiter Commentator ibi, &amp; 
+      <lb ed="#R" n="51"/>similiter de substantia orbis. Ratio autem eorum 
+      <lb ed="#R" n="52"/>est, quia prius &amp; post videntur essentialiter pertine 
+      <lb ed="#R" n="53"/>re ad motum: sed impossibile est prius &amp; post esse 
+      <lb ed="#R" n="54"/>in eodem instanti: ergo. Opinio aliorum est ad op 
+      <lb ed="#R" n="55"/>positum, &amp; dicunt, quod Deus posset in instanti 
+      <lb ed="#R" n="56"/>transferre corpus ab oriente in occidens. 
+    </p>
+               <p>
+                  <lb ed="#R" n="57"/>Dico tunc, quod hae duae opiniones optimae 
+      pos<lb ed="#R" n="58" break="no"/>sunt adduci ad concordiam per distinctionem prae. 
+      <lb ed="#R" n="59"/>dicam, quia motus potest accipi quantum ad 
+      il<lb ed="#R" n="60" break="no"/>lud, quod est in eo formale, vel quantum ad 
+      il<lb ed="#R" n="61" break="no"/>lud, quod es materiale: &amp; primo quidem modo, 
+      <lb ed="#R" n="62"/>impossibile est motum quacunque virtute fieri 
+      in<lb ed="#R" n="63" break="no"/>insanti, &amp; ad hoc ibat opinio prima. Secundo au 
+      <lb ed="#R" n="64"/>tem modo possibile est diuina virtute motum fieri 
+      <lb ed="#R" n="65"/>in instanti, &amp; ad hoc vadit secunda opinio. Probo 
+      <lb ed="#R" n="66"/>ergo vtrumque membrum istius distinctionis, &amp; 
+      <lb ed="#R" n="67"/>primo quod motus quo ad suum formale imposssi- 
+      <!--0231.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>blle est, quod fiat in instanti. Nec capio rationem 
+      <lb ed="#R" n="69"/>illam, quam capiunt aliqui de priori &amp; posteriori, 
+      <lb ed="#R" n="70"/>quae videntur intrinsece pertinere ad motum, quae 
+      <lb ed="#R" n="71"/>impossibile est fieri in instanti: quia non puto, quod 
+      <lb ed="#R" n="72"/>motus sit prius, &amp; post in primo modo dicendi per 
+      <lb ed="#R" n="73"/>se, sed tantum in secundo; nam prius &amp; post in 
+      mo<lb ed="#R" n="74" break="no"/>tu formaliter sunt duratio motus, motus autem 
+      <lb ed="#R" n="75"/>non est in primo modo per se sua duratio, &amp; sic non 
+      <lb ed="#R" n="76"/>apparet, quare motus non posset a Deo fieri 
+      sine<lb ed="#R" n="77" break="no"/>prius &amp; post. 
+    </p>
+               <p>
+                  <lb ed="#R" n="78"/>Ergo capio rationem aliam, eundo ad illa, quae 
+      <lb ed="#R" n="79"/>sunt de essentia motus, arguo ergo sic. De 
+      quid<lb ed="#R" n="80" break="no"/>ditate motus est, quod sit actus mixtus potentiae, 
+      <lb ed="#R" n="81"/>motus enim est actus entis in potentia secundum 
+      <lb ed="#R" n="82"/>quod in potentia 3. physic. tex. 6. hinc est quod om 
+      <lb ed="#R" n="83"/>ne, quod mouetur, partim est in termino a 
+      quo<lb ed="#R" n="84" break="no"/>&amp; partim in termino ad quem 9. metaph. &amp; tex. 12. &amp; 
+      <lb ed="#R" n="85"/>6. phys. tex. 40. &amp; alibi in eodem libro. &amp; ratio 
+      hu<lb ed="#R" n="86" break="no"/>ius est, quia moueri de ratione sua habet, quod sit 
+      <lb ed="#R" n="87"/>actus incompletus expectans vlterius complemen 
+      <lb ed="#R" n="88"/>tum. Tunc sic: Illud est impossibile fieri circa 
+      mo<lb ed="#R" n="89" break="no"/>tum, quo posito motus non remanet actus permixtus 
+      <lb ed="#R" n="90"/>potentiae: ergo. Maior nota est ex immediate 
+      prae<lb ed="#R" n="91" break="no"/>missis. Minorem probo, quia de ratione potentiae 
+      <lb ed="#R" n="92"/>est quod careat actu 9. met. tex. 10. quod enim est 
+      <lb ed="#R" n="93"/>in potentia, est in opposita dispositione ei, in qua est, 
+      <lb ed="#R" n="94"/>dum est in actu: ergo de ratione permixti cum 
+      po<lb ed="#R" n="95" break="no"/>tentia est, quod careat aliquo actu &amp; vlteriori 
+      com<lb ed="#R" n="96" break="no"/>plemento. &amp; ideo pro tanto motus est actus 
+      per<lb ed="#R" n="97" break="no"/>mixtus potentiae, quia est actus cum carentia com 
+      <lb ed="#R" n="98"/>plementi: sed si motus esset, siue fieret in instanti, 
+      <lb ed="#R" n="99"/>non esset ibi carentia, &amp; expecatio vlterioris actus, 
+      <lb ed="#R" n="100"/>immo esset omnino in actu completo, &amp; nihil pror 
+      <lb ed="#R" n="101"/>sus explicaret: ergo ibi nulla esset potentia 
+      commix<lb ed="#R" n="102" break="no"/>ta cum actu: ergo. Ergo impossibile est ex hac 
+      ra<lb ed="#R" n="103" break="no"/>tione motum fieri in instanti formaliter 
+      accipien<lb ed="#R" n="104" break="no"/>do motum, &amp; hoc intendunt primi. 
+    </p>
+               <p>
+                  <lb ed="#R" n="105"/>Secundo, Quantum ad secundum membrum 
+      <lb ed="#R" n="106"/>non video, quod inconueniens sit, quod motus quam 
+      <lb ed="#R" n="107"/>tum ad suum materiale fiat in instanti: nam 
+      ma<lb ed="#R" n="108" break="no"/>teriale in motu ad locum sunt ipsae vbeitates: 
+      mo<lb ed="#R" n="109" break="no"/>do ego non video inconueniens, quod Deus faciat, 
+      <lb ed="#R" n="110"/>quod aliquod mobile acquirat in eodem instanti 
+      <lb ed="#R" n="111"/>omnes vbeitates, quas acquisiuisset ordinate per 
+      <lb ed="#R" n="112"/>motum. Vnde quoad materiale dico, quod credo, 
+      <lb ed="#R" n="113"/>quod Deus potest facere, quod in eodem insanti, 
+      <lb ed="#R" n="114"/>quo corpus est hic in ista vbeitate prima, sit 
+      in<lb ed="#R" n="115" break="no"/>vbeitate vltima, &amp; in vbeitate qualibet 
+      interme<lb ed="#R" n="116" break="no"/>diae. Probo, quia ex hoc non videtur lequi aliud im 
+      <lb ed="#R" n="117"/>possibile, nisi quod illud corpus fieret simul in 
+      di<lb ed="#R" n="118" break="no"/>uersis. vbi: sed probatum est supra, quod hoc 
+      face<lb ed="#R" n="119" break="no"/>re non repugnat potentiae diuinae: ergo. Et ad hoc 
+      <lb ed="#R" n="120"/>vadunt alij de secunda opinione. 
+    </p>
+               <p>
+                  <lb ed="#R" n="121"/>Secunda Propositio est, quod Deus potest 
+      cor<lb ed="#R" n="122" break="no"/>pus transferre de loco ad locum, siue de extremo 
+      <lb ed="#R" n="123"/>ad extremum absque hoc, quod transferat per me 
+      <lb ed="#R" n="124"/>dium. Hanc conclusionem probo, quia non est 
+      ma<lb ed="#R" n="125" break="no"/>gis ordo essentialis inter istum locum extremum 
+      <lb ed="#R" n="126"/>&amp; medium, quam sit ordo essentialis inter formas, 
+      <lb ed="#R" n="127"/>scilicet foruiae extremae ad mediam: sed Deus 
+      po<lb ed="#R" n="128" break="no"/>test facere, quod materia transeat de prima 
+      for<lb ed="#R" n="129" break="no"/>ma ad vltimam, absque hoc quod pertranseat per 
+      <lb ed="#R" n="130"/>mediam. Probo: Inter formam enim virgae, &amp; 
+      for<lb ed="#R" n="131" break="no"/>mam serpentis sunt multae formae mediae necessariae 
+      <lb ed="#R" n="132"/>secundum naturam, &amp; tamen Deus facit materiam, 
+      <lb ed="#R" n="133"/>quae erat sub forma virgae, immediate transire de 
+      <lb ed="#R" n="134"/>forma virgae ad formam serpentis, praetermissso 
+      <!--0232.xml-->
+      <pb ed="#R" n="232"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>omni ordine formarum mediarum: ergo non 
+      mi<lb ed="#R" n="2" break="no"/>nus potest Deus facere corpus existens sub vno vbi 
+      <lb ed="#R" n="3"/>transire ad extremum vbi, praetermisso ordine 
+      me<lb ed="#R" n="4" break="no"/>diorum: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="5"/>Item secundo ad idem, quia licet ordo extremi 
+      <lb ed="#R" n="6"/>vbi ad medium vbi, insit extremo vbi in secundo 
+      <lb ed="#R" n="7"/>modo per se, tamen extremum vbi non est ordo 
+      il<lb ed="#R" n="8" break="no"/>le, nec ipsa vbi media in primo modo dicendi per 
+      <lb ed="#R" n="9"/>se: ergo nulla est contradictio, quod in 
+      corpore<lb ed="#R" n="10" break="no"/>dato aliquo fiat extremum vbi, &amp; non fiat medium 
+      <lb ed="#R" n="11"/>vbi, quia ibi contradictoria non erunt vera de 
+      <lb ed="#R" n="12"/>codem 
+    </p>
+               <p>
+                  <lb ed="#R" n="13"/>Vltima propositio est, quod corpora beatorum 
+      <lb ed="#R" n="14"/>per modum agilitatis non poterunt moueri 
+      celer<lb ed="#R" n="15" break="no"/>rime, nec etiam poterunt moueri ab extremo in 
+      <lb ed="#R" n="16"/>extremum non transeundo per medium: ratio est, 
+      <lb ed="#R" n="17"/>quia talis motus possibilis est praecise fieri per diui 
+      <lb ed="#R" n="18"/>nam virtutem: sed motus, qui per dotem agilitatis erit, 
+      <lb ed="#R" n="19"/>erit ab anima interueniente dispositione corporis 
+      <lb ed="#R" n="20"/>neutri, &amp; animae vigoratione, ex quo infero, quod 
+      <lb ed="#R" n="21"/>ex hoc poterunt celerrime moueri. Dico tamen 
+      <lb ed="#R" n="22"/>quod Deus spirituali virtute assistet eis quandoq. 
+      <lb ed="#R" n="23"/>vt quando voluerint moueri in iustanti, vel de 
+      ex<lb ed="#R" n="24" break="no"/>tremo ad extremum sine medio, confestim possint, 
+      <lb ed="#R" n="25"/>non virtute propria, sed Deo eis ad nutum assisten 
+      <lb ed="#R" n="26"/>te. Sed nunquid mouebuntur ab anima non 
+      orga<lb ed="#R" n="27" break="no"/>nice 
+    </p>
+               <p>
+                  <lb ed="#R" n="28"/>Dicunt quidam, quod mouebuntur progressiue 
+      <lb ed="#R" n="29"/>faciendo passus per aerem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="30"/>Alij dicunt, quod anima poterit totum corpus 
+      <lb ed="#R" n="31"/>mouere immediate, &amp; non partem mediante alia 
+      <lb ed="#R" n="32"/>parte. Et hoc videtur habere circunstantia 
+      Scri<lb ed="#R" n="33" break="no"/>pturae, quae ponit corpus Cristi eleuatis manibus 
+      <lb ed="#R" n="34"/>ferri in caelum, non progressiuis passibus.
+    </p>
+               <p>
+                  <lb ed="#R" n="35"/>Dico circa hoc, quod ponenda est nobilitas 
+      ma<lb ed="#R" n="36" break="no"/>ior circa corpora beatorum, si tamen non appareat 
+      <lb ed="#R" n="37"/>impossibilitas, sed possibile est, quod anima imme 
+      <lb ed="#R" n="38"/>diate moueat corpus aliquod, ita quod ipsa sit pri 
+      <lb ed="#R" n="39"/>mo mouens, corpus vero sit primo motum, &amp; hoc 
+      <lb ed="#R" n="40"/>secundum totum, non pars mediate parte: ergo. 
+      <lb ed="#R" n="41"/>Assumptum probaui supra per Philosophum, &amp; 
+      <lb ed="#R" n="42"/>Commentatorem, quod anima immediate spiritum 
+      <lb ed="#R" n="43"/>mouet in musculis, &amp; lacertis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="44"/>Sed hic dubium, quod Aristoteles in libro de 
+      <lb ed="#R" n="45"/>motu animalium cap. 1. dicit, quod in talibus prae 
+      <lb ed="#R" n="46"/>ter mouens immobile oportet dare aliquod extrin 
+      <lb ed="#R" n="47"/>secum cui innitatur, &amp; apodietur, ideo homo non 
+      <lb ed="#R" n="48"/>bene mouetur per aerem, vel per aquam, &amp; hoc 
+      <lb ed="#R" n="49"/>modo videtur debere dici de corpore glorioso, 
+      <lb ed="#R" n="50"/>quod ad hoc, quod moueatur, oportet dare 
+      ali<lb ed="#R" n="51" break="no"/>quod extrinsecum, super quod figatur, &amp; tunc 
+      pos<lb ed="#R" n="52" break="no"/>set dici, quod sicut falco volando iungit alas, &amp; 
+      fi<lb ed="#R" n="53" break="no"/>gendo se super aerem quodam sorti impulsu volat 
+      <lb ed="#R" n="54"/>magnum spatium virtute illius quasi ad modum 
+      <lb ed="#R" n="55"/>sagittae; sic corpus gloriosum, quod figeret se 
+      su<lb ed="#R" n="56" break="no"/>per aliquid immobile: &amp; sicut anima aliquam 
+      <lb ed="#R" n="57"/>partem corporis puta pedem infigendo super 
+      ae<lb ed="#R" n="58" break="no"/>rem vel super terram, impelleret corpus ipsum, &amp; 
+      <lb ed="#R" n="59"/>hoc modo moueret corpus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="60"/>Vel aliter posset dici, quod Aristoteles ibi non 
+      <lb ed="#R" n="61"/>intelligit de primo moto ab anima, quod est ipse 
+      <lb ed="#R" n="62"/>spiritus, vel si quod aliud sit ponere, solum autem 
+      <lb ed="#R" n="63"/>intelligit de motu progressiuo, non de motu alicu 
+      <lb ed="#R" n="64"/>ius totius primo moti ab anima, licet ipse videatur 
+      <lb ed="#R" n="65"/>loqui absolute de omni motu, propter quod 
+      pro<lb ed="#R" n="66" break="no"/>bat, quod anima semper mouet corpus in ordine 
+      <lb ed="#R" n="67"/>ad aliquid immobile in ipso musculo, &amp; ad vnum 
+      <!--0232.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>punctum, &amp; ibidem ex hoc infert, quod etiam 
+      re<lb ed="#R" n="69" break="no"/>spectu motus caeli, oportet dare aliquid intrinsecum 
+      <lb ed="#R" n="70"/>immobile. Si hoc Aristoteles intelligat, vel si 
+      ali<lb ed="#R" n="71" break="no"/>ter exponendus sit, videte vos ipsi. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

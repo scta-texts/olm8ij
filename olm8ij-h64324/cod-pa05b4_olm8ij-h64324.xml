@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="187"/>
+            <cb ed="#R" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h64324"> <!-- l4-d39q1 -->
+            <head>Quaestio 1</head>
+            <p>
+               <lb ed="#R" n="94"/>Quaestio Vnica. 
+    </p>
+            <div>
+               <head>Articulus 1</head>
+               <head type="question-title">
+        Verum disparitas cultus impediat 
+        matrimonium
+      </head>
+               <p>
+                  <lb ed="#R" n="95"/>ARTICVLVS VNJCVS. 
+      <lb ed="#R" n="96"/>Verum disparitas cultus impediat 
+      matrimo<lb ed="#R" n="97" break="no"/>nium 
+    </p>
+               <p>
+                  <lb ed="#R" n="98"/>ARGVO quod non, quia 
+      <lb ed="#R" n="99"/>inter christianam, &amp; 
+      haereti<lb ed="#R" n="100" break="no"/>cam est dispar cultus, &amp; 
+      ta<lb ed="#R" n="101" break="no"/>mem ibi tenet matrimonium: 
+      <lb ed="#R" n="102"/>ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="103"/>In oppositum est, quia illud, 
+      <lb ed="#R" n="104"/>quod impedit debitam 
+      obser<lb ed="#R" n="105" break="no"/>uationem Nouae Legis, 
+      vide<lb ed="#R" n="106" break="no"/>tur impedire matrimonium: sed disparitas cultus 
+      <lb ed="#R" n="107"/>est huiusmodi: ergo. Respondeo, in ista 
+      quaestio<lb ed="#R" n="108" break="no"/>ne ponam tres propositiones. 
+    </p>
+               <p>
+                  <lb ed="#R" n="109"/>Prima est, quod inter infideles est verum 
+      matri<lb ed="#R" n="110" break="no"/>monium, prout matrimonium est obligatio 
+      proue<lb ed="#R" n="111" break="no"/>niens ex iure naturae, non autem prout 
+      matrimo<lb ed="#R" n="112" break="no"/>nium est Sacramentum Nouae Legis. Primum 
+      pro<lb ed="#R" n="113" break="no"/>bo, quia illud quod est de iure naturae, est idem apud 
+      <lb ed="#R" n="114"/>omnes, nec variatur propter specialem ritum, hoc 
+      <lb ed="#R" n="115"/>patet expresse 5. Ethic. cap. 7. sed matrimonium 
+      <lb ed="#R" n="116"/>est huiusmodi, vt supra probatum est: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="117"/>Secundum probo, quod non sit Sacramentum 
+      <lb ed="#R" n="118"/>Nouae Legis, quia quando aliqua sic sunt ordinata, 
+      <lb ed="#R" n="119"/>quod vnum est primum, &amp; aliud est secundum quasi 
+      <lb ed="#R" n="120"/>fundatum super primum, vt super fundamentum, 
+      <lb ed="#R" n="121"/>si non sit primum, non potest esse secundum: sed 
+      <lb ed="#R" n="122"/>omnia Sacramenta Ecclesiae fundantur in 
+      baptis<lb ed="#R" n="123" break="no"/>mo, sicut quaedam secundaria in primo: ergo vbi 
+      <lb ed="#R" n="124"/>desit baptismus, non possunt esse alia Sacramenta: 
+      <!--0188.xml-->
+      <pb ed="#R" n="188"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>sed infidelis non suscipit baptismum: ergo vbi 
+      vter<lb ed="#R" n="2" break="no"/>que coniugum vel alter sit infidelis, non estt vera 
+      <lb ed="#R" n="3"/>ratio matrimonii Nouae Legis: illud ergo 
+      matri<lb ed="#R" n="4" break="no"/>monium bene habet bona naturae, non habet bona 
+      <lb ed="#R" n="5"/>gratiae; &amp; cum gratia perficiat naturam, sequitur 
+      <lb ed="#R" n="6"/>quod ibi non est perfectum bonum matrimonij, nec 
+      <lb ed="#R" n="7"/>per consequens perfectum matrimonium. Sed 
+      vi<lb ed="#R" n="8" break="no"/>detur, quod etiam ibi non sit bonum naturale 
+      ma<lb ed="#R" n="9" break="no"/>trimonij, quod est bonum prolis, quia infidelis edu 
+      <lb ed="#R" n="10"/>cat prolem in' contumeliam creatoris. Similiter 
+      <lb ed="#R" n="11"/>non est ibi bonum fidei, cum sint infideles. 
+    </p>
+               <p>
+                  <lb ed="#R" n="12"/>Ad primum horum dico, quod imo sit ibi bonum 
+      <lb ed="#R" n="13"/>prolis, &amp; hoc secundum esse boni moralis, 
+      quia<lb ed="#R" n="14" break="no"/>possunt educari in bono moris, puta in actibus 
+      vir<lb ed="#R" n="15" break="no"/>tuosis moraliter. 
+    </p>
+               <p>
+                  <lb ed="#R" n="16"/>Ad secundum, bonum matrimonii, quod estt 
+      fi<lb ed="#R" n="17" break="no"/>des, non est fides, qua distinguitur Christianus 
+      fide<lb ed="#R" n="18" break="no"/>lls ab infideli, sed fidelitas quaedam, qua aliquis 
+      di<lb ed="#R" n="19" break="no"/>citur esse fidelis alteri, &amp; seruare fidem illi. 
+    </p>
+               <p>
+                  <lb ed="#R" n="20"/>Secunda Propositio est, quod fidelis non potest 
+      <lb ed="#R" n="21"/>contrahere cum infideli, &amp; si contrahat de facto, 
+      <lb ed="#R" n="22"/>matrimonium nullum est: Ratio est, quia 
+      Sacramen<lb ed="#R" n="23" break="no"/>tum matrimonij habet pro fine bonum prolis, non 
+      <lb ed="#R" n="24"/>solum quo ad esse naturae, vel moris, sed quo ad bo 
+      <lb ed="#R" n="25"/>num gratiae, bonum gratiae ibi non est, 
+      praesumen<lb ed="#R" n="26" break="no"/>dum est enim, quod si mater sit infidelis, educabit 
+      <lb ed="#R" n="27"/>prolem in his, quae sunt contra fidem. Similiter si 
+      <lb ed="#R" n="28"/>pater sit infidelis, poterit filium rapere, &amp; educare 
+      <lb ed="#R" n="29"/>illum in contumeliam fidei Christianae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="30"/>Item est contra bonum matrimonij, quod est 
+      <lb ed="#R" n="31"/>vnio anima ad Deum per gratiam, quia 
+      consueue<lb ed="#R" n="32" break="no"/>runt coniuges, quando multum se diligunt, mutuo 
+      <lb ed="#R" n="33"/>se trahere ad vnum ritum, &amp; tunc quandoque 
+      for<lb ed="#R" n="34" break="no"/>te infid elis traheret fidelem ad apostasiam a fide: 
+      <lb ed="#R" n="35"/>haec est ratio inductiua legislatoris: sed ratio 
+      obli<lb ed="#R" n="36" break="no"/>gatiua, &amp; completiua est auctoritas Ecclesiae, quae 
+      <lb ed="#R" n="37"/>hoc statuit inducta ex his rationibus duabus, 
+      qua<lb ed="#R" n="38" break="no"/>re in hoc casu dirimitur matrimonium, si de facto 
+      <lb ed="#R" n="39"/>contrahat cum infideli, &amp; hoc loquendo de 
+      infide<lb ed="#R" n="40" break="no"/>litate praeueniente matrimonium. 
+    </p>
+               <p>
+                  <lb ed="#R" n="41"/>Tertia Propositio est, quod si inter infideles sit 
+      <lb ed="#R" n="42"/>contractum matrimonium, &amp; alter coniugum 
+      <lb ed="#R" n="43"/>conuertatur ad fidem, in potestate eius est 
+      dirime<lb ed="#R" n="44" break="no"/>re matrimonium coniuge remanente in 
+      infidelita<lb ed="#R" n="45" break="no"/>te quantum ad thorum, &amp; colabitationem, non 
+      <lb ed="#R" n="46"/>autem quantum ad vinculum. Vnde posito, quod 
+      <lb ed="#R" n="47"/>alter velit contrahere secum sine contumelia Crea 
+      <lb ed="#R" n="48"/>toris, &amp; inductione ad sectam suam, si fidelis vult, 
+      <lb ed="#R" n="49"/>poterit cohabitare; si non vult, potest discedere 
+      <lb ed="#R" n="50"/>Ratio est, quia infidelitas est quaedam specialis 
+      for<lb ed="#R" n="51" break="no"/>nicatio: licet autem causa fornicationis 
+      dimitte<lb ed="#R" n="52" break="no"/>re vxorem suam quo ad thorum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="53"/>Alia ratio est, quia maior est obligatio 
+      homi<lb ed="#R" n="54" break="no"/>nis ad Deum per baptismum, quam alteri 
+      homi<lb ed="#R" n="55" break="no"/>ni per coniugium, &amp; ideo per istud vinculum 
+      po<lb ed="#R" n="56" break="no"/>test tolli illud. 
+    </p>
+               <p>
+                  <lb ed="#R" n="57"/>Sed nunquid potes postea contrahere cum 
+      <lb ed="#R" n="58"/>alia? Dico, quod non, si infidelis velit 
+      cohabi<lb ed="#R" n="59" break="no"/>tare sine contumelia creatoris, &amp; inductionis ad 
+      <lb ed="#R" n="60"/>aposasiam: si autem non velit cohabitare sine 
+      <lb ed="#R" n="61"/>contumelia, tunc rumpitur matrimonium, &amp; 
+      tol<lb ed="#R" n="62" break="no"/>litur totaliter quo ad vinculum, &amp; potest cum 
+      <lb ed="#R" n="63"/>alia contrahere.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

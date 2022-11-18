@@ -1,0 +1,1233 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="135"/>
+            <cb ed="#R" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h46361"> <!-- l4-d15q1 -->
+            <head>Quaestio 1</head>
+            <div>
+               <head>Articulus 1</head>
+               <head type="question-title">
+      Utrum satis factio sit pars paenitentiae.
+    </head>
+               <p>
+                  <lb ed="#R" n="86"/>ARTICVLVUS I. 
+      <lb ed="#R" n="87"/>Vtrum satis factio sit pars paenitentiae.
+    </p>
+               <p>
+                  <lb ed="#R" n="88"/>VANTVM ad primam 
+      <lb ed="#R" n="89"/>
+                  <!-- line coord error -->
+                  <lb ed="#R" n="90"/>arguo primo, quod non, 
+    <lb ed="#R" n="91"/>
+                  <!-- line coord error -->
+                  <lb ed="#R" n="92"/>sic: Illud non est pars 
+    pae<lb ed="#R" n="93" break="no"/>
+                  <!-- line coord error -->
+                  <lb ed="#R" n="94"/>
+                  <!-- line coord error -->
+                  <lb ed="#R" n="95"/>nitentiae, quod est in se im 
+      <lb ed="#R" n="96"/>possibile: sed satisfactio 
+    <lb ed="#R" n="97"/>
+                  <!-- line coord error -->
+                  <lb ed="#R" n="98"/>est huiusmodi: ergo. 
+      Mi<lb ed="#R" n="99" break="no"/>nor probatur, quia culpa 
+      <lb ed="#R" n="100"/>est infinita. Et confirmo, 
+      <lb ed="#R" n="101"/>quia virtus non est de im 
+      <lb ed="#R" n="102"/>possibili, licet sit de bono difficili. 2. Ethic. c. 1. 
+    </p>
+               <p>
+                  <lb ed="#R" n="103"/>In oppositum est, quia ostensum est supra, quod 
+      <lb ed="#R" n="104"/>poenitentia adaequat, siue reducit inaequalitatem 
+      <lb ed="#R" n="105"/>ad aequalitatem inter Deum, &amp; hominem: sed 
+      sa<lb ed="#R" n="106" break="no"/>tisfactio non est aliud, quam satis adaequatio: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="107"/>Respondeo, pono tres propositiones. Prima est 
+      <lb ed="#R" n="108"/>haec: Satisfactio est pars poenitentiae voluntaria 
+      <lb ed="#R" n="109"/>Dico voluntaria, quia non a Iudice inflicta, sed a 
+      <lb ed="#R" n="110"/>se assumpta. Hanc probo capiendo istam 
+      propo<lb ed="#R" n="111" break="no"/>sitionem: Omnis actus, qui mox nominatus 
+      con<lb ed="#R" n="112" break="no"/>uolutus cum bono, &amp; est adaequatiuus illius 
+      inae<lb ed="#R" n="113" break="no"/>qualitatis, quam inducit peccatum, est actus 
+      poe<lb ed="#R" n="114" break="no"/>nitentiae: sed satisfactio est huiusmodi: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="115"/>Declaro maiorem, quantum ad illius 
+      conditio<lb ed="#R" n="116" break="no"/>nes, quae ponuntur in illa maiori. Prima est: 
+      om<lb ed="#R" n="117" break="no"/>nis actus, qui mox nominatus est conuolutus cum 
+      <lb ed="#R" n="118"/>bono. Hoc dico, quia Aristoteles a. Ethic. c. s. dicit, 
+      <lb ed="#R" n="119"/>quod aliqui actus sunt tales, qui mox nominati 
+      <lb ed="#R" n="120"/>sunt conuoluti cum malo, vt homicidium, &amp; 
+      huius<lb ed="#R" n="121" break="no"/>modi non possunt esse actus virtutis. Quidam 
+      au<lb ed="#R" n="122" break="no"/>tem sunt, qui mox nominati sunt conuoluti cum 
+      <lb ed="#R" n="123"/>bono ex obiecto, sed non ex circumstantia, vt 
+      da<lb ed="#R" n="124" break="no"/>re eleemosynam es actus bonus ex obiecto, sed 
+      <lb ed="#R" n="125"/>non ex circumstantia, quia ex circumstantia 
+      po<lb ed="#R" n="126" break="no"/>test esse bonus, vt dare propter Deum; &amp; malus, 
+      <lb ed="#R" n="127"/>vt dare propter vanam gloriam, &amp; talis actus 
+      po<lb ed="#R" n="128" break="no"/>test esse actus virtutis, &amp; vitij. Quidam autem 
+      <lb ed="#R" n="129"/>sunt actus, qui statim nominati sunt conuoluti 
+      <lb ed="#R" n="130"/>cum bono tam ex obiecto, quam ex 
+      circumstan<lb ed="#R" n="131" break="no"/>tia, &amp; huiusmodi important, &amp; concludunt in se- 
+      <!--0136.xml-->
+      <pb ed="#R" n="136"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>formam uirtutis, quae est medium datum a recta 
+      <lb ed="#R" n="2"/>ratione, &amp; de isttis est satisfactio, quae non tantum 
+      <lb ed="#R" n="3"/>nominat bonitatem ex obiecto, quod est 
+      inaequali<lb ed="#R" n="4" break="no"/>tatem reducere ad aequalitatem, sed addit istam 
+      <lb ed="#R" n="5"/>conditionem satis, quae excludit omnem defectum 
+      <lb ed="#R" n="6"/>circumstantiae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="7"/>Propter istam diuersitatem actuum posui in 
+      <lb ed="#R" n="8"/>propositione. Omnis actus mox nominatus cum 
+      <lb ed="#R" n="9"/>bono inuolutus, &amp; adaequatiuus illius 
+      inaequalita<lb ed="#R" n="10" break="no"/>tis, quam inducit peccatum est actus poenitentiae: 
+      <lb ed="#R" n="11"/>talis ergo actus, quia adaequatiuus est, est actus 
+      <lb ed="#R" n="12"/>iustitiae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="13"/>Item dixi, quam induxit peccatum, per quod 
+      <lb ed="#R" n="14"/>designatur istum actum esse iustitiae vindicatiuae: 
+      <lb ed="#R" n="15"/>non enim omnis iustitia inaequalitatem adaequat: 
+      <lb ed="#R" n="16"/>bene enim adaequat simpliciter, vt est in omni 
+      con<lb ed="#R" n="17" break="no"/>mutatione, sed non reducit inaequalitatem ad 
+      ae<lb ed="#R" n="18" break="no"/>qualitatem, quia non praesupponitur inaequalitas 
+      <lb ed="#R" n="19"/>fuisse. Hic autem supponitur fuisse, quia dicit 
+      inae<lb ed="#R" n="20" break="no"/>qualitatis, quam inducit peccatum; nunquam 
+      au<lb ed="#R" n="21" break="no"/>tem inaequalitas adaequatur, nisi per vindictam, &amp; 
+      <lb ed="#R" n="22"/>ita est iustitia vindicatiua. 
+    </p>
+               <p>
+                  <lb ed="#R" n="23"/>Nunc autem vindicatio, vel est ab alio in 
+      pecca<lb ed="#R" n="24" break="no"/>tum alienum, vel a se in peccatum proprium. 
+      Pri<lb ed="#R" n="25" break="no"/>mo modo, sicut facit Judex vi, &amp; auctoritate legis, 
+      <lb ed="#R" n="26"/>&amp; Machabaei, &amp; Moyses personae priuatae propter 
+      <lb ed="#R" n="27"/>defecum personae communis, &amp; talis iustitia 
+      dici<lb ed="#R" n="28" break="no"/>tur vindicatiua absolute; vel est a se in se, &amp; talis est 
+      <lb ed="#R" n="29"/>poenitentia, iustitia scilicet vindicatiua in peccatum 
+      <lb ed="#R" n="30"/>proprium, ideo dixi, quam induxit peccatum. 
+      Mi<lb ed="#R" n="31" break="no"/>nor patet ex supradictis, quia satisfactio debet esse 
+      <lb ed="#R" n="32"/>reductiua inaequalitatis ad aequalitatem 
+      sufficien<lb ed="#R" n="33" break="no"/>ter, &amp; perfecte, &amp; ideo dicitur satisfactio. 
+    </p>
+               <p>
+                  <lb ed="#R" n="34"/>Secunda Propositio est, quod iste actus 
+      satisfa<lb ed="#R" n="35" break="no"/>ctionis debet esse per opera poenalia. Probo, quia 
+      <lb ed="#R" n="36"/>satis factio debet esse reductiua inaequalitatis ad 
+      ae<lb ed="#R" n="37" break="no"/>qualitatem sufficienter, &amp; perfecte, &amp; ideo dicitur 
+      <lb ed="#R" n="38"/>satis: sed nisi concurrerent opera poenalia, non esset 
+      <lb ed="#R" n="39"/>ibi satis. Probo: Illa enim inaequalitas est ex hoc, 
+      <lb ed="#R" n="40"/>quod homo subtraxit Deo illud, quod sibi 
+      debeba<lb ed="#R" n="41" break="no"/>tur, &amp; ideo Deus habet minus, &amp; homo fit plus ha 
+      <lb ed="#R" n="42"/>bens, &amp; ideo oportet reduci ad aequalitatem, vt 
+      si<lb ed="#R" n="43" break="no"/>cut Deus habuit minus, scilicet obedientiam, quod 
+      <lb ed="#R" n="44"/>sibi debebatur, &amp; praeteritionem suae voluntatis, &amp; 
+      <lb ed="#R" n="45"/>peccator habuit plus, scilicet e xpletionem sui 
+      vo<lb ed="#R" n="46" break="no"/>ti, ideo oportet, quod ibi sit aliquid tale, vt fiat 
+      <lb ed="#R" n="47"/>expletio diuini voliti cum volito peccatoris, 
+      scili<lb ed="#R" n="48" break="no"/>cet cum actu doloris, &amp; paenae, quia tristitia est 
+      de<lb ed="#R" n="49" break="no"/>ijs, quae nobis nolentibus accidunt, talia sunt opera 
+      <lb ed="#R" n="50"/>poenalia: ergo sic reducunt ad aequalitatem. 
+      Ta<lb ed="#R" n="51" break="no"/>lia autem sunt tria in genere, oratio, ieiunium, &amp; 
+      <lb ed="#R" n="52"/>eleemosyna. 
+    </p>
+               <p>
+                  <lb ed="#R" n="53"/>Sub Oratione continentur omnes actus 
+      interio<lb ed="#R" n="54" break="no"/>res, vt tristari, dolere, adoratio, cultus, &amp; latria. Per 
+      <lb ed="#R" n="55"/>eleemosynam intelliguntur omnia, quae fiunt in 
+      pro<lb ed="#R" n="56" break="no"/>ximum. Per ieiunium omnia laboriosa. 
+    </p>
+               <p>
+                  <lb ed="#R" n="57"/>Sufficientia horum est multiplex, quia causae pec 
+      <lb ed="#R" n="58"/>cati sunt tres. Concupiscentia carnis, oculorum, &amp; 
+      <lb ed="#R" n="59"/>superbia vitae. Contra primum est ieiunium: contra 
+      <lb ed="#R" n="60"/>secundum eleemosyna: contra tertium oratio. 
+    </p>
+               <p>
+                  <lb ed="#R" n="61"/>Item satisfactio debet esse de bonis animae, sicut 
+      <lb ed="#R" n="62"/>oratio, vel corporis, vt ieiunium, vel fortunae, &amp; sic 
+      <lb ed="#R" n="63"/>eleemosyna. 
+    </p>
+               <p>
+                  <lb ed="#R" n="64"/>Item peccator peccat contra Deum, &amp; sic 
+      satis<lb ed="#R" n="65" break="no"/>facit per orationem. Contra proximum, &amp; sic 
+      sa<lb ed="#R" n="66" break="no"/>tisfacit per eleemosynam. Contra se, &amp; sic 
+      satisfa<lb ed="#R" n="67" break="no"/>cit per ieiunium. 
+    </p>
+               <p>
+                  <lb ed="#R" n="68"/>Tertia Propositio est, quod satisfactio est possi- 
+      <!--0136.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>bilis homini viatori, idest peccator potest Deo 
+      sa<lb ed="#R" n="70" break="no"/>tisfacere. Hoc dico, quia aliqui dicunt, quod non, 
+      <lb ed="#R" n="71"/>sed solum in virtute passionis Cristi potest 
+      satisfa<lb ed="#R" n="72" break="no"/>cere, quia omnia, quae secit Christus tenebatur face 
+      <lb ed="#R" n="73"/>re. Ideo alij dicunt, quod haec satisfactio non est 
+      se<lb ed="#R" n="74" break="no"/>cundum rem, sed solum secundum interpretationem, 
+      <lb ed="#R" n="75"/>&amp; interpretatiue. Alij &amp; melius, quod satisfactio 
+      <lb ed="#R" n="76"/>potest considerari dupliciter, secundum rem, vel 
+      <lb ed="#R" n="77"/>secundum proportionem. Secundum enim Arist. 5. 
+      <lb ed="#R" n="78"/>Ethic. cap. 4. duplex est aequalitas, scilicet secundum 
+      <lb ed="#R" n="79"/>rem, vt quando datur tantum pro tanto, vel tale 
+      <lb ed="#R" n="80"/>pro quali. Secundo, secundum proportionem, vt 
+      <lb ed="#R" n="81"/>est inter superiorem &amp; inferiorem. Si enim tu 
+      la<lb ed="#R" n="82" break="no"/>uas pedes Regi, ipse non debet tibi idem facere, sed 
+      <lb ed="#R" n="83"/>suum est tibi dare, quod congruit, &amp; tuum est sibi 
+      <lb ed="#R" n="84"/>seruire, vt decet. Sic in proposito, hic non est 
+      satis<lb ed="#R" n="85" break="no"/>factio aequalitatis secundum rem, sed secundum 
+      <lb ed="#R" n="86"/>proportionem, scilicet inter Deum &amp; hominem: 
+      <lb ed="#R" n="87"/>non enim oportet, quod sit ibi aequalitas, nec 
+      po<lb ed="#R" n="88" break="no"/>test esse, quia iniuria est infinita; sed sit quod 
+      de<lb ed="#R" n="89" break="no"/>cet, nec est possibile fieri, quod est secundum leges 
+      <lb ed="#R" n="90"/>amicitiae. Per hoc patet, quid dicendum ad 
+      argu<lb ed="#R" n="91" break="no"/>mentum, quia impossibile est aequalitatem 
+      pensa<lb ed="#R" n="92" break="no"/>tam secundum rem reddere, sed non est 
+      impossibi<lb ed="#R" n="93" break="no"/>le secundum proportionem. 
+    </p>
+            </div>
+            <div>
+               <head>Articulus 2</head>
+               <head type="question-title">
+      Utrum satisfactio sit possibilis fieri a nobis pro 
+      peccato.
+    </head>
+               <p>
+                  <lb ed="#R" n="94"/>ARTICVLVS II 
+      <lb ed="#R" n="95"/>Vtrum satisfactio sit possibilis fieri a nobis pro 
+      <lb ed="#R" n="96"/>peccato.
+    </p>
+               <p>
+                  <lb ed="#R" n="97"/>QVo ad secundam quaestionem arguo primo, 
+      <lb ed="#R" n="98"/>A quod satisfactio non sit possibilis fieri a 
+      <lb ed="#R" n="99"/>nobis pro peccato, quia nullus potest 
+      <lb ed="#R" n="100"/>satisfacere, qui non potest aequiualens culpae 
+      red<lb ed="#R" n="101" break="no"/>dere: sed homio non potest reddere aequiualens 
+      cul<lb ed="#R" n="102" break="no"/>pae, quia quicquid reddere valet homo, est finitum, 
+      <lb ed="#R" n="103"/>culpa autem est infinita: ergo. 
+  </p>
+               <p>
+                  <lb ed="#R" n="104"/>Contra est auctoritas Sanctorum &amp; Scripturae, 
+      <lb ed="#R" n="105"/>iuxta illud: Eleemosyna extinguit peccatum 
+      <lb ed="#R" n="106"/>&amp; alibi Sap. II. Disimulans peccata hominum 
+      <lb ed="#R" n="107"/>propter poenitentiam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="108"/>Respondeo, ponam tres propositiones. 
+    </p>
+               <p>
+                  <lb ed="#R" n="109"/>Prima est, quod satisfactio est posssibilis ex 
+      li<lb ed="#R" n="110" break="no"/>beralitate diuinae beneuolentiae: sed vtrum de 
+      ri<lb ed="#R" n="111" break="no"/>gore iustitiae, dico quod non absolute, &amp; 
+      omni<lb ed="#R" n="112" break="no"/>bus pensatis, nisi concurrente Cristi passione. 
+    </p>
+               <p>
+                  <lb ed="#R" n="113"/>Primam partem istius propositionis probo, 
+      <lb ed="#R" n="114"/>Quia maior est diuina beneuolentia in miserendo, 
+      <lb ed="#R" n="115"/>&amp; parcendo, quam humana: sed homo potest 
+      sa<lb ed="#R" n="116" break="no"/>tisfacere homini ex liberalitate eius, qui off
+      en<lb ed="#R" n="117" break="no"/>sus est, vnde potest sua liberalitate, &amp; 
+      permo<lb ed="#R" n="118" break="no"/>dica satisfactione quilibet remittere offensam 
+      <lb ed="#R" n="119"/>proximi, &amp; reducere ad gratiam: quanto ergo 
+      <lb ed="#R" n="120"/>magis Deus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="121"/>Secunda pars Propositionis est multum 
+      diffici<lb ed="#R" n="122" break="no"/>lis, dico tamen, quod absolute, &amp; omnibus 
+      pen<lb ed="#R" n="123" break="no"/>satis non potest de rigore iustitiae fieri satisfactio. 
+      <lb ed="#R" n="124"/>Ratio est ista: Satisfactio est impossibilis, nisi 
+      <lb ed="#R" n="125"/>supposita gratia ( nullus enim actus gratia non 
+      <lb ed="#R" n="126"/>informatus habet bonitatem aequantem actum 
+      <lb ed="#R" n="127"/>malitiae peccati) sed gratia non habetur de rigore 
+      <lb ed="#R" n="128"/>iustitiae, sed sola Dei gratuita voluntate, &amp; 
+      beneuo<lb ed="#R" n="129" break="no"/>lentia: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="130"/>Tertio dico: Praesupposita Christi passione, 
+      sa<lb ed="#R" n="131" break="no"/>tisfactio enim pro peccato totius naturae non 
+      po<lb ed="#R" n="132" break="no"/>tuit fieri per alium, quam in virtute eius, qui 
+      aequi<lb ed="#R" n="133" break="no"/>ualet toti naturae. Sed praesupposita passione 
+      <lb ed="#R" n="134"/>
+                  <!-- line coord error -->
+                  <!--0137.xml-->
+                  <pb ed="#R" n="137"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Christi, &amp; presupposita gratia, essne possibilis 
+      sa<lb ed="#R" n="2" break="no"/>tisfactio de rigore iustitiae? Dicunt quidam, quod 
+      <lb ed="#R" n="3"/>non, ratio eorum, quia nullus actus hominis, etiam 
+      <lb ed="#R" n="4"/>gratia praesupposita, est aequiualens in bonitate ma 
+      <lb ed="#R" n="5"/>litiae peccati, nec tantum ponderar in bonitate 
+      quan<lb ed="#R" n="6" break="no"/>tum actus peccati ponderat in malitia: ergo 
+      satis<lb ed="#R" n="7" break="no"/>factio vt reducens, &amp; faciens aequalitatem inter 
+      <lb ed="#R" n="8"/>Deum &amp; hominem, &amp; gratia praesuppossita 
+      possi<lb ed="#R" n="9" break="no"/>bilis non videtur. Quomodo ergo fatisfacit pec. 
+      <lb ed="#R" n="10"/>cator? Dicendum est secundum isos, quod 
+      satisfa<lb ed="#R" n="11" break="no"/>ctio fit ex sola Dei misericordia, &amp; beneuolentia 
+      <lb ed="#R" n="12"/>acceptante minimum pro maximo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="13"/>Sed opinionem istam non puto esse rationabilem. 
+      <lb ed="#R" n="14"/>Secundum enim Sanctos actus in gratia elicitus de 
+      <lb ed="#R" n="15"/>rigore iustitiae est satisfactiuus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="16"/>Et probo hoc ratione, sic: Rigor enim iustitiae 
+      exi<lb ed="#R" n="17" break="no"/>gir, quod actus satisfactiuus sit aequiualens in 
+      bo<lb ed="#R" n="18" break="no"/>nitate malitiae actui peccati: sed possibile est 
+      ha<lb ed="#R" n="19" break="no"/>bere actum gratia informatum, aequiualentem in 
+      <lb ed="#R" n="20"/>bonitate malitiae peccati: ergo. Probo minorem, 
+      <lb ed="#R" n="21"/>quia si actus gratia informatus non possit 
+      praepon<lb ed="#R" n="22" break="no"/>derare malitiae peccati, vel aequiualere, hoc est, 
+      <lb ed="#R" n="23"/>quia culpa est infinita, &amp; hoc vel ratione obiecti, 
+      <lb ed="#R" n="24"/>vel ratione sui, vel ratione operantis. Si primo 
+      <lb ed="#R" n="25"/>modo, non magis erit infinitus actus peccati in ma 
+      <lb ed="#R" n="26"/>litia, quam actus bonus gratia informatus in 
+      bo<lb ed="#R" n="27" break="no"/>nitate, quia vtrumque est in Deum obiectiue: ergo 
+      <lb ed="#R" n="28"/>si propter obiectum infinitum actus malitiae habet 
+      <lb ed="#R" n="29"/>infinitam malitiam, eadem ratione propter 
+      infi<lb ed="#R" n="30" break="no"/>nitatem obiecti habebit actus bonus infinitatem 
+      <lb ed="#R" n="31"/>bonam. 
+      <lb ed="#R" n="32"/>Secundo modo, puta ratione propriae entitatis 
+      <lb ed="#R" n="33"/>actus malitiae non est formaliter infinitus, sicut nec 
+      <lb ed="#R" n="34"/>acttus bonus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="35"/>Sed tertio modo posset intelligi infinitus actus 
+      <lb ed="#R" n="36"/>malitiae, quantum est ex parte operantis, hoc modo 
+      <lb ed="#R" n="37"/>quod quantumcumque augeretur actus bonus 
+      in<lb ed="#R" n="38" break="no"/>bonitate, numquam attingeret in bonitate gradum 
+      <lb ed="#R" n="39"/>malitiae, vt aequaret satisfaciendo. Ratio cuius est, 
+      <lb ed="#R" n="40"/>quia in commissione peccati est iniustitia magna 
+      <lb ed="#R" n="41"/>ex parte hominis. Quando vero homo elicit actum 
+      <lb ed="#R" n="42"/>bonum, non videtur, quod possit illam iustitiam 
+      <lb ed="#R" n="43"/>satisfaciendo ad aequare, quia nullus satisfacit 
+      ex<lb ed="#R" n="44" break="no"/>hibendo illud, ad quod alias, etiam si non esset 
+      <lb ed="#R" n="45"/>fienda satisfactio, teneretur. Sed homo dato, quod 
+      <lb ed="#R" n="46"/>non peccaret, teneretur Deo exhibere omnem 
+      <lb ed="#R" n="47"/>acum bonum, quem exhibet, &amp; plusquam 
+      exhi<lb ed="#R" n="48" break="no"/>beat: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="49"/>Ista ratio nos debet monere, quod licet de 
+      con<lb ed="#R" n="50" break="no"/>gruo, &amp; decenti homo obligetur ad impendendum 
+      <lb ed="#R" n="51"/>actum bonum, hoc tamen non est de rigore 
+      iusti<lb ed="#R" n="52" break="no"/>tiae, alias quilibet obligaretur ad intrandum 
+      reli<lb ed="#R" n="53" break="no"/>gionem, &amp; actus consimiles, qui sunt 
+      supereroga<lb ed="#R" n="54" break="no"/>tionis: ergo si ad tales actus non tenetur homo de 
+      <lb ed="#R" n="55"/>rigore iustitiae, si contingat quod post peccatum 
+      <lb ed="#R" n="56"/>eliciat talem actum, poterit sic intensum elicere in 
+      <lb ed="#R" n="57"/>bonitate, quod peccati malitiam adae quabit, &amp; per 
+      <lb ed="#R" n="58"/>consequens erit satisfactiuus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="59"/>Secunda Propositio est, quod satisfactio per 
+      ope<lb ed="#R" n="60" break="no"/>ra faca extra charitatem non est sufficiens. Ad 
+      cu<lb ed="#R" n="61" break="no"/>ius euidentiam moueo primo dubia contra eam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="62"/>Et primum est, quod sacerdos confitenti 
+      iniun<lb ed="#R" n="63" break="no"/>git poenitentiam, ante quam expletam confessus 
+      <lb ed="#R" n="64"/>committit nouum peccatum, illam postmodum 
+      <lb ed="#R" n="65"/>explet in peccato existens, nunquid iste non 
+      satis<lb ed="#R" n="66" break="no"/>facit complendo illam poenitentiam isto modo: &amp; 
+      <lb ed="#R" n="67"/>videtur quod sic, quia videtur, quod amplius ad 
+      <lb ed="#R" n="68"/>illam poenitentiam non teneatur, tum quia non- 
+      <!--0137.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>tenetur nisi ad poenam, culpa enim fuit remissa: 
+      <lb ed="#R" n="70"/>sed poena soluta est; tum quia sic est in humanis, 
+      <lb ed="#R" n="71"/>quod exsoluens alteri illud, ad quod obligatur ei, 
+      <lb ed="#R" n="72"/>quantumcumque sit inimicus, amplius non 
+      tene<lb ed="#R" n="73" break="no"/>tur, tum quia durum videtur, quod si clericus exsol 
+      <lb ed="#R" n="74"/>uat debitum horarum existens in peccato teneatur 
+      <lb ed="#R" n="75"/>illas postea iterare. 
+    </p>
+               <p>
+                  <lb ed="#R" n="76"/>Tertio, quia pone, quod faciens poenitentiam 
+      <lb ed="#R" n="77"/>iniunctam sibi in peccato, moriatur poenitentia 
+      <lb ed="#R" n="78"/>expleta, ramen cum nouo peccato, aut iste pro 
+      il<lb ed="#R" n="79" break="no"/>lis peccatis, de quibus poeuitentiam impositam 
+      <lb ed="#R" n="80"/>sibi egit, punitur in inferno, aut non: si non: ergo 
+      <lb ed="#R" n="81"/>satisfecit: si sic, aut temporaliter, aut 
+      aeternali<lb ed="#R" n="82" break="no"/>ter: si temporaliter, ergo quandoque remittetur: 
+      <lb ed="#R" n="83"/>ergo satisfactio praefuit. Si aeternaliter, videtur 
+      <lb ed="#R" n="84"/>iniustitia, quia expleta poenitentia non habet 
+      cul<lb ed="#R" n="85" break="no"/>pam, &amp; sic puniretur aeternaliter pro culpa 
+      re<lb ed="#R" n="86" break="no"/>misa. 
+    </p>
+               <p>
+                  <lb ed="#R" n="87"/>Respondeo ad ista, &amp; ad euidentiam 
+      proposi<lb ed="#R" n="88" break="no"/>tionis praemissae, quod Sancti dicere videntur 
+      ex<lb ed="#R" n="89" break="no"/>presse, quod velle satisfacere, &amp; cum hoc 
+      velle<lb ed="#R" n="90" break="no"/>esse in peccato, est non velle satis facere. Hanc 
+      <lb ed="#R" n="91"/>conclusionem probo ex dictis, quia satisfactio 
+      <lb ed="#R" n="92"/>non est possibilis, nisi ex diuina beneuolentia 
+      <lb ed="#R" n="93"/>vel ex rigore iustitiae, praesupposita passione 
+      Chri<lb ed="#R" n="94" break="no"/>sti, &amp; gratia. 
+    </p>
+               <p>
+                  <lb ed="#R" n="95"/>Sed existens cum proposito peccandi, &amp; existen 
+      <lb ed="#R" n="96"/>di in peccato, non est obiectum diuinae 
+      beneuolen<lb ed="#R" n="97" break="no"/>tiae, nec habet gratiam: ergo ei nullo illorum 
+      mo<lb ed="#R" n="98" break="no"/>dorum est possibilis satisfactio. 
+    </p>
+               <p>
+                  <lb ed="#R" n="99"/>Ad euidentiam ergo istius propositionis 
+      plenio<lb ed="#R" n="100" break="no"/>rem, distinguo de hoc, quod dicitur exisens 
+      in<lb ed="#R" n="101" break="no"/>peccato. Potest enim quis in peccato esse 
+      duplici<lb ed="#R" n="102" break="no"/>ter; vel actualiter, puta si sit in actua li proposito 
+      <lb ed="#R" n="103"/>peccandi, &amp; in peccato permanendi, &amp; tunc non 
+      <lb ed="#R" n="104"/>est dubium, quod ista vt sic satisfactio est 
+      impos<lb ed="#R" n="105" break="no"/>sibilis. Aut est in peccato habitualiter, &amp; hoc 
+      <lb ed="#R" n="106"/>dupliciter, vel sic, quod non habet actu 
+      contri<lb ed="#R" n="107" break="no"/>tionem de peccato, quod praefuit, nec etiam 
+      ha<lb ed="#R" n="108" break="no"/>bitu, hoc est, quod actum contritionis de illo 
+      pec<lb ed="#R" n="109" break="no"/>cato non praehabuit, ita quod comparando actum 
+      <lb ed="#R" n="110"/>peccati ad actum contritionis, vltimo fuit actus 
+      <lb ed="#R" n="111"/>peccati. Vel secundo, contritionem habet actu, 
+      <lb ed="#R" n="112"/>vel habitu, hoc est, quia prius habuit, ita quod 
+      <lb ed="#R" n="113"/>actus contritionis secutus est actum peccati. Si 
+      pri<lb ed="#R" n="114" break="no"/>mo modo, non est dubium, quod talis, etsi sit 
+      ha<lb ed="#R" n="115" break="no"/>bitualiter in peccato, satisfacere tamen non potest. 
+      <lb ed="#R" n="116"/>Ratio prius tacta est. 
+    </p>
+               <p>
+                  <lb ed="#R" n="117"/>Secundo vero modo, potest satisfacere cum 
+      <lb ed="#R" n="118"/>contritionem habet, vel habuit de peccato, 
+      li<lb ed="#R" n="119" break="no"/>cet non sit peccatum per confessionem deletum, 
+      <lb ed="#R" n="120"/>quia confiteri non vult eo, quod confiteri non 
+      te<lb ed="#R" n="121" break="no"/>netur, nisi semel in anno. 
+    </p>
+               <p>
+                  <lb ed="#R" n="122"/>Tunc ad dubia. Ad primum dico, quod etsi 
+      <lb ed="#R" n="123"/>exsoluat aliquis in peccato poenam impositam 
+      <lb ed="#R" n="124"/>non tamen satisfacit. nec hoc est durum, quia 
+      <lb ed="#R" n="125"/>si habet actu propositum peccandi, vel habitu, 
+      <lb ed="#R" n="126"/>Dico, dignum est, quod impotens reddatur ad 
+      sa<lb ed="#R" n="127" break="no"/>tisfaciendum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="128"/>Ad secundum de simili in humanis. Dico, 
+      <lb ed="#R" n="129"/>quod non est simile, quoniam ibi potest dari 
+      ae<lb ed="#R" n="130" break="no"/>quiualens, hic non, nisi beneuolentia diuina 
+      <lb ed="#R" n="131"/>vel gratia praesupposita. Existens autem in actu 
+      <lb ed="#R" n="132"/>peccati, vel habitu sine contritione, nec est 
+      be<lb ed="#R" n="133" break="no"/>neuolentiae diuinae obiectum, nec gratiae 
+      subie<lb ed="#R" n="134" break="no"/>ctum 
+    </p>
+               <p>
+                  <lb ed="#R" n="135"/>Ad illud de officio dico, quod non estt simile 
+      de<lb ed="#R" n="136" break="no"/>satisfaciendo pro peccato, &amp; de exequendo, quod ab 
+      <!--0138.xml-->
+      <pb ed="#R" n="138"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Ecclesia praeceptum est. Ecclesia enim absolute praeci 
+      <lb ed="#R" n="2"/>pit dici officium a clerico, nec praecipit, qui dicatur 
+      <lb ed="#R" n="3"/>sine peccato mortali. Similiter Ecclesia non 
+      prae<lb ed="#R" n="4" break="no"/>cipit, quod homo ieiunet in quadragesima sine pec 
+      <lb ed="#R" n="5"/>cato, &amp; ideo persoluens horas suas in peccato, &amp; 
+      <lb ed="#R" n="6"/>ieiunans in quadragesima in peccato debitum suum 
+      <lb ed="#R" n="7"/>exsoluit, sic non est de satisfactione: illa enim 
+      non<lb ed="#R" n="8" break="no"/>est nisi ex mera Dei beneuolentia, vel ex iustitiae 
+      ri<lb ed="#R" n="9" break="no"/>gore supposita gratia, nullum horum stat cum 
+      pec<lb ed="#R" n="10" break="no"/>cato, vt dictum est. 
+    </p>
+               <p>
+                  <lb ed="#R" n="11"/>Ad aliud dico, quod talis sic decedens puniretur 
+      <lb ed="#R" n="12"/>aeternaliter, non propter primam culpam, sed 
+      pro<lb ed="#R" n="13" break="no"/>pter nouam, quam contraxit, in hoc quod 
+      satisfa<lb ed="#R" n="14" break="no"/>cere modo debito noluit, vel neglexit. 
+    </p>
+               <p>
+                  <lb ed="#R" n="15"/>Ista propositio posset confirmari, quia damnati 
+      <lb ed="#R" n="16"/>non possunt satisfacere de peccato, quia obstinati 
+      <lb ed="#R" n="17"/>sunt, &amp; perseuerant: ergo nec peccator in actu 
+      pec<lb ed="#R" n="18" break="no"/>cati existens cum proposito permanendi, quia 
+      in<lb ed="#R" n="19" break="no"/>hoc est similis obstinato. 
+    </p>
+               <p>
+                  <lb ed="#R" n="20"/>Tertia Propositio est haec, &amp; est Sanctorum mēs, 
+      <lb ed="#R" n="21"/>quod existens in peccato modo praedicto, etsi non 
+      <lb ed="#R" n="22"/>possit satisfacere, non debet tamen a bonis 
+      operi<lb ed="#R" n="23" break="no"/>bus abstinere: bona enim opera, etsi in peccato non 
+      <lb ed="#R" n="24"/>satisfactoria, vel meritoria ad vitam aeternam, 
+      me<lb ed="#R" n="25" break="no"/>rentur tamen de congruo bona temporalia, &amp; 
+      li<lb ed="#R" n="26" break="no"/>cet non de condigno. Aliqui tamen dicere volunt, 
+      <lb ed="#R" n="27"/>quod bona opera in peccato facta, bona 
+      tempo<lb ed="#R" n="28" break="no"/>ralia merentur, etiam de condigno, &amp; ad hoc 
+      vi<lb ed="#R" n="29" break="no"/>detur esse intentio Augustini lib. 5. de ciuitate Dei. 
+      <lb ed="#R" n="30"/>cap. 12. tom. 5. quod Romani propter actus Justitiae 
+      <lb ed="#R" n="31"/>laudabiles meruerunt habere imperium. 
+    </p>
+               <p>
+                  <lb ed="#R" n="32"/>Mihi non placet haec opinio: ad cuius euidentiam 
+      <lb ed="#R" n="33"/>distinguo de meritis de congruo, &amp; de condigno. 
+      <lb ed="#R" n="34"/>Meritum enim congrui est absque aequalitate 
+      ope<lb ed="#R" n="35" break="no"/>ris, ex sola liberalitate dantis de congruo. Sed 
+      me<lb ed="#R" n="36" break="no"/>ritum condigni non tantum fundatur in 
+      liberali<lb ed="#R" n="37" break="no"/>tate dantis, sed in quadam aequalitate, quia hoc ex 
+      <lb ed="#R" n="38"/>se tale meritum exigit. Propter quod dicunt 
+      ali<lb ed="#R" n="39" break="no"/>qui, quod nullus actus noster de condigno 
+      mere<lb ed="#R" n="40" break="no"/>tur gloriam, eo quod nulla ibi aequalitas inter 
+      me<lb ed="#R" n="41" break="no"/>ritum, &amp; praemium valet attendi, eo quod ad 
+      to<lb ed="#R" n="42" break="no"/>tum tenetur, &amp; ad plus, quam quidem positionem 
+      <lb ed="#R" n="43"/>superius improbaui, &amp; in speciali, nunc arguo 
+      con<lb ed="#R" n="44" break="no"/>tra: quia iustitia ista, in qua pro bonis operibus 
+      <lb ed="#R" n="45"/>redditur gloria, est iusttitia commutatiua non 
+      di<lb ed="#R" n="46" break="no"/>sributiua. Commutatiua autem iustitia es 
+      du<lb ed="#R" n="47" break="no"/>plex quaedam emptionis, &amp; venditionis, vbi 
+      com<lb ed="#R" n="48" break="no"/>mutatur aequale, vel aequiua lens pro aequiualenti, 
+      <lb ed="#R" n="49"/>&amp; hoc modo nullus actus potest gloriam mereri 
+      <lb ed="#R" n="50"/>condigne, quia non sunt condignae passiones huius 
+      <lb ed="#R" n="51"/>temporis ad futuram gloriam, quae reuelabitur in 
+      <lb ed="#R" n="52"/>nobis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="53"/>Alia autem commutatio est eius, quod est ad 
+      fi<lb ed="#R" n="54" break="no"/>nem in finem. Ad cuius euidentiam est sciendum, 
+      <lb ed="#R" n="55"/>quod quando actus aliquis ordinatur in finem, sic, 
+      <lb ed="#R" n="56"/>quod si finis esset aptus natus induci naturaliter, 
+      <lb ed="#R" n="57"/>actus induceret illum, posito eo prouisor totius 
+      na<lb ed="#R" n="58" break="no"/>turae propter ipsum actum inducit finem; sic in 
+      <lb ed="#R" n="59"/>proposito actus informatus gratia quantum esset ex 
+      <lb ed="#R" n="60"/>se induceret ad gloriam, si illa ab agente naturali 
+      <lb ed="#R" n="61"/>esset apta nata induci: prouisor ergo naturae Deus, 
+      <lb ed="#R" n="62"/>qui elicit actum per talem gratiam informatum 
+      <lb ed="#R" n="63"/>propter actum ipsum de cond igno confert gloriam, 
+      <lb ed="#R" n="64"/>&amp; hoc exigente iustitia commutatiua, per quam 
+      <lb ed="#R" n="65"/>quidem iustitiam Deus beatis contulit gloriam 
+      <lb ed="#R" n="66"/>propter actus gratuitos, de condigno. Et sic 
+      suppo<lb ed="#R" n="67" break="no"/>sita gratia, potest quis aeterna bona mereri de 
+      con<lb ed="#R" n="68" break="no"/>digno, sine gratia autem nequaquam, imo nec bo- 
+      <!--0138.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>na ipsa temporalia, quia si actus boni non 
+      infor<lb ed="#R" n="70" break="no"/>mati gratia mererentur bona temporalia de 
+      con<lb ed="#R" n="71" break="no"/>digno, hoc esset, quia Deus illa teneretur dare, 
+      ne<lb ed="#R" n="72" break="no"/>bonum transiret irremuneratum: sed hoc non, quia 
+      <lb ed="#R" n="73"/>ad illud sufficiunt bona naturalia. 
+    </p>
+               <p>
+                  <lb ed="#R" n="74"/>Sed nunquid bona opera facta in peccato remit 
+      <lb ed="#R" n="75"/>tunt aliquo modo, vel mitigant poenas inferni? 
+    </p>
+               <p>
+                  <lb ed="#R" n="76"/>Dicunt quidam, quod peccator, qui in vita sua 
+      <lb ed="#R" n="77"/>fecit multa bona opera, ratione quorum 
+      conforta<lb ed="#R" n="78" break="no"/>tur subiectum, &amp; ex hoc fit tolerabilior poena, &amp; haec 
+      <lb ed="#R" n="79"/>videtur esse intentio Glosatorum super illud: 
+      Cau<lb ed="#R" n="80" break="no"/>dium erit de vno peccatore poenitentiam agente 
+      <lb ed="#R" n="81"/>quod exponens dicit, quod illud est gaudium 
+      de<lb ed="#R" n="82" break="no"/>operibus: sed hoc non concordat auctoritatibus 
+      <lb ed="#R" n="83"/>Sanctorum. Illud intelligendum est dispositiue, 
+      <lb ed="#R" n="84"/>vel remouendo prohibens: occupatio enim in 
+      bo<lb ed="#R" n="85" break="no"/>no remouet malum opus, quod fuisset causa poenae; 
+      <lb ed="#R" n="86"/>dispositiue vero, quia bonum opus disponit ad 
+      de<lb ed="#R" n="87" break="no"/>letionem peccati, ac per hoc ad gratiae infusionem, 
+      <lb ed="#R" n="88"/>&amp; ex consequenti ad merendum gloriam, &amp; per 
+      <lb ed="#R" n="89"/>consequens ad euadendum poenam. Ad 
+      argumen<lb ed="#R" n="90" break="no"/>tum in oppositum patet. 
+    </p>
+            </div>
+            <div>
+               <head>Articulus 3</head>
+               <head type="question-title">Utrum elemosina sit pars satisfactionis.</head>
+               <p>
+                  <lb ed="#R" n="91"/>ARTICVLVS III 
+      <lb ed="#R" n="92"/>Vtrum elemosina sit pars satisfactionis.
+    </p>
+               <p>
+                  <lb ed="#R" n="93"/>QVo ad tertiam quaestionem arguo primo, quod 
+      <lb ed="#R" n="94"/>eleemosina non sit pars fatis factionis, quia 
+      <lb ed="#R" n="95"/>-secundum quod est supra tactum, satisfactio 
+      <lb ed="#R" n="96"/>debet fieri per opera poenalia: sed dare 
+      eleemosi<lb ed="#R" n="97" break="no"/>nam non est opus poenale: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="98"/>In oppositum est Luc. 11. Date eleemosynam, &amp; 
+      <lb ed="#R" n="99"/>omnia munda sunt vobis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="100"/>Respondeo: primo videndum est de eleemosyna 
+      <lb ed="#R" n="101"/>in se, qualis virtus sit, &amp; quis est actus eius. 
+      Secun<lb ed="#R" n="102" break="no"/>do videndum est de conditionibus eleemosinae. Et 
+      <lb ed="#R" n="103"/>tertio ad propositum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="104"/>De primo sciendum, quod eleemosina grosse idem 
+      <lb ed="#R" n="105"/>quod misericordia: misericordia autem non est 
+      <lb ed="#R" n="106"/>aliud quam cor miserum habere de alterius 
+      cala<lb ed="#R" n="107" break="no"/>mitate, &amp; poena: sicut ergo diuiditur 
+      misericor<lb ed="#R" n="108" break="no"/>dia, sic &amp; eleemosina, &amp; e conuerso. Opera enim 
+      <lb ed="#R" n="109"/>tam misericordiae, quam eleemosinae quaedam sunt 
+      <lb ed="#R" n="110"/>spiritualia, quaedam corporalia, &amp; sic de habitu, 
+      si<lb ed="#R" n="111" break="no"/>cut de actu. 
+    </p>
+               <p>
+                  <lb ed="#R" n="112"/>Tunc vlterius sciendum, quod contingit 
+      multi<lb ed="#R" n="113" break="no"/>pliciter facere misericordiam, &amp; eleemosinam 
+      <lb ed="#R" n="114"/>Quandoque ex delectatione in dando propter 
+      bo<lb ed="#R" n="115" break="no"/>num honestatis, &amp; similiter propter verecundiam 
+      <lb ed="#R" n="116"/>retinendi, &amp; iste tunc elicit actum per virtutem libe. 
+      <lb ed="#R" n="117"/>ralitatis: elicit enim actum delectationis, in hone 
+      <lb ed="#R" n="118"/>sto actu dandi, &amp; hanc honestatem coniecturat 
+      li<lb ed="#R" n="119" break="no"/>beralitas. 
+    </p>
+               <p>
+                  <lb ed="#R" n="120"/>Alio modo contingit dare ex compassione, quia 
+      <lb ed="#R" n="121"/>cui dat, est egens, &amp; ipse indigentiam eius 
+      quodam<lb ed="#R" n="122" break="no"/>modo assumit in corde suo, &amp; sic dans dat per 
+      vir<lb ed="#R" n="123" break="no"/>tutem misericordiae, quae non est aliud, quam cor 
+      <lb ed="#R" n="124"/>miserum ad miseriam alterius habere, quasi ad 
+      <lb ed="#R" n="125"/>aspectum pauperis ipse pauper fiat cum ipso 
+      in<lb ed="#R" n="126" break="no"/>affectu. 
+    </p>
+               <p>
+                  <lb ed="#R" n="127"/>Vel tertio contingit dare ex dilectione diuina 
+      <lb ed="#R" n="128"/>quia imaginatur, quod iste cui dat, est membrum 
+      <lb ed="#R" n="129"/>Christi, ideo ipsum diligit dilectione, qua caput 
+      di<lb ed="#R" n="130" break="no"/>ligit, &amp; sic dans dat per virtutem charitatis, quae 
+      <lb ed="#R" n="131"/>inclinat non tantum ad diligendum, sed etiam 
+      <lb ed="#R" n="132"/>dilecto subuenientum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="133"/>Tunc accipio secundum membrum horum, &amp; 
+      <!--0139.xml-->
+      <pb ed="#R" n="139"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>dico, quod actus eleemosinae est dare ex 
+      compas<lb ed="#R" n="2" break="no"/>sione, miseriam alterius quodammodo experiendo 
+      <lb ed="#R" n="3"/>in corde suo. Elcemosina vero virtus est habitus 
+      in<lb ed="#R" n="4" break="no"/>clinans ad actum illum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="5"/>Hic visis pono tres propositiones.
+    </p>
+               <p>
+                  <lb ed="#R" n="6"/>Prima est, quod misericordia, siue eleemosina 
+      <lb ed="#R" n="7"/>est virtus specialis: hanc conclusionem probo sic, 
+      <lb ed="#R" n="8"/>quando circa aliquod obiectum potest esse passio 
+      <lb ed="#R" n="9"/>excedens, &amp; deficiens, medium rationis potest 
+      es<lb ed="#R" n="10" break="no"/>se circa illud habitus talem passionem moderans, 
+      <lb ed="#R" n="11"/>qui quidem habitus medium conueniens est 
+      spe<lb ed="#R" n="12" break="no"/>cialis virtus: sed circa actum dandi in ordine ad 
+      <lb ed="#R" n="13"/>aliquem, cui datur, potest esse excessus, &amp; defectus 
+      <lb ed="#R" n="14"/>a medio rationis: ergo ibi potest inueniri medium 
+      <lb ed="#R" n="15"/>rationis, &amp; habitus inueniens, &amp; coniecturans 
+      il<lb ed="#R" n="16" break="no"/>lud medium rationis: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="17"/>Secunda ratio ad idem est ista. Omnis actus, 
+      <lb ed="#R" n="18"/>qui habet propriam, &amp; distinctam, &amp; specialem lau 
+      <lb ed="#R" n="19"/>dabilitatem, sic, quod existente bonitate aliunde 
+      <lb ed="#R" n="20"/>alterius ista non existit, &amp; hac existente alia 
+      pro<lb ed="#R" n="21" break="no"/>pter hoc vbi existit talis actus, est accidens 
+      specia<lb ed="#R" n="22" break="no"/>lis virtutis: haec nota est ex 3. Ethic. cap. 1. &amp; 5. vbi 
+      <lb ed="#R" n="23"/>dicitur, quod virtus est de numero laudabilium: 
+      <lb ed="#R" n="24"/>ergo si distincta laudabilitas, &amp; distincta virtus: sed 
+      <lb ed="#R" n="25"/>sic est in proposito, nam potest aliquis laudari, vt 
+      <lb ed="#R" n="26"/>bonus eleemosinarius, qui tamen non laudabitur 
+      <lb ed="#R" n="27"/>de liberalitate. Jmo contingit quosdam reperiri 
+      <lb ed="#R" n="28"/>auarissimos magnos dominos in domo sua, qui 
+      ta<lb ed="#R" n="29" break="no"/>men cor sic habebunt misericorde, quod excedunt 
+      <lb ed="#R" n="30"/>liberalissimos in eleemosinarum exhibitione, &amp; sic 
+      <lb ed="#R" n="31"/>est e conuerso. Contingit enim quosdam 
+      liberalis<lb ed="#R" n="32" break="no"/>simos esse, qui eleemosinam rarissime largiantur: 
+      <lb ed="#R" n="33"/>ergo alia est laudabilitas, qua laudatur dans ex 
+      li<lb ed="#R" n="34" break="no"/>beralitate, &amp; dans ex compassione per modum elee 
+      <lb ed="#R" n="35"/>mosinae, &amp; per consequens alia inclinatio, &amp; alia ex 
+      <lb ed="#R" n="36"/>consequenti virtus inclinans.
+    </p>
+               <p>
+                  <lb ed="#R" n="37"/>Secunda Propositio est, quod vnus habitus est 
+      <lb ed="#R" n="38"/>respectu omnium operum misericordiae, siue 
+      elee<lb ed="#R" n="39" break="no"/>mosinae. Sunt tamen quatuordecim actus, quorum 
+      <lb ed="#R" n="40"/>sufficientia sic potest assignari. 
+    </p>
+               <p>
+                  <lb ed="#R" n="41"/>Operum misericordiae quaedam sunt corporalia, 
+      <lb ed="#R" n="42"/>quaedam spiritualia. Corporalia autem sunt illa, 
+      <lb ed="#R" n="43"/>quae pertinent ad vitam corporalem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="44"/>Vbi sciendum, quod quaedam sunt, quae tollunt 
+      <lb ed="#R" n="45"/>formaliter vitam corporalem, sicut mors. 
+      Quae<lb ed="#R" n="46" break="no"/>dam vero, quae impugnant, subuenire respectu eius, 
+      <lb ed="#R" n="47"/>quod vitam tollit, scilicet in morte, est vnum 
+      <lb ed="#R" n="48"/>opus misericordiae, &amp; istud est mortuos sepelire. 
+    </p>
+               <p>
+                  <lb ed="#R" n="49"/>Impugnantium vero vitam corporalem quaedam 
+      <lb ed="#R" n="50"/>sunt, quae impugnant ab intrinseco, vt fames, &amp; 
+      <lb ed="#R" n="51"/>sitis, &amp; infirmitas; sic contra illa tria 
+      subuenien<lb ed="#R" n="52" break="no"/>do, sunt alia tria nunc opera, dare cibum 
+      esurien<lb ed="#R" n="53" break="no"/>ti, &amp; potum sitienti, &amp; infirmos visitare. 
+    </p>
+               <p>
+                  <lb ed="#R" n="54"/>Alia vero sunt, quae vitam corporalem 
+      impu<lb ed="#R" n="55" break="no"/>gnant ab extrinseco, &amp; ista sunt, vel aer propinquus, 
+      <lb ed="#R" n="56"/>vt puta frigus, &amp; huiusmodi, &amp; contra hoc 
+      subue<lb ed="#R" n="57" break="no"/>niendo est alius effectus misericordiae, scilicet 
+      vesti<lb ed="#R" n="58" break="no"/>re nudos: vel impugnans est aer remotus, &amp; 
+      con<lb ed="#R" n="59" break="no"/>tra hoc subuenit domus, &amp; actus misericordiae 
+      cir<lb ed="#R" n="60" break="no"/>ca illud vocatur hospitalitas. Et aliud impugnans 
+      <lb ed="#R" n="61"/>est solitudo, puta quando homo in carcere 
+      detine<lb ed="#R" n="62" break="no"/>tur, &amp; subuenio, circa hoc est alius actus 
+      miseri<lb ed="#R" n="63" break="no"/>cordiae, qui dicitur, visitare incarceratos. Et sic 
+      <lb ed="#R" n="64"/>sunt septem specialia opera corporalia 
+      misericor<lb ed="#R" n="65" break="no"/>diae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="66"/>Alia septem sunt spiritualia, quorum sufficientia 
+      <lb ed="#R" n="67"/>sic accipitur: cum enim ista opera spiritualia 
+      con<lb ed="#R" n="68" break="no"/>sistant in subuenire defectibus animae.
+    </p>
+               <p>
+      <!--0139.xml-->
+                  <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>Sciendum, quod defectuum animae quidam 
+      <lb ed="#R" n="70"/>sunt poenales, quidam vero culpabiles. Poenales 
+      <lb ed="#R" n="71"/>sunt duo, quidam in intellectu, vt ignorantia in 
+      in<lb ed="#R" n="72" break="no"/>tellectu, vel speculatiuo, vel practico. 
+    </p>
+               <p>
+                  <lb ed="#R" n="73"/>Subuentio ergo circa defectum in speculatiuo, 
+      <lb ed="#R" n="74"/>&amp; etiam practico, est vnus actus misericordiae, qui 
+      <lb ed="#R" n="75"/>est consulere, qui includit doctrinam exhibere 
+      in<lb ed="#R" n="76" break="no"/>speculatiuo, &amp; cautelam docere in practico, &amp; hae 
+      <lb ed="#R" n="77"/>sunt duae primae operationes misericordiae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="78"/>Defectus vero alius est in affectu, puta 
+      cupidi<lb ed="#R" n="79" break="no"/>tas, &amp; huic subuenit tertium opus misericordiae, 
+      <lb ed="#R" n="80"/>scilicet praedicare, monere, &amp; affectum 
+      inflam<lb ed="#R" n="81" break="no"/>mare. Alius tristtitia, &amp; mentalis affictio, &amp; huic 
+      <lb ed="#R" n="82"/>subuenit aliud opus misericordiae, quod est 
+      con<lb ed="#R" n="83" break="no"/>solari afflictos. 
+    </p>
+               <p>
+                  <lb ed="#R" n="84"/>Defectuum vero, qui sunt culpabiles, quidam 
+      <lb ed="#R" n="85"/>possunt corrigi humano auxilio, &amp; quidam non 
+      <lb ed="#R" n="86"/>De fectibus non potentibus humano auxilio 
+      corri<lb ed="#R" n="87" break="no"/>gi subuenit aliud opus misericordiae, quod est 
+      ora<lb ed="#R" n="88" break="no"/>tio: potentibus vero emendari auxilio humano, 
+      <lb ed="#R" n="89"/>corre spoudent alij duo effectus, qui sunt castigare, 
+      <lb ed="#R" n="90"/>&amp; offensam remittere. 
+    </p>
+               <p>
+                  <lb ed="#R" n="91"/>Isti effectus septem in isto versu continentur. 
+      <lb ed="#R" n="92"/>Consule, Castiga, Remitte, Solare, Perora: vt 
+      <lb ed="#R" n="93"/>in li Consule contineantur duo effectus: &amp; in ly, 
+      <lb ed="#R" n="94"/>Solare, alij duo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="95"/>Tertia Propositio est, quod ista virtus est sub 
+      iu<lb ed="#R" n="96" break="no"/>stitia: reddit enim alteri, quod suum est. Ratio est 
+      <lb ed="#R" n="97"/>ista, quia exisens in acto misericordiae, vendicat 
+      si<lb ed="#R" n="98" break="no"/>bi aliquo modo ius in bonis illius, cui arridet 
+      for<lb ed="#R" n="99" break="no"/>tuna, ideo isi misero ex iustitia tenetur ille 
+      aliqua<lb ed="#R" n="100" break="no"/>liter subuenire. 
+    </p>
+               <p>
+                  <lb ed="#R" n="101"/>Dicunt tamen quidam, quod misericordia, 
+      si<lb ed="#R" n="102" break="no"/>ue eleemosina est species liberalitatis, quod non 
+      <lb ed="#R" n="103"/>puto esse verum: licet enim misericors, &amp; 
+      libera<lb ed="#R" n="104" break="no"/>lis eliciant eundem actum, &amp; ille similiter, qui 
+      de<lb ed="#R" n="105" break="no"/>derit propter Deum, habent tamen motiuum 
+      a<lb ed="#R" n="106" break="no"/>liud, &amp; diuersos sines, vt dictum est in principio 
+      <lb ed="#R" n="107"/>quaestionis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="108"/>Nunc tertio pono proprietates eleemosinae. Sciem 
+      <lb ed="#R" n="109"/>dum ergo, quod ipsa potest comparari ad effecttum, 
+      <lb ed="#R" n="110"/>&amp; hoc modo secundum Sanctos, dicitur habere 
+      ef<lb ed="#R" n="111" break="no"/>fectum mirabilem. Vnde Ambros. super illo 
+      ver<lb ed="#R" n="112" break="no"/>bo in Epistola ad Timotheum cap. 4. videtur 
+      dice<lb ed="#R" n="113" break="no"/>re, quod vix potest aliquis misericors vnquam 
+      dan<lb ed="#R" n="114" break="no"/>nari: sed intelligendum, quod intelligit, non quod 
+      <lb ed="#R" n="115"/>sit impossibile damnari, sed quod difficile. Ratio 
+      <lb ed="#R" n="116"/>est, quia prouocat Deum ad daadam gratiam, qua 
+      <lb ed="#R" n="117"/>saluatur. 
+    </p>
+               <p>
+                  <lb ed="#R" n="118"/>Secundo potest comparari ad susceptiuum: &amp; tunc 
+      <lb ed="#R" n="119"/>est quaestio; cuinam cui eleemosina debeat fieri. Et 
+      <lb ed="#R" n="120"/>primo vtrum sibi: Et respondeo, quod sic quantum 
+      <lb ed="#R" n="121"/>ad spiritualia, vnde consulens sibi ipsi, castigans 
+      <lb ed="#R" n="122"/>se, &amp; orans pro se, &amp; huiusmodi dicitur aliquo 
+      mo<lb ed="#R" n="123" break="no"/>do eleemosinam sibi impertiri, licet non ita 
+      pro<lb ed="#R" n="124" break="no"/>prie sicut si alteri. 
+    </p>
+               <p>
+                  <lb ed="#R" n="125"/>Secundo est quaestio: Vtrum sit malis hominibus 
+      <lb ed="#R" n="126"/>exhibenda, &amp; respondeo, quod aliquo modo sic. 
+      <lb ed="#R" n="127"/>Ratio est quia eleemosina per se habet 
+      coniectu<lb ed="#R" n="128" break="no"/>rare indigentiam, &amp; ei accidit, quod malitia cum 
+      <lb ed="#R" n="129"/>indigentia concurrat in eodem: propter quod si 
+      <lb ed="#R" n="130"/>malus indigeat, est quidem sibi subueniendum, vbi 
+      <lb ed="#R" n="131"/>eleemosina non est malo occasio continuationis 
+      <lb ed="#R" n="132"/>malitiae suae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="133"/>Tertio est quaestio: Vtrum eleemosina sit danda 
+      <lb ed="#R" n="134"/>histrionibus, &amp; respondeo, quod histrionum 
+      qui<lb ed="#R" n="135" break="no"/>dam delectant homines hone stis solatijs, &amp; hoc est 
+      <lb ed="#R" n="136"/>communi politiae aliqualiter necessarium, vt ho- 
+      <!--0140.xml-->
+      <pb ed="#R" n="140"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>mines honeste in suis curis aliqualiter quandoque 
+      <lb ed="#R" n="2"/>valeant recreari, vnde actus talium non esset 
+      posi<lb ed="#R" n="3" break="no"/>to hoc casu vituperandus, imo magis laudandus, 
+      <lb ed="#R" n="4"/>&amp; pertinet sorte ad virtutem Eutropeliae, &amp; talibus 
+      <lb ed="#R" n="5"/>vtique esset eleemosina tribuenda. 
+    </p>
+               <p>
+                  <lb ed="#R" n="6"/>Sed alij sunt qui verbis, &amp; actibus inhonestis, 
+      <lb ed="#R" n="7"/>prouocant magis ad dissolutionem, &amp; 
+      scurrilita<lb ed="#R" n="8" break="no"/>tem, quam ad solatium honestum, &amp; tales sunt 
+      abs<lb ed="#R" n="9" break="no"/>que dubio repellendi, nec eleemosina esset eis 
+      lar<lb ed="#R" n="10" break="no"/>gienda, nisi in casu indigentiae magnae, sicut dictum 
+      <lb ed="#R" n="11"/>est generaliter de malis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="12"/>Sed dubium es. Si occurrant duo indigentes, 
+      <lb ed="#R" n="13"/>quorum alter sit bonus, alter melior, cui est potius 
+      <lb ed="#R" n="14"/>eleemosina largienda, vtrum bono, quam malo, 
+      <lb ed="#R" n="15"/>&amp; vtrum meliori, quam non sit bono? Respondeo 
+      <lb ed="#R" n="16"/>eleemosina, vt est dictum, per se coniecturat 
+      indi<lb ed="#R" n="17" break="no"/>gentiam, &amp; accidit ei bonitas, vel malitia 
+      indigen<lb ed="#R" n="18" break="no"/>tis, ideo puto, quod danda sit magis indigenti. 
+      Ta<lb ed="#R" n="19" break="no"/>men sciendum est, quod fructtus vnus eleemosinae 
+      <lb ed="#R" n="20"/>est obligare eum, qui eleemosinam recipit ad pro se 
+      <lb ed="#R" n="21"/>orandum, &amp; in hoc est semper vtilius, quod detur 
+      <lb ed="#R" n="22"/>meliori, nisi aliud interueniat, puta minus 
+      magna<lb ed="#R" n="23" break="no"/>in malo indigentia, quam in meliori. 
+      <lb ed="#R" n="24"/>Tertio videndum est de agente eleemosinam; 
+      <lb ed="#R" n="25"/>quis sit idoneus dare. 
+    </p>
+               <p>
+                  <lb ed="#R" n="26"/>Respondeo: quilibet habens de suo. Per quod 
+      sol<lb ed="#R" n="27" break="no"/>uuntur quaestiones multae, quia non vsurarius 
+      de<lb ed="#R" n="28" break="no"/>vsuris, nec fur de surto. Sed nunquid simoniacus? 
+      <lb ed="#R" n="29"/>Dico, quod non dicitur proprie facere 
+      eleemosi<lb ed="#R" n="30" break="no"/>nam, quia quod per symoniam acquisiuit, non est 
+      <lb ed="#R" n="31"/>suum. Sed cuius est? nunquid restitui debet ei, a 
+      <lb ed="#R" n="32"/>quo acceptum est? Respondeo: vterque priuatus est 
+      <lb ed="#R" n="33"/>iure illius rei, ideo cedit in vsus pauperis. Jdem 
+      <lb ed="#R" n="34"/>dicendum est omnino de aleatoribus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="35"/>Sed nunquid filius familias sine consensu patris? 
+      <lb ed="#R" n="36"/>Dicitur communiter quod non. Sed nunquid vxor? 
+      <lb ed="#R" n="37"/>Respondeo quod sic, vbi haberet proprium 
+      ali<lb ed="#R" n="38" break="no"/>quid, vel aliquid ex proprio laboricio acquisitum. 
+      <lb ed="#R" n="39"/>De communibus etiam sui, &amp; viri licet: 
+      liquali<lb ed="#R" n="40" break="no"/>ter temperate, puta modicum panis, &amp; 
+      huius<lb ed="#R" n="41" break="no"/>modi. 
+    </p>
+               <p>
+                  <lb ed="#R" n="42"/>Quarto principaliter, de comparatione 
+      virtu<lb ed="#R" n="43" break="no"/>tis huius ad virtutes caeteras, nunquid excedit eas? 
+      <lb ed="#R" n="44"/>Respondeo: virtutes, quae immediate tendunt in Deum 
+      <lb ed="#R" n="45"/>sicut in obiectum, sunt alijs praestantiores: aliae 
+      ve<lb ed="#R" n="46" break="no"/>ro tanto sunt potiores, quanto plus accedunt ad 
+      <lb ed="#R" n="47"/>charitatem, sed inter virtutes, quae respiciunt 
+      pro<lb ed="#R" n="48" break="no"/>ximum, puto, quod eleemosina sit potissima. 
+    </p>
+               <p>
+                  <lb ed="#R" n="49"/>Tunc ad propositum, vtrum eleemosina sit pars 
+      <lb ed="#R" n="50"/>satisfactionis? 
+    </p>
+               <p>
+                  <lb ed="#R" n="51"/>Respondeo, quod sic. Vbi considerandum, quod 
+      <lb ed="#R" n="52"/>non est inconueniens actum vnius virtutis fieri 
+      a<lb ed="#R" n="53" break="no"/>cum alterius virtutis propter finem alium 
+      inten<lb ed="#R" n="54" break="no"/>tum, verbi gratia, Philosophus 5. Ethic. cap. 2. Et 
+      <lb ed="#R" n="55"/>hic ponit ad hoc exemplum de meretrice, cuius 
+      <lb ed="#R" n="56"/>actus est actus intemperantiae, quia tamen agit 
+      <lb ed="#R" n="57"/>propter lucrum, &amp; auaritiam, ideo actus eius, vt sic 
+      <lb ed="#R" n="58"/>reducitur ad illiberalitatem. Similiter actus 
+      vir<lb ed="#R" n="59" break="no"/>ginitatis in vouente, ratione voti fit actus latriae, 
+      <lb ed="#R" n="60"/>qui sine voto ad virtutem aliam pertineret. 
+    </p>
+               <p>
+                  <lb ed="#R" n="61"/>Sic in proposito, si eleemosina imperetur ab isto 
+      <lb ed="#R" n="62"/>fine, qui est reducere inaequalitatem ad aequalitatem, 
+      <lb ed="#R" n="63"/>&amp; ad hoc ada quando poenam, &amp; bonitatem actus 
+      <lb ed="#R" n="64"/>malitiae peccati, vt sic, pertinet ad poenitentiam, 
+      <lb ed="#R" n="65"/>&amp; est pars satisfactionis, &amp; hoc est satis 
+      rationabi<lb ed="#R" n="66" break="no"/>le, quia misericordia Deo maxime est accepta, &amp;
+      <lb ed="#R" n="67"/>nobis aliqualiter poenalis. 
+    </p>
+               <p>
+    <!-- missing line break -->Sed nunquid eleemosina melior est, quam ieiu-
+      <!--0140.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>nium? Respondeo, quod sic, ratione hac, quod 
+      plu<lb ed="#R" n="69" break="no"/>ra bona inde proueniunt: prouenit enim inde 
+      bo<lb ed="#R" n="70" break="no"/>num danti, &amp; bonum recipienti. Procurat etiam 
+      <lb ed="#R" n="71"/>sibi, dans bona spiritualia, quae tenetur ei recipiens 
+      <lb ed="#R" n="72"/>eleemosinam, puta orare, consulere, &amp; huiusmodi 
+      <lb ed="#R" n="73"/>propter gratitudinis obligationem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="74"/>Ad argumentum principale, dico, quod non 
+      <lb ed="#R" n="75"/>oportet semper, quod eleemosina sit actus poe
+      na<lb ed="#R" n="76" break="no"/>lis, sicut nec quaecunque alia pars satisfactionis, 
+      <lb ed="#R" n="77"/>non enim est dubium, quin orando satisfaciat, qui 
+      <lb ed="#R" n="78"/>quandoque deuotionem magnam, &amp; 
+      complacen<lb ed="#R" n="79" break="no"/>tiam inueniet in orando. Sufficit ergo, quod de 
+      ge<lb ed="#R" n="80" break="no"/>nere suo quantum in se est, acttus sit poenalis, 
+      li<lb ed="#R" n="81" break="no"/>cet isti sit delectabilis propter habitum acquisitum. 
+    </p>
+            </div>
+            <div>
+               <head>Articulus 4</head>
+               <head type="question-title">
+      Utrum ieiunium sit pars satisfactionis.
+    </head>
+               <p>
+                  <lb ed="#R" n="82"/>ARTICVLVS IIII 
+      <lb ed="#R" n="83"/>Vtrum ieiunium sit pars satisfactionis.
+    </p>
+               <p>
+                  <lb ed="#R" n="84"/>CIrca quartam quaestionem arguo primo, quod 
+      <lb ed="#R" n="85"/>ieiunium non sit pars satisfactionis, sic: 
+      leiu<lb ed="#R" n="86" break="no"/>nium est actus temperantiae: ergo non est actus 
+      poe<lb ed="#R" n="87" break="no"/>nitentiae, nec per consequens satisfactionis. 
+      Conse<lb ed="#R" n="88" break="no"/>quentia patet, quia idem actus non est duarum 
+      vir<lb ed="#R" n="89" break="no"/>tutum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="90"/>In oppositum est, quod ieiunium est actus 
+      poe<lb ed="#R" n="91" break="no"/>nalis inaequalitatem adaequans, &amp; reducens ad 
+      <lb ed="#R" n="92"/>aequalitatem: ergo est actus poenitentiae, &amp; pars 
+      <lb ed="#R" n="93"/>satis factionis. Consequentia patet ex prius 
+      de<lb ed="#R" n="94" break="no"/>terminatis.
+    </p>
+               <p>
+                  <lb ed="#R" n="95"/>Respondeo primo, videndum est cuius virtutis 
+      <lb ed="#R" n="96"/>ieiunium sit actus. Dico, quod potest esse actus 
+      <lb ed="#R" n="97"/>virtutis, quae est iustitia legalis, sicut ieiunare in 
+      <lb ed="#R" n="98"/>quadragesima propter praeceptum Ecclesiae. Potest 
+      <lb ed="#R" n="99"/>etiam ieiunium esse actus temperantiae, &amp; abstinentiae 
+      <lb ed="#R" n="100"/>&amp; potest esse actus poenitentiae: puta quando 
+      com<lb ed="#R" n="101" break="no"/>pletur propter peccatum commissum, vt reducant 
+      <lb ed="#R" n="102"/>inaequalitatem ad aequalitatem.
+  </p>
+               <p>
+                  <lb ed="#R" n="103"/>Nota, quod quando est acttus iustitiae legalis, est 
+      <lb ed="#R" n="104"/>etiam actus abstinentiae, sed principalius legalis iu 
+      <lb ed="#R" n="105"/>stitiae, quia principaliter fit propter impletionem 
+      <lb ed="#R" n="106"/>praecepti, propter quod pertinet ad virtutem 
+      iusti<lb ed="#R" n="107" break="no"/>tiae legalis. Consimiliter dicendum est, quando est 
+      <lb ed="#R" n="108"/>actus poenitentiae.
+  </p>
+               <p>
+                  <lb ed="#R" n="109"/>Sciendum etiam, quod Temperantiae sex sunt 
+      spe<lb ed="#R" n="110" break="no"/>cies. Tres quae respiciunt delectabilia tacus, &amp; 
+      <lb ed="#R" n="111"/>tria respicientia delecabilia gustus. Primae tres 
+      <lb ed="#R" n="112"/>sunt Castitas, Virginitas, &amp; Pudicitia: quarum 
+      <lb ed="#R" n="113"/>sufficientia ista est. Nam circa delectabilia potesc 
+      <lb ed="#R" n="114"/>aliquis se habere vno modo excessiue, &amp; per 
+      super<lb ed="#R" n="115" break="no"/>erogationem, &amp; sic consurgit Virginitas, quam 
+      ta<lb ed="#R" n="116" break="no"/>men Aristoteles non enumerat inter species 
+      Tem<lb ed="#R" n="117" break="no"/>perantiae. Secunelo modo potest se circa illa 
+      habe<lb ed="#R" n="118" break="no"/>re quis moderato inodo: &amp; hoc dupliciter, vel quo 
+      <lb ed="#R" n="119"/>ad sensum tactus tantum, &amp; sic consurgit Cascitas, 
+      <lb ed="#R" n="120"/>vel quo ad alios etiam sensus, vt temperantia in 
+      <lb ed="#R" n="121"/>eis inducit, &amp; conseruar temperantiam in actu, &amp; 
+      <lb ed="#R" n="122"/>sic consurgit Pudicitia, quae non est idem, quod 
+      <lb ed="#R" n="123"/>castitas: multi enim sunt casti, qui tamen verbo, 
+      <lb ed="#R" n="124"/>&amp; oculis, &amp; sensibus alijs non sunt pudici. 
+    </p>
+               <p>
+                  <lb ed="#R" n="125"/>Aliae vero tres species sunt Abstinentia, 
+      Sobrie<lb ed="#R" n="126" break="no"/>tas, &amp; Parsimonia, quarum sufficientia ista est. 
+    </p>
+               <p>
+                  <lb ed="#R" n="127"/>Ad delectabilia enim gustus moderanda potest 
+      <lb ed="#R" n="128"/>quis tripliciter se habere. Vno modo per 
+      supere<lb ed="#R" n="129" break="no"/>rogationem, &amp; sic consurgit vna species 
+      Tempe<lb ed="#R" n="130" break="no"/>rantiae, puta Jeiunium, &amp; Abstinentia, quam 
+      Phi<lb ed="#R" n="131" break="no"/>losophi, &amp; Aristoteles non perceperunt: vel 
+      mode<lb ed="#R" n="132" break="no"/>rato modo, &amp; hoc dupliciter, vel quo ad potum, 
+      <lb ed="#R" n="133"/>
+                  <!-- line coord error -->
+               </p>
+               <p>
+      <!--0141.xml-->
+                  <pb ed="#R" n="141"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>&amp; sic consurgit Sobrietas, vel quo ad cibum, &amp; sic 
+      <lb ed="#R" n="2"/>consurgit Parsimonia, &amp; sic patet qualiter ieiunium 
+      <lb ed="#R" n="3"/>sit species temperantiae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="4"/>Sed quo tempore, &amp; quibus est ieiunandum. 
+      <lb ed="#R" n="5"/>Respondeo, do istam regulam, quod quilibet 
+      adul<lb ed="#R" n="6" break="no"/>tus potens in die semel cibum sufficientem sine 
+      di<lb ed="#R" n="7" break="no"/>scrimine habere, tenetur ieiunare ieiunia Ecclesiae. 
+      <lb ed="#R" n="8"/>Dico autem sine discrimine: puta si non possit 
+      se<lb ed="#R" n="9" break="no"/>mel, &amp; vna vice sumere cibum totum necessarium 
+      <lb ed="#R" n="10"/>sibi, sicut sunt pueri, infirmi, pauperes, laborantes, 
+      <lb ed="#R" n="11"/>&amp; peregrini, &amp; mulieres pregnantes. Tunc ad 
+      quae<lb ed="#R" n="12" break="no"/>stionem respondeo, quod ieiunium est pars 
+      satis<lb ed="#R" n="13" break="no"/>factionis, quia Deo volitum, nobis autem poe
+      na<lb ed="#R" n="14" break="no"/>le, ac per hoc reducens inaequalitatem ad 
+      aequali<lb ed="#R" n="15" break="no"/>tatem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="16"/>Ad argumentum in oppositum. Respondeo non 
+      <lb ed="#R" n="17"/>est inconueniens, eundem actum reduci ad aliam, 
+      <lb ed="#R" n="18"/>&amp; aliam virtutem per alium &amp; alium finem, vt 
+      su<lb ed="#R" n="19" break="no"/>perius dictum est. 
+    </p>
+            </div>
+            <div>
+               <head>Articulus 5</head>
+               <head type="question-title">
+      Utrum Oratio sit pars satisfactionis.
+    </head>
+               <p>
+                  <lb ed="#R" n="20"/>ARTICVLVS V 
+      <lb ed="#R" n="21"/>Vtrum Oratio sit pars satisfactionis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="22"/>AD quintam quaestionem de Oratione. 
+      Respon<lb ed="#R" n="23" break="no"/>deo, primo videndum est cuius virtutis actus 
+      <lb ed="#R" n="24"/>sit. Respondeo dico, quod es actus latriae vno 
+      mo<lb ed="#R" n="25" break="no"/>do. Vbi considerandum est, quod sub oratione 
+      con<lb ed="#R" n="26" break="no"/>tinentur ista septem, Deuotio, oratio, satisfactio, 
+      <lb ed="#R" n="27"/>adiuratio, deuotatio, laus, inuocatio.
+    </p>
+               <p>
+                  <lb ed="#R" n="28"/>Est autem latria species iustitiae, &amp; per has 
+      spe<lb ed="#R" n="29" break="no"/>cies orationis redditur Deo, quod suum est inquan 
+      <lb ed="#R" n="30"/>tum est gubernator, &amp; creator, ac omnium 
+      spe<lb ed="#R" n="31" break="no"/>culator, &amp; huiusmodi: quia oratio est virtus 
+      spe<lb ed="#R" n="32" break="no"/>cialis contenta sub latria, quia actus eius est 
+      spe<lb ed="#R" n="33" break="no"/>cialis, &amp; adgenerat habitum specialem: sed vtrum 
+      <lb ed="#R" n="34"/>sit habitus appetitiuus, vel intellectiuus, poterit 
+      <lb ed="#R" n="35"/>alias patere. 
+    </p>
+            </div>
+            <div>
+               <head>Articulus 6</head>
+               <head type="question-title">
+      Utrum Restitutio sit pars satis factionis.
+    </head>
+               <p>
+                  <lb ed="#R" n="36"/>ARTICVLVS VI 
+      <lb ed="#R" n="37"/>Vtrum Restitutio sit pars satis factionis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="38"/>AD sextam quaestionem arguo primo, quod 
+      <lb ed="#R" n="39"/>restitutio non sit pars satisfactionis, quia 
+      sa<lb ed="#R" n="40" break="no"/>tisfactio est actus adaequans aequalitatem factam 
+      <lb ed="#R" n="41"/>per peccatum inter Deum, &amp; hominem: 
+      Restitu<lb ed="#R" n="42" break="no"/>tio non adaequat, siue non reducit inaequalitatem 
+      <lb ed="#R" n="43"/>factam inter Deum, &amp; hominem, sed inter 
+      homi<lb ed="#R" n="44" break="no"/>nem, &amp; hominem: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="45"/>In oppositum est Augustinus, &amp; ponitur in 
+      lite<lb ed="#R" n="46" break="no"/>ra, non dimittitur peccatum, nisi restituatur 
+      abla<lb ed="#R" n="47" break="no"/>tum. Respondeo, primo ponam punctum 
+      quaestio<lb ed="#R" n="48" break="no"/>nis: secundo dicam tres propositiones: tertio 
+      da<lb ed="#R" n="49" break="no"/>bo regulam generalem de satisfactione. 
+    </p>
+               <p>
+                  <lb ed="#R" n="50"/>Propter primum sciendum est, quod opinio est 
+      <lb ed="#R" n="51"/>aliquorum, quod restitutio sit pars satisfactionis: 
+      <lb ed="#R" n="52"/>aliorum vero, quod non pars, sed praeuium. 
+      Alio<lb ed="#R" n="53" break="no"/>rum vero, quod non pars, nec praeuium, sed 
+      sun<lb ed="#R" n="54" break="no"/>damentum. Ad videndum ergo, quid veritatis sit 
+      <lb ed="#R" n="55"/>in istis opinionibus, proposui praedictam 
+      quae<lb ed="#R" n="56" break="no"/>sttionem 
+    </p>
+               <p>
+                  <lb ed="#R" n="57"/>Quantum ad secundum, primo praemitto vnam 
+      <lb ed="#R" n="58"/>distinctionem, quae est haec: Restitutio, &amp; satisfactio 
+      <lb ed="#R" n="59"/>aliquando sunt aequalis ambitus; aliquando sunt 
+      <lb ed="#R" n="60"/>disparata: quandoque vero vnum continetur sub alio. 
+    </p>
+               <p>
+                  <lb ed="#R" n="61"/>Ad cuius intellectum sciendum est, quod 
+      resti<lb ed="#R" n="62" break="no"/>tuere, idem est, quod in statum pristinum statue- 
+      <!--0141.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="63"/>re: ergo supponit, quod aliquid sit sublatum, cuius 
+      <lb ed="#R" n="64"/>ipsa est in pristinum statum statuitio. 
+    </p>
+               <p>
+                  <lb ed="#R" n="65"/>Tunc considerandum est vlterius, quod ista 
+      sta<lb ed="#R" n="66" break="no"/>tuitio alicuius in pristinum statum potest esse per 
+      <lb ed="#R" n="67"/>idem in numero, vt quando redditur idem equus, 
+      <lb ed="#R" n="68"/>qui fuerat sublatus. Quandoque per idem in 
+      spe<lb ed="#R" n="69" break="no"/>cie, vt pecuniam pro consimili pecunia. 
+      Quando<lb ed="#R" n="70" break="no"/>que per aliquid alterius generis, quod tamen 
+      ha<lb ed="#R" n="71" break="no"/>bet aequiualentiam, vt quando iniuria est facta 
+      <lb ed="#R" n="72"/>verbo, &amp; restitutio fit muneribus, pecunia, vel 
+      con<lb ed="#R" n="73" break="no"/>simili alio: huiusmodi est restitutio, quam 
+      pecca<lb ed="#R" n="74" break="no"/>tor facit Deo: abstulit enim honorem, &amp; reddit 
+      <lb ed="#R" n="75"/>Deo aequiualens aliquid per actus poenitentiae. Cum 
+      <lb ed="#R" n="76"/>ergo restitutio sit quaedam redditio alicuius pro 
+      <lb ed="#R" n="77"/>re ablata, si fit per idem numero, tunc sunt idem 
+      <lb ed="#R" n="78"/>satisfactio, &amp; restitutio. Consimiliter potest dici, 
+      <lb ed="#R" n="79"/>si illud sit idem secundum speciem: si vero non sit 
+      <lb ed="#R" n="80"/>idem numero, nec specie, tunc ille actus magis est 
+      <lb ed="#R" n="81"/>satisfactio, quam restitutio. Restitutio enim(
+      quan<lb ed="#R" n="82" break="no"/>tum ad vim nominis) non extendit se ad omnem 
+      sa<lb ed="#R" n="83" break="no"/>tisfactionem, sed ad illam praecise, vbi redditur idem 
+      <lb ed="#R" n="84"/>numero, vel specie; &amp; sic videtur, quod restitutio 
+      <lb ed="#R" n="85"/>sit inferior ad satisfactionem: omnis enim 
+      restitu<lb ed="#R" n="86" break="no"/>tio est satisfactio, non e conuerso. 
+      Quandoque<lb ed="#R" n="87" break="no"/>autem videntur essse disparata, &amp; vnum ab alio 
+      se<lb ed="#R" n="88" break="no"/>parari, &amp; quandoque simul esse. Cum enim quis 
+      <lb ed="#R" n="89"/>alteri iniuriatur, &amp; cum hoc aufert rem suam 
+      <lb ed="#R" n="90"/>tunc cum actu satisfactionis concurrit &amp; actus 
+      re<lb ed="#R" n="91" break="no"/>stitutionis, vt satisfactio restituat honorem per 
+      iniu<lb ed="#R" n="92" break="no"/>riam sublatum: restitutio vero reddat rem 
+      indebi<lb ed="#R" n="93" break="no"/>te acceptam. Separantur etiam, quia quandoque 
+      <lb ed="#R" n="94"/>est satisfactio sine restitutione, puta vbi illata fuit 
+      <lb ed="#R" n="95"/>iniuria, absque ablatione rei. Quandoque vero 
+      <lb ed="#R" n="96"/>est e conuerso resttitutio sine satisfactione, vt 
+      pa<lb ed="#R" n="97" break="no"/>tet de vsurario, qui rem alienam detinet, tamen 
+      <lb ed="#R" n="98"/>domini voluntate, ideo non iniuriatur, nec per 
+      <lb ed="#R" n="99"/>consequens cadit ibi satisfactio, cadit ibi 
+      tamen<lb ed="#R" n="100" break="no"/>restitutio, quia propter inhonestatem actus in re 
+      <lb ed="#R" n="101"/>illa, sine pecunia nullum dominium acquisiuit: hoc 
+      <lb ed="#R" n="102"/>ergo modo satisfactio, &amp; restitutio sunt 
+      dispara<lb ed="#R" n="103" break="no"/>ta, quia satisfactio praecise aspicit illatam iniuriam, 
+      <lb ed="#R" n="104"/>restitutio vero rem ablatam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="105"/>Vlterius sciendum est, quod satisfactio potest 
+      <lb ed="#R" n="106"/>accipi adhuc magis communiter, prout est actus 
+      re<lb ed="#R" n="107" break="no"/>ductiuus inaequalitatis ad aequalitatem per 
+      condi<lb ed="#R" n="108" break="no"/>gnam poenitentiam, &amp; tunc dico, quod satisfactio 
+      <lb ed="#R" n="109"/>includit restitutionem tanquam partem ipsius, &amp; 
+      <lb ed="#R" n="110"/>speciem sub ea. Hanc conclusionem probo sic. Actus, 
+      <lb ed="#R" n="111"/>qui reducit inaequalitatem, quam quidem 
+      inaequa<lb ed="#R" n="112" break="no"/>litatem facit peccatum inter Deum, &amp; hominem, est 
+      <lb ed="#R" n="113"/>actus satisfactionis. Probatio huius est, quia sic 
+      <lb ed="#R" n="114"/>definita est supra satisfactio, &amp; sic loquimur de ea 
+      <lb ed="#R" n="115"/>in proposito, sed per restitutionem reducitur: 
+      inae<lb ed="#R" n="116" break="no"/>qualitas ad aequalitatem: qui enim abstulit rem 
+      <lb ed="#R" n="117"/>alienam, abstulit Deo obedientiam, propter 
+      <lb ed="#R" n="118"/>quod Deus habet minus, sibi autem dedit 
+      expletio<lb ed="#R" n="119" break="no"/>nem voluntatis propriae contra Deum. Similiter 
+      <lb ed="#R" n="120"/>abstulit rem suam proximo, vnde ipse fuit minus 
+      <lb ed="#R" n="121"/>habens, &amp; sibi retinuit, plusquam habere debuit: 
+      <lb ed="#R" n="122"/>haec autem includunt inaequalitatem respectu Dei, 
+      <lb ed="#R" n="123"/>quia lex diuina praecipit, quod quilibet habeat, quod 
+      <lb ed="#R" n="124"/>suum est: ergo. Sed sunt hic quaedam dubia. 
+    </p>
+               <p>
+                  <lb ed="#R" n="125"/>Prima, quia ad restitutionem tenetur quis de 
+      <lb ed="#R" n="126"/>iure naturae, satisfactio vero est voluntaria. 
+      Re<lb ed="#R" n="127" break="no"/>spondeo, non omnis actus satisfactionis, ad quam 
+      <lb ed="#R" n="128"/>tenetur homo ex poenitentia, est arbitrarius, nam 
+      <lb ed="#R" n="129"/>ad confessionem sum obligatus, ad quam teneor ex 
+      <lb ed="#R" n="130"/>poenitentia.
+    </p>
+               <p>
+      <!--0142.xml-->
+                  <pb ed="#R" n="142"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Secundum Dubium est, quia aliud est 
+      cessare<lb ed="#R" n="2" break="no"/>ab iniuria, aliud satisfacere. Propter hanc 
+      ratio<lb ed="#R" n="3" break="no"/>nem mouetur frater Thomas ad ponendum, quod 
+      <lb ed="#R" n="4"/>resitutio non sit species satisfactionis. Sed ratio 
+      <lb ed="#R" n="5"/>ista parum valet: bene enim probatur, quod 
+      resti<lb ed="#R" n="6" break="no"/>tutio non est sufficiens satisfactio, sed quin 
+      perti<lb ed="#R" n="7" break="no"/>neat ad satisfactionem non probatur. 
+    </p>
+               <p>
+                  <lb ed="#R" n="8"/>Aliud dubium es, quod dicunt Doctores, quod 
+      <lb ed="#R" n="9"/>satisfactio preuium est poenitentiam. Respondeo: 
+      <lb ed="#R" n="10"/>Doctores communiter capiunt satisfactionem, vt 
+      <lb ed="#R" n="11"/>est aliquid disparatum contra restitutionem modo 
+      <lb ed="#R" n="12"/>dicto supra, non autem, vt est aliquid commune 
+      <lb ed="#R" n="13"/>ad satisfactionem, vt ibidem declaratum est.
+    </p>
+               <p>
+                  <lb ed="#R" n="14"/>Tertio pono regulam istam. Quis tenetur ad 
+      <lb ed="#R" n="15"/>restitut ionem. Dico autem, quod omnis 
+      damni<lb ed="#R" n="16" break="no"/>ficans alium, vel substrahendo habitum, vel 
+      impe<lb ed="#R" n="17" break="no"/>diendo habendum, &amp; hoc vel in bonis corporis, 
+      <lb ed="#R" n="18"/>vel animae, siue fortunae, principaliter, vel 
+      conco<lb ed="#R" n="19" break="no"/>mitanter tenetur ad restitutionem, vel statim, vel 
+      <lb ed="#R" n="20"/>quando potest optimo modo, secundum 
+      circum<lb ed="#R" n="21" break="no"/>scantias, quae concernunt hanc regulam 
+      proceden<lb ed="#R" n="22" break="no"/>do in sequentibus explicabo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="23"/>Ad aliud principale dico, quod actu faciens 
+      ae<lb ed="#R" n="24" break="no"/>qualitatem inter proximum, &amp; proximum, facit 
+      ae<lb ed="#R" n="25" break="no"/>qualitatem inter proximum, &amp; Deum: ratio est, 
+      <lb ed="#R" n="26"/>quia peccatum, quod est in proximum, etiam est 
+      <lb ed="#R" n="27"/>in Deum.
+      <lb ed="#R" n="28"/>
+                  <!-- line coord error -->
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

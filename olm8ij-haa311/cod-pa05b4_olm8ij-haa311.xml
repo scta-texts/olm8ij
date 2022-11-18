@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="1"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-haa311"> <!-- l4-prooemprae -->
+            <head>Praeambulum</head>
+            <p><!--0001.xml-->
+               <pb ed="#R" n="1"/>
+               <cb ed="#R" n="a"/>
+               <lb ed="#R" n="1"/>COMMENJ ARJORVM 
+      <lb ed="#R" n="2"/>Auctore 
+      <lb ed="#R" n="3"/>PETRO AVRELVLRDLRJ 
+      <lb ed="#R" n="4"/>Ordinis Minorum Archiepiscopo Aquensi 
+      <lb ed="#R" n="5"/>S. R. E. Cardinali.
+   </p>
+            <p>
+               <lb ed="#R" n="6"/>SPIRITVS vitae erat in rotis. Sacramentorum septenarius in 
+      curatio<lb ed="#R" n="7" break="no"/>nem hominis semiuiui a Samaritano illo pijssimo misericorditer 
+      institu<lb ed="#R" n="8" break="no"/>tus rotarum septenario non incongrue comparatur; &amp; ratione 
+      conne<lb ed="#R" n="9" break="no"/>xionis, quia finem coniungunt ad principium, dum hominem reducunt 
+      <lb ed="#R" n="10"/>in Deum; &amp; ratione comprehensionis eo, quod sunt vasa salutaria 
+      di<lb ed="#R" n="11" break="no"/>uinae gratiae contentiua, ita vt merito prophetico eloquio de ipsis in 
+      ver<lb ed="#R" n="12" break="no"/>tenigJasir c mune cails quod spiritus vitae erat in rotis, &amp; quoniam 
+      <lb ed="#R" n="13"/>Medicinalis, &amp; sanatiuus: 
+      <lb ed="#R" n="14"/>Decisiuus, &amp; Judicialis: 
+      <lb ed="#R" n="15"/>Conclusiuus, &amp; Jmperialis. 
+      <lb ed="#R" n="16"/>Medicinalis, &amp; sanatiuus in tractatu Sacramentorum. 
+      <lb ed="#R" n="17"/>Judicialis, &amp; decisiuus in tractatu puniendor um. 
+      <lb ed="#R" n="18"/>diuie uoidcniut micnu nque iceu ug au, quotus ceout ueu 
+      ut<lb ed="#R" n="19" break="no"/>clausulae in hoc verbo. 
+      <lb ed="#R" n="20"/>In rotis, vita, &amp; spiritus. Vt referantur rotae ad antidotum sanatiuum; Et spiritus ad iudicium 
+      <lb ed="#R" n="21"/>decisiuum; Vita vero ad stipendium refectiuum, &amp; conclusiuum. 
+      <lb ed="#R" n="22"/>Ecce ergo in hoc verbo medicinalis materiae figuratio, cum dicitur in rotis, idest in 
+      Sacramen<lb ed="#R" n="23" break="no"/>tis, quibus plaustrum Ecclesiae baiulatur. 
+      <lb ed="#R" n="24"/>Ecce secundo Judicialis sententiae firmatio in spiritu iudicii, &amp; spiritu terroris. 
+      <lb ed="#R" n="25"/>Ecce tertio vniuersalis laetitiae consummatio, cum dicitur vitae: tunc enim Beati saturabuntur, 
+      <lb ed="#R" n="26"/>&amp; laudabunt dominum, qui requirunt eum, viuent corda eorum in saeculum saeculi, ad quam 
+      <lb ed="#R" n="27"/>vitam per sacrarum studium scripturarum, ipse doctor noster Jesus Cristus perducat nos, qui 
+      <lb ed="#R" n="28"/>cum Patre, &amp; Spiritu sancto viuit, &amp; regnat in saecula saeculorum. Amen. 
+      <lb ed="#R" n="29"/>
+               <!-- line coord error -->
+               <lb ed="#R" n="30"/>
+               <!-- line coord error -->
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

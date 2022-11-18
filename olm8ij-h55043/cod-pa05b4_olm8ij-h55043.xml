@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="160"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h55043"> <!-- l4-d24prae -->
+            <head>Praeambulum</head>
+            <p>
+               <lb ed="#R" n="73"/>DISTINCTIO XXIV 
+      <lb ed="#R" n="74"/>DE ORDINE 
+      <lb ed="#R" n="75"/>
+               <!-- line coord error -->
+               <lb ed="#R" n="76"/>
+               <!-- line coord error -->
+            </p>
+            <p>
+               <lb ed="#R" n="77"/>Nunc ad consecrationem, &amp;. In ista 
+      Distin<lb ed="#R" n="78" break="no"/>ctione Vigesimaquarta agit Magister de 
+      <lb ed="#R" n="79"/>Sacramento Ordinis. Ad euidentiam 
+      Di<lb ed="#R" n="80" break="no"/>stinctionis istius quaero duas quaestiones, 
+      <lb ed="#R" n="81"/>vna est de Sacramento per se, &amp; est ista.
+    </p>
+            <p>
+               <lb ed="#R" n="82"/>1Vtrum Ordo sit Sacramentum nouae legis. 
+      <lb ed="#R" n="83"/>2 Alia est de partibus eius. Vtrum scilicet in 
+      <lb ed="#R" n="84"/>Ecclesia sint tantum septem Ordines. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,1525 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="18"/>
+            <cb ed="#R" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-hb5806"> <!-- l4-d1q2 -->
+            <head>Quaestio 2</head>
+            <head type="question-title">De definitione sacramenti</head>
+            <p>
+               <lb ed="#R" n="94"/>Quaestio II. 
+      <lb ed="#R" n="95"/>DE DEFINITIONE 
+      <lb ed="#R" n="96"/>
+               <!-- line coord error -->
+               <lb ed="#R" n="97"/>
+               <!-- line coord error -->
+               <lb ed="#R" n="98"/>SACRAMENTI. 
+    </p>
+            <p>
+               <lb ed="#R" n="99"/>Postquam visum est de Sacramentorum 
+      effi<lb ed="#R" n="100" break="no"/>cacia in generali, quaero nunc de Sacramen 
+      <lb ed="#R" n="101"/>torum quidditate, definitione, &amp; deinde de 
+      <lb ed="#R" n="102"/>Circumcisione. Et quaero circa hoc 
+      qua<lb ed="#R" n="103" break="no"/>tuor quaestiones. 
+      <lb ed="#R" n="104"/>1 Vtrum Sacramentum possit definiri. 
+      <lb ed="#R" n="105"/>2 Vtrum Sacramenti definitio, quam Magister 
+      <lb ed="#R" n="106"/>dat, sit propria eius definitio. 
+      <lb ed="#R" n="107"/>3 Vtrum Circumcisio fuerit conueniente 
+      in<lb ed="#R" n="108" break="no"/>stituta. 
+      <lb ed="#R" n="109"/>4 Vtrum Circumcisio tantummodo deleret 
+      cul<lb ed="#R" n="110" break="no"/>pam, absque hoc quod insunderet gratiam. 
+    </p>
+            <div>
+               <head>Articulus 1</head>
+               <head type="question-title">Utrum Sacramentum possit definiri</head>
+               <p>
+                  <lb ed="#R" n="111"/>ARTICVLVUS I. 
+      <lb ed="#R" n="112"/>Vtrum Sacramentum possit definiri. 
+    </p>
+               <p>
+                  <lb ed="#R" n="113"/>QVANTVM ad primam 
+      <lb ed="#R" n="114"/>quaestionem arguo, quod 
+      <lb ed="#R" n="115"/>Sacramentum non possit 
+      <lb ed="#R" n="116"/>definitione propria 
+      defi<lb ed="#R" n="117" break="no"/>niri, quia definibile omne 
+      <lb ed="#R" n="118"/>est per se vnum, ex 7. met. 
+      <lb ed="#R" n="119"/>sed Sacramentum non est 
+      <lb ed="#R" n="120"/>proprie per se vnum: ergo 
+      <lb ed="#R" n="121"/>Sacramentum non est 
+      de<lb ed="#R" n="122" break="no"/>finibile proprie. Probo minorem: Quia 
+      Sacra<lb ed="#R" n="123" break="no"/>mentum integratur ex verbis, &amp; elementis, iuxta 
+      <lb ed="#R" n="124"/>illud Augustini super Joan. accedit verbum ad 
+      ele<lb ed="#R" n="125" break="no"/>mentum, &amp; fit Sacramentum.
+    </p>
+               <p>
+                  <lb ed="#R" n="126"/>In oppositum est, quia Augustinus, &amp; alij Sancti 
+      <!--0019.xml-->
+      <pb ed="#R" n="19"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>definiunt Sacramentum, &amp; Magister similiter, vt pa 
+      <lb ed="#R" n="2"/>tet in littera 
+    </p>
+               <p>
+                  <lb ed="#R" n="3"/>Respondeo in ista quaestione Primo ponam 
+      pun<lb ed="#R" n="4" break="no"/>ctum inquisitionis: secundo formabo aliquas 
+      pro<lb ed="#R" n="5" break="no"/>positiones: tertio inferam aliqua ex determinatis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="6"/>De primo sciendum est, quod punctus 
+      inquisi<lb ed="#R" n="7" break="no"/>tionis est propter duas opiniones oppositas 
+      ali<lb ed="#R" n="8" break="no"/>quorum Doctorum. 
+    </p>
+               <p>
+      <!-- <lb n="9"/> missing line break here -->Vna est opinion quae dicit, quod Sacramentum non 
+      <lb ed="#R" n="9"/>potest definiri propria definitione, &amp; hoc propter 
+      <lb ed="#R" n="10"/>defectum per se vnitatum, vt probat argumentum 
+      <lb ed="#R" n="11"/>principale. 
+    </p>
+               <p>
+                  <lb ed="#R" n="12"/>Alia vero opinio dicit, quod de fecus per se 
+      vni<lb ed="#R" n="13" break="no"/>tatis non est in Sacramento, qui tollat ab ipso 
+      ve<lb ed="#R" n="14" break="no"/>ram rationem definitionis, nam Sacramentum per 
+      <lb ed="#R" n="15"/>eos quantum ad formalem rationem suam non 
+      di<lb ed="#R" n="16" break="no"/>cit nisi terminationem signi, quae quidem potest 
+      <lb ed="#R" n="17"/>esse vna in verbis &amp; elementis, non enim 
+      Sacramen<lb ed="#R" n="18" break="no"/>tum includit forma liter verba &amp; elementa, sed tan 
+      <lb ed="#R" n="19"/>tum fundamentaliter, plura autem fundamenta 
+      <lb ed="#R" n="20"/>bene possunt fundare vnam relationem signi: 
+      Ver<lb ed="#R" n="21" break="no"/>bi gratia, de oratione, quae est signum rei signatae, 
+      <lb ed="#R" n="22"/>per orationem fundatur relatio, sicut in oratione 
+      <lb ed="#R" n="23"/>ad rem in pluribus dictionibus: sicut similiter 
+      in<lb ed="#R" n="24" break="no"/>demonstratione est relatio signi sundata in 
+      pluri<lb ed="#R" n="25" break="no"/>bus syllogismis. Et ratio istorum est, quia relatio 
+      <lb ed="#R" n="26"/>signi est relatio rationis, non est autem 
+      inconue<lb ed="#R" n="27" break="no"/>miens, quod intellectus vnam talem relationem 
+      ra<lb ed="#R" n="28" break="no"/>tionis sundet super multa, sicut fundat relationem 
+      <lb ed="#R" n="29"/>vnicam in multis trahentibus ad ipsam nauem. 
+      <lb ed="#R" n="30"/>Quamuis ergo fundamenta, puta verbum &amp; 
+      ele<lb ed="#R" n="31" break="no"/>mentum, sint multa, tamen relatio vua rationis, 
+      <lb ed="#R" n="32"/>qualis est relatio signi ad signatum, potest fundari 
+      <lb ed="#R" n="33"/>in illis, non obstante eorum multitudine: non 
+      er<lb ed="#R" n="34" break="no"/>go definibilitatem Sacramenti impedit desectus 
+      <lb ed="#R" n="35"/>per se vnitatis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="36"/>Dicunt tamen isti, quod ex alio impeditur, quod 
+      <lb ed="#R" n="37"/>Sacramentum non sit definibile. Ad cuius 
+      euiden<lb ed="#R" n="38" break="no"/>tiam secundum eos consideranda sunt illa quae 
+      exi<lb ed="#R" n="39" break="no"/>guntur ad veram rationem definitionis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="40"/>Et primum quidem, quod illud quod definibile 
+      <lb ed="#R" n="41"/>est, non sit ens fictitium, seu impossibile, &amp; ratio 
+      in<lb ed="#R" n="42" break="no"/>se falsa includens contradictionem, &amp; per hoc 
+      pa<lb ed="#R" n="43" break="no"/>tet, quod chymera non est definibilis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="44"/>Secundo oportet, quod sit ens positiuum, quia 
+      <lb ed="#R" n="45"/>negationes non habent proprie definitiones. 
+    </p>
+               <p>
+                  <lb ed="#R" n="46"/>Tertio oportet, quod sit eus reale, ad 
+      differen<lb ed="#R" n="47" break="no"/>tiam entis rationis, quod non habet esse nisi in 
+      ob<lb ed="#R" n="48" break="no"/>iecto cognito, inquantum cognitum est, &amp; non est 
+      <lb ed="#R" n="49"/>aliud formaliter, quam relatio rationis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="50"/>Quarto, quod sit ens non simpliciter simplex, sed 
+      <lb ed="#R" n="51"/>compositum ex pluribus, quia definitio est sermo 
+      <lb ed="#R" n="52"/>longus habens partes. 7. met aph. 
+    </p>
+               <p>
+                  <lb ed="#R" n="53"/>Quinto, quod sit vniuersale non singulare, 
+      quo<lb ed="#R" n="54" break="no"/>niam singularium non est definitio, nec scientia. 
+    </p>
+               <p>
+                  <lb ed="#R" n="55"/>Sexto, quod sit tota per se vna, non sicut 
+      acer<lb ed="#R" n="56" break="no"/>uus, ex 7. metaph. vt sic definitio sit entis 
+      possibi<lb ed="#R" n="57" break="no"/>lis, positiui, realis, compositi, vniuersalis, &amp; per se 
+      <lb ed="#R" n="58"/>vnius. 
+    </p>
+               <p>
+                  <lb ed="#R" n="59"/>Tunc ad propositum: Sacramentum non 
+      impe<lb ed="#R" n="60" break="no"/>ditur, quod sit definibile, quia non sit eus 
+      possibi<lb ed="#R" n="61" break="no"/>le; nec quia non est ens positiuum; nec quia non 
+      <lb ed="#R" n="62"/>sit ens compositum, saltem secundum conceptum; 
+      <lb ed="#R" n="63"/>non est minus compositum, quam quaecumque 
+      re<lb ed="#R" n="64" break="no"/>latio alia, quae tamen est definibilis; nec 
+      impedi<lb ed="#R" n="65" break="no"/>tur propter hoc quod sit particulare; nec propter 
+      <lb ed="#R" n="66"/>hoc quod non sit per se vnum: sed impeditur ex hoc 
+      <lb ed="#R" n="67"/>quod non est ens reale possibile existere extra ani- 
+      <!--0019.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>mam, sed est tantum relatio rationis: est enim 
+      re<lb ed="#R" n="69" break="no"/>latio signi in ordine ad gratiam constituta 
+      pera<lb ed="#R" n="70" break="no"/>ctum voluntatis diuinae ex natura rei. 
+      <lb ed="#R" n="71"/>Propter istas ergo opiniones est punctus 
+      quae<lb ed="#R" n="72" break="no"/>stionis ad videndum, an prima Opinio, vel secunda 
+      <lb ed="#R" n="73"/>habeat veritatem: secundo pono tres 
+      proposi<lb ed="#R" n="74" break="no"/>tiones. 
+    </p>
+               <p>
+                  <lb ed="#R" n="75"/>Prima est ista, quod non propter hoc 
+      Sacramen<lb ed="#R" n="76" break="no"/>tum non est definibile, quia suum formale sit ens 
+      <lb ed="#R" n="77"/>rationis, non extra animam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="78"/>Hanc conclusionem probo sic: Syllogismus 
+      sim<lb ed="#R" n="79" break="no"/>pliciter, syllogismus dialecticus, demonstratio, 
+      e<lb ed="#R" n="80" break="no"/>nunciatio, verbum, oratio, rhetorica, omnia ista 
+      <lb ed="#R" n="81"/>sunt entia rationis, quantum ad suum formale, &amp; 
+      <lb ed="#R" n="82"/>tamen isa sunt definibilia, nam Aristoteles 
+      defi<lb ed="#R" n="83" break="no"/>nit syllogismum simpliciter, primo Priorum cap. 1. 
+      <lb ed="#R" n="84"/>dialecticum primo Topic. cap. 1. demonstratiuum 
+      <lb ed="#R" n="85"/>primo Poster. tex. 5. sophisticum primo Elench. cap. 
+      <lb ed="#R" n="86"/>1. enunciationem, verbum primo Periher. cap. 3. &amp; 
+      <lb ed="#R" n="87"/>4. &amp; sic de multis alijs: ergo talia sunt definibilia, 
+      <lb ed="#R" n="88"/>ac si essent accidentia realia.
+    </p>
+               <p>
+                  <lb ed="#R" n="89"/>Dices, quod tales definitiones non sunt 
+      defini<lb ed="#R" n="90" break="no"/>tiones propriae. Contra: Scientia proprie dicta est 
+      <lb ed="#R" n="91"/>instrumentum sciendi proprie dictum: sed Dialecti 
+      <lb ed="#R" n="92"/>ca, Rhetorica, &amp; huiusmodi sunt scientiae proprie 
+      <lb ed="#R" n="93"/>dicte: ergo sunt instrumentum sciendi, in qualibet 
+      <lb ed="#R" n="94"/>scientia est definitio, secundum illud 
+      Commenta<lb ed="#R" n="95" break="no"/>toris 6. metaph. tex. com. 2. scientiae diffferunt 
+      pe<lb ed="#R" n="96" break="no"/>nes modos sciendi, quae secundum eum sunt 
+      defi<lb ed="#R" n="97" break="no"/>nitiones. 
+    </p>
+               <p>
+                  <lb ed="#R" n="98"/>Secundo, quia in istis scientijs sunt verae 
+      demon<lb ed="#R" n="99" break="no"/>strationes: ergo verae definitiones, quia definitio 
+      <lb ed="#R" n="100"/>est medium in demonstratione. 2. Poster. tex. 8. &amp; 
+      <lb ed="#R" n="101"/>infra. Antecedens patet, quia Philosophus 
+      demon<lb ed="#R" n="102" break="no"/>stratiue tradit scientiam de definitione. 
+    </p>
+               <p>
+                  <lb ed="#R" n="103"/>Secundo sic: Aristoteles 4. Physic. tex. 101. 
+      defi<lb ed="#R" n="104" break="no"/>nit tempus, &amp; Arithmeticus definit numcrum: sed 
+      <lb ed="#R" n="105"/>nec tempus nec numerus sunt entia realia 
+      extra<lb ed="#R" n="106" break="no"/>animam per Philosophum, &amp; Comment. expressse, 
+      <lb ed="#R" n="107"/>4. Phy sic. tex. com. 100. 
+    </p>
+               <p>
+                  <lb ed="#R" n="108"/>Dices, nonne definitio indicat rem? quomodo 
+      <lb ed="#R" n="109"/>ergo est eius, quod non est res extra animam? 
+      Re<lb ed="#R" n="110" break="no"/>spondeo: Definitio indicat esse rei, vt res accipitur 
+      <lb ed="#R" n="111"/>communiter ad rem in anima, &amp; rem extra 
+      ani<lb ed="#R" n="112" break="no"/>mam. Hoc probo per Philosophum &amp; 
+      Commen<lb ed="#R" n="113" break="no"/>tatorem 1. de anima, definitiones, inquiunt, sunt 
+      <lb ed="#R" n="114"/>singularium, sed non secundum esse, quod habent 
+      <lb ed="#R" n="115"/>in re extra: sed secundum esse, quod habent in 
+      ani<lb ed="#R" n="116" break="no"/>ma inquantum sunt vnum in conceptu, sicut 
+      ho<lb ed="#R" n="117" break="no"/>mines particulares in homine vniuersaliter 
+      sum<lb ed="#R" n="118" break="no"/>pto, qui secundum Commentatorem tex. com 8. vel 
+      <lb ed="#R" n="119"/>nihil est, aut posterius est. 
+    </p>
+               <p>
+                  <lb ed="#R" n="120"/>Secunda propositio est, quod Sacramentum non 
+      <lb ed="#R" n="121"/>est definibile propria definitione, sicut nec 
+      acci<lb ed="#R" n="122" break="no"/>dens aliquod quantumcumque reale est proprie 
+      <lb ed="#R" n="123"/>definibile, secundum doctrinam Aristotelis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="124"/>Hanc conclusionem probo duplici ratione. 
+      Pri<lb ed="#R" n="125" break="no"/>ma est ista: Definitio secundum Aristotelem 7. met. 
+      <lb ed="#R" n="126"/>tex. 12. &amp; infra. est sermo aggregatus ex 
+      praedica<lb ed="#R" n="127" break="no"/>mentis in quid, &amp; compositus ex praedicamentis 
+      <lb ed="#R" n="128"/>primo modo. Tunc sic: Quod non habet sermonem 
+      <lb ed="#R" n="129"/>explicantem aliquid ex praedicatis per se primo 
+      <lb ed="#R" n="130"/>modo, &amp; in quid, non habet definitionem 
+      pro<lb ed="#R" n="131" break="no"/>prie dictam: probo tum ex eo, quod praemissum 
+      <lb ed="#R" n="132"/>est, tum quia definitio secundum se totam 
+      praedi<lb ed="#R" n="133" break="no"/>catur in quid, primo Poster. tex. 6. vbi dicitur, quod 
+      <lb ed="#R" n="134"/>per se primo modo est definitio, &amp; pars 
+      defini<lb ed="#R" n="135" break="no"/>tionis.
+    </p>
+               <p>
+      <!--0020.xml-->
+                  <pb ed="#R" n="20"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Confirmo hoc per illud Philosophi 7. Metaph. 
+      <lb ed="#R" n="2"/>Dicamus ergo de definitione, &amp;c. Sed nullum 
+      ac<lb ed="#R" n="3" break="no"/>cidens habet sermonem explicantem aliquid 
+      con<lb ed="#R" n="4" break="no"/>stitutum ex praedicatis per se primo modo, &amp; 
+      in<lb ed="#R" n="5" break="no"/>quid: probo, quia definiens accidens necessario 
+      <lb ed="#R" n="6"/>includit subiectum, sicut simitas nasum, &amp; sic de 
+      <lb ed="#R" n="7"/>alijs: sed subiectum non cadit in primo modo 
+      di<lb ed="#R" n="8" break="no"/>cendi per se ipsius accidentis: non enim 
+      responde<lb ed="#R" n="9" break="no"/>tur subiectum de accidente, ad interrogationem 
+      <lb ed="#R" n="10"/>factam per quid: ergo nullum accidens habet 
+      pro<lb ed="#R" n="11" break="no"/>prie definitionem. 
+    </p>
+               <p>
+      <!-- <lb/> missing line break in coords -->Et ista est demonstratio <ref>Aristotelis 7. 
+      Metaphy<lb ed="#R" n="12" break="no"/>sicae, tex. 12.</ref> &amp; infra, quod sermo ex 
+      additamen<lb ed="#R" n="13" break="no"/>sis non est definitio naturae quidditatiua, nec 
+      <lb ed="#R" n="14"/>primo modo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="15"/>Secunda ratio ad idem magis a priori est ista 
+      <lb ed="#R" n="16"/>Definitio non est aliud, quam oratio praecise 
+      ex<lb ed="#R" n="17" break="no"/>plicans essentiam rei, nec plus, nec minus 
+      expli<lb ed="#R" n="18" break="no"/>cans, quid sit in essentia rei. Probatio istius, quia 
+      <lb ed="#R" n="19"/>definitio est terminus 1. Topic. Terminus autem 
+      <lb ed="#R" n="20"/>finit, &amp; terminat per hoc, quod totum includit 
+      <lb ed="#R" n="21"/>nullo addito, vel diminuto: dicitur nullo addito, 
+      <lb ed="#R" n="22"/>alias includeret plus, &amp; sic non praescinderet, nec 
+      <lb ed="#R" n="23"/>terminaret dicitur.nullo remoto, alias non totum 
+      <lb ed="#R" n="24"/>clauderet, &amp; per consequens non esset terminus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="25"/>Hoc praesupposito arguit sic. Illud, quod non 
+      <lb ed="#R" n="26"/>habet conceptum claudentem essentiam suam, nul 
+      <lb ed="#R" n="27"/>lo addito, nulloque remoto, non habet 
+      definitio<lb ed="#R" n="28" break="no"/>nem, non enim est explicabile per sermonem 
+      ali<lb ed="#R" n="29" break="no"/>quem, nullo addito, nulloque remoto, quod nec 
+      <lb ed="#R" n="30"/>sicest conceptibile: sed accidens non habet 
+      conce<lb ed="#R" n="31" break="no"/>ptum claudentem essentiam suam, nullo addito, &amp; 
+      <lb ed="#R" n="32"/>nullo remoto, cum infra suum conceptum 
+      indiui<lb ed="#R" n="33" break="no"/>sibiliter includat subiectum: vnde impossibile est 
+      <lb ed="#R" n="34"/>concipere quantitatem sine partibus, figuram 
+      si<lb ed="#R" n="35" break="no"/>ne figurabili, simitatem sine figura nasi. 7. 
+      Meta<lb ed="#R" n="36" break="no"/>physicae com. 18. &amp; Commentator dicit ibi hoc, 
+      <lb ed="#R" n="37"/>quod hoc est verum de omni accidente, quod omne 
+      <lb ed="#R" n="38"/>accidens per intellectum habet resolui ad certum 
+      <lb ed="#R" n="39"/>subiectum 
+    </p>
+               <p>
+                  <lb ed="#R" n="40"/>Dices: Accidens est vera res, &amp; alia res a 
+      subie<lb ed="#R" n="41" break="no"/>co, quare ergo non potest intelligi sine subiecto? 
+      <lb ed="#R" n="42"/>Respondeo, licet sit res, non tamen habet proprios 
+      <lb ed="#R" n="43"/>terminos essentiales intrinsecos, sed sua 
+      termina<lb ed="#R" n="44" break="no"/>tio necessario est ab extrinseco; sicut linea, licet sit 
+      <lb ed="#R" n="45"/>res, non tamen infra suam essentiam habet propriam 
+      <lb ed="#R" n="46"/>&amp; intrinsecam terminationem: sed terminatur per 
+      <lb ed="#R" n="47"/>aliquid extrinsecum puta per punctum, vnde 
+      nul<lb ed="#R" n="48" break="no"/>lum inconueniens est, quod ponamus rem aliquam, 
+      <lb ed="#R" n="49"/>quae sit vna res, non tamen sit terminata: sed 
+      ne<lb ed="#R" n="50" break="no"/>cessario terminetur per aliud. Sic dico de 
+      acciden<lb ed="#R" n="51" break="no"/>te, quod licet sit res, est tamen res infra suam 
+      es<lb ed="#R" n="52" break="no"/>sentiam intrinsecam, &amp; terminatur necessario per 
+      <lb ed="#R" n="53"/>subiectum, ideo intellectus non potestt 
+      claudere<lb ed="#R" n="54" break="no"/>conceptum eius sine conceptu subiecti. Nec 
+      ima<lb ed="#R" n="55" break="no"/>ginor, quod accidens non possit intelligi sine 
+      su<lb ed="#R" n="56" break="no"/>biecto propter aliquam relationem mediam eius 
+      <lb ed="#R" n="57"/>ad subiectum, quam necessario oporteat 
+      intellige<lb ed="#R" n="58" break="no"/>re intellecto accidente (vt quidam fingunt) si pro 
+      <lb ed="#R" n="59"/>tanto, quia nulla res intelligitur, nisi per 
+      intelle<lb ed="#R" n="60" break="no"/>ctum terminetur, nam intellectus intelligit statuen 
+      <lb ed="#R" n="61"/>do 2. Metaph. sed subiectum est proprius terminus 
+      <lb ed="#R" n="62"/>accidentis: &amp; sicut nulla relatio est inter lineam 
+      <lb ed="#R" n="63"/>&amp; punctum, sed punctus est immiediata 
+      termina<lb ed="#R" n="64" break="no"/>tio ipsius lineae, sic dico de subiecto, &amp; accidente 
+      <lb ed="#R" n="65"/>eigo quia sic est, accidens non habet proprie 
+      defi<lb ed="#R" n="66" break="no"/>nitionem, &amp; super hanc rationem sustentatus est 
+      <lb ed="#R" n="67"/>Aristoteles y, Metaph. tex. 2. cum dicit, quod ac- 
+      <!--0020.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>cidentia proprie non sunt entia, sed entis; &amp; quod 
+      <lb ed="#R" n="69"/>definitio accidentis explicat accidens, &amp; subiectum, 
+      <lb ed="#R" n="70"/>&amp; ideo sermo talis non finit, nec terminat, quia 
+      <lb ed="#R" n="71"/>plus ponit. 
+    </p>
+               <p>
+                  <lb ed="#R" n="72"/>Ex his potest concludi ratio definitionis, quia 
+      <lb ed="#R" n="73"/>orationum quaedam est, quae explicat rem nullo 
+      <lb ed="#R" n="74"/>addito, &amp; nullo remoto, &amp; talis oratio est 
+      pro<lb ed="#R" n="75" break="no"/>prie definitio. Quaedam vero explicat rem aliquo 
+      <lb ed="#R" n="76"/>addito, talis non est proprie definitio. 
+    </p>
+               <p>
+                  <lb ed="#R" n="77"/>Dices: Licet accidens in concreto includat 
+      subie<lb ed="#R" n="78" break="no"/>ctum, tamen non in abstracto, vnde si intelligo 
+      al<lb ed="#R" n="79" break="no"/>bedinem, patet quod ibi non intelligo aliquod 
+      su<lb ed="#R" n="80" break="no"/>biectum, nisi genus proprium puta colorem, &amp; 
+      pro<lb ed="#R" n="81" break="no"/>priam differentiam quaecunque sit illa, &amp; ideo 
+      al<lb ed="#R" n="82" break="no"/>bedinem definiendo: ergo Albedo est color 
+      disgre<lb ed="#R" n="83" break="no"/>gatiuus visus, ibi nullum cointelligendo subiectum 
+      <lb ed="#R" n="84"/>praeter proprium genus, &amp; propriam differentiam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="85"/>Item: Accidens quodlibet habet proprium genus, 
+      <lb ed="#R" n="86"/>&amp; propriam differentiam excluso omni 
+      extrinse<lb ed="#R" n="87" break="no"/>co: ergo videtur, quod possit habere definitionem 
+      <lb ed="#R" n="88"/>excluso subiecto. 
+    </p>
+               <p>
+                  <lb ed="#R" n="89"/>Item tertio: Illud, quod est separabile in esse, est 
+      <lb ed="#R" n="90"/>separabile in intelligi: sed accidens est separabile 
+      <lb ed="#R" n="91"/>in esse, vt patet, in Sacramento Altaris: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="92"/>Item quarto: Omne absolutum potest intelligi 
+      <lb ed="#R" n="93"/>sine respectu quocunque: sed accidens aliquod, 
+      pu<lb ed="#R" n="94" break="no"/>ta quantitas, vel qualitas, est absolutum: non enim 
+      <lb ed="#R" n="95"/>omne accidens est respectiuum: ergo accidens 
+      ali<lb ed="#R" n="96" break="no"/>quod potest intelligi sine habitudine ad subiectum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="97"/>Ad primum istorum dico, quod accidens 
+      quan<lb ed="#R" n="98" break="no"/>tumcunque abstractum includit subiectum per 
+      ra<lb ed="#R" n="99" break="no"/>tionem tactam. Ad instantiam de albedine, dico, 
+      <lb ed="#R" n="100"/>quod etsi prima facie albedo non videatur 
+      include<lb ed="#R" n="101" break="no"/>re nisi colorem, &amp; propriam differentiam, tamen 
+      <lb ed="#R" n="102"/>albedo necessario in sua definitione includit 
+      subie<lb ed="#R" n="103" break="no"/>ctum aliquod. Quod sic ostendo, nam quicquid est 
+      <lb ed="#R" n="104"/>de definitione coloris, est de definitione albedinis, 
+      <lb ed="#R" n="105"/>sicut quicquid est de definitione animalis, est 
+      de<lb ed="#R" n="106" break="no"/>definitione hominis: sed subiectum est de 
+      definitio<lb ed="#R" n="107" break="no"/>ne coloris, nam color est extremitas perspicui 
+      in<lb ed="#R" n="108" break="no"/>corpore terminato, ecce ponitur subiectum, &amp; si 
+      <lb ed="#R" n="109"/>haberemus nomen proprij subiecti, ita 
+      ponere<lb ed="#R" n="110" break="no"/>mus subiectum proprium, sicut quando definimus 
+      <lb ed="#R" n="111"/>simitatem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="112"/>Ad secundum concedo, quod accidens habet 
+      ge<lb ed="#R" n="113" break="no"/>nus, &amp; differentiam: sed nec genus, nec differentia 
+      <lb ed="#R" n="114"/>accidentis intelliguntur sine subiecto. Vnde si 
+      de<lb ed="#R" n="115" break="no"/>finiatur accidens per genus, &amp; differentiam; ita 
+      <lb ed="#R" n="116"/>parum separantur per intellectum ipsa definientia 
+      <lb ed="#R" n="117"/>a subiecto, sicut nec definitum, &amp; e conuerso; 
+      vn<lb ed="#R" n="118" break="no"/>de sicut simitatem non intelligit sine figura nasi, sic 
+      <lb ed="#R" n="119"/>nec concauitatem potes intelligere sine concauo, 
+      <lb ed="#R" n="120"/>&amp; magnitudine, quae quidem concauitas est genus 
+      <lb ed="#R" n="121"/>simitatis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="122"/>Ad tertium dico, quod illa maior estt falsa de 
+      <lb ed="#R" n="123"/>his, quae separantur diuina virtute excedente 
+      in<lb ed="#R" n="124" break="no"/>tellectum nostrum: talia enim sunt, cum sint in 
+      se<lb ed="#R" n="125" break="no"/>cundo modo dicendi per se, &amp; sequantur naturam 
+      <lb ed="#R" n="126"/>terminorum, non possunt ab intelligendo separari, 
+      <lb ed="#R" n="127"/>licet possint separari virtute diuina. Et sic est 
+      in<lb ed="#R" n="128" break="no"/>proposito, quod passiones multae, quae sunt in 
+      pa<lb ed="#R" n="129" break="no"/>ne in Sacramento Altaris, sunt in secundo modo 
+      <lb ed="#R" n="130"/>dicendi per se. Nec volo tantum arctare 
+      poten<lb ed="#R" n="131" break="no"/>tiam diuinam, quod velim, quod non possit 
+      fa<lb ed="#R" n="132" break="no"/>cere, nisi ea, quae intellectus noster potest 
+      intelli<lb ed="#R" n="133" break="no"/>gere directe. 
+    </p>
+               <p>
+                  <lb ed="#R" n="134"/>Sed tamen insurgunt ex hoc maiora dubia. Si 
+      <lb ed="#R" n="135"/>enim Deus potest passionem separare a subiecto; 
+      <!--0021.xml-->
+      <pb ed="#R" n="21"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>tunc Deus posset destruere mathematicam, &amp; 
+      fa<lb ed="#R" n="2" break="no"/>cere triangulos, qui non habeant tres angulos 
+      aequa<lb ed="#R" n="3" break="no"/>les duobus rectis, &amp; quod totum non sit maius sua 
+      <lb ed="#R" n="4"/>parte, cum maioritas sit passio totius, &amp; tamen 
+      <lb ed="#R" n="5"/>Commentator 9. Metaph. com. vltimo dicit, quod 
+      <lb ed="#R" n="6"/>non est timendum, quod triangulus transmutetur, 
+      <lb ed="#R" n="7"/>vt quod non habeat aliquando tres angulos 
+      aequa<lb ed="#R" n="8" break="no"/>les duobus rectis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="9"/>Item, tunc Deus posset facere productionem 
+      si<lb ed="#R" n="10" break="no"/>ne termino, &amp; esset productio, &amp; nihil productum, 
+      <lb ed="#R" n="11"/>&amp; hoc, quia productio aspicit terminum ad quem 
+      <lb ed="#R" n="12"/>in obliquo, &amp; in secundo modo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="13"/>Respondeo. Corpus Christi de facto est sub 
+      spe<lb ed="#R" n="14" break="no"/>ciebus in hostia: Ita quod corpus suum, quod est 
+      <lb ed="#R" n="15"/>maximum, non excedit quantitatem illarum 
+      spe<lb ed="#R" n="16" break="no"/>cierum, &amp; vbi est punctus digiti corporis Chrisi, 
+      <lb ed="#R" n="17"/>ibi est totum corpus Christi, &amp; multa huiusmodi, 
+      <lb ed="#R" n="18"/>quae sunt contra omnia principia mathematica 
+      <lb ed="#R" n="19"/>&amp; super omnem intellectum creaturae, propter quod 
+      <lb ed="#R" n="20"/>ego nolo metiri diuinam potentiam. Vnde si 
+      quae<lb ed="#R" n="21" break="no"/>ratur a me, quid est magis possibile, an quod 
+      pro<lb ed="#R" n="22" break="no"/>ductio sit sine termino, an quod natura humana sit 
+      <lb ed="#R" n="23"/>assumpta a verbo in vnitate personae, ita quod Chri 
+      <lb ed="#R" n="24"/>stus includens vtramque naturam sit vna persona. 
+      <lb ed="#R" n="25"/>sicut ego, ita quod verbum possit dici homo 
+      quid<lb ed="#R" n="26" break="no"/>ditatiue sicut ego, alias non fuisset Christus homo 
+      <lb ed="#R" n="27"/>vniuoce cum aljs hominibus, &amp; ideo ista ligant 
+      <lb ed="#R" n="28"/>aeque intellectum nostrum, sicut &amp; alia, &amp; ideo de 
+      <lb ed="#R" n="29"/>omnibus talibus non auderem dicere, quod Deus 
+      <lb ed="#R" n="30"/>non posset ea facere. Quod si forte non possit Deus 
+      <lb ed="#R" n="31"/>facere productionem sine producto, forte est, quia 
+      <lb ed="#R" n="32"/>ex hoc statim reducerentur in repugnantiam primi 
+      <lb ed="#R" n="33"/>modi; sed vbi subiecum, &amp; passio realiter diffe 
+      <lb ed="#R" n="34"/>runt, de talibus credo quod Deus potest ista 
+      sepa<lb ed="#R" n="35" break="no"/>rare. Et ideo si productio non sit aliud a termino 
+      <lb ed="#R" n="36"/>producto, vt quidam dicunt; vel si habere angulos 
+      <lb ed="#R" n="37"/>aequales non sit aliud a triangulo, co quod si 
+      nul<lb ed="#R" n="38" break="no"/>lus esset angulus extrinsecus adhuc haberet 
+      angu<lb ed="#R" n="39" break="no"/>los aequales, ex quo non videtur, quod aequalitas 
+      <lb ed="#R" n="40"/>angulorum sit relatio differens a triangulo, si 
+      in<lb ed="#R" n="41" break="no"/>quam ita sit, statim apparet ratio, quare nec 
+      pro<lb ed="#R" n="42" break="no"/>ductio potest fieri sine termino, nec triangulus 
+      si<lb ed="#R" n="43" break="no"/>ne habere tres angulos aequales angulis 
+      extrin<lb ed="#R" n="44" break="no"/>secis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="45"/>Vlterius potest dici, quod omnes 
+      demonstra<lb ed="#R" n="46" break="no"/>tiones mathematicae probant aptitudinales 
+      pas<lb ed="#R" n="47" break="no"/>siones de subiectis, quae quidem tantummodo sunt 
+      <lb ed="#R" n="48"/>in intellectu, ita tamen, quod omni alio 
+      circum<lb ed="#R" n="49" break="no"/>scripto a fundamentis intellectus intelligens 
+      fun<lb ed="#R" n="50" break="no"/>damenta intelligit aptitudinem necessario, &amp; ex 
+      <lb ed="#R" n="51"/>hoc videtur, quod talis aptitudo sit aliquid extra 
+      <lb ed="#R" n="52"/>intellectum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="53"/>Ad formam ergo rationis, cum dicitur, quod est 
+      <lb ed="#R" n="54"/>separabile per intellectum, nego istam 
+      propositio<lb ed="#R" n="55" break="no"/>nem de separabilibus per solam Dei potentiam, vt 
+      <lb ed="#R" n="56"/>praedictum est. 
+    </p>
+               <p>
+                  <lb ed="#R" n="57"/>Ad vltimum concedo, quod omne ens mere 
+      ab<lb ed="#R" n="58" break="no"/>solutum potest intelligi sine quocunque respectu. 
+    </p>
+               <p>
+                  <lb ed="#R" n="59"/>Nunc ad propositum dico, quod accidens non 
+      <lb ed="#R" n="60"/>pose intelligi sine subieco non est propter 
+      relatio<lb ed="#R" n="61" break="no"/>nem, quae fundetur super accidens in ordine ad 
+      su<lb ed="#R" n="62" break="no"/>biectum: non enim figura fundat relationem ad 
+      <lb ed="#R" n="63"/>figuratum: sed dico, quod essentia accidentis 
+      se<lb ed="#R" n="64" break="no"/>ipsa est intrinseca, cuius terminus est necessario 
+      <lb ed="#R" n="65"/>aliqua extrinseca natura, sicut linea non fundat 
+      re<lb ed="#R" n="66" break="no"/>lationem ad punctum; sed est quaedam natura, &amp; 
+      <lb ed="#R" n="67"/>essentia terminata intrinsece; terminata autem per 
+      <lb ed="#R" n="68"/>rem alterius generis, puta per punctum, &amp; quia 
+      <!--0021.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>intellectus intelligit statuendo, &amp; terminando, ideo 
+      <lb ed="#R" n="70"/>nec est accidens sine subiecto, nec linea potest 
+      in<lb ed="#R" n="71" break="no"/>telligi sine puncto.
+    </p>
+               <p>
+                  <lb ed="#R" n="72"/>Tunc ad formam argumenti, Si per absolutum 
+      <lb ed="#R" n="73"/>intelligas idem, quod terminatum, maior est vera, 
+      <lb ed="#R" n="74"/>&amp; minor falsa: si vero per absolutum intelligas 
+      ca<lb ed="#R" n="75" break="no"/>rens respectu ad aliud, sic maior est falsa, &amp; minor 
+      <lb ed="#R" n="76"/>est vera. 
+    </p>
+               <p>
+                  <lb ed="#R" n="77"/>Tertia Propositio est, quod Sacramentum non 
+      <lb ed="#R" n="78"/>impedit definiri defectus vnitatis, puta, quia 
+      ver<lb ed="#R" n="79" break="no"/>ba, &amp; elementa non faciunt per se vnum: non enim 
+      <lb ed="#R" n="80"/>video, quod relatio, quamuis sit in diuersis 
+      funda<lb ed="#R" n="81" break="no"/>mentis, non habeat vnam rationem definibilem 
+      <lb ed="#R" n="82"/>nam licet fundamenta in se non faciant per se vnum, 
+      <lb ed="#R" n="83"/>relatio tamen potest esse vna, quia relatio non 
+      im<lb ed="#R" n="84" break="no"/>portat illa plura fundamenta formaliter, sed 
+      tan<lb ed="#R" n="85" break="no"/>tum per modum substrati. Verbi gratia, in 
+      circu<lb ed="#R" n="86" break="no"/>lo composito ex ligno, &amp; hedera, siue quocunque 
+      <lb ed="#R" n="87"/>alio potest fundari vna relatio signi in ordine ad 
+      <lb ed="#R" n="88"/>vnum. Bene subintrando magis potest dici ex alio, 
+      <lb ed="#R" n="89"/>quod inuenitur defectus vnitatis in Sacramento, 
+      <lb ed="#R" n="90"/>quam ex hoc, quod fundamenta sunt multa, &amp; 
+      po<lb ed="#R" n="91" break="no"/>test defectus esse duplex. Vnus quidem per hoc 
+      <lb ed="#R" n="92"/>quod Sacramentum est nomen concretum: non 
+      <lb ed="#R" n="93"/>enim relatio signi est Sacramentum, vnde nō 
+      prae<lb ed="#R" n="94" break="no"/>dicatur Sacramentum de relatione signi, 
+      praedica<lb ed="#R" n="95" break="no"/>tur tamen de fundamento ratione concretionis, 
+      si<lb ed="#R" n="96" break="no"/>cut bene dicitur, aqua est Sacramentum, &amp; ratio 
+      <lb ed="#R" n="97"/>est, quia Sacramentum non significat primo 
+      rela<lb ed="#R" n="98" break="no"/>tionem ipsius signi, sed aggregatum ex relatione 
+      <lb ed="#R" n="99"/>signi, &amp; fundamento. Tunc ergo sicut si homini 
+      <lb ed="#R" n="100"/>albo imponeretur nomen vestis, vestis non erit vnum 
+      <lb ed="#R" n="101"/>explicabile per definitionem, quia non dicit 
+      ratio<lb ed="#R" n="102" break="no"/>nem vnam per se, sed aggregat albedinem, &amp; 
+      su<lb ed="#R" n="103" break="no"/>biectum in sua ratione: sic in proposito, 
+      Sacramen<lb ed="#R" n="104" break="no"/>tum non est definibile, quia dicit aliquid 
+      integra<lb ed="#R" n="105" break="no"/>tum ex subiecto, &amp; relatione signi. 
+    </p>
+               <p>
+                  <lb ed="#R" n="106"/>Alius defectus vnitatis in Sacramento est etiam 
+      <lb ed="#R" n="107"/>quo ad formale ipsius Sacramenti, puta quo ad 
+      ra<lb ed="#R" n="108" break="no"/>tionem habitudinis in se, nam Sacramentum non 
+      <lb ed="#R" n="109"/>dicit, quo ad suum formale vnicam habitudinem, 
+      <lb ed="#R" n="110"/>sed importat duas habitudines, scilicet signi, &amp; 
+      <lb ed="#R" n="111"/>causae, quae sunt habitudines disparatae, &amp; alterius 
+      <lb ed="#R" n="112"/>rationis, &amp; separabiles ab inuicem, important enim 
+      <lb ed="#R" n="113"/>Sacramenta habitudinem signi, &amp; hoc modo 
+      defi<lb ed="#R" n="114" break="no"/>nit ea Augustinus: &amp; ponitur in decretal. 
+      Sacra<lb ed="#R" n="115" break="no"/>mentum est sacrae rei signum, &amp; hoc modo 
+      accipi<lb ed="#R" n="116" break="no"/>tur Sacramentum generaliter ad Sacramenta No 
+      <lb ed="#R" n="117"/>uae legis, &amp; Veteris. 
+    </p>
+               <p>
+                  <lb ed="#R" n="118"/>Secundo importat Sacramentum terminationem 
+      <lb ed="#R" n="119"/>causae, &amp; hoc modo definit Magister 
+      Sacramen<lb ed="#R" n="120" break="no"/>tum in litera D, vt eius similitudinem gerat cuius 
+      <lb ed="#R" n="121"/>causa existat, &amp; sic definiuntur Sacramenta 
+      No<lb ed="#R" n="122" break="no"/>uae legis. 
+      <lb ed="#R" n="123"/>Nunc autem ex habitudine signi, &amp; causae non 
+      <lb ed="#R" n="124"/>fit aliquid per se vnum, siue sint habitudines 
+      rea<lb ed="#R" n="125" break="no"/>les, siue sint habitudines rationis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="126"/>Dicetur, quod illa causalitas non est specialis 
+      <lb ed="#R" n="127"/>habitudo addita habitudini signi: sed est 
+      differen<lb ed="#R" n="128" break="no"/>tia specificans, &amp; determinans illam, vt relatio 
+      si<lb ed="#R" n="129" break="no"/>gni sit quasi genus, causalitas autem determinet 
+      il<lb ed="#R" n="130" break="no"/>lam, &amp; constituat specialem habitudinem signi, que 
+      <lb ed="#R" n="131"/>dicatur signum efficax. 
+    </p>
+               <p>
+                  <lb ed="#R" n="132"/>Contra. Ex duobus, quae sunt alterius rationis, 
+      <lb ed="#R" n="133"/>impossibile est, quod fiat vnum per se 
+      definibile<lb ed="#R" n="134" break="no"/>sed signum, &amp; causa sunt habitudines alterius 
+      ra<lb ed="#R" n="135" break="no"/>tionis, &amp; vna reperitur sine alia: ergo 
+      impossi<lb ed="#R" n="136" break="no"/>bile est quod faciant vnam habitudinem per se vnam 
+      <!--0022.xml-->
+      <pb ed="#R" n="22"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>definibilem, &amp; ideo concludo, quod ex hoc 
+      defi<lb ed="#R" n="2" break="no"/>nitio Sacramenti non est proprie definitio, quia 
+      <lb ed="#R" n="3"/>in omni ta li definitione ponitur vtraque habitudo, 
+      <lb ed="#R" n="4"/>vt patet in definitionibus Magistri, &amp; Hugonis, &amp; 
+      <lb ed="#R" n="5"/>Gregorij, &amp; aliorum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="6"/>Tertio principaliter infero quaedam ex his 
+      di<lb ed="#R" n="7" break="no"/>ctis, &amp; primum est quod definitio in generali secun 
+      <lb ed="#R" n="8"/>dum mentem Aristotelis 7. Metaph. tex. 15. &amp; infra, 
+      <lb ed="#R" n="9"/>es sermo indicans quidditatem rei, nullo addito, 
+      <lb ed="#R" n="10"/>pulloque remoto: hoc autem apparet verum esse 
+      <lb ed="#R" n="11"/>ex terminis, nam definitio est terminus: terminus 
+      <lb ed="#R" n="12"/>autem finit, &amp; claudit rem: finire autem est 
+      impos<lb ed="#R" n="13" break="no"/>sibile, nisi claudatur res nullo addito, &amp; nullo 
+      re<lb ed="#R" n="14" break="no"/>moto. Da enim, quod aliquo addito, iam non 
+      ter<lb ed="#R" n="15" break="no"/>minat, quia non praescindit: da vero, quod aliquo 
+      <lb ed="#R" n="16"/>remoto, iam non finit, nec claudit, qnia non 
+      in<lb ed="#R" n="17" break="no"/>cludit. In speciali vero magis definitio est 
+      secun<lb ed="#R" n="18" break="no"/>dum Aristotelem 8. Metaph. tex. I5. &amp; 16. sermo 
+      <lb ed="#R" n="19"/>compositus ex praedicatis in quid primo modo, &amp; 
+      <lb ed="#R" n="20"/>nihil ibi clauditur, quod non sit in quid primo 
+      <lb ed="#R" n="21"/>modo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="22"/>Dices: Differentia non praedicitur in quid, &amp; 
+      ta<lb ed="#R" n="23" break="no"/>men clauditur in definito. Respondeo: Philosophus 
+      <lb ed="#R" n="24"/>accipit quid, vt distinguitur a quali accidentali, 
+      <lb ed="#R" n="25"/>non a quali esssentiali. 
+    </p>
+               <p>
+                  <lb ed="#R" n="26"/>Secundo principaliter infero in speciali, quod 
+      <lb ed="#R" n="27"/>est definibile, &amp; teneo viam Aristotelis 7. Metaph. 
+      <lb ed="#R" n="28"/>tex. 12. &amp; infra, quia definibile proprie est 
+      substan<lb ed="#R" n="29" break="no"/>tia, si habeat genus, &amp; differentias: &amp; ratio est ista 
+      <lb ed="#R" n="30"/>pro Philosopho: imaginatur enim Philosophus, qui 
+      <lb ed="#R" n="31"/>omne illud, quod habet perseitatem clausibilent 
+      <lb ed="#R" n="32"/>nullo addito, nulloque remoto est substantia; sola 
+      <lb ed="#R" n="33"/>enim substantia secundum eum est hoc aliquid 
+      ter<lb ed="#R" n="34" break="no"/>minatum; non dico hoc aliquid accipiendo hoc 
+      ali<lb ed="#R" n="35" break="no"/>quid pro supposito: sed accipiendo pro aliquo 
+      de<lb ed="#R" n="36" break="no"/>monstrabili per intellectum clauso, &amp; terminato, &amp; 
+      <lb ed="#R" n="37"/>de omni tali est verum, quod est definibile, si 
+      ha<lb ed="#R" n="38" break="no"/>bet genus, &amp; differentias. Ex quo sequitur, quod 
+      <lb ed="#R" n="39"/>forma non est definibilis, nec materia similiter, &amp; 
+      <lb ed="#R" n="40"/>ratio es dica, quia forma non est hoc aliquid, sed 
+      <lb ed="#R" n="41"/>est pura per sectio: similiter materia non est hoc 
+      ali<lb ed="#R" n="42" break="no"/>quid, sed est quoddam trahibile ad esse hoc per 
+      ip<lb ed="#R" n="43" break="no"/>sam formam secundum Commentatorem 2. de ani 
+      <lb ed="#R" n="44"/>ma. Similiter, accidens non est aliquid hoc, sed est 
+      <lb ed="#R" n="45"/>materiae alicuius; non est enim ens sed entis, 
+      sci<lb ed="#R" n="46" break="no"/>licet, quia est pura modificatio, sicut qualitas, 
+      <lb ed="#R" n="47"/>vel diuisibilitas, sicut quantitas, vel aliquid 
+      simi<lb ed="#R" n="48" break="no"/>le, &amp; ideo sola substantia terminata est definibilis 
+      <lb ed="#R" n="49"/>secundum Aristotelem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="50"/>Sic ergo respondeo ad quaesttionem, quod 
+      Sacra<lb ed="#R" n="51" break="no"/>mentum non potest habere propriam 
+      desinitio<lb ed="#R" n="52" break="no"/>nem, accipiendo de finitionem pro sermone 
+      expli<lb ed="#R" n="53" break="no"/>cante rei esssentiam nullo addito, nulloque remoto. 
+    </p>
+               <p>
+                  <lb ed="#R" n="54"/>Ad argumentnm in oppositum dico, quod 
+      San<lb ed="#R" n="55" break="no"/>cti, &amp; Magister non loquuntur de definitione 
+      pro<lb ed="#R" n="56" break="no"/>prie sumpta, hoc modo quo dictum est. 
+    </p>
+            </div>
+            <div>
+               <head>Articulus 2</head>
+               <head type="question-title">
+      Utrum definitio Sacramenti, quae assignatur a 
+      Magistro, sit propria, et conueniens 
+      Sacramenti.
+    </head>
+               <p>
+                  <lb ed="#R" n="57"/>ARTICVLVS II 
+      <lb ed="#R" n="58"/>Vtrum definitio Sacramenti, quae assignatur a 
+      <lb ed="#R" n="59"/>Magistro, sit propria, &amp; conueniens 
+      <lb ed="#R" n="60"/>Sacramenti. 
+    </p>
+               <p>
+                  <lb ed="#R" n="61"/>QVoad secundam quaestionem, arguo primo 
+      <lb ed="#R" n="62"/>quod definitio Sacramenti, quam Magister 
+      <lb ed="#R" n="63"/>assignat in litera, non sit propria, &amp; 
+      con<lb ed="#R" n="64" break="no"/>ueniens Sacramenti de finitio sic: Nulla definitio est 
+      <lb ed="#R" n="65"/>nugatoria, &amp; vana: sed definitio, quam ponit Ma- 
+      <!--0022.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="66"/>gister in litera, videtur esse vana, &amp; ociosa: ait 
+      <lb ed="#R" n="67"/>enim primo, quod est inuisibilis gratiae visibilis 
+      <lb ed="#R" n="68"/>forma, ait, eius similitudinem gerens: sed forma, 
+      <lb ed="#R" n="69"/>vt ibi accipitur, &amp; similitudo idem sonant: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="70"/>In oppositum est auctoritas Augustini, ex cuius 
+      <lb ed="#R" n="71"/>dictis Magister colligit definitionem illam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="72"/>Respondeo in ista quaestione pono duas 
+      propo<lb ed="#R" n="73" break="no"/>sitiones. Prima est de definitionibus assignatis a 
+      <lb ed="#R" n="74"/>Sanctis, &amp; Doctoribus, quae, &amp; quot sunt. 
+      Secun<lb ed="#R" n="75" break="no"/>da est comparando vnam ad aliam, quae videtur 
+      <lb ed="#R" n="76"/>magis conueniens. 
+    </p>
+               <p>
+                  <lb ed="#R" n="77"/>Quantum ad primum pono propositionem 
+      <lb ed="#R" n="78"/>istam, quod quatuor sunt definitiones solemnes 
+      <lb ed="#R" n="79"/>Sacramenti assignatae a Doctoribus antiquis, &amp; 
+      <lb ed="#R" n="80"/>Sanctis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="81"/>Prima est Augustini de Ciuitate Dei, qui ait 
+      Sa<lb ed="#R" n="82" break="no"/>cramentum est sacrae rei signum, ista autem est 
+      de<lb ed="#R" n="83" break="no"/>finitio communis Sacramentis Veteris, &amp; Nouae 
+      <lb ed="#R" n="84"/>Legis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="85"/>Secunda est Gregorij definitio, &amp; ponitur in 
+      de<lb ed="#R" n="86" break="no"/>cretal. prima quaestio: prima, cap. Multi 
+      saecu<lb ed="#R" n="87" break="no"/>larium. Sacramentum est signum hominum, in 
+      <lb ed="#R" n="88"/>quo sub tegumento rerum sensibilium virtus 
+      diui<lb ed="#R" n="89" break="no"/>na operatur secretius salutem eorum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="90"/>Tertia definitio est Hugonis lib. 1. parte 9. cap. 
+      <lb ed="#R" n="91"/>2. de Sacramentis: Sacramentum, inquit, est 
+      ele<lb ed="#R" n="92" break="no"/>mentum foras oculis suppositum ex diuina 
+      insti<lb ed="#R" n="93" break="no"/>tutione significans, ex benedictione gratiam 
+      con<lb ed="#R" n="94" break="no"/>ferens. 
+    </p>
+               <p>
+                  <lb ed="#R" n="95"/>Quarta definitio est Magistri in litera, &amp; est 
+      col<lb ed="#R" n="96" break="no"/>lecta ex multis dictis Augustini: Sacramentum est 
+      <lb ed="#R" n="97"/>inuisibilis gratiae forma visibilis, vt similitudinem 
+      <lb ed="#R" n="98"/>eius gerat, &amp; causa existat. 
+    </p>
+               <p>
+                  <lb ed="#R" n="99"/>Haec definitio adducitur a quibusdam 
+      Doctori<lb ed="#R" n="100" break="no"/>bus talis; Sacramentum est signum sensibile, 
+      gra<lb ed="#R" n="101" break="no"/>tiam Dei, vel efffectum Dei gratuitum ex 
+      institu<lb ed="#R" n="102" break="no"/>tione diuina efficaciter significans, ordinatum ad 
+      <lb ed="#R" n="103"/>salutem hominis viatoris. 
+    </p>
+               <p>
+                  <lb ed="#R" n="104"/>Et secundum istos Doctores hic ponuntur 
+      om<lb ed="#R" n="105" break="no"/>nes causae Sacramenti. Ideo secundum eos est 
+      de<lb ed="#R" n="106" break="no"/>finitio proprijssima, quae potest asignari, nam 
+      <lb ed="#R" n="107"/>ponitur causa formalis in hoc, quod dicitur signum, 
+      <lb ed="#R" n="108"/>quod quidem est ratio formalis Sacramenti; hoc 
+      <lb ed="#R" n="109"/>autem quod dicitur, efficaciter significans, est diffe 
+      <lb ed="#R" n="110"/>rentia specificans, habens relationem, quae est 
+      si<lb ed="#R" n="111" break="no"/>gnum: non enim Sacramentum est qualecunque 
+      si<lb ed="#R" n="112" break="no"/>gnum, sed signum efficaxinotans causalitatem 
+      ali<lb ed="#R" n="113" break="no"/>quam respectu signati. 
+    </p>
+               <p>
+                  <lb ed="#R" n="114"/>Causa vero realis, idest fundamentum tangitur 
+      <lb ed="#R" n="115"/>in hoc, quod dicitur, sensibile. 
+    </p>
+               <p>
+                  <lb ed="#R" n="116"/>Causa vero efficiens in hoc, quod dicitur ex 
+      in<lb ed="#R" n="117" break="no"/>stitutione diuina. In hoc vero, quod dicitur, 
+      gra<lb ed="#R" n="118" break="no"/>tiam Dei, notatur terminus relationis, quam 
+      im<lb ed="#R" n="119" break="no"/>portat Sacramentum. In hoc vero, quod dicitur, 
+      <lb ed="#R" n="120"/>ordinatum ad salutem hominis viatoris, tangitur 
+      <lb ed="#R" n="121"/>causa finalis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="122"/>Secunda Propositio principalis est, quod in 
+      pro<lb ed="#R" n="123" break="no"/>posito distinguendum est de definitione: quaedam 
+      <lb ed="#R" n="124"/>enim est definitio Metaphysica; quaedam vero est 
+      <lb ed="#R" n="125"/>definitio aliarum scientiarum specialium. 
+    </p>
+               <p>
+                  <lb ed="#R" n="126"/>Definitio quaedam metaphysica est, quae ligat, &amp; 
+      <lb ed="#R" n="127"/>exprimit quidditatem rei, nullo addito, nulloque 
+      <lb ed="#R" n="128"/>remoto, &amp; haec est definitio propria quidditatiua 
+      <lb ed="#R" n="129"/>secundo modo explicat quidditatem rei nullo 
+      ad<lb ed="#R" n="130" break="no"/>dito, sine quo res explicari non potest, addito 
+      <lb ed="#R" n="131"/>vero aliquo, sine quo non est explicabilis, &amp; talis 
+      <lb ed="#R" n="132"/>licet non sit definitio ita proprie dicta, est tamen 
+      <lb ed="#R" n="133"/>definitio metaphysica; &amp; ideo definitio metaphy- 
+      <!--0023.xml-->
+      <pb ed="#R" n="23"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>fica includit necessario genus, &amp; differentiam, &amp; 
+      <lb ed="#R" n="2"/>hoc praecise in substantijs: sed vltra genus, &amp; 
+      dif<lb ed="#R" n="3" break="no"/>ferentiam excludit necessario subiectum, vr in 
+      ac<lb ed="#R" n="4" break="no"/>cidentibus. Vltra subiectum etiam includit 
+      neces<lb ed="#R" n="5" break="no"/>sario fundamentum, &amp; terminum in accidentibus 
+      <lb ed="#R" n="6"/>respectiuis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="7"/>Sed definitio aliarum scientiarum non accipit 
+      <lb ed="#R" n="8"/>per se quidditatem, quod ad per se intentionem 
+      <lb ed="#R" n="9"/>illius scientiae speciales capiunt definitiones, pro 
+      <lb ed="#R" n="10"/>quanto sunt instrumenta ad venandum proprias 
+      <lb ed="#R" n="11"/>passiones, &amp; media demonstrationum, &amp; ratio est, 
+      <lb ed="#R" n="12"/>quia scientiae speciales puta Physica, &amp; huiusmodi 
+      <lb ed="#R" n="13"/>non intendunt quidditatem, inquantum quidditas 
+      <lb ed="#R" n="14"/>est ( hoc enim tantum pertinet ad Metaphysicam) 
+      <lb ed="#R" n="15"/>sed intendunt proprias passiones, &amp; quia 
+      defini<lb ed="#R" n="16" break="no"/>tiones intendunt propter proprias passiones, ideo 
+      <lb ed="#R" n="17"/>definiunt sermone accommodato ad suas passiones. 
+    </p>
+               <p>
+                  <lb ed="#R" n="18"/>Ex quo apparet, quod diuersi artifices capiunt 
+      <lb ed="#R" n="19"/>diuersas definitiones, cum (vt dictum est) non 
+      in<lb ed="#R" n="20" break="no"/>tendant definitiones, nisi vt sunt instrumenta ad 
+      <lb ed="#R" n="21"/>probandum proprias passiones: aliquae autem 
+      <lb ed="#R" n="22"/>scientiae venentur passiones per vnam causam, aliae 
+      <lb ed="#R" n="23"/>per aliam, &amp; aliae per vnam tantum, aliae per duas, 
+      <lb ed="#R" n="24"/>aliae per omnes causas. Hinc est quod definitio ex 
+      <lb ed="#R" n="25"/>eo, quod est instrumentum venandi passiones, non 
+      <lb ed="#R" n="26"/>capit quidditatem rei: sed causam, per quam 
+      con<lb ed="#R" n="27" break="no"/>tingit venari propriam passionem, &amp; tunc definitio 
+      <lb ed="#R" n="28"/>quandoque capit vnam causam, quandoque duas, 
+      <lb ed="#R" n="29"/>quandoque quatuor, sicut exigit illa scientia. Eo 
+      <lb ed="#R" n="30"/>enim modo, quo scientia demonstrat passionem, eo 
+      <lb ed="#R" n="31"/>modo capit definitionem; &amp; quando demonstrat 
+      <lb ed="#R" n="32"/>per vnam causam tantum, capit definitionem per 
+      <lb ed="#R" n="33"/>vnam causam tantum; quando vero demonstrat 
+      <lb ed="#R" n="34"/>per plures causas, capit definitionem continentem 
+      <lb ed="#R" n="35"/>plures causas. 
+    </p>
+               <p>
+                  <lb ed="#R" n="36"/>Ex hoc apparet, quo modo definit naturam 
+      phy<lb ed="#R" n="37" break="no"/>sicus, &amp; aliter Ethicus. Ethicus enim definit 
+      na<lb ed="#R" n="38" break="no"/>turam per causam finalem tantum, quia 
+      demon<lb ed="#R" n="39" break="no"/>stratio sua est maxime per causam finalem: 
+      Physi<lb ed="#R" n="40" break="no"/>cus vero definit naturam per omnes causas, eo quod 
+      <lb ed="#R" n="41"/>procedit demonstrando per omnes causas. 
+    </p>
+               <p>
+                  <lb ed="#R" n="42"/>Ex hoc etiam apparet, quod aliter definiunt 
+      scien<lb ed="#R" n="43" break="no"/>tia speciales, &amp; aliter metaphysicus; si enim 
+      scien<lb ed="#R" n="44" break="no"/>tia speciales tantum considerarent quidditatem 
+      <lb ed="#R" n="45"/>imposs ibile est quod aliter definient, quam 
+      meta<lb ed="#R" n="46" break="no"/>physicus: sed quia tantummodo definirent, vt 
+      de<lb ed="#R" n="47" break="no"/>monstrent proprias passiones, ideo definiunt per 
+      <lb ed="#R" n="48"/>illud, quo probant illas, scilicet per causam, 
+      non<lb ed="#R" n="49" break="no"/>per quidditatem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="50"/>Ex quo apparet, quod definitio 
+      metaphysica<lb ed="#R" n="51" break="no"/>capit genus, &amp; differentiam, &amp; illud sine quo non 
+      <lb ed="#R" n="52"/>valet essentia explicari: sed definitio aliarum 
+      <lb ed="#R" n="53"/>scientiarum capit causas, per quas haec passio 
+      de<lb ed="#R" n="54" break="no"/>monstratur. 
+    </p>
+               <p>
+                  <lb ed="#R" n="55"/>Ex quo apparet sensus illius verbi 1. de anima 
+      <lb ed="#R" n="56"/>quod definitio est vana, quae non facit scire 
+      acci<lb ed="#R" n="57" break="no"/>dentia; loquitur enim ibi de definitione secundo 
+      <lb ed="#R" n="58"/>modo; nisi enim faciat scire accidentia, non habet 
+      <lb ed="#R" n="59"/>rationem instrumenti. 
+      <lb ed="#R" n="60"/>Ex quo etiam patet illud dictum Archytae 8. Me 
+      <lb ed="#R" n="61"/>taphysicae tex. 6. qui abstrahebat definitiones 
+      po<lb ed="#R" n="62" break="no"/>nendo in eis materiam, &amp; formam; non 
+      loqueba<lb ed="#R" n="63" break="no"/>tur enim de definitionibus, nisi inquantum sunt 
+      <lb ed="#R" n="64"/>instrumenta. 
+    </p>
+               <p>
+                  <lb ed="#R" n="65"/>Ex dictis autem concludo contra aliquos, quod 
+      <lb ed="#R" n="66"/>Meraphysicus definiendo accidens per subiectum 
+      <lb ed="#R" n="67"/>non definit accidens per causam, sicut dicunt 
+      qui<lb ed="#R" n="68" break="no"/>dam, nihil enim ad Metaphysicum de causa, in- 
+      <!--0023.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>quantum definit: sed definit accidens per subiectum, 
+      <lb ed="#R" n="70"/>sicut per terminum proprium, sine quo accidens 
+      <lb ed="#R" n="71"/>non potest explicari, nec habet rationem 
+      intel<lb ed="#R" n="72" break="no"/>ligibilis: Intellectus enim intelligit statuendo, 
+      <lb ed="#R" n="73"/>&amp; terminando; res autem essentialiter 
+      intermi<lb ed="#R" n="74" break="no"/>nata non potest terminari, nec statui excluso 
+      ter<lb ed="#R" n="75" break="no"/>mino suo; accidens vero, vt dictum est alias, est 
+      es<lb ed="#R" n="76" break="no"/>sentia interminata intrinsece, &amp; ideo indigens 
+      ter<lb ed="#R" n="77" break="no"/>minari extrinsece per subiectum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="78"/>Ex his vltimo apparet, quod definitio, 
+      quan<lb ed="#R" n="79" break="no"/>doque differt a demonstratione sola positione, &amp; 
+      <lb ed="#R" n="80"/>situ, &amp; quidem habet veritatem de definitione, non 
+      <lb ed="#R" n="81"/>explicante quidem quidditatem, sed causas 
+      passio<lb ed="#R" n="82" break="no"/>num, quae sunt instrumenta. 
+    </p>
+               <p>
+                  <lb ed="#R" n="83"/>Quod autem scientis particulares accipiunt 
+      de<lb ed="#R" n="84" break="no"/>finitiones inquantum instrumenta sunt, patet per 
+      <lb ed="#R" n="85"/>Commentarem 6. Metaph. vbi dicit, quod 
+      scien<lb ed="#R" n="86" break="no"/>tiae speciales differunt per instrumenta sciendi. 
+      <lb ed="#R" n="87"/>Secunda Propositio est ad propositum, &amp; est ista. 
+      <lb ed="#R" n="88"/>Cum enim quaeritur de definitione Magistri; Vtrum 
+      <lb ed="#R" n="89"/>sit conueniens, &amp; propria. Respondeo, quod vel 
+      <lb ed="#R" n="90"/>loqueris de definitione, prout explicat quidditatem 
+      <lb ed="#R" n="91"/>tantum, &amp; illud sine quo non potest quidditas 
+      ex<lb ed="#R" n="92" break="no"/>plicari, de qua dictum est, quod est definitio 
+      Me<lb ed="#R" n="93" break="no"/>taphysica; vel loqueris de definitione, vt est 
+      instru<lb ed="#R" n="94" break="no"/>mentum propriae passionis, vt differt a 
+      demonstra<lb ed="#R" n="95" break="no"/>tione sola positione, &amp; situ. 
+    </p>
+               <p>
+                  <lb ed="#R" n="96"/>Ex hoc modo potest contingere dupliciter, vel 
+      <lb ed="#R" n="97"/>vt talis definitio exprimit, &amp; ligat passiones, &amp; 
+      <lb ed="#R" n="98"/>proprietates, &amp; sic accipiendo cum multas possim 
+      <lb ed="#R" n="99"/>sundare proprietates, &amp; passiones super rationem 
+      <lb ed="#R" n="100"/>Sacramenti, multas possem hoc modo 
+      assignare<lb ed="#R" n="101" break="no"/>definitiones Sacramenti secundum diuersas 
+      cir<lb ed="#R" n="102" break="no"/>cumstantias, ad quas possem comparare 
+      Sacra<lb ed="#R" n="103" break="no"/>mentum 
+    </p>
+               <p>
+                  <lb ed="#R" n="104"/>Vel secundo talis definitio ligat, &amp; explicat cau 
+      <lb ed="#R" n="105"/>sas omnes Sacramenti, &amp; sic capiendo 
+      definitio<lb ed="#R" n="106" break="no"/>nem multum videtur congrua definitio vltima 
+      il<lb ed="#R" n="107" break="no"/>lius Doctoris recitata in propositione, &amp; posset 
+      es<lb ed="#R" n="108" break="no"/>se vna alia adhuc magis completa talis. 
+      Sacramen<lb ed="#R" n="109" break="no"/>tum est res sensibilis inuisibilis gratiae signum 
+      <lb ed="#R" n="110"/>tanquam existens ex institutione diuina collata 
+      <lb ed="#R" n="111"/>d mini sro idoneo, cum intentione, debita disposita, 
+      <lb ed="#R" n="112"/>ordinata in salutem hominis viatoris. Jsta autem 
+      <lb ed="#R" n="113"/>definitio adhuc melius exprimit omnes causas, 
+      <lb ed="#R" n="114"/>quam illa alterius Doctoris; exprimit enim vtrũ- 
+      <lb ed="#R" n="115"/>que formale, quia signum, &amp; causa exprimit etiam 
+      <lb ed="#R" n="116"/>ex parte causae efficientis, tam principale efficiens 
+      <lb ed="#R" n="117"/>quam applicans, quia ex institutione diuina, &amp; a 
+      <lb ed="#R" n="118"/>minisro idoneo, &amp; c. 
+    </p>
+               <p>
+                  <lb ed="#R" n="119"/>Sed si loquamur de definitione Metaphysica 
+      <lb ed="#R" n="120"/>quae tantum claudit, &amp; explicat quidditatem, &amp; ea 
+      <lb ed="#R" n="121"/>sine quibus non potest quidditas explicari, non 
+      cu<lb ed="#R" n="122" break="no"/>rando de causis, nec passionibus: tunc dico, quod 
+      <lb ed="#R" n="123"/>nulla est ita conueniens, &amp; bona definitio, sicut 
+      de<lb ed="#R" n="124" break="no"/>finitio Magisri. 
+    </p>
+               <p>
+                  <lb ed="#R" n="125"/>Ad cuius euidentiam sciendum est, quod relatio 
+      <lb ed="#R" n="126"/>habet definiri per suum formale, quod importat 
+      <lb ed="#R" n="127"/>principaliter, &amp; per duo addita, scilicet per 
+      fun<lb ed="#R" n="128" break="no"/>damentum, &amp; per terminum, &amp; ista praecise 
+      ponun<lb ed="#R" n="129" break="no"/>tur in definitione Metaphysica cuiuscunque 
+      rela<lb ed="#R" n="130" break="no"/>tionis. Definitio autem Magistri proprijssime tangit, 
+      <lb ed="#R" n="131"/>&amp; ligat praedicta. Cum enim Sacramentum sit 
+      quae<lb ed="#R" n="132" break="no"/>dam relatio, debet in definitione eius primo accipi 
+      <lb ed="#R" n="133"/>suum sormale. Et quia Sacramentum, vt dictum 
+      <lb ed="#R" n="134"/>est quaestione praecedenti, importat duplicem habi 
+      <lb ed="#R" n="135"/>tudinem, scilicet signi, &amp; causae, vtraque habitudo 
+      <lb ed="#R" n="136"/>tangitur in definitione Magistri, cum dicit, vt eius 
+      <!--0024.xml-->
+      <pb ed="#R" n="24"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>similitudinem gerat, &amp; causa existat. Tangit etiam 
+      <lb ed="#R" n="2"/>Magister sufficienter duo addita, scilicet fundamen 
+      <lb ed="#R" n="3"/>tum, cum dicit, visibilis forma, &amp; terminum cum 
+      <lb ed="#R" n="4"/>dicit, inuisibilis gratiae. Quatuor ergo oporter 
+      po<lb ed="#R" n="5" break="no"/>nere in congrua definitione sacramenti: duo quidem 
+      <lb ed="#R" n="6"/>pertinentia ad formalem: duo vero 
+      pertinentia<lb ed="#R" n="7" break="no"/>vnum quidem ad fundamentum, aliud vero ad 
+      ter<lb ed="#R" n="8" break="no"/>minum, vt praedictum est, &amp; haec tangit Magister 
+      <lb ed="#R" n="9"/>expresse in litera, vt praedictum est. Et ideo 
+      defini<lb ed="#R" n="10" break="no"/>tio isa Magistri estt quidditatiua, &amp; Metaphysica, 
+      <lb ed="#R" n="11"/>quae nihil aliud exprimit quam quidditatem, &amp; ea 
+      <lb ed="#R" n="12"/>sine quibus non, vt causis, sed vt proprijs terminis 
+      <lb ed="#R" n="13"/>non potest quidditas explicari. 
+    </p>
+               <p>
+                  <lb ed="#R" n="14"/>Ad hoc posset poni exemplum tale, capio 
+      defi<lb ed="#R" n="15" break="no"/>nitionem generis, quae est ista: Genus est, quod 
+      <lb ed="#R" n="16"/>praedicatur de pluribus, &amp;c. hic ponitur primo 
+      ip<lb ed="#R" n="17" break="no"/>sum formale generis, scilicet praedicabilitas, &amp; 
+      tan<lb ed="#R" n="18" break="no"/>gitur etiam materiale, &amp; fundamentum, quia quod 
+      <lb ed="#R" n="19"/>praedicatur, tangitur etiam terminus, quia de 
+      plu<lb ed="#R" n="20" break="no"/>ribus, &amp;c. non est enim aliud ratio generis, nisi 
+      re<lb ed="#R" n="21" break="no"/>spectus quidam secundae intentionionis fundatus 
+      <lb ed="#R" n="22"/>super aliquam rem conceptam in ordine ad plura, 
+      <lb ed="#R" n="23"/>&amp; genus in concreto est illud, quod fundat illum 
+      <lb ed="#R" n="24"/>respectum ad plura: &amp; sic est in Sacramento. Ratio 
+      <lb ed="#R" n="25"/>enim in abstracto est duplex respectus, &amp; habitudo 
+      <lb ed="#R" n="26"/>ad gratiam. Sacramentum vero in concreto est om 
+      <lb ed="#R" n="27"/>ne illud, quod fundat duplicem habitudinem ad 
+      <lb ed="#R" n="28"/>gratiam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="29"/>Ad argumentum in oppositum. Respondeo 
+      pri<lb ed="#R" n="30" break="no"/>mo, quod non vane ponitur in definitione 
+      Sacra<lb ed="#R" n="31" break="no"/>menti, inuisibilis gratiae, sunt enim gratiae multae 
+      <lb ed="#R" n="32"/>visibiles, sicut gratiae curporales, ponitur ergo 
+      <lb ed="#R" n="33"/>inuisibilis gratiae ad differentiam gratiae corporalis. 
+      <lb ed="#R" n="34"/>Et nota, quod hic, inuisibilis, non tantum 
+      acci<lb ed="#R" n="35" break="no"/>pitur pro sensu visus, sed pro sensu in communi, &amp; 
+      <lb ed="#R" n="36"/>similiter hoc, quod dicit, Visibilis forma, non 
+      de<lb ed="#R" n="37" break="no"/>bet referri praecise ad sensum visus, sed debet 
+      acci<lb ed="#R" n="38" break="no"/>pi visibile pro sensibili in communi. 
+    </p>
+               <p>
+                  <lb ed="#R" n="39"/>Secundo non est definitio nugatoria per hoc, quod 
+      <lb ed="#R" n="40"/>dicit, vt eius similitudinem gerat, &amp; primo 
+      dixe<lb ed="#R" n="41" break="no"/>rat forma: forma enim accipitur ibi pro fundamen 
+      <lb ed="#R" n="42"/>to, quod est ipsa res sensibilis, sed similitudo acci. 
+      <lb ed="#R" n="43"/>pitur pro formali habitudine signi. 
+    </p>
+            </div>
+            <div>
+               <head>Articulus 3</head>
+               <head type="question-title">
+      Utrum Circumcisio fuerit conuenienter instituta.
+    </head>
+               <p>
+                  <lb ed="#R" n="44"/>ARTICVLVS III 
+      <lb ed="#R" n="45"/>Vtrum Circumcisio fuerit conuenienter
+      <lb ed="#R" n="46"/>instituta.
+    </p>
+               <p>
+                  <lb ed="#R" n="47"/>AD tertiam quaestionem respondeo sine 
+      argu<lb ed="#R" n="48" break="no"/>mentis, quod Circumcisio tempore legis 
+      <lb ed="#R" n="49"/>antiquae fuit congrue assignata, &amp; hoc apparet 
+      di<lb ed="#R" n="50" break="no"/>scurrendo per singula, penes quae habet attendi 
+      ra<lb ed="#R" n="51" break="no"/>tio congruitatis in talibus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="52"/>Et primo quidem fuit congrue assignata 
+      quan<lb ed="#R" n="53" break="no"/>tum ad actum, qui erat amputatio superfluitatis, 
+      <lb ed="#R" n="54"/>per quod notabatur, quod venire debebat, qui 
+      am<lb ed="#R" n="55" break="no"/>putaturus erat omnem superfluitatem peccati. 
+    </p>
+               <p>
+                  <lb ed="#R" n="56"/>Secundo fuit congrue instituta quantum ad 
+      mo<lb ed="#R" n="57" break="no"/>dum actus: fiebat enim incisio circularis, per quod 
+      <lb ed="#R" n="58"/>notabatur, quod amputatio culpae futura erat per 
+      <lb ed="#R" n="59"/>vnam personam circularem, quae esset vere Deus, 
+      <lb ed="#R" n="60"/>qui est a, &amp; v, idest, principium, &amp; finis, sicut 
+      <lb ed="#R" n="61"/>idem punctus in circulo est principiumi, &amp; finis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="62"/>Similiter per personam, quae esset Deus, &amp; 
+      ho<lb ed="#R" n="63" break="no"/>mo, vbi per modum circuli creatura per modum 
+      <lb ed="#R" n="64"/>lineae circularis a Deo, sicut a principio vno egre- 
+      <!--0024.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="65"/>diens per suum finem, qui est homo, eidem 
+      princi<lb ed="#R" n="66" break="no"/>pio, quasi recuruata vnitur. 
+    </p>
+               <p>
+                  <lb ed="#R" n="67"/>Tertio fuit congrue instituta quantum ad 
+      mem<lb ed="#R" n="68" break="no"/>brum: fuit enim instituta in remedium peccati 
+      <lb ed="#R" n="69"/>originalis, &amp; ideo propter tria fuit quoad 
+      mem<lb ed="#R" n="70" break="no"/>brum conarue instituta. 
+    </p>
+               <p>
+                  <lb ed="#R" n="71"/>Primo, quia peccatum originale per actum ge- 
+      <!-- <lb/> missing line break-->nerationis ad posteros transfundebatur
+    </p>
+               <p>
+                  <lb ed="#R" n="72"/>Secundo, quia in membro illo apparet maior 
+      <lb ed="#R" n="73"/>rebellio, quae inest propter peccatum originale. 
+    </p>
+               <p>
+                  <lb ed="#R" n="74"/>Tertio, quia protestabantur, quod Christus, 
+      <lb ed="#R" n="75"/>qui afferebat remedium contra peccatum 
+      origi<lb ed="#R" n="76" break="no"/>nale. nasciturus erat ex eis, &amp; ideo apud Antiquos 
+      <lb ed="#R" n="77"/>Patres maximum erat iuramentum, quod fiebat 
+      <lb ed="#R" n="78"/>sub faemore, iurabatur enim per illum, qui 
+      promis<lb ed="#R" n="79" break="no"/>sus erat debere nasci ab eis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="80"/>Quarto fuit congrue instituta quoad 
+      instrumen<lb ed="#R" n="81" break="no"/>tum, fiebat enim cultro lapideo, qui figurabat 
+      la<lb ed="#R" n="82" break="no"/>pidem illum abscindendum de monte sine 
+      maui<lb ed="#R" n="83" break="no"/>bus, qui resecare debebat omne superfluum 
+      origi<lb ed="#R" n="84" break="no"/>nalis culpae: sed tamen hoc non erat necessitatis, 
+      <lb ed="#R" n="85"/>tamen Judaei obseruabant illud propter 
+      solemnita<lb ed="#R" n="86" break="no"/>tem, quia patres eorum circumcisi fuerant 
+      instru<lb ed="#R" n="87" break="no"/>mento tali, vt patet de Josue, qui circumcidit 
+      po<lb ed="#R" n="88" break="no"/>pulum in deserto, &amp; de Delbora Judicum c.
+    </p>
+               <p>
+                  <lb ed="#R" n="89"/>Quinto fuit congrue instituta quantum ad 
+      se<lb ed="#R" n="90" break="no"/>xum, quia non fiebat nisi in sexu virili, &amp; ratio 
+      <lb ed="#R" n="91"/>est, quia protestabantur Christum ex eis 
+      nascitu<lb ed="#R" n="92" break="no"/>rum: Christus autem nasciturus erat de eis 
+      prae<lb ed="#R" n="93" break="no"/>cise quantum ad homines, non quantum ad 
+      mulie<lb ed="#R" n="94" break="no"/>res, nam natus est Christus, non tantum de 
+      Iu<lb ed="#R" n="95" break="no"/>daeorum mulieribus, sed de gentilium, ficut de 
+      <lb ed="#R" n="96"/>Raab, Ruth, &amp; Bersabee vxore Vriae, &amp; ideo si 
+      <lb ed="#R" n="97"/>mulieres circumcisae fuissent, non fuisset vera 
+      signi<lb ed="#R" n="98" break="no"/>ficatio. 
+    </p>
+               <p>
+                  <lb ed="#R" n="99"/>Sexto fuit congrue instituta, scilicet octauo 
+      <lb ed="#R" n="100"/>die, quae figurabat resurrectionem, &amp; 
+      significa<lb ed="#R" n="101" break="no"/>bat, quod sicut in Adam omnes erant mortui per 
+      <lb ed="#R" n="102"/>peccatum, sic in vno nascituro ex eis omnes 
+      resur<lb ed="#R" n="103" break="no"/>recturi erant per gratiam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="104"/>Sed quid dicendum de pueris, qui moriebantur 
+      <lb ed="#R" n="105"/>ante circuncisionem. Respondeo idem erat 
+      dicen<lb ed="#R" n="106" break="no"/>dum de eis, quod est dicendum hodie de 
+      deceden<lb ed="#R" n="107" break="no"/>tibus sine baptismo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="108"/>Sed quid de illis, qui fuerunt mortui in deserto, 
+      <lb ed="#R" n="109"/>fuerunt ne damnati, cum mortui fuerint absque cir 
+      <lb ed="#R" n="110"/>cumcisione? Respondeo dico, quod non, quia 
+      spe<lb ed="#R" n="111" break="no"/>ciali dispensatione diuina facum est, quod non 
+      cir<lb ed="#R" n="112" break="no"/>cunciderentur pro illo tempore. 
+    </p>
+               <p>
+                  <lb ed="#R" n="113"/>Septimo fuit congrue instituta quo ad populum, 
+      <lb ed="#R" n="114"/>quia de populo illo, inquantum erat ab alijs 
+      distin<lb ed="#R" n="115" break="no"/>ctus, erat nasciturus Christus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="116"/>Octauo fuit congrue instituta quoad primum 
+      <lb ed="#R" n="117"/>suscipiens scilicet Abraham. 
+    </p>
+               <p>
+                  <lb ed="#R" n="118"/>Sed quare non fuerit primo mandata primo 
+      ho<lb ed="#R" n="119" break="no"/>mini, scilicet Adae? Respondeo ideo 
+      congrue<lb ed="#R" n="120" break="no"/>quia non fuisset congrue scitum, de qua progenie 
+      <lb ed="#R" n="121"/>Christus nasci debuisset, &amp; quia nasci debuit 
+      de<lb ed="#R" n="122" break="no"/>populo specialis ritus; &amp; quia prius oportuit 
+      po<lb ed="#R" n="123" break="no"/>pulum eligere, quam legem populo dare, ideo 
+      au<lb ed="#R" n="124" break="no"/>tem primo Abraham, quia Pater fuit primus fidei, 
+      <lb ed="#R" n="125"/>&amp; ipse primo dimisit domum suam, &amp; populum 
+      <lb ed="#R" n="126"/>propter Deum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="127"/>Nono fuit congrue instituta quo ad vinculum 
+      <lb ed="#R" n="128"/>obligationis: obligabat enim circumcisio 
+      quem<lb ed="#R" n="129" break="no"/>libet de populo illo tunc temporis, sicut 
+      hodie<lb ed="#R" n="130" break="no"/>obligat baptismus. Et qui clamabat in lege veteri, 
+      <!--0025.xml-->
+      <pb ed="#R" n="25"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Animam, quae circumcisa non fuerit, delebitur de 
+      po<lb ed="#R" n="2" break="no"/>pulo suo, clamat hodie in lege noua: Nisi quis 
+      re<lb ed="#R" n="3" break="no"/>natus fuerit ex aqua, &amp; Spiritu sanco, non 
+      intra<lb ed="#R" n="4" break="no"/>bit regnum caelorum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="5"/>Decimo fuit congrue instituta, quantum ad eff
+      e<lb ed="#R" n="6" break="no"/>ctum, tam intrinsecum, quia per circuncisionem 
+      <lb ed="#R" n="7"/>delebatur originalis culpa, quam ad extrinsecum, 
+      <lb ed="#R" n="8"/>quia figurabat aliquem de eis nasciturum, qui 
+      om<lb ed="#R" n="9" break="no"/>nem culpam, &amp; originalem, &amp; actualem debebat in 
+      <lb ed="#R" n="10"/>non ponente obicem amputare. 
+    </p>
+            </div>
+            <div>
+               <head>Articulus 4</head>
+               <head type="question-title">
+      Verum in Circumcisione infunderetur gratia.
+    </head>
+               <p>
+                  <lb ed="#R" n="11"/>ARTICVLVS IIII 
+      <lb ed="#R" n="12"/>Verum in Circumcisione infunderetur gratia.
+    </p>
+               <p>
+                  <lb ed="#R" n="13"/>QVantum ad quartam quaestionem arguo 
+      pri<lb ed="#R" n="14" break="no"/>Qmo, quod in Sacramento circumcisionis non 
+      <lb ed="#R" n="15"/>dinfundebatur gratia, quia Glosa super 
+      il<lb ed="#R" n="16" break="no"/>lud ad Rom. 4. Signaculum accepit circumcisionis, 
+      <lb ed="#R" n="17"/>dicit, peccatum ibi solum dimittebatur: gratia 
+      au<lb ed="#R" n="18" break="no"/>tem ad bene operandum adiutrix non parabatur.
+    </p>
+               <p>
+                  <lb ed="#R" n="19"/>In oppositum est illud Bedae super Lucam. 
+      Post<lb ed="#R" n="20" break="no"/>quam consummati sunt, vbi dicit: Illud, quod nunc 
+      <lb ed="#R" n="21"/>operatur baptismus, operabatur circumcisio, &amp; de 
+      <lb ed="#R" n="22"/>paruulis decedentibus dicit, quod ibant in sinum 
+      <lb ed="#R" n="23"/>Abrahae supernae patriae pacem felicem 
+      expectan<lb ed="#R" n="24" break="no"/>tes: sed nullus potest habere spem de felici 
+      pace<lb ed="#R" n="25" break="no"/>supernae patriae, nisi mediante gratia, quia sine 
+      <lb ed="#R" n="26"/>gratia nullus saluatur: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="27"/>Respondeo in ista quaestione primo ponam 
+      pun<lb ed="#R" n="28" break="no"/>cum inquisitionis, quare mouetur quaestio. 
+      Secun<lb ed="#R" n="29" break="no"/>do ponam propositiones intentas. 
+    </p>
+               <p>
+                  <lb ed="#R" n="30"/>Quantum ad primum sciendum, quod quaestio 
+      <lb ed="#R" n="31"/>ista mouetur specialiter propter duas opiniones: 
+      <lb ed="#R" n="32"/>vna enim opinio est, quod Deus etiam de potentia 
+      <lb ed="#R" n="33"/>absoluta non posset delere culpam sine infusione 
+      <lb ed="#R" n="34"/>gratiae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="35"/>Motiuum autem praecipuum ipsorum est, tum 
+      <lb ed="#R" n="36"/>quia impossibile est auferre priuationem, quin con 
+      <lb ed="#R" n="37"/>feratur habitus (eo quod habitus, &amp; priuatio sint 
+      <lb ed="#R" n="38"/>immediate opposita) sed culpa, &amp; gratia habent se 
+      <lb ed="#R" n="39"/>sicut habitus, &amp; priuatio: est enim culpa tenebra 
+      <lb ed="#R" n="40"/>quaedam, obliquitas, &amp; macula: gratia vero e 
+      con<lb ed="#R" n="41" break="no"/>uerso est lux, rectitudo, &amp; munditia; tum quia 
+      im<lb ed="#R" n="42" break="no"/>possibile, quod aliquisfiat de odito non oditus, nisi 
+      <lb ed="#R" n="43"/>facta mutatione aliqua in odiente, vel in odito: sed 
+      <lb ed="#R" n="44"/>cui remittitur culpa, fit de odito non oditus: ergo 
+      <lb ed="#R" n="45"/>facta est aliqua mutatio: non in Deo odiente: ergo 
+      <lb ed="#R" n="46"/>in odito: ergo in ipso est acquisitum aliquod 
+      abso<lb ed="#R" n="47" break="no"/>lutum, siue gratia, siue aliquid aliud. 
+    </p>
+               <p>
+                  <lb ed="#R" n="48"/>Opinio alia dicit oppositum, &amp; fundamentum 
+      <lb ed="#R" n="49"/>opinionis est, quod non minus est Deus potens 
+      re<lb ed="#R" n="50" break="no"/>ducere hominem in statum primae rectitudinis 
+      na<lb ed="#R" n="51" break="no"/>turalis post culpam, quam fuit potens in tali statu 
+      <lb ed="#R" n="52"/>creare ipsum ante culpam: Sed Deus potuit 
+      crea<lb ed="#R" n="53" break="no"/>re hominem in statu naturalis rectitudinis sine gra 
+      <lb ed="#R" n="54"/>tia, &amp; sine peccato: ergo post culpam potest Deus 
+      <lb ed="#R" n="55"/>deducere hominem ad statum pure naturalem 
+      in<lb ed="#R" n="56" break="no"/>quo erit &amp; sine culpa, &amp; sine peccato. 
+    </p>
+               <p>
+                  <lb ed="#R" n="57"/>Confirmatur: quia subiectum non habet 
+      incom<lb ed="#R" n="58" break="no"/>possibilitatem ad formam mediam propter hoc, 
+      <lb ed="#R" n="59"/>quod fuit sub altero extremorum oppositorum: sed 
+      <lb ed="#R" n="60"/>inter statum gratiae, &amp; statum culpae est possibilis 
+      <lb ed="#R" n="61"/>status medius, puta status in puris naturalibus: 
+      er<lb ed="#R" n="62" break="no"/>go anima non habet repugnantiam ad istum 
+      <lb ed="#R" n="63"/>statum medium, per hoc, quod primo fuit sub 
+      <!--0025.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="64"/>altero statu extremorum oppositorum, puta sub 
+      <lb ed="#R" n="65"/>culpa.
+    </p>
+               <p>
+                  <lb ed="#R" n="66"/>Item: Culpa aut dicit osfensam solam, &amp; si sic, 
+      ma<lb ed="#R" n="67" break="no"/>nifestum est, quod potest illam dimittere nihil con 
+      <lb ed="#R" n="68"/>ferendo, sicut &amp; ego possum dimittere offensam 
+      pro<lb ed="#R" n="69" break="no"/>ximi, nihil sibi conferendo: Aut dicit 
+      obliquita<lb ed="#R" n="70" break="no"/>tem, &amp; maculam, &amp; si sic, manifesum es, quod obli 
+      <lb ed="#R" n="71"/>quitas, &amp; macula non sunt priuatio ipsius gratiae, 
+      <lb ed="#R" n="72"/>alias in statu medio, in quo non est gratia, esset ista 
+      <lb ed="#R" n="73"/>obliquitas, &amp; macula. 
+    </p>
+               <p>
+                  <lb ed="#R" n="74"/>Vel dicit tertio aliquod positiuum, puta 
+      fomi<lb ed="#R" n="75" break="no"/>tem, &amp; si sic, potestt Deus illum tollere nullam 
+      gra<lb ed="#R" n="76" break="no"/>tiam ei conferendo: omne enim positiuum videtur, 
+      <lb ed="#R" n="77"/>quod Deus possit conscprre sine alio positiuo, quod 
+      <lb ed="#R" n="78"/>non est ipsum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="79"/>Contra motiuum autem illud de mutatione, 
+      ar<lb ed="#R" n="80" break="no"/>guitur, quia duarum mutationum, quarum vna non 
+      <lb ed="#R" n="81"/>est alia, Deus potest in vnam sine alia: sed 
+      muta<lb ed="#R" n="82" break="no"/>tio de culpa ad non culpam, &amp; mutatio de non 
+      <lb ed="#R" n="83"/>gratia ad gratiam sunt duae mutationes: ergo Deus 
+      <lb ed="#R" n="84"/>potest mutare animam de culpa ad non culpam 
+      <lb ed="#R" n="85"/>non mutando eam de non gratia ad gratiam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="86"/>Respondeo pono Propositiones intentas, &amp; prima 
+      <lb ed="#R" n="87"/>est ista, quod loquendo de potentia Dei absoluta 
+      <lb ed="#R" n="88"/>Doctor sancus dicit veritatem iudicio meo, &amp; 
+      ra<lb ed="#R" n="89" break="no"/>est: Quoniam aliquod subiectum est tale, quod ipsum 
+      <lb ed="#R" n="90"/>est susceptiuum oppositorum, &amp; medij inter illa op 
+      <lb ed="#R" n="91"/>posita, si talia sint opposita non immediata, non 
+      vi<lb ed="#R" n="92" break="no"/>detur repugnantia, quare omnipotens non possit 
+      il<lb ed="#R" n="93" break="no"/>lud subiectum de vno extremo opposito 
+      reducere<lb ed="#R" n="94" break="no"/>ad medium non reducendo ipsum ad aliud 
+      opposi<lb ed="#R" n="95" break="no"/>tum extremum: sed status purorum naturalium 
+      <lb ed="#R" n="96"/>est status medius inter culpam, &amp; gratiam; quia alias, 
+      <lb ed="#R" n="97"/>vel gratia esset ex puris naturalibus, &amp; sequeretur 
+      <lb ed="#R" n="98"/>error Pelagij; vel peccatum inesset ex puris 
+      natu<lb ed="#R" n="99" break="no"/>ralibus, &amp; sequeretur error: ergo anima, cum sit 
+      su<lb ed="#R" n="100" break="no"/>sceptiua gratiae, &amp; culpae, similiter, &amp; status medij: 
+      <lb ed="#R" n="101"/>ergo non est repugnantia, quod Deus omnipotens 
+      <lb ed="#R" n="102"/>faciat animam de culpa ad statum naturalem, non 
+      <lb ed="#R" n="103"/>deducendo ipsam ad gratiam. Sed tunc remanet 
+      <lb ed="#R" n="104"/>difficultas. 
+    </p>
+               <p>
+                  <lb ed="#R" n="105"/>Nam culpa, vt supponitur, dicit priuationem 
+      <lb ed="#R" n="106"/>Priuatio vero, &amp; habitus sunt immediate opposita 
+      <lb ed="#R" n="107"/>in subiecto apto nato: non ergo videtur, quod inter 
+      <lb ed="#R" n="108"/>culpam, &amp; gratiam sit status medius, alias culpa, &amp; 
+      <lb ed="#R" n="109"/>gratia non essent opposita immediate. 
+    </p>
+               <p>
+                  <lb ed="#R" n="110"/>Dicunt quidam ad istam difficultatem, quod 
+      <lb ed="#R" n="111"/>culpa, &amp; rectitudo opponuntur quidem: sed tamen 
+      <lb ed="#R" n="112"/>rectitudo est duplex, scilicet naturalis, &amp; rectitudo 
+      <lb ed="#R" n="113"/>gratiae, &amp; vtrique opponitur culpa: tunc, quando 
+      <lb ed="#R" n="114"/>aliquid per se opponitur duobus sufficit ad hoc, 
+      <lb ed="#R" n="115"/>quod illud insit, quod tollat alterum illorum 
+      duo<lb ed="#R" n="116" break="no"/>rum, &amp; ad hoc, quod expellatur, sufficit, quod insit 
+      <lb ed="#R" n="117"/>alterum illorum duorum: &amp; ideo si Deus deleat 
+      <lb ed="#R" n="118"/>culpam, non oportet quod necessario insit 
+      rectitu<lb ed="#R" n="119" break="no"/>do animae per gratiam: sed sufficit, quod 
+      anima<lb ed="#R" n="120" break="no"/>per remotionem culpae fiat rectitudine recta in 
+      pu<lb ed="#R" n="121" break="no"/>ris naturalibus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="122"/>Sed ista responsio non sufficit, quia nos loquimur 
+      <lb ed="#R" n="123"/>hic de expulsione culpae, dato quod Deus expellendo 
+      <lb ed="#R" n="124"/>culpam non reducat animam ad statum 
+      innocen<lb ed="#R" n="125" break="no"/>tiae: non enim apparet quare si Deus deleat 
+      cul<lb ed="#R" n="126" break="no"/>pam, necessario oporteat, quod ponat eum in 
+      sta<lb ed="#R" n="127" break="no"/>tu originalis innocentiae, vel gratiae, &amp; tamen ista 
+      <lb ed="#R" n="128"/>responsio ponit, quod culpa opponitur gratiae, &amp; 
+      <lb ed="#R" n="129"/>originali innocentiae: ergo non saluatur, quod si 
+      de<lb ed="#R" n="130" break="no"/>leatur culpa, quin necessario ponatur anima in 
+      sta<lb ed="#R" n="131" break="no"/>
+                  <!-- line coord error -->
+                  <lb ed="#R" n="132"/>tu originalis innocentiae, vel gratiae. 
+      <!--0026.xml-->
+      <pb ed="#R" n="26"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Id circo aliter respondent alij dicentes, quod pri 
+      <lb ed="#R" n="2"/>nationes quaedam sunt voluntariae, quaedam vero ex 
+      <lb ed="#R" n="3"/>natura rei. Priuationes primo modo possunt 
+      ex<lb ed="#R" n="4" break="no"/>pelli absque habitus oppositi collatione: sed 
+      priua<lb ed="#R" n="5" break="no"/>tiones ex natura rei non possunt expelli, quin detur 
+      <lb ed="#R" n="6"/>habitus oppositus, &amp; aliquid positiuum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="7"/>Contra: Jsta responsio non valet, certum es enim, 
+      <lb ed="#R" n="8"/>quod peccator habet ex natura rei obliquitatem 
+      <lb ed="#R" n="9"/>aliquam, quae priuat rectitudinem, quae inesset 
+      <lb ed="#R" n="10"/>ex natura rei si non esset culpa: oportet ergo 
+      osten<lb ed="#R" n="11" break="no"/>dere, quomodo priuatio possit tolli non dato 
+      oppo<lb ed="#R" n="12" break="no"/>sito habitu: hic enim est totus punctus, &amp; nisi hoc 
+      <lb ed="#R" n="13"/>ponatur, non apparet mihi aliqua solutio ad 
+      dis<lb ed="#R" n="14" break="no"/>ficultatem tactam. Ideo qico, quod priuatio 
+      ali<lb ed="#R" n="15" break="no"/>quo modo potest tolli sinem habitus oppositi 
+      colla<lb ed="#R" n="16" break="no"/>tione. Ad cuius euidentiam 
+    </p>
+               <p>
+                  <lb ed="#R" n="17"/>Sciendum est quod priuatio, cum formaliter sit 
+      <lb ed="#R" n="18"/>negatio, potest intelligi tolli dupliciter, vel quia tol 
+      <lb ed="#R" n="19"/>latur negatio ipsa, quam per se, &amp; formaliter 
+      im<lb ed="#R" n="20" break="no"/>portat; vel quia tollatur aliqua circunstantia, quae 
+      <lb ed="#R" n="21"/>est de ratione priuationis, sine qua illa negatio non 
+      <lb ed="#R" n="22"/>esset priuatio: verbi gratia, catulus ante nouem 
+      <lb ed="#R" n="23"/>dies caret visione, ita quod tantum habet de 
+      visio<lb ed="#R" n="24" break="no"/>ne, quantum si esset omnino caecus, non tamen 
+      di<lb ed="#R" n="25" break="no"/>citur priuatus, &amp; hoc, quia non est ibi circunstantia, 
+      <lb ed="#R" n="26"/>quae requiritur in eo ad rationem priuationis, &amp; 
+      <lb ed="#R" n="27"/>caecitatis secundum debitum tempus: non enim 
+      na<lb ed="#R" n="28" break="no"/>turae catuli ante nouem dies debita est visio. 
+    </p>
+               <p>
+                  <lb ed="#R" n="29"/>Sic dico ad propositum, culpa enim, siue peccatum 
+      <lb ed="#R" n="30"/>dicit negationem rectitudinis, &amp; vltra hoc dicit aliam 
+      <lb ed="#R" n="31"/>circunstantiam, scilicet debitum habendi oppositum 
+      <lb ed="#R" n="32"/>scilicet rectitudinem: ita quod negatio rectitudinis 
+      <lb ed="#R" n="33"/>non est peccatum, nec priuatio, nisi insit debitum 
+      <lb ed="#R" n="34"/>habendi rectitudinem. Sic ergo apparet, quod 
+      pec<lb ed="#R" n="35" break="no"/>catum dicit duo, scilicet negationem rectitudinis, 
+      <lb ed="#R" n="36"/>&amp; debitum habendi eam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="37"/>Cum ergo quaeritur: Vtrum culpa possit deleri 
+      <lb ed="#R" n="38"/>absque hoc, quod detur opposita rectitudo. 
+      Re<lb ed="#R" n="39" break="no"/>spondeo, vel loqueris de culpa quantum ad 
+      negatio<lb ed="#R" n="40" break="no"/>nem, quam importat principaliter: vel quantum ad 
+      <lb ed="#R" n="41"/>circunstantiam illam, scilicet debitum habendi 
+      re<lb ed="#R" n="42" break="no"/>ctitudinem: si primo modo fiat quaesttio, sic dico, 
+      <lb ed="#R" n="43"/>quod impossibile est tollere culpam non dando 
+      op<lb ed="#R" n="44" break="no"/>positam rectitudinem: hoc enim modo culpa, &amp; 
+      re<lb ed="#R" n="45" break="no"/>ctitudo sunt immediate opposita, &amp; 
+      contradictio<lb ed="#R" n="46" break="no"/>nem inducunt. 
+    </p>
+               <p>
+                  <lb ed="#R" n="47"/>Si vero quaeras de culpa quantum ad circunstan 
+      <lb ed="#R" n="48"/>tiam debiti: sic dico quod Deus posset delere culpam 
+      <lb ed="#R" n="49"/>non dando oppositam rectitudinem, &amp; si sic, fieret 
+      <lb ed="#R" n="50"/>anima sine peccato, &amp; culpa, quia peccatum dicit 
+      ne<lb ed="#R" n="51" break="no"/>cesario vltra carentiam rectitudinis debitum 
+      ha<lb ed="#R" n="52" break="no"/>bendi rectitudinem; non tamen fieret anima sine 
+      ca<lb ed="#R" n="53" break="no"/>rentia, &amp; negatione illius rectitudinis absolute; hoc 
+      <lb ed="#R" n="54"/>enim esset omnino impossibile: sicut enim tollitur a 
+      <lb ed="#R" n="55"/>catulo, quod non sit caecus, licet careat visionem, &amp; 
+      <lb ed="#R" n="56"/>hoc quia tollitur solum debitum habendi visionem, 
+      <lb ed="#R" n="57"/>licet non tollatur negatio visionis: sic Deus 
+      facien<lb ed="#R" n="58" break="no"/>do, quod anima non sit debitrix rectitudinis, facit 
+      <lb ed="#R" n="59"/>quod anima est sine culpa, &amp; peccato, licet non 
+      fa<lb ed="#R" n="60" break="no"/>ciat, quod sit sine carentia rectitudinis: non enim 
+      <lb ed="#R" n="61"/>carentia rectitudinis est peccatum, nisi quatenus 
+      <lb ed="#R" n="62"/>recipiendo est debitum, vnde Deum hoc modo 
+      cul<lb ed="#R" n="63" break="no"/>pam remittere, non esset negationem rectitudinis 
+      <lb ed="#R" n="64"/>tollere, sed esset debitum habendi gratiam, vel 
+      re<lb ed="#R" n="65" break="no"/>ctitudinem non imputare. 
+    </p>
+               <p>
+                  <lb ed="#R" n="66"/>Sed nunquid posset Deus omnem priuationem, 
+      <lb ed="#R" n="67"/>hoc modo auferre, dato, quod non daret habitum 
+      <lb ed="#R" n="68"/>oppositum
+    </p>
+               <p>
+      <!--0026.xml-->
+                  <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>Respondeo dico, quod non, quia non posset 
+      tol<lb ed="#R" n="70" break="no"/>lere a subiecto manente tali natura aptitudinem ad 
+      <lb ed="#R" n="71"/>habitum oppositum, quae facit rationem 
+      priuatio<lb ed="#R" n="72" break="no"/>nis distingui a negatione: sic autem non est in 
+      pro<lb ed="#R" n="73" break="no"/>posito: debitum enim istud habendi rectitudinem 
+      <lb ed="#R" n="74"/>non sic sequitur naturam, sicut sequitur aptitudo 
+      <lb ed="#R" n="75"/>ad ridendum, ipsum hominem: 
+    </p>
+               <p>
+                  <lb ed="#R" n="76"/>Ex his infero, quod ista opinio concordat primam 
+      <lb ed="#R" n="77"/>opinionem, &amp; secundam, eo quod opinio prima dicit 
+      <lb ed="#R" n="78"/>verum, &amp; similiter opinio secunda loquendo de 
+      pec<lb ed="#R" n="79" break="no"/>cato, vt importat debitum habendi rectitudinem. 
+      <lb ed="#R" n="80"/>Nam sicut dictum est, Deus potest absolute delere 
+      <lb ed="#R" n="81"/>peccatum, non dando rectitudinem, siue gratiam qua 
+      <lb ed="#R" n="82"/>priuat, per hoc tantum, qnod remittit debitum 
+      ha<lb ed="#R" n="83" break="no"/>bendi ipsam rectitudinem, &amp; hic secunda opinio di 
+      <lb ed="#R" n="84"/>cit verum, scilicet quod homo non potest multum 
+      <lb ed="#R" n="85"/>diu manere, quin sit debitor gratiae, nec Deus 
+      pos<lb ed="#R" n="86" break="no"/>set facere, quod debitum ad gratiam non insit 
+      ho<lb ed="#R" n="87" break="no"/>mini, &amp; hoc pro omni tempore, nam ratione 
+      serui<lb ed="#R" n="88" break="no"/>tutis fundatae in creatura, inquantum creatura est, 
+      <lb ed="#R" n="89"/>obligatur creatura pro tempore aliquo ad gratiam, 
+      <lb ed="#R" n="90"/>&amp; ideo Deus non posset facere, quod creatura, diu 
+      <lb ed="#R" n="91"/>manens non esset in peccato, vel in gratia, quia non 
+      <lb ed="#R" n="92"/>posset facere, quod non eset debitrix gratia pro 
+      ten<lb ed="#R" n="93" break="no"/>pore toto. Ideo in hoc prima opinio dicit verum. 
+      <lb ed="#R" n="94"/>Sic ergo pro ista propositione prima dico, quod 
+      <lb ed="#R" n="95"/>Deus de potentia absoluta potest de lere peccatum 
+      <lb ed="#R" n="96"/>non dando aliquod positiuum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="97"/>Nec intendo dicere, quod peccatum non sit 
+      spe<lb ed="#R" n="98" break="no"/>cialis negatio, &amp; quod illa auferatur nullum dando 
+      <lb ed="#R" n="99"/>positiuum: sed intendo hoc dicere, quod Deus 
+      au<lb ed="#R" n="100" break="no"/>ferat debitum, quod est formale in peccato, manente 
+      <lb ed="#R" n="101"/>tamen negatione, ex hoc, quod peccatum non 
+      ma<lb ed="#R" n="102" break="no"/>nebit, quia non manet suum formale. 
+    </p>
+               <p>
+                  <lb ed="#R" n="103"/>Nec etiam volo dicere, quod priuatio vltra 
+      ne<lb ed="#R" n="104" break="no"/>gationem habitus oppositi dicat aliquid formaliter 
+      <lb ed="#R" n="105"/>positiuum, ac per hoc, quod possit tolli nullo dato 
+      po<lb ed="#R" n="106" break="no"/>sitiuo; nam S. Ansel. de conceptu virginali, non est 
+      <lb ed="#R" n="107"/>plus de visione in caeco, quam in lapide: ita quod 
+      <lb ed="#R" n="108"/>breuiter vltra negationem non dicit aliquod 
+      posi<lb ed="#R" n="109" break="no"/>tiuum, sed est tantummodo specialis negatio, &amp; 
+      <lb ed="#R" n="110"/>oritur ex specia li subiecto, scilicet ex apto nato 
+      re<lb ed="#R" n="111" break="no"/>spectu ipsius habitus, &amp; hoc solo, priuatio isa non 
+      <lb ed="#R" n="112"/>es alia priuatio, vel negatio. 
+    </p>
+               <p>
+                  <lb ed="#R" n="113"/>Secunda propositio ad propositum est, quod 
+      in<lb ed="#R" n="114" break="no"/>Circuncisione non tantum delebatur culpa, sed 
+      in<lb ed="#R" n="115" break="no"/>fundebatur gratia. hanc propositionem probo 
+      au<lb ed="#R" n="116" break="no"/>ctoritate, &amp; ratione. 
+    </p>
+               <p>
+                  <lb ed="#R" n="117"/>Auctoritas est Bedae super illud Lucae. Postquam 
+      <lb ed="#R" n="118"/>consummati sunt dies octo, &amp; potest ratio talis for 
+      <lb ed="#R" n="119"/>mari. Nullus potest habere spem de ingressu supernae 
+      <lb ed="#R" n="120"/>patriae: ergo paruuli illi habebant gratiam 
+      non<lb ed="#R" n="121" break="no"/>aliunde, quam ex circuncisione infusam, vt patet: 
+      <lb ed="#R" n="122"/>ergo in circuncisione infundebatur gratia. Maior 
+      <lb ed="#R" n="123"/>nota. est Probatio minoris super eodem verbo. 
+      <lb ed="#R" n="124"/>Postquam consummati sunt, vbi loquens de 
+      paruu<lb ed="#R" n="125" break="no"/>lis circuncisis Judaeorum, dicit quod ibant in 
+      si<lb ed="#R" n="126" break="no"/>num Abrahae supernae patriae pacem felicem 
+      expe<lb ed="#R" n="127" break="no"/>ctantes: sed si nullam habuissent gratiam, fuissent 
+      <lb ed="#R" n="128"/>cum alijs paruulis, qui moriebantur ante 
+      circun<lb ed="#R" n="129" break="no"/>cisionem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="130"/>Secundo pono rationem ad eandem 
+      propositio<lb ed="#R" n="131" break="no"/>nec, sic. Agens nobile, &amp; ordinate agens per 
+      pri<lb ed="#R" n="132" break="no"/>us intendit formam principalem propositam 
+      <lb ed="#R" n="133"/>quam intendat expulsionem formae contrariae, 
+      si<lb ed="#R" n="134" break="no"/>cut patet de igne: prius enim intendit 
+      inducere<lb ed="#R" n="135" break="no"/>caliditatem quam frigiditatem expellere, nec 
+      ex<lb ed="#R" n="136" break="no"/>pelleret ab aqua frigiditatem, nisi intenderet indu 
+      <!--0027.xml-->
+      <pb ed="#R" n="27"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>cere caliditatem: sed Deus in iustificando est agens 
+      <lb ed="#R" n="2"/>nobilissimum, &amp; ordinatissimum: ergo prius 
+      inten<lb ed="#R" n="3" break="no"/>dit iustificare, quod est gratiam infundere, quam 
+      <lb ed="#R" n="4"/>culpam delere; nec delet culpam, nisi quatenus 
+      <lb ed="#R" n="5"/>proponit dare gratiam: ergo cum in circuncisione 
+      <lb ed="#R" n="6"/>deleret culpam, sequitur, quod ex consequenti 
+      da<lb ed="#R" n="7" break="no"/>ret gratiam. Vtrum autem aliter possit de 
+      poten<lb ed="#R" n="8" break="no"/>tia absoluta, patet ex praecedenti quaestione quid 
+      <lb ed="#R" n="9"/>dicendum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="10"/>Ad argumentum in oppositum dicitur ad illam 
+      <lb ed="#R" n="11"/>Glosam vno modo, quod Closa intendit, quod nō 
+      <lb ed="#R" n="12"/>dabatur gratia, quia non ita perfecta, sicut in 
+      baptis<lb ed="#R" n="13" break="no"/>mo, tamem solutio magis apparebit in sequentibus. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

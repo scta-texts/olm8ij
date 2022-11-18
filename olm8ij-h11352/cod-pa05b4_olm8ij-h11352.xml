@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="34"/>
+            <cb ed="#R" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h11352"> <!-- l1-d2q1 -->
+            <head>Quaestio 1</head>
+            <div>
+               <head>Articulus 1</head>
+               <head type="question-title">
+      Utrum in Lege Noua debuerunt institui aliqua 
+      specialia Sacramenta.
+    </head>
+               <p>
+                  <lb ed="#R" n="61"/>ARTICVLVUS I. 
+      <lb ed="#R" n="62"/>Vtrum in Lege Noua debuerunt institui aliqua 
+      <lb ed="#R" n="63"/>specialia Sacramenta. 
+    </p>
+               <p>
+                  <lb ed="#R" n="64"/>QVANTVM ad primam 
+      <lb ed="#R" n="65"/>Quaestionem arguo 
+      pri<lb ed="#R" n="66" break="no"/>mo, quod in Lege 
+      Euan<lb ed="#R" n="67" break="no"/>gelica non fuit conueniens 
+      <lb ed="#R" n="68"/>instituere aliqua 
+      Sacra<lb ed="#R" n="69" break="no"/>menta specialia, sic: 
+      Incon<lb ed="#R" n="70" break="no"/>ueniens es in lege 
+      liber<lb ed="#R" n="71" break="no"/>tatis instituere aliquid, 
+      <lb ed="#R" n="72"/>quod habet hominem 
+      re<lb ed="#R" n="73" break="no"/>digere in seruitutem: sed Lex Euangelica est lex 
+      <lb ed="#R" n="74"/>perfectae libertatis, ad Rom. gratia, &amp;c. sed 
+      Sacra<lb ed="#R" n="75" break="no"/>menta redigunt hominem in seruitutem, vt patet 
+      <lb ed="#R" n="76"/>per illud Apostoli ad Galat. 3. Cum essemus 
+      par<lb ed="#R" n="77" break="no"/>uuli sub elementis huius mundi eramus seruientes, 
+      <lb ed="#R" n="78"/>sub elementis inquam, ides sub Sacramentis 
+      sen<lb ed="#R" n="79" break="no"/>sibilibus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="80"/>In oppositum est auctoritas Christi, Joannis 3. 
+      <lb ed="#R" n="81"/>Nisi quis renatus fuerit ex aqua, &amp; Spiritu sancto, 
+      <lb ed="#R" n="82"/>&amp;c. &amp; Matth. cap. vlt. Ite, baptizate eos in nomine 
+      <lb ed="#R" n="83"/>Patris, &amp; Filij, &amp; Spiritus sancti. Et de 
+      Sacramen<lb ed="#R" n="84" break="no"/>to Eucharistiae Joannis 6. Qui manducat meam 
+      <lb ed="#R" n="85"/>carnem, &amp; bibit meum sanguinem, &amp; c. 
+    </p>
+               <p>
+                  <lb ed="#R" n="86"/>Respondeo: In ista quaestione ponam tres 
+      pro<lb ed="#R" n="87" break="no"/>positiones per ordinem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="88"/>Prima est ad propositum, quod in Noua Lege 
+      de<lb ed="#R" n="89" break="no"/>buerunt congrue institui specialia Sacramenta, &amp; 
+      <lb ed="#R" n="90"/>hoc quantum ad congruentiam. 
+      <lb ed="#R" n="91"/>Secunda est, quod in Lege noua debuerunt 
+      con<lb ed="#R" n="92" break="no"/>stitui specialia Sacramenta, &amp; haec propositio 
+      aspi<lb ed="#R" n="93" break="no"/>cit necessitatem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="94"/>Tertia Propositio est, quod Sacramenta Legis 
+      <lb ed="#R" n="95"/>Euangelicae instituenda fuerunt, in quanto minori 
+      <lb ed="#R" n="96"/>numero institui potuerunt. 
+    </p>
+               <p>
+                  <lb ed="#R" n="97"/>Primam Propositionem probo colligendo 
+      ratio<lb ed="#R" n="98" break="no"/>nes antiquorum Sanctorum, &amp; Doctorum. Et est: 
+      <lb ed="#R" n="99"/>Prima ratio propter maiorem deuotionem, eo 
+      <lb ed="#R" n="100"/>quod signa sensibilia habent prouocare ad 
+      feruo<lb ed="#R" n="101" break="no"/>rem &amp; teneritudinem deuotionis, propter quod 
+      <lb ed="#R" n="102"/>sunt instituta Jmagines Sancorum, tunsiones 
+      pe<lb ed="#R" n="103" break="no"/>ctorum, vocalis oratio. Propter hoc 
+      Sacramen<lb ed="#R" n="104" break="no"/>tum Eucharistiae conficitur concurrentibus multis 
+      <lb ed="#R" n="105"/>orationibus, cantibus, &amp; alijs, quae mentalem 
+      de<lb ed="#R" n="106" break="no"/>uotionem habent efficaciter promouere. Cum 
+      er<lb ed="#R" n="107" break="no"/>go ad Euangelicam Legem sit deuotio 
+      feruentissi<lb ed="#R" n="108" break="no"/>ma exhibenda, congruum fuit instituere sensibilia 
+      <lb ed="#R" n="109"/>signa, per quae haberet fidelium deuotio excitari. 
+    </p>
+               <p>
+                  <lb ed="#R" n="110"/>Secunda ratio est: Ex ratione maioris 
+      humilia<lb ed="#R" n="111" break="no"/>tionis, nam sicut homo ceciderat per superbiam; 
+      <lb ed="#R" n="112"/>sic oportebat quod releuaretur per humilitatem 
+      <lb ed="#R" n="113"/>non fuisset autem perfecta, &amp; condigna humiliatio 
+      <lb ed="#R" n="114"/>tantum in mente: ergo oportebat eam foris 
+      exhi<lb ed="#R" n="115" break="no"/>bere effectu sensibili, vt qui per superbiam erexerat 
+      <lb ed="#R" n="116"/>se contra superiorem, per humilitatem subderet se 
+      <lb ed="#R" n="117"/>creaturae inferiori. 
+    </p>
+               <p>
+                  <lb ed="#R" n="118"/>Tertia ratio est, causa maioris exercitationis: 
+      <lb ed="#R" n="119"/>multa enim mala docuit ociositas, nunc autem 
+      <lb ed="#R" n="120"/>exercitia mentalia non sufficienter mentem 
+      occu<lb ed="#R" n="121" break="no"/>pant in praesenti vita, &amp; hoc propter naturae 
+      im<lb ed="#R" n="122" break="no"/>perfectionem, in qua sensitiua magis trahit ad se- 
+      <!--0035.xml-->
+      <pb ed="#R" n="35"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>intellectiuam, quam e conuerso; vt ergo sensitiua, 
+      <lb ed="#R" n="2"/>quae vt plurimum in homine dominatur, haberet, 
+      <lb ed="#R" n="3"/>vbi posset salubriter exercitari, congruum fuit 
+      in<lb ed="#R" n="4" break="no"/>uenire sensibilia signa, vnde in talibus sensibilibus 
+      <lb ed="#R" n="5"/>signis in Sacramento Eucharistiae consistit 
+      hodie<lb ed="#R" n="6" break="no"/>pro maiori parte occupatio fidelium spiritualis, 
+      <lb ed="#R" n="7"/>propter quod instituta est tanta orationum, &amp; can 
+      <lb ed="#R" n="8"/>tus, &amp; ritus in Missa solemnitas, ac etiam in 
+      Baptis<lb ed="#R" n="9" break="no"/>mo; nec statim proceditur ad formam Sacramenti, 
+      <lb ed="#R" n="10"/>sed multiplicantur sensibilia signa, vt excluso otio 
+      <lb ed="#R" n="11"/>animae inimico populus in talibus spiritualibus 
+      a<lb ed="#R" n="12" break="no"/>ctionibus occupetur. 
+    </p>
+               <p>
+                  <lb ed="#R" n="13"/>Alia ratio est causa eruditionis, nam 
+      Sacramen<lb ed="#R" n="14" break="no"/>ta significant effectum gratiae interiorem, vnde &amp; 
+      <lb ed="#R" n="15"/>multi propter inexperientiam non aliter 
+      intelle<lb ed="#R" n="16" break="no"/>xissent ablutionem interiorem, quae fit per 
+      Baptis<lb ed="#R" n="17" break="no"/>mum, nisi per exteriorem corporis ablutionem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="18"/>Alia ratio est ex ratione compositionis. Cum 
+      <lb ed="#R" n="19"/>enim homo componatur ex duplici natura 
+      corpo<lb ed="#R" n="20" break="no"/>rali, scilicet &amp; spirituali, vtraque autem natura per 
+      <lb ed="#R" n="21"/>peccatum transgressionis erat vitiata, congruum 
+      <lb ed="#R" n="22"/>fuit institui medicinam duplicem; Vnam quidem, 
+      <lb ed="#R" n="23"/>quae correspondet animae, vt gratia ipsa, quae est 
+      ef<lb ed="#R" n="24" break="no"/>fectus Sacramentorum. Aliam vero, quae 
+      corre<lb ed="#R" n="25" break="no"/>spondet corpori, vt signa ipsa sensibilia, cuiusmodi 
+      <lb ed="#R" n="26"/>sunt ablutio, tactus, &amp; huiusmodi. 
+    </p>
+               <p>
+                  <lb ed="#R" n="27"/>Alia causa est ratione assuefactionis, eo quod ho 
+      <lb ed="#R" n="28"/>mo assuefactus est sensibilibus ratione conditionis 
+      <lb ed="#R" n="29"/>humanae in acquirendo scientiam; acquirimus enim 
+      <lb ed="#R" n="30"/>scientiam per sensus, vnde deficiente sensu deficit 
+      <lb ed="#R" n="31"/>scientia, secundum illum sensum: congruum ergo 
+      <lb ed="#R" n="32"/>fuit signa aliqua sensibilia instituere, vt per ea sicut 
+      <lb ed="#R" n="33"/>per magis nota sensibus, deueniremus facilius 
+      in<lb ed="#R" n="34" break="no"/>eruditionem, &amp; cognitionem effectus interioris, 
+      <lb ed="#R" n="35"/>qui est gratia. 
+    </p>
+               <p>
+                  <lb ed="#R" n="36"/>Secunda Propositio est, quod non solum fuit 
+      con<lb ed="#R" n="37" break="no"/>gruum instituere in Lege Euangelica specialia 
+      Sa<lb ed="#R" n="38" break="no"/>cramenta, sed fuit aliqualiter necessarium. 
+      Prae<lb ed="#R" n="39" break="no"/>mitto tamen vnam distinctionem de necessario. 
+    </p>
+               <p>
+                  <lb ed="#R" n="40"/>Necessitas enim quaedam est ex parte efficientis, 
+      <lb ed="#R" n="41"/>&amp; sic non capio necessitatem in proposito: non enim 
+      <lb ed="#R" n="42"/>fuit Deo necessarium talia Sacramenta 
+      instituere<lb ed="#R" n="43" break="no"/>ad fundandum Legem Euangelicam, quin aliter 
+      <lb ed="#R" n="44"/>potuisset, &amp; aeque bene ex parte sua sine talibus sen 
+      <lb ed="#R" n="45"/>sibilibus signis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="46"/>Alia vero necessitas est ex parte finis. Finis 
+      au<lb ed="#R" n="47" break="no"/>tem horum signorum sensibilium est gratia, &amp; 
+      vl<lb ed="#R" n="48" break="no"/>tima gloria; nec igitur talem necessitatem capio in 
+      <lb ed="#R" n="49"/>proposito, sic quod habeat gratia hanc talem 
+      ha<lb ed="#R" n="50" break="no"/>bitudinem necessariam ad haec signa sensibilia, 
+      qua<lb ed="#R" n="51" break="no"/>si lex Euangelica non aliter perduxisset ad gratiam 
+      <lb ed="#R" n="52"/>&amp; gloriam, siue producere potuisset, quam per 
+      si<lb ed="#R" n="53" break="no"/>gna huiusmodi sensibilia. 
+    </p>
+               <p>
+                  <lb ed="#R" n="54"/>Alia vero necessitas est ex parte subiecti, &amp; 
+      ma<lb ed="#R" n="55" break="no"/>teriae, cuiusmodi est homo ipse, &amp; nec sic accipio 
+      <lb ed="#R" n="56"/>necesitatem quasi Sacramenta ista necessario 
+      me<lb ed="#R" n="57" break="no"/>dient inter hominem &amp; gratiam; vel quod sit neces 
+      <lb ed="#R" n="58"/>saria habitudo hominis ad haec sensibilia signa. 
+    </p>
+               <p>
+                  <lb ed="#R" n="59"/>Alia necessitas est ex parte formae, &amp; haec est 
+      du<lb ed="#R" n="60" break="no"/>plex: Vel absolute ex parte formae in se; vel ex 
+      par<lb ed="#R" n="61" break="no"/>te impermanentiae formae, si forma debeat diu 
+      per<lb ed="#R" n="62" break="no"/>manere, sicut quod dentes anteriores sint incisiui, 
+      <lb ed="#R" n="63"/>hoc non est absolute necessarium formae hominis, 
+      <lb ed="#R" n="64"/>sed permanentiae ipsius formae hominis, quia aliter 
+      <lb ed="#R" n="65"/>non posset homo diu permanere. 
+    </p>
+               <p>
+                  <lb ed="#R" n="66"/>Hoc ergo vltimo modo capio necessitatem in 
+      <lb ed="#R" n="67"/>proposito. Dico ergo, quod necessarium fuit 
+      ali<lb ed="#R" n="68" break="no"/>qua Sacramenta instituere in Lege Euangelica, ad 
+      <!--0035.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>hoc quod posset lex diu permanere, &amp; capio hanc 
+      <lb ed="#R" n="70"/>propositionem, quod nulla lex de mundo potest 
+      <lb ed="#R" n="71"/>diu permanere sine aliquibus sensibilibus signis: 
+      <lb ed="#R" n="72"/>ergo necessarium fuit ad permanentiam legis 
+      Euan<lb ed="#R" n="73" break="no"/>gelicae instituere talia sensibilia signa. 
+    </p>
+               <p>
+                  <lb ed="#R" n="74"/>Maiorem propositionem, siue antecedens istius 
+      <lb ed="#R" n="75"/>rationis probo auctoritate &amp; ratione. Auctoritas 
+      <lb ed="#R" n="76"/>est Augustini 19. contra Faustum: In nullum, 
+      in<lb ed="#R" n="77" break="no"/>quit, nomen religionis, seu verum, seu falsum 
+      coa<lb ed="#R" n="78" break="no"/>dunari homines possunt, nisi aliquo signaculorum, 
+      <lb ed="#R" n="79"/>seu Sacramentorum visibilium consortio 
+      colli<lb ed="#R" n="80" break="no"/>gentur. 
+    </p>
+               <p>
+                  <lb ed="#R" n="81"/>Secundo probo idem ratione sic: Id quidem 
+      <lb ed="#R" n="82"/>videtur esse necessarium, quod sequitur, &amp; infertur 
+      <lb ed="#R" n="83"/>ex dictamine recae rationis, eo modo quo r. Ethic. 
+      <lb ed="#R" n="84"/>cap. 7. &amp; 10. dicit Philosophus, quod necessarium 
+      <lb ed="#R" n="85"/>est, quod beatitudo sit permanens, sicut &amp; ipse 
+      ho<lb ed="#R" n="86" break="no"/>mo: sed ratio naturalis dicat in lege qualibet 
+      de<lb ed="#R" n="87" break="no"/>bere institui aliqua sensibilia signa, nam numquam 
+      <lb ed="#R" n="88"/>fuit aliqua lex, quae non habuerit saltem duo 
+      Sa<lb ed="#R" n="89" break="no"/>cramenta, sicut sacrificium &amp; sacerdotium, &amp; 
+      pa<lb ed="#R" n="90" break="no"/>tet hoc expresse testimonio Philosophorum, nam 
+      <lb ed="#R" n="91"/>Aristoteles, &amp; Commentator Eustachius 8. Ethic. 
+      <lb ed="#R" n="92"/>dicunt, quod offerre Deo sacrificia est de lege 
+      Na<lb ed="#R" n="93" break="no"/>turae, sed sacrificare Deae Brasidae, vel 
+      sacrificare<lb ed="#R" n="94" break="no"/>tantum vel tantum, hoc de iure positiuo. Jdem 
+      <lb ed="#R" n="95"/>dicit cap. deMagnificentia: ergo legem 
+      quamli<lb ed="#R" n="96" break="no"/>bet secundum Philosophum, habere Sacramentum 
+      <lb ed="#R" n="97"/>aliquod est de iure naturae, quia saltem sacrificium. 
+      <lb ed="#R" n="98"/>Ex quo sequitur, quod de iure naturali sit etiam 
+      <lb ed="#R" n="99"/>habere sacerdotium ad offerendum sacrificium 
+      <lb ed="#R" n="100"/>nam sicut notum est omnibus, &amp; insitum 
+      naturali<lb ed="#R" n="101" break="no"/>ter, quod est aliquod diuinum agens homines 
+      in<lb ed="#R" n="102" break="no"/>bonis, &amp; ideo ipsum honorare debemus speciali 
+      <lb ed="#R" n="103"/>sacrificio ad solam Deitatem pertinente, nec 
+      debi<lb ed="#R" n="104" break="no"/>ta homini, vel alteri creaturae, sic est notum ac 
+      na<lb ed="#R" n="105" break="no"/>turaliter insitum, quod sacrificare est res 
+      dignissi<lb ed="#R" n="106" break="no"/>ma &amp; sancta, &amp; quod ad hoc deputandus sit 
+      specia<lb ed="#R" n="107" break="no"/>lis minister ab aljs separatus, ac ab immunditijs, 
+      <lb ed="#R" n="108"/>quibus solent se caeteri immiscere, aliqualiter 
+      se<lb ed="#R" n="109" break="no"/>gregatus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="110"/>Secunda ratio ad idem est ista; Nulla lex potest 
+      <lb ed="#R" n="111"/>diu permanere, in qua obseruatores legis non 
+      pos<lb ed="#R" n="112" break="no"/>sunt a non obseruantibus distingui. Ratio vero 
+      <lb ed="#R" n="113"/>istius est, quoniam Philosophus dicit 1O. Ethic. cap. 
+      <lb ed="#R" n="114"/>vlt. quod non omnes homines liberales sunt, alias 
+      <lb ed="#R" n="115"/>non essent poenae punitionis necessariae: quia ergo 
+      <lb ed="#R" n="116"/>in lege qualibet sunt illiberales aliqui, necessarium 
+      <lb ed="#R" n="117"/>est, quod dist ingui possint liberales ab 
+      illiberali<lb ed="#R" n="118" break="no"/>bus, obseruatores a non obseruatoribus, vt non 
+      <lb ed="#R" n="119"/>obseruantes ad obseruandum poenis, &amp; terroribus 
+      <lb ed="#R" n="120"/>possint trahi, alias impossibile esset legem durare. 
+      <lb ed="#R" n="121"/>sicut de facto apparet hodie de multis hareticis, 
+      <lb ed="#R" n="122"/>qui obseruationes, ac traditiones Euangelicas, &amp; 
+      <lb ed="#R" n="123"/>Sacramenta contemnunt suscipere, vel obseruare, 
+      <lb ed="#R" n="124"/>qui si non potuissent discerni a caeteris, puto quod 
+      <lb ed="#R" n="125"/>Ecclesia Catholica fuisset olim ante multa 
+      tempo<lb ed="#R" n="126" break="no"/>ra exsufflata. 
+    </p>
+               <p>
+                  <lb ed="#R" n="127"/>Tertia ratio est ista: Nulla lex potest diu 
+      per<lb ed="#R" n="128" break="no"/>manere, vbi obseruatores legis non possunt se 
+      exen<lb ed="#R" n="129" break="no"/>plis mutuis ad deuotiorem, &amp; feruentiorem 
+      ob<lb ed="#R" n="130" break="no"/>seruantiam incitare. Ratio autem huius est, quia 
+      <lb ed="#R" n="131"/>natura humana continue tepescit ab incepto 
+      ar<lb ed="#R" n="132" break="no"/>duo bono. Hinc est quod omnis religio a principio 
+      <lb ed="#R" n="133"/>suae institutionis fuit in suis obseruantijs magis fer 
+      <lb ed="#R" n="134"/>uida, &amp; nedum religio particularis, sed totalis 
+      Ec<lb ed="#R" n="135" break="no"/>clesia Christi, ac religio Christiana: sed nisi essent 
+      <lb ed="#R" n="136"/>sensibilia signa, non possent se homines ad bonum
+      <!--0036.xml-->
+        <pb ed="#R" n="36"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>exemplis mutuis exhortari, sicut hodie de facto 
+        <lb ed="#R" n="2"/>apparet de Sacramento Eucharistiae, in quo hodie 
+        <lb ed="#R" n="3"/>consistit seruor ac deuotio quasi tota fidelium, 
+      vn<lb ed="#R" n="4" break="no"/>de ad diuinum cultum, &amp; Missarum solemnia, qui 
+        <lb ed="#R" n="5"/>non proprio instinctu se mouent, trahuntur 
+      exem<lb ed="#R" n="6" break="no"/>plis, &amp; quadam verecundia aliorum: &amp; puto, quod 
+        <lb ed="#R" n="7"/>nisi esset assidua huius Sacramenti cum 
+      solemnita<lb ed="#R" n="8" break="no"/>te confectio, Ecclesia fidelium fuisset in errores non 
+        <lb ed="#R" n="9"/>modicos deuoluta, sicut hodie apparet de terris, 
+        <lb ed="#R" n="10"/>vbi sententia excommunicationis, vel interdicti 
+        <lb ed="#R" n="11"/>diu permanserit, quod ibi non paruae haereses 
+      pul<lb ed="#R" n="12" break="no"/>Jularunt.
+    </p>
+               <p>
+                  <lb ed="#R" n="13"/>Et confirmo hoc, quia in Moralibus magis sunt 
+        <lb ed="#R" n="14"/>quaerendae persuasiones, quae sunt certae in 
+      huma<lb ed="#R" n="15" break="no"/>nis, quam demonstrationes, tales autem 
+      demon<lb ed="#R" n="16" break="no"/>srationes magis signis sensibilibus, quam 
+      rationi<lb ed="#R" n="17" break="no"/>bus exhibentur. 
+      </p>
+               <p>
+                  <lb ed="#R" n="18"/>Tertia Propositio est, quod in Lege Euangelica 
+        <lb ed="#R" n="19"/>debuerunt institui pauciora Sacramenta, quam 
+        <lb ed="#R" n="20"/>potuerunt. haec propositio probatur per 
+      Augusti<lb ed="#R" n="21" break="no"/>num contra Faustum, qui dicit, quod in Lege Euan 
+        <lb ed="#R" n="22"/>gelica debuerunt esse Sacramenta vsu leuiora, 
+      nu<lb ed="#R" n="23" break="no"/>mero pauciora, effectu salubriora, tempore 
+      diutur<lb ed="#R" n="24" break="no"/>niora. Ratio vero huius est, quia lex noua est 
+      pri<lb ed="#R" n="25" break="no"/>uilegiata quatuor priuilegijs, ipsa enim est lex 
+      spi<lb ed="#R" n="26" break="no"/>ritualis, non carnalis, vnde ad Samaritanam illam 
+        <lb ed="#R" n="27"/>dicit Jesus: Spiritus est Deus, &amp; eos, qui adorant, in 
+        <lb ed="#R" n="28"/>Spiritu &amp; veritate oportet adorare. &amp; sequitur: 
+      Ve<lb ed="#R" n="29" break="no"/>nit hora, quando veri adoratores, &amp;c. &amp; Apost. Lex 
+        <lb ed="#R" n="30"/>spiritualis est, ego autem venundatus sum 
+      pecca<lb ed="#R" n="31" break="no"/>to. Ex hoc ergo, quod lex est spiritualis, debuit 
+        <lb ed="#R" n="32"/>separari a corporalibus ceremonijs, quae in 
+      Lege<lb ed="#R" n="33" break="no"/>veteri, quae carnalis erat, erant innumerae, &amp; ideo 
+        <lb ed="#R" n="34"/>concluditur, quod Sacramenta in Lege noua debue 
+        <lb ed="#R" n="35"/>runt ese numero pauciora. 
+      </p>
+               <p>
+                  <lb ed="#R" n="36"/>Secundo, est lex libertatis, secundum Apostolũ, 
+        <lb ed="#R" n="37"/>&amp; ideo debet esse vsui facillima, &amp; per consequens 
+        <lb ed="#R" n="38"/>facillima Sacramenta, quae in Lege veteri erant 
+      dif<lb ed="#R" n="39" break="no"/>ficillima, vnde reconciliatio fiebat cum 
+      difficulta<lb ed="#R" n="40" break="no"/>te magis, nam oportebat animalia interficere, &amp; 
+        <lb ed="#R" n="41"/>sanguinẽ aspergi in faciem, &amp; alia multa, quae erant 
+        <lb ed="#R" n="42"/>grauisima ad seruandum. 
+      </p>
+               <p>
+                  <lb ed="#R" n="43"/>Tertio, Lex noua est lex veritatis, &amp; ideo 
+      Sacra<lb ed="#R" n="44" break="no"/>menta eius non possunt esse signa falsa, sed 
+      debue<lb ed="#R" n="45" break="no"/>runt habere annexam veritatem, vt non sint signa 
+        <lb ed="#R" n="46"/>pronostica tantum, &amp; tenebra futurorum, sed 
+      de<lb ed="#R" n="47" break="no"/>monstratiua, &amp; quasi effectus praesentium, &amp; ideo 
+        <lb ed="#R" n="48"/>fructu saluberrima. Ratio autem huius est, quia 
+        <lb ed="#R" n="49"/>Sacramenta efficaciam habent ex Christti 
+      passio<lb ed="#R" n="50" break="no"/>ne, quae in Lege veteri figurabatur vt futura; 
+      Jn<lb ed="#R" n="51" break="no"/>noua autem Lege est iam exhibita. 
+      </p>
+               <p>
+                  <lb ed="#R" n="52"/>Quarto, Lex noua non estt lex instituta ab 
+      ho<lb ed="#R" n="53" break="no"/>mine, siue a solo homine, vel a creatura aliqua 
+      pro<lb ed="#R" n="54" break="no"/>mulgata, sed a Deo &amp; homine, Christo scilicet, 
+      in<lb ed="#R" n="55" break="no"/>stituta ac pronunciata, &amp; ideo non immerito 
+      tem<lb ed="#R" n="56" break="no"/>pore debet esse diuturnior: sic ergo patet ad 
+      quae<lb ed="#R" n="57" break="no"/>stionem. 
+      </p>
+               <p>
+                  <lb ed="#R" n="58"/>Ad argumentum in oppositum nego minorem. 
+        <lb ed="#R" n="59"/>Ad probationem dico, quod Apostolus ibi 
+      loqui<lb ed="#R" n="60" break="no"/>tur de Sacramentis antiquae Legis, quae sine dubio 
+        <lb ed="#R" n="61"/>redigebant in maximam seruitutem. 
+      </p>
+            </div>
+            <div>
+               <head>Articulus 2</head>
+               <head type="question-title">
+        Utrum Sacramenta Nouae Legis conuenienter 
+        instituta fuerint a Christo in numero septenario.
+      </head>
+               <p>
+                  <lb ed="#R" n="62"/>ARAACVLVS II. 
+        <lb ed="#R" n="63"/>Vtrum Sacramenta Nouae Legis conuenienter 
+        in<lb ed="#R" n="64" break="no"/>stituta fuerint a Christo in numero septenario.
+      </p>
+               <p>
+                  <lb ed="#R" n="65"/>QVoad secundam quaestionem arguo primo, 
+        <lb ed="#R" n="66"/>A quod Sacramenta nouae Legis non congruè 
+        <!--0036.xml-->
+        <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>fuerunt instituta in numero septenario a Christo, 
+        <lb ed="#R" n="68"/>quia non omnia, vt patet de Confirmatione, 
+      non<lb ed="#R" n="69" break="no"/>enim apparet ex Euangelio, vbi Sacramentum hoc 
+        <lb ed="#R" n="70"/>a Christo fuerit institutum.
+      </p>
+               <p>
+                  <lb ed="#R" n="71"/>In oppositum est auctoritas Ecclesiae, vnde 
+      in<lb ed="#R" n="72" break="no"/>Decretis 25. cap. in nouo Testa mento dicitur, quod 
+        <lb ed="#R" n="73"/>illa, quae tenet Ecclesia de Sacramentis sunt 
+      tradi<lb ed="#R" n="74" break="no"/>ta a Christo, &amp; Apostolis.
+      </p>
+               <p>
+                  <lb ed="#R" n="75"/>Respondeo: Primo videndum est de numero 
+      Sa<lb ed="#R" n="76" break="no"/>cramentorum. Vnum est certum, quod sunt septem, 
+        <lb ed="#R" n="77"/>ratio vero talis numeri potest esse vna ex 
+      parte<lb ed="#R" n="78" break="no"/>virtutum, quae dantur in Sacramentis, vel ipsarum 
+        <lb ed="#R" n="79"/>augmentum, quae sunt septem: nam in Sacramento 
+        <lb ed="#R" n="80"/>Baptismi datur Fides. Jn Extrema vnctione Spes, 
+        <lb ed="#R" n="81"/>in Eucharistia vero Charitas, vnde 
+      Eucharistia<lb ed="#R" n="82" break="no"/>idem est, quod bona gratia. In Pœnitentia vero 
+        <lb ed="#R" n="83"/>iustitia spiritualis. In Ordine vero Prudentia. In 
+        <lb ed="#R" n="84"/>Matrimonio vero Castitas. In Confirmatione 
+      ve<lb ed="#R" n="85" break="no"/>ro Fortitudo. 
+      </p>
+               <p>
+                  <lb ed="#R" n="86"/>Secunda ratio potest sumi ex hoc, quod 
+      Sacra<lb ed="#R" n="87" break="no"/>mẽta sunt quaedam media reparatiua humanorum 
+        <lb ed="#R" n="88"/>defectuum. Ad cuius euidentiam sciendũ est, quod 
+        <lb ed="#R" n="89"/>defectus quidam sunt defectus culpae, &amp; quidam 
+        <lb ed="#R" n="90"/>defectus pœnae.
+      </p>
+               <p>
+                  <lb ed="#R" n="91"/>Culpa vero est triplex, scilicet originalis, quam 
+        <lb ed="#R" n="92"/>delet Baptismus: mortalis, quam delet Pœnitentia: 
+        <lb ed="#R" n="93"/>venialis, quam delet Extrema vnctio.
+      </p>
+               <p>
+                  <lb ed="#R" n="94"/>Defectus vero pœnales sunt decem. Et quidam 
+        <lb ed="#R" n="95"/>quidem est in intellectu, scilicet ignorantia, contra 
+        <lb ed="#R" n="96"/>quam est Sacramentum Ordinis, in quo dantur 
+      cla<lb ed="#R" n="97" break="no"/>ues Scientiae. 
+      </p>
+               <p>
+                  <lb ed="#R" n="98"/>Secunda vero pœna est in voluntate defectus 
+        <lb ed="#R" n="99"/>malitiae, contra quam est Sacramentum Eucharistiae, 
+        <lb ed="#R" n="100"/>vbi infunditur Charitas.
+      </p>
+               <p>
+                  <lb ed="#R" n="101"/>Tertia pœna est in irascibili, pusillanimitas, 
+      con<lb ed="#R" n="102" break="no"/>tra quam est Sacramentum Confirmationis, vbi 
+      da<lb ed="#R" n="103" break="no"/>tur virtus Fortitudinis. 
+      </p>
+               <p>
+                  <lb ed="#R" n="104"/>Quarta pœna est in concupiscibili, 
+      concupiscen<lb ed="#R" n="105" break="no"/>tia mala, contra quam est Sacramentum Matrimo 
+        <lb ed="#R" n="106"/>nij, vbi infunditur spiritualis Temperantia.
+      </p>
+               <p>
+                  <lb ed="#R" n="107"/>Alij assignant aliam rationem ex 
+      similitudine<lb ed="#R" n="108" break="no"/>vitae corporalis ad vitam spiritualem, quae datur 
+        <lb ed="#R" n="109"/>per Sacramenta: nam in vita corporali quaedam 
+        <lb ed="#R" n="110"/>sunt, quae pertinent ad vitam personae, &amp; ista sunt 
+        <lb ed="#R" n="111"/>tria, scilicet generatio, &amp; huic correspondet in 
+      vi<lb ed="#R" n="112" break="no"/>ta spirituali Baptismus, per quem omnia 
+      regene<lb ed="#R" n="113" break="no"/>rantur Christo.
+      </p>
+               <p>
+                  <lb ed="#R" n="114"/>Secundum est nutrimentum, &amp; huic in vita 
+      spiri<lb ed="#R" n="115" break="no"/>tuali correspondet Eucharistia, quam qui 
+      mandu<lb ed="#R" n="116" break="no"/>cat, habet vitam aeternam. 
+        <lb ed="#R" n="117"/>Tertium est augmentum, &amp; huic correspondet 
+        <lb ed="#R" n="118"/>Confirmatio. Ex parte vero communicantis 
+      requi<lb ed="#R" n="119" break="no"/>runtur quatuor. 
+      </p>
+               <p>
+                  <lb ed="#R" n="120"/>Primum est propagatio, &amp; huic correspondet in 
+        <lb ed="#R" n="121"/>vita spirituali Matrimonium.
+      </p>
+               <p>
+                  <lb ed="#R" n="122"/>Secundum est gradus, in quo necessarium est 
+      ali<lb ed="#R" n="123" break="no"/>quos promoueri ad actum necessarium 
+      communi<lb ed="#R" n="124" break="no"/>tati, &amp; huic correspondet Ordo.
+      </p>
+               <p>
+                  <lb ed="#R" n="125"/>Tertium est ad remouendum impedimenta vite, 
+        <lb ed="#R" n="126"/>cuiuimodi est infirmitas, &amp; ad hoc ordinatum est 
+        <lb ed="#R" n="127"/>Sacramentum Paenitentiae.
+      </p>
+               <p>
+                  <lb ed="#R" n="128"/>Quartum est ad remouendum ineptitudinem, &amp; 
+        <lb ed="#R" n="129"/>hebetudinem quam homo consequitur ex 
+      infirmi<lb ed="#R" n="130" break="no"/>tate, &amp; huic correspondet in vita spirituali 
+      Sacra<lb ed="#R" n="131" break="no"/>mentum Extremae vnctionis, virtute cuius omnes 
+        <lb ed="#R" n="132"/>imbecillitates &amp; ineptitudines, quas homo in vita 
+        <lb ed="#R" n="133"/>praesenti contraxit, remouentur.
+      </p>
+               <p>
+                  <lb ed="#R" n="134"/>Vltimo potest sufficientia magis congrua, &amp; con- 
+      <!--0037.xml-->
+      <pb ed="#R" n="37"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>sequens ad praedeterminata talis assignari, vt 
+      acci<lb ed="#R" n="2" break="no"/>piatur ex parte necessitatis Sacramenti; dictum 
+      <lb ed="#R" n="3"/>est enim quaestione praecedenti, quod necessarium 
+      <lb ed="#R" n="4"/>est in omni lege instituere specialia Sacramenta, si 
+      <lb ed="#R" n="5"/>lex debeat diutius permanere.
+    </p>
+               <p>
+                  <lb ed="#R" n="6"/>Primum ergo, quod est necessarium in omni 
+      le<lb ed="#R" n="7" break="no"/>ge, &amp; ad quod exhibendum inclinat ius naturae, est 
+      <lb ed="#R" n="8"/>sacrificium; vnde nunquam fuit populus, nec lex, 
+      <lb ed="#R" n="9"/>quae sacrificium speciale non haberet, &amp; 
+      aliqua<lb ed="#R" n="10" break="no"/>quidem sacrificia comedebantur a sacerdotibus, 
+      <lb ed="#R" n="11"/>&amp; populo illius legis, sicut apud Judaeos tempore 
+      <lb ed="#R" n="12"/>legis antiquae, apud etiam Gentiles apparet idem 
+      <lb ed="#R" n="13"/>de idololatris: ergo tale Sacramentum necessarium 
+      <lb ed="#R" n="14"/>erat in lege noua, ad hoc quod esset perpetuae 
+      per<lb ed="#R" n="15" break="no"/>mansionis, &amp; huic correspondet in lege noua 
+      Sa<lb ed="#R" n="16" break="no"/>cramentum Eucharistiae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="17"/>Ex hoc autem Sacramento in omni lege 
+      necessa<lb ed="#R" n="18" break="no"/>rius erat Sacerdos: ergo necessarium est legem 
+      no<lb ed="#R" n="19" break="no"/>uam excellentibus personis, &amp; ministris sacrificij 
+      <lb ed="#R" n="20"/>dignissimi adornari, &amp; ad hoc institutum est 
+      Sacra<lb ed="#R" n="21" break="no"/>mentum Ordinis.
+    </p>
+               <p>
+                  <lb ed="#R" n="22"/>Tertio: In omni lege permansura necessarium 
+      <lb ed="#R" n="23"/>fuit semper aliquod signum distinctiuum degentium 
+      <lb ed="#R" n="24"/>sub lege illa a caeteris aliarum legum: ergo hoc 
+      ma<lb ed="#R" n="25" break="no"/>xime fuit necessarium in lege noua, &amp; ad hoc 
+      insti<lb ed="#R" n="26" break="no"/>tutum est Sacramentum Baptismi, quod est primum 
+      <lb ed="#R" n="27"/>signum, per quod fideles ab infidelibus, &amp; qui sunt 
+      <lb ed="#R" n="28"/>de Christi familia a caeteris dist inguuntur, quae 
+      qui<lb ed="#R" n="29" break="no"/>dem intrantibus religionem, in ipso religionis 
+      in<lb ed="#R" n="30" break="no"/>troitu adhibentur.
+  </p>
+               <p>
+                  <lb ed="#R" n="31"/>Quarto: In omni lege permansiua necessarij 
+      sue<lb ed="#R" n="32" break="no"/>runt aliqui defen sores legis, &amp; propugnatores, &amp; 
+      <lb ed="#R" n="33"/>per consequens signum erat aliquod, quo 
+      pugnato<lb ed="#R" n="34" break="no"/>res a non pugnantibus discernebantur: ergo multo 
+      <lb ed="#R" n="35"/>magis hoc est necessarium in lege Euangelica, quae 
+      <lb ed="#R" n="36"/>est lex veritatis, &amp; ad hoc institutum fuit 
+      acramen<lb ed="#R" n="37" break="no"/>tum Confirmationis, in quo confertur suscipienti 
+      <lb ed="#R" n="38"/>speciale robur ad defendendum legem Christi, 
+      vn<lb ed="#R" n="39" break="no"/>de multi post Confirmationem exponunt se morti 
+      <lb ed="#R" n="40"/>propter defensionem Fidei, qui ante 
+      Confirmatio<lb ed="#R" n="41" break="no"/>nem trepidassent, nec fuissent confessi ita audacter 
+      <lb ed="#R" n="42"/>nomen Christi. 
+  </p>
+               <p>
+                  <lb ed="#R" n="43"/>Quinto: Omnis lex habuit ritum aliquem in recon 
+      <lb ed="#R" n="44"/>ciliando praeuaricatores legis, &amp; hoc multo magis 
+      <lb ed="#R" n="45"/>fuit congruum in lege noua, quae congrue, vel 
+      ma<lb ed="#R" n="46" break="no"/>xime est lex gratiae, &amp; ad hoc institutum est 
+      Sacra<lb ed="#R" n="47" break="no"/>mentum Poenitentiae, per quam cognoscit homo se 
+      <lb ed="#R" n="48"/>ese perfecte Deo reconciliatum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="49"/>Sexto: De necessitate permansionis cuiuslibet le 
+      <lb ed="#R" n="50"/>gis fuit, quod homines permansuri sub lege 
+      propa<lb ed="#R" n="51" break="no"/>garentur ab hominibus illius legis, vnde &amp; hoc fuit 
+      <lb ed="#R" n="52"/>maxime necessarium in lege noua, propter quod 
+      e<lb ed="#R" n="53" break="no"/>rat difficillimum in primitiua Ecclesia conuertere 
+      <lb ed="#R" n="54"/>homines ad Fidem propter repulsam parentum; &amp; 
+      <lb ed="#R" n="55"/>quia insurrecturi erant haretici, qui omnem propa 
+      <lb ed="#R" n="56"/>gationis modum illicitum reputarent, congruum fuit 
+      <lb ed="#R" n="57"/>modum aliquem licitum ac virtuosum instituere ad 
+      <lb ed="#R" n="58"/>propagationem huiusmodi conseruandam, &amp; ad hoc 
+      <lb ed="#R" n="59"/>institutum est Sacramentum Matrimonij. 
+    </p>
+               <p>
+                  <lb ed="#R" n="60"/>Septimo, &amp; vltimo, quia haec lex non finitur hic, 
+      <lb ed="#R" n="61"/>sed alibi, &amp; habet duplicem populum, militantem, 
+      <lb ed="#R" n="62"/>&amp; triumphantem, aliquid fuit necessarium in ista le 
+      <lb ed="#R" n="63"/>ge specialius, quod non erat in alijs legibus 
+      necessa<lb ed="#R" n="64" break="no"/>rium, vt sicut in ingressu ad populum militantem 
+      <lb ed="#R" n="65"/>adhibebatur signum distinctiuum per Baptismũ; sic 
+      <lb ed="#R" n="66"/>in egressu de militanti populo, &amp; in ingressu ad 
+      po<lb ed="#R" n="67" break="no"/>pulum triumphantem, necessarium fuit institui 
+      si<lb ed="#R" n="68" break="no"/>gnum aliquod sensibile, quod secum deferret, qui patria- 
+      <!--0037.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>ret ad populum triumphantem, vt eset sibi signum, quod 
+      <lb ed="#R" n="70"/>mitteretur de militanti populo ad triumphantem, 
+      <lb ed="#R" n="71"/>&amp; quod perseuerauit in militanti populo, &amp; nunc 
+      <lb ed="#R" n="72"/>venit perseueraturus cum populo triumphante.
+    </p>
+               <p>
+                  <lb ed="#R" n="73"/>Secundus modus est de institutione. Vtrum fuerint 
+      <lb ed="#R" n="74"/>haec Sacramenta instituta a Deo solo sine Christo, an 
+      <lb ed="#R" n="75"/>aliqua ab ipsis. Ad quod dicunt quidam, quod solus 
+      <lb ed="#R" n="76"/>Deus potuit ea instituere inquantum efficientia 
+      re<lb ed="#R" n="77" break="no"/>spectu gratiae: non enim tantummodo signant, sed 
+      <lb ed="#R" n="78"/>efficiunt, nunc autem ad nullam creaturam 
+      perti<lb ed="#R" n="79" break="no"/>net instituere, quod aliqua res creata habeat effica 
+      <lb ed="#R" n="80"/>ciam super gratiam. Sed loquendo de possibilitate, 
+      <lb ed="#R" n="81"/>non video, quare institutionem Sacramentorum 
+      exe<lb ed="#R" n="82" break="no"/>cutiue non potuit Deus alteri committere. Non enim 
+      <lb ed="#R" n="83"/>oportet, quod exequutio pertineat ad illum, ad quem 
+      <lb ed="#R" n="84"/>pertinet auctoritas, sicut patet de Rege, &amp; si enim 
+      <lb ed="#R" n="85"/>solus Rex habeat auctoritatem gratiam aliquam 
+      di<lb ed="#R" n="86" break="no"/>stribuendi, potest tamen executionem distributionis 
+      <lb ed="#R" n="87"/>alteri committere: sicut tunc Deus solus potuit 
+      face<lb ed="#R" n="88" break="no"/>re sistere motum cali, tamen eius executionem 
+      commi<lb ed="#R" n="89" break="no"/>sit Josue, ad cuius verbum stetit sol contra 
+      Cabao<lb ed="#R" n="90" break="no"/>nitas, ergo quare non potuit Deus instituere, quod 
+      <lb ed="#R" n="91"/>creatura aliqua, pura homo vel angelus signum ali 
+      <lb ed="#R" n="92"/>quod placitum institueret, quo facto Deus 
+      coope<lb ed="#R" n="93" break="no"/>raretur ad gratiam infundendam: sic ergo de 
+      possi<lb ed="#R" n="94" break="no"/>bili non video, quare executiue Sacramenta non po 
+      <lb ed="#R" n="95"/>tuerunt ab aliquo institui, quam a solo Deo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="96"/>Sed de facto teneo determinationem Concilij vbi 
+      <lb ed="#R" n="97"/>supra, arguendo ad principale, quod Sacramenta 
+      <lb ed="#R" n="98"/>omnia a Christo fuerunt immediate instituta, tamem 
+      <lb ed="#R" n="99"/>aliquae circumstantiae sunt postmodum ab Ecclesia 
+      <lb ed="#R" n="100"/>propter causas rationabiles institutae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="101"/>Hic tamen est specialis difficultas de duobus 
+      Sa<lb ed="#R" n="102" break="no"/>cramentis, scilicet Extrema vnctione, &amp; 
+      Confirma<lb ed="#R" n="103" break="no"/>tione, vtrũa Christo fuerunt immediate instituta, 
+      <lb ed="#R" n="104"/>sed dicendum est, quod sic: sicut de extrema 
+      vnctio<lb ed="#R" n="105" break="no"/>ne patet, quod Apostoli vngebant infirmos oleo 
+      <lb ed="#R" n="106"/>sancto, &amp; sanabantur, non faciebant autem hoc 
+      ni<lb ed="#R" n="107" break="no"/>si in virtute Christi.
+    </p>
+               <p>
+                  <lb ed="#R" n="108"/>De confirmatione Christi similiter patet in 
+      im<lb ed="#R" n="109" break="no"/>positione manuum, vbi dabatur Spiritus sanctus, &amp; 
+      <lb ed="#R" n="110"/>patet ex Euangelio, quod Christus confirmauit 
+      <lb ed="#R" n="111"/>pueros, quandoque tangens eos in fronte, &amp; per 
+      <lb ed="#R" n="112"/>hoc patet ad argumentum principale. 
+    </p>
+            </div>
+            <div>
+               <head>Articulus 3</head>
+               <head type="question-title">
+      De Baptismo Joannis, Utrum fuerit verum 
+      Sacramentum.
+    </head>
+               <p>
+                  <lb ed="#R" n="113"/>ARTICVLVS III 
+      <lb ed="#R" n="114"/>De Baptismo Joannis, Vtrum fuerit verum 
+      <lb ed="#R" n="115"/>Sacramentum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="116"/>AD tertiam quaestionem de Baptismo Joannis, 
+      <lb ed="#R" n="117"/>vtrum fuerit verum Sacramentum, sine 
+      argu<lb ed="#R" n="118" break="no"/>mentis. Respondeo primo, quae fuit eius materia? &amp; 
+      <lb ed="#R" n="119"/>certum est ex Scriptura, qui fuit aqua Jordanis, sed de 
+      <lb ed="#R" n="120"/>forma non sic est certum. Dicunt tamen quidam, quod 
+      <lb ed="#R" n="121"/>forma erat ista: Ego te baptizo in nomine venturi, 
+      <lb ed="#R" n="122"/>sicut legitur in Act. de quibusdam discipulis 
+      baptiza<lb ed="#R" n="123" break="no"/>tis baptismo Joannis, quibus dicit Paulus: Joannes 
+      <lb ed="#R" n="124"/>baptizauit populum in eum dicens, qui venturus 
+      <lb ed="#R" n="125"/>esset post ipsum. 
+  </p>
+               <p>
+                  <lb ed="#R" n="126"/>Sed hoc non videtur bene dictum, quia quomodo 
+      <lb ed="#R" n="127"/>baptizauit Christum? numquid in nomine ipsiusmet, 
+      <lb ed="#R" n="128"/>vt diceret, Baptizo te in nomine tui venturi: ideo 
+      <lb ed="#R" n="129"/>non apparet, quod talis fuerit praetensa forma, nec 
+      <lb ed="#R" n="130"/>praetensa forma habetur ex Scriptura; sed puto, q 
+      <lb ed="#R" n="131"/>Doctores acceperunt sormam, iuxta praedicationem 
+      <lb ed="#R" n="132"/>eius: nam cum baptizaret populum, praedicabut eĩs, 
+      <lb ed="#R" n="133"/>&amp; annunciabat venturum, &amp; hoc mouit Doctores ad 
+      <lb ed="#R" n="134"/>putandum, qui forma Baptismi ipsius esset in nomine 
+      <!--0038.xml-->
+      <pb ed="#R" n="38"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>venturi. Ego tamen non video aliquam 
+      necessita<lb ed="#R" n="2" break="no"/>tem, quare oportuerit, quod loannes baptizaret 
+      <lb ed="#R" n="3"/>in forma aliqua. 
+    </p>
+               <p>
+                  <lb ed="#R" n="4"/>De suscipientibus vero, fuitne generale quoad 
+      <lb ed="#R" n="5"/>omnes. Respondeo, susceptiuum congruum erat so 
+      <lb ed="#R" n="6"/>lummodo adultis, non paruulis: &amp; ratio est, 
+      quia<lb ed="#R" n="7" break="no"/>Baptismus erat tantum poenitentiae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="8"/>Sed nunquid Christus fuit congruum susceptiuum. 
+      <lb ed="#R" n="9"/>Respondeo: Christus baptizari voluit ex duplici cau 
+      <lb ed="#R" n="10"/>sa; &amp; ad dandum humilitatis exemplum, &amp; secundum 
+      <lb ed="#R" n="11"/>
+                  <name>Bedam</name> ad aquas sanctificandum, vt conserret aquis 
+      <lb ed="#R" n="12"/>vim regeneratiuam, quod mouet aliquos ad 
+      po<lb ed="#R" n="13" break="no"/>nendum in Sacramentis virtutem infusam. sed 
+      mo<lb ed="#R" n="14" break="no"/>tiuum non est congruum, quia concluderet, quod in 
+      <lb ed="#R" n="15"/>omni aqua esset virtus talis infusa. 
+    </p>
+               <p>
+                  <lb ed="#R" n="16"/>Secundo propter exemplum praebendum poe
+      ni<lb ed="#R" n="17" break="no"/>tentiae, sicut &amp; ob hoc ieiunare voluit in deserto. 
+    </p>
+               <p>
+                  <lb ed="#R" n="18"/>Sed quid de efficacia, nunquid conferebat 
+      gra<lb ed="#R" n="19" break="no"/>tiam? Respondeo, aliqui dicunt quod sic, alii vero 
+      <lb ed="#R" n="20"/>tenent oppositum, cuius opinionis videtur esse 
+      Ma<lb ed="#R" n="21" break="no"/>gister, sed concordando opiniones distinguo, quia 
+      <lb ed="#R" n="22"/>baptismum Joannis conferre gratiam, potest 
+      intel<lb ed="#R" n="23" break="no"/>ligi vel ratione operis operati, vel ratione deuotio 
+      <lb ed="#R" n="24"/>nis. Primo modo non puto, quod gratiam 
+      confer<lb ed="#R" n="25" break="no"/>ret: secundo vero modo, puto quod gratiam 
+      con<lb ed="#R" n="26" break="no"/>ferebat: cuius probatio est, quia secundum 
+      Augu<lb ed="#R" n="27" break="no"/>stinum delebat culpam: culpa autem non deletur 
+      <lb ed="#R" n="28"/>sine gratia. 
+    </p>
+               <p>
+                  <lb ed="#R" n="29"/>Sed quid de sufficientia? nunquid baptizati 
+      ba<lb ed="#R" n="30" break="no"/>ptismo Joannis tenebantur baptizari possea baptis 
+      <lb ed="#R" n="31"/>mo Christi. Respondeo, haec est opinio Magistri, 
+      <lb ed="#R" n="32"/>quae videtur fundari super dicta Hieron. super Joel. 
+    </p>
+               <p>
+                  <lb ed="#R" n="33"/>Distinguit autem Magister de baptizatis baptis 
+      <lb ed="#R" n="34"/>mo Joannis, quia aut ponebant spem in baptismo 
+      <lb ed="#R" n="35"/>Joannis, nihil scientes de Spiritu sancto, &amp; Fide Chri 
+      <lb ed="#R" n="36"/>sti, &amp; tales fuerunt rebaptizati baptismo Cristi, vt 
+      <lb ed="#R" n="37"/>expresse habetur Act. vbi dicitur, quod Paulus 
+      ve<lb ed="#R" n="38" break="no"/>niens Ephesum, &amp; inueniens quosdam discipulos 
+      ba<lb ed="#R" n="39" break="no"/>ptizatos baptismo Joannis, qui nec si Spiritus 
+      san<lb ed="#R" n="40" break="no"/>ctus esset audierant, dicit eis: Joannes baptizauIt 
+      <lb ed="#R" n="41"/>populum, &amp; c. &amp; sequitur: his auditis baptizati sunt 
+      <lb ed="#R" n="42"/>in nomine Domini sesu. 
+    </p>
+               <p>
+                  <lb ed="#R" n="43"/>Si vero baptizati baptismo Joannis non figebant 
+      <lb ed="#R" n="44"/>spem ibi, sed fidem habebant in Patre, &amp; Filio, &amp; 
+      <lb ed="#R" n="45"/>Spiritu sancto, non oportebat eos rebaptizari 
+      ba<lb ed="#R" n="46" break="no"/>ptismo Christi, maxime quando recipiebant 
+      Spiri<lb ed="#R" n="47" break="no"/>tum, vnde Act. Cum audissent Apostoli, &amp; c. sequitur, 
+      <lb ed="#R" n="48"/>miserunt ad eos Petrum, &amp; Joannem, &amp;c. sequitur: 
+      <lb ed="#R" n="49"/>nondum enim acceperant Spiritum sanctum, nec 
+      <lb ed="#R" n="50"/>tamen sequitur, quod fuerunt rebaptizati 
+      baptis<lb ed="#R" n="51" break="no"/>mo Christi. 
+    </p>
+               <p>
+                  <lb ed="#R" n="52"/>Sed Magister communiter in hoc non tenetur. Ideo 
+      <lb ed="#R" n="53"/>dicunt alij, quod baptismus Joannis fuit in forma 
+      <lb ed="#R" n="54"/>baptismi Christi, quam potuit audire a discipulis 
+      <lb ed="#R" n="55"/>Christi, &amp; tunc proprie non esset baptismus Joannis, 
+      <lb ed="#R" n="56"/>sed Christi, &amp; sic certum est, quod non oportuisset 
+      <lb ed="#R" n="57"/>tales rebaptizari baptismo Chrisi. 
+    </p>
+               <p>
+                  <lb ed="#R" n="58"/>Vel Joannis baptismus potuit fuisse in alia 
+      for<lb ed="#R" n="59" break="no"/>ma,puta in nomine venturi, vel quadam alia, vel 
+      si<lb ed="#R" n="60" break="no"/>ne forma aliqua, &amp; de tali dicunt, quod oportebat 
+      <lb ed="#R" n="61"/>eos rebaptizari Christi baptismo; tum quia in tali 
+      <lb ed="#R" n="62"/>baptismo non imprimebatur character, nec gratia 
+      <lb ed="#R" n="63"/>sacramentalis, nec integrabat rationem vnius 
+      inte<lb ed="#R" n="64" break="no"/>gri baptismi, baptismus ille, &amp; baptismus flaminis, 
+      <lb ed="#R" n="65"/>tamen quia fuit mandatum generale de baptismo 
+      <lb ed="#R" n="66"/>Christi, videtur obligasse vniuersaliter omnes. 
+    </p>
+               <p>
+                  <lb ed="#R" n="67"/>Sed iste habet contra se auctoritatem Act. cap. 8. 
+      <lb ed="#R" n="68"/>quam Magister adducit pro se in littera. Ideo di- 
+      <!--0038.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>cit vnus Magister antiquus aliter, &amp; videtur quod 
+      <lb ed="#R" n="70"/>dictum suum possit concordare opiniones illorum 
+      <lb ed="#R" n="71"/>oppositas. 
+    </p>
+               <p>
+                  <lb ed="#R" n="72"/>Dicit ergo Doctor ille, quod aut post haptismum 
+      <lb ed="#R" n="73"/>Joannis receptum sequebatur manuum impositio 
+      <lb ed="#R" n="74"/>Apostolorum, vel non: si sic, hoc conurue dicitur, 
+      <lb ed="#R" n="75"/>vel enim impositio manuum erat Baptismus 
+      flami<lb ed="#R" n="76" break="no"/>nis, vel erat sola confirmatio (&amp; erat secundum istos 
+      <lb ed="#R" n="77"/>Baptismus slaminis, quando ad impositionem 
+      ma<lb ed="#R" n="78" break="no"/>nus descendebat Spiritus sauctus in signo sensibili 
+      <lb ed="#R" n="79"/>aliquo, sicut descendit in forma ignis ad 
+      impositio<lb ed="#R" n="80" break="no"/>nem manus a Paulo &amp; larnaba: quando vero 
+      nul<lb ed="#R" n="81" break="no"/>lum tale apparebat signum, erat sola confirmatio.) 
+      <lb ed="#R" n="82"/>Tunc dicunt, quod si ad impositionem manus 
+      ap<lb ed="#R" n="83" break="no"/>parebat signum sensibile, erat baptismus flaminis, &amp; 
+      <lb ed="#R" n="84"/>ex tali baptismo flaminis, &amp; baptismo Joannis 
+      prae<lb ed="#R" n="85" break="no"/>cedenti consurgebat vnus integer baptismus 
+      Chri<lb ed="#R" n="86" break="no"/>sti: nam baptismus Christi integratur ex aqua, &amp; 
+      <lb ed="#R" n="87"/>spiritu, quod bene protestabatur Joannes, dicens: 
+      <lb ed="#R" n="88"/>Ego baptizo in aqua, ille autem baptizabit in 
+      Spi<lb ed="#R" n="89" break="no"/>ritu sancto: de tali autem, qui sic esset baptizatus 
+      <lb ed="#R" n="90"/>baptisino Joannis, &amp; postea baptismo Christi, 
+      te<lb ed="#R" n="91" break="no"/>nendum est secundum istos, quod non esset postea 
+      <lb ed="#R" n="92"/>baptizandus baptismo Christi. 
+    </p>
+               <p>
+                  <lb ed="#R" n="93"/>Si vero ad impositionem manus in baptizatis ba 
+      <lb ed="#R" n="94"/>ptismo Joannis non apparebat sensibile signum, tunc 
+      <lb ed="#R" n="95"/>talis impositio manuum erat tantum confirmatio, 
+      <lb ed="#R" n="96"/>&amp; de talibus oporteret dicere, qui oportuit eos 
+      reba<lb ed="#R" n="97" break="no"/>ptizari. Alij tenent, quod quomodocunque contin · 
+      <lb ed="#R" n="98"/>geret baptizatos Joannis baptismate postea 
+      bapti<lb ed="#R" n="99" break="no"/>zari famine, vel confirmari solum, necessario erant 
+      <lb ed="#R" n="100"/>rebaptizandi baptismo Christi, &amp; hoc specialiter 
+      <lb ed="#R" n="101"/>propter auctoritatem quandam Canon. quae 
+      mul<lb ed="#R" n="102" break="no"/>tum videtur expressa, &amp; est de Consecr. Dist. 3. cap. 
+      <lb ed="#R" n="103"/>aliud, vbi dicitur, si quos baptizauit Joannes, 
+      ite<lb ed="#R" n="104" break="no"/>rum sunt baptizandi, &amp; infra: Quos enim 
+      baptiza<lb ed="#R" n="105" break="no"/>uit Judas, baptizauit &amp; Christus, &amp;c. quos vero 
+      <lb ed="#R" n="106"/>baptizauit Joannes, &amp; c. 
+    </p>
+               <p>
+                  <lb ed="#R" n="107"/>Quicquid sit de istis opinionibus videtur mihi, 
+      <lb ed="#R" n="108"/>quod multum probabiliter posset teneri opinio 
+      il<lb ed="#R" n="109" break="no"/>lius antiqui Doctoris, &amp; apparenter exponi ea, quae 
+      <lb ed="#R" n="110"/>videntur facere in contrarium, &amp; hoc modo, quo 
+      <lb ed="#R" n="111"/>statim dictum est, cum opinio recitaretur. 
+    </p>
+               <p>
+                  <lb ed="#R" n="112"/>Sed quid dicendum de auctoritate: Vtrum 
+      baptis<lb ed="#R" n="113" break="no"/>mus ille haberet auctoritatem a Joanne, ita qui loannes 
+      <lb ed="#R" n="114"/>auctoritatiue instituisset illum baptismum. Respon 
+      <lb ed="#R" n="115"/>deo, dicunt quidam quod sic; alias non bene 
+      dicere<lb ed="#R" n="116" break="no"/>tur baptismus Joannis. Et confirmatur per hoc, quod 
+      <lb ed="#R" n="117"/>Aposcolus i. Corinth. reprehendit eos qui se 
+      dice<lb ed="#R" n="118" break="no"/>bant baptizatos baptismo Pauli, siue Cepliae, eo qui 
+      <lb ed="#R" n="119"/>auctoritas sola erat Christi: sed contra hoc est illud 
+      <lb ed="#R" n="120"/>Joannis 1. Qui miisit me baptirare, &amp;c. Sed 
+      quare<lb ed="#R" n="121" break="no"/>dicebatur baptismus Joannis? 
+    </p>
+               <p>
+                  <lb ed="#R" n="122"/>Dicunt quidam, quod ideo, quia soli Joanni 
+      da<lb ed="#R" n="123" break="no"/>tum fuit tanquam ministro, quod baptizaret. Sed 
+      <lb ed="#R" n="124"/>istud est expresse contra textum Act. vbi dicitur, qui 
+      <lb ed="#R" n="125"/>Corinthij erunt baptizati baptismo Joannis, qui 
+      ta<lb ed="#R" n="126" break="no"/>men nunquam viderant Joannem. Et ideo posset di 
+      <lb ed="#R" n="127"/>ci, quod ideo dicebatur Joannis, quia Joannes fuit 
+      <lb ed="#R" n="128"/>mediator illius baptismi, ita vt dicatur, quod 
+      Ba<lb ed="#R" n="129" break="no"/>ptismus ille fuerit auctoritatiue a diuina 
+      volunta<lb ed="#R" n="130" break="no"/>te, sed tamen mediante Joanne ipso, executiue. 
+    </p>
+               <p>
+                  <lb ed="#R" n="131"/>Vltimo quo ad propositum, Vtrum baptismus 
+      <lb ed="#R" n="132"/>Joannis fuit Sacramentum, hoc certum est, quod 
+      <lb ed="#R" n="133"/>fuerit praeuium ad Sacramentum, scilicet ad 
+      baptis<lb ed="#R" n="134" break="no"/>mum: sed vtrum significaret rem sacram, &amp; causa 
+      <lb ed="#R" n="135"/>existeret. Dicendum est, quod non, non enim 
+      conse<lb ed="#R" n="136" break="no"/>rebat gratiam ratione operis operati. Sed vtrum 
+      <!--0039.xml-->
+      <pb ed="#R" n="39"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>saltem significaret rem sacram, vt esset signum, 
+      li<lb ed="#R" n="2" break="no"/>cet non causa. Dicitur communiter, quod tantum 
+      <lb ed="#R" n="3"/>significabat baptismum Christi.
+    </p>
+               <p>
+                  <lb ed="#R" n="4"/>Sed vtrum significabat baptismum fluminis, vel 
+      <lb ed="#R" n="5"/>flaminis. Dicunt quidam, quod baptismum 
+      flu<lb ed="#R" n="6" break="no"/>minis. Sed hoc videtur irrationabile, quia 
+      si<lb ed="#R" n="7" break="no"/>gnum &amp; signatum non sunt eiusdem rationis. Ideo 
+      <lb ed="#R" n="8"/>dico, quod significabat Baptismum flaminis, &amp; hoc 
+      <lb ed="#R" n="9"/>videtur sonare illa litera Act. 1. Ioannes quidem 
+      <lb ed="#R" n="10"/>baptizauit aqua, nos autem baptizamus in 
+      Spiri<lb ed="#R" n="11" break="no"/>tu sancto. 
+    </p>
+               <p>
+                  <lb ed="#R" n="12"/>Potest ergo dici, quod haptismus Ioannis aliter 
+      <lb ed="#R" n="13"/>se habebat, &amp; cooperabatur ad Baptismum 
+      flumi<lb ed="#R" n="14" break="no"/>nis, &amp; aliter ad baptismum flaminis: quoniam ad 
+      <lb ed="#R" n="15"/>baptismum fluminis cooperabatur vt dispositio, 
+      <lb ed="#R" n="16"/>siue vt praeparatio, &amp; hoc vt baptisma Christi non 
+      <lb ed="#R" n="17"/>appareret nouitas aliqua in populo, &amp; ex hoc 
+      dici<lb ed="#R" n="18" break="no"/>tur bene communiter, quod non erat 
+      Sacramen<lb ed="#R" n="19" break="no"/>tum, sed sacramentale; sicut catechismus &amp; 
+      exor<lb ed="#R" n="20" break="no"/>cismus sunt sacramentalia, quia sunt praeparatio 
+      <lb ed="#R" n="21"/>ad Sacramentum, sed cooperabatur aliquid ad 
+      <lb ed="#R" n="22"/>baptismum flaminis, vt figura, &amp; signum ad 
+      si<lb ed="#R" n="23" break="no"/>gnatum. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

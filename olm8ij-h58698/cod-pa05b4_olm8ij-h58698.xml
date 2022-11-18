@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="171"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h58698"> <!-- l4-d27q1 -->
+            <head>Quaestio 1</head>
+            <p>
+               <lb ed="#R" n="26"/>Quaestio Vnica. 
+    </p>
+            <div>
+               <head>Articulus 1</head>
+               <head type="question-title">
+        Utrum indivisibilitas sit de essentia Matrimonii.
+      </head>
+               <p>
+                  <lb ed="#R" n="27"/>ARTICVLVS VNICVS. 
+      <lb ed="#R" n="28"/>Vtrum indiuisibilitas sit de essentia Matrimonij. 
+    </p>
+               <p>
+                  <lb ed="#R" n="29"/>VIDETVR mihi, quod 
+      <lb ed="#R" n="30"/>
+                  <!-- Line coord error -->
+                  <lb ed="#R" n="31"/>non, quia si sic, non 
+      pos<lb ed="#R" n="32" break="no"/>set indisssolubilitas tolli, 
+      <lb ed="#R" n="33"/>stante quolibet coniugum: 
+      <lb ed="#R" n="34"/>
+                  <!-- Line coord error -->
+                  <lb ed="#R" n="35"/>sed hoc falsum videtur, 
+      <lb ed="#R" n="36"/>
+                  <!-- Line coord error -->
+                  <lb ed="#R" n="37"/>quia si ante carnalem 
+      co<lb ed="#R" n="38" break="no"/>
+                  <!-- Line coord error -->
+                  <lb ed="#R" n="39"/>pulam vir ingreditur 
+      re<lb ed="#R" n="40" break="no"/>
+                  <!-- Line coord error -->
+                  <lb ed="#R" n="41"/>ligionem, soluta est 
+      mu<lb ed="#R" n="42" break="no"/>lier secundum 
+      determi<lb ed="#R" n="43" break="no"/>nationem Canonis a 
+      vin<lb ed="#R" n="44" break="no"/>culo Matrimonij. 
+    </p>
+               <p>
+                  <lb ed="#R" n="45"/>In oppositum est illud Matth. 19. Quod Deus 
+      <lb ed="#R" n="46"/>coniunxit, homo non separet. Respondeo ad 
+      eui<lb ed="#R" n="47" break="no"/>dentiam huius quaestionis pono aliquas 
+      conclu<lb ed="#R" n="48" break="no"/>siones. 
+    </p>
+               <p>
+                  <lb ed="#R" n="49"/>Prima est, quod indissolubilitas temporis est de 
+      <lb ed="#R" n="50"/>essentia Matrimonij, ita quod Matrimonium 
+      essen<lb ed="#R" n="51" break="no"/>tialiter ex sua ratione est perpetuum vinculum, 
+      <lb ed="#R" n="52"/>&amp; aeternum. Hanc propositionem probo, 
+      videli<lb ed="#R" n="53" break="no"/>cet, quod perpetuitas sit de ratione Matrimonij, 
+      <lb ed="#R" n="54"/>tam inquantum est de iure naturae, quam vt estt 
+      si<lb ed="#R" n="55" break="no"/>gnum sacrae rei, &amp; vt efficit, quod figurat. Primum 
+      <lb ed="#R" n="56"/>probo, sic: In omnibus ordinatis ad finem 
+      neces<lb ed="#R" n="57" break="no"/>sitas, &amp; conditio debet accipi secundum 
+      exigen<lb ed="#R" n="58" break="no"/>tiam finis, vt patet ex 2. Physic. tex. 78. &amp; infra 
+      <lb ed="#R" n="59"/>Sed finis associationis Matrimonialis in 
+      insolubili<lb ed="#R" n="60" break="no"/>tate maris, &amp; foeminae exigit insolubilitatem 
+      per<lb ed="#R" n="61" break="no"/>petuam: ergo, &amp;c. Maior vera est. Probo 
+      mino<lb ed="#R" n="62" break="no"/>rem, sic. Finis Matrimonii, vt est de lege naturae, 
+      <lb ed="#R" n="63"/>est procreatio, &amp; educatio prolis ad conseruatio- 
+      <!--0171.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="64"/>nem speciei: sed illud exigit associationem maris, 
+      <lb ed="#R" n="65"/>&amp; foeminae, non tantum pro aliquo tempore, sed pro 
+      <lb ed="#R" n="66"/>semper. Probo. Ad hoc enim, quod habeatur 
+      pro<lb ed="#R" n="67" break="no"/>les debita, non tantum sufficit, quod sit genita: si 
+      <lb ed="#R" n="68"/>enim postquam genita est. dimitteretur, statim 
+      mo<lb ed="#R" n="69" break="no"/>reretur: ergo vltra hoc, quod est genita, oportet, 
+      <lb ed="#R" n="70"/>quod sit sufficientur educata, vt possit viuere, &amp; 
+      <lb ed="#R" n="71"/>conseruare esse speciei; sed ne hoc adhuc sufficit, 
+      <lb ed="#R" n="72"/>sed oportet, quod sit erudita, hominum enim 
+      ge<lb ed="#R" n="73" break="no"/>nus arte, &amp; experimentis viuit r. Metaph. 
+    </p>
+               <p>
+                  <lb ed="#R" n="74"/>Sed nec hoc est ei sufficiens, sed oportet quarto, 
+      <lb ed="#R" n="75"/>quod habeat patrimonium, &amp; haereditatem, vnde 
+      <lb ed="#R" n="76"/>habeat aliqua bona, quibus possit vitam 
+      continua<lb ed="#R" n="77" break="no"/>re; sed praedicta non possent haberi, nisi essent 
+      de<lb ed="#R" n="78" break="no"/>terminatus vir, &amp; determinata vxor; nisi enim 
+      es<lb ed="#R" n="79" break="no"/>set determinatus vir cum determinata vxore, 
+      ne<lb ed="#R" n="80" break="no"/>sciretur cuius esset filius, vtrum istius patris, vel 
+      <lb ed="#R" n="81"/>illius. Similiter oportet, quod sint perpetuo 
+      con<lb ed="#R" n="82" break="no"/>iuncti, alias non congregarent bona, nisi pro 
+      tem<lb ed="#R" n="83" break="no"/>pore illo quo essent simul, &amp; tunc proles 
+      remane<lb ed="#R" n="84" break="no"/>ret sine patrimonis beneficio. Et confirmo, quia 
+      <lb ed="#R" n="85"/>videmus in aliis animalibus, quod quanto proles 
+      <lb ed="#R" n="86"/>indiget meliori educatione, tanto instinctu naturae 
+      <lb ed="#R" n="87"/>plus manutenent mutuam associationem, vnde 
+      vi<lb ed="#R" n="88" break="no"/>demus, quod aliqua animalia indigent 
+      tantummo<lb ed="#R" n="89" break="no"/>do ipsis parentibus in actu generationis, &amp; 
+      quia<lb ed="#R" n="90" break="no"/>statim, vt nata sunt, posunt sibi necessaria 
+      procu<lb ed="#R" n="91" break="no"/>rare, ideo natura non monet in talibus 
+      asssociatio<lb ed="#R" n="92" break="no"/>nem mutuam, nisi pro instanti generationis, sicut 
+      <lb ed="#R" n="93"/>pisces, in quibus cessat conuictio statim post actum 
+      <lb ed="#R" n="94"/>generationis. Quaedam etiam animalia 
+      ouifican<lb ed="#R" n="95" break="no"/>tia statim, cum ouum emiserint, dimittunt illud, 
+      ni<lb ed="#R" n="96" break="no"/>hil amplius se circa nascituram prolem 
+      sollicitan<lb ed="#R" n="97" break="no"/>tes, &amp; generatio ibi est a solo sole. 
+      Quandoque<lb ed="#R" n="98" break="no"/>vero proles in quibusdam animalibus indiget 
+      pa<lb ed="#R" n="99" break="no"/>rentibus, non solum in actu generationis, sed 
+      pro<lb ed="#R" n="100" break="no"/>pter educationem; &amp; horum quaedam indigent in 
+      <lb ed="#R" n="101"/>educatione altero parente tantum, vt patet in 
+      <lb ed="#R" n="102"/>quadrupedibus, &amp; ideo ibi non durat asssociatio 
+      <lb ed="#R" n="103"/>pro tempore educationis. Quaedam vero indigent 
+      <lb ed="#R" n="104"/>vtroque parente in ipsa educatione, vt videmus in 
+      <lb ed="#R" n="105"/>auibus quibusdam, vbi masculus quaerit, &amp; portat 
+      <lb ed="#R" n="106"/>cibum foeminae, &amp; illa remanet ad custodiam, &amp; 
+      la<lb ed="#R" n="107" break="no"/>ctationem filiorum, &amp; in talibus tantum durat 
+      as<lb ed="#R" n="108" break="no"/>sociatio, quousque proles indigeat educatione 
+      <lb ed="#R" n="109"/>&amp; ex tunc associatio cessat, &amp; hoc secundum 
+      ma<lb ed="#R" n="110" break="no"/>gis, &amp; minus, secundum quod proles plus, &amp; 
+      mi<lb ed="#R" n="111" break="no"/>nus eget educatione. 
+    </p>
+               <p>
+                  <lb ed="#R" n="112"/>Similiter cum educatio debitae prolis in 
+      homi<lb ed="#R" n="113" break="no"/>nibus requirat perpetuam possessionem 
+      patrimo<lb ed="#R" n="114" break="no"/>nii, quae non habetur, vt dictum est, nisi 
+      coniun<lb ed="#R" n="115" break="no"/>ctio maris &amp; foeminae esset perpetua, sequitur, 
+      <lb ed="#R" n="116"/>quod ex dictamine naturali associatio eorum 
+      ha<lb ed="#R" n="117" break="no"/>bet perpetuitatem quo ad tempus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="118"/>Secundo Probo idem, quod scilicet de essentia 
+      <lb ed="#R" n="119"/>eius associationis sit perpetuitas, &amp; hoc, inquantum 
+      <lb ed="#R" n="120"/>ei coniugatur actus signi. De ratione enim signi 
+      <lb ed="#R" n="121"/>est, quod exprimat veraciter signatum. Signatum 
+      <lb ed="#R" n="122"/>autem coniunctionis maritalis est coniunctio 
+      Chri<lb ed="#R" n="123" break="no"/>sti, &amp; Ecclesiae, quae est coniunctio perpetua: ergo 
+      <lb ed="#R" n="124"/>ipsa coniunctio matrimonialis, quae est signum eius 
+      <lb ed="#R" n="125"/>verax, debet esse perpetua. 
+    </p>
+               <p>
+                  <lb ed="#R" n="126"/>Tertio hoc probo, inquantum coniunctioni 
+      ma<lb ed="#R" n="127" break="no"/>ritali conuenit esse causam respectu gratiae, &amp; 
+      cha<lb ed="#R" n="128" break="no"/>ritatis in anima; nam Deus (inquantum in se est) 
+      <lb ed="#R" n="129"/>semper infundit nobis gratiam, &amp; charitatem 
+      <lb ed="#R" n="130"/>vnde nullus potest nos separare a charitate 
+      Chri<lb ed="#R" n="131" break="no"/>
+                  <!-- line coord error -->
+                  <!--0172.xml-->
+                  <pb ed="#R" n="172"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>sti, nec gladius, nec mors, nec persecutio, nec 
+      <lb ed="#R" n="2"/>tribulatio secundum Apostolum, &amp; ratio est, 
+      <lb ed="#R" n="3"/>quia ( vt dicum est statim Deus) quantum 
+      <lb ed="#R" n="4"/>est ex se semper assiitit ad causandam, &amp; 
+      conser<lb ed="#R" n="5" break="no"/>uandam gratiam: ergo oportebat, quod illud, quo 
+      <lb ed="#R" n="6"/>mediante gratia infunditur, esset perpetuum, &amp; 
+      ae<lb ed="#R" n="7" break="no"/>ternum, cuiusmodi sunt septem Sacramenta, alias 
+      <lb ed="#R" n="8"/>non semper, quantum ex se est, posset dici gratiam 
+      <lb ed="#R" n="9"/>in anima causare. 
+    </p>
+               <p>
+                  <lb ed="#R" n="10"/>Sed tunc restat dubium de eo, quod adductum 
+      <lb ed="#R" n="11"/>est argumentando ad principale. Quomodo 
+      sci<lb ed="#R" n="12" break="no"/>licet Matrimonium possit solui per ingressum 
+      Re<lb ed="#R" n="13" break="no"/>ligionis ante carnalem copulam, si indissolubilitas 
+      <lb ed="#R" n="14"/>sit de eius essentia, post copulam autem solui non 
+      <lb ed="#R" n="15"/>potest? Respondet quidam, quod ideo est, quia 
+      <lb ed="#R" n="16"/>Matrimonium non est completum ante copulam 
+      <lb ed="#R" n="17"/>carnalem 
+    </p>
+               <p>
+    <!-- missing line break -->Sed si hoc sit bene dictum, sequeretur, quod 
+      in<lb ed="#R" n="18" break="no"/>ter Mariam, &amp; Ioseph non fuerit Matrimonium 
+    </p>
+               <p>
+                  <lb ed="#R" n="19"/>Alij dicunt, quod hoc ideo est, quia fortior est 
+      <lb ed="#R" n="20"/>conditio possidentis. Nunc autem ante carnalem 
+      <lb ed="#R" n="21"/>copulam ingrediens religionem est actualiter 
+      pos<lb ed="#R" n="22" break="no"/>sessio ordinis, &amp; praelati sui: sed non fuit adhuc 
+      <lb ed="#R" n="23"/>possesssio vxoris, ideo Pralatus de isto est iam in 
+      <lb ed="#R" n="24"/>possessione. Jsta autem nondum intrauerat in 
+      posses<lb ed="#R" n="25" break="no"/>sionem de ipso, &amp; ideo obligatio ad ordinem tenet, 
+      <lb ed="#R" n="26"/>&amp; dissoluitur obligatio ad vxorem in virtute istius 
+      <lb ed="#R" n="27"/>regulae: fortior est conditio possidentis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="28"/>Sed contra hoc est, quia idem esset, si contraxisset 
+      <lb ed="#R" n="29"/>per verba de praesenti, &amp; statim consumaret per co 
+      <lb ed="#R" n="30"/>pulam, &amp; postea cum alio rediret ad primum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="31"/>Alij. dicunt, quod obligatio ad maius bonum 
+      <lb ed="#R" n="32"/>tollit obligationem ad minus bonum: obligatio 
+      au<lb ed="#R" n="33" break="no"/>tem ad Matrimonium est minus bonum, quam 
+      obli<lb ed="#R" n="34" break="no"/>gatio ad Religionem. Sed contra, quia secundum 
+      <lb ed="#R" n="35"/>hoc posset post introitum religionis dissolui 
+      Ma<lb ed="#R" n="36" break="no"/>trimonium post copulam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="37"/>Praeterea dicitur, quod relatio soluitur 
+      corru<lb ed="#R" n="38" break="no"/>pto altero extremorum. Ma trimonium autem est 
+      quae<lb ed="#R" n="39" break="no"/>dam relatio, quia mutua obligatio coniugum, &amp; 
+      <lb ed="#R" n="40"/>hinc est, quod spirituale Matrimonium soluit 
+      cor<lb ed="#R" n="41" break="no"/>porale, eo quod corrumpit alterum extremorum 
+      <lb ed="#R" n="42"/>illius obligationis. Facit enim mortuum mundo, 
+      <lb ed="#R" n="43"/>&amp; carni, iuxta illud Apostoli ad Gal. 2. Viuo ego 
+      <lb ed="#R" n="44"/>iam non ego, &amp;c. sic ergo secundum Doctores 
+      stan<lb ed="#R" n="45" break="no"/>tibus extremis non soluitur Matrimonium, sed est 
+      <lb ed="#R" n="46"/>omnino insolubile: per ingressum autem 
+      religio<lb ed="#R" n="47" break="no"/>nis soluitur alterum extremorum. 
+      <lb ed="#R" n="48"/>Sed remanet hic adhuodifficultas, quoniam 
+      quae<lb ed="#R" n="49" break="no"/>ro de Matrimonio ante copulam carnalem: vtrum 
+      <lb ed="#R" n="50"/>habeat totam essentiam Matrimonij, vel non: si 
+      <lb ed="#R" n="51"/>non: ergo inter Mariam, &amp; Joseph non fuit 
+      Matri<lb ed="#R" n="52" break="no"/>monium secundum totam essentiam suam: si sic: 
+      <lb ed="#R" n="53"/>ergo indissolubilitas non est de essentia 
+      Matri<lb ed="#R" n="54" break="no"/>monij. 
+    </p>
+               <p>
+                  <lb ed="#R" n="55"/>Adhuc facit difficultatem, quia commune 
+      di<lb ed="#R" n="56" break="no"/>ctum omnium loquentium est, quod 
+      Matrimo<lb ed="#R" n="57" break="no"/>nium per carnalem copulam consumatur. Tunc 
+      <lb ed="#R" n="58"/>distinguunt Doctores de Matrimonio, quia est 
+      Ma<lb ed="#R" n="59" break="no"/>trimonium ratum, &amp; Matrimonium 
+      consuma<lb ed="#R" n="60" break="no"/>tum, &amp; de essentia Matrimonij secundo modo est 
+      <lb ed="#R" n="61"/>indissolubilitas, non de essentia Matrimonij 
+      pri<lb ed="#R" n="62" break="no"/>mo modo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="63"/>Ad istam difficultatem ergo respondeo, quod 
+      <lb ed="#R" n="64"/>sicut relatio, quae fundatur super potentiam 
+      natu<lb ed="#R" n="65" break="no"/>ralem, non fundatur super eam, nisi vt reducta 
+      <lb ed="#R" n="66"/>est ad actum, sic nec Matrimonium, Ad cuius eui- 
+      <!--0172.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>dentiam sciendum, quod Matrimonium est mutua 
+      <lb ed="#R" n="68"/>coniunctio viri, &amp; mulieris, dans potestatem 
+      legi<lb ed="#R" n="69" break="no"/>timam super vsum corporum suorum sibi mutuo 
+      <lb ed="#R" n="70"/>ad conueniendum simul ad prolis generationem, 
+      <lb ed="#R" n="71"/>haec autem potestas non habet actum vltimate, nisi 
+      <lb ed="#R" n="72"/>in carnali copula. 
+    </p>
+               <p>
+                  <lb ed="#R" n="73"/>Ex his posset dist ingui de Matrimonio, quia Ma 
+      <lb ed="#R" n="74"/>trimonium potest accipi, vt dicit potestatem 
+      ha<lb ed="#R" n="75" break="no"/>bitualem; vel vt dicit potestatem reductam ad 
+      a<lb ed="#R" n="76" break="no"/>ctum. Si primo modo accipiatur Matrimonium, 
+      <lb ed="#R" n="77"/>dico, quod copula non est de essentia eius, imo eius 
+      <lb ed="#R" n="78"/>essentia per secte habetur ante copulam, &amp; ad 
+      pro<lb ed="#R" n="79" break="no"/>positum indissolubilitas pertinet ad essentiam 
+      Ma<lb ed="#R" n="80" break="no"/>trimonij hoc modo accepti, quandiu extrema 
+      vi<lb ed="#R" n="81" break="no"/>uunt mundo: si autem ambo, vel alterum 
+      moria<lb ed="#R" n="82" break="no"/>tur mundo, Matrimonium est solutum. Sed si 
+      Ma<lb ed="#R" n="83" break="no"/>trimonium dicat potestatem reducam ad acum, 
+      <lb ed="#R" n="84"/>sic non habetur eius essentia perfecta, nisi post 
+      co<lb ed="#R" n="85" break="no"/>pulam actualem; sicut nec relatio de secundo 
+      mo<lb ed="#R" n="86" break="no"/>do est in actu, nisi potentia, super quam fundatur, 
+      <lb ed="#R" n="87"/>ad actum reducta, &amp; hoc modo indissolubilitas est 
+      <lb ed="#R" n="88"/>de eius essentia, non solum quamdiu extrema 
+      vi<lb ed="#R" n="89" break="no"/>uunt mundo, sed quandiu sunt in corporali vita 
+      <lb ed="#R" n="90"/>vnde non soluitur per ingressum Religionis, nec 
+      <lb ed="#R" n="91"/>per quemcunque alium casum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="92"/>Secunda Propositio est: quod indiuisio carnis, 
+      <lb ed="#R" n="93"/>non est de essentia huius Sacramenti, &amp; hoc inquan 
+      <lb ed="#R" n="94"/>tum est de iure naturae, nec inquantum habet 
+      ra<lb ed="#R" n="95" break="no"/>tionem aliquam signi, nec inquantum habet 
+      effi<lb ed="#R" n="96" break="no"/>cere, quod figurat, &amp; est tam bene de essentia 
+      Ma<lb ed="#R" n="97" break="no"/>trimonii indiuisio carnis, vt accipitur in 
+      ordine<lb ed="#R" n="98" break="no"/>ad aliquod signatum, quod non efficit, vt est 
+      con<lb ed="#R" n="99" break="no"/>iunctio Christi, &amp; Ecclesiae: non enim de iure 
+      na<lb ed="#R" n="100" break="no"/>turae est, quod tantum vnus contrahat cum vna 
+      <lb ed="#R" n="101"/>nec de ratione Matrimonii est, quod sit 
+      praecise<lb ed="#R" n="102" break="no"/>duorum, inquantum significat vnionem gratiae 
+      in<lb ed="#R" n="103" break="no"/>animo, &amp; illam efficit; sed vt Matrimonium 
+      signi<lb ed="#R" n="104" break="no"/>ficat coniunctionem Christi, &amp; sponsae, quae 
+      tan<lb ed="#R" n="105" break="no"/>tummodo vna est, iuxta illud: Vna est 
+      columba<lb ed="#R" n="106" break="no"/>mea, &amp;c. Hoc modo indiuisio carnis est de eius 
+      <lb ed="#R" n="107"/>ratione, cuius oppositum dicitur bigamia. 
+    </p>
+               <p>
+                  <lb ed="#R" n="108"/>De bigamia autem sciendum est, quod habet 
+      an<lb ed="#R" n="109" break="no"/>nexam irritabilitatem, sed propter quam causam, 
+      <lb ed="#R" n="110"/>dubium est. Dicunt quidam, quod propter 
+      vo<lb ed="#R" n="111" break="no"/>tum continentiae, quod exprimitur in 
+      ordinan<lb ed="#R" n="112" break="no"/>dis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="113"/>Sed contra est, quod incontinentes posssunt 
+      or<lb ed="#R" n="114" break="no"/>dinari, &amp; recipere Sacramentum Ordinis, saltem 
+      <lb ed="#R" n="115"/>quo ad rem primam.
+    </p>
+               <p>
+                  <lb ed="#R" n="116"/>Ideo dico, quod hoc non estt ex defectu 
+      Matri<lb ed="#R" n="117" break="no"/>monii, sed ex ordinis conditione: sacramentum 
+      <lb ed="#R" n="118"/>enim ordinis significat, quod est sponsus Ecclesiae, 
+      <lb ed="#R" n="119"/>sicut Christus, qui tantummodo est vnus, vnius. 
+      <lb ed="#R" n="120"/>Jste autem coniunxit se duabus: ideo diuisus est, 
+      <lb ed="#R" n="121"/>nec est vnus vnius, ideo non potest sibi 
+      correspon<lb ed="#R" n="122" break="no"/>dere signatum Sacramenti Ordinis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="123"/>Sed quot modis contrahitur bigamia? Dico quod 
+      <lb ed="#R" n="124"/>sex modis, vel in contrahendo de iure cum 
+      dua<lb ed="#R" n="125" break="no"/>bus successiue cum vna post aliam; vel 
+      contra<lb ed="#R" n="126" break="no"/>hendo simul cum duabus, cum vna de facto, &amp; 
+      <lb ed="#R" n="127"/>cum alia de iure; vel successiue cum vna de 
+      facto<lb ed="#R" n="128" break="no"/>&amp; cum alia de iure, quia contraxit de facto, cum 
+      <lb ed="#R" n="129"/>qua contrahere non potuit de iure. Non loquor 
+      <lb ed="#R" n="130"/>de concubina, quia cum illa non contrahitur, vt 
+      <lb ed="#R" n="131"/>sic, nec de iure, nec de facto. Quarto modo 
+      in<lb ed="#R" n="132" break="no"/>contrahendo cum corrupta, vel cum vidua 
+      <lb ed="#R" n="133"/>Quinto modo in cognoscendo suam, cum ab alio 
+      <lb ed="#R" n="134"/>
+                  <!-- line coord error -->
+                  <!--0173.xml-->
+                  <pb ed="#R" n="173"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>viro sciuerit esse corruptam. Vltimo si contrahat 
+      <lb ed="#R" n="2"/>de facto post solemne votum, sicut patet de 
+      apo<lb ed="#R" n="3" break="no"/>staticis, &amp; hoc intelligendum est, si antequam 
+      or<lb ed="#R" n="4" break="no"/>dinentur. 
+    </p>
+               <p>
+                  <lb ed="#R" n="5"/>Sed nunquid Papa potest dispensare? Dico quod 
+      <lb ed="#R" n="6"/>sic. Quid ergo ad auctoritatem Apostoli? 
+      Respon<lb ed="#R" n="7" break="no"/>deo: Papa potest dispensare secundum iura in ijs, 
+      <lb ed="#R" n="8"/>quae sunt contra praecepta Apostolorum, vt Aposto 
+      <lb ed="#R" n="9"/>lorum: vnde dispensauit de facto, Panormitano. 
+      <lb ed="#R" n="10"/>Sed nunquid posset Episcopus dispensare? 
+      Re<lb ed="#R" n="11" break="no"/>spondeo, quod sic in tantum, &amp; hoc quantum ad mi 
+      <lb ed="#R" n="12"/>nores ordines non quo ad maiores exceptis ijs, qui 
+      <lb ed="#R" n="13"/>ingressi sunt Religionem.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

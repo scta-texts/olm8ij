@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="46"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h15545"> <!-- l4-d4prae -->
+            <head>Praeambulum</head>
+            <p>
+               <lb ed="#R" n="48"/>DISTINCTIO IIII 
+      <lb ed="#R" n="49"/>DE SVSCIPIENTIBVS 
+      <lb ed="#R" n="50"/>BAPTISMA. 
+    </p>
+            <p>
+               <lb ed="#R" n="51"/>Hic dicendum est, &amp;c. In ista distinctione 
+      <lb ed="#R" n="52"/>Quatuor agit Magister de suscipientibus 
+      <lb ed="#R" n="53"/>Sacramentum baptismi, &amp; quia Magister 
+      <lb ed="#R" n="54"/>hic sermonem facit &amp; de re Sacramenti, &amp; 
+      <lb ed="#R" n="55"/>&amp; de suscipientibus rem Sacramenti, ideo 
+      <lb ed="#R" n="56"/>inquirendum primo de re Sacramenti. 
+      Se<lb ed="#R" n="57" break="no"/>cundo de suscipientibus. 
+    </p>
+            <p>
+               <lb ed="#R" n="58"/>Quantum ad primum quaerendum est de 
+      duo<lb ed="#R" n="59" break="no"/>bus. Primo de re prima, quae datur in ba- 
+      <!--0046.xml-->
+      <cb ed="#R" n="b"/>
+               <lb ed="#R" n="60"/>ptismo, scilicet de characttere: Secundo 
+      <lb ed="#R" n="61"/>de re, quae secundo datur, scilicet de 
+      scien<lb ed="#R" n="62" break="no"/>tia, &amp; virtutibus. Quoad primum quaero 
+      <lb ed="#R" n="63"/>quatuor quaestiones. 
+  </p>
+            <p>
+               <lb ed="#R" n="64"/>1 Prima est: Vtrum character sit aliquid 
+      ab<lb ed="#R" n="65" break="no"/>solutum in anima, de genere qualitatis, vel 
+      rela<lb ed="#R" n="66" break="no"/>tionis tantum. 
+      <lb ed="#R" n="67"/>2 Secunda est: Vtrum posito, quod sit 
+      abso<lb ed="#R" n="68" break="no"/>lutum de genere qualitatis, vtrum sit de 
+      secunda<lb ed="#R" n="69" break="no"/>specie qualitatis. 
+      <lb ed="#R" n="70"/>3 Tertia est: Vtrum sit in prima specie 
+      qua<lb ed="#R" n="71" break="no"/>litatis. 
+      <lb ed="#R" n="72"/>4 Quarta est: Vtrum sit subiectiue in essentia 
+      <lb ed="#R" n="73"/>animae, vel in potentia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

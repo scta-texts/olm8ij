@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="182"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h62536"> <!-- l4-d35q1 -->
+            <head>Quaestio 1</head>
+            <p>
+      <!--0182.xml-->
+               <cb ed="#R" n="b"/>
+               <lb ed="#R" n="59"/>Quaestio Vnica. 
+  </p>
+            <div>
+               <head>Articulus 1</head>
+               <head type="question-title">
+        Utrum adulterium impediat matrimonium.
+      </head>
+               <p>
+                  <lb ed="#R" n="60"/>ARTICVLVS VNJCVS. 
+      <lb ed="#R" n="61"/>Vtrum adulterium impediat matrimonium. 
+    </p>
+               <p>
+                  <lb ed="#R" n="62"/>ARGVO quod non. Illud 
+      <lb ed="#R" n="63"/>non impedit matrimonium
+      <lb ed="#R" n="64"/>quod non tollit potestatem 
+      <lb ed="#R" n="65"/>actus, ad quem matrimonium 
+      <lb ed="#R" n="66"/>ordinatur: sed adulterium 
+      <lb ed="#R" n="67"/>nullum talem actum tollit: 
+      <lb ed="#R" n="68"/>ergo.
+    </p>
+               <p>
+                  <lb ed="#R" n="69"/>In oppositum est verbum 
+      <lb ed="#R" n="70"/>Christi in Euangelio Matth. 
+      <lb ed="#R" n="71"/>19. qui dicit, qui dimiserit vxorem suam, excepta 
+      <lb ed="#R" n="72"/>causa fornicationis, moechatur: ergo innuit, quod 
+      <lb ed="#R" n="73"/>propter causam fornicationis liceat homini 
+      dimit<lb ed="#R" n="74" break="no"/>tere vxorem: ergo adulterium impedit 
+      matrimo<lb ed="#R" n="75" break="no"/>nium, cum dirimit iam contractum. Respondeo 
+      <lb ed="#R" n="76"/>hic pono tres propositiones. 
+    </p>
+               <p>
+                  <lb ed="#R" n="77"/>Prima est. quod adulterium sequens 
+      matrimo<lb ed="#R" n="78" break="no"/>nium impedit, &amp; dirimit matrimonium iam 
+      contra<lb ed="#R" n="79" break="no"/>ctum, quo ad cohabitationem, &amp; thorum: Ratio est 
+      <lb ed="#R" n="80"/>quia actus ille venit contra iustitiam, &amp; leges 
+      ma<lb ed="#R" n="81" break="no"/>trimonij iustas, &amp; ideo est rationabile, quod 
+      punia<lb ed="#R" n="82" break="no"/>tur in eo, in quo delinquit: sed adulter delinquit 
+      <lb ed="#R" n="83"/>in obligat ione matrimonia li, eo quod corpus suum, 
+      <lb ed="#R" n="84"/>quod erat alteri obligatum, sine voluntate sua 
+      de<lb ed="#R" n="85" break="no"/>dit alteri. Similiter abstulit ei, cui obligatum erat 
+      <lb ed="#R" n="86"/>illud, quod suum est, scilicet vsum corporis sui: 
+      er<lb ed="#R" n="87" break="no"/>go rationabile est, quod super corpus alterius amit 
+      <lb ed="#R" n="88"/>tat ius suum, quod ibi in eo habet quoad vsum, &amp; ex 
+      <lb ed="#R" n="89"/>hoc, quod non habeat ius petendi debitum suum 
+      <lb ed="#R" n="90"/>in vsu corporis alterius, &amp; hoc modo separetur quo 
+      <lb ed="#R" n="91"/>ad thorum, &amp; cohabitationem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="92"/>Sed nunquid propter quodcunque adulterium 
+      <lb ed="#R" n="93"/>potest innocens dimittere adulteram quo ad thorum 
+      <lb ed="#R" n="94"/>&amp; cohabitationem? Respondeo, quia aut est 
+      occul<lb ed="#R" n="95" break="no"/>tum, &amp; tunc potest alter coniugum dimitte re 
+      adul<lb ed="#R" n="96" break="no"/>terum quo ad thorum, sed non quo ad 
+      cohabita<lb ed="#R" n="97" break="no"/>tionem sine iudicio Ecclesiae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="98"/>Sed nunquid innocens saltem tenetur dimittere 
+      <lb ed="#R" n="99"/>thorum adulterae? Respondeo aut est publicum 
+      <lb ed="#R" n="100"/>aut est occultum. Si occultum, non tenetur 
+      dimit<lb ed="#R" n="101" break="no"/>tere; si vero sit publicum, vel est spes de 
+      correctio<lb ed="#R" n="102" break="no"/>ne, vel non; si sit, non tenebitur dimittere, alias 
+      vi<lb ed="#R" n="103" break="no"/>deretur praestare patrocinium in actu adulterij. 
+    </p>
+               <p>
+                  <lb ed="#R" n="104"/>Alij dicunt, quod potest secrete adulteram dimit 
+      <lb ed="#R" n="105"/>tere quo ad thorum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="106"/>Sed quid de vxore, posito quod sciat virum 
+      incor<lb ed="#R" n="107" break="no"/>rigibilem, &amp; nulla sit spes de correctione, nunquid 
+      <lb ed="#R" n="108"/>tenetur dimittere thorum. Respondent quidam, 
+      <lb ed="#R" n="109"/>quod sic, alias videretur patrocinium exhibere. Alij 
+      <lb ed="#R" n="110"/>dicunt quod non, propter verecundiam sexus 
+      mu<lb ed="#R" n="111" break="no"/>liebris. Mihi videtur, quod tenetur dimittere, vbi 
+      <lb ed="#R" n="112"/>spes non est de correctione, nec verecundia sexus 
+      <lb ed="#R" n="113"/>muliebris attenditur in hac parte ex parte sui, sed 
+      <lb ed="#R" n="114"/>ponderatur ex alia parte.
+    </p>
+               <p>
+                  <lb ed="#R" n="115"/>Secunda Propositio est, quod adulterium 
+      non<lb ed="#R" n="116" break="no"/>dirimit matrimonium quo ad vinculum: non enim 
+      <lb ed="#R" n="117"/>ex hoc potest quicunque corum contrahere cum 
+      <lb ed="#R" n="118"/>altero; tum quia matrimonium est de iure naturae 
+      <lb ed="#R" n="119"/>perpetuum; tum quia hoc modo posset de 
+      pecca<lb ed="#R" n="120" break="no"/>to reportare commodum: hoc enim modo posset 
+      <lb ed="#R" n="121"/>quilibet coniugum per actum fornicationis 
+      excu<lb ed="#R" n="122" break="no"/>tere a se pondus matrimonii. 
+      <!--0183.xml-->
+      <pb ed="#R" n="183"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Tertia Propositio est de adulterio praecedente: 
+      <lb ed="#R" n="2"/>Vtrum impediat matrimonium posito, quod alter 
+      <lb ed="#R" n="3"/>coniugum, puta mulier adulterata sit cum isto 
+      ten<lb ed="#R" n="4" break="no"/>pore, quod superuiuebat alter vir? Respondeo, vel 
+      <lb ed="#R" n="5"/>dederunt ad inuicem iuramentum de 
+      contrahen<lb ed="#R" n="6" break="no"/>do matrimonium post mortem viri ipsius 
+      mulie<lb ed="#R" n="7" break="no"/>ris, siue vxoris viri, &amp; tale adulterium impedit ma 
+      <lb ed="#R" n="8"/>trimonium, alias non, si nullum interuenit pacum 
+      <lb ed="#R" n="9"/>tale 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

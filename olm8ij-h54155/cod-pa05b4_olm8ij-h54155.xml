@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="158"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h54155"> <!-- l4-d23prae -->
+            <head>Praeambulum</head>
+            <p>
+      <!--0158.xml-->
+               <pb ed="#R" n="158"/>
+               <cb ed="#R" n="a"/>
+               <lb ed="#R" n="1"/>DISTINCTIO XXIII 
+      <lb ed="#R" n="2"/>DE EXTREMA 
+      <lb ed="#R" n="3"/>
+               <!--line coord error -->
+               <lb ed="#R" n="4"/>Vnctione. 
+    </p>
+            <p>
+               <lb ed="#R" n="5"/>Praeter praemissa, &amp;c. In ista Distinctione 
+      Vi<lb ed="#R" n="6" break="no"/>gesimatertia, in qua agit Magister de 
+      Sa<lb ed="#R" n="7" break="no"/>cramento Extremae Vnctionis, &amp; hoc 
+      pri<lb ed="#R" n="8" break="no"/>mo quantum ad eius quidditatem, quid sit: 
+      <lb ed="#R" n="9"/>secundo quo ad eius finem, ad quid 
+      institu<lb ed="#R" n="10" break="no"/>tum sit, Quaero ego proportionaliter duo.
+    </p>
+            <p>
+               <lb ed="#R" n="11"/>1 Primum est: Vtrum Extrema Vnctio sit 
+      Sa<lb ed="#R" n="12" break="no"/>cramentum Nouae legis. 
+      <lb ed="#R" n="13"/>2 Vtrum proprius, &amp; primus eius effectus sit 
+      <lb ed="#R" n="14"/>deletio venialium peccatorum. 
+  </p>
+         </div>
+      </body>
+   </text>
+</TEI>

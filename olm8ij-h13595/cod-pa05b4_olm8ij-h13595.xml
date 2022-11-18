@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="40"/>
+            <cb ed="#R" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h13595"> <!-- l4-d3q2 -->
+            <head>Quaestio 2</head>
+            <head type="question-title">De institutione baptismi quantum ad formam, sive de forma eius</head>
+            <p>
+               <lb ed="#R" n="114"/>Quaestio J1. 
+      <lb ed="#R" n="115"/>DE INSTITVTIONE BAPTJSMI 
+      <lb ed="#R" n="116"/>quantum ad formam, siue de forma eius. 
+    </p>
+            <p>
+               <lb ed="#R" n="117"/>QVANTVM ad secundam 
+      quae<lb ed="#R" n="118" break="no"/>stionem arguo primo, quod 
+      Sacra<lb ed="#R" n="119" break="no"/>mentum Baptismi non sit congrue 
+      <lb ed="#R" n="120"/>institutum quantum ad formam, qua 
+      <lb ed="#R" n="121"/>dicitur: Ego te baptizo, &amp; c. sic: 
+      Sacra<lb ed="#R" n="122" break="no"/>mentum, quod est maximae &amp; summae 
+      <lb ed="#R" n="123"/>necessitatis, quodq. potest &amp; a peritis, &amp; imperitis 
+      <lb ed="#R" n="124"/>ministrari, non debuit in forma tali institui, quod 
+      <lb ed="#R" n="125"/>posset accidere error circa eam: sed in forma 
+      prae<lb ed="#R" n="126" break="no"/>dicta potest valde de facili error accidere; Vnam 
+      e<lb ed="#R" n="127" break="no"/>nim vetulam, cui concessum est quod possit 
+      bapti<lb ed="#R" n="128" break="no"/>zare, facilius &amp; frequentius contingit errare in 
+      for<lb ed="#R" n="129" break="no"/>ma predicta, quam recte ipsam pronunciare: ergo.
+    </p>
+            <p>
+      <!--0041.xml-->
+               <pb ed="#R" n="41"/>
+               <cb ed="#R" n="a"/>
+               <lb ed="#R" n="1"/>In oppositum est verbum Christi, Matth. vlt. <quote>
+      Eun<lb ed="#R" n="2" break="no"/>tes docete omnes gentes baptizantes eos in 
+      nomi<lb ed="#R" n="3" break="no"/>ne Patris, &amp; Filij, &amp; Spiritus sancti.</quote>
+            </p>
+            <p>
+               <lb ed="#R" n="4"/>Respondeo, in ista quaestione sic procedam. 
+      Pri<lb ed="#R" n="5" break="no"/>mo praemittam notabile: secundo ponam quasdam 
+      <lb ed="#R" n="6"/>regulas per ordinem. 
+    </p>
+            <p>
+               <lb ed="#R" n="7"/>De primo sciendum propter hoc, quod in titulo 
+      <lb ed="#R" n="8"/>quae stionis ponitur forma, quod forma, quantum 
+      <lb ed="#R" n="9"/>spectat ad propositum, dupliciter potest accipi. Vno 
+      <lb ed="#R" n="10"/>modo pro eo quod dat esse rei, &amp; quo habet res for 
+      <lb ed="#R" n="11"/>maliter quod sit; hoc modo forma domus est 
+      figu<lb ed="#R" n="12" break="no"/>ra resultans ex partibus ipsius domus. 
+    </p>
+            <p>
+               <lb ed="#R" n="13"/>Alio modo forma potest accipi pro parte 
+      prin<lb ed="#R" n="14" break="no"/>cipali ipsius rei, quae quidem licet realiter sit pars 
+      <lb ed="#R" n="15"/>materialis, potest tamen dici pars formalis, quia 
+      <lb ed="#R" n="16"/>pars principalior, hoc autem modo tectum dicitur 
+      <lb ed="#R" n="17"/>forma domus, eo quod tegumentum est pars prin 
+      <lb ed="#R" n="18"/>cipalior pariete &amp; fundamento, eo quod inter 
+      cae<lb ed="#R" n="19" break="no"/>teras partes complet formam domus: sic &amp; manus 
+      <lb ed="#R" n="20"/>posset dici pars materialis hominis, cor vero 
+      for<lb ed="#R" n="21" break="no"/>malis, quia principalior, &amp; essentialior pars 
+      ho<lb ed="#R" n="22" break="no"/>minis. 
+    </p>
+            <p>
+               <lb ed="#R" n="23"/>Nunc ad propositum cum loquimur de 
+      forma<lb ed="#R" n="24" break="no"/>Baptismi, aut loquimur de forma quae dat essse 
+      for<lb ed="#R" n="25" break="no"/>male Baptismo, vel loquimur de forma, accipiendo 
+      <lb ed="#R" n="26"/>sormam pro parte principali, licet pars illa sit 
+      ma<lb ed="#R" n="27" break="no"/>terialis. Primo modo loquendo, &amp; intelligendo. 
+      <lb ed="#R" n="28"/>Forma Baptismi est duplex habitudo (de qua 
+      <lb ed="#R" n="29"/>dictum est alias) scilicet signi &amp; causae: secundo 
+      ve<lb ed="#R" n="30" break="no"/>ro modo cum partes materiales Baptismi habent 
+      <lb ed="#R" n="31"/>fundamenta illius duplicis habitudinis, quae sunt 
+      a<lb ed="#R" n="32" break="no"/>qua &amp; verba, verba autem sint principale 
+      funda<lb ed="#R" n="33" break="no"/>mentum, ac per hoc principalior pars, sequitur qui 
+      <lb ed="#R" n="34"/>hoc modo loquendo de forma Baptismi, sunt 
+      ver<lb ed="#R" n="35" break="no"/>ba ipsa forma. 
+    </p>
+            <p>
+               <lb ed="#R" n="36"/>Quod autem verba sint principalius fundamentum 
+      <lb ed="#R" n="37"/>relationis signi, &amp; causae, quam Baptismus dicit in 
+      <lb ed="#R" n="38"/>ordine ad gratiam, potest probari ex tribus. Primo, 
+      <lb ed="#R" n="39"/>quod verba sunt spiritualiora quam aqua, ac per 
+      <lb ed="#R" n="40"/>consequens magis formalia. Tum quia de ratione 
+      <lb ed="#R" n="41"/>formae est, quod det certitudinem, &amp; sit limitatio 
+      <lb ed="#R" n="42"/>materiae, quae quantum est ex se, spargitur, secundum 
+      <lb ed="#R" n="43"/>Bonauent. de vnitate, &amp; vno, ides de illimitata, &amp; 
+      <lb ed="#R" n="44"/>indeterminata; nunc vero aqua est quiddam 
+      indif<lb ed="#R" n="45" break="no"/>serens ad multa, limitatur autem &amp; determinatur 
+      <lb ed="#R" n="46"/>ad esse fundamentum habitudinis, quam importat 
+      <lb ed="#R" n="47"/>formaliter Baptismus, per verba, iuxta illud 
+      ver<lb ed="#R" n="48" break="no"/>bum Augustini, accedit verbum ad elementum, &amp; 
+      <lb ed="#R" n="49"/>sit Sacramentum. Ex quo sequitur, quod 
+      verba<lb ed="#R" n="50" break="no"/>respectu aquae, habent quasi rationem formae, vt 
+      am<lb ed="#R" n="51" break="no"/>bo concurrunt ad fundandum habitudinem 
+      praedi<lb ed="#R" n="52" break="no"/>ctam: est tamen per rationem signi, eo quod verba 
+      <lb ed="#R" n="53"/>ex se, secundum rationem propriam, &amp; ex 
+      prima<lb ed="#R" n="54" break="no"/>institutione habent, quod sint signum, imo 
+      trahi<lb ed="#R" n="55" break="no"/>tur ad hoc, quod sit signum per ipsa verba: 
+      qua<lb ed="#R" n="56" break="no"/>propter sanctificatio aquae attribuitur verbo, iuxta 
+      <lb ed="#R" n="57"/>illud Augustini, Baptismus est tinctio in aqua 
+      ver<lb ed="#R" n="58" break="no"/>bo vitae sanctificata. 
+    </p>
+            <p>
+               <lb ed="#R" n="59"/>Tunc ad propositum, cum quaeritur, si Baptismus 
+      <lb ed="#R" n="60"/>sit conuenienter institutus quantum ad forma m 
+      <lb ed="#R" n="61"/>Intentio est quaerere de forma, accipiendo formam 
+      <lb ed="#R" n="62"/>pro altera parte materiali, scilicet pro altero 
+      fun<lb ed="#R" n="63" break="no"/>damentorum, quod est magis formale. Et in hoc 
+      <lb ed="#R" n="64"/>sensu adhus quaestio potest quaerere de forma 
+      re<lb ed="#R" n="65" break="no"/>mota, vel propinqua. Videndum est ergo primo 
+      <lb ed="#R" n="66"/>de forma remota. 
+    </p>
+            <p>
+               <lb ed="#R" n="67"/>Secundo pono istam regulam, scilicet quod 
+      for<lb ed="#R" n="68" break="no"/>ma remota Baptismi est quaecumque verba cuius- 
+      <!--0041.xml-->
+      <cb ed="#R" n="b"/>
+               <lb ed="#R" n="69"/>cumque linguae exprimentia actum lotionis transeũ- 
+      <lb ed="#R" n="70"/>tem super tinctum cum inuocatione Trinitatis, sub 
+      <lb ed="#R" n="71"/>nominibus exprimentibus proprie tres personas, 
+      <lb ed="#R" n="72"/>&amp; sub vocabulis proprie personalibus. 
+    </p>
+            <p>
+               <lb ed="#R" n="73"/>In ista regula exprimuntur sex conditiones 
+      re<lb ed="#R" n="74" break="no"/>quisita ad remotam formam Baptismi, per quas 
+      <lb ed="#R" n="75"/>soluuntur multae quaestiones, quae occurrunt circa 
+      <lb ed="#R" n="76"/>materiam istam. 
+    </p>
+            <p>
+               <lb ed="#R" n="77"/>Et prima conditio est, verba vniuscuiusque 
+      lin<lb ed="#R" n="78" break="no"/>guae, tantum enim valet hic Gallicum, quantum 
+      <lb ed="#R" n="79"/>Picardum, &amp; Craecum, quantum Latinum, vnde 
+      <lb ed="#R" n="80"/>Christus baptizauit in Hebraeo, nos vero in 
+      Lati<lb ed="#R" n="81" break="no"/>no, Graeci autem in Graeco. 
+    </p>
+            <p>
+               <lb ed="#R" n="82"/>Ratio autem, quare forma Baptismi nullam 
+      de<lb ed="#R" n="83" break="no"/>terminat linguam, est, quia Baptismus est 
+      Sacra<lb ed="#R" n="84" break="no"/>mentum necessitatis, propter quod verba aspiciunt 
+      <lb ed="#R" n="85"/>tale idioma &amp; linguam, quam quilibet sine errore 
+      <lb ed="#R" n="86"/>sciat proferre, alias immineret periculum in 
+      ca<lb ed="#R" n="87" break="no"/>su necessitatis, scilicet periculum in modo 
+      profe<lb ed="#R" n="88" break="no"/>rendi. 
+    </p>
+            <p>
+               <lb ed="#R" n="89"/>Ex hac quaestione soluitur etiam quaestio: Vtrum 
+      <lb ed="#R" n="90"/>sacerdos si baptizaret in Craeco, vel Hebraeo, vel 
+      <lb ed="#R" n="91"/>etiam in lingua vulgari, vtrum baptizaret: &amp; dicen 
+      <lb ed="#R" n="92"/>dum est quod sic, sed tamen grauiter peccaret, quia 
+      <lb ed="#R" n="93"/>si scit Latinum, tenetur in Latino, secundum 
+      insti<lb ed="#R" n="94" break="no"/>tutionem Ecclesiae baptizare. 
+    </p>
+            <p>
+               <lb ed="#R" n="95"/>Ex hoc etiam soluitur quaestio difficilis. Vtrum 
+      <lb ed="#R" n="96"/>Baptismus, qui fieret per verba Craeca, &amp; qui 
+      fie<lb ed="#R" n="97" break="no"/>ret per verba Latina esset idem Sacramentum. &amp; 
+      <lb ed="#R" n="98"/>difficultatem facit, quia non videtur quod sit idem 
+      <lb ed="#R" n="99"/>signum, eo quod fundamentum est vtrobique 
+      a<lb ed="#R" n="100" break="no"/>liud; &amp; quia alia &amp; alia vox, videtur esse aliud, &amp; 
+      <lb ed="#R" n="101"/>aliud signum. 
+    </p>
+            <p>
+               <lb ed="#R" n="102"/>Respondeo autem ad hoc secundum praedicta. 
+      <lb ed="#R" n="103"/>In huiusmodi signo est considerare aliquid, quod 
+      <lb ed="#R" n="104"/>est indeterminatum, &amp; aliquid quod est 
+      determina<lb ed="#R" n="105" break="no"/>tum, &amp; aliquid quod est ratio determinationis: nam 
+      <lb ed="#R" n="106"/>determinatum est, quod sit verbum absolute; sed 
+      <lb ed="#R" n="107"/>indeterminatum est, quod sit tale vel tale verbum; 
+      <lb ed="#R" n="108"/>illud vero, quod habet determinare, est significatio 
+      <lb ed="#R" n="109"/>ipsa: oportet ergo quod idem sit specifice, licet non 
+      <lb ed="#R" n="110"/>numero id, quod habet determinare, puta 
+      signifi<lb ed="#R" n="111" break="no"/>catio. Quia vero significationem non variat 
+      quae<lb ed="#R" n="112" break="no"/>cumque variatio vocum, ideo accidit quod si sit vox 
+      <lb ed="#R" n="113"/>Graeca, vel Latina, talis variatio vocum non variat 
+      <lb ed="#R" n="114"/>significationem specifice, vel numero. 
+    </p>
+            <p>
+               <lb ed="#R" n="115"/>Secunda conditio est, quod sint exprimentia 
+      a<lb ed="#R" n="116" break="no"/>cum lotionis, nam si fieret per verba exprimentia 
+      <lb ed="#R" n="117"/>alium actum, puta dicendo, linio te, vel tango 
+      <lb ed="#R" n="118"/>te, vel percutio te, non esset Baptismus, propter 
+      <lb ed="#R" n="119"/>quod in forma verborum posuit Christus verbum 
+      <lb ed="#R" n="120"/>significans lotionis actum, cum ait, baptizantes. 
+      <lb ed="#R" n="121"/>Baptizare enim Craece, idem est quod lauare 
+      La<lb ed="#R" n="122" break="no"/>tine. Ratio vero ad hoc est, quod nisi 
+      exprime<lb ed="#R" n="123" break="no"/>retur actus lotionis, posset actus significari 
+      indif<lb ed="#R" n="124" break="no"/>ferens ad effectum, puta, vtrum fuerit ad 
+      re<lb ed="#R" n="125" break="no"/>frigerandum, vel ad solatium, vel ad alium 
+      <lb ed="#R" n="126"/>quemuis modum. 
+    </p>
+            <p>
+               <lb ed="#R" n="127"/>Tertia conditio est, transeuntem super illum qui 
+      <lb ed="#R" n="128"/>tingitur, oportet enim quod tale verbum ponatur, 
+      <lb ed="#R" n="129"/>quod exprimat illum qui tingitur, vt dicendo, te 
+      <lb ed="#R" n="130"/>vel nomen proprium, dicendo Petrum, &amp; huiusmodi. 
+    </p>
+            <p>
+               <lb ed="#R" n="131"/>Et dico nomen proprium, quia qui sic 
+      exprime<lb ed="#R" n="132" break="no"/>ret dicendo, Ego te baptizo Petrum, nulli dubium 
+      <lb ed="#R" n="133"/>esse debet, quin baptizaret. Quod probo per hoc. 
+      <lb ed="#R" n="134"/>quia Graeci baptizant in forma tali, qui tamen 
+      ve<lb ed="#R" n="135" break="no"/>re baptizant; tamen qui sic baptizaret, peccaret 
+      <lb ed="#R" n="136"/>grauiter, in hoc quod non se conformaret Ecclesiae, 
+      <!--0042.xml-->
+      <pb ed="#R" n="42"/>
+               <cb ed="#R" n="a"/>
+               <lb ed="#R" n="1"/>ad quod quilibet tenentur in Sacramentorum 
+      mi<lb ed="#R" n="2" break="no"/>nistratione. 
+    </p>
+            <p>
+               <lb ed="#R" n="3"/>Sed hic est dubium. Vtrum tingendum oporteat 
+      <lb ed="#R" n="4"/>exprimere in numero singulari, vt sit vnus 
+      tingen<lb ed="#R" n="5" break="no"/>dus, vel abluendus vnica ablutione, vel in plurali, 
+      <lb ed="#R" n="6"/>ita quod plures possint attingi vnica lotione. 
+    </p>
+            <p>
+               <lb ed="#R" n="7"/>Respondeo, quidam dicunt, quod de necessitate 
+      <lb ed="#R" n="8"/>Sacramenti est, quod tingendus sit vnus tantum, &amp; 
+      <lb ed="#R" n="9"/>exprimatur in numero singulari. 
+    </p>
+            <p>
+               <lb ed="#R" n="10"/>Sed contra: Si hoc verum est, nimirum oportuit 
+      <lb ed="#R" n="11"/>laborare Apostolos, quando baptizabant simul 
+      <lb ed="#R" n="12"/>quandoque numero quinque millia, vel plus: 
+      pro<lb ed="#R" n="13" break="no"/>pter quod videtur mihi, quod sufficit quod tales 
+      <lb ed="#R" n="14"/>multi exprimantur nomine vno in plurali, vt dicen 
+      <lb ed="#R" n="15"/>do vos: hodie tamen peccaret, qui sic vteretur, 
+      <lb ed="#R" n="16"/>cum non sit necessitas illa, quae erat in primitiua 
+      <lb ed="#R" n="17"/>Ecclesia. 
+    </p>
+            <p>
+               <lb ed="#R" n="18"/>Quarta conditio: Cum inuocatione nominis Tri 
+      <lb ed="#R" n="19"/>nitatis in singulati sub vocabulo iso, In 
+      nomine<lb ed="#R" n="20" break="no"/>quod idem est, quod in virtute, vel notitia, siue 
+      de<lb ed="#R" n="21" break="no"/>claratione. 
+    </p>
+            <p>
+               <lb ed="#R" n="22"/>Quinta conditio est, trium personarum, per quod 
+      <lb ed="#R" n="23"/>soluitur vna communis quaestio: Vtrum 
+      baptiza<lb ed="#R" n="24" break="no"/>ret vere, qui diceret, Baptizo te in nomine Cristi, 
+      <lb ed="#R" n="25"/>&amp; difficultatem facit, quia sic baptia abant 
+      Aposto<lb ed="#R" n="26" break="no"/>li in Ecclefia primitiua. 
+    </p>
+            <p>
+               <lb ed="#R" n="27"/>Respondeo ad hoc, quod in Ecclesia primitiua 
+      <lb ed="#R" n="28"/>dispensatum fuit baptizari in tali forma propter 
+      <lb ed="#R" n="29"/>reuerentiam Christi cordibus credentium 
+      impri<lb ed="#R" n="30" break="no"/>mendam; hodie vero cessat causa ista, quia Cristi 
+      <lb ed="#R" n="31"/>nomen per Dei gratiam est in cordibus fidelium 
+      <lb ed="#R" n="32"/>radicatum, ideo qui sic baptizaret non seruaret 
+      ve<lb ed="#R" n="33" break="no"/>ram formam, quam seruat vniuersaliter Ecclesia 
+      <lb ed="#R" n="34"/>moderna 
+    </p>
+            <p>
+               <lb ed="#R" n="35"/>Sexta, &amp; vltima conditio est sub vocabulis 
+      pro<lb ed="#R" n="36" break="no"/>prijs personalibus. hoc dixi, quia non vere 
+      bapti<lb ed="#R" n="37" break="no"/>raret dicendo in nomine Genitoris, &amp; Geniti. 
+      Ra<lb ed="#R" n="38" break="no"/>tio autem est, quia secundum Magistrum, nomina 
+      <lb ed="#R" n="39"/>ista: Pater, &amp; Filius, magis nominant hypostases, 
+      <lb ed="#R" n="40"/>quam nomina ista Genitor, &amp; Genitus: ista enim 
+      <lb ed="#R" n="41"/>magis proprie significant actionem. 
+    </p>
+            <p>
+               <lb ed="#R" n="42"/>Vltra omnes isas conditiones, est dubium 
+      de<lb ed="#R" n="43" break="no"/>alia, scilicet de Ly. Ego. Vtrum sit de necessitate 
+      <lb ed="#R" n="44"/>&amp; forma Sacramenti. Ad quod dicunt quidam, quod 
+      <lb ed="#R" n="45"/>sic, pro quibus facit id quod habetur extra de 
+      Ba<lb ed="#R" n="46" break="no"/>ptismo, &amp; eius effectu cap. sed quid, vbi dicitur, 
+      <lb ed="#R" n="47"/>quod si non ter puerum in aquam miserit, &amp; si non 
+      <lb ed="#R" n="48"/>dixerit, Ego te baptizo, &amp; c. vere puer non est 
+      ba<lb ed="#R" n="49" break="no"/>ptizatus. 
+    </p>
+            <p>
+               <lb ed="#R" n="50"/>Sed in oppositum est, quoniam Graeci baptizant 
+      <lb ed="#R" n="51"/>exprimendo actum verbi in tertia persona, &amp; tamem 
+      <lb ed="#R" n="52"/>vere baptizant secundum Ecclesiae 
+      determinatio<lb ed="#R" n="53" break="no"/>nem. Sed nunquid Latini sic in tertia persona vere 
+      <lb ed="#R" n="54"/>baptizarent? Respondeo dico, quod sic, sicut &amp; 
+      <lb ed="#R" n="55"/>Craecus, tamen grauiter peccarent ita mutando 
+      <lb ed="#R" n="56"/>Ecclesia statutum. 
+    </p>
+            <p>
+               <lb ed="#R" n="57"/>Sed quid de auctoritate praeallegata? Dico, 
+      <lb ed="#R" n="58"/>quod loquitur quantum ad debere se praeseruare a 
+      <lb ed="#R" n="59"/>peccato, non autem quantum ad efficaciam 
+      Sacra<lb ed="#R" n="60" break="no"/>menti simpliciter. 
+    </p>
+            <p>
+               <lb ed="#R" n="61"/>Sed quae est melior forma, an Graeca, an Latina? 
+      <lb ed="#R" n="62"/>Respondeo, dico quod Latina, &amp; hoc propter tria. 
+      <lb ed="#R" n="63"/>Primo, quia Craeci dimittunt ministrum, qui tamem 
+      <lb ed="#R" n="64"/>vere agit vt instrumentale agens applicando, vt 
+      su<lb ed="#R" n="65" break="no"/>perius dictum est. Secundo exponunt actum verbi 
+      <lb ed="#R" n="66"/>optatiue, Latini vero indicatiue, &amp; per consequens 
+      <lb ed="#R" n="67"/>Latini exprimunt magis efficaciam Sacramenti. 
+      Ter<lb ed="#R" n="68" break="no"/>tio, quia exprimunt recipientem Baptismum in- 
+      <!--0042.xml-->
+      <cb ed="#R" n="b"/>
+               <lb ed="#R" n="69"/>tertia persona, dicentes, seruus Cristi. 
+    </p>
+            <p>
+               <lb ed="#R" n="70"/>Secundo, videndum est de forma propinqua 
+      Ba<lb ed="#R" n="71" break="no"/>ptismi. Ad cuius euidentiam pono istam regulam. 
+      <lb ed="#R" n="72"/>Forma Baptismi est prolatio determinatorum 
+      ver<lb ed="#R" n="73" break="no"/>borum continua, seriosa, integra, nullo addito, vbi 
+      <lb ed="#R" n="74"/>patet, quod ponuntur quatuor conditiones. 
+    </p>
+            <p>
+               <lb ed="#R" n="75"/>Prima est continua: non enim debet esse 
+      inter<lb ed="#R" n="76" break="no"/>pellata, puta incipiendo verba, &amp; in medio 
+      enar<lb ed="#R" n="77" break="no"/>rando hiloriam aliquam, &amp; demum verba 
+      com<lb ed="#R" n="78" break="no"/>plendo. 
+    </p>
+            <p>
+               <lb ed="#R" n="79"/>Secunda conditio est, seriosa, non enim debet 
+      es<lb ed="#R" n="80" break="no"/>se transposita, vbi sciendum es, quod qui scienter 
+      <lb ed="#R" n="81"/>transfert, grauiter peccat. Sed vtrum vere 
+      bapti<lb ed="#R" n="82" break="no"/>2et? Respondeo, si talis transpositio mutet 
+      ver<lb ed="#R" n="83" break="no"/>borum, siue ordinis signisicatum, talis ordo nihil 
+      <lb ed="#R" n="84"/>efficit, puta si dicatur, ego te Patris &amp; Filij 
+      bapti<lb ed="#R" n="85" break="no"/>20 in nomine Spiritus sancti: si vero transpositio 
+      <lb ed="#R" n="86"/>ista non mutet significatum verborum, &amp; totius 
+      <lb ed="#R" n="87"/>orationis, talis vtique vere efficit Baptismi eff
+      e<lb ed="#R" n="88" break="no"/>cum, licet tamen grauiter peccet, vt dictum est, 
+      <lb ed="#R" n="89"/>puta si dicat: Ego baptizo in nomine Filij, &amp; 
+      Spiri<lb ed="#R" n="90" break="no"/>tus sancti, &amp; Patris, &amp; hoc si per talem 
+      transposi<lb ed="#R" n="91" break="no"/>tionem errorem inducere non intendat. 
+    </p>
+            <p>
+               <lb ed="#R" n="92"/>Tertia conditio est, integra, idest ne verba sint 
+      <lb ed="#R" n="93"/>corrupta. Sed aduertendum, quod verborum 
+      cor<lb ed="#R" n="94" break="no"/>ruptio triplex, vel ex ioco, vel ex impotentia, vel 
+      <lb ed="#R" n="95"/>ex mala intentione. Primo modo peccat grauiter 
+      <lb ed="#R" n="96"/>verba corrumpendo; secundo modo non peccat, &amp; 
+      <lb ed="#R" n="97"/>verum effectum inducit: sed tertio modo, &amp; 
+      gra<lb ed="#R" n="98" break="no"/>uissime peccat, &amp; effectu Baptismi caret. 
+    </p>
+            <p>
+               <lb ed="#R" n="99"/>Quarta conditio est, nullo addito, vbi 
+      generali<lb ed="#R" n="100" break="no"/>ter sciendum, quod qui scienter addit aliquid, 
+      gra<lb ed="#R" n="101" break="no"/>uiter quidem peccat; sed vtrum quod significat 
+      es<lb ed="#R" n="102" break="no"/>ficiat? 
+    </p>
+            <p>
+               <lb ed="#R" n="103"/>Respondeo, aut additio mutat sententiam, &amp; tra 
+      <lb ed="#R" n="104"/>hit ad alium sensum, &amp; sic effectum non sortitur, vt 
+      <lb ed="#R" n="105"/>si diceretur: Ego te baptizo in nomine Patris, &amp; 
+      <lb ed="#R" n="106"/>Filij, &amp; Spiritus sancti serui vtriusque. Si vero 
+      ad<lb ed="#R" n="107" break="no"/>ditio verborum sensum pristinum non immutat, 
+      ta<lb ed="#R" n="108" break="no"/>lis additio non impedit effectum Baptismi. 
+    </p>
+            <p>
+               <lb ed="#R" n="109"/>Sed quid dicendum de quibusdam, qui addunt 
+      no<lb ed="#R" n="110" break="no"/>men alicuius Sancti, puta S. Nicolai. Respondeo, talis 
+      <lb ed="#R" n="111"/>additio licet non sit licita, quia in talibus praecise 
+      <lb ed="#R" n="112"/>modus Ecclesiae est seruandus, tamen effectum 
+      Ba<lb ed="#R" n="113" break="no"/>ptismi non excludit. 
+    </p>
+            <p>
+               <lb ed="#R" n="114"/>Sic ergo patet ratio ad formam quaestionis, q 
+      <lb ed="#R" n="115"/>Baptismus institutus est congrue quo ad formam, 
+      <lb ed="#R" n="116"/>&amp; hoc quo ad conditiones eius remotas, siue 
+      pro<lb ed="#R" n="117" break="no"/>pinquam, vt est in duabus regulis declaratum. 
+    </p>
+            <p>
+               <lb ed="#R" n="118"/>Ad argumentum in oppositum patet, quod 
+      for<lb ed="#R" n="119" break="no"/>ma est facillima, quia breuissima, &amp; in qualibet 
+      <lb ed="#R" n="120"/>lingua
+      <lb ed="#R" n="121"/>
+               <!-- line coord error -->
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

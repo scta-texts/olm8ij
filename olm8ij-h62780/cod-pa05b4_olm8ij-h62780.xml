@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="183"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h62780"> <!-- l4-d36q1 -->
+            <head>Quaestio 1</head>
+            <p>
+               <lb ed="#R" n="20"/>Quaestio Vnica. 
+    </p>
+            <div>
+               <head>Articulus 1</head>
+               <head type="question-title">
+        Utrum servitus impediat matrimonium.
+      </head>
+               <p>
+                  <lb ed="#R" n="21"/>ARTICVLVS VNJCVS. 
+      <lb ed="#R" n="22"/>Vtrum seruitus impediat matrimonium. 
+    </p>
+               <p>
+                  <lb ed="#R" n="23"/>ARGVO quod non, sic: 
+      <lb ed="#R" n="24"/>Illud quod est de iure po 
+      <lb ed="#R" n="25"/>sitiuo, non impedit illud, 
+      <lb ed="#R" n="26"/>quod est de iure naturae, 
+      <lb ed="#R" n="27"/>probo, quia ius positiuum 
+      <lb ed="#R" n="28"/>non obuiat iuri naturae, 
+      <lb ed="#R" n="29"/>quin ipsum potius 
+      imi<lb ed="#R" n="30" break="no"/>tatur: Seruitus est de 
+      <lb ed="#R" n="31"/>iure positiuo: ergo 
+      ma<lb ed="#R" n="32" break="no"/>trimonium non impecit illud, quod est de iure 
+      na<lb ed="#R" n="33" break="no"/>turae, vt probatum est supra. In oppositum est 
+      Ma<lb ed="#R" n="34" break="no"/>gister in litera. Respondeo pono aliquas 
+      proposi<lb ed="#R" n="35" break="no"/>tiones. 
+    </p>
+               <p>
+                  <lb ed="#R" n="36"/>Prima est ista, quod virtus politica, &amp; ciuilis 
+      <lb ed="#R" n="37"/>potest esse de iure naturae, quae autem vsitate, &amp; 
+      <lb ed="#R" n="38"/>magis proprie est seruitus, licet possit esse iusta 
+      <lb ed="#R" n="39"/>non tamen est de iure naturae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="40"/>Primum horum probo, vbi considerandum est, 
+      <lb ed="#R" n="41"/>quod seruitus politica est illa qua liber seruit 
+      prin<lb ed="#R" n="42" break="no"/>cipi, sub quo est politice quidem, non dispotice, eo 
+      <lb ed="#R" n="43"/>modo quo appetitus inferior subditur rationi 
+      po<lb ed="#R" n="44" break="no"/>liticé, non dispotice 1. Polit. cap. 1. &amp; 3. hanc 
+      serui<lb ed="#R" n="45" break="no"/>tutem probo possibile esse de iure naturae, quod est 
+      <lb ed="#R" n="46"/>de dictamine rationis: nihil propter bonum humanae 
+      <lb ed="#R" n="47"/>speciei est de iure naturae, sed expedit ad bonum 
+      <lb ed="#R" n="48"/>speciei humanae secundum dictamen rectae rationis: 
+      <lb ed="#R" n="49"/>quod aliqui sint inter homines regentes, &amp; 
+      impe<lb ed="#R" n="50" break="no"/>rantes, alij vero sint serui seruitute politica, &amp; 
+      obe<lb ed="#R" n="51" break="no"/>dientes: ergo. Probatio minoris, quia humana 
+      <lb ed="#R" n="52"/>species secundum omnia indiuidua non potest esse 
+      <lb ed="#R" n="53"/>par in actibus rationis, &amp; corporis, quoniam aliqui 
+      <lb ed="#R" n="54"/>pollent in actibus rationis, &amp; deficiunt in 
+      fortitu<lb ed="#R" n="55" break="no"/>dine, &amp; actibus corporis. Alij e conuerso sunt 
+      for<lb ed="#R" n="56" break="no"/>tes, &amp; praediti virtutibus corporalibus, &amp; deficiunt 
+      <lb ed="#R" n="57"/>in actibus rationis,, quare si imperarent, qui 
+      defi<lb ed="#R" n="58" break="no"/>ciunt in actibus rationis, &amp; obedirent, ac exeque- 
+      <!--0183.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="59"/>rentur pollentes ratione, &amp; deficientes viribus 
+      cor<lb ed="#R" n="60" break="no"/>poralibus, esset subuersio in bono humanae speciei, 
+      <lb ed="#R" n="61"/>quia illi nescirent imperare, &amp; regere, hi vero non 
+      <lb ed="#R" n="62"/>possent exequi, propter quod expedit secundum 
+      <lb ed="#R" n="63"/>dictamen rationis, quod non omnes habeant 
+      impe<lb ed="#R" n="64" break="no"/>rare, nec omnes exequi &amp; obedire; sed mente 
+      pol<lb ed="#R" n="65" break="no"/>lentes dignum est imperare, pollentes vero fortitu 
+      <lb ed="#R" n="66"/>dine, &amp; robore corporis, &amp; deficientes mente est di 
+      <lb ed="#R" n="67"/>gnum exequi, &amp; obedire, &amp; haec est ratio Philosophi 
+      <lb ed="#R" n="68"/>1. Polit. cap. 1. ad probandum, quod seruitus 
+      po<lb ed="#R" n="69" break="no"/>litica sit secundum dictamen rectae rationis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="70"/>Secundam partem probo, scilicet, quod seruitus 
+      <lb ed="#R" n="71"/>despotica, quae est seruitus proprie dicta, licet 
+      pos<lb ed="#R" n="72" break="no"/>sit esse iusta, non tamen est de iure naturae, 
+      despoti<lb ed="#R" n="73" break="no"/>cum enim idem est quod seruile. Ista autem 
+      ser<lb ed="#R" n="74" break="no"/>uitus es, quando seruus est vera possessio Domini, 
+      <lb ed="#R" n="75"/>sicut est iumentum, &amp; potestt Dominus vendere 
+      il<lb ed="#R" n="76" break="no"/>lum, &amp; alienare pro libito, sicut potest equum suum, 
+      <lb ed="#R" n="77"/>&amp; hoc modo loquendo de seruitute, dico quod ipsa 
+      <lb ed="#R" n="78"/>non estt de iure naturae, imo magis est contra 
+      tale<lb ed="#R" n="79" break="no"/>ius, quod homo se expoliet sua libertate, tamen 
+      di<lb ed="#R" n="80" break="no"/>co, quod potest quandoque esse ex iusta causa 
+      intro<lb ed="#R" n="81" break="no"/>ducta, &amp; hinc est quod Juristae dicunt, quod talis 
+      ser<lb ed="#R" n="82" break="no"/>uitus estt de iure gentium, quod quidem ius 
+      quili<lb ed="#R" n="83" break="no"/>bet grammaticus vocat ius naturae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="84"/>Quod autem non sit absolute de iure naturae 
+      pro<lb ed="#R" n="85" break="no"/>bo, quia illud quod est natura liberum, &amp; habet do 
+      <lb ed="#R" n="86"/>minium actuum suorum, quod ipsum amittat 
+      tale<lb ed="#R" n="87" break="no"/>dominium actuum, est omnino contra naturam, &amp; 
+      <lb ed="#R" n="88"/>contra ius naturae: sed natura hominis talis est, quod 
+      <lb ed="#R" n="89"/>ipsa est dominium habens actuum suorum, quia ho 
+      <lb ed="#R" n="90"/>mo est animal dominatiuum naturaliter, est enim 
+      <lb ed="#R" n="91"/>dominium actuum suorum in hominibus ex 3. Ethic. 
+      <lb ed="#R" n="92"/>1. Polit. cap. 3. &amp; 4. Seruus autem non est Dominus 
+      <lb ed="#R" n="93"/>actuum suorum, imo quicquid potest ex eo 
+      pro<lb ed="#R" n="94" break="no"/>uenire, totum est Domini: propter quod probat ibi 
+      <lb ed="#R" n="95"/>Aristoteles, quod seruus non potest habere actus 
+      <lb ed="#R" n="96"/>virtuosos, eo quod mouetur tota liter ad imperium 
+      <lb ed="#R" n="97"/>domini: ergo quod aliquis hoc modo sit seruus, 
+      vi<lb ed="#R" n="98" break="no"/>detur esse contra ius naturae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="99"/>Sed dico, quod talis seruitus potestt induere 
+      ali<lb ed="#R" n="100" break="no"/>quo modo rationem iuris, &amp; introduci ex dicta 
+      cau<lb ed="#R" n="101" break="no"/>sa: hoc autem est interueniente voluntate vtriusque, 
+      <lb ed="#R" n="102"/>alterius quidem vendentis se &amp; actus suos alteri 
+      pro<lb ed="#R" n="103" break="no"/>pter saluandam vitam corporalem; vel libere dantis 
+      <lb ed="#R" n="104"/>se &amp; actus suos, &amp; libere se &amp; alteri subijcientis, &amp; 
+      <lb ed="#R" n="105"/>alterius dominium in sua potestate recipientis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="106"/>Sed quid de capto in bello, potest ne iuste redigi 
+      <lb ed="#R" n="107"/>in talem seruitutem? Respondeo: talis seruitus 
+      vide<lb ed="#R" n="108" break="no"/>tur esse de iure belli, eo quod videtur ibi 
+      interueni<lb ed="#R" n="109" break="no"/>re mutuus assensus bellantium, quorum quilibet 
+      vi<lb ed="#R" n="110" break="no"/>detur assentire ad illud, quod cum obtinens posssit 
+      <lb ed="#R" n="111"/>interficere succumbentem, vbi bellum est iustum, si 
+      <lb ed="#R" n="112"/>reseruet eum, videtur quod acquirat eum in 
+      posses<lb ed="#R" n="113" break="no"/>sionem suam, &amp; ad hoc videtur ire intentio, &amp; 
+      vo<lb ed="#R" n="114" break="no"/>luntas vtriusque partis bellantium; quilibet enim 
+      <lb ed="#R" n="115"/>magis tenetur se hoc modo alteri subdere, quam 
+      <lb ed="#R" n="116"/>quod permietat interfici, &amp; hoc videtur esse 
+      secun<lb ed="#R" n="117" break="no"/>dum dictamem rectae rationis, &amp; ius naturae, idest ius 
+      <lb ed="#R" n="118"/>gentium secundum Juristas, quod probo sic. Quicũ- 
+      <lb ed="#R" n="119"/>que est Dominus verus alicuius rei, potest ius suum 
+      <lb ed="#R" n="120"/>transferre in alterum, &amp; ille potest iuste recipere, &amp; 
+      <lb ed="#R" n="121"/>si de facto transferat, eo ipso iste secundum ius 
+      gen<lb ed="#R" n="122" break="no"/>tium videtur esse possessio illius: sed homo est 
+      Do<lb ed="#R" n="123" break="no"/>minus verus sui, &amp; actuum suorum: ergo quicunque 
+      <lb ed="#R" n="124"/>transfert dominium huiusmodi in alterum, qualis 
+      <lb ed="#R" n="125"/>est ille qui succumbit in bello, vel sponte &amp; notorie, 
+      <lb ed="#R" n="126"/>vendit se, siue se subijcit propter rationalem causam: 
+      <!--0184.xml-->
+      <pb ed="#R" n="184"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>ergo iste de iure gentium videtur esse possessio 
+      al<lb ed="#R" n="2" break="no"/>terius, &amp; seruus seruitute despotica. 
+    </p>
+               <p>
+                  <lb ed="#R" n="3"/>Sed quid ad Aristotelem, qui videtur 
+      dicere<lb ed="#R" n="4" break="no"/>primo politic. quod captus in bello non sit seruus 
+      <lb ed="#R" n="5"/>naturaliter. Respondeo, Arist. dicit, quod seruitus 
+      <lb ed="#R" n="6"/>hominis acquisiti in bello non est seruitus 
+      natura<lb ed="#R" n="7" break="no"/>lis, cuius ratio est, quia captus in bello 
+      quando<lb ed="#R" n="8" break="no"/>que magis est praeditus ratione, quam ille qui 
+      acqui<lb ed="#R" n="9" break="no"/>siuit, ideo vt sic non est secundum dictamen 
+      ratio<lb ed="#R" n="10" break="no"/>nis naturalis; contra hoc tamen bene sat, quod 
+      <lb ed="#R" n="11"/>sit de iure gentium, quia hoc habet pactum belli, 
+      <lb ed="#R" n="12"/>quod succumbens acquiratur obtinenti in 
+      posses<lb ed="#R" n="13" break="no"/>sionem. Sciendum tamen est, quod vt dicum est, 
+      <lb ed="#R" n="14"/>ista seruitus posset tolli quando domini non 
+      pru<lb ed="#R" n="15" break="no"/>denter regerent, &amp; recte sibi subditos, vt decet, 
+      <lb ed="#R" n="16"/>nec est recursus ad alios superiores dominos, tunc 
+      <lb ed="#R" n="17"/>dico, quod serui possent excutere iugum 
+      seruitu<lb ed="#R" n="18" break="no"/>tis, &amp; ex hoc sunt quandoque rebelliones iustae, 
+      <lb ed="#R" n="19"/>quando scilicet regnum est iniusum, nec habetur 
+      <lb ed="#R" n="20"/>alius ad quem possit recurri pro iustitia, &amp; 
+      prin<lb ed="#R" n="21" break="no"/>ceps nollet cessare ab iniustitia sua, &amp; 
+      praesumere<lb ed="#R" n="22" break="no"/>tur malitia eius incorrigibilis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="23"/>Nunc viso de seruitute, quae est secundum leges 
+      <lb ed="#R" n="24"/>naturales secundum dicamen rationis, &amp; quae 
+      se<lb ed="#R" n="25" break="no"/>cundum ius gentium, &amp; quae iusta, &amp; quae non iusta, 
+      <lb ed="#R" n="26"/>videndum est si seruitus secundo modo sumpta 
+      sci<lb ed="#R" n="27" break="no"/>licet despotica impediat matrimonium. Et pono 
+      <lb ed="#R" n="28"/>propositionem istam. Quod seruitus ignorata 
+      <lb ed="#R" n="29"/>impediat matrimonium, &amp; hoc in ordine ad 
+      per<lb ed="#R" n="30" break="no"/>sona m melioris conditionis, vtpote si persona 
+      me<lb ed="#R" n="31" break="no"/>lioris conditionis contrahat cum existente in 
+      ser<lb ed="#R" n="32" break="no"/>uili conditione, quam tamen ignorat, talis conditio 
+      <lb ed="#R" n="33"/>ignorata impedit matrimonium, talis etiam 
+      con<lb ed="#R" n="34" break="no"/>ditio ignorata dirimit iam contractum. In ordine 
+      <lb ed="#R" n="35"/>vero ad personam inferioris conditionis, &amp; 
+      pote<lb ed="#R" n="36" break="no"/>statis, non dirimit; sed si conditio illa esset scita, 
+      te<lb ed="#R" n="37" break="no"/>neret matrimonium vtrobique; hoc sic intelligo, 
+      <lb ed="#R" n="38"/>si enim seruus contrahat cum libera, non potest 
+      ser<lb ed="#R" n="39" break="no"/>uus ex parte sua rescindere matrimonium, sed 
+      li<lb ed="#R" n="40" break="no"/>bera, poterit rescindere illud, si nesciens 
+      conditio<lb ed="#R" n="41" break="no"/>nem seruitutis contraxit. 
+    </p>
+               <p>
+                  <lb ed="#R" n="42"/>Quod si sint pares, &amp; vterque eiusdem 
+      conditio<lb ed="#R" n="43" break="no"/>nis simul, tunc tenet matrimonium, nec potest 
+      di<lb ed="#R" n="44" break="no"/>rimi ex parte cuiuscunque; sed si impares sint, 
+      im<lb ed="#R" n="45" break="no"/>par conditio seruilis impedit, &amp; dirimit, &amp; potest 
+      <lb ed="#R" n="46"/>rescindere, qui est melioris conditionis: Ratio est, 
+      <lb ed="#R" n="47"/>quia talis contractus matrimonialis venit contra 
+      <lb ed="#R" n="48"/>bonum prolis, eo quod proles erit sua, nec poterunt 
+      <lb ed="#R" n="49"/>eam parentes propter impedimentum seruitutis 
+      <lb ed="#R" n="50"/>congrue educare, nec haberet liber successionem 
+      <lb ed="#R" n="51"/>in haereditate, maxime vbi seruitus se tenet ex 
+      par<lb ed="#R" n="52" break="no"/>te mulieris, quia foetus sequitur matrem quo ad 
+      <lb ed="#R" n="53"/>seruitutem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="54"/>Est etiam secundo contra bonum fidei, quia 
+      tem<lb ed="#R" n="55" break="no"/>pore, quo serua teneretur reddere debitum viro, po 
+      <lb ed="#R" n="56"/>terit eum dominus destinare ad remota. 
+    </p>
+               <p>
+                  <lb ed="#R" n="57"/>Est etiam contra bonum Sacramenti, quod est 
+      <lb ed="#R" n="58"/>insolubilitas, poterit enim dominus diuidere 
+      ser<lb ed="#R" n="59" break="no"/>uam a viro quoad propriam cohabitationem. Et 
+      <lb ed="#R" n="60"/>intelligenda sunt illa de seruitute ignorata, &amp; 
+      prae<lb ed="#R" n="61" break="no"/>ueniente contractum, quia de seruitute 
+      subsequen<lb ed="#R" n="62" break="no"/>te non habent locum. Vbi considerandum est 
+      cir<lb ed="#R" n="63" break="no"/>ca seruitutem subsequentem, quae est, quando alter 
+      <lb ed="#R" n="64"/>coniugum se facit seruum post contractum 
+      matri<lb ed="#R" n="65" break="no"/>monium. 
+    </p>
+               <p>
+                  <lb ed="#R" n="66"/>Quod autem vxor se facit seruam, aut vir: Si 
+      <lb ed="#R" n="67"/>vxor, talis seruitus non tenet: mulier enim est in 
+      <lb ed="#R" n="68"/>potestate viri, &amp; quo ad corpus, &amp; quo ad coha- 
+      <!--0184.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>bitationem, &amp; regimen, &amp; gubernationem. Si vero 
+      <lb ed="#R" n="70"/>vir se facit seruum, tenet seruitus, &amp; matrimonium 
+      <lb ed="#R" n="71"/>stat, &amp; si mulier petat debitum, tenetur vxori 
+      red<lb ed="#R" n="72" break="no"/>dere illud, etiam Domino renitente, quia 
+      obli<lb ed="#R" n="73" break="no"/>gatio fuit prior ad vxorem, quam ad dominium 
+      <lb ed="#R" n="74"/>&amp; non potuit se obligare alteri in praeiudicium 
+      <lb ed="#R" n="75"/>actus matrimonialis, ad quem fuit primo 
+      obli<lb ed="#R" n="76" break="no"/>gatus.
+    </p>
+               <p>
+                  <lb ed="#R" n="77"/>Sed est dubium, vtrum seruus, &amp; ancilla possint 
+      <lb ed="#R" n="78"/>contrahere sine voluntate domini. Dicunt 
+      qui<lb ed="#R" n="79" break="no"/>dam, quod sic. Ratio eorum est, quia fortior est 
+      <lb ed="#R" n="80"/>obligatio, quae est de iure naturae, quam quae est 
+      <lb ed="#R" n="81"/>de iure positiuo: sed obligatio ad dominum est 
+      <lb ed="#R" n="82"/>de iure positiuo, obligatio autem matrimonij est 
+      <lb ed="#R" n="83"/>de iure naturae. Alij tenent oppositum, &amp; 
+      ratio<lb ed="#R" n="84" break="no"/>nem soluunt, quia licet contrahere in generali 
+      pro<lb ed="#R" n="85" break="no"/>pter conseruationem speciei sit de iure naturae, non 
+      <lb ed="#R" n="86"/>tamen est de iure naturae, quod quilibet contrahat, 
+      <lb ed="#R" n="87"/>&amp; quod ille, vel ille. 
+    </p>
+               <p>
+                  <lb ed="#R" n="88"/>Dico tamen, quod licet seruus ipse, &amp; actus 
+      <lb ed="#R" n="89"/>eius sint domini, actus tamen generationis non 
+      <lb ed="#R" n="90"/>est domini, imo respectu illius acttus seruus liber 
+      <lb ed="#R" n="91"/>est, nec obligat actum matrimonij domino, eo quod 
+      <lb ed="#R" n="92"/>se facit seruum, actus enim iste cadere non potest 
+      <lb ed="#R" n="93"/>sub dominio alterius, quia de se est liber, ideo quo 
+      <lb ed="#R" n="94"/>ad hoc iste est liber. 
+    </p>
+               <p>
+                  <lb ed="#R" n="95"/>Arguo sic: Licet seruus non se possit obligare quo 
+      <lb ed="#R" n="96"/>ad actus, qui sunt domini; potest tamen 
+      obligare<lb ed="#R" n="97" break="no"/>quo ad actus, respectu quorum est liber, sed 
+      respe<lb ed="#R" n="98" break="no"/>cu generationis est liber, vt dictum est, nec enim 
+      <lb ed="#R" n="99"/>illum actum transtulit in dominium: contractus 
+      <lb ed="#R" n="100"/>autem matrimonialis est respectu istius actus 
+      ge<lb ed="#R" n="101" break="no"/>nerationis: ergo sine voluntate Domini potest 
+      <lb ed="#R" n="102"/>contrahere matrimonium tam seruus quam 
+      an<lb ed="#R" n="103" break="no"/>cilla, nec pertinet ad dominum prohibere eos, quin 
+      <lb ed="#R" n="104"/>imo dominus peccaret impediendo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="105"/>Sed nunquid si dominus praecipiat vni ire 
+      Ro<lb ed="#R" n="106" break="no"/>mam, &amp; alteri Parisios, vnde contingat 
+      cohabi<lb ed="#R" n="107" break="no"/>tationem eorum mutuam impedire, tenentur ne 
+      <lb ed="#R" n="108"/>in tali casu domino obedire? Dico, quod vbi 
+      se<lb ed="#R" n="109" break="no"/>paratio illa esset ex causa rationali, &amp; ad tempus, 
+      <lb ed="#R" n="110"/>puto quod tenerentur obedire; vbi vero Dominus 
+      <lb ed="#R" n="111"/>separationem praeciperet ex malitia, vel 
+      irratio<lb ed="#R" n="112" break="no"/>nabiliter sine rationabili causa, dico, quod non 
+      <lb ed="#R" n="113"/>tenerentur obedire, quinimo possent mutuo coha 
+      <lb ed="#R" n="114"/>bitare. Ad argumentum patet quid dicendum. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

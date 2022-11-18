@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="190"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h65111"> <!-- l4-d43prae -->
+            <head>Praeambulum</head>
+            <p>
+               <lb ed="#R" n="5"/>DJSTJNCTJO XLJJJ. 
+      <lb ed="#R" n="6"/>DE RESVRRECTJONE. 
+  </p>
+            <p>
+               <lb ed="#R" n="7"/>Postremo, &amp;c. In ista Distinctione 
+      Quadra<lb ed="#R" n="8" break="no"/>gesimatertia agit Magister de 
+      Resurrectio<lb ed="#R" n="9" break="no"/>ne. Ad cuius euidentiam quaero sex 
+      Quae<lb ed="#R" n="10" break="no"/>siones. 
+    </p>
+            <p>
+               <lb ed="#R" n="11"/>1 Prima est: Vtrum in resurrectione aliquid, 
+      <lb ed="#R" n="12"/>quod fuerit vere corruptum, virtute resurrectionis 
+      <lb ed="#R" n="13"/>redeat idem numero. 
+      <lb ed="#R" n="14"/>2 Secunda es: Vtrum apud Aristotelem 
+      crea<lb ed="#R" n="15" break="no"/>tio, &amp; resurrectio fuerint impossibilia eodem 
+      mo<lb ed="#R" n="16" break="no"/>do impossibilitatis. 
+      <lb ed="#R" n="17"/>3 Tertia est. Vtrum resurrectio sit possibilis 
+      re<lb ed="#R" n="18" break="no"/>spectu agentis infiniti, qui est Deus. 
+      <lb ed="#R" n="19"/>4 Quarta est: Vtrum sit possibilis 
+      respectua<lb ed="#R" n="20" break="no"/>gentis creati. 
+      <lb ed="#R" n="21"/>5 Quinta est?: Vtrum virtutes diuina omne 
+      <lb ed="#R" n="22"/>corruptum possit idem numero reparari. 
+      <lb ed="#R" n="23"/>6 Sexta est: Vtrum anima humana in 
+      resurre<lb ed="#R" n="24" break="no"/>ctione possit se vnire corpori organizato propria 
+      <lb ed="#R" n="25"/>virtute 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

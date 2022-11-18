@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="148"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h50858"> <!-- l4-d20q1 -->
+            <head>Quaestio 1</head>
+            <p>
+               <lb ed="#R" n="48"/>Quaestio Vnica. 
+    </p>
+            <div>
+               <head>Articulus 1</head>
+               <head type="question-title">
+      Utrum potestas dandi indulgentias resideat apud Ecclesiam
+    </head>
+               <p>
+                  <lb ed="#R" n="49"/>ARTICVLVUS I. 
+      <lb ed="#R" n="50"/>Vtrum potestas dandi indulgentias resideat apud 
+      <lb ed="#R" n="51"/>Ecclesiam 
+    </p>
+               <p>
+                  <lb ed="#R" n="52"/>QVANTVM ad primum 
+      <lb ed="#R" n="53"/>arguo, quod non, sic: 
+      Nul<lb ed="#R" n="54" break="no"/>la nouitas debet in 
+      Eccle<lb ed="#R" n="55"/>sia introduci: sed 
+      intro<lb ed="#R" n="56" break="no"/>ducere aliqua, quae non 
+      <lb ed="#R" n="57"/>sunt ex institutione 
+      Chri<lb ed="#R" n="58" break="no"/>sti, &amp; traditione 
+      Aposto<lb ed="#R" n="59" break="no"/>lorum, est nouitas magna: 
+      <lb ed="#R" n="60"/>ergo.
+    </p>
+               <p>
+                  <lb ed="#R" n="61"/>In oppositum est, quia vniuersalis Ecclesia 
+      Ca<lb ed="#R" n="62" break="no"/>tholica vtitur istis indulgentijs, quae non potest 
+      er<lb ed="#R" n="63" break="no"/>rare, regulata a Spiritu sancto. Respondeo pono 
+      <lb ed="#R" n="64"/>hic tres conclusiones.
+    </p>
+               <p>
+      <!--0148.xml-->
+                  <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="65"/>Prima est, quod in Ecclesia est auctoritas per 
+      <lb ed="#R" n="66"/>modum recompensationis, &amp; satisfactionis. hanc 
+      <lb ed="#R" n="67"/>conclusionem probo. Primo sic. Illud, quod 
+      con<lb ed="#R" n="68" break="no"/>ceditur personae vni priuatae, non debet negari 
+      vni<lb ed="#R" n="69" break="no"/>uersali Ecclesiae: sed procuratio indulgentiae a 
+      poe<lb ed="#R" n="70" break="no"/>nis per modum recompensationis conceditur vni 
+      <lb ed="#R" n="71"/>priuatae personae in ordine ad alterum: ergo. 
+      Pro<lb ed="#R" n="72" break="no"/>batio minoris est, quoniam ieiunia, orationes, &amp; c. 
+      <lb ed="#R" n="73"/>potest alteri quilibet communicare, hoc modo 
+      pu<lb ed="#R" n="74" break="no"/>ta tantum debes de poenis, tantum pro te 
+      exsoluo<lb ed="#R" n="75" break="no"/>&amp; hic est actus ordinatissimus, &amp; maximae 
+      chari<lb ed="#R" n="76" break="no"/>tatis; quia si in communitate ciuili rationale est. 
+      <lb ed="#R" n="77"/>quod vnus alium iuuet, &amp; subleuet onera, quanto 
+      <lb ed="#R" n="78"/>magis est rationale in tanta communione Ecclesiae 
+      <lb ed="#R" n="79"/>totius, vbi omnes efficimus vnum corpus in Christo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="80"/>Secunda ratio est ista: Quicunque potest soluere 
+      <lb ed="#R" n="81"/>debitum, pro quo debitor obligatur, potest 
+      debito<lb ed="#R" n="82" break="no"/>rem ab obligatione relaxare, vt si debeas decem, 
+      <lb ed="#R" n="83"/>ego vero habens mille soluam pro te decem, 
+      obli<lb ed="#R" n="84" break="no"/>gationem tuam relaxabo. Sed Ecclesia potest, &amp; 
+      <lb ed="#R" n="85"/>habet, vnde soluat debitum pro peccatis 
+      cuiuscun<lb ed="#R" n="86" break="no"/>que: habet enim thesaurum meritorum Christi, 
+      <lb ed="#R" n="87"/>beatae Virginis, &amp; Sanctorum, qui sufficit ad soluen 
+      <lb ed="#R" n="88"/>dum debitum etiam in infinitum: ergo 
+      Ecclesia<lb ed="#R" n="89" break="no"/>potest quemlibet debentem poenas exsoluere, ab 
+      obli<lb ed="#R" n="90" break="no"/>gatione relaxare. Confirmo, quia meritum 
+      Chri<lb ed="#R" n="91" break="no"/>sti, &amp; Sanctorum ordinatum est, ac datum Ecclesiae 
+      <lb ed="#R" n="92"/>ad tollendum poenas. Probatio istius, quoniam 
+      <lb ed="#R" n="93"/>nullum bonum possibile est esse irremuneratum: sed 
+      <lb ed="#R" n="94"/>meritum passionis Christi non est remuneratum, 
+      <lb ed="#R" n="95"/>probo, quia meruit pro infinitis, si essent infiniti ho 
+      <lb ed="#R" n="96"/>mines, gloriam, &amp; deletionem culpae, &amp; remissionem 
+      <lb ed="#R" n="97"/>poenae: ergo adhuc meritum Christi non est 
+      remu<lb ed="#R" n="98" break="no"/>neratum, nec per consequens euacuatum: imo 
+      nun<lb ed="#R" n="99" break="no"/>quam perfecte euacuabitur, quin sufficeret pro pluri 
+      <lb ed="#R" n="100"/>bus, si plures essent. Quare bene habet Ecclesia, 
+      vn<lb ed="#R" n="101" break="no"/>de possit satisfacere, ac per consequens omnem 
+      obli<lb ed="#R" n="102" break="no"/>gationem relaxare. Dicetur, quod ratio non 
+      con<lb ed="#R" n="103" break="no"/>cludit, quia meritum Christi, &amp; Sanctorum non est 
+      <lb ed="#R" n="104"/>in Ecclesiae potestate.
+    </p>
+               <p>
+                  <lb ed="#R" n="105"/>Contra hoc sic: Non minus est meritum Christi 
+      <lb ed="#R" n="106"/>in potesate Ecclesiae, vel meritum Sanctorum, quam 
+      <lb ed="#R" n="107"/>meritum totius vnius congregationis sit in 
+      potesta<lb ed="#R" n="108" break="no"/>te capitis totius congregationis illius: ad tantam 
+      <lb ed="#R" n="109"/>enim maiorem vnitatem concurrit tota 
+      Ecclesia<lb ed="#R" n="110" break="no"/>respectu vnius capitis, ad quantam vna communitas 
+      <lb ed="#R" n="111"/>vel religio respectu vnius praelati: sed meritum 
+      to<lb ed="#R" n="112" break="no"/>tius religionis, &amp; cuiuslibet sigillatim est in 
+      pote<lb ed="#R" n="113" break="no"/>state praelati illius religionis, adeo vt possit illud, 
+      <lb ed="#R" n="114"/>cui voluerit communicare: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="115"/>Dices: Meritum beatae Virginis, &amp; aliorum San 
+      <lb ed="#R" n="116"/>ctorum est sufficienter, imo superabundanter 
+      recon<lb ed="#R" n="117" break="no"/>pensatum, quia pro quolibet merito receperunt 
+      cen<lb ed="#R" n="118" break="no"/>tuplum de praemio, iuxta illud: Centuplum 
+      accipie<lb ed="#R" n="119" break="no"/>tis, &amp;c. Respondeo, quicquid sit de alijs Sanctis, 
+      ta<lb ed="#R" n="120" break="no"/>men hoc non potest dici de Christo, cuius ratio est, 
+      <lb ed="#R" n="121"/>quia Christus non sibi meruit gloriam animae, nec 
+      <lb ed="#R" n="122"/>gratiam vnionis, sed secundum illud, in rebus pro 
+      <lb ed="#R" n="123"/>tempore ortis natura maior gratia, &amp; c. non meruit 
+      <lb ed="#R" n="124"/>ergo sibi, nisi praecise gloriam nominis sui, iuxta 
+      il<lb ed="#R" n="125" break="no"/>lud: Vt in nomine Jesu, &amp;c. &amp; similiter gloriam 
+      cor<lb ed="#R" n="126" break="no"/>poris: haec autem nullo modo adaequant meritum 
+      <lb ed="#R" n="127"/>Christi tantum: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="128"/>Sciendum tamen, quod nec etiam meritum 
+      alio<lb ed="#R" n="129" break="no"/>rum est euacuatum, quin possint nobis mereri, 
+      <lb ed="#R" n="130"/>sed tamen differenter a merito Christi; nam 
+      <lb ed="#R" n="131"/>meritum Christi de rigore iustitiae meretur 
+      glo<lb ed="#R" n="132" break="no"/>riam nobis, &amp; poenarum ablationem, eo quod, 
+      <lb ed="#R" n="133"/>
+                  <!-- line coord error -->
+                  <!--0149.xml-->
+                  <pb ed="#R" n="149"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>vt dictum est, nondum est, nec erit complete 
+      remu<lb ed="#R" n="2" break="no"/>neratum: sed merita Sanctorum merentur nobis ex 
+      <lb ed="#R" n="3"/>misericordia Dei magna. 
+    </p>
+               <p>
+                  <lb ed="#R" n="4"/>Secundam propositionem pono ex pietate fidei, 
+      <lb ed="#R" n="5"/>licet a multis non teneatur, quod in Ecclesia sit 
+      <lb ed="#R" n="6"/>potestas dandi indulgentias, non solum per 
+      mo<lb ed="#R" n="7" break="no"/>dum recompensationis, &amp; satisfactionis, sed etiam 
+      <lb ed="#R" n="8"/>per modum aubtenticae relaxationis. Nec est idem 
+      <lb ed="#R" n="9"/>relaxare poenas per modum recompensationis, &amp; 
+      <lb ed="#R" n="10"/>relaxare authentice: primo enim modo relaxare, 
+      <lb ed="#R" n="11"/>est pro debito satisfacere, &amp; hoc modo potest 
+      satis<lb ed="#R" n="12" break="no"/>facere quilibet homo respectu alterius, &amp; aliquis 
+      <lb ed="#R" n="13"/>sanctus homo, cuius merita aequarent poenas 
+      debi<lb ed="#R" n="14" break="no"/>tas alteri pro peccato, &amp; possset poenas illas 
+      appli<lb ed="#R" n="15" break="no"/>cando sibi sua merita relaxare. Sed relaxare 
+      se<lb ed="#R" n="16" break="no"/>cundo modo, est absolute modo habentis 
+      auctori<lb ed="#R" n="17" break="no"/>tatem relaxare, sicut potest Rex debitum 
+      relaxa<lb ed="#R" n="18" break="no"/>re alicuius, dato quod illud debitum non exsoluat 
+      <lb ed="#R" n="19"/>aliquis, cum dicit, auctoritate qua fungor, &amp;c. Tunc 
+      <lb ed="#R" n="20"/>dico, quod potest pie teneri, caput Ecclesiae non 
+      <lb ed="#R" n="21"/>solum per modum satisfacttionis, &amp; 
+      recompensatio<lb ed="#R" n="22" break="no"/>nis, quod fit accipiendo de merito Chrisi, &amp; 
+      San<lb ed="#R" n="23" break="no"/>ctorum: sed auctoritate sibi tradita a Christo, cum 
+      <lb ed="#R" n="24"/>dicit: quodcumque ligaueris super terram erit 
+      li<lb ed="#R" n="25" break="no"/>gatum &amp; in coelis: &amp; quodcunque solueris super 
+      ter<lb ed="#R" n="26" break="no"/>ram, &amp;c. absolute, nihil aliud pro 
+      recompensatio<lb ed="#R" n="27" break="no"/>ne danda potest poenas, quas voluerit, relaxare 
+      <lb ed="#R" n="28"/>Hanc propositionem probo primo, quia rescripta 
+      <lb ed="#R" n="29"/>papalia obtinent vim iuris, &amp; auctoritatis 
+      Sancto<lb ed="#R" n="30" break="no"/>rum, &amp; ratio est, quia sunt maioris aucttoritatis in 
+      <lb ed="#R" n="31"/>definiendis, cum ipse confirmet, &amp; det vim 
+      aucto<lb ed="#R" n="32" break="no"/>ritatibus Sanctorum, &amp; iuri positiuo: sed ex 
+      rescri<lb ed="#R" n="33" break="no"/>ptis papalibus, vbi continetur tenor indulgentiae, 
+      <lb ed="#R" n="34"/>quam largitur, videtur, quod relaxet authentico 
+      <lb ed="#R" n="35"/>modo: non autem per modum recompensationis 
+      <lb ed="#R" n="36"/>accipiendo de merito Christi: non enim 
+      contine<lb ed="#R" n="37" break="no"/>tur in rescripto Papae, volumus, quod de merito 
+      <lb ed="#R" n="38"/>Christi, quod tibi applicamus, rela xentur tibi 
+      cen<lb ed="#R" n="39" break="no"/>tum dies, sed dicitur sic: nos ergo de 
+      omnipoten<lb ed="#R" n="40" break="no"/>tis Dei misericordia, &amp; aucttoritate Apostolorum 
+      <lb ed="#R" n="41"/>Petri, &amp; Pauli confisi relaxamus tibi, &amp;c. Ex quo 
+      <lb ed="#R" n="42"/>patet, quod ibi non exprimitur, nisi Dei 
+      misericor<lb ed="#R" n="43" break="no"/>dia, cuius ministri sumus, &amp; auctoritas Apostolica.
+    </p>
+               <p>
+                  <lb ed="#R" n="44"/>Secundo probo eandem auctoritatem 
+      ratione<lb ed="#R" n="45" break="no"/>sumpta ex Euangelio, quae est illa: dictum enim 
+      <lb ed="#R" n="46"/>est Petro, quodcunque ligaueris, &amp; c. Tunc sic, qui 
+      <lb ed="#R" n="47"/>dicit, quod cumque, nil excludit: tunc arguo sic: 
+      Om<lb ed="#R" n="48" break="no"/>ne vinculum impediens super terram ab ingressu 
+      <lb ed="#R" n="49"/>coeli potest soluere, &amp; in eius potestatem est authen 
+      <lb ed="#R" n="50"/>tice relaxare, apud quem est clauium plenitudo: 
+      <lb ed="#R" n="51"/>sed obligatio ad poenam est vinculum impediens 
+      <lb ed="#R" n="52"/>super terram ab ingressu caeli. Nullus enim caelum 
+      <lb ed="#R" n="53"/>ingreditur quousque reddat vltimum 
+      quadran<lb ed="#R" n="54" break="no"/>tem: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="55"/>Tertia ratio ad idem est ista: Cui committitur 
+      <lb ed="#R" n="56"/>maius, committitur minus: sed maius est 
+      absolue<lb ed="#R" n="57" break="no"/>re a culpa, quam a poena, &amp; commissum est 
+      capi<lb ed="#R" n="58" break="no"/>ti Fcclesiae ab omni culpa sine exceptione 
+      absolue<lb ed="#R" n="59" break="no"/>re: ergo. Intelligendum est tamen propter illud, 
+      <lb ed="#R" n="60"/>quod dicitur in minori, quod relaxare culpam 
+      po<lb ed="#R" n="61" break="no"/>test intelligi tribus modis, vel principaliter, &amp; sic 
+      <lb ed="#R" n="62"/>est proprium solius Dei; vel excellenter, &amp; sic est 
+      <lb ed="#R" n="63"/>proprium Christi; vel ministerialiter, modo 
+      procu<lb ed="#R" n="64" break="no"/>ratoris, &amp; sic pertinet ad ministrum, qui est caput 
+      <lb ed="#R" n="65"/>Ecclesiae: sic ergo dicendum est de poena. Vnde sicut si 
+      <lb ed="#R" n="66"/>Rex dedisset vni militi auctoritatem relaxandi poe 
+      <lb ed="#R" n="67"/>nam: ille diceretur rela xare ministerialiter, sic per 
+      <!--0149.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>simile de Papa dicendum est, quia es Vicarius 
+      Chri<lb ed="#R" n="69" break="no"/>sti. Tamem sciendum, quod aliter fit relaxatio poe
+      nae<lb ed="#R" n="70" break="no"/>&amp; aliter culpae: relaxatio enim culpae fit mediante 
+      <lb ed="#R" n="71"/>sacramento: sed relaxatio poenae fit absolute, licet 
+      <lb ed="#R" n="72"/>etiam fiat mediante Sacramento. Ex quo confirmo 
+      <lb ed="#R" n="73"/>conclusionem istam secundam sic: Claues non solum 
+      <lb ed="#R" n="74"/>se extendunt ad culpam, sed ad poenam: ita quod 
+      <lb ed="#R" n="75"/>in alio Sacramento quandoque potest relaxari 
+      to<lb ed="#R" n="76" break="no"/>ta poena, sicut in baptismo: ergo quare non est 
+      <lb ed="#R" n="77"/>datum alicui in Ecclesia maxime principi, quod 
+      <lb ed="#R" n="78"/>saltem ministrando Sacramentum poenitentiae 
+      pos<lb ed="#R" n="79" break="no"/>sit totam poenam relaxare? non video quare non.
+    </p>
+               <p>
+                  <lb ed="#R" n="80"/>Tertia Propositio est, quod indulgentiae illae non 
+      <lb ed="#R" n="81"/>respiciunt directe poenas purgationis, ac poenas 
+      <lb ed="#R" n="82"/>iuris: sed directe aspiciunt poenas porrectas, &amp; 
+      <lb ed="#R" n="83"/>debitas pro peccato, &amp; illud aliud omnino 
+      acci<lb ed="#R" n="84" break="no"/>dit. Hanc propositionem pono propter dictum 
+      <lb ed="#R" n="85"/>quorundam, qui dicunt, quod aspectus harum 
+      in<lb ed="#R" n="86" break="no"/>dulgentiarum esta poenis taxatis a iure, sicut 
+      ta<lb ed="#R" n="87" break="no"/>xant Sancti septem annos poenitentiae pro peccato 
+      <lb ed="#R" n="88"/>mortali, sicut etiam modo sunt obligati 
+      peccan<lb ed="#R" n="89" break="no"/>tes mortaliter ad poenam illam de iure, licet nunc 
+      <lb ed="#R" n="90"/>ex consuetudine non imponatur: &amp; quia ad 
+      poe<lb ed="#R" n="91" break="no"/>nas illas homo sic obligatur, dicunt, quod ideo 
+      <lb ed="#R" n="92"/>dantur illae indulgentiae, &amp; hoc videtur 
+      habere<lb ed="#R" n="93" break="no"/>forma rescripti, vbi indulgentia continetur: 
+      dici<lb ed="#R" n="94" break="no"/>tur enim ibi: De iniunctis poenitentijs relaxamus 
+      <lb ed="#R" n="95"/>tantum: certum est autem, quod non intendit de 
+      <lb ed="#R" n="96"/>iniunctis, nisi a iure. Et hoc confirmatur, quia 
+      <lb ed="#R" n="97"/>additur communiter in rescriptis: &amp; vnam 
+      qua<lb ed="#R" n="98" break="no"/>dragesimam, vel aliquid huiusmodi, &amp; ratio est, 
+      <lb ed="#R" n="99"/>quia a iure communiter infligitur poena, vel 
+      poe<lb ed="#R" n="100" break="no"/>nitentia vnius, vel duarum quadragesimarum, vel 
+      <lb ed="#R" n="101"/>aliter: &amp; sic similiter dicitur in rescripto, 
+      relaxa<lb ed="#R" n="102" break="no"/>mus tot dies. In purgatorio autem non sunt, nec 
+      <lb ed="#R" n="103"/>dies, nec noctes: ergo non intendit, nisi de 
+      poe<lb ed="#R" n="104" break="no"/>nis a Jure
+    </p>
+               <p>
+                  <lb ed="#R" n="105"/>Tertio confirmant propositum, quia si de 
+      poe<lb ed="#R" n="106" break="no"/>nis purgatorij intelligeretur, tunc multi Episcopi 
+      <lb ed="#R" n="107"/>simul possent facere euolare vnum morientem 
+      <lb ed="#R" n="108"/>conferendo eorum cuilibet de indulgentia illud, 
+      <lb ed="#R" n="109"/>quod posset. 
+    </p>
+               <p>
+                  <lb ed="#R" n="110"/>Alij dicunt, quod hae indulgentia aspiciunt 
+      poe<lb ed="#R" n="111" break="no"/>nas purgatorij: motiuum eorum est, quia 
+      videren<lb ed="#R" n="112" break="no"/>tur alias frustratoriae. Mediando inter istas duas 
+      <lb ed="#R" n="113"/>opiniones. 
+    </p>
+               <p>
+                  <lb ed="#R" n="114"/>Dico, quod vtrumque aspicit, nec enim 
+      dire<lb ed="#R" n="115" break="no"/>cte aspiciunt poenas iuris, nec poenas 
+      purgato<lb ed="#R" n="116" break="no"/>rij, sed poenas debitas pro peccatis. Hanc 
+      pro<lb ed="#R" n="117" break="no"/>positionem probo sic: Quando aliqua sunt sic 
+      or<lb ed="#R" n="118" break="no"/>dinata, quod vnum intenditur per se, aliud vero 
+      <lb ed="#R" n="119"/>tantum est intentum per accidens, &amp; hoc est 
+      in<lb ed="#R" n="120" break="no"/>defectu alterius, aspiciens illa non aspicit illa 
+      <lb ed="#R" n="121"/>quae sunt per accidens intenta, sed tantummodo 
+      <lb ed="#R" n="122"/>illa, quae tantum sunt per se: sed poenae pro 
+      pec<lb ed="#R" n="123" break="no"/>cato per se sunt intentae: accidit autem, quod 
+      <lb ed="#R" n="124"/>illae poenae sint purgatorij poenae: quia si 
+      exsoluun<lb ed="#R" n="125" break="no"/>tur, hic non exsoluuntur in purgatorio: sic 
+      acci<lb ed="#R" n="126" break="no"/>dit, quod sinta iure, quia etsi ius non 
+      determi<lb ed="#R" n="127" break="no"/>nasset, adhuc secundum aequitatem iusttitia in 
+      di<lb ed="#R" n="128" break="no"/>uino prospectu tantum responderet de poena isti 
+      <lb ed="#R" n="129"/>peccato, &amp; tantum isti: ergo indulgentiae per 
+      se<lb ed="#R" n="130" break="no"/>aspiciunt poenas debitas pro peccato, &amp; non vtrum 
+      <lb ed="#R" n="131"/>a iure, vel purgatorio, nisi tantum per accidens. 
+    </p>
+               <p>
+                  <lb ed="#R" n="132"/>Imaginor autem sic, quod quando dicitur, do 
+      <lb ed="#R" n="133"/>tibi tot dies de indulgentia, illi dies non 
+      respi<lb ed="#R" n="134" break="no"/>ciunt poenas purgatorij, vel iuris, sed per se poenas 
+      <!--0150.xml-->
+      <pb ed="#R" n="150"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>temporales debitas pro peccato, quae 
+      tempore<lb ed="#R" n="2" break="no"/>mensurantur. 
+    </p>
+               <p>
+                  <lb ed="#R" n="3"/>Sciendum tamen vlterius, ad videndum quid per 
+      <lb ed="#R" n="4"/>dies, &amp; quot dies remittantur de poena ijs, qui sunt 
+      <lb ed="#R" n="5"/>in purgatorio, praesertim cum ibi non sint dies 
+      ta<lb ed="#R" n="6" break="no"/>les. Sciendum est breuiter, quod (vt dictum est ) 
+      <lb ed="#R" n="7"/>cuilibet peccatori per se correspondet alia poena 
+      <lb ed="#R" n="8"/>temporalis se cundum diuinam aequitatem taxata: 
+      <lb ed="#R" n="9"/>eso ergo, quod pro decem peccatis secundum 
+      di<lb ed="#R" n="10" break="no"/>ninam taxationem tantum debeatur de poena 
+      <lb ed="#R" n="11"/>quod respondeant hic ei mille dies: sed forte illi 
+      <lb ed="#R" n="12"/>mille dies aequiualent tribus diebus in purgatorio: 
+      <lb ed="#R" n="13"/>Si tunc dicatur in scripto: Relaxamus tibi de 
+      pec<lb ed="#R" n="14" break="no"/>catis impositis trecentos dies, non est aliud dicere, 
+      <lb ed="#R" n="15"/>nisi tantum diminuimus de poena taxata pro 
+      pec<lb ed="#R" n="16" break="no"/>catis, quibus prius correspondebant hic mille dies, 
+      <lb ed="#R" n="17"/>vt non correspondeant nunc nisi septingenti: &amp; si ipse 
+      <lb ed="#R" n="18"/>tunc decederet, corresponderent ci proportionaliter 
+      <lb ed="#R" n="19"/>in purgatorio vndecim dies, cui primo 
+      correspon<lb ed="#R" n="20" break="no"/>debant tres dies. 
+    </p>
+               <p>
+                  <lb ed="#R" n="21"/>Ex his sequitur primo, quod cum dicitur: 
+      Indul<lb ed="#R" n="22" break="no"/>gemus decem dies, isti dies non sunt dies 
+      purgato<lb ed="#R" n="23" break="no"/>rij per se, nec dies iuris, sed per se es tantum de 
+      <lb ed="#R" n="24"/>poena, quae aequipollet decem diebus nostris. 
+    </p>
+               <p>
+                  <lb ed="#R" n="25"/>Secundo, quod cum dicitur: Relaxamus decem 
+      <lb ed="#R" n="26"/>dies, non intelliguntur relaxari decem dies in 
+      pur<lb ed="#R" n="27" break="no"/>gatorio, sed tantum de poena in purgatorio, 
+      quan<lb ed="#R" n="28" break="no"/>tum aequiualet poenae hic, quae correspondet 
+      de<lb ed="#R" n="29" break="no"/>cem diebus nostris. Et ratio est, quia dies 
+      purgato<lb ed="#R" n="30" break="no"/>rij, vel dies nostri tantum sunt ibi per accidens, 
+      <lb ed="#R" n="31"/>quia per se indulgentia tantum aspicit 
+      quantita<lb ed="#R" n="32" break="no"/>tem poenae, quam exprimit per quantitatem 
+      die<lb ed="#R" n="33" break="no"/>rum nostrorum. Et per consequens opiniones duae, 
+      <lb ed="#R" n="34"/>non stant, quae dicebant; vna quod indulgentia 
+      <lb ed="#R" n="35"/>aspicit poenas taxatas a iure, puta tot dies, vel tot; 
+      <lb ed="#R" n="36"/>alia vero quae aspicit poenas purgatorij. 
+    </p>
+               <p>
+                  <lb ed="#R" n="37"/>Ad argumentum in oppositum principale 
+      respon<lb ed="#R" n="38" break="no"/>deo in rei veritate, parum legimus de istis 
+      indul<lb ed="#R" n="39" break="no"/>gentijs, vt sit nobis traditum ab Apostolis, vel 
+      San<lb ed="#R" n="40" break="no"/>ctis, videtur tamen quod institutae fuerunt per Gre 
+      <lb ed="#R" n="41"/>gorium, qui ob hoc videtur statuisse Stationes ad 
+      <lb ed="#R" n="42"/>Sanctos. Et quod Sancti parum locuti fuerunt 
+      de<lb ed="#R" n="43" break="no"/>tali materia, forte ratio est, quia supponebant illas, 
+      <lb ed="#R" n="44"/>tanquam aliquid per se notum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="45"/>Sed videndum est hic vnum de indulgentijs, quod 
+      <lb ed="#R" n="46"/>est magis difficile. Vtrum scilicet indulgentiae 
+      tan<lb ed="#R" n="47" break="no"/>tum valeant, quantum sonant; si enim tantum 
+      va<lb ed="#R" n="48" break="no"/>leant quantum sonant ad literam, videntur sequi 
+      <lb ed="#R" n="49"/>inconuenientia multa, primo quia inaequaliter 
+      la<lb ed="#R" n="50" break="no"/>borantes aequaliter reportabunt, &amp; qui tempore 
+      Bo<lb ed="#R" n="51" break="no"/>nifacij visitauerunt limina Apostolorum tantum 
+      <lb ed="#R" n="52"/>reportasssent, qui iuerunt Romam de Roma ipsa, 
+      si<lb ed="#R" n="53" break="no"/>cut qui de Noruegia. 
+    </p>
+               <p>
+                  <lb ed="#R" n="54"/>Item, inaequaliter reportarent, qui dant 
+      aequali<lb ed="#R" n="55" break="no"/>ter; si enim haberes centum peccata, &amp; alius vnum, 
+      <lb ed="#R" n="56"/>tertia pars poenitentiae tuae, quae est multo maior 
+      <lb ed="#R" n="57"/>incomparabiliter, remitteretur, &amp; similiter 
+      tertia<lb ed="#R" n="58" break="no"/>pars alterius propter aequale datum, puta si sit 
+      in<lb ed="#R" n="59" break="no"/>rescripto, quod qui dederit decem, remittatur ei 
+      <lb ed="#R" n="60"/>pars tertia de poenis, quas debuisset exsoluere pro 
+      <lb ed="#R" n="61"/>peccatis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="62"/>Item si dicatur in rescripto, Indulgemus centum 
+      <lb ed="#R" n="63"/>annos, nunquid erat iste centum annis mansurus 
+      <lb ed="#R" n="64"/>in purgatorio? Respondeo ad istud dubium, quod 
+      <lb ed="#R" n="65"/>sicut Papa dispensat, sic valent, &amp; sic continentur 
+      <lb ed="#R" n="66"/>in rescripto. Respondeo, ad inconuenientia, quae 
+      <lb ed="#R" n="67"/>sequuntur de imparitate laboris, &amp; praemij dati &amp; 
+      <!--0150.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>recepti, esto sic in nomine Domini, ex quo factum 
+      <lb ed="#R" n="69"/>est, valent, &amp; ex quo facit, factum est. 
+    </p>
+               <p>
+                  <lb ed="#R" n="70"/>Potest tamen dici ad primum inconueniens, quod 
+      <lb ed="#R" n="71"/>aequaliter lucrabatur, qui tempore Bonifacij 
+      per<lb ed="#R" n="72" break="no"/>rexit de Noruegia, quantum qui de Roma, &amp; hoc 
+      <lb ed="#R" n="73"/>quantum ad id, pro quo data est indulgentia, 
+      scili<lb ed="#R" n="74" break="no"/>cet de remissione poenae, non tamen tantum 
+      lucra<lb ed="#R" n="75" break="no"/>batur, qui de Roma de merito, &amp; de gloria, 
+      quan<lb ed="#R" n="76" break="no"/>tum alius: nunc autem plus valet modicum 
+      de<lb ed="#R" n="77" break="no"/>praemio, per quod acquiratur gradus aliquis 
+      glo<lb ed="#R" n="78" break="no"/>riae, quantum mille de remissione poenae, vnde pro 
+      <lb ed="#R" n="79"/>labore maiori correspondebit alteri gradus aliquis 
+      <lb ed="#R" n="80"/>gloriae, alteri vero qui parum laborauit, tantum 
+      <lb ed="#R" n="81"/>respondebit remissio poenae. Per idem dico ad 
+      se<lb ed="#R" n="82" break="no"/>cundum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="83"/>Ad tertium respondeo, nescio bene 
+      definire<lb ed="#R" n="84" break="no"/>quantum pro peccato stabit quis in purgatorio, 
+      <lb ed="#R" n="85"/>tamen puto, quod intensa poena debeatur 
+      pecca<lb ed="#R" n="86" break="no"/>to, &amp; cum hoc sit misericordia Dei magna, &amp; ideo 
+      <lb ed="#R" n="87"/>in paruo tempore puto, quod exsoluatur. Nescio 
+      <lb ed="#R" n="88"/>si verum es, quod dicunt quidam, aliquos ibi esse 
+      <lb ed="#R" n="89"/>per mille annos, aliquos vero vsque ad diem 
+      Judi<lb ed="#R" n="90" break="no"/>cij. Illi vero dies expressi in rescripto debent 
+      in<lb ed="#R" n="91" break="no"/>telligi, vt in praecedenti quaestione dictum est. Ad 
+      <lb ed="#R" n="92"/>argumentum principale patet quid dicendum. 
+    </p>
+            </div>
+            <div>
+               <head>Articulus 2</head>
+               <head type="question-title">
+      Utrum solus Papa possit indulgentias concedere.
+    </head>
+               <p>
+                  <lb ed="#R" n="93"/>ARTICVLVS II 
+      <lb ed="#R" n="94"/>Vtrum solus Papa possit indulgentias concedere.
+    </p>
+               <p>
+                  <lb ed="#R" n="95"/>QVo ad secundam quaestionem arguo primo, 
+      <lb ed="#R" n="96"/>quod solus Papa possit huiusmodi 
+      indulgen<lb ed="#R" n="97" break="no"/>tias dare, sic: Solus ille, qui habet 
+      meri<lb ed="#R" n="98" break="no"/>tum passionis Christi in suo thesauro; potest 
+      indul<lb ed="#R" n="99" break="no"/>gentias dare: sed solus Papa habet huiusmodi 
+      the<lb ed="#R" n="100" break="no"/>saurum in potestate sua, primo quia meritum 
+      Chri<lb ed="#R" n="101" break="no"/>sti(cum sit vniuersale)residet apud vniuersalem 
+      <lb ed="#R" n="102"/>potestatem: sed auctoritas solius Papae est 
+      vniuer<lb ed="#R" n="103" break="no"/>salis: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="104"/>In oppositum est, quia videmus de facto de 
+      Epi<lb ed="#R" n="105" break="no"/>scopis, &amp; Archiepiscopis, qui huiusmodi indulgeo 
+      <lb ed="#R" n="106"/>tias largiuntur, &amp; intra diocesim, de quibus 
+      suppo<lb ed="#R" n="107" break="no"/>nendum non est, quod errent: ergo. Respondeo, 
+      <lb ed="#R" n="108"/>ad euidentiam huius quaestionis pono duas 
+      propo<lb ed="#R" n="109" break="no"/>sitiones. 
+    </p>
+               <p>
+                  <lb ed="#R" n="110"/>Prima est, quod loquendo de indulgentia per 
+      <lb ed="#R" n="111"/>modum recompensationis, quae fit per bonorum 
+      <lb ed="#R" n="112"/>communicationem, omnis praelatus habens 
+      con<lb ed="#R" n="113" break="no"/>gregationem aliquam potestt facere 
+      communica<lb ed="#R" n="114" break="no"/>tionem bonorum talium, &amp; sic Episcopus quilibet 
+      <lb ed="#R" n="115"/>habens diocesim, &amp; Abbas habens monachos, &amp; 
+      <lb ed="#R" n="116"/>Prior habens subditos, vel quicumque praelatus 
+      a<lb ed="#R" n="117" break="no"/>lius potest bona communicare inferiorum suorum. 
+      <lb ed="#R" n="118"/>Ideo hoc modo non est dubitandum: Vtrum 
+      Epi<lb ed="#R" n="119" break="no"/>scopi possint indulgentias dare; imo 
+      praesupponen<lb ed="#R" n="120" break="no"/>dum est rationabiliter, quod tot fuerunt sancti 
+      in<lb ed="#R" n="121" break="no"/>sua diocesi, quod eorum merita ascenderunt ad 
+      <lb ed="#R" n="122"/>tantam aequalitatem poenarum pro culpis 
+      debita<lb ed="#R" n="123" break="no"/>rum, quod applicando eam alicui bene putatur 
+      re<lb ed="#R" n="124" break="no"/>compensatio quadraginta dierum fieri, quos dant com 
+      <lb ed="#R" n="125"/>muniter Episcopi de indulgentia: sed de aliis citra 
+      <lb ed="#R" n="126"/>Episcopos esset praesumptio, si diceret praelatus, de 
+      <lb ed="#R" n="127"/>merito fratrum meorum confidens relaxo, &amp;c. 
+      ra<lb ed="#R" n="128" break="no"/>tio est, quia certum non est. quod ascendant ad 
+      tan<lb ed="#R" n="129" break="no"/>tum, quod inaequalitatem reducere valeant ad 
+      ae<lb ed="#R" n="130" break="no"/>qualitatem, &amp; hinc est, quod inseriores 
+      communi<lb ed="#R" n="131" break="no"/>ter non sic relaxant. 
+    </p>
+               <p>
+      <!--0151.xml-->
+                  <pb ed="#R" n="151"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Dicetur: Ita parum scietur de vna parochia; 
+      <lb ed="#R" n="2"/>Vtrum merita sufficiant ad aequandum poenas. 
+      Re<lb ed="#R" n="3" break="no"/>spondeo: praesumendum est, quod tanta Ecclesiae 
+      <lb ed="#R" n="4"/>congregatio sufficiat, &amp; habeat tantum de meritis, 
+      <lb ed="#R" n="5"/>quod possit pro poenis huiusmodi paucis satis 
+      face<lb ed="#R" n="6" break="no"/>re tantum. Adhuc non sufficit hoc, ideo pono 
+      pro<lb ed="#R" n="7" break="no"/>positionem secundam talem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="8"/>Aliqui enim dicunt, quod solus Papa potest 
+      au<lb ed="#R" n="9" break="no"/>ctoritate, &amp; de iure dare indulgentias, alij vero ex 
+      <lb ed="#R" n="10"/>commissione, &amp; ideo taxatus est eis modus, &amp; 
+      quan<lb ed="#R" n="11" break="no"/>titas, quadraginta scilicet dierum. Alij dicunt, qui 
+      <lb ed="#R" n="12"/>quilibet Episcopus est successor Apostolorum, ideo 
+      <lb ed="#R" n="13"/>auctoritatem habet super meritum Christi. 
+    </p>
+               <p>
+                  <lb ed="#R" n="14"/>Mihi videtur, quod solus Papa auctoritatiue 
+      po<lb ed="#R" n="15" break="no"/>test per modum relaxationis authenticae poenas 
+      re<lb ed="#R" n="16" break="no"/>laxare. Ratio est, quia sibi soli dictum: 
+      Quodcum<lb ed="#R" n="17" break="no"/>que solueris, &amp;c. sed per modum 
+      recompensatio<lb ed="#R" n="18" break="no"/>nis, &amp; satisfacttionis, videtur mihi dicendum, quod 
+      <lb ed="#R" n="19"/>non solus Papa sic possit rela xare, sed &amp; alij, puta 
+      <lb ed="#R" n="20"/>Episcopi, licet modo magis arctato. Ratio est, 
+      <lb ed="#R" n="21"/>quia corpus Ecclesiae est hierarchice ordinatum, vt 
+      <lb ed="#R" n="22"/>sicut Papa praesidet omnibus de iure, sic Episcopus 
+      <lb ed="#R" n="23"/>praesidet aliquibus: Vnde puto, quod de iure 
+      Epi<lb ed="#R" n="24" break="no"/>scopis aliquis populus sit subiectus, &amp; quod caput 
+      <lb ed="#R" n="25"/>sit diocesis, quae vnum partiale corpus est, sicut 
+      Ec<lb ed="#R" n="26" break="no"/>clesia tota est vnum corpus totale, cuius caput est 
+      <lb ed="#R" n="27"/>Papa, &amp; ideo de iure possunt indulgentias, licet per 
+      <lb ed="#R" n="28"/>medium arctatae satisfactionis, &amp; 
+      recompensatio<lb ed="#R" n="29" break="no"/>nis etiam elargiri. 
+    </p>
+               <p>
+                  <lb ed="#R" n="30"/>Tunc restat dubium: Quantum possunt Episcopi. 
+      <lb ed="#R" n="31"/>Respondeo, fon possunt nic magnae 
+      demonstratio<lb ed="#R" n="32" break="no"/>nes fieri, dico tamen quod non video, hoc 
+      supposi<lb ed="#R" n="33" break="no"/>to, quod immediate dicum est, quare magis 
+      qua<lb ed="#R" n="34" break="no"/>draginta dies, quam in alio numero. Quod si 
+      de<lb ed="#R" n="35" break="no"/>iure arctati sunt ad talem numerum, videtur esse 
+      <lb ed="#R" n="36"/>dicendum, quod solus Papa hoc habeat de iure, alij 
+      <lb ed="#R" n="37"/>vero ex sola commisssione. Vel posset dici, quod 
+      <lb ed="#R" n="38"/>quantum est de iure Ecclesiae primitiuae, plus 
+      pos<lb ed="#R" n="39" break="no"/>sent Episcopi, arctati tamen sunt ad numerum 
+      il<lb ed="#R" n="40" break="no"/>lum a legislatore. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="220"/>
+            <cb ed="#R" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h75514"> <!-- l4-d47q1 -->
+            <head>Quaestio 1</head>
+            <p>
+               <lb ed="#R" n="118"/>Questio Vnica.
+    </p>
+            <div>
+               <head>Articulus 1</head>
+               <head type="question-title">
+          Utrum Iuditium uniuersale sit futurum.
+        </head>
+               <p>
+                  <lb ed="#R" n="119"/>ARTICVLVS J. 
+      <lb ed="#R" n="120"/>Vtrum Iuditium vniuersale sit futurum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="121"/>ET arguo primo, quod non quia 
+      iudica<lb ed="#R" n="122" break="no"/>re data sententia nihil est: sed si 
+      Iudi<lb ed="#R" n="123" break="no"/>cium vniuersale esset futurum, illud 
+      se<lb ed="#R" n="124" break="no"/>queretur datam iam sententiam. Probo, 
+      <lb ed="#R" n="125"/>quia in inscanti mortis quilibet capit 
+      <lb ed="#R" n="126"/>sententiam suam, ergo.
+    </p>
+               <p>
+      <!--0221.xml-->
+                  <pb ed="#R" n="221"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>
+                  <!-- line coord error -->
+                  <lb ed="#R" n="2"/>In oppositum est articulus Fidei expresssus 
+      in<lb ed="#R" n="3" break="no"/>Symbolo. Inde venturus est, &amp;c. Respondeo hic 
+      <lb ed="#R" n="4"/>videnda sunt per ordinem, quare erit iuditium 
+      vni<lb ed="#R" n="5" break="no"/>uersale. In qua forma Christus iudicabit. In quo 
+      <lb ed="#R" n="6"/>loco: quibus testibus: quot signa erunt praeuia 
+      <lb ed="#R" n="7"/>&amp; vltimo de igne conflagrationis. De primo 
+      di<lb ed="#R" n="8" break="no"/>cunt quidam, quod vniuersale Juditium est futurum 
+      <lb ed="#R" n="9"/>vt finis mundi correspondeat principio. in 
+      prin<lb ed="#R" n="10" break="no"/>cipio autem mundi hoc videmus, quod vltra 
+      par<lb ed="#R" n="11" break="no"/>ticulares productiones secit Deus, &amp; statuit vnam 
+      <lb ed="#R" n="12"/>generalem productionem omnium, quam 
+      distin<lb ed="#R" n="13" break="no"/>xit per opera sex dierum: ergo ipsi, in quantum 
+      <lb ed="#R" n="14"/>est finis omnium, vltra partiales sententias de fine 
+      <lb ed="#R" n="15"/>cuiuslibet, congruum fuit institui vnam generalem. 
+      <lb ed="#R" n="16"/>ratio ista bona est, &amp; persuadibilis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="17"/>Potest reddi vna causa talis: quod Juditium 
+      fu<lb ed="#R" n="18" break="no"/>turum vniuersale est, vt conuincatur improbitas 
+      <lb ed="#R" n="19"/>damnatorum: scit enim Deus quod damnati 
+      num<lb ed="#R" n="20" break="no"/>quam cessabunt Deum malignari, &amp; de 
+      Iusttitia<lb ed="#R" n="21" break="no"/>Dei, quasi iniustitia conqueri, &amp; ideo vt cunctis 
+      <lb ed="#R" n="22"/>appareat eorum causa, legentibus singulis 
+      facino<lb ed="#R" n="23" break="no"/>ra in conscientijs eorum, statuit vniuersale Juditium, 
+      <lb ed="#R" n="24"/>ne iniuste apparere possint puuiri, sed magis citra 
+      <lb ed="#R" n="25"/>condignum, &amp; ideo misericorditer cum eis agi. 
+    </p>
+               <p>
+                  <lb ed="#R" n="26"/>Secundo, in qua forma iudicabit. Dicitur, quod 
+      <lb ed="#R" n="27"/>non in forma diuina, vnde tantum apparebit in 
+      <lb ed="#R" n="28"/>forma hominis. Alij dicunt quod bonis apparebit 
+      <lb ed="#R" n="29"/>in forma Dei, malis vero in forma hominis. Alij 
+      <lb ed="#R" n="30"/>dicunt, quod vtrisque apparebit in forma Dei, sed 
+      <lb ed="#R" n="31"/>differenter. quia bonis intuitiue tantum, &amp; 
+      facili<lb ed="#R" n="32" break="no"/>ter; malis vero abstractiue &amp; per speciem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="33"/>Non puto, quod Deus faciat eis scilicet 
+      damna<lb ed="#R" n="34" break="no"/>tis tantum honorem, quod exhibeat se eis etiam 
+      <lb ed="#R" n="35"/>abstractiue &amp; notitia clara; ideo apparebit eis 
+      tan<lb ed="#R" n="36" break="no"/>tummodo in forma hominis. In forma enim Dei 
+      <lb ed="#R" n="37"/>apparebit eis per fidem, &amp; quadam notitia, 
+      qua<lb ed="#R" n="38" break="no"/>si demonstrationis a posteriori, per operationes 
+      <lb ed="#R" n="39"/>quasdam quae apparebunt, quae arguent, quod 
+      ho<lb ed="#R" n="40" break="no"/>mo ille sit vnitus Deitati: dico ergo, quod Christus 
+      <lb ed="#R" n="41"/>iudicabit in forma serui, &amp; quod in forma eadem 
+      <lb ed="#R" n="42"/>apparebit.
+    </p>
+               <p>
+                  <lb ed="#R" n="43"/>Sed numquid corpus eius apparebit gloriosum, 
+      <lb ed="#R" n="44"/>&amp; gloria animae. Respondeo: forte daemon videbit 
+      <lb ed="#R" n="45"/>actum beatificum beatorum, &amp; per actum illum 
+      <lb ed="#R" n="46"/>veniet in notitiam obiecti beatifici. sed quicquid 
+      <lb ed="#R" n="47"/>sit de hoc, alias habebit locum, quia in secundo: 
+      <lb ed="#R" n="48"/>visio autem illa non esset eis ad gaudium &amp; 
+      perfe<lb ed="#R" n="49" break="no"/>ctionem, sed totum esset eis in poenam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="50"/>Dico ergo, quod iudicabit in forma serui, sed 
+      <lb ed="#R" n="51"/>cum auctoritate diuina, quia perpendent quod 
+      quic<lb ed="#R" n="52" break="no"/>quid faciet homo ille, faciet auctoritate vnitae sibi 
+      <lb ed="#R" n="53"/>Deitatis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="54"/>Sed dubium est, quare non possunt a priori 
+      vide<lb ed="#R" n="55" break="no"/>re, quod homo iste coniunctus &amp; vnitus est Deitati? 
+      <lb ed="#R" n="56"/>si enim vnio illa sit relatio realis, quare non 
+      pote<lb ed="#R" n="57" break="no"/>rit eam apprehendere intellectus daemonis, qui 
+      per<lb ed="#R" n="58" break="no"/>spicacissimus est in naturalibus. De hoc alias in 
+      <lb ed="#R" n="59"/>tertio. 
+    </p>
+               <p>
+                  <lb ed="#R" n="60"/>Nunc de loco, vbi iudicabit. Dico quod prope 
+      <lb ed="#R" n="61"/>locum passionis inter montem vnde ascendit in 
+      <lb ed="#R" n="62"/>caelum, &amp; montem vbi passus est, ibi dico totum 
+      <lb ed="#R" n="63"/>mundum iudicabit, &amp; vocatur locus ille hodie 
+      <lb ed="#R" n="64"/>vallis Josaphat. 
+    </p>
+               <p>
+                  <lb ed="#R" n="65"/>Sed dubium est, quomodo in tam paruo loco 
+      <lb ed="#R" n="66"/>comparatiue stabit tanta multitudo. Ad hoc 
+      di<lb ed="#R" n="67" break="no"/>citur, quod Christus stabit in loco alto in 
+      aere<lb ed="#R" n="68" break="no"/>quasi in loco illo, vbi Apostoli vltimo videbant 
+      pe<lb ed="#R" n="69" break="no"/>des eius ascendentis in caelum, in quo videre desie- 
+      <!--0221.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="70"/>runt ipsum, deinde stabunt beati ordinati sub eo 
+      <lb ed="#R" n="71"/>secundum merita. 
+    </p>
+               <p>
+                  <lb ed="#R" n="72"/>Tertio erunt mali compressi in terra ad modum 
+      <lb ed="#R" n="73"/>iumentorum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="74"/>De Testibus dico, quod conscientia, legentibus 
+      <lb ed="#R" n="75"/>singulis in eorum conscientijs commissa peccata 
+      <lb ed="#R" n="76"/>vt appareat ex hoc iustum iuditium iudicantis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="77"/>Sed hic est dubium, quomodo simul poterit quis 
+      <lb ed="#R" n="78"/>intelligere tot transgressiones, tot a ctus bonos in 
+      <lb ed="#R" n="79"/>tot conscientijs tot bonorum &amp; malorum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="80"/>Propter hanc difficultatem dicunt quidam, quod 
+      <lb ed="#R" n="81"/>iuditium non erit in instanti, sed in quodam 
+      tem<lb ed="#R" n="82" break="no"/>pore, tamen paruo. Sed hoc non sufficit, quia tanta 
+      <lb ed="#R" n="83"/>difficultas est de paruo tempore, quanta de 
+      instan<lb ed="#R" n="84" break="no"/>ti: quomodo enim in tam paruo tempore 
+      pote<lb ed="#R" n="85" break="no"/>runt discurrere &amp; habere successsiuas 
+      intellectio<lb ed="#R" n="86" break="no"/>nes tantae multitudinis, &amp; innumerabilium quasi 
+      <lb ed="#R" n="87"/>cognitorum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="88"/>Propter quod videtur mihi, quod non sit 
+      im<lb ed="#R" n="89" break="no"/>possibile tot intellectiones esse simul actu in 
+      intel<lb ed="#R" n="90" break="no"/>lectu, quot possunt esse species. hanc probo, primo 
+      <lb ed="#R" n="91"/>per Commentatorem 3. de anima Comm. 5. vbi 
+      <lb ed="#R" n="92"/>dicit, quod in substantijs abstractis estt multitudo 
+      <lb ed="#R" n="93"/>intellectorum simul. 
+    </p>
+               <p>
+                  <lb ed="#R" n="94"/>Item ratione. Formae enim se impediunt in 
+      eo<lb ed="#R" n="95" break="no"/>dem subiecto, vel ideo quia vna expellit formaliter 
+      <lb ed="#R" n="96"/>aliam; vel ideo quia abijciunt a subiecto, eo modo, 
+      <lb ed="#R" n="97"/>quo formae rerum receptae in cogitatiua adimunt 
+      <lb ed="#R" n="98"/>species, eo quod receptio earum ibi semper est cum 
+      <lb ed="#R" n="99"/>transmutatione corporali, &amp; passione abijciente 
+      <lb ed="#R" n="100"/>&amp; tot posssent essse simul, quod spiritus necessarij to 
+      <lb ed="#R" n="101"/>taliter abijcerentur: hoc secundo modo non 
+      impe<lb ed="#R" n="102" break="no"/>diunt se duae species in anima, quia anima non 
+      pa<lb ed="#R" n="103" break="no"/>titur passione abiiciente, nec a subiecto; nec a 
+      qua<lb ed="#R" n="104" break="no"/>litate aliqua subiecti; nec a spiritibus, eo quod 
+      re<lb ed="#R" n="105" break="no"/>ceptio formarum in intellectiua non est cum 
+      trans<lb ed="#R" n="106" break="no"/>mutatione reali. Similiter non se impediunt, quod 
+      <lb ed="#R" n="107"/>vna formaliter abijciat aliam, eo quod nullam 
+      ha<lb ed="#R" n="108" break="no"/>bent adinuicem contrarictatem, quare &amp;c. 
+    </p>
+               <p>
+                  <lb ed="#R" n="109"/>Hoc idem confirmo per opinionem illorum, qui 
+      <lb ed="#R" n="110"/>dicunt, quod species est idem quod actus: &amp; videtur 
+      <lb ed="#R" n="111"/>esse opinio Phylosophi &amp; Commentatoris, vt 
+      dice<lb ed="#R" n="112" break="no"/>tur in secundo. Secundum enim istos vel oportet 
+      <lb ed="#R" n="113"/>dicere quod anima, quando actu non intelligit, sit 
+      <lb ed="#R" n="114"/>sicut tabula rasa; vel quod in ea sint species rerum 
+      <lb ed="#R" n="115"/>&amp; similitudines, quae sunt ipsae intellectiones, nec 
+      <lb ed="#R" n="116"/>ex hoc oportet, quod eo ipso quod habet actu 
+      in<lb ed="#R" n="117" break="no"/>tellectionem, intelligat, vt dicetur ibi. 
+    </p>
+               <p>
+                  <lb ed="#R" n="118"/>Nunc ad propositum, poterit anima cuiuslibet 
+      <lb ed="#R" n="119"/>in iudicio existentis tot simul intelligere, quot 
+      ha<lb ed="#R" n="120" break="no"/>bet species, non repugnabit autem tunc simul 
+      ha<lb ed="#R" n="121" break="no"/>bere species omnium illorum, ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="122"/>De signis praecedentibus Judicium, legitur in 
+      An<lb ed="#R" n="123" break="no"/>nalibus Judaeorum, quod erunt quindecim. 
+      Re<lb ed="#R" n="124" break="no"/>quire ibi. 
+    </p>
+               <p>
+                  <lb ed="#R" n="125"/>Vltimo de igne conflragrationis, a quo erit. 
+      <lb ed="#R" n="126"/>Dicitur, quod erit eiusdem speciei cum igne 
+      ele<lb ed="#R" n="127" break="no"/>mentari: vnde autem generabitur, dicitur, quod 
+      <lb ed="#R" n="128"/>ignis descendet de sphaera sua. Hoc non videtur 
+      <lb ed="#R" n="129"/>alijs, quod nō oportet esse ignem tantum, eo quod 
+      <lb ed="#R" n="130"/>ascendet tantum, quantum aquae diluuii 
+      ascende<lb ed="#R" n="131" break="no"/>runt. Ideo dicitur ab aliis, quod hoc erit 
+      miracu<lb ed="#R" n="132" break="no"/>lose: congregabuntur enim omnia astra, sol, &amp; alia, 
+      <lb ed="#R" n="133"/>agentia natura lia, a quibus generabitur ille ignis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="134"/>Sed quare erit ille ignis; dicitur, quod erit ad 
+      <lb ed="#R" n="135"/>purgandum corpora. Secundo ad purgandam 
+      <lb ed="#R" n="136"/>sphaeram actiuorum &amp; passiuorum, rediget enim 
+      <lb ed="#R" n="137"/>in puluerem &amp; in suas qualitates naturales; &amp; aquam 
+      <!--0222.xml-->
+      <pb ed="#R" n="222"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>reducet ad locum suum, faciet euaporare 
+      salsedi<lb ed="#R" n="2" break="no"/>nem maris, caeteraq. elementa purgabit 
+      vapori<lb ed="#R" n="3" break="no"/>bus admixtis, similiter purgabit totum 
+      hemisphae<lb ed="#R" n="4" break="no"/>rium, quod infecum est peccatis hominum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="5"/>Sed aduertendum, quod infectio illa non est 
+      se<lb ed="#R" n="6" break="no"/>cundum esse naturale, sed secundum esse morale 
+      <lb ed="#R" n="7"/>quod consistit in apprehensione hominum eo 
+      mo<lb ed="#R" n="8" break="no"/>do, quo dicimus, peccato carnis infici Ecclesiam, 
+      <lb ed="#R" n="9"/>quia omnes, qui apprehendunt eam sub tali 
+      condi<lb ed="#R" n="10" break="no"/>tione, apprehendunt eam cum quadam 
+      indignita<lb ed="#R" n="11" break="no"/>te: sic concipitur hodie totus aer cum quadam 
+      in<lb ed="#R" n="12" break="no"/>decentia, cum concipitur in ordine ad tot foe
+      dita<lb ed="#R" n="13" break="no"/>tes hominum, tunc autem concipietur per ignem 
+      <lb ed="#R" n="14"/>reduci ad quandam decentiam, &amp; hoc est ipsum 
+      <lb ed="#R" n="15"/>purgari. 
+    </p>
+               <p>
+                  <lb ed="#R" n="16"/>Sed quid de terra &amp; elementis, nunquid 
+      rema<lb ed="#R" n="17" break="no"/>nebunt opaca vel lucida. Dicunt quidam, quod 
+      <lb ed="#R" n="18"/>terra erit lucida, siue peruia, &amp; quasi cristallina 
+      <lb ed="#R" n="19"/>Alij dicunt, quod omnia conuertentur in ignem 
+      <lb ed="#R" n="20"/>&amp; sic tota sphaera actiuorum, &amp; passiuorum erit 
+      <lb ed="#R" n="21"/>ignis. Videtur mihi dicendum, quod terra 
+      rema<lb ed="#R" n="22" break="no"/>nebit in sua naturali dispositione, &amp; habebit 
+      na<lb ed="#R" n="23" break="no"/>turalem opacitatem, tamen non tantam quantam 
+      <lb ed="#R" n="24"/>modo, quia modo magis est opaca ex admixtione 
+      <lb ed="#R" n="25"/>corporum extraneorum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="26"/>Ad argumentum in oppositum, dicendum est, 
+      <lb ed="#R" n="27"/>quod sententiatus in Judicio secreto frequenter 
+      <lb ed="#R" n="28"/>ducitur ad publicum iudicium, vt appareat iustitia 
+      <lb ed="#R" n="29"/>ex parte Judicis, visa culpa ex parte rei. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="9"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-hb2486"> <!-- l4-d1prae -->
+            <head>Praeambulum</head>
+            <p>
+               <lb ed="#R" n="4"/>DISTINCTIO 1 
+      <lb ed="#R" n="5"/>
+               <!-- line coord error -->
+               <lb ed="#R" n="6"/>DE CAVSALITATE
+      <lb ed="#R" n="7"/>
+               <!-- line cord error -->
+               <lb ed="#R" n="8"/>SACRAMENTORVM. 
+    </p>
+            <p>
+               <lb ed="#R" n="9"/>Samaritanus, &amp;c. In isto quarto Libro 
+      post<lb ed="#R" n="10" break="no"/>quam Magister in aljs Libris egit de 
+      re<lb ed="#R" n="11" break="no"/>bus, agit nunc de signis, idest de 
+      Sacra<lb ed="#R" n="12" break="no"/>mentis, quae sunt signa effectus Dei in 
+      ani<lb ed="#R" n="13" break="no"/>ma nostra, scilicet gratiae, &amp; agit Magister 
+      <lb ed="#R" n="14"/>in ista prima Distinctione de Sacramentis 
+      <lb ed="#R" n="15"/>in generali, scilicet quoad eorum 
+      defini<lb ed="#R" n="16" break="no"/>tionem, quid sunt, &amp; quo ad finem quare 
+      <lb ed="#R" n="17"/>instituta sunt, &amp; quo ad eorum diff
+      eren<lb ed="#R" n="18" break="no"/>tiam, ex quibus etiam constent, quare ex 
+      <lb ed="#R" n="19"/>verbis &amp; elementis. 
+  </p>
+            <p>
+               <lb ed="#R" n="20"/>Quod vero de Sacramentis dicitur, quod 
+      ef<lb ed="#R" n="21" break="no"/>ficiunt, quod figurant, ideo in 
+      definitio<lb ed="#R" n="22" break="no"/>ne ista inquiro de duobus. Primo de 
+      cau<lb ed="#R" n="23" break="no"/>salitate ipsorum Sacramentorum in 
+      gene<lb ed="#R" n="24" break="no"/>rali: secundo de eorum definitione, &amp; 
+      quid<lb ed="#R" n="25" break="no"/>ditate. Ad euidentiam primi quaero 
+      qua<lb ed="#R" n="26" break="no"/>tuor quaestiones. Prima est. 
+    </p>
+            <p>
+               <lb ed="#R" n="27"/>Quaestio I. 
+    </p>
+            <p>
+               <lb ed="#R" n="28"/>1 Vtrum in Sacramentis nouae legis praeter 
+      <lb ed="#R" n="29"/>virtutem increatam oporteat ponere virtutem 
+      in<lb ed="#R" n="30" break="no"/>fuxam Sacramentis formaliter inhaerentem, quae 
+      <lb ed="#R" n="31"/>sit causa gratiae in anima nostra effectiue, ita quod 
+      <lb ed="#R" n="32"/>Deus mediantibus Sacramentis virtute eis infusa, 
+      <lb ed="#R" n="33"/>dicatur gratiam in anima creare. 
+    </p>
+            <p>
+               <lb ed="#R" n="34"/>2 Vtrum ponentes virtutem actiuam in 
+      Sacra<lb ed="#R" n="35" break="no"/>mentis sormaliter inhaerentem respectu gratiae, 
+      <lb ed="#R" n="36"/>maiorem causalitatem attribuant Sacramentis. 
+    </p>
+            <p>
+               <lb ed="#R" n="37"/>3 Vtrum Sacramenta nouae Legis agant instru 
+      <lb ed="#R" n="38"/>mentaliter ad gratiam. 
+    </p>
+            <p>
+               <lb ed="#R" n="39"/>4 Vtrum Sacramenta nouae Legis sint causa 
+      <lb ed="#R" n="40"/>per accidens, vel per se, causa sine qua non, vel 
+      cau<lb ed="#R" n="41" break="no"/>sa qua sic. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

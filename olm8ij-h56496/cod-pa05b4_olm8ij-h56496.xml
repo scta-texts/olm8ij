@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="164"/>
+            <cb ed="#R" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h56496"> <!-- l4-d25q1 -->
+            <head>Quaestio 1</head>
+            <p>
+               <lb ed="#R" n="102"/>Quaestio Vnica. 
+    </p>
+            <div>
+               <head>Articulus 1</head>
+               <head type="question-title">
+      Utrum solis Episcopis conueniat ministrare hoc 
+      Sacramentum Ordinis.
+    </head>
+               <p>
+                  <lb ed="#R" n="103"/>ARTICVLVUS I. 
+      <lb ed="#R" n="104"/>Vtrum solis Episcopis conueniat ministrare hoc 
+      <lb ed="#R" n="105"/>Sacramentum Ordinis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="106"/>QVANTVM ad primam 
+      <lb ed="#R" n="107"/>quaestionem arguo primo. 
+      <lb ed="#R" n="108"/>quod non: imo quod 
+      pos<lb ed="#R" n="109" break="no"/>sit etiam sacerdotibus 
+      sim<lb ed="#R" n="110" break="no"/>plicibus conuenire, &amp; 
+      a<lb ed="#R" n="111" break="no"/>lijs, sic: Cui 
+      communi<lb ed="#R" n="112" break="no"/>catur maius, potes etiam 
+      <lb ed="#R" n="113"/>communicari minus: sed 
+      <lb ed="#R" n="114"/>sacerdoti simplici 
+      com<lb ed="#R" n="115" break="no"/>municatur maius, quam sit ordines ministrare, 
+      sci<lb ed="#R" n="116" break="no"/>licet conficere corpus Domini: ergo.
+    </p>
+               <p>
+                  <lb ed="#R" n="117"/>In oppositum est, quia ad solum principem 
+      in<lb ed="#R" n="118" break="no"/>Ecclesia pertinet gradus, &amp; status in Ecclesia 
+      dis<lb ed="#R" n="119" break="no"/>ponere, &amp; dispensare, sed soli Episcopi sunt 
+      prin<lb ed="#R" n="120" break="no"/>cipes in Ecclesia: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="121"/>Respondeo hic sunt videnda tria. Primum est 
+      <lb ed="#R" n="122"/>de identitate suscipientium. Secundum de idonti- 
+      <!--0165.xml-->
+      <pb ed="#R" n="165"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>eate ministrorum, &amp; tertio de idoneitate signorum, 
+      <lb ed="#R" n="2"/>in quibus imprimitur character. 
+    </p>
+               <p>
+                  <lb ed="#R" n="3"/>De primo do istam regulam: Jdoneus suscipiens 
+      <lb ed="#R" n="4"/>est vir habens vsum rationis, non vitiatus corpore, 
+      <lb ed="#R" n="5"/>natus legitime, non prohibitus 
+      excommunicatio<lb ed="#R" n="6" break="no"/>ne, vel irregularitate, liber conditione. 
+    </p>
+               <p>
+                  <lb ed="#R" n="7"/>Dico primo vir, vt excludam sexum muliebrem, 
+      <lb ed="#R" n="8"/>&amp; hoc ratione immunditiae, &amp; honestatis in circũ- 
+      <lb ed="#R" n="9"/>stantibus, &amp; ratione imbecillitatis deliberatiuae ex 
+      <lb ed="#R" n="10"/>primo Politicorum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="11"/>Secundo dico, habens vsum rationis, vt 
+      exclu<lb ed="#R" n="12" break="no"/>dam amentes, fatuos, &amp; insensatos, &amp; pueros. 
+    </p>
+               <p>
+                  <lb ed="#R" n="13"/>Sed nunquid posset Papa dispensare in 
+      ordinan<lb ed="#R" n="14" break="no"/>do pueros. Respondeo: Credo, quod peccaret 
+      gra<lb ed="#R" n="15" break="no"/>uiter, non curo modo dicere, si de facto esset puer 
+      <lb ed="#R" n="16"/>ordinatus, bene tamen ratione necessitatis, 
+      quan<lb ed="#R" n="17" break="no"/>doque permittuntur quidam iuuenes ordinari, &amp; 
+      <lb ed="#R" n="18"/>potissime in religionibus, &amp; hoc quoad quatuor 
+      <lb ed="#R" n="19"/>ordines minores: sed hodie per sacrum Concilium 
+      <lb ed="#R" n="20"/>Tridentinum statutum est tempus suscipiendi 
+      or<lb ed="#R" n="21" break="no"/>dines, quod debet seruari. 
+    </p>
+               <p>
+                  <lb ed="#R" n="22"/>Sed quid de ordinibus maioribus? Puto, quod 
+      <lb ed="#R" n="23"/>grauiter peccaret, qui talibus sacros ordines 
+      mini<lb ed="#R" n="24" break="no"/>straret. 
+    </p>
+               <p>
+                  <lb ed="#R" n="25"/>Tertio dico, corpore non vitiatus, &amp; intelligo 
+      <lb ed="#R" n="26"/>enormiter, sicut mutilatus, &amp; huiusmodi. Ratio 
+      <lb ed="#R" n="27"/>est quia minister debet essse in corpore expeditus, 
+      <lb ed="#R" n="28"/>&amp; ne sit in turpitudinem, &amp; scandalum 
+      circum<lb ed="#R" n="29" break="no"/>santium. 
+    </p>
+               <p>
+                  <lb ed="#R" n="30"/>Quarto dixi, natus legitime, &amp; hoc propter 
+      ho<lb ed="#R" n="31" break="no"/>nestatem, &amp; decentiam status, &amp; hoc nisi 
+      interue<lb ed="#R" n="32" break="no"/>niat alia dispensatio. 
+    </p>
+               <p>
+                  <lb ed="#R" n="33"/>Quinto dixi, conditione liber, ad excludendum 
+      <lb ed="#R" n="34"/>seruum qui non debet ordinari. Ratio est, quia 
+      <lb ed="#R" n="35"/>ratione gradus, &amp; status Ecclesiastici, qui ad 
+      or<lb ed="#R" n="36" break="no"/>dines promouetur aliquo modo, quasi 
+      manumit<lb ed="#R" n="37" break="no"/>titur, &amp; fit extra Domini potestatem, &amp; ideo 
+      com<lb ed="#R" n="38" break="no"/>mitteretur, &amp; fieret iniustitia Domino suo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="39"/>Vltimo dico, excommunicatione non 
+      prohibi<lb ed="#R" n="40" break="no"/>tus, vel irregularitate, hoc dico, quia 
+      excommu<lb ed="#R" n="41" break="no"/>nicatus, etsi forte reciperet characterem, non 
+      reci<lb ed="#R" n="42" break="no"/>peret tamen gratiam, &amp; rem vltimam Sacramenti. 
+    </p>
+               <p>
+                  <lb ed="#R" n="43"/>Sed de irregularitate sciendum est, quod 
+      irre<lb ed="#R" n="44" break="no"/>gularitas cum sit poena, quandoque potest alicui 
+      ad<lb ed="#R" n="45" break="no"/>uenire sine culpa. vt propter homicidium iustum 
+      <lb ed="#R" n="46"/>sic si Judex puniat, &amp; occidat reum, &amp; Aduocatus, 
+      <lb ed="#R" n="47"/>qui aduocat, &amp; Notarius qui scribit, &amp; consimiles: 
+      <lb ed="#R" n="48"/>quandoque potest interuenire ex culpa, puta ex 
+      <lb ed="#R" n="49"/>simonia. De hoc dico, quod ordinatus scienter a 
+      <lb ed="#R" n="50"/>simoniaco non potest ministrare in ordine recepto, 
+      <lb ed="#R" n="51"/>sine dispensatione Papae. In similem poenam 
+      inci<lb ed="#R" n="52" break="no"/>dit, qui ponit se furtiue in numero vocatorum. Et 
+      <lb ed="#R" n="53"/>consimili poena plectitur, qui ministrat in 
+      ordine<lb ed="#R" n="54" break="no"/>non suscepto. 
+    </p>
+               <p>
+                  <lb ed="#R" n="55"/>Nunc secundo de ministro do regulam: Minister 
+      <lb ed="#R" n="56"/>idoneus est solus Episcopus, licet ex dispensatione 
+      <lb ed="#R" n="57"/>possit esse sacerdos. Dico secundo Episcopus 
+      qui<lb ed="#R" n="58" break="no"/>cunque, vt non excludatur malus, siue degradatus, 
+      <lb ed="#R" n="59"/>siue excommunicatus: isti enim possunt 
+      Sacramen<lb ed="#R" n="60" break="no"/>tum ordinis ministrare, quoad primam rem, licet non 
+      <lb ed="#R" n="61"/>quo ad secundam forte. Est tamen hic opinio 
+      quae<lb ed="#R" n="62" break="no"/>dam, quod degradatus, siue excommunicatus, 
+      quan<lb ed="#R" n="63" break="no"/>diu toleratur, potest ministrare ordines: quandiu 
+      <lb ed="#R" n="64"/>vero non toleratur, non potest. Doctores tamen 
+      <lb ed="#R" n="65"/>communiter hoc non tenent. Ratio est, quia 
+      Epi<lb ed="#R" n="66" break="no"/>scopo in consecratione committitur indelebilis po 
+      <lb ed="#R" n="67"/>testas modo dicto questione praecedenti. 
+    </p>
+               <p>
+                  <lb ed="#R" n="68"/>Alij dicunt, quod talis Episcopus potest mini- 
+      <!--0165.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>strare ordines, quantum in se est quantum ad vtrũ- 
+      <lb ed="#R" n="70"/>que effecum, quia habet indelebilem, &amp; 
+      inuaria<lb ed="#R" n="71" break="no"/>bilem respectu vtriusque potestatem: tamen alij 
+      te<lb ed="#R" n="72" break="no"/>nentur a tali ministro ordines non suscipere. 
+    </p>
+               <p>
+                  <lb ed="#R" n="73"/>Alij dicunt, quod bene habet potestatem, quoad 
+      <lb ed="#R" n="74"/>vtrumque effectum, sed non potestt ministrare sine 
+      <lb ed="#R" n="75"/>speciali dispensatione. 
+    </p>
+               <p>
+                  <lb ed="#R" n="76"/>Nunc tertio videndum est de signis, in quibus 
+      im<lb ed="#R" n="77" break="no"/>primitur character. Vbi sciendum, quod facile est 
+      <lb ed="#R" n="78"/>hoc videre in illis ordinibus, in quibus non 
+      im<lb ed="#R" n="79" break="no"/>primitur, nisi vna potestas: ibi enim character, vel 
+      <lb ed="#R" n="80"/>gratia imprimitur in tactu illius materiae, quae 
+      si<lb ed="#R" n="81" break="no"/>gnificat rem illius Sacramenti, sicut in tacttu 
+      cla<lb ed="#R" n="82" break="no"/>uium in ordinatione Ostiarij, &amp; in tactu libri in 
+      <lb ed="#R" n="83"/>ordinatione lectorum. Sed accolito datur duplex 
+      <lb ed="#R" n="84"/>potesas, per quam habet acum duplicem, vnum 
+      <lb ed="#R" n="85"/>circa ministros, alium circa materiam, vt portare 
+      <lb ed="#R" n="86"/>hostias, &amp; vinum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="87"/>Circa hoc dicunt Docttores, quod res 
+      Sacramen<lb ed="#R" n="88" break="no"/>ti infunditur in tactu eius, quod est magis 
+      princi<lb ed="#R" n="89" break="no"/>pale, puta in tactu vasis, sed non in tactu cerei. 
+      Vi<lb ed="#R" n="90" break="no"/>detur mihi, quod non sit inconueniens, quod detur 
+      <lb ed="#R" n="91"/>in tactu vtriusque successiue potestas aliqua, &amp; 
+      am<lb ed="#R" n="92" break="no"/>ba integrent vnam potestatem totalem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="93"/>De subdia cono dicitur, quod non datur ei 
+      effe<lb ed="#R" n="94" break="no"/>ctus &amp; res, &amp; Sacramentum, quando tangit 
+      librum<lb ed="#R" n="95" break="no"/>sed quando tangit patenam, &amp; calicem cum pane, 
+      <lb ed="#R" n="96"/>&amp; vino. 
+    </p>
+               <p>
+                  <lb ed="#R" n="97"/>Videtur mihi, quod totum sit necessarium, vt in 
+      <lb ed="#R" n="98"/>ambobus consistat ratio integri Sacramenti, sicut 
+      <lb ed="#R" n="99"/>dictum est de Sacramento poenitentiae, quod 
+      consi<lb ed="#R" n="100" break="no"/>stit in confessione, &amp; absolutione. 
+    </p>
+               <p>
+                  <lb ed="#R" n="101"/>De Diacono alij dicunt, quod in 
+      impositione<lb ed="#R" n="102" break="no"/>manuum, alij aliter. Dico, sicut dixi de alĳs, quod 
+      <lb ed="#R" n="103"/>totum est necessarium, vt vnum totale integrum 
+      <lb ed="#R" n="104"/>signum 
+    </p>
+               <p>
+                  <lb ed="#R" n="105"/>De Sacerdote dicunt aliqui, quod potestas 
+      con<lb ed="#R" n="106" break="no"/>ficiendi datur in tactu calicis cum patena: sed 
+      po<lb ed="#R" n="107" break="no"/>testas absoluendi datur cum dicitur, accipe 
+      spiri<lb ed="#R" n="108" break="no"/>tum sanctum, &amp;c. vnde &amp; omnes illae formae, vt 
+      pa<lb ed="#R" n="109" break="no"/>tet, sunt indicatiuae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="110"/>Ad argumentum in oppositum, Etsi conficere 
+      <lb ed="#R" n="111"/>corpus Christi sit dignius, quam ordines conferre, 
+      <lb ed="#R" n="112"/>&amp; hoc sit maius, est tamen difficilius, &amp; ideo ad 
+      <lb ed="#R" n="113"/>istum actum requiritur persona non tantum singu· 
+      <lb ed="#R" n="114"/>laris, vt electa sicut ad alium actum, quae etsi non sit 
+      <lb ed="#R" n="115"/>ita nobilis, tamen es difficilior, &amp; hinc est, quod 
+      <lb ed="#R" n="116"/>oportet hunc actum competere singularibus, &amp; 
+      <lb ed="#R" n="117"/>electis de omnibus personis. 
+    </p>
+            </div>
+            <div>
+               <head>Articulus 2</head>
+               <head type="question-title">
+        Verum Simonia sit vitium directe oppositum 
+        iustitiae.
+      </head>
+               <p>
+                  <lb ed="#R" n="118"/>ARTICULUS II. 
+      <lb ed="#R" n="119"/>Verum Simonia sit vitium directe oppositum 
+      <lb ed="#R" n="120"/>iustitiae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="121"/>AD secundam quaestionem: Vtrum Simonia 
+      <lb ed="#R" n="122"/>sit peccatum speciale oppositum iustitiae, 
+      ar<lb ed="#R" n="123" break="no"/>guo, quod non sic: ex prima ad Corinth. 1ο. cap. Si 
+      <lb ed="#R" n="124"/>nos vobis spiritualia seminamus, &amp;c. ergo videtur 
+      <lb ed="#R" n="125"/>velle Apostolus, quod pro spiritualibus accipere 
+      <lb ed="#R" n="126"/>mercedem non sit peccatum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="127"/>In oppositum est illud Act. 8. vbi dicit Petrus 
+      <lb ed="#R" n="128"/>Simoni volenti emere gratiam Spiritus sancti: 
+      Pe<lb ed="#R" n="129" break="no"/>cunia tua tecum sit in perditionem, &amp; c.
+    </p>
+               <p>
+                  <lb ed="#R" n="130"/>Respondeo primo praemitto aliquas 
+      distinctio<lb ed="#R" n="131" break="no"/>nes. Secundo formabo propositiones. De primo 
+      <lb ed="#R" n="132"/>praemitto istam distinctionem. Vbi 
+      consideran<lb ed="#R" n="133" break="no"/>dum est, quod Simonia non est nisi emptio quaedam 
+      <!--0166.xml-->
+      <pb ed="#R" n="166"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>circa spiritualia: spiritualia autem ista sunt gratia 
+      <lb ed="#R" n="2"/>sancti Spiritus, &amp; virtutes, vel potest esse gratia gra 
+      <lb ed="#R" n="3"/>tis data, cuiulmodi sunt praedicare, docere, 
+      offi<lb ed="#R" n="4" break="no"/>ciare, &amp; huiusmodi. Gratia autem gratum faciens, 
+      <lb ed="#R" n="5"/>puta habitus virtutum potest considerari 
+      duplici<lb ed="#R" n="6" break="no"/>ter, vel formaliter, vel causaliter. Primo modo 
+      <lb ed="#R" n="7"/>consideratur gratia illa quo ad substantiam 
+      habi<lb ed="#R" n="8" break="no"/>tus, &amp; hoc modo respectu eius nulla potestt fieri 
+      <lb ed="#R" n="9"/>commutatio, nec fit materia, &amp; obiectum 
+      commu<lb ed="#R" n="10" break="no"/>tationis, nec per consequens potest committi 
+      Si<lb ed="#R" n="11" break="no"/>monia. 
+    </p>
+               <p>
+                  <lb ed="#R" n="12"/>Alio modo potest huiusmodi gratia accipi 
+      cau<lb ed="#R" n="13" break="no"/>saliter pro eo, quod confert quasi effectiue hanc 
+      <lb ed="#R" n="14"/>gratiam, &amp; hoc modo Sacramenta dicuntur 
+      gra<lb ed="#R" n="15" break="no"/>tia, quia ipsa conferunt nobis gratiam, pro 
+      quan<lb ed="#R" n="16" break="no"/>to applicant nobis Deum, vt nobis gratiam 
+      confe<lb ed="#R" n="17" break="no"/>rentem, &amp; hoc modo bene potest gratia esse 
+      obie<lb ed="#R" n="18" break="no"/>cum commutationis: Sacramentum enim cum 
+      <lb ed="#R" n="19"/>non sit aliud, quam signum corporale, potest 
+      vti<lb ed="#R" n="20" break="no"/>que vendi, &amp; pro alio commutari, sicut 
+      Baptis<lb ed="#R" n="21" break="no"/>mus, Missa &amp; huiusmodi, &amp; ideo ibi habet locum 
+      <lb ed="#R" n="22"/>Simonia: imo istud est pessimum genus Simoniae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="23"/>Si vero accipimus gratiam gratis datam, 
+      puta<lb ed="#R" n="24" break="no"/>praedicare, docere, &amp; huiusmodi, aut accipietur 
+      <lb ed="#R" n="25"/>quo ad actum intrinsecum, &amp; hic nulla cadit 
+      ven<lb ed="#R" n="26" break="no"/>ditio, non enim possum tibi vendere habitum scien. 
+      <lb ed="#R" n="27"/>tiae meae; aut accipitur quantum ad actum 
+      extrin<lb ed="#R" n="28" break="no"/>secum, puta prolationem vocis, motum corporis, &amp; 
+      <lb ed="#R" n="29"/>huiusmodi, sic bene in talibus cadit, &amp; habet 
+      lo<lb ed="#R" n="30" break="no"/>cum venditio, &amp; hoc modo venditur doctrina, 
+      con<lb ed="#R" n="31" break="no"/>silium, testimonium, &amp; huiusmodi, &amp; omnibus istis 
+      <lb ed="#R" n="32"/>contingit esse peccatum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="33"/>Vlterius autem sciendum est, quod aliqua 
+      di<lb ed="#R" n="34" break="no"/>cuntur esse spiritualia, non quod sint gratia, sed 
+      <lb ed="#R" n="35"/>quaedam emolumenta annexa, &amp; hoc modo 
+      reddi<lb ed="#R" n="36" break="no"/>tus pertinentes ad sustentationem sunt spiritualia 
+      <lb ed="#R" n="37"/>quedam, quia spiritualibus annexa. 
+    </p>
+               <p>
+                  <lb ed="#R" n="38"/>Tunc ergo recolligendo potest tripliciter 
+      intel<lb ed="#R" n="39" break="no"/>ligi committi, vel quia vendatur gratia gratum 
+      <lb ed="#R" n="40"/>faciens, non quidem sormaliter, sed causaliter 
+      pu<lb ed="#R" n="41" break="no"/>ta Sacramenta, quae habent hanc gratiam 
+      infun<lb ed="#R" n="42" break="no"/>dere: vel quia venditur gratia gratis data non quo 
+      <lb ed="#R" n="43"/>ad actum intrinsecum, quia sic vendi non potest, 
+      <lb ed="#R" n="44"/>sed quo ad acum extrinsecum: vel tertio modo, 
+      <lb ed="#R" n="45"/>quod vendatur non gratia gratum faciens, nec 
+      <lb ed="#R" n="46"/>gratis data, sed annexa, puta redditus temporales. 
+    </p>
+               <p>
+                  <lb ed="#R" n="47"/>Secunda Distinctio est de Simonia ex parte dan. 
+      <lb ed="#R" n="48"/>tis, quia Simonia quaedam est a lingua, quaedam ab 
+      <lb ed="#R" n="49"/>obsequio, quaedam pecuniaria. 
+    </p>
+               <p>
+                  <lb ed="#R" n="50"/>Ad euidentiam autem istius distinctionis 
+      scien<lb ed="#R" n="51" break="no"/>dum est, quod emere aliquid spirituale potest esse 
+      <lb ed="#R" n="52"/>tripliciter, vel quando illud emitur, vel venditur 
+      <lb ed="#R" n="53"/>verbo, puta cum precibus impetratur, &amp; hoc 
+      mo<lb ed="#R" n="54" break="no"/>do Simonia dicitur a lingua, &amp; hoc intelligendum 
+      <lb ed="#R" n="55"/>est, quod spirituale illud obtinetur praecibus pro 
+      <lb ed="#R" n="56"/>indigno. Alias enim, si pro digno impetretur, &amp; 
+      <lb ed="#R" n="57"/>non datur precum gratia principaliter, sed 
+      secun<lb ed="#R" n="58" break="no"/>dario, sic non committeretur Simonia, vnde 
+      cau<lb ed="#R" n="59" break="no"/>tela esset hic adhibenda, quod praeces non 
+      ten<lb ed="#R" n="60" break="no"/>derent dirccte ad rem obtinendam pro persona, sed 
+      <lb ed="#R" n="61"/>ad sufficientiam allegandam. vt sic essent magis 
+      il<lb ed="#R" n="62" break="no"/>la allegatiua, &amp; testificationis, quam verba 
+      praeca<lb ed="#R" n="63" break="no"/>toria, &amp; obsecrationis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="64"/>Secundo committitur simonia, quando 
+      spiritua<lb ed="#R" n="65" break="no"/>le illud obsequio aliquo praeuio impetratur, &amp; 
+      im<lb ed="#R" n="66" break="no"/>penditur, &amp; dicitur simonia haec ab obsequio, &amp; 
+      in<lb ed="#R" n="67" break="no"/>tendendum est, quando principalis aspectus dantis 
+      <lb ed="#R" n="68"/>esset ad obsequium; si enim esset ad dignitatem 
+      <!--0166.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>&amp; sufficientiam personae, dato quod aliqualiter ab 
+      <lb ed="#R" n="70"/>obsequio traheretur, non esset species simoniae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="71"/>Tertio modo simonia potest committi pro 
+      pe<lb ed="#R" n="72" break="no"/>cunia, &amp; nomine pecuniae intelligo hic rem 
+      quam<lb ed="#R" n="73" break="no"/>cumque temporalem, puta si detur ager, domus 
+      <lb ed="#R" n="74"/>vel equus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="75"/>Secundo pono Propositiones, &amp; est prima 
+      pro<lb ed="#R" n="76" break="no"/>positio, quod loquendo de emptione gratiae gratum 
+      <lb ed="#R" n="77"/>facientis causaliter, &amp; gratiae gratis datae, 
+      quan<lb ed="#R" n="78" break="no"/>tum ad actum exteriorem, semper committitur 
+      pec<lb ed="#R" n="79" break="no"/>catum simoniae: Ratio est, quia quando illud, quod 
+      <lb ed="#R" n="80"/>non potest comparari, vel aequari, commutatur in 
+      <lb ed="#R" n="81"/>aliquid aliud, committitur peccatum, &amp; peccatum 
+      <lb ed="#R" n="82"/>quidem est contra iustitiam: sed quando 
+      Sacramen<lb ed="#R" n="83" break="no"/>ta, vel alia huiusmodi commutantur pro re 
+      tem<lb ed="#R" n="84" break="no"/>porali, datur impreciabile, &amp; inaequabile, pro eo, 
+      <lb ed="#R" n="85"/>quod nunquam poterit illud adaequare, puta 
+      Sa<lb ed="#R" n="86" break="no"/>cramentum, quod totus mundus non potest 
+      aequa<lb ed="#R" n="87" break="no"/>re, nec minimum gradum spiritualium. Ideo fit 
+      <lb ed="#R" n="88"/>absolute contra naturam contractus, nam quod ex 
+      <lb ed="#R" n="89"/>natura sua habet, quod gratis detur, ibi fit venale, 
+      <lb ed="#R" n="90"/>ideo est peccatun: contra iustitiam. Sed 
+      contra<lb ed="#R" n="91" break="no"/>quam speciem iustitiae? Dico, quod contra 
+      religio<lb ed="#R" n="92" break="no"/>nem, &amp; simile est de omni alia gratia, quae 
+      appro<lb ed="#R" n="93" break="no"/>priatur Spiritui sancto, vnde peccatum istud pote st 
+      <lb ed="#R" n="94"/>dici peccatum in Spiritum sanctum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="95"/>Secunda Propositio est, quod non tantum 
+      spiri<lb ed="#R" n="96" break="no"/>tualia praedicta non possunt vendi, sed nec labor, qui 
+      <lb ed="#R" n="97"/>acquiritur in ministrando altari. Tamen sciendum 
+      <lb ed="#R" n="98"/>est, quod bene potest administrans sustentationem 
+      <lb ed="#R" n="99"/>competentem statui suo recipere, &amp; hoc, modo 
+      ta<lb ed="#R" n="100" break="no"/>li, quod non facit per modum obligationis, &amp; 
+      con<lb ed="#R" n="101" break="no"/>tractus, sed solum per modum necessariae 
+      subuen<lb ed="#R" n="102" break="no"/>tionis: &amp; ratio huius decentiae est, quia etsi 
+      spiri<lb ed="#R" n="103" break="no"/>tualia non possunt comparari, tamer. qui 
+      occupa<lb ed="#R" n="104" break="no"/>tus est in eorum ministerio, non potest vacare 
+      tem<lb ed="#R" n="105" break="no"/>poralibus sibi necessariis procurandis. Ea propter 
+      <lb ed="#R" n="106"/>secundum rectam rationem recipiens ab isto 
+      spiri<lb ed="#R" n="107" break="no"/>tua lia, est obligatus ad reddendum temporalia, non 
+      <lb ed="#R" n="108"/>per modum contractus, sed per modum alterius 
+      <lb ed="#R" n="109"/>obligationis naturalis, idest secundum 
+      dictamen<lb ed="#R" n="110" break="no"/>rationis naturalis, propter quod peccat, qui 
+      mi<lb ed="#R" n="111" break="no"/>nistris Ecclesiae non dat decimas, primitias, &amp; alia, 
+      <lb ed="#R" n="112"/>quae sustentationi eorum necessaria sunt. Ratio 
+      ho<lb ed="#R" n="113" break="no"/>rum est, quia iustitia exigit, quod vnicuique 
+      red<lb ed="#R" n="114" break="no"/>datur, quod suum est: sed ministranti spiritualia 
+      obli<lb ed="#R" n="115" break="no"/>gata sunt temporalia, quantum sufficit ad 
+      sustenta<lb ed="#R" n="116" break="no"/>tionem suam, vbi non posset aliter sustentari: ergo 
+      <lb ed="#R" n="117"/>actus iustitiae habet, quod ministrans spiritualia 
+      <lb ed="#R" n="118"/>iuste recipiat temporalia: recipiens vero 
+      spiritua<lb ed="#R" n="119" break="no"/>lia, tempora lia iuste reddat. Ex hoc patet: Vtrum 
+      <lb ed="#R" n="120"/>liceat dare, vel recipere aliquid pro Missis cantan 
+      <lb ed="#R" n="121"/>dis: si enim aliquid detur titulo contractus 
+      vendi<lb ed="#R" n="122" break="no"/>tionis, vel commutationis, expresse committitur 
+      <lb ed="#R" n="123"/>Simonia: si autem titulo actus iustitiae, obligatur ad 
+      <lb ed="#R" n="124"/>reddendum alteri quod suum est, vt sic pecunia 
+      <lb ed="#R" n="125"/>reddatur celebranti ad sustentationem victus, non 
+      <lb ed="#R" n="126"/>ad meritum, &amp; recompensationem illius boni 
+      spiri<lb ed="#R" n="127" break="no"/>tualis. Et hoc modo loquitur Apostolus ad 
+      Co<lb ed="#R" n="128" break="no"/>rinth. cap. 10. ex quo patet responsio ad 
+      argumen<lb ed="#R" n="129" break="no"/>tum principale. 
+    </p>
+            </div>
+            <div>
+               <head>Articulus 3</head>
+               <head type="question-title">
+      Utrum Dominus Papa possit in aliquo casu 
+      committere Simoniam.
+    </head>
+               <p>
+                  <lb ed="#R" n="130"/>ARTICVLVS III 
+      <lb ed="#R" n="131"/>Vtrum Dominus Papa possit in aliquo casu 
+      com<lb ed="#R" n="132" break="no"/>mittere Simoniam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="133"/>AD tertiam quaestionem: Vtrum Dominus 
+      Pa<lb ed="#R" n="134" break="no"/>pa in aliquo gradu committere possit Simo- 
+      <!--0167.xml-->
+      <pb ed="#R" n="167"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>niam? Respondent aliqui Juristae distinguendo, 
+      <lb ed="#R" n="2"/>quod Simonia quaedam est, quae ideo prohibita est, 
+      <lb ed="#R" n="3"/>quia est Simonia, quaedam vero ideo Simonia, quia 
+      <lb ed="#R" n="4"/>prohibita. Simonia primo modo est venditatio 
+      spi<lb ed="#R" n="5" break="no"/>ritualium, puta Sacramentorum, &amp; huiusmodi; sed 
+      <lb ed="#R" n="6"/>Simonia secundo modo est venditatio annexorum.
+    </p>
+               <p>
+                  <lb ed="#R" n="7"/>Tunc ad propositum, vendendo spiritualia Papa 
+      <lb ed="#R" n="8"/>committeret Simoniam, &amp; ideo talia nullo modo 
+      <lb ed="#R" n="9"/>possunt a Papa vendi: sed Simoniam, quae est 
+      vendi<lb ed="#R" n="10" break="no"/>tatio annexorum, quae ideo estt Simonia, quia 
+      pro<lb ed="#R" n="11" break="no"/>hibita, non committit Papa vendendo annexa, &amp; 
+      <lb ed="#R" n="12"/>ratio est, quia Papa potest super prohibitionem: 
+      <lb ed="#R" n="13"/>venditio autem annexorum, ideo est Simonia, quia 
+      <lb ed="#R" n="14"/>est prohibita. 
+    </p>
+               <p>
+                  <lb ed="#R" n="15"/>Sed ista distinctio non videtur rationabilis. 
+      Fa<lb ed="#R" n="16" break="no"/>ciens enim contra prohibitionem non ex hoc 
+      dici<lb ed="#R" n="17" break="no"/>tur Simoniacus, nisi aliud interueniat, licet tamen 
+      <lb ed="#R" n="18"/>indebite agat. Ideo dico aliter, quod vbi est 
+      ven<lb ed="#R" n="19" break="no"/>ditio spiritualium directe, non est dubium, quod 
+      <lb ed="#R" n="20"/>ibi committitur Simonia; sed vbi est venditio 
+      an<lb ed="#R" n="21" break="no"/>nexorum, quae non possunt sine spiritualibus vendi, 
+      <lb ed="#R" n="22"/>semper committitur peccatum simoniae, non tamem 
+      <lb ed="#R" n="23"/>incurritur in poenam. Ratio prima est, quia ex quo 
+      <lb ed="#R" n="24"/>non potest vendi praebenda, quin vendatur 
+      auctori<lb ed="#R" n="25" break="no"/>tas, nam separabilia non sunt, per consequens 
+      <lb ed="#R" n="26"/>vendendo vnum, venditur aliud, &amp; sic 
+      committi<lb ed="#R" n="27" break="no"/>tur peccatum Simoniae. Ratio secunda est, quia 
+      <lb ed="#R" n="28"/>poena est ex iure positiuo, sed sciendum est, quod 
+      <lb ed="#R" n="29"/>Papa pote st bene accipere facultates Ecclesiae, &amp; 
+      <lb ed="#R" n="30"/>ratio estt, quia auctoritas plenaria, &amp; ius super 
+      il<lb ed="#R" n="31" break="no"/>las residet apud eum; sed tamen accipere non 
+      po<lb ed="#R" n="32" break="no"/>test illo intuitu, pro recompensatione videlicet 
+      da<lb ed="#R" n="33" break="no"/>ri beneficij. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

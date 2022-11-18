@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="173"/>
+            <cb ed="#R" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h59564"> <!-- l4-d30q1 -->
+            <head>Quaestio 1</head>
+            <p>
+               <lb ed="#R" n="83"/>Quaestio Vnica. 
+    </p>
+            <div>
+               <head>Articulus 1</head>
+               <head type="question-title">
+      Utrum error impediat Matrimonium.
+    </head>
+               <p>
+                  <lb ed="#R" n="84"/>ARTICVLVUS I. 
+      <lb ed="#R" n="85"/>Vtrum error impediat Matrimonium. 
+    </p>
+               <p>
+                  <lb ed="#R" n="86"/>ARGVO primo ad 
+      par<lb ed="#R" n="87" break="no"/>tem negatiuam, quod 
+      <lb ed="#R" n="88"/>non, quia si aliquid 
+      im<lb ed="#R" n="89" break="no"/>pediret Matrimonium 
+      <lb ed="#R" n="90"/>illud esset maxime 
+      infi<lb ed="#R" n="91" break="no"/>delitatis: sed hoc non 
+      im<lb ed="#R" n="92" break="no"/>pedit, quoniam si sit 
+      ali<lb ed="#R" n="93" break="no"/>quis contrahens cum 
+      in<lb ed="#R" n="94" break="no"/>fideli, &amp; haeretico, non 
+      <lb ed="#R" n="95"/>dirimitur Matrimonium. Confirmatur per illud 
+      <lb ed="#R" n="96"/>Genes. 29. de Iacob, qui contraxit cum Lia 
+      cre<lb ed="#R" n="97" break="no"/>dens contrahere cum Rachele: igitur fuit error 
+      per<lb ed="#R" n="98" break="no"/>sonae, &amp; tamen Matrimonium non fuit impeditum, 
+      <lb ed="#R" n="99"/>imo permansit ratum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="100"/>Sed in oppositum est, quia illud, quod impedit 
+      <lb ed="#R" n="101"/>consensum, impedit Matrimonium: sed error est 
+      <lb ed="#R" n="102"/>huiusmodi: ergo. Respondeo, pono tres 
+      conclu<lb ed="#R" n="103" break="no"/>siones. 
+    </p>
+               <p>
+                  <lb ed="#R" n="104"/>Prima est generalis, quod error impedit in 
+      ge<lb ed="#R" n="105" break="no"/>nerali Matrimonium. hanc conclusionem probo sic: 
+      <lb ed="#R" n="106"/>Illud quod impedit voluntarium, impedit omnem 
+      <lb ed="#R" n="107"/>contractum: probatio istius est, quia contractus est 
+      <lb ed="#R" n="108"/>translatio dominij in alterum, quae non fit, nisi 
+      median<lb ed="#R" n="109" break="no"/>te actu voluntatis: sed matrimonium est specialis 
+      con<lb ed="#R" n="110" break="no"/>tractus, quo coniuges transferunt mutuo in 
+      alteru<lb ed="#R" n="111" break="no"/>trum vsum corporis sui: sed error impedit voluntarium.
+      <!--0174.xml-->
+      <pb ed="#R" n="174"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Probo, vbi considerandum, quod ignorantia ex 
+      <lb ed="#R" n="2"/>duplex: quaedam simplicis negationis; &amp; quaedam 
+      <lb ed="#R" n="3"/>dispositionis, quae non dicit tantum carentiam 
+      <lb ed="#R" n="4"/>veritatis in intellectu, sed ponit oppositam 
+      dispo<lb ed="#R" n="5" break="no"/>sitionem. Vtraque istarum ignorantiarum habet 
+      <lb ed="#R" n="6"/>voluntarium impedire. Probo ex 3. Ethic cap. 
+      q<lb ed="#R" n="7" break="no"/>&amp; per rationem, quia deficiente causa saltem 
+      ma<lb ed="#R" n="8" break="no"/>gis principali deficit effectus: sed actus voluntatis 
+      <lb ed="#R" n="9"/>habet pro causa finali aliquid se tenens ex parte 
+      in<lb ed="#R" n="10" break="no"/>tellectus, quod est cuius gratia, puta finem 
+      osten<lb ed="#R" n="11" break="no"/>sum ab intellectu. 
+    </p>
+               <p>
+                  <lb ed="#R" n="12"/>Vbi considerandum est, quod actus voluntatis 
+      <lb ed="#R" n="13"/>nobilissimus habet intra se omnes causas suas: 
+      ha<lb ed="#R" n="14" break="no"/>bet enim eliciens suam voluntatem, &amp; recipiens, &amp; 
+      <lb ed="#R" n="15"/>similiter finem se tenentem ex parte intellectus 
+      <lb ed="#R" n="16"/>ostendentis: ergo si error sit in intellectu 
+      ostenden<lb ed="#R" n="17" break="no"/>do finem voluntati, erit defectus in causa finali, &amp; 
+      <lb ed="#R" n="18"/>per consequens erit defectus in effectu. Talis 
+      au<lb ed="#R" n="19" break="no"/>tem error est ex vtraque praedicta ignorantia, siue 
+      <lb ed="#R" n="20"/>sit negationis, qualis est in puero, vel ebrio; siue 
+      <lb ed="#R" n="21"/>sit dispositionis, qualis est in affectato, siue 
+      habi<lb ed="#R" n="22" break="no"/>tuato ad oppositum veritatis circa necessaria ipsi 
+      <lb ed="#R" n="23"/>contractui. 
+    </p>
+               <p>
+                  <lb ed="#R" n="24"/>Secunda Propositio est, quod triplex error 
+      im<lb ed="#R" n="25" break="no"/>pedit matrimonium: &amp; primus quidem est error 
+      <lb ed="#R" n="26"/>personae, vt si credens quis contrahere cum 
+      vna<lb ed="#R" n="27" break="no"/>persona contrahat cum alia. Secundus error 
+      con<lb ed="#R" n="28" break="no"/>ditionis, vt si credat contrahere cum libera, &amp; 
+      con<lb ed="#R" n="29" break="no"/>trahat cum serua. Tertius est error consensus, vt 
+      <lb ed="#R" n="30"/>si putet contrahere cum consentiente, contrahat 
+      <lb ed="#R" n="31"/>cum dissentiente. Vna ratio probat omnia ista 
+      <lb ed="#R" n="32"/>quia ille error impedit matrimonium, qui mutat 
+      <lb ed="#R" n="33"/>naturam contractus: sed error iste triplex est 
+      hu<lb ed="#R" n="34" break="no"/>iusiodi: ergo. Probo minorem Omnis enim 
+      con<lb ed="#R" n="35" break="no"/>tractus claudicat, aut quia est defectus in eo, pro 
+      <lb ed="#R" n="36"/>quo fit commutatio, hoc in proposito causat error 
+      <lb ed="#R" n="37"/>personae, commutat enim contrahens corpus suum 
+      <lb ed="#R" n="38"/>in alterum, &amp; recipit per commutationem corpus 
+      <lb ed="#R" n="39"/>illius e conuerso in suum ius, &amp; dominium, vt sic 
+      <lb ed="#R" n="40"/>in omni contractu matrimoniali corpus pro 
+      cor<lb ed="#R" n="41" break="no"/>pore commutetur. 
+    </p>
+               <p>
+                  <lb ed="#R" n="42"/>Secundo claudicat contractus ex defectu 
+      alte<lb ed="#R" n="43" break="no"/>rius contrahentium non potentis contrahere, &amp; hoc 
+      <lb ed="#R" n="44"/>efficit error conditionis; qui enim seruus est, 
+      non<lb ed="#R" n="45" break="no"/>potest contrahere corpus suum in alterum 
+      commu<lb ed="#R" n="46" break="no"/>tando, eo quod seruus non habet sui potestatem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="47"/>Tertio contractus claudicat ex defectu circa 
+      vo<lb ed="#R" n="48" break="no"/>tum, nam translatio in isto contracu, quae fit 
+      de<lb ed="#R" n="49" break="no"/>corpore contrahentis in alterius dominium, non 
+      <lb ed="#R" n="50"/>est translatio realis eo modo, quo aliquis transfert 
+      <lb ed="#R" n="51"/>dominium alicuius rei in alterum, illam a se 
+      sepa<lb ed="#R" n="52" break="no"/>rando: nullus enim potesta seipso realiter 
+      separa<lb ed="#R" n="53" break="no"/>ri: ergo translatio ista tantummodo est in 
+      volun<lb ed="#R" n="54" break="no"/>tate, &amp; mutuo consensu, quo iste libere concedit 
+      <lb ed="#R" n="55"/>vsum corporis sui alteri; vt recipiate conuerso 
+      do<lb ed="#R" n="56" break="no"/>minium super vsum corporis illius: ergo si sit 
+      de<lb ed="#R" n="57" break="no"/>fectus in voto, &amp; consensu, sic, quod alter non 
+      in<lb ed="#R" n="58" break="no"/>tendat corporis sui vsum concedere isti, claudicat 
+      <lb ed="#R" n="59"/>statim contractus: de cuius natura est, quod 
+      exi<lb ed="#R" n="60" break="no"/>gat consensum mutuum vtriusque partis: hanc 
+      au<lb ed="#R" n="61" break="no"/>tem claudicationem efficit defectus in voto, &amp; 
+      <lb ed="#R" n="62"/>consensu. 
+    </p>
+               <p>
+                  <lb ed="#R" n="63"/>Ex his potest responderi ad vnum casum, qui 
+      <lb ed="#R" n="64"/>proponitur quandoque, scilicet, quid fiet de 
+      illa<lb ed="#R" n="65" break="no"/>quae plene consentit in eum, qui consentit ficte, &amp; 
+      <lb ed="#R" n="66"/>cum fraude. Dicitur, quod si potest probare 
+      con<lb ed="#R" n="67" break="no"/>sensum viri exteriorem per verba in foro Ecclesiae, 
+      <!--0174.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>completur, sed si probare illa non possit, &amp; vir 
+      pro<lb ed="#R" n="69" break="no"/>testetur se non consentire, quid dicendum tunc, 
+      <lb ed="#R" n="70"/>nunquid debet conuenire secum in actu 
+      matrimo<lb ed="#R" n="71" break="no"/>nij? Hic dicunt quidam, quod in tali casu 
+      mate<lb ed="#R" n="72" break="no"/>rialiter esset vere perplexa, quia ex vna 
+      parte<lb ed="#R" n="73" break="no"/>constaret sibi illum per verba exteriora consensisse, 
+      <lb ed="#R" n="74"/>nec tunc constitisset sibi de fraude, &amp; ex alia parte 
+      <lb ed="#R" n="75"/>iste dicit nunc veraciter se non consensisse. 
+    </p>
+               <p>
+                  <lb ed="#R" n="76"/>Alij dicunt, quod in tali casu materialiter ista 
+      <lb ed="#R" n="77"/>non esset perplexa, debet praesumere, quod 
+      vere<lb ed="#R" n="78" break="no"/>consensit, cuius ratio est, quia in tali casu debet 
+      <lb ed="#R" n="79"/>se Ecclesiae conformare: Ecclesia autem semper 
+      <lb ed="#R" n="80"/>praesumet illum consensisse, vbi constaret eum 
+      ex<lb ed="#R" n="81" break="no"/>pressisse verba consensus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="82"/>Sed quid faciet vir, qui scit se veraciter non 
+      con<lb ed="#R" n="83" break="no"/>sensisse? Dicitur, quod non debet petere debitum: 
+      <lb ed="#R" n="84"/>debet tamen reddere, si exigatur, nec quantumcun 
+      <lb ed="#R" n="85"/>que ab Ecclesia compellatur, licitum est ei debitum 
+      <lb ed="#R" n="86"/>exigere. 
+    </p>
+               <p>
+                  <lb ed="#R" n="87"/>Alij dicunt, quod nec debet reddere, imo debet 
+      <lb ed="#R" n="88"/>potius excommunicationem sustinere, quam 
+      red<lb ed="#R" n="89" break="no"/>dat, quia non est debitum, sed peccatum, tamen 
+      <lb ed="#R" n="90"/>consulendum esset sibi, quod consentiat. 
+    </p>
+               <p>
+                  <lb ed="#R" n="91"/>Tertia Propositio est, quod alius error a 
+      praedi<lb ed="#R" n="92" break="no"/>ctis tribus est fortunae, vt si credat 
+      contrahere<lb ed="#R" n="93" break="no"/>cum diuite, &amp; contrahat cum paupere, siue sit 
+      er<lb ed="#R" n="94" break="no"/>ror qualitatis personae, vt si credat contrahere cum 
+      <lb ed="#R" n="95"/>nobili, &amp; contrahat cum rustica: nullus inquam 
+      <lb ed="#R" n="96"/>istorum errorum habet matrimonium impedire. 
+      <lb ed="#R" n="97"/>Ratio communis est, quia nullum horum 
+      contra<lb ed="#R" n="98" break="no"/>ctum impedit, aut facit claudicare. 
+    </p>
+               <p>
+                  <lb ed="#R" n="99"/>Ad argumentum in oppositum, Respondeo, quod 
+      <lb ed="#R" n="100"/>non est simile de errore, &amp; infidelitate, quia error 
+      <lb ed="#R" n="101"/>per se, &amp; directe est contra matrimonium, 
+      infideli<lb ed="#R" n="102" break="no"/>tas non, quia non est per se contractus. Ad illud 
+      <lb ed="#R" n="103"/>de Jacob dico, quod matrimonium illud valuit in 
+      <lb ed="#R" n="104"/>virtute consensus, quo postmodum consensit in Lyam. 
+    </p>
+            </div>
+            <div>
+               <head>Articulus 2</head>
+               <head type="question-title">
+      Utrum inter Mariam, et Ioseph fuerit verum 
+      Matrimonium
+    </head>
+               <p>
+                  <lb ed="#R" n="105"/>ARTICVLVS II 
+      <lb ed="#R" n="106"/>Vtrum inter Mariam, &amp; Ioseph fuerit verum 
+      <lb ed="#R" n="107"/>Matrimonium 
+    </p>
+               <p>
+                  <lb ed="#R" n="108"/>SEcundo sine argumentis quaero: Vtrum inter 
+      <lb ed="#R" n="109"/>Mariam, &amp; Joseph fuerit verum matrimonium. 
+      <lb ed="#R" n="110"/>Respondeo, pono hic tres conclusiones. 
+    </p>
+               <p>
+                  <lb ed="#R" n="111"/>Prima, quod Virgo Maria virginitatem habuit 
+      <lb ed="#R" n="112"/>sub voto, quando eam concepturam Dei filium 
+      <lb ed="#R" n="113"/>Angelus nuntiauit. Hanc probo ex responsione, 
+      <lb ed="#R" n="114"/>quam Angelo nuncianti expressit. Ait enim: 
+      quo<lb ed="#R" n="115" break="no"/>modo fiet istud, quoniam virum non cognosco? 
+      <lb ed="#R" n="116"/>quare aut ly cognosco stat pro praeterito, vel pro 
+      <lb ed="#R" n="117"/>praesenti, vt sit sensus, non cognoui, nec virum 
+      <lb ed="#R" n="118"/>habere, vsque nunc decreui: aut pro praesenti, vt 
+      <lb ed="#R" n="119"/>sit sensus, quia virum pro nunc habere non 
+      decer<lb ed="#R" n="120" break="no"/>no, &amp; pro quocunque istorum sensuum 
+      accipia<lb ed="#R" n="121" break="no"/>tur verbum, responsio omnino cassa, &amp; 
+      nulla<lb ed="#R" n="122" break="no"/>fuisset: quid enim fuisset Angelo nuncianti 
+      conce<lb ed="#R" n="123" break="no"/>ptionem pro futuro, obiecisse virginitatis 
+      obser<lb ed="#R" n="124" break="no"/>uationem pro praeterito, vel praesenti: bene enim 
+      <lb ed="#R" n="125"/>simul poterant sare, quod virum non 
+      cognouis<lb ed="#R" n="126" break="no"/>set, &amp; pro tunc virgo esset, &amp; quod postea esset 
+      <lb ed="#R" n="127"/>de viro conceptura: ergo in hoc sensu obiectio, 
+      <lb ed="#R" n="128"/>quam ad verba Angeli adducit, nulla fuisset: ergo ly 
+      <lb ed="#R" n="129"/>cognosco oportet, quod stet pro futuro, vt sit sensus, 
+      <lb ed="#R" n="130"/>virum pro nullo tempore cognoui, nec cognosco, nee 
+      <!--0175.xml-->
+      <pb ed="#R" n="175"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>cognoscam, &amp;est similis modus loquendi, vt si dicatur, 
+      <lb ed="#R" n="2"/>iste non bibit vinum, est. n. sensus, ne dum pro praesenti, 
+      <lb ed="#R" n="3"/>aut praeterito, sed pro futuro: ergo Maria habuit 
+      <lb ed="#R" n="4"/>virginitatem veram pro futuro: sed pro suturo 
+      vir<lb ed="#R" n="5" break="no"/>ginitas non habetur nisi in voto: ergo. Haec ratio 
+      <lb ed="#R" n="6"/>probat propositum de facto. Sed fuit condecens, 
+      <lb ed="#R" n="7"/>vt probat Anselmus de conceptu virginali, de qua 
+      <lb ed="#R" n="8"/>dicit, quod decuit eam habere puritatem, &amp; 
+      mun<lb ed="#R" n="9" break="no"/>ditiam corporalem, &amp; spiritualem, qua maior sub 
+      <lb ed="#R" n="10"/>Deo non posset intelligi: sed non habuisset maiorem 
+      <lb ed="#R" n="11"/>puritatem, nisi habuisset eam consecratam per 
+      vo<lb ed="#R" n="12" break="no"/>tum, nam licet virginitas sit magna virtus, tamen 
+      <lb ed="#R" n="13"/>inquantum simul cum ea concurrit actus latriae, 
+      fa<lb ed="#R" n="14" break="no"/>cit eam nobiliorem: actus enim latriae cadens 
+      su<lb ed="#R" n="15" break="no"/>per caeteras virtutes, eas habet consecrare, &amp; ipsas 
+      <lb ed="#R" n="16"/>sua excellentia augere, &amp; dignificare. 
+    </p>
+               <p>
+                  <lb ed="#R" n="17"/>Sed dubium est, quomodo, si sic est, non venerit 
+      <lb ed="#R" n="18"/>Maria vouendo contra legem, in qua praeceptum 
+      <lb ed="#R" n="19"/>erat, quod omnes contraherent? Respondeo 
+      du<lb ed="#R" n="20" break="no"/>pliciter, primo posset dici, quod illud praeceptum 
+      <lb ed="#R" n="21"/>non erat sic obligatorium, quin aliqui etiam pro 
+      <lb ed="#R" n="22"/>tunc virginitatem seruarent absque legis transgres 
+      <lb ed="#R" n="23"/>sione, vt expresse patet de leremia, &amp; loanne 
+      Ba<lb ed="#R" n="24" break="no"/>ptista. Secundo posset dici, quod cessante 
+      causa<lb ed="#R" n="25" break="no"/>cessat effectus, nunc autem causa, quare praeceptum 
+      <lb ed="#R" n="26"/>erat, quod omnes nuberent, fuit, ne aliqua posset 
+      <lb ed="#R" n="27"/>frustrari, &amp; spem perdere de fructu benedicto in 
+      le<lb ed="#R" n="28" break="no"/>ge per Prophetarum oracula nasci de muliere illius 
+      <lb ed="#R" n="29"/>populi repromisso. Sed virgo caelitus inspirata est, 
+      <lb ed="#R" n="30"/>quod fructus ille benedictus erat de Virgine 
+      nasci<lb ed="#R" n="31" break="no"/>turus, secundum illud Jsaiae vaticinium: Ecce 
+      Vir<lb ed="#R" n="32" break="no"/>go concipiet, &amp;c. ergo si mouit se pie, vt mereretur 
+      <lb ed="#R" n="33"/>ese illa, ac per hoc virginitatis votum emisit, non 
+      <lb ed="#R" n="34"/>potest dici, quod ex hoc venerit contra legem 
+      <lb ed="#R" n="35"/>Ideo dicunt Doctores, quod Maria fuit aurora 
+      me<lb ed="#R" n="36" break="no"/>dians inter diem &amp; noctem, quoniam mediauit 
+      in<lb ed="#R" n="37" break="no"/>ter nouam legem &amp; antiquam, retinens de veteri 
+      <lb ed="#R" n="38"/>rationem Matrimonij, &amp; de noua virginitatis 
+      vo<lb ed="#R" n="39" break="no"/>tum 
+    </p>
+               <p>
+                  <lb ed="#R" n="40"/>Secunda Propositio est, quod decuit matrem 
+      <lb ed="#R" n="41"/>Cristi esse nuptam, &amp; ad hoc possunt induci 
+      ra<lb ed="#R" n="42" break="no"/>tiones Magistri in littera. Decuit enim hoc primo 
+      <lb ed="#R" n="43"/>ex parte Christi, vt tolleretur eius infamia, ne dum 
+      <lb ed="#R" n="44"/>pater nesciretur, natus de adulterio videretur: 
+      se<lb ed="#R" n="45" break="no"/>cundo ex parte legis, ne appareret a legis 
+      iniuria<lb ed="#R" n="46" break="no"/>incepisse, quae partum damnat innuptae: tertio ex 
+      <lb ed="#R" n="47"/>parte diaboli, vt Incarnationis mysterium diabolo 
+      <lb ed="#R" n="48"/>celaretur. 
+    </p>
+               <p>
+                  <lb ed="#R" n="49"/>Et si dicatur, nunquid diabolus potuit virginem 
+      <lb ed="#R" n="50"/>cognouisse, an esset virgo, vel non. Respondeo, 
+      ce<lb ed="#R" n="51" break="no"/>labatur ei continue, angeli ministerio. 
+    </p>
+               <p>
+                  <lb ed="#R" n="52"/>Tertia Propositio est, quod inter Mariam &amp; 
+      Io<lb ed="#R" n="53" break="no"/>seph fuit verum Matrimonium. Hoc dico propter 
+      <lb ed="#R" n="54"/>opinionem quorundam, qui dicunt, quod fuit 
+      ma<lb ed="#R" n="55" break="no"/>trimonium fictum. Ratio eorum est, quod quilibet 
+      <lb ed="#R" n="56"/>eorum vouerit virginitatem. Sed hoc est expresse 
+      <lb ed="#R" n="57"/>contra textum Euangelii Matt. 2. vbi legitur: Cum 
+      <lb ed="#R" n="58"/>esset desponsata Maria Joseph. 
+    </p>
+               <p>
+                  <lb ed="#R" n="59"/>Alius est hic error nefandus Ventidii, qui dixit, 
+      <lb ed="#R" n="60"/>Mariam postquam genuit Crisum, consensisse in 
+      <lb ed="#R" n="61"/>carnalem copulam, &amp; filios alios concepisse, qui 
+      <lb ed="#R" n="62"/>frequenter fratres Domini nuncupantur. Ideo 
+      di<lb ed="#R" n="63" break="no"/>co, quod ibi fuit verissima ratio matrimonii. Hoc 
+      <lb ed="#R" n="64"/>probo, quia ratio matrimonii non consistit in 
+      car<lb ed="#R" n="65" break="no"/>nali copula, quia carnalis copula est actus 
+      conse<lb ed="#R" n="66" break="no"/>quens ipsum matrimonium, sed consistit in 
+      trans<lb ed="#R" n="67" break="no"/>latione mutua corporis viri in mulierem, &amp; e 
+      con<lb ed="#R" n="68" break="no"/>uerso: translatio autem illa, qua corpus cuiusli- 
+      <!--0175.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>bet fit alterius possessio, &amp; e conuerso, ex qua con 
+      <lb ed="#R" n="70"/>sequenter oritur mutua obligatio, quae est 
+      verissi<lb ed="#R" n="71" break="no"/>ma ratio matrimonii. 
+    </p>
+               <p>
+                  <lb ed="#R" n="72"/>Nunc inter Ioseph &amp; Mariam fuit obligatio, 
+      se<lb ed="#R" n="73" break="no"/>cundum veram sui rationem. Probo: Certum est 
+      <lb ed="#R" n="74"/>enim, quod Virgo potuit habere super corpus 
+      Jo<lb ed="#R" n="75" break="no"/>seph dominium, &amp; propositum non habendi vsum, 
+      <lb ed="#R" n="76"/>&amp; e conuerso de Joseph, vt sic vsus a dominio 
+      per<lb ed="#R" n="77" break="no"/>petuo separaretur, &amp; votum caderet super vsum 
+      <lb ed="#R" n="78"/>dominio retento: &amp; ideo ex vtraque parte alter 
+      ra<lb ed="#R" n="79" break="no"/>tione corporis erat vera possessio, &amp; vere dominus 
+      <lb ed="#R" n="80"/>alterius, vnde ratione corporis sui erat Virgo 
+      pos<lb ed="#R" n="81" break="no"/>sesio loseph, &amp; ipse dominus, &amp; ratione corporis 
+      <lb ed="#R" n="82"/>loseph erat Virgo domina, Ioseph vero vera 
+      posses<lb ed="#R" n="83" break="no"/>sio, sic ex parte vtriusque fuit vera ratio dominii, 
+      <lb ed="#R" n="84"/>veraq. ratio possessionis, &amp; obligatio, quae sequitur 
+      <lb ed="#R" n="85"/>possessionem in ordine ad dominium. Hoc tamen 
+      <lb ed="#R" n="86"/>non obstante fuit in vtroque votum, cum 
+      propo<lb ed="#R" n="87" break="no"/>sito non vtendi huiusmodi dominio. 
+    </p>
+               <p>
+                  <lb ed="#R" n="88"/>Et quod possit votum cadere sub renunciatione 
+      <lb ed="#R" n="89"/>vsus retento dominio, probo primo exemplo, 
+      de<lb ed="#R" n="90" break="no"/>inde ratione. Exemplo: Potest enim miles aliquis 
+      <lb ed="#R" n="91"/>habere equum vt possessionem suam, &amp; hoc vouere 
+      <lb ed="#R" n="92"/>nunquam vti ipso, nec enim eo, quod vouet 
+      non<lb ed="#R" n="93" break="no"/>vti eo, transfertur eo ipso dominium in alterum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="94"/>Item probo ratione, quia differunt ista, 
+      domi<lb ed="#R" n="95" break="no"/>nium, &amp; ius vtendi, &amp; simplex facti vsus, &amp; posssunt 
+      <lb ed="#R" n="96"/>ab inuicem separari: ergo vouens renunciationem 
+      <lb ed="#R" n="97"/>simplicis iuris vtendi, non propter hoc dicitur 
+      vo<lb ed="#R" n="98" break="no"/>uere renunciationem dominii. 
+    </p>
+               <p>
+                  <lb ed="#R" n="99"/>Dicetur, quod dicta isa non sufficiunt, nam 
+      con<lb ed="#R" n="100" break="no"/>cesso, quod votum de virginitate seruanda possit 
+      <lb ed="#R" n="101"/>stare cum retentione dominii, tamen videtur, quod 
+      <lb ed="#R" n="102"/>votum illud stare non possit cum consensu in 
+      car<lb ed="#R" n="103" break="no"/>nalem copulam, quod tamen videtur esse de 
+      matri<lb ed="#R" n="104" break="no"/>monii ratione. Propter quod concedentes 
+      conclu<lb ed="#R" n="105" break="no"/>sionem dicunt, quod Virgo consensit vere in 
+      carna<lb ed="#R" n="106" break="no"/>lem copulam, &amp; cum hoc stetit propositum de 
+      ser<lb ed="#R" n="107" break="no"/>uanda virginitate: ratio est, quia certificata est. 
+      <lb ed="#R" n="108"/>quod Joseph nunquam erat debitum petiturus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="109"/>Aliter videtur mihi dicendum. Vbi 
+      consideran<lb ed="#R" n="110" break="no"/>dum est, quod consensus, qui requiritur ad 
+      ratio<lb ed="#R" n="111" break="no"/>nem matrimonii per se, &amp; directe cadit super 
+      do<lb ed="#R" n="112" break="no"/>minium in corpus vtriusque coniugum consentientium 
+      <lb ed="#R" n="113"/>mutuo in translatione dominii corporis sui in 
+      al<lb ed="#R" n="114" break="no"/>terum. In vsum vero cadit secundario, &amp; 
+      indire<lb ed="#R" n="115" break="no"/>cte, &amp; ideo excluso omni vsu adhuc manere potest 
+      <lb ed="#R" n="116"/>verus consensus matrimonialis; &amp; in proposito 
+      po<lb ed="#R" n="117" break="no"/>tuit quilibet eorum consentire in dominium cum 
+      <lb ed="#R" n="118"/>actuali proposito nunquam vtendi: praesertim quia 
+      <lb ed="#R" n="119"/>sciebat quilibet de alio, quod simile habebat 
+      pro<lb ed="#R" n="120" break="no"/>positum non vtendi. Quod autem Joseph vouerit 
+      <lb ed="#R" n="121"/>virginitatem, tenetur quod sic, &amp; sunt ad hoc 
+      ori<lb ed="#R" n="122" break="no"/>ginalia Sanctorum plurima, &amp; forte vouerat 
+      indu<lb ed="#R" n="123" break="no"/>ctus a Virgine Maria. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

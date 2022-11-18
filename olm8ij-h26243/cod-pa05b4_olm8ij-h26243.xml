@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Distinctio 9</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Distinctio 9</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="77"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h26243"> <!-- l4-d9prae -->
+            <head>Distinctio 9</head>
+            <p>
+               <lb ed="#R" n="43"/>DISTINCTIO IX 
+      <lb ed="#R" n="44"/>DE SVSCIPIENTIBUS 
+      <lb ed="#R" n="45"/>SACRAMENTVM
+      <lb ed="#R" n="46"/>EVCHARISTIAE 
+    </p>
+            <p>
+               <lb ed="#R" n="47"/>Et sicut sunt duae res, &amp;c. In ista Distinctione 
+      <lb ed="#R" n="48"/>nona postquam Magister egit de 
+      Sacra<lb ed="#R" n="49" break="no"/>mento Eucharistiae in se, &amp; absolute, 
+      inci<lb ed="#R" n="50" break="no"/>pit nunc agere de eo comparatiue, &amp; agit 
+      <lb ed="#R" n="51"/>in Distinctione ista de ipso comparando eum 
+      <lb ed="#R" n="52"/>ad suscipientes: quaero ergo ad euidentiam 
+      <lb ed="#R" n="53"/>totius distinctionis tres quaestiones.
+    </p>
+            <p>
+               <lb ed="#R" n="54"/>Prima est: Vtrum vsus huius Sacramenti sit 
+      <lb ed="#R" n="55"/>congrue institutus. Secunda est: Vtrum 
+      <lb ed="#R" n="56"/>omnis homo, &amp; peccator sit idoneus 
+      susce<lb ed="#R" n="57" break="no"/>ptor huius Sacramenti. Tertio, quando ima 
+      <lb ed="#R" n="58"/>gines per miraculum apparent, vtrum tunc 
+      <lb ed="#R" n="59"/>Sacramentum sit aptum ad suscipiendum.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

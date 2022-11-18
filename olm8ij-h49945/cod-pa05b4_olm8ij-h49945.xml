@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="145"/>
+            <cb ed="#R" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h49945"> <!-- l4-d18q1 -->
+            <head>Quaestio 1</head>
+            <p>
+               <lb ed="#R" n="106"/>Quaestio Vnica. 
+    </p>
+            <div>
+               <head>Articulus 1</head>
+               <head type="question-title">
+      Utrum claves regni caelorum sint in Ecclesia.
+    </head>
+               <p>
+                  <lb ed="#R" n="107"/>ARTICVLVUS I. 
+      <lb ed="#R" n="108"/>Vtrum claues regni caelorum sint in Ecclesia. 
+    </p>
+               <p>
+                  <lb ed="#R" n="109"/>QVANTVM ad primum. 
+      <lb ed="#R" n="110"/>arguo, quod non, sic: 
+      <lb ed="#R" n="111"/>Cui non committitur 
+      ma<lb ed="#R" n="112" break="no"/>ius, nec minus: sed 
+      cla<lb ed="#R" n="113" break="no"/>lues inferni non sunt com 
+      <lb ed="#R" n="114"/>missae Ecclesiae, quod 
+      ta<lb ed="#R" n="115" break="no"/>men minus esset: ergo 
+      <lb ed="#R" n="116"/>nec claues regni coe
+      lo<lb ed="#R" n="117" break="no"/>rum, &amp;c. In oppositum 
+      <lb ed="#R" n="118"/>est illud verbum Christi Math. 16. Et tibi dabo 
+      cla<lb ed="#R" n="119" break="no"/>ues regni caelorum, &amp;c. Respondeo, quia 
+      demon<lb ed="#R" n="120" break="no"/>stratio, quae supponitur, vt sciatur, quid nominis 
+      <lb ed="#R" n="121"/>de re demonstranda. Ideo primo videndum est,
+      <lb ed="#R" n="122"/>quid importetur per nomen Caluium.
+    </p>
+               <p>
+                  <lb ed="#R" n="123"/>Respondeo ad hoc, quod caluis hic accipitur me-
+      <!--0146.xml-->
+      <pb ed="#R" n="146"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>taphorice: dicitur enim clauis a claudendo: est 
+      <lb ed="#R" n="2"/>enim instrumentum quo claudimus, &amp; aperimus: 
+      <lb ed="#R" n="3"/>Dare ergo claues regni caelorum non est aliud, quam 
+      <lb ed="#R" n="4"/>dare potestatem, &amp; vim claudendi regnum caelorum, 
+      <lb ed="#R" n="5"/>&amp; aperiendi: regnum enim caelorum in se non 
+      di<lb ed="#R" n="6" break="no"/>citur claudi, nec aperiri, quia regnum coelorum est 
+      <lb ed="#R" n="7"/>visio beata, quae intra nos est. Clausio ergo non est 
+      <lb ed="#R" n="8"/>aliud, quam indignitas quaedam, quae pro tanto 
+      clau<lb ed="#R" n="9" break="no"/>dit, quia ligat istum, ne possit intrare ratione 
+      in<lb ed="#R" n="10" break="no"/>dignitatis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="11"/>Dico nunc, quod aperitio per oppositum, non 
+      <lb ed="#R" n="12"/>est aliud, quam amotio istius indignitatis 
+      impe<lb ed="#R" n="13" break="no"/>dientis, &amp; per consequens clausio est manutentio 
+      <lb ed="#R" n="14"/>istius indignitatis. Probo, quia huiusmodi claues 
+      <lb ed="#R" n="15"/>sic aperiendi, &amp; claudendi (vt dictum est) sunt in 
+      <lb ed="#R" n="16"/>Ecclesia: hanc probo, sic. Illa potestas, qua 
+      aufer<lb ed="#R" n="17" break="no"/>tur ab homine indignitas ad introeundum regnum 
+      <lb ed="#R" n="18"/>caelorum, vel indignitas, manutenetur, &amp; 
+      confirma<lb ed="#R" n="19" break="no"/>tur, est clauis, quae aperit, &amp; claudit regnum 
+      caelo<lb ed="#R" n="20" break="no"/>rum: sed huiusmodi potestas est in Ecclesia: ergo. 
+      <lb ed="#R" n="21"/>Maior patet ex praemissis. Probo minorem, sic: 
+      <lb ed="#R" n="22"/>Potestas tollendi indignitatem, non est aliud, quam 
+      <lb ed="#R" n="23"/>potestas tollendi culpam: non enim aliud est 
+      indi<lb ed="#R" n="24" break="no"/>gnitas huiusmodi, quam culpa ipsa: potestas etiam 
+      <lb ed="#R" n="25"/>claudendi non est aliud, quam potestas non 
+      remit<lb ed="#R" n="26" break="no"/>tendi: sed talis potestas est in Ecclesia respectu 
+      cul<lb ed="#R" n="27" break="no"/>pae dimittendae, &amp; detinendae: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="28"/>Vbi sciendum, quod respectu culpae dimittendae; 
+      <lb ed="#R" n="29"/>quaedam est potestas generalis, &amp; principalis, &amp; 
+      <lb ed="#R" n="30"/>talis est Dei solius: alia est commissionis, &amp; haec du 
+      <lb ed="#R" n="31"/>plex, vel generalis, quo ad omnem culpam, &amp; 
+      om<lb ed="#R" n="32" break="no"/>nem modum culpae, &amp; haec potestas data est soli 
+      <lb ed="#R" n="33"/>Christo, quia virtus, &amp; potestas Cristi non fuit 
+      ar<lb ed="#R" n="34" break="no"/>ctata ad peccatum aliquod, vel aliquod 
+      Sacramen<lb ed="#R" n="35" break="no"/>tum, &amp; potestas haec vocatur communiter potestas 
+      <lb ed="#R" n="36"/>excellentiae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="37"/>Secunda est commissionis ministerialis, arctata 
+      <lb ed="#R" n="38"/>ad certum modum puta, applicando Sacramentum 
+      <lb ed="#R" n="39"/>aliquod, quod est applicare actiuum passiuo, ad 
+      <lb ed="#R" n="40"/>agere; &amp; talis potestas dimittendi peccatum: 
+      pa<lb ed="#R" n="41" break="no"/>tet quod est in Ecclesia: sacerdos enim absoluens 
+      <lb ed="#R" n="42"/>Sacramentum confessionis adhibet, quo 
+      applica<lb ed="#R" n="43" break="no"/>tur principalis auctoritas, scilicet diuina ad 
+      delen<lb ed="#R" n="44" break="no"/>dum culpam, &amp; indignitatem: ergo hoc modo 
+      ape<lb ed="#R" n="45" break="no"/>rit, &amp; claudit regnum. ac per consequens habet 
+      <lb ed="#R" n="46"/>clauem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="47"/>Secundo videndum est, quot sunt huiusmodi cla 
+      <lb ed="#R" n="48"/>ues. Dicunt, quod non sunt nisi vna per essentiam, 
+      <lb ed="#R" n="49"/>duae vero per actum: hoc modo, quod character, 
+      <lb ed="#R" n="50"/>qui infunditur in Sacramento Ordinis est potestas 
+      <lb ed="#R" n="51"/>actiua, &amp; existens vnus, &amp; idem numero per 
+      essen<lb ed="#R" n="52" break="no"/>tiam aspicit duos actus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="53"/>Primus quidem est circa corpus Christi verum, 
+      <lb ed="#R" n="54"/>&amp; hoc est conficere corpus Cnristi. 
+    </p>
+               <p>
+                  <lb ed="#R" n="55"/>Secundus vero circa corpus Christi misticum, &amp; 
+      <lb ed="#R" n="56"/>hic est inquirere de culpa, &amp; arbitrari, absoluere, &amp; 
+      <lb ed="#R" n="57"/>ligare 
+    </p>
+               <p>
+                  <lb ed="#R" n="58"/>Alij dicunt, quod sunt diuersae claues numero, &amp; 
+      <lb ed="#R" n="59"/>essentialiter: ratio est, quia potestas ista non est 
+      po<lb ed="#R" n="60" break="no"/>testas physica, &amp; realis, sed potestas moralis tantum, 
+      <lb ed="#R" n="61"/>sicut est potestas Regis, vel Papae, quae non est aliqua 
+      <lb ed="#R" n="62"/>qualitas actiua, quae debetur Regi, quando eligitur, 
+      <lb ed="#R" n="63"/>aut Papae; sed est tantum potestas moralis, &amp; velle 
+      <lb ed="#R" n="64"/>talem potestatem transferre ad realem, est 
+      dece<lb ed="#R" n="65" break="no"/>ptio magna. 
+    </p>
+               <p>
+                  <lb ed="#R" n="66"/>Tunc ad propositum dicitur, quod sunt duae 
+      cla<lb ed="#R" n="67" break="no"/>ues per essentiam in esse morali. 
+    </p>
+               <p>
+                  <lb ed="#R" n="68"/>Videtur mihi dicendum, quod clauis scientiae non 
+      <!--0146.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>est habitus, sed potestas moralis hoc modo 
+      inqui<lb ed="#R" n="70" break="no"/>rendi de culpa; clauis vero absoluendi est potestas 
+      <lb ed="#R" n="71"/>iudicandi, &amp; arbitrandi de inquisita culpa: vtraque 
+      <lb ed="#R" n="72"/>ergo clauis potestas quaedam est, quod nec 
+      inqui<lb ed="#R" n="73" break="no"/>rere, nec iudicare pertinet, nisi ad habentem aucto 
+      <lb ed="#R" n="74"/>ritatem: tamen non sunt eadem potestas, imo 
+      pos<lb ed="#R" n="75" break="no"/>sunt ab inuicem separari. Habēt enim quidam 
+      po<lb ed="#R" n="76" break="no"/>testatem inquirendi, qui tamen non habent 
+      pote<lb ed="#R" n="77" break="no"/>statem iudicandi, vt si alicui Iudex committat 
+      in<lb ed="#R" n="78" break="no"/>quirere in prouincia aliqua de commisso peccato, 
+      <lb ed="#R" n="79"/>&amp; illud sibi debere referri iudicandum ab eo: non 
+      <lb ed="#R" n="80"/>ergo sunt haec, &amp; illa vna potestas, sed duae, &amp; per 
+      <lb ed="#R" n="81"/>consequens duae claues. Clauis autem prima, 
+      scili<lb ed="#R" n="82" break="no"/>cet auctoritas inquirendi, vocatur clauis scientiae. 
+      <lb ed="#R" n="83"/>Alia vero dicitur clauis absoluendi, &amp; est potestas 
+      <lb ed="#R" n="84"/>quaedam iurisdictionis. Videtur tamen mihi, quod 
+      <lb ed="#R" n="85"/>hae duae claues sint duae potestates per essentiam; sicut 
+      <lb ed="#R" n="86"/>relationes, si multiplicentur secundum terminos, 
+      nihi<lb ed="#R" n="87" break="no"/>lominus vnus character, super quem fundantur am 
+      <lb ed="#R" n="88"/>bae partes. Probatio primae partis, quod scilicet 
+      <lb ed="#R" n="89"/>sint duae potestates per essentiam sic: Relationes mul 
+      <lb ed="#R" n="90"/>riplicantur secundum terminos: ergo cum 
+      potesta<lb ed="#R" n="91" break="no"/>tes sint relationes quaedam, multiplicantur 
+      secun<lb ed="#R" n="92" break="no"/>dum actus alterius generis: sed inquirere, &amp; senten 
+      <lb ed="#R" n="93"/>tiare sunt actus alterius generis, &amp; separabiles vnus 
+      <lb ed="#R" n="94"/>ab altero: ergo. Et confirmo, quia non videtur 
+      ea<lb ed="#R" n="95" break="no"/>dem potestas conficiendi, &amp; absoluendi. Et 
+      proba<lb ed="#R" n="96" break="no"/>tur, quia Christus ante passionem dedit potestatem 
+      <lb ed="#R" n="97"/>conficiendi, &amp; post passionem dedit potestatem 
+      ab<lb ed="#R" n="98" break="no"/>soluendi. Similiter sic confert Episcopus, quando 
+      or<lb ed="#R" n="99" break="no"/>dinat huiusmodi potestates separatim, primo cum 
+      <lb ed="#R" n="100"/>dicit: accipite potestatem, &amp; c. secundo cum dicit: 
+      <lb ed="#R" n="101"/>accipite Spiritum sanctum, quorum remiseritis, &amp;c. 
+      <lb ed="#R" n="102"/>Secundam partem illius propositionis probo, scilicet, 
+      <lb ed="#R" n="103"/>quod non sit, nisi vnus character. Probatum estt enim 
+      <lb ed="#R" n="104"/>in materia de charactere, quod character non est po 
+      <lb ed="#R" n="105"/>tentia naturalis actiua, &amp; licet sit qualitas quaedam, 
+      <lb ed="#R" n="106"/>non tamen plus est actiua, quam baculus Regis, vel 
+      <lb ed="#R" n="107"/>corona, sed sicut baculus, &amp; corona non sunt nisi 
+      si<lb ed="#R" n="108" break="no"/>gnum potestatis cuiusdam politicae, &amp; moralis, sic &amp; 
+      <lb ed="#R" n="109"/>character: ergo potescas inquirendi, &amp; absoluendi 
+      <lb ed="#R" n="110"/>sunt duae, sic in proposito. Jstae ergo potestates, idest 
+      <lb ed="#R" n="111"/>inquirendi, &amp; iudicandi sunt duae, &amp; cum potestate 
+      <lb ed="#R" n="112"/>conficiendi simul sunt tres potestates, quae non sunt 
+      <lb ed="#R" n="113"/>aliud, quam tres habitudines rationis ad actus 
+      al<lb ed="#R" n="114" break="no"/>terius, &amp; alterius generis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="115"/>Nunc videndum est, quorum sunt istae claues. 
+      Di<lb ed="#R" n="116" break="no"/>co, quod omnis sacerdos ecclesiasticus rite 
+      ordi<lb ed="#R" n="117" break="no"/>natus habet istas claues in Ecclesia. Et dico quicun 
+      <lb ed="#R" n="118"/>que propter haere sim illam, quae ponit, quod existens 
+      <lb ed="#R" n="119"/>in peccato mortali, quantumcunque ordinatus, non 
+      <lb ed="#R" n="120"/>habet huiusmodi claues, &amp; quia claues huiusmodi 
+      <lb ed="#R" n="121"/>fuerunt ablatae ab Ecclesia, quando caepit 
+      tempora<lb ed="#R" n="122" break="no"/>lia possidere tempore Constantini. 
+    </p>
+               <p>
+                  <lb ed="#R" n="123"/>Dico secundo, ordinatus, ad excludendum omnem 
+      <lb ed="#R" n="124"/>alium quemcunque, &amp; quantumcunque iustum, vnde 
+      <lb ed="#R" n="125"/>nec beata Virgo has claues habuit in Ecclesia Dei. 
+    </p>
+               <p>
+                  <lb ed="#R" n="126"/>Dico tertio Ecclesiasticus ad differentiam 
+      sacer<lb ed="#R" n="127" break="no"/>dotis legalis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="128"/>Dices: Etiam hostiarias habet claues. Respondeo 
+      <lb ed="#R" n="129"/>non claues, de quibus sermo est in proposito. Sed 
+      <lb ed="#R" n="130"/>qui habent licite dandum est, quod habeant absolute?
+    </p>
+               <p>
+                  <lb ed="#R" n="131"/>Respondeo, quod licite habet claues has, quicũ- 
+      <lb ed="#R" n="132"/>que ab Ecclesia non praecisus iurisdictionem habens, 
+      <lb ed="#R" n="133"/>&amp; inquantum iurisdictionem habens. Propter 
+      pri<lb ed="#R" n="134" break="no"/>mum excluditur scismaticus, &amp; excommunicatus, 
+      <lb ed="#R" n="135"/>&amp; degradatus, nam etsi habent claues, vti tamen 
+      <lb ed="#R" n="136"/>non possunt.
+    </p>
+               <p>
+      <!--0147.xml-->
+                  <pb ed="#R" n="147"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Propter secundum excluditur simplex sacerdos, 
+      <lb ed="#R" n="2"/>qui etsi habeat claues, tamen priusquam 
+      iuriidi<lb ed="#R" n="3" break="no"/>ctionem habeat, vti non potest. Ratio huius est, 
+      <lb ed="#R" n="4"/>quia potestas absoluendi est potestas mixta 
+      suppo<lb ed="#R" n="5" break="no"/>nens ordinem. Propter quod nullus habet 
+      pote<lb ed="#R" n="6" break="no"/>statem disponendi super corpus misticum, qui non 
+      <lb ed="#R" n="7"/>habet potestatem super corpus verum, quae es 
+      po<lb ed="#R" n="8" break="no"/>testas conficiendi. 
+    </p>
+               <p>
+                  <lb ed="#R" n="9"/>Secundo supponit iurisdictionem cuius ratio 
+      <lb ed="#R" n="10"/>est, quia potestas haec est potestas disponendi 
+      cor<lb ed="#R" n="11" break="no"/>pus Christi misticum; &amp; omnis habens huiusmodi 
+      <lb ed="#R" n="12"/>potestatem, oportet, quod habeat in Ecclesia 
+      gra<lb ed="#R" n="13" break="no"/>dum aliquem, &amp; per consequens iurisdictionem. 
+      <lb ed="#R" n="14"/>Dices: Ergo monachus, &amp; religiosus non habens 
+      <lb ed="#R" n="15"/>subditum non habet claues. &amp; hoc videtur 
+      confir<lb ed="#R" n="16" break="no"/>mari, quia omni potentiae actiuae correspondet 
+      po<lb ed="#R" n="17" break="no"/>tentia aliqua passiua: respectu autem religiosi, vel 
+      <lb ed="#R" n="18"/>monachi nulla est potentia passiua, cum careat 
+      iu<lb ed="#R" n="19" break="no"/>risdictione. Secundo, quia relatiua posita se 
+      po<lb ed="#R" n="20" break="no"/>nunt, &amp; perempta se perimunt: sed potestas est 
+      re<lb ed="#R" n="21" break="no"/>latiuum in ordine ad terminum, sicut ad 
+      correla<lb ed="#R" n="22" break="no"/>tiuum, hic autem non est terminus potestatis, quia 
+      <lb ed="#R" n="23"/>non subditus: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="24"/>Respondeo, dico, quod habent potestatem 
+      absol<lb ed="#R" n="25" break="no"/>uendi. Dicunt tamen quidam, quod potestas ista est 
+      <lb ed="#R" n="26"/>remota, sic, quod non potest reduci ad actum, nisi 
+      <lb ed="#R" n="27"/>detur subditus: potestas vero conficiendi est 
+      pote<lb ed="#R" n="28" break="no"/>stas propinqua, ideo quando vult, potest conficere: 
+      <lb ed="#R" n="29"/>non tamen quando vult, potest absoluere.
+    </p>
+               <p>
+                  <lb ed="#R" n="30"/>Videtur mihi dicendum, quod ista potestas sit 
+      <lb ed="#R" n="31"/>potesas mixta, vt dixi de ordine &amp; iurisdictione, &amp; 
+      <lb ed="#R" n="32"/>omnis sacerdos habet hanc potestatem, quantum 
+      <lb ed="#R" n="33"/>ad primum, quod includit; vel quantum ad ordinem, 
+      <lb ed="#R" n="34"/>non autem quo ad secundum, nisi habeat 
+      iurisdi<lb ed="#R" n="35" break="no"/>ctionem. Ideo si non detur subditus, non tantum 
+      <lb ed="#R" n="36"/>non habet potestatem propinquam, sed dico, quod 
+      <lb ed="#R" n="37"/>non habet essentialiter potestatem, nec remotam, 
+      <lb ed="#R" n="38"/>nec propinquam, quia deficit sibi alterum, quod 
+      es<lb ed="#R" n="39" break="no"/>sentialiter includit. 
+    </p>
+               <p>
+                  <lb ed="#R" n="40"/>Sed ad quid sunt claues istae? Respondeo, dico, 
+      <lb ed="#R" n="41"/>quod ad soluendum, &amp; ligandum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="42"/>Sed dicunt quidam, solutionem hanc ligandi, 
+      <lb ed="#R" n="43"/>intelligi quo ad poenam non quo ad culpam: ratio 
+      <lb ed="#R" n="44"/>eorum est, quia culpa deletur in contritione sola 
+      <lb ed="#R" n="45"/>interiori. Alij dicunt, quod potestas isa 
+      absoluen<lb ed="#R" n="46" break="no"/>di, &amp; ligandi non est a poena, nec a culpa 
+      causali<lb ed="#R" n="47" break="no"/>ter, sed tantum per modum signi ad 
+      demonstran<lb ed="#R" n="48" break="no"/>dum talem esse absolutum. Haec autem opinio 
+      se<lb ed="#R" n="49" break="no"/>cunda multum derogat efficaciae Sacramenti. 
+      Pro<lb ed="#R" n="50" break="no"/>pter quod videtur, quod ista potestas, siue clauis 
+      <lb ed="#R" n="51"/>est directe ad soluendum a peccato, &amp; ex 
+      conse<lb ed="#R" n="52" break="no"/>quenti ad commutandum poenam aeternam 
+      in<lb ed="#R" n="53" break="no"/>temporalem contra opinionem primam, &amp; ad 
+      gra<lb ed="#R" n="54" break="no"/>tiam actiue conferendam per modum applicantis 
+      <lb ed="#R" n="55"/>actiua passiuis, vt dictum est in quae stione prima, &amp; 
+      <lb ed="#R" n="56"/>alibi, &amp; hoc dico contra opinionem secundam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="57"/>Ad illud autem, quod dicitur, quod peccatum in 
+      <lb ed="#R" n="58"/>sola contritione deletur. 
+    </p>
+               <p>
+                  <lb ed="#R" n="59"/>Respondeo in simili: Baptismus enim ordinatus 
+      <lb ed="#R" n="60"/>est ad deletionem peccati, &amp; tamen est possibile 
+      <lb ed="#R" n="61"/>quod veniens ad Baptismum sit sine peccato, quia 
+      <lb ed="#R" n="62"/>deleri potuit aliter: sic dico in proposito. Dico tũc, 
+      <lb ed="#R" n="63"/>quod ex hoc dicitur confessio culpam delere 
+      dire<lb ed="#R" n="64" break="no"/>cte, &amp; gratiam conferre, quia de communi lege 
+      <lb ed="#R" n="65"/>sunt ad hoc, si culpam inueniant, etsi non inueniant, 
+      <lb ed="#R" n="66"/>tunc non causant gratiam nouam, sed priorem 
+      aug<lb ed="#R" n="67" break="no"/>mentant, &amp; ex consequenti diminuunt poenam 
+      <lb ed="#R" n="68"/>Haec de esfectu clauium, qui es absolutio.
+    </p>
+               <p>
+      <!--0147.xml-->
+                  <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>Respondeo quod Sacerdotes dicuntur ligare per 
+      <lb ed="#R" n="70"/>acc idens, quia non remouendo prohibens eo modo, 
+      <lb ed="#R" n="71"/>quo Deus dicitur obstinare, non conferendo 
+      gra<lb ed="#R" n="72" break="no"/>tiam: peccatum autem impedit, &amp; ligat pro tanto, 
+      <lb ed="#R" n="73"/>quia indignum ad gratiam, vel gloriam facit. Ideo 
+      <lb ed="#R" n="74"/>sacerdos absoluens a peccato tollit ligamen; non 
+      <lb ed="#R" n="75"/>absoluendo autem, &amp; non remouendo prohibens 
+      <lb ed="#R" n="76"/>dicitur ligare: absoluendo autem a peccato, ex con 
+      <lb ed="#R" n="77"/>sequenti absoluit a poena. 
+    </p>
+               <p>
+                  <lb ed="#R" n="78"/>Ad argumentum in oppositum, dicunt quidam, 
+      <lb ed="#R" n="79"/>quod claues inferni sunt aliae a clauibus regni 
+      cae<lb ed="#R" n="80" break="no"/>lorum, &amp; ideo ad solum Deum pertinet infernum 
+      <lb ed="#R" n="81"/>claudere, quia ad eum pertinet gratiam 
+      infunde<lb ed="#R" n="82" break="no"/>re, cuius infusio est praeseruatio ab inferno, &amp; per 
+      <lb ed="#R" n="83"/>consequens clausio. Sed contra est, quod idem dici 
+      <lb ed="#R" n="84"/>posset de aperitione. Alij dicunt, quod sunt 
+      cla<lb ed="#R" n="85" break="no"/>ues: eaedem tamen claudunt, &amp; aperiunt opposito 
+      <lb ed="#R" n="86"/>modo, nam aperiendo caelum claudunt infernum, e 
+      <lb ed="#R" n="87"/>conuerso aperiendo infernum claudunt caelum. Dico 
+      <lb ed="#R" n="88"/>tũc, quod sacerilos habet claues inferni hoc modo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="89"/>Ad illud de Apoc. quod solus Christus habet 
+      il<lb ed="#R" n="90" break="no"/>las. Verum est per modum excellentiae, quia sua 
+      <lb ed="#R" n="91"/>aperitio, &amp; clausio non limitatur ad Sacramentum, 
+      <lb ed="#R" n="92"/>quomodo oportet dicere de sacerdote in 
+      Eccle<lb ed="#R" n="93" break="no"/>sia Dei. 
+    </p>
+            </div>
+            <div>
+               <head>Articulus 2</head>
+               <head type="question-title">
+      Utrum claues iurisdictionis sint in Ecclesia.
+    </head>
+               <p>
+                  <lb ed="#R" n="94"/>ARTICVLVS II 
+      <lb ed="#R" n="95"/>Vtrum claues iurisdictionis sint in Ecclesia.
+    </p>
+               <p>
+                  <lb ed="#R" n="96"/>QVoad secundam quaestionem arguo primo, 
+      <lb ed="#R" n="97"/>Aquod claues iurisdictionis, non sint in Ecclesia 
+      <lb ed="#R" n="98"/>Dei, quia-cuius actus est illicitus non videtur esse in 
+      <lb ed="#R" n="99"/>Ecclesia Dei: huiusmodi est actus clauium 
+      iuris<lb ed="#R" n="100" break="no"/>dictionis, cuiusmodi est excommunicare: ergo. In 
+      <lb ed="#R" n="101"/>oppositum est auctoritas Ecclesiae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="102"/>Respondeo: Sicut in foro poeuitentiali potestas 
+      in<lb ed="#R" n="103" break="no"/>quirendi secreta dicitur clauis, similiter in publico 
+      <lb ed="#R" n="104"/>potestas inquirendi in crimine dicitur clauis 
+      iuris<lb ed="#R" n="105" break="no"/>dictionis: hanc autem ciauem sequitur mucro 
+      sen<lb ed="#R" n="106" break="no"/>tentiae, quacum vna est excommunicatio, de 
+      qua<lb ed="#R" n="107" break="no"/>videndum est, quid sit. 
+    </p>
+               <p>
+                  <lb ed="#R" n="108"/>Dico, quod Excommunicatio est positio extra 
+      <lb ed="#R" n="109"/>corpus Eclesiae. Sciendum est autem, quod 
+      commu<lb ed="#R" n="110" break="no"/>nicamus in Ecclesia in duobus. Primo, quia sumus 
+      <lb ed="#R" n="111"/>vnum corpus in Chriso, singuli vero membra. 
+      Se<lb ed="#R" n="112" break="no"/>cundo communicamus in communione Sanctorum, 
+      <lb ed="#R" n="113"/>&amp; in actibus iurisdictionalibus, quae pertinent ad 
+      <lb ed="#R" n="114"/>istud corpus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="115"/>Excommunicatio ergo duplex est, quaedam 
+      mi<lb ed="#R" n="116" break="no"/>nor, &amp; haec diuidit a communione Sacramentorum; 
+      <lb ed="#R" n="117"/>quedam maior, &amp; haec diuidita communione actuum 
+      <lb ed="#R" n="118"/>prohibitorum, cuiusmodi sunt osculum, 
+      communi<lb ed="#R" n="119" break="no"/>catio in mensa, salutationes, &amp; huiusmodi. Potestas 
+      <lb ed="#R" n="120"/>ergo excommunicandi est potestas separandi 
+      alte<lb ed="#R" n="121" break="no"/>ro dictorum modorum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="122"/>Secundo videndum est, quis excommunicare pos 
+      <lb ed="#R" n="123"/>sit. Dicit vnus Doctor, quod solus Papa: Ratio est. 
+      <lb ed="#R" n="124"/>quia Episcopus non potest prohibere isti 
+      salutatio<lb ed="#R" n="125" break="no"/>nem fieri, nisi intra suam diocesim: &amp; consimiliter 
+      <lb ed="#R" n="126"/>est de alijs actibus. Verum quia Ecclesia aliter 
+      vti<lb ed="#R" n="127" break="no"/>tur, videtur mihi dicendum, quod quicunque habens 
+      <lb ed="#R" n="128"/>iurisdictionem, idest auctoritatem inquirendi in 
+      <lb ed="#R" n="129"/>foro Ecclesiae, sicut habet illam, sic habet excommu 
+      <lb ed="#R" n="130"/>nicandi auctoritatem; qui de iure, sicut Episcopus; 
+      <lb ed="#R" n="131"/>&amp; qui de consuetudine, sicut Archidiaconus, in 
+      qui<lb ed="#R" n="132" break="no"/>busdam locis, &amp; in alijs sacerdos. Hanc 
+      conclusio<lb ed="#R" n="133" break="no"/>nem probo, quia frustra datur potestas, nisi detur 
+      il<lb ed="#R" n="134" break="no"/>lud, sine quo potestas non valet: sed auctoritas 
+      <lb ed="#R" n="135"/>inquirendi, &amp; iudicandi nihil omnino valet, nisi 
+      <lb ed="#R" n="136"/>
+                  <!-- line coord error -->
+                  <!--0148.xml-->
+                  <pb ed="#R" n="148"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>possit innocentem absoluere, non punit autem, nisi 
+      <lb ed="#R" n="2"/>excommunicando: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="3"/>Sed nunquid potest excommunicare non 
+      sacer<lb ed="#R" n="4" break="no"/>dos? Dico, quod sic, quia non est potestas ordinis, 
+      <lb ed="#R" n="5"/>nec mixta, includens ordinem, sed praecise est 
+      po<lb ed="#R" n="6" break="no"/>testas iurisdictionis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="7"/>Vltimo videndum est, quis possit 
+      excommunica<lb ed="#R" n="8" break="no"/>ri. Respondeo dico personaliter distinctus. Ideo 
+      <lb ed="#R" n="9"/>idem se excommunicare non potest. Similiter 
+      in<lb ed="#R" n="10" break="no"/>ferior, ideo non superior ab inferiori. Tertio 
+      sin<lb ed="#R" n="11" break="no"/>gularis; ideo vnus totus conuentus, vel 
+      communi<lb ed="#R" n="12" break="no"/>tas, etsi possit interdici, non tamen excommunicari. 
+    </p>
+               <p>
+                  <lb ed="#R" n="13"/>Nota tamen, quod differentia est inter 
+      excom<lb ed="#R" n="14" break="no"/>municationem, interdictum, &amp; suspensionem: nam 
+      <lb ed="#R" n="15"/>excommunicatio est separatio a communione 
+      Sa<lb ed="#R" n="16" break="no"/>cramentorum, siue etiam actuum fidelium, si sit 
+      <lb ed="#R" n="17"/>maior. Interdictum vero est prohibitio tantum 
+      <lb ed="#R" n="18"/>in ordine ad adminisrationem Sacramētorum 
+      re<lb ed="#R" n="19" break="no"/>spectu recipientium; &amp; suspensio est prohibitio 
+      mi<lb ed="#R" n="20" break="no"/>nistrationis in ministrante. 
+    </p>
+               <p>
+                  <lb ed="#R" n="21"/>Ad argumentum principale, nego minorem. Ad 
+      <lb ed="#R" n="22"/>probationem dico, quod actus 
+      excommunicatio<lb ed="#R" n="23" break="no"/>nis non est illicitus, immo licitus: non tamen 
+      faci<lb ed="#R" n="24" break="no"/>liter, &amp; pro quacunque causa, nec pro re 
+      tempora<lb ed="#R" n="25" break="no"/>li debet inferri, quia si quandoque appareat fieri 
+      <lb ed="#R" n="26"/>pro furto, vel debito, semper fit per inobedientiam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="27"/>Et quod actus sit licitus habetur ex verbo 
+      Chri<lb ed="#R" n="28" break="no"/>sti dicentis de incorrigibili: Si Ecclesiam audire 
+      no<lb ed="#R" n="29" break="no"/>luerit, sit tibi sicut ethnicus, &amp; publicanus.
+      <lb ed="#R" n="30"/>
+                  <!-- line coord error -->
+                  <lb ed="#R" n="31"/>
+                  <!-- line coord error -->
+                  <lb ed="#R" n="32"/>
+                  <!-- line coord error -->
+                  <lb ed="#R" n="33"/>
+                  <!-- line coord error -->
+                  <lb ed="#R" n="34"/>
+                  <!-- line coord error -->
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

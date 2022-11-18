@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="61"/>
+            <cb ed="#R" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h20897"> <!-- l4-d7q1 -->
+            <head>Quaestio 1</head>
+            <p>
+               <lb ed="#R" n="89"/>Quaestio I. 
+    </p>
+            <div>
+               <head>Articulus 1</head>
+               <head type="question-title">
+          Utrum Confirmatio sit Sacramentum Nouae legis.
+        </head>
+               <p>
+                  <lb ed="#R" n="90"/>ARTICVLVS VNJCVS. 
+      <lb ed="#R" n="91"/>Vtrum Confirmatio sit Sacramentum Nouae legis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="92"/>QVANTVM ad primam 
+      quae<lb ed="#R" n="93" break="no"/>stionem arguo primo, quod 
+      <lb ed="#R" n="94"/>Confirmatio Nouae Legis nō 
+      <lb ed="#R" n="95"/>sit Sacramentum Nouae Legis, 
+      <lb ed="#R" n="96"/>sic: Sacramenta Nouae legis 
+      <lb ed="#R" n="97"/>debent esse numero 
+      paucio<lb ed="#R" n="98" break="no"/>ra, &amp; vsu faciliora, secundum 
+      <lb ed="#R" n="99"/>August. contra Faustum: non 
+      <lb ed="#R" n="100"/>ergo debent esse Sacramenta Nouae legis, quae vel 
+      <lb ed="#R" n="101"/>eis coexistentia non fuerunt in veteri Lege: sed 
+      Sa<lb ed="#R" n="102" break="no"/>cramentum Confirmationis, nec alio eidem 
+      corre<lb ed="#R" n="103" break="no"/>spondens erat in lege veteri: ergo illud non debuit 
+      <lb ed="#R" n="104"/>esse Sacramentum Nouae Legis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="105"/>In oppositum est auctoritas Christi, qui instituit 
+      <lb ed="#R" n="106"/>hoc Sacramentum tangendo pueros in fronte
+      <lb ed="#R" n="107"/>Item auctoritas Ecclesiae in Decretis.
+    </p>
+               <p>
+                  <lb ed="#R" n="108"/>Respondeo, in ista quaestione ponam per ordinem 
+      <lb ed="#R" n="109"/>tres propositiones. Prima est, quod Confirmatio est 
+      <lb ed="#R" n="110"/>Nouae legis Sacramentum. Secunda propositio est, 
+      <lb ed="#R" n="111"/>quod materia eius est congrue instituta: &amp; tertia, 
+      <lb ed="#R" n="112"/>quod forma est congrua. 
+    </p>
+               <p>
+                  <lb ed="#R" n="113"/>Primam propositionem probo per definitionem 
+      <lb ed="#R" n="114"/>Sacramenti Nouae Legis, arguo sic: Sacramentum est 
+      <lb ed="#R" n="115"/>inuisibilis gratiae, visibilis forma, ita vt eius 
+      simili<lb ed="#R" n="116" break="no"/>tudinem gerat, &amp; causa existat: ergo quod es 
+      inui<lb ed="#R" n="117" break="no"/>sibilis gratiae visibilis forma, est vere Sacramentum 
+      <lb ed="#R" n="118"/>Nouae Legis: sed Confirmatio est huiusmodi. 
+      Pro<lb ed="#R" n="119" break="no"/>bo: Est enim signum sensibile, quia elementum, &amp; 
+      <lb ed="#R" n="120"/>tactus; &amp; verba sensibilia sunt, &amp; significant 
+      inuisi<lb ed="#R" n="121" break="no"/>bilem gratiam, nam Chrisma significat vnctionem 
+      <lb ed="#R" n="122"/>interiorem gratiae, impositiò vero manuum, siue ta 
+      <lb ed="#R" n="123"/>ctus significat robur ad defensionem susceptae fidei
+    </p>
+               <p>
+                  <lb ed="#R" n="124"/>Ista etiam sic significant effecum huiusmodi 
+      in<lb ed="#R" n="125" break="no"/>uisibilem, qui causa existunt, nam virtute istius Sacra- 
+      <!--0062.xml-->
+      <pb ed="#R" n="62"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>menti per modumi causae applicantis confert Deus 
+      <lb ed="#R" n="2"/>animae gratiam gratum facientem, &amp; gratiam gratis 
+      <lb ed="#R" n="3"/>datam, sicut characterem, &amp; huiusmodi. Sunt 
+      ta<lb ed="#R" n="4" break="no"/>men hic dubia quaedam. 
+      <lb ed="#R" n="5"/>Primum est de charactere, si imprimitur in isto 
+      <lb ed="#R" n="6"/>Sacramento, &amp; ad quid ponitur, &amp; vtrum sit eiusdem 
+      <lb ed="#R" n="7"/>rationis cum charactere, qui infunditur in llaptismo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="8"/>Quoad primum horum dico, quod character est 
+      <lb ed="#R" n="9"/>forma quaedam absoluta de prima specie 
+      qualita<lb ed="#R" n="10" break="no"/>tis, vt dictum est supra, &amp; imprimitur in hoc Sacra 
+      <lb ed="#R" n="11"/>mento, quae est specialis animae Christi similitudo, 
+      <lb ed="#R" n="12"/>per quam ipsi animae Christi cuiuslibet 
+      suscipien<lb ed="#R" n="13" break="no"/>tis anima fit conformis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="14"/>Hanc autem propositionem probo, distinguendo 
+      <lb ed="#R" n="15"/>de Sacramentis, vt ratio formetur sic: In illis 
+      Sacra<lb ed="#R" n="16" break="no"/>mentis infunditur verum characer, &amp; signum 
+      ali<lb ed="#R" n="17" break="no"/>quod distinctum ab alijs, quae suscipientem 
+      consti<lb ed="#R" n="18" break="no"/>tuunt in gradu aliquo in Ecclesia: sed Sacramentum 
+      <lb ed="#R" n="19"/>Confirmationis vere constituit hominem suscipien 
+      <lb ed="#R" n="20"/>tem in gradu magnae dignitatis in Ecclesia: ergo in 
+      <lb ed="#R" n="21"/>eo vere infunditur character. 
+    </p>
+               <p>
+                  <lb ed="#R" n="22"/>Maior probari potest per exemplum politicum. 
+      <lb ed="#R" n="23"/>Videmus enim in familia alicuius Domini, quod si 
+      <lb ed="#R" n="24"/>aliquis praeferatur in gradu aliquo &amp; dignitate, sta 
+      <lb ed="#R" n="25"/>tim ei praebetur signum aliquod ab alijs qui 
+      gra<lb ed="#R" n="26" break="no"/>dum illum non possident distinctiuum, vnde intran 
+      <lb ed="#R" n="27"/>ti primo fumiliam datur vestis, per quam a 
+      fami<lb ed="#R" n="28" break="no"/>lia alterius domini discernatur, quando vero iam 
+      <lb ed="#R" n="29"/>admissus ad familiam, in gradu &amp; dignitate aliqua 
+      <lb ed="#R" n="30"/>constituitur, puta in statu militiae, datur signum 
+      <lb ed="#R" n="31"/>aliquod distinctiuum, vtpote varium: quando 
+      ve<lb ed="#R" n="32" break="no"/>ro praefertur vlterius in altiori adhuc gradu, puta 
+      <lb ed="#R" n="33"/>in statu principatus, &amp; alicuius dominij, 
+      adhibe<lb ed="#R" n="34" break="no"/>tur aliquod signum, puta baculus, vel aliquid 
+      si<lb ed="#R" n="35" break="no"/>mile: ergo sic debet esse in familia Christi, quod 
+      <lb ed="#R" n="36"/>assumpto ad Dei familiam, ac eidem in gradu 
+      ali<lb ed="#R" n="37" break="no"/>quo constituto conferatur per virtutem Sacramen 
+      <lb ed="#R" n="38"/>torum in gradu tali constituentium, aliud &amp; aliud 
+      <lb ed="#R" n="39"/>signum distinctiuum, secundum quod constituunt 
+      <lb ed="#R" n="40"/>in alio, &amp; alio gradu. 
+    </p>
+               <p>
+                  <lb ed="#R" n="41"/>Minorem autem probo distinguendo de 
+      Sacra<lb ed="#R" n="42" break="no"/>mentis. Ad cuius euidentiam est sciendum, quod Sa 
+      <lb ed="#R" n="43"/>cramentorum quaedam constituunt suscipientem 
+      <lb ed="#R" n="44"/>in aliquo gradu in Ecclesia Christi; quaedam non 
+      <lb ed="#R" n="45"/>nam Baptismus constituit primo absolute in satu 
+      <lb ed="#R" n="46"/>familiae Christi: Confirmatio vero iam receptum 
+      <lb ed="#R" n="47"/>in familia per Baptismum, constituit in gradu 
+      ali<lb ed="#R" n="48" break="no"/>qualiter altiori, puta in statu militiae. Confirma. 
+      <lb ed="#R" n="49"/>tus autem vltra hoc, quod est de communi familia 
+      <lb ed="#R" n="50"/>domini, est miles, ac pugil, ac fidei propugnator: 
+      <lb ed="#R" n="51"/>sed iam factum militem, ac propugnatorem per 
+      <lb ed="#R" n="52"/>Confirmationem, constituit Sacramentum 
+      Ordi<lb ed="#R" n="53" break="no"/>nis adhuc in gradu altiori, scilicet Principatus &amp; 
+      <lb ed="#R" n="54"/>Potestatis in Ecclesia. Alia vero Sacramenta in 
+      <lb ed="#R" n="55"/>nullo gradu, vel dignitate constituunt, vt patet 
+      in<lb ed="#R" n="56" break="no"/>tuenti: ergo relinquitur, quod in solis illis 
+      Sacra<lb ed="#R" n="57" break="no"/>mentis, scilicet Baptismo, Confirmatione, &amp; 
+      Ordi<lb ed="#R" n="58" break="no"/>ne character infundatur, quod quidem est signum ab 
+      <lb ed="#R" n="59"/>alijs distinctiuum, pro eo quod est similitudo 
+      spe<lb ed="#R" n="60" break="no"/>cialis, &amp; imago caelestis agni, scilicet Christi, 
+      quo<lb ed="#R" n="61" break="no"/>niam huius familiae caput est, ac princeps. Nec est 
+      <lb ed="#R" n="62"/>inconueniens, vt dictum est supra suo loco, quod 
+      <lb ed="#R" n="63"/>anima Christi possit plures tales habere 
+      similitu<lb ed="#R" n="64" break="no"/>dines, sicut alia est species albedinis, ac 
+      similitu<lb ed="#R" n="65" break="no"/>do in medio, alia in sensu, &amp; alia in intellectu. sic 
+      <lb ed="#R" n="66"/>ergo in Baptismo infunditur vna similitudo talis 
+      <lb ed="#R" n="67"/>animae Christi, per quam cognoscitur illam 
+      susci<lb ed="#R" n="68" break="no"/>piens, quod est de Christi familia. In Confirma- 
+      <!--0062.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>tione vero infunditur alia similitudo, per quam 
+      <lb ed="#R" n="70"/>cognoscitur suscipiens, quod obtinet in Cristi 
+      <lb ed="#R" n="71"/>familia talem gradum militiae; vel si non 
+      simili<lb ed="#R" n="72" break="no"/>tudo alia infundatur, saltem prima intenditur, &amp; 
+      <lb ed="#R" n="73"/>hoc secundum opiniones diuersas. 
+    </p>
+               <p>
+                  <lb ed="#R" n="74"/>Per quod patet solutio ad secundum praetactum 
+      <lb ed="#R" n="75"/>dubium, vtpote si in Baptismo, &amp; Confirmatione, 
+      <lb ed="#R" n="76"/>ac Ordine imprimitur idem character. 
+    </p>
+               <p>
+                  <lb ed="#R" n="77"/>Dicunt enim quidam, quod vtrobique character 
+      <lb ed="#R" n="78"/>est idem specifice, differens tamen penes intensum 
+      <lb ed="#R" n="79"/>&amp; remisum, quoniam in gradu intensiori in Confir 
+      <lb ed="#R" n="80"/>matione infunditur, quam in Baptismo, &amp; in gradu 
+      <lb ed="#R" n="81"/>intensiori in Ordine, quam in Baptismo, &amp; 
+      Con<lb ed="#R" n="82" break="no"/>firmatione. 
+    </p>
+               <p>
+                  <lb ed="#R" n="83"/>Alij dicunt, quod est alius character hic &amp; ibi, &amp; 
+      <lb ed="#R" n="84"/>motiuum ipsorum est, quod character Baptismi est 
+      <lb ed="#R" n="85"/>tantummodo potentia susceptiua; character vero 
+      <lb ed="#R" n="86"/>Confirmationis, &amp; similiter character Ordinum, est 
+      <lb ed="#R" n="87"/>potentia actiua: sed inferunt quod potentia actiua, 
+      <lb ed="#R" n="88"/>&amp; passiua non sunt eadem potentia. 
+    </p>
+               <p>
+                  <lb ed="#R" n="89"/>Quicquid sit de conclusione istius secundae 
+      opi<lb ed="#R" n="90" break="no"/>nionis, tamen motiuum non valet, supponit enim 
+      <lb ed="#R" n="91"/>quod character sit naturalis potentia, ac per hoc 
+      <lb ed="#R" n="92"/>sit de secunda specie qualitatis, quod superius 
+      im<lb ed="#R" n="93" break="no"/>probatum est, non enim est potentia actiua nisi eo 
+      <lb ed="#R" n="94"/>modo, quo potentia accipitur in moralibus, vt 
+      po<lb ed="#R" n="95" break="no"/>testas Papae, quae nulla qualitas actiua est, vt alias 
+      <lb ed="#R" n="96"/>dictum fuit.
+    </p>
+               <p>
+                  <lb ed="#R" n="97"/>Dico tamen, quod posset probabiliter teneri, quod 
+      <lb ed="#R" n="98"/>alius &amp; alius character infundatur in Baptismo, 
+      <lb ed="#R" n="99"/>Confirmatione, &amp; Ordine, vt suscipiens haec tria Sa 
+      <lb ed="#R" n="100"/>cramenta suscipiat virtute eorum aliam &amp; aliam 
+      <lb ed="#R" n="101"/>similitudinem animae Christi. Nec est hic 
+      inconue<lb ed="#R" n="102" break="no"/>niens ponere plures tales similitudines eiusdem rei, 
+      <lb ed="#R" n="103"/>sicut dictum est, quod alia esc similitudo albedinis 
+      <lb ed="#R" n="104"/>in medio, &amp; in sensu, &amp; in intellectu, &amp; sic quanto 
+      <lb ed="#R" n="105"/>species &amp; similitudo albedinis est vlterior, tanto ese 
+      <lb ed="#R" n="106"/>perfectior, &amp; expressior. Vnde expressior est 
+      simi<lb ed="#R" n="107" break="no"/>litudo in sensu, quam in medio, &amp; in inte llectu quam 
+      <lb ed="#R" n="108"/>in sensu. Sic in proposito posset dici, quod alius cha 
+      <lb ed="#R" n="109"/>racter, siue similitudo animae Chrisci, &amp; expressior 
+      <lb ed="#R" n="110"/>confertur in Sacramento Confirmationis, quam in 
+      <lb ed="#R" n="111"/>Baptismo; &amp; in Ordine, quam in Confirmatione. 
+    </p>
+               <p>
+                  <lb ed="#R" n="112"/>De eo vero, quod dictum est. quod character est 
+      <lb ed="#R" n="113"/>similitudo animae Christi, nescio aliter si ita est, 
+      ni<lb ed="#R" n="114" break="no"/>si quia circumstantia Scripturae hoc videtur 
+      ex<lb ed="#R" n="115" break="no"/>presse ponere, sicut probatum est in materia 
+      de<lb ed="#R" n="116" break="no"/>charactere. 
+    </p>
+               <p>
+                  <lb ed="#R" n="117"/>Secundo principaliter est dubium de gratia 
+      gra<lb ed="#R" n="118" break="no"/>tum faciente, si eadem infunditur in Baptismo, &amp; 
+      <lb ed="#R" n="119"/>in alijs Sacramentis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="120"/>Dicunt aliĳ, quod non, quia gratia Baptismalis 
+      <lb ed="#R" n="121"/>differt a gratia virtutum, quia gratia baptismalis 
+      <lb ed="#R" n="122"/>est qualitas quaedam in anima, vt ab ipsa profluit 
+      <lb ed="#R" n="123"/>reparatiuum quoddam humanorumBefectuum 
+      <lb ed="#R" n="124"/>Nunc autem in allo, &amp; alio Sacramento confertur 
+      <lb ed="#R" n="125"/>aliud, &amp; aliud reparatiuum, quia in Baptismo 
+      con<lb ed="#R" n="126" break="no"/>fertur quaedam illuminatio spiritualis, scilicet 
+      fi<lb ed="#R" n="127" break="no"/>des contra errorem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="128"/>In Confirmatione vero Fortitudo contra 
+      imbe<lb ed="#R" n="129" break="no"/>cillitatem: sed in Ordine scientia contra ignorantiam, 
+      <lb ed="#R" n="130"/>&amp; sic de alijs Sacramentis, in quibus infunditur 
+      a<lb ed="#R" n="131" break="no"/>liud, &amp; aliud reparatiuum, &amp; per consequens gratia, 
+      <lb ed="#R" n="132"/>inquantum dicitur sacramentalis, non est eadem in 
+      <lb ed="#R" n="133"/>sacramentis. Sed istam conclusionem cum suo 
+      mo<lb ed="#R" n="134" break="no"/>tiuo ego non capio, &amp; eam improbaui supra Dist. 4. 
+      <lb ed="#R" n="135"/>non enim gratia est qualitas quaedam, vt isti 
+      di<lb ed="#R" n="136" break="no"/>cunt, a qua profluunt virtutes, siue reparatiua talia:
+      <!--0063.xml-->
+      <pb ed="#R" n="63"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>sed magis e conuerso ipsa profluit a virtutibus; non 
+      <lb ed="#R" n="2"/>enim aliud est quam ipsaemet virtutes, siue 
+      integri<lb ed="#R" n="3" break="no"/>tas virtutum, sicut Magister expresse dicit dist. 4. 
+      <lb ed="#R" n="4"/>cap. vltimo, qui incipit, De paruulis vero, vbi dicit 
+      <lb ed="#R" n="5"/>expresse, quod gratia, quae infunditur in Baptismo, 
+      <lb ed="#R" n="6"/>est ipsamet charitas, &amp; fides, quae voluntatem 
+      prae<lb ed="#R" n="7" break="no"/>parat, &amp; adiuuat. Propter quod quantum ad illud 
+      <lb ed="#R" n="8"/>dubium. 
+    </p>
+               <p>
+                  <lb ed="#R" n="9"/>Dico, quod eadem est gratia, quae datur in 
+      Ba<lb ed="#R" n="10" break="no"/>ptismo, &amp; quae datur in Confirmatione, nisi quod in 
+      <lb ed="#R" n="11"/>Confirmatione augetur, datur enim in 
+      Confirma<lb ed="#R" n="12" break="no"/>tione gratia septiformis, quae est donum Spiritus 
+      <lb ed="#R" n="13"/>sancti. Hanc autem conclusionem ex hoc probo, 
+      <lb ed="#R" n="14"/>quia gratia sacramentalis (vt dictum est) sunt 
+      ip<lb ed="#R" n="15" break="no"/>saemet virtutes: caedem autem virtutes infunduntur 
+      <lb ed="#R" n="16"/>vtrobique: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="17"/>Sciendum tamen est, quod non est inconueniens, 
+      <lb ed="#R" n="18"/>quod licet eaedem virtutes infunduntur in omnibus Sa 
+      <lb ed="#R" n="19"/>cramentis, aliquae tamen virtutes speciales 
+      dire<lb ed="#R" n="20" break="no"/>ctius infundantur in vno Sacramento, quam in 
+      a<lb ed="#R" n="21" break="no"/>lio. In Baptismo enim principalius &amp; directius 
+      in<lb ed="#R" n="22" break="no"/>funditur Fides, quam in Confirmatione, &amp; ideo 
+      pro<lb ed="#R" n="23" break="no"/>prius effectus Baptismi dicitur illuminatio.
+  </p>
+               <p>
+                  <lb ed="#R" n="24"/>In Confirmatione vero directius infunditur 
+      for<lb ed="#R" n="25" break="no"/>titudo, quam in Baptismo, ideo effectus 
+      principa<lb ed="#R" n="26" break="no"/>lis Sacramenti Confirmationis est robur, quo susci 
+      <lb ed="#R" n="27"/>piens fit pugil pro Christo: sic ergo eadem gratia 
+      <lb ed="#R" n="28"/>infunditur in Baptismo, &amp; in Confirmatione, sed in 
+      <lb ed="#R" n="29"/>Confirmatione principalius infunditur fortitudo, 
+      <lb ed="#R" n="30"/>&amp; intenditur, ideo bene dicitur, quod gratia eadem 
+      <lb ed="#R" n="31"/>est vtrobique, differens secundum magis &amp; minus 
+      <lb ed="#R" n="32"/>intensum. Et per hoc soluitur quaestio illa, an in Cō- 
+      <lb ed="#R" n="33"/>firmatione intendatur gratia baptismalis. Dico 
+      e<lb ed="#R" n="34" break="no"/>nim quod sic, licet per prius &amp; magis intendatur 
+      <lb ed="#R" n="35"/>ibi virtus fortitudinis. 
+  </p>
+               <p>
+                  <lb ed="#R" n="36"/>Secunda Propositio est, quod materia istius 
+      Sa<lb ed="#R" n="37" break="no"/>cramenti est congrue instituta. Vbi sciendum est, q 
+      <lb ed="#R" n="38"/>Sacramenti istius materia est Chrisma, ex oleo 
+      oli<lb ed="#R" n="39" break="no"/>uarum, balsamoq. confectum, ab Episcopo 
+      conse<lb ed="#R" n="40" break="no"/>cratum. Ratio autem, quare materiam istius 
+      Sacra<lb ed="#R" n="41" break="no"/>menti specialiter oportet essse consecratam ab 
+      Epi<lb ed="#R" n="42" break="no"/>scopo magis, quam materiam Baptismi, est, quia 
+      <lb ed="#R" n="43"/>materiam Baptismi, puta aquas, Christus tactu suae 
+      <lb ed="#R" n="44"/>carnis mundissimae consecrauit, ideo non congrue 
+      <lb ed="#R" n="45"/>bat eam vlterius ab Apostolis, vel alijs consecrari: 
+      <lb ed="#R" n="46"/>sed materiam Sacramenti Confirmationis, non spe 
+      <lb ed="#R" n="47"/>cialiter consecrauit, ideo oportebat eam ab alijs 
+      <lb ed="#R" n="48"/>vicem Christi gerentibus consecrari, puta ab 
+      Apo<lb ed="#R" n="49" break="no"/>stolis, vel eorum successoribus.
+  </p>
+               <p>
+                  <lb ed="#R" n="50"/>Conuenienter autem Chrisma confectum est ex 
+      <lb ed="#R" n="51"/>duobus liquoribus, oleo scilicet &amp; balsamo, 
+      pro<lb ed="#R" n="52" break="no"/>pter scilicet conuenientiam signi ad signatum. 
+      Si<lb ed="#R" n="53" break="no"/>gnificant enim vnctionem gratiae per donum 
+      Spi<lb ed="#R" n="54" break="no"/>ritus sancti. 
+    </p>
+               <p>
+                  <lb ed="#R" n="55"/>Ista autem vnctio per gratiam, quae est descensus 
+      <lb ed="#R" n="56"/>Spiritus sancti in suis donis, in primitiua Ecclesia, 
+      <lb ed="#R" n="57"/>scilicet tempore Apostolum, communiter fiebat in 
+      <lb ed="#R" n="58"/>duobus signis, scilicet in apparitione ignis 
+      descen<lb ed="#R" n="59" break="no"/>dentis, &amp; dono linguarum. Ecclesia ergo, quia non 
+      <lb ed="#R" n="60"/>semper potuit talia habere signa, idcirco congrue 
+      <lb ed="#R" n="61"/>instituit signa communia pro omni tempore illis 
+      si<lb ed="#R" n="62" break="no"/>gnis correspondentia, talia sunt oleum &amp; balsamum: 
+      <lb ed="#R" n="63"/>nam oleum correspondet igni, cuius est fomentum 
+      <lb ed="#R" n="64"/>natura le; balsamum vero cum ratione odoris sit 
+      <lb ed="#R" n="65"/>summe diffusiuum, &amp; per hoc significat donum 
+      lin<lb ed="#R" n="66" break="no"/>guarum, &amp; loquacitatis diffusionem.
+    </p>
+               <p>
+                  <lb ed="#R" n="67"/>Est tamen hic dubium, Vtrum talis materia, 
+      pu<lb ed="#R" n="68" break="no"/>ea Chrisma, sit de essentia Sacramenti Confirma- 
+      <!--0063.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>tionis, sicut aqua est de Baptisini essentia. Et videtur 
+      <lb ed="#R" n="70"/>quod non, quia cum Sacramentum formaliter sit 
+      si<lb ed="#R" n="71" break="no"/>gnum, variato signo, variatur ratio Sacramenti: ver 
+      <lb ed="#R" n="72"/>bi gratia, si Apostoli baptizent in aqua rosacea, &amp; 
+      <lb ed="#R" n="73"/>nos in aqua elementari non fuisset sacramentum 
+      <lb ed="#R" n="74"/>Baptismi Apostolorum &amp; nostrum vnum sacramen 
+      <lb ed="#R" n="75"/>tum: &amp; ratio huius est, quia variata formali ratione 
+      <lb ed="#R" n="76"/>rei, vel hoc quod est de formali ratione rei, 
+      varia<lb ed="#R" n="77" break="no"/>tur res ipsa: sed Apostoli confirmabant in alio signo 
+      <lb ed="#R" n="78"/>quam hodierna Ecclesia, puta in impositione 
+      ma<lb ed="#R" n="79" break="no"/>nuum sine Chrimate, nos in Chrismate: ergo fi 
+      <lb ed="#R" n="80"/>Chrisma sit de essentia Sacramenti 
+      Confirmatio<lb ed="#R" n="81" break="no"/>nis, Sacramentum collatum per Apostolos, &amp; quod 
+      <lb ed="#R" n="82"/>hodie confertur, non est idem &amp; vnum 
+      Sacramen<lb ed="#R" n="83" break="no"/>tum 
+    </p>
+               <p>
+                  <lb ed="#R" n="84"/>Dices, quod Sacramentum est idem ratione effe 
+      <lb ed="#R" n="85"/>ctus, vnde signum videtur esse idem, si signatum est 
+      <lb ed="#R" n="86"/>idem; sicut si vinum significetur per circulum 
+      li<lb ed="#R" n="87" break="no"/>gneum, vel per ramum hederae, licet ramus &amp; 
+      cir<lb ed="#R" n="88" break="no"/>culus sint aliud materialiter, tamen idem sunt 
+      in<lb ed="#R" n="89" break="no"/>ratione signi propter signatum idem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="90"/>Sed solutio ista non valet, quia secundum hoc 
+      Ba<lb ed="#R" n="91" break="no"/>ptismus, &amp; Circumcisio essent idem signum, ac per 
+      <lb ed="#R" n="92"/>consequens idem Sacramentum, pro eo quod est 
+      <lb ed="#R" n="93"/>idem signatum, scilicet gratia eadem vtrobique. 
+    </p>
+               <p>
+                  <lb ed="#R" n="94"/>Aliter respondebitur, quod Apostoli baptizabant 
+      <lb ed="#R" n="95"/>Chrismnate, pro quo facit illud Dionys. de Eccles. 
+      <lb ed="#R" n="96"/>Hierar. cap. 4. qui dicit: Communiter Apostoli in 
+      <lb ed="#R" n="97"/>principio clarum est, quod non confirmabant nisi 
+      <lb ed="#R" n="98"/>per impositionem manuum, licet postea 
+      confirma<lb ed="#R" n="99" break="no"/>uerint aliquando cum Chrismate. 
+    </p>
+               <p>
+                  <lb ed="#R" n="100"/>Item secundo ad idem, quando aliquid, quod est 
+      <lb ed="#R" n="101"/>de essentia Sacramenti omittitur, non habetur 
+      ra<lb ed="#R" n="102" break="no"/>tio Sacramenti perfecte, imo Sacramentum est pro 
+      <lb ed="#R" n="103"/>casu huiusmodi iterandum, &amp; hoc non tantum quo 
+      <lb ed="#R" n="104"/>ad illud omissum fuerit, sed quoad totum quod exi 
+      <lb ed="#R" n="105"/>gitur ad huiusmodi Sacramentum; sicut qui 
+      bapti<lb ed="#R" n="106" break="no"/>zaret in aqua rosacea, Baptismus esset iterandus, 
+      <lb ed="#R" n="107"/>non solum quo ad ablutionem, quae est cum aqua 
+      <lb ed="#R" n="108"/>natur ali omissa, sed quo ad omnia quae exiguntur in 
+      <lb ed="#R" n="109"/>Baptismo. Sed si Episcopus aliquis in 
+      confirmando<lb ed="#R" n="110" break="no"/>omitteret culpa sua Chrisma, non esset 
+      Sacramen<lb ed="#R" n="111" break="no"/>tum Confirmationis totaliter iterandum, sed tantum 
+      <lb ed="#R" n="112"/>quo ad omissum, sicut patet expresse in principio 
+      <lb ed="#R" n="113"/>Decreti, &amp; extra de sacris non iterandis lib. 1. cap. 
+      <lb ed="#R" n="114"/>Pastoralis, vbi proponitur casus Papae, quod quidam 
+      <lb ed="#R" n="115"/>Episcopus omisit Chrisma in Confirmatione, 
+      cui<lb ed="#R" n="116" break="no"/>dam quaerenti, Vtrum talis sit iterum confirmandus, 
+      <lb ed="#R" n="117"/>&amp; tunc respondet Papa, illud, quod in 
+      charitate<lb ed="#R" n="118" break="no"/>omissum est, supplendum est, &amp; non reiterandum. 
+      <lb ed="#R" n="119"/>haec est intentio Glosatoris extra de Baptismo, &amp; 
+      <lb ed="#R" n="120"/>eius effectu. Item ad hoc facit illud Brucardi, 
+      Glo<lb ed="#R" n="121" break="no"/>sator. in 3. lib. cap. Satis, vbi dicit, quod illa vnctio 
+      <lb ed="#R" n="122"/>non est de essentia Sacramenti, licet eius auctoritas 
+      <lb ed="#R" n="123"/>non sit in talibus multum ponderanda. 
+    </p>
+               <p>
+                  <lb ed="#R" n="124"/>Hic ergo est controuersia duarum opinionum, 
+      sci<lb ed="#R" n="125" break="no"/>licet Theologorum, &amp; Canonistarum, tenent enim 
+      <lb ed="#R" n="126"/>Theologi, quod Chrisina est de essentia 
+      Sacramen<lb ed="#R" n="127" break="no"/>ti, sicut aqua est de essentia Baptismi, &amp; tunc dicunt 
+      <lb ed="#R" n="128"/>consequenter, quod Papa non posset immutare, 
+      fa<lb ed="#R" n="129" break="no"/>ciendo quod hoc sacramentum fieret in alia 
+      mate<lb ed="#R" n="130" break="no"/>ria. Brucardus autem, &amp; alij Doctores Canonici 
+      te<lb ed="#R" n="131" break="no"/>nent oppositum, &amp; quod Papa similiter posset 
+      di<lb ed="#R" n="132" break="no"/>spensare, &amp; eorum motiuum est, quia quod in tali mate 
+      <lb ed="#R" n="133"/>ria fieret Sacramentum Confirmationis, non fuit tra 
+      <lb ed="#R" n="134"/>ditum a Chriso, nec ab Aposolis praeceptum 
+      ob<lb ed="#R" n="135" break="no"/>seruari, sed fuit statutum in antiquis Concilijs; 
+      ta<lb ed="#R" n="136" break="no"/>lia autem immutari possunt auctoritate Papae.
+    </p>
+               <p>
+      <!--0064.xml-->
+                  <pb ed="#R" n="64"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Videtur mihi, quod istae duae opiniones possent fa 
+      <lb ed="#R" n="2"/>ciliter reduci ad concordiam, propter quod 
+      distin<lb ed="#R" n="3" break="no"/>guo de hoc, quod est esse de essentia. Aliquid enim 
+      <lb ed="#R" n="4"/>potest esse dupliciter de substantia alterius, vno mo 
+      <lb ed="#R" n="5"/>do de necessitate intrinsece, quo corrupto aliud 
+      <lb ed="#R" n="6"/>necesse est corrumpi. Alio modo quo ad bene esse, 
+      <lb ed="#R" n="7"/>quo corrupto non necesse est totum corrumpi, licet 
+      <lb ed="#R" n="8"/>remoueat imperfectum. Primo modo: Cor est de 
+      <lb ed="#R" n="9"/>essentia, &amp; substantia hominis; secundo modo 
+      ma<lb ed="#R" n="10" break="no"/>nus. Tunc dico ad propositum, quod de essentia Sa 
+      <lb ed="#R" n="11"/>cramenti Confirmationis primo modo sunt tactus, 
+      <lb ed="#R" n="12"/>&amp; prolatio aliqua verborum: est enim necessaria 
+      <lb ed="#R" n="13"/>verborum prolatio, quia secundum Dionys. cap. 
+      4<lb ed="#R" n="14" break="no"/>de Eccles. Hierar. Apostoli, quando confirmabant, 
+      <lb ed="#R" n="15"/>certis verbis vtebantur: &amp; necessarius est tactus, qui 
+      <lb ed="#R" n="16"/>antiquitus dicebatur manuum impositio ratione 
+      si<lb ed="#R" n="17" break="no"/>gnificationis, significat enim effecum, quod efficit 
+      <lb ed="#R" n="18"/>Sacrumentum, scilicet robur ad defendendum fidem 
+      <lb ed="#R" n="19"/>Christi, sed Chrisina est de substantia huius Sacramem 
+      <lb ed="#R" n="20"/>ti tantum secundo modo, sicut manus est de 
+      substan<lb ed="#R" n="21" break="no"/>tia hominis, nam sicut homo carens manu est quidam 
+      <lb ed="#R" n="22"/>homo, tamen non integer, sic in Confirmatione, si non 
+      <lb ed="#R" n="23"/>adhibeatur Chrisma, est quidem Sacramentum 
+      <lb ed="#R" n="24"/>non tamen integrum, ideo ad integritatem 
+      Sacra<lb ed="#R" n="25" break="no"/>menti oportet, quod suppleatur Chrisma. Quod be 
+      <lb ed="#R" n="26"/>ne videtur Innocentius sentire in illa Decretali, Ve 
+      <lb ed="#R" n="27"/>niet, vbi ponitur casus de Episcopo, super cuius 
+      ca<lb ed="#R" n="28" break="no"/>put non erat positum Chrisma, &amp; dicit ibi 
+      Innocen<lb ed="#R" n="29" break="no"/>tius Papa, quod erat reungendus. Et tunc restat du 
+      <lb ed="#R" n="30"/>bium de institutione Crismatis, quis scilicet 
+      insti<lb ed="#R" n="31" break="no"/>tuerit, vtrum Christus, an Apostoli, an Concilia 
+      <lb ed="#R" n="32"/>Respondeo ad hoc, quod magis est verisimile, quod 
+      <lb ed="#R" n="33"/>fuerit institutum a Cristo, vel Aposolis, quam a 
+      <lb ed="#R" n="34"/>posterioribus Concilĳs, sicut expresse haberi 
+      po<lb ed="#R" n="35" break="no"/>test a Dionysio cap. 4. de Ecclesiast. Hierar. vbi 
+      di<lb ed="#R" n="36" break="no"/>cit: Duces nostri hoc docuerunt nos, &amp; tradiderunt 
+      <lb ed="#R" n="37"/>verbis, &amp; certum est, quod Concilia post per 
+      mul<lb ed="#R" n="38" break="no"/>ta tempora fuerunt.
+  </p>
+               <p>
+                  <lb ed="#R" n="39"/>Quod si videatur non esse rationabile, quod 
+      <lb ed="#R" n="40"/>Christus instituerit, videtur tamen probabile, 
+      <lb ed="#R" n="41"/>quod illud instituerint Apostoli Spiritu sancto 
+      sug<lb ed="#R" n="42" break="no"/>gerente 
+  </p>
+               <p>
+                  <lb ed="#R" n="43"/>Sed nunquid potest Deus dispensare, quod 
+      non<lb ed="#R" n="44" break="no"/>confirmetur cum Chrismate? Respondeo, dicunt 
+      <lb ed="#R" n="45"/>quidam quod sic. Sed non determino pro nunc, 
+      cre<lb ed="#R" n="46" break="no"/>do tamen magis quod non, eo quod Sacramenta 
+      <lb ed="#R" n="47"/>nostra debent immutabilia esse. 
+  </p>
+               <p>
+                  <lb ed="#R" n="48"/>Tertia Propositio principalis est, quod forma 
+      <lb ed="#R" n="49"/>huius Sacramenti est congrue instituta, &amp; est ista: 
+      <lb ed="#R" n="50"/>Signo te signo Crucis, confirmo te Chrismate 
+      salu<lb ed="#R" n="51" break="no"/>tis. Sed quare non ponitur in forma verborum 
+      per<lb ed="#R" n="52" break="no"/>sona ministri, dicendo, Ego, sicut in Baptismi 
+      Sacra<lb ed="#R" n="53" break="no"/>mento? Respondeo, dicunt Doctores, quod hoc 
+      Sa<lb ed="#R" n="54" break="no"/>cramentum ministretur a ministris peritis, qui sciunt 
+      <lb ed="#R" n="55"/>quod in verbo illo, quod ibi exprimitur, primae 
+      per<lb ed="#R" n="56" break="no"/>sonae, intelligitur Ego. In praedicta ergo forma 
+      ver<lb ed="#R" n="57" break="no"/>borum ponuntur duae clausulae correspondentes 
+      <lb ed="#R" n="58"/>duobus signis, &amp; prima quidem cum dicitur, Signo 
+      <lb ed="#R" n="59"/>te, &amp;c. correspondet signo tactus, qui debet fieri 
+      <lb ed="#R" n="60"/>per modum Crucis, &amp; hoc rationabiliter institutum 
+      <lb ed="#R" n="61"/>est, vt notetur quod confirmatus debet portare 
+      <lb ed="#R" n="62"/>opprobria, &amp; vituperia Christi in fronte. vt fortius 
+      <lb ed="#R" n="63"/>animetur ad pugnam, isle tamen tactus in modum 
+      <lb ed="#R" n="64"/>Crucis non est de essentia Sacramenti, est 
+      tamen<lb ed="#R" n="65" break="no"/>modus Ecclesiae, &amp; ideo peccaret grauiter, qui 
+      mo<lb ed="#R" n="66" break="no"/>dum illum scienter immutaret.
+  </p>
+               <p>
+                  <lb ed="#R" n="67"/>Secunda vero clausula cum dicitur, Confirmo 
+      <lb ed="#R" n="68"/>te, &amp; c. corre spondet secundo signo sensibili, puta 
+      <!--0064.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>Chrisinati, quod quidem significat salutarem effee 
+      <lb ed="#R" n="70"/>cum gratiae septiformis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="71"/>Ad argumentum in oppositum respondeo, quod 
+      <lb ed="#R" n="72"/>hoc Sacramentum non fuit necessarium in lege 
+      ve<lb ed="#R" n="73" break="no"/>teri, tamen figuratum fuit in Moyse, quando Deus 
+      <lb ed="#R" n="74"/>abstulit de spiritu suo, &amp; dedit septuaginta viris in 
+      <lb ed="#R" n="75"/>deserto, &amp;c. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

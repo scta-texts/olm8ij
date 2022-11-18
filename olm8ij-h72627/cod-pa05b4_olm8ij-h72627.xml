@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="212"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h72627"> <!-- l4-d45q1 -->
+            <head>Quaestio 1</head>
+            <p>
+               <lb ed="#R" n="49"/>Quaestio Vnica.
+    </p>
+            <div>
+               <head>Articulus 1</head>
+               <head type="question-title">
+      Utrum potentiae animae remaneat in anima 
+      separata
+    </head>
+               <p>
+                  <lb ed="#R" n="50"/>ARTICVLVUS I. 
+      <lb ed="#R" n="51"/>Vtrum potentiae animae remaneat in anima 
+      <lb ed="#R" n="52"/>separata. 
+    </p>
+               <p>
+                  <lb ed="#R" n="53"/>QVANTVM ad primum arguo primo, 
+      <lb ed="#R" n="54"/>quod sic. Quia quando aliqua sunt 
+      <lb ed="#R" n="55"/>eadem per essentiam, vno separato 
+      se<lb ed="#R" n="56" break="no"/>paratur reliquum: sed potentiae 
+      ani<lb ed="#R" n="57" break="no"/>mae sunt eae dem per essentiam, &amp; 
+      rea<lb ed="#R" n="58" break="no"/>liter, cum anima solum formaliter differentes: er- 
+      <!--0212.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="59"/>go separata anima separantur cum ea potentiae: 
+      <lb ed="#R" n="60"/>remanent ergo in ea separata. 
+    </p>
+               <p>
+                  <lb ed="#R" n="61"/>In oppositum est Philosophus 12. Metaph. tex. 
+      <lb ed="#R" n="62"/>17. vbi dubitans, vtrum aliqua forma possit 
+      prae<lb ed="#R" n="63" break="no"/>cedere materiam, &amp; dicit, quod nulla forma 
+      prae<lb ed="#R" n="64" break="no"/>cedit materiam. Vtrum autem aliqua forma 
+      re<lb ed="#R" n="65" break="no"/>maneat separata a materia, dubitatur de anima: 
+      di<lb ed="#R" n="66" break="no"/>cit tamen, quod si sit, non tota sed intellectus: 
+      er<lb ed="#R" n="67" break="no"/>go nulla alia potentia videtur remanere in anima 
+      <lb ed="#R" n="68"/>separata praeter intellecum. Respondeo: hic 
+      non<lb ed="#R" n="69" break="no"/>est difficultas de intellecu, &amp; voluntate, siue sint 
+      <lb ed="#R" n="70"/>duae secundae animam constituentes, vt 
+      Commen<lb ed="#R" n="71" break="no"/>tator videtur dicere 3. de anima com. 5. siue 
+      diuer<lb ed="#R" n="72" break="no"/>sae qualitates animae, vt subiecti, siue duae 
+      subsan<lb ed="#R" n="73" break="no"/>tia actuales &amp; formales. Nunc videtur 
+      quibus<lb ed="#R" n="74" break="no"/>dam esse de mente Commentatoris, &amp; antiquorum 
+      <lb ed="#R" n="75"/>ponentium in natura intellectuali materiam non 
+      <lb ed="#R" n="76"/>transmutabilem, sed ingenerabilem, &amp; 
+      incorrupti<lb ed="#R" n="77" break="no"/>bilem, &amp; hoc in genere intelligibilium, quod 
+      vide<lb ed="#R" n="78" break="no"/>tur Philosophus sentire de omni natura 
+      intelle<lb ed="#R" n="79" break="no"/>ctuali circa principium tertij de anima. Quicquid 
+      <lb ed="#R" n="80"/>sit de intellectu, &amp; voluntate non est de eis magna 
+      <lb ed="#R" n="81"/>difficultas, sed tota difficultas est de potentijs 
+      sen<lb ed="#R" n="82" break="no"/>sitiuis, tam apprehensiui, squam motiuis. Quantum 
+      <lb ed="#R" n="83"/>ad apprehensiuas in speciali modo est difficultas, 
+      <lb ed="#R" n="84"/>quia dicunt quidant, quod tales potentiae sunt 
+      ipsa<lb ed="#R" n="85" break="no"/>met anima, sub alio tamen respectu, nec organa 
+      in<lb ed="#R" n="86" break="no"/>cluduntur infra tales potentias, nisi per modum 
+      <lb ed="#R" n="87"/>connotati. 
+    </p>
+               <p>
+                  <lb ed="#R" n="88"/>Alij dicunt, quod sunt ipsamet anima realiter, 
+      <lb ed="#R" n="89"/>differentes ab ipsa, &amp; inter se tantum formaliter, 
+      <lb ed="#R" n="90"/>&amp; quidditatiue. Alij dicunt, quod sunt 
+      qualita<lb ed="#R" n="91" break="no"/>tes quaedam consequentes ipsum compositum, &amp; 
+      <lb ed="#R" n="92"/>ideo non remanent in anima separata. Ideo ad 
+      de<lb ed="#R" n="93" break="no"/>clarationem quaesiti pono primo vnam 
+      propositio<lb ed="#R" n="94" break="no"/>nem, postea inferam quaedam ex ea.
+    </p>
+               <p>
+                  <lb ed="#R" n="95"/>Propositio ista est, quicquid sit de intellectu, &amp; 
+      <lb ed="#R" n="96"/>voluntate, quia nunc non curo de istis. De 
+      poten<lb ed="#R" n="97" break="no"/>tijs autem sensitiuis dico, quod ipsae sunt quaedam 
+      <lb ed="#R" n="98"/>qualitates compositum consequentes. 
+    </p>
+               <p>
+                  <lb ed="#R" n="99"/>Hanc Propositionem probo. Primo quia 
+      vide<lb ed="#R" n="100" break="no"/>tur esse expresse opinio Commentatoris 3. de 
+      ani<lb ed="#R" n="101" break="no"/>ma in fine com. 82. &amp; ibidem com. 3. Vbi 
+      Aristo<lb ed="#R" n="102" break="no"/>teles quaerit, vtrum anima sit vna substantia, &amp; 
+      plu<lb ed="#R" n="103" break="no"/>res secundum virtutem; vel sit vna genere, &amp; 
+      plu<lb ed="#R" n="104" break="no"/>res secundum speciem. Commentator dicit ibi: 
+      <lb ed="#R" n="105"/>Haec dubitatio habet ortum, quia non est adhuc 
+      <lb ed="#R" n="106"/>determinatum, quomodo anima est vna, quia 
+      po<lb ed="#R" n="107" break="no"/>test esse vna subiecto, &amp; plures secundum virtutes; 
+      <lb ed="#R" n="108"/>vel plures in specie, &amp; vna in genere: &amp; post 
+      deter<lb ed="#R" n="109" break="no"/>minando dicit, quod est vna in specie, &amp; plures 
+      se<lb ed="#R" n="110" break="no"/>cundum virtutes, sicut pomum est vna substantia 
+      <lb ed="#R" n="111"/>habens in se colorem, saporem, &amp; odorem. Et ratio 
+      <lb ed="#R" n="112"/>Philosophi ad istam partem est, quoniam si esset 
+      <lb ed="#R" n="113"/>plures secundum substantiam, tunc eius vnitas 
+      es<lb ed="#R" n="114" break="no"/>set a corpore, cum sit e contrario, quia vnitas 
+      cor<lb ed="#R" n="115" break="no"/>poris est ab anima: hoc Philosophus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="116"/>Item idem 1. Ethic. cap. 13. vbi disttinguit 
+      po<lb ed="#R" n="117" break="no"/>tentias in rationalem per essentiam, &amp; per 
+      partici<lb ed="#R" n="118" break="no"/>pationem, dicit, vtrum autem sint distinca situ, 
+      <lb ed="#R" n="119"/>&amp; loco, vel sint indiuisibilia apta nata, sicut curuum, 
+      <lb ed="#R" n="120"/>&amp; concauum, non curandum: ergo secundum 
+      Ari<lb ed="#R" n="121" break="no"/>stotelem oportet dare, vel quod sint separatae, &amp; 
+      di<lb ed="#R" n="122" break="no"/>stinctae situ, quia nullo modo Aristoteles poneret; 
+      <lb ed="#R" n="123"/>vel oportet, quod differant sicut duae qualitates 
+      in<lb ed="#R" n="124" break="no"/>diuisibiliter se habentes ad compositum, &amp; inter 
+      <lb ed="#R" n="125"/>se, sicut concauum, &amp; conuexum in eadem 
+      peri<lb ed="#R" n="126" break="no"/>pheria, &amp; habeo propositum.
+    </p>
+               <p>
+                  <pb ed="#R" n="213"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Quod autem tales potentiae non sint tantum ani 
+      <lb ed="#R" n="2"/>mae ipsius, ex hoc probant, quod cuius est actus, est 
+      <lb ed="#R" n="3"/>potentia: sed actus harum potentiarum non sunt 
+      <lb ed="#R" n="4"/>ipsius animae tantum, nec praecise coniunci, &amp; 
+      ab<lb ed="#R" n="5" break="no"/>solute, nisi inquantum consistit in media 
+      propor<lb ed="#R" n="6" break="no"/>tione calidi, &amp; frigidi, humidi, &amp; sicci, &amp; hanc 
+      <lb ed="#R" n="7"/>proportionem secundum medium qualitatum 
+      ex<lb ed="#R" n="8" break="no"/>tremarum voco ego potentiam sensitiuam. Cum 
+      <lb ed="#R" n="9"/>ergo dixi, quod potentiae sensitiuae sunt qualitates, 
+      <lb ed="#R" n="10"/>non intelligo, quod sint qualitates aliae quam 
+      ip<lb ed="#R" n="11" break="no"/>saemet proportiones medietatum extremarum 
+      <lb ed="#R" n="12"/>qualitatum consistentes in organis, vt sic, potentia 
+      <lb ed="#R" n="13"/>sensitiua tactus non sit aliud quam medietas 
+      qua<lb ed="#R" n="14" break="no"/>litatum tangibilium reductarum ad medium, puta 
+      <lb ed="#R" n="15"/>calidi, frigidi, humidi, &amp; sicci, &amp; sic de alijs: 
+      <lb ed="#R" n="16"/>actus ergo sentiendi non est coniunctim, nisi per 
+      ra<lb ed="#R" n="17" break="no"/>tionem talis mixtionis, &amp; medietatis ipsarum 
+      qua<lb ed="#R" n="18" break="no"/>litatum sensibilium: ergo nec potentiae: ergo 
+      po<lb ed="#R" n="19" break="no"/>tentiae ipsae sensitiuae non sunt aliud, quam quaedam 
+      <lb ed="#R" n="20"/>medietates talium qualitatum, ac per consequens 
+      <lb ed="#R" n="21"/>quaedam formae complexionales, &amp; per consequens 
+      <lb ed="#R" n="22"/>qualitates absolute, vt dictum est, consequentes 
+      na<lb ed="#R" n="23" break="no"/>turam coniuncti. 
+    </p>
+               <p>
+                  <lb ed="#R" n="24"/>Ex hanc conclusione elicio quasdam alias 
+      con<lb ed="#R" n="25" break="no"/>clusiones.
+    </p>
+               <p>
+                  <lb ed="#R" n="26"/>Prima est, quod potentiae sensitiuae non remanēt 
+      <lb ed="#R" n="27"/>in anima separata. Ratio est quia corrupto primo 
+      <lb ed="#R" n="28"/>subiecto non remanet accidens consequens 
+      subie<lb ed="#R" n="29" break="no"/>cum, illud scilicet subiecum potentiarum 
+      sensiti<lb ed="#R" n="30" break="no"/>uarum est ipsum coniunctum secundum rationem 
+      <lb ed="#R" n="31"/>mediae complexionis organi, vt probatum est: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="32"/>Sed elicio aliam conclusionem, quod tales 
+      po<lb ed="#R" n="33" break="no"/>tentiae non remanent in anima separata, nec 
+      cau<lb ed="#R" n="34" break="no"/>saliter, nec virtua liter, vt putant quidam, quod 
+      hu<lb ed="#R" n="35" break="no"/>iusmodi potentiae sint ab anima causaliter, &amp; 
+      vir<lb ed="#R" n="36" break="no"/>tualiter, &amp; quando vnitur corpori statim profluit 
+      <lb ed="#R" n="37"/>in tales potentias, sicut in proprietates, ad modum 
+      <lb ed="#R" n="38"/>quo aqua calefacta separata ab igne fluit in 
+      natu<lb ed="#R" n="39" break="no"/>ralem frigiditatem. Ratio autem, quare opinio 
+      <lb ed="#R" n="40"/>haec non videtur vera est ista, quia qualitates ab 
+      <lb ed="#R" n="41"/>illo dicuntur per se esse, &amp; profluere, quod primo 
+      <lb ed="#R" n="42"/>respiciunt in ratione per se, &amp; primi subiecti. Cuius 
+      <lb ed="#R" n="43"/>ratio est, quia quaelibet proprietas oritur 
+      imme<lb ed="#R" n="44" break="no"/>diate a per se, &amp; proprio, &amp; primo subiecto suo: 
+      <lb ed="#R" n="45"/>sed potentiae sensitiuae, vt dictum est, non respiciunt 
+      <lb ed="#R" n="46"/>animam in ratione per se, &amp; primi subiecti sui, sed 
+      <lb ed="#R" n="47"/>ipsum coniunctum: ergo non possunt dici 
+      radicali<lb ed="#R" n="48" break="no"/>ter, &amp; causaliter fluere ab anima, sed a coniuncto: 
+      <lb ed="#R" n="49"/>qualitates enim istae, etsi sint in composito per 
+      ra<lb ed="#R" n="50" break="no"/>tionem animae, vt determinantis, &amp; exigentis 
+      <lb ed="#R" n="51"/>huiusmodi qualitates, non tamen in ratione 
+      cau<lb ed="#R" n="52" break="no"/>sae efficientis, vel subiecti. Forte etiam non sunt 
+      <lb ed="#R" n="53"/>determinatiue tantum ab anima, sed ab aliqua alia 
+      <lb ed="#R" n="54"/>sorma complexionali totius organi concurrente 
+      <lb ed="#R" n="55"/>cum anima: ergo non sunt virtualitera sola anima. 
+    </p>
+               <p>
+                  <lb ed="#R" n="56"/>Tertia conclusio est, quod huiusmodi potentiae 
+      <lb ed="#R" n="57"/>fluunt ab anima virtualiter determinatiue, hoc est 
+      <lb ed="#R" n="58"/>principaliter exigitiue: anima enim exigit, quod 
+      <lb ed="#R" n="59"/>talia sint organa, &amp; sic mixta ad medium 
+      redu<lb ed="#R" n="60" break="no"/>cta, &amp; quod organum differat ab organo, &amp; per 
+      <lb ed="#R" n="61"/>consequens, quod eorum qualitates mediae, &amp; 
+      po<lb ed="#R" n="62" break="no"/>tentiae sint tales, &amp; aliae, ac aliae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="63"/>Vltimo infero aliam conclusionem, quod in 
+      re<lb ed="#R" n="64" break="no"/>surrectione redeunt eaedem potentiae numero, quae 
+      <lb ed="#R" n="65"/>prius fuerant in coniuncto. Hanc conclusionem 
+      <lb ed="#R" n="66"/>probo theologice per vnam rationem communem: 
+      <lb ed="#R" n="67"/>ratio enim, quare debet idem homo resurgere, est, 
+      <lb ed="#R" n="68"/>vt ille idem qui causa fuit, &amp; particeps meriti, &amp; 
+      <!--0213.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>demeriti, sit receptor condigni praemii, &amp; hoc 
+      exi<lb ed="#R" n="70" break="no"/>git iustitia diuina: sed idem numero fuit particeps 
+      <lb ed="#R" n="71"/>meriti, &amp; demeriti: ergo idem numero, &amp; 
+      secun<lb ed="#R" n="72" break="no"/>dum easdem potentias debet esse particeps praemij 
+      <lb ed="#R" n="73"/>puta poenae, &amp; gehennae. Haec est ratio fundata in 
+      <lb ed="#R" n="74"/>rectitudine diuinae iustitiae: hanc rationem innuit 
+      <lb ed="#R" n="75"/>Dama sc. lib. 4. cap. vlt. si ergo haec ratio valeat, 
+      eo<lb ed="#R" n="76" break="no"/>dem modo concludet de potentijs, quia potentiae 
+      <lb ed="#R" n="77"/>fuerunt participes meriti, &amp; demeriti: ergo 
+      de<lb ed="#R" n="78" break="no"/>bent eaedem esse participes poenae &amp; gloriae. Minor 
+      <lb ed="#R" n="79"/>apparet, quoniam potentiae affligebantur in 
+      con<lb ed="#R" n="80" break="no"/>tinendo a delectabilibus, vt flendo, &amp; ieiunando: 
+      <lb ed="#R" n="81"/>ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="82"/>Secubdo ad idem, nullum dubium est tenenti 
+      fi<lb ed="#R" n="83" break="no"/>dem, quod homo idem numero resurget, ita quod 
+      <lb ed="#R" n="84"/>vnitas naturalis compositi, quae corrupta fuit, 
+      redi<lb ed="#R" n="85" break="no"/>bit eadem numero: identitas autem subiecti est 
+      <lb ed="#R" n="86"/>causa identitatis passionum, &amp; proprietatum: tunc 
+      <lb ed="#R" n="87"/>sic, quando vnum est causa alterius, si redit 
+      pri<lb ed="#R" n="88" break="no"/>mum, redit secundum: sed identitas coniuncti est 
+      <lb ed="#R" n="89"/>causa identitatis potentiarum, &amp; ista redit eadem 
+      <lb ed="#R" n="90"/>numero: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="91"/>Confirmo per illud Iob cap. 19. &amp; oculi mei 
+      con<lb ed="#R" n="92" break="no"/>specturi sunt, vbi notanter ponit identitatem 
+      po<lb ed="#R" n="93" break="no"/>tentiae visiuae. 
+    </p>
+            </div>
+            <div>
+               <head>Articulus 2</head>
+               <head type="question-title">
+      Utrum in anima separata sit virtus motiua, quae 
+      possit mouere corpus.
+    </head>
+               <p>
+                  <lb ed="#R" n="94"/>ARTICVLVS II 
+      <lb ed="#R" n="95"/>Vtrum in anima separata sit virtus motiua, quae 
+      <lb ed="#R" n="96"/>possit mouere corpus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="97"/>AD secundam quaestionem arguo primo, quod 
+      <lb ed="#R" n="98"/>potentia motiua ad locum non remaneat in 
+      <lb ed="#R" n="99"/>anima separata, sic: Nulla potentia organica 
+      rema<lb ed="#R" n="100" break="no"/>net in anima separata, quia omnis talis 
+      potentia<lb ed="#R" n="101" break="no"/>est primo coniuncti: sed potentia motiua ad locum 
+      <lb ed="#R" n="102"/>est huiusmodi: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="103"/>In oppositum est articulus fidei, quod anima 
+      <lb ed="#R" n="104"/>Christi descendit ad inferos, nunquid potuisset secum 
+      <lb ed="#R" n="105"/>deferre vnam paleam, si voluisset, &amp; mouere 
+      loca<lb ed="#R" n="106" break="no"/>liter aliquod corpus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="107"/>Confirmo, quia ponunt pie aliqui, quod 
+      porta<lb ed="#R" n="108" break="no"/>uit secum baculum imperialem. Respondeo hic est 
+      <lb ed="#R" n="109"/>difficultas in modo de potentia motiua ad locum, 
+      <lb ed="#R" n="110"/>qualis potentia sit: Vtrum sit organica, vel non, 
+      <lb ed="#R" n="111"/>tenentibus quibusdam, quod in anima nulla est 
+      po<lb ed="#R" n="112" break="no"/>tentia non organica: nunquam enim mouet 
+      sine<lb ed="#R" n="113" break="no"/>organo corporali, ex quo inferunt, quod talis 
+      po<lb ed="#R" n="114" break="no"/>tentia non remanet in anima separata: ratio autem 
+      <lb ed="#R" n="115"/>est, quia talis potentia non reperitur sine organo. 
+      <lb ed="#R" n="116"/>Et si dicatur eis, quod duplex est potentia in anima. 
+      <lb ed="#R" n="117"/>quaedam organica, quaedam non organica, arguunt 
+      <lb ed="#R" n="118"/>contra hoc, quia huiusmodi potentiam non 
+      expe<lb ed="#R" n="119" break="no"/>rimur in corpore, vt quandoque moueatur ab 
+      ani<lb ed="#R" n="120" break="no"/>ma organice, quandoque non organice. 
+    </p>
+               <p>
+                  <lb ed="#R" n="121"/>Haec opinio non videtur stare cum opinione 
+      Com<lb ed="#R" n="122" break="no"/>mentatoris, qui videtur expresse 12. Metapli. com. 
+      <lb ed="#R" n="123"/>33. dicere, quod potentia motiua est in substantijs 
+      <lb ed="#R" n="124"/>separatis, dicens, quod de virtutibus animae 
+      tan<lb ed="#R" n="125" break="no"/>tum reperitur in eis intellectus, &amp; appetitiua 
+      mo<lb ed="#R" n="126" break="no"/>tiua ad locum. Est etiam apud fideles opinio haec 
+      <lb ed="#R" n="127"/>irrationabilis, quoniam legimus quandoque 
+      San<lb ed="#R" n="128" break="no"/>corum animas in corpore assumpto apparere, 
+      si<lb ed="#R" n="129" break="no"/>cut legimus de Agatha apparente Luciae, &amp; in 
+      per<lb ed="#R" n="130" break="no"/>sona propria, non in persona Angeli. 
+    </p>
+               <p>
+                  <lb ed="#R" n="131"/>Propterea quidam alij dicunt, quod in anima est 
+      <lb ed="#R" n="132"/>duplex potentia, vna quidem organica, alia vero 
+      <lb ed="#R" n="133"/>non organica. Prima quidem vtitur coniuncta- 
+      <!--0214.xml-->
+      <pb ed="#R" n="214"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>corpori: secunda vero separata a corpore, &amp; hoc 
+      <lb ed="#R" n="2"/>est rationabile, quoniam enim anima est 
+      substan<lb ed="#R" n="3" break="no"/>tia media inter substantias abstractas, &amp; 
+      substan<lb ed="#R" n="4" break="no"/>tias corporales, inquantum ipsa est forma 
+      conue<lb ed="#R" n="5" break="no"/>miens cum abstractis, habet potentiam 
+      intellecti<lb ed="#R" n="6" break="no"/>uam, voluntatem, &amp; motiuam ad locum non 
+      or<lb ed="#R" n="7" break="no"/>ganicam. Inquantum vero conuenit cum 
+      corpo<lb ed="#R" n="8" break="no"/>ralibus, habet potentias sensitiuas, &amp; motiuam ad 
+      <lb ed="#R" n="9"/>locum organice. 
+    </p>
+               <p>
+                  <lb ed="#R" n="10"/>Sed quia dubium est, cum intellectus, &amp; 
+      volun<lb ed="#R" n="11" break="no"/>tas non impediantur in actibus suis propter coniun 
+      <lb ed="#R" n="12"/>ctionem ad corpus, quare impediatur anima 
+      exi<lb ed="#R" n="13" break="no"/>sens in corpore ab ista potentia motiua, ne possit 
+      <lb ed="#R" n="14"/>exire secundum eam in actum suum, &amp; sicut mouet 
+      <lb ed="#R" n="15"/>corpus organice partem mediante parte, sic 
+      mo<lb ed="#R" n="16" break="no"/>ueat non organice. 
+    </p>
+               <p>
+                  <lb ed="#R" n="17"/>Propter quod dicunt, quod ista potentia 
+      organi<lb ed="#R" n="18" break="no"/>ca, &amp; non organica, eadem est potentia, vt 
+      inquan<lb ed="#R" n="19" break="no"/>tum mouet partem mediante parte, dicatur 
+      orga<lb ed="#R" n="20" break="no"/>nica: inquantum vero mouet totum immediate, 
+      <lb ed="#R" n="21"/>dicatur non organica: haec ergo est difficultas istius 
+      <lb ed="#R" n="22"/>arpf, pondeo ad quaesttionem, vbi primo 
+      po<lb ed="#R" n="23" break="no"/>nam vnam propositionem. Secundo eliciam allam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="24"/>Quantum ad primum pono propositionem istam, 
+      <lb ed="#R" n="25"/>quod in anima coniuncta corpori est dare aliquam 
+      <lb ed="#R" n="26"/>partem corporalem primo motam ab anima, 
+      me<lb ed="#R" n="27" break="no"/>diante parte alia corporali. Hanc propositionem 
+      <lb ed="#R" n="28"/>pono propter opinionem aliquorum, qui imaginan 
+      <lb ed="#R" n="29"/>tur, quod quando animal mouet se, moueatur pars, 
+      <lb ed="#R" n="30"/>mediante alia parte mota, &amp; illa mediante alia 
+      <lb ed="#R" n="31"/>quousque veniat ad aliquam partem immobilem, quae 
+      <lb ed="#R" n="32"/>fic est ratio mouendi alteram, quod ipsa non est 
+      mo<lb ed="#R" n="33" break="no"/>ta: anima ergo secundum istos nullam partem 
+      cor<lb ed="#R" n="34" break="no"/>poris mouet immediate, sed inter eam, &amp; primam 
+      <lb ed="#R" n="35"/>partem motam, est dare necessario partem aliquam 
+      <lb ed="#R" n="36"/>immobilem, mediantem inter primum mouens, &amp; 
+      <lb ed="#R" n="37"/>primum motum. Hanc propositionem non teneo 
+      <lb ed="#R" n="38"/>propter hoc, quod Philosophus expresse sentit 
+      op<lb ed="#R" n="39" break="no"/>positum in lib. de motu animalium cap. 1. &amp; ibidem 
+      <lb ed="#R" n="40"/>Commentator. Ideo proposui propositam 
+      pro<lb ed="#R" n="41" break="no"/>positionem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="42"/>Ad cuius euidentiam considerandum est, quod 
+      <lb ed="#R" n="43"/>in motu animalis possumus considerare tria, 
+      sci<lb ed="#R" n="44" break="no"/>licet motorem immobilem, rem primo motam, &amp; 
+      <lb ed="#R" n="45"/>cum hoc &amp; mouentem: &amp; tertio rem sic motam, 
+      <lb ed="#R" n="46"/>quod non est mouens. 
+    </p>
+               <p>
+                  <lb ed="#R" n="47"/>Primum mouens est anima ipsa, sicut quado 
+      ani<lb ed="#R" n="48" break="no"/>mal mouet digitum, res ibi primo mouens est 
+      ani<lb ed="#R" n="49" break="no"/>mal; res vero mota, &amp; non mouens est caro, &amp; os: 
+      <lb ed="#R" n="50"/>sed de re mota, quae cum hoc est mouens, sic quod 
+      <lb ed="#R" n="51"/>ipsa sit illud, quod immediate, &amp; primo mouetur 
+      <lb ed="#R" n="52"/>ab anima, &amp; anima illa mediante moueat partes 
+      <lb ed="#R" n="53"/>alias, est difficultas. 
+    </p>
+               <p>
+                  <lb ed="#R" n="54"/>
+                  <name>Galenus</name> namque ponit, quod idem est neruus: 
+      <lb ed="#R" n="55"/>Commentator autem hoc improbat, quoniam 
+      <lb ed="#R" n="56"/>neruus quandoque infrigidatur, &amp; tunc 
+      impossi<lb ed="#R" n="57" break="no"/>bile est quod moueat: ergo aliquid est in ipso 
+      prae<lb ed="#R" n="58" break="no"/>ter neruum, quae est ratio, quare neruus mouet. 
+    </p>
+               <p>
+                  <lb ed="#R" n="59"/>Dicit ergo Commentator, quod primo motum 
+      <lb ed="#R" n="60"/>ab anima, quo mediante mouet anima alias 
+      par<lb ed="#R" n="61" break="no"/>tes corporis in corpore animalis, est quidam 
+      spiri<lb ed="#R" n="62" break="no"/>tus inexistens, qui motus ab anima habet mouere 
+      <lb ed="#R" n="63"/>neruum, nunc contrahendo, nunc extendendo 
+      ip<lb ed="#R" n="64" break="no"/>sum, &amp; ex consequenti mouetur pars illa, quae est 
+      <lb ed="#R" n="65"/>colligata cum neruo, puta os &amp; caro, quae sic 
+      mo<lb ed="#R" n="66" break="no"/>uentes cut auouect turtu ilaiut iuegtuste- 
+      <!--0214.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>tis, &amp; in quodam loculo, qui est pars carnosa apta 
+      <lb ed="#R" n="68"/>nata recipere spiritum, vbi multum viget calor na 
+      <lb ed="#R" n="69"/>turalis: sic ergo spiritus existens ibi est primum 
+      <lb ed="#R" n="70"/>quod mouetur immediate ab anima, nullo alio 
+      <lb ed="#R" n="71"/>mediante, &amp; ideo anima est primo mouens: 
+      spiri<lb ed="#R" n="72" break="no"/>tus vero primum motum, qui motus mouere 
+      ha<lb ed="#R" n="73" break="no"/>bet neruos, ac neruis mediantibus, quicquid est 
+      <lb ed="#R" n="74"/>cum neruis colligatum, puta carnem, &amp; os, quae 
+      <lb ed="#R" n="75"/>sunt mota ab alio, &amp; non mouent. Haec est 
+      expres<lb ed="#R" n="76" break="no"/>sa Aristotelis intentio in lib. de motu animalium 
+      <lb ed="#R" n="77"/>cap. 1. vnde dicit: &amp; cum omne motum moueatur 
+      <lb ed="#R" n="78"/>quiescente, &amp;c. &amp; subdit, quod non oportet, quod 
+      <lb ed="#R" n="79"/>pars aliqua immobilis sit ita, quod non totum mo 
+      <lb ed="#R" n="80"/>ueatur: contingit enim quandoque, quod totum 
+      <lb ed="#R" n="81"/>mouetur, &amp; nihil est immobile nisi punctus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="82"/>Quomodo ergo, &amp; a quo tunc est motus? Respon 
+      <lb ed="#R" n="83"/>det, quod immediate est ab anima, quae primo 
+      mo<lb ed="#R" n="84" break="no"/>uet spiritum, mediante spiritu totum corpus. Haec 
+      <lb ed="#R" n="85"/>similiter est mens expressa Commentatoris in 8. 
+      <lb ed="#R" n="86"/>Physic. comm. 36. vel 37. vbi dicit, sicut nullum 
+      <lb ed="#R" n="87"/>est per se in rebus quae mouentur, &amp;c. &amp; subdit, 
+      <lb ed="#R" n="88"/>quod illud, quod in animali est primo mouens, est 
+      <lb ed="#R" n="89"/>anima, motum vero immediatum ab ea est spiritus 
+      <lb ed="#R" n="90"/>in musculis, &amp; lacertis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="91"/>Item <ref>comm. 38.</ref> dicit idem sic: Post ista apparet 
+      <lb ed="#R" n="92"/>hoc in eis, quae mouentur naturaliter, sicut est in 
+      <lb ed="#R" n="93"/>animalibus, quia motor in eis est aliud a moto: 
+      se<lb ed="#R" n="94" break="no"/>quitur: nullus enim dubitat, quod animal 
+      moue<lb ed="#R" n="95" break="no"/>tur ab anima, &amp; anima est motor, &amp; corpus est 
+      <lb ed="#R" n="96"/>motum, &amp; idem dicit iuxta finem commenti, quod 
+      <lb ed="#R" n="97"/>animal mouetur secundum, quod componitur ex 
+      <lb ed="#R" n="98"/>motore, &amp; moto, non quod motor&amp; motum sint in 
+      <lb ed="#R" n="99"/>eodem idem in actu. 
+    </p>
+               <p>
+                  <lb ed="#R" n="100"/>Item comm. 30. dicit, quod necese es, quod illa 
+      <lb ed="#R" n="101"/>quae mouentur a motore intrinseco, necesse est, quod 
+      <lb ed="#R" n="102"/>diuidantur in motorem, &amp; motum; &amp; necesse est, 
+      <lb ed="#R" n="103"/>quod ista non sint idem secundum definitionem, 
+      si<lb ed="#R" n="104" break="no"/>cut est dispositio in animalibus: anima enim, quae 
+      <lb ed="#R" n="105"/>est motor in eis, distinguitur a corpore secundum 
+      <lb ed="#R" n="106"/>definitionem.
+    </p>
+               <p>
+                  <lb ed="#R" n="107"/>Item Commentator in suo colliget lib. 2. de 
+      iu<lb ed="#R" n="108" break="no"/>uamine contrarij motus concludit idem. Ex his 
+      <lb ed="#R" n="109"/>apparet, quod mens Commentatoris est, quod 
+      ani<lb ed="#R" n="110" break="no"/>ma immediate moueat corpus, &amp; aliquam partem 
+      <lb ed="#R" n="111"/>eius immediate, non per aliam partem; nam 
+      se<lb ed="#R" n="112" break="no"/>cundum eum motum est, quod res mouens, &amp; 
+      mo<lb ed="#R" n="113" break="no"/>ta differunt: nihil autem mouetur, nisi a 
+      quiescen<lb ed="#R" n="114" break="no"/>te illo motu, tunc quaero: Illud quiescens, vel est 
+      <lb ed="#R" n="115"/>anima sola, &amp; habeo propositum; vel est aliqua 
+      <lb ed="#R" n="116"/>pars corporis, &amp; hoc est contra intentionem 
+      Com<lb ed="#R" n="117" break="no"/>mentatoris, &amp; Philosophi, quia secundum eos 
+      con<lb ed="#R" n="118" break="no"/>tingit quandoque, vt totum corpus sit motum 
+      ex<lb ed="#R" n="119" break="no"/>cepto punctali aliquo, sicut ille qui saltat mouet se 
+      <lb ed="#R" n="120"/>totaliter vsque ad quendam punctum 
+      determina<lb ed="#R" n="121" break="no"/>tum; &amp; cum punctus non habeat virtutem 
+      moti<lb ed="#R" n="122" break="no"/>uam in loco, necesse est, quod illud mouens 
+      immo<lb ed="#R" n="123" break="no"/>bile sit praecise anima ipsa. 
+    </p>
+               <p>
+                  <lb ed="#R" n="124"/>Secundo ex hac positione infero aliud, vt 
+      mate<lb ed="#R" n="125" break="no"/>ria modo patitur: miror multum, quod 
+      phyloso<lb ed="#R" n="126" break="no"/>phantes potuerunt adhaerere illi opinioni vulgatae, 
+      <lb ed="#R" n="127"/>quod in animalibus non differat realiter, &amp; 
+      secun<lb ed="#R" n="128" break="no"/>dum essentiam corporeitas ab ipsa anima. Videtur 
+      <lb ed="#R" n="129"/>enim mihi, quod apud Aristotelem, &amp; eius 
+      sequa<lb ed="#R" n="130" break="no"/>ces necesse sit, quod alia sit animae realitas a 
+      reali<lb ed="#R" n="131" break="no"/>tate corporis: nam Aristoteles, &amp; Commentator 
+      <lb ed="#R" n="132"/>expresse dicunt, quod in animali oportet animam, 
+      <lb ed="#R" n="133"/>quae est motor, distingui a corpore, quod est motũ; 
+      <lb ed="#R" n="134"/>&amp; ratio est quia mouens necesse est, quod 
+      distin<lb ed="#R" n="135" break="no"/>
+                  <!-- line coord error -->
+                  <!--0215.xml-->
+                  <pb ed="#R" n="215"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>guatur a moto, vt expresse <ref>Commentator dicit 
+      <lb ed="#R" n="2"/>8. Physic. com. 30.</ref> superius allegato. Vnde in 
+      eo<lb ed="#R" n="3" break="no"/>dem, probans, quod corpora simplicia non 
+      pos<lb ed="#R" n="4" break="no"/>sunt esse mota ex se, quia in eis non distinguitur 
+      mo<lb ed="#R" n="5" break="no"/>uens &amp; motum in actu, statim instat contra se, quia 
+      <lb ed="#R" n="6"/>talia componuntur ex materia, &amp; forma, quorum 
+      <lb ed="#R" n="7"/>vtrumque est distinctum secundum definitionem 
+      <lb ed="#R" n="8"/>ab alio. Et respondet, quod prima materia non 
+      <lb ed="#R" n="9"/>est existens in actu, nisi secundum formam, ideo 
+      <lb ed="#R" n="10"/>non potest esse motum, quia oportet motorem, &amp; 
+      <lb ed="#R" n="11"/>motum esse disttincta, &amp; in actu. 
+    </p>
+               <p>
+                  <lb ed="#R" n="12"/>Quomodo ergo anima est mouens in 
+      animali<lb ed="#R" n="13" break="no"/>bus, &amp; corpus motum, si in animali non est 
+      reali<lb ed="#R" n="14" break="no"/>tas alia, quam animae, &amp; materiae primae, ita quod 
+      <lb ed="#R" n="15"/>corpus non dicat realitatem aliam, nisi animae, &amp; 
+      <lb ed="#R" n="16"/>materiae primae; ita impossibile erit hoc 
+      ponenti<lb ed="#R" n="17" break="no"/>bus, quod animal moueatur ex se sicut 
+      corpora<lb ed="#R" n="18" break="no"/>simplicia, si ratio Commentatoris concludat: vel 
+      <lb ed="#R" n="19"/>enim erit idem mouens, &amp; motum; vel motum non 
+      <lb ed="#R" n="20"/>erit existens in actu; vel si sic, necesse est, quod sit in 
+      <lb ed="#R" n="21"/>animali alia realitas formae praeter realitatem 
+      ani<lb ed="#R" n="22" break="no"/>mae, quia materia non est in actu, nisi per formam 
+      <lb ed="#R" n="23"/>per <ref>Commentatorem 8. Phys. com. 30.</ref> vbi supra 
+      <lb ed="#R" n="24"/>Ex his ad quaestionem dico. 
+    </p>
+               <p>
+                  <lb ed="#R" n="25"/>Quod sicut anima mouere potest aliquod 
+      cor<lb ed="#R" n="26" break="no"/>pus immediate non mediante alio corpore, sic potest 
+      <lb ed="#R" n="27"/>separata a corpore, &amp; ideo remanet in ea potentia 
+      <lb ed="#R" n="28"/>motiua corporis ad locum. Ad argumentum patet. 
+    </p>
+            </div>
+            <div>
+               <head>Articulus 3</head>
+               <head type="question-title">
+      Utrum in anima separata sit memoria
+    </head>
+               <p>
+                  <lb ed="#R" n="29"/>ARTICVLVS III 
+      <lb ed="#R" n="30"/>Vtrum in anima separata sit memoria. 
+    </p>
+               <p>
+                  <lb ed="#R" n="31"/>QVoad tertiam quaestionem arguo primo, quod 
+      <lb ed="#R" n="32"/>memoria non sit in anima separata, quia nul- 
+      <lb ed="#R" n="33" break="no"/>la potentia organica manet in anima 
+      se<lb ed="#R" n="34" break="no"/>parata: sed memoria est potentia organica, vt dicit 
+      <lb ed="#R" n="35"/>Philosophus lib. de memoria, &amp; reminiscentia: ergo. 
+      <lb ed="#R" n="36"/>In oppositum habetur illud Luc. 6. vbi Abraham 
+      <lb ed="#R" n="37"/>alloquebatur diuitem sepultum in inferno, dicens; 
+      <lb ed="#R" n="38"/>Fili recordare, quod suscepisti multa bona in 
+      vi<lb ed="#R" n="39" break="no"/>ta tua, &amp;c. recordari autem est actus memoriae: sed 
+      <lb ed="#R" n="40"/>non reducebat eum ad actum impossibilem esse in 
+      <lb ed="#R" n="41"/>eo: ergo. Respondeo hic primo narrabo duas 
+      opi<lb ed="#R" n="42" break="no"/>niones; &amp; secundo reducam eas ad concordiam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="43"/>Quantum ad primum sciendum es, quod opinio 
+      <lb ed="#R" n="44"/>est quorundam sequentium dicta Philosophi, quod 
+      <lb ed="#R" n="45"/>memoria non est in anima separata, quia memoria 
+      <lb ed="#R" n="46"/>tantum videtur esse in parte sensitiua, vt 
+      Philoso<lb ed="#R" n="47" break="no"/>phus videtur expresse dicere in lib. de memoria 
+      <lb ed="#R" n="48"/>&amp; reminiscentia cap. J. 
+    </p>
+               <p>
+                  <lb ed="#R" n="49"/>Confirmatur, quia memoria non est vniuersalium 
+      <lb ed="#R" n="50"/>per Philosophum ibidem; vnde nullus memoratur 
+      <lb ed="#R" n="51"/>triangulum habere tres: sed intellectus est 
+      vniuer<lb ed="#R" n="52" break="no"/>salium: ergo memoria non videtur essse in 
+      parte<lb ed="#R" n="53" break="no"/>intellectiua. 
+    </p>
+               <p>
+                  <lb ed="#R" n="54"/>Tertio, quia si actus memoriae esset in anima 
+      se<lb ed="#R" n="55" break="no"/>parata: ergo sancti post vitam recordari possent 
+      <lb ed="#R" n="56"/>peccatorum commissorum in hac vita: sed 
+      conse<lb ed="#R" n="57" break="no"/>quens est falsum, quia aut pro tunc tristarentur, &amp; 
+      <lb ed="#R" n="58"/>sic non essent perfecté beati; aut gauderent, &amp; sic 
+      <lb ed="#R" n="59"/>peccarent. 
+    </p>
+               <p>
+                  <lb ed="#R" n="60"/>Alia est opinio ad oppositum, &amp; habet pro se 
+      <lb ed="#R" n="61"/>primo experientiam, quia quilibet recordatur se 
+      <lb ed="#R" n="62"/>intellexisse: sed per virtutem sensitiuam non potest 
+      <lb ed="#R" n="63"/>quis recordari se intellexisse, quoniam intellectio 
+      <lb ed="#R" n="64"/>non cadit sub sensu: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="65"/>Confirmatur hoc per Aristotelem in lib. de me- 
+      <!--0215.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="66"/>moria, &amp; reminiscentia ipse dicit ibi, quod 
+      recor<lb ed="#R" n="67" break="no"/>damur nos intellexisse triangulum: sed non potest 
+      <lb ed="#R" n="68"/>quis recordari intellectionis per memoriam 
+      sensi<lb ed="#R" n="69" break="no"/>tiuam: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="70"/>Item secundo: quia prudentia est vere in anima 
+      se<lb ed="#R" n="71" break="no"/>parata, &amp; potest esse in intellectu: sed prudentia 
+      per<lb ed="#R" n="72" break="no"/>fecta habet tres partes, secundum Tullium, scilicet 
+      <lb ed="#R" n="73"/>intelligentiam respectu praesentium, memoriam 
+      re<lb ed="#R" n="74" break="no"/>spectu praeteritorum, &amp; prouidentiam respectu 
+      futu<lb ed="#R" n="75" break="no"/>rorum: ergo: haec sunt duae opiniones extremae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="76"/>Quantum ad secundum pono duas propositiones. 
+      <lb ed="#R" n="77"/>Prima est, quod memoria, vt est potentia spiritualis, 
+      <lb ed="#R" n="78"/>&amp; thesaurus intentionum praeteritarum, est in parte 
+      <lb ed="#R" n="79"/>sensitiua, &amp; ad hoc vadit Philosophus in lib. de 
+      me<lb ed="#R" n="80" break="no"/>moria, &amp; reminiscentia cum negat memoriam distingui 
+      <lb ed="#R" n="81"/>ab intellectu. Ad cuius euidentiam sciendum est, quod 
+      <lb ed="#R" n="82"/>aliud est retinere imaginem rei sensatae, aliud est 
+      re<lb ed="#R" n="83" break="no"/>tinere ipsius rei sensatae sensationem; sicut aliud est 
+      <lb ed="#R" n="84"/>retinere imaginem rei in se, aliud est retinere 
+      visio<lb ed="#R" n="85" break="no"/>nem: sensatio enim apud Aristotelem vocatur 
+      con<lb ed="#R" n="86" break="no"/>prehensio, &amp; intentio, imago vero est ipsum 
+      com<lb ed="#R" n="87" break="no"/>prehensum 
+    </p>
+               <p>
+                  <lb ed="#R" n="88"/>Et docet experientia, quod haec duo 
+      distingun<lb ed="#R" n="89" break="no"/>tur, &amp; quod retentio vnius non est retentio alterius: 
+      <lb ed="#R" n="90"/>multi enim bene retinent intentiones, &amp; 
+      compre<lb ed="#R" n="91" break="no"/>hensiones, qui male retinent imaginem 
+      comprehen<lb ed="#R" n="92" break="no"/>sorum, cuiusmodi sunt qui recordantur se vidisse, 
+      <lb ed="#R" n="93"/>quid tamem viderint non recordantur. sic Danielis 
+      <lb ed="#R" n="94"/>2. Nabucodonosor recordabatur se somniasse, 
+      il<lb ed="#R" n="95" break="no"/>lud tamen, quod somniauerat, fugerat ab eo. Et ex 
+      <lb ed="#R" n="96"/>hoc apparet, quod argumentum, quod fit de Paulo, 
+      <lb ed="#R" n="97"/>quo aliqui nituntur probare, quod in eo fuerit 
+      spe<lb ed="#R" n="98" break="no"/>cies repraesentans essentiam diuinam, per hoc, quod 
+      <lb ed="#R" n="99"/>recordabatur se vidisse, &amp; audisse quae non licet ho 
+      <lb ed="#R" n="100"/>mini loqui, per quod probare intendunt, quod 
+      pos<lb ed="#R" n="101" break="no"/>sibile est habere notitiam abstractiuam de diuina 
+      <lb ed="#R" n="102"/>essentia in via, non concludit: Paulus enim non 
+      re<lb ed="#R" n="103" break="no"/>cordabatur, nec retinebat imaginem rei 
+      compre<lb ed="#R" n="104" break="no"/>hensae, puta essentiae diuinae, sed tantummodo 
+      reti<lb ed="#R" n="105" break="no"/>nebat ipsam sensationem, vnde recordabatur se 
+      vi<lb ed="#R" n="106" break="no"/>disse, non tamen oportet, quod recordaretur eius, 
+      <lb ed="#R" n="107"/>quod vidit, puta imaginis rei comprehensae. Et quia 
+      <lb ed="#R" n="108"/>aliud est retinere comprehensiones, &amp; aliud 
+      reti<lb ed="#R" n="109" break="no"/>nere comprehensa, ideo hoc, &amp; illud in sensu 
+      per<lb ed="#R" n="110" break="no"/>tinent necesario ad duas potentias. Ideo secundum 
+      <lb ed="#R" n="111"/>mentem Commentatoris super cap. 2. &amp; 1. de 
+      me<lb ed="#R" n="112" break="no"/>moria, &amp; reminiscentia, retinere sensationes 
+      perti<lb ed="#R" n="113" break="no"/>net ad memoriam, quae est virtus in postrema 
+      par<lb ed="#R" n="114" break="no"/>te cerebri. Retinere vero ipsas imagines 
+      compre<lb ed="#R" n="115" break="no"/>hensorum pertinet ad virtutem phantasiae, seu ima 
+      <lb ed="#R" n="116"/>ginationis, quae est virtus in anteriori parte 
+      cere<lb ed="#R" n="117" break="no"/>bri, ideo memoria dicitur thesaurus formarum. 
+      <lb ed="#R" n="118"/>Et quod istae duae retentiones non pertineant ad 
+      <lb ed="#R" n="119"/>eandem potentiam, nec organum, probo primo 
+      <lb ed="#R" n="120"/>auctoritate expressa Commentatoris in de 
+      memo<lb ed="#R" n="121" break="no"/>ria, &amp; reminiscentia. Secundo rationibus 
+      dua<lb ed="#R" n="122" break="no"/>bus. Quarum prima dicit quia, secunda vero 
+      pro<lb ed="#R" n="123" break="no"/>pter quid. 
+    </p>
+               <p>
+                  <lb ed="#R" n="124"/>Prima ratio est, quia si istae duae retentiones 
+      per<lb ed="#R" n="125" break="no"/>tinerent ad idem organum, &amp; eandem virtutem 
+      <lb ed="#R" n="126"/>necessario, qui vigeret in retentiua formarum 
+      ap<lb ed="#R" n="127" break="no"/>prehensarum, vigeret &amp; in retētiua ipsarum 
+      appre<lb ed="#R" n="128" break="no"/>hensionum; &amp; e conuerso; &amp; qui haberet 
+      aptitudi<lb ed="#R" n="129" break="no"/>nem ad vnum, haberet &amp; per consequens 
+      aptitu<lb ed="#R" n="130" break="no"/>dinem ad aliud, cuius oppositum docet 
+      manife<lb ed="#R" n="131" break="no"/>ste experientia. Videmus enim, quod aliqui 
+      ha<lb ed="#R" n="132" break="no"/>bent recordationes de formis, &amp; nullam 
+      qua<lb ed="#R" n="133" break="no"/>si recordationem habent de sensationibus, &amp; com- 
+      <!--0216.xml-->
+      <pb ed="#R" n="216"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>comprehensionibus: &amp; quandoque ex diuersitate 
+      <lb ed="#R" n="2"/>complexionum apparet, quod multi sunt, in 
+      qui<lb ed="#R" n="3" break="no"/>bus bene conseruatur res ipsa, siue forma rei, &amp; 
+      <lb ed="#R" n="4"/>male ipsa comprehensio. Quod vero retinere formas 
+      <lb ed="#R" n="5"/>pertineat ad partem anteriorem, siue 
+      imaginatio<lb ed="#R" n="6" break="no"/>nem, patet per hoc, quia laesi in parte anteriori 
+      re<lb ed="#R" n="7" break="no"/>tinent male formas, qui tamen optime possunt 
+      re<lb ed="#R" n="8" break="no"/>tinere comprehensiones ac sensationes. 
+      Consimi<lb ed="#R" n="9" break="no"/>liter laesi in parte posteriori non valent 
+      retinere<lb ed="#R" n="10" break="no"/>comprehensiones, qui tamen possunt retinere 
+      for<lb ed="#R" n="11" break="no"/>mas; ex quo patet quod retentio 
+      comprehensio<lb ed="#R" n="12" break="no"/>num pertinet ad partem cerebri posteriorem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="13"/>Secunda ratio dicens propter quid, est ista. 
+      So<lb ed="#R" n="14" break="no"/>cundum gradum operationum in spiritualitate est 
+      <lb ed="#R" n="15"/>gradus organorum, &amp; potentiarum organicarum, 
+      <lb ed="#R" n="16"/>quae sunt principia illarum operationum, &amp; hinc 
+      <lb ed="#R" n="17"/>est, quod quia spiritualior est visio quam auditio, 
+      <lb ed="#R" n="18"/>ideo habet organum altiorem, quia &amp; operatio 
+      <lb ed="#R" n="19"/>sensus communis es spiritualior, quam operatio 
+      <lb ed="#R" n="20"/>sensus particularis, ideo requirit aliud, &amp; altius 
+      <lb ed="#R" n="21"/>organum quam illa. Jdem patet inductiue in 
+      om<lb ed="#R" n="22" break="no"/>nibus potentijs vsque ad intellectum, quia semper 
+      <lb ed="#R" n="23"/>quanto est subtilior, tanto operatio eius est 
+      spiri<lb ed="#R" n="24" break="no"/>tualior; sic qualitates quibus potentia illa vtitur 
+      <lb ed="#R" n="25"/>in operando, oportet quod sint spiritualiores; Et 
+      <lb ed="#R" n="26"/>ideo videmus quod illi in quibus vigent spiritus 
+      <lb ed="#R" n="27"/>subtiliores, habent operationes magis abstractas. 
+      <lb ed="#R" n="28"/>Sic ergo illa propositio manifesta est, quod quanto 
+      <lb ed="#R" n="29"/>operatio est spiritualior, tanto requirit organum 
+      <lb ed="#R" n="30"/>altius, &amp; qualitatem spiritualiorem, &amp; 
+      subtilio<lb ed="#R" n="31" break="no"/>res spiritus, quibus operetur: sed retentio 
+      com<lb ed="#R" n="32" break="no"/>prehensionum est spiritualior quam retentio 
+      for<lb ed="#R" n="33" break="no"/>marum: patet ex natura obiectorum, quia visio 
+      <lb ed="#R" n="34"/>est spiritualior, quam sit ipsum visum, siue forma 
+      <lb ed="#R" n="35"/>rei in se, cum forma rei in se sit aliquod 
+      dimensio<lb ed="#R" n="36" break="no"/>natum: ergo oportet, quod retentio 
+      comprehen<lb ed="#R" n="37" break="no"/>sionis habeat altius organum, &amp; subtiliorem 
+      vir<lb ed="#R" n="38" break="no"/>tutem, &amp; hinc est quod retentioni formarum 
+      cor<lb ed="#R" n="39" break="no"/>respondent virtus, &amp; organum magis grossum, 
+      si<lb ed="#R" n="40" break="no"/>cut est imaginatio, &amp; naturae comprehensionum 
+      cor<lb ed="#R" n="41" break="no"/>respondet memoria, quae est potentia organica 
+      <lb ed="#R" n="42"/>spiritualior, &amp; hinc est quod ipsa immediatius 
+      de<lb ed="#R" n="43" break="no"/>seruit intellectui, quam quaecunque alia. 
+    </p>
+               <p>
+                  <lb ed="#R" n="44"/>Tertia ratio potest adduci talis: Potentia, quae 
+      <lb ed="#R" n="45"/>est vltima omnino omnium potentiarum 
+      sensiti<lb ed="#R" n="46" break="no"/>uarum, non est eadem potentia cum potentia 
+      ima<lb ed="#R" n="47" break="no"/>ginatiua: ratio es, quia cogitatiua est posterior 
+      <lb ed="#R" n="48"/>imaginatiua: ergo ipsa est vltima. Antecedens 
+      <lb ed="#R" n="49"/>patet, quia virtus cogitatiua, secundum Commen 
+      <lb ed="#R" n="50"/>tatorem, componit, &amp; diuidit intentiones sensatas 
+      <lb ed="#R" n="51"/>ad inuicem: nunc autem actus simpliciter 
+      praece<lb ed="#R" n="52" break="no"/>dit actum apprehensionis compositum: ergo 
+      sim<lb ed="#R" n="53" break="no"/>plex apprehensio apprehensionem compositam 
+      <lb ed="#R" n="54"/>ergo. Sed memoria est vlterior cogitatiua: ergo 
+      <lb ed="#R" n="55"/>manifestum es quod memoria non estt 
+      imaginati<lb ed="#R" n="56" break="no"/>ua. Minorem probo, quia ex quo experimur 
+      po<lb ed="#R" n="57" break="no"/>tentiam retentiuam comprehensionum sine 
+      reten<lb ed="#R" n="58" break="no"/>tione rei comprehensae, &amp; e conuerso: ergo 
+      opor<lb ed="#R" n="59" break="no"/>tet, quod sit potentia componens, &amp; diuidens res 
+      <lb ed="#R" n="60"/>comprehensas inter se ab ipsis comprehensionibus, 
+      <lb ed="#R" n="61"/>vt diuidens rem visam a visione, vel componens: 
+      <lb ed="#R" n="62"/>ista est cogitatiua, quae praesupponit imaginatiuam, 
+      <lb ed="#R" n="63"/>vbi sunt res comprehensae: ergo oportet esse 
+      vlte<lb ed="#R" n="64" break="no"/>riorem, quae sit ipsarum comprehensionum 
+      poste<lb ed="#R" n="65" break="no"/>rior cogitatiua, quae comprehensiones separet, vel 
+      <lb ed="#R" n="66"/>diuidat a rebus comprehensis. Et ideo est vna bona 
+      <lb ed="#R" n="67"/>doctrina de memoria ad bene memorandum ,, 
+      <lb ed="#R" n="68"/>quod cum aliquis audiuit, vel vidit multa, reflectat 
+      <!--0216.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>se spiritualiter super ipsas visiones, &amp; 
+      comprehen<lb ed="#R" n="70" break="no"/>siones, &amp; tunc solidius fiunt in memoria, quia 
+      for<lb ed="#R" n="71" break="no"/>tius imprimuntur. 
+    </p>
+               <p>
+                  <lb ed="#R" n="72"/>Ex hoc infero, quomodo memoria est 
+      praeteri<lb ed="#R" n="73" break="no"/>torum, &amp; distinguitur ab intelligentia: ratio est, 
+      <lb ed="#R" n="74"/>quia ipsa est thesaurus comprehensionum, &amp; actuum 
+      <lb ed="#R" n="75"/>sensuum particularium transeuntium in 
+      praeteri<lb ed="#R" n="76" break="no"/>tum: huiusmodi autem actus impossibile estt 
+      ap<lb ed="#R" n="77" break="no"/>prehendi sine tempore, qui enim apprehendit actum 
+      <lb ed="#R" n="78"/>aliquem, puta vidi, audiui, &amp; sic de alijs, 
+      necessa<lb ed="#R" n="79" break="no"/>rio cointelligit tempus; &amp; sicut apprehendens 
+      vi<lb ed="#R" n="80" break="no"/>sionem prae sentem, necessario apprehendit tempus, 
+      <lb ed="#R" n="81"/>sic retinens ipsam visionem praeteritam necessario 
+      <lb ed="#R" n="82"/>retinet tempus praeteritum, &amp; ideo visionem 
+      reti<lb ed="#R" n="83" break="no"/>net annexam praeteritioni: haec ergo causa est, quia 
+      <lb ed="#R" n="84"/>memoria est praeteritorum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="85"/>Sed ex alia parte, quia imaginatio retinet 
+      for<lb ed="#R" n="86" break="no"/>mas rerum comprehensarum, quae abstrahunt a 
+      <lb ed="#R" n="87"/>tempore, ideo imaginatio abstrahit a tempore. 
+    </p>
+               <p>
+                  <lb ed="#R" n="88"/>Secunda Propositio est, quod tam memoria, 
+      <lb ed="#R" n="89"/>quam intelligentia, vel reminiscentia, vel 
+      imagi<lb ed="#R" n="90" break="no"/>natiua, neutra earum habet actum elicere, sed 
+      re<lb ed="#R" n="91" break="no"/>tinere, &amp; ideo actus memorandi, vel 
+      reminiscen<lb ed="#R" n="92" break="no"/>di non est elicitiue a memoria, nec imaginatiue, 
+      <lb ed="#R" n="93"/>sed est cogitatiuae virtutis elicitiue, &amp; subiectiue; 
+      <lb ed="#R" n="94"/>memoriae vero &amp; imaginatiuae est tantummodo 
+      <lb ed="#R" n="95"/>praeparatiue, pro quanto memoria praeparat 
+      com<lb ed="#R" n="96" break="no"/>prehensionem, imaginatiua vero format. Et haec 
+      <lb ed="#R" n="97"/>est expressa intentio Commentatoris vbi supra de 
+      <lb ed="#R" n="98"/>memoria, &amp; reminiscentia: vt autem appareat 
+      di<lb ed="#R" n="99" break="no"/>stinctio actus, qui est memorari, ab actu, qui est 
+      <lb ed="#R" n="100"/>reminisci: considerandum est, quod thesaurus 
+      in<lb ed="#R" n="101" break="no"/>tentionum tantummodo habet conseruare, 
+      non<lb ed="#R" n="102" break="no"/>apprehendere: nec ergo memoria apprehendit, nec 
+      <lb ed="#R" n="103"/>imaginatiua, sed tantummodo conseruat, licet Aui 
+      <lb ed="#R" n="104"/>cenna super primum cap. de memoria, &amp; reminisc. 
+      <lb ed="#R" n="105"/>diuidat phantasiam contra imaginationem, quod 
+      <lb ed="#R" n="106"/>Commentator reputat vnam trupham, tantummo 
+      <lb ed="#R" n="107"/>do ergo habet memoria, &amp; imaginatiua 
+      praepara<lb ed="#R" n="108" break="no"/>re obiectum ipsi cogitatiuae. Aliqua est elicitiue 
+      <lb ed="#R" n="109"/>actus memorandi: cum ergo acciderit, quod 
+      me<lb ed="#R" n="110" break="no"/>moria praeparet comprehensionem, tunc 
+      cogita<lb ed="#R" n="111" break="no"/>tio elicit actum quo dicit, vidi, sed nondum scit quid 
+      <lb ed="#R" n="112"/>viderit; quando vero simul imaginatio praeparat 
+      <lb ed="#R" n="113"/>formam rei comprehensae, tunc dicit cogitatiua, 
+      <lb ed="#R" n="114"/>hoc vidi, &amp; actus iste est actus perfectae 
+      recorda<lb ed="#R" n="115" break="no"/>tionis, &amp; dicitur memorari, qui non est aliud, quam 
+      <lb ed="#R" n="116"/>comprehensionem praeparatam memoriae 
+      copula<lb ed="#R" n="117" break="no"/>re cum re comprehensa, siue praeparata ab 
+      imagi<lb ed="#R" n="118" break="no"/>nnatiua. Sed cum acciderit, quod memoria 
+      prae<lb ed="#R" n="119" break="no"/>paret comprehensionem, &amp; imaginatiua non simul 
+      <lb ed="#R" n="120"/>praeparet rem comprehensam, tunc non elicit 
+      co<lb ed="#R" n="121" break="no"/>gitatiua actum memorandi perfectum, sed actum 
+      <lb ed="#R" n="122"/>quendam imperfectum dicens vidi, &amp; nesciens 
+      ad<lb ed="#R" n="123" break="no"/>huc quid, recurrit ad thesaurum formarum 
+      com<lb ed="#R" n="124" break="no"/>prehensarum, quae est virtus imaginatiua, vt est 
+      <lb ed="#R" n="125"/>dictum, qui si praesentet sibi formam 
+      comprehen<lb ed="#R" n="126" break="no"/>sam, statim copulat eam cum intentione, &amp; elicit 
+      <lb ed="#R" n="127"/>actum memorandi. Si vero praesentet formam 
+      <lb ed="#R" n="128"/>aliam, quam apprehensam, statim cogitatiua 
+      ap<lb ed="#R" n="129" break="no"/>prehendit illam comprehensionem non fuisse illius 
+      <lb ed="#R" n="130"/>formae, &amp; tunc statim venit reminiscentia, cuius 
+      <lb ed="#R" n="131"/>est discurrere circa imaginatiuam, quaerendo 
+      for<lb ed="#R" n="132" break="no"/>mas, siue formam, super quam fuerat comprehen 
+      <lb ed="#R" n="133"/>sio, qua inuenta &amp; copulata cum 
+      apprehensione<lb ed="#R" n="134" break="no"/>habetur actus reminiscentiae. Eodem modo est 
+      <lb ed="#R" n="135"/>dicendum, quando cogitatiuae imaginatiua offert 
+      <lb ed="#R" n="136"/>primo formam rei sensatae, &amp; posemodum occurrit 
+      <!--0217.xml-->
+      <pb ed="#R" n="217"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>sensatio, siue comprehensio, quae non habuit 
+      con<lb ed="#R" n="2" break="no"/>nexionem cum forma illa, statim cogitatio 
+      discur<lb ed="#R" n="3" break="no"/>rit circa comprehensiones retentas in thesauro 
+      me<lb ed="#R" n="4" break="no"/>moriae, donec inueniat comprehensionem propriam, 
+      <lb ed="#R" n="5"/>qua habita statim format actum, qui dicitur actus 
+      <lb ed="#R" n="6"/>reminiscentiae, vt sic actus reminiscentiae differat 
+      <lb ed="#R" n="7"/>ab actu memoriae, per hoc quod est finis discursus 
+      <lb ed="#R" n="8"/>modo exposito. 
+    </p>
+               <p>
+                  <lb ed="#R" n="9"/>Dices, ergo reminisci est actus intellectus, cum 
+      <lb ed="#R" n="10"/>ad solùm intellectum pertineat discurrere. 
+    </p>
+               <p>
+                  <lb ed="#R" n="11"/>Respondeo: discurrere pertinet ad cogitatiuam 
+      <lb ed="#R" n="12"/>nosram, &amp; per hoc differt a cogitutiua brutorum, 
+      <lb ed="#R" n="13"/>quae proprie non discurrit. Difffert autem 
+      discur<lb ed="#R" n="14" break="no"/>sus cogitatiuae in nobis a discursu intellectus, quia 
+      <lb ed="#R" n="15"/>intellectus discurrit in intensionibus 
+      vniuersali<lb ed="#R" n="16" break="no"/>bus; cogitatiua vero in particularibus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="17"/>Tertia Propositio, quod accipiendo hoc modo 
+      <lb ed="#R" n="18"/>memoriam, vt est spiritualis thesaurus 
+      compre<lb ed="#R" n="19" break="no"/>hensionum separatim a rebus comprehensis, non 
+      <lb ed="#R" n="20"/>pertinet ad partem intellectiuam. Ratio est, quia 
+      <lb ed="#R" n="21"/>intellectus, cum sit spiritua lissimus non indiget alia 
+      <lb ed="#R" n="22"/>potentia retinente, &amp; alia eliciente: cum etiam 
+      spe<lb ed="#R" n="23" break="no"/>cies in intellectu sit aeque spiritualis, vt comprehen 
+      <lb ed="#R" n="24"/>sio specierum siue formarum rerum apprehensarum, 
+      <lb ed="#R" n="25"/>non indigeat aliqua potentia in qua conseruetur, a 
+      <lb ed="#R" n="26"/>potentia in qua conseruantur actus siue 
+      compre<lb ed="#R" n="27" break="no"/>hensiones ipsarum rerum, quod non potest poni in 
+      <lb ed="#R" n="28"/>sensu propter inaequalem gradum rerum 
+      compre<lb ed="#R" n="29" break="no"/>hensarum a sensibus, &amp; ipsarum comprehensionum. 
+      <lb ed="#R" n="30"/>Sed capiendo memoriam cum apprehensione actus 
+      <lb ed="#R" n="31"/>cum praeteritione, tunc dico, quod memoria potest 
+      <lb ed="#R" n="32"/>pertinere ad intellectum: non enim repugnat 
+      intel<lb ed="#R" n="33" break="no"/>lectui apprehendere actum sub praeteritione magis, 
+      <lb ed="#R" n="34"/>quam sensui. 
+    </p>
+               <p>
+                  <lb ed="#R" n="35"/>Sed tamen sciendum est, quod aliter hoc modo 
+      <lb ed="#R" n="36"/>erit memoria in sensu, &amp; aliter in intellecu. 
+      In<lb ed="#R" n="37" break="no"/>tellectus enim memoratur vniuersalium: sensus 
+      <lb ed="#R" n="38"/>vero particularium. Sed non potest intellectus 
+      ab<lb ed="#R" n="39" break="no"/>solute memorari vniuersalium, nisi &amp; sensus pro 
+      <lb ed="#R" n="40"/>tunc memoretur particularium, &amp; stante sensu in 
+      <lb ed="#R" n="41"/>memoria particularis intellectus memoratur 
+      vni<lb ed="#R" n="42" break="no"/>uersalis in illo particulari: Verbi gratia cogitatio 
+      <lb ed="#R" n="43"/>memoratur vidisse lineam bipedalem, &amp; 
+      intelle<lb ed="#R" n="44" break="no"/>ctus memoratur intellexissse lineam simpliciter in 
+      <lb ed="#R" n="45"/>linea bipedali. Ratio est, quia sicut actus simplex 
+      <lb ed="#R" n="46"/>intellectus. non est sine acttu simplici sensus, vnde 
+      <lb ed="#R" n="47"/>nunquam intellectus intelligit lineam simpliciter, 
+      <lb ed="#R" n="48"/>quin phantasia apprehendat lineam particularem, 
+      <lb ed="#R" n="49"/>vt lineam pedalem, vel bipedalem. Et hinc est quod 
+      <lb ed="#R" n="50"/>Commentator dicit 3. de anima com. 30. quod 
+      in<lb ed="#R" n="51" break="no"/>tentio imaginata habet duplex subiectum, vnum 
+      <lb ed="#R" n="52"/>inquantum est vnum, &amp; illud est intentio 
+      imagina<lb ed="#R" n="53" break="no"/>ta idest res intellecta, inquantum habet esse 
+      inten<lb ed="#R" n="54" break="no"/>tionale, &amp; apparens in intellecu fundatur in esse 
+      <lb ed="#R" n="55"/>apparenti, &amp; intentionali a phantasmate. 
+      Intelle<lb ed="#R" n="56" break="no"/>ctus enim speculatur quo quid est in phantasmate 
+      <lb ed="#R" n="57"/>3. de anima tex. 30. 
+    </p>
+               <p>
+                  <lb ed="#R" n="58"/>Intentio vero intellecta, inquantum est vnum 
+      <lb ed="#R" n="59"/>entium extra animam, habet pro subiecto 
+      intelle<lb ed="#R" n="60" break="no"/>ctum. Intentio enim intellecta hoc modo est 
+      ipsa<lb ed="#R" n="61" break="no"/>met intellectio, quia nullum habet esse reale, nisi 
+      <lb ed="#R" n="62"/>esse ipsius intellectionis. Sic ergo ad propositum 
+      <lb ed="#R" n="63"/>dico, quod intellectus absolute non memoratur 
+      vni<lb ed="#R" n="64" break="no"/>uersalis, nisi in ipso actu memorandi 
+      particulare<lb ed="#R" n="65" break="no"/>ipsius cogitationis, &amp; haec est meus 
+      Commentato<lb ed="#R" n="66" break="no"/>ris expressa in libello suo de memoria, &amp; 
+      remini<lb ed="#R" n="67" break="no"/>scentia. Hinc est quod communiter habens bonam 
+      <lb ed="#R" n="68"/>memoriam sensitiuam, habet etiam bonam intellectiuam.
+    </p>
+               <p>
+      <!--0217.xml-->
+                  <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>In alio autem differt recordatio in sensu, &amp; 
+      in<lb ed="#R" n="70" break="no"/>tellectu, quia in sensu idem est copulatio ipsius 
+      con<lb ed="#R" n="71" break="no"/>prehensionis praeteritae cum re comprehensa: 
+      in<lb ed="#R" n="72" break="no"/>intellectu autem est non copulatio, sed simplex 
+      <lb ed="#R" n="73"/>apprehensio vtriusque sub praeteritione: non enim 
+      <lb ed="#R" n="74"/>separatim conseruatur in intellectu sicut in sensu. 
+    </p>
+               <p>
+                  <lb ed="#R" n="75"/>His visis, venio ad concordandum duas 
+      opinio<lb ed="#R" n="76" break="no"/>nes praemissas. Ad cuius euidentiam sciendum 
+      <lb ed="#R" n="77"/>est, quod memoria quaedam est, quae est pars 
+      imagi<lb ed="#R" n="78" break="no"/>nationis, de qua habetur Luc. 6. fili recordare, &amp;c. 
+      <lb ed="#R" n="79"/>haec autem non est aliud, quam apprehensio 
+      intel<lb ed="#R" n="80" break="no"/>lectionis, &amp; intentionis intellectae sub 
+      praeteritio<lb ed="#R" n="81" break="no"/>ne, &amp; hoc modo memoria pertinet ad intellectum, 
+      <lb ed="#R" n="82"/>&amp; in hoc secunda opinio dicit verum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="83"/>Alio modo memoria accipitur pro thesauro 
+      con<lb ed="#R" n="84" break="no"/>prehensionum, &amp; actus memorandi, hoc modo non 
+      <lb ed="#R" n="85"/>est nisi copulare comprehensionem praeteritam praepara 
+      <lb ed="#R" n="86"/>tam a memoria cum forma rei comprehensae 
+      praepa<lb ed="#R" n="87" break="no"/>rata ab imaginatione, &amp; hoc modo non est 
+      memo<lb ed="#R" n="88" break="no"/>ria in intellectu: de hoc autem modo memoriae 
+      lo<lb ed="#R" n="89" break="no"/>quitur Aristoteles in libello de memoria, &amp; 
+      remi<lb ed="#R" n="90" break="no"/>niscentia, &amp; in hoc verum dicebat opinio prima. 
+      <lb ed="#R" n="91"/>Et hoc modo patet, quid dicendum ad questionem, 
+      <lb ed="#R" n="92"/>quia memoria, vt est thesaurus comprehensionum, 
+      <lb ed="#R" n="93"/>disttinctus a thelauro formarum comprehensarum, 
+      <lb ed="#R" n="94"/>de qua Aristoteles loquitur, non est in anima 
+      sepa<lb ed="#R" n="95" break="no"/>rata, vt vero memoria accipitur pro 
+      retentione<lb ed="#R" n="96" break="no"/>intellectionum, vel etiam specierum, hoc modo 
+      re<lb ed="#R" n="97" break="no"/>manet in anima separata. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

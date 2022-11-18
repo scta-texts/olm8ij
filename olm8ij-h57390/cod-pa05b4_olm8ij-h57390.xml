@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="167"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h57390"> <!-- l4-d26q1 -->
+            <head>Quaestio 1</head>
+            <p>
+               <lb ed="#R" n="41"/>Quaestio Vnica. 
+    </p>
+            <div>
+               <head>Articulus 1</head>
+               <head type="question-title">
+        Utrum Matrimonium sit Sacramentum 
+        Nouae Legis.
+      </head>
+               <p>
+                  <lb ed="#R" n="42"/>ARTICVLVS VNJCVS. 
+      <lb ed="#R" n="43"/>Vtrum Matrimonium sit Sacramentum 
+      <lb ed="#R" n="44"/>Nouae Legis. 
+  </p>
+               <p>
+                  <lb ed="#R" n="45"/>ARGVO quod non, sic. 
+      Sa<lb ed="#R" n="46" break="no"/>cramenta Nouae Legis 
+      fue<lb ed="#R" n="47" break="no"/>runt immediate instituta a 
+      <lb ed="#R" n="48"/>Chriso post peccatum, &amp; 
+      <lb ed="#R" n="49"/>non sunt de iure naturae: sed 
+      <lb ed="#R" n="50"/>Sacramentum Matrimonij 
+      <lb ed="#R" n="51"/>non est institutum a Christo: 
+      <lb ed="#R" n="52"/>non enim legitur, vbi 
+      Cri<lb ed="#R" n="53" break="no"/>stus in Euangelio instituerit 
+      <lb ed="#R" n="54"/>hoc Sacramentum. Fuit etiam de iure naturae, 
+      vn<lb ed="#R" n="55" break="no"/>de institutum videtur in paradiso terrestri in statu 
+      <lb ed="#R" n="56"/>Innocentiae dicente Adam, hoc nunc os de ossibus 
+      <lb ed="#R" n="57"/>meis, &amp;c. 
+   </p>
+               <p>
+      <!--0167.xml-->
+                  <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="58"/>In oppositum est expresssa aucttoritas <ref>extra de 
+      <lb ed="#R" n="59"/>summa Trinit. &amp; fide Catholica.</ref>
+               </p>
+               <p>
+                  <lb ed="#R" n="60"/>Respondeo ad euidentiam istius quaestionis 
+      po<lb ed="#R" n="61" break="no"/>no tres conclusiones: deinde ponam aliquas 
+      con<lb ed="#R" n="62" break="no"/>ditiones generales circa hoc Sucramentum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="63"/>Conclusio prima est ista, quod obligatio 
+      ma<lb ed="#R" n="64" break="no"/>trimonialis licita est de iure naturae: hanc 
+      conclu<lb ed="#R" n="65" break="no"/>sionem probo tripliciter primo sic: Obligatio, quae 
+      <lb ed="#R" n="66"/>nascitur ex contractu imperato virtute iustitiae, est 
+      <lb ed="#R" n="67"/>licita, &amp; de iure naturali: sed obligatio 
+      matrimo<lb ed="#R" n="68" break="no"/>nialis est huiusmodi: ergo. Probo maiorem, quia 
+      <lb ed="#R" n="69"/>illud, quod importat virtus, quae est iustitia, est 
+      di<lb ed="#R" n="70" break="no"/>ctatum a recta ratione: ratio est, quia est actus 
+      re<lb ed="#R" n="71" break="no"/>gulatus prudentia, quae est recta ratio agibilium. 
+      <lb ed="#R" n="72"/>Minorem probo, scilicet, quod obligatio 
+      matri<lb ed="#R" n="73" break="no"/>monialis nascitur ex contractu imperato a Justitia 
+      <lb ed="#R" n="74"/>virtute. Illa enim obligatio, quae nascitur ex 
+      con<lb ed="#R" n="75" break="no"/>tractu licito secundum naturam, &amp; propter debitum 
+      <lb ed="#R" n="76"/>finem, &amp; aequiter obseruatur, imperatur 
+      vtique<lb ed="#R" n="77" break="no"/>a iustitia: sed obligatio matrimonialis est huiusmo. 
+      <lb ed="#R" n="78"/>di, quoniam translatio dominij vsus corporis sui in 
+      <lb ed="#R" n="79"/>alium propter debitum finem, non tantum propter actum 
+      <lb ed="#R" n="80"/>generationis, sed vt propter actum generationis con 
+      <lb ed="#R" n="81"/>tinuetur humana species: iste inquam vsus est 
+      li<lb ed="#R" n="82" break="no"/>citus: est enim secundum ordinem naturae non solum 
+      <lb ed="#R" n="83"/>in hominibus, sed in omni natura generabili, &amp; cor 
+      <lb ed="#R" n="84"/>ruptibili: omnis enim, natura generabilis, &amp; 
+      cor<lb ed="#R" n="85" break="no"/>ruptibilis inclinatur ad conseruationem speciei, vn 
+      <lb ed="#R" n="86"/>de propter hoc data est cuilibet tali naturae virtus. 
+      <lb ed="#R" n="87"/>generatiua sui similis. Jssius autem vsus corporis 
+      <lb ed="#R" n="88"/>sui dominus est tam vir, quam multer: ergo si hunc 
+      <lb ed="#R" n="89"/>vsum mulier transferat in virum, &amp; e conuerso, vt 
+      <lb ed="#R" n="90"/>quilibet habeat vsum corporis alterius ad debitum 
+      <lb ed="#R" n="91"/>finem, hoc inquam est res licita: ergo super eam 
+      <lb ed="#R" n="92"/>potest cadere contractus licitus; &amp; modus 
+      contra<lb ed="#R" n="93" break="no"/>ctus similiter potest esse licitus, quia Dominus 
+      ali<lb ed="#R" n="94" break="no"/>cuius rei potest per voluntatem suam dare eam 
+      <lb ed="#R" n="95"/>alteri: ergo si talis contractus fiat, videtur, quod 
+      <lb ed="#R" n="96"/>oriatura iustitia: ergo obligatio, quae inde 
+      nasci<lb ed="#R" n="97" break="no"/>tur, erit iusta. 
+    </p>
+               <p>
+                  <lb ed="#R" n="98"/>Secunda ratio ad conclusionem est ista. Illud 
+      <lb ed="#R" n="99"/>est licitum, &amp; de iure naturali, quod conuenit 
+      ho<lb ed="#R" n="100" break="no"/>mini, non tantum secundum naturam specificam, 
+      <lb ed="#R" n="101"/>sed secundum naturam generis sui, inquantum 
+      <lb ed="#R" n="102"/>scilicet est animal: sed associatio masculi, &amp; 
+      foe<lb ed="#R" n="103" break="no"/>minae ad actum generationis propter 
+      continua<lb ed="#R" n="104" break="no"/>tionem speciei conuenit homini, non tautum 
+      in<lb ed="#R" n="105" break="no"/>quantum estt homo, sed secundum naturam 
+      gene<lb ed="#R" n="106" break="no"/>rationis, inquantum animal est: ergo. Maior 
+      pa<lb ed="#R" n="107" break="no"/>tet, quia in homine non est natura alia, qua'mn 
+      ge<lb ed="#R" n="108" break="no"/>neris sui, &amp; speciei: ergo, quod conuenit, ei, 
+      in<lb ed="#R" n="109" break="no"/>quantum participat naturam generis, r, aturaliter 
+      <lb ed="#R" n="110"/>videtur ei conuenire. Minor patet. Quia enim 
+      <lb ed="#R" n="111"/>animalia sequuntur cursum corpe, rum supercoe
+      le<lb ed="#R" n="112" break="no"/>stium, ideo quando aduenit remapus, associant 
+      se<lb ed="#R" n="113" break="no"/>bina, &amp; bina per quendam n'aturae instinctum. Et 
+      <lb ed="#R" n="114"/>confirmo hoc, quia videmt:s, quod vbi sunt sexus 
+      <lb ed="#R" n="115"/>distincti, associatio fit rer appetitum: vbi vero 
+      <lb ed="#R" n="116"/>non est distinctio sexus, fit associatio per naturam, 
+      <lb ed="#R" n="117"/>sicut apparet in plalitis, vbi est vterque sexus 
+      se<lb ed="#R" n="118" break="no"/>cundum naturami, &amp; associatio ibi non est per 
+      ap<lb ed="#R" n="119" break="no"/>petitum, sed per naturam. Licet etiam in 
+      quibus<lb ed="#R" n="120" break="no"/>dam arboribus sit sexus distinctus, &amp; apparet 
+      in<lb ed="#R" n="121" break="no"/>talibus, quod non fructificant, nisi associentur, &amp; 
+      <lb ed="#R" n="122"/>taliter sunt dispositae, quod mediante vento vna 
+      <lb ed="#R" n="123"/>influat super aliam, sic quod apparet vniuersaliter 
+      <lb ed="#R" n="124"/>quod vbi sexus non est distinctus, sufficit vnum/ 
+      <lb ed="#R" n="125"/>vbi vero sexus est distinctus, requiritur necessario 
+      <!--0168.xml-->
+      <pb ed="#R" n="168"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>associatio duorum, siue per naturam quando est in 
+      <lb ed="#R" n="2"/>vno supposito, siue per appetitum quando est in 
+      duo<lb ed="#R" n="3" break="no"/>bus. Apparet ergo, quod associatio ad actum 
+      gene<lb ed="#R" n="4" break="no"/>rationis est secundum naturam generis in homine. 
+      <lb ed="#R" n="5"/>Probo etiam quod inest secundum naturam specici, 
+      <lb ed="#R" n="6"/>quia illud inest secundum naturam speciei, quod 
+      <lb ed="#R" n="7"/>est idem apud omnes ex 6. Ethic. cap. 4. &amp; 11. hoc 
+      <lb ed="#R" n="8"/>autem vocant Juristae ius gentium: sed associatio 
+      <lb ed="#R" n="9"/>maris, &amp; foeminae est eadem apud omnes, vt 
+      pa<lb ed="#R" n="10" break="no"/>tet: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="11"/>Ista est tertia ratio: Illud est de iure naturae, ad 
+      <lb ed="#R" n="12"/>quod perueniunt Philosophi innixi dictamini 
+      ra<lb ed="#R" n="13" break="no"/>tionis naturalis: sed Philosophus peruenit ex 
+      di<lb ed="#R" n="14" break="no"/>ctamine rationis naturalis ad necessitatem &amp; 
+      con<lb ed="#R" n="15" break="no"/>gruentiam associationis maris &amp; foeminae; 
+      vnde<lb ed="#R" n="16" break="no"/>Aristoteles probat 9. Ethic. cap. 12. quod 
+      associa<lb ed="#R" n="17" break="no"/>tio maris &amp; foeminae sit expediens, &amp; hoc probat 
+      <lb ed="#R" n="18"/>Philosophus per duas rationes, primo propter 
+      <lb ed="#R" n="19"/>continuationem speciei: secundo propter 
+      differen<lb ed="#R" n="20" break="no"/>tiamactuum, quae insunt vni, &amp; non alteri, &amp; e cō- 
+      <lb ed="#R" n="21"/>uerso, vt vnus iuuet alium in actibus suis, ex 
+      qui<lb ed="#R" n="22" break="no"/>bus secundum eum necesie est, quod alter alteri 
+      <lb ed="#R" n="23"/>iungatur. 
+    </p>
+               <p>
+                  <lb ed="#R" n="24"/>Item idem <ref>1. Polit. cap. r.</ref> dicit: quod 
+      prima<lb ed="#R" n="25" break="no"/>communicatio est viri &amp; vxoris: secunda vero est 
+      <lb ed="#R" n="26"/>domini, &amp; serui. &amp; ibidem dicit, quod prima 
+      con<lb ed="#R" n="27" break="no"/>stituit domum: tertia vero communicatio est 
+      fa<lb ed="#R" n="28" break="no"/>miliae ad familiam, &amp; ista est secundum vnum 
+      be<lb ed="#R" n="29" break="no"/>ne viuere, &amp; quaelibet harum trium 
+      communica<lb ed="#R" n="30" break="no"/>tionum, est politica secundum eum, &amp; coucludit, 
+      <lb ed="#R" n="31"/>quod homo est animal coniugale: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="32"/>Secunda Propositio est, quod huic obligationi &amp; 
+      <lb ed="#R" n="33"/>contracttui congruum fuit, quod esset annexa 
+      ra<lb ed="#R" n="34" break="no"/>tio Sacramenti tanquam signo sensibili. &amp; quod non 
+      <lb ed="#R" n="35"/>solum fuit congruum, sed est ita de facto. Hanc 
+      <lb ed="#R" n="36"/>propositionem probo, &amp; primo ad maiorem 
+      eui<lb ed="#R" n="37" break="no"/>dentiam noto duo. Primum, quod huic 
+      contra<lb ed="#R" n="38" break="no"/>ctui est annexa ratio duplicis Sacramenti. Vbi 
+      con<lb ed="#R" n="39" break="no"/>siderandum, quod Sacramentum quandoque 
+      dici<lb ed="#R" n="40" break="no"/>tur sacrum signum, quandoque dicitur causa, &amp; 
+      <lb ed="#R" n="41"/>habent Sacramenta Nouae legis, quod sint simul 
+      si<lb ed="#R" n="42" break="no"/>gnum, &amp; causa. 
+    </p>
+               <p>
+                  <lb ed="#R" n="43"/>Ad propositum dico, quod hoc Sacramentum 
+      <lb ed="#R" n="44"/>est signum &amp; causa, cum enim in matrimonio sit 
+      <lb ed="#R" n="45"/>duplex coniunctio maris &amp; foeminae, scilicet volun 
+      <lb ed="#R" n="46"/>tatis &amp; carnis, siue naturae, ideo significat 
+      dupli<lb ed="#R" n="47" break="no"/>cem rem sacram, scilicet coniunctionem Christi 
+      <lb ed="#R" n="48"/>cum fidelibus populis, &amp; coniunctionem intimae 
+      <lb ed="#R" n="49"/>charitatis, quia prior dilexit nos, &amp; postea 
+      coniun<lb ed="#R" n="50" break="no"/>ctionem naturae &amp; carnis, per quam caro, &amp; frater 
+      <lb ed="#R" n="51"/>noster est. 
+    </p>
+               <p>
+                  <lb ed="#R" n="52"/>Secundo est causa sacrae rei, nam in 
+      contrahen<lb ed="#R" n="53" break="no"/>tibus debite Deus ex opere operato gratiam infun 
+      <lb ed="#R" n="54"/>dit &amp; virtutes, vel fortificat &amp; auget priores. 
+      Con<lb ed="#R" n="55" break="no"/>tractus autem matrimonialis est huius gratiae 
+      si<lb ed="#R" n="56" break="no"/>gnum, &amp; consignatur quidem, quod sicut 
+      coniun<lb ed="#R" n="57" break="no"/>guntur adinuicem animo, sic coniunguntur Deo 
+      <lb ed="#R" n="58"/>per gratiam; quam quidem causat in anima, sicut 
+      <lb ed="#R" n="59"/>caetera Sacramenta per modum applicantis 
+      diui<lb ed="#R" n="60" break="no"/>nam virtutem ad agere. 
+    </p>
+               <p>
+                  <lb ed="#R" n="61"/>Secundum quod noto est, quod in hoc Sacramen 
+      <lb ed="#R" n="62"/>to, sicut &amp; in alijs, est aliquid quod est pure 
+      Sacra<lb ed="#R" n="63" break="no"/>mentum, &amp; non res; &amp; aliquid quod est res pure, &amp; 
+      <lb ed="#R" n="64"/>non Sacramentum; &amp; aliquid, quod est simul res, 
+      <lb ed="#R" n="65"/>&amp; Sacramentum. Primo modo se habent 
+      verba<lb ed="#R" n="66" break="no"/>exprimentia consensum interiorem. De tertio 
+      ve<lb ed="#R" n="67" break="no"/>Do modo obligatio, quae ex contractu oritur inter 
+      <lb ed="#R" n="68"/>virum &amp; vxorem, ipsa quidem es res, quae signi- 
+      <!--0168.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>ficatur per verba, &amp; est signum gratiae in 
+      anima<lb ed="#R" n="70" break="no"/>De secundo vero modo est gratia, quae confertur in 
+      <lb ed="#R" n="71"/>hoc Sacramento. 
+    </p>
+               <p>
+                  <lb ed="#R" n="72"/>His visis, propositionem praemissam probo sic: 
+      <lb ed="#R" n="73"/>&amp; primo primam partem, quae est de possibili, sic: 
+      <lb ed="#R" n="74"/>Omnis res naturalis potest ab auctore naturae 
+      in<lb ed="#R" n="75" break="no"/>stitui in signum alicuius rei inuisibilis: sicut facum 
+      <lb ed="#R" n="76"/>legimus de lride, quae instituta fuit in signum 
+      foe<lb ed="#R" n="77" break="no"/>deris a Deo, Genes. 9. sed coniunctio maris &amp; 
+      foe<lb ed="#R" n="78" break="no"/>minae est huiusmodi: ergo. Potuit ergo ab 
+      aucto<lb ed="#R" n="79" break="no"/>re naturae institui in signum coniunctionis animae 
+      <lb ed="#R" n="80"/>cum Deo per gratiam, &amp; se determinare ad 
+      assi<lb ed="#R" n="81" break="no"/>stendum, ad causandum gratiam ad praesentiam 
+      <lb ed="#R" n="82"/>talis contractus &amp; coniunctionis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="83"/>Secundo probo, quod nedum fuit possibile, sed 
+      <lb ed="#R" n="84"/>quod fuit rationabile, &amp; primo quod fuit 
+      rationa<lb ed="#R" n="85" break="no"/>bile, quod institueretur in signum, sic: Magis 
+      ratio<lb ed="#R" n="86" break="no"/>nabile est, datum esse signum in conseruationem 
+      vi<lb ed="#R" n="87" break="no"/>tae spiritualis, quam conseruationis vitae 
+      corpora<lb ed="#R" n="88" break="no"/>lis: sed datum est signum conseruationis vitae 
+      cor<lb ed="#R" n="89" break="no"/>poralis, vt patet de Jride, Gen. 97. ergo. Sed 
+      con<lb ed="#R" n="90" break="no"/>seruatio spiritualis vitae est per incarnationem Chri 
+      <lb ed="#R" n="91"/>sti: ergo congruum fuit dare signum sensibile, quod 
+      <lb ed="#R" n="92"/>significaret vnionem Christi nobiscum per carnem: 
+      <lb ed="#R" n="93"/>huiusmodi autem est Sacramentum istud 
+      Matri<lb ed="#R" n="94" break="no"/>monii: cum enim sit coniunctio maris &amp; foeminae 
+      <lb ed="#R" n="95"/>carne &amp; voluntate, significat duplicem 
+      vnionem<lb ed="#R" n="96" break="no"/>Verbi cuu homine, amoris scilicet communionis, 
+      <lb ed="#R" n="97"/>siue naturae. Quod etiam fuit rationabile, quod 
+      in<lb ed="#R" n="98" break="no"/>stitueretur non solum in signum, sed in causam 
+      <lb ed="#R" n="99"/>gratiae, prebo sic: Lex illa, quae magis est gratia 
+      <lb ed="#R" n="100"/>quam lex, omne quod est necessarium ad eam, 
+      de<lb ed="#R" n="101" break="no"/>bet habere annexam gratiam: sed lex noua est magis 
+      <lb ed="#R" n="102"/>gratia, quam lex vetus, iuxta illud: Lex per Moysem 
+      <lb ed="#R" n="103"/>data est, gratia &amp; veritas per Iesum Christum 
+      fa<lb ed="#R" n="104" break="no"/>cta est, ad legem autem nouam requiritur 
+      coniun<lb ed="#R" n="105" break="no"/>cio maris &amp; foeminae ad filios procreandum, &amp; enu 
+      <lb ed="#R" n="106"/>triendum in fide. Valde enim difficile esset 
+      adul<lb ed="#R" n="107" break="no"/>tos semper venire ad hanc legem, &amp; per consequens 
+      <lb ed="#R" n="108"/>difficile esset valde obseruatores huius legis 
+      multi<lb ed="#R" n="109" break="no"/>plicari: ergo decuit, quod coniunctio maris &amp; 
+      foe<lb ed="#R" n="110" break="no"/>minae haberet in hac lege gratiae annexam gratiam, 
+      <lb ed="#R" n="111"/>&amp; hoc certitudinaliter. &amp; efficaciter. Quod non 
+      es<lb ed="#R" n="112" break="no"/>set, si instituta esset in solum signum.
+    </p>
+               <p>
+                  <lb ed="#R" n="113"/>Tertio dicitur, quod de facto huic obligationi, 
+      <lb ed="#R" n="114"/>&amp; contractui per verba facta, annexa est ratio 
+      Sa<lb ed="#R" n="115" break="no"/>cramenti; cum autem ratio Sacramenti, vt in 
+      pro<lb ed="#R" n="116" break="no"/>posito loquitur duplicem habitudinem importet, 
+      <lb ed="#R" n="117"/>scilicet signi, &amp; causae, huic coniunctioni maris, &amp; 
+      <lb ed="#R" n="118"/>foeminae per contracum matrimonialem ab alio, 
+      <lb ed="#R" n="119"/>&amp; alio tempore annexa est relatio signi, &amp; ratio 
+      <lb ed="#R" n="120"/>causae. Relatio quidem signi est annexa ci a Deo, 
+      <lb ed="#R" n="121"/>Genes. 2. &amp; hoc Deo inspirante ipsi Adae, cum ait: 
+      <lb ed="#R" n="122"/>Hoc nunc os de ossibus meis, &amp; caro de carne mea, 
+      <lb ed="#R" n="123"/>&amp; quod in hoc verbo intelligatur coniunctioni 
+      ma<lb ed="#R" n="124" break="no"/>trimoniali datam fuisse rationem signi, vt 
+      signifi<lb ed="#R" n="125" break="no"/>caret vnionem Christi, &amp; Ecclesiae, &amp; secundum 
+      <lb ed="#R" n="126"/>voluntatem, &amp; secundum carnem, patet per 
+      Apo<lb ed="#R" n="127" break="no"/>stolum expresse ad hunc sensum verbum 
+      praedi<lb ed="#R" n="128" break="no"/>cum exponentem ad Ephes. cap. 5. dicens: 
+      Ma<lb ed="#R" n="129" break="no"/>gnum Sacramentum est: ego autem dico in 
+      Chri<lb ed="#R" n="130" break="no"/>sto, &amp; in Ecclesia. Ex quo infero, quod 
+      Sa<lb ed="#R" n="131" break="no"/>cramentum Matrimonij, quantum ad hoc, quod 
+      <lb ed="#R" n="132"/>est esse signum sensibile, institutum fuit a Deo, &amp; ab 
+      <lb ed="#R" n="133"/>Adam, vt promulgante in paradiso, verbo 
+      praealle<lb ed="#R" n="134" break="no"/>gato: sed coniunctioni matrimoniali annexa est 
+      <lb ed="#R" n="135"/>ratio causalitatis respecu inuisibilis gratiae, quam 
+      <lb ed="#R" n="136"/>ex prima institutione significabat a solo Christo 
+      in<lb ed="#R" n="137" break="no"/>
+                  <!-- line coord error -->
+                  <!--0169.xml-->
+                  <pb ed="#R" n="168"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>stituente, sed quando, non legitur in Euangelio. Sed 
+      <lb ed="#R" n="2"/>de hoc non est magna vis, nam Cristi opera 
+      non<lb ed="#R" n="3" break="no"/>dependent ex Euangelio, cum ante fuerint, quam 
+      scri<lb ed="#R" n="4" break="no"/>pta: tamen ex quibusdam quae leguntur ex Euange 
+      <lb ed="#R" n="5"/>lio, posset satis probabiliter conuinci, vt per nuptias 
+      <lb ed="#R" n="6"/>quibus voluit interesse, vt eius praesentia nouas 
+      le<lb ed="#R" n="7" break="no"/>gis nouae nuptias instltueret, quae non differunt a 
+      <lb ed="#R" n="8"/>nuptijs veteris legis, nisi per rationem causalitatis, 
+      <lb ed="#R" n="9"/>quam addunt ad rationem signi, quae sola ratio 
+      si<lb ed="#R" n="10" break="no"/>gni nuptijs veteris legis, &amp; praecise erat annexa 
+      <lb ed="#R" n="11"/>Similiter per illud Matth. 18. quod Deus coniunxit, 
+      <lb ed="#R" n="12"/>homo non separet. Ex quo patet, quod 
+      Sacramen<lb ed="#R" n="13" break="no"/>tum Matrimonii quantum ad hoc, quod esset 
+      cau<lb ed="#R" n="14" break="no"/>sa gratiae, &amp; per consequens quantum ad 
+      comple<lb ed="#R" n="15" break="no"/>tam rationem signi, institutum est a solo Christo.
+  </p>
+               <p>
+                  <lb ed="#R" n="16"/>Tertia Propositio est, quod Matrimonium est Sa 
+      <lb ed="#R" n="17"/>cramentum nouae legis: hoc dico propter 
+      periculo<lb ed="#R" n="18" break="no"/>sam opinionem quorundam dicentium, quod 
+      Ma<lb ed="#R" n="19" break="no"/>trimonium non est vniuoce Sacramentum cum aliis 
+      <lb ed="#R" n="20"/>Sacramentis Nouae Legis, vnde dicunt, quod non 
+      <lb ed="#R" n="21"/>est signum rei sacrae, nisi sicut serpens aeneus erat 
+      si<lb ed="#R" n="22" break="no"/>gnum passionis Christi, &amp; sic coniugium Dauid, &amp; 
+      <lb ed="#R" n="23"/>Bersabeae significabat Sacramentum Christi, &amp; 
+      Ec<lb ed="#R" n="24" break="no"/>clesiae: &amp; Doctores aliqui adducunt ad hanc conclu 
+      <lb ed="#R" n="25"/>sionem rationes aliquas. 
+    </p>
+               <p>
+                  <lb ed="#R" n="26"/>Prima est, quod signum hic in Matrimonio 
+      anne<lb ed="#R" n="27" break="no"/>citur de iure naturae, aliis vero Sacramentis ex 
+      in<lb ed="#R" n="28" break="no"/>stitutione. Secunda vero, quia istud Sacramentum 
+      <lb ed="#R" n="29"/>non efficit, quod figurat, scilicet coniunctionem 
+      <lb ed="#R" n="30"/>Christi, &amp; Ecclesiae: alia vero sacramenta efficiunt, 
+      <lb ed="#R" n="31"/>quod figurant. Tertia ratio, quia super materia 
+      <lb ed="#R" n="32"/>aliorum Sacramentorum non potest Papa aliquid 
+      <lb ed="#R" n="33"/>immutare, non enim facere posset, quod 
+      confice<lb ed="#R" n="34" break="no"/>retur in alio quam pane, &amp; vino, pane inquam de 
+      <lb ed="#R" n="35"/>tritico, &amp; vino expresso de vuae: sed Papa potest 
+      <lb ed="#R" n="36"/>immutare materiam huius Sacramenti. 
+      Quarta<lb ed="#R" n="37" break="no"/>ratio, quia alia Sacramenta ponunt hominem in 
+      <lb ed="#R" n="38"/>statu perfectionis, sed hoc Sacramentum eiicit 
+      ho<lb ed="#R" n="39" break="no"/>minem a statu poenitentiae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="40"/>Haec autem opinio, iudicio meo derogat 
+      Sacra<lb ed="#R" n="41" break="no"/>mento Nouae Legis, &amp; Ecclesiae determinationi, &amp; 
+      <lb ed="#R" n="42"/>deceptio horum est, quia non distinguunt inter 
+      du<lb ed="#R" n="43" break="no"/>plicem habitudinem, quam habent annexam 
+      Sa<lb ed="#R" n="44" break="no"/>cramenta Nouae Legis, scilicet habitudinem signi 
+      <lb ed="#R" n="45"/>&amp; causae tunc si videatur ista differentia facile est 
+      <lb ed="#R" n="46"/>videre, quomodo isud Sacramentum sit ex 
+      institu<lb ed="#R" n="47" break="no"/>tione, &amp; quomodo non. Similiter facile est videre, 
+      <lb ed="#R" n="48"/>quomodo alicuius potest esse signum, cuius non est 
+      <lb ed="#R" n="49"/>causa: si enim aspiciamus ad coniunctionem Christi, 
+      <lb ed="#R" n="50"/>&amp; Ecclesiae, tunc Sacramentum istud sic est signum, 
+      <lb ed="#R" n="51"/>quod non est causa: sed aspiciendo ad aliam, puta ad 
+      <lb ed="#R" n="52"/>coniunctionem animae, &amp; Cristi per gratiam, tunc 
+      <lb ed="#R" n="53"/>potest dici, quod Sacramentum hoc respectu eius, 
+      <lb ed="#R" n="54"/>&amp; est signum, &amp; est causa, sicut de Sacramento 
+      Eu<lb ed="#R" n="55" break="no"/>charistiae, vbi species non sunt causa omnis eius, 
+      <lb ed="#R" n="56"/>cuius sunt signum, scilicet corporis Christi, &amp; 
+      vnio<lb ed="#R" n="57" break="no"/>nis fidelium, sunt tamen causa gratiae, quae est res 
+      <lb ed="#R" n="58"/>secunda illius Sacramenti. 
+    </p>
+               <p>
+                  <lb ed="#R" n="59"/>Ex his ergo formo rationem ad probandam 
+      pro<lb ed="#R" n="60" break="no"/>positionem illam arguo sic. Illa sunt vniuoca, 
+      quo<lb ed="#R" n="61" break="no"/>rum definitio est eadem: sed definitio Sacramenti 
+      <lb ed="#R" n="62"/>est eadem in Matrimonio, &amp; in aliis: ergo 
+      Matrimo<lb ed="#R" n="63" break="no"/>nium cum aliis est vniuocum Sacramentum. Probo 
+      <lb ed="#R" n="64"/>minorem, quia definitio Sacramenti est signum sen 
+      <lb ed="#R" n="65"/>sibile inuisibilis gratiae, vt eius similitudinem gerat, 
+      <lb ed="#R" n="66"/>&amp; causa existat. Haec definitio aeque conuenit 
+      Sacra<lb ed="#R" n="67" break="no"/>mento Matrimonii, sicut &amp; aliis, vt dictum est: ergo.
+    </p>
+               <p>
+      <!--0169.xml-->
+                  <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>Tunc ad motiua alterius opinionis. Ad primum 
+      <lb ed="#R" n="69"/>ad hoc, quod res inducat rationem signi, nihil refert, 
+      <lb ed="#R" n="70"/>quod ipsa sit de iure, vel non, nam res, quae imponitur 
+      <lb ed="#R" n="71"/>ad significandum, bene ese naturalis, sed significatio, 
+      <lb ed="#R" n="72"/>ad quam res imponitur, siue impositio ad 
+      significan<lb ed="#R" n="73" break="no"/>dum potest esse ex institutione, vt patet de 
+      aqua<lb ed="#R" n="74" break="no"/>baptismi. 
+    </p>
+               <p>
+                  <lb ed="#R" n="75"/>Ad secundum dico, quod non sequitur: non est 
+      <lb ed="#R" n="76"/>causa coniunctionis Christi, &amp; Ecclesiae: ergo 
+      nul<lb ed="#R" n="77" break="no"/>lius alterius est causa: est enim causa gratiae, quae 
+      <lb ed="#R" n="78"/>vnit animam Deo, cuius etiam est signum: Vnde-- 
+      <lb ed="#R" n="79"/>sunt ibi duo signata, vnum autem solum effectum, 
+      <lb ed="#R" n="80"/>&amp; causatum, scilicet gratia, &amp; cum hoc signatum, 
+      <lb ed="#R" n="81"/>quia aliter, &amp; aliter. Quod enim significaret 
+      gra<lb ed="#R" n="82" break="no"/>tiam, hoc habuit ex prima institutione in paradiso, 
+      <lb ed="#R" n="83"/>sed quod eam efficeret, hoc habuit a Cristo, qui 
+      re<lb ed="#R" n="84" break="no"/>tenta ratione signi addidit ei rationem causalitatis.
+    </p>
+               <p>
+                  <lb ed="#R" n="85"/>Ad tertium dico, quod non plus Papa dispen sat 
+      <lb ed="#R" n="86"/>in hac materia huius Sacramenti, quam aliarum; 
+      <lb ed="#R" n="87"/>ante enim coniunctionem concedo, quod Papa possit 
+      <lb ed="#R" n="88"/>illegitimare personam, vt non esset amplius apta 
+      <lb ed="#R" n="89"/>ad contrahendum, sed post contractum, non posset, 
+      <lb ed="#R" n="90"/>&amp; recte sic est de Sacramento poenitentiae, nam posset 
+      <lb ed="#R" n="91"/>illegitimare aliquem, ne posset absoluere quemquam, 
+      <lb ed="#R" n="92"/>vt faciendo, quod nullus absolui possit a Martino. 
+      <lb ed="#R" n="93"/>Similiter non potest illegitimare quemquam ad 
+      Ma<lb ed="#R" n="94" break="no"/>trimonium sine culpa, potest tamen illegitimare 
+      se<lb ed="#R" n="95" break="no"/>cundum quid: potest. n. illegitimare respectu istius 
+      <lb ed="#R" n="96"/>personae, vel illius puta, quod non contrahat cum ista, 
+      <lb ed="#R" n="97"/>vel cum illa, non tamen potest illegitimare 
+      simpli<lb ed="#R" n="98" break="no"/>citer, quin possit contrahere quandoque cum aliqua. 
+    </p>
+               <p>
+                  <lb ed="#R" n="99"/>Sed quare Papa habet magis auctoritatem super 
+      <lb ed="#R" n="100"/>materiam istius Sacramenti, quam aliorum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="101"/>Respondeo, licet quidam dicant, quod 
+      auctori<lb ed="#R" n="102" break="no"/>tatem habet etiam super materiam aliorum, vt 
+      ad<lb ed="#R" n="103" break="no"/>ducunt exemplum de confirmatione, potest tamen 
+      <lb ed="#R" n="104"/>dici, quod non est simile de hoc Sacramento, &amp; aliis. 
+      <lb ed="#R" n="105"/>Ratio est, quia hic est iurisdicio admixta, non sic in 
+      <lb ed="#R" n="106"/>aliis: &amp; quia Papa habet iurisdictionem plenariam. 
+      <lb ed="#R" n="107"/>ideo Papa aucttoritatem habet respectu illorum 
+      <lb ed="#R" n="108"/>Sacramentorum, in quibus iurisdictio est admixta. 
+    </p>
+               <p>
+                  <lb ed="#R" n="109"/>Ad vltimum dico, quod homo fit perfectior, &amp; 
+      <lb ed="#R" n="110"/>melioratur per susceptionem huius Sacramenti, eo 
+      <lb ed="#R" n="111"/>quod infunditur, vel saltem augetur gratia, nec 
+      opor<lb ed="#R" n="112" break="no"/>tet imaginari, quod in actu matrimonii homo 
+      <lb ed="#R" n="113"/>amittat gratiam, quia tunc peccaret. 
+    </p>
+               <p>
+                  <lb ed="#R" n="114"/>Dices: Saltem alius status est melior. Respondeo: 
+      <lb ed="#R" n="115"/>virtus temperantiae habet sub se species, quas non 
+      <lb ed="#R" n="116"/>est inconueniens habere gradus. Comparando 
+      er<lb ed="#R" n="117" break="no"/>go speciem continentiae vnam ad aliam speciem 
+      <lb ed="#R" n="118"/>sic bene continentia virginalis est perfectior 
+      conti<lb ed="#R" n="119" break="no"/>nentia matrimoniali: sed comparando effecum 
+      <lb ed="#R" n="120"/>Sacramenti, scilicet gratiam ad gratiā, quae 
+      acqui<lb ed="#R" n="121" break="no"/>tur ex continentia, non oportet, quod homo 
+      per<lb ed="#R" n="122" break="no"/>dat gratiam illam, quae acquiritur ex continentia 
+      <lb ed="#R" n="123"/>illa, quia illam acquirit ex opere operato, quam 
+      <lb ed="#R" n="124"/>si continuisset virginali continentia, acquisiuisset 
+      <lb ed="#R" n="125"/>ex opere operantis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="126"/>Secundo principaliter &amp;rndum est de 
+      quibus<lb ed="#R" n="127" break="no"/>dam generalibus circa hoc Sacramentum, &amp; 
+      pri<lb ed="#R" n="128" break="no"/>mo videndum est quid sit difinitiue matrimonium 
+      <lb ed="#R" n="129"/>secundum rem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="130"/>Dico, quod accipiendo matrimonium pro 
+      con<lb ed="#R" n="131" break="no"/>tracttu expreso per verba, sic per matrimonium 
+      <lb ed="#R" n="132"/>es translatio dominii vsus corporis vnius 
+      coniu<lb ed="#R" n="133" break="no"/>gum in alterum, &amp; e conuerso: Si vero 
+      accipia<lb ed="#R" n="134" break="no"/>tur pro eo, quod exprimit, &amp; significat istum 
+      <!--0170.xml-->
+      <pb ed="#R" n="170"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>contractum, sic dico, quod Matrimonium est 
+      ver<lb ed="#R" n="2" break="no"/>ba exprimentia votum amborum coniugum, quo 
+      <lb ed="#R" n="3"/>alter transfert in alterum dominium vsus corporis 
+      <lb ed="#R" n="4"/>sui. Si vero accipiatur pro eo, quod oritur ex 
+      <lb ed="#R" n="5"/>contractu illo, sic, dico quod matrimonium est 
+      mu<lb ed="#R" n="6" break="no"/>tua obligatio &amp; vinculum amborum coniugum 
+      <lb ed="#R" n="7"/>quod quidem vinculum non est aliud quam 
+      rela<lb ed="#R" n="8" break="no"/>tio rationis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="9"/>Sed qualis relatio est, &amp; de quo modo? Dicunt 
+      <lb ed="#R" n="10"/>quidam, quod est relatio dominij &amp; seruitutis: hoc 
+      <lb ed="#R" n="11"/>modo, quia corpus viri est sub potestate mulieris, 
+      <lb ed="#R" n="12"/>nec habet ibi viri dominium quo ad vsum. 
+      Simili<lb ed="#R" n="13" break="no"/>ter corpus mulieris est sub potestate viri, nec ipsa 
+      <lb ed="#R" n="14"/>eius dominium habet quo ad vsum. Relatio ergo 
+      <lb ed="#R" n="15"/>coniugis est duplex ad alterum coniugum, scilicet 
+      <lb ed="#R" n="16"/>dominij, &amp; seruitutis, &amp; quaelibet vnius respectu al 
+      <lb ed="#R" n="17"/>terius est mutua, ita quod relatio dominij 
+      funda<lb ed="#R" n="18" break="no"/>tur in ordine ad vsum corporis alterius, quod 
+      ha<lb ed="#R" n="19" break="no"/>bet in sua potestate, sed relatio seruitutis in vsu 
+      <lb ed="#R" n="20"/>corporis sui, in quo est sub alterius potestate. 
+    </p>
+               <p>
+                  <lb ed="#R" n="21"/>Sed opinio ista, quantum ad hoc quod dicit, quod 
+      <lb ed="#R" n="22"/>relatio mutuae obligationis amborum coniugum 
+      <lb ed="#R" n="23"/>est relatio dominij, verum dicit; sed quod dicit, quod 
+      <lb ed="#R" n="24"/>ex altera parte est relatio seruitutis, non puto 
+      be<lb ed="#R" n="25" break="no"/>ne dictum: quod enim per vsum corporis sui qui est 
+      <lb ed="#R" n="26"/>in potestate alterius alter coniugum dicatur 
+      refer<lb ed="#R" n="27" break="no"/>ri relatione seruitutis, probo quod sit contra 
+      men<lb ed="#R" n="28" break="no"/>tem Aristotelis 1. Polit. cap. 1. quia ibi Aristoteles 
+      <lb ed="#R" n="29"/>distinguit inter communicationem viri &amp; vxoris, 
+      <lb ed="#R" n="30"/>domini &amp; serui, dicens, quod communicatio viri 
+      <lb ed="#R" n="31"/>&amp; vxoris est prima communicatio constituens 
+      se<lb ed="#R" n="32" break="no"/>cundum eum, bonum domus &amp; familiae. Tum quia 
+      <lb ed="#R" n="33"/>in plus se habet relatio domini, quam relatio 
+      ser<lb ed="#R" n="34" break="no"/>ui: Relatio enim dominii habet pro suo 
+      adaequa<lb ed="#R" n="35" break="no"/>to correlatiuo possessionem, nunc autem non 
+      <lb ed="#R" n="36"/>quaelibet possessio est seruus: seruus enim est 
+      spe<lb ed="#R" n="37" break="no"/>cialis possessio, puta animata, &amp; non quaelibet 
+      ani<lb ed="#R" n="38" break="no"/>mata, sed specialis, vt patet per Philosophum oodem 
+      <lb ed="#R" n="39"/>1. Polit. Sic ergo relatio dominii non dicitur 
+      adae<lb ed="#R" n="40" break="no"/>quate ad seruum, sed ad possessionem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="41"/>Tunc ad propositum, volo bene quod relatio 
+      con<lb ed="#R" n="42" break="no"/>iugis ad coniugem fundata in potestate vsus 
+      cor<lb ed="#R" n="43" break="no"/>poris alterius sit relatio dominij, sed non oportet 
+      <lb ed="#R" n="44"/>propter hoc, quod mutua relatio alterius ad 
+      ip<lb ed="#R" n="45" break="no"/>sum penes vsum corporis sui quem habet in 
+      pote<lb ed="#R" n="46" break="no"/>state ipsius sit relatio seruitutis, sed bene est 
+      rela<lb ed="#R" n="47" break="no"/>tio possessionis, qua ille secundum corpus suum 
+      <lb ed="#R" n="48"/>dicitur posessus ab illo, in cuius est potestate, non 
+      <lb ed="#R" n="49"/>autem seruus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="50"/>Vbi considerandum est, quod corpus hominis se 
+      <lb ed="#R" n="51"/>habet in actu matrimoniali per modum actiui, 
+      cor<lb ed="#R" n="52" break="no"/>pus autem mulieris per modum passiui; nunc 
+      cor<lb ed="#R" n="53" break="no"/>pus viri, nec a natura nec ab institutione habet 
+      de<lb ed="#R" n="54" break="no"/>terminatum passiuum; siimiliter nec corpus 
+      mu<lb ed="#R" n="55" break="no"/>lieris habet determinatum actiuum, &amp; ideo 
+      quili<lb ed="#R" n="56" break="no"/>bet, cum non sit determinate alterius, potest dare 
+      <lb ed="#R" n="57"/>dominium corporis sui quo ad vsum alteri, &amp; facere 
+      <lb ed="#R" n="58"/>iste possessionem illiusa&amp; e conuerso. Ex aequa 
+      da<lb ed="#R" n="59" break="no"/>tione statim consurgitlatio dominii illius ad istum, 
+      <lb ed="#R" n="60"/>&amp; relatio possessionis istius ad illum, &amp; 
+      consimi<lb ed="#R" n="61" break="no"/>liter e conuerso. 
+    </p>
+               <p>
+                  <lb ed="#R" n="62"/>Quod autem relatio ista sit relatio rationis non 
+      <lb ed="#R" n="63"/>realis, patet per hoc, quod relatio realis aduenit ali 
+      <lb ed="#R" n="64"/>cui nulla mutatione facta in aliquo absoluto 
+      pu<lb ed="#R" n="65" break="no"/>ta in sundamento, vel in ratione fundandi, sed 
+      re<lb ed="#R" n="66" break="no"/>latio coniugis ad alterum aduenit nulla faca 
+      mu<lb ed="#R" n="67" break="no"/>tatione in fundamento vel ratione fundandi. Fun- 
+      <!--0170.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>damentum enim est corpus, ratio vero sundandi est 
+      <lb ed="#R" n="69"/>actus voluntatis: modo nulla facta mutatione in 
+      <lb ed="#R" n="70"/>corpore solo actu voluntatis adueniente &amp; 
+      consen<lb ed="#R" n="71" break="no"/>su, oritur relatio nulla facta mutatione reali, sed 
+      <lb ed="#R" n="72"/>tantummodo est ibi per actum voluntatis, &amp; aeque 
+      <lb ed="#R" n="73"/>bene est relatio rationis relatio, quae aduenit per 
+      <lb ed="#R" n="74"/>actum voluntatis, sicut relatio, quae aduenit per 
+      a<lb ed="#R" n="75" break="no"/>ctum intellectus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="76"/>Dices: Ergo matrimonium est quatuor 
+      relatio<lb ed="#R" n="77" break="no"/>nes, scilicet duae dominii, quibus iste est Dominus 
+      <lb ed="#R" n="78"/>corporis altorius, &amp; e conuerso ille dominus corpo 
+      <lb ed="#R" n="79"/>ris istius. Et aliae duae seruitutis quibus istae 
+      secun<lb ed="#R" n="80" break="no"/>dum dominium corporis sui e possessio illius, &amp; e 
+      <lb ed="#R" n="81"/>conuerso ille secundum corpus suum est posssessio 
+      <lb ed="#R" n="82"/>corporis istius. 
+    </p>
+               <p>
+                  <lb ed="#R" n="83"/>Respondeo: Secus est in habentibus esse 
+      reale<lb ed="#R" n="84" break="no"/>&amp; in habentibus esse morale. Secundum enim esse 
+      <lb ed="#R" n="85"/>reale, vbicunque est indiuisio alia &amp; alia, ibi 
+      alia<lb ed="#R" n="86" break="no"/>&amp; alia realitas, &amp; e conuerso sed secundum 
+      esse<lb ed="#R" n="87" break="no"/>morale est vnitas in aestimatione apprehendentis: 
+      <lb ed="#R" n="88"/>modo bene possibile est, quod aliqua sint plura 
+      in<lb ed="#R" n="89" break="no"/>esse reali, &amp; tamen apprehenduntur vt vnum 
+      in<lb ed="#R" n="90" break="no"/>esse apprehensionis. Et sic est in proposito, 
+      quo<lb ed="#R" n="91" break="no"/>niam vir, &amp; foemina accipiuntur, vt vnum 
+      princi<lb ed="#R" n="92" break="no"/>pium respectu prolis, quoniam si alterum 
+      suffice<lb ed="#R" n="93" break="no"/>ret, non esset matrimonium de iure naturae, &amp; hoc 
+      <lb ed="#R" n="94"/>modo verum est, quod sunt duo in carne vna, quia 
+      <lb ed="#R" n="95"/>sunt vnum principium habituale. 
+    </p>
+               <p>
+                  <lb ed="#R" n="96"/>Viso quid est matrimonium secundum 
+      definitio<lb ed="#R" n="97" break="no"/>nem, videndum est quid est secundum nomen. 
+      Di<lb ed="#R" n="98" break="no"/>co autem, quod est coniugium, &amp; vocatur 
+      coniu<lb ed="#R" n="99" break="no"/>gium propter relationem, quae consurgit ex illis 
+      <lb ed="#R" n="100"/>quatuor relationibus in esse morali. Sed 
+      ratione<lb ed="#R" n="101" break="no"/>signi rei inuisibilis dicuntur nuptiae quasi sub 
+      nu<lb ed="#R" n="102" break="no"/>be. Ratione vero actus dicitur matrimonium, &amp; 
+      <lb ed="#R" n="103"/>dicitur matrimonium quia matris munimentum, 
+      <lb ed="#R" n="104"/>est enim munimentum verecundiae ipsius matris; 
+      <lb ed="#R" n="105"/>vel matris munimentum, idest munitio, 
+      quia<lb ed="#R" n="106" break="no"/>munitur viro, vel matrimonium dicitur idem 
+      <lb ed="#R" n="107"/>quod matris monitio, quia monetur mater in 
+      spe<lb ed="#R" n="108" break="no"/>ciali habere curam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="109"/>Sed quare non sic vocatur patrimonium? 
+      Re<lb ed="#R" n="110" break="no"/>spondeo, quia haereditatem consequitur proles a 
+      <lb ed="#R" n="111"/>patre, ideo haereditas dicitur patrimonium; 
+      <lb ed="#R" n="112"/>quia vero educationem &amp; mores, &amp; legitimitatem 
+      <lb ed="#R" n="113"/>contrahit proles principaliter a matre, ideo 
+      con<lb ed="#R" n="114" break="no"/>iunctio ista coniugum, quae per se est ad 
+      educatio<lb ed="#R" n="115" break="no"/>nem, &amp; bonum prolis, specialiter vocatur 
+      matri<lb ed="#R" n="116" break="no"/>monium 
+    </p>
+               <p>
+                  <lb ed="#R" n="117"/>Quod quidem Magister sic definiuit 
+      discin<lb ed="#R" n="118" break="no"/>ctione 27. in princip. Matrimonium est viri 
+      mu<lb ed="#R" n="119" break="no"/>lierisque coniunctio maritalis, inter legitimas 
+      <lb ed="#R" n="120"/>personas indiuiduam vitae consuetudinem 
+      reti<lb ed="#R" n="121" break="no"/>nens, &amp;. 
+    </p>
+               <p>
+                  <lb ed="#R" n="122"/>Ex his potest inferri, quod opinio, quae ponit 
+      vir<lb ed="#R" n="123" break="no"/>tutem infusam in Sacramentis, non sit vera. 
+      Quae<lb ed="#R" n="124" break="no"/>ro enim, vbi est virtus ista infusa in hoc 
+      Sacramen<lb ed="#R" n="125" break="no"/>to subiectiue, an in mutuo nutu, an in verbis, 
+      <lb ed="#R" n="126"/>vel signis: &amp; patet, quod non, quia sola 
+      copula<lb ed="#R" n="127" break="no"/>carnis cum verbis de futuro quandoque causat ma 
+      <lb ed="#R" n="128"/>trimonium. 
+    </p>
+               <p>
+                  <lb ed="#R" n="129"/>Item pono quod sit talis virtus in aliquo 
+      praedi<lb ed="#R" n="130" break="no"/>ctorum, quaero quid causabit, aut causabit rem 
+      <lb ed="#R" n="131"/>primam, scilicet oligationem, &amp; hoc non potest dici 
+      <lb ed="#R" n="132"/>cum ipsa sit relatio rationis secundum omnes. 
+      Re<lb ed="#R" n="133" break="no"/>spectu autem talis relationis nulla oportet, quod 
+      <lb ed="#R" n="134"/>ponatur virtus secundum omnes.
+    </p>
+               <p>
+      <!--0171.xml-->
+                  <pb ed="#R" n="171"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Nec etiam efficit rem secundam, quia illa est 
+      gra<lb ed="#R" n="2" break="no"/>tia. Ideo opinio quae posuit, quod Sacramenta 
+      <lb ed="#R" n="3"/>efficiunt applicando actiua passiuis, videtur magis 
+      <lb ed="#R" n="4"/>rationabilis: hoc enim modo ad mutuam 
+      prolatio<lb ed="#R" n="5" break="no"/>nem verborum viri, &amp; mulieris Deus potuit 
+      sta<lb ed="#R" n="6" break="no"/>tuere applicare voluntatem suam ad infundendum 
+      <lb ed="#R" n="7"/>gratiam, &amp; hoc ex opere operato, &amp; sic puto, quod 
+      <lb ed="#R" n="8"/>sit de facto, vt alias dictum est: eodem modo, quo 
+      <lb ed="#R" n="9"/>preces dicuntur efficere aliquid, quod effectiue est 
+      <lb ed="#R" n="10"/>ab illo, qui mouetur precibus. Ad argumentum in 
+      <lb ed="#R" n="11"/>oppositum patet, quid dicendum. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

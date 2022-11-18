@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="158"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h54206"> <!-- l4-d23q1 -->
+            <head>Quaestio 1</head>
+            <div>
+               <head>Articulus 1</head>
+               <head type="question-title">
+      Utrum Extrema Vnctio sit Sacramentum 
+      Nouae Legis. 
+    </head>
+               <p>
+                  <lb ed="#R" n="15"/>ARTICVLVUS I. 
+      <lb ed="#R" n="16"/>Vtrum Extrema Vnctio sit Sacramentum 
+      <lb ed="#R" n="17"/>Nouae Legis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="18"/>QVO ad primam quaestionem 
+      <lb ed="#R" n="19"/>arguo primo quod non, sic, om 
+      <lb ed="#R" n="20"/>ne Sacramentum nouae legis est 
+      <lb ed="#R" n="21"/>/a Christo institutum: Extrema 
+      <lb ed="#R" n="22"/>vnctio non es a Christo 
+      insti<lb ed="#R" n="23" break="no"/>tuta, sed a Jacobo: ergo. 
+      Ma<lb ed="#R" n="24" break="no"/>ior patet, quia solus Chrisus 
+      <lb ed="#R" n="25"/>fuit legis nouae lator, ac 
+      insti<lb ed="#R" n="26" break="no"/>tutor: ergo &amp; omnium, quae per se pertinent ad 
+      No<lb ed="#R" n="27" break="no"/>uam legem, cuiusmodi sunt septem Sacramenta 
+      <lb ed="#R" n="28"/>Minor patet, in Canonica Jacobi cap. 6. Infirmatur 
+      <lb ed="#R" n="29"/>quis in vobis, &amp;c. Confirmo hoc, quia hoc 
+      Sacra<lb ed="#R" n="30" break="no"/>mentum dicitur vulgariter Sacramentum S. Jacobi. 
+    </p>
+               <p>
+                  <lb ed="#R" n="31"/>In oppositum arguo, quia circa Sacramenta Nouae 
+      <lb ed="#R" n="32"/>legis tenenda est auctoritas Ecclesiae pro ratione, vt 
+      <lb ed="#R" n="33"/>habetur extra de haereticis ad abolendas, vnde qui 
+      <lb ed="#R" n="34"/>oppositum teneret, tanquam haereticus est 
+      censen<lb ed="#R" n="35" break="no"/>dus. Respondeo in ista quaestione primo distinguam 
+      <lb ed="#R" n="36"/>de Sacramento. Secundo ponam conclusionem 
+      <lb ed="#R" n="37"/>intentam: tertio dicam quaedam generalia 
+      perti<lb ed="#R" n="38" break="no"/>nentia ad hoc Sacramentum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="39"/>Quoad primum sciendum, qui secundum Hugonem 
+      <lb ed="#R" n="40"/>de Sacram. par. 2. c. 3. Sacramentum est sacrati 
+      si<lb ed="#R" n="41" break="no"/>gnum, quia significat gratiam, &amp; sanctificationem 
+      ani<lb ed="#R" n="42" break="no"/>mae. Quaedam ergo sunt, quae directe faciunt ad animae 
+      <lb ed="#R" n="43"/>sanctificationem, ita quod non tantum significant, 
+      <lb ed="#R" n="44"/>sed efficiunt, ac operantur, &amp; hoc non tantum ex 
+      <lb ed="#R" n="45"/>merito operantis, sed ex ipso opere operato: 
+      quae<lb ed="#R" n="46" break="no"/>dam vero huiusmodi sanctificationem non efficiunt 
+      <lb ed="#R" n="47"/>ex opere operato, sed ex exercitio meritorio, &amp; 
+      o<lb ed="#R" n="48" break="no"/>pere operantis. Et horum quaedam pertinent ad 
+      <lb ed="#R" n="49"/>praeparationem, &amp; hoc dupliciter, vel ad 
+      praepa<lb ed="#R" n="50" break="no"/>rationem ministrorum, cuiusmodi sunt diuersa 
+      in<lb ed="#R" n="51" break="no"/>dumenta, &amp; huiusinodi. Quaedam ad praeparationem 
+      <lb ed="#R" n="52"/>materiae, vt fontium benedictio, Crismatis 
+      conse<lb ed="#R" n="53" break="no"/>cratio, &amp; huiusmodi. Alia vero pertinent ad 
+      susci<lb ed="#R" n="54" break="no"/>pientium praeparationem, sicut Exorcisinus, &amp; 
+      Ca<lb ed="#R" n="55" break="no"/>techismus. Alia autem sunt, quae pertinent ad 
+      de<lb ed="#R" n="56" break="no"/>uotionis excitationem, sicut campana, candelae, 
+      <lb ed="#R" n="57"/>deportatio ramorum, crucesignatio, &amp; huiusmodi; 
+      <lb ed="#R" n="58"/>omnia enim ista pro tanto dicuntur Sacramenta, 
+      <!--0158.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="59"/>quia sunt sacra signa, licet sint non directe, &amp; 
+      effe<lb ed="#R" n="60" break="no"/>ctiue sanctificantia. Ex quo patet, quod 
+      triplex<lb ed="#R" n="61" break="no"/>est acceptio huius nominis, Sacramentum, in 
+      ge<lb ed="#R" n="62" break="no"/>nerali, scilicet per modum exercentis, vel per 
+      mo<lb ed="#R" n="63" break="no"/>dum praeparantis, vel tertio per modum efficientis 
+      <lb ed="#R" n="64"/>rem Sacramenti, &amp; causantis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="65"/>Nunc ergo punctus quae stionis non est 
+      quaerere<lb ed="#R" n="66" break="no"/>de Sacramento primo modo, vel secundo, sed 
+      tan<lb ed="#R" n="67" break="no"/>tummodo tertio: Vtrum scilicet Extrema vnctio sit 
+      <lb ed="#R" n="68"/>Sacramentum efficiens, quod figurat. Secundo 
+      po<lb ed="#R" n="69" break="no"/>no propositionem intentam, &amp; est ista, quod 
+      Extre<lb ed="#R" n="70" break="no"/>ma vncttio est Sacramentum proprie sumptum ex 
+    </p>
+               <p>
+                  <lb ed="#R" n="71"/>opere operato efficiens, quod figurat, &amp; directe san 
+      <lb ed="#R" n="72"/>ctificans per modum causae, sicut &amp; caetera 
+      Sacra<lb ed="#R" n="73" break="no"/>menta. Hanc conclusionem probo, quia cui 
+      con<lb ed="#R" n="74" break="no"/>uenit definitio, &amp; definitum: sed Extremae 
+      vnctio<lb ed="#R" n="75" break="no"/>ni conuenit proprie definitio Sacramenti Nouae le 
+      <lb ed="#R" n="76"/>gis. Probo: Est enim Sacramentum nouae legis 
+      de<lb ed="#R" n="77" break="no"/>finitiue inuisibilis gratiae visibilis forma, vt 
+      simili<lb ed="#R" n="78" break="no"/>tudinem eius gerat, &amp; causa existat; sed ista 
+      com<lb ed="#R" n="79" break="no"/>petunt Extremae vnctioni: ibi enim est oleum 
+      oli<lb ed="#R" n="80" break="no"/>uarum, &amp; praescripta verba, vt signum quoddam 
+      <lb ed="#R" n="81"/>sensibile, significans gratiam Dei, quae 
+      virtute<lb ed="#R" n="82" break="no"/>huius Sacramenti roboratur, cuius etiam 
+      virtute<lb ed="#R" n="83" break="no"/>delentur venialia peccata, confortantur infirmi, &amp; 
+      <lb ed="#R" n="84"/>excluditur potestas diaboli: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="85"/>Sciendum autem, quod hic, sicut in aljs 
+      Sacra<lb ed="#R" n="86" break="no"/>mentis, est considerare aliquid, quod eit Sacramen 
+      <lb ed="#R" n="87"/>tum tantum, &amp; non res, scilicet vnctio cum forma 
+      <lb ed="#R" n="88"/>verborum praescripta. Aliquid vero, quod est 
+      Sa<lb ed="#R" n="89" break="no"/>cramentum, &amp; res, sicut est interior vnctio, quae 
+      si<lb ed="#R" n="90" break="no"/>gnificatur per vncionem exteriorem, &amp; ipsa 
+      signi<lb ed="#R" n="91" break="no"/>ficat spem, &amp; venialium deletionem, per quam 
+      <lb ed="#R" n="92"/>quidem spem decedens securus, &amp; cum sacro signo 
+      <lb ed="#R" n="93"/>de militanti populo, accedit ad Ecclesiam 
+      trium<lb ed="#R" n="94" break="no"/>phantem. 
+  </p>
+               <p>
+                  <lb ed="#R" n="95"/>Quantum ad tertium Articulum, videnda sunt 
+      <lb ed="#R" n="96"/>quaedam in generali. Primo de materia, vbi dico, 
+      <lb ed="#R" n="97"/>quod materia huius Sacramenti. est oleum 
+      oliua<lb ed="#R" n="98" break="no"/>rum ab Episcopo consecratum. Ad cuius 
+      euiden<lb ed="#R" n="99" break="no"/>tiam sciendum est, quod in Ecclesia sunt tres 
+      vn<lb ed="#R" n="100" break="no"/>ctiones. de quibus loquitur Innocentius Papa de 
+      <lb ed="#R" n="101"/>sacra vnctione cap. cum veniset, &amp; vna quidem 
+      <lb ed="#R" n="102"/>est infirmorum, alia cathecumenorum, tertia est 
+      <lb ed="#R" n="103"/>Chrisma ab Episcopo consecratum: conueniunt 
+      <lb ed="#R" n="104"/>autem in hoc, quod omnes sunt vnctiones, &amp; 
+      de<lb ed="#R" n="105" break="no"/>bent ab Episcopo benedici, qua vnguntur in 
+      dex<lb ed="#R" n="106" break="no"/>tro humero, ad significandum gratiam Spiritus san 
+      <lb ed="#R" n="107"/>cti ad iustitiam exercendam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="108"/>Similiter ad Episcopos, &amp; hoc in vertice, siue 
+      <lb ed="#R" n="109"/>capite, quousque descendat in barbam, barbam 
+      <lb ed="#R" n="110"/>Aaron. Similiter ad sacerdotes quando ordinantur, 
+      <lb ed="#R" n="111"/>&amp; hoc in manibus: sed etiam ad paruulos post 
+      Ba<lb ed="#R" n="112" break="no"/>ptismum in vertice; quo ad confirmandos in 
+      fron<lb ed="#R" n="113" break="no"/>te. Sexto ad Ecclesiam &amp; altaria, quando 
+      conse<lb ed="#R" n="114" break="no"/>crantur. Similiter ad calices, &amp; pathenas, 
+      quan<lb ed="#R" n="115" break="no"/>do consecrantur. His omnibus applicatur vsus 
+      <lb ed="#R" n="116"/>Chrismatis, vt tangitur in praefata Decretali. 
+    </p>
+               <p>
+                  <lb ed="#R" n="117"/>Tunc ad propositum dico, quod materia istius 
+      <lb ed="#R" n="118"/>Sacramenti est oleum oliuarum. Ratio est, quia 
+      <lb ed="#R" n="119"/>Sacramentum hoc est medicatio quaedam 
+      vulne<lb ed="#R" n="120" break="no"/>rum peccatorum: super vulnera autem oleum 
+      oli<lb ed="#R" n="121" break="no"/>uarum infunditur, cuius effectus est mitigare, &amp; 
+      <lb ed="#R" n="122"/>huiusmodi. Sic in proposito, vulneri 
+      qninque<lb ed="#R" n="123" break="no"/>sensuum oleum apponitur, quae quidem 
+      vulnera<lb ed="#R" n="124" break="no"/>inflicta fuerant per peccatum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="125"/>Ratio autem quare ab Episcopo debet illud 
+      o<lb ed="#R" n="126" break="no"/>leum benedici, non autem sic est de materia Baptisini, 
+      <!--0159.xml-->
+      <pb ed="#R" n="159"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>est, quia Christus tactu suae carnis mundisimae 
+      san<lb ed="#R" n="2" break="no"/>ctificauit aquas, pro materia perenni ipsius 
+      Baptis<lb ed="#R" n="3" break="no"/>mi:non legitur autem hoc modo oleum 
+      consecras<lb ed="#R" n="4" break="no"/>se, propter quod eius consecratio committitur 
+      spon<lb ed="#R" n="5" break="no"/>so Ecclesiae successori suo. hoc de materia. 
+    </p>
+               <p>
+                  <lb ed="#R" n="6"/>De forma verborum. Nota quod haec est: Per istam 
+      <lb ed="#R" n="7"/>sacram vnctionem parcat tibi Dominus. Vbi 
+      scien<lb ed="#R" n="8" break="no"/>dum, quod ista verba septies replicantur, secundum 
+      <lb ed="#R" n="9"/>septem vnctiones, quarum sufficientia ista est: dictum 
+      <lb ed="#R" n="10"/>est enim, quod Sacramentum istud ordinatur ad 
+      vul<lb ed="#R" n="11" break="no"/>nerum, sanitatem, vulnera autem peccati habent 
+      <lb ed="#R" n="12"/>ortum, vel a cognitiua, vel appetitiua, concupiscibi 
+      <lb ed="#R" n="13"/>li, vel a progresssibili, &amp; secundum hoc si considerē- 
+      <lb ed="#R" n="14"/>tur, vt ortum habent a cognitiua, fiunt unctiones 
+      <lb ed="#R" n="15"/>in quinque sensibus; si vero a concupiscibili fit 
+      in<lb ed="#R" n="16" break="no"/>renibus, vbi maxime apparet concupiscentia 
+      car<lb ed="#R" n="17" break="no"/>nalis. Si ex progressiua sic fit circa pedes, vbi 
+      con<lb ed="#R" n="18" break="no"/>sistit maxime potentia progressiua, tamen in 
+      qui<lb ed="#R" n="19" break="no"/>busdam Ecclesijs fit vnctio tantũmodo super 
+      quin<lb ed="#R" n="20" break="no"/>que sensus, &amp; in talibus ybique mos Ecclesiae est 
+      te<lb ed="#R" n="21" break="no"/>nendus, melior tamen est consuetudo, quod fiat in 
+      <lb ed="#R" n="22"/>septem locis, &amp; partibus corporis, vt dictum est. 
+    </p>
+               <p>
+                  <lb ed="#R" n="23"/>Sed de forma est dubium, quare estst optatiua. 
+      Re<lb ed="#R" n="24" break="no"/>spondeo, in quibusdam Ecclesijs forma ista est 
+      indi<lb ed="#R" n="25" break="no"/>catiua, puta per istam sancam vnctionem parcit 
+      <lb ed="#R" n="26"/>tibi Dominus. In alijs est imperatiua: sed verba 
+      Ja<lb ed="#R" n="27" break="no"/>cobi videntur habere formam optatiuam, dicit 
+      e<lb ed="#R" n="28" break="no"/>nim: &amp; oratio fidei alleuiabit infirmum, quasi 
+      for<lb ed="#R" n="29" break="no"/>ma sit per modum orationis optatiuae. Ideo 
+      dicen<lb ed="#R" n="30" break="no"/>dum est, quod forma verborum indifferenter potest 
+      <lb ed="#R" n="31"/>esse indicatiua &amp; optatiua, sicut de forma 
+      verbo<lb ed="#R" n="32" break="no"/>rum Baptismi, quae est apud Latinos indicatiua, sed 
+      <lb ed="#R" n="33"/>apud Graecos optatiua, &amp; ideo consuetudo in 
+      tali<lb ed="#R" n="34" break="no"/>bus est seruanda, &amp; peccaret grauiter, qui 
+      consue<lb ed="#R" n="35" break="no"/>tudinem immutaret. 
+    </p>
+               <p>
+                  <lb ed="#R" n="36"/>Nunc dicendum est de suscipiente. Vbi dico, quod 
+      <lb ed="#R" n="37"/>suscipiens idoneus est infirmus naturali 
+      infirmita<lb ed="#R" n="38" break="no"/>te, quae natura liter ducit ad mortem, &amp; adultus, per 
+      <lb ed="#R" n="39"/>quos excluduntur paruuli; &amp; mentis compos, ad 
+      ex<lb ed="#R" n="40" break="no"/>cludendum amentes, nisi habeant lucida 
+      interual<lb ed="#R" n="41" break="no"/>la, &amp; quarto in mortis articulo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="42"/>De ministrante dico, quod idoneus minister 
+      hu<lb ed="#R" n="43" break="no"/>ius Sacramenti est solus sacerdos, &amp; hoc secundum 
+      <lb ed="#R" n="44"/>Jacobum: ratio est, quia cum hoc Sacramentum non 
+      <lb ed="#R" n="45"/>sit maximae necessitatis, sicut Baptismus, vt quod 
+      <lb ed="#R" n="46"/>decedens sine ipso damnaretur, ideo congruum fuit, 
+      <lb ed="#R" n="47"/>quod non committeretur nisi sacerdotibus, 
+      maxi<lb ed="#R" n="48" break="no"/>me quia delentur ibi venialia. 
+    </p>
+               <p>
+                  <lb ed="#R" n="49"/>Quinto, videndum est quis institutor: vbi dicitur 
+      <lb ed="#R" n="50"/>quod Jacobus, sed Marci c. 7. dicitur expresse, quod 
+      <lb ed="#R" n="51"/>Apostoli infirmos vngebant, quod non est 
+      verisimi<lb ed="#R" n="52" break="no"/>le eos fecisse nisi auctoritate instituentis Christi, 
+      <lb ed="#R" n="53"/>vel instituendum pronunciantis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="54"/>Sexto: Vtrum sit iterabile: dico quod sic, sicut 
+      <lb ed="#R" n="55"/>&amp; morbus, illa enim sacramenta praecise iterabilia 
+      <lb ed="#R" n="56"/>sunt, quorum morbus est iterabilis, vt de 
+      Sacra<lb ed="#R" n="57" break="no"/>mento Poenitentiae, &amp; huiusmodi. 
+    </p>
+               <p>
+                  <lb ed="#R" n="58"/>Sed nunquid iterari potest in eadem 
+      infirmitate<lb ed="#R" n="59" break="no"/>dico, quod si infirmitas sit continua, &amp; deducens 
+      <lb ed="#R" n="60"/>continue ad statum mortis, in tali infirmitate non 
+      <lb ed="#R" n="61"/>debet pluries iterari: ratio est, quia non debet 
+      mi<lb ed="#R" n="62" break="no"/>nistrari nisi imminente transitu mortis 
+      probabili<lb ed="#R" n="63" break="no"/>ter, vel ta lis infirmitas est longa &amp; discontinua, &amp; 
+      <lb ed="#R" n="64"/>nunc videtur debere mori, nunc conualere, &amp; 
+      in<lb ed="#R" n="65" break="no"/>tali casu puto quod posset iterari. Ratio est, quia 
+      <lb ed="#R" n="66"/>censentur plures infirmitates. 
+    </p>
+               <p>
+                  <lb ed="#R" n="67"/>Ad argumentum in oppositum patet, quod legitur 
+      <lb ed="#R" n="68"/>Mar. c. c. de eius institutione, &amp; dato quod nullicu- 
+      <!--0159.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>bi legeretur. dicit Decretum dist. 17. cap. in nouo 
+      <lb ed="#R" n="70"/>Testamento, quod multa Christus fecit &amp; instituit, 
+      <lb ed="#R" n="71"/>quae non sunt scripta in Euangelijs. &amp; hoc 
+      rationa<lb ed="#R" n="72" break="no"/>biliter credi. potest, non enim fides ex Euangeliis, 
+      <lb ed="#R" n="73"/>cum fuerit ante Euangelia fides, &amp; Ecclesia, quae 
+      <lb ed="#R" n="74"/>magis e conuerso dabat Euangeliis auctoritatem. 
+    </p>
+            </div>
+            <div>
+               <head>Articulus 2</head>
+               <head type="question-title">
+      Utrum primus, et proprius effectus extremae 
+      Vnctionis sit remissio venialium 
+      peccatorum. 
+    </head>
+               <p>
+                  <lb ed="#R" n="75"/>ARTICVLVS II 
+      <lb ed="#R" n="76"/>Vtrum primus, &amp; proprius effectus extremae 
+      Vn<lb ed="#R" n="77" break="no"/>ctionis sit remissio venialium 
+      <lb ed="#R" n="78"/>peccatorum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="79"/>CIrca secundam quaestionem arguo primo, quod 
+      <lb ed="#R" n="80"/>primus, &amp; proprius effectus sacrae Vnctionis 
+      <lb ed="#R" n="81"/>non sit remissio peccatorum venialium, &amp; hoc sic: 
+      <lb ed="#R" n="82"/>Duo remedia non sunt instituta in Ecclesia 
+      respe<lb ed="#R" n="83" break="no"/>ctu e iusdem morbi: sed Sacramentum Eucharistiae 
+      <lb ed="#R" n="84"/>est institutum ad deletionem venialium: ergo non 
+      <lb ed="#R" n="85"/>istud: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="86"/>In oppositum est illud Jacobi 6. Et si in peccatis 
+      <lb ed="#R" n="87"/>fuerit, &amp;c. non loquitur nisi de veniali certum est. 
+      <lb ed="#R" n="88"/>Respondeo, pono duas propositiones. 
+    </p>
+               <p>
+                  <lb ed="#R" n="89"/>Prima est, quod magni &amp; mirabiles sunt effectus 
+      <lb ed="#R" n="90"/>huius Sacramenti, propter quod debet infirmus 
+      qui<lb ed="#R" n="91" break="no"/>libet illud sollicite, &amp; cum deuotionis affectu 
+      ma<lb ed="#R" n="92" break="no"/>ximo postulare. 
+    </p>
+               <p>
+                  <lb ed="#R" n="93"/>Sunt autem septem effectus. Primus es deletio 
+      <lb ed="#R" n="94"/>venialium, &amp; hoc in toto, vel in parte. 
+      <lb ed="#R" n="95"/>Secundus estt diminutio debitae poenae, tam pro 
+      <lb ed="#R" n="96"/>mortali, quam pro veniali.
+    </p>
+               <p>
+                  <lb ed="#R" n="97"/>Tertius est gratiae augmentatio, quae vi 
+      Sacramen<lb ed="#R" n="98" break="no"/>ti huius, sicut &amp; aliorum Sacramentorum habet au 
+      <lb ed="#R" n="99"/>geri, &amp; hoc non tantum ex deuotione ministrantis, 
+      <lb ed="#R" n="100"/>vel recipientis, sed ex opere operato Dei interueniem 
+      <lb ed="#R" n="101"/>te misericordia; &amp; si augetur gratia, augebitur per 
+      <lb ed="#R" n="102"/>consequens gloria, quia aucta gratia meretur 
+      per<lb ed="#R" n="103" break="no"/>fici secundum Augustinum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="104"/>Quartus effectus est vnctio interius per 
+      clarita<lb ed="#R" n="105" break="no"/>tem quandam, &amp; iocunditatem spiritualem: nam 
+      <lb ed="#R" n="106"/>homo in illo articulo est in timore ingenti, &amp; 
+      tre<lb ed="#R" n="107" break="no"/>more propter daemonis potentiam constitutus, 
+      pro<lb ed="#R" n="108" break="no"/>pter quod Dei misericurdia instituit hoc Sacramen 
+      <lb ed="#R" n="109"/>tum ad dandum interiorem letitiam, &amp; 
+      iocundita<lb ed="#R" n="110" break="no"/>tem, robur, &amp; spem contra daemonis tentationes, quas 
+      <lb ed="#R" n="111"/>potissime in mortis articulo conatur inferre. 
+    </p>
+               <p>
+                  <lb ed="#R" n="112"/>Quintus effectus est arctatio diabolicae 
+      potesca<lb ed="#R" n="113" break="no"/>tis. Credendum enim est, quod daemon post 
+      Sacra<lb ed="#R" n="114" break="no"/>menti receptionem non sit potens tentare vt prius. 
+    </p>
+               <p>
+                  <lb ed="#R" n="115"/>Sextus effectus est corporis sanatio, vbi expediat 
+      <lb ed="#R" n="116"/>animae sanitati, vnde &amp; in primitiua Ecclesia multi 
+      <lb ed="#R" n="117"/>Sacramento suscepto corporaliter curabantur, de 
+      <lb ed="#R" n="118"/>quo Jacobi c. 6. Oratio alleuiabit infirmum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="119"/>Septimus effectus est protestatio decedentis infir 
+      <lb ed="#R" n="120"/>mi, quod permansit in fide Ecclesiae militantis, &amp; 
+      <lb ed="#R" n="121"/>ideo se curus egreditur ad populum triumphantem, 
+      <lb ed="#R" n="122"/>sicut sub signo Sacramenti Baptismi ingreditur 
+      ho<lb ed="#R" n="123" break="no"/>mo ad populum militantem, sic sub signo extremae 
+      <lb ed="#R" n="124"/>Vnctionis ingreditur ad Ecclesiam triumphantem, 
+      <lb ed="#R" n="125"/>portans secum testimonium signi, quod fideliter 
+      <lb ed="#R" n="126"/>mansit in Ecclesia triumphante. 
+    </p>
+               <p>
+                  <lb ed="#R" n="127"/>Secunda Propositio est, quis sit primus, &amp; proprius 
+      <lb ed="#R" n="128"/>effectus huius Sacramenti. Dicit vnus Doctor, quod per 
+      <lb ed="#R" n="129"/>se, &amp; directe deletio venialium. Sed isti labent 
+      diffi<lb ed="#R" n="130" break="no"/>cultatem tactam in arguendo ad principale, quod 
+      <lb ed="#R" n="131"/>respectu vnius morbi non sunt instituta plura 
+      re<lb ed="#R" n="132" break="no"/>media. Ad quod isti respondent, quod hoc 
+      Sa<lb ed="#R" n="133" break="no"/>cramentum non est remedium pro quacumque hora, 
+      <!--0160.xml-->
+      <pb ed="#R" n="160"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>sed tantum pro hora mortis, vt quando ex opere 
+      o<lb ed="#R" n="2" break="no"/>perantis non possunt peccata deleri, Dominus 
+      in<lb ed="#R" n="3" break="no"/>stituit hoc Sacramentum, quod deleret illa ex 
+      ope<lb ed="#R" n="4" break="no"/>re operato, pro tali enim hora Sacramentum 
+      Eu<lb ed="#R" n="5" break="no"/>charistiae non posset minisrari. 
+    </p>
+               <p>
+                  <lb ed="#R" n="6"/>Sed contra isos videtur esse verbum Jacobi, qui 
+      <lb ed="#R" n="7"/>videtur velle, quod Sacramentum ministrandum sit 
+      <lb ed="#R" n="8"/>etiam si non suerit in peccatis, vnde ait, &amp; si in 
+      pec<lb ed="#R" n="9" break="no"/>catis fuerit, vbi administratio Sacramenti absolute 
+      <lb ed="#R" n="10"/>inducitur, cum dicit, Et vngant eum oleo sancto. 
+      <lb ed="#R" n="11"/>Deletio vero peccati sub conditionali, cum dicit, 
+      <lb ed="#R" n="12"/>&amp; si in peccatis fuerit. 
+    </p>
+               <p>
+                  <lb ed="#R" n="13"/>Ideo dicunt alii, quod Sacramentum istud datur 
+      <lb ed="#R" n="14"/>in medicationem non peccati actualis, nec mortalis, 
+      <lb ed="#R" n="15"/>nec venialis, sed reliquiarum peccatorum, quae sunt 
+      <lb ed="#R" n="16"/>quaedam ineptitudines, &amp; languores per peccata 
+      <lb ed="#R" n="17"/>derelicta. Sed videtur mihi, quod dictum isud sit 
+      <lb ed="#R" n="18"/>quoddam vaticinium, quid enim intelligunt per hanc 
+      <lb ed="#R" n="19"/>ineptitudinem. Ineptitudo enim, quae est difficultas 
+      <lb ed="#R" n="20"/>ad bona ipsa, est ex habitu: ergo incidunt in illud, 
+      <lb ed="#R" n="21"/>quod vitant, quia tunc Sacramentum istud 
+      ordina<lb ed="#R" n="22" break="no"/>bitur ad deletionem habitus vitiosi. 
+    </p>
+               <p>
+                  <lb ed="#R" n="23"/>Praeterea experientia docet, quod talis ineptitudo &amp; 
+      <lb ed="#R" n="24"/>dispositio non tollitur, nam si inunctus curatur, tan 
+      <lb ed="#R" n="25"/>tam difficultatem ad bonum, &amp; inclinationem ad ma 
+      <lb ed="#R" n="26"/>lum sentiet sicut prius. Et confirmo ex forma 
+      ver<lb ed="#R" n="27" break="no"/>borum, quae multum dirigit in effectu Sacramēti, quae 
+      <lb ed="#R" n="28"/>in hoc sacramento est ista: Per istam sacram vnctionem 
+      <lb ed="#R" n="29"/>parcat tibi Deus: parcere autem supponit culpam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="30"/>Alij Doctores dicunt, quod primus effectus eius 
+      <lb ed="#R" n="31"/>est deuotio, isti autem vadunt ad positiuum, &amp; ex isto 
+      <lb ed="#R" n="32"/>possumus venire ad defectum, qui reparatur. Sed quis 
+      <lb ed="#R" n="33"/>est ille? Dico, quod ille est defectus poenalis, quem 
+      <lb ed="#R" n="34"/>inducit recordatio peccatorum. In mente enim 
+      con<lb ed="#R" n="35" break="no"/>stituti in mortis articulo recogitantis peccata cō- 
+      <lb ed="#R" n="36"/>missa, &amp; cum hoc iustitiam iudicis oritur de sententia 
+      <lb ed="#R" n="37"/>quidam timor, &amp; tremor de gehenna, &amp; ex 
+      conse<lb ed="#R" n="38" break="no"/>quenti prostratio quedam cordis. Et hoc puto, quod 
+      <lb ed="#R" n="39"/>intellexerunt alii reliquias peccatorum 
+      ineptitu<lb ed="#R" n="40" break="no"/>dinem cordis, scilicet quandam intimam 
+      prostra<lb ed="#R" n="41" break="no"/>tionem. Pro tanto ergo diuina misericordia hoc 
+      in<lb ed="#R" n="42" break="no"/>stituere placuit sacramentum, vt esset alleuiatiuum, 
+      <lb ed="#R" n="43"/>dando internam quandam hilaritatem, de 
+      venia<lb ed="#R" n="44" break="no"/>spem praestando. 
+    </p>
+               <p>
+                  <lb ed="#R" n="45"/>Dico ergo quantum ad istum articulum, quod 
+      <lb ed="#R" n="46"/>primus effectus, &amp; per se istius Sacramenti, &amp; 
+      dire<lb ed="#R" n="47" break="no"/>cte est gratia, vt collatiua spei, &amp; internae 
+      hilarita<lb ed="#R" n="48" break="no"/>tis, ex hoc autem sequitur posmodum deletio 
+      ve<lb ed="#R" n="49" break="no"/>nialium, aliiq. effectus praedicti septem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="50"/>Quod autem iste sit effectus principalis, qui 
+      di<lb ed="#R" n="51" break="no"/>ctus est, apparet ex conditione olei, quae est materia 
+      <lb ed="#R" n="52"/>Sacramenti, quod quidem specialiter habet 
+      laeti<lb ed="#R" n="53" break="no"/>tiam denotare. Significat etiam oleum lenitatem 
+      <lb ed="#R" n="54"/>diuinae clementia in remittendo offensam, &amp; hoc 
+      <lb ed="#R" n="55"/>sequitur ad gratiam. Probo, propter quod dicitur 
+      <lb ed="#R" n="56"/>per istam sanctam vnctionem parcat tibi Dominus, 
+      <lb ed="#R" n="57"/>&amp; hoc in quolibet quinque sensuum. Sicut ergo in 
+      <lb ed="#R" n="58"/>Baptismo directius fides insunditur, licet etiam cae 
+      <lb ed="#R" n="59"/>terae virtutes infundantur: &amp; in confirmatione 
+      di<lb ed="#R" n="60" break="no"/>rectius fortitudo ad sustinendum nomen Christi: sic 
+      <lb ed="#R" n="61"/>in hoc Sacramento infunditur directius spes alle. 
+      <lb ed="#R" n="62"/>uians infirmum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="63"/>Et adhuc videtur ire super bona, cum dicit, quod 
+      <lb ed="#R" n="64"/>est deuotio, per deuotionem enim alleuiatur mens, 
+      <lb ed="#R" n="65"/>in qua confertur gratia, delens veniale in hoc, 
+      <lb ed="#R" n="66"/>quod magis vnitur Deo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="67"/>Ad argumentum principale, ad illud Jacobi: 
+      Be<lb ed="#R" n="68" break="no"/>ne volo, quod remissio venialium sit efffectus, non- 
+      <!--0160.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>tamen principalis, sed primus effectus es 
+      gratia<lb ed="#R" n="70" break="no"/>sanctificans, sed effectus remotus est animae 
+      alle<lb ed="#R" n="71" break="no"/>uiatio, vt dixi, &amp; vt intellexit Iacobus, cum dixit, 
+      <lb ed="#R" n="72"/>&amp; alleuiabit infirmum. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

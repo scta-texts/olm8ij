@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="188"/>
+            <cb ed="#R" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h64616"> <!-- l4-d40q1 -->
+            <head>Quaestio 1</head>
+            <p>
+               <lb ed="#R" n="73"/>Quaestio Vnica. 
+    </p>
+            <div>
+               <head>Articulus 1</head>
+               <head type="question-title">
+          Utrum cognatio, et consanguinitas impedias 
+          matrimonium.
+        </head>
+               <p>
+                  <lb ed="#R" n="74"/>ARTICVLVS VNJCVS. 
+      <lb ed="#R" n="75"/>Vtrum cognatio, &amp; consanguinitas impedias 
+      <lb ed="#R" n="76"/>matrimonium. 
+    </p>
+               <p>
+                  <lb ed="#R" n="77"/>VIDETVR, quod non 
+      <lb ed="#R" n="78"/>quia non est nunc maior 
+      <lb ed="#R" n="79"/>consanguinitas, quam 
+      <lb ed="#R" n="80"/>erat antiquitus: sed 
+      an<lb ed="#R" n="81" break="no"/>tiquitus consanguinitas 
+      <lb ed="#R" n="82"/>non impediebat 
+      matri<lb ed="#R" n="83" break="no"/>monium: ergo nec 
+      mo<lb ed="#R" n="84" break="no"/>do. Minor patet, quoniam 
+      <lb ed="#R" n="85"/>inter fratres, &amp; sorores 
+      <lb ed="#R" n="86"/>contrahebatur antiquitus matrimonium. 
+    </p>
+               <p>
+                  <lb ed="#R" n="87"/>In oppositum arguo per auctoritatem Ecclesiae 
+      <lb ed="#R" n="88"/>oppositum statuentis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="89"/>Respondeo, primo videndum est in generali, quid 
+      <lb ed="#R" n="90"/>sit consanguinitas, postea dicendum erit aliquid 
+      <lb ed="#R" n="91"/>de linea parentali, &amp; postmodum ad propositum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="92"/>De primo communiter dicitur, quod 
+      consangui<lb ed="#R" n="93" break="no"/>nitas est vinculum aliquorum ab eodem stipite 
+      de<lb ed="#R" n="94" break="no"/>scendentium per naturalem propagationem 
+      tra<lb ed="#R" n="95" break="no"/>ctum: sed quid sit formaliter vinculum istud, 
+      an<lb ed="#R" n="96" break="no"/>sit amicitia? dicunt quidam, quod non est aliud, 
+      <lb ed="#R" n="97"/>quam specialis quaedam amicitia, &amp; hoc videtur 
+      <lb ed="#R" n="98"/>Aristoteles dicere 9. Ethic. 
+    </p>
+               <p>
+                  <lb ed="#R" n="99"/>Sed in oppositum est, quia tunc non essent 
+      con<lb ed="#R" n="100" break="no"/>sanguinei, qui se odissent. 
+    </p>
+               <p>
+                  <lb ed="#R" n="101"/>Alij dicunt, quod istud vinculum debet 
+      forma<lb ed="#R" n="102" break="no"/>liter attendi secundum conditiones indiuiduantes, 
+      <lb ed="#R" n="103"/>puta quantum ad accidentia similia, &amp; ideo qui sunt 
+      <lb ed="#R" n="104"/>de eadem parentela, frequenter assimilantur 
+      in<lb ed="#R" n="105" break="no"/>huiusmodi conditionibus, &amp; complexionibus, quae 
+      <lb ed="#R" n="106"/>sequuntur complexiones, sicut in lubricitate, 
+      per<lb ed="#R" n="107" break="no"/>tinacitate, &amp; huiusmodi. Vnde s. Ethic. narrat 
+      Ari<lb ed="#R" n="108" break="no"/>stoteles de quodam trahente patrem suum, 
+      tur<lb ed="#R" n="109" break="no"/>batus aduersus eum per domum, quod cum 
+      traxis<lb ed="#R" n="110" break="no"/>set vsque ad limen domus, dixit pater filio 
+      trahen<lb ed="#R" n="111" break="no"/>ti ipsum, non deberes me plus trahere vlterius, &amp; 
+      <lb ed="#R" n="112"/>quaerente filio quare? respondit, quia non plus 
+      tra<lb ed="#R" n="113" break="no"/>xi ego patrem meum, quasi iste deberet patrem 
+      <lb ed="#R" n="114"/>imitari in huiusinodi conditionibus, &amp; addunt, quod 
+      <lb ed="#R" n="115"/>secundum, quod durant huiusmodi asimilationes, 
+      <lb ed="#R" n="116"/>durat consanguincitas, &amp; deficiente deficit. 
+    </p>
+               <p>
+                  <lb ed="#R" n="117"/>Sed positio ista deficit, quia licet accidat, vt 
+      plu<lb ed="#R" n="118" break="no"/>rimum talis assimilatio inter consanguineos, 
+      ta<lb ed="#R" n="119" break="no"/>men haec assimilatio non est ratio talis 
+      consangui<lb ed="#R" n="120" break="no"/>neitatis, quia inter extraneos a consanguineitate 
+      <!--0189.xml-->
+      <pb ed="#R" n="189"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>est quandoque assimilatio, imo contingit 
+      frequen<lb ed="#R" n="2" break="no"/>ter filium in nullo assimilari patri. 
+    </p>
+               <p>
+                  <lb ed="#R" n="3"/>Dico ergo, quod istud vinculum non est aliud 
+      <lb ed="#R" n="4"/>quam habitudo consisens in esse morali, &amp; 
+      appre<lb ed="#R" n="5" break="no"/>hensione naturae intellectualis, inquantum 
+      intel<lb ed="#R" n="6" break="no"/>lectus imaginatur, &amp; apprehendit quoddam, quasi 
+      <lb ed="#R" n="7"/>ligamentum inter duos, vel plures descendentes 
+      <lb ed="#R" n="8"/>ab vno stipite: cuius quidem ligamenti sunt 
+      tria<lb ed="#R" n="9" break="no"/>fundamenta vnum est communicatio in 
+      naturali<lb ed="#R" n="10" break="no"/>bus, secundum est propagatio ab eodem stipite; 
+      <lb ed="#R" n="11"/>&amp; tertium est quaedam specialis amicitia: Et 
+      vlte<lb ed="#R" n="12" break="no"/>rius potest ibi interuenire quaedam vnitas, quia 
+      <lb ed="#R" n="13"/>duo consanguinei, etsi realiter non sint vnum 
+      <lb ed="#R" n="14"/>tamen in apprehensione apprehenduntur, vt vnum, 
+      <lb ed="#R" n="15"/>scilicet in tertio stipite a quo descendunt. 
+    </p>
+               <p>
+                  <lb ed="#R" n="16"/>Secundo videndum est de linea 
+      consanguinita<lb ed="#R" n="17" break="no"/>tis, quae quidem est triplex, descendentium, 
+      ascen<lb ed="#R" n="18" break="no"/>dentium, &amp; transuersalis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="19"/>Descendens est a persona propagante ad 
+      propa<lb ed="#R" n="20" break="no"/>gatas secundum lineam rectam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="21"/>Ascendens vero e conuerso propagatarum ad 
+      <lb ed="#R" n="22"/>propagantem. Transuersalis vero est a propagata 
+      <lb ed="#R" n="23"/>ad propagatam alteram absque hoc, quod 
+      vna<lb ed="#R" n="24" break="no"/>propagetur ab alia: gradus autem 
+      consanguinita<lb ed="#R" n="25" break="no"/>tis est secundum istas lineas, magis autem 
+      secun<lb ed="#R" n="26" break="no"/>dum ascendentem, &amp; descendentem, quam 
+      secun<lb ed="#R" n="27" break="no"/>dum transuersalem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="28"/>De tertio ad propositum dico, quod antiquitus 
+      <lb ed="#R" n="29"/>cognatio impediebat matrimonium vsque ad 
+      se<lb ed="#R" n="30" break="no"/>ptem gradus secundum talem lineam, nunc vero 
+      <lb ed="#R" n="31"/>non, vsque ad quatuor gradus; &amp; ratio est, quia 
+      <lb ed="#R" n="32"/>non videtur se plus extendere consanguinitas, 
+      vl<lb ed="#R" n="33" break="no"/>tram quartam enim generationem iam est 
+      vincu<lb ed="#R" n="34" break="no"/>lum illud in obliuione hominum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="35"/>Dico tunc, quod quaedam est cognatio, quae 
+      im<lb ed="#R" n="36" break="no"/>pedit de iure naturae, sicut ista, quae impedit 
+      secun<lb ed="#R" n="37" break="no"/>dum lineam ascendentem, &amp; descendentem, vt filius 
+      <lb ed="#R" n="38"/>cum matre, vel auia, &amp; deinceps, vel pater cum 
+      fi<lb ed="#R" n="39" break="no"/>lia, vel nepote, quapropter tantũmodo potest 
+      con<lb ed="#R" n="40" break="no"/>trahi matrimonium inter personas in linea 
+      trans<lb ed="#R" n="41" break="no"/>uersali, &amp; hinc est, quod non posset hodie Adam 
+      <lb ed="#R" n="42"/>contrahere cum aliqua, si viueret. 
+    </p>
+               <p>
+                  <lb ed="#R" n="43"/>Aliqua autem cognatio impedit de iure diuino, 
+      <lb ed="#R" n="44"/>qualis est inter personas, quae habitant simul, 
+      cuius<lb ed="#R" n="45" break="no"/>modi sunt frater &amp; soror, &amp; hoc quia propter 
+      con<lb ed="#R" n="46" break="no"/>tinuam cohabitationem fuisset excessus inter 
+      ta<lb ed="#R" n="47" break="no"/>les, &amp; deordinatio magna, nisi prohibitio 
+      interue<lb ed="#R" n="48" break="no"/>niret; quaedam autem cognatio impedit solum de 
+      <lb ed="#R" n="49"/>iure positiuo, qualis est inter personas in linea 
+      la<lb ed="#R" n="50" break="no"/>terali vsque ad quatuor gradus, &amp; hoc est tantum 
+      <lb ed="#R" n="51"/>ex satuto Ecclesiae. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

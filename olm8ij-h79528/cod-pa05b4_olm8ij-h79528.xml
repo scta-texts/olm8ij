@@ -1,0 +1,1432 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="232"/>
+            <cb ed="#R" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h79528"> <!-- l4-d49q1 -->
+            <head>Quaestio 1</head>
+            <p>
+               <lb ed="#R" n="94"/>Quaestio Vnica. 
+    </p>
+            <div>
+               <head>Articulus 1</head>
+               <head type="question-title">Utrum Beatitudo animae consi stat formaliter in 
+          operatione.</head>
+               <p>
+                  <lb ed="#R" n="95"/>ARTICVLVS PRJMVS. 
+      <lb ed="#R" n="96"/>Vtrum Beatitudo animae consi stat formaliter in 
+      <lb ed="#R" n="97"/>operatione. 
+    </p>
+               <p>
+                  <lb ed="#R" n="98"/>QVANTVM ad primam 
+      <lb ed="#R" n="99"/>quaestionem arguo 
+      pri<lb ed="#R" n="100" break="no"/>mo, quod beatitudo non 
+      <lb ed="#R" n="101"/>consistat formaliter in 
+      o<lb ed="#R" n="102" break="no"/>peratione, quia bonum 
+      <lb ed="#R" n="103"/>permansiuum debet 
+      con<lb ed="#R" n="104" break="no"/>sistere in forma 
+      perman<lb ed="#R" n="105" break="no"/>siua ex i. Ethic. cap. 10. 
+      <lb ed="#R" n="106"/>sed beatitudo est bonum 
+      <lb ed="#R" n="107"/>permansiuum, patet 
+      ibi<lb ed="#R" n="108" break="no"/>dem: ergo. sed habitus est permanentior, quam 
+      <lb ed="#R" n="109"/>actus: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="110"/>In oppositum arguo, quod secundum 
+      Philoso<lb ed="#R" n="111" break="no"/>phum 1. ethic. cap. 1o. faelicitas est operatio 
+      homi<lb ed="#R" n="112" break="no"/>nis secundum optimam virtutem: secundum autem 
+      <lb ed="#R" n="113"/>eum ibi, optimum in nobis est operatio secundum 
+      <lb ed="#R" n="114"/>virtutem: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="115"/>Item ratione, quia operatio est perfectior 
+      habi<lb ed="#R" n="116" break="no"/>tu, cuius signum est, quia praemiamur, non quod 
+      <lb ed="#R" n="117"/>fortes, sed quia fortiter dimicamus. Respondeo, 
+      <lb ed="#R" n="118"/>aliqui tenent, quod beatitudo consistit in illapsu 
+      <lb ed="#R" n="119"/>Dei in essentia animae, sed cum illapfus Dei in 
+      es<lb ed="#R" n="120" break="no"/>sentiam sit communis omni creaturae, eo quod Deus 
+      <lb ed="#R" n="121"/>illabitur omni creaturae, non potest ista opinio 
+      in<lb ed="#R" n="122" break="no"/>telligi absolute de illapsu Deitatis, sed de illapsu 
+      <!--0233.xml-->
+      <pb ed="#R" n="233"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>eius in ratione obiecti, quo illabitur potentiae, tunc 
+      <lb ed="#R" n="2"/>pono propositiones.
+    </p>
+               <p>
+                  <lb ed="#R" n="3"/>Prima est, quod beatitudo non consistit in 
+      ope<lb ed="#R" n="4" break="no"/>ratione secundum rationem suae rationis absolute, 
+      <lb ed="#R" n="5"/>prout videlicet est qualitas quaedam absoluta, sed 
+      <lb ed="#R" n="6"/>secundum rationem aliam, videlicet, prout 
+      ipsa<lb ed="#R" n="7" break="no"/>est exhibitiua ob iecti, &amp; summi boni in esse praesen 
+      <lb ed="#R" n="8"/>tiali, ita quod operatio beatificat magis, vt per 
+      <lb ed="#R" n="9"/>eam obiectum manat &amp; praecedit in esse 
+      praesentia<lb ed="#R" n="10" break="no"/>li, quam inquantum est natura talis, &amp; qualitas 
+      <lb ed="#R" n="11"/>absoluta 
+  </p>
+               <p>
+                  <lb ed="#R" n="12"/>Hanc Propositionem probo sic, sub illa ratione 
+      <lb ed="#R" n="13"/>uperatio nostra est beatificatiua, sub qua est 
+      satia<lb ed="#R" n="14" break="no"/>tiua, quia beatitudo est summa satietas iuxta illud 
+      <lb ed="#R" n="15"/>Augustini, beatus est qui habet quicquid vult, sed 
+      <lb ed="#R" n="16"/>operatio non est satiatiua, vt qualitas, sed vt 
+      exhi<lb ed="#R" n="17" break="no"/>bitiua obiecti beatifici in esse praesentiali: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="18"/>Maior nota est, &amp; probata per Aug. 13. de Trin. 
+      <lb ed="#R" n="19"/>cap. 5. beatus est qui habet.
+    </p>
+               <p>
+                  <lb ed="#R" n="20"/>Minor patet, quia solum finis habet satiare, non 
+      <lb ed="#R" n="21"/>autem illud, quod est ad finem vt sic, sed 
+      opera<lb ed="#R" n="22" break="no"/>tio in ratione, qua est qualitas circunscripta 
+      exhi<lb ed="#R" n="23" break="no"/>bitione obiecti, est ens ad finem, non ipse finis 
+      si<lb ed="#R" n="24" break="no"/>militer vt sic, est bonum limitatum &amp; finitum, nul 
+      <lb ed="#R" n="25"/>lum autem tale bonum satiaret. 
+    </p>
+               <p>
+                  <lb ed="#R" n="26"/>Item vt sic distinguitur a Deo; nullum autem aliud 
+      <lb ed="#R" n="27"/>bonum satiat, nisi Deus, ex 1. Confess. cap. 1. 
+    </p>
+               <p>
+                  <lb ed="#R" n="28"/>Item vt sic relinquit potentiam ad aliam formam 
+      <lb ed="#R" n="29"/>puta ad aliam visionem: non ergo vt sic continet omnem 
+      <lb ed="#R" n="30"/>formam, &amp; per consequens, vt sic non satiat: satiat 
+      <lb ed="#R" n="31"/>ergo per oppositum horum, in quantum scilicet est 
+      <lb ed="#R" n="32"/>finis, &amp; hoc habet pro eo, quod est exhibitio ipsius 
+      <lb ed="#R" n="33"/>finis. Item inquantum est infinita, summum bonum, 
+      <lb ed="#R" n="34"/>&amp; virtute continens omne bonum, ista autem non 
+      con<lb ed="#R" n="35" break="no"/>petunt operationi formaliter, sed extrinsece, inquan 
+      <lb ed="#R" n="36"/>tum est exhibitiua summi boni, &amp; infiniti; ex quo 
+      <lb ed="#R" n="37"/>patet, quod vt sic non relinquit potentiam ad aliud 
+      <lb ed="#R" n="38"/>quia omne bonum eminenter continetur in eo, 
+      <lb ed="#R" n="39"/>quod exhibet. 
+    </p>
+               <p>
+                  <lb ed="#R" n="40"/>Secunda ratio principalis est ista. Philosophus 
+      <lb ed="#R" n="41"/>1. Ethic. c. 8. distinguit de bono, &amp; dicit, quod 
+      bo<lb ed="#R" n="42" break="no"/>num vno inodo inuenitur in omni praedicamento, ent 
+      <lb ed="#R" n="43"/>in Aliquid; hoc modo bonum accipitur pro bono vti 
+      <lb ed="#R" n="44"/>li, qualis est omnis bonitas, quae est ordinabilis in 
+      <lb ed="#R" n="45"/>fincm. 
+    </p>
+               <p>
+                  <lb ed="#R" n="46"/>Vlterius beatitudo non est finis vltimus, sed est 
+      <lb ed="#R" n="47"/>finis sub fine, quia finis vltimus est ipsum obiectum 
+      <lb ed="#R" n="48"/>finis vero sub fine vltimo est ipse actus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="49"/>His suppositis arguo sic. In omni ordinabili 
+      in<lb ed="#R" n="50" break="no"/>finem, &amp; in omni eo, quod est finis sub fine, ratio 
+      <lb ed="#R" n="51"/>eius, quod est ordinabile non accipitur penes abso 
+      <lb ed="#R" n="52"/>lutum, sed in connexione ad finem, quae connexio 
+      <lb ed="#R" n="53"/>consistit in exhibitione ipsius finis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="54"/>Haec Propositio patet ex exemplo, si enim 
+      appe<lb ed="#R" n="55" break="no"/>to potionem exhibentem sanitatem non appeto eam 
+      <lb ed="#R" n="56"/>propter absolutum, sed praecise, vt ordinatur, &amp; con 
+      <lb ed="#R" n="57"/>nectitur sanitati, si enim appeteretur ratione 
+      abso<lb ed="#R" n="58" break="no"/>luti, iam non appeteretur propter aliud, sed 
+      pro<lb ed="#R" n="59" break="no"/>pter se, sed bonitas actus beatifici est bonitas 
+      ordi<lb ed="#R" n="60" break="no"/>nabilis in finem, nec appeteretur propter se, sed 
+      <lb ed="#R" n="61"/>propter aliud, nec beatificat propter se, sed 
+      pro<lb ed="#R" n="62" break="no"/>pter obie ctum, quod exhibet praesens: ergo non bea 
+      <lb ed="#R" n="63"/>tificat; nec ratio eius, inquantum est beatitudo, 
+      su<lb ed="#R" n="64" break="no"/>mi debet penes absolutum eius, sed penes 
+      exhibi<lb ed="#R" n="65" break="no"/>tionem finis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="66"/>Et confirmo hoc, quia quando aliquid non com 
+      <lb ed="#R" n="67"/>petit alicui per se, &amp; primo per aliud, non 
+      compe<lb ed="#R" n="68" break="no"/>tit sibi per rationem absoluti, sed ex connexione- 
+      <!--0233.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>ad illud: led beatificare conuenit operationi 
+      non<lb ed="#R" n="70" break="no"/>per se, &amp; primo, sed ratione obiecti: ergo. Vnde po 
+      <lb ed="#R" n="71"/>sito, quod Deus faceret absolutum operationis, 
+      si<lb ed="#R" n="72" break="no"/>ne exhibitione obiecti, non beatificaret: faceret au 
+      <lb ed="#R" n="73"/>tem exhibitionem per impossibile remoto 
+      absolu<lb ed="#R" n="74" break="no"/>to beatificaret. Ex quo potest ratio formari: quia 
+      <lb ed="#R" n="75"/>illud essentialiter consiltit in eo, quo posito, omni 
+      <lb ed="#R" n="76"/>alio circunscripto ponitur, &amp; quo remoro, omni 
+      <lb ed="#R" n="77"/>alio posito remouetur. 
+  </p>
+               <p>
+                  <lb ed="#R" n="78"/>Hanc conclusionem intendit <ref>Aug. 13. de Trin. c. 5.</ref>
+                  <lb ed="#R" n="79"/>cum dicit: beatus est, qui habet quicquid vult, &amp; ni 
+      <lb ed="#R" n="80"/>hil mali vult, idest, qui habet quicquid recte vult; 
+      <lb ed="#R" n="81"/>ista autem habitio non consistit in absoluto 
+      opera<lb ed="#R" n="82" break="no"/>tionis, quia illo volito non ex hoc volito habetur 
+      <lb ed="#R" n="83"/>volitum omne bonum, sed consistit in exhibitione 
+      <lb ed="#R" n="84"/>obiecti, quo exhibito habetur prae sentialiter omne 
+      <lb ed="#R" n="85"/>bonum in quadam ratione eminenti. 
+    </p>
+               <p>
+                  <lb ed="#R" n="86"/>Secunda Propositio est, quod beatitudo non con 
+      <lb ed="#R" n="87"/>sistit in exibitione obiecti per operationem 
+      tan<lb ed="#R" n="88" break="no"/>quam in relatione media inter absolutum 
+      opera<lb ed="#R" n="89" break="no"/>tionis, &amp; actum ipsum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="90"/>Hanc pono propter dicta quorundam qui dicunt, 
+      <lb ed="#R" n="91"/>quod consistit in quadam attingentia, qua actus 
+      <lb ed="#R" n="92"/>attingit obiectum, quae est relatio secundum eos. 
+    </p>
+               <p>
+                  <lb ed="#R" n="93"/>Hoc non imaginor, sed imaginor, quod cum ipsa 
+      <lb ed="#R" n="94"/>operatio sit quaedam formalis praesentia per ipsam 
+      <lb ed="#R" n="95"/>met absq. omni relatione media ponitur obiectum 
+      <lb ed="#R" n="96"/>praesens in esse obiectiuo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="97"/>Et quod beatitudo non consistat in aliqua 
+      rela<lb ed="#R" n="98" break="no"/>tione tali probo: quia relatio habet minimam 
+      en<lb ed="#R" n="99" break="no"/>titatem, ex quo sequerentur duo inconuenientia. 
+    </p>
+               <p>
+                  <lb ed="#R" n="100"/>Primum, quod illud, quod habet minimam 
+      enti<lb ed="#R" n="101" break="no"/>tatem, daret absoluto operationis, quod esset 
+      bo<lb ed="#R" n="102" break="no"/>num optimum, &amp; finis optimus hominis, &amp; 
+      bo<lb ed="#R" n="103" break="no"/>num summum. Secundum, quia illud quo 
+      beatifi<lb ed="#R" n="104" break="no"/>camur vltimiate haberet mininiam entitatem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="105"/>Item ad illud. Realitas absoluta est principalior 
+      <lb ed="#R" n="106"/>quam relata, non ergo beatificaret sub ratione 
+      re<lb ed="#R" n="107" break="no"/>lationis, sed magis sub ratione absoluta; nec ergo 
+      <lb ed="#R" n="108"/>in relatione, nec in aggregato ex absoluta &amp; 
+      rela<lb ed="#R" n="109" break="no"/>tione consistit ratio beatitudinis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="110"/>Ad pleniorem ergo propositi euidentiam 
+      scien<lb ed="#R" n="111" break="no"/>dum est, quod, vt dixi in omni intellectione 
+      ema<lb ed="#R" n="112" break="no"/>nat obiectum eius, siue sit intuitiua, &amp; hoc in esse 
+      <lb ed="#R" n="113"/>quodam obiectiuo, quod capit res per ipsam 
+      visio<lb ed="#R" n="114" break="no"/>nem, exemplum intelligendo rosam, praeter esse 
+      <lb ed="#R" n="115"/>reale, quod habet extra intellectum capit 
+      quod<lb ed="#R" n="116" break="no"/>dam esse apparens in prospectu mentis, quia 
+      poni<lb ed="#R" n="117" break="no"/>tur mihi rosa apparens in conspectu meo, illud au 
+      <lb ed="#R" n="118"/>tem, quod sic ponitur non est rosa subsistens in esse 
+      <lb ed="#R" n="119"/>reali, siue Jdaea Platonis, nec eit actus ipsius 
+      in<lb ed="#R" n="120" break="no"/>tellecus, quia cum illud sit entitas simpliciter, &amp; 
+      <lb ed="#R" n="121"/>vniuersalis non particulata actus intellectus erit 
+      <lb ed="#R" n="122"/>entitas vniuersalis simpliciter, &amp; per consequens 
+      <lb ed="#R" n="123"/>ipse intellectus, quia ens simpliciter non recipitur 
+      <lb ed="#R" n="124"/>in ente particulato, &amp; sic sequitur opinio 
+      Com<lb ed="#R" n="125" break="no"/>mentatoris, quod intellecttus non sit entitas 
+      parti<lb ed="#R" n="126" break="no"/>culata, sed sit tota natura intellectualis simpliciter 
+      <lb ed="#R" n="127"/>subsistens, &amp; per consequens idem intellectus erit 
+      <lb ed="#R" n="128"/>omnino in omnibus. Jmmo haec est potissima ratio 
+      <lb ed="#R" n="129"/>quam adducit Commentator ad conclusionem suam 
+    </p>
+               <p>
+                  <lb ed="#R" n="130"/>Confirmo, quia illud, quod est sic positum 
+      in<lb ed="#R" n="131" break="no"/>prospectu mentis, est illud, quod intelligo, sed 
+      <lb ed="#R" n="132"/>actum meum non intelligo, alias prima intellecio 
+      <lb ed="#R" n="133"/>esset reflexa. Consimiliter qui dicunt, quod illud 
+      <lb ed="#R" n="134"/>est ipsemet actus intelligendi habent negare 
+      om<lb ed="#R" n="135" break="no"/>nia entia rationis.
+    </p>
+               <p>
+    <!-- missing line break --> Dico ergo, quod praeter existentiam realem ob-
+      <!--0234.xml-->
+      <pb ed="#R" n="234"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>iecti extra per ipsam intellectionem siue 
+      intuiti<lb ed="#R" n="2" break="no"/>uam siue abstractiuam capit obiecum aliud esse, 
+      <lb ed="#R" n="3"/>quod est esse apparens, &amp; in obiici, &amp; vnum 
+      po<lb ed="#R" n="4" break="no"/>test ab alio separari, vnde si videas nunc colorem 
+      <lb ed="#R" n="5"/>realiter existentem, si Deus adnihilaret colorem 
+      <lb ed="#R" n="6"/>in te, adhuc posset remanere in esse apparenti in 
+      <lb ed="#R" n="7"/>prospectu tuo, &amp; ratio est, quia obiectum per actum 
+      <lb ed="#R" n="8"/>tuum capit aliquod aliud esse ab esse reali, quod 
+      <lb ed="#R" n="9"/>habet extra, haec es expressa intentio <ref>Augustini 
+      <lb ed="#R" n="10"/>11. de Trinit. cap. 1.</ref> vbi expresse vult quod quando 
+      <lb ed="#R" n="11"/>attente colorem aliquem perspexerit abeunte 
+      co<lb ed="#R" n="12" break="no"/>lore, vel auertente te oculum remanent reliquiae 
+      <lb ed="#R" n="13"/>visionis, &amp; quod idem vides quod ante videbas, 
+      <lb ed="#R" n="14"/>nec differt, nisi quia ante erat visio vera, nunc est 
+      <lb ed="#R" n="15"/>falsa. Vnde ex hoc probabant antiqui, quod 
+      con<lb ed="#R" n="16" break="no"/>tradictoria essent simul vera, quia poterant 
+      con<lb ed="#R" n="17" break="no"/>tradictoria simul apparere, vt eadem pictura 
+      pro<lb ed="#R" n="18" break="no"/>pinqua apparet plana, quae remote apparet 
+      pro<lb ed="#R" n="19" break="no"/>minens, &amp; Commentator, &amp; Philosophus destruunt 
+      <lb ed="#R" n="20"/>modum istum dicentes, quod non omne quod vi. 
+      <lb ed="#R" n="21"/>detur est verum, quod non esset verum, nisi obiectum 
+      <lb ed="#R" n="22"/>caperet esse aliquod apparens virtute visionis, quod 
+      <lb ed="#R" n="23"/>esse non est sua realis praesentia, &amp; ex hoc probaui 
+      <lb ed="#R" n="24"/>alias, quod visio potest esse de re quae non es. 
+      Vn<lb ed="#R" n="25" break="no"/>de aduertendum, quod in omni visione siue intelle 
+      <lb ed="#R" n="26"/>ctione est considerare aliquid, quod apparet, &amp; 
+      po<lb ed="#R" n="27" break="no"/>tentiam actiuam eius in tali esse praesenti, &amp; cum 
+      <lb ed="#R" n="28"/>hoc terminum praesentialitatis, qui est illud cui po 
+      <lb ed="#R" n="29"/>nitur sic praesens, cum enim intellecio sit quaedam 
+      <lb ed="#R" n="30"/>sormalis apparentia impossib ile est, quod sit 
+      intel<lb ed="#R" n="31" break="no"/>lectio, &amp; non sit quod apparet tunc ibi est conside 
+      <lb ed="#R" n="32"/>rare quo effectiue, quasi res fit apparens, &amp; illud 
+      <lb ed="#R" n="33"/>cui fit apparens, quod enim apparet alicui necessa 
+      <lb ed="#R" n="34"/>rio apparet, sicut dicunt quidam, quod intellectus 
+      <lb ed="#R" n="35"/>agens, &amp; phantasma faciunt obiectum apparere
+      <lb ed="#R" n="36"/>ipsi intellectui, non sibi.
+  </p>
+               <p>
+    <!-- missing line break -->Ex quo patet, quod alia est habitudo eius, quod
+      <lb ed="#R" n="37"/>facit ipsum apparere, &amp; alia habitudo eius ad 
+      il<lb ed="#R" n="38" break="no"/>lud cui dicitur apparere, sic ergo absolutum ipsius 
+      <lb ed="#R" n="39"/>intellectionis fundat duplicem habitudinem ad 
+      ip<lb ed="#R" n="40" break="no"/>sum obiectum, apparens, vnam quasi de 
+      genere<lb ed="#R" n="41" break="no"/>actionis, in quantum quali effectiue virtute intelle 
+      <lb ed="#R" n="42"/>ctionis obiectum capit esse apparens, &amp; talis habi 
+      <lb ed="#R" n="43"/>tudo dicitur differre. 
+    </p>
+               <p>
+                  <lb ed="#R" n="44"/>Aliam vero habitudinem alterius generis, vt est 
+      <lb ed="#R" n="45"/>illud cui illud apparet, sicut termino apparentiae, 
+      <lb ed="#R" n="46"/>&amp; talis habitudo dicitur intellectio. Ex quo 
+      colli<lb ed="#R" n="47" break="no"/>go, quod intellectio est illud absolutum, non 
+      sim<lb ed="#R" n="48" break="no"/>pliciter, &amp; praecise, sed vt fundat illam 
+      habitudi<lb ed="#R" n="49" break="no"/>nem, vt cui obijcitur. 
+    </p>
+               <p>
+                  <lb ed="#R" n="50"/>Tunc dico vlterius, quod intelligere non 
+      consi<lb ed="#R" n="51" break="no"/>stit in absoluto, &amp; relatione media, non puto enim 
+      <lb ed="#R" n="52"/>quod habitudo intellectionis ad obiectum 
+      appa<lb ed="#R" n="53" break="no"/>rens, vt cui apparet, sit relatio media, sed es 
+      praeci<lb ed="#R" n="54" break="no"/>se quaedam connotatio eius, quod apparet, vt sic 
+      <lb ed="#R" n="55"/>intelligere non dicat unum complexum ex 
+      abso<lb ed="#R" n="56" break="no"/>luto, &amp; relatione ad obiectum, sed dicat ipsum 
+      <lb ed="#R" n="57"/>absolutum cum certo connotato, puta cum 
+      obie<lb ed="#R" n="58" break="no"/>co in esse apparenti. Intellectio enim, ut est cui 
+      <lb ed="#R" n="59"/>obiectum apparet, connotat obiectum, quod 
+      ap<lb ed="#R" n="60" break="no"/>paret, &amp; sic intelligere non est aliud quam habere 
+      <lb ed="#R" n="61"/>formam absolutam cum aliquo apparenti 
+      conno<lb ed="#R" n="62" break="no"/>tato, quod sit ei apparens. 
+    </p>
+               <p>
+                  <lb ed="#R" n="63"/>Ex his ultimo concludo solutionem quaestionis. 
+      <lb ed="#R" n="64"/>cum enim quaeritur: Vtrum beatitudo consistat 
+      <lb ed="#R" n="65"/>in operatione, dico quod sic, sed non in 
+      operatio<lb ed="#R" n="66" break="no"/>ne, accipiendo cam praecise quantum ad suum 
+      ab<lb ed="#R" n="67" break="no"/>solutum, sed in intellectione, cum concurrant duo, 
+      <!--0234.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>scilicet absolutum intellectionis &amp; obiectum appa 
+      <lb ed="#R" n="69"/>rens connotatum in esse praesentiali, ideo consistit 
+      <lb ed="#R" n="70"/>in operatione, ut est connotatiua talis esse praesen 
+      <lb ed="#R" n="71"/>tis, ut illud cui est praesens, nunquam beatificaret. 
+      <lb ed="#R" n="72"/>Sic tamen intelligendo, ut dictum est, quod inter 
+      <lb ed="#R" n="73"/>absolutum intellectionis &amp; obiectum, nulla cadit 
+      <lb ed="#R" n="74"/>relatio media, in qua, uel in toto complexo 
+      consi<lb ed="#R" n="75" break="no"/>stat beatitudo. Ad argumentum patet. 
+    </p>
+            </div>
+            <div>
+               <head>Articulus 2</head>
+               <head type="question-title">
+      Utrum beatitudo animae consistat in vna tantum 
+      operatione formaliter.
+    </head>
+               <p>
+                  <lb ed="#R" n="76"/>ARTICVLVS II 
+      <lb ed="#R" n="77"/>Vtrum beatitudo animae consistat in vna tantum 
+      <lb ed="#R" n="78"/>operatione formaliter. 
+    </p>
+               <p>
+                  <lb ed="#R" n="79"/>QVo ad secundam quaestionem arguo primo, 
+      <lb ed="#R" n="80"/>quod beatitudo consistat formaliter in 
+      vna<lb ed="#R" n="81" break="no"/>tantum operatione, quoniam secundum 
+      Aristote<lb ed="#R" n="82" break="no"/>lem 1. Ethic. cap. 8. beatitudo est bonum hominis 
+      <lb ed="#R" n="83"/>secundum optimam eius virtutem: sed nulla 
+      ope<lb ed="#R" n="84" break="no"/>ratio potest esse secundum optimam virtutem 
+      ho<lb ed="#R" n="85" break="no"/>minis nisi vna, nisi ponerentur duo optima 
+      <lb ed="#R" n="86"/>ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="87"/>In oppositum est, quia Philosophus ibidem 
+      di<lb ed="#R" n="88" break="no"/>cit, quod in operatione, quae est foelicitas, non 
+      di<lb ed="#R" n="89" break="no"/>stinguuntur tria haec, pulchrum, de lectabile, &amp; opti 
+      <lb ed="#R" n="90"/>mum. Et Eustratius Commentator super 8. cap. 
+      <lb ed="#R" n="91"/>lib. 1. Ethic, dicit, ibi, quod faelicitas habet deleca 
+      <lb ed="#R" n="92"/>tionem annexam, non tanquam extrinsecum 
+      quod<lb ed="#R" n="93" break="no"/>dam 
+    </p>
+               <p>
+                  <lb ed="#R" n="94"/>Respondeo, primo recitabo tres opiniones. 
+      Se<lb ed="#R" n="95" break="no"/>cundo pono propositionem intentam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="96"/>De primo opinio aliquorum habet ortum ex 
+      di<lb ed="#R" n="97" break="no"/>ctis Arist. &amp; Comm. 1. Ethic. c. 7. &amp; Comm. ibid. quae 
+      <lb ed="#R" n="98"/>videtur esse quod beatitudo consistit in vna simpli 
+      <lb ed="#R" n="99"/>ci operatione, &amp; ratio ad hanc conclusionem ex 
+      <lb ed="#R" n="100"/>dictis potest esse duplex. 
+    </p>
+               <p>
+                  <lb ed="#R" n="101"/>Prima ratio sumitur ex ratione vltimi. 
+      Faelici<lb ed="#R" n="102" break="no"/>tas enim habet rationem vltimi. Tunc sic: 
+      Jmpossi<lb ed="#R" n="103" break="no"/>bile est, quod aliqua plura habeant simpliciter 
+      ra<lb ed="#R" n="104" break="no"/>tionem vltimi: sed beatitudo habet rationem 
+      vlti<lb ed="#R" n="105" break="no"/>mi: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="106"/>Maior nota est, quoniam sicut impossibile est, 
+      <lb ed="#R" n="107"/>quod sint plura simpliciter prima, sic impossibile 
+      <lb ed="#R" n="108"/>est, quod sint plura simpliciter vltima. 
+    </p>
+               <p>
+                  <lb ed="#R" n="109"/>Minor patet, quia faelicitas est optima operatio 
+      <lb ed="#R" n="110"/>acttuum humanorum ex 1. Ethic. Confirmatur haec 
+      <lb ed="#R" n="111"/>ratio: quia si essent plures fines in actibus 
+      huma<lb ed="#R" n="112" break="no"/>nis, aut illi essent disparati, &amp; tunc actus humani 
+      <lb ed="#R" n="113"/>nullum haberent inter se ordinem; vel sunt ad 
+      in<lb ed="#R" n="114" break="no"/>uicem ordinati, &amp; tunc aut vnus ordinatur ad 
+      <lb ed="#R" n="115"/>alium, &amp; non e conuerso, &amp; habeo propositum, 
+      <lb ed="#R" n="116"/>quia ille qui non ordinatur, praecise est finis 
+      vlti<lb ed="#R" n="117" break="no"/>mus: aut vterq. ad alium ordinatur, &amp; hoc 
+      vide<lb ed="#R" n="118" break="no"/>tur impossibile, quia sic erit circulus in causis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="119"/>Secunda ratio sumitur ex ratione optimi, sic. 
+      <lb ed="#R" n="120"/>Inter omnes operationes hominis, operatio, quae 
+      <lb ed="#R" n="121"/>est faelicitas, est optima ex 1. Ethic. cap. 8. sed impos 
+      <lb ed="#R" n="122"/>sibile est dare plura optima, tum, quia quod per 
+      <lb ed="#R" n="123"/>abundantiam dicitur, &amp;c. tum quia actus 
+      diuer<lb ed="#R" n="124" break="no"/>sos, &amp; alios specifice impossibile estt esse in eodem 
+      <lb ed="#R" n="125"/>gradu nobilitatis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="126"/>Tertia ratio sumitur ex dictis Aristotelis primo 
+      <lb ed="#R" n="127"/>Ethic. ipse dat ibi quandam regulam ad inueniendum 
+      <lb ed="#R" n="128"/>finem, &amp; dicit: Si reperias multos fines, transcendas 
+      <lb ed="#R" n="129"/>donec peruenias ad vnum, ad quem ordinentur, 
+      <lb ed="#R" n="130"/>vbi dicit Commentator Eustratius, de 
+      ratione<lb ed="#R" n="131" break="no"/>vltimi est, quod sit optimum omnium actuum huma 
+      <lb ed="#R" n="132"/>norum, &amp; illud excedat omnia alia. Tunc sic: Vel 
+      <!--0235.xml-->
+      <pb ed="#R" n="235"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>in actibus humanis, est aliquis actus qui est finis vl 
+      <lb ed="#R" n="2"/>timus in actibus humanis &amp; habeo propositum, vel 
+      <lb ed="#R" n="3"/>sunt plures tales: &amp; si sic, ergo quilibet est habens 
+      <lb ed="#R" n="4"/>rationem optimi, &amp; ex hoc quod quodlibet habet 
+      <lb ed="#R" n="5"/>rationem optimi, sunt inaequales, quia de 
+      ratio<lb ed="#R" n="6" break="no"/>ne optimi est, quod excedat alia, vt patet ibi, ergo 
+      <lb ed="#R" n="7"/>erunt aequales, &amp; inaequales: ergo contradicio 
+      <lb ed="#R" n="8"/>videtur ponere plures actus humanos esse fines. 
+      <lb ed="#R" n="9"/>haec est ratio expressa Eustratij, vbi supra. 
+    </p>
+               <p>
+                  <lb ed="#R" n="10"/>Alia opinio est, quod ad beatitudinem 
+      concur<lb ed="#R" n="11" break="no"/>runt duae operationes, ita quod formaliter 
+      consi<lb ed="#R" n="12" break="no"/>stit in duabus talibus operationibus, &amp; habet pro 
+      <lb ed="#R" n="13"/>se rationes. 
+    </p>
+               <p>
+                  <lb ed="#R" n="14"/>Prima est ista: Illud, quod immediate coniungit 
+      <lb ed="#R" n="15"/>summo bono, pertinet ad beatudinem, nihil enim 
+      <lb ed="#R" n="16"/>est essentialiter beatitudo, nisi vt vnit summo 
+      bo<lb ed="#R" n="17" break="no"/>no: sed duae sunt operationes, quae vniunt summo 
+      <lb ed="#R" n="18"/>bono, operatio secundum intellectum, &amp; operatio 
+      <lb ed="#R" n="19"/>secundum voluntatem: ergo in ambabus 
+      opera<lb ed="#R" n="20" break="no"/>tionibus consistit essentialiter beatitudo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="21"/>Secunda ratio est, quia quando aliqua plura 
+      re<lb ed="#R" n="22" break="no"/>quiruntur ad esse alicuius, non minus videtur, 
+      <lb ed="#R" n="23"/>quod plura requirantur ad eius bene esse: sed ad 
+      <lb ed="#R" n="24"/>esse animae pertinent duae potentiae, 
+      intelle<lb ed="#R" n="25" break="no"/>ctus, scilicet, &amp; voluntas: ergo ad optimum 
+      <lb ed="#R" n="26"/>eius, quod est sua felicitas, requiruntur duo 
+      pro<lb ed="#R" n="27" break="no"/>portionaliter, vnum ex parte intellectus, &amp; aliud 
+      <lb ed="#R" n="28"/>ex parte voluntatis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="29"/>Tertia ratio est ista: Bonum cuiuslibet vere consi 
+      <lb ed="#R" n="30"/>stit in propria eius operatione ex 1. Ethic. sed 
+      du<lb ed="#R" n="31" break="no"/>plex est operatio hominis, propria, &amp; secundum 
+      <lb ed="#R" n="32"/>intellecum, &amp; secundum voluntatem: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="33"/>Tertia opinio concordare volens istas, est, quod 
+      <lb ed="#R" n="34"/>beatitudo potest dupliciter definiri. Vno modo sic, 
+      <lb ed="#R" n="35"/>beatitudo est perfectissima operatio hominis secũ- 
+      <lb ed="#R" n="36"/>dum optimam eius virtutem, perfectissime vniens 
+      <lb ed="#R" n="37"/>summo bono, &amp; optimo, &amp; sic prima opinio dicit 
+      <lb ed="#R" n="38"/>verum, quia vnica est tantum operatio, quae 
+      per<lb ed="#R" n="39" break="no"/>sectissime est vnire summo bono. Alio modo potest 
+      <lb ed="#R" n="40"/>sic definiri: beatitudoest perfecta operatio hominis 
+      <lb ed="#R" n="41"/>secundum perfectam virtutem eius perfecte vniens 
+      <lb ed="#R" n="42"/>summo bono, &amp; in hoc secunda opinio dicit verum, 
+      <lb ed="#R" n="43"/>quia sunt duae operationes, quae perfecte habent 
+      v<lb ed="#R" n="44" break="no"/>nire optimo, licet altera earum vniat perfectissime 
+      <lb ed="#R" n="45"/>Nunc secundo pono duas propositiones.
+    </p>
+               <p>
+                  <lb ed="#R" n="46"/>Prima est, quod per diuersitatem illarum duarum 
+      <lb ed="#R" n="47"/>definitionum non potest veritas ista inuestigari: 
+      <lb ed="#R" n="48"/>ratio est, quia quando quaerimus de essentia 
+      bea<lb ed="#R" n="49" break="no"/>titudinis, non curamus de ratione definitiua: 
+      <lb ed="#R" n="50"/>vnius autem rei vnica est essentialis definitio, 
+      quan<lb ed="#R" n="51" break="no"/>tumcumque ergo varies descriptiones, cum non sit 
+      <lb ed="#R" n="52"/>nisi vna essentia beatitudinis, non est nisi vnica 
+      de<lb ed="#R" n="53" break="no"/>finitio. De illa ergo quaero: Vtrum esse 
+      beatitudi<lb ed="#R" n="54" break="no"/>nis constet in vna operatione, vel in pluribus, &amp; 
+      re<lb ed="#R" n="55" break="no"/>manet difficultas insoluta. 
+    </p>
+               <p>
+                  <lb ed="#R" n="56"/>Confirmo hoc, quia secundum hoc, cum 
+      quaere<lb ed="#R" n="57" break="no"/>retur de aliquo: Vtrum pertinet ad definitionem 
+      <lb ed="#R" n="58"/>hominis, possem hoc modo dicere, quod duplex 
+      <lb ed="#R" n="59"/>est definitio, una homo est animal rationale, alia 
+      <lb ed="#R" n="60"/>homo est animal risibile susceptibile disciplinae. 
+      <lb ed="#R" n="61"/>Sed etiam de qualibet re, &amp; hoc modo nunquam 
+      <lb ed="#R" n="62"/>inuenirem illud, quod est praecise de ratione rei. 
+    </p>
+               <p>
+                  <lb ed="#R" n="63"/>Confirmo etiam, quia vnius rei vnica est 
+      defini<lb ed="#R" n="64" break="no"/>tio: cum ergo assignat duas definitiones illas, 
+      quae<lb ed="#R" n="65" break="no"/>stio nostra est, vtrum prima sit definitio illa, vel 
+      se<lb ed="#R" n="66" break="no"/>cunda, ex quo vnius rei non est duplex definitio, &amp; 
+      <lb ed="#R" n="67"/>tunc remanet quaestio: nam quaestio est, Vtrum esse 
+      <lb ed="#R" n="68"/>optimum, cum sit de ratione faelicitatis, vtrum sit 
+      <!--0235.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>de ratione cuiuslibet operationis concurrentis ad 
+      <lb ed="#R" n="70"/>beatitudinem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="71"/>Secundo pono Propositionem quantum ad prin 
+      <lb ed="#R" n="72"/>cipale intentum quaestionis, vbi praemitto primo 
+      <lb ed="#R" n="73"/>quandam distinctionem: Beatitudinem enim 
+      con<lb ed="#R" n="74" break="no"/>sistere in pluribus operationibus potest dupliciter 
+      <lb ed="#R" n="75"/>intelligi, vel quod in qualibet operatione 
+      consi<lb ed="#R" n="76" break="no"/>stat totaliter secundum essentiam suum per se: alio 
+      <lb ed="#R" n="77"/>modo, quod non in qualibet per se diuisim, sed in 
+      <lb ed="#R" n="78"/>totalitate ambarum simul, ita quod totalitas 
+      illa<lb ed="#R" n="79" break="no"/>rum duarum, quae non saluatur in qua libet parte 
+      <lb ed="#R" n="80"/>per se dicatur essentia beatitudinis. Exemplum 
+    </p>
+               <p>
+                  <lb ed="#R" n="81"/>Si quaeratur: vtrum essentia hominis consistat in 
+      <lb ed="#R" n="82"/>pluribus puta in materia &amp; forma, vel in altero 
+      <lb ed="#R" n="83"/>tantum; haec quaestio potest dupliciter intelligi, 
+      <lb ed="#R" n="84"/>vel vtrum in quolibet per se, puta &amp; in materia 
+      <lb ed="#R" n="85"/>&amp; in forma reseruetur ratio humanitatis; vel vtrum 
+      <lb ed="#R" n="86"/>in vtroque simul. Tunc pono duas propositiones. 
+    </p>
+               <p>
+                  <lb ed="#R" n="87"/>Prima est, quod si currat quaestio secundum 
+      pri<lb ed="#R" n="88" break="no"/>mum intellectum, teneo cum prima opinione, &amp; 
+      <lb ed="#R" n="89"/>rationes eius sunt adducta pro ipsa, poti ssime vero 
+      <lb ed="#R" n="90"/>ratio Eustratij. 
+    </p>
+               <p>
+                  <lb ed="#R" n="91"/>Secunda Propositio, est affirmatiua: In secundo 
+      <lb ed="#R" n="92"/>intellectu, non video quod aliqua ratio 
+      sufficien<lb ed="#R" n="93" break="no"/>ter improbet secundam opinionem, quin beatitudo 
+      <lb ed="#R" n="94"/>hominis consistat in vtraque operatione simul, 
+      pu<lb ed="#R" n="95" break="no"/>ta in totalitate &amp; coniunctione duarum simul 
+      opera<lb ed="#R" n="96" break="no"/>tionum. Et primo ostendo, quod rationes in 
+      oppo<lb ed="#R" n="97" break="no"/>situm non concludunt. Rationes enim duae 
+      proce<lb ed="#R" n="98" break="no"/>dentes ex ratione vltimi &amp; optimi bene 
+      conclu<lb ed="#R" n="99" break="no"/>dunt, quod beatitudo non potest per se consistere 
+      <lb ed="#R" n="100"/>in qualibet sigillatim duarum operationum: quia 
+      <lb ed="#R" n="101"/>impossibile est, quod quaelibet per se habeat 
+      ra<lb ed="#R" n="102" break="no"/>tionem vltimi, &amp; optimi &amp; ideo possunt consistere 
+      <lb ed="#R" n="103"/>in totalitate ambarum simul. Licet enim altera sit 
+      <lb ed="#R" n="104"/>nobilior altera, tamen totalitas eorum potest 
+      es<lb ed="#R" n="105" break="no"/>se nobilior quolibet per se; sicut licet forma sit 
+      no<lb ed="#R" n="106" break="no"/>bilior materia, tamen totalitas resultans ex 
+      vtro<lb ed="#R" n="107" break="no"/>que est nobilior quocunque eorum sigillatim. &amp; 
+      <lb ed="#R" n="108"/>tunc habeo, quod optimum &amp; vltimum hominis 
+      <lb ed="#R" n="109"/>consistit in totalitate coniunctionis duarum 
+      po<lb ed="#R" n="110" break="no"/>tentiarum ad optimum, &amp; illud, quod est finis 
+      vlti<lb ed="#R" n="111" break="no"/>mum &amp; optimum, est vnum non vnitate 
+      simplici<lb ed="#R" n="112" break="no"/>tatis, sed totalitatis, Per idem patet ad rationem 
+      <lb ed="#R" n="113"/>Eusratij. 
+    </p>
+               <p>
+                  <lb ed="#R" n="114"/>Secundo Probo, quod ita sit duplici ratione, &amp; 
+      <lb ed="#R" n="115"/>post modum auctoritate. Primo sic: illa duo 
+      perti<lb ed="#R" n="116" break="no"/>nent ad essentiam alicuius, quod non manet 
+      quo<lb ed="#R" n="117" break="no"/>cunque dempto eorum; ex hoc probatur, quod 
+      <lb ed="#R" n="118"/>materia, &amp; forma sunt de essentia compositi, nec 
+      <lb ed="#R" n="119"/>est alia via ad probandum hoc, nisi per praedictam 
+      <lb ed="#R" n="120"/>propositionem: sed dempta quacunque harum 
+      <lb ed="#R" n="121"/>operationum, siue quae est intellectus, siue quae est 
+      <lb ed="#R" n="122"/>voluntatis, non manet essentia beatitudinis: ergo. 
+      <lb ed="#R" n="123"/>Maior nota est, probatio minoris: Tolle enim, quod 
+      <lb ed="#R" n="124"/>non videat Deum, non est quis beatus, quia visio 
+      <lb ed="#R" n="125"/>est merces, tolle complacentiam, &amp; pone tristitiam, 
+      <lb ed="#R" n="126"/>nullus dicet, quod sit beatus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="127"/>Dicitur ad istam rationem, quod maior 
+      impli<lb ed="#R" n="128" break="no"/>cat impossibile, quod scilicet, Deus videatur, &amp; 
+      <lb ed="#R" n="129"/>non complaceat in eo voluntas, &amp; ideo nihil ad 
+      <lb ed="#R" n="130"/>propositum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="131"/>Contra istam responsionem arguo primo, quod 
+      <lb ed="#R" n="132"/>ratio confirmatur, cum enim arguitur de 
+      perti<lb ed="#R" n="133" break="no"/>nentibus ad essentiam rei, vel necessario consequen 
+      <lb ed="#R" n="134"/>tibus, possumus supponere hipotheses impossibiles, 
+      <lb ed="#R" n="135"/>hoc enim modo 7. topic. cap. 1. loco 12. docet Phi 
+      <lb ed="#R" n="136"/>losophus venari distinctionem: quia pone per im- 
+      <!--0236.xml-->
+      <pb ed="#R" n="236"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>possibile, quod A, non sit, si A, non existente adhuc 
+      <lb ed="#R" n="2"/>b. es, non sunta, &amp; b. idem. Et confirmo hoc per 
+      <lb ed="#R" n="3"/>Aristotelem ipsum, contradictio enim est apud 
+      ip<lb ed="#R" n="4" break="no"/>sum, quod vacuum, vt vacuum dicit 
+      priua<lb ed="#R" n="5" break="no"/>tionem pleni: modo ipse vult improbare defini· 
+      <lb ed="#R" n="6"/>tionem de vacuo, quam aliqui assignabant, 
+      dicen<lb ed="#R" n="7" break="no"/>tes, quod vacuum est, quod est plenum aere: ipse 
+      <lb ed="#R" n="8"/>hoc improbat dicens, ponamus, quod aer totus 
+      <lb ed="#R" n="9"/>exeat, &amp; nihil aliud intret, illud tunc erit vacuum 
+      <lb ed="#R" n="10"/>magis quam antea: concludit ergo quod ista non 
+      <lb ed="#R" n="11"/>est definitio vacui, Vacuum est plenum aere, 
+      sup<lb ed="#R" n="12" break="no"/>ponendo quod sit vas, in quo non sit aer, nec aliud 
+      <lb ed="#R" n="13"/>corpus, quod est impossibile apud eum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="14"/>Per hoc patet, quod dixi alias. Si essent plures 
+      <lb ed="#R" n="15"/>paternitates non essent per hoc plures essentiae: hic 
+      <lb ed="#R" n="16"/>est necessaria consequentia, &amp; tamen hipothesis im 
+      <lb ed="#R" n="17"/>plicat contradictionem, quia ex quo sunt idem 
+      <lb ed="#R" n="18"/>&amp; nullum gradum identitatis habent, necessario 
+      <lb ed="#R" n="19"/>vbi ponitur vnum, &amp; reliquum. Vnde si ponatur 
+      <lb ed="#R" n="20"/>omnimoda identitas inter ea, si essent plures 
+      pater<lb ed="#R" n="21" break="no"/>nitates, necessario essent plures essentiae: sed ex 
+      <lb ed="#R" n="22"/>quo ponitur, quod non sunt idem omni modo iden 
+      <lb ed="#R" n="23"/>titatis, sequitur, quod si plures paternitates, non 
+      <lb ed="#R" n="24"/>oportet, quod plures esssentiae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="25"/>Simile est in hac consequentia: Scio me esse lapi 
+      <lb ed="#R" n="26"/>dem, ergo non sum lapis: hic implicatur 
+      manife<lb ed="#R" n="27" break="no"/>ste contradictio, quia ex vna parte quicquid scio 
+      <lb ed="#R" n="28"/>est verum, cum scientia sit de veris: ergo verum 
+      <lb ed="#R" n="29"/>est quod sum lapis: ex alia parte verum est, quod 
+      <lb ed="#R" n="30"/>non sum lapis, quia impossioile est scientem esse 
+      <lb ed="#R" n="31"/>lapidem: ergo ad illam sequuntur contradictoria.
+    </p>
+               <p>
+                  <lb ed="#R" n="32"/>Simile dicunt Doctores de Spiritu sancto, quod 
+      <lb ed="#R" n="33"/>si non procederet a filio, non distingueretur ab eo, 
+      <lb ed="#R" n="34"/>quia esset filius, eo quod non esset spirare, quod 
+      <lb ed="#R" n="35"/>est idem essentiae, &amp; ideo non esset essentia, &amp; sic 
+      <lb ed="#R" n="36"/>non esset filius. In omnibus ergo talibus 
+      conse<lb ed="#R" n="37" break="no"/>quentijs, licet contradictoria sequantur, tamen con 
+      <lb ed="#R" n="38"/>sequentia bona est, &amp; ponimus tales hypotheses 
+      <lb ed="#R" n="39"/>ex quibus contradictoria sequuntur ad 
+      inuenien<lb ed="#R" n="40" break="no"/>dam rationem quidditatiuam rei. Sic ergo ad istam: 
+      <lb ed="#R" n="41"/>paternitates sunt plures, sequitur vtraque 
+      contra<lb ed="#R" n="42" break="no"/>dictoria, scilicet, quod essentia est plures ratione 
+      <lb ed="#R" n="43"/>adaequationis paternitatis ad potentiam elicitiuam, 
+      <lb ed="#R" n="44"/>quae est eadem cum essentia, tamen ex alia parte 
+      <lb ed="#R" n="45"/>sequitur etiam, quod essentia ex hoc nou est 
+      plu<lb ed="#R" n="46" break="no"/>res, quia non eodem modo essentia est eadem 
+      pa<lb ed="#R" n="47" break="no"/>ternitati, quo sibi. 
+    </p>
+               <p>
+                  <lb ed="#R" n="48"/>Secundo respondeo ad instantiam illam, quod 
+      <lb ed="#R" n="49"/>sorte possibile est, quod Deus videatur, &amp; cum 
+      <lb ed="#R" n="50"/>hoc, quod non diligatur, quia ad visionem 
+      sequi<lb ed="#R" n="51" break="no"/>tur complacentia, &amp; hoc vt effectus ab efficiente; 
+      <lb ed="#R" n="52"/>vel secundum alios, vt effectus causae finalis, quia 
+      <lb ed="#R" n="53"/>visio se habet in ratione termini ad complacentiam, 
+      <lb ed="#R" n="54"/>tunc Deus potest suspendere causalitatem causae ef 
+      <lb ed="#R" n="55"/>ficientis, &amp; finalis, ac supplere: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="56"/>Tum etiam, quia Deus potest facere prius 
+      sine<lb ed="#R" n="57" break="no"/>posteriori: ergo visionem sine volitione. 
+    </p>
+               <p>
+                  <lb ed="#R" n="58"/>Tertio, quia nulla est contradictio visionem 
+      <lb ed="#R" n="59"/>esse, &amp; non essse volitionem, cum non sint idem 
+      <lb ed="#R" n="60"/>primo modo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="61"/>Quarto, quia complacentia ordinem 
+      essentia<lb ed="#R" n="62" break="no"/>lem videtur habere ad visionem, non tamen e con 
+      <lb ed="#R" n="63"/>uerso. 
+    </p>
+               <p>
+                  <lb ed="#R" n="64"/>Aliter dicetur, quod si per impossibile aliquis 
+      <lb ed="#R" n="65"/>videret Deum, dato, quod tristaretur, adhuc esset 
+      <lb ed="#R" n="66"/>beatus: ergo poterit esse visio sine complacentia. 
+      <lb ed="#R" n="67"/>asta responsio supponit vnum, quod habeo pro 
+      im<lb ed="#R" n="68" break="no"/>possibili puto enun, quod videns, si tristaretur, non 
+      <!--0236.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>solum non esset beatus, sed etiam miserrimus: tum 
+      <lb ed="#R" n="70"/>quia naturaliter inclinaretur ad complacentiam: 
+      <lb ed="#R" n="71"/>ergo non esset satiatus, tum quia secundum 
+      Augu<lb ed="#R" n="72" break="no"/>stinum 13. de Trinitate, capite quinto, nullus 
+      vi<lb ed="#R" n="73" break="no"/>uens non recte dicitur faelix, sed qui videret Deum, 
+      <lb ed="#R" n="74"/>si non complaceret, non viueret recte: ergo. Displi 
+      <lb ed="#R" n="75"/>cere enim de Deitate est actus pessimus ex ratione 
+      <lb ed="#R" n="76"/>sua, nec per aliam circunstantiam posset fieri non 
+      <lb ed="#R" n="77"/>malus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="78"/>Tum quia de ratione actus beatifici est, quod sit 
+      <lb ed="#R" n="79"/>quietatiuus, displicentia autem maxime de 
+      Dei<lb ed="#R" n="80" break="no"/>tate non est actus quietatiuus, immo maxime 
+      in<lb ed="#R" n="81" break="no"/>quietatiuus: ergo. Sicut enim diligendo Deum, 
+      <lb ed="#R" n="82"/>diligitur omne disigibile, sic odiendo oditur 
+      om<lb ed="#R" n="83" break="no"/>ne odibile. 
+    </p>
+               <p>
+                  <lb ed="#R" n="84"/>Dicetur, quod ratio concludit de opposito actu 
+      <lb ed="#R" n="85"/>contrario ipsi complacentiae, tamen non 
+      conclu<lb ed="#R" n="86" break="no"/>dit de opposito priuatiue, idest de pura negatione 
+      <lb ed="#R" n="87"/>complacentiae, puta non complacere. 
+    </p>
+               <p>
+                  <lb ed="#R" n="88"/>Contra: ex hoc ego habeo propositum, arguo 
+      <lb ed="#R" n="89"/>enim, sic: in illo non consistit ratio beatitudinis, 
+      <lb ed="#R" n="90"/>quo posito non ponitur beatitudo: sed per te 
+      posi<lb ed="#R" n="91" break="no"/>to actu visionis diuinae, si concomitetur 
+      displicen<lb ed="#R" n="92" break="no"/>tia de Deitate, non habetur ratio beatitudinis: 
+      <lb ed="#R" n="93"/>ergo visio non erit tota essentia beatitudinis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="94"/>Item secundo non valet responsio ex eo, quod 
+      <lb ed="#R" n="95"/>non tantum displicere de Deitate habet rationem 
+      <lb ed="#R" n="96"/>mali, sed etiam non complacere de ea visa, habet ra 
+      <lb ed="#R" n="97"/>tionem mali, &amp; non recti; &amp; ratio est, quia de 
+      ra<lb ed="#R" n="98" break="no"/>tione beatitudinis est, quod sicut non remittitur 
+      <lb ed="#R" n="99"/>in oppositum contrarie ipsi complacentiae, sic nec 
+      <lb ed="#R" n="100"/>in oppositum priuatiue. 
+    </p>
+               <p>
+                  <lb ed="#R" n="101"/>Secunda ratio &amp; magis a priori est ista: Omnes 
+      <lb ed="#R" n="102"/>concedunt, quod beatitudo consistit in perfe 
+      cta<lb ed="#R" n="103" break="no"/>vnione animae ad Deum, siue ad optimum, tunc 
+      <lb ed="#R" n="104"/>sic: Illud est de ratione beatitudinis, quod est de 
+      <lb ed="#R" n="105"/>ratione perfecte vnionis animae ad opti. num: sed 
+      <lb ed="#R" n="106"/>de ratione vnionis perfectae animae ad optimum est 
+      <lb ed="#R" n="107"/>vnio secundum vtramlibet operationem tam 
+      volun<lb ed="#R" n="108" break="no"/>tatis, quam intellectus, &amp; e conuerso: ergo. 
+      Ma<lb ed="#R" n="109" break="no"/>ior nota est. Probo minorem sic: Vnio isa, in qua 
+      <lb ed="#R" n="110"/>consistit beatitudo, est vnio mutuitatis cuiusdam, 
+      <lb ed="#R" n="111"/>vt sicut anima vnitur Deo, sic Deus vniatur 
+      ani<lb ed="#R" n="112" break="no"/>mae, non enim perfecte vnior tibi, nisi sicut ego 
+      <lb ed="#R" n="113"/>vnior tibi, tu e conuerso vniaris mihi: sed non 
+      po<lb ed="#R" n="114" break="no"/>test esse mutua vnio animae ad Deum sicut in 
+      opti<lb ed="#R" n="115" break="no"/>mum obiectum, nisi mediante actu vtriusque 
+      po<lb ed="#R" n="116" break="no"/>tentiae, scilicet intellectus, &amp; voluntatis: ergo. 
+      <lb ed="#R" n="117"/>Minorem istius rationis probo, quoniam per actum 
+      <lb ed="#R" n="118"/>intellectus, siue per ipsam visionem visum 
+      vni<lb ed="#R" n="119" break="no"/>tur videnti proprie, non e conuerso, per acum 
+      ve<lb ed="#R" n="120" break="no"/>ro amoris vnitur amans ipsi amato non e 
+      conuer<lb ed="#R" n="121" break="no"/>so. Et hinc est, quod consueuit dici communiter, 
+      <lb ed="#R" n="122"/>quod intelligere est motus rei ad animam, 
+      velle<lb ed="#R" n="123" break="no"/>vero est motus animae ad rem ipsam: quod est, vt 
+      <lb ed="#R" n="124"/>dixi alias, quia per actum visionis emanat res visa 
+      <lb ed="#R" n="125"/>in esse apparenti in prospectu ipsius videntis, per 
+      <lb ed="#R" n="126"/>actum vero amoris ipse amans ponit, &amp; fert se in 
+      <lb ed="#R" n="127"/>esse dato, &amp; in quodam esse amoris extra se 
+      ver<lb ed="#R" n="128" break="no"/>sus amatum. Ex quo pater, quod per acum 
+      intel<lb ed="#R" n="129" break="no"/>lectus, &amp; voluntatis simul sit vnio ista mutua, quia 
+      <lb ed="#R" n="130"/>per actum intellectus vnitur obiectum animae 
+      ipsi<lb ed="#R" n="131" break="no"/>per actum vero amoris vnit se anima ipsi obie cto 
+      <lb ed="#R" n="132"/>cognito: ergo per intellecum vnitur Deus 
+      ani<lb ed="#R" n="133" break="no"/>mae, &amp; trahitur quasi ad esse animae, vt sit quasi 
+      <lb ed="#R" n="134"/>quaedam possessio eius, per actum vero amoris 
+      <lb ed="#R" n="135"/>vnitur anima ipsi Deo, ac se transformat intime 
+      <lb ed="#R" n="136"/>in eum, ac per hoc esse animae trahitur ad esse- 
+      <!--0237.xml-->
+      <pb ed="#R" n="237"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>diuinum, vt sit possessio ipsius Dei, quare in actu 
+      <lb ed="#R" n="2"/>vtroque consistit vnio perfecta ad optimum, quae 
+      <lb ed="#R" n="3"/>est beatitudo. Et haec ratio dicit propter quid 
+      <lb ed="#R" n="4"/>istius conclusionis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="5"/>Tertia ratio sumitur ex ratione finis. De ratione 
+      <lb ed="#R" n="6"/>enim beatitudinis est, quod sit finis, satietas, &amp; 
+      <lb ed="#R" n="7"/>complementum naturae intellectualis, tunc sic: 
+      Bea<lb ed="#R" n="8" break="no"/>titudo est finis &amp; perfecta satietas, &amp; 
+      complemen<lb ed="#R" n="9" break="no"/>tum naturae intellectualis, sed sola operatio 
+      intel<lb ed="#R" n="10" break="no"/>lectus, seu voluntatis non est finis &amp; perfecta quie 
+      <lb ed="#R" n="11"/>tatio, &amp; complementum naturae intellectualis, 
+      <lb ed="#R" n="12"/>ergo beatitudo eius non consistit solum in 
+      opera<lb ed="#R" n="13" break="no"/>tione alterius, sed in perfecta operatione 
+      vtrius<lb ed="#R" n="14" break="no"/>que potentiae respectu Dei: ergo. Maior nota est: 
+      <lb ed="#R" n="15"/>minorem probo, quoniam nulla harum duarum 
+      <lb ed="#R" n="16"/>operationum per se accepta habet rationem finis; 
+      <lb ed="#R" n="17"/>accipe enim uisionem, sola ipsa statim ex propria 
+      <lb ed="#R" n="18"/>ui secundum rationem rectam excitat desiderium 
+      <lb ed="#R" n="19"/>ad complacentiam, &amp; similiter e conuerso: pone 
+      <lb ed="#R" n="20"/>autem actum vtrumque potentiae simul, non 
+      rema<lb ed="#R" n="21" break="no"/>net excitatio desiderij vlterius ad aliquem acum 
+      <lb ed="#R" n="22"/>alium: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="23"/>Confirmo hoc a simili. Non maior debet esse 
+      <lb ed="#R" n="24"/>vnio animae secundum eius ese naturale, quam 
+      se<lb ed="#R" n="25" break="no"/>cundum bene esse, &amp; perfecte esse ipsius, vnde 
+      vi<lb ed="#R" n="26" break="no"/>detur, quod proportio sit inter esse naturale 
+      ani<lb ed="#R" n="27" break="no"/>mae, &amp; bene esse eius. hinc est, quod ait 
+      Aristote<lb ed="#R" n="28" break="no"/>les r. Ethic. cap. 8. quod faelicitas debet esse secun 
+      <lb ed="#R" n="29"/>dum conditionem esse hominis: ideo dicit, quod 
+      <lb ed="#R" n="30"/>non est mirum, si foelicitas non sit perpetua, quia 
+      <lb ed="#R" n="31"/>nec esse ipsius hominis est perpetuum: sed 
+      perfe<lb ed="#R" n="32" break="no"/>ctio hominis secundum eius esse naturale, est vna 
+      <lb ed="#R" n="33"/>totalitas resultans ex materia, &amp; forma: ergo 
+      per<lb ed="#R" n="34" break="no"/>fectio eius secundum esse morale erit aliquid 
+      resul<lb ed="#R" n="35" break="no"/>tans ex duobus secundum proportionem materiae, 
+      <lb ed="#R" n="36"/>&amp; formae: illa duo non possunt esse alia, quam duae 
+      <lb ed="#R" n="37"/>operationes duarum potentiarum: ergo. Et 
+      con<lb ed="#R" n="38" break="no"/>firmo hoc, quia homo est finis omnium secundum 
+      <lb ed="#R" n="39"/>natura le esse, non praecise per formam, nec per 
+      ma<lb ed="#R" n="40" break="no"/>teriam, sed per rationem totalitatis resultantis ex 
+      <lb ed="#R" n="41"/>vtroque: quare ergo non sic in proposito 
+      beatitu<lb ed="#R" n="42" break="no"/>do, vt est finis omnium humanorum actuum, sit 
+      re<lb ed="#R" n="43" break="no"/>sultans isto modo ex totalitate duarum 
+      operatio<lb ed="#R" n="44" break="no"/>num 
+    </p>
+               <p>
+                  <lb ed="#R" n="45"/>Ad hanc conclusionem sunt aucttoritates 
+      Scri<lb ed="#R" n="46" break="no"/>pturae &amp; sanctorum. Auctoritates quidem scripturae, 
+      <lb ed="#R" n="47"/>quae aliquando videntur dicere, quod visio sit ipsa 
+      <lb ed="#R" n="48"/>beatitudo, sicut est illud Joan. 17. haec est vita aeter 
+      <lb ed="#R" n="49"/>na, vt cognoscant &amp;c. Aliquando videntur 
+      dicere<lb ed="#R" n="50" break="no"/>quod beatitudo sit actus voluntatis sicut est illa 
+      <lb ed="#R" n="51"/>auctoritas: Gaudium, &amp; exultationem obtinebunt. 
+    </p>
+               <p>
+                  <lb ed="#R" n="52"/>Item auctoritas sanctorum. Vnde August. 
+      quan<lb ed="#R" n="53" break="no"/>doq. dicit, quod visio est beatitudo, sicut est illa. 
+      1<lb ed="#R" n="54" break="no"/>de Trinitat. cap. 13. in fine To. 3. &amp; 10. confess. cap. 
+      <lb ed="#R" n="55"/>23. Tom. 1. gaudium est tota merces. Alibi autem 
+      <lb ed="#R" n="56"/>expraesse dicit, quod est gaudium de summo bono- 
+    </p>
+               <p>
+                  <lb ed="#R" n="57"/>Ad hoc etiam facit aucoritas Aristotelis &amp; 
+      Com<lb ed="#R" n="58" break="no"/>mentatoris a. Ethic. cap. 1ο. &amp; 4. cap. ibidem Auer. 
+      <lb ed="#R" n="59"/>vnde Aristoteles ibidem. Vnusquisque delectatur, 
+      <lb ed="#R" n="60"/>vbi amicus complacet in amico, vnde concludit, 
+      <lb ed="#R" n="61"/>quod qui diligit virtutes, delectatur in eis, &amp; ex 
+      <lb ed="#R" n="62"/>hoc infert 1. Ethic. quod cōplacentia, &amp; delectatio 
+      <lb ed="#R" n="63"/>sunt intrinseca fa licitati, &amp; expraesse Eustratius 
+      su<lb ed="#R" n="64" break="no"/>per 1. &amp; 4. Ethic. locis citatis ibi dicit, quod 
+      dele<lb ed="#R" n="65" break="no"/>ctatio non est extrinseca beatitudini. 
+    </p>
+               <p>
+                  <lb ed="#R" n="66"/>Ad argumentum in oppositum dico, quod 
+      Ari<lb ed="#R" n="67" break="no"/>stoteles posuit in homine duplicem foelicitatem 
+      <!--0237.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>vnam in intellectu speculatiuo, aliam in practico. 
+      <lb ed="#R" n="69"/>ratio est, quia posuit in homine duas vitas, vnam 
+      <lb ed="#R" n="70"/>speculatiuam, &amp; aliam practicam. Aristoteles 
+      <lb ed="#R" n="71"/>ergo in actu intellectus videtur posuisse 
+      speciali<lb ed="#R" n="72" break="no"/>ter foelicitatem, si ergo ipse vidisset 
+      commu<lb ed="#R" n="73" break="no"/>nicationem Dei ad hominem per actum 
+      intel<lb ed="#R" n="74" break="no"/>lectus, &amp; eodem modo e conuerso hominis ad 
+      <lb ed="#R" n="75"/>Deum per actum voluntatis, sicut nos 
+      poni<lb ed="#R" n="76" break="no"/>mus, posuisset proculdubio foelicitatem involunta 
+      <lb ed="#R" n="77"/>te sicut in intellectu, vnde ipse 9. Ethic. dicit, quod 
+      <lb ed="#R" n="78"/>foelix est Dei amantissimus. Tamen Commentator 
+      <lb ed="#R" n="79"/>in 3. de anima com. 5. foelicitatem ponit in statu ad 
+      <lb ed="#R" n="80"/>epto, quod est, quando intellectus agens nobiscum 
+      <lb ed="#R" n="81"/>copulatus est, vt forma in actu; &amp; forte intellexit, 
+      <lb ed="#R" n="82"/>quod etiam complacentia in tali statu pertineret 
+      <lb ed="#R" n="83"/>ad beatitudinem; vel si non, hoc pro tanto negauit, 
+      <lb ed="#R" n="84"/>quia non putauit vnionem illam esse mutuam vt 
+      <lb ed="#R" n="85"/>nos ponimus. 
+    </p>
+            </div>
+            <div>
+               <head>Articulus 3</head>
+               <head type="question-title">
+      Utrum delectatio sit essentia beatitudinis.
+    </head>
+               <p>
+                  <lb ed="#R" n="86"/>ARTICVLVS III 
+      <lb ed="#R" n="87"/>Vtrum delectatio sit essentia beatitudinis.
+    </p>
+               <p>
+                  <lb ed="#R" n="88"/>AD primam quaestionem arguo primo, quod de 
+      <lb ed="#R" n="89"/>ctatio non sit de essentia beatitudinis, 
+      quo<lb ed="#R" n="90" break="no"/>niam philosophus 10. Ethic. cap. 4. dicit, quod 
+      dele<lb ed="#R" n="91" break="no"/>ctatio superuenit operationi secundum veritatem, 
+      <lb ed="#R" n="92"/>sicut pulchritudo iuueni. 
+    </p>
+               <p>
+                  <lb ed="#R" n="93"/>In oppositum est ipse Aristot. in eodem, vbi 
+      quae<lb ed="#R" n="94" break="no"/>rens si delectatio sit summum bonum, dicit, quod 
+      <lb ed="#R" n="95"/>delectatio corporalis non est summum bonum, 
+      de<lb ed="#R" n="96" break="no"/>lectatio vero spiritualis summum bonum est 
+      Res<lb ed="#R" n="97" break="no"/>pondeo pono aliquas propositiones. 
+      <lb ed="#R" n="98"/>Prima est. Quod duplex est delectatio in beatis; 
+      <lb ed="#R" n="99"/>in vna de obiecto creato puta de uisione ipsa, &amp; 
+      <lb ed="#R" n="100"/>haec delectatio est finis desiderij concupiscentiae. 
+      <lb ed="#R" n="101"/>Secunda est de ipsa Deitate &amp; obiecto increato, 
+      <lb ed="#R" n="102"/>quae non est aliud quam complacere in 
+      Deitate<lb ed="#R" n="103" break="no"/>quod quidem complacere est actus amicitiae, &amp; 
+      <lb ed="#R" n="104"/>idem, quod amor ipse vltimatus amicitiae. Et quod 
+      <lb ed="#R" n="105"/>talis delectatio sit in patria, &amp; non illa quae est de 
+      <lb ed="#R" n="106"/>visione seu habitione obiecti, probo auctoritate 
+      <lb ed="#R" n="107"/>August. dicit enim 1a. de Trinitate beatitudo est 
+      <lb ed="#R" n="108"/>gaudium de veritate, non dicit de 
+      comprehensio<lb ed="#R" n="109" break="no"/>ne.
+    </p>
+               <p>
+                  <lb ed="#R" n="110"/>Item probo per rationem, quia quicquid est pos 
+      <lb ed="#R" n="111"/>sibile, &amp; conuenit bono secundum rectam rationem 
+      <lb ed="#R" n="112"/>ac voluntati in ordine ad bonum rectae rationis, 
+      vi<lb ed="#R" n="113" break="no"/>detur ponendum esse in beatis: sed summo bono 
+      <lb ed="#R" n="114"/>conuenit secundum rectam rationem, quod sit 
+      obis<lb ed="#R" n="115" break="no"/>ctum summae complacentiae. ergo ponendum in bea 
+      <lb ed="#R" n="116"/>tis. Similiter: voluntatis in ordine ad summum 
+      bo<lb ed="#R" n="117" break="no"/>num est secundum recam rationem, quod 
+      compla<lb ed="#R" n="118" break="no"/>ceat in eo: ergo ponenda est in beato in ordine ad 
+      <lb ed="#R" n="119"/>summum bonum summa complacentia: sed 
+      sum<lb ed="#R" n="120" break="no"/>ma complacentia non potest esse secundum rectam 
+      <lb ed="#R" n="121"/>rationem de uisione ipsa, quia maius bonum est ip 
+      <lb ed="#R" n="122"/>sa Deitas, quam sit visio de ea: ergo maior 
+      coni<lb ed="#R" n="123" break="no"/>placentia debet esse de Deitate, quam sit de ipsa 
+      <lb ed="#R" n="124"/>uisione. ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="125"/>Secundo, quod complacentia huiusmodi sit delecatio 
+      <lb ed="#R" n="126"/>quaedam, probo primo per illud psa. vbi dicitur 
+      Dele<lb ed="#R" n="127" break="no"/>ctare in Domino, non dicit in ipsa uisione. 
+      Consi<lb ed="#R" n="128" break="no"/>militer per experientiam in e xemplo grosso. Si 
+      ma<lb ed="#R" n="129" break="no"/>ter habet filium, quem videat papam, &amp; petatur ab 
+      <lb ed="#R" n="130"/>ea; Vtrum plus delectetur, quod videat cum papam 
+      <!--0238.xml-->
+      <pb ed="#R" n="238"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>vel, quod est papa in re, nulli dubium est, quod plus 
+      <lb ed="#R" n="2"/>complacet in ipso, quia papa est in re, quam quia 
+      <lb ed="#R" n="3"/>videt eum papam. Et consirmo: quia non 
+      delecta<lb ed="#R" n="4" break="no"/>tur mater in visione ipsa, nisi, quia exhibet eum 
+      prae<lb ed="#R" n="5" break="no"/>sentem sibi, quod si per impossibile possset ei 
+      exhi<lb ed="#R" n="6" break="no"/>beri praesens non per uisionem, nulli dubium, quod 
+      <lb ed="#R" n="7"/>ad huc ea complaceret in eo praesente. 
+    </p>
+               <p>
+                  <lb ed="#R" n="8"/>Secundo ad idem: Illud, quod est terminus 
+      de<lb ed="#R" n="9" break="no"/>siderij, est terminus quietis eius ibidem: sed homo 
+      <lb ed="#R" n="10"/>secundum recam rationem per desiderium 
+      moue<lb ed="#R" n="11" break="no"/>tur magis in Deum, quam in ipsam visionem boni 
+      <lb ed="#R" n="12"/>diuini: ergo magis per delectationem quiescet in 
+      <lb ed="#R" n="13"/>bono diuino, quam in ipsa visione. 
+    </p>
+               <p>
+                  <lb ed="#R" n="14"/>Confirmo: Visio enim est bonum hominis: 
+      se<lb ed="#R" n="15" break="no"/>cundum recam rationem magis debet quilibet 
+      <lb ed="#R" n="16"/>quiescere in bono diuino, quam in bono proprio: 
+      <lb ed="#R" n="17"/>ergo: fed quiescere in alio non est, nisi delectari in 
+      <lb ed="#R" n="18"/>eo: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="19"/>Hanc propositionem voluntarie posui, quia 
+      vi<lb ed="#R" n="20" break="no"/>detur aliquibus, quod in patria nulla sit alia 
+      dele<lb ed="#R" n="21" break="no"/>ctatio, quam de visione. Isi aequiuocant de 
+      dele<lb ed="#R" n="22" break="no"/>ctatione, quoniam delectatio quaedam es 
+      concu<lb ed="#R" n="23" break="no"/>piscentiae, quae sequitur desiderium sicut terminus 
+      <lb ed="#R" n="24"/>&amp; finis eius, &amp; ita est consequens, &amp; adueniens 
+      de<lb ed="#R" n="25" break="no"/>lectationi, &amp; de hac dicit Philosophus, quod 
+      se<lb ed="#R" n="26" break="no"/>quitur operationem, sicut pulchritudo iuuenem. 
+      <lb ed="#R" n="27"/>Alia est delectatio amicitiae de ipsa deitate, &amp; haec 
+      <lb ed="#R" n="28"/>est complacentia vltimata. Deitas enim ex se 
+      pla<lb ed="#R" n="29" break="no"/>cet, dato, quod nulla poneretur visio, visio vero non 
+      <lb ed="#R" n="30"/>habet rationem obiecti complacentiae, nisi pro 
+      <lb ed="#R" n="31"/>quanto exhibet obiectum praesens. Sed hic sunt 
+      <lb ed="#R" n="32"/>quaedam dubia. 
+    </p>
+               <p>
+                  <lb ed="#R" n="33"/>Primum est, quia in animalibus &amp; in sensibus 
+      <lb ed="#R" n="34"/>nostris non videtur esse aliqua delectatio, nisi de 
+      <lb ed="#R" n="35"/>ipsa exhibitione non de obiecto, non enim deleca 
+      <lb ed="#R" n="36"/>mur in vino, sed in potu vini, &amp; sic de alijs: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="37"/>Ad hanc rationem respondet Aristoteles 9. Ethic. 
+      <lb ed="#R" n="38"/>Quae stio est apud eum ibi: Vtrum debeam dare 
+      ali<lb ed="#R" n="39" break="no"/>cui, vt auseram mihi, &amp; videtur ex vna parte, quod 
+      <lb ed="#R" n="40"/>non, quia debeo me magis diligere, quam alium. In 
+      <lb ed="#R" n="41"/>contrarium videtur, quod omnis actus appetitus 
+      <lb ed="#R" n="42"/>sensitiui est actus concupiscentiae, non enim 
+      mo<lb ed="#R" n="43" break="no"/>uetur in aliquod bonum, nisi propter se, quia 
+      bo<lb ed="#R" n="44" break="no"/>num sibi: sed appetitus intellectiui, non omnis 
+      <lb ed="#R" n="45"/>actus est amor concupiscentiae; aliquid enim amat 
+      <lb ed="#R" n="46"/>propter seipsum quem amat. Tunc: ergo quilibet 
+      <lb ed="#R" n="47"/>diligit magis se, quam aliud propter se, verum est 
+      <lb ed="#R" n="48"/>de appetitu sensitiuo, qui semper fertur in obiectum, 
+      <lb ed="#R" n="49"/>motu quodam recuruo propter se;non de intellecti 
+      <lb ed="#R" n="50"/>no, qui fertur in obiectum quandoquo motu 
+      reco<lb ed="#R" n="51" break="no"/>propter ipsum amitum. Ex hoc patet, quod 
+      in<lb ed="#R" n="52" break="no"/>stantia de animali, &amp; sensu nostro non concludit. 
+      <lb ed="#R" n="53"/>Vnde experientia hoc docet, si enim diligam 
+      vir<lb ed="#R" n="54" break="no"/>tutes, quia virtuosus diligit virtutem propter se 
+      <lb ed="#R" n="55"/>nunquid si video te virtuosum, non ex hoc te 
+      dili<lb ed="#R" n="56" break="no"/>gam, posito, quod inde nullum debeat mihi bonum 
+      <lb ed="#R" n="57"/>prouenire.
+    </p>
+               <p>
+                  <lb ed="#R" n="58"/>Ideo attendendum est, quod hoc est ex conditio 
+      <lb ed="#R" n="59"/>ne appetitus sensitiui, cuius est actus duplex, &amp; 
+      de<lb ed="#R" n="60" break="no"/>siderium, &amp; complacentia, recurue propter seipsum 
+      <lb ed="#R" n="61"/>&amp; recte propter ipsummet, in quo complacet. 
+      <lb ed="#R" n="62"/>Secundum Dubium est, quia nulla res videtur 
+      es<lb ed="#R" n="63" break="no"/>se delectabilis alicui, nisi vt est conueniens bonum 
+      <lb ed="#R" n="64"/>eius: sed Deus non est bonum beati, nisi 
+      median<lb ed="#R" n="65" break="no"/>te actu visionis: ergo. Respondeo: maior est 
+      vera<lb ed="#R" n="66" break="no"/>de appetitu recuruo, qui tendit in bonum vt est sibi 
+      <lb ed="#R" n="67"/>bonum, non de appetitu recto, qui tendic in bonum 
+      <!--0238.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>propter se: vnde non semper volo tibi hoc bonum 
+      pro<lb ed="#R" n="69" break="no"/>pter me, sed propter teipsum, quandoque 
+      deside<lb ed="#R" n="70" break="no"/>ro tibi bonum, &amp; cum illud habueris, placet mihi.
+    </p>
+               <p>
+                  <lb ed="#R" n="71"/>Vltima propositio est respondendo ad 
+      quaesttio<lb ed="#R" n="72" break="no"/>nem, quod delectatio concupiscentiae, quae est de ip 
+      <lb ed="#R" n="73"/>sa visione, non pertinet ad essentiam 
+      beatitudinis<lb ed="#R" n="74" break="no"/>sed superuenit operationi. Alia autem delectatio, 
+      <lb ed="#R" n="75"/>quae est de ipso obiecto propter seipsum, pertinet 
+      <lb ed="#R" n="76"/>ad essentiam beatitudinis. Primum probo, quia 
+      <lb ed="#R" n="77"/>beatitudo non habet pro suo obiecto bonum 
+      crea<lb ed="#R" n="78" break="no"/>tum, secundum quod probant rationes, quae sunt 
+      <lb ed="#R" n="79"/>inductae in praecedenti quaestione. 
+    </p>
+            </div>
+            <div>
+               <head>Articulus 4</head>
+               <head type="question-title">
+      Utrum actus alicuius amoris alterius ab amore, 
+      qui est complacentia de diuina bonitate, 
+      pertineat ad essentiam beatitudinis.
+    </head>
+               <p>
+                  <lb ed="#R" n="80"/>ARTICVLVS IIII 
+      <lb ed="#R" n="81"/>Vtrum actus alicuius amoris alterius ab amore, 
+      <lb ed="#R" n="82"/>qui est complacentia de diuina bonitate, 
+      per<lb ed="#R" n="83" break="no"/>tineat ad essentiam beatitudinis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="84"/>AD quartam quaestionem. Respondeo, 
+      aliqui<lb ed="#R" n="85" break="no"/>C bus videtur, quod beatitudo consisat 
+      in<lb ed="#R" n="86" break="no"/>quoddam actu amoris amicitiae, quae est velle &amp; 
+      <lb ed="#R" n="87"/>opta re Deo bonum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="88"/>Haec opinio mihi non placet. Arguo 
+      contra<lb ed="#R" n="89" break="no"/>eam sic: Beatitudo non consistit in eo, quod est 
+      fa<lb ed="#R" n="90" break="no"/>tuum, &amp; frustratorium: sed velle Deo, &amp; 
+      desidera<lb ed="#R" n="91" break="no"/>re ei bonum, est actus frustratorius, quia est velle 
+      <lb ed="#R" n="92"/>ei, quod habet: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="93"/>Secundo sic: In illo non consistit beatitudo, quod 
+      <lb ed="#R" n="94"/>non est finis, &amp; quietans potentiam: sed optare Deo 
+      <lb ed="#R" n="95"/>bonum non est actus quietis: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="96"/>Dico ergo, quod sic est imaginandum, quod 
+      <lb ed="#R" n="97"/>actus amoris est duplex, scilicet amicitiae, &amp; 
+      con<lb ed="#R" n="98" break="no"/>cupiscentiae. Primus quidem rectus propter 
+      ip<lb ed="#R" n="99" break="no"/>sum amatum. Secundus vero recuruus propter 
+      se<lb ed="#R" n="100" break="no"/>ipsum. Quilibet autem horum diuiditur in 
+      deside<lb ed="#R" n="101" break="no"/>rium, &amp; delectationem, est enim sicut amor 
+      ami<lb ed="#R" n="102" break="no"/>citiae: sicut desiderium quoddam est amicitiae, &amp; de 
+      <lb ed="#R" n="103"/>amore concupiscentiae consimiliter. Verbi gratia, 
+      <lb ed="#R" n="104"/>ficut amor, quo amo mihi vinum habitum, est amor 
+      <lb ed="#R" n="105"/>concupiscentiae, sic desiderium, quo desidero 
+      vi<lb ed="#R" n="106" break="no"/>num non habitum, est concupiscentiae. Consimiliter 
+      <lb ed="#R" n="107"/>delectatio, qua delector in iam habito, est idem 
+      <lb ed="#R" n="108"/>quod ipse amor concupiscentiae. Consimiliter ex 
+      <lb ed="#R" n="109"/>alia parte, &amp; hoc est vnum commune rospectu isto 
+      <lb ed="#R" n="110"/>rum actuum. quod non cadunt super ipsum 
+      obie<lb ed="#R" n="111" break="no"/>ctum absolute, sed super ipsa habitione obiecti. 
+      <lb ed="#R" n="112"/>Eodem modo dico ex alia parte de amore recto, 
+      <lb ed="#R" n="113"/>qui est amicitis: Primo enim amico meo 
+      deside<lb ed="#R" n="114" break="no"/>ro, quae sibi competunt, puta bona, &amp; virtutes, &amp; 
+      <lb ed="#R" n="115"/>huiusmodi, &amp; hic est actus amicitia, -non 
+      concu<lb ed="#R" n="116" break="no"/>piscentiae; desidero illi bona dato, quod inde nihil 
+      <lb ed="#R" n="117"/>mihi proueniat; quando vero iam habet ista, 
+      com<lb ed="#R" n="118" break="no"/>placet mihi, &amp; delector in illo habito. 
+    </p>
+               <p>
+                  <lb ed="#R" n="119"/>Contingit quandoque, quod habet iam illa, quae 
+      <lb ed="#R" n="120"/>ci, si non haberet, optarem, &amp; tunc complacentia 
+      <lb ed="#R" n="121"/>praeuenit desiderium. Hoc intelligitur de bono 
+      par<lb ed="#R" n="122" break="no"/>ticipato ab alio, sed de bono, quod est ipsummet. 
+      <lb ed="#R" n="123"/>cui volo bonum, ibi dicendum est, quod est 
+      com<lb ed="#R" n="124" break="no"/>placentia sine desiderio; vnde optare, &amp; velle illud 
+      <lb ed="#R" n="125"/>est complacere in eo, nec desiderium ibi praeuenit 
+      <lb ed="#R" n="126"/>complacentiam, vel delectationem. Ettalis est com 
+      <lb ed="#R" n="127"/>placentia, quae est in beatis de diuina bonitate abs 
+      <lb ed="#R" n="128"/>que desiderio; nihil enim sibi optant, quia ipse es 
+      <!--0239.xml-->
+      <pb ed="#R" n="238"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>illud summumm et bonum, quod optant; 
+      tamen<lb ed="#R" n="2" break="no"/>respectu visionis sicut habent delectationem concu 
+      <lb ed="#R" n="3"/>piscentiae, sic possunt habere respectu illius 
+      deside<lb ed="#R" n="4" break="no"/>rium praecedens, quod sequitur vt finis delectatio 
+      <lb ed="#R" n="5"/>ipsa, veruntamen beatitudo non consistit in 
+      huius<lb ed="#R" n="6" break="no"/>modi delectatione, sed in sola delectatione 
+      amici<lb ed="#R" n="7" break="no"/>tiae, quae est circa ipsum bonum summum in 
+      se<lb ed="#R" n="8" break="no"/>quam nullum praecedit desiderium cōcupiscentiae, 
+      <lb ed="#R" n="9"/>licet ibi stare possit etiam desiderium amicitiae 
+    </p>
+            </div>
+            <div>
+               <head>Articulus 5</head>
+               <head type="question-title">
+      Utrum beatitudo principalius consistat in visioni, 
+      uel in complacentia ipsa.
+    </head>
+               <p>
+                  <lb ed="#R" n="10"/>ARTICVLVS V 
+      <lb ed="#R" n="11"/>Vtrum beatitudo principalius consistat in visioni, 
+      <lb ed="#R" n="12"/>uel in complacentia ipsa. 
+    </p>
+               <p>
+                  <lb ed="#R" n="13"/>Ad quaestionem quintam supposito ex praecodes 
+      <lb ed="#R" n="14"/>tibus, quod beatitudo consistit in totalitate duarum 
+      <lb ed="#R" n="15"/>operationum, scilicet in visione, &amp; complacentia 
+      <lb ed="#R" n="16"/>de Deitate. sine argumentis, primo praemitto vnam 
+      <lb ed="#R" n="17"/>distinctionem. &amp; secundo pono Propositiones 
+      in<lb ed="#R" n="18" break="no"/>tentas. 
+    </p>
+               <p>
+                  <lb ed="#R" n="19"/>Primo sciendum, quod quando duo concurrunt 
+      <lb ed="#R" n="20"/>ad essentiam alterius, quodlibet eorum suo modo 
+      <lb ed="#R" n="21"/>potest esse principalius: verbi gratia, materia, &amp; 
+      <lb ed="#R" n="22"/>forma sunt de essentia rei compositae, &amp; 8. metaph. 
+      <lb ed="#R" n="23"/>cap. 3. a tex. 5. &amp; infra, quaeritur quid 
+      principa<lb ed="#R" n="24" break="no"/>lius pertineat ad rationem rei, vtrum forma, vel 
+      <lb ed="#R" n="25"/>materia, &amp; quia de ratione substantiae est substare, 
+      <lb ed="#R" n="26"/>hoc est posse separari, &amp; separatam manere, 
+      aufe<lb ed="#R" n="27" break="no"/>rendo autem dispositiones, &amp; formas apparet, quod 
+      <lb ed="#R" n="28"/>remanet longum latum, &amp; profundum, quod est 
+      ip<lb ed="#R" n="29" break="no"/>sa materia cum dimensionibus interminatis, ideo 
+      <lb ed="#R" n="30"/>aspicientes ad hoc dicunt, quod materia est 
+      prin<lb ed="#R" n="31" break="no"/>cipalius de quidditate rei. Quia vero de 
+      ratione<lb ed="#R" n="32" break="no"/>substantiae est, quod sit ens in actu terminatum, ma 
+      <lb ed="#R" n="33"/>teria autem est purum terminabile trahibile ad 
+      <lb ed="#R" n="34"/>actum. Forma vero dat esse &amp; terminat, &amp; trahit 
+      <lb ed="#R" n="35"/>ad actum, &amp; ad genus determinatum, &amp; dat nomen 
+      <lb ed="#R" n="36"/>definitioni, ideo aspicientes ad hoc, dicunt alij 
+      <lb ed="#R" n="37"/>ex alia parte, quod forma est principalior in ipso 
+      <lb ed="#R" n="38"/>composito. 
+    </p>
+               <p>
+                  <lb ed="#R" n="39"/>Alia distinctio est. Supposito, quod beatitudo 
+      <lb ed="#R" n="40"/>consistat in perfecta vnione naturae intellectualis 
+      <lb ed="#R" n="41"/>ad optimum, quae quidem vnio mutua est, puta 
+      <lb ed="#R" n="42"/>Dei ad hominem, &amp; hominis ad Deum, &amp; primam 
+      <lb ed="#R" n="43"/>vnionem faciat visio, quae vnit obiectum potentiae, 
+      <lb ed="#R" n="44"/>secundam vero ipsa complacentia, &amp; delectatio, 
+      <lb ed="#R" n="45"/>quae vnit potentiam obiecto: hoc in quam 
+      supposi<lb ed="#R" n="46" break="no"/>to ex praecedentibus possumus, considerare istam 
+      <lb ed="#R" n="47"/>vnionem, vno modo, vt est bonum hominis 
+      dire<lb ed="#R" n="48" break="no"/>cte, &amp; merces eius; secundo modo non vt est ita 
+      <lb ed="#R" n="49"/>directe bonum hominis, sed quasi bonum Dei, vt 
+      <lb ed="#R" n="50"/>primo modo esse Dei trahatur ad hominem, secundo 
+      <lb ed="#R" n="51"/>e conuerso esse hominis quasi trahatur ad esse diui 
+      <lb ed="#R" n="52"/>num. Tunc quiaspiciunt ad primum dicunt, quod beatitudo 
+      <lb ed="#R" n="53"/>ad principalius consistat invisione: qui vero aspiciunt 
+      <lb ed="#R" n="54"/>secundum, dicunt, quod principalius in 
+      compla<lb ed="#R" n="55" break="no"/>centia ipsa. Ratio patet ex dictis in quaestione 
+      pri<lb ed="#R" n="56" break="no"/>ma de ista materia, &amp; quaestione secunda. Nunc 
+      <lb ed="#R" n="57"/>pono Propositiones duas. 
+    </p>
+               <p>
+                  <lb ed="#R" n="58"/>Prima est, quod si principalitas in 
+      beatitudine<lb ed="#R" n="59" break="no"/>pensetur in hoc, quod ipsa est bonum hominis, 
+      <lb ed="#R" n="60"/>pro quanto per ipsam Deus sit bonum quoddam 
+      <lb ed="#R" n="61"/>hominis, &amp; eius quodammodo quaedam 
+      posses<lb ed="#R" n="62" break="no"/>sio; hoc modo loquendo dico, quod beatitudo 
+      <lb ed="#R" n="63"/>consistit principalius in visione. Hanc 
+      proposi<lb ed="#R" n="64" break="no"/>tionem probo sic.
+    </p>
+               <p>
+      <!--0239.xml-->
+                  <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="65"/>In illo consistit principalius ratio 
+      beatitudi<lb ed="#R" n="66" break="no"/>nis, quod facit principalius Deum esse bonum 
+      <lb ed="#R" n="67"/>hominis, &amp; possessionem eius per hoc, quod 
+      ma<lb ed="#R" n="68" break="no"/>xime vnit, &amp; attrahit sibi Deum: haec propositio 
+      <lb ed="#R" n="69"/>nota est, accipiendo beatitudinem in praedico 
+      <lb ed="#R" n="70"/>sensu, &amp; in hoc sensu accipit Augustinus 
+      beatitu<lb ed="#R" n="71" break="no"/>dinem, lib. 13. de Trinit. cap. 5. dicens: beatus est, 
+      <lb ed="#R" n="72"/>qui habet quicquid vult, &amp; nihil mali vult, vt 
+      <lb ed="#R" n="73"/>sic beatitudo consistat in habitatione Dei ab 
+      ho<lb ed="#R" n="74" break="no"/>mine, quo habito habetur &amp; omne desiderabile, 
+      <lb ed="#R" n="75"/>sed per actum intellectus magis fit Deus bonum 
+      <lb ed="#R" n="76"/>hominis, &amp; possessio eius, quam per actum 
+      vo<lb ed="#R" n="77" break="no"/>luntatis: ergo. Probo minorem: Quoniam de na 
+      <lb ed="#R" n="78"/>tura visionis est, quod obiectum per eam trahatur 
+      <lb ed="#R" n="79"/>ad animam, &amp; quod habeatur suo modo ab ea; 
+      <lb ed="#R" n="80"/>nam intelligere non videtur aliud quam 
+      transla<lb ed="#R" n="81" break="no"/>tio obiecti de esse reali extra ad esse praesens, &amp; in 
+      <lb ed="#R" n="82"/>prospectu in anima, quia intelligere est motus rei 
+      <lb ed="#R" n="83"/>ad animam. Complacentia vero non trahit obiectum ad ani 
+      <lb ed="#R" n="84"/>mam, sed magis e conuerso animam vnit, &amp; 
+      in<lb ed="#R" n="85" break="no"/>timat, ac transformat in obiectum, quod non 
+      <lb ed="#R" n="86"/>est aliud quam velle, quod si fieri posset suum 
+      bo<lb ed="#R" n="87" break="no"/>num totum esset bonum obiecti amati, &amp; si Deus 
+      <lb ed="#R" n="88"/>posset récipere bonum diligere Deum esset bonum 
+      <lb ed="#R" n="89"/>eius, ac per hoc fieret diligens specialis possessio 
+      <lb ed="#R" n="90"/>eius. &amp; hoc es, quod dici consueuit, quod anima 
+      <lb ed="#R" n="91"/>melius est vbi amat, quam vbi animat, eo quod 
+      <lb ed="#R" n="92"/>amor facit, quod amans magis sit alterius quam 
+      <lb ed="#R" n="93"/>sui. &amp; ad hoc aspiciunt qui dicunt, quod beatitudo 
+      <lb ed="#R" n="94"/>principalius consistit in visione. 
+    </p>
+               <p>
+                  <lb ed="#R" n="95"/>Confirmo hoc, quia beatitudo principalius con 
+      <lb ed="#R" n="96"/>sistit hoc modo in eo, quod redditur nobis quasi 
+      <lb ed="#R" n="97"/>merces, &amp; praemium, quam in eo, quod nos 
+      red<lb ed="#R" n="98" break="no"/>dimus Deo: sed visio Dei est redditio praemij, &amp; 
+      <lb ed="#R" n="99"/>merces tota secundum Augustinum locis citatis, 
+      <lb ed="#R" n="100"/>quia hoc modo dat se nobis Deus, vt possessio no 
+      <lb ed="#R" n="101"/>stra. Ex alia parte per dilectionem &amp; 
+      complacen<lb ed="#R" n="102" break="no"/>tiam exhibet se homo ipsi Deo, quasi in quandam 
+      <lb ed="#R" n="103"/>recompensationem, vt quia Deus exhibet se mihi, 
+      <lb ed="#R" n="104"/>ego quantum possum, exhibeam me Deo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="105"/>Secunda Propositio est, quod accipiendo 
+      beati<lb ed="#R" n="106" break="no"/>tudinem in sensu alio, non vt est bonum hominis, 
+      <lb ed="#R" n="107"/>sed vt est bonum hominis rectissimum, secundum 
+      <lb ed="#R" n="108"/>quod videtur intelligere Augustinus locis citatis, 
+      <lb ed="#R" n="109"/>ita quod hoc modo, quod est magis rectum, &amp; 
+      ma<lb ed="#R" n="110" break="no"/>gis decens, magis pertineat ad faelicitatem, hoc mo 
+      <lb ed="#R" n="111"/>do dico, quod magis consistat in actu 
+      complacen<lb ed="#R" n="112" break="no"/>tiae quam visionis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="113"/>Hanc probo, quia actus ille, qui secundum 
+      re<lb ed="#R" n="114" break="no"/>ctam rationem est appetibilior actu alio, in illo 
+      <lb ed="#R" n="115"/>consistit principalius beatitudo: haec propositio no 
+      <lb ed="#R" n="116"/>ta est. De ratione. n. beatitudinis est, quod sit appeti 
+      <lb ed="#R" n="117"/>bilissimum inter omnia bona hominis, cum sit 
+      fi<lb ed="#R" n="118" break="no"/>nis actuum humanorum: sed actus complacentiae, 
+      <lb ed="#R" n="119"/>secundum rectam rationem est appetibilior actu 
+      <lb ed="#R" n="120"/>intellectus. Probo istam, quoniam si quaeratur a 
+      <lb ed="#R" n="121"/>beato, vtrum videat, vt complaceat, vel 
+      compla<lb ed="#R" n="122" break="no"/>ceat vt videat, &amp; hoc secundum recam rationem; 
+      <lb ed="#R" n="123"/>iudicat statim recta ratio, quod magis, vt 
+      com<lb ed="#R" n="124" break="no"/>placeat, quam e conuerso, complaceat vt videat, si 
+      <lb ed="#R" n="125"/>enim complaceret, vt videret non haberet actum 
+      <lb ed="#R" n="126"/>amicitiae, sed concupiscentiae: sed si videre cupiat 
+      <lb ed="#R" n="127"/>vt complaceat, iste erit vtique actus rectus, 
+      non<lb ed="#R" n="128" break="no"/>recuruus, &amp; per consequens erit actus amicitiae, in 
+      <lb ed="#R" n="129"/>quo principaliter consistit beatitudo, vt 
+      supradi<lb ed="#R" n="130" break="no"/>cum est.
+    </p>
+               <p>
+                  <lb ed="#R" n="131"/>Dicetur: non concedo vnum, nec aliud, nec quod 
+      <!--0240.xml-->
+      <pb ed="#R" n="240"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>videam, vt diligam, nec diligam, vt videam, sed 
+      <lb ed="#R" n="2"/>video, &amp; complaceo propter Deum, ita quod vterq. 
+      <lb ed="#R" n="3"/>erit actus rectus in Deum, &amp; neuter erit recuruus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="4"/>Contra: Si sic dicatur, sequitur quod ad 
+      beati<lb ed="#R" n="5" break="no"/>tud inem concurrunt duo actus disparati omnino 
+      <lb ed="#R" n="6"/>nullum ordinem habentes, quilibet enim secundum 
+      <lb ed="#R" n="7"/>hoc erit vltimum, &amp; finis. Dices quicquid sit, 
+      ta<lb ed="#R" n="8" break="no"/>men ratio tua per hoc impeditur. 
+    </p>
+               <p>
+                  <lb ed="#R" n="9"/>Contra: ostendo, quod non sit impedimentum, 
+      <lb ed="#R" n="10"/>&amp; quod licet complacere posssis in Deo propter 
+      <lb ed="#R" n="11"/>se, non tamen videre diceris Deum propter se, &amp; 
+      <lb ed="#R" n="12"/>per consequens complacentia habet rationem 
+      vlti<lb ed="#R" n="13" break="no"/>mi, non visio. Probo, quia si dicatur, complaceo in 
+      <lb ed="#R" n="14"/>Deo propter ipsam Dei bonitatem, bene vtique red 
+      <lb ed="#R" n="15"/>ditur causa complacentiae, puta bonitas Dei, est 
+      <lb ed="#R" n="16"/>cur ipsius complacentiae, quae apta nata est 
+      habe<lb ed="#R" n="17" break="no"/>re proprium cur. Sed si dicat, video Deitatem, hic 
+      <lb ed="#R" n="18"/>nulla causa, nec cur redditur aliquid visionis: 
+      ra<lb ed="#R" n="19" break="no"/>tio estt, quia visio, nec acttus intellectus aptus est ha 
+      <lb ed="#R" n="20"/>bere proprium cur, vnde non video proprie hoc, 
+      <lb ed="#R" n="21"/>propter hoc, qua propter ipsi complacentiae 
+      ma<lb ed="#R" n="22" break="no"/>gis competit ferri in Deum propter se, quam com 
+      <lb ed="#R" n="23"/>petit visioni, &amp; per consequens, magis habet ratio 
+      <lb ed="#R" n="24"/>nem vltimi, &amp; principalius hoc modo est de essen 
+      <lb ed="#R" n="25"/>tia beatitudinis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="26"/>Secunda ratio principalis ad istam 
+      propositio<lb ed="#R" n="27" break="no"/>nem es ista. In illo consistit magis ratio beatitudi 
+      <lb ed="#R" n="28"/>nis, vt ipsa est bonum rectissimum, &amp; secundum 
+      <lb ed="#R" n="29"/>recam rationem, quod maxime secundum recam 
+      <lb ed="#R" n="30"/>rationem facit vnionem hominis ad Deum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="31"/>Haec Propositio nota est, quia beatitudo 
+      consi<lb ed="#R" n="32" break="no"/>stit in maiori bono non sibi, sed secundum recam 
+      <lb ed="#R" n="33"/>rationem, &amp; virtutem: hoc patet, quia secundum 
+      <lb ed="#R" n="34"/>Aristotelem 9. Ethic. virtuosus exponens se morti 
+      <lb ed="#R" n="35"/>propter ciuitatem retinet sibi maius bonum, 
+      scili<lb ed="#R" n="36" break="no"/>cet bonum rectae rationis, &amp; virtutis, licet 
+      amit<lb ed="#R" n="37" break="no"/>tat bonum proprium, &amp; hoc, quia facit, quod 
+      <lb ed="#R" n="38"/>decet, vt sit bonum secundum rectam rationem, &amp; 
+      <lb ed="#R" n="39"/>secundum quod decet secundum virtutem, sit 
+      bo<lb ed="#R" n="40" break="no"/>num excellentius bono proprio, &amp; illud, quod 
+      <lb ed="#R" n="41"/>magis decet, habet rationem maioris boni. Nunc 
+      <lb ed="#R" n="42"/>autem beatitudo consistit simpliciter in maiori bo 
+      <lb ed="#R" n="43"/>no, quod magis decet: ergo. Sic ergo maior 
+      illa<lb ed="#R" n="44" break="no"/>patet: sed anima vniendo se Deo per intimum amo 
+      <lb ed="#R" n="45"/>rem, &amp; complacentiam facit illud, quod magis est 
+      <lb ed="#R" n="46"/>secundum recam rationem, &amp; quod magis decet, 
+      <lb ed="#R" n="47"/>quam vniendo Deum sibi per acum visionis, ita 
+      <lb ed="#R" n="48"/>quod amor facit vnionem ad Deum, quae est secun 
+      <lb ed="#R" n="49"/>dum recam rationem magis quam vnio, quam fa 
+      <lb ed="#R" n="50"/>cit actus intellectus: ergo. Probo minorem, 
+      quia<lb ed="#R" n="51" break="no"/>vnio Dei ad hominem estt bonum sibi, &amp; bonum re 
+      <lb ed="#R" n="52"/>ciprocum, ac actus concupiscentiae; vnio autem 
+      <lb ed="#R" n="53"/>hominis ad Qeum est bonum maxime secundum 
+      <lb ed="#R" n="54"/>recam rationem. ille enim actus est rectissimus, cu 
+      <lb ed="#R" n="55"/>ius oppositum est actus maxime indebitus &amp; 
+      con<lb ed="#R" n="56" break="no"/>tra rationem rectam, nam multo turpius esset 
+      di<lb ed="#R" n="57" break="no"/>splicere de Deo videndo Deum, quam 
+      complace<lb ed="#R" n="58" break="no"/>re in eo non videndo eum: non est ergo 
+      inconue<lb ed="#R" n="59" break="no"/>niens, quod bcatitudo secundum vnam rationem 
+      <lb ed="#R" n="60"/>principalius consistat in actu visionis, &amp; secundum 
+      <lb ed="#R" n="61"/>aliam rationem principalius in actu voluntatis, &amp; 
+      <lb ed="#R" n="62"/>complacentiae; sicut materia secundum vnam 
+      ra<lb ed="#R" n="63" break="no"/>tionem est principalius pertinens ad essentiam 
+      <lb ed="#R" n="64"/>compositi. Forma vero principalius secundum 
+      <lb ed="#R" n="65"/>aliam rationem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="66"/>Dices non curando de alia, &amp; alia ratione, it 
+      <lb ed="#R" n="67"/>quo absolute consistit principalius ranio beatitudi-
+      <!--0240.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>nis. Vtrum in actu visionis, vel in complacentiae. 
+      <lb ed="#R" n="69"/>Respondeo cum Aristotele 9. Ethic. c. 8. vt supra 
+      <lb ed="#R" n="70"/>allegaui, quod absolute bonum, quod magis est 
+      <lb ed="#R" n="71"/>secundum recam rationem, &amp; magis decet, est 
+      <lb ed="#R" n="72"/>simpliciter &amp; absolute maius bonum, &amp; ideo cum 
+      <lb ed="#R" n="73"/>beatitudo sit maximum bonum beatitudo 
+      simpli<lb ed="#R" n="74" break="no"/>citer &amp; absolute consistet principalius in maximo 
+      <lb ed="#R" n="75"/>bono. Vnde cum dicit Aristoteles, quod fortis 
+      de<lb ed="#R" n="76" break="no"/>bet pro decenti, &amp; conuenienti bono 
+      paruipende<lb ed="#R" n="77" break="no"/>re bonum minus perficiens, &amp; actum, qui decet, 
+      <lb ed="#R" n="78"/>oportet eligere dato etiam, quod auferat esse 
+      pro<lb ed="#R" n="79" break="no"/>prium bonum. magis autem decet praeponere bonum 
+      <lb ed="#R" n="80"/>diuinum cuique bono, eo quod plus excedit 
+      bo<lb ed="#R" n="81" break="no"/>num proprium, quam bonum communitatis exce 
+      <lb ed="#R" n="82"/>dat bonum meum, propter quod tamen docet me 
+      <lb ed="#R" n="83"/>paruipendere bonum meum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="84"/>Dices, quod magis decet te facere, est tibi maius 
+      <lb ed="#R" n="85"/>bonum: ergo eligendo, quod magis decet, eligis, 
+      <lb ed="#R" n="86"/>quod magis tibi bonum: non ergo eligendo, quod 
+      <lb ed="#R" n="87"/>magis decet, diceris proprie paruipendere bonum 
+      <lb ed="#R" n="88"/>proprium. 
+    </p>
+               <p>
+                  <lb ed="#R" n="89"/>Respondeo: aliud est illud, quod est per se bonum 
+      <lb ed="#R" n="90"/>tuum, &amp; aliud illud, quod est concomitanter bonum 
+      <lb ed="#R" n="91"/>tuum: bonum ergo, quod est secundum rectam 
+      <lb ed="#R" n="92"/>rationem, &amp; magis decet, quale est bonum 
+      virtu<lb ed="#R" n="93" break="no"/>tis est per se bonum non semper elicienti, sed quan 
+      <lb ed="#R" n="94"/>doque alteri: Sic in proposito, impendere se 
+      ama<lb ed="#R" n="95" break="no"/>to propter amorem, est bonum per se ipsius amati; 
+      <lb ed="#R" n="96"/>quia in hoc fit possessio quaedam eius, ex 
+      conse<lb ed="#R" n="97" break="no"/>quenti autem est bonum tuum, tamen non princi 
+      <lb ed="#R" n="98"/>paliter, quod patet, quia non elicis actum illum 
+      <lb ed="#R" n="99"/>propter bonum tuum, sed alterius, &amp; ideo bonum 
+      <lb ed="#R" n="100"/>decentiae semper includit bonum sibi, licet 
+      indire<lb ed="#R" n="101" break="no"/>cte. Et iste modus dicendi potest trahi ex dictis an 
+      <lb ed="#R" n="102"/>tiquorum. Doctor enim quidam solemnis, qui 
+      di<lb ed="#R" n="103" break="no"/>cit, quod consistit magis in acttu intellectus, alibi 
+      <lb ed="#R" n="104"/>assignans causam, quare actus charitatis in 
+      via<lb ed="#R" n="105" break="no"/>est nobilior actu intellectus, dicit, quod hoc ideo 
+      <lb ed="#R" n="106"/>est; quia intelligere est motus rei ad animam, amor 
+      <lb ed="#R" n="107"/>autem est motus anima ad rem ipsam. Tunc, quan 
+      <lb ed="#R" n="108"/>do anima est nobilior ipsa re, capit res nobilius 
+      <lb ed="#R" n="109"/>esse in anima, quam in re extra, eo quod trahitur 
+      <lb ed="#R" n="110"/>quodammodo ad esse animae, quando vero res 
+      ex<lb ed="#R" n="111" break="no"/>tra est perfectior anima, capit res esse ignobilius, 
+      <lb ed="#R" n="112"/>quam sit in esse extra. Ex alia parte, quia actus vo 
+      <lb ed="#R" n="113"/>luntatis est motus animae ad rem ipsam, si res 
+      ip<lb ed="#R" n="114" break="no"/>sa sit perfectior anima, anima in actu voluntatis di 
+      <lb ed="#R" n="115"/>gnificatur, quia trahitur ad esse aliquod nobilius 
+      <lb ed="#R" n="116"/>se. &amp; hinc est, quod cum per actum charitatis 
+      ani<lb ed="#R" n="117" break="no"/>ma trahatur ad Deum, qui est superior 
+      incompa<lb ed="#R" n="118" break="no"/>rabiliter ipsa voluntate, contingit, quod anima ex 
+      <lb ed="#R" n="119"/>tali actu trahitur ad esse diuinum, ideo est nobilior 
+      <lb ed="#R" n="120"/>actu intellectus. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

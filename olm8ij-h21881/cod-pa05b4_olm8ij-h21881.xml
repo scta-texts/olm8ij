@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="64"/>
+            <cb ed="#R" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h21881"> <!-- l4-d7q2 -->
+            <head>Quaestio 2</head>
+            <p>
+               <lb ed="#R" n="76"/>Quaestio II. 
+      </p>
+            <div>
+               <head>Articulus 1</head>
+               <head type="question-title">Utrum solus Episcopus sit idoneus minister 
+            Sacramenti Confirmationis. </head>
+               <p>
+                  <lb ed="#R" n="77"/>ARJICVLVS VNJCVS. 
+      <lb ed="#R" n="78"/>Vtrum solus Episcopus sit idoneus minister 
+      Sacra<lb ed="#R" n="79" break="no"/>menti Confirmationis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="80"/>QVANTVM ad secundam 
+      <lb ed="#R" n="81"/>quaestionem arguo primo, q 
+      <lb ed="#R" n="82"/>solus Episcopus sit idoneus 
+      <lb ed="#R" n="83"/>miniser Sacramenti 
+      Confir<lb ed="#R" n="84" break="no"/>mationis, per illud Act. 8. vbi 
+      <lb ed="#R" n="85"/>dicitur, quod postquam rece 
+      <lb ed="#R" n="86"/>perat Samaria verbum Dei, 
+      <lb ed="#R" n="87"/>miserunt ad confirmandum 
+      <lb ed="#R" n="88"/>illos Petrum &amp; Ioannem, vnde sequitur tunc, impo 
+      <lb ed="#R" n="89"/>nebant manus super illos, &amp; c. 
+    </p>
+               <p>
+                  <lb ed="#R" n="90"/>Confirmatur per illud de Consecr. dist. 5. cap. 
+      <lb ed="#R" n="91"/>Manuum impositio. 
+    </p>
+               <p>
+                  <lb ed="#R" n="92"/>In oppositum est illud Decretorum de Consecr. 
+      <lb ed="#R" n="93"/>cap. Peruenit ad nos, vbi allegant verbum 
+      Crego<lb ed="#R" n="94" break="no"/>rij Papae scribentis Januario Episcopo, vbi in fine 
+      <lb ed="#R" n="95"/>verborum dicitur: Si Episcopi desint, vt 
+      presbyte<lb ed="#R" n="96" break="no"/>ri baptizatos in fronte Chrismate tangere debeant 
+      <lb ed="#R" n="97"/>concedimus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="98"/>Respondeo, haec quaestio habet magnam 
+      difficul<lb ed="#R" n="99" break="no"/>tatem, &amp; tangitur de Consecratione, vbi supra 
+      ar<lb ed="#R" n="100" break="no"/>guendo ad oppositum; si enim de esseatia ministri 
+      <lb ed="#R" n="101"/>sit, quod sit Episcopus, tunc Papa non posset in hoc 
+      <lb ed="#R" n="102"/>dispensare alteri committendo, cuius contrarium 
+      <lb ed="#R" n="103"/>apparet inuapitulo praealleg. Peruenit. Ideo pono 
+      <lb ed="#R" n="104"/>primo punctum quaestionis, &amp; secundo ponam 
+      pro<lb ed="#R" n="105" break="no"/>positiones. 
+    </p>
+               <p>
+                  <lb ed="#R" n="106"/>Quoad primum sciendum est, quod secundum 
+      a<lb ed="#R" n="107" break="no"/>liquos Sacerdos &amp; Episcopus non differunt, vnde 
+      <lb ed="#R" n="108"/>Episcopus non est nisi simplex sacerdos, habens 
+      ta<lb ed="#R" n="109" break="no"/>men maiorem parochiam, &amp; auctoritatem. Modus 
+      <lb ed="#R" n="110"/>iste dicendi habet pro se Hieronymum super epist. 
+      <lb ed="#R" n="111"/>ad Titum, cuius auctoritas ponitur in Decret. de 
+      <lb ed="#R" n="112"/>Consecr. cap. Olim, vbi dicitur olim, quod idem 
+      <lb ed="#R" n="113"/>presbyter, qui &amp; Episcopus, &amp; sequitur: Episcopi 
+      <lb ed="#R" n="114"/>nouerint se uiagis ex consuetudine, quam 
+      Domi<lb ed="#R" n="115" break="no"/>nicae auctoritatis, virtute presbyteri esse maiores. 
+    </p>
+               <p>
+                  <lb ed="#R" n="116"/>Alia auctoritas eiusdem est, cum Apostolus 
+      do<lb ed="#R" n="117" break="no"/>ceat eosdem esse Episcopos, quos presbyteros, quod 
+      <lb ed="#R" n="118"/>patet ibidem per multas rationes. Quod si 
+      verum<lb ed="#R" n="119" break="no"/>esset, quaestio non haberet difficultatem, quia tunc 
+      <lb ed="#R" n="120"/>Papa libere potuit ministerium Confirmationis 
+      con<lb ed="#R" n="121" break="no"/>mittere alijs quam Episcopis. Verumtamen haec 
+      o<lb ed="#R" n="122" break="no"/>pinio non tenetur propter duo. Primo, quia Episco 
+      <lb ed="#R" n="123"/>pi officium, &amp; auctoritatem habent aliquam, quam 
+      <lb ed="#R" n="124"/>non habent presbyteri. Secundo, quia in prima 
+      <lb ed="#R" n="125"/>Ecclesia Apostoli erant ab alijs distincti 
+      discipu<lb ed="#R" n="126" break="no"/>lis: Apostolorum autem successores sunt hodie 
+      Episco<lb ed="#R" n="127" break="no"/>pi, Presbyteri vero aliorum discipulorum, ideo adhuc 
+      <lb ed="#R" n="128"/>manet difficultas quaestionis, quomodo Gregorius 
+      <lb ed="#R" n="129"/>Papa dispensare potuerit cum presbyteris 
+      Grae<lb ed="#R" n="130" break="no"/>cis, vt possent Confirmationem minisrare, quod 
+      <lb ed="#R" n="131"/>expresse habetur in Decretis dist. 95. cap. Perue- 
+      <!--0065.xml-->
+      <pb ed="#R" n="65"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>nit ad nos, quosdam scandalizatos fuisse, eo quod 
+      <lb ed="#R" n="2"/>presbyteros tangere eos Chrismate, qui baptizati 
+      <lb ed="#R" n="3"/>sunt, prohibuimus; sed ne omnino de hac re aliqui 
+      <lb ed="#R" n="4"/>contristentur, vbi Episcopi desunt, vt presbyteri 
+      <lb ed="#R" n="5"/>etiam in fronte baptizatos tangere Chrisinate 
+      de<lb ed="#R" n="6" break="no"/>beant concedimus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="7"/>Adhuc dicunt aliqui, quod Gregorius illud non 
+      <lb ed="#R" n="8"/>concessit, sed permisit propter scandalum: sed 
+      con<lb ed="#R" n="9" break="no"/>tra tamen, quia prius scandalum nasci 
+      permitti<lb ed="#R" n="10" break="no"/>tur, quam veritas relinquatur, vt habetur in 
+      re<lb ed="#R" n="11" break="no"/>gula Juris. 
+    </p>
+               <p>
+                  <lb ed="#R" n="12"/>Secundo, quia secundum hoc accidisset fraus cir 
+      <lb ed="#R" n="13"/>ca Sacramentum, quia &amp; preshyteri fuissent 
+      frau<lb ed="#R" n="14" break="no"/>dati credendo ministrare, quod non ministrabant; 
+      <lb ed="#R" n="15"/>&amp; suscipientes credendo suscipere, quod non 
+      susci<lb ed="#R" n="16" break="no"/>piebant: nullus vero debet ratione scandali permit 
+      <lb ed="#R" n="17"/>tere, quod fiat fraus circa Sacramentum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="18"/>Alij dicunt, quod Gregorius concessit, quod 
+      con<lb ed="#R" n="19" break="no"/>firmarent vngendo oleo, non chrisniate, ad 
+      vitan<lb ed="#R" n="20" break="no"/>dum scandalum. Sed iste modus dicendi est contra 
+      <lb ed="#R" n="21"/>litteram, sicut patet ibidem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="22"/>Item contra eum est ratio alia facta contra aliam 
+      <lb ed="#R" n="23"/>opinionem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="24"/>Alia opinio est, quod Papa potuerit 
+      committe<lb ed="#R" n="25" break="no"/>re Confirmationem ministrandam etiam laico, 
+      si<lb ed="#R" n="26" break="no"/>cut audiui quendam, qui etiam confessiones 
+      audi<lb ed="#R" n="27" break="no"/>re poterat laico committere. Sed opinio haec est ni 
+      <lb ed="#R" n="28"/>mium irrationabilis, ideo dimittenda est. 
+    </p>
+               <p>
+                  <lb ed="#R" n="29"/>Propter quod dixerunt alij, quod Papa potuit 
+      <lb ed="#R" n="30"/>auctoritatem illaui sacerdotibus committere, &amp; 
+      a<lb ed="#R" n="31" break="no"/>lijs non: ratio autem ipsorum est, quod sacerdos 
+      <lb ed="#R" n="32"/>ratione Ordinis habet auctoritatem super corpus 
+      <lb ed="#R" n="33"/>Christi verum, &amp; etiam super corpus Christi mysti 
+      <lb ed="#R" n="34"/>cum, propter quam sacerdos est idoneus minister 
+      <lb ed="#R" n="35"/>cuiuscumque Sacramenti in corpore mystico Chri 
+      <lb ed="#R" n="36"/>sti, quod est ipsa Ecclesia, maxime ex commissione 
+      <lb ed="#R" n="37"/>Papae. Contra hanc opinionem sunt argumenta 
+      <lb ed="#R" n="38"/>quae facta sunt ad principale. 
+    </p>
+               <p>
+                  <lb ed="#R" n="39"/>Alia opinio est, quod Gregorius Papa omnes 
+      sa<lb ed="#R" n="40" break="no"/>cerdotes Graecos tunc fecit Episcopos quantum ad 
+      <lb ed="#R" n="41"/>actum istum, qui est chrismate confirmare, &amp; per 
+      <lb ed="#R" n="42"/>hunc modum licite potuit eis concedere, quod con 
+      <lb ed="#R" n="43"/>sirmarent. Sed iste modus non videtur ire ad 
+      men<lb ed="#R" n="44" break="no"/>tem capituli, tamen quia ibi dicitur, si desint 
+      Epi<lb ed="#R" n="45" break="no"/>scopi, presbyteri possint tangere baptizatos 
+      chris<lb ed="#R" n="46" break="no"/>mate, &amp; secundo quod non fuisset permissio, sed 
+      <lb ed="#R" n="47"/>auctoritatis collatio, quod non videtur secundum 
+      <lb ed="#R" n="48"/>mentem capituli. Sic ergo punctus istius quaestionis 
+      <lb ed="#R" n="49"/>est videre, quomodo Papa possit dispensare cum sim 
+      <lb ed="#R" n="50"/>plici sacerdote, vt confirmet, vt de Gregorio 
+      legi<lb ed="#R" n="51" break="no"/>tur: secundo pono propositiones quasdam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="52"/>Prima est ista, quod quantum est de ordinatione 
+      <lb ed="#R" n="53"/>Hierarchica Ecclesiae, &amp; de iure, confirmare ad 
+      so<lb ed="#R" n="54" break="no"/>los Episcopos pertinet: ad hoc facit capitulum 
+      il<lb ed="#R" n="55" break="no"/>lud de Consecr. dist. 5. cap. manuum impositio. 
+      Si<lb ed="#R" n="56" break="no"/>militer ad hanc propositionem facit illud Act. 8. 
+      <lb ed="#R" n="57"/>de Petro, &amp; Joanne, qui missi fuerunt ad confirman 
+      <lb ed="#R" n="58"/>dum eos, qui crediderant in Samaria. Ad idem etiam 
+      <lb ed="#R" n="59"/>potest adduci ratio satis congruens, sic enim 
+      vide<lb ed="#R" n="60" break="no"/>tur esse congruus ordo, ac dispositio in familia Chri 
+      <lb ed="#R" n="61"/>sti, sicut &amp; in familia cuiuscumque Domini: sed 
+      vi<lb ed="#R" n="62" break="no"/>demus in alijs politijs, quod non cuilibet de 
+      fami<lb ed="#R" n="63" break="no"/>lia datum es facere milites, sed hoc tantummodo 
+      <lb ed="#R" n="64"/>commissum est principibus, &amp; obtinentibus gradum 
+      <lb ed="#R" n="65"/>eminentiorem in familia tali: sic est ergo in familia 
+      <lb ed="#R" n="66"/>Christi rationabile, quod non omnes valeant 
+      mili<lb ed="#R" n="67" break="no"/>tare, sed principes soli, cuiusmodi sunt Apostoli, &amp; 
+      <lb ed="#R" n="68"/>successores eorum, qui sunt Episcopi.
+    </p>
+               <p>
+      <!--0065.xml-->
+                  <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>Secunda Propositio, quod Papa potest eon
+      mitte<lb ed="#R" n="70" break="no"/>re administrationem huius Sacramenti cuilipet sae 
+      <lb ed="#R" n="71"/>cerdoti. Hanc propositionem probo a posteriori, &amp; 
+      <lb ed="#R" n="72"/>a priori. A posteriori sic: Non minoris auctoritatis 
+      <lb ed="#R" n="73"/>est conferre ordines, quam confirmare, nec 
+      confir<lb ed="#R" n="74" break="no"/>mare videtur exquirere maiorem excellentiam mi 
+      <lb ed="#R" n="75"/>nistri quam ordinare, nam Ordo consistit in 
+      excel<lb ed="#R" n="76" break="no"/>lentiori gradu in Ecclesia, quam Confirmatio: sed 
+      <lb ed="#R" n="77"/>hoc non obstante Papa potest committere ministra 
+      <lb ed="#R" n="78"/>tionem Ordinis alteri, quam Episcopo, vnde 
+      com<lb ed="#R" n="79" break="no"/>mittit de facto Abbatibus, quod possint conferre 
+      or<lb ed="#R" n="80" break="no"/>dines minores, &amp; aliquibus quosdam sacros: ergo 
+      <lb ed="#R" n="81"/>ratione pari videtur, quod possit committere 
+      mi<lb ed="#R" n="82" break="no"/>nistrationem Confirmationis alijs quam Episcopis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="83"/>Secundo probo idem a priori, sic: Ad cuius 
+      eui<lb ed="#R" n="84" break="no"/>dentiam sciendum est, quod duplex est potestas, 
+      <lb ed="#R" n="85"/>quantum exigitur ad propositum, quaedam enim 
+      <lb ed="#R" n="86"/>est potestas ordinis, quaedam potestas iurisdictionis. 
+      <lb ed="#R" n="87"/>Exemplum de primo, sicut conficere Sacramentum 
+      <lb ed="#R" n="88"/>corporis Christi, exemplum de secundo, sicut 
+      ex<lb ed="#R" n="89" break="no"/>communicare. 
+    </p>
+               <p>
+                  <lb ed="#R" n="90"/>Ex his autem duabus potestatibus simul iunctis 
+      <lb ed="#R" n="91"/>consurgit triplex potestus mixta, cuiusmodi sunt 
+      <lb ed="#R" n="92"/>audire confessiones, conferre ordines, ministrare 
+      <lb ed="#R" n="93"/>confirmationem. Est enim potestas audiendi 
+      con<lb ed="#R" n="94" break="no"/>fessiones, potestas mixta ex potestate Ordinis &amp; iu 
+      <lb ed="#R" n="95"/>risdictionis: Dico vero Ordinis, quia non sufficit 
+      <lb ed="#R" n="96"/>sola iurisdictio, alias plebanus non ordinatus 
+      pos<lb ed="#R" n="97" break="no"/>set confessiones audire. Dico etiam iurisdictionis, 
+      <lb ed="#R" n="98"/>quia nec ordo susficit sine iurisdictione: nullus enim 
+      <lb ed="#R" n="99"/>potest audire, nisi subiectum sibi, qui sit subiectus 
+      <lb ed="#R" n="100"/>de iure, vel de commissione. 
+    </p>
+               <p>
+                  <lb ed="#R" n="101"/>Similiter potesttas Ordines conferendi est 
+      pote<lb ed="#R" n="102" break="no"/>stas mixta ex potestate ordinis, &amp; iurisdictionis, 
+      <lb ed="#R" n="103"/>ideo sacerdoti simplici potest Papa committere 
+      col<lb ed="#R" n="104" break="no"/>lationem ordinum solam iurisdictionem conferendo: 
+      <lb ed="#R" n="105"/>nulli autem non sacerdoti committere potest 
+      pote<lb ed="#R" n="106" break="no"/>statem Ordines conferendi, quantumcumque 
+      maxi<lb ed="#R" n="107" break="no"/>mam conferret iurisdictionem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="108"/>Ratio autem est ad hoc, quia conferre ordines 
+      <lb ed="#R" n="109"/>est disponere corpus Christi mysticum: nunc autem 
+      <lb ed="#R" n="110"/>eadem est potestas corporis Christi veri &amp; my 
+      sti<lb ed="#R" n="111" break="no"/>ci: sed solus sacerdos habet potestatem super 
+      cor<lb ed="#R" n="112" break="no"/>pus Christi verum: ergo non sacerdos nullam habet 
+      <lb ed="#R" n="113"/>potestatem super corpus Christi mysticum: ergo 
+      <lb ed="#R" n="114"/>non sacerdos non potest ordines conferre. 
+    </p>
+               <p>
+                  <lb ed="#R" n="115"/>Similiter potestas confirmandi est potestas 
+      mix<lb ed="#R" n="116" break="no"/>ta, sic quod nec potest committi soli ordinato, nec 
+      <lb ed="#R" n="117"/>soli habenti iurisdictionem, sed habenti vtrumque. 
+    </p>
+               <p>
+                  <lb ed="#R" n="118"/>His praemissis, tunc sic habenti potestatem 
+      ordi<lb ed="#R" n="119" break="no"/>nis potest committi potestas quaecumque 
+      mixta<lb ed="#R" n="120" break="no"/>collata potestate iurisdictionis, sed confirmare est 
+      <lb ed="#R" n="121"/>potestas mixta, vt dictum est ex potestate ordinis, 
+      <lb ed="#R" n="122"/>&amp; iurisdictionis: ergo habenti potestatem ordinis 
+      <lb ed="#R" n="123"/>potest committi potestas confirmandi, commissa 
+      <lb ed="#R" n="124"/>tamen potestate iurisdictionis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="125"/>Vlterius. quicumque sacerdos habet potestatem 
+      <lb ed="#R" n="126"/>ordinis, &amp; cuilibet tali potest committi potestas iu 
+      <lb ed="#R" n="127"/>risdictionis, quia potest committi etiam laico: ergo 
+      <lb ed="#R" n="128"/>dominus Papa potest committere simplici 
+      sacer<lb ed="#R" n="129" break="no"/>doti potestatem confirmandi. 
+    </p>
+               <p>
+                  <lb ed="#R" n="130"/>Hanc propositionem confirmo per <ref>dicta 
+      Glosa<lb ed="#R" n="131" break="no"/>toris Dist. 95. in illo cap. peruenit.</ref>
+               </p>
+               <p>
+                  <lb ed="#R" n="132"/>Tunc dico, quod Gregorius commisit 
+      sacerdoti<lb ed="#R" n="133" break="no"/>bus illius regionis potescatem iurisdictionis, ex qua 
+      <lb ed="#R" n="134"/>cum potestate ordinis resultat potestas confirman 
+      <lb ed="#R" n="135"/>di, &amp; in hoc dedit eis auctoritatem, vt possent 
+      <lb ed="#R" n="136"/>Chrismate tangere in frontibus baptizatos, vt 
+      <lb ed="#R" n="137"/>
+                  <!-- line coord error -->
+               </p>
+               <p>
+      <!--0066.xml-->
+                  <pb ed="#R" n="66"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>capitulum dicit. Nec est dicendum, quod quidam 
+      <lb ed="#R" n="2"/>dicunt, quod ex hoc fecerint eos Episcopos, quia 
+      <lb ed="#R" n="3"/>tunc non habuissent sacerdotes illi potestatem 
+      <lb ed="#R" n="4"/>huiusmodi ex commissione, sed ex 
+      auctoritate<lb ed="#R" n="5" break="no"/>Porro aliud est aliquid posse ex auctoritate, aliud 
+      <lb ed="#R" n="6"/>autem illud posse ex delegatione &amp; commissione: 
+      <lb ed="#R" n="7"/>Papa antem ministrationem Confirmationis potest 
+      <lb ed="#R" n="8"/>committere omnibus sacerdotibus delegando, non 
+      <lb ed="#R" n="9"/>tamen quod auctoritatem habeant potest alijs 
+      con<lb ed="#R" n="10" break="no"/>mittere, quam Episcopo. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

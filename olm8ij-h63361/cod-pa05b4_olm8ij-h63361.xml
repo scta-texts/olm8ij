@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="184"/>
+            <cb ed="#R" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h63361"> <!-- l4-d37q1 -->
+            <head>Quaestio 1</head>
+            <p>
+               <lb ed="#R" n="120"/>Quaestio Vnica. 
+    </p>
+            <p>
+               <lb ed="#R" n="121"/>Nunc ergo quidam ordines, &amp;c. In ista 
+      Di<lb ed="#R" n="122" break="no"/>stinctione Trigesimaseptima vbi agit 
+      Ma<lb ed="#R" n="123" break="no"/>ster de impedimento proueniente ex 
+      Or<lb ed="#R" n="124" break="no"/>dine quaero vnam Quaestionem: Vtrum 
+      sci<lb ed="#R" n="125" break="no"/>licet sacer Ordo impediat matrimonium.
+    </p>
+            <div>
+               <head>Articulus 1</head>
+               <head type="question-title">
+          Utrum sacer Ordo impediat matrimonium.
+        </head>
+               <p>
+      <!--0185.xml-->
+                  <pb ed="#R" n="185"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>ARTICVLVS VNJCVS. 
+      <lb ed="#R" n="2"/>Vtrum sacer Ordo impediat matrimonium. 
+    </p>
+               <p>
+                  <lb ed="#R" n="3"/>RESPONDEO, quod sic. 
+      <lb ed="#R" n="4"/>hodie inter Latinos, sed 
+      <lb ed="#R" n="5"/>assignare causam est 
+      dif<lb ed="#R" n="6" break="no"/>ficile 
+    </p>
+               <p>
+                  <lb ed="#R" n="7"/>Aliqui dicunt, quod 
+      cau<lb ed="#R" n="8" break="no"/>sa est propter votum emis 
+      <lb ed="#R" n="9"/>sum a patribus in quodam 
+      <lb ed="#R" n="10"/>concilio generali, in quo 
+      <lb ed="#R" n="11"/>omnes Latini vouerunt. 
+      <lb ed="#R" n="12"/>Ecclesia autem orientalis 
+      <lb ed="#R" n="13"/>non vouit. Non placet ista causa, non enim teneor 
+      <lb ed="#R" n="14"/>ad votum per alium emissum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="15"/>Alij dicunt, quod hoc est propter votum 
+      casti<lb ed="#R" n="16" break="no"/>tatis annexum ordini, quae annexio facta est 
+      au<lb ed="#R" n="17" break="no"/>ctoritate Ecclesiae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="18"/>Alijs non placet haec ratio, quia vbi est 
+      matri<lb ed="#R" n="19" break="no"/>monium illicitum tantum propter praeceptum 
+      Ec<lb ed="#R" n="20" break="no"/>clesiae, licet peccet contrahens, tamen fi contrahat 
+      <lb ed="#R" n="21"/>de facto, non dirimitur matrimonium, vt si quis 
+      <lb ed="#R" n="22"/>contrahat tempore seriarum, vel interdicti; sed si 
+      <lb ed="#R" n="23"/>ordinatus contrahat, non tenet matrimonium, imo 
+      <lb ed="#R" n="24"/>dirimitur: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="25"/>Alij dicunt, quod causa est illegitimatio personae, 
+      <lb ed="#R" n="26"/>quam fecit Ecclesia: Ecclesia autem potest aliquas 
+      <lb ed="#R" n="27"/>personas illegitimare ex rationali causa, quae 
+      in<lb ed="#R" n="28" break="no"/>proposito valde est rationabilis, cum enim 
+      ordina<lb ed="#R" n="29" break="no"/>tus ministrare habeat circa corpus Domini, debet 
+      <lb ed="#R" n="30"/>esse maxime mundus corpore, &amp; eleuatus mente: 
+      <lb ed="#R" n="31"/>actus autem matrimonialis corpus polluit, &amp; cura 
+      <lb ed="#R" n="32"/>familiae deprimit mentem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="33"/>Non video, quare non possit teneri communis 
+      <lb ed="#R" n="34"/>modus, quod, scilicet ordo habeat annexum votum 
+      <lb ed="#R" n="35"/>continentiae, &amp; hoc est institutione Ecclesiae, &amp; ex 
+      <lb ed="#R" n="36"/>hoc sacer ordo impediat matrimonium contrahen 
+      <lb ed="#R" n="37"/>dum, &amp; dirimat contractum. Hoc autem probo 
+      <lb ed="#R" n="38"/>d simili, nam in religione, vbi non distinguitur 
+      ha<lb ed="#R" n="39" break="no"/>bitus professorum, &amp; nouitiorum, qui permanserit 
+      <lb ed="#R" n="40"/>septem annis in religione, &amp; non reclamauerit, 
+      <lb ed="#R" n="41"/>talis intelligitur tacite professisse, quia praesumit 
+      <lb ed="#R" n="42"/>Ecclesia de illius consensu; similiter in religione vbi 
+      <lb ed="#R" n="43"/>distinguitur habitus professorum, &amp; nouitiorum, 
+      <lb ed="#R" n="44"/>qui fuerit vltra annum, &amp; non reclamauerit, 
+      intel<lb ed="#R" n="45" break="no"/>ligitur professisse, &amp; professio iudicatur, &amp; hoc est 
+      <lb ed="#R" n="46"/>ex institutione Ecclesiae: igitur non videtur 
+      incon<lb ed="#R" n="47" break="no"/>ueniens, quod ex auctoritate Ecclesiae qui recipit 
+      <lb ed="#R" n="48"/>sacrum ordinem tacite intelligitur vouere 
+      conti<lb ed="#R" n="49" break="no"/>nentiam, &amp; astrictum esse ad votum castitatis: hoc 
+      <lb ed="#R" n="50"/>ergo modo suscipiens sacrum ordinem astrictus est 
+      <lb ed="#R" n="51"/>ad votum castitatis, quod videtur esse 
+      auctoritate<lb ed="#R" n="52" break="no"/>Ecclesiae annexum ordini. Et potest confirmari in 
+      <lb ed="#R" n="53"/>simili, quoniam quando aliqua sunt 
+      coniuncta<lb ed="#R" n="54" break="no"/>auctoritate eius, qui potuit coniungere, si eligo 
+      <lb ed="#R" n="55"/>vnum, necessario eligo aliud, hoc patet 
+      expresse<lb ed="#R" n="56" break="no"/>3. Ethic. vbi Philosophus contra dicentes, quod 
+      <lb ed="#R" n="57"/>licet actus virtuosus sit voluntarius, tamen 
+      habi<lb ed="#R" n="58" break="no"/>tus generatur inuoluntarie, dicit ibi Philosophus, 
+      <lb ed="#R" n="59"/>quod ex quo habitus necesario generatur ex 
+      acti<lb ed="#R" n="60" break="no"/>bus, qui eligit actum vitiosum, eligit etiam 
+      ne<lb ed="#R" n="61" break="no"/>cessario habitum: sed Ecclesia potuit instituere 
+      <lb ed="#R" n="62"/>quod qui suscipit sacrum ordinem, voueat 
+      conti<lb ed="#R" n="63" break="no"/>nentiā, &amp; annexisse, quod qui accedit ad 
+      suscipien<lb ed="#R" n="64" break="no"/>dum ordinem sacrum, intelligat se vouere 
+      conti<lb ed="#R" n="65" break="no"/>nentiam, saltem tacite: ergo. 
+    </p>
+               <p>
+      <!--0185.xml-->
+                  <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="66"/>Et ad illud, quod arguebatur contra istam 
+      opi<lb ed="#R" n="67" break="no"/>nionem, quod illud quod est illicitum ex solo 
+      sta<lb ed="#R" n="68" break="no"/>tuto Ecclesiae, si de facto fiat, tenet. Respondeo aliud 
+      <lb ed="#R" n="69"/>est Ecclesiam velle suscipientem ordinem sacrum 
+      <lb ed="#R" n="70"/>non contrahere, &amp; aliud est velle ipsum vouere ad 
+      <lb ed="#R" n="71"/>non contrahendum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="72"/>Primo modo currit argumentum; secundo 
+      mo<lb ed="#R" n="73" break="no"/>do non concludit, &amp; hoc modo est in proposito, 
+      <lb ed="#R" n="74"/>quod Ecclesia non solum prohibeat contrahere 
+      <lb ed="#R" n="75"/>sed statuat vouere, &amp; hoc modo facit personam 
+      il<lb ed="#R" n="76" break="no"/>legitimam, vt dicebant alij; &amp; cum votum 
+      continen<lb ed="#R" n="77" break="no"/>tiae sit annexum ordini patet, quod eliciens actum 
+      <lb ed="#R" n="78"/>contrarium venit contra votum continentiae, vt di 
+      <lb ed="#R" n="79"/>cunt Jura 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

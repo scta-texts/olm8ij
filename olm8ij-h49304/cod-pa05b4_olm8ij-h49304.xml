@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="144"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h49304"> <!-- l4-d17prae -->
+            <head>Praeambulum</head>
+            <p>
+      <!--0144.xml-->
+               <pb ed="#R" n="144"/>
+               <cb ed="#R" n="a"/>
+               <lb ed="#R" n="1"/>DISTINCTIO XVII 
+      <lb ed="#R" n="2"/>VLNFESSJO NE. 
+  </p>
+            <p>
+               <lb ed="#R" n="3"/>Hìc oritur quaestio multiplex. In ista 
+      disttin<lb ed="#R" n="4" break="no"/>cttione Decimaseptima Magister quaerit in 
+      <lb ed="#R" n="5"/>speciali de confessione. Circa quam 
+      quae<lb ed="#R" n="6" break="no"/>ro de duobus specialiter. 
+  </p>
+            <p>
+               <lb ed="#R" n="7"/>1 Primo de eius obligatione: vtrum confessio 
+      <lb ed="#R" n="8"/>sit obligatiua ex praecepto Christi, vel Ecclesiae. 
+      <lb ed="#R" n="9"/>2 Secundo quaeram de quibusdam quae in ge - 
+      <lb ed="#R" n="10"/>nerali attendenda sunt circa confessionem. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

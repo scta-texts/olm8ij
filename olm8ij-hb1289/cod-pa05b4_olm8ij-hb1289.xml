@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="34"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-hb1289"> <!-- l1-d2prae -->
+            <head>Praeambulum</head>
+            <p>
+               <lb ed="#R" n="40"/>DISTINCTIO II 
+      <lb ed="#R" n="41"/>DE SACRAMENTIS 
+      <lb ed="#R" n="42"/>NOVAE LEGIS. 
+    </p>
+            <p>
+               <lb ed="#R" n="43"/>Iam ad Sacramenta Nouae Legis accedamus. 
+      <lb ed="#R" n="44"/>In praecedenti Distinctione egit Magiser 
+      <lb ed="#R" n="45"/>de Sacramentis in generali, &amp; in speciali 
+      <lb ed="#R" n="46"/>de Sacramentis Legis veteris. In ista vero 
+      <lb ed="#R" n="47"/>Distinctione incipit agere de Sacramentis 
+      <lb ed="#R" n="48"/>Nouae Legis in speciali: &amp; quia in praesenti 
+      <lb ed="#R" n="49"/>Distinctione Magister agit de Sacramentis 
+      <lb ed="#R" n="50"/>Nouae Legis in quadam generalitate, &amp; in 
+      <lb ed="#R" n="51"/>fine agit de quodam praeambulo ad 
+      Sacra<lb ed="#R" n="52" break="no"/>mentum Baptismi, scilicet de Baptismo 
+      <lb ed="#R" n="53"/>loannis. Ideo ad euidentiam Quaestionis 
+      <lb ed="#R" n="54"/>istius quaero tres quaestiones.
+    </p>
+            <p>
+               <lb ed="#R" n="55"/>1 Vtrum in Lege noua debuerunt institui 
+      ali<lb ed="#R" n="56" break="no"/>qua specialia Sacramenta. 
+      <lb ed="#R" n="57"/>a Vtrum Sacramenta Nouae Legis in 
+      septena<lb ed="#R" n="58" break="no"/>rio numero fuerint conuenienter iustituta a Christo. 
+      <!--0034.xml-->
+      <cb ed="#R" n="b"/>
+               <lb ed="#R" n="59"/>3 Vtrum Baptismus Joannis fuerit verum 
+      Sa<lb ed="#R" n="60" break="no"/>cramentum. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="88"/>
+            <cb ed="#R" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h30087"> <!-- l4-d10q3 -->
+            <head>Quaestio 3</head>
+            <head type="question-title">
+      De modo existendi 
+      corporis Christi in Sacramento in 
+      ordine ad agens intrinsecum, 
+      siue respectu suarum 
+      dimensionum. 
+    </head>
+            <p>
+               <lb ed="#R" n="79"/>Quaestio III. 
+      <lb ed="#R" n="80"/>De modo existendi 
+      <lb ed="#R" n="81"/>corporis Christi in Sacramento in 
+      <lb ed="#R" n="82"/>ordine ad agens intrinsecum, 
+      <lb ed="#R" n="83"/>siue respectu suarum 
+      <lb ed="#R" n="84"/>dimensionum. 
+    </p>
+            <p>
+               <lb ed="#R" n="85"/>Postquam visum est de existentia rei contentae 
+      <lb ed="#R" n="86"/>in Eucharistia absolute, videndum est nunc 
+      <lb ed="#R" n="87"/>de modo existentiae eius, quoad eius 
+      quan<lb ed="#R" n="88" break="no"/>titatem, &amp; naturales passiones quantitatis, 
+      <lb ed="#R" n="89"/>&amp; quaero circa hoc quatuor quaestiones.
+  </p>
+            <p>
+               <lb ed="#R" n="90"/>1 Vtrum substantia corporis Domini sit in hoc 
+      <lb ed="#R" n="91"/>Sacramento cum suis dimensionibus, siue cum sua 
+      <lb ed="#R" n="92"/>quantitate. 
+      <lb ed="#R" n="93"/>2 Vtrum quantitas corporis absoluatur a 
+      le<lb ed="#R" n="94" break="no"/>gibus quantitatis per hoc, quod est in Sacramento 
+      <lb ed="#R" n="95"/>non per se &amp; directe, sed per concomitantiam. 
+      <lb ed="#R" n="96"/>3 Vtrum illud, a quo absoluitur quantitas cor 
+      <lb ed="#R" n="97"/>poris Christi in hoc Sacramento, sit tantummodo 
+      <lb ed="#R" n="98"/>respectus situs &amp; positionis. 
+      <lb ed="#R" n="99"/>4 Vtrum illud, a quo absoluitur quantitas cor 
+      <lb ed="#R" n="100"/>poris Christi in hoc Sacramento, sit positio de 
+      ge<lb ed="#R" n="101" break="no"/>nere quantitatis. 
+    </p>
+            <div>
+               <head>Articulus 1</head>
+               <head type="question-title">
+      Utrum substantia corporis Christi sit in hoc 
+      Sacramento cum suis dimensionibus, siue cum 
+      sua quantitate
+    </head>
+               <p>
+                  <lb ed="#R" n="102"/>ARTICVLVUS I. 
+      <lb ed="#R" n="103"/>Vtrum substantia corporis Christi sit in hoc 
+      Sacra<lb ed="#R" n="104" break="no"/>mento cum suis dimensionibus, siue cum 
+      <lb ed="#R" n="105"/>sua quantitate 
+    </p>
+               <p>
+                  <lb ed="#R" n="106"/>QVANTVM ad tertiam quaestionem 
+      <lb ed="#R" n="107"/>arguo primo, quod corpus Christi 
+      <lb ed="#R" n="108"/>in hoc Sacramento non est secundum 
+      <lb ed="#R" n="109"/>suam propriam quantitatem, sic: 
+      Se<lb ed="#R" n="110" break="no"/>cundum August. Donec finiatur 
+      Sa<lb ed="#R" n="111" break="no"/>cramentum, nobiscum est Dominus, 
+      <lb ed="#R" n="112"/>&amp; idem quod nobiscum est secundum veritatem, in 
+      <lb ed="#R" n="113"/>caelo est secundum corpus, ex quo arguo sic: Domi 
+      <lb ed="#R" n="114"/>nus secundum veritatem non est aliud quam corpus 
+      <lb ed="#R" n="115"/>secundum suam quidditatem, &amp; veritatem suae 
+      na<lb ed="#R" n="116" break="no"/>turae, secundum vero corpus non aliud est, quam 
+      ip<lb ed="#R" n="117" break="no"/>sum secundum suam quantitatem: nunc autem (
+      se<lb ed="#R" n="118" break="no"/>cundum ipsum) corpus Domini est differenter in 
+      cae<lb ed="#R" n="119" break="no"/>lo, &amp; in Sacramento, quia est in caelo secundum 
+      cor<lb ed="#R" n="120" break="no"/>pus, idest secundum suam quantitatem; nobiscum 
+      <lb ed="#R" n="121"/>secundum veritatem, idest secundum substantiam, &amp; 
+      <lb ed="#R" n="122"/>quidditatem: ergo ex intentione eius nobiscum non est 
+      <lb ed="#R" n="123"/>secundum suam quantitatem, sed tantũmodo in caelo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="124"/>In oppositum, quia corpus Christi in Sacramento 
+      <lb ed="#R" n="125"/>est animatum: ergo quantum. Probatio 
+      consequen<lb ed="#R" n="126" break="no"/>tiae, quia anima est actus corporis organici physi- 
+      <!--0089.xml-->
+      <pb ed="#R" n="89"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>ci <ref>2. de anima tex. 6. &amp; 7.</ref> Respondeo, in ista 
+      quae<lb ed="#R" n="2" break="no"/>stione primo ponam punctum quaestionis: secundo 
+      <lb ed="#R" n="3"/>propositiones intentas. 
+    </p>
+               <p>
+                  <lb ed="#R" n="4"/>De primo, isam quaestionem moui propter 
+      di<lb ed="#R" n="5" break="no"/>ctum quorundam Docorum, &amp; specialiter vnius 
+      <lb ed="#R" n="6"/>Moderni dicentis, quod nulla est contradictio, quod 
+      <lb ed="#R" n="7"/>corpus Domini sit in coelo secundum suam 
+      quan<lb ed="#R" n="8" break="no"/>titatem, &amp; in hoc Sacramento sine sua quantitate; 
+      <lb ed="#R" n="9"/>ita quod non sit contradictio, quod corpus sit ibi 
+      <lb ed="#R" n="10"/>quantum, hic autem non, &amp; dicunt, quod ita est 
+      <lb ed="#R" n="11"/>hodie de facto. 
+    </p>
+               <p>
+                  <lb ed="#R" n="12"/>Alij vero Docttores communiter tenent, quod 
+      <lb ed="#R" n="13"/>contradictio est, quod ibi sit quantum, hic non, &amp; 
+      <lb ed="#R" n="14"/>hoc in primo modo dicendi per se. Punctus ergo 
+      <lb ed="#R" n="15"/>quaestionis est videre, quid veritatis sit circa has op 
+      <lb ed="#R" n="16"/>positas positiones. 
+    </p>
+               <p>
+                  <lb ed="#R" n="17"/>Secundo pono Propositiones intentas. Prima est 
+      <lb ed="#R" n="18"/>ista, quod ponere quod corpus Cristi sit quantum 
+      <lb ed="#R" n="19"/>per quantitatem inhaerentem absolutam, &amp; quod in 
+      <lb ed="#R" n="20"/>caelo sit cum sua quantitate, in Sacramento vero 
+      <lb ed="#R" n="21"/>non sit quantum, est contradictio. 
+    </p>
+               <p>
+                  <lb ed="#R" n="22"/>Hanc conclusionem probo sic: Quando aliquid 
+      <lb ed="#R" n="23"/>sic se habet ad aliquam propositionem siue 
+      affir<lb ed="#R" n="24" break="no"/>mationem, &amp; negationem de eodem, quod accidit 
+      <lb ed="#R" n="25"/>praedicato, &amp; subiecto, &amp; nullam variationem 
+      fa<lb ed="#R" n="26" break="no"/>cit in istis, nec scilicet in subieco, nec in 
+      praedica<lb ed="#R" n="27" break="no"/>to, nec in vnione eorum ad inuicem, illud quantũ- 
+      <lb ed="#R" n="28"/>cumque variatum non aufert contradictionem 
+      va<lb ed="#R" n="29" break="no"/>riationis ipsius affirmationis, &amp; negationis de 
+      eo<lb ed="#R" n="30" break="no"/>dem: sed vbi, siue esse in caelo, &amp; esse hic, circa istam 
+      <lb ed="#R" n="31"/>affirmationem, &amp; negationem de eodem, puta 
+      cor<lb ed="#R" n="32" break="no"/>pus Domini est quantum; Corpus Domini non est 
+      <lb ed="#R" n="33"/>quantum: nullam variationem facit circa subiectum, 
+      <lb ed="#R" n="34"/>&amp; praedicatum, puta circa corpus, &amp; circa 
+      quanti<lb ed="#R" n="35" break="no"/>tatem, nec circa vnionem quantitatis ad subiectum: 
+      <lb ed="#R" n="36"/>ergo. Maiorem probo exemplo &amp; ratione. Jstae enim 
+      <lb ed="#R" n="37"/>duae propositiones, Aethiops est albus secundum 
+      <lb ed="#R" n="38"/>dentes, &amp; non est albus secundum pedem, non 
+      con<lb ed="#R" n="39" break="no"/>tradicunt, &amp; ratio est, quia hoc ly secundum, variat 
+      <lb ed="#R" n="40"/>subiectum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="41"/>Similiter istae duae, linea est dupla ad hoc, &amp; 
+      li<lb ed="#R" n="42" break="no"/>nea non est dupla ad illud, non contradicunt. 
+      <lb ed="#R" n="43"/>Ratio est; quia ly ad hoc, &amp; ad illud variant 
+      prae<lb ed="#R" n="44" break="no"/>dicatum: non enim est eadem dupleitas in linea 
+      re<lb ed="#R" n="45" break="no"/>spectu diuersorum terminorum.
+    </p>
+               <p>
+                  <lb ed="#R" n="46"/>Similiter istae duae: Sedet hodie, non sedet cras, 
+      <lb ed="#R" n="47"/>non contradicunt: &amp; ratio est, quia hodie &amp; cras, 
+      <lb ed="#R" n="48"/>licet non varient subiectum, &amp; praedicatum, tamen 
+      <lb ed="#R" n="49"/>variant vnionem eorum, eo quod vnio tempore-- 
+      <lb ed="#R" n="50"/>mensuratur, &amp; ideo potest variari tempore 
+      va<lb ed="#R" n="51" break="no"/>riato. 
+    </p>
+               <p>
+                  <lb ed="#R" n="52"/>Secundo probo idem ratione: Quia ex quo esse in 
+      <lb ed="#R" n="53"/>caelo, &amp; esse hic non variant subiectum nec 
+      praedi<lb ed="#R" n="54" break="no"/>catum, nec vnionem: affirmatio &amp; negatio erunt 
+      <lb ed="#R" n="55"/>eiusdem, &amp; de eodem respectu eiusdem, &amp; erit 
+      to<lb ed="#R" n="56" break="no"/>ta ratio elenchi. 
+    </p>
+               <p>
+                  <lb ed="#R" n="57"/>Maioris autem probatio nota est: Esse enim in-- 
+      <lb ed="#R" n="58"/>caelo &amp; esse hic, non variat subiectum, scilicet 
+      cor<lb ed="#R" n="59" break="no"/>pus, quia idem corpus est vtrobique, nec variat 
+      <lb ed="#R" n="60"/>praedicatum, quia eadem quantitas est hic &amp; ibi, 
+      <lb ed="#R" n="61"/>nec variat vnionem, non enim esse in loco mediat 
+      <lb ed="#R" n="62"/>inter substantiam, &amp; quantitatem, imo accidit 
+      om<lb ed="#R" n="63" break="no"/>nino corpori ad hoc, quod sit quantum, quod sit 
+      <lb ed="#R" n="64"/>in loco hoc, vel illo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="65"/>Secunda ratio principalis ad conclusionem est 
+      <lb ed="#R" n="66"/>ista: Nullum posterius tollit contradictionem ab 
+      <lb ed="#R" n="67"/>affirmatione, &amp; negatione prioris, quia ex quo 
+      ali<lb ed="#R" n="68" break="no"/>quid est prius alio, in illo priori afirmatio, &amp; nega- 
+      <!--0089.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>tio de illo contradicunt: ergo posterius adueniens 
+      <lb ed="#R" n="70"/>non aufert contradictionem: sed inharentia quan. 
+      <lb ed="#R" n="71"/>titatis ad substantiam est prior loco &amp; situ: 
+      non<lb ed="#R" n="72" break="no"/>enim per locum &amp; situm inest quantitas 
+      substantiae<lb ed="#R" n="73" break="no"/>sed magis e conuerso locus, &amp; situs insunt 
+      substan<lb ed="#R" n="74" break="no"/>tiae per quantitatem: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="75"/>Confirmo hoc sic: Ex quo quantitas est prior 
+      lo<lb ed="#R" n="76" break="no"/>co: ergo substantia prius est quanta, quam sit in-- 
+      <lb ed="#R" n="77"/>loco, vel prius non quanta, quia affirmatio &amp; 
+      ne<lb ed="#R" n="78" break="no"/>gatio insunt aliquibus pro eodem signo: ergo in 
+      il<lb ed="#R" n="79" break="no"/>lo priori substantia est quanta, &amp; non quanta, estt 
+      <lb ed="#R" n="80"/>contradictio. 
+    </p>
+               <p>
+                  <lb ed="#R" n="81"/>Tertia ratio principalis est ista: Quando ex 
+      ad<lb ed="#R" n="82" break="no"/>dito affirmationi, &amp; negationi licet inferre 
+      affir<lb ed="#R" n="83" break="no"/>mationem, &amp; negationem simpliciter, illud 
+      addi<lb ed="#R" n="84" break="no"/>tum quantumcumque variatum non tollit 
+      contra<lb ed="#R" n="85" break="no"/>dictionem. Hanc probo per oppositum, ideo enim 
+      <lb ed="#R" n="86"/>hic non est contradictio: est albus secundum 
+      den<lb ed="#R" n="87" break="no"/>tes, &amp; non albus secundum pedem, quia non licet 
+      <lb ed="#R" n="88"/>ex hoc addito secundum dentes, vel secundum 
+      <lb ed="#R" n="89"/>pedem inferre affirmationem, &amp; negationem 
+      sim<lb ed="#R" n="90" break="no"/>pliciter: Non enim sequitur: est albus secundum den 
+      <lb ed="#R" n="91"/>tes: ergo est simpliciter albus: Nec sequitur: non est 
+      <lb ed="#R" n="92"/>albus secundum pedem: ergo simpliciter non est 
+      al<lb ed="#R" n="93" break="no"/>bus ex 1. Elech. cap. 4. Si enim liceret ex tali addito 
+      <lb ed="#R" n="94"/>inferre simpliciter, esset euidens contradictio: Sed ex 
+      <lb ed="#R" n="95"/>isto addito, in caelo, licet inferre absolute 
+      affirma<lb ed="#R" n="96" break="no"/>tionem: puta corpus Christi, quod est quantum in 
+      <lb ed="#R" n="97"/>caelo: ergo est quantum simpliciter: similiter ex hoc 
+      <lb ed="#R" n="98"/>addito, scilicet in Sacramento, licet inferre 
+      negati<lb ed="#R" n="99" break="no"/>uam absolute, cum dicitur, non est quantum in 
+      Sa<lb ed="#R" n="100" break="no"/>cramento: sequitur enim: ergo simpliciter non est 
+      <lb ed="#R" n="101"/>quantum: ergo esse in caelo, &amp; esse in Sacramento, 
+      ad<lb ed="#R" n="102" break="no"/>dito huic affirmationi, &amp; negationi de eodem, 
+      cor<lb ed="#R" n="103" break="no"/>pus Christi est quantum, corpus Christi non est quan 
+      <lb ed="#R" n="104"/>tum, non variant contradictionem. Probatio 
+      mino<lb ed="#R" n="105" break="no"/>ris: Quoniam esse in caelo, vel esse in Sacramento non 
+      <lb ed="#R" n="106"/>diminuunt de ratione istius affirmationis: Corpus 
+      <lb ed="#R" n="107"/>est quantum, nec similiter de ratione negationis, 
+      si<lb ed="#R" n="108" break="no"/>cut diminuit ly ad hoc, cum dicitur linea est dupla 
+      <lb ed="#R" n="109"/>ad hoc. 
+    </p>
+               <p>
+                  <lb ed="#R" n="110"/>Propter istas rationes teneo simpliciter, quod 
+      cor<lb ed="#R" n="111" break="no"/>pus Christi habet easdem partes, &amp; proprietates 
+      <lb ed="#R" n="112"/>absolutas in Sacramento, quas habet in caelo: 
+      se<lb ed="#R" n="113" break="no"/>cundo mouebo dubia circa hoc. 
+    </p>
+               <p>
+                  <lb ed="#R" n="114"/>Primum est, quoniam sicut substantia corporis 
+      <lb ed="#R" n="115"/>Christi, &amp; quantitas sunt vnum subiecto, sic 
+      quanti<lb ed="#R" n="116" break="no"/>tas corporis Christi, &amp; contactus caeli: sed hoc non 
+      <lb ed="#R" n="117"/>obstante corpus Christi in caelo est cum contactu 
+      <lb ed="#R" n="118"/>caeli, in Sacramento autem est sine contactu caeli: er 
+      <lb ed="#R" n="119"/>go a simili non videtur contradictio, quod sit quan 
+      <lb ed="#R" n="120"/>tum in caelo, &amp; non quantum in Sacramento. 
+    </p>
+               <p>
+                  <lb ed="#R" n="121"/>Item secundo: Sicut se habet substantia ad 
+      quan<lb ed="#R" n="122" break="no"/>titatem, sic quantitas ad per se passiones suas, &amp; e 
+      <lb ed="#R" n="123"/>conuerso: sed quantitas corporis Christi est cum suis 
+      <lb ed="#R" n="124"/>per se passionibus in caelo, in Sacramento autem non 
+      <lb ed="#R" n="125"/>est cum illis passionibus, cuiusmodi sunt 
+      commen<lb ed="#R" n="126" break="no"/>suratio, determinatio ad situm, &amp; contactus 
+      huius<lb ed="#R" n="127" break="no"/>modi: ergo a simili poterit esse substantia corporis 
+      <lb ed="#R" n="128"/>Christi in caelo cum sua per se quantitate, &amp; 
+      sine<lb ed="#R" n="129" break="no"/>quantitate in Sacramento. 
+  </p>
+               <p>
+                  <lb ed="#R" n="130"/>Tertio, quia ad tollendam contradictionem 
+      suf<lb ed="#R" n="131" break="no"/>ficit tollere simultatem, elenchus enim est 
+      affirma<lb ed="#R" n="132" break="no"/>tio, &amp; negatio eiusdem de eodem simul, sed per hoc 
+      <lb ed="#R" n="133"/>quod dicitur in caelo, &amp; in Sacramento tollitur 
+      si<lb ed="#R" n="134" break="no"/>multas, variatur enim haec habitudo, in, &amp; per 
+      con<lb ed="#R" n="135" break="no"/>sequens habitudo simul, quia idem dicunt. 
+      Re<lb ed="#R" n="136" break="no"/>spondeo ad ista dubia. 
+  </p>
+               <p>
+      <!--0090.xml-->
+                  <pb ed="#R" n="90"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Ad primum, &amp; secundum per idem. Concedo 
+      <lb ed="#R" n="2"/>enim quod contacttus caeli inestt corpori Christi 
+      in<lb ed="#R" n="3" break="no"/>caelo, &amp; non in Sacramento, &amp; tamen nulla est 
+      con<lb ed="#R" n="4" break="no"/>tradictio. Ratio est, quia contactus, 
+      commensura<lb ed="#R" n="5" break="no"/>tio, &amp; huiusmodi passiones quantitatis insunt 
+      in<lb ed="#R" n="6" break="no"/>ordine ad aliquem terminum, puta contactus 
+      in<lb ed="#R" n="7" break="no"/>ordine ad caelum, caelum enim est terminus 
+      conta<lb ed="#R" n="8" break="no"/>ctus corporis Christi in caelo, &amp; aliarum passionum 
+      <lb ed="#R" n="9"/>respectiuarum quantitatis. Jmpossibile est enim 
+      <lb ed="#R" n="10"/>ponere contactum sine termino, &amp; similiter 
+      passio<lb ed="#R" n="11" break="no"/>nes alias respectiuas, quapropter ad variationem 
+      <lb ed="#R" n="12"/>termini, variatur contactus, &amp; huiusmodi 
+      pasio<lb ed="#R" n="13" break="no"/>nes, &amp; ideo variatio termini in talibus variat 
+      prae<lb ed="#R" n="14" break="no"/>dicatum: non enim est idem contactus respecu 
+      al<lb ed="#R" n="15" break="no"/>terius, &amp; alterius termini. Similiter nec eadem 
+      <lb ed="#R" n="16"/>commensuratio respectu termini alterius &amp; 
+      alte<lb ed="#R" n="17" break="no"/>rius, &amp; ideo ad variationem termini tollitur 
+      con<lb ed="#R" n="18" break="no"/>tradictio. Propter quod non est contradictio, 
+      cor<lb ed="#R" n="19" break="no"/>pus Christi in caelo contingit caelum, &amp; 
+      commensu<lb ed="#R" n="20" break="no"/>ratur certae quantitati caeli, &amp; in Sacramento non 
+      <lb ed="#R" n="21"/>contingit, nec commensuratur speciebus, eo quod 
+      <lb ed="#R" n="22"/>variatur terminus, scilicet caelum, &amp; species. 
+      Si<lb ed="#R" n="23" break="no"/>militer non licet inferre vniuersaliter: corpus 
+      Chri<lb ed="#R" n="24" break="no"/>sti tangit hic caelum: ergo simpliciter tangit caelum: 
+      <lb ed="#R" n="25"/>sed quantitas est forma absoluta non aspiciens ter 
+      <lb ed="#R" n="26"/>minum, ideo non variatur in caelo, &amp; in 
+      Sacramen<lb ed="#R" n="27" break="no"/>to, propter quod non tollitur contradictio, quae 
+      <lb ed="#R" n="28"/>dicit contingere caelum, &amp; non contingere. 
+    </p>
+               <p>
+                  <lb ed="#R" n="29"/>Ad secundum dubium dico, quod variatio 
+      ali<lb ed="#R" n="30" break="no"/>cuius non tollit contradictionem, nisi quia variat 
+      <lb ed="#R" n="31"/>subiectum, vel praedicatum, vel vnionem; variatio 
+      <lb ed="#R" n="32"/>autem loci variat non subiectum quantitatis, nec 
+      <lb ed="#R" n="33"/>quantitatem ipsam, nec vnionem eorum, ideo non 
+      <lb ed="#R" n="34"/>tollit contradictionem. Quapropter simultas loci 
+      <lb ed="#R" n="35"/>si tollatur, non tollitur contradictio, sicut si tollitur 
+      <lb ed="#R" n="36"/>simultas temporis. Ratio est, quia tempus variat 
+      <lb ed="#R" n="37"/>vnionem, quoniam vnio mensuratur tempore: sed 
+      <lb ed="#R" n="38"/>locus non est huiusmodi, non enim mediante loco 
+      <lb ed="#R" n="39"/>quantitas inest substantiae, sed potius e conuerso. 
+    </p>
+               <p>
+                  <lb ed="#R" n="40"/>Ad argumentum principale respondeo: 
+      Inten<lb ed="#R" n="41" break="no"/>tio Augustini est, quod Christus est in caelo, 
+      secun<lb ed="#R" n="42" break="no"/>dum leges quantitatis corporis sui, &amp; hoc vocat 
+      es<lb ed="#R" n="43" break="no"/>se in caelo secundum corpus, sed in Sacramento 
+      <lb ed="#R" n="44"/>secundum veritatem, tam secundum substantiam, 
+      <lb ed="#R" n="45"/>quam secundum omnia accidentia absoluta. 
+    </p>
+            </div>
+            <div>
+               <head>Articulus 2</head>
+               <head type="question-title">
+      Verum quantitas corporis Christi absoluatur a 
+      legibus quantitatis, per hoc quod est in 
+      Sacramento non per se, et directe, 
+      sed per concomitantiam.
+    </head>
+               <p>
+                  <lb ed="#R" n="46"/>ARTICVLVS II 
+      <lb ed="#R" n="47"/>Verum quantitas corporis Christi absoluatur a 
+      <lb ed="#R" n="48"/>legibus quantitatis, per hoc quod est in 
+      Sa<lb ed="#R" n="49" break="no"/>cramento non per se, &amp; directe, 
+      <lb ed="#R" n="50"/>sed per concomitantiam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="51"/>QVoad secundam quaestionem arguo primo, 
+      <lb ed="#R" n="52"/>quod quantitas corporis Christi absoluitur 
+      <lb ed="#R" n="53"/>in Sacramento a legibus quantitatis, eo 
+      <lb ed="#R" n="54"/>quod non est in Sacramento per se, sed per 
+      conco<lb ed="#R" n="55" break="no"/>mitantiam, sic: Quando aliquid est per accidens in 
+      <lb ed="#R" n="56"/>aliquo, sequitur modum illius, quod inest per se 
+      <lb ed="#R" n="57"/>omne enim per accidens reducitur ad per se: verbi 
+      <lb ed="#R" n="58"/>gratia quando Policletus est causa aedificandi per 
+      <lb ed="#R" n="59"/>accidens, ideo nihil variat, nec facit circa aedificium, 
+      <lb ed="#R" n="60"/>quia reducitur ad causam per se, idest ad artem 
+      <lb ed="#R" n="61"/>sed quantitas est per accidens in Sacramento: non 
+      <lb ed="#R" n="62"/>enim transubstantiatio terminatur ad quantitatem 
+      <lb ed="#R" n="63"/>per se, sed per accidens, per se autem terminatur 
+      <lb ed="#R" n="64"/>ad substantiam: ergo quantitas non per alium 
+      mo<lb ed="#R" n="65" break="no"/>dum est in Sacramento, quam sit substantia: sed 
+      <!--0090.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="66"/>substantia est in Sacramento sine contactu &amp; 
+      com<lb ed="#R" n="67" break="no"/>mensuratione: ergo &amp; quantitas, &amp; habetur 
+      pro<lb ed="#R" n="68" break="no"/>positum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="69"/>Contra: Passio, quae non dependet nisi a forma, 
+      <lb ed="#R" n="70"/>eo modo quo ponitur alicui forma, ponitur passio: 
+      <lb ed="#R" n="71"/>sicut quia risibile dependet a forma hominis 
+      prae<lb ed="#R" n="72" break="no"/>cise, &amp; ideo posito homine ponitur risibile: sed 
+      <lb ed="#R" n="73"/>passiones quantitatis immediate oriuntur a 
+      quan<lb ed="#R" n="74" break="no"/>titate: ergo posita quantitate, eo modo quo 
+      poni<lb ed="#R" n="75" break="no"/>tur quantitas, ponentur eius passiones: sed 
+      quanti<lb ed="#R" n="76" break="no"/>tas vere, &amp; realiter est in Sacramento altaris, licet 
+      <lb ed="#R" n="77"/>per accidens: ergo passiones eius ibidem realiter, 
+      <lb ed="#R" n="78"/>&amp; per se, licet per accidens: non ergo quantitas, 
+      <lb ed="#R" n="79"/>per hoc quod est ibi per accidens, absoluetur a 
+      le<lb ed="#R" n="80" break="no"/>gibus quantitatis. Respondeo, pono hic per 
+      ordi<lb ed="#R" n="81" break="no"/>nem aliquas Propositiones. 
+    </p>
+               <p>
+                  <lb ed="#R" n="82"/>Prima est, quod non propter hoc, quod 
+      quanti<lb ed="#R" n="83" break="no"/>tas est per concomitantiam in Sacramento, ex hoc 
+      <lb ed="#R" n="84"/>solo absoluitur a legibus quantitatis. Hoc dico 
+      <lb ed="#R" n="85"/>propter opinionem communem dicentium, quod 
+      <lb ed="#R" n="86"/>ideo quantitas corporis Christi non excedit 
+      spe<lb ed="#R" n="87" break="no"/>cies panis in Sacramento, propter hoc scilicet, quod 
+      <lb ed="#R" n="88"/>non habet ordinem aliquem ad aliquid, quem non 
+      <lb ed="#R" n="89"/>habet ipsa substantia, &amp; hoc, quia est ibi 
+      tantum<lb ed="#R" n="90" break="no"/>modo per concomitantiam, non per se, sed per 
+      sub<lb ed="#R" n="91" break="no"/>stantiam, ideo est ibi per modum substantiae, 
+      sub<lb ed="#R" n="92" break="no"/>stantia autem talem ordinem non habet ad 
+      spe<lb ed="#R" n="93" break="no"/>cies: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="94"/>Probo ergo Propositionem istam contra 
+      opinio<lb ed="#R" n="95" break="no"/>nem istam. Primo, quia secundum sic ponentes 
+      <lb ed="#R" n="96"/>dimensiones non sunt in materia etiam 
+      intermina<lb ed="#R" n="97" break="no"/>te nisi per formam, ita quod concomitantur 
+      for<lb ed="#R" n="98" break="no"/>mam in materia, &amp; generatio quae per se 
+      termina<lb ed="#R" n="99" break="no"/>tur ad formam, terminatur secundario, &amp; per 
+      ac<lb ed="#R" n="100" break="no"/>cidens ad quantitatem; &amp; quantum generans dat 
+      <lb ed="#R" n="101"/>de forma, tantum concomitanter de 
+      quantitate<lb ed="#R" n="102" break="no"/>sed non obstante hoc, quod dimensiones sint in ma 
+      <lb ed="#R" n="103"/>teria per concomitantiam, non absoluuntur in se a 
+      <lb ed="#R" n="104"/>legibus quantitatis, alias omne corpus erit 
+      indiui<lb ed="#R" n="105" break="no"/>sibile secundum suam quantitatem: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="106"/>Secundo: quia si ratio eorum sit bona, quod quia 
+      <lb ed="#R" n="107"/>substantia est ibi sine legibus quantitatis, ideo 
+      di<lb ed="#R" n="108" break="no"/>mensiones ibi sint sine proprietatibus quantitatis, 
+      <lb ed="#R" n="109"/>eo quod sunt ibi per concomitantiam substantiae; 
+      <lb ed="#R" n="110"/>per eandem rationem sequeretur, quod 
+      dimensio<lb ed="#R" n="111" break="no"/>nes illae sint reductae ad diuisibilitatem, quia sunt 
+      <lb ed="#R" n="112"/>ibi modo substantiae, quae est de se indiuisibilis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="113"/>Item tertio, quia omne accidens, etsi sit 
+      poste<lb ed="#R" n="114" break="no"/>rius subiecto, in illo tamen posteriori, quo aduenit 
+      <lb ed="#R" n="115"/>subiecto ese album, &amp; disgregare: sed per te 
+      in<lb ed="#R" n="116" break="no"/>Sacramento altaris est vera quantitas corporis 
+      <lb ed="#R" n="117"/>Chrisci, &amp; realiter, licet per concomitantiam: 
+      er<lb ed="#R" n="118" break="no"/>go in illo posteriori dabit corpori Christi quantum 
+      <lb ed="#R" n="119"/>&amp; passiones quantitatis.
+    </p>
+               <p>
+                  <lb ed="#R" n="120"/>Quarto sic: Illud quod concurrit cum 
+      subscan<lb ed="#R" n="121" break="no"/>tia ad fundandum ordinem ad diuisibilitatem, 
+      vi<lb ed="#R" n="122" break="no"/>detur habere per se ordinem ad illud: sed 
+      quanti<lb ed="#R" n="123" break="no"/>tas concurrit cum subscantia ad fundandum 
+      ordi<lb ed="#R" n="124" break="no"/>nem isttum. Probo, ista substantia corporis 
+      Chri<lb ed="#R" n="125" break="no"/>sti, aut est indiuisibilis, aut diuisibilis; si, vt fundat 
+      <lb ed="#R" n="126"/>ordinem istum partium ad inuicem, sit diuisibilis: 
+      <lb ed="#R" n="127"/>ergo per quantitatem, &amp; habeo propositum: si ese 
+      <lb ed="#R" n="128"/>indiuisibilis: ergo non habet partes: ergo corpus 
+      <lb ed="#R" n="129"/>Domini in Sacramento non habet manus &amp; caput, 
+      <lb ed="#R" n="130"/>&amp; caetera membra. 
+  </p>
+               <p>
+                  <lb ed="#R" n="131"/>Secunda Propositio est, quod non ideo 
+      quanti<lb ed="#R" n="132" break="no"/>tas communis Christi in Sacramento altaris 
+      absol<lb ed="#R" n="133" break="no"/>uitur a legibus quantitatis, quia non habet partem 
+      <!--0091.xml-->
+      <pb ed="#R" n="91"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>extra partem: sed partem intra partem reductam 
+      <lb ed="#R" n="2"/>ad minimam quantitatem. Dicunt enim quidam, 
+      <lb ed="#R" n="3"/>quod licet partibilitas sit de ratione quantitatis, 
+      <lb ed="#R" n="4"/>non tamen habere partem extra partem est de 
+      ra<lb ed="#R" n="5" break="no"/>tione quantitatis, sed est quaedam passio 
+      acciden<lb ed="#R" n="6" break="no"/>talis; nam eadem quantitas quandoque habet 
+      ma<lb ed="#R" n="7" break="no"/>gis partem extra partem, quandoque minus, vt 
+      pa<lb ed="#R" n="8" break="no"/>tet in raro &amp; denso: tunc dicunt isti, quod 
+      quaeli<lb ed="#R" n="9" break="no"/>bet pars in Sacramento altaris reducitur ad 
+      mini<lb ed="#R" n="10" break="no"/>mum, &amp; ideo in quolibet est totum, siue quaelibet 
+      <lb ed="#R" n="11"/>pars. Opinionem hanc non puto esse veram. 
+    </p>
+               <p>
+                  <lb ed="#R" n="12"/>Ideo probo Propositionem oppositam quam 
+      <lb ed="#R" n="13"/>accepi, contra eam arguo sic: Minimum corporis 
+      <lb ed="#R" n="14"/>organici, &amp; corporis animati, &amp; vniuersaliter 
+      mi<lb ed="#R" n="15" break="no"/>nimum corporis heterogenei excedit minimum 
+      <lb ed="#R" n="16"/>cuiuscumque homogenei, tunc capio, quod per Phi 
+      <lb ed="#R" n="17"/>losophum, &amp; Commentatorem 1. Physic. tex. com. 
+      <lb ed="#R" n="18"/>36. est dare minimum animal, &amp; minimam carnem: 
+      <lb ed="#R" n="19"/>ergo est dare minimum caput; minimum autem 
+      <lb ed="#R" n="20"/>animalis excedit minimum capitis, quia animal 
+      <lb ed="#R" n="21"/>includit partem aliam, quam non includit caput; 
+      <lb ed="#R" n="22"/>similiter minimum capitis excedit minimum 
+      car<lb ed="#R" n="23" break="no"/>nis, eo quod caput excedit vltra minimum carnis, 
+      <lb ed="#R" n="24"/>&amp; minimum ossis &amp; nerui: ergo cum minimum 
+      ho<lb ed="#R" n="25" break="no"/>stiae, si detur, sit minimum homogeneum, minimum 
+      <lb ed="#R" n="26"/>corporis Christi, qui estt hetherogeneum, excedit 
+      <lb ed="#R" n="27"/>minimum hostiae: ergo non quaelibet pars minima 
+      <lb ed="#R" n="28"/>potest inesse in parte minima, quia non minimum 
+      <lb ed="#R" n="29"/>corpus in capite, nec minimum caput in 
+      minima<lb ed="#R" n="30" break="no"/>carne: &amp; ratio estt, quia excedens non estt in 
+      ex<lb ed="#R" n="31" break="no"/>cesso. 
+    </p>
+               <p>
+                  <lb ed="#R" n="32"/>Arguitur secundo: Corpus Christi in 
+      Sacramen<lb ed="#R" n="33" break="no"/>to, quantumcunque sit minimum corpus, excedit 
+      <lb ed="#R" n="34"/>minimum datum hostiae, &amp; sic non saluatur, quod 
+      <lb ed="#R" n="35"/>debet saluari, quod quantitas corporis Cristi 
+      ab<lb ed="#R" n="36" break="no"/>soluatur a legibus quantitatis, vel a passionibus 
+      <lb ed="#R" n="37"/>quantitatis, quorum vnum est excessus &amp; 
+      com<lb ed="#R" n="38" break="no"/>mensuratio.
+    </p>
+               <p>
+                  <lb ed="#R" n="39"/>Secunda ratio ad idem sit: Vbicumque sunt 
+      ta<lb ed="#R" n="40" break="no"/>lia minima, talia possunt essse iuxta se posita, &amp; se 
+      <lb ed="#R" n="41"/>contingentia, sicut minima caro potest contingere 
+      <lb ed="#R" n="42"/>minimum ossis: sed corpus Domini in Sacramento 
+      <lb ed="#R" n="43"/>non potest aliud quodcumque contingere: ergo 
+      <lb ed="#R" n="44"/>oportet causam aliam assignare, quam reductionem 
+      <lb ed="#R" n="45"/>eius ad minimum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="46"/>Tertio sic: Vbi ponuntur talia minima, non 
+      pro<lb ed="#R" n="47" break="no"/>pter hoc auferuntur proprietates, quae 
+      attribuun<lb ed="#R" n="48" break="no"/>tur quanto, puta contingere situm, 
+      determinare<lb ed="#R" n="49" break="no"/>posse agere, &amp; posse corrumpi, quae tamen non 
+      in<lb ed="#R" n="50" break="no"/>sunt corpori existenti in Sacramento: ergo ex alia 
+      <lb ed="#R" n="51"/>causa, quam ex hoc, quod quae libet pars reducitur 
+      <lb ed="#R" n="52"/>ad minimam quantitatem. Quod autem dicum 
+      <lb ed="#R" n="53"/>est, quod corpus non conuenit contingere, 
+      com<lb ed="#R" n="54" break="no"/>mensurari, siue corrumpi, intelligendum estt 
+      actio<lb ed="#R" n="55" break="no"/>ne transeunte in ipsum, vt hic. 
+    </p>
+               <p>
+                  <lb ed="#R" n="56"/>Praeterea ista opinio de minimo contento in 
+      a<lb ed="#R" n="57" break="no"/>lio minimo improbatur expresse 4. Physic. a tex. 
+      <lb ed="#R" n="58"/>a4. vsque ad 30. 
+    </p>
+               <p>
+                  <lb ed="#R" n="59"/>Ad argumentum in oppositum dico, quod licet 
+      <lb ed="#R" n="60"/>quantitas corporis Christi sit habere per accidens, 
+      <lb ed="#R" n="61"/>eo tamen modo, quo est ibi, ponit effectum suum, &amp; 
+      <lb ed="#R" n="62"/>ideo per hoc, quod est ibi concomitanter, non 
+      ab<lb ed="#R" n="63" break="no"/>soluitur a suis passionibus, licet non insint corpori 
+      <lb ed="#R" n="64"/>passiones illae nisi concomitanter, sicut &amp; ipsa quan 
+      <lb ed="#R" n="65"/>titas materiam concomitatur, vnde licet quantitas 
+      <lb ed="#R" n="66"/>concomitetur per accidens, tamen sicut realiter con 
+      <lb ed="#R" n="67"/>comitatur, ita dat effectum suum formalem, licet per 
+      <lb ed="#R" n="68"/>accidens, puta per esse extensum.
+    </p>
+            </div>
+            <div>
+               <head>Articulus 3</head>
+               <head type="question-title">
+        Utrum illud, a quo absoluitur quantitas corporis 
+        Christi in hoc Sacramento, sit 
+        tantummodo respectus situs et positionis.
+      </head>
+               <p>
+      <!--0091.xml-->
+                  <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>ARTICVLVS III. 
+      <lb ed="#R" n="70"/>Vtrum illud, a quo absoluitur quantitas corporis 
+      <lb ed="#R" n="71"/>Christi in hoc Sacramento, sit 
+      tantummo<lb ed="#R" n="72" break="no"/>do respectus situs &amp; positionis. 
+  </p>
+               <p>
+                  <lb ed="#R" n="73"/>AD tertiam quaestionem arguo primo, quod 
+      <lb ed="#R" n="74"/>illud, a quo absoluitur quantitas corporis 
+      <lb ed="#R" n="75"/>Christi in hoc Sacramento, sit tantum respecus, 
+      <lb ed="#R" n="76"/>qui est situs, &amp; positio, sic: Positio enim 
+      praedi<lb ed="#R" n="77" break="no"/>camentum est ordo partium in loco, per 
+      aucto<lb ed="#R" n="78" break="no"/>rem sex Principiorum cap. 6. positio vero, quae 
+      <lb ed="#R" n="79"/>est differentia quantitatis, est ordo partium in-- 
+      <lb ed="#R" n="80"/>toto: sed quantitas in Sacramento altaris 
+      non<lb ed="#R" n="81" break="no"/>absoluitur ab ordine partium in toto, quia 
+      si<lb ed="#R" n="82" break="no"/>cut nec in caelo, sic nec in hoc Sacramento 
+      ca<lb ed="#R" n="83" break="no"/>put est situatum, vbi situatus est pes; 
+      absolui<lb ed="#R" n="84" break="no"/>tur autem bene ab ordine, quem partes 
+      corpo<lb ed="#R" n="85" break="no"/>ris habent ad locum, quia non habent in 
+      Sacra<lb ed="#R" n="86" break="no"/>mento ordinem ad partes loci, puta ad partes 
+      ho<lb ed="#R" n="87" break="no"/>stiae: ergo positio, a qua corpus Cristi absoluitur 
+      <lb ed="#R" n="88"/>in Sacramento altaris, est praecise ordo partium 
+      <lb ed="#R" n="89"/>corporis ad partes loci, &amp; per consequens 
+      respe<lb ed="#R" n="90" break="no"/>ctus de genere positionis, quod est 
+      praedicamen<lb ed="#R" n="91" break="no"/>tum 
+    </p>
+               <p>
+                  <lb ed="#R" n="92"/>In oppositum est, quia corpus absoluitur a 
+      con<lb ed="#R" n="93" break="no"/>tineri: sed contineri est de praedicamento Vbi: 
+      <lb ed="#R" n="94"/>ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="95"/>Respondeo: Primo ponam punctum quaestionis, 
+      <lb ed="#R" n="96"/>&amp; secundo ponam propositiones intentas. 
+    </p>
+               <p>
+                  <lb ed="#R" n="97"/>Pro primo sciendum est, quod modus quidam est 
+      <lb ed="#R" n="98"/>hic cuiusdam Doctoris Moderni Subtilis, qui dicit, 
+      <lb ed="#R" n="99"/>quod positiò vno modo potest accipi, prout est 
+      differen<lb ed="#R" n="100" break="no"/>tia quantitatis, alio modo, prout est 
+      praedicamen<lb ed="#R" n="101" break="no"/>tum. &amp; primo modo positio est ordo partium 
+      in<lb ed="#R" n="102" break="no"/>toto, quod non est aliud, quam partem esse 
+      ex<lb ed="#R" n="103" break="no"/>tra partem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="104"/>Secundo vero modo idem est, quod ordo partium 
+      <lb ed="#R" n="105"/>corporis ad partes loci: Tunc positio primo modo 
+      <lb ed="#R" n="106"/>est in corpore Christi existenti in Sacramento, 
+      ta<lb ed="#R" n="107" break="no"/>lem enim ordinem habent partes adinuicem hic, 
+      <lb ed="#R" n="108"/>qualem habent in caelo, nec enim caput est 
+      infra<lb ed="#R" n="109" break="no"/>pedes hic, sicut nec in caelo. Positio vero accepta 
+      <lb ed="#R" n="110"/>isto modo non est in corpore existenti in Sacramen 
+      <lb ed="#R" n="111"/>to, licet enim totum corpus habeat ordinem &amp; 
+      co<lb ed="#R" n="112" break="no"/>existentiam ad totam hostiam, tamen partes non 
+      <lb ed="#R" n="113"/>habent ordinem, &amp; coexistentiam ad partes 
+      ho<lb ed="#R" n="114" break="no"/>stiae, ita quod secunda coexistentia, scilicet partium 
+      <lb ed="#R" n="115"/>corporis ad partes hostiae, absoluitur prima 
+      rema<lb ed="#R" n="116" break="no"/>nente, quae est totius ad totum, &amp; hoc secundum 
+      <lb ed="#R" n="117"/>eum est bene possibile apud diuinam potentiam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="118"/>Et hoc probatur dupliciter. Primo, quia 
+      quan<lb ed="#R" n="119" break="no"/>do aliquid respicit quamlibet formam alicuius ge 
+      <lb ed="#R" n="120"/>neris contingenter, totum genus respicit contingen 
+      <lb ed="#R" n="121"/>ter. Sicut enim superficies respicit contingenter 
+      <lb ed="#R" n="122"/>quemlibet colorem, puta albedinem, nigredinem, 
+      <lb ed="#R" n="123"/>&amp; sic de alijs, sic respicit totum genus colorum 
+      con<lb ed="#R" n="124" break="no"/>tingenter; ita quod sicut contingens est. &amp; non 
+      ne<lb ed="#R" n="125" break="no"/>cessarium quod sit sub albedine, sic contingens est 
+      <lb ed="#R" n="126"/>&amp; non necessarium, quod sit sub colore in genere: 
+      <lb ed="#R" n="127"/>sed habens ordinem, &amp; coexistentiam ad totum 
+      lo<lb ed="#R" n="128" break="no"/>cum, indifferenter respicit, &amp; contingenter 
+      quem<lb ed="#R" n="129" break="no"/>libet determinatum ordinem partium ad partes 
+      <lb ed="#R" n="130"/>loci, &amp; accidentaliter. Accidit enim corpori, quod 
+      <lb ed="#R" n="131"/>sedeat, vel quod stet, &amp; sic de alijs: ergo 
+      contin<lb ed="#R" n="132" break="no"/>genter &amp; accidentaliter respicit totum genus, qui 
+      <!--0092.xml-->
+      <pb ed="#R" n="92"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>est ordo partium ad partes loci, &amp; per consequens 
+      <lb ed="#R" n="2"/>poterit absolui generaliter a totali ordine partium 
+      <lb ed="#R" n="3"/>ad partes loci. 
+    </p>
+               <p>
+                  <lb ed="#R" n="4"/>Tertio; quia Deus per suam omnipotentiam 
+      <lb ed="#R" n="5"/>potest absoluere quodcunque absolutum a 
+      respe<lb ed="#R" n="6" break="no"/>cu, &amp; etiam respecum priorem a respecu 
+      poste<lb ed="#R" n="7" break="no"/>tiori: sed respecus corporis totius ad totum 
+      lo<lb ed="#R" n="8" break="no"/>cum est prior respectu partium ad partes loci: 
+      er<lb ed="#R" n="9" break="no"/>go Deus potest absoluere secundum a primo. Et 
+      <lb ed="#R" n="10"/>facere, quod corpus Christi habeat ordinem ad 
+      to<lb ed="#R" n="11" break="no"/>tam hostiam, &amp; tamen, quod partes non habeant 
+      <lb ed="#R" n="12"/>crdinem ad partes loci, &amp; hoc posito saluatur 
+      be<lb ed="#R" n="13" break="no"/>ne, quomodo totum corpus Christi est sub tota 
+      ho<lb ed="#R" n="14" break="no"/>flia, &amp; quod nec excedit, nec exceditur. Punctus 
+      <lb ed="#R" n="15"/>ergo quaestionis est videre, quid veritatis contineat 
+      <lb ed="#R" n="16"/>praedicta positio. 
+    </p>
+               <p>
+                  <lb ed="#R" n="17"/>Secundo principaliter pono propositiones 
+      ali<lb ed="#R" n="18" break="no"/>quas: &amp; prima est ista, quod respectus siue 
+      coexi<lb ed="#R" n="19" break="no"/>stentia partium locati ad partes loci, non est 
+      respe<lb ed="#R" n="20" break="no"/>ctus de genere positionis, quae est praedicamentum, 
+      <lb ed="#R" n="21"/>sed de genere vbi. Hanc propositionem probo 
+      ali<lb ed="#R" n="22" break="no"/>quibus rationibus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="23"/>Prima est ista: Respectus totius locati ad totum 
+      <lb ed="#R" n="24"/>locum, est de praedicamento vbi: ergo respectus, 
+      <lb ed="#R" n="25"/>&amp; coexistentia partium locati ad partes loci est de 
+      <lb ed="#R" n="26"/>praedicamento vbi. Antecedens patet per ipsum. 
+      <lb ed="#R" n="27"/>Probo consequentiam, sic: Totalis respectus totius 
+      <lb ed="#R" n="28"/>locati ad locum, integratur ex partialibus 
+      respe<lb ed="#R" n="29" break="no"/>ctibus partium ad partes loci ( sicut enim totum 
+      <lb ed="#R" n="30"/>non est aliud a partibus, sed est quoddam 
+      integra<lb ed="#R" n="31" break="no"/>tum ex eis, sic respectus totalis corporis ad totum 
+    </p>
+               <p>
+                  <lb ed="#R" n="32"/>locum non est aliud a respectibus partialibus 
+      par<lb ed="#R" n="33" break="no"/>tium ad partes loci, sed integratum aliquid ex eis) 
+      <lb ed="#R" n="34"/>ergo si respectus totius corporis ad locum eit 
+      de<lb ed="#R" n="35" break="no"/>praedicamento vbi, &amp; respectus partium locati ad 
+      <lb ed="#R" n="36"/>partes loci erit de praedicamento vbi. Probo 
+      con<lb ed="#R" n="37" break="no"/>sequentiam, quia respectus de praedicamento, vbi, 
+      <lb ed="#R" n="38"/>non integratur ex respectibus de praedicamento 
+      si<lb ed="#R" n="39" break="no"/>tus. Probatio huius est, quia prius non integratur 
+      <lb ed="#R" n="40"/>ex posteriori. Antecedens principalis rationis, 
+      li<lb ed="#R" n="41" break="no"/>cet sit declaratum aliqua liter videlicet, quod 
+      re<lb ed="#R" n="42" break="no"/>spectus totius locati ad totum locum consurgat &amp; 
+      <lb ed="#R" n="43"/>integretur ex respectibus partialibus partium 
+      lo<lb ed="#R" n="44" break="no"/>cati ad partes loci, potest adhuc vlterius 
+      declara<lb ed="#R" n="45" break="no"/>ri. Non est imaginandum, quod primo sit 
+      respe<lb ed="#R" n="46" break="no"/>ctus totius locati ad locum, &amp; post adueniat 
+      respe<lb ed="#R" n="47" break="no"/>ctus partium locati ad partes loci: sed est 
+      imagi<lb ed="#R" n="48" break="no"/>nandum, quod respectus totius non estt aliud, 
+      <lb ed="#R" n="49"/>quam integritas omnium talium respectuum 
+      par<lb ed="#R" n="50" break="no"/>tialium: Verbi gratia, si aliquid estt in loco, 
+      exi<lb ed="#R" n="51" break="no"/>stentia eius in toto loco est integrata ex 
+      respecti<lb ed="#R" n="52" break="no"/>bus partialibus partium ad partes loci. Probo, 
+      si<lb ed="#R" n="53" break="no"/>cut enim se habet fundamentuns ad fundamentum, 
+      <lb ed="#R" n="54"/>&amp; terminus ad terminum, sic respectus ad 
+      respe<lb ed="#R" n="55" break="no"/>ctum: sed sundamenta respectuum partia lium par. 
+      <lb ed="#R" n="56"/>tium locati ad locum sunt partes ipsius locati 
+      in<lb ed="#R" n="57" break="no"/>tegrantes ipsum locum: ergo respectus partium 
+      <lb ed="#R" n="58"/>corporis ad partes loci erunt partes totalis 
+      respe<lb ed="#R" n="59" break="no"/>ctus totius ad totum, &amp; integrantes ipsum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="60"/>Confirmo hoc, quia si quaelibet pars habet respe 
+      <lb ed="#R" n="61"/>cum suum in actu ad aliam partem, sequitur, vel 
+      <lb ed="#R" n="62"/>quod erunt infiniti respectus in actu propter 
+      infi<lb ed="#R" n="63" break="no"/>nitas partes; vel oportet dicere, quòd nullus 
+      respe<lb ed="#R" n="64" break="no"/>ctus partis ad partem sit in actu, quia qua ratione 
+      <lb ed="#R" n="65"/>respectus vnius partis est in actu, eadem 
+      ratione<lb ed="#R" n="66" break="no"/>respectus alterius partis. 
+      <lb ed="#R" n="67"/>Dices non est sic, non enim quaelibet pars habet 
+      <lb ed="#R" n="68"/>suum respecum, sed est accipere partes determi- 
+      <!--0092.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>natas, &amp; super illas fundatur respectus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="70"/>Contra, quancumque partem signes, eius 
+      respe<lb ed="#R" n="71" break="no"/>ctus in aliam partem est constitutus ex partialibus 
+      <lb ed="#R" n="72"/>respectibus partium illius partis, sicut dicebatur de 
+      <lb ed="#R" n="73"/>toto, vnde in toto respectu totius, siue in 
+      parte<lb ed="#R" n="74" break="no"/>signata respectu partis signatae non est nisi 
+      vna<lb ed="#R" n="75" break="no"/>coexistentia integrata ex coexistentijs partium 
+      <lb ed="#R" n="76"/>quae non sunt in actu ibi, sed in potentia, sicut es 
+      <lb ed="#R" n="77"/>de ipsis partibus. Confirmo hoc iterum per 
+      Phi<lb ed="#R" n="78" break="no"/>losophum in praedicamentis, vbi docens assignare 
+      <lb ed="#R" n="79"/>partes locati, dicit, quod partes situantur 
+      secun<lb ed="#R" n="80" break="no"/>dum partes loci, vbi ipse imaginatur, vt patet ex 
+      <lb ed="#R" n="81"/>dictis suis, quod situatio partium loci consttituat 
+      <lb ed="#R" n="82"/>ipsum locum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="83"/>Sed quid dicendum est de positione, vt est 
+      prae<lb ed="#R" n="84" break="no"/>dicamentum, in quo differt ab vbi? 
+    </p>
+               <p>
+                  <lb ed="#R" n="85"/>Respondeo. Ad cuius euidentiam dico, quod 
+      <lb ed="#R" n="86"/>positio, quae est praedicamentum, non est aliud, 
+      <lb ed="#R" n="87"/>quam qualificatio, &amp; modificatio tota lis coexisten 
+      <lb ed="#R" n="88"/>tia locati ad locum, quae est Vbi. 
+    </p>
+               <p>
+                  <lb ed="#R" n="89"/>Vbi sciendum, quod locatum coexistit loco vna 
+      <lb ed="#R" n="90"/>coexistentia continua: ista autem coexistentia est 
+      <lb ed="#R" n="91"/>respectus de praedicamento vbi: potest autem ista 
+      <lb ed="#R" n="92"/>coexistentia qualificari, vt sit talis existentia, vel 
+      <lb ed="#R" n="93"/>talis, vt coexistere sic, vel sic, puta, sedendo, vel 
+      <lb ed="#R" n="94"/>stando, ita quod positio est proprium accidens 
+      ip<lb ed="#R" n="95" break="no"/>sius, Vbi, sicut qualitas est proprium accidens quan 
+      <lb ed="#R" n="96"/>titatis hanc autem conclusionem possumus 
+      col<lb ed="#R" n="97" break="no"/>ligere, ex eo, quod facta interrogatione de, vbi, 
+      <lb ed="#R" n="98"/>sequitur quaestio de positione, vt si quaeratur vbi 
+      <lb ed="#R" n="99"/>est, respondeatur in theatro; restat tunc quaestio 
+      <lb ed="#R" n="100"/>quomodo ibi est, vtrum sedendo, vel stando, vnde 
+      <lb ed="#R" n="101"/>positio non est coexistentia partis ad partem 
+      loci<lb ed="#R" n="102" break="no"/>sed est modificatio coexistentiae non quidem 
+      par<lb ed="#R" n="103" break="no"/>tis, sed totius. 
+    </p>
+               <p>
+                  <lb ed="#R" n="104"/>Secunda Propositio est, quod quantitas 
+      corpo<lb ed="#R" n="105" break="no"/>ris Christi in Sacramento altaris non solum 
+      absol<lb ed="#R" n="106" break="no"/>uitur a respectu, qui est positio: sed etiam a respectu 
+      <lb ed="#R" n="107"/>qui est de praedicamento vbi, &amp; consimilium, &amp; hoc 
+      <lb ed="#R" n="108"/>per prius quam a respectu positionis. Probo, quia 
+      <lb ed="#R" n="109"/>quantitatem supponi quantitati, ac illam tangere, &amp; 
+      <lb ed="#R" n="110"/>commensurariilli, &amp; coextendi, non sunt de genere 
+      <lb ed="#R" n="111"/>positionis: excedere enim non est positio, sed est 
+      re<lb ed="#R" n="112" break="no"/>latio, similiter tangere, &amp; coextendi non est 
+      posi<lb ed="#R" n="113" break="no"/>tio: sed quantitas corp: ris Christi ab omnibus istis 
+      <lb ed="#R" n="114"/>absoluitur in Sacramento altari, &amp; est hoc 
+      mira<lb ed="#R" n="115" break="no"/>bile, quia quantitas hic absoluitur ab eo, quod inest 
+      <lb ed="#R" n="116"/>sibi in secundo modo per se; &amp; quod Deus non 
+      <lb ed="#R" n="117"/>posset, quae insunt in secundo modo, separare, 
+      re<lb ed="#R" n="118" break="no"/>puto praesumptuosum, &amp; contra Basilium cap. 2. 
+      <lb ed="#R" n="119"/>in Exameron, &amp; contra Hugonem de Sacramentis 
+      <lb ed="#R" n="120"/>parte 2. cap. 2. Vbi dicit Hugo, qui fecit, quod 
+      <lb ed="#R" n="121"/>locatum esset in vno loco potuit facere, quod esset 
+      <lb ed="#R" n="122"/>in pluribus locis simul: sicut enim secit, quod essse 
+      <lb ed="#R" n="123"/>in vno loco esset passio corporis; sic fecit, quod 
+      <lb ed="#R" n="124"/>posset absolui, vnde secundum Mathematicum 
+      <lb ed="#R" n="125"/>impossibile est a dato puncto ad datum punctum 
+      <lb ed="#R" n="126"/>ducere nisi vnam lineam, quod tamen absoluitur, 
+      <lb ed="#R" n="127"/>quando ponuntur plures dimensiones simul, quia 
+      <lb ed="#R" n="128"/>possunt tunc trahere ab eodem puncto eiusdem 
+      si<lb ed="#R" n="129" break="no"/>tus duas lineas, vnam a puncto vnius corporis 
+      cor<lb ed="#R" n="130" break="no"/>respondentis puncto loci, &amp; aliam a punco 
+      al<lb ed="#R" n="131" break="no"/>terius corporis correspondentem eidem puncto 
+      <lb ed="#R" n="132"/>loci. 
+    </p>
+               <p>
+                  <lb ed="#R" n="133"/>Item per se notum est Mathematico, quod 
+      om<lb ed="#R" n="134" break="no"/>ne corpus existens simul cum alio corpore ipsum 
+      <lb ed="#R" n="135"/>tangit, quod tamen Deus absoluit in Sacramento 
+      <lb ed="#R" n="136"/>altaris, quod non est ex alio, nisi quia Deus potest 
+      <!--0093.xml-->
+      <pb ed="#R" n="93"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>omne illud, quod repugnantiam includit tantum 
+      <lb ed="#R" n="2"/>in secundo modo, licet repugnet intellectui nostro 
+      <lb ed="#R" n="3"/>hoc intelligere. 
+    </p>
+               <p>
+                  <lb ed="#R" n="4"/>Ex dictis prius Respondeo ad argumentum 
+      <lb ed="#R" n="5"/>in oppositum, dico enim, quod est ibi fallacia 
+      con<lb ed="#R" n="6" break="no"/>sequentis: licet enim absoluatur ab illis, non tamen 
+      <lb ed="#R" n="7"/>absoluitur ab illis solum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="8"/>Sed est dubium hic: Vtrum si Deus sedet in 
+      cae<lb ed="#R" n="9" break="no"/>lo, eo ipso sedeat, vt estt in Sacramento. Et videtur, 
+      <lb ed="#R" n="10"/>quod sic, quia si sedet in caelo, caput habet isum 
+      <lb ed="#R" n="11"/>ordinem ad pedes: ergo eundem habet, vt est in 
+      <lb ed="#R" n="12"/>Sacramento, quia vbi eaedem partes, videtur esse 
+      <lb ed="#R" n="13"/>idem ordo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="14"/>Respondeo: Aliud est figura, quam habet sedens 
+      <lb ed="#R" n="15"/>puta curuitas, aliud est ipsa sessio: figura enim 
+      <lb ed="#R" n="16"/>actualis, quam habet sedens, est in quarta 
+      specie<lb ed="#R" n="17" break="no"/>qualitatis, &amp; ab illa non absoluitur corpus 
+      Chri<lb ed="#R" n="18" break="no"/>sti in Sacramento, non tamen sedet, quia 
+      sedere<lb ed="#R" n="19" break="no"/>illam actuationem dicit modificationem 
+      coexi<lb ed="#R" n="20" break="no"/>sentiae corporis ad locum. 
+    </p>
+            </div>
+            <div>
+               <head>Articulus 4</head>
+               <head type="question-title">
+        Utrum illud, a quo absoluitur quantitas corporis 
+        Christi in hoc Sacramento sit positio de 
+        genere quantitatis.
+      </head>
+               <p>
+                  <lb ed="#R" n="21"/>ARTICULUS IIII. 
+      <lb ed="#R" n="22"/>Vtrum illud, a quo absoluitur quantitas corporis 
+      <lb ed="#R" n="23"/>Christi in hoc Sacramento sit positio de 
+      <lb ed="#R" n="24"/>genere quantitatis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="25"/>AD quartam quaestionem arguo primo, quod 
+      <lb ed="#R" n="26"/>illud, a quo absoluitur dimensio corporis Chri 
+      <lb ed="#R" n="27"/>sti in Sacramento altaris, non sit potentia de 
+      ge<lb ed="#R" n="28" break="no"/>nere quantitatis, quoniam positio haec est 
+      essen<lb ed="#R" n="29" break="no"/>tialis differentia quantitatis: talis autem non 
+      po<lb ed="#R" n="30" break="no"/>test absolui a quantitate sine contradictione in 
+      pri<lb ed="#R" n="31" break="no"/>mo modo, cum differentia sit pars definitionis. 
+  </p>
+               <p>
+                  <lb ed="#R" n="32"/>In oppositum est Philosophus in praedicamentis, 
+      <lb ed="#R" n="33"/>de cuius intentione est, quod positio non est aliud, 
+      <lb ed="#R" n="34"/>quam assignabilitas partium: est enim quantitas 
+      <lb ed="#R" n="35"/>habens positionem quando habes, vnde assignes, &amp; 
+      <lb ed="#R" n="36"/>sumas partes: sed quantitas corporis Christi 
+      ab<lb ed="#R" n="37" break="no"/>soluitur a tali assignatione partium in Sacramento 
+      <lb ed="#R" n="38"/>altaris: non enim potest assignari, hic est caput, vel 
+      <lb ed="#R" n="39"/>hic sunt pedes, &amp; huiusmodi, &amp;c. Respondeo 
+      in<lb ed="#R" n="40" break="no"/>ista quaestione ponam duas propositiones. 
+    </p>
+               <p>
+                  <lb ed="#R" n="41"/>Prima est ista, quod quantitas corporis Christi 
+      <lb ed="#R" n="42"/>in Sacramento Eucharistiae absoluitur a respectu 
+      <lb ed="#R" n="43"/>distantiae, &amp; propinquitatis in ordine ad omne 
+      il<lb ed="#R" n="44" break="no"/>lud, quod est in vniuerso, vnde concipere corpus 
+      <lb ed="#R" n="45"/>Christi ibi, vbi distat a te, nec a polis, nec a stellis, 
+      <lb ed="#R" n="46"/>nec breuiter est subiectum alicuius distantiae, nisi 
+      <lb ed="#R" n="47"/>per dimensiones panis: ipsae enim dimensiones sunt, 
+      <lb ed="#R" n="48"/>quo formaliter ibi corpus distat, &amp; est vnum 
+      ali<lb ed="#R" n="49" break="no"/>quod hoc demonstratum, licet vtrumque concur. 
+      <lb ed="#R" n="50"/>rat necessario tam dimensiones, quam 
+      substantia<lb ed="#R" n="51" break="no"/>ad vnum ese hoc demonstratum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="52"/>Hanc conclusionem probo, quia inter me, &amp; 
+      cor<lb ed="#R" n="53" break="no"/>pus Christi, siue inter quodcunque aliud, &amp; corpus 
+      <lb ed="#R" n="54"/>Christi non potest cadere, vel imaginari linea, quae 
+      <lb ed="#R" n="55"/>terminetur ad corpus Christi. Probatio istius: 
+      Jii<lb ed="#R" n="56" break="no"/>possibile est, quod aliquid distet ab alio, nisi sit 
+      ter<lb ed="#R" n="57" break="no"/>minus alicuius distantiae, &amp; hoc vel rcalis, vel 
+      ima<lb ed="#R" n="58" break="no"/>ginariae, &amp; hoc intrinsecus, vel extrinsecus: sed 
+      <lb ed="#R" n="59"/>corpus Domini in Sacramento non potest esse 
+      ter<lb ed="#R" n="60" break="no"/>minus alicuius distantiae, nec inter se, vt existens 
+    </p>
+               <p>
+                  <lb ed="#R" n="61"/>in caelo, &amp; vt existens hic, nec inter ipsum, &amp; me 
+      <lb ed="#R" n="62"/>nec inter ipsum, &amp; calum ergo. Maiorem probo 
+      <lb ed="#R" n="63"/>sie, Quicquid distat ab aliquo, distat necessario in 
+      <lb ed="#R" n="64"/>ratione alicuius medij interiacentis, cuius 
+      termi<lb ed="#R" n="65" break="no"/>ni sunt illa, quae distant; &amp; ideo illa, quae discant, ne- 
+      <!--0093.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="66"/>cesario sunt terminantia ipsum medium 
+      intrinse<lb ed="#R" n="67" break="no"/>ce, vel extrinsece in ratione continui, vel contigui: 
+      <lb ed="#R" n="68"/>ergo verum est, quod nihil distat ab alio, nisi sit 
+      ra<lb ed="#R" n="69" break="no"/>tio alicuius discantiae intrinsecae, vel extrinsecae, &amp; 
+      <lb ed="#R" n="70"/>sic patet illa maior. 
+    </p>
+               <p>
+                  <lb ed="#R" n="71"/>Dices: pono, quod Deus absoluat illud medium 
+      <lb ed="#R" n="72"/>interiacens, &amp; maneant extrema in eadem 
+      dispo<lb ed="#R" n="73" break="no"/>sitione, vt quod destruat totum aerem medium, 
+      <lb ed="#R" n="74"/>inter me, &amp; scellam, nonne tunc ego diltabo a scella, 
+      <lb ed="#R" n="75"/>&amp; tamen non ero terminus alicuius medij 
+      conti<lb ed="#R" n="76" break="no"/>gui mihi, vel continui. 
+    </p>
+               <p>
+                  <lb ed="#R" n="77"/>Respondeo, posito illo casu, etsi nullum sit ibi 
+      me<lb ed="#R" n="78" break="no"/>dium reale, erit tamen medium imiaginarium: 
+      Jm<lb ed="#R" n="79" break="no"/>possibile est enim concipere aliqua distare, nisi 
+      con<lb ed="#R" n="80" break="no"/>cipiendo medium aliquod interceptum. Et ratio 
+      <lb ed="#R" n="81"/>huius est, quia sicut nunquam ponitur similitudo, 
+      <lb ed="#R" n="82"/>quin necessario ponatur fundamentum, &amp; nunquam 
+      <lb ed="#R" n="83"/>ponitur paternitas in Sorte, nisi posito generare: 
+      <lb ed="#R" n="84"/>sic nunquam potest esse distantia sine medio: 
+      fun<lb ed="#R" n="85" break="no"/>datur enim in ratione medij interiacentis, quod est 
+      <lb ed="#R" n="86"/>ratio fundamentalis, vel saltem necessario praeuia, 
+      <lb ed="#R" n="87"/>&amp; concurrens ad distantiam extremorum, eo 
+      mo<lb ed="#R" n="88" break="no"/>do quo se habet generare in Sorte respectu paterni 
+      <lb ed="#R" n="89"/>tatis Sortis ad filium. Ex quo apparet, quod 
+      An<lb ed="#R" n="90" break="no"/>gelus, qui est in caelo, non discat ab Angelo, qui esc 
+      <lb ed="#R" n="91"/>in terra: bene enim loca distant, ipsi tamen nullo 
+      <lb ed="#R" n="92"/>modo distant, &amp; hoc quia non posssunt esse 
+      termi<lb ed="#R" n="93" break="no"/>nus continui, vel contigui intercepti, eo quod quae 
+      <lb ed="#R" n="94"/>sic sunt terminus contigui, possunt fundare 
+      conta<lb ed="#R" n="95" break="no"/>ctum, quod est conditio propria quanti: quae etiam 
+      <lb ed="#R" n="96"/>sunt terminus continui, sunt, siue essse possunt 
+      ali<lb ed="#R" n="97" break="no"/>quid intrinsece ipsius continui, quorum vtrumque 
+      <lb ed="#R" n="98"/>repugnat Angelo. Sic ergo patet illa maior 
+      pro<lb ed="#R" n="99" break="no"/>positio principalis rationis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="100"/>Sed probo nunc minorem, scilicet, quod corpus 
+      <lb ed="#R" n="101"/>Domini non possit esse terminus medij 
+      interiacen<lb ed="#R" n="102" break="no"/>tis, nec per modum contigui, nec continui: Quia 
+      <lb ed="#R" n="103"/>si per modum continui, sic esset aliquid intrinsece 
+      <lb ed="#R" n="104"/>eiusdem medij: si vero per modum contigui, contin 
+      <lb ed="#R" n="105"/>geret illud, vt ante est in Sacramento, tangi non po 
+      <lb ed="#R" n="106"/>test: nullum enim quantum tangit nisi quantum, 
+      <lb ed="#R" n="107"/>&amp; coextensum: sic ergo corpus Domimi in 
+      Sacra<lb ed="#R" n="108" break="no"/>mento nullam penitus fundat distantiam, nisi 
+      ra<lb ed="#R" n="109" break="no"/>tione dimensionum panis, quarum distantia 
+      com<lb ed="#R" n="110" break="no"/>municatur corpori Christi, quod per ipsas 
+      trahi<lb ed="#R" n="111" break="no"/>tur ad esse hic. Nec sua existentia in Sacramento 
+      <lb ed="#R" n="112"/>est prae sentia ad species, sed est concurrere cum 
+      <lb ed="#R" n="113"/>ipsis dimensionibus ad vnum hoc sensibile 
+      demon<lb ed="#R" n="114" break="no"/>stratum: vnum enim, &amp; idem sensibile 
+      demonstra<lb ed="#R" n="115" break="no"/>tum est modo corpus, quod quidem ante erat 
+      pa<lb ed="#R" n="116" break="no"/>nis, quod non esset verum, nisi concurreret corpus 
+      <lb ed="#R" n="117"/>Domini ad illud hoc sensibile demonstratum, co 
+      <lb ed="#R" n="118"/>modo quo prius concurrebat panis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="119"/>Secunda Propositio est, quod impossibile est, 
+      <lb ed="#R" n="120"/>quod corpus Domini sit fundamentum 
+      assignabi<lb ed="#R" n="121" break="no"/>litatis partium, quae est potentia de genere 
+      quanti<lb ed="#R" n="122" break="no"/>tatis, vt habet esse in Sa cramento: positionem enim 
+      <lb ed="#R" n="123"/>illam notificat Philosophus, cum dicit: quantitas 
+      <lb ed="#R" n="124"/>habens positionem est, cuius partes possunt alicubi 
+      <lb ed="#R" n="125"/>assignari: sed corpus Christi non potest sic alicubi 
+      <lb ed="#R" n="126"/>assignari: nullus enim intellectus etiam Angeli 
+      po<lb ed="#R" n="127" break="no"/>test dicere corpus Christi esse hic, nisi sumendo 
+      si<lb ed="#R" n="128" break="no"/>mul dimensiones. 
+    </p>
+               <p>
+                  <lb ed="#R" n="129"/>Hanc conclusionem probo specialiter sic. 
+      Im<lb ed="#R" n="130" break="no"/>possibile est partes alicuius quanti esse 
+      assignabi<lb ed="#R" n="131" break="no"/>les, nisi sint terminus, &amp; fundamentum distantiae: 
+      <lb ed="#R" n="132"/>probo: Esse enim hic, vel esse ibi nulli conuenit, 
+      <lb ed="#R" n="133"/>quod non est fundamentum, vel terminus distantiae 
+      <lb ed="#R" n="134"/>
+                  <!-- line coord error -->
+                  <!--0094.xml-->
+                  <pb ed="#R" n="94"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>important enim hic, &amp; ibi determinationem ad 
+      <lb ed="#R" n="2"/>certum situm, quem necessario concomitatur 
+      cer<lb ed="#R" n="3" break="no"/>ta distantia: ergo bene dictum est, quod partes 
+      <lb ed="#R" n="4"/>continui non possunt assignari, nisi sit 
+      fundamen<lb ed="#R" n="5" break="no"/>tum, vel terminus distantiae: ergo quod absoluitur 
+      <lb ed="#R" n="6"/>a disantia, necessario absoluitur ab 
+      assignabilita<lb ed="#R" n="7" break="no"/>te, per quam aliquid dicitur esse hic, &amp; esse ibi: sed 
+      <lb ed="#R" n="8"/>corpus Christi in Sacramento altaris, secundum se, 
+      <lb ed="#R" n="9"/>&amp; secundum suas partes absoluitur a distantia, vt 
+      <lb ed="#R" n="10"/>probatum est supra: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="11"/>Sed insurgit hic dubium, quare negatum est, quod 
+      <lb ed="#R" n="12"/>positio praedicamentum non est ordo partium 
+      lo<lb ed="#R" n="13" break="no"/>cati ad partes loci, sed es modificatio ipsius vbi, 
+      <lb ed="#R" n="14"/>sicut qualitas est modificatio quantitatis. Quid 
+      <lb ed="#R" n="15"/>ergo est positio de genere quantitatis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="16"/>Respondeo: Simplicius facit hic magnam 
+      diffi<lb ed="#R" n="17" break="no"/>cultatem in praedicamentis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="18"/>Aliqui tamen dicunt, quod positio est ordo 
+      par<lb ed="#R" n="19" break="no"/>tium in toto. Sed hoc non videtur conuenienter 
+      <lb ed="#R" n="20"/>dictum: ordo enim est relatio, &amp; respectus: 
+      respe<lb ed="#R" n="21" break="no"/>ctus autem non est differentia alicuius absoluti. 
+    </p>
+               <p>
+                  <lb ed="#R" n="22"/>Alij dicunt, quod est ordo partium 
+      permanen<lb ed="#R" n="23" break="no"/>tium adinuicem. Contra, quod arguo per idem, 
+      <lb ed="#R" n="24"/>per quod argutum est immediate contra alios, 
+      sci<lb ed="#R" n="25" break="no"/>licet, quia totum hoc est de genere quantitatis. Dico 
+      <lb ed="#R" n="26"/>ergo secundum mentem Symplicij: Positio non est 
+      <lb ed="#R" n="27"/>aliud, quam extensio quaedam partium. 
+    </p>
+               <p>
+                  <lb ed="#R" n="28"/>Sed contra: Per te corpus Christi absoluitur in 
+      <lb ed="#R" n="29"/>Sacramento a positione: ergo absoluetur 
+      secun<lb ed="#R" n="30" break="no"/>dum hoc ab extensione: ergo a quantitate, 
+      quia<lb ed="#R" n="31" break="no"/>extensio est quantitas formaliter. 
+    </p>
+               <p>
+                  <lb ed="#R" n="32"/>Respondeo: Non est intentio Symplicij, quod 
+      <lb ed="#R" n="33"/>quantitas sit formaliter extensio praecise, sic enim, 
+      <lb ed="#R" n="34"/>vt ipse facit, modo arguere esset nugatio dicendo, 
+      <lb ed="#R" n="35"/>quantitas posita: omnis enim quantitas dicit 
+      ex<lb ed="#R" n="36" break="no"/>tensionem, similiter vniuersum est extensum, non 
+      ta<lb ed="#R" n="37" break="no"/>men est positum: non enim est assignabile hic, vel ibi: 
+      <lb ed="#R" n="38"/>nihil enim assignari potest esse hic, nisi in ordine 
+      <lb ed="#R" n="39"/>ad aliud vbi, extra vniuersum autem nullum est vbi- 
+    </p>
+               <p>
+                  <lb ed="#R" n="40"/>Dico ergo, quod positio non est praecise 
+      exten<lb ed="#R" n="41" break="no"/>sio, sed est aliquid extensionis per modum 
+      ter<lb ed="#R" n="42" break="no"/>mini, vel per modum contigui: sic ergo 
+      habere<lb ed="#R" n="43" break="no"/>positionem est consurgere ex eis vnum extensum 
+      <lb ed="#R" n="44"/>per modum continui, vel contigui. Ideo positio 
+      <lb ed="#R" n="45"/>non tantum dicit extensionem absolutam; sed vt 
+      <lb ed="#R" n="46"/>consurgit ex pluribus se habentibus continue, vel 
+      <lb ed="#R" n="47"/>contigue. 
+    </p>
+               <p>
+                  <lb ed="#R" n="48"/>Et quia corpus Domini in Sacramento 
+      compa<lb ed="#R" n="49" break="no"/>ratum ad acrem circunstantem, vel ad dimensiones, 
+      <lb ed="#R" n="50"/>cum eis non constituit contiguum, quia sic 
+      funda<lb ed="#R" n="51" break="no"/>ret verum contactum respecu illorum, ideo 
+      absol<lb ed="#R" n="52" break="no"/>uitur a positione, quae est differentia quantitatis, 
+      <lb ed="#R" n="53"/>ac per consequens ab omnibus respectibus, qui 
+      <lb ed="#R" n="54"/>consequuntur hanc positionem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="55"/>Sed quando ista stant simul? Dictum enim est 
+      <lb ed="#R" n="56"/>supra, quod corpus Christi est hic per dimensiones, 
+      <lb ed="#R" n="57"/>&amp; cum hoc, quod non sit pars vniuersi, alias si esset 
+      <lb ed="#R" n="58"/>pars vniuersi, constitueret cum vniuerso aliquod 
+      <lb ed="#R" n="59"/>vnium continuum, vel contiguum extensum, &amp; sic 
+      <lb ed="#R" n="60"/>esset positum. Re spondeo: licet ita appareat 
+      repu<lb ed="#R" n="61" break="no"/>gnantia intellectui, non tamen es repugnantia 
+      <lb ed="#R" n="62"/>aliqua respectu Dei, qui potest absoluere omne 
+      il<lb ed="#R" n="63" break="no"/>lud, quod respicit rem in secundo modo dicendi 
+      <lb ed="#R" n="64"/>per se 
+    </p>
+               <p>
+                  <lb ed="#R" n="65"/>Ad argumentum in oppositum non est verum 
+      <lb ed="#R" n="66"/>quod sit differentia essentialis quantitatis, quia 
+      <lb ed="#R" n="67"/>non est praecise extensio, sed aliquid extensionis.
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

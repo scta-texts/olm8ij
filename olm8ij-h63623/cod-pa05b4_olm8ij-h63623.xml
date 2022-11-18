@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="185"/>
+            <cb ed="#R" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h63623"> <!-- l4-d38q1 -->
+            <head>Quaestio 1</head>
+            <p>
+               <lb ed="#R" n="87"/>Quaestio Vnica. 
+    </p>
+            <div>
+               <head>Articulus 1</head>
+               <head type="question-title">
+        Utrum votum continentiae impediat 
+        matrimonium
+      </head>
+               <p>
+                  <lb ed="#R" n="88"/>ARTICVLVS VNJCVS. 
+      <lb ed="#R" n="89"/>Vtrum votum continentiae impediat 
+      matri<lb ed="#R" n="90" break="no"/>monium 
+    </p>
+               <p>
+                  <lb ed="#R" n="91"/>ARGVO quod non, quia 
+      <lb ed="#R" n="92"/>illud, quod stat cum solē- 
+      <lb ed="#R" n="93"/>ni ssimo matrimonio, non 
+      <lb ed="#R" n="94"/>impedit matrimonium: 
+      <lb ed="#R" n="95"/>huiusmodi est votum con 
+      <lb ed="#R" n="96"/>tinentiae, quia stetit cum 
+      <lb ed="#R" n="97"/>matrimonio inter Mariam, 
+      <lb ed="#R" n="98"/>&amp; Ioseph, quod fuit 
+      so<lb ed="#R" n="99" break="no"/>lemnissimum: ergo.
+    </p>
+               <p>
+                  <lb ed="#R" n="100"/>In oppositum est Hieronymus, quod vouentibus 
+      <lb ed="#R" n="101"/>continentiam non solum nubere, sed velle nubere 
+      <lb ed="#R" n="102"/>damnabile est. Respondeo in ista quaestione 
+      pri<lb ed="#R" n="103" break="no"/>mo praemittam quaedam de voto generalia. 
+      Secun<lb ed="#R" n="104" break="no"/>do ponam duas propositiones. 
+    </p>
+               <p>
+                  <lb ed="#R" n="105"/>Quantum ad primum videndum est primo, 
+      vo<lb ed="#R" n="106" break="no"/>tum, cuius virtutis sit actus. Secundo quot modis 
+      <lb ed="#R" n="107"/>fieri contingat. Tertio, circa quid potest fieri. Et 
+      <lb ed="#R" n="108"/>quarto quis potest vouere. Quinto si sit 
+      dispen<lb ed="#R" n="109" break="no"/>sabile. 
+    </p>
+               <p>
+                  <lb ed="#R" n="110"/>De primo dico, quod emissio voti ost actus 
+      la<lb ed="#R" n="111" break="no"/>triz, quae est species iustitiae, vt supra dictum est, 
+      <lb ed="#R" n="112"/>quae fundatur super obligatione causati ad causam 
+      <lb ed="#R" n="113"/>scilicet ad Deum. Dico tamen, quod aliud est 
+      vo<lb ed="#R" n="114" break="no"/>uere, &amp; aliud est votum emissum reddere, &amp; 
+      perti<lb ed="#R" n="115" break="no"/>nent ad aliam, &amp; aliam virtutem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="116"/>Primum autem non est actus iustitiae, sed est actus 
+      <lb ed="#R" n="117"/>cuiusdam erogationis. Secundum vero est acttus 
+      <lb ed="#R" n="118"/>iustitiae, de qua dicum est. 
+    </p>
+               <p>
+                  <lb ed="#R" n="119"/>Primum horum probo, quia actus iustitiae 
+      in<lb ed="#R" n="120" break="no"/>cludit debitum: sed emissio voti includit 
+      debi<lb ed="#R" n="121" break="no"/>tum, qui enim vouit, est obligatus ad illud, quod 
+      <!--0186.xml-->
+      <pb ed="#R" n="186"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>vouet. Secundum vero patet, quia reddens, quod 
+      <lb ed="#R" n="2"/>vouit, reddit Deo, quod suum est. 
+    </p>
+               <p>
+                  <lb ed="#R" n="3"/>Quantum ad secundum dico, quod votum fit tri 
+      <lb ed="#R" n="4"/>bus modis, secrete, publice, &amp; solemniter. Prima 
+      <lb ed="#R" n="5"/>duo vota dicuntur vota simplicia. Primum autem 
+      <lb ed="#R" n="6"/>fit in corde, &amp; intra vouentem tantum. Secundum 
+      <lb ed="#R" n="7"/>sit coram multis. Tertium vero fit ex susceptione 
+      <lb ed="#R" n="8"/>ordinis approbati, vel sacri ordinis, ex quo patet, 
+      <lb ed="#R" n="9"/>quod non omne votum publicum est solemne, quia 
+      <lb ed="#R" n="10"/>si voueret coram toto mundo, non dicitur votum 
+      <lb ed="#R" n="11"/>solemne, nisi voueat in manu praelati, vel in 
+      susce<lb ed="#R" n="12" break="no"/>ptione Sacramenti ordinis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="13"/>Item si fiat occulte in manu praelati, vel tacite 
+      <lb ed="#R" n="14"/>per remansionem in religione post septem annos; 
+      <lb ed="#R" n="15"/>vel post vnum, si distinguitur habitus professorum, 
+      <lb ed="#R" n="16"/>&amp; nouitiorum, sine reclamatione adhuc esset 
+      so<lb ed="#R" n="17" break="no"/>lemne 
+    </p>
+               <p>
+                  <lb ed="#R" n="18"/>Quantum ad tertium, de quo fit. Dico, quod non 
+      <lb ed="#R" n="19"/>de re mala, quia reddere votum est actus latriae, 
+      <lb ed="#R" n="20"/>Deus autem non vult coli de malo. Item non de 
+      <lb ed="#R" n="21"/>re indifferenti ad bonum, &amp; malum, eadem 
+      ratio<lb ed="#R" n="22" break="no"/>ne. Item non de re, ad quam homo esset alias 
+      obli<lb ed="#R" n="23" break="no"/>gatus, nisi large sumendo votum. Item non de re 
+      <lb ed="#R" n="24"/>minoris boni, sed de his, quae sunt supererogationis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="25"/>De quarto quis potest vouere? dico, quod non 
+      <lb ed="#R" n="26"/>nisi ille qui est suis iuris, &amp; hoc saltem illud, quod 
+      <lb ed="#R" n="27"/>vouet, vt quo ad illud non subsit alteri, sed sit 
+      domi<lb ed="#R" n="28" break="no"/>nus. Ex quo patet, quod vir non potest 
+      vouere<lb ed="#R" n="29" break="no"/>continentiam absque cōsensu vxoris, similiter nec 
+      <lb ed="#R" n="30"/>mulier, &amp; in hoc pares sunt. Potest tamen vir 
+      vo<lb ed="#R" n="31" break="no"/>uere quaedam, puta peregrinationem, vel 
+      huiusmo<lb ed="#R" n="32" break="no"/>di, quae non sunt in praeiudicium actus 
+      matrimo<lb ed="#R" n="33" break="no"/>nialis, mulier autem non, sine consensu viri, ratio 
+      <lb ed="#R" n="34"/>est, quia vir est caput mulieris, &amp; quo ad talia non 
+      <lb ed="#R" n="35"/>est iuris vxoris, sed sui; Vxor autem in his non est 
+      <lb ed="#R" n="36"/>sui iuris, eo quod est sub potestate viri, quoad 
+      co<lb ed="#R" n="37" break="no"/>habitationem, gubernationem, &amp; similia. Ex hoc 
+      <lb ed="#R" n="38"/>etiam non potest vouere filiusfamilias sine assensu 
+      <lb ed="#R" n="39"/>patris, filius tamen emancipatus potest. Nec 
+      re<lb ed="#R" n="40" break="no"/>ligiosus similiter potest vouere sine consensu 
+      prae<lb ed="#R" n="41" break="no"/>lati sui, exceptis ijs, quae non sunt in praeiudicium 
+      <lb ed="#R" n="42"/>obedientiae, vel alterius honoris religionis: potest 
+      <lb ed="#R" n="43"/>tamen vouere alia indifferentia, puta orationem, 
+      <lb ed="#R" n="44"/>&amp; alia propter quae non impeditur commodum 
+      <lb ed="#R" n="45"/>religionis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="46"/>Consimiliter seruus non potest vouere in ijs 
+      in<lb ed="#R" n="47" break="no"/>quibus est domino subiectus, licet possit in aliis
+    </p>
+               <p>
+    <!-- missing line break-->De quinto, an sit dispensabile. Dicunt quidam
+      <lb ed="#R" n="48"/>quod dispensatio est idem, quod relaxatio, ideo (vt 
+      <lb ed="#R" n="49"/>dicunt) est a Papa relaxabile, &amp; ratio eorum est, quia 
+      <lb ed="#R" n="50"/>in omni voto emisso secundum eos intelligitur haec 
+      <lb ed="#R" n="51"/>conditio, si placet Deo, &amp; eius Vicario domino 
+      Pa<lb ed="#R" n="52" break="no"/>pae, qui habet vniuersalem gubernationem 
+      respe<lb ed="#R" n="53" break="no"/>ctu omnium fidelium, &amp; ideo si Papa infringeret 
+      <lb ed="#R" n="54"/>ipsum, nullum esset omnino votum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="55"/>Alij tenent, quod Papa votum non potest 
+      rela<lb ed="#R" n="56" break="no"/>xare, sed quandoque bene potest ipsum 
+      interpreta<lb ed="#R" n="57" break="no"/>ri: ratio est, quia reddere votum cadit sub 
+      praece<lb ed="#R" n="58" break="no"/>pto diuino, iuxta illud: vouete, &amp; reddite Domino, 
+      <lb ed="#R" n="59"/>ideo dispensatio voti non est relaxatio, sed sola 
+      in<lb ed="#R" n="60" break="no"/>terpretatio, qualiter votum debeat tenere in 
+      ista<lb ed="#R" n="61" break="no"/>persona, vel illa, &amp; est actus virtutis Epicheiae, quae 
+      <lb ed="#R" n="62"/>est virtus interpretatiua legum, pertinens ad 
+      prin<lb ed="#R" n="63" break="no"/>cipes, quorum est interpretari. 
+    </p>
+               <p>
+                  <lb ed="#R" n="64"/>Dico, quod dicere, quod Dominus Papa possit 
+      <lb ed="#R" n="65"/>votum relaxare, videtur difficile, cum videatur esse 
+      <lb ed="#R" n="66"/>de iure naturae, &amp; praecepto Dei. Oppositum etiam 
+      <lb ed="#R" n="67"/>videtur esse difficile, cum dictum fuerit Petro, quod 
+      <!--0186.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>quaecumque solueris, &amp;c. Potest ergo dici, quod 
+      vo<lb ed="#R" n="69" break="no"/>tum non est latriae, nisi sit rationabiliter, &amp; licite 
+      <lb ed="#R" n="70"/>factum, &amp; ideo potest interpretatio voti pertinere 
+      <lb ed="#R" n="71"/>ad Papam. Vtrum sit in praeiudicium 
+      communi<lb ed="#R" n="72" break="no"/>tatis, vel salutis vouentis, &amp; ex consequenti, quod 
+      <lb ed="#R" n="73"/>votum non teneat propter talem rationem; ex 
+      ea<lb ed="#R" n="74" break="no"/>dem etiam causa potest votum commutari in 
+      me<lb ed="#R" n="75" break="no"/>lius, sicut votum peregrinationis in religionis ingres 
+      <lb ed="#R" n="76"/>sum, sed hoc non debet fieri sine Papae auctoritate, 
+      <lb ed="#R" n="77"/>ad quem, quoniam ad illum pertinet interpretari, 
+      <lb ed="#R" n="78"/>pertinet commutare, quoniam commutatio est 
+      quae<lb ed="#R" n="79" break="no"/>dam interpretatio de maiori bono, vel minori, 
+      sci<lb ed="#R" n="80" break="no"/>licet, quod est bonum maius, vel minus. Ratio horum 
+      <lb ed="#R" n="81"/>est, quia in voto est obligatio, &amp; contractus inter 
+      <lb ed="#R" n="82"/>Deum, &amp; hominem; commutatio ergo oportet, 
+      <lb ed="#R" n="83"/>quod fiat de consensu cuiuslibet partis: locum 
+      au<lb ed="#R" n="84" break="no"/>tem partis Dei tenet Dei Vicarius, Papa, &amp; 
+      Praela<lb ed="#R" n="85" break="no"/>tus in ordine ad suum subditum. Nunc pono 
+      pro<lb ed="#R" n="86" break="no"/>positiones. 
+    </p>
+               <p>
+                  <lb ed="#R" n="87"/>Prima est, quod omne votum continentiae 
+      impe<lb ed="#R" n="88" break="no"/>dit matrimonium cum proposito copulae carnalis, 
+      <lb ed="#R" n="89"/>non tamen dirimit iam contractum, nisi sit 
+      solem<lb ed="#R" n="90" break="no"/>ne. Primum patet, quia omne illud impedit 
+      matri<lb ed="#R" n="91" break="no"/>monium, quo stante matrimonium non potest 
+      fie<lb ed="#R" n="92" break="no"/>ri sine peccato morta li: sed qui vouit continentiam, 
+      <lb ed="#R" n="93"/>dum contrahit, obligat se ad peccatum 
+      mortale<lb ed="#R" n="94" break="no"/>quia ad veniendum contra votum, &amp; ideo est 
+      con<lb ed="#R" n="95" break="no"/>tra acum iustitiae; actus vero iustitiae cadit sub prae 
+      <lb ed="#R" n="96"/>cepto Dei: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="97"/>Dixi autem notabiliter, cum proposito copulae 
+      <lb ed="#R" n="98"/>carnalis, quoniam alias non peccat, vt patet de Ma 
+      <lb ed="#R" n="99"/>ria, &amp; Ioseph, &amp; sic intelligenda est auctoritas 
+      Hie<lb ed="#R" n="100" break="no"/>ronymi allegata ad principale. 
+    </p>
+               <p>
+                  <lb ed="#R" n="101"/>Secundam partem propositionis, quod non 
+      diri<lb ed="#R" n="102" break="no"/>mat contractum, nisi sit votum solemne; vnde quan 
+      <lb ed="#R" n="103"/>tumcunque vouerit publice, si contrahat de facto, 
+      <lb ed="#R" n="104"/>tenet matrimonium; non autem est hoc de voto 
+      so<lb ed="#R" n="105" break="no"/>lemni, quod expresse patet in sexto; vbi dicitur, quod 
+      <lb ed="#R" n="106"/>in duobus casibus solemni zatur votum, scilicet in 
+      <lb ed="#R" n="107"/>susceptione sacri ordinis, &amp; professione regulae 
+      ap<lb ed="#R" n="108" break="no"/>probatae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="109"/>Sed dubium est: Vtrum, qui cum voto 
+      continen<lb ed="#R" n="110" break="no"/>tiae prius emisso contrahit, possit petere debitum 
+      <lb ed="#R" n="111"/>sine peccato mortali. Dicunt quidam, quod licet 
+      <lb ed="#R" n="112"/>possit reddere petenti, non potest tamen 
+      petere<lb ed="#R" n="113" break="no"/>sine peccato. Alij dicunt, quod nullum peccatum 
+      <lb ed="#R" n="114"/>est in petendo, sed cotum peccatum fuit in 
+      con<lb ed="#R" n="115" break="no"/>trahendo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="116"/>Dico, quod cum illud sit verum matrimonium 
+      <lb ed="#R" n="117"/>in ordine ad actum etiam carnalem, puto, quod 
+      li<lb ed="#R" n="118" break="no"/>cite potest petere debitum in voto simplici, ideo 
+      <lb ed="#R" n="119"/>totum peccatum fuit in contrahendo, quia 
+      non<lb ed="#R" n="120" break="no"/>licebat, sed postquam contraxit, matrimonium 
+      <lb ed="#R" n="121"/>est verum, &amp; ideo oportet seruare regulas 
+      matri<lb ed="#R" n="122" break="no"/>monij. 
+    </p>
+               <p>
+                  <lb ed="#R" n="123"/>Sed videre causam horum est difficile, quare 
+      sci<lb ed="#R" n="124" break="no"/>licet votum solemne impedit, &amp; dirimit, non tamen 
+      <lb ed="#R" n="125"/>votum simplex, cum eadem obligatio videatur 
+      fa<lb ed="#R" n="126" break="no"/>cta Deo vtrobique. 
+    </p>
+               <p>
+                  <lb ed="#R" n="127"/>Dicunt quidam, quod hoc est ratione scandali, 
+      <lb ed="#R" n="128"/>quoniam maius scandalum est, quod ordinatus, vel 
+      <lb ed="#R" n="129"/>religiosus contrahant, quam si alius contraheret. 
+    </p>
+               <p>
+                  <lb ed="#R" n="130"/>Haec ratio non valet, quia maius scandalum 
+      fa<lb ed="#R" n="131" break="no"/>cit bene maius peccatum, sed non propter hoc 
+      vi<lb ed="#R" n="132" break="no"/>detur, quod dirimat. Ex eodem non valet, quod 
+      <lb ed="#R" n="133"/>dicitur ab aljs, quod est ratione manifestationis, 
+      <lb ed="#R" n="134"/>quia si fieret coram toto mundo, non appareret 
+      ra<lb ed="#R" n="135" break="no"/>tio, quare ex hoc matrimonium dirimeretur. Ideo 
+      <!--0187.xml-->
+      <pb ed="#R" n="187"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>est ad hoc vna ratio antiqui Doctoris, in qua 
+      om<lb ed="#R" n="2" break="no"/>nes resident, quod per votum solemne non solum 
+      <lb ed="#R" n="3"/>obligat se vouens Deo, sed transfert dominium 
+      cor<lb ed="#R" n="4" break="no"/>poris sui quo ad acum continentiae in potestatem 
+      <lb ed="#R" n="5"/>praelati, vt iam posuerit eum de hoc in possessione, 
+      <lb ed="#R" n="6"/>&amp; iste illum punire possit loco Dei. In simplici 
+      ve<lb ed="#R" n="7" break="no"/>ro voto licet obligauerit le Deo, non tamen 
+      domi<lb ed="#R" n="8" break="no"/>nium corporis hoc modo transtulit in alium. Tunc 
+      <lb ed="#R" n="9"/>potest sic argui: Nulla obligatio minor tollit maio 
+      <lb ed="#R" n="10"/>rem obligationem: sed obligatio ad actum 
+      matri<lb ed="#R" n="11" break="no"/>monialem est obligatio maior, quam ad votum 
+      <lb ed="#R" n="12"/>simplex, eo quod in matrimonio transfertur 
+      domi<lb ed="#R" n="13" break="no"/>nium, non autem in voto simplici, sed in voto solē- 
+      <lb ed="#R" n="14"/>ni est aequalis translatio sicut in matrimonio, &amp; 
+      vl<lb ed="#R" n="15" break="no"/>tra hoc est de maiori bono: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="16"/>Haec ratio non placet quibusdam modernis, 
+      quo<lb ed="#R" n="17" break="no"/>niam ita videtur fieri translatio corporis in voto 
+      <lb ed="#R" n="18"/>simplici in Deum, in quem tali voto fit immediate, 
+      <lb ed="#R" n="19"/>sicut in voto solemni, quo fit translatio in Deum ho 
+      <lb ed="#R" n="20"/>mine mediante, &amp; transgressionem voti simplicis 
+      <lb ed="#R" n="21"/>punit Deus immediate: illam autem voti solemnis 
+      <lb ed="#R" n="22"/>mediante homine, etiam, quia maius est dominium 
+      <lb ed="#R" n="23"/>Dei quam hominis. Propter quod dicunt isti, quod 
+      <lb ed="#R" n="24"/>tota ratio illius differentiae est auctoritas Ecclesiae 
+      <lb ed="#R" n="25"/>instituentis, quod qui solemniter vouerint, sint 
+      ille<lb ed="#R" n="26" break="no"/>gitimati ad matrimonialem contractum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="27"/>Videtur mihi, quod hic sit vtendum distinctione 
+      <lb ed="#R" n="28"/>quadam. Potest enim quaeri de ratione inductiua, 
+      <lb ed="#R" n="29"/>vel completiua. Tunc alia est causa inductiua 
+      le<lb ed="#R" n="30" break="no"/>gislatoris, ad statuendum hanc illegitimationem, 
+      <lb ed="#R" n="31"/>&amp; alia est causa, &amp; ratio completiua, qua redditur 
+      <lb ed="#R" n="32"/>persona vouens solemniter illegitimata. Ratio enim 
+      <lb ed="#R" n="33"/>inducens Ecclesiam, quod sic ordinaret, fuit illa 
+      <lb ed="#R" n="34"/>quae dicta est, scilicet quia iste de faco trāstulit 
+      do<lb ed="#R" n="35" break="no"/>minium corporis sui in contractu matrimoniali, 
+      <lb ed="#R" n="36"/>quod non fecerat in voto simplici. Item esset 
+      quan<lb ed="#R" n="37" break="no"/>doque periculum de voto simplici, quod quando fit 
+      <lb ed="#R" n="38"/>secrete, &amp; non esset qui posset punire, &amp; ad hoc 
+      iue<lb ed="#R" n="39" break="no"/>runt antiqui Doctores. Ratio autem complens, &amp; 
+      <lb ed="#R" n="40"/>statuens fuit auctoritas Ecclesiae, quod patet, quia 
+      <lb ed="#R" n="41"/>si non esset auctoritate Ecclesiae, Papa nō posset 
+      di<lb ed="#R" n="42" break="no"/>spensare, cuius oppositum fecit, quandoque fecit 
+      <lb ed="#R" n="43"/>aliquando, vt patet de Rege Aragoniae, &amp; 
+      quibus<lb ed="#R" n="44" break="no"/>dam monachis. Item patet ex 
+      interpretatione<lb ed="#R" n="45" break="no"/>Bonifacij, quoniam quidam dicebant, quod vouere 
+      <lb ed="#R" n="46"/>in manibus Episcopi, vel praelati solemnizabat 
+      vo<lb ed="#R" n="47" break="no"/>tum: alij quod quando fiebat in facie Ecclesiae. 
+      Bo<lb ed="#R" n="48" break="no"/>nifacius autem in Vl. determinat, quod votum non 
+      <lb ed="#R" n="49"/>habeatur pro solemni, nisi in praedictis duobus 
+      ca<lb ed="#R" n="50" break="no"/>sibus, &amp; quod in istis tantum casibus dirimit 
+      ma<lb ed="#R" n="51" break="no"/>trimonium. 
+    </p>
+               <p>
+                  <lb ed="#R" n="52"/>Secunda Propositio, vtrum Papa possit 
+      dispen<lb ed="#R" n="53" break="no"/>sare in voto solemni. Quidam dicunt, quod in 
+      nul<lb ed="#R" n="54" break="no"/>lo voto continentiae potest dispensare propter 
+      bo<lb ed="#R" n="55" break="no"/>num quodcunque. Ratio est, quia potestas 
+      dispen<lb ed="#R" n="56" break="no"/>sandi non residet in Papa circa ista, nisi pro aliquo 
+      <lb ed="#R" n="57"/>maiori bono, sed nullum est maius bonum, quam 
+      <lb ed="#R" n="58"/>continentia, quia per ipsam homo Deo consecratur. 
+    </p>
+               <p>
+                  <lb ed="#R" n="59"/>Alij dicunt, quod potest dispensare in voto 
+      sim<lb ed="#R" n="60" break="no"/>plici, non in solemni. Ratio est, quia solemne 
+      vo<lb ed="#R" n="61" break="no"/>tum fit cum quadam speciali consecratione, 
+      vnde<lb ed="#R" n="62" break="no"/>in signum huius moniales consecrantur in 
+      religio<lb ed="#R" n="63" break="no"/>nibus: similiter suscipientes sacrum ordinem 
+      Do<lb ed="#R" n="64" break="no"/>mino Deo consecrantur. Papa autem non potest 
+      <lb ed="#R" n="65"/>facere rem consecratam non consecratam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="66"/>Alij dicunt, quibus magis assentio, quod 
+      Papa<lb ed="#R" n="67" break="no"/>potest dispensare in omni voto, &amp; hoc frequenter 
+      <lb ed="#R" n="68"/>facum est de facto, &amp; concedo, quod talis dispen- 
+      <!--0187.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>satio sit propter maius bonum, quia maius bonum 
+      <lb ed="#R" n="70"/>est pax Christianitatis, vel promotio fidei, &amp; 
+      simi<lb ed="#R" n="71" break="no"/>lia, quae sequuntur quandoque ex istis 
+      dispensatio<lb ed="#R" n="72" break="no"/>nibus, quam continentia cuiuscunque, vnde 
+      conti<lb ed="#R" n="73" break="no"/>nentia non habet libertatem ex se, sed ex 
+      circum<lb ed="#R" n="74" break="no"/>stantia, quia ex continentia intellectus vigoratur 
+      <lb ed="#R" n="75"/>ad contemplationem veritatis, &amp; diuinorum. Item 
+      <lb ed="#R" n="76"/>maius bonum est publicum, quam priuatum; ista 
+      <lb ed="#R" n="77"/>autem continentia, si dicat de se bonum, 
+      tantum<lb ed="#R" n="78" break="no"/>modo dicit bonum priuatum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="79"/>Nec illud de consecratione valet, quia res sacra 
+      <lb ed="#R" n="80"/>potest adhiberi ad vsum maioris boni, &amp; ita 
+      reli<lb ed="#R" n="81" break="no"/>giosa consecrata potest applicari ad bonum 
+      matri<lb ed="#R" n="82" break="no"/>monij, quod est bonum prolis, vel bonum aliud, 
+      <lb ed="#R" n="83"/>quod sequitur inde. Per quod patet ad 
+      argumen<lb ed="#R" n="84" break="no"/>tum 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

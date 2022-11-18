@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="39"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h13027"> <!-- l4-d3q1 -->
+            <head>Quaestio 1</head>
+            <p>
+               <lb ed="#R" n="34"/>Quaestio I. 
+    </p>
+            <p>
+               <lb ed="#R" n="35"/>Quo ad primam quaestionem arguo primo, 
+      <lb ed="#R" n="36"/>quod non bene definiatur Baptismus a Ma 
+      <lb ed="#R" n="37"/>gistro sic: Illa definitio non est bona, nec 
+      <lb ed="#R" n="38"/>propria, quae non indicat, siue in qua non 
+      <lb ed="#R" n="39"/>ponitur formalis ratio definiti. Probo, 
+      <lb ed="#R" n="40"/>quia definitio est sermo indicans quid est 
+      <lb ed="#R" n="41"/>esse: sed in definitione Magistri non 
+      poni<lb ed="#R" n="42" break="no"/>tur formalis ratio Baptismi. Probo, quia 
+      <lb ed="#R" n="43"/>Baptismus est formaliter Sacramentum, 
+      <lb ed="#R" n="44"/>nunc autem ratio formalis Sacramenti con 
+      <lb ed="#R" n="45"/>sistit in ratione signi &amp; causae, in definitione 
+      <lb ed="#R" n="46"/>vero Magisri nulla fit mentio de relatione 
+      <lb ed="#R" n="47"/>signi, vel animae: ergo.
+  </p>
+            <p>
+               <lb ed="#R" n="48"/>In oppositum est auctoritas Magisri in 
+      litte<lb ed="#R" n="49" break="no"/>ra, &amp; auctoritas Augustini, ex cuius dictis 
+      <lb ed="#R" n="50"/>Magister format definitionem illam. 
+      <lb ed="#R" n="51"/>Respondeo: Hic primo videndum est de 
+      in<lb ed="#R" n="52" break="no"/>sttitutione, &amp; secundo de definitione. De 
+      <lb ed="#R" n="53"/>institutione secundum dicta Sanctorum, 
+      <lb ed="#R" n="54"/>&amp; determinationem Ecclesiae, certum est 
+      <lb ed="#R" n="55"/>quod Baptismus fuerit a Christo 
+      institu<lb ed="#R" n="56" break="no"/>tus, sed de tempore, quando fuerit 
+      institu<lb ed="#R" n="57" break="no"/>tus, est dubium.
+  </p>
+            <div>
+               <head>Articulus 1</head>
+               <head type="question-title">Baptismus quando fuerit institutus</head>
+               <p>
+      <!--0039.xml-->
+                  <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="58"/>ARTICVLVS I. 
+      <lb ed="#R" n="59"/>Baptismus quando fuerit institutus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="60"/>AD hoc autem dicitur 
+      diuersi<lb ed="#R" n="61" break="no"/>mode a diuersis Docttoribus, 
+      <lb ed="#R" n="62"/>tamen potest vna definitio 
+      <lb ed="#R" n="63"/>poni, quae mediabit, &amp; 
+      con<lb ed="#R" n="64" break="no"/>cordabit diuersas 
+      opinio<lb ed="#R" n="65" break="no"/>nes circa conclusionem istam. 
+      <lb ed="#R" n="66"/>Institutio enim Baptismi po 
+      <lb ed="#R" n="67"/>test accipi Innuitiue, 
+      Con<lb ed="#R" n="68" break="no"/>sultiue, Exhibitiue, Causatiue, Meritorie, &amp; 
+      vlti<lb ed="#R" n="69" break="no"/>mo Perceptiue. 
+    </p>
+               <p>
+                  <lb ed="#R" n="70"/>Baptismus ergo innuitiue fuit institutus in 
+      die<lb ed="#R" n="71" break="no"/>qua Christus baptizatus est a Joanne: nam tunc 
+      <lb ed="#R" n="72"/>Christus primo innuit se instituere velle 
+      Baptis<lb ed="#R" n="73" break="no"/>mum, &amp; tunc tactu suae carnis mundissimae 
+      sanctifi<lb ed="#R" n="74" break="no"/>cauit aquas, &amp; eis praebuit regeneratiuam vim, 
+      se<lb ed="#R" n="75" break="no"/>cundum Bedam: non est intelligendum, quod 
+      infu<lb ed="#R" n="76" break="no"/>derit eis virtutem aliquam actiuam, vt putant 
+      qui<lb ed="#R" n="77" break="no"/>dam, sed quia innuit, quod futura erat aqua in 
+      <lb ed="#R" n="78"/>posterum regeneratiua animae in gratia, propter q 
+      <lb ed="#R" n="79"/>apparuit in Christi baptismo Spiritus sanctus in co 
+      <lb ed="#R" n="80"/>lumba specie, vt notaretur, quod in virtute 
+      Baptis<lb ed="#R" n="81" break="no"/>mi aquae erant gratiae, &amp; caetera dona Spiritus 
+      in<lb ed="#R" n="82" break="no"/>fundenda. 
+    </p>
+               <p>
+                  <lb ed="#R" n="83"/>Consultiue vero Baptismus est institutus, 
+      quan<lb ed="#R" n="84" break="no"/>do Christus dicit Nicodemo: Nisi quis renatus fue 
+      <lb ed="#R" n="85"/>rit ex aqua, &amp; Spiritu sancto, &amp;c. vbi patet, quod 
+      <lb ed="#R" n="86"/>de Baptismo praeceptum non indidit, sed effectum 
+      <lb ed="#R" n="87"/>Baptismi consulendo potius intimauit. 
+    </p>
+               <p>
+                  <lb ed="#R" n="88"/>Exhibitiue vero primo institutus est Baptismus, 
+      <lb ed="#R" n="89"/>quando venit Jesus, &amp; discipuli eius in ludaeam, vbi 
+      <lb ed="#R" n="90"/>baptizabat, non quidem quod ipsemet baptizaret, 
+      <lb ed="#R" n="91"/>sed discipuli eius, vt dicitur in princip. 4. cap. Joan. 
+      <lb ed="#R" n="92"/>3. cap. Similiter quando misit discipulos ad 
+      praedi<lb ed="#R" n="93" break="no"/>candum binos, qui non solum praedicabant, sed 
+      ba<lb ed="#R" n="94" break="no"/>ptizabant, vt Magister allegat in littera. Illis enim 
+      <lb ed="#R" n="95"/>temporibus Sacramentum Baptismi, quod prius 
+      <lb ed="#R" n="96"/>insinuauerat consulendo, postea exhibendo 
+      creden<lb ed="#R" n="97" break="no"/>tibus explicauit. 
+    </p>
+               <p>
+                  <lb ed="#R" n="98"/>Causatiue vero, &amp; meritorie institutus est 
+      Ba<lb ed="#R" n="99" break="no"/>ptismus tempore passionis. Fuit enim passio 
+      Cri<lb ed="#R" n="100" break="no"/>sti meritoria causa, a qua efficaciam traxerunt 
+      sin<lb ed="#R" n="101" break="no"/>gula Sacramenta, vnde ibi effuxit de crucisixi 
+      la<lb ed="#R" n="102" break="no"/>tere sanguis &amp; aqua, per quod signatur, secundum 
+      <lb ed="#R" n="103"/>August. quod a Christi vulnere laterali Sacramenta 
+      <lb ed="#R" n="104"/>manarunt, quibus credentes innituntur. &amp; habetur 
+      <lb ed="#R" n="105"/>extra de celebratione Missarum in illis duobus, aqua 
+      <lb ed="#R" n="106"/>scilicet &amp; sanguine, maxime duo Sacramenta 
+      reden<lb ed="#R" n="107" break="no"/>ptionis, &amp; regenerationis relucent; Intelligunt de 
+      <lb ed="#R" n="108"/>Baptismo, &amp; Eucharistia, quae sunt duo principalia 
+      <lb ed="#R" n="109"/>Sacramenta. Similiter in fine passionis exclamauit 
+      <lb ed="#R" n="110"/>voce magna, Consummatum est, in quo 
+      significa<lb ed="#R" n="111" break="no"/>batur, quod Sacramenta tunc efficaciam causaliter 
+      <lb ed="#R" n="112"/>acceperunt ad conserendum gratiam, quae est finis, 
+      <lb ed="#R" n="113"/>&amp; conseruatio spiritualis vitae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="114"/>Sed praeceptiue institutus est Baptismus, Matth. 
+      <lb ed="#R" n="115"/>vlt. cum dicitur: Euntes docete omnes gentes, 
+      ha<lb ed="#R" n="116" break="no"/>ptizantes eos in nomine Patris, &amp; Filij, &amp; Spiritus 
+      <lb ed="#R" n="117"/>sancti. 
+    </p>
+               <p>
+                  <lb ed="#R" n="118"/>Aliqui tamen dicunt, quod Baptismus non 
+      obli<lb ed="#R" n="119" break="no"/>gauit sicut praeceptum, quousque ab Apostolis fuit 
+      <lb ed="#R" n="120"/>diuulgatum Euangelium per orbem, sed hoc post 
+      <lb ed="#R" n="121"/>Pentecosten. &amp; secundum hoc patet, quod 
+      Docto<lb ed="#R" n="122" break="no"/>res diuersi diuersa opinantur, accedentes varie ad 
+      <lb ed="#R" n="123"/>aliquod praedictorum.
+    </p>
+            </div>
+            <div>
+               <head>Articulus 2</head>
+               <head type="question-title">De definitione Baptismi quid sit</head>
+               <p>
+      <!--0040.xml-->
+                  <pb ed="#R" n="40"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>ARTICVLVS II. 
+      <lb ed="#R" n="2"/>De definitione Baptismi quid sit.
+    </p>
+               <p>
+                  <lb ed="#R" n="3"/>QVantum ad secundum de definitione 
+      Magi<lb ed="#R" n="4" break="no"/>Qstri, sciendum primo, quod de finitiones 
+      Ba<lb ed="#R" n="5" break="no"/>ptisii variae a diuersis Docttoribus 
+      alle<lb ed="#R" n="6" break="no"/>gantur. Vnam desinitionem dat Magister, quae est 
+      <lb ed="#R" n="7"/>Baptismus est intinctio, idest ablutio corporis 
+      ex<lb ed="#R" n="8" break="no"/>terior facta sub forma verborum praescripta. 
+    </p>
+               <p>
+                  <lb ed="#R" n="9"/>Alia est definitio Hugonis: Baptismus est aqua 
+      <lb ed="#R" n="10"/>diluendis criminibus per verbum Dei sanctificata. 
+      <lb ed="#R" n="11"/>Alia est definitio Dionysij: Baptismus est primum 
+      <lb ed="#R" n="12"/>mandatorum, &amp; sacrae actionis, ac sacrae 
+      regenera<lb ed="#R" n="13" break="no"/>tionis, &amp; ad aliorum mandatorum, ac sacrarum 
+      <lb ed="#R" n="14"/>actionum formans nostras potentias animales 
+      in<lb ed="#R" n="15" break="no"/>caelestium anagoge. 
+    </p>
+               <p>
+                  <lb ed="#R" n="16"/>Alia est definitio Damasc. lib. 4. c. 1o. Baptisinus 
+      <lb ed="#R" n="17"/>est, per quem accepimus primitias Spiritus, &amp; prin 
+      <lb ed="#R" n="18"/>cipium alterius vitae, sigillum, regeneratio, 
+      custo<lb ed="#R" n="19" break="no"/>dia, ac illuminatio. 
+    </p>
+               <p>
+                  <lb ed="#R" n="20"/>Ad euidentiam harum definitionum sciendum 
+      <lb ed="#R" n="21"/>est, quod proprie tres definitiones incidunt in idem. 
+      <lb ed="#R" n="22"/>Vbi considerandum, quod definitiones illae 
+      aspi<lb ed="#R" n="23" break="no"/>ciunt rationem formalem Baptismi, Baptismus 
+      e<lb ed="#R" n="24" break="no"/>nim quantum ad formale suum importat 
+      ratio<lb ed="#R" n="25" break="no"/>nem signi, &amp; causae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="26"/>De ratione autem cuiuslibet relatiui, est, quod 
+      <lb ed="#R" n="27"/>explicetur &amp; definiatur per suum formale, &amp; per duo 
+      <lb ed="#R" n="28"/>addita, scilicet per fundamentum &amp; terminum. 
+      <lb ed="#R" n="29"/>Tres ergo definitiones primae vno modo 
+      expri<lb ed="#R" n="30" break="no"/>munt Baptismum, &amp; hoc quidem patet primo 
+      de<lb ed="#R" n="31" break="no"/>definitione Magistri, exprimit enim primo additum 
+      <lb ed="#R" n="32"/>in ratione fundamenti, in hoc, quod dicit tinctio, 
+      <lb ed="#R" n="33"/>siue ablutio, est enim ablutio immediatum 
+      sunda<lb ed="#R" n="34" break="no"/>mentum relationis quam importat signum, aqua 
+      <lb ed="#R" n="35"/>vero non est fundamentum nisi remotum, mediante 
+      <lb ed="#R" n="36"/>ablutione. Exprimit similiter aliud fundamentum, 
+      <lb ed="#R" n="37"/>quod est magis formale, scilicet verba ipsa, &amp; hoc 
+      <lb ed="#R" n="38"/>cum dicit, sub praescripta forma verborum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="39"/>Sed exprimit tertium formale, quod est ipsa 
+      re<lb ed="#R" n="40" break="no"/>latio signi, &amp; aliud formale, scilicet relationem cau 
+      <lb ed="#R" n="41"/>salitatis. In hoc quod dicit facta, exprimit enim 
+      <lb ed="#R" n="42"/>ly, facta, tam causam efficientem principalem, quam 
+      <lb ed="#R" n="43"/>instrumentalem. Dictum est enim supra, quod 
+      <lb ed="#R" n="44"/>quodlibet Sacramentum dicit in generali 
+      dupli<lb ed="#R" n="45" break="no"/>cem formalem habitudinem, signi scilicet &amp; causae, 
+      <lb ed="#R" n="46"/>quam in proposito exprimit nomen vnicum, cum 
+      <lb ed="#R" n="47"/>dicitur facta, idest ad significandum &amp; efficiendum 
+      <lb ed="#R" n="48"/>instituta: &amp; quia non tantum est simpliciter faca 
+      <lb ed="#R" n="49"/>in se, sed in ordine ad aliquid aliud, idcirco per 
+      <lb ed="#R" n="50"/>hoc quod dicit, facta, posset intelligi aliud additum 
+      <lb ed="#R" n="51"/>per modum termini. 
+    </p>
+               <p>
+                  <lb ed="#R" n="52"/>Hoc idem secundo pater de definitione Hugonis: 
+      <lb ed="#R" n="53"/>Cum enim, ait, Baptismus est aqua, ecce additum 
+      <lb ed="#R" n="54"/>in ratione fundamenti. Cum vero subdit, diluendis 
+      <lb ed="#R" n="55"/>criminibus, ecce additum in ratione termini, lotio 
+      <lb ed="#R" n="56"/>enim criminum fit per gratiam. Cum vero dicit, 
+      <lb ed="#R" n="57"/>sanctificata, ecce formale, quia nihil confertur aquae, 
+      <lb ed="#R" n="58"/>per hoc quod sanctificatur, nisi quod datur ei 
+      quae<lb ed="#R" n="59" break="no"/>dam habitudo, quae est duplex, &amp; signi, &amp; cauiae 
+      re<lb ed="#R" n="60" break="no"/>spectu effectus Sacramenti, quae est gratia. 
+    </p>
+               <p>
+                  <lb ed="#R" n="61"/>Similiter idem potest patere de definitione 
+      Ma<lb ed="#R" n="62" break="no"/>gistri. Cum enim ait Baptismus, est tinctio corporis 
+      <lb ed="#R" n="63"/>&amp; aquae. Ecce vnum additum in ratione fundamen 
+      <lb ed="#R" n="64"/>ti, &amp; hoc tam propinqui, cum dicit tinctio; quam 
+      <lb ed="#R" n="65"/>remoti, cum dicit aqua. Cum vero dicit, verbo vitae, 
+      <lb ed="#R" n="66"/>ecce aliud additum in ratione alterius fundamenti. 
+      <!--0040.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>Cum vero dicit, sanctificata, eece suum formale. 
+    </p>
+               <p>
+                  <lb ed="#R" n="68"/>Aliae vero duae definitiones, scilicet Dionys. &amp; 
+      <lb ed="#R" n="69"/>Damasceni non sunt ita propriae, non enim definiunt 
+      <lb ed="#R" n="70"/>Baptismum per illa, per quae habet naturaliter 
+      cu<lb ed="#R" n="71" break="no"/>iuslibet definitio explicari, sed definitiones illae 
+      <lb ed="#R" n="72"/>duae exprimunt Baptismum quo ad eius tantum 
+      <lb ed="#R" n="73"/>proprietates. 
+    </p>
+               <p>
+                  <lb ed="#R" n="74"/>Propter quod sciendum, quod vno modo potest 
+      <lb ed="#R" n="75"/>Baptisinus comparari ad praecepta, ad quae obligat; 
+      <lb ed="#R" n="76"/>&amp; ad Sacramenta alia ad quae disponit, &amp; 
+      poteste<lb ed="#R" n="77" break="no"/>tiam comparari ad contemplationem diuinorum, 
+      <lb ed="#R" n="78"/>ad quam adducit. Potest etiam comparari ad 
+      quan<lb ed="#R" n="79" break="no"/>dam nobilitatem, quam inducit in susceptiuo, 
+      scili<lb ed="#R" n="80" break="no"/>cet quia facit filios Dei. 
+    </p>
+               <p>
+                  <lb ed="#R" n="81"/>Propter ergo primam proprietatem dicit 
+      Dio<lb ed="#R" n="82" break="no"/>nys. Principium mandatorum Dei. 
+    </p>
+               <p>
+                  <lb ed="#R" n="83"/>Propter secundam autem dicit, Et aliorum man 
+      <lb ed="#R" n="84"/>datorum, sacrarumq. actionum formans nostras 
+      po<lb ed="#R" n="85" break="no"/>tentias susceptiuas animales. Sed propter tertiam 
+      <lb ed="#R" n="86"/>dicit, in caelestium anagogen. 
+    </p>
+               <p>
+                  <lb ed="#R" n="87"/>Propter quartum vero dicit, &amp; sacrae 
+      regenera<lb ed="#R" n="88" break="no"/>tionis, licet quidam dicant, quod per hoc exprimit 
+      <lb ed="#R" n="89"/>formale ipsius Ba ptismi. 
+    </p>
+               <p>
+                  <lb ed="#R" n="90"/>Secundo sciendum est, quod Baptismus habet 
+      <lb ed="#R" n="91"/>sex proprietates, quas exprimit per ordinem 
+      defi<lb ed="#R" n="92" break="no"/>nitio Dam isceni. Potest enim comparari Baptismus 
+      <lb ed="#R" n="93"/>ad gloriam, respectu cuius habemus arrhas per Ba 
+      <lb ed="#R" n="94"/>ptismum. Propter quod praemittit: Baptisinus est 
+      <lb ed="#R" n="95"/>per quem habemus primitias Spiritus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="96"/>Secundo, potest comparari ad gratiam, quae est 
+      <lb ed="#R" n="97"/>principium vitae spiritualis, ad quam Baptismus or 
+      <lb ed="#R" n="98"/>dinat, ideo dicit, principium alterius vitae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="99"/>Tertio, potest comparari ad gratiam gratis 
+      da<lb ed="#R" n="100" break="no"/>tam, quae est charactter, ideo dicit sigillum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="101"/>Quarto, ad nobilitatem quandam, quam 
+      accipi<lb ed="#R" n="102" break="no"/>mus per Baptismum in ordine ad Deum, quae est 
+      fi<lb ed="#R" n="103" break="no"/>liatio pe culiaris, ideo dicit regenerationem. 
+    </p>
+               <p>
+                  <lb ed="#R" n="104"/>Quinto, ad tutelam, &amp; defensionem quandam 
+      <lb ed="#R" n="105"/>quam nobis contra mundum, ac tentationes 
+      lar<lb ed="#R" n="106" break="no"/>gitur, ideo subdit, custodiam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="107"/>Sexto, &amp; vltimo ad illustrationem fidei, quam 
+      <lb ed="#R" n="108"/>in intellectu inducit: ideo concludit, &amp; illuminatio. 
+    </p>
+               <p>
+                  <lb ed="#R" n="109"/>Aliae multae possent assignari de finitiones, si cut 
+      <lb ed="#R" n="110"/>&amp; quidam Doctores alij moderni assignant, sed suf 
+      <lb ed="#R" n="111"/>ficiant istae, quae dictae sunt. 
+    </p>
+               <p>
+                  <lb ed="#R" n="112"/>Ad argumentum principale patet solutio ex cor 
+      <lb ed="#R" n="113"/>pore quaestionis. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

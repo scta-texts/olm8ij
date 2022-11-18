@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="222"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h76034"> <!-- l4-d47Bq1 -->
+            <head>Quaestio 1</head>
+            <p>
+               <lb ed="#R" n="42"/>Quaestio Vnica. 
+    </p>
+            <div>
+               <head>Articulus 1</head>
+               <head type="question-title">
+          Utrum possit iudicium cessabit motus corporum 
+          super caelestium. 
+          2. Utrum cessante motu corporum caelestium, cesset 
+          omnis motus, actio, et passio in sphaera 
+          actiuorum, et passiuorum 
+        </head>
+               <p>
+                  <lb ed="#R" n="43"/>ARTICVLVS I. 
+      <lb ed="#R" n="44"/>Vtrum possit iudicium cessabit motus corporum 
+      su<lb ed="#R" n="45" break="no"/>per caelestium. 
+      <lb ed="#R" n="46"/>2. Vtrum cessante motu corporum caelestium, cesset 
+      <lb ed="#R" n="47"/>omnis motus, actio, &amp; passio in sphaera 
+      <lb ed="#R" n="48"/>actiuorum, &amp; passiuorum 
+    </p>
+               <p>
+                  <lb ed="#R" n="49"/>ARGVO PRIMO, quod sic: 
+      <lb ed="#R" n="50"/>Quia cessante causa cessat effectus, 
+      <lb ed="#R" n="51"/>sed motus caelorum est causa omnis 
+      <lb ed="#R" n="52"/>transmutationis in spaera actiuorum 
+      <lb ed="#R" n="53"/>&amp; passiuorum, vnde Commentator 
+      <lb ed="#R" n="54"/>4. Physic. Com. SS. siue 98. nos 
+      su<lb ed="#R" n="55" break="no"/>mus in esse transinutabili propter 
+      <lb ed="#R" n="56"/>motum localem primi caeli. Ideo qui imaginan- 
+      <!--0222.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="57"/>tur ex consequenti motum primi mobilis, quod 
+      <lb ed="#R" n="58"/>causat tempus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="59"/>In oppositum est, quia tempore Josue ad 
+      impe<lb ed="#R" n="60" break="no"/>rium ipsius cessauit motus caeli, hoc tamen non 
+      <lb ed="#R" n="61"/>obstante agebatur bellum Domini contra Gabaon. 
+    </p>
+               <p>
+                  <lb ed="#R" n="62"/>Item hoc est articulus excommunicatus, qui 
+      di<lb ed="#R" n="63" break="no"/>cit, quod cessante motu caeli ignis applicatus ad 
+      <lb ed="#R" n="64"/>sttuppam non comburat eam, errat. Respondeo 
+      <lb ed="#R" n="65"/>pono tres propositiones per ordinem.
+    </p>
+               <p>
+                  <lb ed="#R" n="66"/>Prima est, quod de mente Aristotelis &amp; Commen 
+      <lb ed="#R" n="67"/>tatoris 2. de generat. tex. com. 55. fuit quod 
+      cessan<lb ed="#R" n="68" break="no"/>te motu caeli ceset omnis actio, &amp; motus in sphaera 
+      <lb ed="#R" n="69"/>acttiuorum &amp; passiuorum. Rationes autem eorum 
+      <lb ed="#R" n="70"/>possunt reduci ad duas. Prima est ista. Quando 
+      <lb ed="#R" n="71"/>aliqua virtus diffunditur per totum, sic, quod est 
+      <lb ed="#R" n="72"/>causa omnium dispositionum in toto, &amp; in ipso 
+      to<lb ed="#R" n="73" break="no"/>to est dare aliquod primum recipiens primo 
+      in<lb ed="#R" n="74" break="no"/>fluentiam ipsius virtutis, quo mediante alia 
+      reci<lb ed="#R" n="75" break="no"/>piunt influentiam eius, cessante influxu virtutis 
+      <lb ed="#R" n="76"/>in illud primum cessat influxus in omne aliud 
+      po<lb ed="#R" n="77" break="no"/>sterius. 
+    </p>
+               <p>
+                  <lb ed="#R" n="78"/>Hanc propositionem declaro in hoc exemplo. 
+      <lb ed="#R" n="79"/>Homo enim est a liquod totum indiuiduum, habens 
+      <lb ed="#R" n="80"/>in se aliquam virtutem diffusam per totum, sic quod 
+      <lb ed="#R" n="81"/>est causa omnium dispositionum, quae sunt in ipso, 
+      <lb ed="#R" n="82"/>cuiusmodi est anima, ita quod omnes extremae per 
+      <lb ed="#R" n="83"/>fecttiones, quae sunt in homine, sunt exigitiue ab 
+      <lb ed="#R" n="84"/>anima. Est etiam in homine aliquod principium, 
+      <lb ed="#R" n="85"/>quod recipit primo influxum animae, &amp; eo mediante 
+      <lb ed="#R" n="86"/>influit anima ad alias partes, cuiusmodi est cor. 
+    </p>
+               <p>
+                  <lb ed="#R" n="87"/>Per hanc rationem videmus, quod cessante 
+      in<lb ed="#R" n="88" break="no"/>fluxu animae in cor, cessat eius influxus in totum 
+      <lb ed="#R" n="89"/>corpus, &amp; tota ratio huius est ordo virtutis in 
+      cor<lb ed="#R" n="90" break="no"/>pore, quae primo influit in aliquod primum, &amp; 
+      <lb ed="#R" n="91"/>ideo immediate influit in alio: Sed vniuersum, puta 
+      <lb ed="#R" n="92"/>caelum, quatuor elementa, vniuersaque machina 
+      <lb ed="#R" n="93"/>mundialis, est aliquod totum, in quo toto est 
+      vir<lb ed="#R" n="94" break="no"/>tus quaedam largiens singulis partibus extremas 
+      <lb ed="#R" n="95"/>perfectiones, puta quod terra sit rotunda, &amp; sit 
+      in<lb ed="#R" n="96" break="no"/>ferius &amp; immobilis; quod aer sit medius, ignis 
+      ve<lb ed="#R" n="97" break="no"/>ro supra, &amp; caelum supra elementa, quod etiam ter 
+      <lb ed="#R" n="98"/>ra moueatur deorsum, ignis sursum; caelum vero sit 
+      <lb ed="#R" n="99"/>rotundum &amp; moueatur circulariter: has inquam 
+      <lb ed="#R" n="100"/>perfectiones omnes largitur vna virtus, scilicet 
+      In<lb ed="#R" n="101" break="no"/>telligentia tam ordinate, quod primo influit in 
+      <lb ed="#R" n="102"/>calum agendo motum in eo, &amp; extremas alias 
+      per<lb ed="#R" n="103" break="no"/>fectiones, deinde mediante influxu caelum influit 
+      <lb ed="#R" n="104"/>in omnes alias partes, primo in elementa, deinde 
+      <lb ed="#R" n="105"/>in mixta, &amp; sic de alijs: ergo cessante motu caeli, 
+      <lb ed="#R" n="106"/>qui est primum influxum ab ista virtute, cessat 
+      om<lb ed="#R" n="107" break="no"/>nis alia actio in tota machina mundiali. 
+    </p>
+               <p>
+                  <lb ed="#R" n="108"/>Haec est ratio Commentatoris in de substantia 
+      <lb ed="#R" n="109"/>orbis, &amp; secundo caeli &amp; mundi. vbi dicit, quod 
+      <lb ed="#R" n="110"/>vniuersum est animal quoddam non ligatum 
+      ner<lb ed="#R" n="111" break="no"/>uis, sed virtute vna, quae primo diffunditur in 
+      cae<lb ed="#R" n="112" break="no"/>lum, deinde in alia, quare &amp;c. posset ergo ratio 
+      bre<lb ed="#R" n="113" break="no"/>uiter sic formari. Si non moueretur cor in 
+      anima<lb ed="#R" n="114" break="no"/>li, cessaret omnis motus in corpore hominis: ergo 
+      <lb ed="#R" n="115"/>si non moueretur caelum, cessaret omnis motus in 
+      <lb ed="#R" n="116"/>toto vniuerso. Hanc rationem innuit 
+      Commenta<lb ed="#R" n="117" break="no"/>tor de substantia orbis tract. a. lib. 3. similiter 
+      Phy<lb ed="#R" n="118" break="no"/>losophus de motu animalium c. 1. in duabus 
+      Quae<lb ed="#R" n="119" break="no"/>stionibus, quas mouet. quarum prima estt, 
+      quare<lb ed="#R" n="120" break="no"/>terra est immobilis. &amp; respondet quod hoc facit 
+      <lb ed="#R" n="121"/>vna virtus, quae perficit vniuersum, non quidem in 
+      <lb ed="#R" n="122"/>esse primo producendo ipsum in esse, sed in esse 
+      se<lb ed="#R" n="123" break="no"/>cundo largiens ei extremas perfectiones. 
+    </p>
+               <p>
+                  <lb ed="#R" n="124"/>Secunda ratio est ista. Author de causis propo- 
+      <!--0223.xml-->
+      <pb ed="#R" n="223"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>sitione prima dicit, quod causa prima magis 
+      in<lb ed="#R" n="2" break="no"/>fluit in suum effectum, quam causa secunda. Tunc sic. 
+      <lb ed="#R" n="3"/>In omni actione corporum concurrit necessario 
+      <lb ed="#R" n="4"/>actio caeli vt prima, omnis vero virtus alia 
+      corpo<lb ed="#R" n="5" break="no"/>ralis concurrit vt secunda causa: sed cessante 
+      pri<lb ed="#R" n="6" break="no"/>ma causa, cessat omnis causa secunda ab actione 
+      <lb ed="#R" n="7"/>in qua concurrit prima causa: ergo. Maior 
+      pa<lb ed="#R" n="8" break="no"/>tet; vnde homo &amp; sol generant hominem per 
+      Ari<lb ed="#R" n="9" break="no"/>stotelem 2. Phis. tex. 26. 
+    </p>
+               <p>
+                  <lb ed="#R" n="10"/>Dicetur ad hoc, quod concesso, quod actio caeli 
+      <lb ed="#R" n="11"/>concurrit vt prima in omni actione corporali, 
+      ta<lb ed="#R" n="12" break="no"/>men ex hoc non habetur propositum, quod 
+      cessan<lb ed="#R" n="13" break="no"/>te motu caeli, &amp;c. Ratio est, quia actio illa caeli, 
+      <lb ed="#R" n="14"/>quae est prima in omni actione, non est motus 
+      loca<lb ed="#R" n="15" break="no"/>lis, sed alteratio, puta illuminatio, qua mediante 
+      <lb ed="#R" n="16"/>insluit in haec inferiora, stante autem caelo adhuc 
+      <lb ed="#R" n="17"/>caelum illuminaret haec inferiora. Sed ratio ista 
+      <lb ed="#R" n="18"/>non est secundum mentem Aristotelis 8. physic. &amp; 
+      <lb ed="#R" n="19"/>secundo caell, &amp; mundi &amp; primo Metheororum, vbi 
+      <lb ed="#R" n="20"/>expresse intendit, quod alteratio non est pura actio 
+      <lb ed="#R" n="21"/>caeli, sed ista est motus localis, vnde alteratio 
+      se<lb ed="#R" n="22" break="no"/>quitur motum localem. Quod potest probari per 
+      <lb ed="#R" n="23"/>rationtm, sic: Quando inter actiones aliquas est 
+      or<lb ed="#R" n="24" break="no"/>do causae &amp; causati, mensurae &amp; mensurati, prioris 
+      <lb ed="#R" n="25"/>&amp; posterioris, vbi non est, quod est mensura prius 
+      <lb ed="#R" n="26"/>&amp; causa, non est illud, quod est posterius, causatum 
+      <lb ed="#R" n="27"/>&amp; mensuratum: sed secundum Aristotelem 8. phys. 
+      <lb ed="#R" n="28"/>tox. 55. inter omnes motus, motus localis est 
+      pri<lb ed="#R" n="29" break="no"/>mus, &amp; inter motus locales, primus est motus 
+      cir<lb ed="#R" n="30" break="no"/>cularis, inter quos est motus primi caeli, 
+      quare<lb ed="#R" n="31" break="no"/>oportet quod primum agens prius moueat 
+      locali<lb ed="#R" n="32" break="no"/>ter, quam agat alterando. 
+    </p>
+               <p>
+                  <lb ed="#R" n="33"/>Dices: Sol per propriam virtutem habet 
+      altera<lb ed="#R" n="34" break="no"/>re, nec motus dat ei formam per quam alterat: 
+      <lb ed="#R" n="35"/>quare ergo non poterit alterare absque hoc, quod 
+      <lb ed="#R" n="36"/>moueatur. Respondeo concedo, quod sol non 
+      ha<lb ed="#R" n="37" break="no"/>bet a motu, quod alteret, puta quod alteratio 
+      pro<lb ed="#R" n="38" break="no"/>fluat a motu effectiue. sed tamen inter alterationem. 
+      <lb ed="#R" n="39"/>&amp; motum localem est iste ordo, quod oportet 
+      pri<lb ed="#R" n="40" break="no"/>mo caelum esse in actu per motum, quam possit 
+      exi<lb ed="#R" n="41" break="no"/>re in actum secundum alterando: vnde sic est ordo 
+      <lb ed="#R" n="42"/>inter generationem &amp; alterationem, quod 
+      altera<lb ed="#R" n="43" break="no"/>tio necessario praecedit generationem, licet 
+      gene<lb ed="#R" n="44" break="no"/>ratio non sit causaliter per alterationem secundum 
+      <lb ed="#R" n="45"/>aliquos, sic est in proposito. &amp; hanc rationem 
+      de<lb ed="#R" n="46" break="no"/>ducit Commentator 2. caeli com. 98. vbi supra &amp; 
+      <lb ed="#R" n="47"/>Philosophus 8. physic. tex. 55. 
+    </p>
+               <p>
+                  <lb ed="#R" n="48"/>Secunda propositio est, quod secundum quod 
+      <lb ed="#R" n="49"/>videtur aliquibus Doctoribus antiquis, forte 
+      pos<lb ed="#R" n="50" break="no"/>set opinio Philosophi, &amp; Commentatoris catholice 
+      <lb ed="#R" n="51"/>teneri, nec videtur, quod repugnet multum his, quae 
+      <lb ed="#R" n="52"/>tenemus per fidem: nec derogare dignitati Dei, 
+      <lb ed="#R" n="53"/>nisi ponendo, quod motus caeli sic exigeretur ad 
+      <lb ed="#R" n="54"/>motus inferiores, quod Deus non posset 
+      mouere<lb ed="#R" n="55" break="no"/>aliquid infra, nisi primo moueret caelum. Sed 
+      dice<lb ed="#R" n="56" break="no"/>re, quod Deus sic disposuerit mundum, quod ibi sit 
+      <lb ed="#R" n="57"/>agens vniuersale, &amp; agens particulare, &amp; 
+      deficien<lb ed="#R" n="58" break="no"/>te vniuersali agente nihil possit agere agens 
+      parti<lb ed="#R" n="59" break="no"/>culare, hoc non derogat dignitati, &amp; potentiae Dei; 
+      <lb ed="#R" n="60"/>sic enim Deus naturas condidit, vt ordinem inter 
+      <lb ed="#R" n="61"/>ipsas naturalem &amp; necessarium statuerit. Nec fides 
+      <lb ed="#R" n="62"/>Catholica omnia reducit immediate in primum, 
+      <lb ed="#R" n="63"/>sic quod non sit ordo aliquis necessarius inter 
+      in<lb ed="#R" n="64" break="no"/>feriora, sicut Commentator dicit de Sarracenis, 
+      <lb ed="#R" n="65"/>quod ipsi dicunt, quod ignis non generat ignem, 
+      <lb ed="#R" n="66"/>sed omnia haec attribuunt causae primae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="67"/>Item secundo hoc non repugnat Scripturae, ex eo 
+      <lb ed="#R" n="68"/>quod legitur, quod cessante motu caeli tempore- 
+      <!--0223.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>Iosue agebatur bellum diuinum: sicut enim erat 
+      <lb ed="#R" n="70"/>miraculosum, quod calum stabat, sic erat 
+      miracu<lb ed="#R" n="71" break="no"/>lum, quod eo sante corpus aliquod inferius 
+      mo<lb ed="#R" n="72" break="no"/>ueretur. Vnde posset dici, quod ex natura motus 
+      <lb ed="#R" n="73"/>inferioris est, quod supponat motum superiorem, &amp; 
+      <lb ed="#R" n="74"/>colligantia necessaria est ad illud. Deus autem 
+      <lb ed="#R" n="75"/>immutabat illum necessarium ordinem, qui potest 
+      <lb ed="#R" n="76"/>contra ea, quae repugnant ex terminis de secundo 
+      <lb ed="#R" n="77"/>modo, modo non sit repugnantia in primo modo 
+      <lb ed="#R" n="78"/>dicendi per se, vnde Deus assistebat miraculose 
+      <lb ed="#R" n="79"/>omnibus tunc temporis agentibus inferioribus 
+      <lb ed="#R" n="80"/>supplendo causalitatem primi motus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="81"/>Tertio non repugnat articulo excommunicato, 
+      <lb ed="#R" n="82"/>vt adducebatur arguendo ad principale: puto enim, 
+      <lb ed="#R" n="83"/>quod articulus ille non intendit negare esssentialem 
+      <lb ed="#R" n="84"/>ordinem motuum inferiorum ad motum caeli, &amp; 
+      <lb ed="#R" n="85"/>quod stante naturali ordine cessante motu caeli 
+      <lb ed="#R" n="86"/>non sit verum dicere, quod ignis non posset agere 
+      <lb ed="#R" n="87"/>in stuppam: sed articulus intendit inueli 
+      contra<lb ed="#R" n="88" break="no"/>aliquos Philosophos, qui sequentes, vti videbatur 
+      <lb ed="#R" n="89"/>eis, doctrinam Philosophi, posuerunt, quod 
+      cessan<lb ed="#R" n="90" break="no"/>te motu caeli sic cessaret omnis actio inferiorum 
+      <lb ed="#R" n="91"/>agentium, quod etiam Deus non posset 
+      supplere<lb ed="#R" n="92" break="no"/>vicem motus primi, ac facere, quod ignis ageret in 
+      <lb ed="#R" n="93"/>stupam. Quarto non videtur derogare ijs, quae 
+      te<lb ed="#R" n="94" break="no"/>nemus fienda post Judicium: tenemus enim, quod 
+      <lb ed="#R" n="95"/>erit postmodum quies perpetua, &amp; quod elementa non 
+      <lb ed="#R" n="96"/>agent ad inuicem: aut ergo hoc erit miraculose, &amp; 
+      <lb ed="#R" n="97"/>inconueniens videtur ponere tot miracula, aut hoc 
+      <lb ed="#R" n="98"/>erit naturaliter, quia cessante motu caeli cessabit 
+      <lb ed="#R" n="99"/>omnis actio, &amp; hoc videtur magis conueniens, quia 
+      <lb ed="#R" n="100"/>non oportet ponere nisi vnum miraculum puta 
+      <lb ed="#R" n="101"/>quod cesset motus caeli: Nec videtur posse poni, 
+      <lb ed="#R" n="102"/>quod quies elementorum sit tunc violenter, eo quod 
+      <lb ed="#R" n="103"/>aliquod violentum esset perpetuum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="104"/>Item ostendo, quod hoc ponere est valde 
+      ratio<lb ed="#R" n="105" break="no"/>nale, &amp; oppositum irrationale: Sol enim, posito quod 
+      <lb ed="#R" n="106"/>stet in aliqua parte opposita ad aliquam partem 
+      <lb ed="#R" n="107"/>terrae calefaciet in modico tempore partem illam, 
+      <lb ed="#R" n="108"/>&amp; post spatium multi temporis erit calor 
+      maxi<lb ed="#R" n="109" break="no"/>mus resoluens terram in vapores, &amp; necessario ex 
+      <lb ed="#R" n="110"/>terra eleuabuntur vapores humidi &amp; sicci, &amp; ex 
+      <lb ed="#R" n="111"/>consequenti generabuntur venti, nubes, tonitrua 
+      <lb ed="#R" n="112"/>&amp; pluuia: ergo oportet dare alterum duorum, vel 
+      <lb ed="#R" n="113"/>quod Deus miraculose teneat caelum, ne moueatur, 
+      <lb ed="#R" n="114"/>&amp; tunc naturaliter cessabit omnis motio inferiorum 
+      <lb ed="#R" n="115"/>corporum: vel oportet, quod Deus spirituali 
+      mira<lb ed="#R" n="116" break="no"/>culo suspendat omnes actiones corporum 
+      inferio<lb ed="#R" n="117" break="no"/>rum, vel si dimittat agentia in suis actionibus, non 
+      <lb ed="#R" n="118"/>saluentur, quae tenentur futura esse post iudicium. 
+    </p>
+               <p>
+                  <lb ed="#R" n="119"/>Et si arguatur: Nonne corpora nostra poterunt 
+      <lb ed="#R" n="120"/>moueri pos iudicium cessante motu caeli. 
+      Re<lb ed="#R" n="121" break="no"/>spondeo, quod miraculose mouebuntur sicut 
+      mi<lb ed="#R" n="122" break="no"/>raculose viuent sine sumptione alimenti, &amp; actione 
+      <lb ed="#R" n="123"/>caloris in humidum radicale, &amp; multis 
+      operationi<lb ed="#R" n="124" break="no"/>bus, quae hodie apparent in corporibus nostris 
+      ne<lb ed="#R" n="125" break="no"/>cessariae ad vitam: sic ergo videtur, quod opinio 
+      <lb ed="#R" n="126"/>Arisotelis tantum repugnet Fidei, quo ad vnum 
+      <lb ed="#R" n="127"/>videlicet, quod ipse poneret, quod caelum 
+      impossi<lb ed="#R" n="128" break="no"/>bile est stare, quia Intelligentia mouet necessitate 
+      <lb ed="#R" n="129"/>naturae, alias etiam Intelligentia esset ociosa. Quo 
+      <lb ed="#R" n="130"/>etiam ad hoc, quod forte ipse poneret, quod tanta 
+      <lb ed="#R" n="131"/>colligatio est inter motus inferiores, &amp; motum 
+      cae<lb ed="#R" n="132" break="no"/>li, quod stante per impossibile motu caeli, 
+      impos<lb ed="#R" n="133" break="no"/>sibile esset per quancumque virtutem motus 
+      in<lb ed="#R" n="134" break="no"/>feriores manuteneri. Sed in hoc quod ipse poneret 
+      <lb ed="#R" n="135"/>quod de facto &amp; secundum ordinem naturae nulla 
+      <lb ed="#R" n="136"/>actio esset cessante motu caeli, in hoc posset forte- 
+      <!--0224.xml-->
+      <pb ed="#R" n="224"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Catholice sustineri, vt per hoc, quod post iudicium 
+      <lb ed="#R" n="2"/>cessabit motus caeli, cesset eo ipso naturaliter 
+      om<lb ed="#R" n="3" break="no"/>nis transmutatio in inferioribus. Et hoc videtur 
+      <lb ed="#R" n="4"/>requirere congruentia statuum viae, &amp; patriae. nunc 
+      <lb ed="#R" n="5"/>enim sumus in via, ideo congruit, quod simus in 
+      <lb ed="#R" n="6"/>continua transmutatione; tunc autem erimus 
+      in<lb ed="#R" n="7" break="no"/>termino, ideo congruum est, quod cesset omnis 
+      <lb ed="#R" n="8"/>actio, &amp; motus, ac transmutatio. 
+    </p>
+               <p>
+                  <lb ed="#R" n="9"/>Tertia propositio est, quod non video bene, 
+      quo<lb ed="#R" n="10" break="no"/>modo Sol per motum localem possit esse causa 
+      <lb ed="#R" n="11"/>alterationis, vel quomodo alteratio habeat 
+      ordi<lb ed="#R" n="12" break="no"/>nem necessarium ad motum localem in ali quo 
+      ge<lb ed="#R" n="13" break="no"/>nere causalitatis, licet dicat Aristoteles 8. physic. 
+      <lb ed="#R" n="14"/>tex. 24. &amp; alibi, quod motus est conseruatio omnis 
+      <lb ed="#R" n="15"/>corporis, &amp; hinc est, quod ignis fortificatur, &amp; cō- 
+      <lb ed="#R" n="16"/>seruatur per continuam exsuslationem, aqua etiam 
+      <lb ed="#R" n="17"/>per continuum sluxum: dico tamen, quod causam 
+      <lb ed="#R" n="18"/>&amp; rationem non video sufficientem pro 
+      Philoso<lb ed="#R" n="19" break="no"/>pho, quia caelum, dato quod non moueretur 
+      locali<lb ed="#R" n="20" break="no"/>ter, non posset alterare. 
+    </p>
+               <p>
+                  <lb ed="#R" n="21"/>Et si dicas: Ratio est propter naturalem ordinem 
+      <lb ed="#R" n="22"/>posterioris ad prius, vt supra dicebatur; hoc non 
+      <lb ed="#R" n="23"/>probat, causalitatem aliquam non habet, verum 
+      <lb ed="#R" n="24"/>est, quod est prior prioritate nobilitatis, 
+      tamen<lb ed="#R" n="25" break="no"/>quod sit prior secundum causalitatem, &amp; 
+      efficien<lb ed="#R" n="26" break="no"/>tiam non bene probatur, ideo non multum a ssero 
+      <lb ed="#R" n="27"/>illam viam, &amp; specialiter propter hoc, quod forte 
+      <lb ed="#R" n="28"/>articulus excommunicatus intendit. 
+    </p>
+               <p>
+                  <lb ed="#R" n="29"/>Vnum tamen videtur tenendum esse, quod 
+      for<lb ed="#R" n="30" break="no"/>te intellexit Philosophus. &amp; non plus, quod 
+      cessan<lb ed="#R" n="31" break="no"/>te motu caeli, cesset omnis actio, &amp; licet non 
+      abso<lb ed="#R" n="32" break="no"/>lute, &amp; in instanti, quin postt cessationem motus 
+      il<lb ed="#R" n="33" break="no"/>lius posset esse actio aliqua, sed quo ad aliquam 
+      <lb ed="#R" n="34"/>conditionem, pura quoad continuationem. &amp; ratio 
+      <lb ed="#R" n="35"/>huius potest esse ista, quoniam licet motus localis 
+      <lb ed="#R" n="36"/>non sit causa alterationis absolute, est tamen 
+      cau<lb ed="#R" n="37" break="no"/>sa variae, &amp; variae alterationis: ita quod varietas 
+      <lb ed="#R" n="38"/>alterationis reducatur in motum caeli sicut 
+      Philo<lb ed="#R" n="39" break="no"/>sophus, &amp; Commentator dicunt secundo de 
+      gene<lb ed="#R" n="40" break="no"/>ratione com. 55. quod continuatio alterationis, &amp; 
+      <lb ed="#R" n="41"/>generationis fit per vnum motum localem primum, 
+      <lb ed="#R" n="42"/>tamen successio generationis, &amp; alterationis fit per 
+      <lb ed="#R" n="43"/>alium motum obliquum zodiaci. vnde 
+      Commen<lb ed="#R" n="44" break="no"/>tator 12. Meth. com. 36. &amp; 37. omnis motus rectus 
+      <lb ed="#R" n="45"/>siue lucalis, siue alius terminatur determinato 
+      ten<lb ed="#R" n="46" break="no"/>pore: ratio est, quia est ad terminum determinatum: 
+      <lb ed="#R" n="47"/>si ergo debet continuari, oportet, quod hoc fiat 
+      <lb ed="#R" n="48"/>per alium motum: ergo oportet, quod reducatur 
+      <lb ed="#R" n="49"/>vltimo ad motum circularem, qui quantum est de 
+      <lb ed="#R" n="50"/>se non habet terminum determinatum. Ex hoc 
+      con<lb ed="#R" n="51" break="no"/>tinuabitur generatio, &amp; alteratio per hunc modum, 
+      <lb ed="#R" n="52"/>quia per motum localem continuum fit variatio 
+      <lb ed="#R" n="53"/>in alterante particulari, &amp; in materia: in 
+      alteran<lb ed="#R" n="54" break="no"/>te quidem, alterans enim per motum localem fit 
+      <lb ed="#R" n="55"/>in alia, &amp; alia situatione, &amp; adducitur ad diuersos 
+      <lb ed="#R" n="56"/>situs. In materia vero, quia adducitur virtute 
+      mo<lb ed="#R" n="57" break="no"/>tus primi alia, &amp; alia continue materia, sicut 
+      ima<lb ed="#R" n="58" break="no"/>ginabantur quidam, quod terra nunc adduceret 
+      <lb ed="#R" n="59"/>vnum passum, nunc aliud. Stante autem motu 
+      cae<lb ed="#R" n="60" break="no"/>li non apparet possibilis ista continuatio. Primo, 
+      <lb ed="#R" n="61"/>quia alterans, ex quo staret semper vniformiter, &amp; 
+      <lb ed="#R" n="62"/>circa idem passum, de necessitate aliquo 
+      tempore<lb ed="#R" n="63" break="no"/>actio eius terminaretur: verbi gratia, si ignis 
+      ap<lb ed="#R" n="64" break="no"/>plicetur ad supam, &amp; ignis sit immobilis, alia etiam 
+      <lb ed="#R" n="65"/>materia non apponatur, necessario combustio, qua 
+      <lb ed="#R" n="66"/>ignis comburit stupam, quandoque terminabitur, 
+      <lb ed="#R" n="67"/>combusta enim stupa non apparet, quid possit 
+      am<lb ed="#R" n="68" break="no"/>plius comburere: motus ergo caeli, qui habet al- 
+      <!--0224.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>terans transferre, materiam etiam apponere 
+      au<lb ed="#R" n="70" break="no"/>gendo, vel materiam nouam generando, potest 
+      al<lb ed="#R" n="71" break="no"/>terationem, &amp; generationem hoc modo 
+      continua<lb ed="#R" n="72" break="no"/>re, quae de se necessario haberet terminum. Sic ergo 
+      <lb ed="#R" n="73"/>posset sustineri, quod cessante motu cae li cessabit 
+      <lb ed="#R" n="74"/>omnis actio, &amp; passio, non quidem in instanti, sed 
+      <lb ed="#R" n="75"/>quo ad continuationem, quia vltimo, quando 
+      agen<lb ed="#R" n="76" break="no"/>tia essent in pleno dominio, &amp; agens plene 
+      domi<lb ed="#R" n="77" break="no"/>naretur toti passo, cessaret necessario omnis actio, 
+      <lb ed="#R" n="78"/>nisi esset aliquod agens varians ipsum alterans, vel 
+      <lb ed="#R" n="79"/>materiam augmentans siue nouam generans. 
+    </p>
+               <p>
+                  <lb ed="#R" n="80"/>Tunc ad quaestionem: Respondeo, quod 
+      cessan<lb ed="#R" n="81" break="no"/>te pos Judicium motu caeli cessabit omnis actio 
+      <lb ed="#R" n="82"/>naturalis generationis, &amp; corruptionis. Similiter 
+      <lb ed="#R" n="83"/>motus animalium, quia corrumpentur. Similiter 
+      <lb ed="#R" n="84"/>cessabit motus elementorum simplicium, &amp; 
+      gene<lb ed="#R" n="85" break="no"/>ratio eorum circularis, &amp; varia: vt quod hic 
+      in<lb ed="#R" n="86" break="no"/>aestate generentur elementa actiua, in hyeme 
+      passi<lb ed="#R" n="87" break="no"/>ua, quia hoc facit motus primi caeli, variando 
+      alte<lb ed="#R" n="88" break="no"/>rans, &amp; materiam, erit tamen possibilis, &amp; de facto 
+      <lb ed="#R" n="89"/>motus cordis continue in homine Deo manutenen 
+      <lb ed="#R" n="90"/>te extremas perfectiones: similiter erit tunc motus 
+      <lb ed="#R" n="91"/>spirituum progressiuus, propter manutenentiam 
+      <lb ed="#R" n="92"/>virtutis diuitiae. 
+    </p>
+               <p>
+                  <lb ed="#R" n="93"/>Ad argumentum in oppositum patet, quid 
+      di<lb ed="#R" n="94" break="no"/>cendum. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

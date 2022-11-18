@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="106"/>
+            <cb ed="#R" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h36351"> <!-- l1-d11q4 -->
+            <head>Quaestio 4</head>
+            <head type="question-title">De transubstantiatione in ordine ad terminum ad quem</head>
+            <p>
+               <lb ed="#R" n="127"/>Quaestio IIII. 
+      <lb ed="#R" n="128"/>
+               <!-- line coord error -->
+               <lb ed="#R" n="129"/>DE TRANSVBSTANTJATJONE 
+      <lb ed="#R" n="130"/>in ordine ad terminum ad quem.
+    </p>
+            <p>
+               <lb ed="#R" n="131"/>Vltimo de Transubstantiatione in ordine ad 
+      <lb ed="#R" n="132"/>terminum ad quem, quaero duas quaestiones. 
+      <!--0107.xml-->
+      <pb ed="#R" n="107"/>
+               <cb ed="#R" n="a"/>
+               <lb ed="#R" n="1"/>1 Prima est: Vtrum terminus ad quem istius 
+      <lb ed="#R" n="2"/>transubstantiationis sit anima dans esse corporeum, 
+      <lb ed="#R" n="3"/>vel materia cum forma alia substantiali. 
+      <lb ed="#R" n="4"/>2 Secunda est: Vtrum quodlibet possit 
+      tran<lb ed="#R" n="5" break="no"/>subsantiari in quodlibet. 
+    </p>
+            <div>
+               <head>Articulus 1</head>
+               <head type="question-title">
+      Utrum terminus ad quem istius 
+      transubstantiationis sit anima dans esse corporeum, vel 
+      materia cum forma alia 
+      substantiali.
+    </head>
+               <p>
+                  <lb ed="#R" n="6"/>ARTICVLVUS I. 
+      <lb ed="#R" n="7"/>Vtrum terminus ad quem istius 
+      transubstantia<lb ed="#R" n="8" break="no"/>tionis sit anima dans esse corporeum, vel 
+      <lb ed="#R" n="9"/>materia cum forma alia 
+      <lb ed="#R" n="10"/>substantiali. 
+    </p>
+               <p>
+                  <lb ed="#R" n="11"/>QVANTVM ad primam 
+      <lb ed="#R" n="12"/>
+                  <!-- line coord error -->
+                  <lb ed="#R" n="13"/>quaestionem arguo primo, 
+      <lb ed="#R" n="14"/>
+                  <!-- line coord error -->
+                  <lb ed="#R" n="15"/>quod terminus istius 
+      tran<lb ed="#R" n="16" break="no"/>
+                  <!-- line coord error -->
+                  <lb ed="#R" n="17"/>substantiationis sit 
+      ani<lb ed="#R" n="18" break="no"/>
+                  <!-- line coord error -->
+                  <lb ed="#R" n="19"/>ma dans esse corporeum 
+      <lb ed="#R" n="20"/>
+                  <!-- line coord error -->
+                  <lb ed="#R" n="21"/>sic: In Christo nulla est 
+      <lb ed="#R" n="22"/>forma substantialis nisi a
+      <lb ed="#R" n="23"/>
+                  <!-- line coord error -->
+                  <lb ed="#R" n="24"/>nima: ergo 
+      transubstan<lb ed="#R" n="25" break="no"/>tiatio non fit in materiam 
+      <lb ed="#R" n="26"/>ub alia forma ab anima. Consequentia clara est. 
+      <lb ed="#R" n="27"/>Probo antecedens, quoniam forma substantialis 
+      <lb ed="#R" n="28"/>dat esse simpliciter: si autem esset ibi forma 
+      alia<lb ed="#R" n="29" break="no"/>praeter animam, iam inueniret anima adueniens 
+      <lb ed="#R" n="30"/>esse simpliciter. 
+    </p>
+               <p>
+                  <lb ed="#R" n="31"/>In oppositum arguo, quod istud Sacramentum 
+      <lb ed="#R" n="32"/>fuit semper vniforme: sed si aliquis Apostolus 
+      con<lb ed="#R" n="33" break="no"/>fecisset in triduo, non fuisset tunc 
+      transubstantia<lb ed="#R" n="34" break="no"/>tio in materiam sub anima dante esse corporeum, 
+      <lb ed="#R" n="35"/>quia anima in triduo non erat vnita materiae: ergo 
+      <lb ed="#R" n="36"/>nec modo terminus transubstantiationis est 
+      mate<lb ed="#R" n="37" break="no"/>ria sub anima dante esse corporeum. Respondeo, 
+      <lb ed="#R" n="38"/>non curando modo de illa difficultate, vtrum 
+      in<lb ed="#R" n="39" break="no"/>homine sint plures formae, nisi quantum pertinet 
+      <lb ed="#R" n="40"/>ad propositum pono propositiones aliquas. 
+    </p>
+               <p>
+                  <lb ed="#R" n="41"/>Prima est, quod impossibile est, quod formalis 
+      <lb ed="#R" n="42"/>terminus istius conuersionis sit materia 
+      acciden<lb ed="#R" n="43" break="no"/>tibus affectata, vt dicit opinio cuiusdam Doctoris. 
+      <lb ed="#R" n="44"/>Ait enim, quod in materia separata anima, derelin 
+      <lb ed="#R" n="45"/>quitur aliquid in quantitate, &amp; similiter ab alijs 
+      <lb ed="#R" n="46"/>accidentibus, vt materia cum derelicto sibi a 
+      quan<lb ed="#R" n="47" break="no"/>titate dicatur corpus, cum derelicto vero ab 
+      acci<lb ed="#R" n="48" break="no"/>dentibus carnis dicatur caro, &amp; similiter de 
+      san<lb ed="#R" n="49" break="no"/>guine, &amp; alijs, ex quo consequenter oportet eos 
+      <lb ed="#R" n="50"/>dicere, quod Nicodemus posuit in sepulchro non 
+      <lb ed="#R" n="51"/>materiam cum forma alia substantiali, sed 
+      mate<lb ed="#R" n="52" break="no"/>riam tantum accidentibus affectatam. Sed 
+      ista<lb ed="#R" n="53" break="no"/>positio includit contradictionem de plano. 
+      Con<lb ed="#R" n="54" break="no"/>tradictio enim est, quod subiecum remaneat sub 
+      <lb ed="#R" n="55"/>effectu formali, forma vero non existente, sicut 
+      es<lb ed="#R" n="56" break="no"/>se rubicundum sine rubedine: sed effectus formalis 
+      <lb ed="#R" n="57"/>quantitatis est ipsa extensio: ergo contradictio est, 
+      <lb ed="#R" n="58"/>quod corpus sit extensum sine quantitate. 
+    </p>
+               <p>
+                  <lb ed="#R" n="59"/>Decipitur autem ista opinio, quia imaginatur, 
+      <lb ed="#R" n="60"/>quod accidentia sint quaedam res terminatae, &amp; 
+      <lb ed="#R" n="61"/>quasi causantes affectiones aliquas in subiecto, q 
+      <lb ed="#R" n="62"/>non puto verum, sed credo, quod sint ipsae purae 
+      af<lb ed="#R" n="63" break="no"/>fectiones, sed de hoc infra. 
+    </p>
+               <p>
+                  <lb ed="#R" n="64"/>Secunda Propositio est, quod impossibile est, 
+      <lb ed="#R" n="65"/>quod transubstantiatio sit in materiam &amp; animam 
+      <lb ed="#R" n="66"/>dans esse corporeum, sicut informari est corpus 
+      a<lb ed="#R" n="67" break="no"/>ctuari, &amp; tamen cum hoc anima non sit in 
+      Sacra<lb ed="#R" n="68" break="no"/>mento nisi concomitanter, vt dicit communis 
+      o<lb ed="#R" n="69" break="no"/>pinio. 
+    </p>
+               <p>
+                  <lb ed="#R" n="70"/>Hanc conclusionem probo sic: Quando aliqua 
+      <lb ed="#R" n="71"/>differunt sola ratione, impossibile est quod per a- 
+      <!--0107.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="72"/>liquam actionem attingatur vnum, &amp; non aliud: 
+      <lb ed="#R" n="73"/>sed anima, vt dat esse corporeum, per se differt sola 
+      <lb ed="#R" n="74"/>ratione a seipsa, vt dat esse intellectiuum, 
+      transub<lb ed="#R" n="75" break="no"/>stantiatio autem est realis actio: ergo impossibile 
+      <lb ed="#R" n="76"/>est, quod attingat eum, vt dat esse intellectum 
+      <lb ed="#R" n="77"/>ergo vi conuersionis aeque directe erit anima 
+      in<lb ed="#R" n="78" break="no"/>Sacramento, vt dat esse intellectiuum, sicut vt dat 
+      <lb ed="#R" n="79"/>ese corporeum: ergo contradictio videtur, quod 
+      <lb ed="#R" n="80"/>formalis terminus sit anima dans esse corporeum, 
+      <lb ed="#R" n="81"/>&amp; quod anima vt intellectiua tantummodo sit 
+      ter<lb ed="#R" n="82" break="no"/>minus per concomitantiam. 
+    </p>
+               <p>
+                  <lb ed="#R" n="83"/>Tertia Propositio est, quod transubstantiatio fit 
+      <lb ed="#R" n="84"/>sicut in terminum in materiam sub aliqua forma 
+      <lb ed="#R" n="85"/>siue realitate, quae non est ipsa anima, sed est ipsa 
+      <lb ed="#R" n="86"/>corporeitas, &amp; carneitas ipsa, quae aliud est a 
+      rea<lb ed="#R" n="87" break="no"/>litate animae, &amp; non nisi formaliter differt. 
+    </p>
+               <p>
+                  <lb ed="#R" n="88"/>Hanc conclusionem teneo specialiter propter au 
+      <lb ed="#R" n="89"/>ctoritates, quarum prima est Innocentij de officio 
+      <lb ed="#R" n="90"/>Missae particula 8. Ego, inquit, qui vitam aeternam 
+      <lb ed="#R" n="91"/>habere desidero, carnem Christi comedo veraciter, 
+      <lb ed="#R" n="92"/>illam, quam extraxit de Virgine. 
+    </p>
+               <p>
+                  <lb ed="#R" n="93"/>Ex hoc articulo dicitur primo sic: In triduo si 
+      <lb ed="#R" n="94"/>aliquis Apostolorum confecisset, aut fuisset caro, 
+      <lb ed="#R" n="95"/>quae hodie est, aut non: si sic, habeo propositum 
+      <lb ed="#R" n="96"/>quia illa caro, quae fuit in triduo in sepulchro, fuit 
+      <lb ed="#R" n="97"/>alia realitas a realitate animae: si vero non, sic 
+      ea<lb ed="#R" n="98" break="no"/>dem caro, quae hodie est, non est illa a qua 
+      efflu<lb ed="#R" n="99" break="no"/>xit sanguis, &amp; quae iacuit in sepulchro. Sanguis 
+      <lb ed="#R" n="100"/>enim emanauita carne exanimi, vt habetur Ioan. 
+      <lb ed="#R" n="101"/>cap. 19 
+    </p>
+               <p>
+                  <lb ed="#R" n="102"/>Similiter non fieret transubstantiatio in 
+      sangui<lb ed="#R" n="103" break="no"/>nem, qui emanauit de Christi latere, quia non erat 
+      <lb ed="#R" n="104"/>animatus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="105"/>Similiter secundo ipse dicit, quod carnem illam 
+      <lb ed="#R" n="106"/>manduco, quam Christus extraxit de Virgine: sed 
+      <lb ed="#R" n="107"/>non extraxit animam de Virgine, cum non sit 
+      ani<lb ed="#R" n="108" break="no"/>ma ex traduce: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="109"/>Item alia est auctoritas de Consecratione dist. 2. 
+      <lb ed="#R" n="110"/>cap. omnia quaecumque, vbi dicitur, non alia, quam 
+      <lb ed="#R" n="111"/>quae in Cruce passa est, &amp; de sepulchro surrexit, 
+      pa<lb ed="#R" n="112" break="no"/>tet quod non fuit ipsa anima. Et pos hoc, data 
+      ca<lb ed="#R" n="113" break="no"/>ro est pro mundi vita, &amp; sequitur, haec caro 
+      forma<lb ed="#R" n="114" break="no"/>ta est in vtero Virginis, &amp; decocta inara Crucis. 
+      <lb ed="#R" n="115"/>Et vlterius; non sunt haec scilicet, &amp; illa, duae, sed 
+      <lb ed="#R" n="116"/>vna caro. Et vltra sequitur: Illud sane quod natum 
+      <lb ed="#R" n="117"/>est de Virgine, quod sepultum est, quod resurrexit, 
+      <lb ed="#R" n="118"/>&amp; venturum est iudicare viuos &amp; mortuos. Sed 
+      <lb ed="#R" n="119"/>manifestum est, quod anima nec fuit nata, nec 
+      se<lb ed="#R" n="120" break="no"/>pulta: ergo. Et Closator ibi signat multa 
+      notabi<lb ed="#R" n="121" break="no"/>lia, &amp; subdit, quod idem corpus, quod iacuit in 
+      se<lb ed="#R" n="122" break="no"/>pulchro, est in altari. 
+    </p>
+               <p>
+                  <lb ed="#R" n="123"/>Propter has, &amp; similes auctoritates, etsi 
+      appa<lb ed="#R" n="124" break="no"/>reret mihi demonstratio, ad oppositum 
+      tenerem<lb ed="#R" n="125" break="no"/>propositionem istam; nec est noua philosophia, sed 
+      <lb ed="#R" n="126"/>est philosophia Aristotelis &amp; Commentatoris. 
+    </p>
+               <p>
+                  <lb ed="#R" n="127"/>Jmo oppositum, quod in animato non sit nisi vna 
+      <lb ed="#R" n="128"/>forma, est vere philosophia noua. Probo per 
+      ex<lb ed="#R" n="129" break="no"/>pressas auctoritates Commentatoris, &amp; miror, quod 
+      <lb ed="#R" n="130"/>illi, qui dicunt oppositum esse de intentione eius, 
+      <lb ed="#R" n="131"/>non aspexerunt ad illas. Jpse enim expresse in lib. 
+      <lb ed="#R" n="132"/>de substantia orbis facit contra se rationem illam, 
+      <lb ed="#R" n="133"/>quae est Achilles pro parte opposita, &amp; soluit eam, 
+      <lb ed="#R" n="134"/>istam scilicet, quod vnius rei vna estt forma, &amp; 
+      ali<lb ed="#R" n="135" break="no"/>bi etiam in secundo de anima, &amp; alias, vt dicetur 
+      <lb ed="#R" n="136"/>suo loco in secundo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="137"/>Item idem 5. metaph. comm. 15. dicit sic: Et 
+      di<lb ed="#R" n="138" break="no"/>xit, supple Philosophus, &amp; dicitur substantia, &amp; de 
+      <lb ed="#R" n="139"/>sorma, idest de illo per quod indiuiduum substan- 
+      <!--0108.xml-->
+      <pb ed="#R" n="108"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>tiae fit substantia, &amp; subdit, &amp; dedit exemplum de 
+      <lb ed="#R" n="2"/>anima, quia est forma in substantia in actu, e 
+      con<lb ed="#R" n="3" break="no"/>tra est de formis corporum simplicium. 
+    </p>
+               <p>
+                  <lb ed="#R" n="4"/>Item idem 8. metaph. in fine: Sicut prima 
+      mate<lb ed="#R" n="5" break="no"/>ria se habet ad formas, sic se habet corpus ad 
+      ani<lb ed="#R" n="6" break="no"/>mam: In eodem commento penultimo. Et anima 
+      <lb ed="#R" n="7"/>cum corpore est vnum, sicut prima materia cum 
+      <lb ed="#R" n="8"/>forma: nec alias vbi ageretur de ista materia, 
+      da<lb ed="#R" n="9" break="no"/>rem solutionem ad rationem illam, vnius rei vnum 
+      <lb ed="#R" n="10"/>est esse, nisi solutionem Commentatoris. 
+    </p>
+               <p>
+                  <lb ed="#R" n="11"/>Vnde ad argumentum in oppositum alias dicam 
+      <lb ed="#R" n="12"/>solutionem Commentatoris. Ipse enim dat illam 
+      <lb ed="#R" n="13"/>propositionem &amp; intellectum eius, pro nunc dico, 
+      <lb ed="#R" n="14"/>quod vnius rei vna est forma, quae est actus 
+      vltima<lb ed="#R" n="15" break="no"/>tus, sed quin in animato sit aliqua alia realitas ab 
+      <lb ed="#R" n="16"/>anima, quae est actus vltimatus, quae quidem 
+      rea<lb ed="#R" n="17" break="no"/>litas sit in actu medio permixto potentiae, hoc 
+      in<lb ed="#R" n="18" break="no"/>quam non est impossibile, vnde scilicet inter 
+      mate<lb ed="#R" n="19" break="no"/>riam primam, &amp; vltimam formam omnis similis 
+      ma<lb ed="#R" n="20" break="no"/>teria est composita. 
+    </p>
+            </div>
+            <div>
+               <head>Articulus 2</head>
+               <head type="question-title">
+      Utrum quodlibet possit transubstantiari in 
+      quodlibet.
+    </head>
+               <p>
+                  <lb ed="#R" n="21"/>ARTICVLVS II 
+      <lb ed="#R" n="22"/>Vtrum quodlibet possit transubstantiari in 
+      <lb ed="#R" n="23"/>quodlibet. 
+    </p>
+               <p>
+                  <lb ed="#R" n="24"/>AD secundam quaestionem sine argumentis 
+      re<lb ed="#R" n="25" break="no"/>C spondeo. Dicunt aliqui, quod quodlibet per 
+      <lb ed="#R" n="26"/>diuinam virtutem potest transubstantiari in 
+      quod<lb ed="#R" n="27" break="no"/>libet, vnde &amp; substantia in relationem, &amp; lapis in 
+      <lb ed="#R" n="28"/>caelum, &amp; in vnam ciuitatem. Respondeo pro ista 
+      <lb ed="#R" n="29"/>opinione est ex conditione &amp; ratione ipsius 
+      tran<lb ed="#R" n="30" break="no"/>substantiationis: transubstantiatio enim secundum 
+      <lb ed="#R" n="31"/>eos non est aliud quam totalis successio alicuius, 
+      <lb ed="#R" n="32"/>secundum totum suum esse post totale non esse 
+      al<lb ed="#R" n="33" break="no"/>terius: nunc autem non apparet, quare quodlibet 
+      <lb ed="#R" n="34"/>non possit sic secundum totum suum esse 
+      succede<lb ed="#R" n="35" break="no"/>re tota li non esse alterius. Ab hac tamen excipiunt 
+      <lb ed="#R" n="36"/>deitatem: ratio est, quia ipsa non potest habere sic 
+      <lb ed="#R" n="37"/>esse nouum succedens. Sed non video, quod ratio 
+      <lb ed="#R" n="38"/>ista multum concludat de Deitate: non enim 
+      opor<lb ed="#R" n="39" break="no"/>tet, quod terminus transubstantiationis capiat 
+      es<lb ed="#R" n="40" break="no"/>se nouum, vel quod mutetur, vel etiam quod 
+      ca<lb ed="#R" n="41" break="no"/>piat de nouo respectum praesentiae, scilicet esse hic 
+      <lb ed="#R" n="42"/>vi ipsius transubstantiationis, sicut ipsimet dicunt. 
+    </p>
+               <p>
+                  <lb ed="#R" n="43"/>Alij dicunt, quod corpus, licet possit 
+      transubstan<lb ed="#R" n="44" break="no"/>tiari in corpus, non tamen in spiritum: ratio est ex 
+      <lb ed="#R" n="45"/>dico Augustini lib. 7. super Gen. ad literam cap. 
+      <lb ed="#R" n="46"/>20. idem refertur lib. Sentent. Prosperi sententia 
+      <lb ed="#R" n="47"/>284. tom. 3. operum Augustini, quod corpus 
+      in<lb ed="#R" n="48" break="no"/>spiritum mutari non potest. 
+    </p>
+               <p>
+                  <lb ed="#R" n="49"/>Secundo dicunt, quod non quodlibet corpus 
+      po<lb ed="#R" n="50" break="no"/>testt transubstantiari in quodlibet corpus, sed 
+      tan<lb ed="#R" n="51" break="no"/>tum in illud, quod habet materiam eiusdem 
+      ratio<lb ed="#R" n="52" break="no"/>nis secum, &amp; per hoc dicunt, quod lapis non posset 
+      <lb ed="#R" n="53"/>transubstantiari in caelum: sed posito, quod in caelo 
+      <lb ed="#R" n="54"/>sit materia alterius rationis, nihil facit ibi, quia 
+      <lb ed="#R" n="55"/>materia non est subiectum, sed est terminus 
+      tran<lb ed="#R" n="56" break="no"/>substantiationis, quae in termino a quo, desinit 
+      es<lb ed="#R" n="57" break="no"/>se, in termino vero ad quem capit hoc esse 
+    </p>
+               <p>
+                  <lb ed="#R" n="58"/>Videtur mihi distinguendum de 
+      transubstantia<lb ed="#R" n="59" break="no"/>tione: potest enim accipi, vel pro transitu termini 
+      <lb ed="#R" n="60"/>2. in terminum praecise, absque hoc, quod aliquid 
+      con<lb ed="#R" n="61" break="no"/>mune transeat ibi de vno in aliud; &amp; si talis modus 
+      <lb ed="#R" n="62"/>sit possibili, non video, quare non quodlibet possit 
+      <lb ed="#R" n="63"/>conuerti in quodlibet.
+    </p>
+               <p>
+                  <lb ed="#R" n="64"/>Sed loquendo de transubstantiatione secundo 
+      <!--0108.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="65"/>modo, qualis est illa, quae hodie est de facto 
+      secun<lb ed="#R" n="66" break="no"/>dum Innocentium, quod est conuersio substantialis 
+      <lb ed="#R" n="67"/>non formalis. eo quod manet sensibilis forma cō- 
+      <lb ed="#R" n="68"/>munis, de tali dico, quod impossibile est, quod ali 
+      <lb ed="#R" n="69"/>quid sit terminus transubstantiationis, nisi vel 
+      ali<lb ed="#R" n="70" break="no"/>quid sibi acquiratur, vel ipsum alteri acquiratur, 
+      <lb ed="#R" n="71"/>&amp; sic est in propusito, quod corpus acquiritur illi 
+      <lb ed="#R" n="72"/>communi, quod signatur per ly, hoc, quod prius 
+      e<lb ed="#R" n="73" break="no"/>rat panis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="74"/>Vtrum ergo Deus posset aliter conuertere, 
+      si<lb ed="#R" n="75" break="no"/>cut &amp; facit, quod Deus est homo, nescio, illum 
+      ta<lb ed="#R" n="76" break="no"/>men transitum non intelligo: sed transitum illum, 
+      <lb ed="#R" n="77"/>quem fides vult habere, &amp; quem dat Innocentius, 
+      <lb ed="#R" n="78"/>cum dicit, quod est conuersio substantialis non 
+      for<lb ed="#R" n="79" break="no"/>malis, quia manet forma, puto vtique esse 
+      possibi<lb ed="#R" n="80" break="no"/>lem, &amp; satis intelligibilem, vbi licet nihil fiat in cor 
+      <lb ed="#R" n="81"/>pus, tamen corpus per modum termini fit alteri, 
+      <lb ed="#R" n="82"/>scilicet ei, quod exprimitur per hoc demonstratum 
+      <lb ed="#R" n="83"/>determinatum ad situm; &amp; sic capiendo 
+      transub<lb ed="#R" n="84" break="no"/>stantiationem, respondeo ad quaestionem, quod 
+      <lb ed="#R" n="85"/>nihil potest fieri, quod non potest trahi ad esse hoc 
+      <lb ed="#R" n="86"/>determinatum ad situm, vnde non in Angelum. 
+      <lb ed="#R" n="87"/>
+                  <!-- line coord error -->
+                  <lb ed="#R" n="88"/>
+                  <!-- line coord error -->
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

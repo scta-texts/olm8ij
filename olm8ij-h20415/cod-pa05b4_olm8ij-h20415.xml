@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-11-18">November 18, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b4">Roma 1605, Book 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-11-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="60"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-h20415"> <!-- l4-d6q2 -->
+            <head>Quaestio 2</head>
+            <p>
+               <lb ed="#R" n="47"/>Quaestio II.
+    </p>
+            <div>
+               <head>Articulus 1</head>
+               <head type="question-title">
+          Utrum Catechismus, et Exorcismus sint proprie 
+          Sacramentum.
+        </head>
+               <p>
+                  <lb ed="#R" n="48"/>ARTICVLVS VNJCVS. 
+      <lb ed="#R" n="49"/>Vtrum Catechismus, &amp; Exorcismus sint proprie 
+      <lb ed="#R" n="50"/>Sacramentum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="51"/>QVO ad secundam 
+      Quaestio<lb ed="#R" n="52" break="no"/>nem arguo primo, quod 
+      Exor<lb ed="#R" n="53" break="no"/>cismus, &amp; Catechismus sint 
+      <lb ed="#R" n="54"/>proprie Sacramenta, sic. Cui 
+      <lb ed="#R" n="55"/>conuenit definitio, conuenit 
+      <lb ed="#R" n="56"/>ldefinitum: sed Exorcismo &amp; 
+      <lb ed="#R" n="57"/>Catechismo conuenit 
+      defini<lb ed="#R" n="58" break="no"/>tio Sacramenti. Est enim 
+      <lb ed="#R" n="59"/>Sacramentum inuisibilis gratiae visibilis forma: 
+      <lb ed="#R" n="60"/>nunc autem Catechisimus, &amp; Exorcismus sunt vi- 
+      <!--0060.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="61"/>sibilis forma, idest signa sensisiilia: significant etiam 
+      <lb ed="#R" n="62"/>&amp; efficiunt aliquem effectum inuisibilem, alias 
+      fru<lb ed="#R" n="63" break="no"/>stra exhiberentur: ergo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="64"/>In oppositum est, quia secundum 
+      determinatio<lb ed="#R" n="65" break="no"/>nem Doctorum tantummodo sunt septem 
+      Sacra<lb ed="#R" n="66" break="no"/>menta. 
+    </p>
+               <p>
+                  <lb ed="#R" n="67"/>Respondeo, in ista quaestione ponam tres 
+      propo<lb ed="#R" n="68" break="no"/>sitiones. 
+    </p>
+               <p>
+                  <lb ed="#R" n="69"/>Prima est, quod grauiter peccat, qui baptizat 
+      di<lb ed="#R" n="70" break="no"/>missso Catechisino, vbi potest fieri, &amp; necessitatis 
+      <lb ed="#R" n="71"/>articulo non imminente; quod si necessitatis 
+      arti<lb ed="#R" n="72" break="no"/>culus interuenerit, puta, quia timeatur periculum 
+      <lb ed="#R" n="73"/>mortis, si baptizatus superuiuat, est ad Ecclesiam 
+      <lb ed="#R" n="74"/>reportandus, &amp; et sunt Catechisinus, &amp; 
+      Exorcis<lb ed="#R" n="75" break="no"/>mus exhibendi. 
+    </p>
+               <p>
+                  <lb ed="#R" n="76"/>Dico tunc, quod grauiter peccaret, qui sine 
+      Ca<lb ed="#R" n="77" break="no"/>techismo, &amp; Exorcismo praeuijs baptizaret. haec 
+      <lb ed="#R" n="78"/>conclusio habet euidentiam. Primo exemplo 
+      Chri<lb ed="#R" n="79" break="no"/>sti, cui tanquam primo institutori Sacramentorum 
+      <lb ed="#R" n="80"/>Nouae Legis in ipsorum administratione debemus 
+      <lb ed="#R" n="81"/>nos per omnia confirmare. 
+    </p>
+               <p>
+    <!-- missing line break -->Secundo, auctoritate Ecclesiae, quae hunc modum
+      <lb ed="#R" n="82"/>tenuit tempore Apostolorum
+    </p>
+               <p>
+                  <lb ed="#R" n="83"/>Primum de Christi exemplo, quantum ad 
+      Ca<lb ed="#R" n="84" break="no"/>techismum confirmatur per illud Joannis 9. 
+      Cate<lb ed="#R" n="85" break="no"/>chismus autem Craece, idem est, quod informatio 
+      <lb ed="#R" n="86"/>Latine; nunc autem ibi, vel cap. 1o. legitur de Chri 
+      <lb ed="#R" n="87"/>sto, quod quando sanauit oculos caeci nati, fecit 
+      lu<lb ed="#R" n="88" break="no"/>tum de sputo, &amp; caeco ait, Vade &amp; lauare, quod 
+      ex<lb ed="#R" n="89" break="no"/>ponit Rhabanus, &amp; ponitur de Consecrat. dist. 4. 
+      <lb ed="#R" n="90"/>cap. Ante baptismum, vbi dicitur, quod ipse Jesus 
+      <lb ed="#R" n="91"/>Christus prius oculos caeci nati ex luto facto 
+      su<lb ed="#R" n="92" break="no"/>perliniuit, &amp; sic ad aquas Siloe misit, quia prius 
+      <lb ed="#R" n="93"/>debet baptizandus instrui in Incarnatione 
+      Chri<lb ed="#R" n="94" break="no"/>sti, &amp; ad Baptismum sic credulus adduci. 
+    </p>
+               <p>
+                  <lb ed="#R" n="95"/>Item Matth. vlt. cum dedit Christus formam ba 
+      <lb ed="#R" n="96"/>ptizandi Apostolis, dicit: Ite, docete omnes gentes, 
+      <lb ed="#R" n="97"/>&amp; tunc sequitur, baptizantes eos, &amp;c. 
+    </p>
+               <p>
+                  <lb ed="#R" n="98"/>Hoc idem patet de Exorcismo. Exorcismus 
+      e<lb ed="#R" n="99" break="no"/>nim est exsufflatio spiritus immundi, vt habetur 
+      <lb ed="#R" n="100"/>Extra de Consecratione dist. 2. cap. Baptiz andi no 
+      <lb ed="#R" n="101"/>men, &amp; cap. Sicut nostis: Crisus autem, quando 
+      <lb ed="#R" n="102"/>eiecit spiritum immundum, exufflauit, &amp; dixit, 
+      Ef<lb ed="#R" n="103" break="no"/>feta, quod est adaperire. 
+    </p>
+               <p>
+                  <lb ed="#R" n="104"/>Secundo. habet ista conclusio euidentiam ex 
+      au<lb ed="#R" n="105" break="no"/>ctoritate Ecclesiae a tempore Aposolorum, secundum 
+      <lb ed="#R" n="106"/>quod expresse habetur apud Dionysium, qui 
+      expres<lb ed="#R" n="107" break="no"/>se ponit, quod tempore Pauli, Ecclesia 
+      praemitte<lb ed="#R" n="108" break="no"/>bat Baptismo Exorcismum, &amp; Catechismum, lib. de 
+      <lb ed="#R" n="109"/>Ecclesiastica Hierarchia. Ipse etiam in eodem 
+      li<lb ed="#R" n="110" break="no"/>bro tradit expresse ritum de forma adiurationis, 
+      <lb ed="#R" n="111"/>siue Exorcismi. Ad hanc etiam conclusionem sunt 
+      <lb ed="#R" n="112"/>auctoritates Leonis Papae, Eusebij, Cypriani, 
+      Rha<lb ed="#R" n="113" break="no"/>bani, &amp; aliorum, quorum auctoritates continentur 
+      <lb ed="#R" n="114"/>in decem &amp; septem capitulis de 
+      Consecratione<lb ed="#R" n="115" break="no"/>dist. quarta. 
+    </p>
+               <p>
+                  <lb ed="#R" n="116"/>Secunda Propositio est, quod ritus, qui instirutus 
+      <lb ed="#R" n="117"/>est debere obseruari tam in Catechismo, quam Exor 
+      <lb ed="#R" n="118"/>cismo, est congrue institutus. Vbi sciendum est, 
+      <lb ed="#R" n="119"/>quod Catechismus potest comparari ad ministrum, &amp; 
+      <lb ed="#R" n="120"/>sic minister ordinarius est Episcopus, vel Sacerdos: 
+      <lb ed="#R" n="121"/>potest comparari ad obiectum, cum enim idem sit 
+      <lb ed="#R" n="122"/>Catechismus, quod doctrina, &amp; eruditio, doctrina 
+      <lb ed="#R" n="123"/>ista debet esse de symbolo, &amp; articulis Fidei. 
+    </p>
+               <p>
+                  <lb ed="#R" n="124"/>Sciendum tamen est, quod Augustinus dicit, 
+      <lb ed="#R" n="125"/>quod eruditio ista eit fienda de septem aetatibus, 
+      <lb ed="#R" n="126"/>sed intelligendum est hoc quando Baptismus 
+      cele<lb ed="#R" n="127" break="no"/>bratur in vigilia Paschae, vel Pentecostes, tunc enim 
+      <!--0061.xml-->
+      <pb ed="#R" n="61"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>leguntur ante Missam multae Lectiones. 
+    </p>
+               <p>
+                  <lb ed="#R" n="2"/>Quarum prima est de creatione mundi, ac 
+      pri<lb ed="#R" n="3" break="no"/>ma aetate. 
+    </p>
+               <p>
+                  <lb ed="#R" n="4"/>Secunda vero de aetate secunda, scilicet de Noe. 
+    </p>
+               <p>
+                  <lb ed="#R" n="5"/>Tertia vero de Abraham, siue aetate tertia, ac sic 
+      <lb ed="#R" n="6"/>de alijs: ad quas Lectiones debebant erudiendi 
+      <lb ed="#R" n="7"/>Catechumeni conuenire. 
+    </p>
+               <p>
+                  <lb ed="#R" n="8"/>Tertio, potest comparari ad modum 
+      examina<lb ed="#R" n="9" break="no"/>tionis, nam facta interrogatione de symbolo debet 
+      <lb ed="#R" n="10"/>ipse respondere, si adultus fuerit, vel patrinus, si fue 
+      <lb ed="#R" n="11"/>rit paruulus. 
+    </p>
+               <p>
+                  <lb ed="#R" n="12"/>Secundus etiam ritus Exorcismi est congrue 
+      in<lb ed="#R" n="13" break="no"/>stitutus: primo enim in Exorcismo fit consignatio 
+      <lb ed="#R" n="14"/>in pectore, &amp; oculis, &amp; naribus, ad significandum, 
+      <lb ed="#R" n="15"/>quod Christus est in toto, sicut sit in corde, sit in 
+      o<lb ed="#R" n="16" break="no"/>re, sit etiam in naribus. vt semper cogitet Cristũ- 
+      <lb ed="#R" n="17"/>&amp; omnia redoleant Christum. 
+      <lb ed="#R" n="18"/>Secundo ponitur sal in ore, ad significandum 
+      re<lb ed="#R" n="19" break="no"/>cessum foetoris pristinae conuersationis. Vel forte ad 
+      <lb ed="#R" n="20"/>significandum sapientiam, quam habiturus est per 
+      <lb ed="#R" n="21"/>Baptismum. 
+    </p>
+               <p>
+                  <lb ed="#R" n="22"/>Tertio, ibi fit exsufflatio, cum qua etiam fit adiu 
+      <lb ed="#R" n="23"/>ratio, vt detur intelligi, quod potestas diaboli est 
+      <lb ed="#R" n="24"/>de caetero exsusflata. 
+      <lb ed="#R" n="25"/>Quarto, ponitur saliua in auribus ac naribus, ad 
+      <lb ed="#R" n="26"/>signandum, quod quinque sensus debent sapere Chri 
+      <lb ed="#R" n="27"/>stum, qui est fons sapientiae in excelsis. 
+    </p>
+               <p>
+                  <lb ed="#R" n="28"/>Tertia Propositio est, quod Catechismus, &amp; 
+      Exor<lb ed="#R" n="29" break="no"/>eismus non sunt Sacrameuta Nouae legis, eo quod 
+      <lb ed="#R" n="30"/>non efficiunt, quod figurant. Nam effectus quidem 
+      <lb ed="#R" n="31"/>inuisibiles, etsi significentur in Catechismo &amp; Exor 
+      <lb ed="#R" n="32"/>cismo, tamen non insunt animae virtute eorum, sed 
+      <lb ed="#R" n="33"/>virtute sequentis Baptisini., Possunt ergo dici largo 
+      <lb ed="#R" n="34"/>modo Sacramenta in hoc, quod sunt inuisibilis 
+      for<lb ed="#R" n="35" break="no"/>mae visibile signum, non tamen in hoc quod est cau 
+      <lb ed="#R" n="36"/>sam existere, &amp; ideo magis proprie debent dici 
+      sa<lb ed="#R" n="37" break="no"/>cramentalia, quam Sacramenta, eo quod sunt 
+      prae<lb ed="#R" n="38" break="no"/>ambulum ad verum Sacramentum.
+    </p>
+               <p>
+                  <lb ed="#R" n="39"/>Hic tamen de effectu Catechismi, &amp; Exorcismi 
+      <lb ed="#R" n="40"/>est dubitandum. Dicit enim Praepositus, quod non 
+      <lb ed="#R" n="41"/>conferunt aliquid, vnde si moriatur catechumenus, 
+      <lb ed="#R" n="42"/>antequam baptizetur, nullum habet effecum 
+      gra<lb ed="#R" n="43" break="no"/>tiae, siue effectum quemcumque alium, quem 
+      figu<lb ed="#R" n="44" break="no"/>rant.
+    </p>
+               <p>
+                  <lb ed="#R" n="45"/>Et si arguitur contra eum, quod tunc 
+      Catechis<lb ed="#R" n="46" break="no"/>mus, &amp; Exorcismus sunt inutiles; respondet, quod 
+      <lb ed="#R" n="47"/>non, quia catechizatus, &amp; exorcizatus, si sine 
+      Ba<lb ed="#R" n="48" break="no"/>ptismo decedant, patiuntur minores tenebras. 
+    </p>
+               <p>
+                  <lb ed="#R" n="49"/>Sed opinio haec non concordat cum dicis Docto 
+      <lb ed="#R" n="50"/>rum, qui ponunt, quod qui sine Baptismo decedunt, 
+      <lb ed="#R" n="51"/>omnes carent aequaliter Dei visione. Alij concedunt, 
+      <lb ed="#R" n="52"/>quod simpliciter ad nullum effecum valent. Mihi 
+      <lb ed="#R" n="53"/>videtur quod possit dici aliter, scilicet quod 
+      confe<lb ed="#R" n="54" break="no"/>runt contra diaboli potestatem, virtute enim 
+      Ca<lb ed="#R" n="55" break="no"/>techismi, &amp; Exorcismi dirimuntur dominium, &amp; 
+      <lb ed="#R" n="56"/>potesas, ac tyrannidis diaboli, licet enim 
+      diabo<lb ed="#R" n="57" break="no"/>lus non relinquat e xorcizatos ante Baptismum, quo 
+      <lb ed="#R" n="58"/>ad culpam: relinquit tamen eos quo ad 
+      potesta<lb ed="#R" n="59" break="no"/>tem nocendi, &amp; impediendi a susceptione Baptismi: 
+      <lb ed="#R" n="60"/>sic enim proponentem religionem intrare diabolus 
+      <lb ed="#R" n="61"/>conatur tentando adducere, &amp; diuersa 
+      impedimen<lb ed="#R" n="62" break="no"/>ta apponere, &amp; eo magis nititur accedentem re 
+      <lb ed="#R" n="63"/>trahere a Baptismo: contra ergo huiusmodi 
+      diabo<lb ed="#R" n="64" break="no"/>li nocumenta, puto, quod valeat Exorcismus, ideo 
+      <lb ed="#R" n="65"/>praemittendus est Baptismo.
+    </p>
+               <p>
+                  <lb ed="#R" n="66"/>Posset ergo dici, quod valent ad tria: primo ad 
+      <lb ed="#R" n="67"/>retinendam memoriam de Baptismo, quod scilicet 
+      <lb ed="#R" n="68"/>talis baptizatus sit. 
+  </p>
+               <p>
+      <!--0061.xml-->
+                  <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>Secundo, ad sciendum, quid Christo promisit, cn 
+      <lb ed="#R" n="70"/>ius imaginem recepit postea in Baptismo. 
+    </p>
+               <p>
+                  <lb ed="#R" n="71"/>Tertio, ad prohibendum illusiones 
+      multiplices<lb ed="#R" n="72" break="no"/>quas posset exercere diabolus circa aquam, &amp; 
+      im<lb ed="#R" n="73" break="no"/>pedimenta, quae posset adducere ad impediendum 
+      <lb ed="#R" n="74"/>receptionem Baptisini. Ad argumentum in 
+      oppo<lb ed="#R" n="75" break="no"/>situm patet ex dictis. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
