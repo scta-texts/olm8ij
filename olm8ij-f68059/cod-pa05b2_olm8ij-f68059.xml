@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-05">April 05, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b2">Roma 1605, Book 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="218"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-f68059"><!-- l2d16-prae -->
+            <head xml:id="olm8ij-f68059-Hd1e101">Praeambulum</head>
+            <p xml:id="olm8ij-f68059-d1e103">
+      <!--0218.xml-->
+               <pb ed="#R" n="218"/>
+               <cb ed="#R" n="a"/>
+               <lb ed="#R" n="1"/>DISTINCTIO XVJ. 
+      <lb ed="#R" n="2"/>DE NATVRA 
+      <lb ed="#R" n="3"/>COMPOSITA 
+      <lb ed="#R" n="4"/>ETSVBSTANTIA 
+      <lb ed="#R" n="5"/>Corporali, &amp; Spirituali.
+  </p>
+            <p xml:id="olm8ij-f68059-d1e123">
+               <lb ed="#R" n="6"/>In ista Distinctione Decimasaxta, postquam Magister in superioribus egit de 
+      na<lb ed="#R" n="7" break="no"/>tura pure spirituali, &amp; pure corporali, agit nunc de natura composita, &amp; 
+      sub<lb ed="#R" n="8" break="no"/>stantia corporali, &amp; spirituali ostendens qualiter creatus est homo quia ad Dei 
+      <lb ed="#R" n="9"/>imaginem, &amp; ad euidentiam istius quaestionis circa fundamentum imaginis in 
+      <lb ed="#R" n="10"/>homine, quod est in anima rationali, siue intellectiua, quaero duas Quaestiones. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

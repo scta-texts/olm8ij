@@ -1,0 +1,1485 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-05">April 05, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b2">Roma 1605, Book 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="314"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-f96108"><!-- l2d42-q1 -->
+            <head xml:id="olm8ij-f96108-Hd1e101">Quaestio 1</head>
+            <p xml:id="olm8ij-f96108-d1e103">
+               <lb ed="#R" n="11"/>QAESTIO VNICA. 
+   </p>
+            <p xml:id="olm8ij-f96108-d1e108">
+      <!--0314.xml-->
+               <cb ed="#R" n="b"/>
+               <lb ed="#R" n="12"/>1 Vtrum actus exterior addat bonitatem, 
+      <lb ed="#R" n="13"/>vel malitiam moralem ad actum Interiorem. 
+      <lb ed="#R" n="14"/>2 Vtrum diuisiones peccatorum, quas 
+      Ma<lb ed="#R" n="15" break="no"/>gister ponit in littera, sint bene assignatae. 
+      <lb ed="#R" n="16"/>3 Vtrum diuisio peccati in veniale, &amp; morta 
+      <lb ed="#R" n="17"/>le sit diuisio per differentias specificas. 
+      <lb ed="#R" n="18"/>4 Vtrum peccatum mortale congrue 
+      distin<lb ed="#R" n="19" break="no"/>guatur in septem vitia capitalia. 
+   </p>
+            <div xml:id="olm8ij-f96108-Dd1e132">
+               <head xml:id="olm8ij-f96108-Hd1e134">Articulus 1</head>
+               <head xml:id="olm8ij-f96108-Hd1e136" type="question-title">
+        Utrum actus addat bonitatem ad actum interiorem
+      </head>
+               <p xml:id="olm8ij-f96108-d1e139">
+                  <lb ed="#R" n="20"/>ARTJCVLVS J. 
+      <lb ed="#R" n="21"/>Vtrum actus addat bonitatem ad actum 
+      in<lb ed="#R" n="22" break="no"/>teriorem. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e148">
+                  <lb ed="#R" n="23"/>QVANTVM ad primam 
+      <lb ed="#R" n="24"/>quaestionem arguo primo, 
+      <lb ed="#R" n="25"/>quod actus exterior non ad 
+      <lb ed="#R" n="26"/>dat bonitatē, uel malitiam 
+      <lb ed="#R" n="27"/>moralem super actum 
+      in<lb ed="#R" n="28" break="no"/>teriorem, sic. Vbi vnum 
+      <lb ed="#R" n="29"/>propter alterum 
+      vtrobi<lb ed="#R" n="30" break="no"/>que tantum vnum, sed actus 
+      <lb ed="#R" n="31"/>exterior habet bonitatem, &amp; malitiam propter 
+      <lb ed="#R" n="32"/>actum interiorem: ergo bonitas vtriusque 
+      tan<lb ed="#R" n="33" break="no"/>tum vnum. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e174">
+                  <lb ed="#R" n="34"/>In oppositum est, quia illa sunt diuersa peccata, 
+      <lb ed="#R" n="35"/>&amp; habent aliam, &amp; aliam malitiam, qᷓ prohibentur alio, 
+      <lb ed="#R" n="36"/>&amp; alio praecepto. Vnde non furaberis, ecce actus 
+      <lb ed="#R" n="37"/>exterior: Non concupisces rem proximi tui, ecce 
+      <lb ed="#R" n="38"/>actus interior: ergo. Respondeo hic primo pono 
+      <lb ed="#R" n="39"/>punctum quaestionis. Secundo propositionem 
+      in<lb ed="#R" n="40" break="no"/>tentam. Tertio respondebo directe ad 
+      quaestio<lb ed="#R" n="41" break="no"/>nem. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e195">
+                  <lb ed="#R" n="42"/>Quantum ad primum sciendum est, quod non est 
+      <lb ed="#R" n="43"/>difficultas in proposito de actu interiori, &amp; exte 
+      <lb ed="#R" n="44"/>riori, vt sint diuersi, &amp; separati, vnus ab alte- 
+      <!--0314.xml-->
+      <cb ed="#R" n="c"/>
+                  <lb ed="#R" n="45"/>ro, puta si eliciatur actus exterior sine actu inte 
+      <lb ed="#R" n="46"/>riori, vel actus interior sine exteriori; si. n. elicia 
+      <lb ed="#R" n="47"/>tur interior sine exteriori, non est efficax. Si vero 
+      <lb ed="#R" n="48"/>exterior sine interiori, non habet ronnem voluntarij. 
+      <lb ed="#R" n="49"/>Vnde hoc modo actus exterior additus nudo 
+      a<lb ed="#R" n="50" break="no"/>ctui interiori addit aliquid scilicet efficaciam, ꝗa 
+      <lb ed="#R" n="51"/>facit voluntatē eam efficacem, &amp; actus interior 
+      <lb ed="#R" n="52"/>additus nudo actui exteriori addit imputabilita 
+      <lb ed="#R" n="53"/>tem, &amp; rationem voluntarij. Sed difficultas est in 
+      <lb ed="#R" n="54"/>proposito de voluntate efficaci, quod est, quando 
+      <lb ed="#R" n="55"/>non stat in voluntate, quin prorumpat in actum, 
+      <lb ed="#R" n="56"/>ita, quod quaestio est de istis actibus, vt coniuncti 
+      <lb ed="#R" n="57"/>sunt: Vtrum quilibet habeat rationem propriae 
+      <lb ed="#R" n="58"/>malitiae? Verbi gratia, pono, quod aliquis 
+      arden<lb ed="#R" n="59" break="no"/>tissime cupiat esse martyr, &amp; non remanet in eo, 
+      <lb ed="#R" n="60"/>quin assequatur martyrium, non tamen de facto 
+      <lb ed="#R" n="61"/>fit martyr propter extriusecum impedimentum, 
+      <lb ed="#R" n="62"/>hoc modo actus ille voluntatis dicitur efficax, 
+      <lb ed="#R" n="63"/>quaero tunc: Vtrum actus exterior, puta si recipiat 
+      <lb ed="#R" n="64"/>postea martyrium, aliquid addat ad interiorem. 
+      <lb ed="#R" n="65"/>Punctus ergo quaestionis nostrae est quaerere non 
+      <lb ed="#R" n="66"/>de omni actu voluntatis absolute, sed de actu effi 
+      <lb ed="#R" n="67"/>caci, quoniam quantum est ex se, prorumpit 
+      in<lb ed="#R" n="68" break="no"/>opus, hoc modo quaero. Vtrum actus exterior po 
+      <lb ed="#R" n="69"/>situs in actu addat aliquid bonitatis, &amp; malitiae 
+      <lb ed="#R" n="70"/>ad actum interiorem sic efficientem, hoc etiam 
+      <lb ed="#R" n="71"/>modo quaero de actu malo: Vtrum, scilicet volens 
+      <lb ed="#R" n="72"/>efficaciter perpetrare homicidium ita, quod non 
+      <lb ed="#R" n="73"/>remanet in eo, quin prorumpat in factum, &amp; quã- 
+      <lb ed="#R" n="74"/>tum in se est facit, quod potest, quaero, Vtrum actus 
+      <lb ed="#R" n="75"/>ille sit ita malus, ac si de facto prorumpat in opus, 
+      <lb ed="#R" n="76"/>ita quod prorumpere, uel non prorumpere, 
+      ali<lb ed="#R" n="77" break="no"/>quid malitiae, &amp; imputabilitatis addat ad actum 
+      <lb ed="#R" n="78"/>illum efficacem interiorem. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e282">
+                  <lb ed="#R" n="79"/>Nunc secundo pono modos dicendi. Vnus est, 
+      <lb ed="#R" n="80"/>quod actus exterior nullam omnino bonitatem vel 
+      <!--0315.xml-->
+      <pb ed="#R" n="315"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>malitiam addat ad actum interiorem, cuius ratio 
+      <lb ed="#R" n="2"/>est, quia tota deformitas actus pensatur ex 
+      affe<lb ed="#R" n="3" break="no"/>ctione voluntatis. Actus enim ex hoc est moralis, 
+      <lb ed="#R" n="4"/>quia dicitur a voluntate secundum affectionem, 
+      <lb ed="#R" n="5"/>&amp; electionem. 3. Ethic. sed tanta est affectio, &amp; 
+      <lb ed="#R" n="6"/>electio in solo actu efficienti interiori, quanta est 
+      <lb ed="#R" n="7"/>in vtroque, scilicet interiori, &amp; exteriori simul: 
+      <lb ed="#R" n="8"/>ergo. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e313">
+                  <lb ed="#R" n="9"/>Alij dicunt oppositum, &amp; ratio eorum est, quia 
+      <lb ed="#R" n="10"/>ille actus habet aliam, &amp; aliam bonitatem, &amp; 
+      <lb ed="#R" n="11"/>malitiam, qui habent aliud, &amp; aliud suspendium, 
+      <lb ed="#R" n="12"/>aliam, &amp; aliam poenam: sed actus exterior 
+      bo<lb ed="#R" n="13" break="no"/>nus praemiatur alio praemio, quam actus interior, 
+      <lb ed="#R" n="14"/>etiam efficax; similiter malus exterior punitur 
+      <lb ed="#R" n="15"/>alia paena, quam solus interior efficax: ergo. 
+      Pa<lb ed="#R" n="16" break="no"/>ret minor, quia datur aureola pro martyrio 
+      in<lb ed="#R" n="17" break="no"/>sola efficienti voluntate: ergo. Item per 
+      argu<lb ed="#R" n="18" break="no"/>mentum ad principale, quia per praeceptum 
+      da<lb ed="#R" n="19" break="no"/>tur de vno, &amp; de alio. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e339">
+                  <lb ed="#R" n="20"/>Nunc pono propositiones duas. Prima est haec, 
+      <lb ed="#R" n="21"/>quod actus exterior comparatus ad interiorem 
+      <lb ed="#R" n="22"/>penes bonitatem moralem extensiue, sic actus 
+      ex<lb ed="#R" n="23" break="no"/>terior addit ad interiorem bonitatem propriam 
+      <lb ed="#R" n="24"/>moralem, ita quod vterque actus simul sunt plura 
+      <lb ed="#R" n="25"/>bona moralia, quam alter tantum 
+      quantumcum<lb ed="#R" n="26" break="no"/>que efficax; sed loquendo de bonitate intensiue, 
+      <lb ed="#R" n="27"/>sic actus exterior non addit bonitatem mora lem 
+      <lb ed="#R" n="28"/>ad actum efficacem interiorem, quia non 
+      inten<lb ed="#R" n="29" break="no"/>dit voluntarium, &amp; electionem in ordine ad 
+      <lb ed="#R" n="30"/>quam sumuntur bonitas, &amp; malitia moralis. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e365">
+                  <lb ed="#R" n="31"/>Secunda conclusio est, quod actui interiori 
+      <lb ed="#R" n="32"/>efficaci correspondet tantum praemium 
+      essentia<lb ed="#R" n="33" break="no"/>le, quantum interiori simul, &amp; exteriori; non 
+      <lb ed="#R" n="34"/>autem tantum praemium accidentale. Primam 
+      <lb ed="#R" n="35"/>Conclusionem probo quo ad primam partem 
+      <lb ed="#R" n="36"/>eius primo: Suppono, quod bonitas moralis 
+      pen<lb ed="#R" n="37" break="no"/>satur ex fine. Tunc arguo sic: Jllud, quod habet 
+      <lb ed="#R" n="38"/>specialem, &amp; propriam rationem, &amp; modum 
+      <lb ed="#R" n="39"/>ducendi in finem, habet propriam bonitatem 
+      <lb ed="#R" n="40"/>moralem, hoc patet, praesupponendo, quod actus 
+      <lb ed="#R" n="41"/>dicitur bonus moraliter in ordine ad finem, quae 
+      <lb ed="#R" n="42"/>conclusio fuit superius probata: ergo si habet 
+      a<lb ed="#R" n="43" break="no"/>lium, &amp; alium modum attingendi finem, 
+      necessa<lb ed="#R" n="44" break="no"/>rio habet aliam, &amp; aliam bonitatem moralem. 
+      <lb ed="#R" n="45"/>Jdem dico per oppositum de malitia, sed actus 
+      <lb ed="#R" n="46"/>exterior habet alium, &amp; alium modum 
+      attingen<lb ed="#R" n="47" break="no"/>di finem. Probo hoc inducendo, aliud enim 
+      <lb ed="#R" n="48"/>bonum procurat, &amp; attingit actus fortitudinis 
+      <lb ed="#R" n="49"/>in effectu positus, quia bonum Reipublicae, &amp; 
+      <lb ed="#R" n="50"/>ciuitatis, quod non attingit solus actus interior, 
+      <lb ed="#R" n="51"/>quantumcumque efficax; sic de martyrio, cuius 
+      <lb ed="#R" n="52"/>finis est approbatio, &amp; testificatio veritatis 
+      Fi<lb ed="#R" n="53" break="no"/>dei Christianae, &amp; apparet, quod aliter 
+      attingi<lb ed="#R" n="54" break="no"/>tur ille finis, quoad extrinsecum per 
+      exterio<lb ed="#R" n="55" break="no"/>rem positum, quam per solum interiorem. 
+      Simi<lb ed="#R" n="56" break="no"/>liter idem apparet in malis actibus: Magis enim 
+      <lb ed="#R" n="57"/>offendit Rempublicam, &amp; magis damnificat 
+      si<lb ed="#R" n="58" break="no"/>bi, qui perpetrat de facto homicidium, quam 
+      <lb ed="#R" n="59"/>qui tantum perpetrat cum sensu, &amp; electione 
+      <lb ed="#R" n="60"/>interiori. Item quia ens morale est esse 
+      volun<lb ed="#R" n="61" break="no"/>tarium, sed actus interior efficax, &amp; exterior 
+      <lb ed="#R" n="62"/>sunt plura voluntaria: habens enim actum 
+      in<lb ed="#R" n="63" break="no"/>teriorem habet vnum voluntarium, habens 
+      <lb ed="#R" n="64"/>cum hoc exteriorem habet aliud voluntarium: 
+      <lb ed="#R" n="65"/>ergo. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e443">
+      <!--0315.xml-->
+                  <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="66"/>Tertio arguo sic ad illam conclusionem: 
+      Bo<lb ed="#R" n="67" break="no"/>nitas actus moralis consistit intrinsece in 
+      inte<lb ed="#R" n="68" break="no"/>gritate propriarum circunstantiarum 
+      debita<lb ed="#R" n="69" break="no"/>rum inesse ipsi actui, vt supra probatum est. 
+      <lb ed="#R" n="70"/>Tunc sic: Actus illi, qui habent alias, &amp; alias 
+      in<lb ed="#R" n="71" break="no"/>trinsecas circumstantias, habent aliam &amp; aliam 
+      <lb ed="#R" n="72"/>bonitatem ex concursu talium propriarum 
+      cir<lb ed="#R" n="73" break="no"/>cumstantiarum: sed actus exterior habet alias, 
+      <lb ed="#R" n="74"/>&amp; proprias circumstantias dictatas a ratione 
+      <lb ed="#R" n="75"/>debere inesse ei, alias a circumstantijs, quas 
+      ra<lb ed="#R" n="76" break="no"/>tio dictat debere inesse actui interiori tantum: 
+      <lb ed="#R" n="77"/>ergo. Maior probata est supra, &amp; habetur 
+      se<lb ed="#R" n="78" break="no"/>cundo Ethic. minor patet per experientiam. 
+      Pa<lb ed="#R" n="79" break="no"/>tet etiam ex hoc, quod actus interior habet 
+      a<lb ed="#R" n="80" break="no"/>lium finem, &amp; alio modo finem attingit, quae 
+      <lb ed="#R" n="81"/>est circumstantia principalis. 
+  </p>
+               <p xml:id="olm8ij-f96108-d1e486">
+                  <lb ed="#R" n="82"/>Secundam partem istius conclusionis primae 
+      <lb ed="#R" n="83"/>probo: videlicet, quod actus exterior non 
+      ad<lb ed="#R" n="84" break="no"/>dat ad interiorem bonitatem intensiue, Quoniam 
+      <lb ed="#R" n="85"/>bonum moris &amp; malum accipiuntur ex ratione 
+      <lb ed="#R" n="86"/>voluntarij: tunc sic, quando aliqua plura sic 
+      <lb ed="#R" n="87"/>se habent, quod propter concursum ad 
+      inui<lb ed="#R" n="88" break="no"/>cem non intendunt rationem voluntarij, talia ex 
+      <lb ed="#R" n="89"/>mutuo concursu non intendunt rationem 
+      bo<lb ed="#R" n="90" break="no"/>nitatis vel malitiae moralis: sed posito quod 
+      vo<lb ed="#R" n="91" break="no"/>luntas actu interiori efficacissime veniente actu 
+      <lb ed="#R" n="92"/>exteriori sint plura voluntaria concurrentia: 
+      <lb ed="#R" n="93"/>est voluntarium in duobus simul, tamen non 
+      <lb ed="#R" n="94"/>crescit bonitas, vel malitia moralis, quia pone 
+      <lb ed="#R" n="95"/>nigredinem intensissimam in coruo, adde postea 
+      <lb ed="#R" n="96"/>lignum album, licet ibi sint plura nigra, non 
+      ta<lb ed="#R" n="97" break="no"/>men est intensius album, quam coruus praecise. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e523">
+                  <lb ed="#R" n="98"/>Secunda ratio ad idem, nam illa dat propter 
+      <lb ed="#R" n="99"/>quid, ac remouet rationes omnes, quae possunt 
+      <lb ed="#R" n="100"/>fieri, quod pluralitas extensiua arguat 
+      maiori<lb ed="#R" n="101" break="no"/>tatem extensiuam. Arguo ergo sic: Quando 
+      plu<lb ed="#R" n="102" break="no"/>ra sic se habent ad inuicem ratione alicuius 
+      con<lb ed="#R" n="103" break="no"/>ditionis dictae de eis, quod vnum ex consequenti 
+      <lb ed="#R" n="104"/>sequitur ex alio, nec sunt talia formaliter: &amp; 
+      <lb ed="#R" n="105"/>e conuerso, nec vnum habet formale proprium, 
+      <lb ed="#R" n="106"/>infra quod non est tale formaliter, sed 
+      partici<lb ed="#R" n="107" break="no"/>patiue tantum, illa non sunt magis talia 
+      pro<lb ed="#R" n="108" break="no"/>pter concursum amborum, quam esset alterum 
+      <lb ed="#R" n="109"/>tantum, quod erat per essentiam, &amp; formaliter 
+      <lb ed="#R" n="110"/>tale. Vel sic: Quando aliquid attribuitur 
+      duo<lb ed="#R" n="111" break="no"/>bus, vni per essentiam, &amp; formaliter, alteri ex 
+      <lb ed="#R" n="112"/>consequenti, &amp; per participationem; illud non 
+      <lb ed="#R" n="113"/>est intensius in duobus simul, quam sit in altero, 
+      <lb ed="#R" n="114"/>in quo est per essentiam &amp; formaliter; vnde 
+      <lb ed="#R" n="115"/>quia bonitas est in Deo per essentiam, in 
+      crea<lb ed="#R" n="116" break="no"/>tura autem per participationem; ideo non est 
+      <lb ed="#R" n="117"/>bonitas intensior in Deo, &amp; creatura simul, 
+      <lb ed="#R" n="118"/>quam in solo Deo: Sed actus exterior habet 
+      ra<lb ed="#R" n="119" break="no"/>tionem voluntarij non formaliter, &amp; 
+      intrinse<lb ed="#R" n="120" break="no"/>ce, sed solum per participationem: non enim 
+      <lb ed="#R" n="121"/>est imaginandum, quod in actu exteriori &amp; 
+      in<lb ed="#R" n="122" break="no"/>teriori sint duo voluntaria formalia actu 
+      vo<lb ed="#R" n="123" break="no"/>luntatis participatiue, aut in actu exteriori: 
+      <lb ed="#R" n="124"/>ex quo patet, quod licet ibi plura sunt talia 
+      <lb ed="#R" n="125"/>extensiue, quorum quodlibet est ex aequo 
+      for<lb ed="#R" n="126" break="no"/>maliter tale, illa duo simul forte insint magis 
+      <lb ed="#R" n="127"/>intensiue, quam alterum tantum, tum non 
+      au<lb ed="#R" n="128" break="no"/>gent bonitatem vel malitiam, sicut est in 
+      propo<lb ed="#R" n="129" break="no"/>sito, vt dictum est.
+   </p>
+               <p xml:id="olm8ij-f96108-d1e595">
+                  <lb ed="#R" n="130"/>Secundam Conclusionem, scilicet, quod qui ha- 
+      <!--0316.xml-->
+      <pb ed="#R" n="316"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>bet voluntatem efficientem, tantum habet de 
+      pre<lb ed="#R" n="2" break="no"/>mio essentiali, quantum habet simul cum actu 
+      ex<lb ed="#R" n="3" break="no"/>teriori, non autem de primo actuali, hanc inquam 
+      <lb ed="#R" n="4"/>conclusionem, quoad primam partem probo ex 
+      <lb ed="#R" n="5"/>praecedentibus. Praemium enim essentiale debetur 
+      <lb ed="#R" n="6"/>aliter praecise ratione voluntariae intentionis: mo 
+      <lb ed="#R" n="7"/>do non plus est de voluntario intensiue in actu 
+      in<lb ed="#R" n="8" break="no"/>teriori efficienti cum actu exteriori simul, quam 
+      <lb ed="#R" n="9"/>sit in actu interiori tantum: ergo. Hanc confirmo, 
+      <lb ed="#R" n="10"/>quia praemium essentiale debetur per se primo 
+      <lb ed="#R" n="11"/>charitati, siue temperantiae charitatis: sed 
+      chari<lb ed="#R" n="12" break="no"/>tas non augetur propter exteriorem actum tantum: 
+      <lb ed="#R" n="13"/>ergo. Secundam partem huius conclusionis 
+      pro<lb ed="#R" n="14" break="no"/>bo per hoc, quia ex quo actus interior, &amp; exterior 
+      <lb ed="#R" n="15"/>sunt plura bona saltem extensiue, cuilibet autem 
+      <lb ed="#R" n="16"/>bono debetur praemium aliquod, propter hoc au 
+      <lb ed="#R" n="17"/>tem, quia habet aliam bonitatem extensiue solum, 
+      <lb ed="#R" n="18"/>non debetur ei praemium essentiale: ergo ei 
+      debe<lb ed="#R" n="19" break="no"/>tur praemium accidentale saltem, cuiusmodi est 
+      <lb ed="#R" n="20"/>aureola, quae datur martyribus ratione actus 
+      ex<lb ed="#R" n="21" break="no"/>terioris. Per hoc patet ad illud argumentum 
+      pri<lb ed="#R" n="22" break="no"/>mae opinionis, quae procedebat ex alietate 
+      meri<lb ed="#R" n="23" break="no"/>ti. Ad illam autem, quae procedebat ex alietate 
+      <lb ed="#R" n="24"/>praecepti, respondeo vno modo, quod peccatum 
+      <lb ed="#R" n="25"/>bene est malum, &amp; intensiue tam in actu 
+      exterio<lb ed="#R" n="26" break="no"/>ri, quam interiori, non per se, sed per accidens, 
+      ra<lb ed="#R" n="27" break="no"/>tione noui praecepti, quod datur de actu 
+      exterio<lb ed="#R" n="28" break="no"/>ri, ita quod non est maius peccatum in eodem 
+      ge<lb ed="#R" n="29" break="no"/>nere, sed concurrit ibi peccatum alterius generis, 
+      <lb ed="#R" n="30"/>puta inobedientiae, &amp; alia inobedientia, quam in 
+      <lb ed="#R" n="31"/>solo actu interiori; &amp; hoc quia aliud praeceptum. 
+      <lb ed="#R" n="32"/>Sed in hoc stat difficultas argumenti, quia non 
+      vi<lb ed="#R" n="33" break="no"/>detur, quod respectu illorum actuum sit aliud, &amp; 
+      <lb ed="#R" n="34"/>aliud praeceptum, nisi quia aliud est magis malum. 
+      <lb ed="#R" n="35"/>Respondeo, praecepta possunt dari alia, non tamen 
+      <lb ed="#R" n="36"/>propter maioritatem malitiae, vel bonitatem 
+      in<lb ed="#R" n="37" break="no"/>tensiue, sed propter maioritatem extensiue. Si 
+      quae<lb ed="#R" n="38" break="no"/>ras, quae est ratio istius? dico quod alia praecepta 
+      <lb ed="#R" n="39"/>fiunt propter alium, &amp; alium finem, quem actus 
+      <lb ed="#R" n="40"/>habent diuerso modo attingere: modo ego dico, 
+      <lb ed="#R" n="41"/>quod alium finem attingit actus exterior malus 
+      <lb ed="#R" n="42"/>cuiusmodi est furari, quam solus interior: quia est 
+      <lb ed="#R" n="43"/>etiam damnum &amp; praeiudicium proximi, &amp; 
+      com<lb ed="#R" n="44" break="no"/>munitatis. Hinc infero, quod alia poena debetur 
+      <lb ed="#R" n="45"/>actui exteriori, quam interiori, quia lex ciuilis 
+      a<lb ed="#R" n="46" break="no"/>spicit conseruationem boni publici, &amp; 
+      communi<lb ed="#R" n="47" break="no"/>tatis. Per hoc etiam patet solutio ad motiua 
+      se<lb ed="#R" n="48" break="no"/>cundae opinionis: procedunt enim de maiori 
+      bo<lb ed="#R" n="49" break="no"/>no intensiue, non extensiue. 
+   </p>
+            </div>
+            <div xml:id="olm8ij-f96108-Dd1e713">
+               <head xml:id="olm8ij-f96108-Hd1e715">Articulus 2</head>
+               <head xml:id="olm8ij-f96108-Hd1e717" type="question-title">
+        Utrum diuisiones peccatorum congrue 
+        assignentur a Magistro Sententiarum
+      </head>
+               <p xml:id="olm8ij-f96108-d1e720">
+                  <lb ed="#R" n="50"/>ARTJCVLVS JJ. 
+      <lb ed="#R" n="51"/>Vtrum diuisiones peccatorum congrue 
+      assignen<lb ed="#R" n="52" break="no"/>tur a Magistro Sententiarum. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e729">
+                  <lb ed="#R" n="53"/>QVoad secundam quaestionem. Arguo primo, 
+      <lb ed="#R" n="54"/>quod diuisiones illae peccatorum, quas 
+      Ma<lb ed="#R" n="55" break="no"/>gister adducit in littera, quod peccatum 
+      <lb ed="#R" n="56"/>quoddam est cordis, quoddam operis, quoddam 
+      <lb ed="#R" n="57"/>oris; &amp; illa; peccatum quoddam in se, quoddam in 
+      <lb ed="#R" n="58"/>proximum, quoddam in Deum: &amp; illa: Peccatum 
+      <lb ed="#R" n="59"/>quoddam est timoris, quoddam cupiditatis; &amp; 
+      il<lb ed="#R" n="60" break="no"/>la, quoddam veniale, quoddam mortale; &amp; illa; 
+      <!--0316.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="61"/>quoddam peccatum omissionis, quoddam 
+      com<lb ed="#R" n="62" break="no"/>misiionis. De istis diuisionibus quas ponit 
+      Magi<lb ed="#R" n="63" break="no"/>ster in littera, probo quod non sint congrue 
+      assi<lb ed="#R" n="64" break="no"/>gnatae, quia secundum Boetium in libro 
+      diuisio<lb ed="#R" n="65" break="no"/>num: Omnis bona diuisio est bimembris; sed illa 
+      <lb ed="#R" n="66"/>illa habet plura membra: ergo. In oppositum est 
+      <lb ed="#R" n="67"/>auctoritas Magistri in littera, &amp; Sanctorum. 
+      Re<lb ed="#R" n="68" break="no"/>spondeo, dico primo, quod illae diuisiones 
+      pecca<lb ed="#R" n="69" break="no"/>torum non sunt essentiales, sed accipiuntur penes 
+      <lb ed="#R" n="70"/>quasdam conditiones extrinsecas. Sunt autem 
+      <lb ed="#R" n="71"/>sex extrinseca in peccato, a quibus accipitur 
+      du<lb ed="#R" n="72" break="no"/>plex diuisio septem peccatorum. Potest ergo 
+      con<lb ed="#R" n="73" break="no"/>siderari in peccato principalitas, &amp; sic oritur illa 
+      <lb ed="#R" n="74"/>diuisio peccatorum in septem peccata capitalia, 
+      <lb ed="#R" n="75"/>quae sunt principalia, &amp; duces totius exercitus 
+      <lb ed="#R" n="76"/>peccatorum; quodlibet enim illorum septem est 
+      <lb ed="#R" n="77"/>dux, &amp; princeps, habens sub se plura peccata, sicut 
+      <lb ed="#R" n="78"/>de quolibet poterit videri inferius in speciali. 
+      Se<lb ed="#R" n="79" break="no"/>cundo in peccato potest considerari origo, &amp; haec 
+      <lb ed="#R" n="80"/>est, timor, amor, &amp; cupiditas; vnde Augustinus su 
+      <lb ed="#R" n="81"/>per illud: Intensa igne, &amp; suffosa, dicit quod omne 
+      <lb ed="#R" n="82"/>peccatum committitur, vel amore, vel timore, vel 
+      <lb ed="#R" n="83"/>cupiditate. Cupiditas autem habet tres radices, 
+      <lb ed="#R" n="84"/>quas Joannes enumerat in Canonica sua: Omne, 
+      <lb ed="#R" n="85"/>inquit, quod est in mundo, vel est concupiscentia 
+      <lb ed="#R" n="86"/>carnis, vel concupiscentia oculorum, vel superbia 
+      <lb ed="#R" n="87"/>vitae. Cupiditas enim quaedam est respectu 
+      excel<lb ed="#R" n="88" break="no"/>lentiae, &amp; haec est superbia vitae; quaedam 
+      respe<lb ed="#R" n="89" break="no"/>ctu diuitiarum, &amp; sic est concupiscentia oculorum, 
+      <lb ed="#R" n="90"/>vel respectu deliciarum, &amp; sic est concupiscentia 
+      <lb ed="#R" n="91"/>carnis. Timor autem &amp; amor sunt radix 
+      peccato<lb ed="#R" n="92" break="no"/>rum, quia omnis peccans aut impellendo se 
+      in<lb ed="#R" n="93" break="no"/>malum, &amp; huius radix est amor; aut retrahendo 
+      <lb ed="#R" n="94"/>se a bono, &amp; radix huius est timor. Tertio, 
+      in<lb ed="#R" n="95" break="no"/>peccato potest considerari modus agendi, &amp; sic 
+      <lb ed="#R" n="96"/>oritur diuisio trimembris, qua dicitur quod 
+      pec<lb ed="#R" n="97" break="no"/>catum omne, vel oritur ex infirmitate, vel ex 
+      ma<lb ed="#R" n="98" break="no"/>litia, vel ex ignorantia. Peccat enim quilibet, 
+      <lb ed="#R" n="99"/>vel sciens, &amp; sic est peccatum ex malitia; vel 
+      <lb ed="#R" n="100"/>propulsatus a passione, &amp; sic est peccatum 
+      <lb ed="#R" n="101"/>ex infirmitate; vel nesciens, &amp; sic est 
+      pecca<lb ed="#R" n="102" break="no"/>tum ex ignorantia. Quarto, in peccato potest 
+      <lb ed="#R" n="103"/>considerari subiectum immediatum, quod est 
+      <lb ed="#R" n="104"/>actus humanus, &amp; secundum diuersitatem 
+      ta<lb ed="#R" n="105" break="no"/>lium actuum accipitur alia diuisio 
+      peccato<lb ed="#R" n="106" break="no"/>rum. Actuum enim humanorum quidam est 
+      om<lb ed="#R" n="107" break="no"/>nino extrinsecus, &amp; sic accipitur peccatum 
+      ope<lb ed="#R" n="108" break="no"/>ris, quidam omnino intrinsecus, &amp; sic 
+      pecca<lb ed="#R" n="109" break="no"/>tum cordis, quidam partim intrinsecus, partim 
+      <lb ed="#R" n="110"/>extrinsecus, &amp; sic peccatum oris. Quinto in 
+      <lb ed="#R" n="111"/>peccato potest considerari obiectum, siue illud, 
+      <lb ed="#R" n="112"/>in quo peccator dicitur peccare, quod est illud, 
+      <lb ed="#R" n="113"/>cuius bonum adimit (quantum est ex se) &amp; hoc 
+      <lb ed="#R" n="114"/>modo consurgit quinta diuisio peccati. Omne 
+      <lb ed="#R" n="115"/>enim peccatum quantum est ex se, habet 
+      bo<lb ed="#R" n="116" break="no"/>num aliquod diminutiue, tunc vel bonum illud, 
+      <lb ed="#R" n="117"/>quod diminuit, est bonum diuinum, vel bonum 
+      <lb ed="#R" n="118"/>proprium, vel proximi: si primo modo, sic 
+      ha<lb ed="#R" n="119" break="no"/>betur peccatum in Deum: si secundo modo, 
+      ha<lb ed="#R" n="120" break="no"/>betur peccatum in se: si tertio modo, habetur 
+      <lb ed="#R" n="121"/>peccatum in proximum. Sexto in peccato potest 
+      <lb ed="#R" n="122"/>considerari condignitas poenae, quae debetur 
+      pec<lb ed="#R" n="123" break="no"/>cato, &amp; penes hoc consurgit. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e890">
+                  <lb ed="#R" n="124"/>Sexta diuisio peccati data, scilicet in morta le 
+      <lb ed="#R" n="125"/>&amp; veniale: dicitur enim mortale, cui pro poena 
+      <!--0317.xml-->
+      <pb ed="#R" n="317"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>correspondet mors aeterna, veniale vero, cui 
+      cor<lb ed="#R" n="2" break="no"/>respondet poena remissibilis &amp; indulgentiae. 
+      Se<lb ed="#R" n="3" break="no"/>ptimo in peccato potest considerari lex, contra 
+      <lb ed="#R" n="4"/>quam venit, &amp; a qua deuiat; lex autem illa est 
+      <lb ed="#R" n="5"/>praeceptum diuinum, praecepta autem sunt 
+      quae<lb ed="#R" n="6" break="no"/>dam affirmatiua, quaedam vero negatiua, &amp; 
+      pe<lb ed="#R" n="7" break="no"/>nes illa duo sumitur vltima diuisio peccatorum 
+      <lb ed="#R" n="8"/>in peccatum omissionis &amp; commissionis; si enim 
+      <lb ed="#R" n="9"/>deuiat a praecepto positiuo, dicitur peccatum 
+      omis<lb ed="#R" n="10" break="no"/>sionis, &amp; commissionis; si autem a negatiuo 
+      di<lb ed="#R" n="11" break="no"/>citur peccatum commissionis. Quantum ad 
+      ar<lb ed="#R" n="12" break="no"/>gumentum in oppositum dico, quod illa 
+      auctori<lb ed="#R" n="13" break="no"/>tas Boetij debet intelligi de diuisione quae 
+      sumi<lb ed="#R" n="14" break="no"/>tur penes essentiales, non autem, quae sumitur pe 
+      <lb ed="#R" n="15"/>nes modos extrinsecos, sicut est in proposito. 
+   </p>
+            </div>
+            <div xml:id="olm8ij-f96108-Dd1e938">
+               <head xml:id="olm8ij-f96108-Hd1e940">Articulus 3</head>
+               <head xml:id="olm8ij-f96108-Hd1e942" type="question-title">
+        Utrum diuisio peccatorum in veniale, &amp; 
+        mortale sit diuisio per differentias specificas
+      </head>
+               <p xml:id="olm8ij-f96108-d1e945">
+                  <lb ed="#R" n="16"/>ARTJCVLVS IJJ. 
+      <lb ed="#R" n="17"/>Vtrum diuisio peccatorum in veniale, &amp; 
+      morta<lb ed="#R" n="18" break="no"/>le sit diuisio per differentias specificas. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e954">
+                  <lb ed="#R" n="19"/>AD tertiam quaestionem arguo primo sic, 
+      <lb ed="#R" n="20"/>quod diuisio peccati in mortale, &amp; 
+      venia<lb ed="#R" n="21" break="no"/>le no sit diuisio per specificas differentias, sed per 
+      <lb ed="#R" n="22"/>accidentales, sic: Differentiae ille, quae inueniuntur 
+      <lb ed="#R" n="23"/>intra vnam &amp; eandem speciem, non sunt 
+      differem<lb ed="#R" n="24" break="no"/>tiae specificae; hoc patet, quia duae differentiae 
+      spe<lb ed="#R" n="25" break="no"/>cificae diuidentes vniuer sale constituunt semper 
+      <lb ed="#R" n="26"/>duas species, sicut patet de veniali&amp; mortali: sed 
+      <lb ed="#R" n="27"/>peccatum mortale &amp; veniale inuenitur infra vnam 
+      <lb ed="#R" n="28"/>&amp; eandem speciem peccati, quod patet, quia in 
+      <lb ed="#R" n="29"/>qualibet specie peccati circa quamcumque 
+      ma<lb ed="#R" n="30" break="no"/>teriam conuenit dare peccatum veniale, &amp; 
+      mor<lb ed="#R" n="31" break="no"/>tale, sicut patet in peccato gulae, quoddam est 
+      <lb ed="#R" n="32"/>morta le, quoddam veniale, similiter peccatum 
+      <lb ed="#R" n="33"/>irae, &amp; vanae gloriae, &amp; sic de singulis. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e989">
+                  <lb ed="#R" n="34"/>In oppositum est, quia istae differentiae, quae 
+      ra<lb ed="#R" n="35" break="no"/>tione generis distant in infinitum, &amp; diuidunt   ens 
+      <lb ed="#R" n="36"/>per iunnitum, &amp; finitum, non sunt eiusdem 
+      spe<lb ed="#R" n="37" break="no"/>ciei, imo nec eiusdem generis: Differentiae enim 
+      <lb ed="#R" n="38"/>eiusdem generis non distant in infinitum, &amp; 
+      diuidi<lb ed="#R" n="39" break="no"/>tur aliquod vnum genus per suas differentias, sic 
+      <lb ed="#R" n="40"/>per finitum, &amp; infinitum: sed peccatum diuiditur 
+      <lb ed="#R" n="41"/>in mortale, &amp; veniale, sicut in differentias 
+      di<lb ed="#R" n="42" break="no"/>stantes in infinitum, &amp; differentia illa est per 
+      fi<lb ed="#R" n="43" break="no"/>nitum, &amp; infinitum, quoniam mortale ratione 
+      to<lb ed="#R" n="44" break="no"/>tius sui generis est infinitum, veniale autem 
+      ra<lb ed="#R" n="45" break="no"/>tione sui est finitum: ergo. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e1019">
+                  <lb ed="#R" n="46"/>Respondeo ad dissolutionem pleniorem istius 
+      <lb ed="#R" n="47"/>quaestionis, primo pono illud, in quo stat tota dif 
+      <lb ed="#R" n="48"/>ficultas, &amp; punctus quaestionis, &amp; opiniones 
+      quas<lb ed="#R" n="49" break="no"/>dam cum motiuis suis. Secundo ponam 
+      conclu<lb ed="#R" n="50" break="no"/>siones quasdam. Tertio respondebo ad motiua 
+      <lb ed="#R" n="51"/>illarum opinionum. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e1035">
+                  <lb ed="#R" n="52"/>Punctus quaestionis est, vt videatur de diuersis 
+      <lb ed="#R" n="53"/>opinionibus circa conclusionem illam, an 
+      con<lb ed="#R" n="54" break="no"/>tineat veritatem. Est ergo sciendum, quod hic 
+      <lb ed="#R" n="55"/>sunt tres opiniones. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e1046">
+                  <lb ed="#R" n="56"/>Dicunt enim quidam, quod mortale. &amp; 
+      venia<lb ed="#R" n="57" break="no"/>le non sunt differentiae specificae diuidentes 
+      pec<lb ed="#R" n="58" break="no"/>catum. Alij autem dicunt oppositum. Alij dicunt, 
+      <lb ed="#R" n="59"/>quod non sunt motiua efficientia, nec ad vnam 
+      <lb ed="#R" n="60"/>partem, nec ad aliam. Motiua autem istius 
+      quae<lb ed="#R" n="61" break="no"/>stionis sunt illa. Primum, quia nunquam aliquid 
+      <lb ed="#R" n="62"/>diuiditur specifice per illud, quod ei accidit, &amp; 
+      <!--0317.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="63"/>est accidens eius: sed esse mortale, vel veniale est 
+      <lb ed="#R" n="64"/>quoddam accidens peccato, quod patet, quia poena 
+      <lb ed="#R" n="65"/>est extrinseca, &amp; accidit peccato: esse enim vel 
+      <lb ed="#R" n="66"/>mortale, vel veniale non dicunt nisi poenam 
+      pec<lb ed="#R" n="67" break="no"/>cati, siue denominationem ad poenam, quoniam 
+      <lb ed="#R" n="68"/>mortale dicitur in ordine ad poenam aeternam, 
+      <lb ed="#R" n="69"/>sed veniale in ordine ad poenam temporalem: ergo. 
+      <lb ed="#R" n="70"/>Secundo sic, Peccatum non distinguitur 
+      spe<lb ed="#R" n="71" break="no"/>cifice per illud, quod est extra intentionem 
+      pec<lb ed="#R" n="72" break="no"/>cantis, hoc probatur. Actus peccati per se 
+      inten<lb ed="#R" n="73" break="no"/>ditur a peccante: ergo &amp; illud, quad per 
+      acci<lb ed="#R" n="74" break="no"/>dens intenditur ab eo, non potest esse differentia 
+      <lb ed="#R" n="75"/>eius essentialis: sed poena, secundum quam 
+      dici<lb ed="#R" n="76" break="no"/>tur peccatum veniale, vel mortale per accidens, 
+      <lb ed="#R" n="77"/>non intenditur a peccante, non enim qui peccat, 
+      <lb ed="#R" n="78"/>intendit poenam, imo quantum est de se, ille 
+      nol<lb ed="#R" n="79" break="no"/>let poenam: ergo.
+   </p>
+               <p xml:id="olm8ij-f96108-d1e1105">
+                  <lb ed="#R" n="80"/>Tertio sic. In peccato sunt duo, scilicet 
+      auer<lb ed="#R" n="81" break="no"/>sio, &amp; conuersio, licet ergo formale in peccato sit 
+      <lb ed="#R" n="82"/>auersio, tamen peccatum non sumit ex hoc 
+      spe<lb ed="#R" n="83" break="no"/>ciem, quia tunc omnia peccata essent eiusdem 
+      <lb ed="#R" n="84"/>speciei, quia omnia important vnam auersionem, 
+      <lb ed="#R" n="85"/>peccatum vero specificatur &amp; distinguitur penes 
+      <lb ed="#R" n="86"/>auersionem, sed conuersio non dicitur alia penes 
+      <lb ed="#R" n="87"/>aliam, &amp; aliam poenam, quod facit mortale, &amp; ve 
+      <lb ed="#R" n="88"/>niale, sed penes aliud, &amp; aliud obiectum: ergo. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e1127">
+                  <lb ed="#R" n="89"/>Quarta ratio ad idem est illa: Vitia &amp; virtutes 
+      <lb ed="#R" n="90"/>per oppositum distinguuntur, &amp; ex oppositis 
+      ca<lb ed="#R" n="91" break="no"/>piunt specificationem suam: sed virtutes 
+      distin<lb ed="#R" n="92" break="no"/>guuntur &amp; specificantur secundum obiecta 
+      diuer<lb ed="#R" n="93" break="no"/>sa, ex 2. Ethic. ergo vitia distinguuntur ex 
+      obie<lb ed="#R" n="94" break="no"/>ctis: sed differentia illa ex obiectis non est illa, 
+      <lb ed="#R" n="95"/>qua diuiditur in veniale, &amp; mortale, quae 
+      inue<lb ed="#R" n="96" break="no"/>niuntur infra ambitum eiusdem obiecti, vt 
+      pro<lb ed="#R" n="97" break="no"/>bat ratio prima: ergo. Dicunt ergo iiti, quod 
+      ve<lb ed="#R" n="98" break="no"/>niale &amp; mortale sunt differenti ae peccati 
+      accidem<lb ed="#R" n="99" break="no"/>tales, &amp; materiales, &amp; extrinsecae; sed vltra 
+      ad<lb ed="#R" n="100" break="no"/>dūt, quod differentiae accidentales, quaedam sunt, 
+      <lb ed="#R" n="101"/>quae non determinant speciem, sicut albedo &amp; 
+      ni<lb ed="#R" n="102" break="no"/>gredo non determinant speciem hominis vel 
+      li<lb ed="#R" n="103" break="no"/>gni, quaedam vero determinant speciem, siue 
+      ge<lb ed="#R" n="104" break="no"/>nus, vt masculinum &amp; foemininum, &amp; sic est 
+      in<lb ed="#R" n="105" break="no"/>proposito, quod mortale &amp; veniale 
+      consequun<lb ed="#R" n="106" break="no"/>tur, &amp; determinant genus peccati, sicut 
+      passio<lb ed="#R" n="107" break="no"/>nes propriae specici, &amp; distinctiuae. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e1171">
+                  <lb ed="#R" n="108"/>Si quaeratur ab istis, penes quid ergo sumitur di 
+      <lb ed="#R" n="109"/>stinctio mortalis &amp; venialis specifica? Dicunt, qd 
+      <lb ed="#R" n="110"/>ratio formalis peccati sumitur ex 
+      deordinatio<lb ed="#R" n="111" break="no"/>ne a fine. Vnūquodque enim vitium dicitur 
+      pec<lb ed="#R" n="112" break="no"/>catum, in quantum deordinat, &amp; discedit a 
+      debi<lb ed="#R" n="113" break="no"/>to fine, ex hac ergo deordinatione (vt dicunt) 
+      su<lb ed="#R" n="114" break="no"/>mitur differentia mortalis, &amp; venialis specifice. 
+      <lb ed="#R" n="115"/>mortale enim est illud, quod separat a fine, veniale 
+      <lb ed="#R" n="116"/>vero permittit, &amp; relinquit ordinē ad finē, 
+      simi<lb ed="#R" n="117" break="no"/>liter mortale auertit totaliter a fine, sed venia le, 
+      <lb ed="#R" n="118"/>etsi forte auertit aliquo modo, non tamen 
+      tota<lb ed="#R" n="119" break="no"/>liter. Istae ergo differentiae sunt specificae in 
+      pec<lb ed="#R" n="120" break="no"/>cato, poena autem temporalis, vel aeterna non se 
+      <lb ed="#R" n="121"/>habent ad peccatum, vt differentiae propriae 
+      spe<lb ed="#R" n="122" break="no"/>cificae, sed vt passiones consequentes totum ge 
+      <lb ed="#R" n="123"/>nus sub disiunctione, sicut masculinum, &amp; 
+      foemi<lb ed="#R" n="124" break="no"/>ninum consequitur animal. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e1211">
+                  <lb ed="#R" n="125"/>Aliis videtur oppositum. Dicunt enim, quod 
+      <lb ed="#R" n="126"/>licet distinctio venialis, &amp; mortalis arguitiue 
+      su<lb ed="#R" n="127" break="no"/>matur ex poena, &amp; per consequens 
+      denominati<lb ed="#R" n="128" break="no"/>ue ab extrinseco; tamen intrinsece peccatum 
+      <!--0318.xml-->
+      <pb ed="#R" n="318"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>mortale, &amp; veniale differunt plusquam 
+      numera<lb ed="#R" n="2" break="no"/>liter, ideo specifice. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e1233">
+                  <lb ed="#R" n="3"/>Nunc secundo pono propositiones, ad quarum 
+      <lb ed="#R" n="4"/>euidentiam, primum praemitto vnum, scilicet, quod 
+      <lb ed="#R" n="5"/>peccatum potest considerari tripliciter, vel 
+      se<lb ed="#R" n="6" break="no"/>cundum genus naturae, &amp; physice; vel secundum 
+      <lb ed="#R" n="7"/>genus moris, &amp; ethice; vel secundum, quod est 
+      <lb ed="#R" n="8"/>culpa, &amp; demeritorium, &amp; theologice. Peccatum 
+      <lb ed="#R" n="9"/>ergo, vt accipitur physice, dico, quod distinguitur 
+      <lb ed="#R" n="10"/>originaliter, exemplariter, &amp; causatiue, 
+      extrinse<lb ed="#R" n="11" break="no"/>ce ab obiecto, sed formaliter seipsis. Secundo 
+      au<lb ed="#R" n="12" break="no"/>tem modo accipiendo peccatum, scilicet 
+      morali<lb ed="#R" n="13" break="no"/>ter, &amp; vt est in genere moris, sic dico, quod non 
+      di<lb ed="#R" n="14" break="no"/>stinguuntur exemplariter, &amp; originaliter 
+      extrin<lb ed="#R" n="15" break="no"/>sece ab obiectis, sed secundum alium, &amp; alium 
+      <lb ed="#R" n="16"/>modum se habendi ad regulam rationis. Primum 
+      <lb ed="#R" n="17"/>patet, quoniam circa idem obiectum possunt esse 
+      <lb ed="#R" n="18"/>duo peccata mortalia, vt scilicet duo vitia 
+      extre<lb ed="#R" n="19" break="no"/>ma recedentia a medio, in alio consistit intellectus. 
+      <lb ed="#R" n="20"/>Verbi gratia: agrestis &amp; intemperatus sunt duo 
+      <lb ed="#R" n="21"/>vitia extrema, &amp; tamen sunt circa idem obiectum. 
+      <lb ed="#R" n="22"/>Sic etiam multum irasci, &amp; parum irasci. 
+      Secun<lb ed="#R" n="23" break="no"/>dam declaro, cum enim actus bonus moralis con 
+      <lb ed="#R" n="24"/>sistat in medio inuento a ratione, malum autem 
+      <lb ed="#R" n="25"/>moris accipitur secundum quod priuat bonum 
+      <lb ed="#R" n="26"/>moris; ideo dico quod distinctio peccatorum in 
+      <lb ed="#R" n="27"/>genere moris sumitur specifice, secundum 
+      acces<lb ed="#R" n="28" break="no"/>sum, &amp; recessum a regula rationis, &amp; ideo penes 
+      <lb ed="#R" n="29"/>alium, &amp; alium modum se habendi ad rationem 
+      re<lb ed="#R" n="30" break="no"/>ctam, puta secundum accessum, &amp; recessum; sicut 
+      <lb ed="#R" n="31"/>apparet, quod agrestis deficit a medio, 
+      intempe<lb ed="#R" n="32" break="no"/>ratus autem semper excedit, ideo vitium semper 
+      <lb ed="#R" n="33"/>est in extremis. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e1303">
+                  <lb ed="#R" n="34"/>Si vero peccatum accipiatur theologice in 
+      <lb ed="#R" n="35"/>quantum culpabile, &amp; demeritorium, sic dico, 
+      <lb ed="#R" n="36"/>quod distinctio peccatorum non accipitur in 
+      or<lb ed="#R" n="37" break="no"/>dine ad id, penes quod accipitur ratio meriti, &amp; 
+      <lb ed="#R" n="38"/>demeriti in actu, illud autem est voluntas 
+      diui<lb ed="#R" n="39" break="no"/>na, haec enim in theologicis est recta ratio 
+      agibi<lb ed="#R" n="40" break="no"/>lium &amp; regula, sicut prudentia est recta ratio agi 
+      <lb ed="#R" n="41"/>bilium, &amp; regula in ipsis ethicis. His visis, patet 
+      <lb ed="#R" n="42"/>quod opiniones recitatae possunt aliqualiter con 
+      <lb ed="#R" n="43"/>cordari; accipiendo enim peccatum quoad esse 
+      <lb ed="#R" n="44"/>vniuersale, &amp; physice, quod originaliter dicitur, 
+      <lb ed="#R" n="45"/>&amp; causaliter, est ab obiecto, vt sic, dico quod opi 
+      <lb ed="#R" n="46"/>nio, quae dicit, quod peccatum mortale &amp; veniale 
+      <lb ed="#R" n="47"/>non distinguuntur specifice verum dicit. Sic enim 
+      <lb ed="#R" n="48"/>peccatum mortale, &amp; veniale possunt esse circa 
+      <lb ed="#R" n="49"/>idem obiectum omnino. Si etiam peccatum 
+      ac<lb ed="#R" n="50" break="no"/>cipiatur ethice, adhuc verum dicit opinio, quia 
+      <lb ed="#R" n="51"/>distinctio specifica in peccato, vt est in genere 
+      <lb ed="#R" n="52"/>moris, sumitur secundum alium, &amp; alium modum 
+      <lb ed="#R" n="53"/>se habendi ad rectam rationem. Sed accipiendo 
+      <lb ed="#R" n="54"/>peccatum theologice. vt habet rationem meriti, 
+      <lb ed="#R" n="55"/>&amp; demeriti; sic dico, quod alia opinio, quae 
+      di<lb ed="#R" n="56" break="no"/>cit, quod distinguitur specifice, &amp; non solum 
+      <lb ed="#R" n="57"/>actualiter, verum dicit. Pono ergo in 
+      disoluen<lb ed="#R" n="58" break="no"/>do quaestionem istam iam praedictas 
+      conclusio<lb ed="#R" n="59" break="no"/>nes. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e1362">
+                  <lb ed="#R" n="60"/>Prima est, &amp; secunda, scilicet quod peccatum 
+      <lb ed="#R" n="61"/>phy sice ctptum, &amp; similiter moraliter, &amp; 
+      ethi<lb ed="#R" n="62" break="no"/>ce, non distinguatur specifice per veniale &amp; 
+      mor<lb ed="#R" n="63" break="no"/>tale, satis patent ex praedictis. Sed tertia, 
+      scili<lb ed="#R" n="64" break="no"/>cet, quod peccatum theolouice acceptum 
+      diui<lb ed="#R" n="65" break="no"/>datur essentialiter, &amp; specifice in veniale, &amp; 
+      mor<lb ed="#R" n="66" break="no"/>tale, &amp; non tantum accidentaliter, probo in 
+      <!--0318.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>speciali. Primo sic: Ratio veritatis ex propria 
+      <lb ed="#R" n="68"/>sui ratione sumitur in ordine ad suam regulam, 
+      <lb ed="#R" n="69"/>quae in moralibus est prudentia, siue recta ratio, 
+      <lb ed="#R" n="70"/>in theologicis vero est voluntas diuina, vt 
+      supe<lb ed="#R" n="71" break="no"/>rius dicebatur. Iunc sic, specifica distinctio 
+      pec<lb ed="#R" n="72" break="no"/>cati, vt opponitur virtuti theologice loquendo 
+      <lb ed="#R" n="73"/>accipitur secundum alium, &amp; alium modum 
+      de<lb ed="#R" n="74" break="no"/>uiandi a regula, quae est voluntas diuina: sed 
+      ali<lb ed="#R" n="75" break="no"/>ter deuiat a voluntate diuina per essentiam 
+      pec<lb ed="#R" n="76" break="no"/>catum mortale, quam venia le: ergo. Minor 
+      pro<lb ed="#R" n="77" break="no"/>batur, quia peccatum mortale deuiat a 
+      volunta<lb ed="#R" n="78" break="no"/>te diuina pra cipiente, prohibente, &amp; obligante, 
+      <lb ed="#R" n="79"/>veniale vero non obligat hoc modo. Voluntas 
+      <lb ed="#R" n="80"/>enim diuina obligat vel secundum praeceptum, 
+      <lb ed="#R" n="81"/>vel secundum consilium, &amp; primo modo 
+      affirma<lb ed="#R" n="82" break="no"/>tiue iniungendo, vel negatiue prohibendo: 
+      vtro<lb ed="#R" n="83" break="no"/>que autem istorum modorum obligat diuina vo 
+      <lb ed="#R" n="84"/>luntas voluntatem humanam, licet secundum 
+      con<lb ed="#R" n="85" break="no"/>silium non obliget. Modo patet quod est alius, &amp; 
+      <lb ed="#R" n="86"/>alius modus deuiandi a voluntate prohibente, 
+      <lb ed="#R" n="87"/>vel praecipiente, quam a voluntate non obligante 
+      <lb ed="#R" n="88"/>&amp; praecipiente: ergo peccatum mortale, &amp; 
+      venia<lb ed="#R" n="89" break="no"/>le (theologice loquendo ) specifice 
+      distinguun<lb ed="#R" n="90" break="no"/>tur. Maior patet, quia sicut in ethicis diuersa 
+      <lb ed="#R" n="91"/>peccata accipiuntur secundum alium &amp; alium 
+      <lb ed="#R" n="92"/>mudum deuiandi a regula actuum moralium, quae 
+      <lb ed="#R" n="93"/>est recta ratio, sic in proposito, &amp; potest ex hoc 
+      <lb ed="#R" n="94"/>tota ratio confirmari, quia sicut peccata in 
+      ge<lb ed="#R" n="95" break="no"/>nere moris distinguuntur tecundum excessum, &amp; 
+      <lb ed="#R" n="96"/>defectum a ratione, sic in proposito. Secundo ad 
+      <lb ed="#R" n="97"/>idem: Sicut differentiae, quae diuidunt formale 
+      ge<lb ed="#R" n="98" break="no"/>neris, sunt formales, patet ex 7. metaph. sed licet 
+      <lb ed="#R" n="99"/>in peccato, secundum genus naturae formale 
+      ac<lb ed="#R" n="100" break="no"/>cipiatur ex obiecto; tamen secundum genus 
+      mo<lb ed="#R" n="101" break="no"/>ris, &amp; in quantum culpabile, &amp; demeritorium in 
+      <lb ed="#R" n="102"/>obiectum se habet vt materiale. deuiatio autem 
+      <lb ed="#R" n="103"/>a regula se habet vt formale: ergo differentiae, 
+      <lb ed="#R" n="104"/>quae diuersificant ipsum deuiare a regula, sunt 
+      <lb ed="#R" n="105"/>hoc modo formales in peccato: tales sunt 
+      dif<lb ed="#R" n="106" break="no"/>ferentiae, secundum quas accipitur distinctio pec 
+      <lb ed="#R" n="107"/>cati per mortale, &amp; veniale: ergo. Vnde cum 
+      <lb ed="#R" n="108"/>in peccato, ratione qua peccatum est, auersio 
+      <lb ed="#R" n="109"/>sit formaie, dicere quod distinguatur peccatum, 
+      <lb ed="#R" n="110"/>in quantum peccatum per obiectum, cum sit 
+      <lb ed="#R" n="111"/>materiale, est nihil dicere: oportet ergo, quod 
+      <lb ed="#R" n="112"/>distinctio in peccato, secundum quod culpa est, 
+      <lb ed="#R" n="113"/>accipiatur ex alia &amp; alia auersione. Nisi velis 
+      di<lb ed="#R" n="114" break="no"/>cere, quod triangulus distinguitur specifice 
+      pe<lb ed="#R" n="115" break="no"/>nes aliam, &amp; ali. m materiam, puta penes 
+      li<lb ed="#R" n="116" break="no"/>gnum vel ferrum: sicut enim triangulus est 
+      <lb ed="#R" n="117"/>forma talis, potens eadem specifice esse in 
+      <lb ed="#R" n="118"/>hac, &amp; hac materia, sic auersio in peccato est 
+      <lb ed="#R" n="119"/>formale potens eadem specifice esse circa hoc 
+      <lb ed="#R" n="120"/>obiectum, &amp; illud. Sicut ergo triangulus 
+      diui<lb ed="#R" n="121" break="no"/>ditur non penes lignum, &amp; ceram, sed penes 
+      a<lb ed="#R" n="122" break="no"/>lium, &amp; alium modum triangularitatis, sic non 
+      <lb ed="#R" n="123"/>diuiditur peccatum ab obiecto, sed penes alium 
+      <lb ed="#R" n="124"/>&amp; alium modum auersionis. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e1510">
+                  <lb ed="#R" n="125"/>Tertia ratio ad idem est ista: vbi nota 
+      <lb ed="#R" n="126"/>quod peccatum mortale, &amp; veniale non 
+      dicun<lb ed="#R" n="127" break="no"/>tur talia in ordine ad poenam, sed in ordine ad 
+      <lb ed="#R" n="128"/>diuinam amicitiam, eo modo quo dicitur, quod 
+      <lb ed="#R" n="129"/>alter offendit alterum ad mortem, quando 
+      offen<lb ed="#R" n="130" break="no"/>dit eum vsque ad dissolutionem amicitiae: ergo 
+      <lb ed="#R" n="131"/>peccatum non dicitur mortale, quia ei debetur 
+      <lb ed="#R" n="132"/>mors pro paena, sed dicitur mortale, quia dissoluit 
+      <!--0319.xml-->
+      <pb ed="#R" n="319"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>amicitiam: ex quo fit, vt non sit quantum est ex 
+      <lb ed="#R" n="2"/>se dignum reconciliatione, quia remouet 
+      amici<lb ed="#R" n="3" break="no"/>tiam &amp; beneuolentiam, quae est radix veniae, &amp; 
+      re<lb ed="#R" n="4" break="no"/>conciliationis: veniale autem dicitur, eo quod 
+      re<lb ed="#R" n="5" break="no"/>linquit amicitiam; ideo ex se non tollit veniam, &amp; 
+      <lb ed="#R" n="6"/>vitam amicabilem. Tunc arguo sic: llli actus 
+      quo<lb ed="#R" n="7" break="no"/>rum vnus infringit totaliter amicitiam diuinam, 
+      <lb ed="#R" n="8"/>alius autem non infringit, sed laedit leuiter, illi actus 
+      <lb ed="#R" n="9"/>theologice specifice distinguuntur, quia penes 
+      in<lb ed="#R" n="10" break="no"/>trinsecum in offensa &amp; culpa habent differentiam, 
+      <lb ed="#R" n="11"/>scilicet penes venire contra amicitiam: sed actus 
+      <lb ed="#R" n="12"/>peccati mortalis, &amp; actus peccati venialis sunt 
+      <lb ed="#R" n="13"/>huiusmodi, vt dictum est; ergo. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e1565">
+                  <lb ed="#R" n="14"/>Quarta Ratio ad idem est ista: Quae sunt 
+      eius<lb ed="#R" n="15" break="no"/>dem speciei opponuntur vni, &amp; eidem in 
+      spe<lb ed="#R" n="16" break="no"/>cie: sed mortale, &amp; veniale secundum quod 
+      ta<lb ed="#R" n="17" break="no"/>lia, non opponuntur vni, &amp; eidem, quoniam 
+      <lb ed="#R" n="18"/>mortale opponitur charitati, &amp; tollit eam; 
+      <lb ed="#R" n="19"/>veniale stat cum charitate: ergo aliquid 
+      intrin<lb ed="#R" n="20" break="no"/>sece est in peccato mortali, quod consequitur 
+      <lb ed="#R" n="21"/>totam eius speciem, ratione cuius repugnat ei 
+      <lb ed="#R" n="22"/>gratia, &amp; secundum totam speciem repugnat 
+      <lb ed="#R" n="23"/>veniali, non ergo sunt eiusdem speciei.
+   </p>
+               <p xml:id="olm8ij-f96108-d1e1590">
+                  <lb ed="#R" n="24"/>Vltimo adduco rationem, quae tangit propter 
+      <lb ed="#R" n="25"/>quid: Arguo, sic: Non solum distinctio actuum 
+      <lb ed="#R" n="26"/>penes obiecta est distinctio specifica, imo 
+      distin<lb ed="#R" n="27" break="no"/>ctio specifica actuum sumitur etiam ex 
+      concur<lb ed="#R" n="28" break="no"/>su aliarum, &amp; aliarum circumstantiarum, quas 
+      <lb ed="#R" n="29"/>actus exigit intrins. ce, in quantum talis actus est: 
+      <lb ed="#R" n="30"/>sed mortale &amp; veniale habent alias, &amp; alias circũ- 
+      <lb ed="#R" n="31"/>stant as &amp; oppositas, licet circa idem obiectum: 
+      <lb ed="#R" n="32"/>ergo. Maior patet, quia alias omnes actus 
+      <lb ed="#R" n="33"/>morales circa idem obiectum in genere essent 
+      <lb ed="#R" n="34"/>eiusdem speciei. Minorem probo, capio actum 
+      <lb ed="#R" n="35"/>aliquem circa idem obiectum, puta vanam 
+      <lb ed="#R" n="36"/>gloriam, scilicet appetere gloriam &amp; laudem 
+      <lb ed="#R" n="37"/>inordinate, dico quod idem actus circa illud 
+      <lb ed="#R" n="38"/>obiectum est indifferens ad hoc, quod sic, vel sic 
+      <lb ed="#R" n="39"/>circumstantionetur circumstantijs intrinsecis ad 
+      <lb ed="#R" n="40"/>actum moralem &amp; venialem, si enim appetit 
+      glo<lb ed="#R" n="41" break="no"/>riam effrenate, sic quod non vereretur venire 
+      <lb ed="#R" n="42"/>contra diuinum praeceptum, tantum est 
+      similitu<lb ed="#R" n="43" break="no"/>do appetitus: ille autem actus 
+      circumstantio<lb ed="#R" n="44" break="no"/>natus est circumstantia propria peccato 
+      morta<lb ed="#R" n="45" break="no"/>li, quae est contemptus in hoc, quod si 
+      occurris<lb ed="#R" n="46" break="no"/>set in actu illo praeceptum diuinum ad oppositum, 
+      <lb ed="#R" n="47"/>non omisisset acum illum. Si autem appetat 
+      ta<lb ed="#R" n="48" break="no"/>liter, quod si occurreret praeceptum diuinum, 
+      mal<lb ed="#R" n="49" break="no"/>let obed ire, quam habere gloriam; ita quod 
+      ap<lb ed="#R" n="50" break="no"/>petitus non ascendit ad contemptum voluntatis 
+      <lb ed="#R" n="51"/>diuinae expressae in praeceptis &amp; prohibitionibus, 
+      <lb ed="#R" n="52"/>talis actus habet circumstantiam, quod facit 
+      pec<lb ed="#R" n="53" break="no"/>catum veniale. Hoc idem dico de 
+      circumstan<lb ed="#R" n="54" break="no"/>tiis alijs, puta deliberatione, morositate, &amp; 
+      huius<lb ed="#R" n="55" break="no"/>modi. Ex hoc infero quoddam, quod 
+      consue<lb ed="#R" n="56" break="no"/>uit quaeri, an scilicet peccatum veniale possit 
+      fie<lb ed="#R" n="57" break="no"/>ri mortale? Si enim sit sermo de peccato quoad 
+      <lb ed="#R" n="58"/>substantiam, &amp; quoad illud, quod ibi 
+      considera<lb ed="#R" n="59" break="no"/>tur quoad genus naturae, quod quidem in actu 
+      <lb ed="#R" n="60"/>accipitur ex ordine ad obiectum, sic dico, quod 
+      <lb ed="#R" n="61"/>idem actus, qui est veniale peccatum, potest esse 
+      <lb ed="#R" n="62"/>mortale, &amp; e conuerso, saltem in specie. Sed hoc 
+      <lb ed="#R" n="63"/>modo actus peccati non accipitur inquantum 
+      cul<lb ed="#R" n="64" break="no"/>pabilis est, &amp; demeritorius, quia vt sic, pertinet 
+      <lb ed="#R" n="65"/>ad genus moris: reponitur autem in genere 
+      mo<lb ed="#R" n="66" break="no"/>ris per difformitatem ad rectam rationem, &amp; 
+      <!--0319.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>Theologice ad diuinam voluntatem. Nam 
+      cul<lb ed="#R" n="68" break="no"/>pabile, inquantum culpabile, vt dictum est supra, 
+      <lb ed="#R" n="69"/>addit super naturam actus carentiam debitae 
+      con<lb ed="#R" n="70" break="no"/>formitatis, similiter etiam debitarum cit 
+      cum<lb ed="#R" n="71" break="no"/>stantiarum, vt arguendo ad conclusionem 
+      prae<lb ed="#R" n="72" break="no"/>cedentem immediate est dictum: &amp; ideo 
+      secun<lb ed="#R" n="73" break="no"/>dum alium, &amp; alium modum deuiandi a regula 
+      <lb ed="#R" n="74"/>recta, siue a debitis circumstantijs, sumitur alius 
+      <lb ed="#R" n="75"/>&amp; alius modus actuum, vt culpabiles sunt, &amp; 
+      de<lb ed="#R" n="76" break="no"/>meritorij, &amp; quia in actu peccati mortalis est 
+      es<lb ed="#R" n="77" break="no"/>sentialiter alius modus deuiandi a recta 
+      regu<lb ed="#R" n="78" break="no"/>la, &amp; rectitudine circumstantiarum, quam in 
+      <lb ed="#R" n="79"/>actu peccati venialis; ideo, vt sic, nunquam 
+      <lb ed="#R" n="80"/>actus, qui ex ratione sua est venialis, potest 
+      es<lb ed="#R" n="81" break="no"/>se mortalis, nec e conuerso; nec numero, nec 
+      <lb ed="#R" n="82"/>specie. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e1725">
+                  <lb ed="#R" n="83"/>Nunc tertio ad rationes alterius opinionis. 
+      <lb ed="#R" n="84"/>Respondeo ad primam, quod cum arguitur, quod 
+      <lb ed="#R" n="85"/>distinctio peccati mortalis &amp; venialis, accipitur 
+      <lb ed="#R" n="86"/>in ordine ad aliquid, quod accidit vtrique, 
+      scili<lb ed="#R" n="87" break="no"/>cet in ordine ad paenam. Respondeo, quod, vt 
+      <lb ed="#R" n="88"/>dictum est supra, mortale &amp; veniale non accipiun 
+      <lb ed="#R" n="89"/>tur, nec dicuntur talia in ordine ad paenam, sed 
+      <lb ed="#R" n="90"/>in ordine ad laesionem &amp; offensam, siue auersionem 
+      <lb ed="#R" n="91"/>a regula, quod est essentiale in peccato. Nunc 
+      au<lb ed="#R" n="92" break="no"/>tem si primum fit accidentale actui, non tamen 
+      <lb ed="#R" n="93"/>fecundum, maxime in quantum actus est 
+      meri<lb ed="#R" n="94" break="no"/>torius, vel culpabilis, vnde ratio peccat 
+      secun<lb ed="#R" n="95" break="no"/>dum consequens a pluribus causis ad vnam. 
+      Simi<lb ed="#R" n="96" break="no"/>liter ex hoc sequitur, quod omnis distinctio 
+      <lb ed="#R" n="97"/>actuum, imo &amp; habituum esset accidentalis, &amp; 
+      <lb ed="#R" n="98"/>non specifica, quia omnis talis distinctio 
+      accipi<lb ed="#R" n="99" break="no"/>tur penes aliquid extrinsecum in ordine ad 
+      inno<lb ed="#R" n="100" break="no"/>centiam nosram. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e1767">
+                  <lb ed="#R" n="101"/>Ad secundum, cum dicitur, quod peccatum 
+      <lb ed="#R" n="102"/>non distinguitur per illud, quod est extra 
+      inten<lb ed="#R" n="103" break="no"/>tionem peccantis per interemptionem amoris, 
+      <lb ed="#R" n="104"/>peccans enim, vt sic, non intendit peccatum 
+      <lb ed="#R" n="105"/>quoad illud quod est formale in peccato, scilicet 
+      <lb ed="#R" n="106"/>carentiam conformitatis, intendit autem actum, 
+      <lb ed="#R" n="107"/>vt est in genere moris. Ratio ergo bene probaret, 
+      <lb ed="#R" n="108"/>quod actus in ordine naturae distinguuntur penes 
+      <lb ed="#R" n="109"/>illud, quod agens intendit per se, sed hoc non 
+      <lb ed="#R" n="110"/>probat quoad genus moris, quia ad illud se 
+      ha<lb ed="#R" n="111" break="no"/>bet agens per accidens omnino. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e1793">
+                  <lb ed="#R" n="112"/>Ad tertium de conuersione dico duo. Primo 
+      <lb ed="#R" n="113"/>quod conuersio in actu peccati non est formale, 
+      <lb ed="#R" n="114"/>sed magis materiale, quod probo ex hoc, quia 
+      <lb ed="#R" n="115"/>conuersio sine auersione non est peccatum, vnde 
+      <lb ed="#R" n="116"/>conuerti ad tale delectabile non est peccatum 
+      <lb ed="#R" n="117"/>ethice, nisi quia concurrit ibi auersio a recta 
+      ra<lb ed="#R" n="118" break="no"/>tione &amp; circumstantijs dictatis a recta ratione 
+      <lb ed="#R" n="119"/>nec theologice, nisi quia ibi est auersio a regula 
+      <lb ed="#R" n="120"/>prima actuum humanorum, quae est voluntas 
+      di<lb ed="#R" n="121" break="no"/>uina, &amp; a circunstantijs dictatis a voluntate 
+      di<lb ed="#R" n="122" break="no"/>uina, quae quidem voluntas innorescit nobis per 
+      <lb ed="#R" n="123"/>mandatum diuinum &amp; praeceptum. Secundo 
+      di<lb ed="#R" n="124" break="no"/>co, quod ex alia &amp; alia auersione accipitur distin 
+      <lb ed="#R" n="125"/>ctio peccatorum, &amp; non ex conuersione 
+      conclu<lb ed="#R" n="126" break="no"/>dente auersionem. Et ratio est duplex vna, quia 
+      <lb ed="#R" n="127"/>quando in eodem concurrunt materiale, &amp; 
+      for<lb ed="#R" n="128" break="no"/>male, distinctio eius accipitur penes formale 
+      <lb ed="#R" n="129"/>non materiale, vt ex regula Philosophi 4. 
+      Me<lb ed="#R" n="130" break="no"/>taphysices, quod si animal constituatur in esse per 
+      <lb ed="#R" n="131"/>pedalitatem, non debet diuidi per differentiam 
+      <lb ed="#R" n="132"/>pertinentem ad aliquod materiale, scilicet per 
+      <!--0320.xml-->
+      <pb ed="#R" n="320"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>alatum &amp; non alatum, sed per differentiam 
+      per<lb ed="#R" n="2" break="no"/>tinentem ad pedalitatem, vt per hipes, &amp; 
+      qua<lb ed="#R" n="3" break="no"/>drupes, quare sic in proposito; sed quia 
+      distin<lb ed="#R" n="4" break="no"/>ctio priuationum non accipitur a subiecto, sed 
+      <lb ed="#R" n="5"/>ex habitu, opposito modo conuersio est quasi 
+      <lb ed="#R" n="6"/>subiectum &amp; materiale respectu auersionis: 
+      er<lb ed="#R" n="7" break="no"/>go. Vnde duplex priuatio potest esse in oculo, 
+      <lb ed="#R" n="8"/>vt caecitas, &amp; tenebra: similiter eadem priuatio 
+      <lb ed="#R" n="9"/>in duobus subiectis, vt caecitas in oculo bouis, &amp; 
+      <lb ed="#R" n="10"/>hominis. Tunc ad formam dico, quod non in 
+      om<lb ed="#R" n="11" break="no"/>ni peccato. esset eadem auersio, nec ethice, nec 
+      <lb ed="#R" n="12"/>theologice loquendo, vt probatum est supra, non 
+      <lb ed="#R" n="13"/>enim omne peccatum ethice eo modo auertit a 
+      <lb ed="#R" n="14"/>recta ratione, &amp; circunstantijs, super quas 
+      fun<lb ed="#R" n="15" break="no"/>datur ordo ad rectam rationem. Similiter dico 
+      <lb ed="#R" n="16"/>de peccato theologice, quod non omne peccatum 
+      <lb ed="#R" n="17"/>eodem modo priuat ordinem ad diuinam 
+      volun<lb ed="#R" n="18" break="no"/>tatem, &amp; haec sunt proprie formalia in peccato, 
+      <lb ed="#R" n="19"/>obiectum autem, &amp; conuersio habent se magis 
+      <lb ed="#R" n="20"/>vt materialia. Sed tunc accidit dubium, quia 
+      vi<lb ed="#R" n="21" break="no"/>tia capitalia non distinguuntur communiter 
+      secun<lb ed="#R" n="22" break="no"/>dum rationem alterius &amp; alterius auersionis, sed 
+      <lb ed="#R" n="23"/>secundum aliud, &amp; aliud obiectum, vt patet in 
+      <lb ed="#R" n="24"/>speciali de vanagloria, &amp; superbia: distinguuntur 
+      <lb ed="#R" n="25"/>enim penes obiecta, quia superbia aspicit 
+      dele<lb ed="#R" n="26" break="no"/>ctationes, quae sunt in irascibili, sed vanagloria 
+      <lb ed="#R" n="27"/>delectationes, quae sunt in concupiscibili. 
+      Re<lb ed="#R" n="28" break="no"/>spondeo, concedo, quod superbia, &amp; 
+      vanaglo<lb ed="#R" n="29" break="no"/>ria hoc modo distinguuntur ex obiectis, sed 
+      quan<lb ed="#R" n="30" break="no"/>tum ad esse naturae; tamen quantum ad uenus 
+      <lb ed="#R" n="31"/>moris distinguuntur per carentiam alterius, &amp; 
+      <lb ed="#R" n="32"/>alterius ordinis ad recam rationem, &amp; 
+      priua<lb ed="#R" n="33" break="no"/>tionem aliarum, &amp; aliarum circunstantiarum, 
+      <lb ed="#R" n="34"/>quas recta ratio exigit alias in alia, &amp; alia 
+      ma<lb ed="#R" n="35" break="no"/>teria, eo quod in diuersis materijs regula est alia 
+      <lb ed="#R" n="36"/>&amp; alia: ergo formale in acttibus huiusmodi, vt 
+      <lb ed="#R" n="37"/>sunt in genere moris, est regula, licet obiecta 
+      con<lb ed="#R" n="38" break="no"/>currant exigitiue, quia aliud &amp; aliud obiectum 
+      <lb ed="#R" n="39"/>exigit aliam &amp; aliam regulam. Consimiliter 
+      su<lb ed="#R" n="40" break="no"/>perbia &amp; vanagloria theologice loquendo distin 
+      <lb ed="#R" n="41"/>guuntur per se, &amp; primo formaliter ex alia &amp; alia 
+      <lb ed="#R" n="42"/>deuiatione a regula, quae est voluntas diuina, 
+      aspi<lb ed="#R" n="43" break="no"/>ciunt enim regulam illam alio &amp; alio modo, &amp; 
+      <lb ed="#R" n="44"/>ideo dantur de eis diuersa praecepta, obiecta 
+      ta<lb ed="#R" n="45" break="no"/>men concurrunt exigitiue, quia circa aliud, &amp; 
+      <lb ed="#R" n="46"/>aliud obiectum exigitur aliud, &amp; aliud praeceptum. 
+      <lb ed="#R" n="47"/>Ad formam ergo rationis dico, quod auersio vno 
+      <lb ed="#R" n="48"/>modo potest intelligi respectu Deitatis, &amp; sic 
+      <lb ed="#R" n="49"/>auersio non est formale in omni peccato, imo est 
+      <lb ed="#R" n="50"/>propria vni tantum, scilicet odio Dei. Alio 
+      mo<lb ed="#R" n="51" break="no"/>do accipitur auersio a voluntate diuina, &amp; ab eius 
+      <lb ed="#R" n="52"/>amicitia, quae fundatur super idem velle, 
+      secun<lb ed="#R" n="53" break="no"/>dum Philosophum 9. Ethic. &amp; tunc auersio est for 
+      <lb ed="#R" n="54"/>male in omni peccato theologice accepto: Sicut 
+      <lb ed="#R" n="55"/>enim rebeilantes Regi, &amp; contraagentes eius im 
+      <lb ed="#R" n="56"/>perio dicuntur auerti a Rege, sic in proposito 
+      <lb ed="#R" n="57"/>dicuntur auerti a Deo, qui contra agunt, &amp; 
+      re<lb ed="#R" n="58" break="no"/>bellant voluntati eius; Voluntas autem Dei 
+      in<lb ed="#R" n="59" break="no"/>notescit nobis per praeceptum, idcirco diuersa 
+      <lb ed="#R" n="60"/>praecepta arguunt diuersam (vt ita dicam) volun 
+      <lb ed="#R" n="61"/>tatem, co modo quo diuersitas potest accipi in 
+      <lb ed="#R" n="62"/>actu voluntatis diuinae, &amp; per consequens 
+      diuer<lb ed="#R" n="63" break="no"/>sa praecepta arguunt diuersas auersiones, &amp; per 
+      <lb ed="#R" n="64"/>hoc diuersa formalia peccatorum: non ergo est 
+      <lb ed="#R" n="65"/>verum, quod supponebatur, scilicet, quod eadem 
+      <lb ed="#R" n="66"/>sit auersio respectu omnium peccatorum. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e1991">
+      <!--0320.xml-->
+                  <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>Dices, quod praecepta non sunt vera de 
+      praece<lb ed="#R" n="68" break="no"/>pto naturae, quod sequamur legem naturae, sed de 
+      <lb ed="#R" n="69"/>praecepto disciplinae, quod sequimur legem 
+      scri<lb ed="#R" n="70" break="no"/>ptam. Respondeo, non distinguo formale in 
+      pec<lb ed="#R" n="71" break="no"/>cato per aliud &amp; aliud praeceptum, nisi forte 
+      se<lb ed="#R" n="72" break="no"/>cundum innotescentiam nostram, sed in 
+      ordine<lb ed="#R" n="73" break="no"/>ad diuinam voluntatem, eo quod aliam, &amp; aliam 
+      <lb ed="#R" n="74"/>deformitatem habent in ordine ad voluntatem 
+      <lb ed="#R" n="75"/>diuinam. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e2017">
+                  <lb ed="#R" n="76"/>Dices, quod ex ratione obiecti oritur, quod 
+      <lb ed="#R" n="77"/>actus habent aliam deformitatem. Respondeo, 
+      <lb ed="#R" n="78"/>in obiecto possum considerare naturam obiecti, 
+      <lb ed="#R" n="79"/>&amp; circunstantias debitas inesse secundum 
+      deter<lb ed="#R" n="80" break="no"/>minationem diuinae voluntatis; tunc dico, quod 
+      <lb ed="#R" n="81"/>illa deformitas alia, &amp; alia non oritur ex natura 
+      <lb ed="#R" n="82"/>obiecti absolute, sed secundum alias &amp; alias 
+      cir<lb ed="#R" n="83" break="no"/>cumstantias praedictas. Vnde breuiter omne 
+      pec<lb ed="#R" n="84" break="no"/>catum, siue sit peccatum contra praeceptum 
+      na<lb ed="#R" n="85" break="no"/>turae, siue contra praeceptum diuinum, idcirco 
+      <lb ed="#R" n="86"/>est peccatum, quia induit de se rationem 
+      defor<lb ed="#R" n="87" break="no"/>mitatis, &amp; detestabilis in ordine, videlicet ad 
+      vo<lb ed="#R" n="88" break="no"/>luntatem diuinam. Per hoc patet ad rationem 
+      <lb ed="#R" n="89"/>vltimam de virtutibus, non enim virtutes 
+      distin<lb ed="#R" n="90" break="no"/>guuntur ex obiecris nisi forte quoad esse naturae, 
+      <lb ed="#R" n="91"/>non autem quoad esse morale, quia vt sic 
+      distin<lb ed="#R" n="92" break="no"/>guuntur principaliter penes considerata a recta 
+      <lb ed="#R" n="93"/>ratione, &amp; inuenta circa illa obiecta, quod est 
+      me<lb ed="#R" n="94" break="no"/>dium rationis. Quod patet, nam diuersae virtutes 
+      <lb ed="#R" n="95"/>possunt esse circa idem obiectum absolute, sicut 
+      <lb ed="#R" n="96"/>patet de abstinentia &amp; temperantia, quae sunt 
+      cir<lb ed="#R" n="97" break="no"/>ca delectabilia gustus; etiam cum vna est 
+      super<lb ed="#R" n="98" break="no"/>erogationis, alia non, ideo habent aliud, &amp; aliud 
+      <lb ed="#R" n="99"/>medium rationis; vnde multi habent 
+      temperan<lb ed="#R" n="100" break="no"/>tiam, qui non habent abstinentiam, &amp; hoc quia 
+      <lb ed="#R" n="101"/>alia, &amp; alia ratio ardui, &amp; difficultas attenditur 
+      <lb ed="#R" n="102"/>circa vnam, non circa aliam. Hoc idem patet de 
+      <lb ed="#R" n="103"/>abstinentia, &amp; sobrietate: multi enim sunt, qui 
+      <lb ed="#R" n="104"/>faciliter abstinent a cibo, qui tamen sunt 
+      intem<lb ed="#R" n="105" break="no"/>perati in potu; vnde habent abstinentiam, non 
+      <lb ed="#R" n="106"/>sobrietatem: &amp; ratio est, quia in sobrietate videtur 
+      <lb ed="#R" n="107"/>maior ratio ardui, &amp; plus de difficultate quam 
+      <lb ed="#R" n="108"/>in abstinentia. Dico ergo, quod formale in 
+      vir<lb ed="#R" n="109" break="no"/>tutibus non est obiectum absolute, sed bonum 
+      <lb ed="#R" n="110"/>rationis repertum a ratione in obiecto, quantum 
+      <lb ed="#R" n="111"/>tamen aliud, &amp; aliud bonum rationis sequitur ex 
+      <lb ed="#R" n="112"/>diuersitate obiectorum, hoc non est per se, sed 
+      <lb ed="#R" n="113"/>per accidens, quia si concurreret aliud, &amp; aliud 
+      <lb ed="#R" n="114"/>bonum circa idem obiectum (sicut dictum est de 
+      <lb ed="#R" n="115"/>temperantia, &amp; intemperantia) adhuc virtutes 
+      <lb ed="#R" n="116"/>circa illa bona essent indistinctae. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e2109">
+                  <lb ed="#R" n="117"/>Ad argumentum in oppositum patet ex 
+      prae<lb ed="#R" n="118" break="no"/>dictis, quod differentiae illae, licet sint infra 
+      ean<lb ed="#R" n="119" break="no"/>dem speciem naturaliter, non tamen sunt in 
+      ea<lb ed="#R" n="120" break="no"/>dem specie theologice: vnde puto, quod loquendo 
+      <lb ed="#R" n="121"/>ethice, &amp; physice peccatum mortale &amp; 
+      veniale<lb ed="#R" n="122" break="no"/>sunt eiusdem speciei; non enim ethicus 
+      conside<lb ed="#R" n="123" break="no"/>rat differentias istas in peccato, sed accidunt con 
+      <lb ed="#R" n="124"/>siderationi suae. Non enim ethicus considerat pec 
+      <lb ed="#R" n="125"/>catum in ordine ad voluntatem diuinam, sed in 
+      <lb ed="#R" n="126"/>ordine ad rectam rationem, tamen ex sulo 
+      ordi<lb ed="#R" n="127" break="no"/>ne ad diuinam voluntatem accipitur distinctio 
+      <lb ed="#R" n="128"/>peccati morta is, &amp; venialis. Ex his clicio, quod 
+      <lb ed="#R" n="129"/>distinctio virtutum moralium accipitur ex alio, 
+      <lb ed="#R" n="130"/>&amp; alio bono rationis; bonum autem rationis aliud 
+      <lb ed="#R" n="131"/>&amp; aliud est a ratione ab obiecto, &amp; a 
+      circumstan<lb ed="#R" n="132" break="no"/>tijs, aliter tamen, &amp; aliter: quia a ratione capli- 
+      <!--0321.xml-->
+      <pb ed="#R" n="321"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>catiue, ab obiecto autem exigitiue, vt in 
+      pluri<lb ed="#R" n="2" break="no"/>bus scilicet a circumstantijs formaliter. 
+   </p>
+            </div>
+            <div xml:id="olm8ij-f96108-Dd1e2158">
+               <head xml:id="olm8ij-f96108-Hd1e2160">Articulus 4</head>
+               <head xml:id="olm8ij-f96108-Hd1e2162" type="question-title">
+        Utrum peccatum mortale congrue distinguatur in septem Vitia Capitalia
+      </head>
+               <p xml:id="olm8ij-f96108-d1e2165">
+                  <lb ed="#R" n="3"/>ARTJCVLVS IIII.
+      <lb ed="#R" n="4"/>Vtrum peccatum mortale congrue distinguatur. 
+      <lb ed="#R" n="5"/>in septem Vitia Capitalia. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e2174">
+                  <lb ed="#R" n="6"/>AD quartam quaestionem arguo primo, quod 
+      <lb ed="#R" n="7"/>peccatum mortale non distinguitur congrue 
+      <lb ed="#R" n="8"/>per septem vitia capitalia; quia peccatum &amp; 
+      vir<lb ed="#R" n="9" break="no"/>tus sunt disparata: sed septem virtutes non 
+      op<lb ed="#R" n="10" break="no"/>ponuntur septem peccatis mortalibus, quae 
+      assi<lb ed="#R" n="11" break="no"/>gnatur: ergo non est congrua diuisio peccatorum. 
+      <lb ed="#R" n="12"/>Consequentiam probo, quia si diuisa sunt 
+      oppo<lb ed="#R" n="13" break="no"/>sita, oportet quod diuidentia sint opposita.
+  </p>
+               <p xml:id="olm8ij-f96108-d1e2194">
+                  <lb ed="#R" n="14"/>In oppositum est <ref xml:id="olm8ij-f96108-Rd1e2198">Gregorius 11. moral. cap. 3.</ref>
+                  <lb ed="#R" n="15"/>qui peccatum mortale distinguit secundum illa 
+      <lb ed="#R" n="16"/>septem vitia capitalia. Respondeo primo ponam 
+      <lb ed="#R" n="17"/>propositionem intentam. Secundo dicam de 
+      <lb ed="#R" n="18"/>quolibet peccato in speciali per ordinem, quoad 
+      <lb ed="#R" n="19"/>eius esse morale, &amp; naturale. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e2213">
+                  <lb ed="#R" n="20"/>Propositio, quam intendo, est ista, quod diuisio 
+      <lb ed="#R" n="21"/>peccatorum mortalium in septem duces est 
+      con<lb ed="#R" n="22" break="no"/>grue assignata, &amp; diuisio illa potest accipi 
+      secun<lb ed="#R" n="23" break="no"/>dum illa, quae frequentius apparent in nobis in 
+      <lb ed="#R" n="24"/>conuersatione humana. Dicunt ergo quidam, 
+      <lb ed="#R" n="25"/>quod capitalitas attenditur in peccato penes 
+      fi<lb ed="#R" n="26" break="no"/>nem &amp; peccatum, quod est caput aliorum in 
+      ratio<lb ed="#R" n="27" break="no"/>ne fini, ecundum istos videtur vitium capitale. 
+      <lb ed="#R" n="28"/>sed haec positio insufficiens est, eo quod non 
+      ca<lb ed="#R" n="29" break="no"/>pit totam rationem capitis: nam multa sunt 
+      ca<lb ed="#R" n="30" break="no"/>pitalia vitia, quae se habent respectu aliorum, vt 
+      <lb ed="#R" n="31"/>materia, &amp; etiam per modum remouentis 
+      pro<lb ed="#R" n="32" break="no"/>hibens, quod patet per Gregorium, vbi supra, 
+      <lb ed="#R" n="33"/>qui dicit, quod ex gula oritur hebetudo sensuum, 
+      <lb ed="#R" n="34"/>sed hoc non est per modum finis; sed quia 
+      prae<lb ed="#R" n="35" break="no"/>parat materiam, &amp; ex gula oritur inepta laetitia, 
+      <lb ed="#R" n="36"/>&amp; hoc non vt a fine, sed vt a remouente illud, 
+      <lb ed="#R" n="37"/>quod habet prohibere ineptam laetitiam, quod 
+      <lb ed="#R" n="38"/>est apex rationis. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e2257">
+                  <lb ed="#R" n="39"/>Alij dicunt, quod capitalitas attenditur penes 
+      <lb ed="#R" n="40"/>rationem radicis, vt illud dicatur capitale, quod 
+      <lb ed="#R" n="41"/>est caput quorundam aliorum. Sed contra, quia 
+      <lb ed="#R" n="42"/>tunc non esset nisi vnum vitium, capitale scilicet 
+      <lb ed="#R" n="43"/>superbia, quae est caput omnium vitiorum. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e2270">
+                  <lb ed="#R" n="44"/>Dices: non, quia superbia est radix generalis, 
+      <lb ed="#R" n="45"/>quae diuiditur in alias radices, quae sunt radices 
+      <lb ed="#R" n="46"/>multorum vitiorum, quodlibet in suo ordine. Sed 
+      <lb ed="#R" n="47"/>contra, quia radices illae in quas diuiditur 
+      super<lb ed="#R" n="48" break="no"/>bia, etiam multae earum diuiduntur in alias 
+      ra<lb ed="#R" n="49" break="no"/>dices, quae sunt radix in suo ordine, quaelibet 
+      ali<lb ed="#R" n="50" break="no"/>quorum vitiorum, &amp; sic erunt plura capitalia, 
+      <lb ed="#R" n="51"/>quam septem. Ideo dico, quod videtur iuxta 
+      <lb ed="#R" n="52"/>propositionem praemissam, scilicet, quod 
+      pecca<lb ed="#R" n="53" break="no"/>torum mortalium distinctio accipitur penes illa, 
+      <lb ed="#R" n="54"/>quae vt plurimum apparent in humana 
+      conuersa<lb ed="#R" n="55" break="no"/>tione, &amp; sunt, quantum spectat ad propositum, 
+      <lb ed="#R" n="56"/>septem. Voluntas enim peccat, quia inordinate 
+      <lb ed="#R" n="57"/>fertur in bonum appetibile triplex, scilicet vtile, 
+      <lb ed="#R" n="58"/>delectabile, &amp; honestum. Homo ergo in 
+      actio<lb ed="#R" n="59" break="no"/>nibus suis, quas per se &amp; non a casu elicit, 
+      appe<lb ed="#R" n="60" break="no"/>tit aliquod istorum bonorum trium, &amp; cum 
+      ho<lb ed="#R" n="61" break="no"/>mo appetere possit bonum appraehensum 
+      inordi<lb ed="#R" n="62" break="no"/>nate, sequitur, quod vitia, quae erunt in 
+      deordina<lb ed="#R" n="63" break="no"/>tione appetitus circa triplex bonum praedictum, 
+      <!--0321.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="64"/>ad quod respicit generaliter, &amp; vniuersaliter 
+      om<lb ed="#R" n="65" break="no"/>nino agens; congrue dicuntur generalia, &amp; 
+      ca<lb ed="#R" n="66" break="no"/>pitalia. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e2327">
+                  <lb ed="#R" n="67"/>Ad propositum dico, quod accipiendo bonum 
+      <lb ed="#R" n="68"/>vtile, inordinatio circa tale bonum pertinet ad 
+      <lb ed="#R" n="69"/>peccatum Auaritiae: bonum enim vtile dicitur, 
+      <lb ed="#R" n="70"/>quod non est per se appetibile, sed propter aliud, 
+      <lb ed="#R" n="71"/>sicut pecunia &amp; diuitiae, quae per se non habent 
+      ra<lb ed="#R" n="72" break="no"/>tionem appetibilis secundum Philosophum 4. Ethic. 
+      <lb ed="#R" n="73"/>vnde auaritia hoc modo est appetitus 
+      inordina<lb ed="#R" n="74" break="no"/>tus alicuius appetibilis non propter se, sed propter 
+      <lb ed="#R" n="75"/>aliud. Accipiendo vero bonum delectabile, tale 
+      <lb ed="#R" n="76"/>bonum potest esse in duplici genere: bonum enim 
+      <lb ed="#R" n="77"/>dicitur delectabile in ordine ad appetitum: 
+      ap<lb ed="#R" n="78" break="no"/>petitus enim complantatus in nobis est in 
+      dupli<lb ed="#R" n="79" break="no"/>ci genere, secundum duplex genus necessitatis, 
+      <lb ed="#R" n="80"/>quod inuenitur in natura hominis. Natura 
+      <lb ed="#R" n="81"/>enim complantauit homini appetitum, siue 
+      dele<lb ed="#R" n="82" break="no"/>ctationem appetitus propter necessitatem, vt 
+      di<lb ed="#R" n="83" break="no"/>cit Auicen. 7. naturalium: necessitas autem duplex 
+      <lb ed="#R" n="84"/>est in natura humana, quaedam ad 
+      conseruatio<lb ed="#R" n="85" break="no"/>nem indiuidui, quaedam ad conseruationem 
+      spe<lb ed="#R" n="86" break="no"/>ciei. Appetitus autem complantatus propter 
+      <lb ed="#R" n="87"/>conseruationem indiuidui est circa delectationem 
+      <lb ed="#R" n="88"/>gustus; vnde gulosus non appetit saporem in se, 
+      <lb ed="#R" n="89"/>sed propter delectationem gustus. Appetitus 
+      au<lb ed="#R" n="90" break="no"/>tem complantatus propter conseruationem 
+      spe<lb ed="#R" n="91" break="no"/>ciei est circa delectationem pertinentem ad appe 
+      <lb ed="#R" n="92"/>titum generatiuae, quae est propter delectationem 
+      <lb ed="#R" n="93"/>tactus, &amp; propter hoc oritur duplex inordinatio, 
+      <lb ed="#R" n="94"/>vna pertinens ad appetitum gustus, &amp; secundum 
+      <lb ed="#R" n="95"/>hanc accipitur peccatum Gulae. Alia vero 
+      perti<lb ed="#R" n="96" break="no"/>nens ad appetitum generatiuae secundum tactum, 
+      <lb ed="#R" n="97"/>&amp; secundum hunc accipitur peccatum Luxuriae, 
+      <lb ed="#R" n="98"/>&amp; haec dicuntur capitalia, quia frequenter 
+      oriun<lb ed="#R" n="99" break="no"/>tur in conuersatione humana. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e2401">
+                  <lb ed="#R" n="100"/>Loquendo vero de bono honesto. Sciendum 
+      <lb ed="#R" n="101"/>quod circa istud directe non cadit inordinatio: 
+      <lb ed="#R" n="102"/>non enim appetere scientiam est malum: honum 
+      <lb ed="#R" n="103"/>enim honestum dicuntur scientia, &amp; virtutes que 
+      <lb ed="#R" n="104"/>ponunt hominem in statu excellenti; talia 
+      appe<lb ed="#R" n="105" break="no"/>tere in se ex conditione illa non est malum, cum 
+      <lb ed="#R" n="106"/>sint bona per se. Inordinatio ergo cadit circa 
+      <lb ed="#R" n="107"/>talia in ordine ad aestimationem hominum: nam 
+      <lb ed="#R" n="108"/>sicut dictum est, appetere esse sapientem non est 
+      <lb ed="#R" n="109"/>malum, tamen appetere videri, &amp; aestimari 
+      sa<lb ed="#R" n="110" break="no"/>pientem magis quam esse, est malum. Appetunt 
+      <lb ed="#R" n="111"/>autem quidam esse sapientes, non vt sint, sed vt 
+      <lb ed="#R" n="112"/>videantur, &amp; hinc stat inordinatio appetitus, cum 
+      <lb ed="#R" n="113"/>sit circa famam &amp; gloriam, congrue dicitur 
+      Ina<lb ed="#R" n="114" break="no"/>nis gloria: &amp; sic habemus quatuor capitalia 
+      vi<lb ed="#R" n="115" break="no"/>tia, vnum quidem, quod aspicit inordinationem 
+      <lb ed="#R" n="116"/>appetitus circa bonum praecise vtile: duo vero, 
+      <lb ed="#R" n="117"/>quae aspiciunt appetitum circa bonum 
+      delectubi<lb ed="#R" n="118" break="no"/>le, quae sunt Gula &amp; Luxuria; vnum autem, quod 
+      <lb ed="#R" n="119"/>aspicit bonum honestum, inquantum relatum est 
+      <lb ed="#R" n="120"/>ad aestimationem homini, quod est Inanis Gloria. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e2449">
+                  <lb ed="#R" n="121"/>Vlterius sciendum, quod appetitus dupliciter 
+      <lb ed="#R" n="122"/>fertur in bonum triplex praedictum; vno modo 
+      de<lb ed="#R" n="123" break="no"/>lectando, &amp; in bono conquiescendo. Alio modo 
+      <lb ed="#R" n="124"/>consurgendo in ipsum prohibens, vt remoueatur 
+      <lb ed="#R" n="125"/>omne, quod habet impedire tale bonum, &amp; sic 
+      <lb ed="#R" n="126"/>consurgit sufficientia aliorum trium peccatorum 
+      <lb ed="#R" n="127"/>capitalium, scilicet Irae, Accidiae, &amp; Inuidiae. Vbi 
+      <lb ed="#R" n="128"/>sciendum est, quod prohibens bonum appetibile 
+      <lb ed="#R" n="129"/>reperitur in duplici genere, &amp; secundum hoc in- 
+      <!--0322.xml-->
+      <pb ed="#R" n="322"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>surgit appetitus contra prohibens tale bonum 
+      <lb ed="#R" n="2"/>in generali dupliciter: Vno enim modo 
+      appeti<lb ed="#R" n="3" break="no"/>tus insurgit contra omne prohibens 
+      quodcun<lb ed="#R" n="4" break="no"/>que bonum in generali, siue illud sit bonum 
+      de<lb ed="#R" n="5" break="no"/>lectabile, siue honestum, &amp; habitus, qui inclinat 
+      <lb ed="#R" n="6"/>ad talem insurrectionem, dicitur Ira, quae nihil 
+      <lb ed="#R" n="7"/>aliud est, quam habitualis insurrectio contra 
+      im<lb ed="#R" n="8" break="no"/>petum cuiuscunque appetibilis. Secundo modo 
+      <lb ed="#R" n="9"/>appetitus natus est insurgere in speciali contra 
+      <lb ed="#R" n="10"/>impediens bonum appetibile aliquod in 
+      specia<lb ed="#R" n="11" break="no"/>li, &amp; maxime bonum spirituale, quod est bonum 
+      <lb ed="#R" n="12"/>honestum. Et hoc adhuc dupliciter, vel contra 
+      <lb ed="#R" n="13"/>impediens tale bonum secundum esse, vel 
+      secun<lb ed="#R" n="14" break="no"/>dum videri, &amp; famam. Primo modo posset 
+      appe<lb ed="#R" n="15" break="no"/>titus insurgere dupliciter, vel positiue, &amp; hoc 
+      <lb ed="#R" n="16"/>modo nulla contingit inordinatio in assurgendo 
+      <lb ed="#R" n="17"/>contra tale bonum directe, &amp; ex se: nullus enim 
+      <lb ed="#R" n="18"/>appetit inordinate remotionem boni honesti, ex 
+      <lb ed="#R" n="19"/>natura obiecti. Alio modo priuatiue secundum 
+      <lb ed="#R" n="20"/>defectum, quia non insurgit cum efficacia, &amp; vi. 
+      <lb ed="#R" n="21"/>gore contra impediens tale bonum ad 
+      prosequen<lb ed="#R" n="22" break="no"/>dum illud, &amp; sic oritur inordinatio in appetitu, 
+      <lb ed="#R" n="23"/>quae dicitur Accidia. Vbi sciendum est, quod 
+      si<lb ed="#R" n="24" break="no"/>cut in obiecto corporali sapor bonus multum 
+      fa<lb ed="#R" n="25" break="no"/>cit ad hoc, quod appetitus trahatur in bonum 
+      <lb ed="#R" n="26"/>delectabile: sic in bono honesto, quod est cibus 
+      <lb ed="#R" n="27"/>quidam, &amp; gustus spiritualis, sapor trahit 
+      men<lb ed="#R" n="28" break="no"/>tem versus tale appetibile, vnde cui sapit bonum 
+      <lb ed="#R" n="29"/>rationis, despicit omnia bona alia corporalia 
+      <lb ed="#R" n="30"/>secundum Aristotelem 7. Ethic. Quando ergo 
+      ap<lb ed="#R" n="31" break="no"/>petitui displicet bona operatio secundum rectam 
+      <lb ed="#R" n="32"/>rationem, &amp; bonum honestum, tunc in appetitu 
+      <lb ed="#R" n="33"/>oritur inordinatio, quae est accidia. Accidia enim 
+      <lb ed="#R" n="34"/>non est, nisi tristitia circa bonam operationem 
+      <lb ed="#R" n="35"/>dictatam a recta ratione: talis enim tristitia non 
+      <lb ed="#R" n="36"/>est aliud, quam quoddam desipere respectu talis 
+      <lb ed="#R" n="37"/>boni, quod prohibet appetitum insurgere ad 
+      ip<lb ed="#R" n="38" break="no"/>sum prosequendum. Si autem impediatur bonum 
+      <lb ed="#R" n="39"/>honestum, non secundum esse, sed secundum 
+      vi<lb ed="#R" n="40" break="no"/>deri; quia videlicet est aliquid, quod facit bonum 
+      <lb ed="#R" n="41"/>illud minus apparere in conspectu hominum, 
+      pu<lb ed="#R" n="42" break="no"/>ta, quia tale bonum reperitur maius, vel saltem 
+      <lb ed="#R" n="43"/>inaequale in altero, ex quo fit, quod alius non 
+      re<lb ed="#R" n="44" break="no"/>putatur excellens, quia non solus in habitione 
+      <lb ed="#R" n="45"/>talis boni, tunc appetitus insurgit ad 
+      repellen<lb ed="#R" n="46" break="no"/>dum bonum illud in altero, quod est repressiuum 
+      <lb ed="#R" n="47"/>boni sui secundum famam, semper est 
+      inordina<lb ed="#R" n="48" break="no"/>tus, &amp; talis inordinatio dicitur peccatum Inuidiae. 
+      <lb ed="#R" n="49"/>Inuidia enim non est aliud, quam tristitia de 
+      bo<lb ed="#R" n="50" break="no"/>no alterius, non absolute, sed inquantum 
+      faci<lb ed="#R" n="51" break="no"/>mus bonum proprium in conspectu aliorum; &amp; 
+      <lb ed="#R" n="52"/>hoc est quia virtus diuisa in plures, non tantum 
+      <lb ed="#R" n="53"/>apparet in vno eorum, quantum si esset in eo 
+      so<lb ed="#R" n="54" break="no"/>lo. Sic ergo patet sufficientia septem Vitiorum 
+      <lb ed="#R" n="55"/>Capitalium; quae ideo dicuntur capitalia, quia sunt 
+      <lb ed="#R" n="56"/>circa illa secundum, quae homo magis, &amp; vt 
+      plu<lb ed="#R" n="57" break="no"/>rimum conuersatur, &amp; ideo sub istis 
+      continen<lb ed="#R" n="58" break="no"/>tur omnia peccata, &amp; ex istis oriuntur. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e2604">
+                  <lb ed="#R" n="59"/>Nunc secundo videndum est de quolibet 
+      pec<lb ed="#R" n="60" break="no"/>cato in speciali a quo omnia alia emanant. Et est 
+      <lb ed="#R" n="61"/>sciendum, quod, vt dicit Gregorius vbi supra. 
+      Su<lb ed="#R" n="62" break="no"/>perbia est regina omnium vitiorum, licet (vt 
+      su<lb ed="#R" n="63" break="no"/>pra dictum est, cum ageretur de peccato primi 
+      <lb ed="#R" n="64"/>hominis, &amp; etiam Diaboli ) superbia vno modo 
+      <lb ed="#R" n="65"/>potest accipi vt speciale peccatum, &amp; vitium 
+      <lb ed="#R" n="66"/>contra alia distinctum, vt tamen illa est genera- 
+      <!--0322.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>lis ad omnia, cuius prima filia dicitur 
+      Vanaglo<lb ed="#R" n="68" break="no"/>ria. Et ideo dicendum est primo de ipsa, &amp; hoc 
+      <lb ed="#R" n="69"/>quoad duo. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e2635">
+                  <lb ed="#R" n="70"/>Primo quoad eius esse naturale, secundo quoad 
+      <lb ed="#R" n="71"/>eius esse morale. Quoad primum, quia actus est 
+      <lb ed="#R" n="72"/>notior, quam habitus, sciendum est, quod 
+      vana<lb ed="#R" n="73" break="no"/>gloria secundum actum non dicit vnicum actum 
+      <lb ed="#R" n="74"/>tantum in genere naturae eo modo, quo 
+      inui<lb ed="#R" n="75" break="no"/>dia tantummodo dicit actum tristitiae in recto, 
+      <lb ed="#R" n="76"/>sed tamen in concupiscibili, sicut isti tres actus, 
+      <lb ed="#R" n="77"/>scilicet timor, delectatio &amp; tristitia, nullum 
+      isto<lb ed="#R" n="78" break="no"/>rum actuum praecise includit Vanagloria, sed om 
+      <lb ed="#R" n="79"/>nem actum bonum: non enim inanis gloria est 
+      <lb ed="#R" n="80"/>tantum appetitus propriae excellentiae, sed est 
+      <lb ed="#R" n="81"/>delectatio in excellentia secundum rem habitam, 
+      <lb ed="#R" n="82"/>&amp; complacentia in nondum habitam, sed 
+      spera<lb ed="#R" n="83" break="no"/>tam: Similiter tristitia de eius carentia: non enim 
+      <lb ed="#R" n="84"/>vanaegloriosus dicitur tantummodo, qui appetit 
+      <lb ed="#R" n="85"/>excellentiam praecise, sed qui delectatur in ea 
+      <lb ed="#R" n="86"/>habita, &amp; complacet in ea, antequam habeatur, 
+      <lb ed="#R" n="87"/>&amp; de carentia contristatur: ex quo potest 
+      pate<lb ed="#R" n="88" break="no"/>re, quod cum omnes actus praedicti sint in 
+      concu<lb ed="#R" n="89" break="no"/>piscibili, non in irascibili, vanagloria est habitus 
+      <lb ed="#R" n="90"/>pertinens non ad irascibilem, sed ad 
+      concupi<lb ed="#R" n="91" break="no"/>scibilem. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e2685">
+                  <lb ed="#R" n="92"/>Dices: Nonne inanis gloria fertur in arduum 
+      <lb ed="#R" n="93"/>sub ratione ardui; quare ergo non erit in 
+      irasci<lb ed="#R" n="94" break="no"/>bili, cum irascibilis sit respectu ardui, vt 
+      distin<lb ed="#R" n="95" break="no"/>guatur a concupiscibili? Respondeo, actus 
+      con<lb ed="#R" n="96" break="no"/>cupiscibilis est respectu boni, &amp; etiam respectu 
+      <lb ed="#R" n="97"/>ardui, sed irascibilis est tantum respectu ardui: 
+      <lb ed="#R" n="98"/>non enim differunt irascibilis, &amp; concupiscibilis, 
+      <lb ed="#R" n="99"/>nisi per hoc quod diuersimode feruntur in 
+      obie<lb ed="#R" n="100" break="no"/>ctum: actus enim irascibilis non est velle, sed est 
+      <lb ed="#R" n="101"/>assurgere: nec appetere, &amp; assurgere idem sunt: 
+      <lb ed="#R" n="102"/>aliud enim est appetere vindictam, &amp; aliud est 
+      as<lb ed="#R" n="103" break="no"/>surgere: possum enim efficacissime vindictam 
+      <lb ed="#R" n="104"/>appetere, &amp; tamen non assurgere, &amp; hinc est, 
+      <lb ed="#R" n="105"/>quod non omnis vindictam appetens est iratus, 
+      <lb ed="#R" n="106"/>appetere etiam in concupiscibili, sed assurgere 
+      <lb ed="#R" n="107"/>est in irascibili. Vnde assurgere, non est aliud 
+      <lb ed="#R" n="108"/>quam audere quoddam, &amp; est actus proprius 
+      su<lb ed="#R" n="109" break="no"/>perbiae, in quantum superbia distinguitur contra 
+      <lb ed="#R" n="110"/>alia, &amp; ideo superbia est vitium in irascibili. 
+      Va<lb ed="#R" n="111" break="no"/>nagloria autem non est audere: multi enim sunt 
+      <lb ed="#R" n="112"/>vanegloriosi, qui optant intense, &amp; tamen parum 
+      <lb ed="#R" n="113"/>audent assurgere. Imo sunt timidi valde, nec est 
+      <lb ed="#R" n="114"/>vanagloria in irascibili, vt dictum est. Ex quo 
+      pa<lb ed="#R" n="115" break="no"/>tet distinctio superbiae, &amp; vanagloriae, quoniam 
+      <lb ed="#R" n="116"/>Vanagloria appetit extimationem propriae ex- 
+     <!-- missing line break error -->cellentiae, sed superbia audet &amp; assurgit in eandem.
+   </p>
+               <p xml:id="olm8ij-f96108-d1e2744">
+                  <lb ed="#R" n="117"/>Quoad secundum, scilicet de Inani gloria quoad 
+      <lb ed="#R" n="118"/>esse morale, dico quod inanis gloria est 
+      pecca<lb ed="#R" n="119" break="no"/>tum mortale. Ad euidentiam tamen huius 
+      con<lb ed="#R" n="120" break="no"/>siderandum est, quod (vt alias dictum est) 
+      pecca<lb ed="#R" n="121" break="no"/>tum mortale, &amp; veniale non accipiuntur 
+      secun<lb ed="#R" n="122" break="no"/>dum intentionem, &amp; remissionem in actu, nec 
+      <lb ed="#R" n="123"/>etiam penes deliberationem, sed distinguuntur 
+      <lb ed="#R" n="124"/>penes deliberationem, sed distinguuntur penes 
+      <lb ed="#R" n="125"/>praestitutionem finis, quoniam actus peccati 
+      <lb ed="#R" n="126"/>mortalis concludit formaliter expresse, vel 
+      in<lb ed="#R" n="127" break="no"/>terpraetatiue finem praestitutum, qui includit 
+      vir<lb ed="#R" n="128" break="no"/>tualiter contemptum diuinorum mandatorum. 
+      <lb ed="#R" n="129"/>Vanagloriosus enim talem gloriam sibi 
+      praesti<lb ed="#R" n="130" break="no"/>tuit pro fine, &amp; pro assequendo finem istum non 
+      <lb ed="#R" n="131"/>vereretur venire contra diuina mandata. Quando 
+      <!--0323.xml-->
+      <pb ed="#R" n="323"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>ergo actus appetitus est talis, quod in tantum 
+      <lb ed="#R" n="2"/>fertur in gloriam, &amp; excellentiam, quod 
+      conti<lb ed="#R" n="3" break="no"/>net virtualiter, vel interpraetatiue contemptum 
+      <lb ed="#R" n="4"/>diuinorum mandatorum, tunc actus vanaegloriae 
+      <lb ed="#R" n="5"/>est peccatum mortale, aliter non: tunc enim 
+      auer<lb ed="#R" n="6" break="no"/>tit a regula prima humanorum actuum, quae est 
+      <lb ed="#R" n="7"/>voluntas diuina per praeceptum nobis expraessa, 
+      <lb ed="#R" n="8"/>&amp; quia pauci sunt, qui attingunt ad talem actum 
+      <lb ed="#R" n="9"/>vanaegloriae, hinc est, quod difficiliter 
+      cognoscun<lb ed="#R" n="10" break="no"/>tur actus eius, quando sit mortale, vel veniale. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e2807">
+                  <lb ed="#R" n="11"/>Secundo Dico, quod Vanagloria est prima 
+      <lb ed="#R" n="12"/>filia Superbiae, hoc patet per Gregorium vbi 
+      su<lb ed="#R" n="13" break="no"/>pra, qui ponit, quod septem peccata mortalia 
+      <lb ed="#R" n="14"/>sunt quasi duces sub vno principe, qui est 
+      super<lb ed="#R" n="15" break="no"/>bia, ex qua oritur vanagloria: hoc autem ideo est, 
+      <lb ed="#R" n="16"/>quia ex hoc, quod aliquis effrenate audet in 
+      ex<lb ed="#R" n="17" break="no"/>cellentiam, stante hoc ipso appetit tamen in 
+      tan<lb ed="#R" n="18" break="no"/>tum, vt non vereretur contemnere mandata. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e2827">
+                  <lb ed="#R" n="19"/>Tertio Dico, quod est peccatum capitale, 
+      <lb ed="#R" n="20"/>ratio huius est, quia ex eo oriuntur septem vitia, 
+      <lb ed="#R" n="21"/>&amp; peccata, quae multum apparent in hominis 
+      con<lb ed="#R" n="22" break="no"/>uersatione: &amp; vt videatur sufficientia, sciendum 
+      <lb ed="#R" n="23"/>est, quod omnis, qui appetit gloriam, considerat 
+      <lb ed="#R" n="24"/>ea, quae possunt illam procurate, &amp; secundo, quae 
+      <lb ed="#R" n="25"/>possunt impedire; ea autem quae possunt 
+      procu<lb ed="#R" n="26" break="no"/>rare illam, quaedam se tenent ex parte inte llectus, 
+      <lb ed="#R" n="27"/>quaedam ex parte vitae. Ex parte intellectus sunt 
+      <lb ed="#R" n="28"/>tria quae dant famam, &amp; aestimationem 
+      procu<lb ed="#R" n="29" break="no"/>rant, scilicet subtilitas, firmitas, &amp; claritas, ex 
+      <lb ed="#R" n="30"/>primo horum oritur in vanaglorioso praesumptio, 
+      <lb ed="#R" n="31"/>&amp; inuentio nouitatum, vt appareat subtilis: ex 
+      <lb ed="#R" n="32"/>parte vero firmitatis oritur pertinacia, vt 
+      re<lb ed="#R" n="33" break="no"/>putetur iudicium suum firmum &amp; bonum; sed ex 
+      <lb ed="#R" n="34"/>parte claritatis in agibilibus oritur inobedientia, 
+      <lb ed="#R" n="35"/>ex hoc quod nimis praesumit de ingenio ino, adeo 
+      <lb ed="#R" n="36"/>vt reputet omnibus praeualere. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e2870">
+                  <lb ed="#R" n="37"/>Secundo quaedam procurando gloriam, &amp; 
+      sa<lb ed="#R" n="38" break="no"/>mam se tenent ex parte voluntatis &amp; vitae, &amp; 
+      <lb ed="#R" n="39"/>hoc est in duplici genere, quia illa quae 
+      vi<lb ed="#R" n="40" break="no"/>tam extollunt &amp; sanctitatem, quaedam sunt in 
+      <lb ed="#R" n="41"/>ira, &amp; tunc oritur iactantia, quia appetit, vt sint 
+      <lb ed="#R" n="42"/>noua in hominum fama: quaedam vero non sunt 
+      <lb ed="#R" n="43"/>in re, &amp; circa illa versatur hypocrisis, quoniam 
+      <lb ed="#R" n="44"/>vult talis apparere illud, quod non est. Secundo 
+      <lb ed="#R" n="45"/>considerat vanagloriosus ea, quae habent famam 
+      <lb ed="#R" n="46"/>&amp; gloriam impedire, &amp; sic oriuntur alia duo 
+      pec<lb ed="#R" n="47" break="no"/>cata, scilicet contentiones, siue discordiae, &amp; 
+      ri<lb ed="#R" n="48" break="no"/>xae, contentiones quidem contra alium 
+      impedien<lb ed="#R" n="49" break="no"/>tem, &amp; hoc maxime est, quando videt alium 
+      asse<lb ed="#R" n="50" break="no"/>qui eundem finem, contendere enim idem est, 
+      <lb ed="#R" n="51"/>quod simul in idem tendere, &amp; ideo quando duo 
+      <lb ed="#R" n="52"/>tendunt in eundem finem, tunc vanagloriosus 
+      <lb ed="#R" n="53"/>adducit in opinione contentionem, &amp; in effectu 
+      <lb ed="#R" n="54"/>discordiam, &amp; per modum sequelae schismata, 
+      <lb ed="#R" n="55"/>rixas, &amp; huiusmodi.
+   </p>
+               <p xml:id="olm8ij-f96108-d1e2914">
+                  <lb ed="#R" n="56"/>Sciendum autem, quod licet hae septem filiae 
+      <!--0323.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="57"/>assignentur a Gregorio vbi supra, ille tamen non 
+      <lb ed="#R" n="58"/>accipit ita praecise, quin etiam plura alia 
+      orian<lb ed="#R" n="59" break="no"/>tur: vnde non est dubium, quod ex vanagloria 
+      <lb ed="#R" n="60"/>oritur ambitio, &amp; pompa, &amp; multa talia, &amp; 
+      <lb ed="#R" n="61"/>ideo ratio omnium, quae possunt ex vanagloria 
+      <lb ed="#R" n="62"/>oriri, per modum sufficientiae difficiliter potest 
+      <lb ed="#R" n="63"/>redd i. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e2938">
+                  <lb ed="#R" n="64"/>Nunc secundo de auaritia est videndum, &amp; 
+      <lb ed="#R" n="65"/>primo quoad esse naturale, &amp; dico, quod est actus 
+      <lb ed="#R" n="66"/>in concupiscibili, &amp; hoc respectu vtilis boni quoad 
+      <lb ed="#R" n="67"/>esse morale. Dico primo quod potest esse 
+      pecca<lb ed="#R" n="68" break="no"/>tum mortale, sicut dixi de vanagloria, quod est, 
+      <lb ed="#R" n="69"/>quando actus includit virtualiter contemptum 
+      <lb ed="#R" n="70"/>diuinorum mandatorum, quod est, quando actus 
+      <lb ed="#R" n="71"/>est cum tanta libidine, quod si decerneret 
+      man<lb ed="#R" n="72" break="no"/>datum diuinum non vereretur venire contra 
+      il<lb ed="#R" n="73" break="no"/>lud; dummodo posset consequi finem 
+      praestitu<lb ed="#R" n="74" break="no"/>tum: actus autem, quando est talis, potest satis 
+      qui<lb ed="#R" n="75" break="no"/>libet experiri in se; vt apparet in vsurario, &amp; 
+      la<lb ed="#R" n="76" break="no"/>trone satis manifeste. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e2969">
+                  <lb ed="#R" n="77"/>Dico secundo, quod est vitium capitale, nam 
+      <lb ed="#R" n="78"/>ex ipsa oriuntur quaedam peccata alia, scilicet 
+      <lb ed="#R" n="79"/>proditio, fraus, fallacia, periurium, 
+      inquietu<lb ed="#R" n="80" break="no"/>do mentis, obduratio contra misericordiam, 
+      ra<lb ed="#R" n="81" break="no"/>pina, vsura, &amp; alia multa: tamen Gregorius non 
+      <lb ed="#R" n="82"/>ponit, nisi septem: puto tamen, quod non 
+      exclu<lb ed="#R" n="83" break="no"/>sit alia. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e2987">
+                  <lb ed="#R" n="84"/>De peccato Inuidiae supra dictum est. 
+      Dicen<lb ed="#R" n="85" break="no"/>dum autem est de peccato Jrae. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e2994">
+                  <lb ed="#R" n="86"/>Et primo quoad esse naturale, est passio in 
+      ira<lb ed="#R" n="87" break="no"/>scibili, vnde actus eius non est formaliter 
+      appe<lb ed="#R" n="88" break="no"/>tere vindictam, sed est audere siue assurgere in 
+      <lb ed="#R" n="89"/>eam quoad esse morale. Dico, quod est peccatum 
+      <lb ed="#R" n="90"/>mortale, &amp; hoc modo quo dixi de alijs supra. 
+      <lb ed="#R" n="91"/>Secundo dixi, quod est capitale, ex ea enim oriun 
+      <lb ed="#R" n="92"/>tur septem alia vitia, quae sunt rancor, timor 
+      <lb ed="#R" n="93"/>cordis; rixae, contentiones &amp; alia, quae a 
+      Grego<lb ed="#R" n="94" break="no"/>rio assignantur vbi supra. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e3017">
+                  <lb ed="#R" n="95"/>Nunc de Accidia dico, quoad esse naturale, 
+      <lb ed="#R" n="96"/>quod illa est formaliter quaedam tristitia, &amp; 
+      di<lb ed="#R" n="97" break="no"/>stincta contra Inuidiam: est enim tristitia de 
+      bo<lb ed="#R" n="98" break="no"/>na operatione dictata a recta ratione, &amp; quaedam 
+      <lb ed="#R" n="99"/>displicentia, videlicet non venire in bonum hone. 
+      <lb ed="#R" n="100"/>stum, &amp; bonus rationis, puta, laetationem, &amp; 
+      ora<lb ed="#R" n="101" break="no"/>tionem, &amp; huiusmodi. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e3035">
+                  <lb ed="#R" n="102"/>Dico secundo, quod est capitale, nam ex eo 
+      <lb ed="#R" n="103"/>oriuntur multa alia, puta euagatio, 
+      pusillanimi<lb ed="#R" n="104" break="no"/>tas, desperatio, &amp; huiusmodi. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e3044">
+                  <lb ed="#R" n="105"/>De Gula autem &amp; Luxuria dimitto, satis enim 
+      <lb ed="#R" n="106"/>sunt manifesta. 
+   </p>
+               <p xml:id="olm8ij-f96108-d1e3051">
+                  <lb ed="#R" n="107"/>Ad argumentum in oppofitum dico, quod non 
+      <lb ed="#R" n="108"/>oportet, quod virtutes oppositae habeant tantam 
+      <lb ed="#R" n="109"/>principalitatem, tum quia non tantum inclinant 
+      <lb ed="#R" n="110"/>appetitum, &amp; ideo minus cadunt in 
+      conuersatio<lb ed="#R" n="111" break="no"/>ne humana; tum quia non sunt sic causa 
+      multo<lb ed="#R" n="112" break="no"/>rum aliorum: ergo.
+   </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

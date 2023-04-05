@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-05">April 05, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b2">Roma 1605, Book 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="258"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-f79695"><!-- l2d24-q1 -->
+            <head xml:id="olm8ij-f79695-Hd1e101">Quaestio 1</head>
+            <p xml:id="olm8ij-f79695-d1e103">
+               <lb ed="#R" n="10"/>QVAESTIO VNICA. 
+      <lb ed="#R" n="11"/>De Libero arbitrio, &amp; potentijs animae.
+  </p>
+            <p xml:id="olm8ij-f79695-d1e110">
+               <lb ed="#R" n="12"/>Verum diuisio illa partium animae, quam ponit Theologus, scilicet sensualitatum, 
+      libe<lb ed="#R" n="13" break="no"/>rum arbitrium, &amp; sinderesim, &amp; conscientiam, portionem superiorem, &amp; 
+      inferio<lb ed="#R" n="14" break="no"/>rem, sit diuisio Aristotelis. &amp; quod non, probo, Boetius enim dat, &amp; assignat tres 
+      <lb ed="#R" n="15"/>modos artificialium diuisionum, vna est vniuersalis in partes subiectiuas, alia est 
+      <lb ed="#R" n="16"/>totius integralis in partes suas, tertia vero in accidétia: sed diuisio praedicta non vi 
+      <lb ed="#R" n="17"/>detur contineri sub aliqua illarum: ergo non est artificialis. Probatio minoris, non est 
+      <lb ed="#R" n="18"/>enim diuisio totius in partes subiectiuas, quia tunc quaelibet illarum vvirium esset 
+      <lb ed="#R" n="19"/>anima, nec est totius integralis, quia anima est simplex, nec est subiecti in 
+      acciden<lb ed="#R" n="20" break="no"/>tia puta essentiae in suas potentias, quia tunc conscientia esset potentia, quod non 
+      <lb ed="#R" n="21"/>es verum, cum potentia sit incorruptibilis manente anima s conscientia autem 
+      quan<lb ed="#R" n="22" break="no"/>doque totaliter corrumpitur. 
+  </p>
+            <p xml:id="olm8ij-f79695-d1e136">
+               <lb ed="#R" n="23"/>Sed in oppositum est Magiser in littera, vbi pofita ista diuisione dicit concludendo hic 
+      <lb ed="#R" n="24"/>de partibus animae, &amp;c. Item Augustinus de quantitate animae dicit hanc 
+      diuisio<lb ed="#R" n="25" break="no"/>nem esse bonam.
+  </p>
+            <p xml:id="olm8ij-f79695-d1e145">
+      <!--0258.xml-->
+               <cb ed="#R" n="b"/>
+               <lb ed="#R" n="26"/>REspondeo hic pono ad 
+      ma<lb ed="#R" n="27" break="no"/>iorem euidentiam 
+      Propo<lb ed="#R" n="28" break="no"/>sitiones aliquas. Prima 
+      <lb ed="#R" n="29"/>est quantum ad liberum 
+      <lb ed="#R" n="30"/>arbitrium, &amp; dico, quod 
+      <lb ed="#R" n="31"/>liberum arbitrium non est 
+      <lb ed="#R" n="32"/>vna potentia, puta 
+      volun<lb ed="#R" n="33" break="no"/>tas sequens deliberatio. 
+      <lb ed="#R" n="34"/>nem, nec est illa voluntas, vt habens in virtute 
+      <lb ed="#R" n="35"/>actum potentiae inferioris, puta deliberationem; 
+      <lb ed="#R" n="36"/>nec est aliquis habitus; nec est intellectus &amp; 
+      vo<lb ed="#R" n="37" break="no"/>luntas simul, fed dico, quod est quaedam propria 
+      <lb ed="#R" n="38"/>passio totius hominis, consurgens ex 
+      connexio<lb ed="#R" n="39" break="no"/>ne duorum actuum intellectus scilicet, &amp; 
+      vo<lb ed="#R" n="40" break="no"/>luntatis. 
+   </p>
+            <p xml:id="olm8ij-f79695-d1e185">
+               <lb ed="#R" n="41"/>In hac totali Propositione sunt quatuor propo 
+      <lb ed="#R" n="42"/>sitiones partiales nega: iuae, &amp; vna affirmatiua 
+      <lb ed="#R" n="43"/>primo ergo probo negatiuas: Pono ergo primo, 
+      <lb ed="#R" n="44"/>quod liberum arbitrium non est vna potentia, 
+      si<lb ed="#R" n="45" break="no"/>ue illa potentia sit deliberatiua, siue sit voluntas 
+      <!--0258.xml-->
+      <cb ed="#R" n="c"/>
+               <lb ed="#R" n="46"/>sequens deliberationem. hanc pono propter 
+      opi<lb ed="#R" n="47" break="no"/>nionem quandam, quod liberum arbitrium est 
+      <lb ed="#R" n="48"/>voluntas, non quidem absolute sumpta, sed vt 
+      se<lb ed="#R" n="49" break="no"/>quens deliberationem. 
+   </p>
+            <p xml:id="olm8ij-f79695-d1e211">
+               <lb ed="#R" n="50"/>Hanc Propositionem pono oppositam, quam 
+      <lb ed="#R" n="51"/>probo: quoniam de ratione liberi arbitrij non est tan 
+      <lb ed="#R" n="52"/>tum libere velle, sed libere arbitrari, sicut. n. liberum 
+      <lb ed="#R" n="53"/>arbitrium vult libere, sic libere sententiat, Vnde 
+      <lb ed="#R" n="54"/>sententiare libere ita est actus intellectus prattici 
+      <lb ed="#R" n="55"/>sicut velle est actus voluntatis. &amp; confirmo hoc 
+      <lb ed="#R" n="56"/>per diffinitionem Magistri, quam ponit in litera, 
+      <lb ed="#R" n="57"/>qui dicit quod liberum arbitrium est facultas 
+      in<lb ed="#R" n="58" break="no"/>tellectus, &amp; voluntatis. Secundo dico, quod 
+      libe<lb ed="#R" n="59" break="no"/>rum arbitrium non est voluntas vt habens in vir. 
+      <lb ed="#R" n="60"/>tute actum potentiae deliberatiuum, hoc dico pro 
+      <lb ed="#R" n="61"/>pter opinionem quandam, quae dicit, quod 
+      ele<lb ed="#R" n="62" break="no"/>ctio, &amp; liberum arbitrium nominant voluntatem 
+      <lb ed="#R" n="63"/>vt habentem in virtute deliberationem praeceden 
+      <lb ed="#R" n="64"/>tem, vt sic liberum arbitrium sit conclusio conclu 
+      <lb ed="#R" n="65"/>sionis praecedentis vt virtualiter continetur vo- 
+      <!--0259.xml-->
+      <pb ed="#R" n="259"/>
+               <cb ed="#R" n="a"/>
+               <lb ed="#R" n="1"/>luntate. Contra, quaero quid intelligis per virtutem; 
+      <lb ed="#R" n="2"/>cum dicis voluntas vt continens in virtutes an intel 
+      <lb ed="#R" n="3"/>ligis per potentiam, &amp; tunc erunt duae potentiae sci 
+      <lb ed="#R" n="4"/>licet voluntas, &amp; illa virtus, at dicit virtus illa 
+      <lb ed="#R" n="5"/>actum vel habitum, vel accidens aliud, non actum, 
+      <lb ed="#R" n="6"/>quia liberum arbitrium est principium actus, nec 
+      <lb ed="#R" n="7"/>habitum, vt dicit opinio vltima, quod non sit 
+      ha<lb ed="#R" n="8" break="no"/>bitus, nec dicit accidens, quia non apparet, quod 
+      <lb ed="#R" n="9"/>accidens; nec tu assignas illud: ergo. 
+   </p>
+            <p xml:id="olm8ij-f79695-d1e274">
+               <lb ed="#R" n="10"/>Tertio dico, quod liberum arbitrium non 
+      di<lb ed="#R" n="11" break="no"/>cit habitum, quoniam de ratione habitus est, 
+      <lb ed="#R" n="12"/>quod habens operetur deter minare per ipsum, &amp; 
+      <lb ed="#R" n="13"/>hoc bene, si est habitus bonus, tel male, si habitus 
+      <lb ed="#R" n="14"/>malus per Philosophum in praedicamentis: sed libe 
+      <lb ed="#R" n="15"/>rum arbitrium se habet indifferenter ad 
+      age<lb ed="#R" n="16" break="no"/>re, &amp; non agere, &amp; indifferenter ad agere bene, 
+      <lb ed="#R" n="17"/>&amp; male: ergo.
+   </p>
+            <p xml:id="olm8ij-f79695-d1e294">
+               <lb ed="#R" n="18"/>Quarto dico, quod liberum arbitrium non est 
+      <lb ed="#R" n="19"/>intellectus, &amp; voluntas quoddam congregatum 
+      <lb ed="#R" n="20"/>&amp; coniunctum. Hoc probo, quia coniunctum, 
+      si<lb ed="#R" n="21" break="no"/>ue illud, quod dicit duo coniuncta non 
+      praedica<lb ed="#R" n="22" break="no"/>tur in obliquo de coniuncto, vt homo non est 
+      ali<lb ed="#R" n="23" break="no"/>quid coniuncti, sed secnndum Magistrum liberum 
+      <lb ed="#R" n="24"/>arbitrium praedicatur in obliquo coniuncto, seu 
+      <lb ed="#R" n="25"/>intellectu, &amp; voluntate. dicit enim Magister, quod 
+      <lb ed="#R" n="26"/>liberum arbitrium est facultas intellectus, &amp; 
+      vo<lb ed="#R" n="27" break="no"/>luntatis, sed est conditio quaeda in consurgens ex 
+      <lb ed="#R" n="28"/>vtroque. Jdeo pono Conclusionem affirmatiuam 
+      <lb ed="#R" n="29"/>quod sicut risibile sequitur apprehensionem 
+      in<lb ed="#R" n="30" break="no"/>tellectiuam, &amp; complexionem corporis, ita 
+      <lb ed="#R" n="31"/>quod nec est corpus, nec est anima, nec 
+      aggrega<lb ed="#R" n="32" break="no"/>tum ex vtroque, sed est aliquod consurgens ex 
+      <lb ed="#R" n="33"/>vtroque simul; sic ex connexione actuum 
+      intelle<lb ed="#R" n="34" break="no"/>ctus &amp; voluntatis oritur liberum arbitrium, vt 
+      <lb ed="#R" n="35"/>proprietas quaedam includens duo, scilicet actum 
+      <lb ed="#R" n="36"/>voluntatis &amp; arbitrium: &amp; ideo dicit actum 
+      in<lb ed="#R" n="37" break="no"/>tellectus, &amp; libertas est conditio resultans ex 
+      <lb ed="#R" n="38"/>vtroque, ita quod oportet necessario, quod vtrũ- 
+      <lb ed="#R" n="39"/>que sit liberum, &amp; quod habeamus libertatem 
+      re<lb ed="#R" n="40" break="no"/>spectu vtriusque. Probo quoniam si non esset 
+      <lb ed="#R" n="41"/>arbitrari, &amp; in potestate, etsi arbitrari non sit in 
+      <lb ed="#R" n="42"/>potestate nostra, tunc actus prudentiae, qui est sen 
+      <lb ed="#R" n="43"/>tentiare, dicere, &amp; vtile videre, de quo Aristot. 6. 
+      <lb ed="#R" n="44"/>Ethic. non esset in potestate nostra, cum tale 
+      vi<lb ed="#R" n="45" break="no"/>dere sit in intellectu formaliter, sed videre 
+      vlti<lb ed="#R" n="46" break="no"/>matum, quod est actus intellectiuus, non enuncia 
+      <lb ed="#R" n="47"/>tiuus, qualis est ille, bonum est ire ad Ecclesiam, 
+      <lb ed="#R" n="48"/>sed imperatus a voluntate &amp; determinatus, quod 
+      <lb ed="#R" n="49"/>est dicere, &amp; sententiare, fac hoc; hoc inquam 
+      <lb ed="#R" n="50"/>videre est necessario in potestate nostra alias 
+      <lb ed="#R" n="51"/>actus vltimatus prudentiae non esset in pote. 
+      <lb ed="#R" n="52"/>state nostra, quod est contra Philosophum 
+      <lb ed="#R" n="53"/>qui ponit prudentiam Virtutem moralem, &amp; 
+      <lb ed="#R" n="54"/>per consequens est habitus electiuus, quod 
+      <lb ed="#R" n="55"/>non esset, si non esset in potestate nostra. Et 
+      con<lb ed="#R" n="56" break="no"/>firmo, quia propter hoc fiunt praedicationes, 
+      <lb ed="#R" n="57"/>&amp; persuasiones, saepe enim contingit, quod 
+      illitte<lb ed="#R" n="58" break="no"/>ratus homo praedicat, &amp; mouet scientem, hoc non 
+      <lb ed="#R" n="59"/>facit (certum est) vt causet in eo siue informet 
+      iu<lb ed="#R" n="60" break="no"/>dicium enunciatiuum, quia in hoc illiteratus prae 
+      <lb ed="#R" n="61"/>cellit ipsum, igitur hoc est, vt informet iudicium, 
+      <lb ed="#R" n="62"/>&amp; determinet ipsum, vt fiat de non determinato 
+      <lb ed="#R" n="63"/>determinatum &amp; per hoc habeat rationem iudicij 
+      <lb ed="#R" n="64"/>vltimati imperari: Hinc est quod docilem 
+      voca<lb ed="#R" n="65" break="no"/>mus eum, qui habet conforme vltimatum iudicium 
+      <lb ed="#R" n="66"/>mnunciatiuum, quod sequitur naturam rei. Sic er 
+      <!--0259.xml-->
+      <cb ed="#R" n="b"/>
+               <lb ed="#R" n="67"/>go dico, quod tam iudicium, quam actus volunta 
+      <lb ed="#R" n="68"/>tis est liberum, vt sic libertas sit conditio 
+      vtrius<lb ed="#R" n="69" break="no"/>que, cum iudicium habeat, quod sit liberum 
+      in<lb ed="#R" n="70" break="no"/>quantum practicum est a voluntate determinate libere. 
+   </p>
+            <p xml:id="olm8ij-f79695-d1e416">
+               <lb ed="#R" n="71"/>Nunc secundo probo, quod liberum arbitrium 
+      <lb ed="#R" n="72"/>oriatur ex connexione duorum actuum sic. Jllud 
+      <lb ed="#R" n="73"/>oritur ex connexione duorum actuum, quod non 
+      <lb ed="#R" n="74"/>est vltimatio duorum illorum illa dempta, sed dem 
+      <lb ed="#R" n="75"/>pta coniunctione, siue actu voluntatis non est in 
+      <lb ed="#R" n="76"/>potestate nostra arbitrari, nec etiam velle est in 
+      <lb ed="#R" n="77"/>potestate nostra vsus liberi arbitrij, vt patet 
+      de<lb ed="#R" n="78" break="no"/>pueris, &amp; ebriosis, eodem modo e contrario si po 
+      <lb ed="#R" n="79"/>nas actum voluntatis iam non est in potesiate no 
+      <lb ed="#R" n="80"/>stra vsus arbitrij. Comparando autem intellectum 
+      <lb ed="#R" n="81"/>ad obiectum non habet aliud intellectus de 
+      vo<lb ed="#R" n="82" break="no"/>luntate: ergo oportet, quod libertas proueniat 
+      <lb ed="#R" n="83"/>sibi aliunde ab aliquo, quod determinat ad 
+      in<lb ed="#R" n="84" break="no"/>trinsece, illud autem est voluntas, vt alias 
+      pate<lb ed="#R" n="85" break="no"/>bit, voluntas dico, non mediate velle, sed vt est 
+      <lb ed="#R" n="86"/>prior ipso velle. Liberum igitur arbitrium dico, 
+      <lb ed="#R" n="87"/>quod est propriétas duarum potentiarum, sicut 
+      <lb ed="#R" n="88"/>est proprietas intellectus, quod possit 
+      ratiocina<lb ed="#R" n="89" break="no"/>ri, sic est proprietas intellectus, &amp; voluntatis, 
+      <lb ed="#R" n="90"/>vt concurrant, simul consurgit ex eis facultas, 
+      <lb ed="#R" n="91"/>quae est posse libere arbitrari, &amp; haec est libertas 
+      <lb ed="#R" n="92"/>arbitrij. 
+   </p>
+            <p xml:id="olm8ij-f79695-d1e466">
+               <lb ed="#R" n="93"/>Secunda Propositio est de sensualitate. Dico 
+      <lb ed="#R" n="94"/>ergo, quod sensualitas non est, nec nominat, nisi 
+      <lb ed="#R" n="95"/>potentiam aliquam apprehensiuam, nec etiam 
+      <lb ed="#R" n="96"/>appetitum exteriorem, qui vocatur appetitus 
+      <lb ed="#R" n="97"/>complantatus, sed nominat appetitum 
+      interio<lb ed="#R" n="98" break="no"/>rem, qui est potentia, &amp; virtus complantatiua 
+      <lb ed="#R" n="99"/>in corde, sicut in organo, &amp; in mente mouetur 
+      <lb ed="#R" n="100"/>ab extimatiua. 
+   </p>
+            <p xml:id="olm8ij-f79695-d1e487">
+               <lb ed="#R" n="101"/>Istas Propositiones per ordinem probo. Dico 
+      <lb ed="#R" n="102"/>primo, quod non est potentia apprehensiua: 
+      Ra<lb ed="#R" n="103" break="no"/>tio apparet, quia quando dicimus potentiam 
+      <lb ed="#R" n="104"/>peccantium sensualitatis semper referimus nos 
+      <lb ed="#R" n="105"/>ad appetitum sensitiuum, vel eius passionem. 
+   </p>
+            <p xml:id="olm8ij-f79695-d1e500">
+               <lb ed="#R" n="106"/>Dico secundo, quod nec appetitum 
+      exterio<lb ed="#R" n="107" break="no"/>rem; quodlibet enim sensitiuum particularium 
+      <lb ed="#R" n="108"/>consequitur proprius appetitus proueniens ex 
+      <lb ed="#R" n="109"/>propria qualitate, &amp; complexione orgaui illius. 
+   </p>
+            <p xml:id="olm8ij-f79695-d1e511">
+               <lb ed="#R" n="110"/>Dico tertio, quod nominat appetitum 
+      interio<lb ed="#R" n="111" break="no"/>rem. Vnde dicimus, quod fames, &amp; sitis sunt 
+      ap<lb ed="#R" n="112" break="no"/>petitus quidam, qui proueniunt ex tactu praecor 
+      <lb ed="#R" n="113"/>diorum. Est igitur virtus appositiua radicata in 
+      <lb ed="#R" n="114"/>corde quae mouetur extimatiua. Vbi 
+      consideran<lb ed="#R" n="115" break="no"/>dum est, quod cogitatiua, siue extimatiua appre 
+      <lb ed="#R" n="116"/>hendit conuenientia sensui exteriori, &amp; ex 
+      ap<lb ed="#R" n="117" break="no"/>prehensione illa statim mouetur cor, quandoq. se 
+      <lb ed="#R" n="118"/>cundum virtutem irascibilem, quandoque 
+      secun<lb ed="#R" n="119" break="no"/>dum virtutem concupiscibilem, secundum quod 
+      <lb ed="#R" n="120"/>occurrunt diuisae apprehensiones conuenientes, 
+      <lb ed="#R" n="121"/>siue sensui exteriori, siue interiori, cuiusmodi sūt 
+      <lb ed="#R" n="122"/>excellentia, &amp; amicitia, &amp; huiusmudi, respectu 
+      <lb ed="#R" n="123"/>quorum sunt passiones, &amp; appetitus. Ille ergo 
+      <lb ed="#R" n="124"/>appetitus, qui mouetur immediate ad talem 
+      ap<lb ed="#R" n="125" break="no"/>prehensionem, est subiectiue in corde, sicut patet 
+      <lb ed="#R" n="126"/>per Philosophum, &amp; Commentatorem 3. de 
+      ani<lb ed="#R" n="127" break="no"/>ma, ex quo patet, quod omnes passiones sunt 
+      su<lb ed="#R" n="128" break="no"/>biectiue in corde. 
+    </p>
+            <p xml:id="olm8ij-f79695-d1e555">
+       <!-- line break missing --> Dices: Verecundia est passio, &amp; tamen non est
+      <lb ed="#R" n="129"/> subiectiue in corde, sed in facie?
+   </p>
+            <p xml:id="olm8ij-f79695-d1e562">
+               <lb ed="#R" n="130"/>Respondeo dico, quod aliud est passio, aliud est 
+      <lb ed="#R" n="131"/>transmutatio realis facta in corpore a passione 
+      <!--0260.xml-->
+      <pb ed="#R" n="260"/>
+               <cb ed="#R" n="a"/>
+               <lb ed="#R" n="1"/>sicut sequela passionis, dico tunc, quod pasiio om 
+      <lb ed="#R" n="2"/>nis est subiectiue in corde, passiones autem corpo 
+      <lb ed="#R" n="3"/>rales, quae sunt transmutationes corporis, ex 
+      con<lb ed="#R" n="4" break="no"/>sequenti transferuntur ad alias partes corporis. 
+      <lb ed="#R" n="5"/>Ad propositum dico, quod verecundia est passio cordis, 
+      <lb ed="#R" n="6"/>&amp; subiectiue in corde; facta autem huiusmodi passio 
+      <lb ed="#R" n="7"/>ne in corde, cor emittit sanguinem ad exteriora 
+      <lb ed="#R" n="8"/>maxime ad faciem, &amp; tunc ex hoc sequitur 
+      ru<lb ed="#R" n="9" break="no"/>bor in ipsa facie. Eodem modo tumor est passio 
+      <lb ed="#R" n="10"/>cordis, quae est formaliter quaedam cordis 
+      dire<lb ed="#R" n="11" break="no"/>ctio, ideo sequitur conformis passio in facie, quae 
+      <lb ed="#R" n="12"/>est transmutatio corporalis, &amp; ideo fit pallor in 
+      <lb ed="#R" n="13"/>facie. Gaudium isimiliter est cordis passio, quia di 
+      <lb ed="#R" n="14"/>latatur cor, &amp; inde deriuatur consimilis passio 
+      <lb ed="#R" n="15"/>ad alia membra transmutatio, propter quod in 
+      <lb ed="#R" n="16"/>gaudio fac ies dilatatur. Dico ergo quod sensuali 
+      <lb ed="#R" n="17"/>tas, de qua est nunc sermo, est huiusmodi 
+      appeti<lb ed="#R" n="18" break="no"/>tus existens obiectiue in corde, de quo sint 
+      om<lb ed="#R" n="19" break="no"/>nes passiones sensuales subiectiue, hoc est 
+      appeti<lb ed="#R" n="20" break="no"/>tus, quod vocat Aristoteles obediens rationi, siue 
+      <lb ed="#R" n="21"/>aptum natum obedire rationi, &amp; quandoque 
+      vi<lb ed="#R" n="22" break="no"/>ctus a passione fit inobediens rationi, &amp; tunc 
+      di<lb ed="#R" n="23" break="no"/>citur sensualitas, &amp; asũmilatur serpenti, quia ideo 
+      <lb ed="#R" n="24"/>quod habet calide attrahere rationem ad 
+      illimi<lb ed="#R" n="25" break="no"/>tata, &amp; suadere ei. 
+   </p>
+            <p xml:id="olm8ij-f79695-d1e630">
+               <lb ed="#R" n="26"/>Tertia propositio est de portione superiori, &amp; 
+      in<lb ed="#R" n="27" break="no"/>feriori, vbi considerandum est, quod portio 
+      su<lb ed="#R" n="28" break="no"/>perior, &amp; inferior non sunt diuisae poten tiae; nec 
+      <lb ed="#R" n="29"/>sunt habitus in potentijs, nec modi aliqui 
+      poten<lb ed="#R" n="30" break="no"/>tiarum, nec sunt actus earum, sed dicunt, &amp; 
+      nomi<lb ed="#R" n="31" break="no"/>nant eandem potentiam in ordine ad alia, &amp; alia 
+      <lb ed="#R" n="32"/>obiecta siue ab actibus diuersorum modorum. Di 
+      <lb ed="#R" n="33"/>co, quod non sunt duae potentiae, non enim sunt ni 
+      <lb ed="#R" n="34"/>si vnus intellectus, vt diuersimode respicit aeterna 
+      <lb ed="#R" n="35"/>speculabilia, &amp; inferiora practica; est eadem 
+      po<lb ed="#R" n="36" break="no"/>tentia, quae vt respicit aeterna pure speculabilia, 
+      <lb ed="#R" n="37"/>dicitur portio superior, vt vero respicit 
+      tempora<lb ed="#R" n="38" break="no"/>lia practica inferiora, dicitur portio inferior.
+   </p>
+            <p xml:id="olm8ij-f79695-d1e662">
+               <lb ed="#R" n="39"/>Dico etiam, quod portio superior, &amp; inferior 
+      <lb ed="#R" n="40"/>non denominant habitus, non enim habitus faciunt 
+      <lb ed="#R" n="41"/>diuerfitatem illam, quae attribuitur portioni supe 
+      <lb ed="#R" n="42"/>riori, &amp; inferiori. 
+   </p>
+            <p xml:id="olm8ij-f79695-d1e673">
+               <lb ed="#R" n="43"/>Dico tertio, quod portio superior, &amp; inferior 
+      <lb ed="#R" n="44"/>non distinguuntur paenes diuersa media, hoc dico 
+      <lb ed="#R" n="45"/>propter opinionem quamdam, quae dicit, quod 
+      <lb ed="#R" n="46"/>sunt eadem potentia, &amp; idem actus specie, immo 
+      <lb ed="#R" n="47"/>numero, variatus solum per diuersa media, per 
+      <lb ed="#R" n="48"/>quae potest diuersimode inferri, verbi gratia 
+      di<lb ed="#R" n="49" break="no"/>cendo actus: non occides, potest inferri per medium 
+      <lb ed="#R" n="50"/>de genere superiorum puta per diuina, dicendo, 
+      <lb ed="#R" n="51"/>Deum offendere malum est, haec potest etiam 
+      in<lb ed="#R" n="52" break="no"/>ferri &amp; per medium inferius pertinens ad 
+      tem<lb ed="#R" n="53" break="no"/>poralia, Verbi gratia dicendo, si: Occidis, suspende 
+      <lb ed="#R" n="54"/>ris vel exulabis, vel amittes amicitiam siue posses 
+      <lb ed="#R" n="55"/>sionem. Hic autem modus dicendi etsi 
+      particula<lb ed="#R" n="56" break="no"/>riter dicat vnum, tamen adhuc non satisfacit, 
+      <lb ed="#R" n="57"/>nam portio inferior in plus se habet, quam esse 
+      <lb ed="#R" n="58"/>circa practica, potest enim esse circa speculatiua, 
+      <lb ed="#R" n="59"/>quod patet, quia Augustinus ponit sapientiam 
+      <lb ed="#R" n="60"/>in portione inferiorit ergo non videretur, quod 
+      <lb ed="#R" n="61"/>illud dictum sit conuenienter. Jdeo dico, sicut 
+      di<lb ed="#R" n="62" break="no"/>cunt antiqui, quod portio superior, &amp; inferior 
+      <lb ed="#R" n="63"/>dist inguuntur penes officia. Vbi considerandum 
+      <lb ed="#R" n="64"/>est, quod aeterna, &amp; temporalia, licet non 
+      va<lb ed="#R" n="65" break="no"/>rient formalem rem obiectorum, tamen variant 
+      <lb ed="#R" n="66"/>rationem modorum. Vnde Philosophus 6. Ethic. 
+      <!--0260.xml-->
+      <cb ed="#R" n="b"/>
+               <lb ed="#R" n="67"/>vbi diuidit partes animae in speculatiuum, &amp; con 
+      <lb ed="#R" n="68"/>siliatiuum, dicit, quod speculatiuuum est circa 
+      <lb ed="#R" n="69"/>aeterna, consiliatiuum vero circa speculabilia, &amp; 
+      <lb ed="#R" n="70"/>Jdeo intellectus vt infertur speculando circa aeter 
+      <lb ed="#R" n="71"/>na dicitur portio superior, vt vero fertur conside 
+      <lb ed="#R" n="72"/>rando circa temporalia, dicitur portio inferior. Et 
+      <lb ed="#R" n="73"/>quia speculatiuum dirigit consiliatiuum, ideo 
+      <lb ed="#R" n="74"/>portio superior dirigit portionem inferiorem, vt 
+      <lb ed="#R" n="75"/>sic portio superior habeat rationem finis; Nam 
+      <lb ed="#R" n="76"/>aeterna cum hoc, quod habent rationem 
+      specula<lb ed="#R" n="77" break="no"/>tiui, habent etiam rationem prioris directiui; sic 
+      <lb ed="#R" n="78"/>ergo portio superior, &amp; inferior nominant 
+      intel<lb ed="#R" n="79" break="no"/>lectum per duas facies, &amp; notitias vt dictum est. 
+      <lb ed="#R" n="80"/>Sciendum est etiam, quod portio superior, &amp; infe 
+      <lb ed="#R" n="81"/>rior non tantummodo distinguunt intellectum, sed 
+      <lb ed="#R" n="82"/>etiam alias potentias, vnde Augustinus 
+      portio<lb ed="#R" n="83" break="no"/>nem superiorem atttribuit voluntati, &amp; 
+      memo<lb ed="#R" n="84" break="no"/>riae, vt dicatur voluntas superior, vt natura liter 
+      <lb ed="#R" n="85"/>aeterna inferior vt vult temporanea, &amp; in 
+      volen<lb ed="#R" n="86" break="no"/>do ea regulatur per aeterna. Sic etiam dico de me 
+      <lb ed="#R" n="87"/>moria, &amp; sic totus homo secundum vnum 
+      mo<lb ed="#R" n="88" break="no"/>dum intelligendo memorando, &amp; volendo 
+      aeter<lb ed="#R" n="89" break="no"/>na dicitur portio superior, Jdem vero totus 
+      ho<lb ed="#R" n="90" break="no"/>mo intelligendo memorando, &amp; volendo 
+      tempo<lb ed="#R" n="91" break="no"/>ranea dicitur facies, &amp; portio inferior. 
+   </p>
+            <p xml:id="olm8ij-f79695-d1e786">
+               <lb ed="#R" n="92"/>Quarta propositio est de conscientia &amp; 
+      synde<lb ed="#R" n="93" break="no"/>resi, dico enim, quod conscientia, &amp; sinderesis 
+      <lb ed="#R" n="94"/>possunt tantum nominare actum vel habitum4. 
+      <lb ed="#R" n="95"/>Et quando dicunt actum, non dicunt actum 
+      <lb ed="#R" n="96"/>tantummodo intellectus vel voluntatis, sed 
+      <lb ed="#R" n="97"/>dicunt actum vnius altero necessario concur. 
+      <lb ed="#R" n="98"/>rente: Vnde dicunt necessario actum 
+      intel<lb ed="#R" n="99" break="no"/>lectus concurrente tamen voluntate. Hoc dico 
+      <lb ed="#R" n="100"/>propter quamdam opinionem, dicunt enim 
+      qui<lb ed="#R" n="101" break="no"/>dam, quod conscientia, &amp; sinderesis vere dicit ha 
+      <lb ed="#R" n="102"/>bitum, sed haec opinio non habet apparentiam. 
+      <lb ed="#R" n="103"/>Nam certum est, quod dormiens dicitur habere 
+      <lb ed="#R" n="104"/>conscientiam, sicut &amp; sinderesim, &amp; tamen non 
+      <lb ed="#R" n="105"/>habet actum: ergo tam conscientia quam sindere 
+      <lb ed="#R" n="106"/>sis videtur importare habitum. Dico vlterius 
+      <lb ed="#R" n="107"/>quod non nominat habitum pertinentem 
+      simpli<lb ed="#R" n="108" break="no"/>citer ad voluntatem subiectine, hoc dico propter 
+      <lb ed="#R" n="109"/>alios qui dicunt, quod pertinet habitus ille ad vo 
+      <lb ed="#R" n="110"/>luntatem praecise, &amp; ratio eorum est, quia 
+      remor<lb ed="#R" n="111" break="no"/>dere videtur esse actus pertinens ad voluntatem 
+      <lb ed="#R" n="112"/>remordere videtur esse quoddam moueri, sed 
+      <lb ed="#R" n="113"/>mouere pertinet ad voluntatem, sed actus 
+      con<lb ed="#R" n="114" break="no"/>scientiae, &amp; sinderesis videtur esse quoddam 
+      re<lb ed="#R" n="115" break="no"/>mordere: ergo. 
+   </p>
+            <p xml:id="olm8ij-f79695-d1e841">
+               <lb ed="#R" n="116"/>Et confirmatur, quia multi magni clerici 
+      ha<lb ed="#R" n="117" break="no"/>bent iudicium intellectus perspicacissimum, &amp; 
+      <lb ed="#R" n="118"/>bonum, qui tamen modicum vel nihil habent de 
+      <lb ed="#R" n="119"/>conscientia; cuius oppositum esset si conscientia 
+      <lb ed="#R" n="120"/>esset actus intellectus. 
+   </p>
+            <p xml:id="olm8ij-f79695-d1e854">
+               <lb ed="#R" n="121"/>Contra opinionem illam arguo, quia 
+      repre<lb ed="#R" n="122" break="no"/>hendere videtur esse actus intellectus. Non enim 
+      <lb ed="#R" n="123"/>videtur esse reprehendere aliud, quam vitium 
+      de<lb ed="#R" n="124" break="no"/>testatiue ostendere; similiter accusare 
+      testamen<lb ed="#R" n="125" break="no"/>tum, omnes isti actus sunt intellectus, qui tamen 
+      <lb ed="#R" n="126"/>sunt actus conscientiae.
+   </p>
+            <p xml:id="olm8ij-f79695-d1e870">
+               <lb ed="#R" n="127"/>Dico igitur, quod sicut prudentia est subiectiue 
+      <lb ed="#R" n="128"/>in intellectu concomitatiue autem est in 
+      volunta<lb ed="#R" n="129" break="no"/>te oportet enim ad hoc quod in voluntate sit 
+      bo<lb ed="#R" n="130" break="no"/>num videre, &amp; bonum sententiare, quod in volun 
+      <lb ed="#R" n="131"/>tate sit conformis motus, alias posset aliquis esse 
+      <lb ed="#R" n="132"/>prudens bene sententiando, &amp; tamen male eligen 
+      <!--0261.xml-->
+      <pb ed="#R" n="261"/>
+               <cb ed="#R" n="a"/>
+               <lb ed="#R" n="1"/>do, &amp; ideo rectitudo prudentiae in intellectu neces 
+      <lb ed="#R" n="2"/>sario exigit rectitudin em voluntatis. sic in propo 
+      <lb ed="#R" n="3"/>sito dico conscientia enim est subiectiue in 
+      intel<lb ed="#R" n="4" break="no"/>lectu, communicatiue tamen, &amp; exigitiue in 
+      vo<lb ed="#R" n="5" break="no"/>luntare, ita quod necessario habet motum confor 
+      <lb ed="#R" n="6"/>mem in voluntate, ita quod conscientia recta est: 
+      <lb ed="#R" n="7"/>rectitudo quaedam intellectus, &amp; concomitanter 
+      <lb ed="#R" n="8"/>est rectitudo voluntatis; conscientia vero 
+      obli<lb ed="#R" n="9" break="no"/>qua est obliquitas intellectus, &amp; 
+      concomitatiue<lb ed="#R" n="10" break="no"/>est obliquitas in voluntate Sed quid est 
+      formali<lb ed="#R" n="11" break="no"/>ter conscientia in intellectu, &amp; quid sinderesis? 
+      <lb ed="#R" n="12"/>Dico quod Synderesis non est aliud quam lumen 
+      <lb ed="#R" n="13"/>quoddam, &amp; rectum iudicium de primis 
+      praece<lb ed="#R" n="14" break="no"/>ptis, &amp; de his, quae sequuntur manifeste, &amp; 
+      imme<lb ed="#R" n="15" break="no"/>diate ex illis, quale est hoc primum: Quodcunque 
+      <lb ed="#R" n="16"/>vultis, quod faciant vobis homines, facite illis, 
+      <lb ed="#R" n="17"/>quod ponit Christus in Euangelio. 
+   </p>
+            <p xml:id="olm8ij-f79695-d1e930">
+               <lb ed="#R" n="18"/>Similiter ea, quae ponuntur manifeste ex eo, 
+      si<lb ed="#R" n="19" break="no"/>cut est forte ad tale iudicium rectum in principijs 
+      <lb ed="#R" n="20"/>agibilium, &amp; quae manifeste sequuntur ex illis 
+      po<lb ed="#R" n="21" break="no"/>test dici sinderesis, &amp; haec est subiectiue in 
+      intelle<lb ed="#R" n="22" break="no"/>ctu, sicut actus iudicij est subiectiue in eo. 
+   </p>
+            <p xml:id="olm8ij-f79695-d1e943">
+               <lb ed="#R" n="23"/>Ad hoc tamen, quod talis habitus sit in 
+      in<lb ed="#R" n="24" break="no"/>tellectu, oportet, quod aliquid sit 
+      proportio<lb ed="#R" n="25" break="no"/>nabiliter in voluntate, sicut ad hoc, quod sit videre 
+      <lb ed="#R" n="26"/>rectum in intellectu oportet, quod adsit aliquis 
+      <lb ed="#R" n="27"/>conformis actus in voluntate, &amp; ratio huiusmodi 
+      <lb ed="#R" n="28"/>potest esse, quoniam qualis est vniusquisque, talia 
+      <lb ed="#R" n="29"/>sibij&amp; alia videntur 3. Ethic. ideo qui habet volun 
+      <lb ed="#R" n="30"/>tatem, necessario eius iudicium quandoq. subuertitur 
+      <lb ed="#R" n="31"/>sicut dicit Aristoteles 6. Ethic. de dicentibus Em 
+      <lb ed="#R" n="32"/>pedoclem, quod, quod talia dicunt ore non corde 
+      <lb ed="#R" n="33"/>sic dico de conscientia. Hinc est, quod multi sunt: 
+      <lb ed="#R" n="34"/>valde prudentes et optimi iudicij, qui tamen 
+      <lb ed="#R" n="35"/>sunt malae conscientiae. Vnde qui enuntiant non 
+      <lb ed="#R" n="36"/>furandum, &amp; tamen furari eligunt, sunt similes 
+      <lb ed="#R" n="37"/>pueris, qui dicunt Empedoclem, peruersa. n.electio 
+      <lb ed="#R" n="38"/>peruertit iudicium, &amp; hinc est, quod omnis malus 
+      <lb ed="#R" n="39"/>est ignorans 3. Ethic. Sic ergo patet quid est sinde 
+      <lb ed="#R" n="40"/>resis, quia est habitus subiectiue in intellectu, quo 
+      <lb ed="#R" n="41"/>recte iudicamus de principijs agibilium, agens 
+      <lb ed="#R" n="42"/>necessario aliquid conforme in voluntate. 
+   </p>
+            <p xml:id="olm8ij-f79695-d1e989">
+               <lb ed="#R" n="43"/>Nunc de Conscientia dico, quod conscientia 
+      <lb ed="#R" n="44"/>est conclusio illata ex synderesi existens in 
+      intel<lb ed="#R" n="45" break="no"/>lectu coassumpta cum alia propositione a memoria 
+      <lb ed="#R" n="46"/>praeteritorum. Vnde sinderesis dicit, malum est fu 
+      <lb ed="#R" n="47"/>rari, tunc memoria praestat propositionem illam, 
+      <lb ed="#R" n="48"/>tu furatus es, &amp; statim conscientia infert, ergo tu 
+      <lb ed="#R" n="49"/>egisti malum. Conscientia ergo est actus talis con 
+      <lb ed="#R" n="50"/>clusionis illatae, sed conscientiae habitus est 
+      habi<lb ed="#R" n="51" break="no"/>litas qua inclinamur ad conclusionem fic illatam 
+      <lb ed="#R" n="52"/>vt illatam a principio. Dico ergo quod ad hoc, 
+      <lb ed="#R" n="53"/>quod conclusio sit talis recta in intellectu, 
+      requi<lb ed="#R" n="54" break="no"/>ritur necessario aliquid conforme in voluntate. 
+      <lb ed="#R" n="55"/>Nam practicum illud sic illatum est remordens, 
+      <lb ed="#R" n="56"/>sed non esset remordens nisi esset aliqua 
+      concor<lb ed="#R" n="57" break="no"/>dia voluntatis approbantis, &amp; maiorem, &amp; 
+      mino<lb ed="#R" n="58" break="no"/>rem, &amp; conclusionem: dico tunc quod tam 
+      sinde<lb ed="#R" n="59" break="no"/>resis quam constientia vtrumque potest nomi- 
+      <!--0261.xml-->
+      <cb ed="#R" n="b"/>
+               <lb ed="#R" n="60"/>nare tam actum quam habitum existentem 
+      for<lb ed="#R" n="61" break="no"/>maliter in intellectu, communicatiue autem in 
+      vo<lb ed="#R" n="62" break="no"/>luntate, pip quanto exigit necessario aliquid con 
+      <lb ed="#R" n="63"/>forma a parte voluntatis. 
+   </p>
+            <p xml:id="olm8ij-f79695-d1e1041">
+               <lb ed="#R" n="64"/>Vltimo ad punctum quaestionis est quaerendũ; 
+      <lb ed="#R" n="65"/>An diuisib potentlarum animae graenominata sit 
+      <lb ed="#R" n="66"/>artificialis. 
+   </p>
+            <p xml:id="olm8ij-f79695-d1e1050">
+               <lb ed="#R" n="67"/>Respondeo dico, quod sic, ratio est 
+      Vnusquis<lb ed="#R" n="68" break="no"/>que artifex intendens de anima, &amp; partibus eius, in 
+      <lb ed="#R" n="69"/>tantum intendit artificialiter de ipsis, in quantum 
+      <lb ed="#R" n="70"/>pertinet ad suum propositum. Vnde dicitur in 
+      fi<lb ed="#R" n="71" break="no"/>ne, quod tractans de virtute in tantum habet 
+      tra<lb ed="#R" n="72" break="no"/>ctare de partibus ammae, in quantum spectat ad 
+      <lb ed="#R" n="73"/>suum propositum de virtutibus. Theologus autem 
+      <lb ed="#R" n="74"/>rtactat de merito, &amp; de demerito actus animae, 
+      si<lb ed="#R" n="75" break="no"/>cut moralis de moralitate actus: ergo ad eum 
+      <lb ed="#R" n="76"/>pertinet tractare de potentijs animae, inquantum 
+      <lb ed="#R" n="77"/>in eis existit meritum, &amp; demeritum. &amp; quia 
+      ar<lb ed="#R" n="78" break="no"/>tificialis diuisio debet sumi penes 
+      consideratio<lb ed="#R" n="79" break="no"/>nem principalem, ideo debet Thologus diuidere 
+      <lb ed="#R" n="80"/>potentias animae in ordine ad meritum, &amp; 
+      deme<lb ed="#R" n="81" break="no"/>rium : &amp; quia ad meritum, &amp; demeritum 
+      requi<lb ed="#R" n="82" break="no"/>ritur dominium actus, ideo capit inter potentias 
+      <lb ed="#R" n="83"/>animae primo liberum arbitrium, quo sumus 
+      do<lb ed="#R" n="84" break="no"/>mini actuum nostrorum, &amp; quia secundo 
+      suppo<lb ed="#R" n="85" break="no"/>sito libero arbitrio considerat processum mixti, 
+      <lb ed="#R" n="86"/>qui oritur ex natura primorum principiorum 
+      <lb ed="#R" n="87"/>practicorum, quae est synderesis, &amp; applicatio 
+      <lb ed="#R" n="88"/>ad conclusiosiem cum altera propositione 
+      coas<lb ed="#R" n="89" break="no"/>sumpta, quod facit conscientia, ideo 
+      conuemen<lb ed="#R" n="90" break="no"/>ter diuidit alias duas partes amimae, scilieet in con 
+      <lb ed="#R" n="91"/>scientiam, &amp; sinderesim. Ex parte autem demeriti 
+      <lb ed="#R" n="92"/>primorum parentum, ibi enim primo serpens mo 
+      <lb ed="#R" n="93"/>uens, &amp; suadens, secundo fuit mulier annuens vel 
+      <lb ed="#R" n="94"/>amittens, &amp; tertio vir approbans, &amp; consentiens, 
+      <lb ed="#R" n="95"/>&amp; ibi peccatum fuit consummatum: sic ratione 
+      <lb ed="#R" n="96"/>in nobis procedit demeritum, quia primo est 
+      sen<lb ed="#R" n="97" break="no"/>sualitas persuadens, quae est quasi serpens 
+      conti<lb ed="#R" n="98" break="no"/>nue mouens ad malum, illa sensualitas mouet 
+      in<lb ed="#R" n="99" break="no"/>tellectum vt respicit inferiora, qui vt sic dicitur 
+      <lb ed="#R" n="100"/>portio inferior, &amp; est intellectus; vt respicit 
+      <lb ed="#R" n="101"/>inferiora mulier, quia est aptus natus cito, &amp; 
+      <lb ed="#R" n="102"/>magis concuti a serpente, idest, 
+      sensualita<lb ed="#R" n="103" break="no"/>te; tunc tertio intellectus, vt sic motus circa 
+      <lb ed="#R" n="104"/>inseriora emittit perfuasionem, &amp; tunc 
+      sua<lb ed="#R" n="105" break="no"/>det sibi ipsi, vt respicit superiora, quod 
+      transgre<lb ed="#R" n="106" break="no"/>diatur mandata Dei, &amp; leges aeternas, &amp; tunc 
+      ra<lb ed="#R" n="107" break="no"/>tio consentit, &amp; est peccatum consummatum. 
+      <lb ed="#R" n="108"/>&amp; propter hoc Theologus accipit inter potentias 
+      <lb ed="#R" n="109"/>animae sensualitatem, rationem superiorem, &amp; in 
+      <lb ed="#R" n="110"/>feriorem: ergo artificialiter determinat, siue diui 
+      <lb ed="#R" n="111"/>dit has potentias, quantum spectat ad suum 
+      <lb ed="#R" n="112"/>propositum. Hinc est quod AIstotoles aliam, &amp; 
+      <lb ed="#R" n="113"/>aliam diuisionem dat de potentijs animae in lib. 
+      <lb ed="#R" n="114"/>Ethic. vbi determinat de anima in ordine ad vit 
+      <lb ed="#R" n="115"/>tutes, &amp; aliam in lib. de anima, vbi determinat 
+      <lb ed="#R" n="116"/>de ea absolute. Ad argumentum in oppositum 
+      <lb ed="#R" n="117"/>paret ex dictis. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

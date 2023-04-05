@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-05">April 05, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b2">Roma 1605, Book 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="83"/>
+            <cb ed="#R" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-f25949"><!-- l2d6-q1 -->
+            <head xml:id="olm8ij-f25949-Hd1e101">Quaestio 1</head>
+            <p xml:id="olm8ij-f25949-d1e103">
+               <lb ed="#R" n="11"/>QVAESTIO VNICA. 
+      <!--0083.xml-->
+      <cb ed="#R" n="b"/>
+               <lb ed="#R" n="12"/>1Vtrum peccatum Angeli fuerit superbia. 
+      <lb ed="#R" n="13"/>a Vtrum Angelus malus potuerit appetere Dei 
+      <lb ed="#R" n="14"/>aequalitatem? 
+   </p>
+            <div xml:id="olm8ij-f25949-Dd1e119">
+               <head xml:id="olm8ij-f25949-Hd1e121">Articulus 1</head>
+               <head xml:id="olm8ij-f25949-Hd1e123" type="question-title">
+      Utrum primum peccatum Angeli fuerit Superbia
+    </head>
+               <p xml:id="olm8ij-f25949-d1e126">
+                  <lb ed="#R" n="15"/>ARTJCVLVS J. 
+      <lb ed="#R" n="16"/>Vtrum primum peccatum Angeli fuerit 
+      <lb ed="#R" n="17"/>Superbia. 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e135">
+                  <lb ed="#R" n="18"/>QVANTVM ad primam 
+      <lb ed="#R" n="19"/>arguo primo, quod 
+      pri<lb ed="#R" n="20" break="no"/>mum peccatum Angeli non 
+      <lb ed="#R" n="21"/>fuerit Superbia. Quoniam 
+      <lb ed="#R" n="22"/>passiones sunt concupiscibi 
+      <lb ed="#R" n="23"/>les: ergo actus inordinatus 
+      <lb ed="#R" n="24"/>in irascibili praesupponit 
+      <lb ed="#R" n="25"/>actum inordinatum in cō 
+      <lb ed="#R" n="26"/>cupiscibili: sed superbia est actus, vel passio 
+      <lb ed="#R" n="27"/>irascibilis. Est enim erigere se supra omnes: 
+      <lb ed="#R" n="28"/>ergo praesupponebat in Angelo passionem, siue 
+      <lb ed="#R" n="29"/>actum concupiscibilem: non ergo primum 
+      pec<lb ed="#R" n="30" break="no"/>catum Angeli erat Superbia. 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e166">
+                  <lb ed="#R" n="31"/>In oppositum est illud Isaiae: In caelum 
+      ascen<lb ed="#R" n="32" break="no"/>dam, &amp; c. vbi loquitur de peccato Luciseri.
+   </p>
+               <p xml:id="olm8ij-f25949-d1e174">
+                  <lb ed="#R" n="33"/>Respondeo primo ponam duas opiniones, &amp; 
+      <lb ed="#R" n="34"/>secundo mediabo inter illas per duas 
+      propo<lb ed="#R" n="35" break="no"/>sitiones. 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e183">
+                  <lb ed="#R" n="36"/>Prima opinio est, quod primum peccatum 
+      <lb ed="#R" n="37"/>Angeli fuit formaliter superbia, vt superbia est 
+      <lb ed="#R" n="38"/>peccatum speciale, Quia inordinatus appetitus 
+      <lb ed="#R" n="39"/>propriae excellentiae est formaliter superbia: sed 
+      <lb ed="#R" n="40"/>primus inordinatus Angeli fuit appetitus 
+      pro<lb ed="#R" n="41" break="no"/>priae excellentiae: ergo. 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e199">
+                  <lb ed="#R" n="42"/>Maior probatur. Ad cuius euidentiam 
+      scien<lb ed="#R" n="43" break="no"/>dum est, quod superbia accipitur tripliciter, vno 
+      <lb ed="#R" n="44"/>modo pro naturali inclinatione, quae sequitur 
+      <lb ed="#R" n="45"/>complexionem, vel habitum, vel formalitatem; 
+      si<lb ed="#R" n="46" break="no"/>cut aliqui sunt naturaliter inclinati ad excellen- 
+      <!--0083.xml-->
+      <cb ed="#R" n="c"/>
+                  <lb ed="#R" n="47"/>tiam. Secundo modo pro actu appetitus 
+      inordi<lb ed="#R" n="48" break="no"/>nato, quod est efferre se inordinate per contem 
+      <lb ed="#R" n="49"/>ptum superioris, proijciendo se extra 
+      subiectio<lb ed="#R" n="50" break="no"/>nem per contemptum praecepti maxime a Deo, 
+      <lb ed="#R" n="51"/>&amp; hoc modo superbia est communis omni pecca 
+      <lb ed="#R" n="52"/>to, quia hoc modo superbia est auersio 
+      forma<lb ed="#R" n="53" break="no"/>liter a Deo. Tertio modo potest accipi pro 
+      in<lb ed="#R" n="54" break="no"/>ordinato appetitu dominij, vel honoris, siue 
+      al<lb ed="#R" n="55" break="no"/>terius excellentiae; Primo modo non est 
+      spe<lb ed="#R" n="56" break="no"/>ciale peccatum condiuisum contra alia, 
+      im<lb ed="#R" n="57" break="no"/>mo nec est actus elicitus, sed quaedam tantum 
+      <lb ed="#R" n="58"/>inclinatio habitualis naturae, siue fomes. Secun 
+      <lb ed="#R" n="59"/>do modo superbia est communis omni peccato, 
+      <lb ed="#R" n="60"/>iuxta illud: Radix peccati est apostatare Deo. 
+      <lb ed="#R" n="61"/>Tertio autem modo superbia est peccatum 
+      spe<lb ed="#R" n="62" break="no"/>ciale condiuisum contra alia, &amp; sic patet illa 
+      <lb ed="#R" n="63"/>Maior declarata. Minorem probo videlicet, 
+      <lb ed="#R" n="64"/>quod in Angclo fuit appetitus propriae 
+      excellen<lb ed="#R" n="65" break="no"/>tiae inordinatus tertio modo sumptus. Vbi 
+      con<lb ed="#R" n="66" break="no"/>siderandum est, quod omnis acttus voluntatis 
+      <lb ed="#R" n="67"/>habet ortum ab amore sui, quia secundum 
+      Da<lb ed="#R" n="68" break="no"/>masc. Amor est principium motuum voluntatis, 
+      <lb ed="#R" n="69"/>&amp; secundum August. Pondus meum amor meus, 
+      <lb ed="#R" n="70"/>eo feror, quocumque feror: ergo primum inor 
+      <lb ed="#R" n="71"/>dinatum velle voluntatis est amare se, &amp; velle 
+      <lb ed="#R" n="72"/>sibi bonum inordinate. Bona autem sunt in 
+      tri<lb ed="#R" n="73" break="no"/>plici genere, quia quaedam sunt bona vtilia 
+      <lb ed="#R" n="74"/>vt diuitiae; quaedam delectabilia, vt carnales 
+      <lb ed="#R" n="75"/>delectationes, &amp; quaedam spiritualia, vt propria 
+      <lb ed="#R" n="76"/>excellentia, &amp; honores. In appetitu autem 
+      An<lb ed="#R" n="77" break="no"/>geli patet, quod non fuit actus inordinatus circa 
+      <lb ed="#R" n="78"/>bonum vtile, puta diuitias, nec circa delectabile, 
+      <lb ed="#R" n="79"/>vt sunt delectationes carnales: ergo restat quod 
+      <lb ed="#R" n="80"/>fuerit circa tertium bonum, puta circa bonum 
+      <lb ed="#R" n="81"/>spirituale. Jllud autem (vt dictum est) fuit velle sibi 
+      <lb ed="#R" n="82"/>propriam excellentiam inordinate, patet ergo 
+      <lb ed="#R" n="83"/>minor, &amp; sic concludit ratio. 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e297">
+                  <lb ed="#R" n="84"/>Alia opinio est, quod impossibile est, quod 
+      <!--0084.xml-->
+      <pb ed="#R" n="84"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>primum peccatum Angeli fuerit superbia. 
+      Ra<lb ed="#R" n="2" break="no"/>tio est ista: Primus actus inordinatus in Angelo 
+      <lb ed="#R" n="3"/>fuit amor amicitiae respectu sui: secundus vero 
+      <lb ed="#R" n="4"/>fuit amor, &amp; appetitus commodi summi, puta 
+      <lb ed="#R" n="5"/>appetitus beatitudinis, &amp; secundus oritur ex 
+      <lb ed="#R" n="6"/>primo, quia enim se summe diligebat amore ami 
+      <lb ed="#R" n="7"/>citiae; ideo summe sibi commodum optabat, quod 
+      <lb ed="#R" n="8"/>optare secundum eos est amor concupiscentiae: 
+      <lb ed="#R" n="9"/>sed neuter illorum actuum est formaliter 
+      super<lb ed="#R" n="10" break="no"/>bia: ergo.
+   </p>
+               <p xml:id="olm8ij-f25949-d1e330">
+                  <lb ed="#R" n="11"/>Maiorem probant sic: quia actus irascibilis 
+      <lb ed="#R" n="12"/>oriuntur ex actibus concupiscibilis, quia enim 
+      <lb ed="#R" n="13"/>amo, siue aliquid concupisco, &amp; in aliquo 
+      dele<lb ed="#R" n="14" break="no"/>ctor, per irascibilem ad illud consurgo, &amp; ad 
+      re<lb ed="#R" n="15" break="no"/>pellendum impediens conor per irascibilem; ex 
+      <lb ed="#R" n="16"/>quo sequitur, quod nullus actus irascibilis est 
+      a<lb ed="#R" n="17" break="no"/>ctus primus voluntatis: sed ille, qui est primus, 
+      <lb ed="#R" n="18"/>necessario est actus concupiscibilis. 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e350">
+                  <lb ed="#R" n="19"/>Iterum: Quia actus concupiscibilis est amor, 
+      <lb ed="#R" n="20"/>amor autem quidam est amicitiae, quo diligo te 
+      <lb ed="#R" n="21"/>propter teipsum, quidam vero concupiscentiae, 
+      <lb ed="#R" n="22"/>quo diligo aliquid propter alterum. Jdeo amor 
+      <lb ed="#R" n="23"/>concupiscentiae non potest esse primus actus 
+      vo<lb ed="#R" n="24" break="no"/>luntatis; non enim volo amico bonum, nisi quia 
+      <lb ed="#R" n="25"/>amo, &amp; complaceo in amico: ergo primus actus 
+      <lb ed="#R" n="26"/>concupiscibilis est amor amicitiae; ex quo 
+      sequi<lb ed="#R" n="27" break="no"/>tur quod amor amicitiae, quo amo, &amp; complaceo 
+      <lb ed="#R" n="28"/>in me, vel in alio, est primus, &amp; radix omnium 
+      <lb ed="#R" n="29"/>actuum voluntatis. Nullus enim concupiscit 
+      si<lb ed="#R" n="30" break="no"/>bi vel alteri ordinate aliquid, vel inordinate, 
+      ni<lb ed="#R" n="31" break="no"/>si quia prius amat se, siue alterum ordinate, vel 
+      <lb ed="#R" n="32"/>inordinate amore amicitiae. 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e384">
+                  <lb ed="#R" n="33"/>Vlterius. Primus actus amicitiae inordinatus 
+      <lb ed="#R" n="34"/>non fuit respectu Dei, quia Deum non potuit 
+      in<lb ed="#R" n="35" break="no"/>ordinate amare amando nimis intense; nam 
+      <lb ed="#R" n="36"/>Deus est tale obiectum, quod ex ratione sola sui, 
+      <lb ed="#R" n="37"/>vt obiectum est, dat perfectam rationem 
+      bonita<lb ed="#R" n="38" break="no"/>tis actui perfecto, &amp; intenso amoris circa ipsum. 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e400">
+                  <lb ed="#R" n="39"/>Secundo, Non est verisimile, quod aliquid 
+      a<lb ed="#R" n="40" break="no"/>liud a se dilexerit nimis intense amore amicitiae. 
+      <lb ed="#R" n="41"/>Tum quia inclinatio naturalis magis inclinabat 
+      <lb ed="#R" n="42"/>ad se, quam ad aliquid aliud. Tum quia, nihil 
+      <lb ed="#R" n="43"/>aliud sic intellexit, sicut se. &amp; confirmant illud 
+      <lb ed="#R" n="44"/>per Augustinum, Ciuitatem Diaboli fecit amor 
+      <lb ed="#R" n="45"/>sui, vsque ad contemptum Dei: sic ergo patet ma 
+      <lb ed="#R" n="46"/>ior quantum ad primam partem. 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e420">
+                  <lb ed="#R" n="47"/>Nunc probo eam quantum ad secundam 
+      par<lb ed="#R" n="48" break="no"/>tem, quod scilicet primus actus inordinatus 
+      a<lb ed="#R" n="49" break="no"/>moris concupiscentiae fuit appetitus 
+      beatitudi<lb ed="#R" n="50" break="no"/>nis; nam primum velle concupiscentiae 
+      inordi<lb ed="#R" n="51" break="no"/>natum non praecessit ex affectione iustitiae, sicut 
+      <lb ed="#R" n="52"/>nec aliquod peccatum processit ex affectione 
+      <lb ed="#R" n="53"/>commo di, quia voluntas naturaliter inclinatur 
+      <lb ed="#R" n="54"/>ad appetendum sibi commodum, &amp; illud 
+      maxi<lb ed="#R" n="55" break="no"/>me appetit, quando non regulatur affectione 
+      iu<lb ed="#R" n="56" break="no"/>stitiae: maximum autem commodum est 
+      beatitu<lb ed="#R" n="57" break="no"/>do perfecta: ergo. 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e446">
+                  <lb ed="#R" n="58"/>Secundo, quia omnis potentia apprehensiua 
+      <lb ed="#R" n="59"/>consequens in actu suo apprehendere, primo 
+      ap<lb ed="#R" n="60" break="no"/>petit delectabile conuenientissimum suae 
+      cogni<lb ed="#R" n="61" break="no"/>tiuae, patet inducendo in appetitu, qui sequitur 
+      <lb ed="#R" n="62"/>apprehensionem visus, gustus, &amp; sic de singulis. 
+      <lb ed="#R" n="63"/>Vniuersaliter autem omnis potentia 
+      apprehen<lb ed="#R" n="64" break="no"/>siua primo fertur in obiectum perfectissimum 
+      <lb ed="#R" n="65"/>suae cognitiuae, vel in delectationem circa illud, 
+      <lb ed="#R" n="66"/>cuius consequentia sequitur appetere in appeti- 
+      <!--0084.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>tu: sed beatitudo est summum bonum 
+      delectabi<lb ed="#R" n="68" break="no"/>le potentiae cognitiuae: ergo. 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e477">
+                  <lb ed="#R" n="69"/>Tertio, quia illud primo appetitur a 
+      volunta<lb ed="#R" n="70" break="no"/>te non regulata per iustitiam, quod si esset solum, 
+      <lb ed="#R" n="71"/>&amp; nihil aliud, adhuc appeteretur: sed tale, quod 
+      <lb ed="#R" n="72"/>est delectatio, nec enim excellentia, nec 
+      quod<lb ed="#R" n="73" break="no"/>cumque aliud, si esset triste, appeteretur: 
+      beati<lb ed="#R" n="74" break="no"/>tudo autem est summum bonum delectabile: 
+      <lb ed="#R" n="75"/>ergo quantum ad actus concupiscentiae videtur, 
+      <lb ed="#R" n="76"/>quod Angelus malus appetiuit beatitudinem 
+      <lb ed="#R" n="77"/>quam quodcumque aliud, &amp; ibi fuerit primus 
+      <lb ed="#R" n="78"/>actus inordinatus eius, quantum ad actum 
+      con<lb ed="#R" n="79" break="no"/>cupiscentiae, 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e503">
+                  <lb ed="#R" n="80"/>Quomodo autem appetitus beatitudinis 
+      pos<lb ed="#R" n="81" break="no"/>sit esse non rectus, cum sit bonum 
+      conuenientis<lb ed="#R" n="82" break="no"/>simum secundum se naturae, &amp; ab omnibus 
+      ap<lb ed="#R" n="83" break="no"/>petibile, ac per hoc omnibus videatur esse 
+      natu<lb ed="#R" n="84" break="no"/>rale ( Appetitus autem naturalis semper rectus 
+      <lb ed="#R" n="85"/>est) Respondeo. In Angelo non cadebat 
+      deformi<lb ed="#R" n="86" break="no"/>tas in actu appetendi beatitudinem, quantum 
+      <lb ed="#R" n="87"/>ad illud appetibile. Nullus enim errat, qui 
+      ap<lb ed="#R" n="88" break="no"/>petit esse beatus, cum beatitudo sit obiectum 
+      <lb ed="#R" n="89"/>bonum ex genere, ideo actus circa illam non 
+      <lb ed="#R" n="90"/>potest esse malus ex genere; hoc est ratione 
+      ob<lb ed="#R" n="91" break="no"/>iecti: sed erat malus ratione circumstantiae, vt 
+      <lb ed="#R" n="92"/>quia forte nimis intense beatitudinem 
+      appete<lb ed="#R" n="93" break="no"/>bat, vel nimis accelerate, antequam sibi 
+      debere<lb ed="#R" n="94" break="no"/>tur. Sic ergo probata est maior, quoad 
+      vtram<lb ed="#R" n="95" break="no"/>que partem. 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e541">
+                  <lb ed="#R" n="96"/>Minorem autem probant, videlicet, quod 
+      <lb ed="#R" n="97"/>neuter illorum actuum sit superbia. 
+      Non<lb ed="#R" n="98" break="no"/>enim diligere se nimis intense, vel appetere 
+      ni<lb ed="#R" n="99" break="no"/>mis intense beatitudinem est superbire, quia 
+      <lb ed="#R" n="100"/>neutrum est alijs se praeferre. Secundum ergo 
+      <lb ed="#R" n="101"/>istum Doctorem iste fuit processus Angeli, 
+      pri<lb ed="#R" n="102" break="no"/>mo fuit inordinatus amor respectu sui: secundo 
+      <lb ed="#R" n="103"/>inordinatus appetitus beatitudinis: tertio 
+      appe<lb ed="#R" n="104" break="no"/>titus inordinatus eorum, quae post beatitudinē 
+      <lb ed="#R" n="105"/>erant sibi magis conuenientia: quarto actus 
+      vel<lb ed="#R" n="106" break="no"/>lendi, qui sequebatur, qui erant formaliter ira, 
+      <lb ed="#R" n="107"/>vel inuidia. 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e570">
+                  <lb ed="#R" n="108"/>Secundo principaliter concordo istas 
+      opinio<lb ed="#R" n="109" break="no"/>nes, ad cuius euidentiam pono duas 
+      propositio<lb ed="#R" n="110" break="no"/>nes. Prima est ista, quod primum peccatum 
+      <lb ed="#R" n="111"/>Angeli necesse est dicere, quod fuerit superbia, 
+      <lb ed="#R" n="112"/>&amp; quod illud erat amor sui vsque ad contemptum 
+      <lb ed="#R" n="113"/>Dei. Primam probo, quia de peccato Angeli, &amp; 
+      <lb ed="#R" n="114"/>caeteris, quae credimus de facto, nihil scimus, nisi 
+      <lb ed="#R" n="115"/>quod ex scripturis habetur: sed sacra Scriptura 
+      <lb ed="#R" n="116"/>vbicumque loquitur de ista materia, non 
+      expri<lb ed="#R" n="117" break="no"/>mit peccatum Angeli tantum, quantum est 
+      su<lb ed="#R" n="118" break="no"/>perbia, &amp; de nullo alio peccato facit mentionem, 
+      <lb ed="#R" n="119"/>nisi de superbia, &amp; omnes Sancti ad hoc tendunt, 
+      <lb ed="#R" n="120"/>vt patet discurrendo per omnes auctoritates, 
+      si<lb ed="#R" n="121" break="no"/>cut patet per illud Isaiae: Quomodo cecidisti 
+      Lu<lb ed="#R" n="122" break="no"/>cifer, qui mane oriebaris, qui dicebas in cor 
+      de<lb ed="#R" n="123" break="no"/>tuo: Ponam sedem meam ad aquilonem, &amp; ero 
+      <lb ed="#R" n="124"/>similis Altissimo, &amp; c. 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e609">
+                  <lb ed="#R" n="125"/>Secundam partem probo. Ad cuius 
+      euiden<lb ed="#R" n="126" break="no"/>tiam considerandum est, quod amor amicitiae quo 
+      <lb ed="#R" n="127"/>quis diligit se, vel alium, non est aliud, quam 
+      <lb ed="#R" n="128"/>complacentia quaedam, si sit respectu habiti, quia 
+      <lb ed="#R" n="129"/>si respectu non habiti, esset desiderium. Vnde 
+      <lb ed="#R" n="130"/>cum diligo tibi bonum, si habes tunc, 
+      compla<lb ed="#R" n="131" break="no"/>ceo in bono, quod habes, cum vero opto tibi, 
+      <lb ed="#R" n="132"/>quod non habes, tunc desidero. Cum ergo amor 
+      <!--0085.xml-->
+      <pb ed="#R" n="85"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>amicitiae respectu sui sit respectu habiti, quia 
+      ni<lb ed="#R" n="2" break="no"/>hil tantum habeo, quantum meipsum, sequitur 
+      <lb ed="#R" n="3"/>quod amor amicitiae respectu sui sit complacere 
+      <lb ed="#R" n="4"/>in se: quod si amor respectu sui sit inordinatus, 
+      <lb ed="#R" n="5"/>ideo est, quia complacet in se nimis inordinate. 
+      <lb ed="#R" n="6"/>tunc assumo secundo, quod illa inordinata 
+      com<lb ed="#R" n="7" break="no"/>placentia respectu sui fuit quantum ad bona 
+      na<lb ed="#R" n="8" break="no"/>turalia, &amp; fuit amor supereminentis excellentiae 
+      <lb ed="#R" n="9"/>quoad gradum personalem fuit amor, &amp; 
+      delecta<lb ed="#R" n="10" break="no"/>tio specialis sufficientiae; haec autem inordinata 
+      <lb ed="#R" n="11"/>complacentia, &amp; delectatio est species superbiae, 
+      <lb ed="#R" n="12"/>quae dicitur vanitas.
+   </p>
+               <p xml:id="olm8ij-f25949-d1e661">
+                  <lb ed="#R" n="13"/>Haec est Conclusio, quam volo probare, arguo 
+      <lb ed="#R" n="14"/>ergo sic. Ad idem genus vitij reducitur 
+      compla<lb ed="#R" n="15" break="no"/>centia respectu non habiti, &amp; complacentia 
+      re<lb ed="#R" n="16" break="no"/>spectu habiti. ita enim dicitur gulosus ille, qui 
+      <lb ed="#R" n="17"/>inordinate delectatur in cibo habito, sicut ille 
+      <lb ed="#R" n="18"/>qui inordinate appetit non habitum, &amp; per 
+      con<lb ed="#R" n="19" break="no"/>sequens ita superbus dicitur ille, qui delectatur, 
+      <lb ed="#R" n="20"/>&amp; complacet in excellentia, &amp; dignitate, quam 
+      <lb ed="#R" n="21"/>habet, sicut ille qui inordinate appetit 
+      excellen<lb ed="#R" n="22" break="no"/>tiam, &amp; dignitatem, quam non habet. 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e685">
+                  <lb ed="#R" n="23"/>Et confirmo hoc, quia Superbus, &amp; 
+      vanaglo<lb ed="#R" n="24" break="no"/>riosus dicitur, qui exprimit suam excellentiam 
+      <lb ed="#R" n="25"/>verbo, sicut qui exprimit etiam facto, ex his 
+      <lb ed="#R" n="26"/>argno, &amp; ostendo intentum, videlicet quod 
+      <lb ed="#R" n="27"/>amor, quo Angelus ipordinate dilexit se, fuit 
+      <lb ed="#R" n="28"/>superbia, &amp; specialis species superbiae, quae 
+      dici<lb ed="#R" n="29" break="no"/>tur vanagloria, arguo sic. Actus, qui est 
+      com<lb ed="#R" n="30" break="no"/>placere in propria excellentia, vere est species 
+      <lb ed="#R" n="31"/>superbiae, cum sit actus vanaegloriae: sed amor, 
+      <lb ed="#R" n="32"/>quo Angelus inordinate dilexit se, fuit 
+      compla<lb ed="#R" n="33" break="no"/>centia in propria excellentia, &amp; hoc tam quo 
+      <lb ed="#R" n="34"/>ad propriam excellentiam in naturalibus, &amp; 
+      <lb ed="#R" n="35"/>perfectione prima, quam quoad perfectiones 
+      se<lb ed="#R" n="36" break="no"/>cundum alios: ergo. 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e718">
+                  <lb ed="#R" n="37"/>Haec est intentio Aug. de Ciuitate, vbi distinxit 
+      <lb ed="#R" n="38"/>dnas Ciuitates, Dei scilicet &amp; Diaboli, &amp; ibi 
+      di<lb ed="#R" n="39" break="no"/>cit, quod Ciuitatem Diaboli fecit amor sui vsq; ad 
+      <lb ed="#R" n="40"/>contemptum Dei, &amp; Ciuitas Dei fuit e contra 
+      <lb ed="#R" n="41"/>amor Dei ad contemptum sui. Ex quo elicitur, 
+      <lb ed="#R" n="42"/>quod qui non peccauerunt, Deum se 
+      contemnen<lb ed="#R" n="43" break="no"/>do super omnia dilexerunt: E contra, qui 
+      peccaue<lb ed="#R" n="44" break="no"/>runt, se super omnia Deum contemnendo dilexerunt. 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e739">
+                  <lb ed="#R" n="45"/>Sed hic est aduertendum, quod licet 
+      vanaglo<lb ed="#R" n="46" break="no"/>ria ponatur esse species superbiae, potest tamen 
+      <lb ed="#R" n="47"/>aliquo modo distingui, &amp; poni species, siue 
+      ge<lb ed="#R" n="48" break="no"/>nus distinctum ab ea. Vbi sciendum est, quod 
+      qui<lb ed="#R" n="49" break="no"/>dam volunt; quod superbia non sit vitium 
+      spe<lb ed="#R" n="50" break="no"/>ciale, &amp; capitale, sed est quoddam vitium 
+      com<lb ed="#R" n="51" break="no"/>mune &amp; quasi rex vitiorum. Alia vero septem 
+      vi<lb ed="#R" n="52" break="no"/>tia capitalia sunt Duces exercitus, &amp; ideo 
+      vana<lb ed="#R" n="53" break="no"/>gloria secundum eos est vnum vitium capitale, 
+      <lb ed="#R" n="54"/>scilicet Dux vnius aciei sub illo exercitu, &amp; hoc 
+      <lb ed="#R" n="55"/>modo superbia non esset speciale peccatum sub 
+      <lb ed="#R" n="56"/>vanagloria. Possumus tamen distinguere aliquo 
+      <lb ed="#R" n="57"/>modo superbiam vt speciale peccatum contra 
+      va<lb ed="#R" n="58" break="no"/>namgloriam. Ad cuius euidentiam 
+      consideran<lb ed="#R" n="59" break="no"/>dum est, quod aliud est complacere, &amp; 
+      delecta<lb ed="#R" n="60" break="no"/>ri in sui excellentia habita, &amp; aliud est erigere se 
+      <lb ed="#R" n="61"/>super alios: affectiones enim appetitus 
+      sequun<lb ed="#R" n="62" break="no"/>tur conformiter extimationes intellectus: sed 
+      ex<lb ed="#R" n="63" break="no"/>timatio alia est in intellectu extimare 
+      qualita<lb ed="#R" n="64" break="no"/>tem suae excellentiae absolute; &amp; alia est 
+      extima<lb ed="#R" n="65" break="no"/>re excellentiam suam comparatiue ad alios 
+      se<lb ed="#R" n="66" break="no"/>cundum excessum, immo haec secunda oritur 
+      <!--0085.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>ex prima. Primo enim instanti intellectus 
+      inor<lb ed="#R" n="68" break="no"/>dinatus extimat suas sufficientias esse magnas, 
+      <lb ed="#R" n="69"/>&amp; supremi gradus: ex hac extimatione oritur sta 
+      <lb ed="#R" n="70"/>tim in intellectu extimatio insufficientiae 
+      alio<lb ed="#R" n="71" break="no"/>rum, quia extimat excellentias aliorum prauas, 
+      <lb ed="#R" n="72"/>&amp; hoc dupliciter, vel extimando sufficientias ma 
+      <lb ed="#R" n="73"/>iorum minores quam sint; vel extimando 
+      sufficien<lb ed="#R" n="74" break="no"/>tiam aequalium sibi modicas: ergo in appetitu 
+      <lb ed="#R" n="75"/>erant affectiones conformes; &amp; primam 
+      extima<lb ed="#R" n="76" break="no"/>tionem, qua extimat excellentiam suam magni 
+      <lb ed="#R" n="77"/>gradus absolute sequitur in appetitu delectatio, 
+      <lb ed="#R" n="78"/>&amp; complacentia. Secundum vero extimationem, 
+      <lb ed="#R" n="79"/>qua paruipendit aliorum bona, sequitur in 
+      ap<lb ed="#R" n="80" break="no"/>petitu erectio, &amp; talis erectio respectu maiorum 
+      <lb ed="#R" n="81"/>dicitur irreuerentia, &amp; haec sequitur 
+      extimatio<lb ed="#R" n="82" break="no"/>nem, qua iudicat maiores sufficientias esse 
+      mi<lb ed="#R" n="83" break="no"/>nores, quam suae sint. Respectu vero aequalium 
+      <lb ed="#R" n="84"/>dicitur contemptus, qui sequitur exlimationem, 
+      <lb ed="#R" n="85"/>quia bona aequalia aliorum reputat quasi nulla. 
+      <lb ed="#R" n="86"/>Superbia ergo vt est speciale peccatum 
+      distin<lb ed="#R" n="87" break="no"/>ctum contra vanamgloriam, non est affecttio 
+      ap<lb ed="#R" n="88" break="no"/>petitus sequens primam extimationem absolute: 
+      <lb ed="#R" n="89"/>sed est affectio sequens extimationem secundam, 
+      <lb ed="#R" n="90"/>de qua dictum est, quod est erectio appetitus. 
+      <lb ed="#R" n="91"/>Affectio enim sequens primam extimationem, 
+      <lb ed="#R" n="92"/>quae est delectatio &amp; complacentia in propria 
+      <lb ed="#R" n="93"/>excellentia, est actus vanaegloriae. 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e852">
+                  <lb ed="#R" n="94"/>Tunc ad propositum dico, quod primum 
+      <lb ed="#R" n="95"/>peccatum Angeli non fuit superbia, accipiendo 
+      <lb ed="#R" n="96"/>superbiam hoc modo, vt est erectio appetitus; 
+      <lb ed="#R" n="97"/>non enim primus actus inordinatus Angeli suit 
+      <lb ed="#R" n="98"/>erectio appetitus: sed fuit complacentia &amp; 
+      dele<lb ed="#R" n="99" break="no"/>ctatio in propria excellentia, ex qua oriebatur 
+      <lb ed="#R" n="100"/>contemptus Dei: sed accipiendo superbiam, vt 
+      <lb ed="#R" n="101"/>est communis vanaegloriae &amp; alijs septem vitijs 
+      ca<lb ed="#R" n="102" break="no"/>pitalibus, sic dico, quod primum peccatum 
+      <lb ed="#R" n="103"/>eius fuit superbia, &amp; erat ordo ille, vt primo 
+      fue<lb ed="#R" n="104" break="no"/>rit in Angelo extimatio inordinata propriae 
+      ex<lb ed="#R" n="105" break="no"/>cellentiae, &amp; hanc sequebatur inordinata 
+      com<lb ed="#R" n="106" break="no"/>placentia &amp; delectatio in ea; &amp; tunc secunda 
+      <lb ed="#R" n="107"/>erat extimatio in intellectu inordinata de 
+      excel<lb ed="#R" n="108" break="no"/>lentia Dei, quam reputabat minorem, quam sit, 
+      <lb ed="#R" n="109"/>&amp; tunc in appetitu sequebatur inordinata 
+      ere<lb ed="#R" n="110" break="no"/>ctio contra Deum, quae dicitur Contemptus 
+      <lb ed="#R" n="111"/>Dei. Primus autem actus inordinatus 
+      appeti<lb ed="#R" n="112" break="no"/>tus erat vanagloria, &amp; species superbiae, 
+      vocom<lb ed="#R" n="113" break="no"/>munis est: secundus erat superbia, vt est 
+      spe<lb ed="#R" n="114" break="no"/>cies distincta contra alia vitia capitalia. 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e900">
+                  <lb ed="#R" n="115"/>Ex hoc infero secundam propositionem 
+      <lb ed="#R" n="116"/>quod peccatum Angeli non fuit vnicum, sed mul 
+      <lb ed="#R" n="117"/>tiplex. Aliud enim peccatum est complacentia 
+      <lb ed="#R" n="118"/>inordinata, &amp; delectatio in propria excellentia, 
+      <lb ed="#R" n="119"/>&amp; aliud erectio contra Deum, siue contemptus 
+      <lb ed="#R" n="120"/>aliorum: Quodlibet tamen eorum potest dici superbia 
+      <lb ed="#R" n="121"/>modo, quo dictum est, &amp; in hoc peccato fuit 
+      Dia<lb ed="#R" n="122" break="no"/>bolus obstinatus, &amp; puto quod adhncsit hodie. 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e920">
+                  <lb ed="#R" n="123"/>Et ex hoc ad difficultatem, quae oriebatur ex 
+      <lb ed="#R" n="124"/>alia parte, cum dicebatur: quod primus actus 
+      <lb ed="#R" n="125"/>inordinatus Diaboli fuit in concupiscibili: 
+      super<lb ed="#R" n="126" break="no"/>bia autem est in irascibili: nam non est 
+      incon<lb ed="#R" n="127" break="no"/>ueniens ponere superbiam in concupiscibili, vt 
+      <lb ed="#R" n="128"/>superbia est vitium commune ad alia vitia capi 
+      <lb ed="#R" n="129"/>talia. Jlla autem, vt est speciale peccatum condistin 
+      <lb ed="#R" n="130"/>ctum contra alia, est praecise in irascibili. Delecta 
+      <lb ed="#R" n="131"/>ri enim est in concupiscibili, ted erigi, &amp; extolli est 
+      <lb ed="#R" n="132"/>tantum in irascibili, &amp; ex hoc potest patere sensus 
+      <!--0086.xml-->
+      <pb ed="#R" n="86"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>illius verbi Jlaiae: Quomodo cecidisti Lucifer, &amp;c.
+   </p>
+               <p xml:id="olm8ij-f25949-d1e953">
+                  <lb ed="#R" n="2"/>Sequitur Qui dicebas in corde tuo: Ascendam 
+      <lb ed="#R" n="3"/>in caelum, sese verbum vanagloriantis, sequitur, 
+      <lb ed="#R" n="4"/>Similis ero altissimo. Ecce verbum se erigentis. 
+      <lb ed="#R" n="5"/>Jlla enim vox, ascendam in caelum, non erat vox 
+      <lb ed="#R" n="6"/>appetentis, vel desiderantis: sed gloriantis, cum 
+      <lb ed="#R" n="7"/>sit sensus: Tanta est sufficientia mea, quod 
+      di<lb ed="#R" n="8" break="no"/>gnus ium ascendere, &amp;c. 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e971">
+                  <lb ed="#R" n="9"/>Ad argumentum in oppositum dico, quod 
+      <lb ed="#R" n="10"/>omnis actus irascibilis praesupponit actum 
+      con<lb ed="#R" n="11" break="no"/>cupiscibilis secundum Arist. Sciendum est autem, 
+      <lb ed="#R" n="12"/>quod in concupiscibili sunt sex passiones, &amp; in 
+      <lb ed="#R" n="13"/>irascibili sunt septem: passionis enim 
+      concupi<lb ed="#R" n="14" break="no"/>scibilis sunt, amor, odium, fuga, prosecutio, 
+      <lb ed="#R" n="15"/>delectatio, &amp; tristitia. In irascibili vero respectu 
+      <lb ed="#R" n="16"/>mali absentis sunt timor, &amp; audacia, respectu 
+      ve<lb ed="#R" n="17" break="no"/>ro praesentis ira, sed respectu boni absentis spes, 
+      <lb ed="#R" n="18"/>&amp; desperatio. Tunc dico, quod Superbia, vt est 
+      <lb ed="#R" n="19"/>vitium speciale, &amp; est idem, quod erectio, est in 
+      <lb ed="#R" n="20"/>irascibili, &amp; oportet, quod reducatur ad 
+      ali<lb ed="#R" n="21" break="no"/>quam illarum septem, &amp; videtur, quod 
+      forma<lb ed="#R" n="22" break="no"/>liter sit idem quod audere, sed de hoc alias; sed 
+      <lb ed="#R" n="23"/>accipiendo superbiam, vt est communis, &amp; vt est 
+      <lb ed="#R" n="24"/>inordinatus amor sui, est primus actus 
+      concupi<lb ed="#R" n="25" break="no"/>scibilis, &amp; est vanagloria, &amp; species superbiae, 
+      <lb ed="#R" n="26"/>quae dicitur Vanitas. 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e1014">
+                  <lb ed="#R" n="27"/>Ad propositum ergo dico, quod argumentum 
+      <lb ed="#R" n="28"/>bene concludit de superbia, vt est idem quod 
+      ere<lb ed="#R" n="29" break="no"/>ctio, non autem vt est communis, &amp; rex. 
+   </p>
+            </div>
+            <div xml:id="olm8ij-f25949-Dd1e1024">
+               <head xml:id="olm8ij-f25949-Hd1e1026">Articulus 2</head>
+               <head xml:id="olm8ij-f25949-Hd1e1028" type="question-title">
+      Utrum Angelus potuit appetere Dei aequalitatem
+    </head>
+               <p xml:id="olm8ij-f25949-d1e1031">
+                  <lb ed="#R" n="30"/>ARTJCVLVS JJ. 
+      <lb ed="#R" n="31"/>Vtrum Angelus potuit appetere Dei 
+      aequa<lb ed="#R" n="32" break="no"/>litatem. 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e1040">
+                  <lb ed="#R" n="33"/>QVantum ad secundam quaestionem arguo 
+      <lb ed="#R" n="34"/>primo, quod Angelus non potuit 
+      appete<lb ed="#R" n="35" break="no"/>re Dei aequalitatem, quia nihil est 
+      appe<lb ed="#R" n="36" break="no"/>tibile, quod implicat contradictionem: sed 
+      An<lb ed="#R" n="37" break="no"/>gelum esse aequalem Deo est contradictio: quia 
+      <lb ed="#R" n="38"/>si esset aequalis Deo, esset Deus: ergo non esset 
+      <lb ed="#R" n="39"/>Angelus. 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e1058">
+                  <lb ed="#R" n="40"/>In oppositum est illud Isaiae. In caelum 
+      ascen<lb ed="#R" n="41" break="no"/>dam, &amp;c. Glosa dicit, idest, in caelum diuinitatis, 
+      <lb ed="#R" n="42"/>vnde appetijt diuinitatem. 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e1068">
+                  <lb ed="#R" n="43"/>Respondeo. Hic ponam duas Propositiones. 
+      <lb ed="#R" n="44"/>Prima est, quod Angelus voluntate elicitiua, &amp; 
+      <lb ed="#R" n="45"/>deliberatiua, &amp; efficaci potuit appetere Dei aequa 
+      <lb ed="#R" n="46"/>litatem si voluisset, licet voluntas sua esset 
+      indi<lb ed="#R" n="47" break="no"/>screta: &amp; dico voluntate deliberatiua, quia 
+      ali<lb ed="#R" n="48" break="no"/>qui dicunt, quod voluntate deliberata nihil 
+      po<lb ed="#R" n="49" break="no"/>test appeti, quod implicat contradictionem. 
+      <lb ed="#R" n="50"/>In proposito autem dicunt, quod voluntate 
+      ef<lb ed="#R" n="51" break="no"/>ficaci non potest, licet possit voluntate simplici: 
+      <lb ed="#R" n="52"/>Sed ego dico oppositum illorum, &amp; probo propo 
+      <lb ed="#R" n="53"/>sitionem propositam. Probo sic: Non minus est po 
+      <lb ed="#R" n="54"/>tens voluntas in appetendo, quam sit intellectus 
+      <lb ed="#R" n="55"/>in repraesentando, immo aliqua, quae intellectus 
+      <lb ed="#R" n="56"/>sequens naturam rei non potest componere, 
+      po<lb ed="#R" n="57" break="no"/>test voluntas componere, &amp; appetere: sed 
+      intelle<lb ed="#R" n="58" break="no"/>ctus potest repraesentare simultatem 
+      contradi<lb ed="#R" n="59" break="no"/>ctionis, vnde potest praesentare, quod esse, &amp; non 
+      <lb ed="#R" n="60"/>esse simul sunt contradictoria: ergo voluntas 
+      po<lb ed="#R" n="61" break="no"/>test velle. 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e1112">
+                  <lb ed="#R" n="62"/>Confirmo, quia posset voluntas velle, quod 
+      <lb ed="#R" n="63"/>contradictoria essent simul vera. Confirmo etiam, 
+      <!--0086.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="64"/>quia licet intellectus sequens naturam rei non 
+      <lb ed="#R" n="65"/>posset componere contradictoria eius, vt sic 
+      <lb ed="#R" n="66"/>tantum est formare propositiones indicatiuas, ta 
+      <lb ed="#R" n="67"/>men intellectus, qui sequitur determinationem 
+      <lb ed="#R" n="68"/>voluntatis, cuius est formare vt sic, 
+      propositio<lb ed="#R" n="69" break="no"/>nes imperatiuas, cuius actus est actus liberi arbi 
+      <lb ed="#R" n="70"/>trii(de quo supra dictum est) talis intellectus non 
+      <lb ed="#R" n="71"/>videtur, quod non posset formare simul 
+      contra<lb ed="#R" n="72" break="no"/>dictoria. 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e1143">
+                  <lb ed="#R" n="73"/>Secundo sic: Non est minus potens voluntas 
+      de<lb ed="#R" n="74" break="no"/>liberatiua, quam sit voluntas non deliberatiua: 
+      <lb ed="#R" n="75"/>sed voluntas non deliberatiua potest appetere 
+      <lb ed="#R" n="76"/>contradictoria vnde potest esse impossibilium ex 
+      <lb ed="#R" n="77"/>3. Ethic. ergo. 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e1156">
+                  <lb ed="#R" n="78"/>Dices, ratio non concludit: Non enim est simi 
+      <lb ed="#R" n="79"/>le de yoluntate deliberatiua, &amp; non deliberatiua, 
+      <lb ed="#R" n="80"/>quoniam deliberatiua semper sequitur rectam 
+      <lb ed="#R" n="81"/>rationem: sed recta ratio non est impossibilium. 
+      <lb ed="#R" n="82"/>Contra. Hoc falsum supponit, quia voluntas 
+      de<lb ed="#R" n="83" break="no"/>liberatiua potest quandoq. esse contra dictamen 
+      <lb ed="#R" n="84"/>rationis. Ideo dixi voluntate, licet indiscreta. 
+      <lb ed="#R" n="85"/>Tertio sic: Jlli qui sunt alterius rationis, &amp; 
+      <lb ed="#R" n="86"/>opinionis, dicunt, quod Angelns potuit 
+      appe<lb ed="#R" n="87" break="no"/>tere aequalitatem Dei indirecte, puta appetendo 
+      <lb ed="#R" n="88"/>se habere gloriam a se, ex hoc arguo sic. Ita 
+      <lb ed="#R" n="89"/>implicat contradictionem, quod Angelus habeat 
+      <lb ed="#R" n="90"/>habeat gloriam a se, sicut, quod esset Deus: 
+      er<lb ed="#R" n="91" break="no"/>go propter implicationem contradictionis non 
+      <lb ed="#R" n="92"/>oportet ponere, quod Angelus non appeteret 
+      <lb ed="#R" n="93"/>Dei aequalitatem. Consequentia patet, probo 
+      <lb ed="#R" n="94"/>Antecedens, quia habere gloriam a se est habere 
+      <lb ed="#R" n="95"/>gloriam per principia naturalia: sed habere 
+      bea<lb ed="#R" n="96" break="no"/>titudinem per propria naturalia arguit in 
+      An<lb ed="#R" n="97" break="no"/>gelo infinitatem essentiae suae in ratione obiecti, 
+      <lb ed="#R" n="98"/>arguit etiam omnipotentiam: ergo. Et dico, volun 
+      <lb ed="#R" n="99"/>tate efficaci, idest intensissima, quantum potest. 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e1206">
+                  <lb ed="#R" n="100"/>Nunc pono hic aliqua dubia, &amp; primum est, 
+      <lb ed="#R" n="101"/>quia per Phylosoph. electio non est 
+      impossibi<lb ed="#R" n="102" break="no"/>lium, licet voluntas sit possibilium. 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e1215">
+                  <lb ed="#R" n="103"/>Respondeo. licet actus voluntatis omnes sint 
+      <lb ed="#R" n="104"/>indifferentes ad rectum, &amp; non rectum, tamen 
+      <lb ed="#R" n="105"/>ex vsu loquentium accommodate, electio tantum 
+      <lb ed="#R" n="106"/>dicitur de actu voluntatis recto. Exemplum est 
+      <lb ed="#R" n="107"/>ad hoc in intellectu; intelligere enim vere est cō- 
+      <lb ed="#R" n="108"/>mune alicui vero, &amp; falso, &amp; tamen ex vsu 
+      intel<lb ed="#R" n="109" break="no"/>ligere appropriatur intellectioni verae tantum: 
+      <lb ed="#R" n="110"/>vnde si falsum intelligis, dicimus, quod non 
+      in<lb ed="#R" n="111" break="no"/>telligis. Sic esset, quando visio est falsa, dicimus, 
+      <lb ed="#R" n="112"/>quod falsum vides. Vnde decipiuntur multi, qui 
+      <lb ed="#R" n="113"/>putant, quod omnis visio sit vera. sic dico, quod 
+      <lb ed="#R" n="114"/>est quaedam electio recta, &amp; quaedam non recta. 
+      <lb ed="#R" n="115"/>Electio recta est, quae sequitur consilium. Ideo 
+      <lb ed="#R" n="116"/>electio est appetitus primi consiliati secundum 
+      <lb ed="#R" n="117"/>rectam rationem. Electio autem non recta &amp; 
+      fa<lb ed="#R" n="118" break="no"/>tua est appetitus praeconsiliati secundum 
+      ratio<lb ed="#R" n="119" break="no"/>nem errantem. Arist. ergo in Moralibus accipit 
+      <lb ed="#R" n="120"/>electionem secundum vsus accommodationem, 
+      <lb ed="#R" n="121"/>pro ea, quae sequitur consilium secundum 
+      ratio<lb ed="#R" n="122" break="no"/>nem rectam, &amp; de tali electione dicit, quod non 
+      <lb ed="#R" n="123"/>est praeteritorum, nec impossibilium. 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e1264">
+                  <lb ed="#R" n="124"/>Secundum dubium est, quia nullus potest dili. 
+      <lb ed="#R" n="125"/>gere, quod non potest extimare: sed impossibile 
+      <lb ed="#R" n="126"/>est, quod aliquis, qui sit creatura, existimet se 
+      <lb ed="#R" n="127"/>deeus esccs lue groper cortradicionem, quia 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e1275">
+                  <lb ed="#R" n="128"/>Respondeo, &amp; dixi alias. Intellectus extimatio est 
+      <!--0087.xml-->
+      <pb ed="#R" n="87"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>duplex, quaedam enunciatiua sequens naturam 
+      <lb ed="#R" n="2"/>rei, &amp; haec non est impossibilium; quaedam vero 
+      <lb ed="#R" n="3"/>sequens liberum arbitrium, quae est 
+      imperati<lb ed="#R" n="4" break="no"/>ua, &amp; talis extimatio est mere in potestate 
+      <lb ed="#R" n="5"/>nostra, nisi quia talis imperatiua extimatio, 
+      <lb ed="#R" n="6"/>si est in potestate nostra, quia sequitur 
+      deter<lb ed="#R" n="7" break="no"/>minationem voluntatis. Hinc est, quod velle 
+      <lb ed="#R" n="8"/>in primis non est in potestate voluntatis, quia 
+      <lb ed="#R" n="9"/>extimatio in eis non imperatur libere a 
+      volun<lb ed="#R" n="10" break="no"/>tate propter deordinationem fantasmatum. 
+      <lb ed="#R" n="11"/>Ad talem autem aestimationem imperatiuam, 
+      <lb ed="#R" n="12"/>&amp; liberam non mouetur intellectus ab obiecto: 
+      <lb ed="#R" n="13"/>sed illa est a libero arbitrio, qui includit 
+      intel<lb ed="#R" n="14" break="no"/>lectum, &amp; voluntatem, &amp; est actiue, in quantum 
+      <lb ed="#R" n="15"/>libera est, a libero arbitrio per rationem 
+      volun<lb ed="#R" n="16" break="no"/>tatis, passiue vero per rationem intellectus, ita 
+      <lb ed="#R" n="17"/>quod totum liberum arbitrium mouet, &amp; 
+      mo<lb ed="#R" n="18" break="no"/>uetur, licet per aliam partem, &amp; huius 
+      exti<lb ed="#R" n="19" break="no"/>matio bene potest esse impossibilium, licet non 
+      <lb ed="#R" n="20"/>indicatiue: Ego sum Deus, vel, ero Deus. 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e1330">
+                  <lb ed="#R" n="21"/>Secunda Propositio est de facto puto, quod 
+      <lb ed="#R" n="22"/>Angelus malus de facto non appetijt 
+      aequalita<lb ed="#R" n="23" break="no"/>tem Dei, non quidem per hoc, quod fuit 
+      impos<lb ed="#R" n="24" break="no"/>sibile: sed quia videbat, quod erat fatuum, &amp; 
+      <lb ed="#R" n="25"/>impossibile haberi. Vnde dico, non est 
+      ponen<lb ed="#R" n="26" break="no"/>da tanta fatuitas in eo, cum habuerit ita 
+      splen<lb ed="#R" n="27" break="no"/>dida naturalia. Quid ergo est primum, quod 
+      pri<lb ed="#R" n="28" break="no"/>mo appetijt? 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e1350">
+                  <lb ed="#R" n="29"/>Respondeo, non aequalitatem Dei (vt dictum 
+      <lb ed="#R" n="30"/>est) nec etiam gloriam a se ipso, vt dicunt alij, 
+      <lb ed="#R" n="31"/>quia vidit, quod erat impossibile omnino: 
+      er<lb ed="#R" n="32" break="no"/>go primus actus eius non est huiusmodi 
+      desi<lb ed="#R" n="33" break="no"/>derium, nihil autem desiderauit, quod non 
+      ha<lb ed="#R" n="34" break="no"/>buisset, si non peccasset, secundum Sanctos. Pri. 
+      <lb ed="#R" n="35"/>mus ergo actus eius fuit inordinata 
+      compla<lb ed="#R" n="36" break="no"/>centia in propria excellentia, quam 
+      praerogati<lb ed="#R" n="37" break="no"/>ne vidit se habere super alia, &amp; hoc, modo 
+      su<lb ed="#R" n="38" break="no"/>perborum; non quod illam aestimaret se 
+      habe<lb ed="#R" n="39" break="no"/>re a se, sed quod erat dignus illa, &amp; ex hoc 
+      <lb ed="#R" n="40"/>appetijt excellentiam gloriae, quam posttea 
+      ha<lb ed="#R" n="41" break="no"/>buisset, si non peccasset, &amp; appetijt illam habe- 
+      <!--0087.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="42"/>re a Deo, sed aestimauit illam deberi sibi 
+      pro<lb ed="#R" n="43" break="no"/>pter excellentiam naturalium. Et hic est modus 
+      <lb ed="#R" n="44"/>communis superborum, qui cum extimant 
+      <lb ed="#R" n="45"/>suam sufficientiam superexcedere sufficientiam 
+      <lb ed="#R" n="46"/>aliorum, continuo appetunt, &amp; extimant sibi 
+      <lb ed="#R" n="47"/>dari debere aliquid magnum super alios. In 
+      <lb ed="#R" n="48"/>hoc ergo erat primum, quod appetijt Angelus, 
+      <lb ed="#R" n="49"/>ac primo desiderauit, &amp; hoc statim sequebatur 
+      <lb ed="#R" n="50"/>extimatio, qua extimauit bona minora 
+      aequa<lb ed="#R" n="51" break="no"/>lia, &amp; aequalia minora, &amp; tunc oriebatur in 
+      <lb ed="#R" n="52"/>appetitu quaedam erectio contra superiorem, 
+      <lb ed="#R" n="53"/>vtpote contra Deum, &amp; contra alios Angelos, 
+      <lb ed="#R" n="54"/>&amp; in hoc quod erigebat se contra Deum, quod 
+      <lb ed="#R" n="55"/>ponebat se iuxta Deum, &amp; in hoc videbatur 
+      qua<lb ed="#R" n="56" break="no"/>si tendere ad Dei aequalitatem per quendam 
+      ip<lb ed="#R" n="57" break="no"/>sius contemptum. &amp; sic intelliguntur Sancti, &amp; 
+      <lb ed="#R" n="58"/>auctoritates Isaiae, qui dicunt, quod appetijt 
+      ae<lb ed="#R" n="59" break="no"/>qualitatem Dei. 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e1424">
+                  <lb ed="#R" n="60"/>Dices, ille appetitus, quo appetijt 
+      excellen<lb ed="#R" n="61" break="no"/>tiam gloriae debere sibi dari ex meritis, erat 
+      <lb ed="#R" n="62"/>fatuus, &amp; videbat, quod erat ad impos sibile: quo 
+      <lb ed="#R" n="63"/>modo ergo potest poni, quod fuerit in Angelo in 
+      <lb ed="#R" n="64"/>tam praeclaris naturalibus creato? 
+      <lb ed="#R" n="65"/>Respondeo dico, quod Angelus ille fuit 
+      ex<lb ed="#R" n="66" break="no"/>caecatus in intellectu ab actu vanaegloriae, qui 
+      <lb ed="#R" n="67"/>erat immoderata complacentia sui. Ex hoc 
+      e<lb ed="#R" n="68" break="no"/>nim statim putauit debere sibi dari aliquid 
+      prae<lb ed="#R" n="69" break="no"/>caeteris excellens, sicut accidit communiter 
+      va<lb ed="#R" n="70" break="no"/>nagloriosis. 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e1450">
+                  <lb ed="#R" n="71"/>Dico ergo ad quaestionem, quod Angelus ma 
+      <lb ed="#R" n="72"/>lus de possibili potuit appetere Dei 
+      aequalita<lb ed="#R" n="73" break="no"/>tem, sed de facto dico, quod illud primo 
+      ap<lb ed="#R" n="74" break="no"/>perijt, quod sibi fuisset datum, si non peccasset, 
+      <lb ed="#R" n="75"/>quod erat excellentia gloriae, (vt dictum est) 
+      <lb ed="#R" n="76"/>quam vtique appetijt habere a Deo, sed tamen 
+      <lb ed="#R" n="77"/>ex meritis sibi debitis propter excellentiam 
+      <lb ed="#R" n="78"/>naturalium suorum, &amp; similiter ad 
+      argumen<lb ed="#R" n="79" break="no"/>tum in oppositum patet ex dictis. 
+   </p>
+               <p xml:id="olm8ij-f25949-d1e1473">
+                  <lb ed="#R" n="80"/>Et ad argumentum principale, &amp; similiter ad 
+      <lb ed="#R" n="81"/>argumentum in oppositum ex dictis patet quid 
+      <lb ed="#R" n="82"/>dicendum.
+   </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

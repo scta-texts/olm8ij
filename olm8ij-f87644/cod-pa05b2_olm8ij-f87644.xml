@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-05">April 05, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b2">Roma 1605, Book 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="285"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-f87644"><!-- l2d31et32-q1 -->
+            <head xml:id="olm8ij-f87644-Hd1e101">Quaestio 1</head>
+            <p xml:id="olm8ij-f87644-d1e103">
+               <lb ed="#R" n="4"/>QVAESTIO VNICA 
+   </p>
+            <p xml:id="olm8ij-f87644-d1e108">
+      <!--0285.xml-->
+               <cb ed="#R" n="b"/>
+               <lb ed="#R" n="5"/>1 Vtrum peccatum originale traducatur a 
+      <lb ed="#R" n="6"/>partibus. 
+      <lb ed="#R" n="7"/>2 Vtrum peccatum originale deleatur in 
+      <lb ed="#R" n="8"/>baptismo. 
+   </p>
+            <div xml:id="olm8ij-f87644-Dd1e124">
+               <head xml:id="olm8ij-f87644-Hd1e126">Articulus 1</head>
+               <head xml:id="olm8ij-f87644-Hd1e128" type="question-title">
+        Utrum peccatum originale traducatur a parentibus
+      </head>
+               <p xml:id="olm8ij-f87644-d1e131">
+                  <lb ed="#R" n="9"/>ARTJCVLVS J. 
+      <lb ed="#R" n="10"/>Vtrum peccatum originale traducatur a 
+      <lb ed="#R" n="11"/>parentibus. 
+   </p>
+               <p xml:id="olm8ij-f87644-d1e140">
+                  <lb ed="#R" n="12"/>QVANTVM ad primam 
+      <lb ed="#R" n="13"/>quaestionem sine 
+      argu<lb ed="#R" n="14" break="no"/>mentis respondeo, quod 
+      <lb ed="#R" n="15"/>loquendo de peccato 
+      <lb ed="#R" n="16"/>originali quoad eius 
+      <lb ed="#R" n="17"/>materiale non est 
+      diffi<lb ed="#R" n="18" break="no"/>cile videre, vtrum possit 
+      <lb ed="#R" n="19"/>transfundi a parentibus. 
+   </p>
+               <p xml:id="olm8ij-f87644-d1e160">
+                  <lb ed="#R" n="20"/>Materialiter autem 
+      pec<lb ed="#R" n="21" break="no"/>catum originale, vt dictum est, est qualitas 
+      mor<lb ed="#R" n="22" break="no"/>bida subiectiue existens in appetitu sensitiuo: nunc 
+      <lb ed="#R" n="23"/>non est inconueniens, quod si in appetitu 
+      paren<lb ed="#R" n="24" break="no"/>tum sit habilitas, &amp; qualitas aliqua inclinans ad 
+      <lb ed="#R" n="25"/>actus naturae virilis actus, &amp; circa naturas 
+      ali<lb ed="#R" n="26" break="no"/>quas, quod consimilis qualitas ibi fiat per 
+      genera<lb ed="#R" n="27" break="no"/>tionem in filijs. Vnde videmus quandoque, &amp; saepe 
+      fi<lb ed="#R" n="28" break="no"/>lios in quibusdam inclinationibus, &amp; habilitatibus 
+      <lb ed="#R" n="29"/>parentibus assimilari, &amp; sic parentes iracundos 
+      <lb ed="#R" n="30"/>generare filios naturaliter iracundos, &amp; sic de 
+      <lb ed="#R" n="31"/>alijs qualitatibus. Nec videtur esse magis impos 
+      <lb ed="#R" n="32"/>sibile de aliqua tali qualitate in appetitu 
+      sensiti<lb ed="#R" n="33" break="no"/>uo, quam de qualitate in carne, puta colore, figura, 
+      <lb ed="#R" n="34"/>quantitate, &amp; huiusmodi, in quibus filij 
+      parenti<lb ed="#R" n="35" break="no"/>bus vt plurimum assimilantur. 
+   </p>
+               <p xml:id="olm8ij-f87644-d1e198">
+                  <lb ed="#R" n="36"/>Aliqui tamen tenent oppositum istius 
+      opinio<lb ed="#R" n="37" break="no"/>nis, sed ego non video quare habeant dimitti ori 
+      <lb ed="#R" n="38"/>ginalia, &amp; dicta Sanctorum, quae videatur sonare 
+      <lb ed="#R" n="39"/>expraesse conclusionem illam: Cum enim qualitas 
+      <lb ed="#R" n="40"/>illa morbida sit subiectiue in appetitu sensitiuo, 
+      <lb ed="#R" n="41"/>quae est pot entia organica resultans ex anima, &amp; 
+      <lb ed="#R" n="42"/>corpore, quare non potest transfundi, &amp; fieri 
+      con<lb ed="#R" n="43" break="no"/>similis qualitas in propagatis per generationem, 
+      <lb ed="#R" n="44"/>sicut accidit de alijs qualitatibus existentibus 
+      <lb ed="#R" n="45"/>subiectiue in alijs membris corporis. Et: si dicas, 
+      <lb ed="#R" n="46"/>quod talis transfusio, vt sic non sit impossibilis ta 
+      <lb ed="#R" n="47"/>men est irregularis, &amp; accidentaria; non enim 
+      <lb ed="#R" n="48"/>iracundus necessario generat iracundum, 
+      pecca<lb ed="#R" n="49" break="no"/>tum autem originale necessario est in posteris. 
+      <lb ed="#R" n="50"/>Respondeo, possibilitas est ex natura, sed 
+      necessi<lb ed="#R" n="51" break="no"/>tas est ex iudicio Dei diuino, qui statuit hoc in 
+      <lb ed="#R" n="52"/>peccati vindictam. Sed de originali, quoad 
+      <lb ed="#R" n="53"/>formale, videtur non esse ita clarum. Potest dici, 
+      <lb ed="#R" n="54"/>quod cum peccatum hoc modo non habeat esse 
+      <lb ed="#R" n="55"/>naturale, sed morale, siue intentionale, quod 
+      <!--0285.xml-->
+      <cb ed="#R" n="c"/>
+                  <lb ed="#R" n="56"/>quanto occurrit intellectui diuino, vt 
+      displi<lb ed="#R" n="57" break="no"/>cens &amp; detestabile, ideoque occurrit sub 
+      qua<lb ed="#R" n="58" break="no"/>dam indecentia, ideo peccatum hoc modo non 
+      <lb ed="#R" n="59"/>est aptum natum transsundi per generationem 
+      <lb ed="#R" n="60"/>naturalem: posset tamen aliquo modo dici 
+      trans<lb ed="#R" n="61" break="no"/>fundi, sicut dicitur, quod generans attingit 
+      ani<lb ed="#R" n="62" break="no"/>mam, quia attingit vltimatam corporis 
+      disposi<lb ed="#R" n="63" break="no"/>tionem, ad quam sequitur ordine naturae 
+      necessa<lb ed="#R" n="64" break="no"/>rio illa anima, sic in proposito. 
+   </p>
+            </div>
+            <div xml:id="olm8ij-f87644-Dd1e269">
+               <head xml:id="olm8ij-f87644-Hd1e271">Articulus 2</head>
+               <head xml:id="olm8ij-f87644-Hd1e273" type="question-title">
+          Utrum peccatum originale deleatur per 
+          baptismum
+        </head>
+               <p xml:id="olm8ij-f87644-d1e276">
+                  <lb ed="#R" n="65"/>ARTJCVLVS JJ. 
+      <lb ed="#R" n="66"/>Vtrum peccatum originale deleatur per 
+      <lb ed="#R" n="67"/>baptismum. 
+   </p>
+               <p xml:id="olm8ij-f87644-d1e285">
+                  <lb ed="#R" n="68"/>QVantum ad quaestionem secundam arguo 
+      <lb ed="#R" n="69"/>primo, quod peccatum originale non 
+      <lb ed="#R" n="70"/>deleatur per baptismum, Quoniam 
+      pec<lb ed="#R" n="71" break="no"/>catum originale non est aliud quam rebellio 
+      ha<lb ed="#R" n="72" break="no"/>bitualis existens in appetitu sensitiuo: sed rebellio 
+      <lb ed="#R" n="73"/>illa, &amp; concupiscentia est in homine post 
+      baptis<lb ed="#R" n="74" break="no"/>mum, patet, quoniam ita post baptismum 
+      experi<lb ed="#R" n="75" break="no"/>tur homo pronitatem ad malum, &amp; difficultatem 
+      <lb ed="#R" n="76"/>ad bonum, sicut ante: ergo. 
+   </p>
+               <p xml:id="olm8ij-f87644-d1e307">
+                  <lb ed="#R" n="77"/>In oppositum est Apostolus ad Rom. 6. quicun 
+      <lb ed="#R" n="78"/>que in Christo baptizati estis, Christum induistis; 
+      <lb ed="#R" n="79"/>&amp; sequitur, Consepulti cum Christo in mortem: 
+      <lb ed="#R" n="80"/>&amp; infra, Destructum est corpus peccati, certum 
+      <lb ed="#R" n="81"/>est quod non intelligit de peccato actuali, sed 
+      ori<lb ed="#R" n="82" break="no"/>ginali. Respondeo in ista quaestione duo sunt 
+      vi<lb ed="#R" n="83" break="no"/>denda. Primum est, quod peccatum originale per 
+      <lb ed="#R" n="84"/>baptismum deletur. Secundo videndum est 
+      quo<lb ed="#R" n="85" break="no"/>modo, &amp; quae iustitia? Quantum ad primum scien 
+      <lb ed="#R" n="86"/>dum est, quod tria est considerare in quolibet 
+      <lb ed="#R" n="87"/>peccato; aliquid scilicet reale positiuum, &amp; 
+      ali<lb ed="#R" n="88" break="no"/>quid morale, puta macula, &amp; reatus siue indecen 
+      <lb ed="#R" n="89"/>tia: Exemplum de peccato actuali, ibi enim est con 
+      <lb ed="#R" n="90"/>siderare actum, qui diciaur a potentia, qui 
+      tran<lb ed="#R" n="91" break="no"/>sit, &amp; non manet, postquam autem actus ille 
+      tran<lb ed="#R" n="92" break="no"/>sierit, nihil videtur ibi post actum remanere, quod 
+      <lb ed="#R" n="93"/>sit reale secundum esse naturae, sed tantummodo 
+      <lb ed="#R" n="94"/>remanet macula quaedam, quae magis consistit in 
+      <lb ed="#R" n="95"/>esse morali, eo modo, quo infamia dicitur 
+      macu<lb ed="#R" n="96" break="no"/>la, macula autem illa oritur ex deformitate actus 
+      <lb ed="#R" n="97"/>quia enim actus est deformis, idcirco quandocun 
+      <lb ed="#R" n="98"/>que intellectus concipit hominem fuisse sub illo 
+      <lb ed="#R" n="99"/>actu, eo ipso totum hominem concipit, vt 
+      macu<lb ed="#R" n="100" break="no"/>latum, &amp; detestabilem, ita quod omni intellectui 
+      <lb ed="#R" n="101"/>occurrit sub macula quadam, &amp; turpitudine 
+      <lb ed="#R" n="102"/>ac deformitate, &amp; indignitate: haec ergo 
+      inde<lb ed="#R" n="103" break="no"/>centia in esse intentionali est illud, quod 
+      relin<lb ed="#R" n="104" break="no"/>quitur in anima post peccatum, &amp; nihil aliud rea-
+     <!-- line break missing --> le, de quo in Quarto libro.
+   </p>
+               <p xml:id="olm8ij-f87644-d1e373">
+                  <lb ed="#R" n="105"/>Tertium vero considerandum est, quod in pec 
+      <!--0286.xml-->
+      <pb ed="#R" n="286"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>cato est obligatio ad paenam apud iustum iudicem, 
+      <lb ed="#R" n="2"/>sic ergo illa tria se habent in quolibet peccato 
+      <lb ed="#R" n="3"/>actuali per ordinem: Primum est actus naturalis pu 
+      <lb ed="#R" n="4"/>ta actus homicidij. Secundum est macula in esse 
+      in<lb ed="#R" n="5" break="no"/>tentionali derelicta in memoria hominum vel Dei 
+      <lb ed="#R" n="6"/>ex tali actu, in quantum occurrit omni intellectui 
+      <lb ed="#R" n="7"/>sub quadam detestatione, &amp; indignitate: Tertio 
+      ve<lb ed="#R" n="8" break="no"/>ro oritur obligatio ad paenam, quaeest reatus. Nec 
+      <lb ed="#R" n="9"/>idem est obligatio illa, quod sit reatus, &amp; macula 
+      <lb ed="#R" n="10"/>illa in apprehensione, quoniam obligatio pertinet 
+      <lb ed="#R" n="11"/>ad iustitiam primã; macula vero magis est aliquid 
+      <lb ed="#R" n="12"/>derelictum ex peccato in memoria hominum: sicut 
+      <lb ed="#R" n="13"/>dixi de peccato actuali, sic dico de originali. Con 
+      <lb ed="#R" n="14"/>siderando enim ibi tria, primum est reale, nec 
+      <lb ed="#R" n="15"/>intelligo, quod peccatum priginale sit carentia 
+      <lb ed="#R" n="16"/>solum originalis iustitiae, sed concurrit ibi 
+      habi<lb ed="#R" n="17" break="no"/>tualis inclinatio, quae est rebellio, quam 
+      Aposto<lb ed="#R" n="18" break="no"/>lus vocat fomitem peccati, quae quidem 
+      subie<lb ed="#R" n="19" break="no"/>ctiue est in appetitu sensitiuo faciens rebellionem 
+      <lb ed="#R" n="20"/>contra rectam rationem. Hoc ergo est primum 
+      <lb ed="#R" n="21"/>quod occurrit in peccato originali. Secundum 
+      ve<lb ed="#R" n="22" break="no"/>ro est macula illa, quae habens qualitatem illam 
+      <lb ed="#R" n="23"/>occurrit intellectui suh quadam indecentia, cum 
+      <lb ed="#R" n="24"/>enim puer nascitur cum tali rebellione, statim 
+      <lb ed="#R" n="25"/>occurrit prospectui dicino sub macula quadam, 
+      <lb ed="#R" n="26"/>&amp; vt indignus amore suo, &amp; filius irae: &amp; in his 
+      <lb ed="#R" n="27"/>duobus consistit originale peccatum, in primo 
+      <lb ed="#R" n="28"/>quidem vt in materiali; in secundo, vero vt in 
+      <lb ed="#R" n="29"/>formali (priuatio enim sola non potest esse forma 
+      <lb ed="#R" n="30"/>le in peccato) quia manet post baptismum. Nec 
+      <lb ed="#R" n="31"/>satisfacit, si dicatur, quod ibi concurrit debitum 
+      <lb ed="#R" n="32"/>habendi primam. Contra, quia tunc formale in 
+      <lb ed="#R" n="33"/>peccato originali est relatio, puta obligatio ad 
+      <lb ed="#R" n="34"/>poenam damni, quae est carentia diuinae visionis 
+      <lb ed="#R" n="35"/>His visis considerandum est vlterius, quod 
+      se<lb ed="#R" n="36" break="no"/>cundum Augustinum contra Julianum lib. primo 
+      <lb ed="#R" n="37"/>ordo conuersus est in deletione peccati actualis, 
+      <lb ed="#R" n="38"/>&amp; originalis, quia in peccato actuali tollitur posi 
+      <lb ed="#R" n="39"/>tiuum, &amp; macula, &amp; reatus, in originali vero, quando 
+      <lb ed="#R" n="40"/>deletur macula, remanet positiuum: vnde oritur: 
+      <lb ed="#R" n="41"/>Sicut remittit infamiam parcendo, sic Deus dimit. 
+      <lb ed="#R" n="42"/>tit originale, quod dimittere non est aliud, quam facere, 
+      <lb ed="#R" n="43"/>quod propter habitum anima non sit maculata: ergo 
+      <lb ed="#R" n="44"/>remanet positiuum, quod est causa maculae ablata 
+      <lb ed="#R" n="45"/>macula; sed in peccato actuali transeunte 
+      positi<lb ed="#R" n="46" break="no"/>ro remanet macula, &amp; illa nunquam deletur stan 
+      <lb ed="#R" n="47"/>te positiuo. Sed hic occurrunt dubia. Primum est, 
+      <lb ed="#R" n="48"/>quod de illa qualitate, quae ponitur, quomodo po 
+      <lb ed="#R" n="49"/>test esse peccatum originale? nam 5. Ethic. ex his 
+      <lb ed="#R" n="50"/>quae in sunt a natura, nec laudamur nec 
+      vitupera<lb ed="#R" n="51" break="no"/>mur: sed rebellio est contraria naturali appetitui 
+      <lb ed="#R" n="52"/>sensitiuo, quare non laudamur nec vituperamur 
+      <lb ed="#R" n="53"/>ex tali rebellione: ergo illa non est peccatum, vt 
+      <lb ed="#R" n="54"/>aliquod inde oriatur peccatum. Minorem 
+      pro<lb ed="#R" n="55" break="no"/>bo, non enim videtur, quod appetitus per 
+      quali<lb ed="#R" n="56" break="no"/>tatem aliquam suprauenientem rebellet a se ipso; 
+      <lb ed="#R" n="57"/>quod patet multipliciter, primo, quia hoc est 
+      con<lb ed="#R" n="58" break="no"/>mune animali aestimatum habet appetitum: quae 
+      au<lb ed="#R" n="59" break="no"/>tem eadem sunt apud naturalia, eadem sunt: Secundo, 
+      <lb ed="#R" n="60"/>ꝗa appetitus sensitiuus mouetur ab obiectis: obie 
+      <lb ed="#R" n="61"/>cta mouent naturaliter, nec est in potentia 
+      appe<lb ed="#R" n="62" break="no"/>titus intense vel remisse moueri. Confirmatur, ꝗa 
+      <lb ed="#R" n="63"/>naturale videtur appetitui sensitiuo ferri in dele. 
+      <lb ed="#R" n="64"/>ctabile, &amp; intense in obiectum delectabile est ferre 
+      <lb ed="#R" n="65"/>contra rationem. Item, oens habent peccatum origi 
+      <lb ed="#R" n="66"/>nale, aequauter illam qualitatem. Item: iste habitus 
+      <!--0286.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>aut est a Deo, &amp; sic Deus est causa peccati; aut na 
+      <lb ed="#R" n="68"/>tura appetitus, &amp; sic naturaliter rebellabit, &amp; 
+      na<lb ed="#R" n="69" break="no"/>turaliter talis habitus poterit acquiri quod videtur 
+      <lb ed="#R" n="70"/>inconueniens. Propter has rationes dicitur, quod natu 
+      <lb ed="#R" n="71"/>rale est appetitui sensitiuo rebellare, vnde 
+      natura<lb ed="#R" n="72" break="no"/>lis conditio sua est, quod sit rebellans, sicutequus 
+      <lb ed="#R" n="73"/>sine freno, quod probatur in speciali, Quia nisi esset 
+      <lb ed="#R" n="74"/>naturalis conditio appetitus, sequeretur, quod 
+      <lb ed="#R" n="75"/>Philosophi probassent nos non esse in statu 
+      na<lb ed="#R" n="76" break="no"/>turali. Sed mihi videtur oppositum specialiter 
+      <lb ed="#R" n="77"/>propter hoc, quia videtur mihi, quod sit de inten 
+      <lb ed="#R" n="78"/>tione Augustini contra Julianum, vbi ponit 
+      Au<lb ed="#R" n="79" break="no"/>gustinus, quod peccatum illud est qualitas 
+      addi<lb ed="#R" n="80" break="no"/>ta, &amp; quod transfunditur a parentibus, vnde in 
+      <lb ed="#R" n="81"/>lib. 6. disputat, quomodo non est substantia 
+      appe<lb ed="#R" n="82" break="no"/>titus, sed est qualitas, &amp; infectio, &amp; quod 
+      tra<lb ed="#R" n="83" break="no"/>ducitur a parentibus, &amp; multa alia disputat ibi 
+      <lb ed="#R" n="84"/>dialogice de huiusmodi qualitate. Similiter istius 
+      <lb ed="#R" n="85"/>sententiae videtur esse Magister in litera expresse. 
+      <lb ed="#R" n="86"/>Potest autem hoc probari aliqualiter per rationes, 
+      <lb ed="#R" n="87"/>Etsi enim illa rebellio, est naturalis appetitui 
+      sen<lb ed="#R" n="88" break="no"/>sitiuo, ita quod esset eius substantia, &amp; natura, 
+      <lb ed="#R" n="89"/>tunc fuiilet in Christo, &amp; in Virgine, licet fuissent 
+      <lb ed="#R" n="90"/>sopita. Item Philosophus 2. Ethic. dicit, quod 
+      <lb ed="#R" n="91"/>virtutes, &amp; vitia non sunt a natura nisi 
+      initiati<lb ed="#R" n="92" break="no"/>ue. Item si illa rebellio sit natura appetitus, sequi 
+      <lb ed="#R" n="93"/>tur, quod contra naturam erūt in eo virtutes cō- 
+      <lb ed="#R" n="94"/>praehendentes illam rebellionem, quia contra eius 
+      <lb ed="#R" n="95"/>inclinationem. Item Ar ist. 7. Ethic. dicit, quod in his, qᷓ 
+      <lb ed="#R" n="96"/>sunt a natura, non conuenit assuefacere ad oppo 
+      <lb ed="#R" n="97"/>situm, &amp; sic nullus virtuosus posset assuefieri ad 
+      <lb ed="#R" n="98"/>oppositum. Dico ergo, quod appetitus de 
+      natu<lb ed="#R" n="99" break="no"/>ra sua est indifferens ad rebellandum, &amp; 
+      obe<lb ed="#R" n="100" break="no"/>diendum rationi, &amp; ideo aptus natus est recipere 
+      <lb ed="#R" n="101"/>qualitates facientes rebellionem, quae est 
+      natura<lb ed="#R" n="102" break="no"/>le vitium materialiter, &amp; faciens contra 
+      concor<lb ed="#R" n="103" break="no"/>diam, quae est iustitia originalis; tunc ad 
+      ratio<lb ed="#R" n="104" break="no"/>nes alterius opinionis, ad prmiam nego 
+      assum<lb ed="#R" n="105" break="no"/>ptum scilicet, quod rebellare conueniat 
+      natura<lb ed="#R" n="106" break="no"/>liter appetitui: &amp; ad probationem, cum dicis, 
+      <lb ed="#R" n="107"/>quod mouetur ab obiecto naturaliter ad 
+      passio<lb ed="#R" n="108" break="no"/>nes, Dico quod aliud est moueri ab obiecto, &amp; aliud 
+      <lb ed="#R" n="109"/>est esse passiones; &amp; aliud est illa rebellio 
+      appeti<lb ed="#R" n="110" break="no"/>tus: appetitus enim relictus sibi ipsi bene 
+      delecta<lb ed="#R" n="111" break="no"/>tur in obiecto, &amp; intense quantum est ex parte sua 
+      <lb ed="#R" n="112"/>etiam naturaliter mouetur ab obiecto, &amp; illa duo 
+      <lb ed="#R" n="113"/>sunt contraria nobis, &amp; brutis; sed vltra illa in ho 
+      <lb ed="#R" n="114"/>mine est quaedam specialis pronitas non solum ad 
+      <lb ed="#R" n="115"/>rem sub ratione delectabilis, sed etiam sub ratione ve 
+      <lb ed="#R" n="116"/>titi, &amp; prohibiti, &amp; vt deuiat a recta ratione: vnde 
+      <lb ed="#R" n="117"/>experimur, quod appetitus sensitiuus multorum 
+      <lb ed="#R" n="118"/>brutorum magis sequitur recttam rationem 
+      <lb ed="#R" n="119"/>quam appetitus in nobis, &amp; magis faciliter 
+      obe<lb ed="#R" n="120" break="no"/>dit. Vnde videmus quaedam anmalia nunquam 
+      <lb ed="#R" n="121"/>conuenire ad actum venereum, nisi tempore 
+      ge<lb ed="#R" n="122" break="no"/>nerationis, &amp; propter generationem: ergo 
+      aliun<lb ed="#R" n="123" break="no"/>de videtur esse improbitas illa, quae apparet in 
+      <lb ed="#R" n="124"/>homine respectu illius actus, quam de natura, 
+      <lb ed="#R" n="125"/>qua se inclinat, sic superflue, &amp; frenate in 
+      delecta<lb ed="#R" n="126" break="no"/>bile, a bono autem speciali est in homine 
+      pro<lb ed="#R" n="127" break="no"/>babilitas illa, vt illud quod de se non est 
+      obie<lb ed="#R" n="128" break="no"/>ctum delectabile, faciet ipsum potentiae 
+      delecta<lb ed="#R" n="129" break="no"/>bile, vt vnum quando aliud prohibetur. statim 
+      <lb ed="#R" n="130"/>illa prohibitio fit ei disconueniens, &amp; fugit eam, 
+      <lb ed="#R" n="131"/>ac contra innitatur &amp; effrenate, aut 
+      delectabilis<lb ed="#R" n="132" break="no"/>sime, in quantum fertur in oppositum, ita quod 
+      <!--0287.xml-->
+      <pb ed="#R" n="287"/>
+                  <cb ed="#R" n="a"/>
+                  <!-- BEGIN column order error in coords file -->
+                  <lb ed="#R" n="1"/>illud de se non esset disconueniens, inquantum 
+      ve<lb ed="#R" n="2" break="no"/>titum est disconueniens, &amp; oppositum vetiti 
+      con<lb ed="#R" n="3" break="no"/>ueniens. Per hoc patet quoad omnes rationes, 
+    <lb ed="#R" n="4"/>&amp; confirmationes illas. Ad aliud autem quod 
+      ar<lb ed="#R" n="5" break="no"/>guitur, quia aut est a Deo, &amp;c. Respondeo 
+      qua<lb ed="#R" n="6" break="no"/>litas ista potest considerari dupliciter, vel in quan 
+    <lb ed="#R" n="7"/>tum est pure inflicta, &amp; sic est a Deo, vel in 
+      quan<lb ed="#R" n="8" break="no"/>tum est macula: &amp; sic extrinsece excitatiue est a 
+    <lb ed="#R" n="9"/>Diabolo, consumatiue vero a consensu mentis; 
+    <lb ed="#R" n="10"/>alias macula illa non puniretur, &amp; in tantum 
+    <lb ed="#R" n="11"/>habet rationem voluntarij, sicut dixi de 
+      obstina<lb ed="#R" n="12" break="no"/>tione demonis a. libro. Per hoc etiam patet 
+      il<lb ed="#R" n="13" break="no"/>lud, quod ibi dictum est, quod miseria 
+      damna<lb ed="#R" n="14" break="no"/>torum consistit in continuo malignari, &amp; tamen 
+    <lb ed="#R" n="15"/>quaero, a quo est habitus ille, quo continue 
+      mali<lb ed="#R" n="16" break="no"/>gnantur. Respondeo, quod vt paena, est a Deo, 
+    <lb ed="#R" n="17"/>vt macula autem est ab homine, &amp; habet rationem 
+    <lb ed="#R" n="18"/>voluntarij, &amp; est a demerito praecedente. Nunc 
+    <lb ed="#R" n="19"/>quantum ad secundum articulum dico, quod 
+      pec<lb ed="#R" n="20" break="no"/>catum originale iuste deletur per baptismum. 
+    <lb ed="#R" n="21"/>Ratio est quia, quando macula inest aliquibus, 
+    <lb ed="#R" n="22"/>non ratione personae, sed ratione naturae, sicut 
+    <lb ed="#R" n="23"/>traductio maculae fit in omnes ratio vnius, in quo 
+    <lb ed="#R" n="24"/>est tota natura; sic est iustum, quod deletio fiat 
+    <lb ed="#R" n="25"/>ratione vnius, in quo similiter sit tota natura: in 
+    <lb ed="#R" n="26"/>Adam erat tota natura, &amp; quoad esse naturale, 
+    <lb ed="#R" n="27"/>&amp; quoad bona gratuita: statuerat enim ei Deus, 
+    <lb ed="#R" n="28"/>quicquid sibi dabat, dare pro tota natura, &amp; 
+      si<lb ed="#R" n="29" break="no"/>cut acceptabat merita, &amp; bona sua pro tota 
+      na<lb ed="#R" n="30" break="no"/>tura, sic illa demerita; &amp; hinc est, quod peccatum 
+    <lb ed="#R" n="31"/>eius transiuit ad totam naturam, &amp; quod erat 
+    <lb ed="#R" n="32"/>pars, ac gerens vicem, &amp; procurator pro tota 
+    <lb ed="#R" n="33"/>natura: tota autem natura sic vitiata, statuit 
+    <lb ed="#R" n="34"/>Deus alium hominem nouum, qui secundum 
+    <lb ed="#R" n="35"/>Deum creatus est, Christum, scilicet pro tota na-
+      <!--0287.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="36"/>tura propitiatorem, &amp; procuratorem, vt 
+      meri<lb ed="#R" n="37" break="no"/>tum eius acciperetur pro tota natura, &amp; per hoc 
+    <lb ed="#R" n="38"/>redundaret in alios. &amp; quoniam naturam non 
+    <lb ed="#R" n="39"/>trahimus a Christo secundum esse naturale, ideo 
+    <lb ed="#R" n="40"/>oportet, quod trahamus eam secundum aliud 
+      es<lb ed="#R" n="41" break="no"/>se, idest, secundum generationem actiuam 
+      traha<lb ed="#R" n="42" break="no"/>mus naturam a Christo, ad hoc quod in eo fiat 
+    <lb ed="#R" n="43"/>tota nostra natura. Ad hoc autem ordinatus est 
+    <lb ed="#R" n="44"/>baptismus, qui est regeneratio, siue generatio 
+    <lb ed="#R" n="45"/>in Christo vnius hominis noui, &amp; deponere 
+      ho<lb ed="#R" n="46" break="no"/>minem veterem, in cuius signum baptizandus 
+    <lb ed="#R" n="47"/>primo immergitur, &amp; consepelitur veteri homini, 
+    <lb ed="#R" n="48"/>&amp; peccato, &amp; ibi protestamur nos interficere, 
+    <lb ed="#R" n="49"/>&amp; sepelire naturam ab Adam tractam; ideo 
+    <lb ed="#R" n="50"/>dicit Apostolus ad Rom. Consepulti enim sumus 
+    <lb ed="#R" n="51"/>Christo per baptiimum in morte, &amp; infra: 
+      De<lb ed="#R" n="52" break="no"/>structum est corpus peccati: postea autem 
+      leua<lb ed="#R" n="53" break="no"/>tur de aqua, in signum, quod protestatur se velle 
+    <lb ed="#R" n="54"/>consurgere cum Christo, &amp; naturam habere ab 
+    <lb ed="#R" n="55"/>eo, &amp; ideo iuste deletur originale, &amp; 
+      transfun<lb ed="#R" n="56" break="no"/>ditur in nobis gratia intrinsece Christi merito, 
+    <lb ed="#R" n="57"/>quia meruit, &amp; gratiam accepit pro tota 
+      natu<lb ed="#R" n="58" break="no"/>ra, vnde de plenitudine eius nos omnes 
+      accepi<lb ed="#R" n="59" break="no"/>mus, gratiam pro gratia. Ad articulum 
+      respon<lb ed="#R" n="60" break="no"/>deo, quod bene remanet illud, vnde oriebatur ma 
+    <lb ed="#R" n="61"/>cula, tamen transit quoad decentiam &amp; 
+      macu<lb ed="#R" n="62" break="no"/>lam, si quaeratur quare dimittitur illa 
+      habitua<lb ed="#R" n="63" break="no"/>lis rebellio, &amp; non tollitur? Dicit Augustinus, 
+    <lb ed="#R" n="64"/>quod hoc est in meritum fidei, &amp; ratione 
+      extrin<lb ed="#R" n="65" break="no"/>seci meritorum, sicut Apostolus conquerens ad 
+    <lb ed="#R" n="66"/>Rom. 7. de huiusinodi stimulo &amp; tiranno, postea 
+    <lb ed="#R" n="67"/>consolationem accipit in sequenti capit. dicens; 
+    <lb ed="#R" n="68"/>vel damnatum est in Christo Jesu, ac si diceret, &amp; 
+    <lb ed="#R" n="69"/>si maneat quoad paenam, tamen quoad culpam 
+    <lb ed="#R" n="70"/>totum est deletum.
+    <!-- END column error in coords file -->
+  </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

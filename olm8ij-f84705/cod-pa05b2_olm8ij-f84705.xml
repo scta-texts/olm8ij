@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-05">April 05, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b2">Roma 1605, Book 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="275"/>
+            <cb ed="#R" n="d"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-f84705"><!-- l2d28-q1 -->
+            <head xml:id="olm8ij-f84705-Hd1e101">Quaestio 1</head>
+            <p xml:id="olm8ij-f84705-d1e103">
+               <lb ed="#R" n="38"/>QVAESTIO VNICA. 
+      <!--0275.xml-->
+      <cb ed="#R" n="d"/>
+               <lb ed="#R" n="39"/>1 Prima est, Vtrum praemio debeatur 
+      meri<lb ed="#R" n="40" break="no"/>tum de condigno. 
+      <lb ed="#R" n="41"/>2 Secunda est: Vtrum possimus mereri, &amp; 
+      <lb ed="#R" n="42"/>adimplere diuina mandata sine gratia? 
+   </p>
+            <div xml:id="olm8ij-f84705-Dd1e121">
+               <head xml:id="olm8ij-f84705-Hd1e123">Articulus 1</head>
+               <head xml:id="olm8ij-f84705-Hd1e125" type="question-title">
+      Utrum praemio debeatur meritum de condigno
+    </head>
+               <p xml:id="olm8ij-f84705-d1e128">
+                  <lb ed="#R" n="43"/>ARTJCVLVS J. 
+      <lb ed="#R" n="44"/>Vtrum praemio debeatur meritum de condigno.
+   </p>
+               <p xml:id="olm8ij-f84705-d1e135">
+                  <lb ed="#R" n="45"/>RESPONDEO, aliqui 
+      <lb ed="#R" n="46"/>negant praemium deberi 
+      me<lb ed="#R" n="47" break="no"/>rito de condigno, contra 
+      <lb ed="#R" n="48"/>quos Apostolus videtur 
+      lo<lb ed="#R" n="49" break="no"/>qui ad Thimoth. De 
+      reli<lb ed="#R" n="50" break="no"/>quo superest mihi corona 
+      <lb ed="#R" n="51"/>iustitiae, quam reddet mihi 
+      <lb ed="#R" n="52"/>Dominus in illum diem 
+      iu<lb ed="#R" n="53" break="no"/>stus iudex; ecce quod redditionem praemij dicit 
+      <lb ed="#R" n="54"/>esse actum iustitiae, &amp; coronam iustitiae, idest 
+      prae<lb ed="#R" n="55" break="no"/>mium iustorum: ergo. 
+  </p>
+               <p xml:id="olm8ij-f84705-d1e161">
+                  <lb ed="#R" n="56"/>Quicquid sit modo non curo de hoc, quia in 
+      <lb ed="#R" n="57"/>quarto dixi de hoc sufficienter, sed est dubium 
+      <lb ed="#R" n="58"/>supposito enim, quod vt alias dixi debeatur 
+      prae<lb ed="#R" n="59" break="no"/>mium merito secundum iustitiam, restat 
+      difficul<lb ed="#R" n="60" break="no"/>tas, Vtrum iustitia illa sit distributiua tantum, an 
+      <lb ed="#R" n="61"/>sit commutatiua? Dicit vnus Doctor, quod est 
+      iu<lb ed="#R" n="62" break="no"/>stitia distributiua: sed non video quod hoc sit 
+      ve<lb ed="#R" n="63" break="no"/>rum. Nam iustitia distributiua est inter duo, 
+      ni<lb ed="#R" n="64" break="no"/>si distribuitur aliquid, in quo quilibet habet ius, 
+      <!--0275.xml-->
+      <cb ed="#R" n="e"/>
+                  <lb ed="#R" n="65"/>quod est commune vtrique quoad ius: sed in 
+      pro<lb ed="#R" n="66" break="no"/>posito non apparet, quod sit commune aliquid 
+      <lb ed="#R" n="67"/>Deo, &amp; homini, in quo homo vendicet sibi ius. 
+      <lb ed="#R" n="68"/>Jdeo dico, quod ibi est virtus commutatiua 
+      prae<lb ed="#R" n="69" break="no"/>mij pro merito; ita quod damus meritum, &amp; 
+      <lb ed="#R" n="70"/>pro eo rapimus praemium. Sed hic videtur dubium, 
+      <lb ed="#R" n="71"/>quia secundum Apostolum non sunt condignae 
+      <lb ed="#R" n="72"/>passiones huius saeculi ad gloriam futuram, quae 
+      <lb ed="#R" n="73"/>reuelabitur in nobis. Confirmo, quia 
+      commu<lb ed="#R" n="74" break="no"/>tatiua iustitia videtur consistere in proportione 
+      <lb ed="#R" n="75"/>meriti ad praemium: hic nulla est proportio: ergo. 
+   </p>
+               <p xml:id="olm8ij-f84705-d1e212">
+                  <lb ed="#R" n="76"/>Ideo dicunt alij, quod hoc est ratione Spiritus 
+      <lb ed="#R" n="77"/>sancti. Etsi enim actus in se prius valeat, tamen 
+      <lb ed="#R" n="78"/>in ordine ad principium coassistens, quod est 
+      Spi<lb ed="#R" n="79" break="no"/>ritus sanctus, valet multum. 
+   </p>
+               <p xml:id="olm8ij-f84705-d1e223">
+                  <lb ed="#R" n="80"/>Contra, quaero quomodo Spiritus sanctus 
+      fa<lb ed="#R" n="81" break="no"/>cit istum valere mihi; aut quia est meus, &amp; mihi 
+      <lb ed="#R" n="82"/>vnitur, quod absurdum est; aut aliquo habitu 
+      im<lb ed="#R" n="83" break="no"/>mediate, &amp; illud est quid creatum, sicut &amp; actus: 
+      <lb ed="#R" n="84"/>ergo adhuc manet improportio illa. 
+   </p>
+               <p xml:id="olm8ij-f84705-d1e236">
+                  <lb ed="#R" n="85"/>Dico igitur, quod ibi est commutatiua 
+      iusti<lb ed="#R" n="86" break="no"/>tia: sed sciendum, quod iustitia commutatiua est 
+      <lb ed="#R" n="87"/>in contra passum puta, si ego do tibi tantum de 
+      <lb ed="#R" n="88"/>auro, tu des mihi tantum de pane, consistit in 
+      <lb ed="#R" n="89"/>proportione quadam, &amp; hoc modo id quod 
+      mul<lb ed="#R" n="90" break="no"/>tum valet, bene potest proportionari ei, quod 
+      pa<lb ed="#R" n="91" break="no"/>rum valet; ita dicit Aristot. 4. Ethyc. Quod Dei 
+      <lb ed="#R" n="92"/>ad homines est amicitia, non quae fundetur in 
+      <lb ed="#R" n="93"/>vnitate, sed in proportione, vt tantum facian 
+      <!--0276.xml-->
+      <pb ed="#R" n="276"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>tibi pro tanto. Vnde si ego discalceabo Regem, 
+      <lb ed="#R" n="2"/>dabit ex hac proportione mihi equum: sic est in 
+      <lb ed="#R" n="3"/>proposito, quod meritum, &amp; praemium non 
+      con<lb ed="#R" n="4" break="no"/>sistunt in aequalitate valoris, sed inaequalentia 
+      <lb ed="#R" n="5"/>proportionis, vt sicut se habet creatura ad 
+      meri<lb ed="#R" n="6" break="no"/>tum, sic Deus ad praemium. Quamuis ergo 
+      prae<lb ed="#R" n="7" break="no"/>mium inextimabiliter excedat meritum meum; 
+      <lb ed="#R" n="8"/>tamen est ibi proportio, quod si ego facio, quod 
+      <lb ed="#R" n="9"/>possum, licet minimum: tamen Deus dat quod in 
+      <lb ed="#R" n="10"/>so est proportionabile isti. Vel potest dici, quod 
+      ti<lb ed="#R" n="11" break="no"/>bi debetur illud, propter quod est factum. 
+      Ope<lb ed="#R" n="12" break="no"/>ra autem meritoria quaedam, quae sunt ex natura 
+      <lb ed="#R" n="13"/>sua ad finem, ideo congruum est, quod 
+      redda<lb ed="#R" n="14" break="no"/>tur eis finis suus, qui secundum voluntatem 
+      de<lb ed="#R" n="15" break="no"/>centiae diuinae est gloria. Non enim decet tantum 
+      <lb ed="#R" n="16"/>donum reddere pro merito qualicumque ad 
+      mi<lb ed="#R" n="17" break="no"/>nus circa aeternam gloriam. Vnde sicut iustum 
+      <lb ed="#R" n="18"/>est, quod corpori organizato infundatur anima, 
+      <lb ed="#R" n="19"/>eo quod est ad animam, vt ad finem, sic est in 
+      pro<lb ed="#R" n="20" break="no"/>posito, de merito in ordine ad praemium. 
+   </p>
+               <p xml:id="olm8ij-f84705-d1e308">
+                  <lb ed="#R" n="21"/>Sed quid est illud, quod meretur illud 
+      prae<lb ed="#R" n="22" break="no"/>mium, vtrum actus, vel habitus? 
+   </p>
+               <p xml:id="olm8ij-f84705-d1e315">
+                  <lb ed="#R" n="23"/>Respondeo, aliqui dicunt quod habitus.
+   </p>
+               <p xml:id="olm8ij-f84705-d1e320">
+                  <lb ed="#R" n="24"/>Sed contra Philosoph. 6. Ethic. dicit, quod non 
+      <lb ed="#R" n="25"/>coronantur qui sciunt &amp; possunt pugnare, sed qui 
+      <lb ed="#R" n="26"/>exercent actum meritorium. 
+   </p>
+               <p xml:id="olm8ij-f84705-d1e330">
+                  <lb ed="#R" n="27"/>Sed quomodo verificatur illud Genes. 
+      Respe<lb ed="#R" n="28" break="no"/>xit Deus ad Abel,ecce habitum, &amp; munera eius ec 
+      <lb ed="#R" n="29"/>ce actum: ergo primo videtur acceptasse habitum 
+      <lb ed="#R" n="30"/>quam actum. 
+   </p>
+               <p xml:id="olm8ij-f84705-d1e341">
+                  <lb ed="#R" n="31"/>Respondeo, habitus bene est radix meriti. 
+      Vn<lb ed="#R" n="32" break="no"/>de acceptatio videtur inesse actui propter 
+      habi<lb ed="#R" n="33" break="no"/>tum, actui tamen non habitui redditur praemium. 
+      <lb ed="#R" n="34"/>Et ideo bene esset habens habitum siue actum 
+      <lb ed="#R" n="35"/>gratiosum, non tamen mereretur. 
+   </p>
+            </div>
+            <div xml:id="olm8ij-f84705-Dd1e355">
+               <head xml:id="olm8ij-f84705-Hd1e357">Articulus 2</head>
+               <head xml:id="olm8ij-f84705-Hd1e359" type="question-title">
+        Utrum possimus mereri, &amp; implere diuina 
+        mandata sine gratia
+      </head>
+               <p xml:id="olm8ij-f84705-d1e362">
+                  <lb ed="#R" n="36"/>ARTJCVLVS JJ. 
+      <lb ed="#R" n="37"/>Vtrum possimus mereri, &amp; implere diuina 
+      man<lb ed="#R" n="38" break="no"/>data sine gratia 
+   </p>
+               <p xml:id="olm8ij-f84705-d1e371">
+                  <lb ed="#R" n="39"/>IVxta hoc quaero; Vtrum possimus mereri, 
+      <lb ed="#R" n="40"/>&amp; implere diuina mandata sine gratia. 
+      <lb ed="#R" n="41"/>Respondeo dico, quod non. Error tamen 
+      <lb ed="#R" n="42"/>Pelagij est ad oppositum: hoc tamen dicunt 
+      qui<lb ed="#R" n="43" break="no"/>dam quod in actu meritorio omnia sunt a 
+      libe<lb ed="#R" n="44" break="no"/>ro arbitrio pure excepta acceptatione diuina. 
+      <lb ed="#R" n="45"/>Gratia enim tantummodo est causa 
+      acceptatio<lb ed="#R" n="46" break="no"/>nis passiue in actu. Videtur mihi, quod dictum 
+      <lb ed="#R" n="47"/>illud non sit rationabile: ad hoc enim habeo 
+      di<lb ed="#R" n="48" break="no"/>cta Sanctorum, &amp; specialiter Augustini, qui ad 
+      <lb ed="#R" n="49"/>hoc fecit quatuor libros contra Pelagium 
+      spe<lb ed="#R" n="50" break="no"/>cia les, &amp; sine gratia non possumus bene operari; 
+      <lb ed="#R" n="51"/>ita quod ex puris naturalibus secundum eum 
+      su<lb ed="#R" n="52" break="no"/>mus insufficientes ad actum bonum, nedum ad 
+      <lb ed="#R" n="53"/>acceptationem extrinsece, sed quoad 
+      intrinse<lb ed="#R" n="54" break="no"/>cum in actu. 
+   </p>
+               <p xml:id="olm8ij-f84705-d1e408">
+                  <lb ed="#R" n="55"/>Dico igitur, quod aliud est dicere actum esse 
+      <lb ed="#R" n="56"/>virtuosum, quod est conforme esse rationi, &amp; aliud 
+      <lb ed="#R" n="57"/>est actum esse meritorium, quod debet esse 
+      se<lb ed="#R" n="58" break="no"/>cundum dictamen diuinae voluntatis. Actum ergo 
+      <lb ed="#R" n="59"/>virtuosum primo modo potest vtique homo ex 
+      <lb ed="#R" n="60"/>puris naturalibus, sed non complere, vt 
+      allega<lb ed="#R" n="61" break="no"/>tum est supra per Philosophum 2. Ethic. quod 
+      <lb ed="#R" n="62"/>nullus nunquam perfecte attingit meritum 
+      virtu<lb ed="#R" n="63" break="no"/>tis, sed diuina voluntas dictat multas alias cir- 
+      <!--0276.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="64"/>cumstantias debere inesse actui, quas non sumus 
+      <lb ed="#R" n="65"/>sufficientes excogitare, nec pro eis habendis 
+      ora<lb ed="#R" n="66" break="no"/>re ex nobis, vt ex nobis, &amp; ideo illas 
+      impossibi<lb ed="#R" n="67" break="no"/>le est nos attingere sine speciali impulsu apiritus 
+      <lb ed="#R" n="68"/>sancti mouente, alias vna circumstantia 
+      deficien<lb ed="#R" n="69" break="no"/>te totum deficit. Vnde qui libet potest experiri, 
+      <lb ed="#R" n="70"/>quod vix vnquam eliciet vnum actum, puta 
+      tem<lb ed="#R" n="71" break="no"/>perantie, in quo concurrant omnes 
+      circumstan<lb ed="#R" n="72" break="no"/>tiae, sicut etiam patet de diabolo: Vnde potest 
+      ho<lb ed="#R" n="73" break="no"/>mo orare infinitis modis, quia non possunt 
+      om<lb ed="#R" n="74" break="no"/>nia praeuideri, &amp; ideo circa tales actus futuros 
+      <lb ed="#R" n="75"/>impetrantur suffragia, &amp; orationes: ergo hoc mul 
+      <lb ed="#R" n="76"/>to magis est in actu, vbi tot sunt, &amp; requiruntur 
+      <lb ed="#R" n="77"/>circumstantiae. Ideo dico, quod in causa tali acu 
+      <lb ed="#R" n="78"/>est neceffaria assistentia superior. Hoc idem dico 
+      <lb ed="#R" n="79"/>de impletione mandatorum, &amp; idem de vitando 
+      <lb ed="#R" n="80"/>peccatum mortale, sicut dicit Glosa expresse 
+      su<lb ed="#R" n="81" break="no"/>per illud Hierem. misericordiae Domini quia nop 
+      <lb ed="#R" n="82"/>suipus consumpti: &amp; Augustidus dicit idem. Vn. 
+      <lb ed="#R" n="83"/>de dico, quod etsi vno homo semel, non tamen diu 
+      <lb ed="#R" n="84"/>habet peccatum vitare sine gratia. Vnde 
+      Grego<lb ed="#R" n="85" break="no"/>rius, peccstum quod per paenitentiam non 
+      dele<lb ed="#R" n="86" break="no"/>tur, suo pondere ad aliud trahit: ratio est ad hoc, 
+      <lb ed="#R" n="87"/>quam Augustinut tangit de baptismo paruulorum, 
+      <lb ed="#R" n="88"/>vbi dicit, quod contra Tortem habitum non 
+      po<lb ed="#R" n="89" break="no"/>test quis moueri, nisi vel ab interiori, vel ab 
+      ex<lb ed="#R" n="90" break="no"/>teriorir abe interiori quod per rationem, vt in 
+      <lb ed="#R" n="91"/>repentinis apparet: habitus enim eum inclinat 
+      <lb ed="#R" n="92"/>ad motum naturae, ideo homo operatur 
+      secun<lb ed="#R" n="93" break="no"/>dum inclinationem non habitus, &amp; hoc nisi sit 
+      re<lb ed="#R" n="94" break="no"/>sistentia per rationem. Vnde oportet, quod 
+      ho<lb ed="#R" n="95" break="no"/>mo sit in continentia sua ipsius titillatione, alias 
+      <lb ed="#R" n="96"/>non poterit vitare motum conformem naturali 
+      <lb ed="#R" n="97"/>inclinationi habitus mali, &amp; hoc est resistere ab 
+      <lb ed="#R" n="98"/>interiori. Aut modo potest resistere ab exteriori, 
+      <lb ed="#R" n="99"/>scificet per aliquod auxilium extrinsecus agentis 
+      <lb ed="#R" n="100"/>potentis dominari inclinationi, qualis est gratia, 
+      <lb ed="#R" n="101"/>&amp; donum superioris agentis. Potest ergo ratio 
+      <lb ed="#R" n="102"/>sic formari: Habens in se habitum vitiosum fortis 
+      <lb ed="#R" n="103"/>inclinationis non potest diu cauere a motu 
+      con<lb ed="#R" n="104" break="no"/>formi illi inclinationi, nisi per aliquod resistens 
+      <lb ed="#R" n="105"/>ab interiori, cuiusmodi est apex continuus 
+      ratio<lb ed="#R" n="106" break="no"/>nis etiam titillatio rationis, vel per resistens 
+      ex<lb ed="#R" n="107" break="no"/>terius, cuiusmodi est domum Dei: sed homo 
+      ha<lb ed="#R" n="108" break="no"/>bet habitum vitiosum firmae inclinationis ex eius 
+      <lb ed="#R" n="109"/>prima propagatione; quia fomitem &amp; famulatum 
+      <lb ed="#R" n="110"/>corporis, &amp; tirannum siue legem peccati, 
+      secun<lb ed="#R" n="111" break="no"/>dum Apostolum existentem in membris; qui tam 
+      <lb ed="#R" n="112"/>fortis inclinationis est, vt diceret Paulus: Sentio 
+      <lb ed="#R" n="113"/>in membris meis aliam legem: Vnde dicit, 
+      non<lb ed="#R" n="114" break="no"/>quod volo bonum hoc ago, &amp; iterum O infelix ego, 
+      <lb ed="#R" n="115"/>quis liberabit me de corpore mortis huius: 
+      Er<lb ed="#R" n="116" break="no"/>go oportet, quod si homo debet dici resistere, 
+      <lb ed="#R" n="117"/>aut sit in continuo apice rationis, aut auxilium 
+      <lb ed="#R" n="118"/>habeat diuinae gratiae: sed homo non semper est 
+      <lb ed="#R" n="119"/>in titillatione rationis: ergo oportet, quod adsit 
+      <lb ed="#R" n="120"/>Dei gratia continua: ergo non diuisum a gratia, 
+      <lb ed="#R" n="121"/>potest cauere a peccato ex hoc, &amp; pater de 
+      obser<lb ed="#R" n="122" break="no"/>uatione praecepti habitus essentiae existens in 
+      no<lb ed="#R" n="123" break="no"/>bis inclinat continue ad praecepta negatiua, &amp; ad 
+      <lb ed="#R" n="124"/>quoddam contra pondus retrahit ab affirmatiuis, 
+      <lb ed="#R" n="125"/>&amp; hinc est quod oportet esse inclinationem 
+      con<lb ed="#R" n="126" break="no"/>tinuam ad oppositum, aut apicem rationis, 
+      qua<lb ed="#R" n="127" break="no"/>lem communiter rationem habemus in via, aut 
+      <lb ed="#R" n="128"/>doni supernaturaliter dati, quale est gratia 
+      di<lb ed="#R" n="129" break="no"/>uina 
+   </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

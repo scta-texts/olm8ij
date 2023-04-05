@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-05">April 05, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b2">Roma 1605, Book 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="247"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-f76841"><!-- l2d20-prae -->
+            <head xml:id="olm8ij-f76841-Hd1e101">Praeambulum</head>
+            <p xml:id="olm8ij-f76841-d1e103">
+      <!--0247.xml-->
+               <cb ed="#R" n="c"/>
+               <lb ed="#R" n="60"/>DISTINCTIO XX. 
+      <lb ed="#R" n="61"/>DE HOMJNE 
+      <lb ed="#R" n="62"/>QVANTVM ADSTATVM 
+      <lb ed="#R" n="63"/>JNNOCENTJAE.
+  </p>
+            <p xml:id="olm8ij-f76841-d1e119">
+      <!--0247.xml-->
+               <cb ed="#R" n="d"/>
+               <lb ed="#R" n="64"/>Post haec videndum, &amp;c. In hanc Distinctione vigesima agit Magister de homine 
+      <lb ed="#R" n="65"/>quantum ad statum innocentiae in ordine ad naturalem propagationem Quaero 
+      <lb ed="#R" n="66"/>ad euidentiam eorum quae tangit Magister in littera verum in statu innocentiae 
+      <lb ed="#R" n="67"/>hominis fuissent propagati per commixtionem sexuum; &amp; arguo, quod non, 
+      <lb ed="#R" n="68"/>quia in statu illo non debuit esse aliqua indecentia, sed actus commixtionis 
+      se<lb ed="#R" n="69" break="no"/>xuum est valde indecens cum propter deordinationem istius cum propter hoc, 
+      <lb ed="#R" n="70"/>quod corruptibilis tollit virginitatem, tum propter hoc, quia maxime 
+      inde<lb ed="#R" n="71" break="no"/>cens videtur absortio rationis quae videtur esse in actu illo. Vnde 6. Ethicorum 
+      <lb ed="#R" n="72"/>dicitur, quod furatur intellectionem saepisse sapientis. In oppositum est illud 
+      <lb ed="#R" n="73"/>quod dicit Scriptura Genes. tertio capitulo, Videns Deus hominem, quem 
+      pro<lb ed="#R" n="74" break="no"/>duxerat, &amp; dixit: Crescite &amp; multiplicamini. Pro resolutione Dubij, quaeram 
+      <lb ed="#R" n="75"/>tres Quaestiones.
+  </p>
+         </div>
+      </body>
+   </text>
+</TEI>

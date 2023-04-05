@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-05">April 05, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b2">Roma 1605, Book 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="244"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-f76047"><!-- l2d19-prae -->
+            <head xml:id="olm8ij-f76047-Hd1e101">Praeambulum</head>
+            <p xml:id="olm8ij-f76047-d1e103">
+      <!--0244.xml-->
+               <cb ed="#R" n="c"/>
+               <lb ed="#R" n="66"/>DISTINCTIO XIX. 
+      <lb ed="#R" n="67"/>DE CONDJTJONE 
+      <lb ed="#R" n="68"/>HOMJNJS 
+      <lb ed="#R" n="69"/>QVANTVM AD STATVM QVEM 
+      <lb ed="#R" n="70"/>habuit ante peccatum. 
+  </p>
+            <p xml:id="olm8ij-f76047-d1e121">
+      <!--0244.xml-->
+               <cb ed="#R" n="d"/>
+               <lb ed="#R" n="71"/>Solent quaeri plura, &amp;c. In ista Decimanona Distinctione agit Magister de 
+      condi<lb ed="#R" n="72" break="no"/>tione hominis quantum ad statum, quem habuit ante peccatum: Vtrum homo 
+      <lb ed="#R" n="73"/>tunc fuerit passibilis, &amp; mortalis, &amp; ideo ad euidentiam distinctionis totius quaero cum 
+      <lb ed="#R" n="74"/>Magistro. Vtrum si homo non peccasset, fuisset immortalis. Et videtur quod non, 
+      <lb ed="#R" n="75"/>quia impossibile est esse rem sine differentia eius specifica: sed mortale est 
+      dif<lb ed="#R" n="76" break="no"/>ferentia specifica hominis secundum Porphyrium: ergo. Dices, non est 
+      differen<lb ed="#R" n="77" break="no"/>tia. Contra, saltem est propria passio, &amp; pro eodem habeo. In oppositum est, quia 
+      <lb ed="#R" n="78"/>dixit Dominus ad Adam in quacunque hora comederis de ligno, morte 
+      mo<lb ed="#R" n="79" break="no"/>rieris, non loquutus est autem de actu moriendi, quia non fuit statim mortuus 
+      <lb ed="#R" n="80"/>actu:ergo intelligitur de potentia moriendi: ergo primo non habuit potentiam 
+      <lb ed="#R" n="81"/>moriendi, alias non fuisset noua paena, immo paena praecessisset peccatum: ergo. 
+      <lb ed="#R" n="82"/>Respondeo, immortalitas potest esse conditio corporis, &amp; etiam animae, ideo pri- 
+      <!--0245.xml-->
+      <pb ed="#R" n="245"/>
+               <cb ed="#R" n="a"/>
+               <lb ed="#R" n="1"/>mo videndum est de immortalitate corporis, deinde de immortalitate animae. Et 
+      <lb ed="#R" n="2"/>quoad primum. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

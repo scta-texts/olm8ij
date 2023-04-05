@@ -1,0 +1,1037 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-05">April 05, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b2">Roma 1605, Book 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="262"/>
+            <cb ed="#R" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-f80809"><!-- l2d25-q1 -->
+            <head xml:id="olm8ij-f80809-Hd1e101">Quaestio 1</head>
+            <p xml:id="olm8ij-f80809-d1e103">
+               <lb ed="#R" n="16"/>QVAESTIO VNICA. 
+      <!--0262.xml-->
+      <cb ed="#R" n="b"/>
+               <lb ed="#R" n="17"/>Prima est, Vtrum aliqua res possit 
+      moue<lb ed="#R" n="18" break="no"/>re se ipsam. 
+      <lb ed="#R" n="19"/>2 Secunda est: An voluntas moueatur ad 
+      vo<lb ed="#R" n="20" break="no"/>linem a scipsa, vel ab alio obiecto, 
+   </p>
+            <div xml:id="olm8ij-f80809-Dd1e121">
+               <head xml:id="olm8ij-f80809-Hd1e123">Articulus 1</head>
+               <head xml:id="olm8ij-f80809-Hd1e125" type="question-title">
+      Utrum aliqua res possit mouere seipsam
+    </head>
+               <p xml:id="olm8ij-f80809-d1e128">
+                  <lb ed="#R" n="21"/>ARTJCVLVS I. 
+      <lb ed="#R" n="22"/>Utrum aliqua res possit mouere seipsam. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e135">
+                  <lb ed="#R" n="23"/>QVANTVM ad primum 
+      <lb ed="#R" n="24"/>arguo primo, quod ali. 
+      <lb ed="#R" n="25"/>qua res potest mouere 
+      <lb ed="#R" n="26"/>se ipsam, quia natura 
+      <lb ed="#R" n="27"/>est principium motus, 
+      <lb ed="#R" n="28"/>&amp; quietis eius in quo 
+      <lb ed="#R" n="29"/>est 2. phys. text. 3. ergo 
+      <lb ed="#R" n="30"/>idem potest mouere se. 
+      <lb ed="#R" n="31"/>Antecedens patet, 
+      pro<lb ed="#R" n="32" break="no"/>bo consequentiam, quia 
+      <lb ed="#R" n="33"/>alias principium motus non esset in eo, quod mo 
+      <lb ed="#R" n="34"/>uetur, nec esset aliquid eius, quod falsum est, cum 
+      <lb ed="#R" n="35"/>dicat ibi Philosophus, quod forma est natura. 
+      <lb ed="#R" n="36"/>Confirmo hoc per Commentatorem, qui 
+      di<lb ed="#R" n="37" break="no"/>cit ibi, quod licet in motu alterationis idem non 
+      <lb ed="#R" n="38"/>possit se mouere; in motu tamen locali idem 
+      mo<lb ed="#R" n="39" break="no"/>uet se, vt patet de animali, &amp; graui mouente se 
+      <lb ed="#R" n="40"/>ad centrum. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e177">
+                  <lb ed="#R" n="41"/>In oppositum est Philosophus a. Metaph. 2. qui 
+      <lb ed="#R" n="42"/>diffiniens potentiam transmutatiuam dicit, quod 
+      <lb ed="#R" n="43"/>est principium agendi in alterum, in quantum 
+      <lb ed="#R" n="44"/>alterum: sed omne quod mouet se, mouet se per 
+      <!--0262.xml-->
+      <cb ed="#R" n="c"/>
+                  <lb ed="#R" n="45"/>potentiam transmutatiuam: ergo motum in quan 
+      <lb ed="#R" n="46"/>tum motum est aliud a potentia, qua mouetur.
+   </p>
+               <p xml:id="olm8ij-f80809-d1e198">
+                  <lb ed="#R" n="47"/>Respondeo ad illam quaestionem, a multis 
+      di<lb ed="#R" n="48" break="no"/>cuntur multa, sed dimisis multis modis dicendi 
+      <lb ed="#R" n="49"/>pono propositiones, Prima est quod mouens &amp; 
+      <lb ed="#R" n="50"/>motum non oportet esse distincta subiecto, &amp; 
+      lo<lb ed="#R" n="51" break="no"/>co: hanc pono propter quorundam opinionem 
+      <lb ed="#R" n="52"/>dicentium, quod non sufficit ad mouens, &amp; motum 
+      <lb ed="#R" n="53"/>quod sint distinctae res essentialiter, sed oportet, 
+      <lb ed="#R" n="54"/>quod sint distincta subiecto. Ex hoc principio 
+      de<lb ed="#R" n="55" break="no"/>ducunt, quod intellectus non potest causari ab alio 
+      <lb ed="#R" n="56"/>existente in intellectu subiectiue, sed necessario 
+      <lb ed="#R" n="57"/>causatur a phantasmate. Similiter quod 
+      intelle<lb ed="#R" n="58" break="no"/>ctus non mouet voluntatem &amp; phantasma, ratio 
+      <lb ed="#R" n="59"/>est, quia intellectus &amp; voluntas sunt in eodem 
+      <lb ed="#R" n="60"/>subiecto, non sic voluntas, &amp; phantasma 
+      ratio<lb ed="#R" n="61" break="no"/>ne organi. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e233">
+                  <lb ed="#R" n="62"/>Sed ista opinio. non habet mentem in hoc 
+      Ari<lb ed="#R" n="63" break="no"/>stot. &amp; Commentatoris, propter quorum tamen 
+      <lb ed="#R" n="64"/>sententiam tenent illam conclusionem, &amp; probo: 
+      <lb ed="#R" n="65"/>Quod expresse sit contra mentem eorum, tam 8. 
+      <lb ed="#R" n="66"/>Metaphysices, quam 8. Phys. quam 2, &amp; 3. caeli. 2. 
+      <lb ed="#R" n="67"/>mundi. 8. Phis. tom. 27. com. 30. Philosophus 
+      di<lb ed="#R" n="68" break="no"/>cit de motu animalis in loco, quod anima est mo 
+      <lb ed="#R" n="69"/>uens corpus, vbi dicit Comment. com. 30. quod 
+      <lb ed="#R" n="70"/>non oportet quod mouens, &amp; motum sint 
+      distin<lb ed="#R" n="71" break="no"/>cta subiecto, quandoque distincta per essentiam, 
+      <lb ed="#R" n="72"/>&amp; subiecto, quandoque autem per esfentiam, non 
+      <lb ed="#R" n="73"/>ex subiecto, sicut dicit de anima &amp; corpore, &amp; 
+      <lb ed="#R" n="74"/>verba eius ibi sunt illa, cum declarauit, quod ea, 
+      <lb ed="#R" n="75"/>quae mouentur naturaliter &amp; c. Sequitur infra, &amp; 
+      <!--0263.xml-->
+      <pb ed="#R" n="263"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>abbreuiatio eius est, quoniam illa quae mouentur 
+      <lb ed="#R" n="2"/>per principium in eis, necesse est, vt diuidantur 
+      <lb ed="#R" n="3"/>secundum diffinitionem in motorem &amp; motum, 
+      <lb ed="#R" n="4"/>&amp; vt non sit idem secundum diffinitionem &amp; 
+      es<lb ed="#R" n="5" break="no"/>sentiam: motor enim debet esse distinctum a 
+      mo<lb ed="#R" n="6" break="no"/>to, aut secundum diffinitionem, &amp; esse simul, 
+      <lb ed="#R" n="7"/>idest secundum essentiam &amp; substantiam, sicut est 
+      <lb ed="#R" n="8"/>in his quae mouentur ab extrinseco, aut secundum 
+      <lb ed="#R" n="9"/>diffinitionem tantum, sicut est dispositio in 
+      ha<lb ed="#R" n="10" break="no"/>bentibus animas, in quibus motus distinguitur a 
+      <lb ed="#R" n="11"/>motore secundum diffinitionem, licet non 
+      secun<lb ed="#R" n="12" break="no"/>dum esse, quia impossibile est animam esse sine 
+      <lb ed="#R" n="13"/>corpore. haec ille. Et tamen ponit ibi 
+      propositio<lb ed="#R" n="14" break="no"/>nem istam a proposito, quod idem non mouet se, 
+      <lb ed="#R" n="15"/>&amp; quod non oporteat motorem &amp; motum 
+      distin<lb ed="#R" n="16" break="no"/>gui subiecto, ego probo ex hoc specialiter, quod 
+      <lb ed="#R" n="17"/>omnes rationes, per quas probatur, quod idem 
+      <lb ed="#R" n="18"/>realiter non potest se mouere, non tamen probant, 
+      <lb ed="#R" n="19"/>quod idem subiecto non possit se mouere. Et 
+      pri<lb ed="#R" n="20" break="no"/>ma quaedam ratio est, quia si idem moueret se, 
+      <lb ed="#R" n="21"/>esset idem in potentia &amp; actu; patet quod non 
+      <lb ed="#R" n="22"/>probat, nisi quod idem realiter non mouet se: 
+      <lb ed="#R" n="23"/>Nam non est inconueniens, quod duae res in 
+      eo<lb ed="#R" n="24" break="no"/>dem subiecto sint talia, quod vnum sit in actu, &amp; 
+      <lb ed="#R" n="25"/>reliquum in potentia. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e327">
+                  <lb ed="#R" n="26"/>Similiter ratio alia, quod relatio realis non est 
+      <lb ed="#R" n="27"/>eiusdem ad se, non concludit, quia in eodem 
+      <lb ed="#R" n="28"/>subiecto possunt esse duo, quorum vnum refertur 
+      <lb ed="#R" n="29"/>ad alterum realiter: ratio est talis, quod agens 
+      <lb ed="#R" n="30"/>est praestantius patiente, tantum concludit quod 
+      <lb ed="#R" n="31"/>eadem res non agit &amp; patitur. Sed formalis 
+      eo<lb ed="#R" n="32" break="no"/>rum ratio est, quia si mouens &amp; motum possent 
+      <lb ed="#R" n="33"/>esse eadem subiecto, tunc forma posset mouere 
+      <lb ed="#R" n="34"/>materiam. Sed hanc rationem soluit 
+      Commen<lb ed="#R" n="35" break="no"/>tator ibi, quod forma non potest mouere, non 
+      <lb ed="#R" n="36"/>quia sunt in eodem subiecto, sed quia oportet, 
+      <lb ed="#R" n="37"/>quod motum sit res in actu, materia autem non 
+      <lb ed="#R" n="38"/>est ens in actu. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e358">
+                  <lb ed="#R" n="39"/>Ad oppositum autem istius opinionis patet per 
+      <lb ed="#R" n="40"/>experientiam, experimur enim quod forma 
+      ali<lb ed="#R" n="41" break="no"/>qua recepta in materia, potest de illa materia 
+      <lb ed="#R" n="42"/>educere aliam formam subiectiue in illa; sicut 
+      <lb ed="#R" n="43"/>patet de radio existente subiectiue in aere, in quo 
+      <lb ed="#R" n="44"/>tamen producit splendorem. Smiliter principia 
+      <lb ed="#R" n="45"/>&amp; conclusiones sunt eodem subiecto, consimiliter 
+      <lb ed="#R" n="46"/>habitus &amp; actus, &amp; tamen principia sunt causa 
+      <lb ed="#R" n="47"/>conclusionis, &amp; habitus causa actus. 
+      <lb ed="#R" n="48"/>Secunda propositio, quae sequitur ex prima, est, 
+      <lb ed="#R" n="49"/>quod idem potest se mouere per accidens, licet 
+      <lb ed="#R" n="50"/>idem non possit se mouere per se: &amp; primo 
+      ra<lb ed="#R" n="51" break="no"/>tio istius propositionis est, quia quando aliqua 
+      <lb ed="#R" n="52"/>sunt eadem subiectiue, moto vno mouetur 
+      reli<lb ed="#R" n="53" break="no"/>quum, ac per consequens, quod mouet per se 
+      <lb ed="#R" n="54"/>mum per accidens, mouet reliquum, sed aliquid 
+      <lb ed="#R" n="55"/>potest mouere aliquid, quod est idem cum eo in 
+      <lb ed="#R" n="56"/>subiecto: ergo moto illo &amp; ipsum mouetur, &amp; per 
+      <lb ed="#R" n="57"/>consequens moto illo per se mouet se per 
+      acci<lb ed="#R" n="58" break="no"/>dens, &amp; hoc modo mouet anima se per accidens 
+      <lb ed="#R" n="59"/>moto corpore. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e406">
+                  <lb ed="#R" n="60"/>Dicis, anima non mouet primo corpus, sed vna 
+      <lb ed="#R" n="61"/>pars corporis mouet aliam, alias moueret 
+      cor<lb ed="#R" n="62" break="no"/>pus non organice. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e415">
+                  <lb ed="#R" n="63"/>Contra, alias dixi, quod hoc non est verum, 
+      <lb ed="#R" n="64"/>dixi enim quod in corpore animalis, vbi pars mo 
+      <lb ed="#R" n="65"/>net partem, musculi mouentur, &amp; mouent alias 
+      <lb ed="#R" n="66"/>partes, &amp; est deuenire in motu musculi ad indi- 
+      <!--0263.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>uiduum, &amp; tunc illud secundum Aristot. non 
+      po<lb ed="#R" n="68" break="no"/>test mouere, nec moueri: Jdeo dicit Aristot. lib. 
+      <lb ed="#R" n="69"/>de causa motus animalium, quod punctus non 
+      <lb ed="#R" n="70"/>potest esse primo motum, sed primo motum est 
+      <lb ed="#R" n="71"/>calor naturalis in musculis, quo moto mouetur 
+      <lb ed="#R" n="72"/>totus musculus, quo moto mouetur neruus, &amp; 
+      <lb ed="#R" n="73"/>deinde pars propinqua corporis, denique alia 
+      <lb ed="#R" n="74"/>de hoc tamen alias. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e449">
+                  <lb ed="#R" n="75"/>Tertia propositio est, quod non puto, quod sim 
+      <lb ed="#R" n="76"/>pliciter res aliqua posset se mouere primo &amp; per 
+      <lb ed="#R" n="77"/>se. Hanc propositionem probo rationibus 
+      aliqui<lb ed="#R" n="78" break="no"/>bus, primo sic. Motum &amp; mouens per se, &amp; 
+      pri<lb ed="#R" n="79" break="no"/>mo sunt in opposita dispositione, ratio est, quia 
+      <lb ed="#R" n="80"/>mouere est passum assimilare, mouens enim 
+      tra<lb ed="#R" n="81" break="no"/>hit passum ad se assimilando eum: vnde 2. de 
+      ge<lb ed="#R" n="82" break="no"/>neratione dicitur, quod agens &amp; passum sunt in 
+      <lb ed="#R" n="83"/>principio dissimilia, sed in fine sunt similia. Hinc 
+      <lb ed="#R" n="84"/>est etiam quod passum resistit agenti, scilicet 
+      pro<lb ed="#R" n="85" break="no"/>pter oppositas dispositiones, quae sunt in eis, &amp; 
+      <lb ed="#R" n="86"/>ideo agens pro tanto dicitur assimilare, quia 
+      tra<lb ed="#R" n="87" break="no"/>hit ad similem dispositionem. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e480">
+                  <lb ed="#R" n="88"/>Tunc sic: si aliquid potest simul &amp; per se, &amp; 
+      pri<lb ed="#R" n="89" break="no"/>mo esse in actu virtuali, &amp; potentia formali, aut 
+      <lb ed="#R" n="90"/>ex hoc non est in alia &amp; alia, &amp; opposita simul 
+      di<lb ed="#R" n="91" break="no"/>spositione, &amp; tunc non se habet, vt agens &amp; 
+      pa<lb ed="#R" n="92" break="no"/>tiens; si autem ex hoc est in opposita 
+      contradi<lb ed="#R" n="93" break="no"/>ctione, habeo propositum, contradictio enim est, 
+      <lb ed="#R" n="94"/>quod idem sit simul in oppositis dispositionibus. 
+      <lb ed="#R" n="95"/>contradictio enim includitur in omni oppositione, 
+      <lb ed="#R" n="96"/>formatur ergo sic ratio: Jdem quo res agit, &amp; quo 
+      <lb ed="#R" n="97"/>res patitur, sunt in opposita dispositione: sed in 
+      <lb ed="#R" n="98"/>eodem impossibile est quod res sit in opposita 
+      <lb ed="#R" n="99"/>dispositione: ergo impossibile est, quod eadem 
+      <lb ed="#R" n="100"/>res per se agat, &amp; patiatur. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e511">
+                  <lb ed="#R" n="101"/>Secundo sic: De ratione agentis est quod 
+      assimi<lb ed="#R" n="102" break="no"/>letur passo, alias non assimilaret sibi passum, 
+      tra<lb ed="#R" n="103" break="no"/>hendo eum ad se: sed impossibile est quod idem 
+      <lb ed="#R" n="104"/>dominetur sibi, &amp; trahat se ad se, &amp; assimilet se 
+      <lb ed="#R" n="105"/>sibi: ergo. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e524">
+                  <lb ed="#R" n="106"/>Tertio sic. Actus formalis, &amp; potentia formalis 
+      <lb ed="#R" n="107"/>opponuntur: ergo actus virtualis, &amp; potentia 
+      <lb ed="#R" n="108"/>formalis opponuntur: sed actus formalis, &amp; 
+      po<lb ed="#R" n="109" break="no"/>tentia formalis ex hoc quod opponuntur, non pos 
+      <lb ed="#R" n="110"/>sunt simul, nec esse idem in ipso formali, &amp; actu 
+      <lb ed="#R" n="111"/>formali: ergo propter eamdem causam, idem 
+      <lb ed="#R" n="112"/>non potest esse in actu virtuali, &amp; potentia formali. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e542">
+                  <lb ed="#R" n="113"/>Antecedens istius rationis conceditur ab 
+      om<lb ed="#R" n="114" break="no"/>nibus, consequentiam primo probo: Quia 
+      quan<lb ed="#R" n="115" break="no"/>do aliquid opponitur alteri, magis opponitur et, 
+      <lb ed="#R" n="116"/>in quo illud, cui opponitur, nobiliori modo cō
+      ti<lb ed="#R" n="117" break="no"/>netur, quam sit in se: sed actus formalis 
+      nobilio<lb ed="#R" n="118" break="no"/>ri modo continetur in actu virtuali, quam in se, 
+      <lb ed="#R" n="119"/>nobiliori enim modo actusvirtualis habet actum 
+      <lb ed="#R" n="120"/>formalem, quam si haberet eum formaliter: sed 
+      <lb ed="#R" n="121"/>potentia formalis opponitur actui formali: ergo 
+      <lb ed="#R" n="122"/>multo magis opponitur actui virtuali. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e566">
+                  <lb ed="#R" n="123"/>Confirmo hoc: Quia agens &amp; patiens opposito 
+      <lb ed="#R" n="124"/>modo aspiciunt formalem terminum: cuius ratio 
+      <lb ed="#R" n="125"/>est, quia illud quo aliquid patitur, &amp; est in 
+      po<lb ed="#R" n="126" break="no"/>tentia ad formalem terminum, est in potentia in 
+      <lb ed="#R" n="127"/>illo genere, &amp; imperfectum in genere isto: agens 
+      <lb ed="#R" n="128"/>autem est in genere illo perfectum: ergo verum 
+      <lb ed="#R" n="129"/>est dicere, quod agens &amp; paciens respiciunt 
+      ter<lb ed="#R" n="130" break="no"/>minum opposito modo: sed nulla eadem res 
+      po<lb ed="#R" n="131" break="no"/>test aliquid idem respicere modo opposito: ergo 
+      <lb ed="#R" n="132"/>alias vna &amp; eadem realitas esset perfecta, &amp; 
+      <!--0264.xml-->
+      <pb ed="#R" n="264"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>imperfecta in genere illo, ergo. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e600">
+                  <lb ed="#R" n="2"/>Quinto arguo sic, Nulla res est sibi ipsi esse, vt 
+      <lb ed="#R" n="3"/>sic: sed si idem moueret, se idem esset sibi ipsi 
+      cau<lb ed="#R" n="4" break="no"/>sa causandi, ergo. Vbi sciendum est, quod si forma 
+      <lb ed="#R" n="5"/>fieret per se, non est dubium, quin agens 
+      attin<lb ed="#R" n="6" break="no"/>gere posset formam, non attingendo passum, sed 
+      <lb ed="#R" n="7"/>secundum Philosophum forma non fit per se, sed 
+      <lb ed="#R" n="8"/>compositum: tunc sic: Compositum fit per se, si 
+      er<lb ed="#R" n="9" break="no"/>go aliquid moueret se, sic aliquid quod per se 
+      in<lb ed="#R" n="10" break="no"/>cluditur in motu, esset per se mouens, &amp; illud 
+      mo<lb ed="#R" n="11" break="no"/>tum, &amp; sic idem esset per se agens, &amp; per se 
+      inclu<lb ed="#R" n="12" break="no"/>sum, &amp; per se terminus actionis: ergo idem per 
+      <lb ed="#R" n="13"/>se est sibi ipsi causa, vt sit.
+   </p>
+               <p xml:id="olm8ij-f80809-d1e629">
+                  <lb ed="#R" n="14"/>Et confirmatur, quia actus sicut non potest 
+      ha<lb ed="#R" n="15" break="no"/>bere pro principio terminum per se actionis, quia 
+      <lb ed="#R" n="16"/>tunc idem produceret se, &amp; ageret se, sic non potest 
+      <lb ed="#R" n="17"/>habere pro principio illud, quod per se 
+      includi<lb ed="#R" n="18" break="no"/>tur per se in termino actionis ex eadem causa. 
+      <lb ed="#R" n="19"/>quod autem forma non fiat per se, sed 
+      composi<lb ed="#R" n="20" break="no"/>tum, patet 5. Metaphisices, &amp; 12. per Philosophum, 
+      <lb ed="#R" n="21"/>&amp; Commentatorem, alias non posset euitari 
+      crea<lb ed="#R" n="22" break="no"/>tio. Propter quod dicit Commentator, quod 
+      <lb ed="#R" n="23"/>agens non est producens, sed extrahens, ratio 
+      au<lb ed="#R" n="24" break="no"/>tem quare materia per se non sit, quia non est res 
+      <lb ed="#R" n="25"/>per se, siue natura aliqua in actu, sed 
+      tantummo<lb ed="#R" n="26" break="no"/>do est complementum in actu, idest compositi. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e660">
+                  <lb ed="#R" n="27"/>Confirmo hanc vltimam propositionem 
+      argu<lb ed="#R" n="28" break="no"/>mento philosophico, quoniam mouere physice 
+      <lb ed="#R" n="29"/>non est aliud, quam potentiam ad actum 
+      extra<lb ed="#R" n="30" break="no"/>here: Si ergo idem mouet se, ergo potentia 
+      ex<lb ed="#R" n="31" break="no"/>trahet se ad actum, sed agens est perfectionem 
+      <lb ed="#R" n="32"/>largiens: Item idem largietur perfectionem 
+      si<lb ed="#R" n="33" break="no"/>bi ipsi. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e678">
+                  <lb ed="#R" n="34"/>Sed contra istam propositionem vltimam sunt 
+      <lb ed="#R" n="35"/>dubia quaedam. Et primum est illud dictum 
+      Phi<lb ed="#R" n="36" break="no"/>losophi. 8. Phis. 32. Quod illud, quod est in 
+      po<lb ed="#R" n="37" break="no"/>tentia essentiali, indiget motore extrinseco per 
+      <lb ed="#R" n="38"/>se; illud autem, quod est in potentia actuali, non 
+      <lb ed="#R" n="39"/>indiget motore extrinseco, sed per se ipsum 
+      po<lb ed="#R" n="40" break="no"/>tes exire ad actum. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e696">
+                  <lb ed="#R" n="41"/>Respondeo textus ille mouet multos ad putan 
+      <lb ed="#R" n="42"/>dum quod Aristot. intellexerit, quod idem 
+      po<lb ed="#R" n="43" break="no"/>test se mouere ad actum secundum, quod ego 
+      ne<lb ed="#R" n="44" break="no"/>go. Dico enim quod nihil se ipso potest exire, 
+      <lb ed="#R" n="45"/>nec de potentia essentiali, nec de potentia 
+      acci<lb ed="#R" n="46" break="no"/>dentali ad actum, sic quod sit mouens primo &amp; 
+      <lb ed="#R" n="47"/>per se motum; licet bene mouens &amp; motum 
+      pos<lb ed="#R" n="48" break="no"/>sint esse in eodem subiecto, tamen impossibile 
+      <lb ed="#R" n="49"/>est quod eodem reali sit agens &amp; sit recipiens. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e718">
+                  <lb ed="#R" n="50"/>Tunc ad Philosophum dico, quod nec de 
+      po<lb ed="#R" n="51" break="no"/>tentia effentiali, nec de potentia accidentali, idē 
+      <lb ed="#R" n="52"/>potest se extrahere ad actum, sed semper indiget 
+      <lb ed="#R" n="53"/>alio extrahente; vnde si est in potentia essentiali, 
+      <lb ed="#R" n="54"/>indiget extrahente per se, &amp; essentiali, si vero est 
+      <lb ed="#R" n="55"/>in potentia accidentali, indiget extrahente 
+      acci<lb ed="#R" n="56" break="no"/>dentali, quod est proprium remouens prohibens, 
+      <lb ed="#R" n="57"/>vt statim dicam de graui. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e739">
+                  <lb ed="#R" n="58"/>Aliud dubium est de graui, quod videtur, quod 
+      <lb ed="#R" n="59"/>moucat se. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e746">
+                  <lb ed="#R" n="60"/>Respondeo: si tenerem, quod graue moueret se, 
+      <lb ed="#R" n="61"/>ego dicerem quod caelum mouet se; nec video 
+      <lb ed="#R" n="62"/>quare corpus caeleste non possit se mouere motu 
+      <lb ed="#R" n="63"/>circulari, sicut graue mouetur per se motu recto. 
+      <lb ed="#R" n="64"/>A quo ergo mouetur graue deorsum, non a gene 
+      <lb ed="#R" n="65"/>rante, quia potest non esse, &amp; tamen graue 
+      mo<lb ed="#R" n="66" break="no"/>uebitur. Et propterea Commentator videtur di- 
+      <!--0264.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>cere 8. Phys. &amp; 3. cael. &amp; mundi: quod graue mo 
+      <lb ed="#R" n="68"/>uet se per formam grauitatis. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e772">
+                  <lb ed="#R" n="69"/>Respondeo dico, vt Philosophus &amp; 
+      Commen<lb ed="#R" n="70" break="no"/>tator 8. Physic. &amp; 3. caeli &amp; mundi, quod in 
+      mo<lb ed="#R" n="71" break="no"/>tu graui est accipere duplicem motum, primus 
+      <lb ed="#R" n="72"/>est essentialis, quo de non esse exit ad esse, &amp; iste 
+      <lb ed="#R" n="73"/>est a generante. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e785">
+                  <lb ed="#R" n="74"/>Alius vero motus est essentialis, &amp; hic est a re 
+      <lb ed="#R" n="75"/>mouente prohibens, qualis est descensus 
+      deor<lb ed="#R" n="76" break="no"/>sum, postquam accepit esse, hic enim descensus 
+      <lb ed="#R" n="77"/>deorsum non oportet, quod sit elicitiue a 
+      gene<lb ed="#R" n="78" break="no"/>rante secundum eum. Vbi considerandum est, 
+      <lb ed="#R" n="79"/>quod illud, quod prohibet graue, ne sit in centro, 
+      <lb ed="#R" n="80"/>est medium siue aer: Nam a moto eo statim essset 
+      <lb ed="#R" n="81"/>in centro. Vnde 8. Phys. dicit Philosophus, quod 
+      <lb ed="#R" n="82"/>si esset vacuum, motus esset in eo in instanti: tunc 
+      <lb ed="#R" n="83"/>ergo lapis siue graue mouendo aerem remouet 
+      <lb ed="#R" n="84"/>prohibens, &amp; sic mouet se; sicut mouet lapidem 
+      <lb ed="#R" n="85"/>ille, qui amouet columnam, quae impediebat 
+      la<lb ed="#R" n="86" break="no"/>pidem a descensu. Lapis ergo mouet actiue, &amp; 
+      <lb ed="#R" n="87"/>prima motio passiua est in aere, non in lapide, 
+      <lb ed="#R" n="88"/>quia aer est primo motus, moto autem aere 
+      mo<lb ed="#R" n="89" break="no"/>uetur lapis, &amp; hoc per accidens, ex hoc quod 
+      <lb ed="#R" n="90"/>sunt vnum in situ. Exemplum huiusmodi est 
+      in<lb ed="#R" n="91" break="no"/>naui mota, ibi prima motio actiua per se estt 
+      ip<lb ed="#R" n="92" break="no"/>sius nautae, &amp; prima passiua per se nauis, &amp; 
+      pri<lb ed="#R" n="93" break="no"/>ma actiua per accidens est ipsius nauis, prima 
+      <lb ed="#R" n="94"/>vero passiua ipsius nautae, sic in proposito. Et 
+      <lb ed="#R" n="95"/>hinc est, quod sicut ex nauta, &amp; naui integratur 
+      <lb ed="#R" n="96"/>vnus motus totalis, &amp; vnus totalis mouens, sic 
+      <lb ed="#R" n="97"/>ex lapide &amp; aere, vt lapis sit primum mouens per 
+      <lb ed="#R" n="98"/>se, &amp; vltimo motum per accidens, aer vero sit 
+      <lb ed="#R" n="99"/>primum motum per se, medium vero motum per 
+      <lb ed="#R" n="100"/>accidens; hoc modo motum essentialiter est ille 
+      <lb ed="#R" n="101"/>aer, motum vero accidentaliter est ipse lapis, &amp; 
+      <lb ed="#R" n="102"/>illemet est mouens accidentaliter. Ratio est quia 
+      <lb ed="#R" n="103"/>mouere accidentaliter non est aliud quam 
+      pro<lb ed="#R" n="104" break="no"/>hibens remouere, prohibens autem erat ille aer: 
+      <lb ed="#R" n="105"/>ergo lapis essentialiter mouet aerem: sed moto 
+      <lb ed="#R" n="106"/>aere essentialiter, ex hoc accidentaliter mouer 
+      <lb ed="#R" n="107"/>se, &amp; hoc quia sunt vnum situ, hoc modo 
+      essen<lb ed="#R" n="108" break="no"/>tialiter mouet corpus; moto vero corpore illa 
+      <lb ed="#R" n="109"/>mouetur accidentaliter quia moto corpore, 
+      si<lb ed="#R" n="110" break="no"/>cut Philosophus dicit, sic in proposito. Et ex 
+      <lb ed="#R" n="111"/>hoc sequitur illud Philosophi 4. Physic. quod si 
+      <lb ed="#R" n="112"/>aer medius non esset corpus, moueretur in medio 
+      <lb ed="#R" n="113"/>in instanti. Et ratio est, quia lapis ad hoc quod 
+      <lb ed="#R" n="114"/>motu continuo descendat deorsum, indiget 
+      me<lb ed="#R" n="115" break="no"/>dio, tamquam primo moto. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e879">
+                  <lb ed="#R" n="116"/>Sed dices quod illa solutio non sufficit, quoniam 
+      <lb ed="#R" n="117"/>lapis si localiter mouet aerem, necessario primo 
+      <lb ed="#R" n="118"/>mouet se. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e888">
+                  <lb ed="#R" n="119"/>Respondeo ad hoc, quod assumptum est verum, 
+      <lb ed="#R" n="120"/>&amp; ratio est manifesta ex regula Philosophi, quam 
+      <lb ed="#R" n="121"/>dat de moto &amp; mouente. 8. Phys. &amp; 5. Vnde 
+      di<lb ed="#R" n="122" break="no"/>cit, quod si aliqua virtus mouet magnitudinem 
+      <lb ed="#R" n="123"/>in aliquo tempore, media portio illius virtutis 
+      <lb ed="#R" n="124"/>mouebit medietatem illius magnitudinis 
+      virtu<lb ed="#R" n="125" break="no"/>tis mouentis ad totam magnitudinem: talis est 
+      <lb ed="#R" n="126"/>proportio partis eius ad partes magnitudinis: 
+      <lb ed="#R" n="127"/>ergo lapis est primum mouens se; ita quod sit 
+      <lb ed="#R" n="128"/>primo mouens, &amp; primum motum, sequitur quod 
+      <lb ed="#R" n="129"/>si mola mouet se in vna die, sicut medietas molae, 
+      <lb ed="#R" n="130"/>&amp; mouens est media virtus molae mouens est, sic 
+      <lb ed="#R" n="131"/>medietas molae vt est motum est media pars 
+      mo<lb ed="#R" n="132" break="no"/>ti: motum ergo sicut tota molae virtus, vt mo- 
+      <!--0265.xml-->
+      <pb ed="#R" n="265"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>uens mouet se, vt passiua est in vna die; sic 
+      me<lb ed="#R" n="2" break="no"/>dia pars eius, vt mouens est mouebit se, vt 
+      pas<lb ed="#R" n="3" break="no"/>siua est, in aequali tempore, vt puta in vna die: 
+      <lb ed="#R" n="4"/>sed consequens est falsum: ergo falsum est, quod 
+      <lb ed="#R" n="5"/>lapis moueat se deorsum; nec quod mola sit 
+      pri<lb ed="#R" n="6" break="no"/>mum motum, sed aer est primum motum, &amp; 
+      <lb ed="#R" n="7"/>tunc bene apparet, quod regula Philosophi 
+      cur<lb ed="#R" n="8" break="no"/>rit ibi; non hoc modo, sicut tota mola ad 
+      tan<lb ed="#R" n="9" break="no"/>tum aerem motum sit pars molae: sed totus aer 
+      <lb ed="#R" n="10"/>motus a mola est duplum respectu medietatis 
+      <lb ed="#R" n="11"/>molae, eo quod idem aer est, quod est primo 
+      mo<lb ed="#R" n="12" break="no"/>tum ab vtroque, ideo medietas molae 
+      mouebi<lb ed="#R" n="13" break="no"/>tur in duplo tempore. Et ratio est, quia virtus in 
+      <lb ed="#R" n="14"/>tota mola est dupla ad virtutem mediae partis; 
+      <lb ed="#R" n="15"/>&amp; cum idem mobile sit vtrobique, sequitur, 
+      <lb ed="#R" n="16"/>quod medietas moueret in duplo minori 
+      tempo<lb ed="#R" n="17" break="no"/>re. Dices, quod hoc est ratione resistentiae, quia 
+      <lb ed="#R" n="18"/>aer resistit lapidi non ratione talis 
+      proportio<lb ed="#R" n="19" break="no"/>nis. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e970">
+                  <lb ed="#R" n="20"/>Contra: Eodem modo resistit lapidi; &amp; cum 
+      <lb ed="#R" n="21"/>animal vnum duplae virtutis in aequali tempore 
+      <lb ed="#R" n="22"/>per aequale spatium portabit duplex onus, &amp; 
+      ta<lb ed="#R" n="23" break="no"/>men est aequalis resistentia, solum ergo est 
+      pro<lb ed="#R" n="24" break="no"/>portione motoris ad motum. Primo dices 
+      gene<lb ed="#R" n="25" break="no"/>rans mouet lapidem. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e986">
+                  <lb ed="#R" n="26"/>Respondeo, per motorem essentialiter ego 
+      ca<lb ed="#R" n="27" break="no"/>pio mouere per se, talem enim voco motum 
+      <lb ed="#R" n="28"/>essentialem; qui est eius, quod per se primo 
+      mo<lb ed="#R" n="29" break="no"/>uetur; in proposito lapis non mouetur hic 
+      essen<lb ed="#R" n="30" break="no"/>tialiter, quia non per se, per se enim mouetur a 
+      <lb ed="#R" n="31"/>generante, qui tantum dat de loco, quantum 
+      <lb ed="#R" n="32"/>de forma, &amp; tantum de forma, quantum de 
+      mo<lb ed="#R" n="33" break="no"/>tu locali: motumergo hoc, quod dicitur motum 
+      <lb ed="#R" n="34"/>essentialiter, accipitur pro per se moto, &amp; motum 
+      <lb ed="#R" n="35"/>essentialiter necessario mouetur ab extrinseco, 
+      <lb ed="#R" n="36"/>motum vero accidentaliter ponit vtique 
+      moue<lb ed="#R" n="37" break="no"/>ri ad se, vnde mouendo alterum essentialiter, 
+      mo<lb ed="#R" n="38" break="no"/>uet se accidentaliter. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e1017">
+                  <lb ed="#R" n="39"/>Alia difficultas est de aqua frigida, quae cum 
+      <lb ed="#R" n="40"/>fuerit calefacta remoto calefaciente redit se 
+      <lb ed="#R" n="41"/>ipsa ad propriam frigiditatem, frigiditas ergo 
+      <lb ed="#R" n="42"/>post calefactionem accipit nouiter esse post non 
+      <lb ed="#R" n="43"/>esse; ergo aliquo agente: illud vldetur esse illamet 
+      <lb ed="#R" n="44"/>aqua: ergo. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e1033">
+                  <lb ed="#R" n="45"/>Respondeo, sicut dixi, quod graue mouet se 
+      <lb ed="#R" n="46"/>accidentaliter remouendo prohibens, sic dato, 
+      <lb ed="#R" n="47"/>quod aqua moueat se ad frigiditatem per 
+      acci<lb ed="#R" n="48" break="no"/>dens remouendo prohibens, &amp; hoc est intentio 
+      <lb ed="#R" n="49"/>Commentatoris. Vbi considerandum, quod 
+      se<lb ed="#R" n="50" break="no"/>cundum eum ibi aqua fit calida per agens, 
+      pu<lb ed="#R" n="51" break="no"/>ta per partes quasdam igneas, quae sunt vapores 
+      <lb ed="#R" n="52"/>ignei immixti per totam aquam; vbi 
+      consideran<lb ed="#R" n="53" break="no"/>dum, quod aqua, dum calefit, primo resoluitur in 
+      <lb ed="#R" n="54"/>vaporem, &amp; sic semper resoluendo magis, &amp; 
+      ma<lb ed="#R" n="55" break="no"/>gis, quousque fiant in ea partes igneae, quae 
+      im<lb ed="#R" n="56" break="no"/>pediunt eam a propria frigiditate, hoc dicit Com 
+      <lb ed="#R" n="57"/>mentator ibi, &amp; patet per experientiam. Nam 
+      <lb ed="#R" n="58"/>quando aqua calefit, videmus, quod 
+      immiscen<lb ed="#R" n="59" break="no"/>tur quidam fumi, &amp; hinc quando volumus eam 
+      <lb ed="#R" n="60"/>refrigerare, circumducimus eam ad hoc scilicet, 
+      <lb ed="#R" n="61"/>quod euaporent sumi illi, &amp; exhalent partes 
+      <lb ed="#R" n="62"/>igneae. Et hinc est, quod quando aqua bullit, 
+      <lb ed="#R" n="63"/>aqua est frigida in fundo, &amp; in superiore parte 
+      <lb ed="#R" n="64"/>calidissima, &amp; causa non est alia, nisi quia 
+      par<lb ed="#R" n="65" break="no"/>tes igneae petunt semper superiorem partem. 
+      <!--0265.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="66"/>Et haec ratio communiter assignatur a Medicis, 
+      <lb ed="#R" n="67"/>&amp; Philosophis. Ex hoc patet, quod secundum 
+      <lb ed="#R" n="68"/>Commentatorem ibidem, quod sicut se habet 
+      <lb ed="#R" n="69"/>ignis ad frigiditatem, sic aqua ad caliditatem, 
+      <lb ed="#R" n="70"/>sicut ergo ignis non potest frigefieri, sic nec aqua 
+      <lb ed="#R" n="71"/>calefieri. Ideo calefactio, quae apparet in aqua 
+      <lb ed="#R" n="72"/>non est pura calefactio aquae purae; sed sunt 
+      qui<lb ed="#R" n="73" break="no"/>dam fumi, &amp; vapores ignei dantes illam 
+      calidi<lb ed="#R" n="74" break="no"/>tatem, &amp; habentes in se caliditatem illam, aqua 
+      <lb ed="#R" n="75"/>tunc reuertitur ad frigiditatem per hunc 
+      mo<lb ed="#R" n="76" break="no"/>dum, quod cessante actione ignis, partes aquae 
+      <lb ed="#R" n="77"/>non resolutae agunt continue in partes illas, siue 
+      <lb ed="#R" n="78"/>vapores igneos, quae sunt partes illae resolutae, 
+      <lb ed="#R" n="79"/>&amp; ex tali actione vapores illi condensantur: &amp; 
+      <lb ed="#R" n="80"/>quanto magis condensantur, tanto frigescunt, 
+      <lb ed="#R" n="81"/>donec sint totaliter condensati &amp; apti ad hoc, 
+      <lb ed="#R" n="82"/>quod recipiant a partibus agentibus debitamm 
+      <lb ed="#R" n="83"/>frigiditatem, &amp; tunc vltimo aqua secundum 
+      om<lb ed="#R" n="84" break="no"/>nes suas partes redit ad naturalem 
+      frigidita<lb ed="#R" n="85" break="no"/>tem; &amp; sic totum aquae non mouet se primo, sed 
+      <lb ed="#R" n="86"/>primo mouens sunt partes non resolutae; primum 
+      <lb ed="#R" n="87"/>vero motum sunt partes resolutae. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e1133">
+                  <lb ed="#R" n="88"/>Ad argumentum in oppositum, quia est 
+      com<lb ed="#R" n="89" break="no"/>munis sententia, quod idem potest esse motum 
+      <lb ed="#R" n="90"/>a se, non tamen potest per se se mouere, sed per 
+      <lb ed="#R" n="91"/>accidens, hoc modo, dico, quod non est illud, quo 
+      <lb ed="#R" n="92"/>mouetur totum ens compositum physicum, &amp; 
+      <lb ed="#R" n="93"/>non est ibi primo motum, sed compositum, 
+      scili<lb ed="#R" n="94" break="no"/>cet totum ens, non vero per accidens, quia vnum 
+      <lb ed="#R" n="95"/>est subiecto cum illo. Ad Commentatorem, qui 
+      <lb ed="#R" n="96"/>dicit, quod elementa mouent se. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e1155">
+                  <lb ed="#R" n="97"/>Respondeo ille 3. de anima respondet, siue 
+      <lb ed="#R" n="98"/>exponit se in vno verbo, ostendit enim ibi, quod 
+      <lb ed="#R" n="99"/>motus elementorum assimilatur moto a se, quia 
+      <lb ed="#R" n="100"/>mouet per formam suam, non tamen per illam 
+      <lb ed="#R" n="101"/>mouet se per se primo, sed per accidens, licet 
+      <lb ed="#R" n="102"/>sit valde difficile videre, quia non apparet, 
+      quo<lb ed="#R" n="103" break="no"/>modo primo modo, cum sit vnum cum eo, quod 
+      <lb ed="#R" n="104"/>requiritur ad hoc, quod possit se mouere moto 
+      <lb ed="#R" n="105"/>illo. 
+   </p>
+            </div>
+            <div xml:id="olm8ij-f80809-Dd1e1178">
+               <head xml:id="olm8ij-f80809-Hd1e1180">Articulus 2</head>
+               <head xml:id="olm8ij-f80809-Hd1e1182" type="question-title">
+      Utrum voluntas moueatur ab obiecto
+    </head>
+               <p xml:id="olm8ij-f80809-d1e1185">
+                  <lb ed="#R" n="106"/>ARTJCVLVS JJ. 
+      <lb ed="#R" n="107"/>Vtrum voluntas moueatur ab obiecto.
+   </p>
+               <p xml:id="olm8ij-f80809-d1e1192">
+                  <lb ed="#R" n="108"/>AD secundam quaestionem arguo primo, 
+      <lb ed="#R" n="109"/>quod voluntas moueatur ab obiecto, quia 
+      <lb ed="#R" n="110"/>quando aliquid requiritur per se ad aliquid, 
+      ne<lb ed="#R" n="111" break="no"/>cessario requiritur ad illud, vt causa in alio 
+      ge<lb ed="#R" n="112" break="no"/>nere (a nulla enim videtur aliquid dependere per 
+      <lb ed="#R" n="113"/>se, nisi a causis suis) sed obiectum per se 
+      requi<lb ed="#R" n="114" break="no"/>ritur ad actum voluntatis: ergo. Dices: 
+      Requi<lb ed="#R" n="115" break="no"/>ritur vt terminus. Contra, non terminat 
+      voli<lb ed="#R" n="116" break="no"/>tionem, vt finis intra, sed extra, sed per se 
+      requi<lb ed="#R" n="117" break="no"/>ritur intra: ergo. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e1216">
+                  <lb ed="#R" n="118"/>Confirmo, quia Commentator dicit, quod 
+      bal<lb ed="#R" n="119" break="no"/>neum in anima mouet, vt efficiens. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e1224">
+                  <lb ed="#R" n="120"/>Dices contra: Omnis causa, sine qua 
+      non<lb ed="#R" n="121" break="no"/>de necessitate est causa, tamen quia sic eius 
+      ab<lb ed="#R" n="122" break="no"/>sentia est causa absentiae, effectus eius praesentiae 
+      <lb ed="#R" n="123"/>est causa praesentiae eius. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e1235">
+                  <lb ed="#R" n="124"/>Confirmo: Causa, quae est causa tantum sine 
+      <!--0266.xml-->
+      <pb ed="#R" n="266"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>qua non est causa tantum priuatiua, obiectum au 
+      <lb ed="#R" n="2"/>tem, vt videtur, est causa positiua. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e1251">
+                  <lb ed="#R" n="3"/>In oppositum est, quia nullum mobile habet 
+      <lb ed="#R" n="4"/>actum in potestate; Nam nullum mobile, vt tantum 
+      <lb ed="#R" n="5"/>passiuum est, habet dominium super agens, &amp; actus 
+      <lb ed="#R" n="6"/>eius, ideo enim quia agens agit, patiens patitur, 
+      <lb ed="#R" n="7"/>non e contrario: sed secundum omnes 
+      Philoso<lb ed="#R" n="8" break="no"/>phos, voluntas habet dominium super actum 
+      <lb ed="#R" n="9"/>suum: ergo illa est agens suae volitionis, quia 
+      sem<lb ed="#R" n="10" break="no"/>per agens, extra quod est obiectum, non habet do 
+      <lb ed="#R" n="11"/>minium. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e1273">
+                  <lb ed="#R" n="12"/>Respondeo hic primo ponam opiniones: secun 
+      <lb ed="#R" n="13"/>do mediabo inter illas. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e1280">
+                  <lb ed="#R" n="14"/>Opiniones autem suut sex. Vna opinio est, quod 
+      <lb ed="#R" n="15"/>mouetur ab obiecto, &amp; haec diuiditur, quia 
+      ali<lb ed="#R" n="16" break="no"/>qui dicunt, quod illud est phantasma; alij quod 
+      <lb ed="#R" n="17"/>obiectum in intellectu, puta species vel 
+      intelle<lb ed="#R" n="18" break="no"/>cttio. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e1293">
+                  <lb ed="#R" n="19"/>Alia opinio, quod mouetur a se. hae autem 
+      <lb ed="#R" n="20"/>opiniones patet, quod sunt extremae, aliae autem 
+      <lb ed="#R" n="21"/>sunt mediae. Vna dicit, quod partim mouetur ab 
+      <lb ed="#R" n="22"/>obiecto, partim a se, ita quod vtrumque 
+      concur<lb ed="#R" n="23" break="no"/>rit ibi, &amp; integrat rationem vnius totalis esse. &amp; 
+      <lb ed="#R" n="24"/>ista etiam bifurcatur, quia aliqui dicunt, quod to 
+      <lb ed="#R" n="25"/>taliter mouetur ab obiecto respectu finis, sed par 
+      <lb ed="#R" n="26"/>tim ab obiecto, partim a se, eorum quae sunt ad 
+      <lb ed="#R" n="27"/>finem. Alij vero dicunt, quod exercitium actus 
+      <lb ed="#R" n="28"/>mouetur a ratione, &amp; hoc modo aliquas 
+      poten<lb ed="#R" n="29" break="no"/>tias ad inquirendum de obiecto, sed in finem 
+      exer<lb ed="#R" n="30" break="no"/>citij habito obiecto ad determinationem actus 
+      <lb ed="#R" n="31"/>mouetur ab isto. hi modi obiecti reducuntur in 
+      <lb ed="#R" n="32"/>generali ad opinionem 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e1327">
+                  <lb ed="#R" n="33"/>Tertia autem opinio est, quod quoad aliquam 
+      <lb ed="#R" n="34"/>effectuationem mouetur ab obiecto, in quantum 
+      <lb ed="#R" n="35"/>obiectum causat effectumprimo in voluntate, 
+      <lb ed="#R" n="36"/>sed habita illa tunc voluntas mouet se ad 
+      voli<lb ed="#R" n="37" break="no"/>tionem. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e1340">
+                  <lb ed="#R" n="38"/>Quarta opinio, vt dictum est dicit, quod ab 
+      <lb ed="#R" n="39"/>obiecto, &amp; a se, vt ab vna causa totali, &amp; ambo 
+      <lb ed="#R" n="40"/>concurrunt vt causa partialis. Et sic sunt sex 
+      <lb ed="#R" n="41"/>opiniones in generali, duae quidem extremae, qua 
+      <lb ed="#R" n="42"/>tuor mediae. haec de primo. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e1353">
+                  <lb ed="#R" n="43"/>De secundo videtur mihi, quod primae 
+      opinio<lb ed="#R" n="44" break="no"/>nes duae, quae sunt in extremo, sint simpliciter 
+      fal<lb ed="#R" n="45" break="no"/>sae, aliae vero mediae possunt concordari, quia 
+      te<lb ed="#R" n="46" break="no"/>neo, quod voluntas aliquo modo est causa, non 
+      <lb ed="#R" n="47"/>tamen totalis causa. Probo opiniones primae sint 
+      <lb ed="#R" n="48"/>falsae. Prima quidem, quae dicit, quod mouet 
+      <lb ed="#R" n="49"/>se, quia nihil potest extrahere se de potentia ad 
+      <lb ed="#R" n="50"/>actum.
+   </p>
+               <p xml:id="olm8ij-f80809-d1e1373">
+                  <lb ed="#R" n="51"/>Secunda vero opinio, quae dicit quod volitio 
+      <lb ed="#R" n="52"/>essentialiter est a phantasmate vel intellectione, 
+      <lb ed="#R" n="53"/>non video quomodo possit saluari, quod 
+      volun<lb ed="#R" n="54" break="no"/>tas sit domina sic actus, sicut probat 
+      argumen<lb ed="#R" n="55" break="no"/>tum ad principale; non enim posset homo 
+      arbi<lb ed="#R" n="56" break="no"/>trari libere, &amp; libere velle, secundum illam 
+      posi<lb ed="#R" n="57" break="no"/>tionem, &amp; hoc in speciali probo ratione tali, 
+      <lb ed="#R" n="58"/>Quando est aliquis ordo agentium, &amp; patientium 
+      <lb ed="#R" n="59"/>&amp; repatientium, si omnia agentia agunt ibi, 
+      ne<lb ed="#R" n="60" break="no"/>cessitate enim &amp; omnia patientia patiuntur 
+      ne<lb ed="#R" n="61" break="no"/>cessitate, nunquam vltimum quod sequitur ad 
+      <lb ed="#R" n="62"/>ista necessitate naturae esset, nisi necessitate 
+      na<lb ed="#R" n="63" break="no"/>turae, quod omnino impossibile esset, vel 
+      posi<lb ed="#R" n="64" break="no"/>tis, illud non esset: Ratio, quia ex necessarijs non 
+      <lb ed="#R" n="65"/>sequitur non necessarium, Voluas igitur, &amp; re- 
+      <!--0266.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="66"/>uoluas quantumuis illa agentia, &amp; patientia, 
+      <lb ed="#R" n="67"/>quae praecedunt semper illud quod necessitate 
+      <lb ed="#R" n="68"/>natura sequitur, ad illa necessario ponitur, &amp; non 
+      <lb ed="#R" n="69"/>poterit non esse positis ipsis: si ergo intellectio 
+      <lb ed="#R" n="70"/>mouet ad volitionem, &amp; hoc necessitate 
+      natu<lb ed="#R" n="71" break="no"/>rae, cum non sit agens liberum, quantumcunque 
+      <lb ed="#R" n="72"/>voluntas moueat prius ad praecedentes 
+      delibera<lb ed="#R" n="73" break="no"/>tiones, quia cum in toto decursu deliberatio, 
+      <lb ed="#R" n="74"/>cum deliberatio fit, omnia agentia, &amp; patientia 
+      <lb ed="#R" n="75"/>agunt, &amp; patiuntur naturaliter, necessario 
+      om<lb ed="#R" n="76" break="no"/>nes actiones, &amp; passiones in toto decursu illo 
+      <lb ed="#R" n="77"/>erunt necessariae; &amp; ideo illud, quod in fine 
+      ha<lb ed="#R" n="78" break="no"/>bebitur ex eis, esset necessarium necessitate 
+      na<lb ed="#R" n="79" break="no"/>turae. Maior istius rationis nota est, &amp; probata, 
+      <lb ed="#R" n="80"/>sed minor patet per te. Dicis enim, quod 
+      volitio<lb ed="#R" n="81" break="no"/>nem recipit voluntas ab obiecto, mouet tamen 
+      <lb ed="#R" n="82"/>ad deliberationem in quantum praesente obiecto 
+      <lb ed="#R" n="83"/>praecipit intellectui vlterius deliberare, &amp; ibi non 
+      <lb ed="#R" n="84"/>sistere: Tunc arguo sic: Percipere 
+      deliberare<lb ed="#R" n="85" break="no"/>cum per se non sit nisi velle deliberare, causatur 
+      <lb ed="#R" n="86"/>ab obiecto: ergo naturali necessitate, &amp; per 
+      con<lb ed="#R" n="87" break="no"/>sequens deliberatio erit necessaria, &amp; eodem 
+      <lb ed="#R" n="88"/>modo totus decursus actuum intellectus in 
+      to<lb ed="#R" n="89" break="no"/>ta deliberatione esset necessarius, quia 
+      quodli<lb ed="#R" n="90" break="no"/>bet est ab obiecto, &amp; sic vsque in finem 
+      delibe<lb ed="#R" n="91" break="no"/>rationis omnia praecedentia sunt necessaria: 
+      er<lb ed="#R" n="92" break="no"/>go iudicium, quod sequitur deliberationem 
+      <lb ed="#R" n="93"/>est iudicium vltimatum, esset necessarium, quia 
+      <lb ed="#R" n="94"/>deliberatio praecedens fuit necessaria. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e1475">
+                  <lb ed="#R" n="95"/>Dices: in obiecto sic iudicato apparent duae 
+      <lb ed="#R" n="96"/>rationes scilicet ratio boni honesti, &amp; turpis 
+      de<lb ed="#R" n="97" break="no"/>lectabilis. Contra: A qua illarum rationum 
+      mo<lb ed="#R" n="98" break="no"/>uebitur? non ab vtraque: ergo vel a nulla, &amp; 
+      <lb ed="#R" n="99"/>tunc nihil sequitur; vel a fortiori, &amp; tunc illud 
+      <lb ed="#R" n="100"/>quod sequitur, necessario sequitur. Ideo videtur 
+      <lb ed="#R" n="101"/>mihi, quod opiniones meae possunt concordari. 
+      <lb ed="#R" n="102"/>Ad cuius euidentiam pono illam Conclusionem 
+      <lb ed="#R" n="103"/>quod voluntas mouet se ad volutionem per 
+      ac<lb ed="#R" n="104" break="no"/>cidens, vbi considerandum est, quod aliud est 
+      <lb ed="#R" n="105"/>aliquid dicere motum, &amp; aliud est 
+      determina<lb ed="#R" n="106" break="no"/>re elicitiuum motus ad mouendum: exemplum, 
+      <lb ed="#R" n="107"/>pono quod ego velim currere, &amp; curram, vo 
+      <lb ed="#R" n="108"/>luntas mea certum est non elicit istum motum, 
+      <lb ed="#R" n="109"/>sed ipsum elicit potentia motiua, &amp; tamen 
+      vo<lb ed="#R" n="110" break="no"/>luntas determinat potentiam motiuam ad hoc, 
+      <lb ed="#R" n="111"/>quod eliciat motum: sic etiam certum est, quod 
+      <lb ed="#R" n="112"/>intellectus elicit intellectionem ad eliciendum 
+      <lb ed="#R" n="113"/>vel non eliciendum intellectionem, ita, quod 
+      <lb ed="#R" n="114"/>in potestate voluntatis est, quod eliciat, vel non 
+      <lb ed="#R" n="115"/>eliciat: Tunc ad propositum dico, quod 
+      vo<lb ed="#R" n="116" break="no"/>luntas non elicit, nec causat in se volitionem, 
+      <lb ed="#R" n="117"/>sed illam causat iudicium vltimatum intellectus, 
+      <lb ed="#R" n="118"/>tamen voluntas determinat ipsum iudicium 
+      ad<lb ed="#R" n="119" break="no"/>hoc, quod moueat ad volitionem; vltimatum 
+      <lb ed="#R" n="120"/>enim iudicium in intellectu est aptum natum 
+      <lb ed="#R" n="121"/>mouere ad volitionem, sed tamen non 
+      praede<lb ed="#R" n="122" break="no"/>terminaretur a voluntate. Dico igitur, quod 
+      vo<lb ed="#R" n="123" break="no"/>litio est ab intellectione impressiue, est tamen 
+      <lb ed="#R" n="124"/>a voluntate applicatiue, &amp; determinatiue, non 
+      <lb ed="#R" n="125"/>quidem quod determinet se, prima determinatio 
+      <lb ed="#R" n="126"/>pasiiua est in intellectione, quae per voluntatem 
+      <lb ed="#R" n="127"/>determinatur adhoc, quod agat, &amp; ex hoc, 
+      <lb ed="#R" n="128"/>quod voluntas dicitur agere per accidens in se, 
+      <lb ed="#R" n="129"/>vt formetur, sic ratio quando aliquid 
+      determi<lb ed="#R" n="130" break="no"/>nat virtutem actiuam ad agere in se, determinat 
+      <!--0267.xml-->
+      <pb ed="#R" n="267"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>aliquo modo se per accidens, &amp; per accidens 
+      po<lb ed="#R" n="2" break="no"/>test dici agere in se, sed voluntas determinat 
+      in<lb ed="#R" n="3" break="no"/>tellectionem ad hoc, quod agat volitionem. 
+      <lb ed="#R" n="4"/>nam intellectio non ageret, nisi determinaretur a 
+      <lb ed="#R" n="5"/>voluntate: ergo.
+   </p>
+               <p xml:id="olm8ij-f80809-d1e1573">
+                  <lb ed="#R" n="6"/>Notandum autem, quod voluntas dupliciter 
+      <lb ed="#R" n="7"/>potest dici determinare iudicium intellectus ad 
+      <lb ed="#R" n="8"/>agere, vno modo determinando rationem in 
+      fi<lb ed="#R" n="9" break="no"/>nem: conuenit enim aliquando, quod intellectui 
+      <lb ed="#R" n="10"/>occurrit duplex ratio motus indifferenter; verbi 
+      <lb ed="#R" n="11"/>gratia, bonum est ire ad Ecclesiam propter 
+      Do<lb ed="#R" n="12" break="no"/>minum, &amp; bonum est non ire propter 
+      delectatio<lb ed="#R" n="13" break="no"/>nem in aliquo alio habitam, &amp; stante tale 
+      dupli<lb ed="#R" n="14" break="no"/>ci ratione in intellectu nunquam illud videre 
+      in<lb ed="#R" n="15" break="no"/>tellectus moueret ad determinatam 
+      operatio<lb ed="#R" n="16" break="no"/>nem; &amp; ideo voluntas potest determinare 
+      vide<lb ed="#R" n="17" break="no"/>re, cum ratione determinante alia dimissa, vt 
+      <lb ed="#R" n="18"/>sic fiat iudicium determinatum in intellectu, 
+      <lb ed="#R" n="19"/>quod bonum est ire nunc ad Ecclesiam propter 
+      <lb ed="#R" n="20"/>Dominum, &amp; bonum est ire propter 
+      delectatio<lb ed="#R" n="21" break="no"/>nem in aliquo alio habendam. &amp; stante illa secun 
+      <lb ed="#R" n="22"/>da ratione in intellectu, nunquam videre 
+      intelle<lb ed="#R" n="23" break="no"/>ctus moueret ad determinatam operationem, &amp; 
+      <lb ed="#R" n="24"/>ideo voluntas potest determinare videre cum 
+      ra<lb ed="#R" n="25" break="no"/>tione determinante alia dimissa, vt sic fiat 
+      iu<lb ed="#R" n="26" break="no"/>dicium determinatum in intellectu, quod bonum 
+      <lb ed="#R" n="27"/>est ire nunc ad Ecclesiam propter Deum, &amp; tunc 
+      <lb ed="#R" n="28"/>tale iudicium mouebit ad volitionem, si tamen 
+      <lb ed="#R" n="29"/>sit vltimate determinatum, vt statim dicam. 
+      <lb ed="#R" n="30"/>Alio modo potest voluntas determinare iudicium 
+      <lb ed="#R" n="31"/>intellectus, hoc modo. Vbi sciendum, quod in 
+      <lb ed="#R" n="32"/>intellectu conuenit esse duplex iudicium, 
+      quod<lb ed="#R" n="33" break="no"/>dam enunciatiuum &amp; simplex, quod sequitur 
+      <lb ed="#R" n="34"/>laturam rei, seu principia practica appraehensa 
+      <lb ed="#R" n="35"/>ab intellectu, puta absolute dicendo, bonum est 
+      <lb ed="#R" n="36"/>ire ad Ecclesiam, vel, bonum est non fornicari, 
+      <lb ed="#R" n="37"/>quod iudicium habet luxuriolus; aliud vero 
+      iu<lb ed="#R" n="38" break="no"/>dicium est in intellectu, quod dicitur iudicium 
+      <lb ed="#R" n="39"/>vltimatum practicum, &amp; hoc non est 
+      iudicati<lb ed="#R" n="40" break="no"/>uum &amp; enunciatiuum, sed est imperatiuum: 
+      il<lb ed="#R" n="41" break="no"/>lud autem non habet, quod sit imperatiuum, &amp; 
+      <lb ed="#R" n="42"/>vltimate determinatiuum ex natura rei, nec ex 
+      <lb ed="#R" n="43"/>aliquibus principijs in intellectu, sed hoc habet 
+      <lb ed="#R" n="44"/>ex actiua determinatione voluntatis, quae 
+      impe<lb ed="#R" n="45" break="no"/>rat &amp; determinat iudicium tale, &amp; illud est 
+      vide<lb ed="#R" n="46" break="no"/>re vltimatum, quod est proprius actus prudentiae 
+      <lb ed="#R" n="47"/>distinctus ab actu, qui est inuenire media, quod 
+      <lb ed="#R" n="48"/>pertinet ad Eubuliam &amp; ab actu, qui est bene 
+      sen<lb ed="#R" n="49" break="no"/>teutiare inuenta, qui est actus Synaesis, ille autem 
+      <lb ed="#R" n="50"/>proprius est prudentiae, &amp; vocatur praecipere 6. 
+      <lb ed="#R" n="51"/>Ethic. &amp; attribuitur specialiter prudentiae, quia 
+      <lb ed="#R" n="52"/>prudentia non esset sine isto. Dato enim quod 
+      be<lb ed="#R" n="53" break="no"/>ne inuenires, bene sententiares enunciatiue, sed 
+      <lb ed="#R" n="54"/>si non praeciperes bene, non esses prudens: hoc 
+      er<lb ed="#R" n="55" break="no"/>go iudicium dicitur imperatiuum, quod idem 
+      <lb ed="#R" n="56"/>est, quod fac hoc, ad quod concurrunt 
+      intelle<lb ed="#R" n="57" break="no"/>ctus eligendo, &amp; voluntas determinando: Hoc 
+      <lb ed="#R" n="58"/>inquam tale est iudicium, quod est aptum 
+      mo<lb ed="#R" n="59" break="no"/>uere ad volitionem, &amp; in eius oppositum, eo 
+      stan<lb ed="#R" n="60" break="no"/>te non posset voluntas velle, licet bene posset 
+      de<lb ed="#R" n="61" break="no"/>terminationem eius suspendere. Primum autem 
+      <lb ed="#R" n="62"/>iudicium, scilicet enunciatiuum non mouet, 
+      <lb ed="#R" n="63"/>vnde stante eo quantumcumque perspicuo 
+      intel<lb ed="#R" n="64" break="no"/>lectu voluntas posset in oppositum ferri. Hoc 
+      er<lb ed="#R" n="65" break="no"/>go secundo modo voluntas determinat eliciti. 
+      <!--0267.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="66"/>uum volitionis ad agere, pro quanto de iudicio 
+      <lb ed="#R" n="67"/>enunciatiuo facit videre praeceptiuum, &amp; 
+      impe<lb ed="#R" n="68" break="no"/>ratiuum, quia concurrit ad ipsum 
+      determinan<lb ed="#R" n="69" break="no"/>do. Hoc ergo iudicium sic determinatum a 
+      vo<lb ed="#R" n="70" break="no"/>luntate mouet per se &amp; primo ad volitionem 
+      <lb ed="#R" n="71"/>&amp; per consequens voluntas mouet se per 
+      acci<lb ed="#R" n="72" break="no"/>dens ad illam: ex quo patet quod in electione 
+      <lb ed="#R" n="73"/>volitionis est ordo ille. Nam voluntas est 
+      pri<lb ed="#R" n="74" break="no"/>mum mouens, &amp; intellectus primum motum, 
+      <lb ed="#R" n="75"/>&amp; intellectio tunc est medium per se mouens, &amp; 
+      <lb ed="#R" n="76"/>voluntas vltimum motum, &amp; hoc est per 
+      acci<lb ed="#R" n="77" break="no"/>dens, vt dictum est. Nec oportet ad hoc, quod 
+      <lb ed="#R" n="78"/>voluntas determinet intellectionem, quod illa 
+      <lb ed="#R" n="79"/>determinetur passiue prius, sed tota, &amp; prima 
+      <lb ed="#R" n="80"/>determinatio passiua tantum est in intellectu: 
+      <lb ed="#R" n="81"/>vnde voluntas, vt prima volitio determinat se 
+      <lb ed="#R" n="82"/>ad velle actiue, nulla prima in ea 
+      determinatio<lb ed="#R" n="83" break="no"/>ne passiua, alias esset processus in infinitum. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e1750">
+                  <lb ed="#R" n="84"/>Exemplum de hoc est de nauta, qui mouet 
+      <lb ed="#R" n="85"/>nauem, &amp; mouetur a naui. Nam nauta eit 
+      pri<lb ed="#R" n="86" break="no"/>mum mouens, absque hoc quod sit motum: 
+      na<lb ed="#R" n="87" break="no"/>uis enim est primum motum, &amp; tunc nauis vt 
+      <lb ed="#R" n="88"/>mota est medium mouens, &amp; nauta vltimum per 
+      <lb ed="#R" n="89"/>accidens motum. Sic in proposito, voluntas 
+      <lb ed="#R" n="90"/>mouet intellectionem applicatiue, quia 
+      deter<lb ed="#R" n="91" break="no"/>minat eam ad agere, illa intellectio sic 
+      applica<lb ed="#R" n="92" break="no"/>ta mouet ad volitionem, in illam opinionem 
+      pos<lb ed="#R" n="93" break="no"/>sunt concidere opiniones iste mediae: illa enim, 
+      <lb ed="#R" n="94"/>quae ponit, quod mouet ad exercitium actus, &amp; 
+      <lb ed="#R" n="95"/>mouetur ad determinationem actus ab obiecto, 
+      <lb ed="#R" n="96"/>idem vult dicere cum ipsa; exercitium enim 
+      <lb ed="#R" n="97"/>actus, hoc est exitus elicitiui de non agere ad 
+      <lb ed="#R" n="98"/>agere ad tale exitum facit voluntas, quod 
+      deter<lb ed="#R" n="99" break="no"/>minat intellectionem ad agere, per 
+      specificatio<lb ed="#R" n="100" break="no"/>nem autem, &amp; determinationem actus 
+      intelli<lb ed="#R" n="101" break="no"/>go elicere illam intellectionem. In illa etiam 
+      <lb ed="#R" n="102"/>opinione posset modernus concordare, qui dicit, 
+      <lb ed="#R" n="103"/>quod voluntas, &amp; obiectum sunt duae causae 
+      par<lb ed="#R" n="104" break="no"/>tiales, non quod sint causalitates eiusdem 
+      ordi<lb ed="#R" n="105" break="no"/>nis, ambae elicitiuae: sed vna elicitiua, altera 
+      ap<lb ed="#R" n="106" break="no"/>plicatiua &amp; determinatiua. Et ex hoc patet, 
+      qua<lb ed="#R" n="107" break="no"/>re volitio dependet essentialiter ab vtroque, quia 
+      <lb ed="#R" n="108"/>vtrumque concurrit ibi vt causa, licet non in 
+      <lb ed="#R" n="109"/>eodem genere causalitatis, quia causatio 
+      volun<lb ed="#R" n="110" break="no"/>tatis non est actio, alias oporteret sibi dare 
+      ter<lb ed="#R" n="111" break="no"/>minum, sed est determinatio principij actionis, 
+      <lb ed="#R" n="112"/>quae duae causalitates sunt alterius rationis, &amp; 
+      <lb ed="#R" n="113"/>ad inuicem separabiles. Haec etiam est 
+      expres<lb ed="#R" n="114" break="no"/>sa mens Commentatoris 3. de anima comm. 62. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e1820">
+                  <lb ed="#R" n="115"/>Ipse enim, &amp; ponit illud Aristotelis, quod 
+      in<lb ed="#R" n="116" break="no"/>tellectus desiderat, &amp; desiderium intelligit, &amp; 
+      <lb ed="#R" n="117"/>dicit, quod intellectus desiderat, &amp; appetitus 
+      in<lb ed="#R" n="118" break="no"/>telligit; &amp; ratio est, quia intellectus cum 
+      volun<lb ed="#R" n="119" break="no"/>tate sunt vnum mouens respectu desiderij: &amp; etiam 
+      <lb ed="#R" n="120"/>respectu iudicij vltimati praeceptiuum; &amp; ideo 
+      <lb ed="#R" n="121"/>ad vtrumque concurrit tam intellectus, quam 
+      <lb ed="#R" n="122"/>voluntas: ideo bene dicitur, quod intellectus 
+      de<lb ed="#R" n="123" break="no"/>siderat, quia causalitatem habet super desiderium: 
+      <lb ed="#R" n="124"/>Similiter dicit, quod desiderium intelligit, quia 
+      <lb ed="#R" n="125"/>habet causalitatem super iudicium vltimatum. 
+      <lb ed="#R" n="126"/>Vnde Commentator dicit ibi, quod appetit 
+      vir<lb ed="#R" n="127" break="no"/>tus desideratiua, quae est intellectus, &amp; quod intel 
+      <lb ed="#R" n="128"/>lectus desiderat per scientiam, &amp; voluntas 
+      intelli<lb ed="#R" n="129" break="no"/>git per intellectum, nec desiderium est virtus alia 
+      <lb ed="#R" n="130"/>ab intellectu practico. Haec non essent intelligi- 
+      <!--0268.xml-->
+      <pb ed="#R" n="268"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>bilia, nisi ambo &amp; intellectus &amp; voluntas, tam 
+      <lb ed="#R" n="2"/>respectu desiderij, quam respectu iudicij practici 
+      <lb ed="#R" n="3"/>vltimati integrarent rationem vnius principij. 
+      <lb ed="#R" n="4"/>Haec etiam est opinio Aristotelis 6. Ethic. qui 
+      di<lb ed="#R" n="5" break="no"/>cit, quod electio est appetitus intellectiuus, vel 
+      <lb ed="#R" n="6"/>intellectus appetitiuus. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e1877">
+                  <lb ed="#R" n="7"/>Sed hic sunt dubia quaedam. Primo, quia 
+      in<lb ed="#R" n="8" break="no"/>rellectus videtur esse idem, quod voluntas: 
+      sal<lb ed="#R" n="9" break="no"/>tem non sunt duae res: ergo mouet se per 
+      eam<lb ed="#R" n="10" break="no"/>dem realitatem. 
+  </p>
+               <p xml:id="olm8ij-f80809-d1e1888">
+                  <lb ed="#R" n="11"/>Respondeo, concedo, quod eadem realitas 
+      <lb ed="#R" n="12"/>animae sit subiectum intellectionis, &amp; volitionis: 
+      <lb ed="#R" n="13"/>tamen quando dicitur, quod intellectus mouet 
+      <lb ed="#R" n="14"/>voluntatem, non debet intelligi de potentia, sed 
+      <lb ed="#R" n="15"/>de actu, &amp; tunc patet, quod nullum inconueniens 
+      <lb ed="#R" n="16"/>est, quod actus intellectus existens in substantia 
+      <lb ed="#R" n="17"/>animae possit cau sare in eadem subiectiue aliquid 
+      <lb ed="#R" n="18"/>aliud a se; sicut radius causat in aere, in quo est, 
+      <lb ed="#R" n="19"/>calorem, subiectiue tamen ipsi animae in 
+      causan<lb ed="#R" n="20" break="no"/>do, &amp; hoc, quia in potestate eius est ipsam 
+      de<lb ed="#R" n="21" break="no"/>terminare ad agere. &amp; esset simi le omnino, si aer 
+      <lb ed="#R" n="22"/>posset radium determinare ad hoc, quod ageret 
+      <lb ed="#R" n="23"/>in se splendorem. Tunc ad formam, non 
+      sequi<lb ed="#R" n="24" break="no"/>tur, quod idem secundum rem agat in se; licet 
+      <lb ed="#R" n="25"/>bene idem subiecto, hoc autem nullum est 
+      in<lb ed="#R" n="26" break="no"/>conueniens, vt patet supra quaestione 
+      praece<lb ed="#R" n="27" break="no"/>dente. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e1927">
+                  <lb ed="#R" n="28"/>Alia difficultas est, quia voluntas non agit, 
+      ni<lb ed="#R" n="29" break="no"/>si per actum, non enim videtur, quod voluntas ali 
+      <lb ed="#R" n="30"/>quid agat nisi volendo, tunc quaero, quando 
+      vo<lb ed="#R" n="31" break="no"/>luntas per te determinat per intellectionem ad 
+      <lb ed="#R" n="32"/>agere in se, vt habeat volitionem; quaero per quem 
+      <lb ed="#R" n="33"/>actum est, per quam volitionem: non per illam 
+      <lb ed="#R" n="34"/>met, quia idem praecederet se: ergo per aliam; 
+      <lb ed="#R" n="35"/>de illa alia quaero, per quod accidens voluntas 
+      <lb ed="#R" n="36"/>determinabat actum illius volitionis. &amp; quia 
+      <lb ed="#R" n="37"/>oportet dare, quod per alium, &amp; sic in infinitum; 
+      <lb ed="#R" n="38"/>vel stabitur in primo, quod voluntas a se ipsa 
+      po<lb ed="#R" n="39" break="no"/>test habere volitionem, ad quam non determinat 
+      <lb ed="#R" n="40"/>aliud principium elicitiuum a se. Actus enim ille, 
+      <lb ed="#R" n="41"/>quo determinat intellectionem, vel est a 
+      volunta<lb ed="#R" n="42" break="no"/>te immediate, &amp; habetur propositum; vel est ab 
+      <lb ed="#R" n="43"/>intellectione, &amp; tunc oportet, quod voluntas per 
+      <lb ed="#R" n="44"/>alium actum determinauerit intellectionem, &amp; 
+      <lb ed="#R" n="45"/>sic in infinitum. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e1969">
+                  <lb ed="#R" n="46"/>Respondeo: Nullum inconueniens est, quod 
+      vo<lb ed="#R" n="47" break="no"/>luntas dicatur determinare absque formali 
+      ali<lb ed="#R" n="48" break="no"/>quo modo quod est velle: Nam determinare est 
+      <lb ed="#R" n="49"/>actus voluntatis actiue, &amp; est intellectus 
+      subiecti<lb ed="#R" n="50" break="no"/>ue: non habeo ergo pro inconueniente, quod alius 
+      <lb ed="#R" n="51"/>actus sit a voluntate in alia potentia, qui sit actus 
+      <!--0268.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="52"/>determinatiuus, absque primo velle in 
+      volunta<lb ed="#R" n="53" break="no"/>te elicitiue: sicut patet, quod potentia motiua 
+      <lb ed="#R" n="54"/>determinatur a voluntate, absque hoc quod 
+      vo<lb ed="#R" n="55" break="no"/>luntas eliciat motum, abique etiam actuali 
+      vo<lb ed="#R" n="56" break="no"/>litione respectu illius motus. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e2001">
+                  <lb ed="#R" n="57"/>Dices, Non: immo voluntas determinat 
+      po<lb ed="#R" n="58" break="no"/>tentiam motiuam per suum velle. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e2008">
+                  <lb ed="#R" n="59"/>Respondeo dico, quod nullum ibi praecedit 
+      <lb ed="#R" n="60"/>velle. Dico enim, quod illud quo voluntas 
+      de<lb ed="#R" n="61" break="no"/>terminat potentiam motiuam, &amp; alia 
+      huiusmo<lb ed="#R" n="62" break="no"/>di, est illamet substantia animae; per determina. 
+      <lb ed="#R" n="63"/>re enim non intelligo actum elicitiuum, nec 
+      actio<lb ed="#R" n="64" break="no"/>nem habentem terminum productum, sed 
+      intelli<lb ed="#R" n="65" break="no"/>go per hoc, quod actus intellectionis etiam 
+      quo<lb ed="#R" n="66" break="no"/>ad suum elici, &amp; quoad hoc quod moueat, est in 
+      <lb ed="#R" n="67"/>potestate animae. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e2030">
+                  <lb ed="#R" n="68"/>Dices: Nihil fit de indeterminato determinatum, 
+      <lb ed="#R" n="69"/>nisi aliquo addito nouo: ergo si voluntas fit de 
+      <lb ed="#R" n="70"/>non determinante determinans, oportet, quod 
+      <lb ed="#R" n="71"/>hoc sit per aliquid additum voluntati. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e2041">
+                  <lb ed="#R" n="72"/>Respondeo, haec ratio non concludit; ita 
+      <lb ed="#R" n="73"/>enim bene concludit contra aduersarios, quod 
+      <lb ed="#R" n="74"/>voluntas non mouet se, quia vt mouet se 
+      ante<lb ed="#R" n="75" break="no"/>fuit indeterminata ad illud; mouet se ergo per 
+      <lb ed="#R" n="76"/>aliam volitionem &amp; actum, &amp; sic procedatur 
+      <lb ed="#R" n="77"/>in infinitum. Si dicis, quod non alia volitione 
+      <lb ed="#R" n="78"/>sed se ipsa, habeo propositum, quod per 
+      substan<lb ed="#R" n="79" break="no"/>tiam suam, vt etiam actus primus immediate 
+      de<lb ed="#R" n="80" break="no"/>terminat elicere volitionis; ergo quare sic non 
+      <lb ed="#R" n="81"/>poterit determinare elicere intellectionis? 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e2065">
+                  <lb ed="#R" n="82"/>Notandum est igitur, quod imaginatio decipit 
+      <lb ed="#R" n="83"/>hic multos, imaginantur enim communiter 
+      lo<lb ed="#R" n="84" break="no"/>quentes in hac materia, quod actus ille 
+      deter<lb ed="#R" n="85" break="no"/>minatiuus voluntatis sit actus transiens, quod 
+      <lb ed="#R" n="86"/>non est verum: non est enim actus productiuus, 
+      <lb ed="#R" n="87"/>sed productiui determinatiuus. Posset autem 
+      di<lb ed="#R" n="88" break="no"/>ci, quod voluntas determinat aliqua 
+      mediante<lb ed="#R" n="89" break="no"/>actu voluntatis, aliqua vero immediate nullo 
+      <lb ed="#R" n="90"/>actu voluntatis praecedente, sic determinat 
+      intel<lb ed="#R" n="91" break="no"/>lectionem, quae praecedit omnem volitionem. 
+      <lb ed="#R" n="92"/>Tunc ad argumentum, cum dicitur, quod 
+      pas<lb ed="#R" n="93" break="no"/>siuum, vt sic non habet actiuum in sua 
+      pote<lb ed="#R" n="94" break="no"/>state. 
+   </p>
+               <p xml:id="olm8ij-f80809-d1e2096">
+                  <lb ed="#R" n="95"/>Respondeo, verum est, si sit pure passiuum, 
+      quo<lb ed="#R" n="96" break="no"/>modo non est in proposito, vt ex praecedentibus 
+      <lb ed="#R" n="97"/>patet. Et ad primum cum arguitur, quod 
+      obie<lb ed="#R" n="98" break="no"/>ctum requiritur, vt causa, concedo, vt dictum 
+      <lb ed="#R" n="99"/>est, siue vt obiectum, tamen vt habet esse in 
+      in<lb ed="#R" n="100" break="no"/>tellectione, ita quod illa intellectio obiecti 
+      requi<lb ed="#R" n="101" break="no"/>ritur necessario, vt elicitiua. 
+   </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

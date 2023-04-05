@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-05">April 05, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b2">Roma 1605, Book 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="302"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-f92770"><!-- l2d38-q1 -->
+            <head xml:id="olm8ij-f92770-Hd1e101">Quaestio 1</head>
+            <p xml:id="olm8ij-f92770-d1e103">
+               <lb ed="#R" n="52"/>QVAESTIO VNICA 
+  </p>
+            <div xml:id="olm8ij-f92770-Dd1e108">
+               <head xml:id="olm8ij-f92770-Hd1e110">Articulus 1</head>
+               <head xml:id="olm8ij-f92770-Hd1e112" type="question-title">
+      Utrum actus malus sit a Deo
+    </head>
+               <p xml:id="olm8ij-f92770-d1e115">
+      <!--0302.xml-->
+                  <cb ed="#R" n="d"/>
+                  <lb ed="#R" n="53"/>ARTJCVLVS VNJCVS. 
+      <lb ed="#R" n="54"/>Vtrum actus malus sit a Deo. 
+   </p>
+               <p xml:id="olm8ij-f92770-d1e126">
+                  <lb ed="#R" n="55"/>ARGVO, quod sic: quia 
+      <lb ed="#R" n="56"/>omnis natura positiua 
+      <lb ed="#R" n="57"/>est a Deo: sed actus ma 
+      <lb ed="#R" n="58"/>lus, quantum saltem ad 
+      <lb ed="#R" n="59"/>substratum, est quid po 
+      <lb ed="#R" n="60"/>sitlum et, quia 
+      <lb ed="#R" n="61"/>tunc Deus posset tenta 
+      <lb ed="#R" n="62"/>re de malo, quod est 
+      <lb ed="#R" n="63"/>contra illud Jacobi in Canonica sua: <quote xml:id="olm8ij-f92770-Qd1e147">Deus 
+      inten<lb ed="#R" n="64" break="no"/>tator malorum est</quote>. 
+   </p>
+               <p xml:id="olm8ij-f92770-d1e153">
+                  <lb ed="#R" n="65"/>Respondeo, hic primo ponam punctum quaestionis, 
+      <lb ed="#R" n="66"/>&amp; secundo propositiones intentas. Punctus, &amp; dis 
+      <lb ed="#R" n="67"/>ficultas quaestionis istius est propter duas opinio 
+      <lb ed="#R" n="68"/>nes solemnes: Vna opinio dicit, quod in actu pec- 
+      <!--0302.xml-->
+      <cb ed="#R" n="e"/>
+                  <lb ed="#R" n="69"/>cati sunt duo, scilicet substratum, &amp; difformitas, 
+      <lb ed="#R" n="70"/>&amp; primum est a Deo, sicuti quaelibet alia natura 
+      <lb ed="#R" n="71"/>positiua, quia Deus coagit actioni creaturae; sed 
+      <lb ed="#R" n="72"/>quoad priuatiuum, &amp; difformitatem, quod est 
+      <lb ed="#R" n="73"/>formale in peccato, dicunt, quod peccatum est a 
+      <lb ed="#R" n="74"/>sola voluntate deficiente. 
+   </p>
+               <p xml:id="olm8ij-f92770-d1e183">
+                  <lb ed="#R" n="75"/>Confirmatur quantum ad illud, quod dicunt, 
+      <lb ed="#R" n="76"/>quod actus quoad substratum est a Deo, 
+      quo<lb ed="#R" n="77" break="no"/>niam alias non apparet, quomodo dependeret a 
+      <lb ed="#R" n="78"/>Deo. Et si sic dicatur, vt a conseruante. Contra, quia 
+      <lb ed="#R" n="79"/>dependentia ad conseruantem non reducitur ad 
+      <lb ed="#R" n="80"/>genus aliud causae, quam efficientis. 
+      <lb ed="#R" n="81"/>Alia est opinio opposita, quia non omnis actus 
+      <lb ed="#R" n="82"/>est a Deo, &amp; quoad positiuum elicitiue, &amp; hoc 
+      spe<lb ed="#R" n="83" break="no"/>cialiter dicunt verum esse de actu voluntatis 
+      no<lb ed="#R" n="84" break="no"/>strae. Et si quaeratur ab eis, quomodo actus ille 
+      <lb ed="#R" n="85"/>dependet a Deo? respondent, quod in 
+      habitudi<lb ed="#R" n="86" break="no"/>ne ad conseruantem, quia secundum eos non 
+      <lb ed="#R" n="87"/>est eadem habitudo cum habitudine producentis. 
+      <lb ed="#R" n="88"/>Nunc pono propositiones aliquas, Prima est, 
+      <!--0303.xml-->
+      <pb ed="#R" n="303"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>videtur mihi, quod opinio secunda sit magis ratio 
+      <lb ed="#R" n="2"/>nabilis: nec ego video, quod dicunt, omnis actus 
+      <lb ed="#R" n="3"/>sit a Deo, dato quod sit positiuus, nisi forte 
+      de<lb ed="#R" n="4" break="no"/>siderando potentiam, quae elicit, &amp; naturam actus 
+      <lb ed="#R" n="5"/>eliciti, &amp; ita dico quod Deus non agit immediate 
+      <lb ed="#R" n="6"/>in actum voluntatis deformem per peccatum, 
+      <lb ed="#R" n="7"/>nec oportet quod agat immediate in omnem 
+      crea<lb ed="#R" n="8" break="no"/>turam. Hanc propositionem probo, quia si 
+      age<lb ed="#R" n="9" break="no"/>ret in actum positiuum substratum, necessario 
+      <lb ed="#R" n="10"/>ageret ad deformitatem, cuius oppositum dicunt 
+      <lb ed="#R" n="11"/>Sancti, &amp; ipsimet de alia opinione. Probo 
+      con<lb ed="#R" n="12" break="no"/>sequentiam, quoniam, quando aliqua sic se 
+      ha<lb ed="#R" n="13" break="no"/>bent, quod vnum est priuatio in alio 
+      inseparabi<lb ed="#R" n="14" break="no"/>lis ab illo, ita quod agens in vnum necessario agit in 
+      <lb ed="#R" n="15"/>reliquum: sed ita se habet deformitas ad actum: 
+      <lb ed="#R" n="16"/>ergo. Maior patet, quia enim priuatio albedinis, 
+      <lb ed="#R" n="17"/>&amp; nigredo est annexa inseparabiliter nigredini, 
+      <lb ed="#R" n="18"/>ideo producens nigredinem necessario producit 
+      <lb ed="#R" n="19"/>non album. Minorem probo: capio istud, quod est 
+      <lb ed="#R" n="20"/>odire Deum, ego dico, quod ita comitatur 
+      de<lb ed="#R" n="21" break="no"/>formitas istum i im, quod impossibile est eum 
+      <lb ed="#R" n="22"/>separari, &amp; tolli. &amp; hoc est, quod dicunt 
+      Docto<lb ed="#R" n="23" break="no"/>res, quod non potest Deus dispensare in 
+      praece<lb ed="#R" n="24" break="no"/>ptis primae tabulae, quia ex se habent annexam 
+      <lb ed="#R" n="25"/>deformitatem. 
+   </p>
+               <p xml:id="olm8ij-f92770-d1e277">
+                  <lb ed="#R" n="26"/>Secundo, quia quae sunt mala ex obiecto, non 
+      <lb ed="#R" n="27"/>possunt fieri sine deformitate, ratio est, quia sunt 
+      <lb ed="#R" n="28"/>de se conuoluta cum malo: confirmo hoc per Ari 
+      <lb ed="#R" n="29"/>stotelem 3. Ethicorum, ille enim quaerit, vtrum ha 
+      <lb ed="#R" n="30"/>bitus insit nobis voluntarie, &amp; dicit, quod sic, 
+      <lb ed="#R" n="31"/>quia voluntarie elicimus actus, ex quibus necessa 
+      <lb ed="#R" n="32"/>rio generatur, quod quicquid est causa causae, est 
+      <lb ed="#R" n="33"/>causa causati, necessario ab illa secunda causa: sed 
+      <lb ed="#R" n="34"/>deformitas in actu sequitur necessario naturam 
+      <lb ed="#R" n="35"/>actus non minus, quam habitus: ergo si Deus cau 
+      <lb ed="#R" n="36"/>sat actum quoad substratum, necessario causabit 
+      <lb ed="#R" n="37"/>deformitatem. Item: Agens quantum dat de 
+      for<lb ed="#R" n="38" break="no"/>ma, tantum dat de consequentibus formam 8. 
+      phy<lb ed="#R" n="39" break="no"/>sicorum. Et si hoc est verum in positiuis, magis 
+      <lb ed="#R" n="40"/>erit verum in priuatiuis. Confirmo, quia quando Deus 
+      <lb ed="#R" n="41"/>prohibet deformitatem aliquam, ne fiat, non tantum 
+      <lb ed="#R" n="42"/>actum prohibet deformitatem, immo cum hoc 
+      pro<lb ed="#R" n="43" break="no"/>hibet actum quoad substratum sicut concupiscere. 
+   </p>
+               <p xml:id="olm8ij-f92770-d1e319">
+                  <lb ed="#R" n="44"/>Secundo principaliter ad idem sic: Si Deus coa 
+      <lb ed="#R" n="45"/>git actui voluntatis, aut hoc est, quia sequitur 
+      de<lb ed="#R" n="46" break="no"/>terminationem voluntatis in illo actu, sic quod 
+      <lb ed="#R" n="47"/>voluntas prius natura determinet se ad actum 
+      il<lb ed="#R" n="48" break="no"/>lum, &amp; ex hoc Deus coagit voluntati 
+      determi<lb ed="#R" n="49" break="no"/>nate; aut e conuerso prius Deus determin at se 
+      <lb ed="#R" n="50"/>ad agendum, &amp; voluntas nostra sequitur 
+      determi<lb ed="#R" n="51" break="no"/>nationem eiusmodi, &amp; venit ad actionem illam: 
+      <lb ed="#R" n="52"/>sed nullo eorum modorum est: ergo. Maior 
+      pa<lb ed="#R" n="53" break="no"/>tet per sufficientem diuisionem. Minorem 
+      pro<lb ed="#R" n="54" break="no"/>bo, primo quod non primo modo, quia tunc Deus 
+      <lb ed="#R" n="55"/>voluntarie coageret ad peccatum; &amp; etiam habe 
+      <lb ed="#R" n="56"/>retur propositum, quia in illo determinare non 
+      <lb ed="#R" n="57"/>eoagit Deus, &amp; sic non est causa respectu 
+      om<lb ed="#R" n="58" break="no"/>nis actus positiui. 
+   </p>
+               <p xml:id="olm8ij-f92770-d1e354">
+                  <lb ed="#R" n="59"/>Nec potest dari secundus modus, quia 
+      volun<lb ed="#R" n="60" break="no"/>tas determinaretur a Deo ad peccatum: ergo 
+      <lb ed="#R" n="61"/>non ageret a se, sed ab alio, &amp; ita voluntas non 
+      <lb ed="#R" n="62"/>peccaret, quia de se non haberet, vnde esset 
+      cau<lb ed="#R" n="63" break="no"/>sa peccati, quia non libera, determinaretur enim 
+      <lb ed="#R" n="64"/>ab extrinseco. 
+   </p>
+               <p xml:id="olm8ij-f92770-d1e370">
+                  <lb ed="#R" n="65"/>Nec est possibilis tertius modus, tum quia ille 
+      <lb ed="#R" n="66"/>modus esset casualis: secundo, quia tunc Deus vo 
+      <!--0303.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>luntarie coageret ad peccatum. Tertia ratio est 
+      <lb ed="#R" n="68"/>ista, non est minoris potestatis voluntas respectu 
+      <lb ed="#R" n="69"/>sui actus, quam alia naturalia respectu actuum, 
+      <lb ed="#R" n="70"/>propriorum, sed aliqua principia naturalia sic 
+      eli<lb ed="#R" n="71" break="no"/>ciunt suos actus per se, quod Deus ibi non coope 
+      <lb ed="#R" n="72"/>ratur actiue, nisi per conseruationem: ergo. 
+      Ma<lb ed="#R" n="73" break="no"/>ior nota est, probo minorem auctoritatibus, &amp; 
+      <lb ed="#R" n="74"/>rationibus, primo per Augustinum 7. de Trinit. 
+      <lb ed="#R" n="75"/>Sic Deus res, quas condidit, administrat, vt suos 
+      <lb ed="#R" n="76"/>motus agere sinat. 
+   </p>
+               <p xml:id="olm8ij-f92770-d1e403">
+                  <lb ed="#R" n="77"/>Item Eccles. cap. 15. Deus fecit hominem 
+      re<lb ed="#R" n="78" break="no"/>ctum, &amp; dimisit eum in manibus consilij sui. 
+   </p>
+               <p xml:id="olm8ij-f92770-d1e411">
+                  <lb ed="#R" n="79"/>Item Commentator 12. metaphysices deridet 
+      <lb ed="#R" n="80"/>in hoc Saracenos, qui subtrahebant a rebus 
+      ope<lb ed="#R" n="81" break="no"/>rationes suas. 
+   </p>
+               <p xml:id="olm8ij-f92770-d1e420">
+                  <lb ed="#R" n="82"/>Secundo per rationes suas, quia non apparet, 
+      <lb ed="#R" n="83"/>quare Deus non possit communicare creaturae 
+      <lb ed="#R" n="84"/>actionem, quae non est creatio, sed ex actione 
+      <lb ed="#R" n="85"/>perfectibili ad complementum, &amp; educta 
+      de<lb ed="#R" n="86" break="no"/>potentia ad actum, ratio est, quia ad talem 
+      ra<lb ed="#R" n="87" break="no"/>tionem non requiritur virtus infinita. Vnde 
+      Do<lb ed="#R" n="88" break="no"/>ctores quidam solemnes dicunt, quod Deus agit in 
+      <lb ed="#R" n="89"/>oĩbus quantum ad esse, intelligentesper (esse) omne, 
+      <lb ed="#R" n="90"/>quod est extra nihil, &amp;ideo quia Deus causat materiam 
+      <lb ed="#R" n="91"/>in qua inferiora sunt in potentia, ideo creauit oĩa 
+      <lb ed="#R" n="92"/>talia, quantum ad esse in potentia, non quoad es 
+      <lb ed="#R" n="93"/>se in actu completum; sic ergo Deus agit ad esse 
+      <lb ed="#R" n="94"/>naturale secundum eos, agens autem 
+      particula<lb ed="#R" n="95" break="no"/>re ad esse tale.
+   </p>
+               <p xml:id="olm8ij-f92770-d1e453">
+                  <lb ed="#R" n="96"/>Tertia ratio: in actione, qua materia 
+      informa<lb ed="#R" n="97" break="no"/>tur forma sua, &amp; trahitur ad suum completum, 
+      <lb ed="#R" n="98"/>semper habet concurrere actio Dei, &amp; creaturae, 
+      <lb ed="#R" n="99"/>Quaero, vtrum tam Deus, quam creatura faciant 
+      <lb ed="#R" n="100"/>illud totaliter, aut quilibet partem, &amp; partem: non 
+      <lb ed="#R" n="101"/>est dare secundum, quoniam in simplicibus non 
+      <lb ed="#R" n="102"/>est pars, &amp; pars, &amp; propter ea partem, quam 
+      fa<lb ed="#R" n="103" break="no"/>ceret crearura, non faceret Deus: ergo non 
+      at<lb ed="#R" n="104" break="no"/>tingeret omnem rationem positiuam: nec potest 
+      <lb ed="#R" n="105"/>dari secundum, quia impossibile est idem simul 
+      <lb ed="#R" n="106"/>esse a causis totalibus in eodem genere esse. 
+   </p>
+               <p xml:id="olm8ij-f92770-d1e479">
+                  <lb ed="#R" n="107"/>Sunt tamen hic dubia, primum est, quia idem 
+      <lb ed="#R" n="108"/>est creatio, &amp; conseruatio: sed per te Deus est 
+      <lb ed="#R" n="109"/>immediate conseruans omnem creaturam: ergo 
+      <lb ed="#R" n="110"/>esset immediam agens omnem creaturam. 
+   </p>
+               <p xml:id="olm8ij-f92770-d1e490">
+                  <lb ed="#R" n="111"/>Item secundum hoc, non omnis creatura aequa 
+      <lb ed="#R" n="112"/>liter dependeret a Deo. 
+   </p>
+               <p xml:id="olm8ij-f92770-d1e497">
+                  <lb ed="#R" n="113"/>Item videtur, quod supposita Dei conseruatio 
+      <lb ed="#R" n="114"/>ne ad ipsum ignem; Deus non posset prohibere 
+      <lb ed="#R" n="115"/>ignem ab actiuitate sua: ergo non potuit facere, quod 
+      <lb ed="#R" n="116"/>ignis non combureret pueros in camino ignis. Si 
+      <lb ed="#R" n="117"/>ergo potuit, hoc fuit quia non coagit. 
+   </p>
+               <p xml:id="olm8ij-f92770-d1e511">
+                  <lb ed="#R" n="118"/>Ad primum respondeo per interemptionem 
+      <lb ed="#R" n="119"/>assumpti, conferuatio enim vel est directe 
+      conti<lb ed="#R" n="120" break="no"/>nuatio rei, vel actionis, vel productionis. Vnde 
+      <lb ed="#R" n="121"/>Doctores, qui dicunt oppositum, dicunt, quod 
+      <lb ed="#R" n="122"/>conseruatio est productio continuata: ergo super 
+      <lb ed="#R" n="123"/>actionem non dicit nisi continuationem: sed con 
+      <lb ed="#R" n="124"/>tinuatio differt a productione, probo, quia 
+      pro<lb ed="#R" n="125" break="no"/>ductio rei in instanti, in quo est, non est 
+      continua<lb ed="#R" n="126" break="no"/>tio, sed in toto tempore sequenti. 
+   </p>
+               <p xml:id="olm8ij-f92770-d1e533">
+                  <lb ed="#R" n="127"/>Secundo, quia productio ex vi productionis non 
+      <lb ed="#R" n="128"/>habet, quod manet per subiectum, excepta 
+      pro<lb ed="#R" n="129" break="no"/>ductione diuina, quia tunc essent aeternae 
+      produ<lb ed="#R" n="130" break="no"/>ctiones, sicut est diuina; productio auntcreaturae non 
+      <lb ed="#R" n="131"/>habet de se, quod sit continuatio. Contradictio 
+      <lb ed="#R" n="132"/>enim est, quod aliquid de se sit continuatio, &amp; 
+      <!--0304.xml-->
+      <pb ed="#R" n="304"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>quod ipsum possit non continuari: ergo si 
+      produ<lb ed="#R" n="2" break="no"/>ctio se ipsa esset continuatio, illa esset aeterna se 
+      <lb ed="#R" n="3"/>ipsa: consequens est falsum: ergo se ipsa non est 
+      <lb ed="#R" n="4"/>continuatio, sed productio: ergo productio &amp; 
+      <lb ed="#R" n="5"/>continuatio non sunt idem. 
+   </p>
+               <p xml:id="olm8ij-f92770-d1e566">
+                  <lb ed="#R" n="6"/>Ad idem facit, quia Deus communicat actiones 
+      <lb ed="#R" n="7"/>creaturae, &amp; non communicat eis conseruationem, 
+      <lb ed="#R" n="8"/>quaelibet enim res immediate, &amp; totaliter 
+      con<lb ed="#R" n="9" break="no"/>seruatur a Deo, sed non quaelibet res totaliter, &amp; 
+      <lb ed="#R" n="10"/>immediate producitur a Deo, sed per causas 
+      se<lb ed="#R" n="11" break="no"/>cundas: ergo non est idem creatio, &amp; 
+      conser<lb ed="#R" n="12" break="no"/>uatio. 
+   </p>
+               <p xml:id="olm8ij-f92770-d1e584">
+                  <lb ed="#R" n="13"/>Ad secundum dubium dico, quod omnes 
+      crea<lb ed="#R" n="14" break="no"/>turae dependent a Deo, tamquam a creante, &amp; 
+      <lb ed="#R" n="15"/>conseruante: non autem tamquam a 
+      producen<lb ed="#R" n="16" break="no"/>te immediate, quia generat, &amp; producit per 
+      cau<lb ed="#R" n="17" break="no"/>sas secundas. 
+   </p>
+               <p xml:id="olm8ij-f92770-d1e597">
+                  <lb ed="#R" n="18"/>Ad tertium concedo, quod considerando ignem 
+      <lb ed="#R" n="19"/>&amp; ignitionem ignis, non posset Deus facere, quin 
+      <lb ed="#R" n="20"/>ignis ageret naturaliter loquendo, siue de 
+      poten<lb ed="#R" n="21" break="no"/>tia ordinaria; posset tamen suspendere actum, 
+      <lb ed="#R" n="22"/>&amp; effectum ignis secundum potentiam suam. 
+   </p>
+            </div>
+            <div xml:id="olm8ij-f92770-Dd1e611">
+               <head xml:id="olm8ij-f92770-Hd1e613">Articulus 2</head>
+               <head xml:id="olm8ij-f92770-Hd1e615" type="question-title">
+      Utrum Deus per seipsum immediate possit quemlibet actum producere in voluntate
+    </head>
+               <p xml:id="olm8ij-f92770-d1e618">
+                  <lb ed="#R" n="23"/>ARTJCVLVS JJ. 
+      <lb ed="#R" n="24"/>Utrum Deus per seipsum immediate possit 
+      quem<lb ed="#R" n="25" break="no"/>libet actum producere in voluntate. 
+   </p>
+               <p xml:id="olm8ij-f92770-d1e627">
+                  <lb ed="#R" n="26"/>IVxta hoc quaero, Vtrum dato, quod Deus non 
+      <lb ed="#R" n="27"/>coagit de facto in actibus voluntatis, tamen 
+      <lb ed="#R" n="28"/>dubium est, an posset quemlibet actum producere 
+      <lb ed="#R" n="29"/>per se ipsum immediate in voluntate, quae volun 
+      <lb ed="#R" n="30"/>tas est apta nata immediate elicere. &amp; 
+      difficul<lb ed="#R" n="31" break="no"/>tas est hic specialis de actu illo, qui est odire 
+      <lb ed="#R" n="32"/>Deum, &amp; arguo quod sic, quia in Deo est omnis 
+      <lb ed="#R" n="33"/>causalitas actiua, quae est in quacumque 
+      creatu<lb ed="#R" n="34" break="no"/>ra respectu omnis entis producibilis: sed in 
+      vo<lb ed="#R" n="35" break="no"/>luntate est actiua causalitas respectu istius entis 
+      <lb ed="#R" n="36"/>producibilis, scilicet odire Deum: ergo. 
+   </p>
+               <p xml:id="olm8ij-f92770-d1e653">
+                  <lb ed="#R" n="37"/>In oppositum est, quia posset Deus facere 
+      pec<lb ed="#R" n="38" break="no"/>catum, &amp; inducere voluntatem in peccatum. 
+   </p>
+               <p xml:id="olm8ij-f92770-d1e661">
+                  <lb ed="#R" n="39"/>Confirmo: quia eadem necessitate, qua Deus 
+      <lb ed="#R" n="40"/>vult se diligere, videtur quod velit se diligi. 
+   </p>
+               <p xml:id="olm8ij-f92770-d1e668">
+                  <lb ed="#R" n="41"/>Respondeo: in quolibet peccaeno actuali sunt 
+      <lb ed="#R" n="42"/>tria, scilicet actus ipse, &amp; secundo deformitas 
+      <lb ed="#R" n="43"/>actus, &amp; tertio circumstantia, quae est 
+      imputa<lb ed="#R" n="44" break="no"/>bilitas: Aliud enim est actus, quia est quid 
+      posi<lb ed="#R" n="45" break="no"/>tiuum; aliud deformitas, quia est priuatiuum, 
+      <lb ed="#R" n="46"/>&amp; aliud imputabilitas, quia relatio relationis, 
+      <lb ed="#R" n="47"/>Quia aliud est dicere, quod Deus ponat in 
+      volun<lb ed="#R" n="48" break="no"/>tate actum; aliud actum cum deformitate; &amp; aliud 
+      <lb ed="#R" n="49"/>actum cum imputabilitate. Et licet prima duo 
+      <lb ed="#R" n="50"/>in actu odiendi Deum non sunt separabilia, ita 
+      <lb ed="#R" n="51"/>quod Deus non possit actum producere, nisi 
+      de<lb ed="#R" n="52" break="no"/>formem, &amp; hoc quia ex natura rei intrinsece 
+      ha<lb ed="#R" n="53" break="no"/>bet, quod sit deformis: tamen aliud est esse in 
+      vo<lb ed="#R" n="54" break="no"/>luntate actum conuolutum cum deformitate, &amp; 
+      <lb ed="#R" n="55"/>aliud actum illum esse imputabilem; sunt enim 
+      <lb ed="#R" n="56"/>haec separabilia, nam imputabilitas supponit 
+      <!--0304.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="57"/>actum, &amp; connotat, quod recipiens actum habeat 
+      <lb ed="#R" n="58"/>in sua potestate, &amp; aliquo modo saltem 
+      denomi<lb ed="#R" n="59" break="no"/>natiue sit ab eo; &amp; hoc est, quod supra dixi, quod 
+      <lb ed="#R" n="60"/>culpa non sic connotat agens denominatiuum 
+      <lb ed="#R" n="61"/>respectu actus, qui debet dici culpa. 
+   </p>
+               <p xml:id="olm8ij-f92770-d1e720">
+                  <lb ed="#R" n="62"/>Ad propositum dico, quod absolute de poten 
+      <lb ed="#R" n="63"/>tia, posset Deus ponere in voluntate mea odium 
+      <lb ed="#R" n="64"/>sui, ita quod actus ille esset virtute diuina in 
+      vo<lb ed="#R" n="65" break="no"/>luntate mea, &amp; conuolutum cum malo, tamen 
+      <lb ed="#R" n="66"/>dico, quod peccatum illud non esset imputabile 
+      <lb ed="#R" n="67"/>voluntati, vnde bene esset malum, &amp; defectus 
+      vo<lb ed="#R" n="68" break="no"/>luntatis, non tamen esset peccatum, nec culpa. 
+      <lb ed="#R" n="69"/>Primum probo, quia esset disconueniens 
+      volun<lb ed="#R" n="70" break="no"/>tati: malum est autem coniunctio disconuenien 
+      <lb ed="#R" n="71"/>tis, vt patet supra. Secundum, quod non 
+      pecca<lb ed="#R" n="72" break="no"/>tum, probo, quia peccatum dicitur in ordine ad 
+      <lb ed="#R" n="73"/>agens: voluntas autem non se haberet ibi actiue, 
+      <lb ed="#R" n="74"/>sed passiue: ergo respectu voluntatis non esset 
+      <lb ed="#R" n="75"/>ibi peccatum. Tertium probo, scilicet, quod non 
+      <lb ed="#R" n="76"/>culpa, quia culpa vltra peccatum connotat 
+      do<lb ed="#R" n="77" break="no"/>minium in agente respectu gilus voluntatis, 
+      vo<lb ed="#R" n="78" break="no"/>luntas autem tunc necessitaretur a Deo ad actum 
+      <lb ed="#R" n="79"/>istum: ergo non esset culpa voluntatis, nec 
+      im<lb ed="#R" n="80" break="no"/>putabilis ei: nec est inconueniens, quod Deus 
+      <lb ed="#R" n="81"/>ponat in voluntate absolutum quodcumque 
+      si<lb ed="#R" n="82" break="no"/>ne imputabilitate. 
+   </p>
+               <p xml:id="olm8ij-f92770-d1e768">
+                  <lb ed="#R" n="83"/>Hoc probo, quia Deus potest facere, quicquid 
+      <lb ed="#R" n="84"/>non includit repugnantiam in primo modo, quod 
+      <lb ed="#R" n="85"/>scilicet facere est non facere: sed facere odium 
+      <lb ed="#R" n="86"/>Dei sine imputabilitate, nulla est contradictio, 
+      <lb ed="#R" n="87"/>quia facere illud non est non facere: ergo.
+   </p>
+               <p xml:id="olm8ij-f92770-d1e781">
+                  <lb ed="#R" n="88"/>Sed contra, quia ex eodem sequitur, quod 
+      <lb ed="#R" n="89"/>Deus posset separare actum a deformitate, quia 
+      <lb ed="#R" n="90"/>deformitas non videtur esse de primo modo per 
+      <lb ed="#R" n="91"/>se actus. Secundo, forte licet deformitas non sit 
+      <lb ed="#R" n="92"/>primo modo, tamen reduceretur eiusmodi 
+      amo<lb ed="#R" n="93" break="no"/>tio ab actu ad contradictionem in primo modo: 
+      <lb ed="#R" n="94"/>esse enim actum deformem hoc modo est esse 
+      <lb ed="#R" n="95"/>circa obiectum indebitum. Et ideo si 
+      circum<lb ed="#R" n="96" break="no"/>scribatur deformitas, circumscribitur esse circa 
+      <lb ed="#R" n="97"/>obiectum tale, &amp; tunc contradictio esset, quia 
+      <lb ed="#R" n="98"/>odium esset circa Deum, &amp; non circa Deum. 
+   </p>
+               <p xml:id="olm8ij-f92770-d1e807">
+                  <lb ed="#R" n="99"/>Sed dicas: Ratio illa praecedens destruit 
+      mo<lb ed="#R" n="100" break="no"/>tiuum quoddam ad conclusionem praecedentis 
+      <lb ed="#R" n="101"/>quaestionis. Dicebatur enim, quod Deus non 
+      <lb ed="#R" n="102"/>poterat coagere voluntati in actu odiendi, quia 
+      <lb ed="#R" n="103"/>tunc coegisset non tantum ad deformitatem, imo 
+      <lb ed="#R" n="104"/>ad imputabilitatem, quia coageret sequendo 
+      de<lb ed="#R" n="105" break="no"/>terminationem voluntatis, &amp; tamen esset 
+      impu<lb ed="#R" n="106" break="no"/>tabile voluntati, quia voluntas se haberet ibi 
+      <lb ed="#R" n="107"/>actiue, sic non est in proposito, cum hoc esset in 
+      <lb ed="#R" n="108"/>tali actu, cui Deus coageret voluntati, esset 
+      <lb ed="#R" n="109"/>imputabilitas, culpa, &amp; peccatum; &amp; ideo Deus 
+      <lb ed="#R" n="110"/>esset causa peccati, sed si Deus totaliter 
+      imme<lb ed="#R" n="111" break="no"/>diate producat actum illum in voluntate, non 
+      <lb ed="#R" n="112"/>esset causa peccati, nec culpae, quia talis actus 
+      <lb ed="#R" n="113"/>non habet rationem peccati, &amp; culpae, vt 
+      di<lb ed="#R" n="114" break="no"/>ctum est supra. 
+   </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

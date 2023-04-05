@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-04-05">April 05, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b2">Roma 1605, Book 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="245"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-f76114"><!-- l2d19-q2 -->
+            <head xml:id="olm8ij-f76114-Hd1e101">Quaestio 2</head>
+            <p xml:id="olm8ij-f76114-d1e103">
+               <lb ed="#R" n="3"/>QVAESTIO VNICA. 
+   </p>
+            <div xml:id="olm8ij-f76114-Dd1e108">
+               <head xml:id="olm8ij-f76114-Hd1e110">Articulus 1</head>
+               <head xml:id="olm8ij-f76114-Hd1e112" type="question-title">
+      Utrum corpus Adae suisset immortale, si non peccasset?
+    </head>
+               <p xml:id="olm8ij-f76114-d1e115">
+      <!--0245.xml-->
+                  <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="4"/>ARTJCVLVS J.
+      <lb ed="#R" n="5"/>Vtrum corpus Adae suisset immortale, si non 
+      <lb ed="#R" n="6"/>peccasset? 
+   </p>
+               <p xml:id="olm8ij-f76114-d1e128">
+                  <lb ed="#R" n="7"/>QVANTVM ad hoc 
+      <lb ed="#R" n="8"/>sciendum, quod 
+     immor<lb ed="#R" n="9" break="no"/>talitas dupliciter 
+      po<lb ed="#R" n="10" break="no"/>test accipi, vel absolute 
+      <lb ed="#R" n="11"/>vel ex conditione: 
+      pri<lb ed="#R" n="12" break="no"/>mo modo ad huc dupli 
+      <lb ed="#R" n="13"/>citer, vel quantum ad 
+      <lb ed="#R" n="14"/>naturam, vel quantum 
+      <lb ed="#R" n="15"/>ad donum collatum. 
+      <lb ed="#R" n="16"/>Primo modo accipitur in ordine ad naturalia 
+      <lb ed="#R" n="17"/>principia hominis, &amp; hoc modo dico, quod 
+      ho<lb ed="#R" n="18" break="no"/>mo pro quocumque statu fuisset mortalis, pro 
+      <lb ed="#R" n="19"/>quocunque enim statu poterat esse in 
+      homine<lb ed="#R" n="20" break="no"/>mutua actio qualitatum contrariarum ex quibus 
+      <lb ed="#R" n="21"/>constat homo naturaliter, quod est causa 
+      corpo<lb ed="#R" n="22" break="no"/>ris in rebus mixtis pro quanto mutuo in se agunt, 
+      <lb ed="#R" n="23"/>&amp; alterum praedominatur, &amp; per consequens 
+      <lb ed="#R" n="24"/>corrumpitur armonia, &amp; vnio. 
+   </p>
+               <p xml:id="olm8ij-f76114-d1e170">
+                  <lb ed="#R" n="25"/>Secundo modo considerando donum, quod 
+      <lb ed="#R" n="26"/>Deus dederat homini, quod quidem donum 
+      ali<lb ed="#R" n="27" break="no"/>quo modo erat naturale, pro quanto datum 
+      fue<lb ed="#R" n="28" break="no"/>rat Adam pro se, &amp; tota natura, &amp; sic dicendum 
+      <lb ed="#R" n="29"/>est, quod stante dono illo, homo fuisset 
+      incorru<lb ed="#R" n="30" break="no"/>ptibilis, &amp; aliquo modo per naturam, pro 
+      quan<lb ed="#R" n="31" break="no"/>to (vt dictum est) donum illud erat aliqualiter na 
+      <lb ed="#R" n="32"/>turale. &amp; quia donum permansisset si non 
+      peccas<lb ed="#R" n="33" break="no"/>set, ideo Adam, &amp; tota natura per consequens 
+      e<lb ed="#R" n="34" break="no"/>rat incorruptibiles, hoc modo per naturam. 
+      Se<lb ed="#R" n="35" break="no"/>cundo modo incorruptibilitas potest accipi ex 
+      <lb ed="#R" n="36"/>suppositione, scilicet supposito, quod stetisset homo, 
+      <lb ed="#R" n="37"/>&amp; hoc modo dicendum est, quod Adam erat 
+      im<lb ed="#R" n="38" break="no"/>mortalis supposito, quod stetisset, vnde, quia non 
+      <lb ed="#R" n="39"/>stetit, factus est mortalis. Sed quale donum erat 
+      <lb ed="#R" n="40"/>datum Adae praeseruans eum a corruptione 
+      cor<lb ed="#R" n="41" break="no"/>poris? &amp; quid eratian qualitas aliqua? vel solum 
+      <lb ed="#R" n="42"/>diuina assistentia. Hic dico quod secundum 
+      Do<lb ed="#R" n="43" break="no"/>ctor es, &amp; Philosophos, quatuor sunt causae corru 
+      <lb ed="#R" n="44"/>ptionis in generationibus, &amp; corruptionibus mix 
+      <lb ed="#R" n="45"/>tis, &amp; prima quaedam est determinata periodus, 
+      <lb ed="#R" n="46"/>&amp; limitata; quaelibet enim res determinatam, &amp; 
+      <lb ed="#R" n="47"/>finitam habet periodum secundum Philosophum 
+      <lb ed="#R" n="48"/>2. de gener. Secunda vero causa est mutua actio 
+      <lb ed="#R" n="49"/>contrariorum ex quibus intrinsece homo est 
+      con<lb ed="#R" n="50" break="no"/>positus, &amp; contra has duas causas corruptionis 
+      <lb ed="#R" n="51"/>dicitur, quod Deus prouiderat homini de dono 
+      <lb ed="#R" n="52"/>originalis illius iustitiae, quae quidem conformita 
+      <lb ed="#R" n="53"/>tem causabat uirium inferiorum ad superiores 
+      <lb ed="#R" n="54"/>vt non possent rebellare rationi, &amp; hoc bene 
+      vi<lb ed="#R" n="55" break="no"/>detur probabile, quantum ad probabile, licet ali 
+      <lb ed="#R" n="56"/>qui dicant oppositum: cum enim aliquis faciat 
+      <lb ed="#R" n="57"/>difficultatem resistendi, ex actu tamen animae po 
+      <lb ed="#R" n="58"/>test diuina virtute resistere, &amp; causabat 
+      impossi<lb ed="#R" n="59" break="no"/>bilitatem, vnde secundum hoc corpus erat 
+      subie<lb ed="#R" n="60" break="no"/>ctum ad nutum animae secundum omnes sui 
+      par<lb ed="#R" n="61" break="no"/>tes, &amp; proprietates, &amp; vires inferiores ipsi animae, 
+      <!--0245.xml-->
+      <cb ed="#R" n="c"/>
+                  <lb ed="#R" n="62"/>seu rationi, sicut voluntas Deo, &amp; regulae summae, 
+      <lb ed="#R" n="63"/>quae est voluntas diuina, &amp; ita per illud donum 
+      <lb ed="#R" n="64"/>tenebat qualitates contrarias semper in debita 
+      <lb ed="#R" n="65"/>proportione, ne mutuo se corrumperent. Tertia 
+      <lb ed="#R" n="66"/>vero causa corruptionis est ex consumatione 
+      hu<lb ed="#R" n="67" break="no"/>midi radicalis, in quam agit continue calor 
+      na<lb ed="#R" n="68" break="no"/>turalis propter cuius restaurationem alias eget 
+      <lb ed="#R" n="69"/>cibo, &amp; alimento: numquam autem restauratur 
+      <lb ed="#R" n="70"/>ita purum humidum sicut prius, siue quia cum 
+      <lb ed="#R" n="71"/>virtus conuertens alimentum sit agens physicum 
+      <lb ed="#R" n="72"/>quod agendo repatitur, ac per hoc continue debi 
+      <lb ed="#R" n="73"/>litatur, vt dicunt quidam, siue per hoc quod 
+      nu<lb ed="#R" n="74" break="no"/>tritio, &amp; humidi restauratio fit per quandam 
+      con<lb ed="#R" n="75" break="no"/>mixtionem; &amp; ideo in fine nutritionis humidum 
+      <lb ed="#R" n="76"/>radicale fit mixtius continue, ac per consequens 
+      <lb ed="#R" n="77"/>impurius: sicut vinum ex admixtione aquae 
+      red<lb ed="#R" n="78" break="no"/>ditur impurius in tantum, quod vltimo 
+      corrum<lb ed="#R" n="79" break="no"/>pitur forma vini. Hoc etiam modo per talem mix 
+      <lb ed="#R" n="80"/>tionem vltimo corrumpitur species humidi radi 
+      <lb ed="#R" n="81"/>calis proportionaliter animalis, &amp; fit humidum no 
+      <lb ed="#R" n="82"/>uum improportionabile vitae hominis. Contra 
+      <lb ed="#R" n="83"/>hanc causam prouiderat Deus de duobus, scilicet 
+      <lb ed="#R" n="84"/>esu omnis ligni paradisi, excepto illo scientiae bo 
+      <lb ed="#R" n="85"/>ni &amp; mali, cuius fructus erat intentionaliter 
+      ma<lb ed="#R" n="86" break="no"/>gis proportionatus vitae hominis, quam sit 
+      qui<lb ed="#R" n="87" break="no"/>cunque propter quam proportionem eius admix 
+      <lb ed="#R" n="88"/>tio cum humido radicali non faciebat humidum 
+      <lb ed="#R" n="89"/>ita impurum, sicut facit etiam optimus cibus 
+      no<lb ed="#R" n="90" break="no"/>ster. sed quia adhuc per admixtionem humidi 
+      ci<lb ed="#R" n="91" break="no"/>balis erat aptum humidum radicale fieri 
+      aliqua<lb ed="#R" n="92" break="no"/>liter impurum licet non tantum quantum hodie 
+      <lb ed="#R" n="93"/>in nobis, tamen aliqualiter, ideo continue &amp; pau 
+      <lb ed="#R" n="94"/>latim erat consumptibilis, ideo prouidit Deus de 
+      <lb ed="#R" n="95"/>ligno vitae quae prohibebat impuritatem illam, 
+      <lb ed="#R" n="96"/>per hoc, quod modo mirabili confortabat, &amp; 
+      <lb ed="#R" n="97"/>vigorabat digestiuam, vnde non dabatur 
+      pro<lb ed="#R" n="98" break="no"/>prie in alimentum, sed etiam in nutrimentum vir 
+      <lb ed="#R" n="99"/>tutis digestiuae quam Dei virtute vigorabat, quod 
+      <lb ed="#R" n="100"/>potest alimentum conuertere in humidum cibale 
+      <lb ed="#R" n="101"/>aeque purum sicut humidum radicale. Quarta 
+      <lb ed="#R" n="102"/>causa corruptionis est ab extrinseco, scilicet 
+      ae<lb ed="#R" n="103" break="no"/>re continente &amp; excessum frigoris, &amp; caloris, &amp; 
+      <lb ed="#R" n="104"/>contra hoc adhibuerat Deus Angelicam 
+      custo<lb ed="#R" n="105" break="no"/>diam, per quam homo praeseruabatur, ne ab 
+      ali<lb ed="#R" n="106" break="no"/>quo extrinseco lederetur, nec corrumperetur. sed 
+      <lb ed="#R" n="107"/>hic sunt quaedam dubia primo de causa prima 
+      <lb ed="#R" n="108"/>corruptionis, quae est limitata periodus. Contra: 
+      <lb ed="#R" n="109"/>terra est generabilis, &amp; corruptibilis, &amp; tamen 
+      <lb ed="#R" n="110"/>non habet determinatam periodum, sed in 
+      aeter<lb ed="#R" n="111" break="no"/>num stat. Contra causam secundam de 
+      contra<lb ed="#R" n="112" break="no"/>riam te, quia contraria reducta ad medium sunt 
+      <lb ed="#R" n="113"/>indistincto situ, &amp; subiecto: ergo non possunt in 
+      <lb ed="#R" n="114"/>se agere, cum omne agens distinguatur situ ab 
+      <lb ed="#R" n="115"/>ipso subiecto: sed in mixto qualitates contrariae, 
+      <lb ed="#R" n="116"/>&amp; formae sunt reductae ad medium: ergo. 
+   </p>
+               <p xml:id="olm8ij-f76114-d1e377">
+                  <lb ed="#R" n="117"/>Respondeo ad primum, non intelligo periodum 
+      <lb ed="#R" n="118"/>virtutem aliquam actiuam in generabili, &amp; 
+      cor<lb ed="#R" n="119" break="no"/>ruptibili, sicut enim res se ipsam non generat, nec 
+      <lb ed="#R" n="120"/>deducit ad esse, sic se ipsam non corrumpit, nec 
+      <!--0246.xml-->
+      <pb ed="#R" n="246"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>se ipsam conseruat, quiada oppositum, idem 
+      <lb ed="#R" n="2"/>dependeret a se ipso. Item quia conseruans se 
+      ha<lb ed="#R" n="3" break="no"/>bet ex se, quod sit generabile, &amp; corruptibile, aut 
+      <lb ed="#R" n="4"/>habet, quod ex se non sit; ergo si idem 
+      conserua<lb ed="#R" n="5" break="no"/>ret se esset contradictio, quia idem ex se esset, &amp; 
+      <lb ed="#R" n="6"/>ex se non esset. Secundo vero intelligo periodum 
+      <lb ed="#R" n="7"/>potentiam passiuam, qua res sit apta nata recipe 
+      <lb ed="#R" n="8"/>re tantam durationem sui esse, potentia enim 
+      <lb ed="#R" n="9"/>passiua secundum suam rationem non 
+      determi<lb ed="#R" n="10" break="no"/>nat sibi esse tempus, nec formam, sed tantum ex 
+      <lb ed="#R" n="11"/>conditione agentis, nec intelligendum, quod 
+      ha<lb ed="#R" n="12" break="no"/>beat hoc ex se formaliter, tunc enim nunquam 
+      <lb ed="#R" n="13"/>posset corrumpi. Quid ergo? dico quod periodus 
+      <lb ed="#R" n="14"/>non est intrinsecum aliquid rei, sed est certa 
+      mo<lb ed="#R" n="15" break="no"/>ra &amp; duratio quae est in quolibet generabili, &amp; 
+      <lb ed="#R" n="16"/>corruptibili per virtutem existentem. Ad cuius 
+      <lb ed="#R" n="17"/>euidentiam sciendum est, quod omne 
+      generabi<lb ed="#R" n="18" break="no"/>le, &amp; corruptibile habet aliquam qualitatem 
+      prae<lb ed="#R" n="19" break="no"/>dominantem, &amp; tūc agens extrinsecum habet ali 
+      <lb ed="#R" n="20"/>quam qualitatem conuenientem illi praedominam 
+      <lb ed="#R" n="21"/>te, &amp; tunc illa forma, siue qualitas 
+      praedominan<lb ed="#R" n="22" break="no"/>tis elementi intenditur in mixto, &amp; ad hoc 
+      sequi<lb ed="#R" n="23" break="no"/>tur dissolutio formae mixti, nam in tantum actua 
+      <lb ed="#R" n="24"/>tur realitas illa elementi praedominantis virtute 
+      <lb ed="#R" n="25"/>agentis extrinseci, quod venit ad terminationem, 
+      <lb ed="#R" n="26"/>&amp; actuationem propriam formae elementi, ad quam 
+      <lb ed="#R" n="27"/>sequitur dissolutio veritatis ad quam 
+      concurre<lb ed="#R" n="28" break="no"/>bant realitates ipsorum elementorum. Probatum 
+      <lb ed="#R" n="29"/>enim fuit supra, quod elementa sunt in mixto fra 
+      <lb ed="#R" n="30"/>cta secundum realitates suas in quibus non 
+      salua<lb ed="#R" n="31" break="no"/>tur ratio formae, dimittunt enim proprias termina 
+      <lb ed="#R" n="32"/>tiones, quae dant diffinitionem, &amp; nomem formae, 
+      <lb ed="#R" n="33"/>Dictum est enim quod secundum tales realitates 
+      <lb ed="#R" n="34"/>non habent vnitatem propriam, ideo concurrunt 
+      <lb ed="#R" n="35"/>ad vnitatem tertij, quod est forma mixti, &amp; 
+      qua<lb ed="#R" n="36" break="no"/>cunque illarum realitatum redeunte ad propriam 
+      <lb ed="#R" n="37"/>terminationem dissoluitur necessario vnitas 
+      il<lb ed="#R" n="38" break="no"/>lius tertij. Quando ergo in mixto est optimum 
+      <lb ed="#R" n="39"/>temperamentum illarum qualitatum, potest 
+      <lb ed="#R" n="40"/>fortius resistere, &amp; secundum quod plus vel 
+      mi<lb ed="#R" n="41" break="no"/>nus est redacta ad temperamentum, secundum 
+      <lb ed="#R" n="42"/>hoc etiam habet, quod plus vel minus resistant, 
+      <lb ed="#R" n="43"/>aut per hoc habet maiorem vel minorem 
+      perio<lb ed="#R" n="44" break="no"/>dum plus durandi. Quod vero dicitur, quod 
+      qua<lb ed="#R" n="45" break="no"/>litates in tali medio constitutae non possunt 
+      age<lb ed="#R" n="46" break="no"/>re ad inuicem, dicendum, quod non est ibi 
+      <lb ed="#R" n="47"/>actio vel corruptio propter qualitates 
+      contra<lb ed="#R" n="48" break="no"/>rias, quia ad vnam formam simplicem sunt 
+      re<lb ed="#R" n="49" break="no"/>dactae, sed corrumpuntur ab extrinseco, vt statim 
+      <lb ed="#R" n="50"/>dixi, &amp; hoc intelligendum est in mixtis 
+      inanima<lb ed="#R" n="51" break="no"/>tis, in mixtis quidem animatis quae habent orga 
+      <lb ed="#R" n="52"/>na, &amp; membra distincta, ibi potest esse mutua 
+      <lb ed="#R" n="53"/>actio: &amp; passio, cum ibi non sit hoc modo vna 
+      <lb ed="#R" n="54"/>forma constituta simplex, sicut in alijs, sed in 
+      di<lb ed="#R" n="55" break="no"/>stinctis membris sunt distinctae formae, &amp; quatitates 
+      <lb ed="#R" n="56"/>distinctae, &amp; contrariae. vnde cerebrum est frigidum 
+      <lb ed="#R" n="57"/>cor vero calidum, &amp; sic de alijs, &amp; ideo talia 
+      cor<lb ed="#R" n="58" break="no"/>rumpi possunt per hunc modum propter 
+      actio<lb ed="#R" n="59" break="no"/>nem mutuam, qua vnum agit in alterum in 
+      mix<lb ed="#R" n="60" break="no"/>tis, &amp; membris. Potest esse corruptio modo, quo 
+      <lb ed="#R" n="61"/>est dictum in alijs in animatis, scilicet ab 
+      extrin<lb ed="#R" n="62" break="no"/>seco, per hoc, quod qualitas praedominantis 
+      ele<lb ed="#R" n="63" break="no"/>menti potest intendi a conuenienti extrinseco, 
+      <lb ed="#R" n="64"/>in tantum, quod reducuntur ad propriam 
+      actuali<lb ed="#R" n="65" break="no"/>tatem formae, quae ante erat ablata. Sed 
+      quomo<lb ed="#R" n="66" break="no"/>do potest terminatio a forma amoueri stante rea 
+      <!--0246.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>litate formae, de hoc dixi prolixius, cum ageretur 
+      <lb ed="#R" n="68"/>de mixtione elementorum. Sed hic est aliud dubium: 
+      <lb ed="#R" n="69"/>Vtrum originalis iustitia potuisset hominem prae 
+      <lb ed="#R" n="70"/>seruare, ne pateretur ab extrinseco 
+      corrumpen<lb ed="#R" n="71" break="no"/>te. Dicunt ad hoc quidam, quod nulla virtus crea 
+      <lb ed="#R" n="72"/>ta poterat hoc facere, quia qualitas illa, vel esset 
+      <lb ed="#R" n="73"/>qualitas elementi, vel mixti, vel caelestis: 
+      quaecun<lb ed="#R" n="74" break="no"/>que autem esset, non posset sic conseruare, quia 
+      <lb ed="#R" n="75"/>siue elementi, siue mixti, haberet contrarium 
+      ali<lb ed="#R" n="76" break="no"/>quod: ergo illa posset corrumpi. Dico ergo, quod 
+      <lb ed="#R" n="77"/>in hoc oportet recurrere ad prouidentiam 
+      diui<lb ed="#R" n="78" break="no"/>nam, &amp; temperamentum paradisi, in quo habitas 
+      <lb ed="#R" n="79"/>sent, vt sic in corde, &amp; membris hominis non 
+      <lb ed="#R" n="80"/>fuisset corruptio nec ab intrinseco; puta propter 
+      <lb ed="#R" n="81"/>actionem mutuam contrariorum, Deo suspenden 
+      <lb ed="#R" n="82"/>te actionem eorũ; nec ab extrinseco, quia forte tale 
+      <lb ed="#R" n="83"/>nullum tale fuisset; vel qualitates fuissent redacae 
+      <lb ed="#R" n="84"/>admedium maximum, vel Deus suspendisset 
+      actio<lb ed="#R" n="85" break="no"/>nem talis extrinseci corrumpentis. Nunc 
+      secun<lb ed="#R" n="86" break="no"/>do de immortalitate animae. Dico primo illam, 
+      <lb ed="#R" n="87"/>propositionem, quod si ex natura sua fuisset 
+      inj<lb ed="#R" n="88" break="no"/>mortalis pro statu innocentiae, esset etiam immor 
+      <lb ed="#R" n="89"/>talis, pro statu ipso, cum sit eiusdem rationis hic, &amp; 
+      <lb ed="#R" n="90"/>ibi. Quid ergo dicendum est de incorruptibilitate 
+      <lb ed="#R" n="91"/>animae absolute secundum naturam suam considerata? 
+      <lb ed="#R" n="92"/>Respondeo haec fuit opinio Alexandri, quod 
+      ani<lb ed="#R" n="93" break="no"/>ma hominis est corruptibilis, posuit enim, quod 
+      <lb ed="#R" n="94"/>intellectus non erat nisi quaedam forma 
+      comple<lb ed="#R" n="95" break="no"/>xionalis, &amp; proportio quaedam vt reciperet inten 
+      <lb ed="#R" n="96"/>tiones ab intellectu agente. Auempace autem 
+      di<lb ed="#R" n="97" break="no"/>cit, quod est corruptibilis, quia nihil erat anima 
+      <lb ed="#R" n="98"/>secundum eum nisi pura imaginatio. 
+      Commenta<lb ed="#R" n="99" break="no"/>tor autem Auerrois posuit animam esse vnam in 
+      <lb ed="#R" n="100"/>omnibus quantum ad intellectum nec corrumpi 
+      <lb ed="#R" n="101"/>nisi secundum imaginationem, &amp; intentionem intelle 
+      <lb ed="#R" n="102"/>ctus, &amp; haec eadē fuit opinio Themistij, &amp; 
+      Theo<lb ed="#R" n="103" break="no"/>phrasti: fidei autem  sententia inconcusse tenenda est, quod 
+      <lb ed="#R" n="104"/>anima hominis est immortalis, &amp; quoad 
+      intelle<lb ed="#R" n="105" break="no"/>ctum, &amp; voluntatem, &amp; quia ita est nobis commu 
+      <lb ed="#R" n="106"/>nis animi conceptio, &amp; veritas per se nota: sed 
+      <lb ed="#R" n="107"/>propter quod inuenire: non est sic facile. 
+      Addu<lb ed="#R" n="108" break="no"/>cuntur ad hoc rationes diuersae, quae parum 
+      con<lb ed="#R" n="109" break="no"/>cludunt. Aliqui argumentantur ex proportione 
+      <lb ed="#R" n="110"/>obiecti ad potentiam, quia obiectum intellectus 
+      <lb ed="#R" n="111"/>est incorruptibile, &amp; aeternum: ergo potentia: &amp; 
+      <lb ed="#R" n="112"/>vltra: ergo etiam substantia animae. Sed diceret ad 
+      <lb ed="#R" n="113"/>uersarius quod secundum hoc oculus esset 
+      incorrupti<lb ed="#R" n="114" break="no"/>bilis, similiter obiectum intellectus nostri esset sub 
+      <lb ed="#R" n="115"/>stantia infinita puta Deus, &amp; substantia improducta: 
+      <lb ed="#R" n="116"/>ergo inte llectus noster esset infinitus, &amp; improdu 
+      <lb ed="#R" n="117"/>ctus. Ratio ergo peccat, quia non oportet omnem 
+      <lb ed="#R" n="118"/>proportionem: esse inter obiectum, &amp; potentiam, 
+      <lb ed="#R" n="119"/>sufficit enim proportio motiui, &amp; mobilis. Alij ar 
+      <lb ed="#R" n="120"/>guunt, quia naturale desiderium non est 
+      frustra<lb ed="#R" n="121" break="no"/>torium, sed naturale desiderium est ad esse 
+      sem<lb ed="#R" n="122" break="no"/>per, Dicetur, quod ratio concludit de omnibus 
+      <lb ed="#R" n="123"/>animalibus, omnia enim appetunt semper 
+      esse<lb ed="#R" n="124" break="no"/>cum naturaliter fugiant mortem tanquam vltimum 
+      <lb ed="#R" n="125"/>terribilium, Alij arguunt ex iustitia quae exigit; 
+      <lb ed="#R" n="126"/>quod paena reddatur malis, &amp; praemium iustis, sed 
+      <lb ed="#R" n="127"/>in vita ista non apparet retributio iustorum ac 
+      <lb ed="#R" n="128"/>punitio malorum, imo saepe patet oppositum, qua 
+      <lb ed="#R" n="129"/>re videtur, quod sit vita alia, illa est vita ꝓpetua: 
+      <lb ed="#R" n="130"/>ergo. Haec ratio est moralis, &amp; theologica, &amp; prae 
+      <lb ed="#R" n="131"/>terea non concludit. dicetur enim, quod vita illa 
+      <lb ed="#R" n="132"/>est diuina retributio, peccatum enim est paena 
+      <!--0247.xml-->
+      <pb ed="#R" n="247"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>sibi ipsi, &amp; actus virtutis est praemium quia 
+      vir<lb ed="#R" n="2" break="no"/>tuose agere est bonum optimum. Nunc 
+      pondira<lb ed="#R" n="3" break="no"/>tiones meas nescio si concludunt: Prima est haec, 
+      <lb ed="#R" n="4"/>nula operatio est abstractior: quam sit principium 
+      <lb ed="#R" n="5"/>operationis: sed experimur in nobis operationem 
+      <lb ed="#R" n="6"/>quae non subest alicui corrumpenti: ergo nec pria 
+      <lb ed="#R" n="7"/>cipium eius, quod est anima. Maior patet, quia 
+      <lb ed="#R" n="8"/>iudicamus libere, &amp; eligimus libere post quascun 
+      <lb ed="#R" n="9"/>que demonstrat iones factas, &amp; isti actus non sub 
+      <lb ed="#R" n="10"/>sunt aliter ipsi soli, nec caelo, nec alicui virtuti 
+      <lb ed="#R" n="11"/>corrumponti, vnde Philosophi concesserunt, quod 
+      <lb ed="#R" n="12"/>electio nostro est libera; nec subest alicui virtuti 
+      <lb ed="#R" n="13"/>corrumpenti, nec directe dependet ab aliquo cor 
+      <lb ed="#R" n="14"/>pore quin sit in potestate nostra eligere sic vel sic 
+      <lb ed="#R" n="15"/>&amp; indicare iuditio practico hoc, &amp; suum 
+      opposi<lb ed="#R" n="16" break="no"/>tum, alias non essent paenae nec praemia, &amp; tota po 
+      <lb ed="#R" n="17"/>litia cocrumperetur: ergo oportet quod substantia 
+      <lb ed="#R" n="18"/>in qua operatio fundatur sit talis, quod nulla vir 
+      <lb ed="#R" n="19"/>tus possit eam corrumpere. nisi solum diuina, nec 
+      <lb ed="#R" n="20"/>ad fatum, nec ad constellationes recurrendum est, 
+      <lb ed="#R" n="21"/>quia secundum omnes Philosophos, vir sapiens 
+      <lb ed="#R" n="22"/>dominabitur astris Secunda ratio est, quia substam 
+      <lb ed="#R" n="23"/>tia non quanta non potest corrumpi ab aliquo 
+      <lb ed="#R" n="24"/>quanto, quantum enim non potest agere in non 
+      <lb ed="#R" n="25"/>quantum, sed in nobis est aliqua substantia non quam 
+      <lb ed="#R" n="26"/>ta:ergo. Maior patet, quia hoc concludebant Phi 
+      <lb ed="#R" n="27"/>losophi, quod substantia, quae erat abstracta non 
+      <lb ed="#R" n="28"/>quauta, eo ipso esset incorruptibilis, eo quod 
+      ge<lb ed="#R" n="29" break="no"/>ueratio, &amp; corruptio sunt sequela alterationis: &amp; 
+      <lb ed="#R" n="30"/>ideo omnis corruptio fit mediantibus qualitati- 
+      <!--0247.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="31"/>bus actiuis &amp; passiuis, quas impossibile est funda 
+      <lb ed="#R" n="32"/>ri, nisi in quanto Minor nota est: experimur enim 
+      <lb ed="#R" n="33"/>in nobis operationem aliquam quam necesse est re 
+      <lb ed="#R" n="34"/>cipi ininon quanto, &amp; esse a principio non 
+      quan<lb ed="#R" n="35" break="no"/>to imposs ibile est enim operationem 
+      proceden<lb ed="#R" n="36" break="no"/>tem a substantia quanta tranfire in obiectum nisi 
+      <lb ed="#R" n="37"/>situaliter situando ipsum, &amp; partes eius ad 
+      inui<lb ed="#R" n="38" break="no"/>cem: sed nos experimur in nobis operationem, 
+      <lb ed="#R" n="39"/>quae nec situat obiectum, nec partesobiecti in eo: 
+      <lb ed="#R" n="40"/>ergo. Maiorem istius syllogismi probo: quia 
+      tran<lb ed="#R" n="41" break="no"/>situs obiectiuus in nobis est intentionalis: ergo se 
+      <lb ed="#R" n="42"/>quitur modum operationis, nec potest aliquo 
+      <lb ed="#R" n="43"/>modo esse abstractior, quam operatio illa, &amp; 
+      for<lb ed="#R" n="44" break="no"/>ma, quae sic transit. Et confirmo hoc, quia 
+      nul<lb ed="#R" n="45" break="no"/>la operatio siue realis, siue intentionalis profluit 
+      <lb ed="#R" n="46"/>a situato, nisi per modum cuiusdam lineae, 
+      vnde<lb ed="#R" n="47" break="no"/>ignis calefaciens diffundit calorem 
+      pyramidali<lb ed="#R" n="48" break="no"/>ter: similiter species rei sensibilis facit, quod iudi 
+      <lb ed="#R" n="49"/>cium visus sit situale, vndē, ideo visio fit 
+      median<lb ed="#R" n="50" break="no"/>te piramide: simile est de imaginatione, vnde om 
+      <lb ed="#R" n="51"/>ne, quod imaginamur, ponimus ob hoc in cerro 
+      <lb ed="#R" n="52"/>situ, &amp; situamus partes in eo, nos vero 
+      experi<lb ed="#R" n="53" break="no"/>mur, quod quando intelligimus ipsum hominem 
+      <lb ed="#R" n="54"/>simpliciter non situamus nec partes in ipso, sed 
+      <lb ed="#R" n="55"/>abiolute. Ad argumentum in oppositum patet ex 
+      <lb ed="#R" n="56"/>se. Erat enim Adam mortalis quantum ad dissolu 
+      <lb ed="#R" n="57"/>tionem corporis ab anima, sed Dei cum dono po 
+      <lb ed="#R" n="58"/>terat non mori, &amp; potentia illa non exire in 
+      <lb ed="#R" n="59"/>actum.
+   </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

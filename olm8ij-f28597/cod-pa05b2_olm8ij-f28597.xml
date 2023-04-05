@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-05">April 05, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b2">Roma 1605, Book 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="92"/>
+            <cb ed="#R" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-f28597"><!-- l2d8-q1 -->
+            <head xml:id="olm8ij-f28597-Hd1e101">Quaestio 1</head>
+            <p xml:id="olm8ij-f28597-d1e103">
+               <lb ed="#R" n="8"/>QVAESTIO VNICA. 
+      <!--0092.xml-->
+      <cb ed="#R" n="b"/>
+               <lb ed="#R" n="9"/>1. Vtrum Angeli habeant corpora 
+      naturali<lb ed="#R" n="10" break="no"/>ter sibi vnita. 
+      <lb ed="#R" n="11"/>2 Vtrum Angelus possit vniri corpori, vt 
+      for<lb ed="#R" n="12" break="no"/>ma materiae. 
+      <lb ed="#R" n="13"/>3 Vtrum Angelus moueat corpus per intelle 
+      <lb ed="#R" n="14"/>ctum, &amp; voluntatem, vel per aliam potentiam exe 
+      <lb ed="#R" n="15"/>cutiuam. 
+      <lb ed="#R" n="16"/>4 Vtrum Angelus in corporibus assumptis 
+      <lb ed="#R" n="17"/>possit exercere opera vitae. 
+   </p>
+            <div xml:id="olm8ij-f28597-Dd1e132">
+               <head xml:id="olm8ij-f28597-Hd1e134">Articulus 1</head>
+               <head xml:id="olm8ij-f28597-Hd1e136" type="question-title">
+      Utrum Angeli habeant corpora naturaliter sibi vnita
+    </head>
+               <p xml:id="olm8ij-f28597-d1e139">
+                  <lb ed="#R" n="18"/>ARTJCVLVS J. 
+      <lb ed="#R" n="19"/>Vtrum Angeli habeant corpora naturaliter 
+      <lb ed="#R" n="20"/>sibi vnita. 
+   </p>
+               <p xml:id="olm8ij-f28597-d1e148">
+                  <lb ed="#R" n="21"/>QVANTVM ad primam 
+      <lb ed="#R" n="22"/>quaestionem arguo primo, 
+      <lb ed="#R" n="23"/>quod Angeli habeant cor 
+      <lb ed="#R" n="24"/>pora naturaliter sibi 
+      vni<lb ed="#R" n="25" break="no"/>ta, quoniam maioris 
+      no<lb ed="#R" n="26" break="no"/>bilitatis sunt Angeli, qui 
+      <lb ed="#R" n="27"/>mouent orbes, quam alij. 
+      <lb ed="#R" n="28"/>qui non mouent. Sed 
+      An<lb ed="#R" n="29" break="no"/>geli, qui mouent orbes, habent corpora orbium 
+      <lb ed="#R" n="30"/>naturaliter sibi vnita, vnde vniuntur eis vt forma, 
+      <lb ed="#R" n="31"/>iuxta Commentator de substan. orbis, &amp; 1a. 
+      me<lb ed="#R" n="32" break="no"/>taph. com. 48. dicit: ergo similiter, &amp; alij Angeli 
+      <lb ed="#R" n="33"/>cum non repugnet eis hoc nisi ratione 
+      perfectio<lb ed="#R" n="34" break="no"/>nis. Maior patet, quia nobilior est operatio, 
+      <lb ed="#R" n="35"/>quam habent Angeli in corporibus caelestibus, 
+      <lb ed="#R" n="36"/>quam illa quam habent alij in corporibus 
+      as<lb ed="#R" n="37" break="no"/>sumptis. 
+   </p>
+               <p xml:id="olm8ij-f28597-d1e187">
+                  <lb ed="#R" n="38"/>In oppositum est Dam. lib. 2. c. 4. qui dicit, 
+      <lb ed="#R" n="39"/>quod Angelus est substantia incorporea. 
+      Re<lb ed="#R" n="40" break="no"/>spondeo, pono Conclusionem negatiuam, quod 
+      <lb ed="#R" n="41"/>Angeli non habent corpora naturaliter sibi 
+      vni<lb ed="#R" n="42" break="no"/>ta. Ratio est, quia circa ea, quae in Angelis sunt 
+      <lb ed="#R" n="43"/>consideranda, maxime standum est sententiae 
+      <lb ed="#R" n="44"/>Dionysij, qui fuit discipulus Pauli, qui naturam 
+      <lb ed="#R" n="45"/>Angelorum, &amp; ordinem habuit per reuclatio- 
+      <!--0092.xml-->
+      <cb ed="#R" n="c"/>
+                  <lb ed="#R" n="46"/>nem, quando suit raptus, vsque ad tertium 
+      cae<lb ed="#R" n="47" break="no"/>lum: sed ipse vbi tractat de natura Angelorum 
+      <lb ed="#R" n="48"/>ponit, quod Angeli non habent corpora 
+      natura<lb ed="#R" n="49" break="no"/>liter sibi vnita. Vnde cap. 2. caelestis hierarchiae 
+      <lb ed="#R" n="50"/>dicit, quod Angeli aliquando apparuerunt in 
+      si<lb ed="#R" n="51" break="no"/>militudine vituli, quandoque in specie hominis, 
+      <lb ed="#R" n="52"/>vt ex hoc appareat, quod non sunt secundum suam 
+      <lb ed="#R" n="53"/>naturam corporei. Idem de diuin. nom. cap. 2. 
+      <lb ed="#R" n="54"/>dicit, quod sunt incorporei, &amp; immortales. 
+   </p>
+               <p xml:id="olm8ij-f28597-d1e232">
+                  <lb ed="#R" n="55"/>Sed hic faciunt dubium quaedam auctoritates, 
+      <lb ed="#R" n="56"/>&amp; prima est Augustini. Videtur expresse dicere, 
+      <lb ed="#R" n="57"/>quod sunt corporei. dicit enim quod habent 
+      <lb ed="#R" n="58"/>corpora aerea, &amp; lib. de Eccles. dogmatibus 
+      di<lb ed="#R" n="59" break="no"/>cit, quod habent corpora subtilia. Item idem 
+      <lb ed="#R" n="60"/>videtur sentire Gregorius in homilia quadam, 
+      <lb ed="#R" n="61"/>vbi dicit, quod Angelus est rationale animal. 
+      <lb ed="#R" n="62"/>Jdem dicit Porphirius. 
+   </p>
+               <p xml:id="olm8ij-f28597-d1e252">
+                  <lb ed="#R" n="63"/>Ad ista respondeo. Quod haec Conclusio 
+      Pla<lb ed="#R" n="64" break="no"/>tonica est, nec Augustinus curauit illam 
+      impro<lb ed="#R" n="65" break="no"/>bare, quia nec haec, nec suum oppositum erat 
+      fi<lb ed="#R" n="66" break="no"/>dei tunc motiuum.
+   </p>
+               <p xml:id="olm8ij-f28597-d1e263">
+                  <lb ed="#R" n="67"/>Secundo adduco rationes ad praemissam Con 
+      <lb ed="#R" n="68"/>clusionem, &amp; primo rationes quorundam, quae 
+      <lb ed="#R" n="69"/>videntur mihi parum concludere. Arguunt 
+      ali<lb ed="#R" n="70" break="no"/>qui, quod non: Quia tunc illa corpora essent 
+      no<lb ed="#R" n="71" break="no"/>biliora, quam humana, cum essent nobilioris 
+      <lb ed="#R" n="72"/>formae. Hoc autem videtur inconueniens: ergo. 
+      <lb ed="#R" n="73"/>Inconueniens consequentis patet, quia corpus 
+      <lb ed="#R" n="74"/>humanum est optime complexionatum inter 
+      cor<lb ed="#R" n="75" break="no"/>pora mixta, sed ratio ista non videtur 
+      conclude<lb ed="#R" n="76" break="no"/>re. Non enim haberetur pro inconuenienti, 
+      <lb ed="#R" n="77"/>quod esset aliquod corpus simplex nobilius 
+      quo<lb ed="#R" n="78" break="no"/>cunque mixto, &amp; de corpore caeli dicetur 
+      ho<lb ed="#R" n="79" break="no"/>die a quibusdam, quod est nobilius, quam fit cor 
+      <lb ed="#R" n="80"/>pus humanum. 
+  </p>
+               <p xml:id="olm8ij-f28597-d1e296">
+                  <lb ed="#R" n="81"/>Secunda ratio adducitur a Philosopho, quod 
+      <lb ed="#R" n="82"/>virtus mouens caelum non est virtus in 
+      magnitu<lb ed="#R" n="83" break="no"/>dine. Sed haec ratio non plus concludit, nisi quod 
+      <lb ed="#R" n="84"/>Angelus non sit forma extensa, sicut anima est 
+      <lb ed="#R" n="85"/>forma corporis. Hoc non apparet ex ratione 
+      <!--0093.xml-->
+      <pb ed="#R" n="93"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>ista, ideo adduco rationes alias. Prima est haec. 
+      <lb ed="#R" n="2"/>Regula est Philosophi 8. phys.a tex. 18. &amp; 12. 
+      me<lb ed="#R" n="3" break="no"/>taph. a text. 36. &amp; infra, quam Commentator 
+      ex<lb ed="#R" n="4" break="no"/>ponit, quod quando aliqua inueniuntur 
+      coniun<lb ed="#R" n="5" break="no"/>cta, si alterum inueniatur separatum, reliquum 
+      <lb ed="#R" n="6"/>potest inueniri separatum, nisi alterum sit 
+      antece<lb ed="#R" n="7" break="no"/>dens; sicut quia inuenitur mouens motum, &amp; 
+      in<lb ed="#R" n="8" break="no"/>uenitur. motum non mouens: ergo est inuenire 
+      <lb ed="#R" n="9"/>mouens non motum. Sic in proposito. Aliqua 
+      <lb ed="#R" n="10"/>est substantia intellectualis, quae inuenitur 
+      con<lb ed="#R" n="11" break="no"/>iuncta substantiae corporeae naturaliter, ita quod 
+      <lb ed="#R" n="12"/>est aliqua substantia naturaliter composita ex na 
+      <lb ed="#R" n="13"/>tura intellectuali, &amp; natura corporea; &amp; 
+      inueni<lb ed="#R" n="14" break="no"/>tur substantia corporea sine intellectuali: ergo 
+      <lb ed="#R" n="15"/>inuenitur natura intellectualis per se sine 
+      sub<lb ed="#R" n="16" break="no"/>stantia corporea. 
+   </p>
+               <p xml:id="olm8ij-f28597-d1e350">
+                  <lb ed="#R" n="17"/>Secunda ratio addita est ista. Duarum 
+      diffe<lb ed="#R" n="18" break="no"/>rentiarum sub aliquo genere si imperfectior 
+      con<lb ed="#R" n="19" break="no"/>stituit speciem sub genere, &amp; inuenitur in rerum 
+      <lb ed="#R" n="20"/>natura, multo magis hoc est de differentia 
+      perfe<lb ed="#R" n="21" break="no"/>ctiori: sed corporeum, &amp; incorporeum sunt 
+      dif<lb ed="#R" n="22" break="no"/>ferentiae diuidentes genus substantiae, &amp; 
+      corpo<lb ed="#R" n="23" break="no"/>reum secundum Augustinum est ignobilior 
+      dif<lb ed="#R" n="24" break="no"/>ferentia, quam sit incorporeum, &amp; constituit spe 
+      <lb ed="#R" n="25"/>ciem, &amp; inuenitur in rerum natura: ergo. 
+      <lb ed="#R" n="26"/>Secundo arguo sic. Philosophus enim ipse 2. de 
+      <lb ed="#R" n="27"/>generat. a tex. 16. &amp; infra, per combinationem 
+      <lb ed="#R" n="28"/>quatuor qualitatum probat combinationem 
+      <lb ed="#R" n="29"/>quatuor elementorum, &amp; ex hoc probat, quod 
+      <lb ed="#R" n="30"/>secundum elementum est impossibile, extremum 
+      <lb ed="#R" n="31"/>quod calidum, &amp; humidum, frigidum, &amp; siccum. 
+      <lb ed="#R" n="32"/>Tunc sic. quando ex quatuor datis aliqua 
+      mem<lb ed="#R" n="33" break="no"/>bra inueniuntur possibilia in natura, &amp; aliqua 
+      <lb ed="#R" n="34"/>impossibilia, illa possibilia sunt ponenda in 
+      na<lb ed="#R" n="35" break="no"/>tura, sicut ille probat ibi, quod quatuor 
+      elemen<lb ed="#R" n="36" break="no"/>ta sunt ponenda in'natura: sed illa possunt 
+      com<lb ed="#R" n="37" break="no"/>binari per corporeum intellectuale, incorporeum 
+      <lb ed="#R" n="38"/>intellectuale, &amp; corporeum non intellectuale. 
+      <lb ed="#R" n="39"/>Quartum vero impossibile est, quod nec sit 
+      cor<lb ed="#R" n="40" break="no"/>poreum, nec intellectuale: ergo illa ponenda sunt 
+      <lb ed="#R" n="41"/>in natura 
+   </p>
+               <p xml:id="olm8ij-f28597-d1e407">
+                  <lb ed="#R" n="42"/>Dico ergo, quod licet Angeli possint habere 
+      <lb ed="#R" n="43"/>corpora illa, tamen non sunt naturaliter vnita: 
+      <lb ed="#R" n="44"/>sed sunt voluntarie assumpta. 
+   </p>
+               <p xml:id="olm8ij-f28597-d1e417">
+                  <lb ed="#R" n="45"/>Ad ampliorem autem euidentiam circa illam 
+      <lb ed="#R" n="46"/>assumptionem duo sunt consideranda. Primum 
+      <lb ed="#R" n="47"/>qualia sunt corpora, quae assumunt. Secundum, 
+      <lb ed="#R" n="48"/>haec assumptio quid importet. Quantum ad 
+      pri<lb ed="#R" n="49" break="no"/>mum dico, quod sunt corpora, quod apparet 
+      <lb ed="#R" n="50"/>statim, quia apparent colorata. Color vero non 
+      <lb ed="#R" n="51"/>est nisi in corpore mixto. Sed sciendum est, quod 
+      <lb ed="#R" n="52"/>mixta sunt in duplici differentia, quaedam sunt 
+      <lb ed="#R" n="53"/>imperfecte mixta, quaedam vero sunt perfecte 
+      <lb ed="#R" n="54"/>mixta. Perfecte mixta sunt, quae habent formam 
+      <lb ed="#R" n="55"/>substantialem specificam in natura, &amp; completam 
+      <lb ed="#R" n="56"/>in esse permanentem, quae sunt principium 
+      con<lb ed="#R" n="57" break="no"/>seruandi actum, &amp; ea quae sunt in eis. Incomplea 
+      <lb ed="#R" n="58"/>vero sunt, quae non habent formam specificam 
+      <lb ed="#R" n="59"/>in natura, nec possunt esse principium conseruan 
+      <lb ed="#R" n="60"/>di actum, &amp; perfectiones suas: sed tunc in via 
+      <lb ed="#R" n="61"/>ad completum formae specificae principaliter 
+      in<lb ed="#R" n="62" break="no"/>tentae, nec per se intenduntur a natura, sed 
+      tan<lb ed="#R" n="63" break="no"/>tum in ordine ad aliud, sicutpatet in istis 
+      impres<lb ed="#R" n="64" break="no"/>sionibus. 
+   </p>
+               <p xml:id="olm8ij-f28597-d1e463">
+                  <lb ed="#R" n="65"/>Nunc secundo nota, quod sunt quaedam 
+      cor<lb ed="#R" n="66" break="no"/>pora, quae Angeli nunquam assumunt, quaedam 
+      <!--0093.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>vero, quae quandoque assumunt, sed raro, quaedam 
+      <lb ed="#R" n="68"/>vero frequenter: assumunt enim nunquam 
+      cor<lb ed="#R" n="69" break="no"/>pora animata, &amp; ideo Arepticij non dicuntur 
+      <lb ed="#R" n="70"/>assumi a Diabolo. Jmaginantur enim homines, 
+      <lb ed="#R" n="71"/>quod tales homines habeant animam, quae 
+      mo<lb ed="#R" n="72" break="no"/>uet eos, &amp; facit omnes illos motus corporis, 
+      li<lb ed="#R" n="73" break="no"/>cet Daemone quasi cogente per affictionem, &amp; 
+      <lb ed="#R" n="74"/>&amp; per tractum. Alia autem, quae raro aflumunt, 
+      <lb ed="#R" n="75"/>vt illa cadauera ab anima separata, sicut legitur, 
+      <lb ed="#R" n="76"/>quod Daemon assumpsit cadauer Regis mortui, 
+      <lb ed="#R" n="77"/>&amp; iuit ad totum regnum. Illa vero, quae 
+      frequen<lb ed="#R" n="78" break="no"/>ter assumunt, sunt mixta imperfecta, quae miscent 
+      <lb ed="#R" n="79"/>ipsimet Angeli, non imprimendo formam 
+      mix<lb ed="#R" n="80" break="no"/>tionis, sed applicando actiua passiuis, &amp; sic assu 
+      <lb ed="#R" n="81"/>mit corpus canis, &amp; huiusmodi, quae possunt 
+      su<lb ed="#R" n="82" break="no"/>bito misceri: sed perfecte mixta nunquam 
+      pro<lb ed="#R" n="83" break="no"/>prie dicuntur assumere, quae videlicet sunt 
+      in<lb ed="#R" n="84" break="no"/>sua forma substantiali specifica. Ideo nec 
+      Ange<lb ed="#R" n="85" break="no"/>li, nec Daemones dicuntur assumere lapidem, vel 
+      <lb ed="#R" n="86"/>lignum, vel aliquid huiusmodi. 
+   </p>
+               <p xml:id="olm8ij-f28597-d1e518">
+                  <lb ed="#R" n="87"/>De secundo, quid importet haec assumptio. 
+      <lb ed="#R" n="88"/>Dicunt quidam, quod relationem solum, scilicet, 
+      <lb ed="#R" n="89"/>vnionem ad corpus, quae est motoris ad mobile. 
+      <lb ed="#R" n="90"/>Sed hoc non satisfacit, nec dat causam, quia 
+      se<lb ed="#R" n="91" break="no"/>cundum hoc Arepticij dicerentur assumi, quod 
+      <lb ed="#R" n="92"/>non conceditur. Alij dicunt, quod importat 
+      prae<lb ed="#R" n="93" break="no"/>sentiam in hoc, quod est praesens tali corpori: sed 
+      <lb ed="#R" n="94"/>hoc etiam non valet, quia secundum hoc 
+      assum<lb ed="#R" n="95" break="no"/>psisset caelum empyreum, cui est praesens, vel 
+      ali<lb ed="#R" n="96" break="no"/>quod aliud caelum. Dico, ergo quod importat 
+      <lb ed="#R" n="97"/>aliquid plus, quam vnionem motoris ad mobile: 
+      <lb ed="#R" n="98"/>illud autem est vnio similitudinaria materiae ad 
+      <lb ed="#R" n="99"/>formam, quia in illis corporibus supplet 
+      Ange<lb ed="#R" n="100" break="no"/>lus omnes operationes, quas natus esset spiritus 
+      <lb ed="#R" n="101"/>vitalis exercere, seu forma propria, &amp; ideo 
+      vide<lb ed="#R" n="102" break="no"/>tur constituere vnum per modum formae dantis 
+      <lb ed="#R" n="103"/>operationes, &amp; extremas perfectiones. 
+      Vnde<lb ed="#R" n="104" break="no"/>qui imaginantur ipsum, imaginantur quasi vnum 
+      <lb ed="#R" n="105"/>suppositum requirens tales perfectiones ad exer 
+      <lb ed="#R" n="106"/>cendum tales operationes. Vnde Angelus, qui 
+      <lb ed="#R" n="107"/>portabat nubem coram filijs Israel, non 
+      assum<lb ed="#R" n="108" break="no"/>psit illam; Angelus autem, qui apparuit Tobiae 
+      <lb ed="#R" n="109"/>in forma corporis humani, assumpsit corpus 
+      hu<lb ed="#R" n="110" break="no"/>manum. 
+   </p>
+               <p xml:id="olm8ij-f28597-d1e573">
+                  <lb ed="#R" n="111"/>Tunc ad argumentum in oppositum, 
+      Aristote<lb ed="#R" n="112" break="no"/>les, &amp; Commentator dicerent, quod non est 
+      ali<lb ed="#R" n="113" break="no"/>qua substantia separata, &amp; abstracta a 
+      corpori<lb ed="#R" n="114" break="no"/>bus, nisi solum prima, &amp; omnis alia vnitur 
+      mo<lb ed="#R" n="115" break="no"/>do largientis extremas perfectiones exigitiue, 
+      <lb ed="#R" n="116"/>non effectiue. Theologus autem diceret, quod 
+      <lb ed="#R" n="117"/>non oportet quod sint vnitae, nec sunt secundum 
+      <lb ed="#R" n="118"/>fidei veritatem. 
+   </p>
+            </div>
+            <div xml:id="olm8ij-f28597-Dd1e594">
+               <head xml:id="olm8ij-f28597-Hd1e596">Articulus 2</head>
+               <head xml:id="olm8ij-f28597-Hd1e598" type="question-title">
+      Utrum Angeli possint vniri corporibus, sicut forma vnitur materiae
+    </head>
+               <p xml:id="olm8ij-f28597-d1e601">
+                  <lb ed="#R" n="119"/>ARTJCVLVS JJ. 
+      <lb ed="#R" n="120"/>Vtrum Angeli possint vniri corporibus, sicut 
+      <lb ed="#R" n="121"/>forma vnitur materiae. 
+   </p>
+               <p xml:id="olm8ij-f28597-d1e610">
+                  <lb ed="#R" n="122"/>QVoad secundam quaestionem arguo primo, 
+      <lb ed="#R" n="123"/>Qquod Angeli possint vniri corporibus, vt 
+      <lb ed="#R" n="124"/>foriia vnitur materiae: Quia illud cadit sub 
+      diui<lb ed="#R" n="125" break="no"/>na omnipotentia, quod non includit 
+      repugnan<lb ed="#R" n="126" break="no"/>tiam in primo modo dicendi per se: sed haec 
+      repu<lb ed="#R" n="127" break="no"/>gnantia non est in proposito, quia si sic esset, seque 
+      <lb ed="#R" n="128"/>retur, quod subsistens fieret inhaerens: sed hoc non 
+      <lb ed="#R" n="129"/>includit contradictionem, sicut non includit 
+      <!--0094.xml-->
+      <pb ed="#R" n="94"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>contradictionem, quod inhaerens fiat subsistens, 
+      <lb ed="#R" n="2"/>vt patet de accidentibus in Sacramento altaris: 
+      <lb ed="#R" n="3"/>ergo. 
+   </p>
+               <p xml:id="olm8ij-f28597-d1e643">
+                  <lb ed="#R" n="4"/>Contra. Impossibile est, quod species 
+      perfe<lb ed="#R" n="5" break="no"/>cta fiat pars speciei, &amp; illud, quod est directe, &amp; 
+      <lb ed="#R" n="6"/>per se in praedicamento fiat ens in praedicamento 
+      <lb ed="#R" n="7"/>per reductionem: sed Angelus est perfecta species 
+      <lb ed="#R" n="8"/>in vniuerso: si autem fieret forma in materia, esset 
+      <lb ed="#R" n="9"/>pars speciei, &amp; esset in genere per reductionem, 
+      <lb ed="#R" n="10"/>sicut sunt forma, &amp; materia: ergo. 
+   </p>
+               <p xml:id="olm8ij-f28597-d1e662">
+                  <lb ed="#R" n="11"/>Nunc primo videndum est, quid faciat hic dif 
+      <lb ed="#R" n="12"/>ficultatem. Secundo ponam Conclusionem 
+      in<lb ed="#R" n="13" break="no"/>tentam. 
+   </p>
+               <p xml:id="olm8ij-f28597-d1e671">
+                  <lb ed="#R" n="14"/>Quantum ad primum videtur hic facere 
+      diffi<lb ed="#R" n="15" break="no"/>cultatem vnio naturae humanae ad diuinum 
+      sup<lb ed="#R" n="16" break="no"/>positum. Arguo enim sic. Non magis dat esse 
+      <lb ed="#R" n="17"/>forma materiae, quam quidditas supposito: sed 
+      <lb ed="#R" n="18"/>virtute diuina quidditas, quae non est apta nata 
+      <lb ed="#R" n="19"/>quiddificare alienum suppositum, concurrit cum 
+      <lb ed="#R" n="20"/>alio ad esse quid, quia Christus ita dicitur vere, 
+      <lb ed="#R" n="21"/>&amp; quidditatiue homo, sicut Petrus; &amp; Alexander 
+      <lb ed="#R" n="22"/>Papa dicit in Decretali, quod Christus est 
+      quid<lb ed="#R" n="23" break="no"/>ditatiue duo, scilicet homo, &amp; Deus: ergo non 
+      <lb ed="#R" n="24"/>videtur obstare illud, quod subsistens det esse cor 
+      <lb ed="#R" n="25"/>pori, sicut forma materiae. Maior patet 7. 
+      me<lb ed="#R" n="26" break="no"/>taphys. quia quidditas est, &amp; cuius est idipsum 
+      <lb ed="#R" n="27"/>sunt, non sic forma, &amp; materia: ergo quidditas 
+      <lb ed="#R" n="28"/>magis intime dat esse supposito, quam forma 
+      <lb ed="#R" n="29"/>materiae. Minor autem nota est per fidem. 
+   </p>
+               <p xml:id="olm8ij-f28597-d1e708">
+                  <lb ed="#R" n="30"/>Secunda ratio, quia si repugnat, aut repugnat 
+      <lb ed="#R" n="31"/>sibi, vt natura intellectualis subsistens, aut vt 
+      na<lb ed="#R" n="32" break="no"/>tura intellectualis differens ab anima specifice: 
+      <lb ed="#R" n="33"/>non repugnat propter primum: quia anima est 
+      <lb ed="#R" n="34"/>naturae intellectualis, &amp; tamen vnitur per 
+      mo<lb ed="#R" n="35" break="no"/>dum formae ipsi materiae, nec secundo modo, quia 
+      <lb ed="#R" n="36"/>anima separata est aliquod hic subsistens, nec ter 
+      <lb ed="#R" n="37"/>tio modo, quia si vniretur, adhuc specifice 
+      differ<lb ed="#R" n="38" break="no"/>ret ab anima. 
+   </p>
+               <p xml:id="olm8ij-f28597-d1e730">
+                  <lb ed="#R" n="39"/>Nunc pono Conclusionem intentam, tamen 
+      <lb ed="#R" n="40"/>praemitto vnam distinctionem, secundum enim 
+      <lb ed="#R" n="41"/>Philosoph. 2. de Anima c. 2 ibid. &amp; de substant. 
+      <lb ed="#R" n="42"/>orbis, &amp; Commentatorem, quaedam est forma, 
+      <lb ed="#R" n="43"/>quae non est nisi terminus, &amp; finis, &amp; 
+      comple<lb ed="#R" n="44" break="no"/>mentum materiae dans perfectionem non aliam, 
+      <lb ed="#R" n="45"/>sed eiusdem rei, &amp; talis forma est inseparabilis, 
+      <lb ed="#R" n="46"/>nec potest manere separata, nec ponit numerum 
+      <lb ed="#R" n="47"/>cum materia, sed est vnum indiuisum cum 
+      ma<lb ed="#R" n="48" break="no"/>teria. Quaedam vero est, quae non est sic 
+      perfe<lb ed="#R" n="49" break="no"/>ctio, &amp; finis materiae, sed ponit numerum cum 
+      <lb ed="#R" n="50"/>materia, &amp; dicitur forma, in quantum largitur 
+      <lb ed="#R" n="51"/>extremas perfectiones exigitiue, &amp; hoc modo 
+      <lb ed="#R" n="52"/>secundum Commentatorem intellectus vnitur 
+      <lb ed="#R" n="53"/>nobis, &amp; motores orbium vniuntur caelis, 
+      exce<lb ed="#R" n="54" break="no"/>pta prima substantia. Hoc declaratur, quia 
+      lo<lb ed="#R" n="55" break="no"/>quendo de prima forma, non est aliud, formam 
+      <lb ed="#R" n="56"/>vniri materiae, quam ipsam effectum suum 
+      com<lb ed="#R" n="57" break="no"/>municare materiae, &amp; esse exigitiuum 
+      postrema<lb ed="#R" n="58" break="no"/>rum perfectionum ipsius materiae, vt dicatur 
+      si<lb ed="#R" n="59" break="no"/>bi vniri participatiue: sicut esse rectum non est 
+      <lb ed="#R" n="60"/>aliud, quam participatio rectitudinis ipsi lineae; 
+      <lb ed="#R" n="61"/>Loquendo autem de forma secundo modo 
+      acce<lb ed="#R" n="62" break="no"/>pta, effectus formalis talis formae non est 
+      partici<lb ed="#R" n="63" break="no"/>patio, &amp; communicatio, siue esse in materia: sed 
+      <lb ed="#R" n="64"/>est communicatio postremarum perfectionum, 
+      <lb ed="#R" n="65"/>non actiue, sed exigitiue, sicut alias dictum est, 
+      <lb ed="#R" n="66"/>sicut dixi de forma triangulari; alias de forma 
+      <!--0094.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>trianguli, quae est causa omnium passionum 
+      <lb ed="#R" n="68"/>trianguli, non subiectiua, &amp; materialis, nec 
+      effi<lb ed="#R" n="69" break="no"/>ciens, sed est causa per modum formae, nec 
+      exi<lb ed="#R" n="70" break="no"/>gitiue, siue exigentis necessario tales proprias 
+      <lb ed="#R" n="71"/>passiones, &amp; ideo respectu talium passionum 
+      <lb ed="#R" n="72"/>dat effectum formalem non participatiue, sed 
+      <lb ed="#R" n="73"/>exigitiue: quia quae sunt in tali materia, sunt 
+      se<lb ed="#R" n="74" break="no"/>cundum exigentiam talis formae: sic membra 
+      <lb ed="#R" n="75"/>Leonis sunt sic disposita, quia sic exigit sorma 
+      <lb ed="#R" n="76"/>eius, &amp; sic intellexit Commentator de substant. 
+      <lb ed="#R" n="77"/>orbis, quod motores orbium coniunguntur 
+      cor<lb ed="#R" n="78" break="no"/>poribus orbium, vt forma. 
+   </p>
+               <p xml:id="olm8ij-f28597-d1e824">
+                  <lb ed="#R" n="79"/>Nunc pono Conclusiones, &amp; Prima est, quod 
+      <lb ed="#R" n="80"/>nulla virtute etiam diuina potest Angelus vniri 
+      <lb ed="#R" n="81"/>materiae, vt forma primo modo dicta. 
+   </p>
+               <p xml:id="olm8ij-f28597-d1e833">
+                  <lb ed="#R" n="82"/>Hanc Conclusionem probo sic. Nulla virtute 
+      <lb ed="#R" n="83"/>potest fieri, vt res, quae est hoc aliquid perfecta 
+      <lb ed="#R" n="84"/>&amp; terminata in natura, fiat purus modus, seu 
+      <lb ed="#R" n="85"/>modificatio, &amp; non hoc aliquid, sed 
+      intermi<lb ed="#R" n="86" break="no"/>nata, &amp; imperfecta ( Hoc enim omnino 
+      in<lb ed="#R" n="87" break="no"/>cludit contradictoria) sed Angelus est res 
+      com<lb ed="#R" n="88" break="no"/>pleta in natura, &amp; est entitas nobilissima in 
+      spe<lb ed="#R" n="89" break="no"/>ciebus vniuersi: ergo. Maiorem declaro.
+      <lb ed="#R" n="90"/>Rectitudo enim est non aliud, quam pura 
+      modi<lb ed="#R" n="91" break="no"/>ficatio, &amp; terminatio lineae, &amp; hoc, quia 
+      quan<lb ed="#R" n="92" break="no"/>titas non habet ex se propriam terminationem, 
+      <lb ed="#R" n="93"/>quia tunc rectitudo fieret ens terminatum suis 
+      <lb ed="#R" n="94"/>terminis, &amp; perfectum in natura. hoc est 
+      omni<lb ed="#R" n="95" break="no"/>no impossibile. Et confirmo. Non enim minus 
+      <lb ed="#R" n="96"/>est impossibile, quod vnum genus conuertatur in 
+      <lb ed="#R" n="97"/>aliud, quam de vna specie, quod conuertatur in aliã: 
+      <lb ed="#R" n="98"/>sed impossibile vnam speciem conuerti in aliam, 
+      <lb ed="#R" n="99"/>sicut quod homo fiat asinus: ergo multo magis 
+      <lb ed="#R" n="100"/>erit impossibile, quod vnum genus fiat aliud ge 
+      <lb ed="#R" n="101"/>nus sub ente, quod esset ens quoddam natura 
+      <lb ed="#R" n="102"/>sua, &amp; hoc aliquid perfectum, &amp; terminatum 
+      fie<lb ed="#R" n="103" break="no"/>ret pars, &amp; modificatio alterius, &amp; per 
+      conse<lb ed="#R" n="104" break="no"/>quens reduceretur ad imperfectum. Minor 
+      au<lb ed="#R" n="105" break="no"/>tem est satis euidens: ergo. 
+   </p>
+               <p xml:id="olm8ij-f28597-d1e889">
+                  <lb ed="#R" n="106"/>Dices, quod non sequeretur, quod Angelus ex 
+      <lb ed="#R" n="107"/>hoc fieret res imperfecta, &amp; interminata, sed pos 
+      <lb ed="#R" n="108"/>set esse res perfecta dans materiae perfectum esse, 
+      <lb ed="#R" n="109"/>&amp; terminatum. 
+   </p>
+               <p xml:id="olm8ij-f28597-d1e900">
+                  <lb ed="#R" n="110"/>Contra: hoc est omnino impossibile, quia 
+      <lb ed="#R" n="111"/>quaero a te: aut forma, quae vnitur materiae, est 
+      <lb ed="#R" n="112"/>mera actuatio, &amp; habeo propositum: aut 
+      actua<lb ed="#R" n="113" break="no"/>tio illa est aliquid derelictum, &amp; quaeram de 
+      il<lb ed="#R" n="114" break="no"/>lo, aut est aliquid absolutum, aut respectiuum; 
+      <lb ed="#R" n="115"/>non absolutum, quia tunc forma per hoc, quod 
+      <lb ed="#R" n="116"/>informaret, causaret aliquid in materia, &amp; sic ma 
+      <lb ed="#R" n="117"/>gis esset efficiens, quam forma, nec est relatiuum, 
+      <lb ed="#R" n="118"/>quia tunc informare non esset aliud, quam 
+      rela<lb ed="#R" n="119" break="no"/>tionem imprimere in materia: ergo. 
+   </p>
+               <p xml:id="olm8ij-f28597-d1e924">
+                  <lb ed="#R" n="120"/>Dices, quod non sequitur ex hoc, quod sit 
+      <lb ed="#R" n="121"/>causa efficiens, quia causa efficiens est a 
+      mate<lb ed="#R" n="122" break="no"/>ria separata. 
+   </p>
+               <p xml:id="olm8ij-f28597-d1e933">
+                  <lb ed="#R" n="123"/>Contra: hoc omnino accidit causae efficienti. 
+      <lb ed="#R" n="124"/>De ratione autem causae efficientis tantum est, 
+      <lb ed="#R" n="125"/>quod aliquid aliud recipiat entitatem aliquam 
+      <lb ed="#R" n="126"/>ab ea. Confirmo, quia si illud esset aliquid abso 
+      <lb ed="#R" n="127"/>lutum, tunc posset Deus separare formam a ma 
+      <lb ed="#R" n="128"/>teria, illo absoluto remanente, &amp; sic esset 
+      effe<lb ed="#R" n="129" break="no"/>ctus formalis sine forma. 
+   </p>
+               <p xml:id="olm8ij-f28597-d1e951">
+                  <lb ed="#R" n="130"/>Secunda Conclusio est haec, quod loquendo 
+      <lb ed="#R" n="131"/>de forma dicta secundo modo, non videtur esse 
+      <lb ed="#R" n="132"/>repugnantia aliqua, quod Angelus fiat forma in 
+      <!--0095.xml-->
+      <pb ed="#R" n="95"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>materia, quia hoc modo Commentator posuit 
+      <lb ed="#R" n="2"/>Intelligentias esse formas corporum caelestium, 
+      <lb ed="#R" n="3"/>quae mouent, tamen posuit eas subsistentes: sed 
+      <lb ed="#R" n="4"/>Theologice loquendo, nunquid secundum 
+      veri<lb ed="#R" n="5" break="no"/>tatem hoc posset Deus facere, dicunt quidam 
+      <lb ed="#R" n="6"/>quod non, quia non essent in completa specie, 
+      <lb ed="#R" n="7"/>eo quod essent pars speciei. Et haec ratio non 
+      <lb ed="#R" n="8"/>valet, quoniam posito quod Angelus hoc 
+      secun<lb ed="#R" n="9" break="no"/>do modo fieret forma materiae, non esset pars 
+      a<lb ed="#R" n="10" break="no"/>licuius speciei; non enim resultaret hoc modo 
+      <lb ed="#R" n="11"/>ex Angelo, &amp; materia numero per se vna in 
+      spe<lb ed="#R" n="12" break="no"/>cie perfecta, culus illa esset pars. Posset ergo 
+      ta<lb ed="#R" n="13" break="no"/>lis ratio assignari secundum mentem vnius 
+      Do<lb ed="#R" n="14" break="no"/>ctoris Subtilis moderni: quia si Angelus hoc mo 
+      <lb ed="#R" n="15"/>do vniretur materiae, talis vnio esset per 
+      depen<lb ed="#R" n="16" break="no"/>dentiam essentialem mutuam, sicut istum modum 
+      <lb ed="#R" n="17"/>imaginantur multi in vnione materiae, &amp; formae, 
+      <lb ed="#R" n="18"/>quod vnio materiae ad formam sit quaedam 
+      in<lb ed="#R" n="19" break="no"/>trinseca dependentia, consimiliter facerent 
+      am<lb ed="#R" n="20" break="no"/>bo vnum secundum essentiam, &amp; hanc vnionem 
+      <lb ed="#R" n="21"/>videntur concessisse Philosophus, &amp; 
+      Commenta<lb ed="#R" n="22" break="no"/>tor de anima nostra, &amp; corpore, sed non quod 
+      <lb ed="#R" n="23"/>talis vnio sit partitio formae. Tunc posset ratio sic 
+      <lb ed="#R" n="24"/>formari, quando aliquid fundat aliquam 
+      rela<lb ed="#R" n="25" break="no"/>tionem respectu alicuius termini non potest fundare 
+      <lb ed="#R" n="26"/>oppositam relationem respectu illius, quam fundat 
+      <lb ed="#R" n="27"/>per quantamcumque virtutem: quia non potest 
+      <lb ed="#R" n="28"/>etiam Deus facere, quod eadem albedo fundet 
+      <lb ed="#R" n="29"/>relationem similitudinis ad aliam albedinem 
+      <lb ed="#R" n="30"/>&amp; dissimilitudinis ad eandem: sed Angelus 
+      sun<lb ed="#R" n="31" break="no"/>dat hodic independentiam in ordine ad 
+      quam<lb ed="#R" n="32" break="no"/>cumque materiam: ergo non potest fundare 
+      de<lb ed="#R" n="33" break="no"/>pendentiam respectu alicuius materiae. Haec 
+      ra<lb ed="#R" n="34" break="no"/>tio non concludit de natura humana respectu 
+      <lb ed="#R" n="35"/>verbi:nam natura humana sibi relicta fundat 
+      in<lb ed="#R" n="36" break="no"/>dependentiam ad quodcumque aliud suppositum: 
+      <lb ed="#R" n="37"/>ergo non poterit fundare dependentiam ad 
+      sup<lb ed="#R" n="38" break="no"/>positum diuinum. Ratio ergo non concludit, 
+      <lb ed="#R" n="39"/>quia independentia est relatio opposita 
+      depen<lb ed="#R" n="40" break="no"/>dentiae: sed inconueniens est, quod aliquid, quod 
+      <lb ed="#R" n="41"/>quantum est ex se, fundat negationem dependen 
+      <lb ed="#R" n="42"/>tiae alicuius naturae per diuinam virtutem, quod 
+      <lb ed="#R" n="43"/>fundet dependentiam, vt patet de natura 
+      huma<lb ed="#R" n="44" break="no"/>na in Verbo. 
+   </p>
+               <p xml:id="olm8ij-f28597-d1e1062">
+                  <lb ed="#R" n="45"/>Alia ratio assignatur, quia si ita esset, aut Deus 
+      <lb ed="#R" n="46"/>praecise imprimeret in esse Angeli relationem, 
+      <lb ed="#R" n="47"/>siue respectum ad materiam, &amp; hoc immediate 
+      <lb ed="#R" n="48"/>aut causaret in eo absolutum, quo mediante 
+      An<lb ed="#R" n="49" break="no"/>gelus fundaret respectum ad materiam, non 
+      po<lb ed="#R" n="50" break="no"/>test dari primus modus, quia tunc motus esset 
+      <lb ed="#R" n="51"/>ad relationem primo, &amp; per se, esset enim motus 
+      <lb ed="#R" n="52"/>ad illam vnionem, quam ponis immediate 
+      im<lb ed="#R" n="53" break="no"/>presam Angelo; si detur secundus modus, 
+      sequi<lb ed="#R" n="54" break="no"/>tur, quod Angelus non per essentiam suam 
+      in<lb ed="#R" n="55" break="no"/>formet materiam, sed mediante illo absoluto: non 
+      <lb ed="#R" n="56"/>ergo Angelus vniretur vt forma, sed absolutum 
+      <lb ed="#R" n="57"/>illud, vt ponis. 
+   </p>
+               <p xml:id="olm8ij-f28597-d1e1094">
+                  <lb ed="#R" n="58"/>Haec ratio si valeat, aeque valet ad probandum, 
+      <lb ed="#R" n="59"/>quod Deus non potest naturam humanam vnire 
+      <lb ed="#R" n="60"/>diuino supposito. 
+   </p>
+               <p xml:id="olm8ij-f28597-d1e1103">
+                  <lb ed="#R" n="61"/>Alia ratio est fortior, quia non videtur, quod 
+      <lb ed="#R" n="62"/>posset aliquod corpus ingeminari exigitiue ad 
+      <lb ed="#R" n="63"/>essentiam Michaelis, vel alterius Angeli, ita quod 
+      <lb ed="#R" n="64"/>tale corpus, &amp; eius postremae perfectiones essent 
+      <lb ed="#R" n="65"/>exigitiue a natura ipsius Angeli. Hoc 
+      proba<lb ed="#R" n="66" break="no"/>tur, quia Angelus quilibet habet perfectiones 
+      <!--0095.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>suas, &amp; proprietates in se omni alio 
+      circumscri<lb ed="#R" n="68" break="no"/>pto, ita quod non exigit perfectiones alias 
+      in<lb ed="#R" n="69" break="no"/>alio, siue cum alio; aut ergo hodie habet illam 
+      <lb ed="#R" n="70"/>naturam, quae exigat perfectiones aliquas cum 
+      <lb ed="#R" n="71"/>aliquo, quas non habet in se, &amp; si sic, hodie est 
+      <lb ed="#R" n="72"/>vnibilis, imo alias esset vnitus, alias tota 
+      multi<lb ed="#R" n="73" break="no"/>tudo Angelorum careret perfectione aliqua, quam 
+      <lb ed="#R" n="74"/>exigit secundum naturam, &amp; esset imperfecta, 
+      <lb ed="#R" n="75"/>non habens omnem suam perfectionem, quam 
+      <lb ed="#R" n="76"/>exigit in alio, &amp; simul cum illo: aut hodie non 
+      <lb ed="#R" n="77"/>habet talem naturam, &amp; habeo propositum, quod 
+      <lb ed="#R" n="78"/>per naturam suam hodie caret tali virtute: ergo 
+      <lb ed="#R" n="79"/>Deus non potest Angelum vnire materiae manen 
+      <lb ed="#R" n="80"/>te eadem natura, quae est hodie. Per hoc ad 
+      ar<lb ed="#R" n="81" break="no"/>gumentum in oppositum patet, includit enim 
+      <lb ed="#R" n="82"/>contradictionem, quia mutaretur natura in 
+      na<lb ed="#R" n="83" break="no"/>turam. 
+   </p>
+            </div>
+            <div xml:id="olm8ij-f28597-Dd1e1161">
+               <head xml:id="olm8ij-f28597-Hd1e1163">Articulus 3</head>
+               <head xml:id="olm8ij-f28597-Hd1e1165" type="question-title">
+      Utrum Angelus moueas corpora per intellectum &amp; voluntatem
+    </head>
+               <p xml:id="olm8ij-f28597-d1e1168">
+                  <lb ed="#R" n="84"/>ARTJCVLVS III. 
+      <lb ed="#R" n="85"/>Vtrum Angelus moueas corpora per intellectum 
+      <lb ed="#R" n="86"/>&amp; voluntatem. 
+   </p>
+               <p xml:id="olm8ij-f28597-d1e1177">
+                  <lb ed="#R" n="87"/>AD tertiam quaestionem arguo primo, quod 
+      <lb ed="#R" n="88"/>Angelus mouet corpora per intellectum 
+      <lb ed="#R" n="89"/>&amp; voluntatem, quia non minoris potentiae est 
+      <lb ed="#R" n="90"/>Angelus in mouendo, quam sit anima separata, 
+      <lb ed="#R" n="91"/>si non sit corpori coniuncta: sed mouet per intelle 
+      <lb ed="#R" n="92"/>ctum, &amp; voluntatem: ergo. Probo minorem 
+      <lb ed="#R" n="93"/>per Commentatorem, vbi dicit quod appetitus, 
+      <lb ed="#R" n="94"/>&amp; intellectus mouent, &amp; dicit ibi, quod in 
+      mo<lb ed="#R" n="95" break="no"/>uendo sunt vnum mouens. Praeterea, Actus 
+      ge<lb ed="#R" n="96" break="no"/>nere differentes reducuntur ad potentias genere 
+      <lb ed="#R" n="97"/>differentes: sed intelligere, &amp; velle ex vna parte, 
+      <lb ed="#R" n="98"/>&amp; mouere ex alia, sunt actus genere differentes, 
+      <lb ed="#R" n="99"/>quia intelligere, &amp; velle sunt actus vitales, 
+      mo<lb ed="#R" n="100" break="no"/>uere non: ergo. 
+  </p>
+               <p xml:id="olm8ij-f28597-d1e1210">
+                  <lb ed="#R" n="101"/>Respondeo primo, pono vnam propositionem, 
+      <lb ed="#R" n="102"/>quod in nobis potentia motiua est alia a potentia 
+      <lb ed="#R" n="103"/>intellectiua, &amp; voluntate. Hoc dico propter 
+      opi<lb ed="#R" n="104" break="no"/>nionem quandam, quae dicit, quod potentia motiua 
+      <lb ed="#R" n="105"/>ad locum non est nisi intellectus ipse, &amp; voluntas, in 
+      <lb ed="#R" n="106"/>quantum ambo integrant rationem vnius 
+      prin<lb ed="#R" n="107" break="no"/>cipij mouentis, quod confirmant per Arist. vbi 
+      <lb ed="#R" n="108"/>qua supra, &amp; Commentatorē. Dicit ergo haec opi 
+      <lb ed="#R" n="109"/>nio, quod motus corporis ad locum potest esse 
+      <lb ed="#R" n="110"/>immediate ab anima, per intellectum &amp; 
+      volun<lb ed="#R" n="111" break="no"/>tatem absque alia potentia, &amp; uidetur prima 
+      fa<lb ed="#R" n="112" break="no"/>cie opinio esse rationalis, quia in motu 
+      volunta<lb ed="#R" n="113" break="no"/>rio videtur, quod voluntas, &amp; intellectus 
+      mo<lb ed="#R" n="114" break="no"/>ueant immediate secundum quendam ordinem, 
+      <lb ed="#R" n="115"/>ita quod potentia motiua sit immutabilis, quae 
+      <lb ed="#R" n="116"/>immediate exequitur motum, tamen motus eius 
+      <lb ed="#R" n="117"/>reducitur immediate ad voluntatem, vt ad 
+      po<lb ed="#R" n="118" break="no"/>tentiam motiuam primam, ita quod desiderium 
+      <lb ed="#R" n="119"/>est causa motus non tantum per imperium, sed 
+      <lb ed="#R" n="120"/>causando motum secundum talem ordinem, ita 
+      <lb ed="#R" n="121"/>quod sicut causatur habitus per volitionem, ita 
+      <lb ed="#R" n="122"/>causatur motus localis, &amp; ita videtur 
+      dicere<lb ed="#R" n="123" break="no"/>de causa motus animalium, quod desiderium 
+      <lb ed="#R" n="124"/>est virtus motiua in loco, &amp; Commentator in 
+      <lb ed="#R" n="125"/>suo Colliget, &amp; dicit, quod in separatis a 
+      mate<lb ed="#R" n="126" break="no"/>ria non sunt de potentijs animae nisi duae, 
+      intelle<lb ed="#R" n="127" break="no"/>ctus scilicet &amp; desiderium, quae mouent in loco. 
+      <lb ed="#R" n="128"/>Sic ergo videtur, quod secundum 
+      Commentato<lb ed="#R" n="129" break="no"/>rem &amp; Philosophum, quod voluntas suo actu 
+      <!--0096.xml-->
+      <pb ed="#R" n="96"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>causaret primo motum in potentia motiua, quae 
+      <lb ed="#R" n="2"/>est in articulis subiectiue, &amp; illa respicit motum 
+      <lb ed="#R" n="3"/>passiue, ita quod potentia motiua brachiorum 
+      <lb ed="#R" n="4"/>quando mouetur non elicit motum brachiorum, 
+      <lb ed="#R" n="5"/>sed illud, quod elicit est voluntas, non quidem 
+      <lb ed="#R" n="6"/>imperando, sed vere causando. 
+   </p>
+               <p xml:id="olm8ij-f28597-d1e1296">
+                  <lb ed="#R" n="7"/>Sed quia non puto quod opinio sit vera, nec 
+      <lb ed="#R" n="8"/>de mente Aristotelis, &amp; Commentatoris, vt 
+      pu<lb ed="#R" n="9" break="no"/>to. Ideo ponô oppositam propositionem, quam 
+      <lb ed="#R" n="10"/>probo primo sic: accipio quod idem sit motus 
+      <lb ed="#R" n="11"/>naturalis, &amp; voluntarius, quod possibile est etiam 
+      <lb ed="#R" n="12"/>de facto, sicut motus palpebrarum &amp; cordis, qui 
+      <lb ed="#R" n="13"/>est respirare. Potes enim voluntarie respirare, 
+      <lb ed="#R" n="14"/>&amp; tamen cogeris necessario respirare: Sunt 
+      ta<lb ed="#R" n="15" break="no"/>men quidam motus omnino motorij, quidam 
+      <lb ed="#R" n="16"/>autem non. Nunc ostendo, quod motus ille qui 
+      <lb ed="#R" n="17"/>est naturalis, &amp; cum hoc etiam voluntarius non 
+      <lb ed="#R" n="18"/>sit a vo luntate immediate, sic: Cessante potentia 
+      <lb ed="#R" n="19"/>agere, cessat necessario effectus, qui attribuitur 
+      <lb ed="#R" n="20"/>illi potentiae: sed cessante intellectu, desiderio, &amp; 
+      <lb ed="#R" n="21"/>imaginatione non cessat motus respirationis, 
+      <lb ed="#R" n="22"/>nec palpebrarum: ergo. 
+   </p>
+               <p xml:id="olm8ij-f28597-d1e1333">
+                  <lb ed="#R" n="23"/>Item primo Ethic. in fine dicit Arist. quod 
+      <lb ed="#R" n="24"/>virtus motiua est inobediens intellectui, &amp; 
+      vo<lb ed="#R" n="25" break="no"/>luntati, sicut patet in paralyticis, &amp; comparat 
+      il<lb ed="#R" n="26" break="no"/>lam potentiam motiuam appetitui continentis. 
+      <lb ed="#R" n="27"/>Tunc sic: impossibile est quod potentia eliciat actum 
+      <lb ed="#R" n="28"/>&amp; quod actus ille non sit in eius obedientia, siue 
+      <lb ed="#R" n="29"/>sit totaliter, siue principaliter eliciens. 
+   </p>
+               <p xml:id="olm8ij-f28597-d1e1351">
+                  <lb ed="#R" n="30"/>Item dicit Philosophus, quod operationes 
+      in<lb ed="#R" n="31" break="no"/>tellectus &amp; vo luntatis sunt fines, ita quod ab 
+      ip<lb ed="#R" n="32" break="no"/>sis non sunt alia operata. Item, potentia 
+      moti<lb ed="#R" n="33" break="no"/>ua ponit obiectum suum in esse reali, ponit enim 
+      <lb ed="#R" n="34"/>motum: sed potentia intellectiua siue volitiua 
+      <lb ed="#R" n="35"/>non ponit sic obiectum in esse reali: ex hoc 
+      <lb ed="#R" n="36"/>enim, quod res est volita, vel intellecta non 
+      ha<lb ed="#R" n="37" break="no"/>bet res, quod sit posita in esse reali: ergo. 
+   </p>
+               <p xml:id="olm8ij-f28597-d1e1371">
+                  <lb ed="#R" n="38"/>Propter solutionem autem auctoritatum 
+      Phi<lb ed="#R" n="39" break="no"/>losophi, &amp; Commentatoris, quae videntur esse 
+      <lb ed="#R" n="40"/>ad oppositum, sciendum est, quod ad actum, quo 
+      <lb ed="#R" n="41"/>homo mouetur ad locum, concurrunt necessario 
+      <lb ed="#R" n="42"/>tres potentiae. Vna est per modum dirigentis, 
+      <lb ed="#R" n="43"/>&amp; haec est intellectus; altera vero per modum 
+      <lb ed="#R" n="44"/>determinationis imperatiue; alia vero per 
+      mo<lb ed="#R" n="45" break="no"/>dum exequentis, quae quidem subiectiue est 
+      in<lb ed="#R" n="46" break="no"/>musculis, &amp; determinatur ad exercitum actus 
+      <lb ed="#R" n="47"/>per voluntatem. Tales enim potentiae motiuae 
+      <lb ed="#R" n="48"/>de se sunt indeterminatae secundum Philosophum, 
+      <lb ed="#R" n="49"/>&amp; ideo oportet, quod determinentur, ad hoc, quod 
+      <lb ed="#R" n="50"/>eliciant actus suos. Et sic intelligitur Arist. &amp; 
+      Con<lb ed="#R" n="51" break="no"/>mentator, quod intellectus &amp; voluntas sunt 
+      cau<lb ed="#R" n="52" break="no"/>sae suae motionis. 
+   </p>
+               <p xml:id="olm8ij-f28597-d1e1406">
+                  <lb ed="#R" n="53"/>Secunda Propositio est, quod in substantijs 
+      ab<lb ed="#R" n="54" break="no"/>stractis &amp; separatis, non solum est potentia 
+      in<lb ed="#R" n="55" break="no"/>tellectiua, &amp; volitiua, sed potentia motiua in 
+      <lb ed="#R" n="56"/>loco. hoc patet per Commentatorem de substan. 
+      <lb ed="#R" n="57"/>orb. tract. 1. &amp; 12. metaph. commen. 36. &amp; 37. 
+      <lb ed="#R" n="58"/>Et potest ratio formari ex intentione eius, quia 
+      <lb ed="#R" n="59"/>substantia intellectualis in eo quod substantia 
+      <lb ed="#R" n="60"/>intellectualis est, habet desiderium: sed vnde habet 
+      <lb ed="#R" n="61"/>desiderium, habet, quod habeat virtutem 
+      moti<lb ed="#R" n="62" break="no"/>uam ad locum: ergo. Maior patet, quia omnem 
+      <lb ed="#R" n="63"/>apprehensionem sequitur desiderium. Minor 
+      <lb ed="#R" n="64"/>patet, quia desiderium est ad vniendum cum suo 
+      <lb ed="#R" n="65"/>desiderato: ad huius autem vnionem 
+      requiri<lb ed="#R" n="66" break="no"/>tur necessario actus motionis: ergo. Vnde in om 
+      <!--0096.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>nibus substantijs sese mouentibus sunt illa tria, &amp; 
+      <lb ed="#R" n="68"/>secundum quod apprehensio, siue imaginatio est 
+      <lb ed="#R" n="69"/>perfectior, vel imperfectior, sic desiderium, &amp; 
+      <lb ed="#R" n="70"/>motus sunt proportionaliter perfectiora, si 
+      au<lb ed="#R" n="71" break="no"/>tem aliqua haberent desiderium, &amp; non 
+      habe<lb ed="#R" n="72" break="no"/>rent virtutem motiuam, qua possent consequi 
+      <lb ed="#R" n="73"/>desideratum, illud esset semper imperfectum, &amp; 
+      <lb ed="#R" n="74"/>natura fecisset aliquid frustra, &amp; deficeret in 
+      ne<lb ed="#R" n="75" break="no"/>cessarijs: ergo. Ex ijs ergo quae dicta sunt, 
+      con<lb ed="#R" n="76" break="no"/>cluditur, quod in substantijs separatis sit aliqua 
+      <lb ed="#R" n="77"/>potentia motiua. 
+   </p>
+               <p xml:id="olm8ij-f28597-d1e1467">
+                  <lb ed="#R" n="78"/>Nunc ponam tertiam propositionem, quod 
+      <lb ed="#R" n="79"/>haec potentia motiua non est ipsum desiderium, 
+      <lb ed="#R" n="80"/>&amp; volitio, cum Angelus moueat praecise per 
+      in<lb ed="#R" n="81" break="no"/>tellectum, &amp; voluntatem. Hoc dico propter 
+      di<lb ed="#R" n="82" break="no"/>ctum quorundam, qui dicunt, quod sicut 
+      intelle<lb ed="#R" n="83" break="no"/>ctionem sequitur immediate volitio, quam 
+      im<lb ed="#R" n="84" break="no"/>primit in voluntate, sic volitionem sequitur 
+      im<lb ed="#R" n="85" break="no"/>mediate positio obiecti voliti, vt sic, quando 
+      An<lb ed="#R" n="86" break="no"/>gelus vult tale, quod statim ponatur in effectu a 
+      <lb ed="#R" n="87"/>voluntate eliciente. Et hunc modum dicendi ful 
+      <lb ed="#R" n="88"/>ciunt, quia Arist. &amp; Commentator non ponunt 
+      <lb ed="#R" n="89"/>in separatis, nisi duas potentias, intellectum 
+      sci<lb ed="#R" n="90" break="no"/>licet, &amp; voluntatem; sed in nobis concedunt, quod 
+      <lb ed="#R" n="91"/>est alia, &amp; alia potentia. Hanc conclusionem 
+      <lb ed="#R" n="92"/>non puto veram, ideo posui oppositam 
+      proposi<lb ed="#R" n="93" break="no"/>tionem, quam probo primo per articulum 
+      ex<lb ed="#R" n="94" break="no"/>communicatum Parisijs, qui dicit, quod 
+      Ange<lb ed="#R" n="95" break="no"/>lus mouet per intellectum, &amp; voluntatem 
+      con<lb ed="#R" n="96" break="no"/>trarium, est error.
+   </p>
+               <p xml:id="olm8ij-f28597-d1e1512">
+                  <lb ed="#R" n="97"/>Item secundo arguo sic, quia si motio in loco, 
+      <lb ed="#R" n="98"/>qua Angelus mouet corpus, esset a volitione, aut 
+      <lb ed="#R" n="99"/>esset a volitione, vt est imperium nullo 
+      exequen<lb ed="#R" n="100" break="no"/>te, aut vt est imperium illamet exequente; vel 
+      <lb ed="#R" n="101"/>tertio vt est imperium aliquo exequente. Primus 
+      <lb ed="#R" n="102"/>modus est impossibilis, videlicet, quod motus 
+      <lb ed="#R" n="103"/>fiat nullo exequente; nec secundus modus, quia 
+      <lb ed="#R" n="104"/>velle voluntatis nihil aliud est quam imperium, 
+      <lb ed="#R" n="105"/>puta volo, quod festuca moueatur, non est autem 
+      <lb ed="#R" n="106"/>idem imperium, &amp; executio: ergo. Quod autem 
+      <lb ed="#R" n="107"/>non sit idem imperium, &amp; executio, patet, quia 
+      <lb ed="#R" n="108"/>tunc voluntas super seipsam, vt exequens est, 
+      <lb ed="#R" n="109"/>erit actiua, &amp; passiua, similiter &amp; mouens, &amp; 
+      mo<lb ed="#R" n="110" break="no"/>ta, quod est impossibile. Nec tertium, quod 
+      exe<lb ed="#R" n="111" break="no"/>cutio sit a mobili illo, quoniam tunc idem 
+      mo<lb ed="#R" n="112" break="no"/>ueret se: ergo oportet necessario dicere, quod 
+      <lb ed="#R" n="113"/>potentia exequens sit alia a volitione, &amp; mobili. 
+      <lb ed="#R" n="114"/>Confirmatur, quia alias actus voluntatis esset 
+      <lb ed="#R" n="115"/>productiuus, quod falsum est. Ad argumentum 
+      <lb ed="#R" n="116"/>patet, quid dicendum sit, &amp; ad auctoritates etiam 
+      <lb ed="#R" n="117"/>Philosophi patet, quomodo sunt exponendae. 
+   </p>
+            </div>
+            <div xml:id="olm8ij-f28597-Dd1e1562">
+               <head xml:id="olm8ij-f28597-Hd1e1564">Articulus 4</head>
+               <head xml:id="olm8ij-f28597-Hd1e1566" type="question-title">
+      Utrum Angelus in corporibus assumptis possit exercere opera vitae
+    </head>
+               <p xml:id="olm8ij-f28597-d1e1569">
+                  <lb ed="#R" n="118"/>ARTJCVLVS IV. 
+      <lb ed="#R" n="119"/>Vtrum Angelus in corporibus assumptis possit 
+      <lb ed="#R" n="120"/>exercere opera vitae. 
+   </p>
+               <p xml:id="olm8ij-f28597-d1e1578">
+                  <lb ed="#R" n="121"/>AD quartam quaestionem respondeo, 
+      quan<lb ed="#R" n="122" break="no"/>
+                  <!-- line coord error -->
+                  <lb ed="#R" n="123"/>tum ad opera vitae, quae reducuntur ad 
+      po<lb ed="#R" n="124" break="no"/>tentiam motiuam, dico quod non. Ratio 
+      bre<lb ed="#R" n="125" break="no"/>uis, quia Angelus non potest imprimere formas: 
+      <lb ed="#R" n="126"/>sed omnes operationes, quae non profluunt a 
+      po<lb ed="#R" n="127" break="no"/>tentia, quae est motiua in loco, fiunt per 
+      impres<lb ed="#R" n="128" break="no"/>sionem: ergo. Minor patet de potentia 
+      vegeta<lb ed="#R" n="129" break="no"/>tiua, cuius actus sunt digerere, nutrire, &amp; 
+      aug<lb ed="#R" n="130" break="no"/>mentare. Omnes enim istae operationes sunt 
+      <!--0097.xml-->
+      <pb ed="#R" n="97"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>improsuiue formarum: similiter patet de 
+      opera<lb ed="#R" n="2" break="no"/>tionibus sensitiuis approhensiuis, &amp; appetitiuis, 
+      <lb ed="#R" n="3"/>quae non suntaliud, quam receptiones formarum.
+  </p>
+               <p xml:id="olm8ij-f28597-d1e1617">
+                  <lb ed="#R" n="4"/>Secunda ratio est ista. Nul la forma potest 
+      <lb ed="#R" n="5"/>exercere operatimes uas in corpore nisi cui v. 
+      <lb ed="#R" n="6"/>niatur vt forma, vel cominunicatiue, 
+      participati<lb ed="#R" n="7" break="no"/>ue, vel exigitiue. Hanc distitictionem in praecet 
+      <lb ed="#R" n="8"/>demibus declarani. Sed. Angelus, nec sic, nec 
+      <lb ed="#R" n="9"/>su potest vniri porpori, vt ibidem probatum est: 
+      <lb ed="#R" n="10"/>ergo. 
+   </p>
+               <p xml:id="olm8ij-f28597-d1e1636">
+                  <lb ed="#R" n="11"/>Ex hoc infero, quod licet Angelus posset in 
+      <lb ed="#R" n="12"/>affumptie corporibur quantum ad vegetatiuam, 
+      <lb ed="#R" n="13"/>cibum tenere, &amp; ad rentrem transuittare, non 
+      <lb ed="#R" n="14"/>cumen potest comedem nam comedere vltra ista 
+      <lb ed="#R" n="15"/>includit digestionem fiuri in dentibus, vel 
+      sto<lb ed="#R" n="16" break="no"/>mathos digestioiautum est curruptio 
+      praeceden<lb ed="#R" n="17" break="no"/>ti fortae, scilicet alimendi, &amp; alterius noua gene 
+      <lb ed="#R" n="18"/>Eonsimiliter eioo quond generatiuam, quod 
+      <lb ed="#R" n="19"/>non potest generare, potest tamen mediante po- 
+      <!--0097.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="20"/>tentia motiua ad locum succubus, semen maris 
+      <lb ed="#R" n="21"/>recipere, &amp; portare fouendo ipsum in 
+      qualitati<lb ed="#R" n="22" break="no"/>bus suis, &amp; postea incumbus fieri, &amp; tunc per 
+      <lb ed="#R" n="23"/>applicationem actiui ad passiuum potest 
+      gene<lb ed="#R" n="24" break="no"/>ratio vera fieri, &amp; hoc ministerio suo. Vnde &amp; 
+      <lb ed="#R" n="25"/>ille nouit complexiones hominum, &amp; mulierum, 
+      <lb ed="#R" n="26"/>&amp; constellationes, &amp; virtutes stellarum, &amp; 
+      cor<lb ed="#R" n="27" break="no"/>porum superiorum, &amp; ideo potest accipere 
+      se<lb ed="#R" n="28" break="no"/>men maris proportionatum menstruo mulieris, 
+      <lb ed="#R" n="29"/>&amp; tantum, secundum tantam virtutem, vt 
+      deue<lb ed="#R" n="30" break="no"/>niat ad tantam quantitatem, &amp; qualitatem, &amp; 
+      <lb ed="#R" n="31"/>potest illud ponere in materia mulieris ad hoc 
+      <lb ed="#R" n="32"/>proportionatae, &amp; in debita influentia 
+      constella<lb ed="#R" n="33" break="no"/>tionis debite aspicientis illum effectum, &amp; hoc 
+      <lb ed="#R" n="34"/>modo sunt generati Gigantes aliqui, &amp; aliqui 
+      in<lb ed="#R" n="35" break="no"/>telligentes, &amp; subtiles, vt dicitur de Merlino. 
+   </p>
+               <p xml:id="olm8ij-f28597-d1e1697">
+                  <lb ed="#R" n="36"/>Quantum vero ad potentias sensitiuas, 
+      non<lb ed="#R" n="37" break="no"/>possunt causare sensationes, possunt tamen motum 
+      <lb ed="#R" n="38"/>fauere in potentijs secundum species varias, &amp; 
+      <lb ed="#R" n="39"/>hoc modo causare visiones, &amp; illusiones, &amp;c. 
+   </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

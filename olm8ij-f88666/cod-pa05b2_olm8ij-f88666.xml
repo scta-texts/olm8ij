@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-05">April 05, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b2">Roma 1605, Book 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="288"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-f88666"><!-- l2d34-prae -->
+            <head xml:id="olm8ij-f88666-Hd1e101">Praeambulum</head>
+            <p xml:id="olm8ij-f88666-d1e103">
+      <!--0288.xml-->
+               <cb ed="#R" n="c"/>
+               <lb ed="#R" n="78"/>DISTINCTIO XXXIV. 
+      <lb ed="#R" n="79"/>DE TRANSFVSIONE 
+      <lb ed="#R" n="80"/>PRJMA PARENTVM 
+      <lb ed="#R" n="81"/>IN FILIOS. 
+   </p>
+            <p xml:id="olm8ij-f88666-d1e119">
+               <lb ed="#R" n="82"/>Praedictis adijciendum est &amp;c. In ista Distinctione xxxiiij. in genere occasionaliter 
+      <lb ed="#R" n="83"/>quaerit de transfusione peccati parentum in filios, &amp; hoc vt clarius elucescat, 
+      quo<lb ed="#R" n="84" break="no"/>modo peccatum originale a parentibus traducatur in filios. Et quia non videtur, 
+      <lb ed="#R" n="85"/>quod peccatum aliquod possit traduci a parentibus in filios, nisi sit aliqua 
+      for<lb ed="#R" n="86" break="no"/>ma, quae traducatur a parentibus ad filios, ideo quaero ad euidentiam pleniorem 
+      <lb ed="#R" n="87"/>circa hoc duas Quaestiones. Prima est: Vtrum peccata parentum possint transi- 
+      <!--0289.xml-->
+      <pb ed="#R" n="289"/>
+               <cb ed="#R" n="a"/>
+               <lb ed="#R" n="1"/>re in filios. Secunda est: Vtrum caro hominis traducatur a parentibus, sicut 
+      ca<lb ed="#R" n="2" break="no"/>ro aliorum animalium. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

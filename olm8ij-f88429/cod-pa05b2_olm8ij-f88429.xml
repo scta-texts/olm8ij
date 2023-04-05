@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-05">April 05, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b2">Roma 1605, Book 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="287"/>
+            <cb ed="#R" n="d"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-f88429"><!-- l2d33-q1 -->
+            <head xml:id="olm8ij-f88429-Hd1e101">Quaestio 1</head>
+            <p xml:id="olm8ij-f88429-d1e103">
+               <lb ed="#R" n="83"/>QVAESTIO VNICA. 
+      <!--0287.xml-->
+      <cb ed="#R" n="d"/>
+               <lb ed="#R" n="84"/>1 Primo. Vtrum decedentes cum peccato 
+      <lb ed="#R" n="85"/>originali puniantur paena sensus. 
+      <!--0287.xml-->
+      <cb ed="#R" n="e"/>
+               <lb ed="#R" n="86"/>2 Secundo: Qualis est status decedentium 
+      <lb ed="#R" n="87"/>cum peccato originali.
+   </p>
+            <div xml:id="olm8ij-f88429-Dd1e125">
+               <head xml:id="olm8ij-f88429-Hd1e127">Articulus 1</head>
+               <head xml:id="olm8ij-f88429-Hd1e129" type="question-title">
+      Utrum decendentes cum peccato originali puniantur poena sensus
+    </head>
+               <p xml:id="olm8ij-f88429-d1e132">
+      <!--0288.xml-->
+                  <pb ed="#R" n="288"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>ARTJCVLVS J. 
+      <lb ed="#R" n="2"/>Vtrum decendentes cum peccato originali 
+      pu<lb ed="#R" n="3" break="no"/>niantur paena sensus. 
+   </p>
+               <p xml:id="olm8ij-f88429-d1e148">
+                  <lb ed="#R" n="4"/>DE primo est communis 
+      <lb ed="#R" n="5"/>Ecclesiae sententia, quod 
+      <lb ed="#R" n="6"/>sicut non habuerunt 
+      ex<lb ed="#R" n="7" break="no"/>perientiam 
+      delectatio<lb ed="#R" n="8" break="no"/>nis in peccato actuali, 
+      <lb ed="#R" n="9"/>sic non experiantur 
+      pae<lb ed="#R" n="10" break="no"/>nam affligentem, &amp; 
+      tri<lb ed="#R" n="11" break="no"/>stitiam actualem. Sed du 
+      <lb ed="#R" n="12"/>bia sunt hic aliqua. 
+      Pri<lb ed="#R" n="13" break="no"/>mum est de dicto Augustini. Secundo, quia 
+      vi<lb ed="#R" n="14" break="no"/>detur, quod sciunt vitam aliam esse beatam, 
+      <lb ed="#R" n="15"/>quam tamen sciunt se non habere, &amp; tamen 
+      in<lb ed="#R" n="16" break="no"/>clinantur naturaliter ad habere illam. Ad ista, ad 
+      <lb ed="#R" n="17"/>primum dico, quod Augustinus est ibi 
+      glosan<lb ed="#R" n="18" break="no"/>dus, accipit enim ibi ignem aeternum, pro 
+      qua<lb ed="#R" n="19" break="no"/>cumque paena damnati, quae est aeterna; siue per 
+      <lb ed="#R" n="20"/>ignem illum intelligit tenebras aeternas: ex quo 
+      <lb ed="#R" n="21"/>patet, quod illud quod dixerat, quod omnes, qui 
+      <lb ed="#R" n="22"/>nascuntur ex concubitu maris, &amp; faeminae, 
+      om<lb ed="#R" n="23" break="no"/>nes nascuntur in peccato: non concludit 
+      bea<lb ed="#R" n="24" break="no"/>tam Virginem natam fuisse cum originali, alias, 
+      <lb ed="#R" n="25"/>sequeretur, quod nullus posset excludi. Pari 
+      ra<lb ed="#R" n="26" break="no"/>tione erit, cum dicitur, quod omnes 
+      deceden<lb ed="#R" n="27" break="no"/>tes in illo puniuntur aeternis ignibus, &amp; tunc non 
+      <lb ed="#R" n="28"/>sunt exclusi paruuli. 
+   </p>
+            </div>
+            <div xml:id="olm8ij-f88429-Dd1e206">
+               <head xml:id="olm8ij-f88429-Hd1e208">Articulus 2</head>
+               <head xml:id="olm8ij-f88429-Hd1e210" type="question-title">
+      Qualis est status decedentium cum peccato originali
+    </head>
+               <p xml:id="olm8ij-f88429-d1e213">
+                  <lb ed="#R" n="29"/>ARTJCVLVS JJ. 
+      <lb ed="#R" n="30"/>Qualis est status decedentium cum 
+      pecca<lb ed="#R" n="31" break="no"/>to originali. 
+   </p>
+               <p xml:id="olm8ij-f88429-d1e222">
+                  <lb ed="#R" n="32"/>AD secundum, est valde difficile, dicunt 
+      qui<lb ed="#R" n="33" break="no"/>
+                  <!-- line coord error -->
+                  <lb ed="#R" n="34"/>dam, quod erunt in tenebris, &amp; nihil scient 
+      <lb ed="#R" n="35"/>de gloria paradisi. Contra, quia animae eorum 
+      <lb ed="#R" n="36"/>non grauantur a corpore: ergo sunt magis prae- 
+      <!--0288.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="37"/>ditae scientia, quam nos. Alij dicunt, quod 
+      ap<lb ed="#R" n="38" break="no"/>prehendunt illam sibi improportionatam; 
+      secun<lb ed="#R" n="39" break="no"/>dum autem rectam rationem nullus dolere 
+      de<lb ed="#R" n="40" break="no"/>bet de carentia boni non potentis ei competere, 
+      <lb ed="#R" n="41"/>sicut ego non doleo, quia non sum Rex 
+      Fran<lb ed="#R" n="42" break="no"/>ciae. Sed contra; imo videtur, quod gloria fuerit 
+      <lb ed="#R" n="43"/>eis proportionabilis: &amp; si non per naturam, vel 
+      <lb ed="#R" n="44"/>meritum proprium, tamen per gratiam 
+      sacra<lb ed="#R" n="45" break="no"/>mentalem: vnde videbunt vitam gloriae compe. 
+      <lb ed="#R" n="46"/>tere quibusdam per solam gratiam, &amp; 
+      sacramen<lb ed="#R" n="47" break="no"/>tum, quare non dolebunt se illam gratiam non 
+      <lb ed="#R" n="48"/>habuisse. Alij dicunt, quod in eo non dolebunt, 
+      <lb ed="#R" n="49"/>quia gloriam illam non amiserunt propria 
+      cul<lb ed="#R" n="50" break="no"/>pa. Sed contra: Si regnum auferretur Regi 
+      sine<lb ed="#R" n="51" break="no"/>culpa, multo magis doleret, quam si auferretur 
+      <lb ed="#R" n="52"/>ei cum culpa: quod idem videtur in proposito, ex 
+      <lb ed="#R" n="53"/>quo(si superuixissent) poterant peruenire. Respon 
+      <lb ed="#R" n="54"/>deo dico, quod dolor quidam est essentialis, qui 
+      <lb ed="#R" n="55"/>est datus a Deo in paenam, &amp; talem dolorem 
+      <lb ed="#R" n="56"/>non experientur, talis enim est aeternus. Alius 
+      <lb ed="#R" n="57"/>deinde est dolor voluntarie assumptus: &amp; tamen 
+      <lb ed="#R" n="58"/>non video, quare non possint per momenta 
+      tem<lb ed="#R" n="59" break="no"/>poris sic tristari; nec video, quare repugnat eis 
+      <lb ed="#R" n="60"/>dolor, nisi forte illo in quo assistit miseria 
+      dam<lb ed="#R" n="61" break="no"/>natorum. Videtur ergo, quod quando 
+      cogita<lb ed="#R" n="62" break="no"/>bunt actualiter, tunc dolebunt, &amp; sicut non erunt 
+      <lb ed="#R" n="63"/>in continua cogitatione de illa carentia, sic non 
+      <lb ed="#R" n="64"/>erunt in continuo dolore. Potest etiam dici, 
+      <lb ed="#R" n="65"/>quod in voluntate eorum erit dolere, &amp; non 
+      do<lb ed="#R" n="66" break="no"/>lere: ideo non curo de hoc. 
+  </p>
+               <p xml:id="olm8ij-f88429-d1e307">
+                  <lb ed="#R" n="67"/>Quantum ad secundum Articulum de eorum 
+      <lb ed="#R" n="68"/>situ, audiui aliquos dicentes, quod tota terra erit 
+      <lb ed="#R" n="69"/>eis sub situ, alias essent incarcerati, quod est 
+      pae<lb ed="#R" n="70" break="no"/>na magna sensus; vnde dicunt, quod ibunt 
+      cir<lb ed="#R" n="71" break="no"/>cumquaque, vt vadunt per terram totam, &amp; 
+      ac<lb ed="#R" n="72" break="no"/>quirunt magnam notitiam de rebus creatis, 
+      so<lb ed="#R" n="73" break="no"/>latiando, congaudendo, &amp; spatiando, ac de 
+      re<lb ed="#R" n="74" break="no"/>bus disputando; sed quia quaestio ista non quaerit 
+      <lb ed="#R" n="75"/>possibile. Sed factum, &amp; ad hoc non habetur 
+      ex<lb ed="#R" n="76" break="no"/>pressa auctoritas, ideo nihil determino quoad 
+      <lb ed="#R" n="77"/>praesens.
+  </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

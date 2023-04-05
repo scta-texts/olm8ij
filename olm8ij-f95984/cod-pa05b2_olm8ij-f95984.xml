@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-05">April 05, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b2">Roma 1605, Book 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="313"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-f95984"><!-- l2d41-prae -->
+            <head xml:id="olm8ij-f95984-Hd1e101">Praeambulum</head>
+            <p xml:id="olm8ij-f95984-d1e103">
+      <!--0313.xml-->
+               <cb ed="#R" n="c"/>
+               <lb ed="#R" n="13"/>DISTINCTIO XXXXI 
+      <lb ed="#R" n="14"/>DE ACTJBVS 
+      <lb ed="#R" n="15"/>JNFJDELJVM.
+  </p>
+            <p xml:id="olm8ij-f95984-d1e116">
+               <lb ed="#R" n="16"/>In ista xx xxj. distinctione Magister quaerit specialiter de actibus infidelium: Vtrum 
+      <lb ed="#R" n="17"/>possint esse indifferente s ad malum. Jdeo quaero conformiter: Vtrum omnis 
+      <lb ed="#R" n="18"/>actus infidelium sit in eis peccatum. Sine argumentis respondeo, quod actus 
+      il<lb ed="#R" n="19" break="no"/>le, qui procedit ex infidelitate, est in eis peccatum, non alij. Primum patet, 
+      secun<lb ed="#R" n="20" break="no"/>dum probo, quia cum possint elicere actum moralem bonum ex virtute, 
+      seque<lb ed="#R" n="21" break="no"/>retur, quod actus virtutis nullo alio addito posset esse deiformis. Dices, quod 
+      du<lb ed="#R" n="22" break="no"/>bium supponitur hic, scilicet, quod actus infidelis possit esse virtuosus. Respondeo 
+      <lb ed="#R" n="23"/>circa hoc est altercatio inter Doctores. Quidam enim dicunt quod in infidelibus 
+      <lb ed="#R" n="24"/>nullus actus potest esse virtuosus, quia non agunt propter finem debitum, qui est 
+      <lb ed="#R" n="25"/>finis vltimus, &amp; ideo deficit in actibus eorum circunstantia principalis. haec 
+      vi<lb ed="#R" n="26" break="no"/>detur esse intentio Augustini, vbi dicit, quod nulli datur bene viuere, nisi detur 
+      <lb ed="#R" n="27"/>semper viuere: ergo nullus secundum eum bene viuit, nisi faciat actum, cui 
+      de<lb ed="#R" n="28" break="no"/>beatur vita aeterna. 
+  </p>
+            <p xml:id="olm8ij-f95984-d1e147">
+               <lb ed="#R" n="29"/>Sed in oppositum videtur, quia liber Ethicorum tractat de veris virtutibus, &amp; 
+      ta<lb ed="#R" n="30" break="no"/>men non ponit faelicitatem in vita aeterna. Secundo, quia Romani exponebant se 
+      <lb ed="#R" n="31"/>morti pro republica, non propter aliam vitam, &amp; tamen videtur, quod agerent 
+      <lb ed="#R" n="32"/>actum fortitudinis, qui est virtus. Confirmatur, quia Aristoteles 3. Ethicorum 
+      di<lb ed="#R" n="33" break="no"/>cit, quod fortis exponit se morti, propter liberandum ciuitatem. Respondeo: Aliud est 
+      <lb ed="#R" n="34"/>actum esse virtuosum virtuositate perfecta primo modo, aliud secundo modo: Dico 
+      <lb ed="#R" n="35"/>quod infidelis potest habere actum virtuosum, quia circunstantijs omnibus 
+      debi<lb ed="#R" n="36" break="no"/>tis inesse actui secundum dictamen rectae rationis, quod sufficiebat 
+      Philoso<lb ed="#R" n="37" break="no"/>pho ad hoc, quod actus esset virtuosus; sicut potest infidelis elicere actum 
+      ta<lb ed="#R" n="38" break="no"/>lem, quando oportet, sicut oportet, &amp; praefigere finem debitum, puta 
+      liberatio<lb ed="#R" n="39" break="no"/>nem ciuitatis, sicut dicit Aristoteles 3. &amp; 9 Ethicorum, nec in tali actu videtur 
+      <lb ed="#R" n="40"/>esse malitia, nec defectus bonitatis alicuius moralis. Sed accipiendo bonitatem 
+      <lb ed="#R" n="41"/>moralem secundo modo, sic dico, quod nullus actus est perfecte bonus, nisi sit 
+      <lb ed="#R" n="42"/>ordinatus ad finem vltimum; nec infidelis hoc modo potest actus suos referre 
+      <lb ed="#R" n="43"/>debite ad Deum: ergo actus sic perfecte bonus non potest esse inter infideles, &amp; 
+      <lb ed="#R" n="44"/>hoc modo loquitur Augustinus. 
+  </p>
+         </div>
+      </body>
+   </text>
+</TEI>

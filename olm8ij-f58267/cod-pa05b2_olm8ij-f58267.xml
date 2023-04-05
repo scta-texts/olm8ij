@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-05">April 05, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b2">Roma 1605, Book 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="186"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-f58267"><!-- l2d14-q1 -->
+            <head xml:id="olm8ij-f58267-Hd1e101">Quaestio 1</head>
+            <p xml:id="olm8ij-f58267-d1e103">
+      <!--0186.xml-->
+               <cb ed="#R" n="b"/>
+               <lb ed="#R" n="14"/>1 Verum secundum sententiam Aristotelis, 
+      <lb ed="#R" n="15"/>&amp; Commentatoris sui caelum sit natura simplex 
+      <lb ed="#R" n="16"/>non composita ex materia, &amp; forma. 
+      <lb ed="#R" n="17"/>2 Vtrum ponere caelum esse naturam 
+      simpli<lb ed="#R" n="18" break="no"/>cem &amp; non compositam ex materia, &amp; forma, 
+      re<lb ed="#R" n="19" break="no"/>pugnet auctoritatibus sacrae Scripturae, &amp; 
+      Docto<lb ed="#R" n="20" break="no"/>rum Catholicorum. 
+   </p>
+            <div xml:id="olm8ij-f58267-Dd1e125">
+               <head xml:id="olm8ij-f58267-Hd1e127">Articulus 1</head>
+               <head xml:id="olm8ij-f58267-Hd1e129" type="question-title">
+      Utrum secundum sententiam Aristotelis, &amp; 
+      Commentatoris sui calum sit natura 
+      simplex non composita ex 
+      materia, &amp; forma
+    </head>
+               <p xml:id="olm8ij-f58267-d1e132">
+                  <lb ed="#R" n="21"/>ARTJCVLVS J. 
+      <lb ed="#R" n="22"/>Vtrum secundum sententiam Aristotelis, &amp; 
+      <lb ed="#R" n="23"/>Commentatoris sui calum sit natura 
+      <lb ed="#R" n="24"/>simplex non composita ex 
+      <lb ed="#R" n="25"/>materia, &amp; forma. 
+   </p>
+               <p xml:id="olm8ij-f58267-d1e145">
+                  <lb ed="#R" n="26"/>QVANTVM ad 
+      pri<lb ed="#R" n="27" break="no"/>mum arguo primo, quod 
+      <lb ed="#R" n="28"/>secundum sententiam 
+      <lb ed="#R" n="29"/>Aristotelis 8. metaph. 
+      <lb ed="#R" n="30"/>ponenda est materia in 
+      <lb ed="#R" n="31"/>caelo, quia ille dicit, 
+      <lb ed="#R" n="32"/>quod corruptibilium, 
+      <lb ed="#R" n="33"/>&amp; incorruptibilium 
+      <lb ed="#R" n="34"/>non est eadem 
+      mate<lb ed="#R" n="35" break="no"/>ria: ergo videtur, quod in quibusdam 
+      incorru<lb ed="#R" n="36" break="no"/>ptibilibus ponenda est materia; sed hoc 
+      maxi<lb ed="#R" n="37" break="no"/>me videtur de caelo, nullum enim incorruptibile se 
+      <lb ed="#R" n="38"/>cundum Philos videtur esse materia le, ficut 
+      cae<lb ed="#R" n="39" break="no"/>lum: ergo. 
+   </p>
+               <p xml:id="olm8ij-f58267-d1e178">
+                  <lb ed="#R" n="40"/>Confirmatur, quia 2. de cael. &amp; mund. dicit: Cum 
+      <lb ed="#R" n="41"/>dico hoc caelum: dico ergo in hoc caelo 
+      demon<lb ed="#R" n="42" break="no"/>strato, de quo quaestio quaerit, videtur ponenda es 
+      <lb ed="#R" n="43"/>se materia. 
+   </p>
+               <p xml:id="olm8ij-f58267-d1e190">
+                  <lb ed="#R" n="44"/>In oppositum est Commentator de substan. or 
+      <lb ed="#R" n="45"/>bis, &amp; 1. physicorum, vbi expresse negat 
+      mate<lb ed="#R" n="46" break="no"/>riam in caelo. 
+   </p>
+               <p xml:id="olm8ij-f58267-d1e199">
+                  <lb ed="#R" n="47"/>Respondeo ad euidentiam huius quaestionis 
+      <lb ed="#R" n="48"/>primo praemittam propositiones aliquas, quae te 
+      <lb ed="#R" n="49"/>nendae sunt secundum viam Philosophorum 
+      de<lb ed="#R" n="50" break="no"/>ipso caelo. Secundo inferam ex eis aliquas alias 
+      <lb ed="#R" n="51"/>propositiones, scilicet quae ab eis immobiliter te 
+      <lb ed="#R" n="52"/>nebantur.
+   </p>
+               <p xml:id="olm8ij-f58267-d1e215">
+      <!--0186.xml-->
+                  <cb ed="#R" n="c"/>
+                  <lb ed="#R" n="53"/>Quantum ad primum pono primo propositio 
+      <lb ed="#R" n="54"/>nem illam ad propositum principale, quod 
+      Phi<lb ed="#R" n="55" break="no"/>losophus, &amp; Commentator senserunt, Caelum esse 
+      <lb ed="#R" n="56"/>formam simplicem, siue naturam non compositam 
+      <lb ed="#R" n="57"/>ex materia, &amp; forma substantiali.
+   </p>
+               <p xml:id="olm8ij-f58267-d1e233">
+                  <lb ed="#R" n="58"/>Hanc propositionem probo primo per <ref xml:id="olm8ij-f58267-Rd1e237">
+      Philo<lb ed="#R" n="59" break="no"/>sophum 8. metaph.</ref> vbi dicit, quod 
+      transmutatio<lb ed="#R" n="60" break="no"/>nem substantialem sequuntur transmutationes 
+      <lb ed="#R" n="61"/>aliae: alia m vero transmutationem non oportet, 
+      <lb ed="#R" n="62"/>quod sequatur transmutatio substantialis, &amp; ideo 
+      <lb ed="#R" n="63"/>concludit, quod non est necesse, quod illud, quod 
+      <lb ed="#R" n="64"/>habet materiam ad vbi, habeat materiam, quae est 
+      <lb ed="#R" n="65"/>subiectum generationis: innuens ibi, quod 
+      cor<lb ed="#R" n="66" break="no"/>pus caeleste nullo modo habeat materiam de 
+      ge<lb ed="#R" n="67" break="no"/>nere substantiae, vbi dicit Commentator com. 4. 
+      <lb ed="#R" n="68"/>Jdeo videns, quod corpus caeleste non 
+      corrumpi<lb ed="#R" n="69" break="no"/>tur ex materia, quae est in potentia, &amp; forma, quae 
+      <lb ed="#R" n="70"/>est in actu. Secundo idem patet ex illo Philosophi 
+      <lb ed="#R" n="71"/>7. metaph. Dico autem materiam, per quam res 
+      <lb ed="#R" n="72"/>potest esse, &amp; non esse: sed caelum non habet poten 
+      <lb ed="#R" n="73"/>tiam, per quam poffit esse, &amp; non esse, cum sit cor 
+      <lb ed="#R" n="74"/>ruptibile vt apparet: ergo. 
+   </p>
+               <p xml:id="olm8ij-f58267-d1e275">
+                  <lb ed="#R" n="75"/>Tertio per illud 8. metaph. vbi dicit, quod 
+      ea<lb ed="#R" n="76" break="no"/>dem est potentia contrariorum, siue contradicto 
+      <lb ed="#R" n="77"/>riorum, &amp; per hoc subdit ibi: Impossibile est, quod 
+      <lb ed="#R" n="78"/>in aeternis sit potentia, nisi ad vbi. Dicit Commen 
+      <lb ed="#R" n="79"/>tator com. 7. quod in talibus corporibus non est 
+      <lb ed="#R" n="80"/>potentia ad corruptionem: ergo nec ad fatigatio 
+      <lb ed="#R" n="81"/>nem: ergo. 
+   </p>
+               <p xml:id="olm8ij-f58267-d1e293">
+                  <lb ed="#R" n="82"/>Jdem apparet ex dictis <ref xml:id="olm8ij-f58267-Rd1e297">Commmentatoris 1. 
+      <lb ed="#R" n="83"/>de cael &amp; mundo com. 5.</ref> Primum est vbi infert, 
+     <lb ed="#R" n="84"/>
+                  <quote xml:id="olm8ij-f58267-Qd1e304" source="http://scta.info/resource/juh67y-d1e53-d1e1111@225-239">quod si corpus caeleste sit compositum ex 
+      mate<lb ed="#R" n="85" break="no"/>ria, &amp; forma, contingat sit generabile, &amp; 
+      corru<lb ed="#R" n="86" break="no"/>ptibile</quote>, &amp; infra: <quote xml:id="olm8ij-f58267-Qd1e311" source="http://scta.info/resource/juh67y-d1e53-d1e1111@413-428">ille locus est fortior omnium 
+      lo<lb ed="#R" n="87" break="no"/>corum lacientium errare, quod corpus caeleste 
+      <lb ed="#R" n="88"/>est compositum ex materia, &amp; forma</quote>. 
+   </p>
+               <p xml:id="olm8ij-f58267-d1e320">
+                  <lb ed="#R" n="89"/>Item <ref xml:id="olm8ij-f58267-Rd1e324">idem 1. c. &amp; in com. 10.</ref> dicit. <quote xml:id="olm8ij-f58267-Qd1e326" source="http://scta.info/resource/juh67y-d1e53-d1e4231@72-209">Ex hoc bene 
+      <lb ed="#R" n="90"/>apparet, quod corpus caeli non est compositum 
+      <lb ed="#R" n="91"/>ex materia, &amp; forma, sed est simplex sorma; 
+      for<lb ed="#R" n="92" break="no"/>mae enim, quae sunt in materia, contrariae sunt: &amp; 
+      <lb ed="#R" n="93"/>si esset forma in materia sine contrario, tunc 
+      na<lb ed="#R" n="94" break="no"/>tura otiose egisset, cum in illa materia non sit ali 
+      <!--0187.xml-->
+      <pb ed="#R" n="187"/>
+                     <cb ed="#R" n="a"/>
+                     <lb ed="#R" n="1"/>qua potentia omnino. Si enim substantia mate 
+      <lb ed="#R" n="2"/>tiae est in potentia, &amp; fieret aliqua materia in ali 
+      <lb ed="#R" n="3"/>qua potentia, cum potentia nunquam exit ad actum 
+      <lb ed="#R" n="4"/>illa omnino est otiosa, &amp; superflua. Nam si non 
+      <lb ed="#R" n="5"/>esset generatio, &amp; corruptio, non stabit 
+      opera<lb ed="#R" n="6" break="no"/>tio istius virtutis, scilicet potentia. Operatio 
+      <lb ed="#R" n="7"/>nistius potentiae, quae est ex ea, sicut abscissio ex 
+      <lb ed="#R" n="8"/>acumine gladii, est generatio, &amp; corruptio: ergo 
+      <lb ed="#R" n="9"/>si illa potentia esset sine generatione, &amp; 
+      corruptio<lb ed="#R" n="10" break="no"/>ne continne, quod aliquid erit ens sine sua 
+      actio<lb ed="#R" n="11" break="no"/>ne, propter quod fuit ens, quod est impossibile</quote>. 
+   </p>
+               <p xml:id="olm8ij-f58267-d1e371">
+                  <lb ed="#R" n="12"/>Item dicit, quod si totum esset naturale, 
+      con<lb ed="#R" n="13" break="no"/>tingit, quod esset compositum ex materia, &amp; 
+      for<lb ed="#R" n="14" break="no"/>ma, quia generabile, &amp; corruptibile. &amp; infra 
+      <lb ed="#R" n="15"/>dicit: quod propter hoc corpus caeleste caret po 
+      <lb ed="#R" n="16"/>tentia omnino, &amp; in com. 49. dicit: Et si corpora 
+      <lb ed="#R" n="17"/>caelestia essent eadem genere, vt plura sunt, essent 
+      <lb ed="#R" n="18"/>composita ex materia, &amp; forma diuersis, &amp; si ita 
+      <lb ed="#R" n="19"/>esset, essent ingenerabilia, &amp; incorruptibilia. 
+   </p>
+               <p xml:id="olm8ij-f58267-d1e391">
+                  <lb ed="#R" n="20"/>Item de cael. &amp; mund com. 95. dicit, quod 
+      cor<lb ed="#R" n="21" break="no"/>pus neutrum caret subiecto, idest contrarietate. 
+      <lb ed="#R" n="22"/>&amp; infra dicit, quod corpus caeleste non est 
+      mate<lb ed="#R" n="23" break="no"/>ria, &amp; aliquid habens formam, quoniam si ita 
+      es<lb ed="#R" n="24" break="no"/>fet, esset graue, &amp; leue. 
+   </p>
+               <p xml:id="olm8ij-f58267-d1e404">
+                  <lb ed="#R" n="25"/>Item de substantia orbis etiam dicit idem, ait 
+      <lb ed="#R" n="26"/>enim ibi, quod corpus caeleste, est simplex non 
+      <lb ed="#R" n="27"/>compositum ex sui materia, &amp; forma. &amp; infra: 
+      <lb ed="#R" n="28"/>Dicamus ergo, quod illud corpus non 
+      componi<lb ed="#R" n="29" break="no"/>tur materia, &amp; forma, nulla enim potentia est in 
+      <lb ed="#R" n="30"/>eo omnino. Omne enim, in quo est potentia, quae 
+      <lb ed="#R" n="31"/>est in substantia, potentia illa est ad duo, &amp; 
+      breui<lb ed="#R" n="32" break="no"/>ter istum libellum videtur edidisse pro 
+      intentio<lb ed="#R" n="33" break="no"/>ne illa. Vnde dicit, quod haec natura sci licet 
+      cor<lb ed="#R" n="34" break="no"/>pus caeleste, caret potentia omnino; &amp; hoc 
+      am<lb ed="#R" n="35" break="no"/>plius declarabitur in libro de substantia orbis. 
+      <lb ed="#R" n="36"/>Haec ille. 
+     </p>
+               <p xml:id="olm8ij-f58267-d1e433">
+                  <lb ed="#R" n="37"/>Secunda propositio, quam sensit Philosophus 
+      <lb ed="#R" n="38"/>de substantia caeli, &amp; Commentator eam 
+      expres<lb ed="#R" n="39" break="no"/>sius explicat, est, quod caelum habeat 
+      dimensio<lb ed="#R" n="40" break="no"/>nes terminatas tantum, ita, quod in eo non sunt 
+      <lb ed="#R" n="41"/>dimenfiones interminatae, quod quidem declarat 
+      <lb ed="#R" n="42"/>ex tribus. Primo, quia corpus hoc non 
+      susci<lb ed="#R" n="43" break="no"/>pit magis, &amp; minus, nec varietatem in suis 
+      di<lb ed="#R" n="44" break="no"/>mensionibus stante eadem forma; sicut vinum 
+      <lb ed="#R" n="45"/>eadem forma rarefit per ebullitionem, &amp; dum quie 
+      <lb ed="#R" n="46"/>scit, fiunt eius dimensiones minores, &amp; haec varietas 
+      <lb ed="#R" n="47"/>arguit, quod in vino non sunt dimensiones 
+      sim<lb ed="#R" n="48" break="no"/>plices, &amp; in actu tantum, imo interminate, &amp; in 
+      <lb ed="#R" n="49"/>potentia, &amp; ideo potest variari ab vna 
+      dimen<lb ed="#R" n="50" break="no"/>sione in aliam, quod tamen in corpore caeli fit 
+      <lb ed="#R" n="51"/>impossibile: ergo. Imaginatur enim, quod sicut 
+      <lb ed="#R" n="52"/>imposibile est triangulum non habere tres, sic 
+      <lb ed="#R" n="53"/>est impossibile caelum in suis dimensionibus 
+      va<lb ed="#R" n="54" break="no"/>riari: Vnde Commentator de substantia orbis 
+      <lb ed="#R" n="55"/>quasi in 1. dicit, quod si aliqua forma non recipit 
+      <lb ed="#R" n="56"/>magis, &amp; minus, manifestum est, quod in subie- 
+   </p>
+               <p xml:id="olm8ij-f58267-d1e479">
+                  <lb ed="#R" n="57"/>cto eius non existunt dimensiones prius, &amp; ita, 
+      <lb ed="#R" n="58"/>quod cum fuit declaratum apud Aristotelem, 
+      <lb ed="#R" n="59"/>quod corpora caelestia non sunt generabilia, &amp; 
+      <lb ed="#R" n="60"/>corruptibilia, negauit in eis subiectum recipiens 
+      <lb ed="#R" n="61"/>dimensiones per existentiam simplicium 
+      dimen<lb ed="#R" n="62" break="no"/>sionum. &amp; infra: Corpora caelestia non retinent 
+      <lb ed="#R" n="63"/>formas mediantibus dispositionibus in eis 
+      exi<lb ed="#R" n="64" break="no"/>stentibus, potentia scilicet non terminate, sicut 
+      <lb ed="#R" n="65"/>est de dimensionibus existentibus in prima 
+      ma<lb ed="#R" n="66" break="no"/>teria cum formis ipsius materiae, sed dimensio- 
+      <!--0187.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>nes, quae sunt in corpore caelesti, sunt proprium 
+      <lb ed="#R" n="68"/>eius. 
+   </p>
+               <p xml:id="olm8ij-f58267-d1e513">
+                  <lb ed="#R" n="69"/>Secundo declarat idem ex hoc, quod idem 
+      <lb ed="#R" n="70"/>corpus est ingenerabile, &amp; incorruptibile. 
+      Cor<lb ed="#R" n="71" break="no"/>ruptio enim est in corporibus pro eo, quod 
+      in<lb ed="#R" n="72" break="no"/>eis est materia habens dimensiones 
+      intermina<lb ed="#R" n="73" break="no"/>tas: poterit capere diuersas terminationes, &amp; 
+      <lb ed="#R" n="74"/>transferri de dimensione propria formae aeris ad 
+      <lb ed="#R" n="75"/>dimensiones sibi oppositas, &amp; proprias formae 
+      <lb ed="#R" n="76"/>ignis. Si enim non posset capere nisi dimensiones 
+      <lb ed="#R" n="77"/>proprias aeris, aer esset incorruptibilis, Vnde 
+      <lb ed="#R" n="78"/>dicit Commentatur circa principium, quod 
+      ma<lb ed="#R" n="79" break="no"/>teria nunquam denudatur a dimensionibus 
+      in<lb ed="#R" n="80" break="no"/>terminatis, &amp; hoc est proprium sensui, sicut in 
+      <lb ed="#R" n="81"/>materia de dimensionibus interminatis allegaui. 
+      <lb ed="#R" n="82"/>Videmus enim, quod quando qualitas aeris agit 
+      <lb ed="#R" n="83"/>in aquam, incipit aqua augeri, &amp; crescere in dimen 
+      <lb ed="#R" n="84"/>sionibus aeris, cum itaq. peruenerit ad magnam 
+      <lb ed="#R" n="85"/>quantitatem, tunc subiectum denudatur a 
+      for<lb ed="#R" n="86" break="no"/>ma aquae, &amp; a dimensionibus proprijs formae 
+      <lb ed="#R" n="87"/>aquae, &amp; recipiet formam aeris. &amp; infra: &amp; 
+      cau<lb ed="#R" n="88" break="no"/>sa istius est: quia subiectum recipit dimensiones, 
+      <lb ed="#R" n="89"/>sed potentia recipiens dimensionem non est nisi in 
+      <lb ed="#R" n="90"/>potentia, &amp; ratio huius est, quia si non essent 
+      di<lb ed="#R" n="91" break="no"/>mensiones in potentia, non posset forma illa cor 
+      <lb ed="#R" n="92"/>rumpi, quia nec dimensiones separari alias 
+      cor<lb ed="#R" n="93" break="no"/>pus, transiret in non corpus, &amp; corpus succedens 
+      <lb ed="#R" n="94"/>fieret ex non corpore, quod est impossibile. 
+   </p>
+               <p xml:id="olm8ij-f58267-d1e572">
+                  <lb ed="#R" n="95"/>Tertio declarat idem ex prima propositione, 
+      <lb ed="#R" n="96"/>dimensio enim interminata est propria passio ma 
+      <lb ed="#R" n="97"/>teriae in caelo, in quo nulla est materia. 
+   </p>
+               <p xml:id="olm8ij-f58267-d1e581">
+                  <lb ed="#R" n="98"/>Tertia propositio, quam Aristot. &amp; 
+      Commen<lb ed="#R" n="99" break="no"/>tator senserunt de caelo, est, quod ipsum non est 
+      <lb ed="#R" n="100"/>intelligibile in suo vltimo actu, &amp; completo, siue 
+      <lb ed="#R" n="101"/>in vltima sui perfectione, quae est operatio, nisi in 
+      <lb ed="#R" n="102"/>ordine ad formam, quae est motor eius; licet possit 
+      <lb ed="#R" n="103"/>intelligi in actu primo, quoniam est ens actu 
+      <lb ed="#R" n="104"/>in actu primo, siue illa forma, non in actu 
+      secun<lb ed="#R" n="105" break="no"/>do, &amp; haec sunt verba Commentatoris 2. de caelo, 
+      <lb ed="#R" n="106"/>&amp; mundo com. 97. cum ait. Dicamus ergo, quod 
+      <lb ed="#R" n="107"/>illa natura non est existens in actu per formam, 
+      <lb ed="#R" n="108"/>sed materia corporis caelestis est in actu, &amp; loqui 
+      <lb ed="#R" n="109"/>tur ibi de forma abstracta, &amp; subdit. Si ergo 
+      illa<lb ed="#R" n="110" break="no"/>materia non fuerit composita, non habebit, vt sit 
+      <lb ed="#R" n="111"/>intellecta, sed est vna numero indiuiduata per se, 
+      <lb ed="#R" n="112"/>sed est intellecta in respectu ad aliud. &amp; subdit, 
+      <lb ed="#R" n="113"/>quod corpus caeleste non operatur, nisi in 
+      quan<lb ed="#R" n="114" break="no"/>tum est subiectum formae. Item etiam sequitur: 
+      Di<lb ed="#R" n="115" break="no"/>camus ergo intelligere de hac natura caelesti, 
+      <lb ed="#R" n="116"/>quod est subiectum intellectus, non quod sit 
+      ali<lb ed="#R" n="117" break="no"/>quod habens formam, vel materiam. haec 
+      Com<lb ed="#R" n="118" break="no"/>mentator. 
+   </p>
+               <p xml:id="olm8ij-f58267-d1e629">
+                  <lb ed="#R" n="119"/>Quarta vero propositio, quam Aristot. &amp; Com 
+      <lb ed="#R" n="120"/>mentator posuerunt de isto corpore, est, quod ac 
+      <lb ed="#R" n="121"/>cidentia, quae videntur esse contraria ei, &amp; istis 
+      <lb ed="#R" n="122"/>inferioribus, dicuntur de eo aequiuoce, &amp; de istis 
+      <lb ed="#R" n="123"/>inferioribus vel secundum prius, &amp; posterius, 
+      <lb ed="#R" n="124"/>aequiuoce, quaedam caliditas, &amp; frigiditas 
+      di<lb ed="#R" n="125" break="no"/>cuntur de ipso, &amp; inferioribus, &amp; vniuersaliter 
+      <lb ed="#R" n="126"/>qualitates actiuae, &amp; passiuae. Quod enim illae 
+      <lb ed="#R" n="127"/>qualitates aequiuoce dicantur de eo, &amp; istis 
+      infe<lb ed="#R" n="128" break="no"/>rioribus probant primo, quia non videntur 
+      cale<lb ed="#R" n="129" break="no"/>facere nisi per motum, sicut testimonium dat Ari 
+      <lb ed="#R" n="130"/>stoteles de sagitta mota, &amp; est demonstratio 
+      eo<lb ed="#R" n="131" break="no"/>rum: &amp; quia in omni motu est deuenire ad primum 
+      <lb ed="#R" n="132"/>mouens non motum in illo genere: ergo in gene- 
+      <!--0188.xml-->
+      <pb ed="#R" n="188"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>re alterationis est necessari o deuenire ad 
+      pri<lb ed="#R" n="2" break="no"/>mum inalteratum: sed caliditas, quae est in istis 
+      <lb ed="#R" n="3"/>inserioribus, est qualitas passiua, quae sequitur al 
+      <lb ed="#R" n="4"/>terationem: ergo qualitas eiusdem rationis non 
+      <lb ed="#R" n="5"/>potest esse in eo, quod est primum alterans, alias 
+      <lb ed="#R" n="6"/>esset alteratum, &amp; has deductiones ponit 
+      Com<lb ed="#R" n="7" break="no"/>mentator de substantia orbis parum vltra 
+      me<lb ed="#R" n="8" break="no"/>dium.
+   </p>
+               <p xml:id="olm8ij-f58267-d1e686">
+                  <lb ed="#R" n="9"/>Adhuc autem accidentia, quae sunt eiusdem 
+      <lb ed="#R" n="10"/>rationis in caelo, &amp; in inferioribus dicuntur de 
+      <lb ed="#R" n="11"/>eis secundum prius, &amp; posterius: diaphaneitas 
+      ete<lb ed="#R" n="12" break="no"/>nim, &amp; densitas, &amp; luminositas est eiusdem 
+      ra<lb ed="#R" n="13" break="no"/>tionis in eis, in corporibus quidem caelestibus non 
+      <lb ed="#R" n="14"/>a mixtione, sed dyaphano simplici. Corpus enim 
+      <lb ed="#R" n="15"/>caeleste est diaphanum, &amp; lucidum: in illo vero 
+      <lb ed="#R" n="16"/>loco, vbi apparet magis lucidum, vbi scilicet sunt 
+      <lb ed="#R" n="17"/>stellae non est admixtio corporis ignei, &amp; diaphani 
+      <lb ed="#R" n="18"/>simpliciter cum corpore denso, quasi corpus den 
+      <lb ed="#R" n="19"/>sum sit aliud a corpore luminoso, sicut est in 
+      <lb ed="#R" n="20"/>istis inferioribus. ignis enim non lucet in sphera 
+      <lb ed="#R" n="21"/>sua, sed tantum, cum admiscetur corpori denso: 
+      <lb ed="#R" n="22"/>in stella vero nou est aliud corpus dyaphanum a 
+      <lb ed="#R" n="23"/>corpore denso, sed in illa forma est admixtio 
+      <lb ed="#R" n="24"/>partium orbis, siue congregatio, qua congre. 
+      <lb ed="#R" n="25"/>gatione lux stellae resultat, &amp; ideo stellae 
+      om<lb ed="#R" n="26" break="no"/>nes sunt eiusdem rationis cum toto orbe suo: 
+      <lb ed="#R" n="27"/>nec sicut luminosum a non luminoso, cum 
+      to<lb ed="#R" n="28" break="no"/>tus orbis sit luminosus; sed differunt, sicut 
+      lu<lb ed="#R" n="29" break="no"/>minosum, quod aspectum terminare non potest, 
+      <lb ed="#R" n="30"/>&amp; luminosum densum, &amp; aggregatum, quod 
+      po<lb ed="#R" n="31" break="no"/>test aspectum terminare. Similis aggregatio est 
+      <lb ed="#R" n="32"/>intelligenda in parte illa, in qua est galaxia, 
+      li<lb ed="#R" n="33" break="no"/>cet minor. quam in astris. Cum ergo lux 
+      proue<lb ed="#R" n="34" break="no"/>niens ex admixtione duorum corporum, sit 
+      imper<lb ed="#R" n="35" break="no"/>sectior luce illa, quae prouenit ex admixtione 
+      <lb ed="#R" n="36"/>simplicis corporis diaphani patet, quod lux 
+      dici<lb ed="#R" n="37" break="no"/>tur perfectius de luce caelesti. Haec omnia dicit Con 
+      <lb ed="#R" n="38"/>mentator, vbi allegatus est supra. 
+   </p>
+               <p xml:id="olm8ij-f58267-d1e754">
+                  <lb ed="#R" n="39"/>Secundo principaliter infero ex dictis 
+      quae<lb ed="#R" n="40" break="no"/>dam, Primum est, quod natura caeli non est 
+      for<lb ed="#R" n="41" break="no"/>ma, hoc probat Commentator sic: Jlla natura, 
+      <lb ed="#R" n="42"/>quae ex se determinat sibi extremas, siue 
+      postre<lb ed="#R" n="43" break="no"/>mas perfectiones suas, nec motum, nec figuram, 
+      <lb ed="#R" n="44"/>nec aliud huiusmodi, sed determinationē ad 
+      ta<lb ed="#R" n="45" break="no"/>lia habet ex coniunctione cum alio, ideo non est 
+      <lb ed="#R" n="46"/>forma, de natura enim formae est, quod sit in 
+      <lb ed="#R" n="47"/>actu, &amp; determinet materiam, &amp; largiatur per 
+      <lb ed="#R" n="48"/>modum exigentis, &amp; determinantis accidentia, 
+      <lb ed="#R" n="49"/>&amp; proprietates: eo modo, quo anima leonis 
+      fa<lb ed="#R" n="50" break="no"/>cit exigitiue, quod membra eius sunt talis quan 
+      <lb ed="#R" n="51"/>titatis, &amp; figurae, &amp; sic disposita, &amp; 
+      vniuersali<lb ed="#R" n="52" break="no"/>ter largitur corpori leonis omnes proprias dispo 
+      <lb ed="#R" n="53"/>sitiones, licet non effectiue, tamen per modum 
+      <lb ed="#R" n="54"/>formae determinantis illa. Sed natura caeli non 
+      <lb ed="#R" n="55"/>determinat proprietates suas, &amp; perfectiones 
+      <lb ed="#R" n="56"/>postremas: natura enim caeli, in quantum 
+      huius<lb ed="#R" n="57" break="no"/>modi non determinat sibi tantam quantitatem, 
+      <lb ed="#R" n="58"/>corpus enim, in quantum corpus, non habet ex se 
+      <lb ed="#R" n="59"/>quod sit tantum, vel tantum, maius, vel minus: 
+      <lb ed="#R" n="60"/>Determinatio enim entium naturalium ad certam 
+      <lb ed="#R" n="61"/>quantitatem est per animam. Vnde 2. de anima 
+      <lb ed="#R" n="62"/>omnium natura constantium inanimatorum est 
+      <lb ed="#R" n="63"/>terminus augmenti. Vnde lapis, siue ignis, vel 
+      <lb ed="#R" n="64"/>quodcunque aliud tale corpus ex se nullam 
+      ha<lb ed="#R" n="65" break="no"/>bet certam quantitatem: ergo &amp; corpus solis, vel 
+      <lb ed="#R" n="66"/>lunae, &amp; sic de alijs, quod sit tantae quantitatis de- 
+      <!--0188.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>terminatae, hoc non habet ex natura corporea 
+      <lb ed="#R" n="68"/>Similiter corpus caeli non determinauit sibi figu 
+      <lb ed="#R" n="69"/>ram, in quantum talis natura corporalis est. 
+      Vn<lb ed="#R" n="70" break="no"/>de Commentator dicit, quod nullum corpus ha 
+      <lb ed="#R" n="71"/>bet propriam figuram, sine qua esse non possit cor 
+      <lb ed="#R" n="72"/>pus animatum, Vnde anima quaelibet 
+      determi<lb ed="#R" n="73" break="no"/>nat figuram certam sui corporis, sine qua non 
+      <lb ed="#R" n="74"/>potest esse: facias enim bouem longum, sicut 
+      ser<lb ed="#R" n="75" break="no"/>pentem, statim amittet esse bouis: similiter non 
+      <lb ed="#R" n="76"/>posset esse serpens quadratus, quin amittat 
+      na<lb ed="#R" n="77" break="no"/>tura serpentis figuram sibi propriam, sine qua 
+      <lb ed="#R" n="78"/>impossibile est esse. Sic puta rotunditatem non habet 
+      <lb ed="#R" n="79"/>caelum ex propria natura suae entitatis 
+      corpora<lb ed="#R" n="80" break="no"/>lis circumscripta anima, consimiliter non 
+      deter<lb ed="#R" n="81" break="no"/>minat sibi motum circularem: ille enim est 
+      pro<lb ed="#R" n="82" break="no"/>prius animae solius: motus enim naturae 
+      sem<lb ed="#R" n="83" break="no"/>per est ad vnum. Si ergo ignis non haberet ex se 
+      <lb ed="#R" n="84"/>motum proprium eum, qui est sursum, qui est 
+      <lb ed="#R" n="85"/>ei proprius, iam sequitur, quod ignis non est for 
+      <lb ed="#R" n="86"/>ma. Sic in proposito cum caelum sit determinatae 
+      <lb ed="#R" n="87"/>quantitatis in actu, quia in eo non sunt 
+      dimensio<lb ed="#R" n="88" break="no"/>nes interminatae, cum etiam sit figurae rotundae, 
+      <lb ed="#R" n="89"/>&amp; habeat motum circularem, sine quibus 
+      impossibi<lb ed="#R" n="90" break="no"/>le est esse, &amp; talia non determinet sibi per naturam 
+      <lb ed="#R" n="91"/>propriam, circumscripta anima: patet, quod 
+      cae<lb ed="#R" n="92" break="no"/>lum non est forma, cum forma quaelibet se ipsa, omni 
+      <lb ed="#R" n="93"/>alio circumscripto, determinet sibi suas 
+      proprie<lb ed="#R" n="94" break="no"/>tates, &amp; operationes. Hanc rationem tangit Cō 
+      <lb ed="#R" n="95"/>mentator de substantia orb. tract. 2. Hoc idem po 
+      <lb ed="#R" n="96"/>test apparere de aeterna eius permanentia, quam 
+      si<lb ed="#R" n="97" break="no"/>bi non determinat, vt talis natura est. Nulla enim 
+      <lb ed="#R" n="98"/>natura, quae habet dimensiones finitas, videtur 
+      <lb ed="#R" n="99"/>sibi ex se determinare permanentiam aeternam, 
+      <lb ed="#R" n="100"/>sed hoc habet ex determinatione extrinseca, 
+      sci<lb ed="#R" n="101" break="no"/>licet Intelligentiae, quae largitur ei omnes 
+      huius<lb ed="#R" n="102" break="no"/>modi perfectiones consequentes, non effectiue 
+      <lb ed="#R" n="103"/>sed exigitiue, &amp; determinatiue tantummodo, vt 
+      <lb ed="#R" n="104"/>dictum est saepe. 
+   </p>
+               <p xml:id="olm8ij-f58267-d1e905">
+                  <lb ed="#R" n="105"/>Secundo infero, quod caelum est natura 
+      quae<lb ed="#R" n="106" break="no"/>dam, quae dicitur quanta esse, et si alterum 
+      ho<lb ed="#R" n="107" break="no"/>rum, puta materia, vel forma debeat ei 
+      attri<lb ed="#R" n="108" break="no"/>bui, magis debet censeri materia, licet proprie 
+      <lb ed="#R" n="109"/>loquendo sua ratio est ratio subiecti. vnde 
+      Com<lb ed="#R" n="110" break="no"/>ment. de substan. orbis, frequenter ipsum vocat su 
+      <lb ed="#R" n="111"/>biectum. Ratio est, quare non proprie dici potest 
+      <lb ed="#R" n="112"/>materia, quia natura materiae, est natura poten⸗ 
+      <lb ed="#R" n="113"/>tiae, est enim in potentia ad actum primum, &amp; 
+      <lb ed="#R" n="114"/>per hoc est in potentia ad extremas perfectiones, 
+      <lb ed="#R" n="115"/>quae consequuntur actum primum: sed natura 
+      <lb ed="#R" n="116"/>caeli non est in potentia ad actum primum, sed 
+      <lb ed="#R" n="117"/>per propriam formam est in actu, ideo non 
+      pro<lb ed="#R" n="118" break="no"/>prie dici potest materia: quia vero est in 
+      poten<lb ed="#R" n="119" break="no"/>tia ad extremas perfectiones, &amp; proprietates 
+      <lb ed="#R" n="120"/>suas, pro quanto ex se non determinat sibi ens, 
+      <lb ed="#R" n="121"/>ideo proprie dici potest, quod natura caeli est na 
+      <lb ed="#R" n="122"/>tura subiecti, &amp; est esse quanta, Vnde sicut 
+      ma<lb ed="#R" n="123" break="no"/>teria non intelligitur, nisi in analogia ad formam: 
+      <lb ed="#R" n="124"/>sic non possumus intelligere caelum habere deter 
+      <lb ed="#R" n="125"/>minatam quantitatem, figuram, motus, &amp; 
+      pro<lb ed="#R" n="126" break="no"/>prietates alias, nisi in respectu ad intelligentiam, 
+      <lb ed="#R" n="127"/>vt Commentator 2. de cael. &amp; mund. dicit. 
+      Non<lb ed="#R" n="128" break="no"/>ergo est forma, quia forma non est in potentia 
+      <lb ed="#R" n="129"/>ad suas postremas perfectiones: nec est materia, 
+      <lb ed="#R" n="130"/>quia materia est in potentia ad actum primum: 
+      <lb ed="#R" n="131"/>ergo est quasi medium, vt sic, ratio subiecti, &amp; 
+      es<lb ed="#R" n="132" break="no"/>sentia coniucta.
+   </p>
+               <p xml:id="olm8ij-f58267-d1e968">
+      <!--0189.xml-->
+                  <pb ed="#R" n="189"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Ex his potest colligi ratio caeli indicans eios 
+      <lb ed="#R" n="2"/>propriam entitatem, vt dicatur, quod caelum 
+      <lb ed="#R" n="3"/>esse quantum non pompositum, scilicet ex 
+      mate<lb ed="#R" n="4" break="no"/>rior&amp; forma, neo forme, nec materia, subiectum 
+      <lb ed="#R" n="5"/>habens dimensiones tantum in actu suo, pon 
+      po<lb ed="#R" n="6" break="no"/>trus intelligi in actu, suo vstimatomisi in āospectu 
+      <lb ed="#R" n="7"/>habens pecidentia, &amp; qualitates sensibiles 
+      aeuhi<lb ed="#R" n="8" break="no"/>uoce, bel secundum prius, quod sunt hae qualita 
+      <lb ed="#R" n="9"/>tu, Ad argumentum vero in oppositum patebit 
+      <lb ed="#R" n="10"/>infa 
+  </p>
+            </div>
+            <div xml:id="olm8ij-f58267-Dd1e1000">
+               <head xml:id="olm8ij-f58267-Hd1e1002">Articulus 2</head>
+               <head xml:id="olm8ij-f58267-Hd1e1004" type="question-title">
+        Utrum ponere caelum &amp; naturam simplicem, &amp; 
+        non compositam ex materia &amp; forma, 
+        repugnat auctoritatibus Sacrae Scripturae, 
+        &amp; Doctorum Catholicornitui
+      </head>
+               <p xml:id="olm8ij-f58267-d1e1007">
+                  <lb ed="#R" n="11"/>ARTICVVVVS II 
+      <lb ed="#R" n="12"/>Vtrum ponere caelum &amp; naturam simplicem, &amp; 
+      <lb ed="#R" n="13"/>non compositam ex materia &amp; forma, 
+      repu<lb ed="#R" n="14" break="no"/>gnat auctoritatibus Sacrae Scripturae, 
+      <lb ed="#R" n="15"/>&amp; Doctorum Catholicornitui
+  </p>
+               <p xml:id="olm8ij-f58267-d1e1020">
+                  <lb ed="#R" n="16"/>Ad secundam quaestionem, quid tenendum 
+      <lb ed="#R" n="17"/>sit de intrinseca compositione culi 
+      secun<lb ed="#R" n="18" break="no"/>Scripterae, &amp; testimonia 
+      Sancto<lb ed="#R" n="19" break="no"/>&amp; Doctorum.
+  </p>
+               <p xml:id="olm8ij-f58267-d1e1031">
+                  <lb ed="#R" n="20"/>Respondeo breuiter, non video necessitatem 
+      <lb ed="#R" n="21"/>aliquam, quare ponit debeat materia in coelo se 
+      <lb ed="#R" n="22"/>nundum Scripturam sacram, &amp; sanctos, &amp; hoc po 
+      <lb ed="#R" n="23"/>est ex tribus probari. Primo quidem, quia 
+      mul<lb ed="#R" n="24" break="no"/>dtudo ponenda non est, nisi ratio euidens necessa 
+      <lb ed="#R" n="25"/>ria, illud probet, aliter per pauciora saluari non 
+      <lb ed="#R" n="26"/>posse. Deus enim, &amp; natura nihil faciunt frustra: 
+      <lb ed="#R" n="27"/>sed materiam ponere in caelo nulla est 
+      necessi<lb ed="#R" n="28" break="no"/>tas. Da enim, quod sit, aut hoc est corporeitas, 
+      <lb ed="#R" n="29"/>aut quantitas, aut forte proprie est materiae, aut 
+      <lb ed="#R" n="30"/>qualitas sensibilis; aut quod formas abstractas 
+      <lb ed="#R" n="31"/>tacesse sit essot intellectuales; aut quia essent 
+      no<lb ed="#R" n="32" break="no"/>blliora corpora illa, quam animae, quae 
+      corpo<lb ed="#R" n="33" break="no"/>nibus vniunturtaut hoc est motus ad vbi: aut alte 
+      <lb ed="#R" n="34"/>rationis varietas, quia luna nunc est clara, &amp; 
+      lu<lb ed="#R" n="35" break="no"/>minosa, nunc obscura, aut haec est auctoritas 
+      scri<lb ed="#R" n="36" break="no"/>pturae, &amp; dicta fanctorum: Sed nullum istorum cō 
+      <lb ed="#R" n="37"/>cludit necessario materiam esse in caelo: ergo. 
+   </p>
+               <p xml:id="olm8ij-f58267-d1e1074">
+                  <lb ed="#R" n="38"/>Hoc autem, quod nunc assumptum est, 
+      mate<lb ed="#R" n="39" break="no"/>riam enim intelligo. non concludit corporeitas: 
+      <lb ed="#R" n="40"/>Forma enim dat esse corporeum, non materia, 
+      <lb ed="#R" n="41"/>nec illam concludit quantitas, licet enim 
+      quan<lb ed="#R" n="42" break="no"/>titas interminata inest ratione formae, intellectus 
+      <lb ed="#R" n="43"/>autem tantummodo est quantitas terminata.
+   </p>
+               <p xml:id="olm8ij-f58267-d1e1090">
+                  <lb ed="#R" n="44"/>Tertio, non sensibilis qualitas. Sola enim illa 
+      <lb ed="#R" n="45"/>qualitas, quae magis facta abijcit a substantia est 
+      <lb ed="#R" n="46"/>proprie, arguit materiam. De talibus enim 
+      acci<lb ed="#R" n="47" break="no"/>dentibus probaui scilicet, quod sunt primo in ma 
+      <lb ed="#R" n="48"/>teria, vt in subiecto, sed huiusmodi qualitates non 
+      <lb ed="#R" n="49"/>sunt in caelo: Non enim potest augeri, nec 
+      dimi<lb ed="#R" n="50" break="no"/>nui, vt patet, nec in sui natura variari: ergo ibi 
+      <lb ed="#R" n="51"/>non sunt accidentia, secundum quae fit 
+      transmu<lb ed="#R" n="52" break="no"/>tatio in substantia, seu in alijs proprietatibus. 
+      <lb ed="#R" n="53"/>Omnia: ergo accidentia, quae sunt in caelo, sunt ac 
+      <lb ed="#R" n="54"/>cidentia, quae consequuntur ratione formae, non 
+      <lb ed="#R" n="55"/>quae insunt ratione materiae, vt Commentator de 
+      <lb ed="#R" n="56"/>substantia orbis dicit. Quaedam enim sunt 
+      ac<lb ed="#R" n="57" break="no"/>cidentia passiua, in quibus est alteratio, &amp; talia 
+      <lb ed="#R" n="58"/>non sunt in caelo, quoniam alteratio secundum, 
+      <lb ed="#R" n="59"/>quod transmutat subiectum, videtur esse propria 
+      <lb ed="#R" n="60"/>corporibus, quae admiscentur cum potentia, &amp; 
+      <lb ed="#R" n="61"/>sunt corpora generabilia, &amp; corruptibilia: aliud 
+      <lb ed="#R" n="62"/>vero genus accidentium est, quod non trasmutat 
+      <lb ed="#R" n="63"/>substantiam deferentis, &amp; primum horum est 
+      <!--0189.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="64"/>motus localis, &amp; raritas, &amp; densitas, &amp; dyapha⸗ 
+      <lb ed="#R" n="65"/>neitas, &amp; haec sunt in corporibus caelestibus, &amp; 
+      <lb ed="#R" n="66"/>inser ioribus, licet secundum prius, &amp; posterius.
+  </p>
+               <p xml:id="olm8ij-f58267-d1e1147">
+                  <lb ed="#R" n="67"/>Quarto non probat caelum habere materiam 
+      <lb ed="#R" n="68"/>natio intellectualitatis, quae forte consequitur 
+      <lb ed="#R" n="69"/>formas abstractas, quod tamen non est verum, 
+      <lb ed="#R" n="70"/>quia omnis forma abstracta a principio, nulla 
+      <lb ed="#R" n="71"/>est naturae, intellectualis: habitus enim morales 
+      <lb ed="#R" n="72"/>in voluntate sunt abstractae hoc modo a materia, 
+      <lb ed="#R" n="73"/>&amp; tamen non sunt intellectualis naturae. 
+      Praete<lb ed="#R" n="74" break="no"/>rea separatio illa a materia, quam consequitur 
+      <lb ed="#R" n="75"/>intellectualitas, non est a materia altera parte 
+      <lb ed="#R" n="76"/>compositi, sed est a quantitate: omnis enim 
+      <lb ed="#R" n="77"/>forma incorporea habet operationem propriam 
+      <lb ed="#R" n="78"/>nobiliorem operatione quacunque formae corpo 
+      <lb ed="#R" n="79"/>reae. Illa non potest esse quaecunque, forma 
+      sen<lb ed="#R" n="80" break="no"/>fitiua, quia id arguit quantitatem: ergo est 
+      <lb ed="#R" n="81"/>operatio intellectuas de hoc dixi alias, nunc 
+      au<lb ed="#R" n="82" break="no"/>tem caelum non est substantia corporea. 
+      <lb ed="#R" n="83"/>Quinto non probat hoc excessu nob ilitatis⸗ 
+      <lb ed="#R" n="84"/>non est enim inconneniens, quod aliquid, quod 
+      <lb ed="#R" n="85"/>est simplinitet nobilius altero, sit ignobilius iu 
+      <lb ed="#R" n="86"/>aliqua conditione solum enim est nobil ius, quam 
+      <lb ed="#R" n="87"/>ceruus, etiam cum innitabilitate est ignobilius 
+      <lb ed="#R" n="88"/>eo, nec est nobilius anima, non enim exit in 
+      vlti<lb ed="#R" n="89" break="no"/>ma sui dispositione, &amp; perfectione, nisi in 
+      ordi<lb ed="#R" n="90" break="no"/>ne ad alterum. 
+   </p>
+               <p xml:id="olm8ij-f58267-d1e1202">
+                  <lb ed="#R" n="91"/>Sexto non probat materiam in caelo motus ad 
+      <lb ed="#R" n="92"/>vbi, quia motus ille non est in ratione materiae 
+      <lb ed="#R" n="93"/>absolute, sed ratione corporeitatis: natura 
+      er<lb ed="#R" n="94" break="no"/>go corporea absque hoc, quod habeat materiam 
+      <lb ed="#R" n="95"/>potest esse in loco: ergo moueri ad locum, &amp; talis 
+      <lb ed="#R" n="96"/>natura habebit potentiam ad vbi, quae est 
+      corpo<lb ed="#R" n="97" break="no"/>reitas, sed nullo modo potentiam ad formam sub 
+      <lb ed="#R" n="98"/>stantialem. Haec est intentio Philosuphi. 8. 
+      me<lb ed="#R" n="99" break="no"/>taph. 
+   </p>
+               <p xml:id="olm8ij-f58267-d1e1224">
+                  <lb ed="#R" n="100"/>Septimo non probat materiam alteratio, quae 
+      <lb ed="#R" n="101"/>apparet in luminositate sicut in luna. Haec enim 
+      <lb ed="#R" n="102"/>variatio non trafmutat naturam caeli intrinsece, 
+      <lb ed="#R" n="103"/>nec in aliquo accidente ei proprie, naturaliter; 
+      <lb ed="#R" n="104"/>non enim luminositas adueniens lunae abijcit ali 
+      <lb ed="#R" n="105"/>quid a luna, nisi priuationem, &amp; haec est ratio 
+      <lb ed="#R" n="106"/>Commentatoris 8. metaph. com. 4 
+   </p>
+               <p xml:id="olm8ij-f58267-d1e1242">
+                  <lb ed="#R" n="107"/>Vltimo non probant materiam in caelo aucto. 
+      <lb ed="#R" n="108"/>ritates Scripturae, nec Sanctorum: libro enim 
+      <lb ed="#R" n="109"/>scripturae, vbi agitur de rerum productione non 
+      <lb ed="#R" n="110"/>dicitur, quod firmamentum sit factum de aliquo, 
+      <lb ed="#R" n="111"/>puta de firmamento, sed dicit, quo i sunt facta in 
+      <lb ed="#R" n="112"/>firmamento, sicut per oppositum dicitur, 
+      produ<lb ed="#R" n="113" break="no"/>cat terra herbam virentem &amp;c. &amp; formauit Deus 
+      <lb ed="#R" n="114"/>hominem de limo terrae. Bene enim innititur, 
+      <lb ed="#R" n="115"/>quod viuentia, reptilia, iumenta, &amp; homo facti de 
+      <lb ed="#R" n="116"/>terra, vt de materia: Sed ex circumstantia Scriptu 
+      <lb ed="#R" n="117"/>rae patet, quod caelum, quod fuit creatum 
+      secun<lb ed="#R" n="118" break="no"/>da die, &amp; non factum de aliquo: sacile enim erat 
+      <lb ed="#R" n="119"/>scripturae innuere, Fiat firmamentum de medio 
+      <lb ed="#R" n="120"/>aquarum, si factum posuit de materia. 
+      Confide<lb ed="#R" n="121" break="no"/>randum est ergo, quod ante omnem diem Deus 
+      <lb ed="#R" n="122"/>produxit caelum Empireum, &amp; terram ad 
+      lite<lb ed="#R" n="123" break="no"/>ram, sed coopertam aquis, &amp; ideo erat inanis, 
+      <lb ed="#R" n="124"/>&amp; vacua, produxit etiam aquas, per quas 
+      intel<lb ed="#R" n="125" break="no"/>liguntur tria elementa, quia vulgus inter illa non 
+      <lb ed="#R" n="126"/>distinguit, &amp; in terra caelum nouum, cui 
+      attri<lb ed="#R" n="127" break="no"/>buitur ab Astrologo motus diurnus, in quo 
+      nul<lb ed="#R" n="128" break="no"/>la stella est, &amp; ratio dyaphaneitatis aquae; tunc 
+      <lb ed="#R" n="129"/>statim post die prima producta fuit lux ad lite- 
+      <!--0190.xml-->
+      <pb ed="#R" n="190"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>ram. Die vero secunda creatum est caelum 
+      stella<lb ed="#R" n="2" break="no"/>rum, quod est Firmamentum inter primum 
+      mo<lb ed="#R" n="3" break="no"/>bile, &amp; spheras tres elementorum, &amp; ideo dicitur, 
+      <lb ed="#R" n="4"/>firmamentum diuidere inter aquas, &amp; aquas, ita 
+      <lb ed="#R" n="5"/>quod ille modus dicendi concordat de plano 
+      li<lb ed="#R" n="6" break="no"/>teram Gene sis Commentatori; dat etiam sensum 
+      <lb ed="#R" n="7"/>Philosophiae, quod non parum est, nec talis 
+      con<lb ed="#R" n="8" break="no"/>cordia scripturae secundum August. 1. sup. Genes. 
+      <lb ed="#R" n="9"/>&amp; 2. cap. 4. est paruiducenda. 
+   </p>
+               <p xml:id="olm8ij-f58267-d1e1321">
+                  <lb ed="#R" n="10"/>Vltimo non probant esse materiam in caelo au 
+      <lb ed="#R" n="11"/>ctoritates sanctorum. Vnde cum Sancti vt Augu 
+      <lb ed="#R" n="12"/>stinus, Ambrosius, &amp; Doctores similiter, scilicet 
+      <lb ed="#R" n="13"/>Damascenus, &amp; Magister fimiliter posuere in 
+      <lb ed="#R" n="14"/>caelo materiam, tales auctoritates sic 
+      repu<lb ed="#R" n="15" break="no"/>gnantes propositi onibus per fe notis 
+      mouere<lb ed="#R" n="16" break="no"/>non debent, pro eo, quod in hac materia magis 
+      <lb ed="#R" n="17"/>loquuntur, vt aliorum opiniones recitantes, quam 
+      <lb ed="#R" n="18"/>vt Doctores Sancti sententiam statuentes, quod 
+      <lb ed="#R" n="19"/>bene apparet, quia eorum, quilibet sequitur in 
+      <lb ed="#R" n="20"/>hac materia philosophiam eius, cuius sectator 
+      <lb ed="#R" n="21"/>erat in Philolophicis. Vnde saepe in talibus 
+      con<lb ed="#R" n="22" break="no"/>tradicunt. Illam enim materiam, de qua dicunt 
+      <lb ed="#R" n="23"/>caelos factos, aliqui dicunt esse ignem secundum 
+      <lb ed="#R" n="24"/>opinionem Platonis, qui posuit caelum, &amp; sidera esse 
+      <lb ed="#R" n="25"/>naturae igneae. Alij materiam illam dicunt fuisse quasi 
+      <lb ed="#R" n="26"/>chaos confusum, ex vna vero parte rariorem, &amp; 
+      <lb ed="#R" n="27"/>in alia densiore m. Alij ponunt materiam illam 
+      <lb ed="#R" n="28"/>fuisse aquam, dicunt enim caelum sidereum 
+      fuis<lb ed="#R" n="29" break="no"/>se facum de aquis. Quia ergo Sancti sic ad 
+      inui<lb ed="#R" n="30" break="no"/>cem discordant, &amp; diuersorum Philosophorum 
+      <lb ed="#R" n="31"/>sententias coniecturant, satis innuitur nobis, 
+      <lb ed="#R" n="32"/>quod dicere hoc, vel potius illud, fidem non 
+      tan<lb ed="#R" n="33" break="no"/>git, nec veritatem Scripturae sacrae. Vnde alij, vt Au 
+      <lb ed="#R" n="34"/>gustinus ponit Angelos habere corpora, quod 
+      <lb ed="#R" n="35"/>vtique dicit sequendo in hoc sententiam Platonis 
+      <lb ed="#R" n="36"/>qui finxit eos habere corpora aerea. 
+   </p>
+               <p xml:id="olm8ij-f58267-d1e1382">
+                  <lb ed="#R" n="37"/>Secunda ratio ad idem est ista. Si enim in caelis 
+      <lb ed="#R" n="38"/>ponatur materia, aut illa est eiusdem rationis cum 
+      <lb ed="#R" n="39"/>illa in istis inferioribus, aut alterius, sed nec sic; 
+      <lb ed="#R" n="40"/>nec sic poni potest: ergo. Non quidem, quod sit alterius 
+      <lb ed="#R" n="41"/>rationis, quia cum illa esset in potentia, sicut illa, 
+      <lb ed="#R" n="42"/>quae est in inferioribus, non haberent aliquid, quo 
+      <lb ed="#R" n="43"/>distinguerentur. Omnis enim distinctio est per ali 
+      <lb ed="#R" n="44"/>quam actualitatem, &amp; ideo Commentator 1J. 
+      <lb ed="#R" n="45"/>metaph. dicit, quod materia prima est vnum 
+      nu<lb ed="#R" n="46" break="no"/>mero propter alterationem omnium formarum, 
+      <lb ed="#R" n="47"/>quia non habet, quo distinguuntur. &amp; 2. metaph. 
+      <lb ed="#R" n="48"/>dicitur, quod in fundamento naturae nihil est, 
+      <lb ed="#R" n="49"/>quid distinctum. Nec valet, quod dicunt, quidam, 
+      <lb ed="#R" n="50"/>quae hae duae materiae distinguuntur per respectus 
+      <lb ed="#R" n="51"/>ad diuersos actus, &amp; formas; materia autem non 
+      <lb ed="#R" n="52"/>est ad aliquid, nec est respectus, secundum 
+      Com<lb ed="#R" n="53" break="no"/>ment. necesse est, quod si ab aliquo distinguantur, 
+      <lb ed="#R" n="54"/>non distinguantur respectiue, sed intrinsece per pro 
+      <lb ed="#R" n="55"/>priam naturam, repugnat. n. materiae habere 
+      natu<lb ed="#R" n="56" break="no"/>ram propriam determinatam, vt probatum est 
+      <lb ed="#R" n="57"/>in inquisitione de materia: ergo. Tum etiam quia 
+      <lb ed="#R" n="58"/>materia est in potentia contradictionis, 9. 
+      me<lb ed="#R" n="59" break="no"/>taph. Vnde omne, quod est in potentia ad actum 
+      <lb ed="#R" n="60"/>aliquem, non determinat sibi nec actum, nec eius 
+      <lb ed="#R" n="61"/>oppositum; alias non esset in potentia, &amp; si hoc 
+      <lb ed="#R" n="62"/>concedatur, tunc caelum non esset materialiter 
+      <lb ed="#R" n="63"/>incorruptibile, quia materia eius saltem esset in 
+      <lb ed="#R" n="64"/>potentia ad priuationem formae caeli. Et si 
+      dica<lb ed="#R" n="65" break="no"/>tur, quod non est agens potens illam potentiam 
+      <lb ed="#R" n="66"/>reducere ad actum, sequuntur duo inconuenien- 
+      <!--0190.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>tia, Primum, quia saltem caelum non erit 
+      quan<lb ed="#R" n="68" break="no"/>tum est ex se, &amp; extrinsece incorruptibile; imo 
+      <lb ed="#R" n="69"/>ex intrinseco, &amp; suis principijs erit corruptibile, 
+      <lb ed="#R" n="70"/>licet extrinsece ex defectu agentis non sit 
+      corru<lb ed="#R" n="71" break="no"/>ptibile. Secundo quia Deus, &amp; natura fecissent i 
+      <lb ed="#R" n="72"/>lam potentiam frustra si non sit agens potens 
+      <lb ed="#R" n="73"/>ea reducere ad actum. Tertio, quia vel illa 
+      ma<lb ed="#R" n="74" break="no"/>teria, quae est sub forma solis, non erit solis, 
+      alte<lb ed="#R" n="75" break="no"/>rius rationis a materia generabilium, &amp; 
+      corrupti<lb ed="#R" n="76" break="no"/>bilium, imo a materia lunae, &amp; aliarum stellarum 
+      <lb ed="#R" n="77"/>&amp; sic tot erunt materiae, quot sunt caeli; &amp; quot 
+      <lb ed="#R" n="78"/>sunt stellae. Vel si dicatur, quod sit materia 
+      om<lb ed="#R" n="79" break="no"/>nium stellarum, &amp; corporum caelestium vnius 
+      <lb ed="#R" n="80"/>rationis, sequitur, quod poterunt ad inuicem 
+      <lb ed="#R" n="81"/>transmutari, &amp; fic quaelibet stella esset 
+      corrupti<lb ed="#R" n="82" break="no"/>bilis, cum matebia cuiuslibet sit priuata materia 
+      <lb ed="#R" n="83"/>aliarum stellarum. Tum etiam quarto, quia 
+      sal<lb ed="#R" n="84" break="no"/>tem vnius caeli, &amp; omnium partium illius caeli, 
+      <lb ed="#R" n="85"/>est materia vna, &amp; eiusdem rationis, &amp; per 
+      chn<lb ed="#R" n="86" break="no"/>sequens materia vnius partis est in potentia ad 
+      <lb ed="#R" n="87"/>formam alterias partis, &amp; per consequens 
+      quae<lb ed="#R" n="88" break="no"/>libet pars orbis esset corruptibilis pro eo, quod 
+      <lb ed="#R" n="89"/>sua materia esset sub recta priuatione subiecta 
+      <lb ed="#R" n="90"/>priuationi, &amp; per consequens totus orbis. 
+   </p>
+               <p xml:id="olm8ij-f58267-d1e1506">
+                  <lb ed="#R" n="91"/>Et confirmo hoc, quia vbique Aristot. diffinit 
+      <lb ed="#R" n="92"/>materiam, dicit, quod materia est pura potentia. 
+      <lb ed="#R" n="93"/>vnde a. metaph. in fundamento quidem naturae 
+      <lb ed="#R" n="94"/>vel est distinctum, &amp; 7. eiusdem dicit, quod mate. 
+      <lb ed="#R" n="95"/>ria nec est quid, nec quale: &amp; in eodem libro 
+      sae<lb ed="#R" n="96" break="no"/>pius. Dico autem materiam per quam res potest 
+      <lb ed="#R" n="97"/>esse, &amp; non esse, &amp; infra 2. cap. Dico antem 
+      ma<lb ed="#R" n="98" break="no"/>teriam, quae cum sit, non est res, cuius est 
+      mate<lb ed="#R" n="99" break="no"/>ria, nisi in potentia: ergo vel Aristoteles 
+      ignora<lb ed="#R" n="100" break="no"/>uit materiam illam caeli: vel si sic, oportet, quod 
+      <lb ed="#R" n="101"/>ei competat diffinitio, quam dedit vbique 
+      de<lb ed="#R" n="102" break="no"/>materia. Et ideo rationabiliter dicunt, qui ponunt 
+      <lb ed="#R" n="103"/>quod in caelo est materia eiusdem rationis, cum 
+      <lb ed="#R" n="104"/>materia inferiorum. Sed quod nec illa via bona 
+      <lb ed="#R" n="105"/>sit, sicut arguit Commentator contra Auicen. 
+      Incor<lb ed="#R" n="106" break="no"/>ruptibile enim esset intrinsece corruptibile Hoc 
+      <lb ed="#R" n="107"/>tamen inconueniens nituntur quidam euadere 
+      <lb ed="#R" n="108"/>tribus vijs. Prima est, quia forma caeli non habet 
+      <lb ed="#R" n="109"/>contrarium, corruptio autem omnis fit a 
+      contra<lb ed="#R" n="110" break="no"/>rio. Secundo, quia materia caeli est satiata, &amp; 
+      ter<lb ed="#R" n="111" break="no"/>minata vnica forma caeli propter sui nobilitatem 
+      <lb ed="#R" n="112"/>&amp; ideo non est ibi priuatio, quae est corruptionis 
+      <lb ed="#R" n="113"/>causa, quia machinatur ad maleficium. Tertio, 
+      <lb ed="#R" n="114"/>quia non est agens in natura potens corrumpere 
+      <lb ed="#R" n="115"/>illud: Harum viarum nulla satis facit, nec saluat 
+      <lb ed="#R" n="116"/>intrinsecam incorruptibilitatem, quam oporter 
+      <lb ed="#R" n="117"/>dare in caelo. Esto enim, quod forma caeli non 
+      ha<lb ed="#R" n="118" break="no"/>beat contrarium, nec esset aliquod agens potens 
+      <lb ed="#R" n="119"/>reducere potentiam illam ad actum, tamen 
+      in<lb ed="#R" n="120" break="no"/>trinsece, &amp; ex suis principis corruptibilis 
+      rema<lb ed="#R" n="121" break="no"/>neret. Et propterea potentia passiua non est per 
+      <lb ed="#R" n="122"/>se intenta in natura, sed in ordine ad actum. 
+      Vn<lb ed="#R" n="123" break="no"/>de potentia actiua est principalior differentia 
+      <lb ed="#R" n="124"/>potentiae, quam passiua: non ergo est possibile, vt 
+      <lb ed="#R" n="125"/>aliud sit in potentia passiua naturaliter, &amp; non 
+      <lb ed="#R" n="126"/>sit potentia actiua correspondens in natura, alias 
+      <lb ed="#R" n="127"/>talis potentia esset frustra, vt Commentator 
+      <lb ed="#R" n="128"/>dicit. 
+   </p>
+               <p xml:id="olm8ij-f58267-d1e1591">
+                  <lb ed="#R" n="129"/>Aliud vero de satietate non soluit. 
+      Impossi<lb ed="#R" n="130" break="no"/>bile est enim, quod forma quantumcunque 
+      no<lb ed="#R" n="131" break="no"/>bilis aliqua satiet appetitum materiae, nisi sit for 
+      <lb ed="#R" n="132"/>maliter omnes formae, ad quas illa materia est 
+      <!--0191.xml-->
+      <pb ed="#R" n="191"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>in potentia: forma autem caeli non est omnes 
+      <lb ed="#R" n="2"/>formae formaliter, licet contineat eas in virtute. 
+      <lb ed="#R" n="3"/>Confirmo, quia nihil aliud est materiam esse 
+      <lb ed="#R" n="4"/>in potentia ad formam, quam ipsam priuari 
+      ip<lb ed="#R" n="5" break="no"/>sa forma. Vnde 9. metaph. esse in materia, est esse 
+      <lb ed="#R" n="6"/>in oppofita dispositione eius, quod est in actu: 
+      <lb ed="#R" n="7"/>sed clarum est, quod quantumcumque forma 
+      cae<lb ed="#R" n="8" break="no"/>li sit in materia, si non sit ibi forma illa est 
+      pri<lb ed="#R" n="9" break="no"/>uata forma caeli, &amp; est in opposita dispositione, 
+      <lb ed="#R" n="10"/>qua esset in actu: ergo. Vnde si solutio ista 
+      vale<lb ed="#R" n="11" break="no"/>ret, cum anima rationabilis sit aeque nobilis, sicut 
+      <lb ed="#R" n="12"/>forma caeli, aeque satiaret appetitum materiae suae. 
+      <lb ed="#R" n="13"/>Quarto, quia saltem materia sub forma terrae 
+      es<lb ed="#R" n="14" break="no"/>set in potentia ad formam caeli, &amp; cum caelum 
+      <!--0191.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="15"/>possit inducere in materia formas alias 
+      substan<lb ed="#R" n="16" break="no"/>tiales, &amp; vitales, mirum esset, quod suam 
+      for<lb ed="#R" n="17" break="no"/>mam non induceret. Non enim apparet, quare 
+      <lb ed="#R" n="18"/>aliud, quod est causa aequiuoca perfectionis, non 
+      <lb ed="#R" n="19"/>possit esse causa vniuoca, si habeat passum 
+      dispo<lb ed="#R" n="20" break="no"/>situm. Vnde sicut sol in materia inducit formam 
+      <lb ed="#R" n="21"/>vermis, qui, in quantum vitalis est, est nobilior 
+      <lb ed="#R" n="22"/>forma eius, &amp; hac actione aequiuoca, quare non 
+      <lb ed="#R" n="23"/>poterit sol inducere in materia disposita 
+      pro<lb ed="#R" n="24" break="no"/>priam formam etiam hac generatione vniuoca. 
+      <lb ed="#R" n="25"/>Sic ergo patet, quod via Philosophi de 
+      simpli<lb ed="#R" n="26" break="no"/>citate caeli excludente materiam concordat cum 
+      <lb ed="#R" n="27"/>veritate Scripturae, &amp; sinceritate fidei, &amp; rationis. 
+      <lb ed="#R" n="28"/>Ad argumentum patet, quid dicendum.
+   </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

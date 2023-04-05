@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-05">April 05, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b2">Roma 1605, Book 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="250"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-f77650"><!-- l2d21-q1 -->
+            <head xml:id="olm8ij-f77650-Hd1e101">Quaestio 1</head>
+            <p xml:id="olm8ij-f77650-d1e103">
+               <lb ed="#R" n="46"/>QVAESTIO VNICA. 
+      <lb ed="#R" n="47"/>Quaestiones. 
+      <!--0250.xml-->
+      <cb ed="#R" n="d"/>
+               <lb ed="#R" n="48"/>Vtrum scilicet Adam potuit in statu illo 
+      pec<lb ed="#R" n="49" break="no"/>care venialiter: quodidem quaero de homine 
+      <lb ed="#R" n="50"/>quocunque de illo statu. 
+      <lb ed="#R" n="51"/>2 Vtrum Diabolus fuit motus ex inuidia ad 
+      <lb ed="#R" n="52"/>tentandum hominem. 
+   </p>
+            <div xml:id="olm8ij-f77650-Dd1e125">
+               <head xml:id="olm8ij-f77650-Hd1e127">Articulus 1</head>
+               <head xml:id="olm8ij-f77650-Hd1e129" type="question-title">
+        Utrum Adam in illo statu innocentiae potuit peccare venialiter
+      </head>
+               <p xml:id="olm8ij-f77650-d1e132">
+                  <lb ed="#R" n="53"/>ARTJCVLVS I. 
+      <lb ed="#R" n="54"/>Vtrum Adam in illo statu innocentiae potuit 
+      pec<lb ed="#R" n="55" break="no"/>care venialiter. 
+   </p>
+               <p xml:id="olm8ij-f77650-d1e141">
+                  <lb ed="#R" n="56"/>REspondeo breuiter: Hic sunt 
+      <lb ed="#R" n="57"/>duae satis prohabiles 
+      opi<lb ed="#R" n="58" break="no"/>niones, Vna est, quod sic: &amp; sunt 
+      <lb ed="#R" n="59"/>rationes aliquae pro ea, Vna 
+      <lb ed="#R" n="60"/>ex distinctione peccati mor 
+      <lb ed="#R" n="61"/>talis, &amp; venialis: nam 
+      mor<lb ed="#R" n="62" break="no"/>taie auertit immediate a fi 
+      <lb ed="#R" n="63"/>ne, &amp; est contra praecepta, 
+      <lb ed="#R" n="64"/>veniale vero est circa ea, quae sunt ad finem, &amp; 
+      <lb ed="#R" n="65"/>contra consilia: sed in statu illo Deus potuit dare 
+      <lb ed="#R" n="66"/>homini consilium aliquod: ergo homo agendo con 
+      <lb ed="#R" n="67"/>tra iiiud potuit veuialiter peccare. 
+   </p>
+               <p xml:id="olm8ij-f77650-d1e170">
+      <!--0250.xml-->
+                  <cb ed="#R" n="e"/>
+                  <lb ed="#R" n="68"/>Item: Verbum otiosum non videtur peccatum 
+      <lb ed="#R" n="69"/>mortale semper: sed homo in statu isto potuisset 
+      <lb ed="#R" n="70"/>dicere verbum otiosum: ergo. 
+   </p>
+               <p xml:id="olm8ij-f77650-d1e184">
+                  <lb ed="#R" n="71"/>Tertio: Quia non ex alio repugnasset 
+      pecca<lb ed="#R" n="72" break="no"/>tum homini pro st atu illo, nisi quia fuisset 
+      con<lb ed="#R" n="73" break="no"/>firmatus in bono: sed hoc non obstat: nam &amp; con 
+      <lb ed="#R" n="74"/>firmati in gratia quales erant Apostoli possunt 
+      <lb ed="#R" n="75"/>venialiter peccare, sicut de facto dicunt quidam 
+      <lb ed="#R" n="76"/>de Petro. 
+   </p>
+               <p xml:id="olm8ij-f77650-d1e200">
+                  <lb ed="#R" n="77"/>Alia opinio habet rationem pro se, quia omne 
+      <lb ed="#R" n="78"/>peccatum est veniale pro tanto quia prouenit ex 
+      <lb ed="#R" n="79"/>de ordinatione uirium inferiorum, vbi enim non 
+      <lb ed="#R" n="80"/>prouenit ex tali de ordinatione omne peccatum 
+      <lb ed="#R" n="81"/>est mortale, sed in statu innocentiae nulla talis 
+      <lb ed="#R" n="82"/>de ordinatio fuisset: ergo. 
+   </p>
+               <p xml:id="olm8ij-f77650-d1e216">
+                  <lb ed="#R" n="83"/>Videtur mihi, quod opinio secunda sit 
+      ma<lb ed="#R" n="84" break="no"/>gis rationalis vnde puto, quod non potuit 
+      ho<lb ed="#R" n="85" break="no"/>mo in statu illo peccare, quando peccatum illud 
+      <lb ed="#R" n="86"/>debuit sibi ad mortem imputari, siue contra prae 
+      <lb ed="#R" n="87"/>ceptum seu consilium. Si enim contra praeceptum 
+      <lb ed="#R" n="88"/>patet, quod est mortale: si fuisset contra consilium, 
+      <lb ed="#R" n="89"/>arguo sic: Omne peccatum quantumcunque 
+      con<lb ed="#R" n="90" break="no"/>tra consilium, quod non prouenit ex infirmitate 
+      <!--0251.xml-->
+      <pb ed="#R" n="251"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>vel exignorantia siue subreptione, fit ex mera 
+      li<lb ed="#R" n="2" break="no"/>bertate voluntatis, &amp; est peccatum mortale, 
+      <lb ed="#R" n="3"/>quia imputatur ad mortem: ratio est, quia 
+      ne<lb ed="#R" n="4" break="no"/>cessario omne prouenit ex contemptu (
+      pec<lb ed="#R" n="5" break="no"/>catum enim omne ex contemptu proueniens 
+      <lb ed="#R" n="6"/>est mortale ) sed homini in statu illo nulla 
+      fuis<lb ed="#R" n="7" break="no"/>set ignorantia, nec fragilitas, nec subreptio; 
+      <lb ed="#R" n="8"/>imo fuisset homo summe inclinatus ad 
+      opposi<lb ed="#R" n="9" break="no"/>tum: ergo omne peccatum fuisset ibi ex libertate 
+      <lb ed="#R" n="10"/>mera voluntatis, &amp; per consequens ex 
+      contem<lb ed="#R" n="11" break="no"/>ptu: ergo mortale. Sciendum est ergo, quod 
+      <lb ed="#R" n="12"/>peccata aliqua ex suo genere non sunt 
+      morta<lb ed="#R" n="13" break="no"/>lia, sicut mendacium aliquod non est peccatum 
+      <lb ed="#R" n="14"/>aliquod in viro in statu perfectionis adipiscendae, 
+      <lb ed="#R" n="15"/>quod tamen est peccatum in statu perfectionis 
+      <lb ed="#R" n="16"/>exercendae: sic in proposito, aliquis actus potuit 
+      <lb ed="#R" n="17"/>ex genere esse peccatum veniale propter 
+      circum<lb ed="#R" n="18" break="no"/>stantiam tamen personae, in qua omnis talis actio 
+      <lb ed="#R" n="19"/>esset contemptus consilij Dei, peccatum 
+      omne<lb ed="#R" n="20" break="no"/>fuisset mortale.
+   </p>
+               <p xml:id="olm8ij-f77650-d1e286">
+                  <lb ed="#R" n="21"/>Per hoc patet responsio ad rationes alterius 
+      <lb ed="#R" n="22"/>opinionis. Ad primam enim dico, quod peccatum 
+      <lb ed="#R" n="23"/>contra consilium potest esse mortale, quando pro 
+      <lb ed="#R" n="24"/>uenit ex contemptu consilij. 
+   </p>
+               <p xml:id="olm8ij-f77650-d1e297">
+                  <lb ed="#R" n="25"/>Ad illud de confirmatis dicendum est, quod 
+      <lb ed="#R" n="26"/>circumstantia personae in eis non dabat actui 
+      im<lb ed="#R" n="27" break="no"/>putabilitatē ad mortem, quia peccatum a 
+      posta<lb ed="#R" n="28" break="no"/>siae, quod in eis poterat prouenire ex subreptione 
+      <lb ed="#R" n="29"/>ratione fomitis, qui erat in eis, qui tamen non 
+      <lb ed="#R" n="30"/>fuisset in sttatu innocentiae. 
+   </p>
+            </div>
+            <div xml:id="olm8ij-f77650-Dd1e314">
+               <head xml:id="olm8ij-f77650-Hd1e316">Articulus 2</head>
+               <head xml:id="olm8ij-f77650-Hd1e318" type="question-title">
+      Utrum Diabolus ex inuidia fuisset motus ad tentandum hominem
+    </head>
+               <p xml:id="olm8ij-f77650-d1e321">
+                  <lb ed="#R" n="31"/>ARTJCVLVS JJ. 
+      <lb ed="#R" n="32"/>Vtrum Diabolus ex inuidia fuisset motus ad 
+      ten<lb ed="#R" n="33" break="no"/>tandum hominem. 
+   </p>
+               <p xml:id="olm8ij-f77650-d1e330">
+                  <lb ed="#R" n="34"/>ARguo primo, quod non quia inuidia est 
+      respe<lb ed="#R" n="35" break="no"/>
+                  <!-- line coord error -->
+                  <lb ed="#R" n="36"/>ctu superioris, vnde super illud Job: 
+      Vi<lb ed="#R" n="37" break="no"/>rum stultum interficit iracundia, &amp; paruulum 
+      <lb ed="#R" n="38"/>inuidia, dicit Gregorius, quod semper inuidus 
+      <lb ed="#R" n="39"/>reputat se inferiorem respectu eius cui inuidet; 
+      <lb ed="#R" n="40"/>sed Diabolus non reputat se inferiorem respectu 
+      <lb ed="#R" n="41"/>hominis, quia non in naturalibus, nec quantum 
+      <lb ed="#R" n="42"/>ad locum, in quo homo tunc erat: ergo. 
+   </p>
+               <p xml:id="olm8ij-f77650-d1e354">
+                  <lb ed="#R" n="43"/>Item Apostolus inter opera carnis numerat in 
+      <lb ed="#R" n="44"/>uidiam: sed opera carnis non sunt in Daemone: 
+      <lb ed="#R" n="45"/>ergo. In oppositum est tamen illud: Inuidia Diaboli 
+      <lb ed="#R" n="46"/>intrauit mors in orbem terrarum. Respondeo hic 
+      <lb ed="#R" n="47"/>primo videndum est de inuidia in se. Secundo 
+      <lb ed="#R" n="48"/>quoad propositum.
+   </p>
+               <p xml:id="olm8ij-f77650-d1e371">
+                  <lb ed="#R" n="49"/>Quantum ad primum: primo de inuidia 
+      quo<lb ed="#R" n="50" break="no"/>ad esse naturale. Secundo quoad esse materiale. 
+      <lb ed="#R" n="51"/>Quantum ad primum dico, quod inuidia est 
+      pas<lb ed="#R" n="52" break="no"/>sio virtutis concupiscibilis species sub accidia 
+      si<lb ed="#R" n="53" break="no"/>ne tristitia contenta, proueniens ex bono 
+      alte<lb ed="#R" n="54" break="no"/>rius apprehenso, &amp; diminuente propriam 
+      excel<lb ed="#R" n="55" break="no"/>lentiam: Dico primo quod est passio 
+      concupisci<lb ed="#R" n="56" break="no"/>bilis, vbi sciendum est, quod in appetitu sensit iuo 
+      <lb ed="#R" n="57"/>concupiscibilis, &amp; irascibilis sunt distinctae 
+      po<lb ed="#R" n="58" break="no"/>tentiae, &amp; habent organa distincta, &amp; distinguun 
+      <lb ed="#R" n="59"/>tur per modos ferendi in actus suos. Irascibilis 
+      <lb ed="#R" n="60"/>enim fertur cum assurrectione, sed concupiscibilis 
+      <lb ed="#R" n="61"/>cum quadam quietatione, siue fuga; illae autem 
+      <lb ed="#R" n="62"/>potentiae ab appetitu sensitiuo aliquo modo trans 
+      <lb ed="#R" n="63"/>feruntur ad voluntatem, sunt enim in voluntate 
+      <lb ed="#R" n="64"/>duo consimiles modi ferendi in obiectum, dele- 
+      <!--0251.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="65"/>ctabile, vel contristabile. 
+   </p>
+               <p xml:id="olm8ij-f77650-d1e415">
+                  <lb ed="#R" n="66"/>Dico secundo, inuidia est species sub tristitia 
+      <lb ed="#R" n="67"/>Ad cuius euidentiam est considerandum, quod in 
+      <lb ed="#R" n="68"/>concupiscibili sunt sex passiones in generali 
+      re<lb ed="#R" n="69" break="no"/>spectu boni, &amp; mali, &amp; duae quidem sunt primae 
+      <lb ed="#R" n="70"/>respectu boni, &amp; mali, &amp; hoc in se, &amp; absolute, 
+      sci<lb ed="#R" n="71" break="no"/>licet amor respectu boni, odium respectu mali, 
+      <lb ed="#R" n="72"/>duae autem aliae sunt respectu mali siue boni, vt 
+      <lb ed="#R" n="73"/>specialiter non habiti, sed apprehensi sub 
+      ratio<lb ed="#R" n="74" break="no"/>ne futuri, &amp; respectu mali dicitur fuga; respectu 
+      <lb ed="#R" n="75"/>vero boni dicitur desiderium. Duae vero aliae sunt 
+      <lb ed="#R" n="76"/>respectu mali, siue boni apprehensi specialiter 
+      <lb ed="#R" n="77"/>sub ratione habiti, &amp; praesentis, quarum vna 
+      <lb ed="#R" n="78"/>respectu mali dicitur tristitia, sed respectu boni 
+      <lb ed="#R" n="79"/>dicitur delectatio; appetitus enim absolute 
+      di<lb ed="#R" n="80" break="no"/>ligit bonum, &amp; malum; odit autem bonum, &amp; 
+      <lb ed="#R" n="81"/>malum, prout primo sunt absentia, &amp; ideo 
+      sta<lb ed="#R" n="82" break="no"/>tim oriuntur duae passiones, scilicet desiderium 
+      <lb ed="#R" n="83"/>respectu boni, &amp; fuga respectu mali. 
+   </p>
+               <p xml:id="olm8ij-f77650-d1e457">
+                  <lb ed="#R" n="84"/>Vltimo bonum, &amp; malum fiunt praesentes, &amp; ibi 
+      <lb ed="#R" n="85"/>sunt passiones duae vltimatae, vna respecttu boni, 
+      <lb ed="#R" n="86"/>quae dicitur finalis quietatio, alia respectu mali, 
+      <lb ed="#R" n="87"/>quae dicitur tristitia. Dico ergo, quod inuidia tan 
+      <lb ed="#R" n="88"/>tummodo est passio concupiscibilis contenta sub 
+      <lb ed="#R" n="89"/>tristitia. Sed vt videatur, quae species est, &amp; quid 
+      <lb ed="#R" n="90"/>est in speciali, ideo addidi in diffinitione 
+      respe<lb ed="#R" n="91" break="no"/>ctu boni proxime apprehensi, sub ratione 
+      depri<lb ed="#R" n="92" break="no"/>mentis propriam excellentiam, quia vt sic bonum 
+      <lb ed="#R" n="93"/>proximi apprehendit esse malum suum. Vt autem 
+      <lb ed="#R" n="94"/>melius videatur propositum, distinguendae sunt 
+      <lb ed="#R" n="95"/>species tristitiae, distinctio autem  sumenda in ordine 
+      <lb ed="#R" n="96"/>ad malum, vt apprehensum malum; malum autem 
+      <lb ed="#R" n="97"/>praesens, vt apprehensum, potest esse 
+      appre<lb ed="#R" n="98" break="no"/>hensum tactus sensus, cuius est experiri calidum, 
+      <lb ed="#R" n="99"/>vel siccum, &amp; passio respectu eius dicitur tristitia, 
+      <lb ed="#R" n="100"/>quae est fames, estt. n. fames respectu calidi, &amp; sicci 
+      <lb ed="#R" n="101"/>similiter sitis experienti a frigidi, &amp; humidi, &amp; ex 
+      <lb ed="#R" n="102"/>perientia eius oppositi dicitur sitis. Quandoque 
+      <lb ed="#R" n="103"/>autem malum est apprehensum sensu interiori, pu 
+      <lb ed="#R" n="104"/>ta, per imaginationem, sicut est imaginatio mor 
+      <lb ed="#R" n="105"/>tis propinquae, vel mali alterius, &amp; tunc sequitur 
+      <lb ed="#R" n="106"/>tristitia in appetitu sensitiuo interiori. Prima est 
+      <lb ed="#R" n="107"/>aliquo modo est in appetitu complantato; 
+      quili<lb ed="#R" n="108" break="no"/>bet enim sensus exterior habet proprium 
+      appe<lb ed="#R" n="109" break="no"/>titum complantatum, qui dicitur dolere vel 
+      de<lb ed="#R" n="110" break="no"/>lectari; illae autem pasiiones sunt respectu mali 
+      <lb ed="#R" n="111"/>simpliciter, quod est malum in se respectu 
+      appe<lb ed="#R" n="112" break="no"/>titus: quandoque autem contingit bonum aliquod 
+      <lb ed="#R" n="113"/>apprehemndi sub ratione mali, ita quod malitia 
+      <lb ed="#R" n="114"/>non inest sibi ex apprehensione, &amp; hoc potest esse 
+      <lb ed="#R" n="115"/>vel respectu operationis circa illud bonum, in 
+      <lb ed="#R" n="116"/>quantum est arduum: &amp; circa illud apprehensum 
+      <lb ed="#R" n="117"/>consurgit secundo passio vna ratione 
+      difficulta<lb ed="#R" n="118" break="no"/>tis in aggrediendo, &amp; talis dicitur accidia, alia 
+      <lb ed="#R" n="119"/>ratione diuturnitatis in continendo, &amp; talis 
+      dici<lb ed="#R" n="120" break="no"/>tur taedium, &amp; hoc modo vtraque passio oritur a 
+      <lb ed="#R" n="121"/>bono apprehenso vt malum, in quantum 
+      compa<lb ed="#R" n="122" break="no"/>ratur ad operationem circa illud. 
+   </p>
+               <p xml:id="olm8ij-f77650-d1e544">
+                  <lb ed="#R" n="123"/>Alio modo bonum potest apprehendi, vt 
+      ma<lb ed="#R" n="124" break="no"/>lum, non referendo ipsum ad operationem, sed 
+      <lb ed="#R" n="125"/>apprehendendo illud in altero, &amp; referendo 
+      <lb ed="#R" n="126"/>illud ad bonum suum, quod est diminutum, &amp; 
+      <lb ed="#R" n="127"/>respectu eius, quod est circa bonum alterius 
+      <lb ed="#R" n="128"/>sic apprehensum vt maius bono suo, oriuntur 
+      <lb ed="#R" n="129"/>quatuor passiones quae sunt zelus, aemulatio, ne 
+      <lb ed="#R" n="130"/>mesis, idest indignatio, &amp; inuidia: illa enim di- 
+      <!--0252.xml-->
+      <pb ed="#R" n="252"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>stinguitur sic; zelus autem licet quandoque 
+      acci<lb ed="#R" n="2" break="no"/>piatur pro aemulatione, &amp; e conuerso, tamen 
+      ze<lb ed="#R" n="3" break="no"/>lus in speciali est de aliquo apprehenso circa ami 
+      <lb ed="#R" n="4"/>cum, vt est impeditiuum suae amicitiae. Cum enim 
+      <lb ed="#R" n="5"/>diligit alterum, tristatur si apprehendat illum, quem 
+      <lb ed="#R" n="6"/>diligit, diligere alium a se, ratio est, quia amorem, 
+      <lb ed="#R" n="7"/>&amp; dilectionem illam ad alterum a se 
+      apprehen<lb ed="#R" n="8" break="no"/>dit, vt impeditiuam dilectionis eius ad se, cuius 
+      <lb ed="#R" n="9"/>ratio est, quia anima vltimata non potest esse 
+      re<lb ed="#R" n="10" break="no"/>spectu principalium. Ex hac ergo apprehensione 
+      <lb ed="#R" n="11"/>oritur tristitia, quae est Zelus, &amp; inde dicitur 
+      Ze<lb ed="#R" n="12" break="no"/>lotypia, idest dolor ex communicatione alterius 
+      <lb ed="#R" n="13"/>a se cum amato. Similiter quando apprehenditur 
+      <lb ed="#R" n="14"/>aliud, vt derogatur amico quoad amorem, 
+      <lb ed="#R" n="15"/>vel ad bonum suum, pro quanto illud ex 
+      conse<lb ed="#R" n="16" break="no"/>quenti impedit aliquo modo perfectam 
+      amici<lb ed="#R" n="17" break="no"/>tiam, tunc etiam oritur Zelus qualis erat in anti 
+      <lb ed="#R" n="18"/>quis Zelantibus legem Dei. Et ex hoc patet, quod 
+      <lb ed="#R" n="19"/>diffini tio, quam dant aliqui de zelo dicentes, 
+      <lb ed="#R" n="20"/>quod Z elus est amor non patiens consortium ini 
+      <lb ed="#R" n="21"/>mici, non est sufficiens, bene enim dico, quod pro 
+      <lb ed="#R" n="22"/>uenit ex amore, sed ille sormaliter est tristitia. 
+   </p>
+               <p xml:id="olm8ij-f77650-d1e618">
+                  <lb ed="#R" n="23"/>Secundo bonum duplex potest apprehendi non 
+      <lb ed="#R" n="24"/>in quantum est bonum amici, sed absolute in 
+      <lb ed="#R" n="25"/>quantum in altero est, &amp; tunc potest 
+      apprehen<lb ed="#R" n="26" break="no"/>di vt malum dupliciter, vel quia apprehenditur 
+      <lb ed="#R" n="27"/>habens illud bonum esse indignus, &amp; 
+      apprehen<lb ed="#R" n="28" break="no"/>dit se carere illo, ex prima apprehensione oritur 
+      <lb ed="#R" n="29"/>indignatio, quae est tristitia de bono vt indigne 
+      <lb ed="#R" n="30"/>habito, &amp; hanc vocat Aristoteles Nemesim, si vero 
+      <lb ed="#R" n="31"/>fit dignus habens illud bonum, &amp; apprehendatur 
+      <lb ed="#R" n="32"/>sub ratione mali, quia sub ratione non habiti ab 
+      <lb ed="#R" n="33"/>eo, potest esse du pliciter, primo vt non habitio 
+      <lb ed="#R" n="34"/>prouocat eum ad habendum consimile bonum; 
+      <lb ed="#R" n="35"/>secundo vt non habitio est depressio excellentiae suae 
+      <lb ed="#R" n="36"/>in comparatione ad illum qui habet: si primo mo 
+      <lb ed="#R" n="37"/>do, sic oritur passio, &amp; tristitia, quae dicitur 
+      <lb ed="#R" n="38"/>aemulatio, de qua Apostolus ad Corinthios. Aemu 
+      <lb ed="#R" n="39"/>lor enim vos Dei aemulatione: aemulatio eni m 
+      <lb ed="#R" n="40"/>illa laudabilis est, ad quam Sancti inducunt 
+      <lb ed="#R" n="41"/>nos, quia hoc enim modo aemulatio est tristitia 
+      <lb ed="#R" n="42"/>de bono proximi apprehenso, non quia ille 
+      ha<lb ed="#R" n="43" break="no"/>bens illud habet, sed quia apprehendens vidit se 
+      <lb ed="#R" n="44"/>non habere, &amp; ideo tristatur, quia ille non habet: 
+      <lb ed="#R" n="45"/>Aliquo modo vero potest apprehendi bonum proxi 
+      <lb ed="#R" n="46"/>mi, vt non habitum, &amp; non habitum depresiuum 
+      <lb ed="#R" n="47"/>propr iae excellentiae in comparatione ad illum 
+      <lb ed="#R" n="48"/>qui habet, &amp; tunc oritur tristitia, quae dicitur 
+      in<lb ed="#R" n="49" break="no"/>uidia.
+   </p>
+               <p xml:id="olm8ij-f77650-d1e679">
+                  <lb ed="#R" n="50"/>Ex his patet, quod primae tres passiones possunt esse 
+      <lb ed="#R" n="51"/>laudabiles, &amp; vituperabiles, inuidia autem 
+      sem<lb ed="#R" n="52" break="no"/>per est vituperabilis: est enim de bono 
+      apprehen<lb ed="#R" n="53" break="no"/>so in altero siue digno siue indigno, in quantum 
+      <lb ed="#R" n="54"/>apprehensum non haberi a se apprehenditur, vt 
+      <lb ed="#R" n="55"/>depressiuum propriae excellentiae. Et ex hoc appa 
+      <lb ed="#R" n="56"/>ret, quod inuidia semper est ad superiorem siue 
+      <lb ed="#R" n="57"/>in re siue in extimatione. Inuidus enim semper 
+      <lb ed="#R" n="58"/>extimat se minorem, cum bonum alterius putat 
+      <lb ed="#R" n="59"/>deprimere se in comparatione ad illum, per 
+      pro<lb ed="#R" n="60" break="no"/>priam excellentiam, &amp; sic semper est inferior, 
+      sal<lb ed="#R" n="61" break="no"/>tem in extimatione. Non enim inuidus attendit, 
+      <lb ed="#R" n="62"/>vtrum ita sit in re, sed vtrum idem sit in fama 
+      <lb ed="#R" n="63"/>quomodo si esset in re, non in fama, non 
+      inuide<lb ed="#R" n="64" break="no"/>ret. &amp; ideo si alius habet bonum, quod ille non 
+      <lb ed="#R" n="65"/>habet, vel quod ipse habet, si tamen in fama sit, 
+      <lb ed="#R" n="66"/>quod ille non habet, &amp; alter habeat, vel etiam 
+      <!--0252.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>in fama sit, quo a vterque habeat, statim cum 
+      ap<lb ed="#R" n="68" break="no"/>prehendit inuidus bonum illud diminuere suam 
+      <lb ed="#R" n="69"/>excellentiam, in hoc quod fama est alium habere ipso 
+      <lb ed="#R" n="70"/>non habente, vel si habeat, quia in illo non 
+      repu<lb ed="#R" n="71" break="no"/>tatur singulariter, quam singularitatem ratione 
+      <lb ed="#R" n="72"/>superbiae reputat bonum suum, statim tristatur. 
+      <lb ed="#R" n="73"/>quae tristitia dicitur Inuidia. 
+   </p>
+               <p xml:id="olm8ij-f77650-d1e739">
+                  <lb ed="#R" n="74"/>Vnde notandum, quod inuidia est tristitia 
+      <lb ed="#R" n="75"/>quae oritur ex apprehensione boni alterius secun 
+      <lb ed="#R" n="76"/>dum famam, licet ita non sit in re, &amp; hoc in quan 
+      <lb ed="#R" n="77"/>tum extimatur diminuere propriam 
+      excellen<lb ed="#R" n="78" break="no"/>tiam, vel quia ille non habet saltem secundum fa 
+      <lb ed="#R" n="79"/>mam, tamen videt se in hoc reputari singularem. 
+   </p>
+               <p xml:id="olm8ij-f77650-d1e755">
+                  <lb ed="#R" n="80"/>Nunc secundo videndum est de inuidia in esse 
+      <lb ed="#R" n="81"/>morali. Sciendum est ergo, quod inuidia est 
+      pec<lb ed="#R" n="82" break="no"/>catum mortale: ergo vitium spirituale supernae 
+      <lb ed="#R" n="83"/>congratulationi oppositum. 
+   </p>
+               <p xml:id="olm8ij-f77650-d1e766">
+                  <lb ed="#R" n="84"/>Dico primo, quod est peccatum. Sed contra 
+      <lb ed="#R" n="85"/>quia inuidia potest esse in pueris, in quibus non 
+      <lb ed="#R" n="86"/>est peccatum, vt patet per Augustinum, vbi dicit. 
+      <lb ed="#R" n="87"/>quod vidit paruulum vultu alium respicere, &amp; 
+      <lb ed="#R" n="88"/>hoc attribuit inuidiae. Respondeo, quod inuidia, 
+      <lb ed="#R" n="89"/>&amp; omne aliud vitium potest accipi dupliciter, 
+      <lb ed="#R" n="90"/>vel pro actuali passione, vel pro quadam 
+      natura<lb ed="#R" n="91" break="no"/>li inclinatione ad illam passionem, quae sequitur 
+      <lb ed="#R" n="92"/>ex complexione; sicut enim in apperitu senfitiuo 
+      <lb ed="#R" n="93"/>humiditates quaedam faciunt in corpore reales 
+      <lb ed="#R" n="94"/>transmutationes consequentes complexionem 
+      <lb ed="#R" n="95"/>corporum naturalem, vnde qui sunt 
+      cumplexio<lb ed="#R" n="96" break="no"/>nis frigidae &amp; humidae, sunt naturaliter magis 
+      <lb ed="#R" n="97"/>inclinati ad inuidiam, vt patet de mulieribus, pue 
+      <lb ed="#R" n="98"/>ris, &amp; quibusdam hominibus flegmaticis: &amp; ratio 
+      <lb ed="#R" n="99"/>est, quia tales qualitates passiuae sunt, ideo est in 
+      <lb ed="#R" n="100"/>corpore aptitudo ad casum, &amp; depressionem 
+      <lb ed="#R" n="101"/>propter quod in appetitu sensitiuo oritur 
+      quae<lb ed="#R" n="102" break="no"/>dam proportionalis aptitudo ad depressionem, 
+      <lb ed="#R" n="103"/>&amp; casum, vt faciliter deprimatur, &amp; cadat ad 
+      <lb ed="#R" n="104"/>apprehensionem boni alterius, vnde fit, quod om 
+      <lb ed="#R" n="105"/>nia alia reputat superiora respectu sui, ideo timet 
+      <lb ed="#R" n="106"/>confundi naturaliter, &amp; deprimi; hinc est, quod 
+      <lb ed="#R" n="107"/>fac illime inuident de bono aliorũ; inuidus enim 
+      <lb ed="#R" n="108"/>existimat superiorem illum, cui inuidet. Ratione 
+      <lb ed="#R" n="109"/>ergo talis complexionis, quando videt bonum 
+      <lb ed="#R" n="110"/>in aliquo/ statim inclinatur inuidus, &amp; tunofit 
+      <lb ed="#R" n="111"/>conformis transmutatio in corpore, puta casus 
+      <lb ed="#R" n="112"/>manifestus in vultu, &amp; hoc modo accipiendo 
+      in<lb ed="#R" n="113" break="no"/>uidiam pro naturali aptitudine, &amp; pasiione 
+      mo<lb ed="#R" n="114" break="no"/>do dicto, illa non est peccatum, est tamen 
+      paeni<lb ed="#R" n="115" break="no"/>tentia peccati. 
+   </p>
+               <p xml:id="olm8ij-f77650-d1e838">
+                  <lb ed="#R" n="116"/>Secundo vero modo potest accipi inuidia pro 
+      <lb ed="#R" n="117"/>actuali passione, &amp; hoc potest intelligi dupliciter; 
+      <lb ed="#R" n="118"/>vel vt talis passio actualis est purus motus, &amp; sic 
+      <lb ed="#R" n="119"/>est peccatum largo modo, cum sit paenitentia peccati 
+      <lb ed="#R" n="120"/>originalis, vel talis passio est cum deliberatione: 
+      <lb ed="#R" n="121"/>&amp; hoc dupliciter, vel cum deliberatione 
+      moro<lb ed="#R" n="122" break="no"/>sa, &amp; tunc passio illa non est peccatum mortale, 
+      <lb ed="#R" n="123"/>sed veniale, maxime si non fuerit ibi machinatio 
+      <lb ed="#R" n="124"/>in malum proximi; vel in alium infringens 
+      cha<lb ed="#R" n="125" break="no"/>ritatem proximi. Si vero sit cum morosa 
+      delibe<lb ed="#R" n="126" break="no"/>ratione, &amp; assecutione in malum aliquod proximo 
+      <lb ed="#R" n="127"/>excogitatum, quod habet infringere charitatem, vel 
+      <lb ed="#R" n="128"/>per ablationem boni de facto, vel per detractionem 
+      <lb ed="#R" n="129"/>quantuni ad formam proximi, sic potest esse mor 
+      <lb ed="#R" n="130"/>tale. Sed quando est mortale, vel quando venia le 
+      <lb ed="#R" n="131"/>tantum, hoc valde difficile est videre, 
+      maxime<lb ed="#R" n="132" break="no"/>in omnibus peccatis specialibus, in quibus non- 
+      <!--0253.xml-->
+      <pb ed="#R" n="253"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>est manifesta deliberatio inducens ad mortale, 
+      <lb ed="#R" n="2"/>in aliquibus enim peccatis carnalibus apparet 
+      <lb ed="#R" n="3"/>satis, quod non possunt fieri sine deliberatione, 
+      <lb ed="#R" n="4"/>vt patet de homicidio, &amp; luxuria, &amp; ideo actus 
+      <lb ed="#R" n="5"/>isti statim patet, quod sunt peccatum, nec ibi 
+      <lb ed="#R" n="6"/>variat magis, vel minus. Sed in actu inuidiae, 
+      su<lb ed="#R" n="7" break="no"/>perbiae, &amp; alijs specialibus, cum possint esse 
+      sine<lb ed="#R" n="8" break="no"/>deliberatione, non sic faciliter paret, vtrum sit 
+      pec<lb ed="#R" n="9" break="no"/>catum, vel non. Dico ergo vnam regulam 
+      gene<lb ed="#R" n="10" break="no"/>ralem ad hoc, quod peccatum mortale directe 
+      <lb ed="#R" n="11"/>opponitur. charitati. Duo autem sunt actus cha 
+      <lb ed="#R" n="12"/>ritatis, Dei scilicet, &amp; proximi; Ideo quando 
+      <lb ed="#R" n="13"/>tantum ascendit superbia vel inuidia, quod ibi est 
+      <lb ed="#R" n="14"/>propositum aliquod vehemens contra 
+      charita<lb ed="#R" n="15" break="no"/>tem Dei, &amp; proximi, &amp; eorum alterũ; tunc actus 
+      <lb ed="#R" n="16"/>ille est peccatum mortale; &amp; ideo tantum 
+      quan<lb ed="#R" n="17" break="no"/>tum ascendit inuidia, &amp; proponit auferre bonum 
+      <lb ed="#R" n="18"/>proximo in re, si potest, vel verbo detractiuo, 
+      <lb ed="#R" n="19"/>siue alio modo, semper est peccatum mortale, 
+      <lb ed="#R" n="20"/>Similiter est, si fuerit propositum auferendi 
+      ho<lb ed="#R" n="21" break="no"/>num diuinum, quod est honor diuinus, puta 
+      <lb ed="#R" n="22"/>quando est tantum libido in actu, quod magis 
+      <lb ed="#R" n="23"/>vellet contemnere praecepta diuina, quam 
+      desi<lb ed="#R" n="24" break="no"/>stere ab actu illo; &amp; hoc actualiter, vel interprae 
+      <lb ed="#R" n="25"/>tatiue, quod est quando actus non est cum tanta 
+      <lb ed="#R" n="26"/>libidine, quod ratio ordinata dicat, quod si 
+      oc<lb ed="#R" n="27" break="no"/>curisset diuinum mandatum ad oppositum, parui 
+      <lb ed="#R" n="28"/>pendisset illud, &amp; hoc bene potest prudens homo 
+      <lb ed="#R" n="29"/>experiri in seipso. Sed quando actus fuerit citra 
+      <lb ed="#R" n="30"/>illa, quod nec propositum fuerint ibi de malo 
+      <lb ed="#R" n="31"/>proximi, vel incheronatione Dei, &amp; hoc nec 
+      <lb ed="#R" n="32"/>actualiter, nec priuatiue tunc non est mortale, sed 
+      <lb ed="#R" n="33"/>veniale. Hoc est ergo, quod dixi, quod inuidia 
+      <lb ed="#R" n="34"/>est peccatum mortale, dico etiam grauissimum, 
+      <lb ed="#R" n="35"/>est enim vitium capitale, sicut Gregorius 22. mo 
+      <lb ed="#R" n="36"/>ral. ponit, vbi numerat 7 capitalia peccata mor 
+      <lb ed="#R" n="37"/>talia; quae habent se sicut duces sub vna regina, q̃ 
+      <lb ed="#R" n="38"/>est superbia; inter quae ponit ibi inuidiam, &amp; non 
+      <lb ed="#R" n="39"/>quod capile vitium dicitur, a quo oriuntur vitia 
+      <lb ed="#R" n="40"/>multa respectu eiusdem obiecti. Quando enim 
+      <lb ed="#R" n="41"/>obiectum aliquod aptum natum est inclinare ao 
+      <lb ed="#R" n="42"/>petitum ad multas deordinationes; tunc 
+      quia<lb ed="#R" n="43" break="no"/>directo aspicit illud, dicitur vitium capitale, a 
+      <lb ed="#R" n="44"/>quo dicuntur omnia alia oriri, quae sunt circa 
+      <lb ed="#R" n="45"/>obiectum illud inclinans vniuersaliter ad passiones. 
+      <lb ed="#R" n="46"/>Huiusmoo? exemplum est de gula, gula enim habet 
+      <lb ed="#R" n="47"/>pro obiecto delectabile in gustu; ad appetitum 
+      <lb ed="#R" n="48"/>autem moderatum gustus sequuntur in 
+      ordina<lb ed="#R" n="49" break="no"/>tiones multae in appetitu sensitiuo, sicut 
+      scurrili<lb ed="#R" n="50" break="no"/>litas, &amp; aliae filiae. Hoc etiam modo Auaritia ori 
+      <lb ed="#R" n="51"/>tur ex gula, nam ex gula oritur retinere 
+      indebi<lb ed="#R" n="52" break="no"/>te alienum, vt possit gulose delectari. Sic in 
+      pro<lb ed="#R" n="53" break="no"/>posito, auaritia habet pro obiecto bonum 
+      alie<lb ed="#R" n="54" break="no"/>num, vt est repressiuum propriae excellentiae; 
+      <lb ed="#R" n="55"/>Jdeo inuidia est tristari de bono alieno: Propter 
+      <lb ed="#R" n="56"/>quod oriuntur multae aliae passitiones, scilicet 
+      <lb ed="#R" n="57"/>detractio, rixae, &amp; huiusmodi. Superbia autem 
+      <lb ed="#R" n="58"/>est sicut regina quaedam quasi, a qua 
+      egrediun<lb ed="#R" n="59" break="no"/>tur, &amp; reguntur omnia illa. Tertio bene ergo di 
+      <lb ed="#R" n="60"/>ctum est, quod inuidia est peccatum mortale gra 
+      <lb ed="#R" n="61"/>uissimum, sicut dicit Chrysostomus. 
+   </p>
+               <p xml:id="olm8ij-f77650-d1e1016">
+                  <lb ed="#R" n="62"/>Et licet hoc dicatur de superbia, nullum 
+      <lb ed="#R" n="63"/>inconueniens, quod dicatur etiam de inuidia 
+      <lb ed="#R" n="64"/>diuersimode, est enim inuidia grauissimum 
+      pec<lb ed="#R" n="65" break="no"/>catum, quia est radix omnium malorum, quae 
+      <lb ed="#R" n="66"/>exercentur in proximum, vniuersaliter rixarum, 
+      <!--0253.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>contentionum, detractionum, opprobriorum, &amp; 
+      <lb ed="#R" n="68"/>huiusmodi. 
+   </p>
+               <p xml:id="olm8ij-f77650-d1e1038">
+                  <lb ed="#R" n="69"/>Dico tertio, quod est peccatum mortale. 
+      <lb ed="#R" n="70"/>Sed in oppositum videtur, quia lnuidia 
+      nu<lb ed="#R" n="71" break="no"/>meratur inter opera carnis. 
+   </p>
+               <p xml:id="olm8ij-f77650-d1e1048">
+                  <lb ed="#R" n="72"/>Item ad hanc rationem dicit Glossa quaedam, 
+      <lb ed="#R" n="73"/>quod ex inuidia oritur vultus pallidus, &amp; hoc, 
+      <lb ed="#R" n="74"/>quia est vitium pertinens ad corpus. 
+      Respon<lb ed="#R" n="75" break="no"/>deo, dico, quod hoc vitium est spirituale, ratione 
+      <lb ed="#R" n="76"/>obiecti, quod est bonum proximi, vt repressiuum 
+      <lb ed="#R" n="77"/>propriae excellentiae quod est quoddam 
+      spiri<lb ed="#R" n="78" break="no"/>tuale.
+  </p>
+               <p xml:id="olm8ij-f77650-d1e1066">
+                  <lb ed="#R" n="79"/>Sciendum tamen, quod inuidia quandoque su- \
+      <lb ed="#R" n="80"/>mitur pro habilitate in appetitu sensitiuo, de quo 
+      <lb ed="#R" n="81"/>dixi supra, &amp; secundum hoc potest dici vitium 
+      <lb ed="#R" n="82"/>carnis, idest complexionis; inclinat enim 
+      com<lb ed="#R" n="83" break="no"/>plexio ad multa vitia spiritualia: vnde secundum 
+      <lb ed="#R" n="84"/>hoc talia vitia possent dici carnalia, pro quanto 
+      <lb ed="#R" n="85"/>ad ea sequitur conformis transmutatio in corpo 
+      <lb ed="#R" n="86"/>re: &amp; secundum hoc pallor apparens in facie 
+      po<lb ed="#R" n="87" break="no"/>test dici inuidia pro eo, quod est effectus, signum, &amp; 
+      <lb ed="#R" n="88"/>sequela inuidiae; cum enim inuidia sit formaliter 
+      <lb ed="#R" n="89"/>tristitia, tristitia autem retrahit sanguinem ad 
+      <lb ed="#R" n="90"/>interiora ad cor:tunc itatim apparet pallor in 
+      fa<lb ed="#R" n="91" break="no"/>cie, quia inuidus (quantum est ex se) vellet 
+      bo<lb ed="#R" n="92" break="no"/>num proximi denigrare; &amp; haec passio fortis est 
+      <lb ed="#R" n="93"/>in corde, ideo fit quaedam passio consimilis, vnde 
+      <lb ed="#R" n="94"/>oculi inuidi apparent vt plurimum rubei, &amp; quasi 
+      <lb ed="#R" n="95"/>venenosi. 
+   </p>
+               <p xml:id="olm8ij-f77650-d1e1105">
+                  <lb ed="#R" n="96"/>Similiter passio inuidiae existens in appetitu sen 
+      <lb ed="#R" n="97"/>sitiuo causat passionem conformem cuiusdam ca 
+      <lb ed="#R" n="98"/>sus, &amp; defectus incerte; ideo non trahit colorem 
+      <lb ed="#R" n="99"/>ad iuuandum cor, propter quod fit timor in den 
+      <lb ed="#R" n="100"/>tibus, &amp; pallor in facie, &amp; ore. 
+   </p>
+               <p xml:id="olm8ij-f77650-d1e1118">
+                  <lb ed="#R" n="101"/>Vltimo dixi, quod inuidia est peccatum super 
+      <lb ed="#R" n="102"/>nae congratulationi oppositum. Circa quod 
+      scien<lb ed="#R" n="103" break="no"/>dum, quod inuidia potest sumi, &amp; quantum ad 
+      <lb ed="#R" n="104"/>formale, &amp; quantum ad concomitans, quae est trans 
+      <lb ed="#R" n="105"/>mutatio in corpore. Primo modo inuidia nihil 
+      <lb ed="#R" n="106"/>aliud est, quam tristitia, sed secundo modo est odium 
+      <lb ed="#R" n="107"/>quia quantum est in se, nollet proximum esse. Vn 
+      <lb ed="#R" n="108"/>de inuidia dicitur quasi inuidentia, quod idem est 
+      <lb ed="#R" n="109"/>quod non videntia, &amp; hoc, quia nollet proximum 
+      <lb ed="#R" n="110"/>suum videre, vt est habens bonum, &amp; secundum 
+      <lb ed="#R" n="111"/>hoc opponitur diuersis virtutibus. Secundum 
+      <lb ed="#R" n="112"/>enim primum opponitur traternae 
+      congratula<lb ed="#R" n="113" break="no"/>tioni &amp; fraterno gaudio, &amp; beneuolentiae, quae est 
+      <lb ed="#R" n="114"/>specialis virtus ex 9. Ethicorum: est enim beneuo 
+      <lb ed="#R" n="115"/>lentia virtus, quae inclinat ad beneuolendum om 
+      <lb ed="#R" n="116"/>nibus, &amp; quando illa beneuolentia est reducta ad 
+      <lb ed="#R" n="117"/>rectam rationem, dicitur fraterna congratulatio. 
+      <lb ed="#R" n="118"/>cui opponitur directe inuidia. Sed quantum ad con 
+      <lb ed="#R" n="119"/>comitans opponitur inuidia fraternae charitati, 
+      <lb ed="#R" n="120"/>hoc enim modo, est formaliter odium proximi: 
+      vel<lb ed="#R" n="121" break="no"/>let enim quantum in se est, proximum, in quo 
+      vi<lb ed="#R" n="122" break="no"/>det bonum, non habere, seu carere illo. 
+      <lb ed="#R" n="123"/>His visis vltimo quantum ad propositum; Vtrum 
+      <lb ed="#R" n="124"/>diabolus fuerit motus ex inuidia ad tentandum 
+      <lb ed="#R" n="125"/>hominem? Respondeo quod sic: ratio patet ex 
+      di<lb ed="#R" n="126" break="no"/>ctis, quia inuidia est tristitia de bono proximi, vt 
+      <lb ed="#R" n="127"/>repressiuum est boni alterius, &amp; excellentia sui; 
+      <lb ed="#R" n="128"/>sed diabolus fuit motus ad tentandum hominem 
+      <lb ed="#R" n="129"/>propter tristitiam, quam habuit de bono 
+      homi<lb ed="#R" n="130" break="no"/>nis apprehenso, vt repressiuum erat, &amp; 
+      superex<lb ed="#R" n="131" break="no"/>cellens bonum suum: ergo. Maior probata est. Mi 
+      <lb ed="#R" n="132"/>nor patet, quia. Daemon, secuudum Magistrum, ap 
+      <!--0254.xml-->
+      <pb ed="#R" n="254"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>prehendit hominem virtutibus praeditum, aptum, 
+      <lb ed="#R" n="2"/>&amp; preparatum ad habendum excellentiam, &amp; 
+      glo<lb ed="#R" n="3" break="no"/>riam, de qua ille exciderat per superbiam, &amp; in 
+      <lb ed="#R" n="4"/>huc reputauit eum, se esse maiorem, &amp; cadere suam 
+      <lb ed="#R" n="5"/>excellentiam, ex quo fuit tristatus summe, &amp; ex hoc 
+      <lb ed="#R" n="6"/>motus fuit ad machinandum malum contra ho- 
+      <!--0254.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="7"/>minem, &amp; inducendum ipsum ad casum. 
+   </p>
+               <p xml:id="olm8ij-f77650-d1e1216">
+                  <lb ed="#R" n="8"/>Ad argumentum patet ex dictis, Inuidiam 
+      <lb ed="#R" n="9"/>enim accipit Apostolus ibi non pro formali, sed 
+      <lb ed="#R" n="10"/>pro concomitante, quod est quaedam 
+      transmuta<lb ed="#R" n="11" break="no"/>tio corporalis.
+   </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

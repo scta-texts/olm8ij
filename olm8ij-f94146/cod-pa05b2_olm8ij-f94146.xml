@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-05">April 05, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b2">Roma 1605, Book 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="307"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-f94146"><!-- l2d39-q1 -->
+            <head xml:id="olm8ij-f94146-Hd1e101">Quaestio 1</head>
+            <p xml:id="olm8ij-f94146-d1e103">
+               <lb ed="#R" n="6"/>QVESTIO VNICA. 
+   </p>
+            <p xml:id="olm8ij-f94146-d1e108">
+      <!--0307.xml-->
+               <cb ed="#R" n="b"/>
+               <lb ed="#R" n="7"/>1 Vtrum conscientia erronea obliget ad 
+      <lb ed="#R" n="8"/>peccatum mortale? 
+      <lb ed="#R" n="9"/>2 De sinderesi quid, sit &amp; an possit in 
+      homi<lb ed="#R" n="10" break="no"/>ne extingut. 
+   </p>
+            <div xml:id="olm8ij-f94146-Dd1e124">
+               <head xml:id="olm8ij-f94146-Hd1e126">Articulus 1</head>
+               <head xml:id="olm8ij-f94146-Hd1e128" type="question-title">
+      Utrum conscientia erronea obliget ad peccatum mortale
+    </head>
+               <p xml:id="olm8ij-f94146-d1e131">
+                  <lb ed="#R" n="11"/>ARTJCVLVS J. 
+      <lb ed="#R" n="12"/>Vtrum conscientia erronea obliget ad peccatum 
+      <lb ed="#R" n="13"/>mortale. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e140">
+                  <lb ed="#R" n="14"/>ARGVO, quod non, quia 1. 
+      <lb ed="#R" n="15"/>Ethicorum dicitur, quod 
+      ra<lb ed="#R" n="16" break="no"/>tio se habet ad voluntatem 
+      <lb ed="#R" n="17"/>per modum suadentis, &amp; 
+      de<lb ed="#R" n="18" break="no"/>praecantis ad optima eligen 
+      <lb ed="#R" n="19"/>da: sed nullus peccat, qui 
+      <lb ed="#R" n="20"/>non obedit male suadenti, 
+      <lb ed="#R" n="21"/>conscientia erronea suadet, &amp; deprecatur 
+      ma<lb ed="#R" n="22" break="no"/>la, quare non peccat, qui non facit secundum 
+      <lb ed="#R" n="23"/>erroneam conscientiam. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e164">
+                  <lb ed="#R" n="24"/>In oppositum est autoritas mensurata, &amp; Do 
+      <lb ed="#R" n="25"/>ctorum opinio. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e172">
+                  <lb ed="#R" n="26"/>Respondeo hic primo videndum est, vnde 
+      su<lb ed="#R" n="27" break="no"/>mitur rectitudo, &amp; bonitas moralis in actu: 
+      se<lb ed="#R" n="28" break="no"/>cundo ad quaestionem. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e181">
+                  <lb ed="#R" n="29"/>Quantum ad primum, primo praemittam 
+      mo<lb ed="#R" n="30" break="no"/>dos dicendi, &amp; secundo ponam intentas 
+      con<lb ed="#R" n="31" break="no"/>clusiones. Quoad primum dicitur, quod bonitas 
+      <lb ed="#R" n="32"/>moralis, actus moralis siue interioris siue 
+      ex<lb ed="#R" n="33" break="no"/>terioris sumitur ex conformitate ad rectam 
+      ra<lb ed="#R" n="34" break="no"/>tionem, haec opinio habet pro se rationes. 
+      Pri<lb ed="#R" n="35" break="no"/>ma est, quia actus habet, quod sit rectus ex 
+      con<lb ed="#R" n="36" break="no"/>formitate ad regulam suam: sed regula actuum hu 
+      <lb ed="#R" n="37"/>manorum in esse morali est recta ratio: ergo. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e203">
+                  <lb ed="#R" n="38"/>Et confirmatur, quia bonitas actus moralis 
+      <lb ed="#R" n="39"/>est bonitas hominis secundum quod homo, 
+      <lb ed="#R" n="40"/>actus enim moralis est conueniens homini 
+      se<lb ed="#R" n="41" break="no"/>cundum quod homo: sed agere secundum, quod 
+      <lb ed="#R" n="42"/>dictat recta ratio conuenit homini, secundum quod 
+      <lb ed="#R" n="43"/>homo: Ergo dctamen rectae rationis est illud, ex 
+      <lb ed="#R" n="44"/>quo sumitur, &amp; accipitur bonitas actus 
+      mora<lb ed="#R" n="45" break="no"/>lis, vt est conueniens homini. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e223">
+                  <lb ed="#R" n="46"/>Item secundo: Bonitas actus, qui est proprius 
+      <lb ed="#R" n="47"/>homini, secundum quod homo est, videtur, 
+      <lb ed="#R" n="48"/>quod debeat accipi ex eo, quod est nobilius in 
+      <lb ed="#R" n="49"/>homine secundum quod homo, sed actus 
+      mora<lb ed="#R" n="50" break="no"/>lis est homini proprius secundum quod homo 
+      <lb ed="#R" n="51"/>est: ergo: Actus autem rationis videtur esse actus 
+      <lb ed="#R" n="52"/>nobilior in homine: ergo ab ipso est accipienda 
+      <!--0307.xml-->
+      <cb ed="#R" n="c"/>
+                  <lb ed="#R" n="53"/>nobilitas aliorum. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e247">
+                  <lb ed="#R" n="54"/>Tertio sic: Virtus non cognoscitiua habet, 
+      <lb ed="#R" n="55"/>quod dirigatur in actu suo a virtute 
+      cognosciti<lb ed="#R" n="56" break="no"/>ua: ergo actus voluntatis in homine habet regu 
+      <lb ed="#R" n="57"/>lari, &amp; dirigi a ratione, &amp; hoc est, quod dicitur 
+      <lb ed="#R" n="58"/>communiter, quod bonum morale est bonum 
+      <lb ed="#R" n="59"/>rationis. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e263">
+                  <lb ed="#R" n="60"/>Haec opinio confirmatur per Philosophum 2. 
+      <lb ed="#R" n="61"/>Ethicorum, qui dicit, quod virtus consistit in mem 
+      <lb ed="#R" n="62"/>te, &amp; ratione prout sapiens determinabit. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e273">
+                  <lb ed="#R" n="63"/>Alio est opinio, quod bonitas actus moralis 
+      <lb ed="#R" n="64"/>sumitur ex debitis circunstantijs in ordine ad 
+      <lb ed="#R" n="65"/>obiectum, ita quod obiectum sub circūstantijs debi 
+      <lb ed="#R" n="66"/>tis causet bonitatem moralem in actu, &amp; eius 
+      <lb ed="#R" n="67"/>rectitudinem; quod autem concurrat ratio, hoc 
+      <lb ed="#R" n="68"/>non est nisi per accidens, in quantum scilicet 
+      <lb ed="#R" n="69"/>ratio est ostensiua illius bonitatis, quam 
+      obie<lb ed="#R" n="70" break="no"/>ctum requirit, ad hoc, quod actus sit bonus, &amp; 
+      <lb ed="#R" n="71"/>rectus: ratio autem huius est, quia omnis actus 
+      <lb ed="#R" n="72"/>ex conditione sua generali habet, quod 
+      specifi<lb ed="#R" n="73" break="no"/>cetur ex 2. de anima, &amp; non videtur, quare 
+      ma<lb ed="#R" n="74" break="no"/>gis in esse naturae, quam in esse moris. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e302">
+                  <lb ed="#R" n="75"/>Tertia opinio est, quod nec ex hoc, nec ex illo 
+      <lb ed="#R" n="76"/>sed bonitas actus moralis oritur ex regula 
+      al<lb ed="#R" n="77" break="no"/>tiori, quae est voluntas diuina, non enim est 
+      ra<lb ed="#R" n="78" break="no"/>tio prima regula, nec obiectum actuum 
+      huma<lb ed="#R" n="79" break="no"/>norum, sed voluntas diuina, ita quod actus ha 
+      <lb ed="#R" n="80"/>bet, quod sit bonus praecise in ordine, &amp; 
+      confor<lb ed="#R" n="81" break="no"/>mitate ad voluntatem diuinam, &amp; haec videtur 
+      <lb ed="#R" n="82"/>esse intentio Augustini, cuius auctoritatem 
+      re<lb ed="#R" n="83" break="no"/>citat Magister in 1. lib distint. vltima. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e324">
+                  <lb ed="#R" n="84"/>Nunc pono propositiones intentas, Prima 
+      <lb ed="#R" n="85"/>est, quod bonitas, &amp; rectitudo actus moralis lo 
+      <lb ed="#R" n="86"/>quendo de actu interiori sumitur a voluntate 
+      <lb ed="#R" n="87"/>diuina, &amp; a ratione, &amp; a circunstantijs debitis, 
+      <lb ed="#R" n="88"/>&amp; ab obiecto, &amp; a voluntate nostra, &amp; ex conne 
+      <lb ed="#R" n="89"/>xione circunstantiarum, &amp; hoc diuersimode 
+      <lb ed="#R" n="90"/>alio, &amp; alio modo: sumitur enim a voluntate 
+      di<lb ed="#R" n="91" break="no"/>uina, vt a prima causa, mensurabili ab obiecto 
+      <lb ed="#R" n="92"/>vero, &amp; circunstantijs, vt a causa secunda men 
+      <lb ed="#R" n="93"/>furante, quodlibet enim illorum est mensura, 
+      <lb ed="#R" n="94"/>&amp; regula actus moralis: sed voluntas diuina, vt 
+      <lb ed="#R" n="95"/>causa prima, obiectum vero cum circunstantijs, vt 
+      <lb ed="#R" n="96"/>causa secunda. Est autem bonitas actus moralis 
+      <lb ed="#R" n="97"/>a recta ratione, non vt mensura, sed vt 
+      applican<lb ed="#R" n="98" break="no"/>te mensuram ad mensurabile, sed est a volunta 
+      <lb ed="#R" n="99"/>te nostra effectiue, &amp; causatiue, formaliter vero 
+      <lb ed="#R" n="100"/>ex connexione circumstantiarum debitarum in- 
+      <!--0308.xml-->
+      <pb ed="#R" n="308"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>esse ipsi actui. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e372">
+                  <lb ed="#R" n="2"/>Istam autem probo, quantum ad ordinem, &amp; 
+      <lb ed="#R" n="3"/>primo quod rectitudo actus moralis sit a diuina 
+      <lb ed="#R" n="4"/>voluntate sicut a causa prima, &amp; mensura, &amp; 
+      <lb ed="#R" n="5"/>hoc extrinsece. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e383">
+                  <lb ed="#R" n="6"/>Arguo sic: Jlla causa, quae non potest 
+      obliqua<lb ed="#R" n="7" break="no"/>ri, est regula prima, &amp; mensura rectitudinis 
+      <lb ed="#R" n="8"/>acuum humanorum: sed voluntas diuina est 
+      <lb ed="#R" n="9"/>huiusmodi: ergo. Maior patet, quia omnis 
+      re<lb ed="#R" n="10" break="no"/>gula defectibilis per se respicit regulam primam 
+      <lb ed="#R" n="11"/>rectam, &amp; inobliquabilem, &amp; primam: sed 
+      vo<lb ed="#R" n="12" break="no"/>luntas nostra, &amp; ratio, &amp; omnes circunstantiae 
+      <lb ed="#R" n="13"/>in actibus habent rationem defectibilis in se, 
+      di<lb ed="#R" n="14" break="no"/>uina vero voluntas recta est ex se: ergo. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e405">
+                  <lb ed="#R" n="15"/>Secunda pars Minoris probatur, quia 
+      voli<lb ed="#R" n="16" break="no"/>tum sub debitis circunstantijs non minus 
+      men<lb ed="#R" n="17" break="no"/>surat actum voluntatis, quam obiectum 
+      intelle<lb ed="#R" n="18" break="no"/>ctus: sed obiectum intellectus mensurat actum 
+      <lb ed="#R" n="19"/>intellectus: ergo. Sed obiectum cum istis 
+      cir<lb ed="#R" n="20" break="no"/>cunstantiĳs non est regula, &amp; mensura prima: 
+      <lb ed="#R" n="21"/>ergo secunda. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e424">
+                  <lb ed="#R" n="22"/>Aliam partem conclusionis probo sic: illud non 
+      <lb ed="#R" n="23"/>est mensura dans rectitudinem actui voluntatis, 
+      <lb ed="#R" n="24"/>quod potest obl quari, &amp; esse rectum, &amp; non 
+      <lb ed="#R" n="25"/>rectum: sed ratio practica, quantum in se est, po 
+      <lb ed="#R" n="26"/>t est esse recta, &amp; non recta: ergo. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e437">
+                  <lb ed="#R" n="27"/>Dices, quod argumentum non probat, nisi 
+      <lb ed="#R" n="28"/>quod ratio non potest esse prima regula: non 
+      <lb ed="#R" n="29"/>probat autem, quin possit esse regula secunda, 
+      <lb ed="#R" n="30"/>Jdeo arguo sic: Jllud non est prima regula, nec se 
+      <lb ed="#R" n="31"/>cunda ipsius regulat i, quod non potest 
+      media<lb ed="#R" n="32" break="no"/>re inter primam regulam, &amp; ipsum regulatum, 
+      <lb ed="#R" n="33"/>verbi gratia, imprimens sigillum in ceram non 
+      <lb ed="#R" n="34"/>dicitur esse mensura figurae relictae ex sigillo in ce 
+      <lb ed="#R" n="35"/>ra esse, quod non mediat nisi per modum applican 
+      <lb ed="#R" n="36"/>tis: sed ratio omnino mediat inter regulam, &amp; re 
+      <lb ed="#R" n="37"/>gulatum, nisi applicatiue applicando, scilicet obie 
+      <lb ed="#R" n="38"/>ctum circumstantionatum ad voluntatem: ergo. 
+      <lb ed="#R" n="39"/>Cognitio enim non est conditio regulans 
+      obie<lb ed="#R" n="40" break="no"/>ctiue, sed tantum ostendit illud, quod habet men 
+      <lb ed="#R" n="41"/>surare obiectiue. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e472">
+                  <lb ed="#R" n="42"/>Secundo ad idem, quia in hoc consistit 
+      recti<lb ed="#R" n="43" break="no"/>tudo voluntatis, vt faciat illud, quod deceat, &amp; 
+      <lb ed="#R" n="44"/>conuenit, &amp; non habet illud, quod deceat, &amp; 
+      <lb ed="#R" n="45"/>conueniat, quia recta ratio dictat, immo e 
+      con<lb ed="#R" n="46" break="no"/>uerso, quia illud conuenit, ideo hoc recta ratio 
+      <lb ed="#R" n="47"/>dictat: ergo. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e488">
+                  <lb ed="#R" n="48"/>Confirmo, quia propter aliud, &amp; aliud 
+      obie<lb ed="#R" n="49" break="no"/>ctum, aliam, &amp; aliam circunstantiam recta ratio 
+      <lb ed="#R" n="50"/>dictat acum conuenire, &amp; non conuenire: ergo 
+      <lb ed="#R" n="51"/>conuenientia, &amp; disconuenientia accipitur ex 
+      <lb ed="#R" n="52"/>parte obiecti; vnde ratio non habet de se, quod 
+      <lb ed="#R" n="53"/>sit recta, nisi, quia sequitur conformitatem 
+      <lb ed="#R" n="54"/>in obiecto, hoc etiam innuit Philosophus 2. 
+      Ethi<lb ed="#R" n="55" break="no"/>corum, cum ait, vt sapiens determinabit, 
+      sa<lb ed="#R" n="56" break="no"/>piens autem non se habet per modum mensuran 
+      <lb ed="#R" n="57"/>tis, sed applicantis, quia medium, quod sapiens 
+      <lb ed="#R" n="58"/>commensurat. non imprimitur a ratione, sed 
+      ra<lb ed="#R" n="59" break="no"/>tio inuenit illud, &amp; ostendit voluntati: ergo.
+   </p>
+               <p xml:id="olm8ij-f94146-d1e517">
+                  <lb ed="#R" n="60"/>Quarto probo, quia rectitudo actus 
+      volunta<lb ed="#R" n="61" break="no"/>tis est effectiue a voluntate, quoniam sicut 
+      vide<lb ed="#R" n="62" break="no"/>mus in istis factibilibus, sic in agibilibus: sed in 
+      <lb ed="#R" n="63"/>factibilibus videmus, quod bonitas facti 
+      attri<lb ed="#R" n="64" break="no"/>buitur facienti, sicut bonitas artificij 
+      attribui<lb ed="#R" n="65" break="no"/>tur artifici, quare sic erit in agibilibus, quod 
+      <lb ed="#R" n="66"/>bonitas effectus aliquo modo attribuitur agenti. 
+  </p>
+               <p xml:id="olm8ij-f94146-d1e535">
+      <!--0308.xml-->
+                  <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>Et confirmatur, quia infactibilibus videmus, 
+      <lb ed="#R" n="68"/>quod bonitas facti attribuitur architecto, &amp; 
+      <lb ed="#R" n="69"/>principali praecipienti: sed voluntas respectu 
+      <lb ed="#R" n="70"/>aliarum potentiarum se habet, vt praecipiens: ergo. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e552">
+                  <lb ed="#R" n="71"/>Vltimo probo, quod bonitatem formaliter 
+      <lb ed="#R" n="72"/>det actui integritas circunstantiarum, &amp; arguo 
+      <lb ed="#R" n="73"/>sic: Jllud, a quo per se habet actus intrinsece, 
+      <lb ed="#R" n="74"/>quod sit conueniens, illud dat actui rationem bo 
+      <lb ed="#R" n="75"/>nitatis, hoc probo, quia ratio boni est ratio con 
+      <lb ed="#R" n="76"/>uenientis, vt supra dicebatur: sed integritas cir 
+      <lb ed="#R" n="77"/>cunstantiarum dat actui formaliter rationem 
+      con<lb ed="#R" n="78" break="no"/>uenientis, quoniam actus conueniens non est 
+      <lb ed="#R" n="79"/>aliud, quam actus sic, &amp; sic circunstantionatus: 
+      <lb ed="#R" n="80"/>ergo conuenientia actus est integritas illarum 
+      <lb ed="#R" n="81"/>circunstant iarum. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e578">
+                  <lb ed="#R" n="82"/>Ex his patet, quod non est sic, loquendo de ra 
+      <lb ed="#R" n="83"/>tione boni, sicut de ratione veri, verum enim 
+      di<lb ed="#R" n="84" break="no"/>cit conformitatem rei ad intellectum, vnde 
+      di<lb ed="#R" n="85" break="no"/>cit veritas rationem relatiuam ad alterum, sed 
+      <lb ed="#R" n="86"/>bonitas dicit rationem aliam, quam a se 
+      intrin<lb ed="#R" n="87" break="no"/>sece in ordine ad extrinsecum aliquod: sed res ab 
+      <lb ed="#R" n="88"/>solute in se non relata ad quodcunque aliud, est 
+      <lb ed="#R" n="89"/>bona, ideo dico, quod actus tam interior, quam 
+      <lb ed="#R" n="90"/>exterior habet bonitatem suam intrinsecam ex 
+      <lb ed="#R" n="91"/>proprijs, &amp; intrinsecis circunstatijs, quae est 
+      ho<lb ed="#R" n="92" break="no"/>nitas moralis formaliter ipsius actus. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e604">
+                  <lb ed="#R" n="93"/>Dices: Superius dixisti, quod bonum dicit 
+      re<lb ed="#R" n="94" break="no"/>lationem conuenientiae, modo autem videris 
+      di<lb ed="#R" n="95" break="no"/>cere, quod est ratio absoluta, vt absolutum distin 
+      <lb ed="#R" n="96"/>guitur contra respectiuum. Respondeo, non dico, 
+      <lb ed="#R" n="97"/>quod est ratio absoluta, sed dico quod secundum 
+      <lb ed="#R" n="98"/>rationem dicitur ad se, quia illa conuenientia 
+      <lb ed="#R" n="99"/>non accipitur in ordine ad aliquid extra se, sicut 
+      <lb ed="#R" n="100"/>accipitur veritas intellectus in ordine ad rem, 
+      vn<lb ed="#R" n="101" break="no"/>de bonitas auri est quando scilicet aurum habet, 
+      <lb ed="#R" n="102"/>quicquid est aptum natum sibi intrinsece 
+      conue<lb ed="#R" n="103" break="no"/>nire, vnde bonitas potest esse relatio rationis ad 
+      <lb ed="#R" n="104"/>se ipsum: sic ergo dico in proposito, quod bonitas 
+      <lb ed="#R" n="105"/>formalis actus siue intrinseci non accipitur pro 
+      <lb ed="#R" n="106"/>aliquo extrinseco, sed ad intra in ordine ad 
+      cir<lb ed="#R" n="107" break="no"/>eunstantias intrinsecas proprias cuiuslibet. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e639">
+                  <lb ed="#R" n="108"/>Secunda Conclusio eit quoad principale quaesi 
+      <lb ed="#R" n="109"/>tum: Vtrum scilicet conscientia obliget ad 
+      <lb ed="#R" n="110"/>mor tale.
+   </p>
+               <p xml:id="olm8ij-f94146-d1e648">
+                  <lb ed="#R" n="111"/>Quidam autem dicunt, quod tantum obligat 
+      <lb ed="#R" n="112"/>per accidens, &amp; secundum quid. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e655">
+                  <lb ed="#R" n="113"/>Alij vero dicuut, quod obligat ratione 
+      cuius<lb ed="#R" n="114" break="no"/>dam circunstantiae. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e663">
+                  <lb ed="#R" n="115"/>Motiuum primum est, quod sequitur ex alia 
+      <lb ed="#R" n="116"/>opinione eorum: ipsi dicunt, quod tota 
+      rectitu<lb ed="#R" n="117" break="no"/>do actus voluntatis accipitur in ordine ad 
+      ratio<lb ed="#R" n="118" break="no"/>nem, sicut ad mensuram, mensuratum autem 
+      nun<lb ed="#R" n="119" break="no"/>quam est rectum, si non conformetur suae 
+      men<lb ed="#R" n="120" break="no"/>surae: ergo voluntati per se conuenit conformari 
+      <lb ed="#R" n="121"/>rationi, si debet esse recta, &amp; ideo si ratio 
+      vltima<lb ed="#R" n="122" break="no"/>te suadet aliquid, tenetur voluntas illud facere, 
+      <lb ed="#R" n="123"/>Sed quia non teneo, quod rectitudo voluntatis sit 
+      <lb ed="#R" n="124"/>ex conformitate voluntatis ad rectam rationem 
+      <lb ed="#R" n="125"/>sicut ad mensuram, ideo nego illud, quod sequi. 
+      <lb ed="#R" n="126"/>tur ex hoc, scilicet, quod voluntas ad hoc, quod 
+      <lb ed="#R" n="127"/>sit recta teneatur semper conformari dictamini 
+      <lb ed="#R" n="128"/>rationis. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e696">
+                  <lb ed="#R" n="129"/>Alij de secunda opinione dicunt, quod conscientia 
+      <lb ed="#R" n="130"/>errans potest esse vel circa mala, vel circa bona; si 
+      <lb ed="#R" n="131"/>circa mala realiter ita, quod existimat ea bona, 
+      <lb ed="#R" n="132"/>tunc non peccat voluntas faciendo, quod dictat 
+      <!--0309.xml-->
+      <pb ed="#R" n="309"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>conscientia; si autem illa sint indifferentia, dicunt 
+      <lb ed="#R" n="2"/>renti quandiu stat illa conscientia de tali 
+      indiffe<lb ed="#R" n="3" break="no"/>quod faciendo vel non faciendo, si voluntas non 
+      <lb ed="#R" n="4"/>obedit, peccat, si vero conscientia sit circa bona, 
+      <lb ed="#R" n="5"/>quia reputat tamen ea mala, si conscientia 
+      di<lb ed="#R" n="6" break="no"/>ctat illa esse facienda, peccat voluntas, si obedit, 
+      <lb ed="#R" n="7"/>&amp; hoc ratione diuini praecepti, quod praecipit, ma 
+      <lb ed="#R" n="8"/>lum non esse agendum, ideo tunc per se non 
+      <lb ed="#R" n="9"/>peccat, sed concomitatur. Sed videtur, quod 
+      <lb ed="#R" n="10"/>etiam hoc modo secundo obliget per se 
+      conscien<lb ed="#R" n="11" break="no"/>tia, quia ex hoc, quod non tantum applicat, sed 
+      <lb ed="#R" n="12"/>facit mensuram, ita quod dictatum a recta 
+      ratio<lb ed="#R" n="13" break="no"/>ne (in quantum est dictatum) est mensura, videtur 
+      <lb ed="#R" n="14"/>quod dictatum sit exequendum necessario, quia 
+      <lb ed="#R" n="15"/>aliter actus voluntatis non est rectus, nisi 
+      confor<lb ed="#R" n="16" break="no"/>metur mensurae suae.
+   </p>
+               <p xml:id="olm8ij-f94146-d1e748">
+                  <lb ed="#R" n="17"/>Ideo dicunt alij, quod siue conscientia erret 
+      <lb ed="#R" n="18"/>circa bona extimando ea mala, siue e conuerso, 
+      <lb ed="#R" n="19"/>semper voluntas peccat non obediendo rationi, 
+      <lb ed="#R" n="20"/>&amp; ideo conscientia obligat non tamen per se, sed 
+      <lb ed="#R" n="21"/>per accidens: ratio huiusmodi est, quia 
+      secun<lb ed="#R" n="22" break="no"/>dum eos tota ratio bonitatis est ex obiecto, &amp; 
+      <lb ed="#R" n="23"/>ideo quia conscientia dictat bonum illud esse ma 
+      <lb ed="#R" n="24"/>lum, siue e conuerso, siue indifferens esse 
+      ma<lb ed="#R" n="25" break="no"/>lum siue bonum, &amp; voluntas non aliter fertur in 
+      <lb ed="#R" n="26"/>obiectum, nisi praesentatum a ratione, ideo volun 
+      <lb ed="#R" n="27"/>tas tenetur facere bonum ostensum esse bonum a 
+      <lb ed="#R" n="28"/>ratione siue recta siue non recta: Est ergo tantum 
+      <lb ed="#R" n="29"/>causa obligationis per accidens, quia non aliter, 
+      <lb ed="#R" n="30"/>nisi, quia habet obiectum praesentare, non quod 
+      <lb ed="#R" n="31"/>habeat illud facere. Sed videtur mihi, quod secun 
+      <lb ed="#R" n="32"/>dum hunc modum conscientia obliget etiam per 
+      <lb ed="#R" n="33"/>se, non per accidens, ratio est, quia per le 
+      concur<lb ed="#R" n="34" break="no"/>rit ad bonitatem actus. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e790">
+                  <lb ed="#R" n="35"/>Ad bonitatem enim actus per se concurrit non 
+      <lb ed="#R" n="36"/>tantum mensura, sed applicans mensuram: dixi 
+      <lb ed="#R" n="37"/>enim in principio quarti libri, quod per se 
+      appli<lb ed="#R" n="38" break="no"/>cans est per se causa, non enim sic se habet ad igni 
+      <lb ed="#R" n="39"/>tionem applicans ignem ad stuppam sicut se 
+      ha<lb ed="#R" n="40" break="no"/>bet ad aedificationem musicus, sed ratio est hic 
+      <lb ed="#R" n="41"/>applicans mensuram ad mensuratum: ergo per se 
+      <lb ed="#R" n="42"/>facit ad bonitatem, &amp; malitiam: ergo tenetur 
+      <lb ed="#R" n="43"/>homo facere, quod dictat conscientia, alias 
+      pec<lb ed="#R" n="44" break="no"/>cat, qui venit contra illud, quod per se concurrit 
+      <lb ed="#R" n="45"/>ad bonitatem: ergo. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e816">
+                  <lb ed="#R" n="46"/>Sed hic est dubium, quia nullus obligatur ad 
+      <lb ed="#R" n="47"/>pecc atum mortale: sed faciens quod dictat 
+      con<lb ed="#R" n="48" break="no"/>scientia erronea de aliquo prohibito faciendo, pec 
+      <lb ed="#R" n="49"/>cat mortaliter, quia transgreditur preceptum: 
+      <lb ed="#R" n="50"/>ergo videtur, quod nulius teneatur in hoc casu 
+      <lb ed="#R" n="51"/>agere, secundum quod dictat conscientia. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e832">
+                  <lb ed="#R" n="52"/>Confirmo, quia alias esset homo perplexus, 
+      <lb ed="#R" n="53"/>quia non posset vitare peccatum mortale. Nam 
+      <lb ed="#R" n="54"/>faciendo peccaret, quia contra praeceptum, non 
+      <lb ed="#R" n="55"/>faciendo peccabit, quia contra conscientiam, 
+      per<lb ed="#R" n="56" break="no"/>plexus autem nullus est in lege gratiae: quod etiam 
+      <lb ed="#R" n="57"/>probo, quia nullum pec catum est, quod non est 
+      <lb ed="#R" n="58"/>voluntarium: sed si quis perplexus est, non agit 
+      <lb ed="#R" n="59"/>voluntarie, imo coacte, cum non possit peccatum 
+      <lb ed="#R" n="60"/>uitare: ergo. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e855">
+                  <lb ed="#R" n="61"/>Respondeo dico, quod nullus in fide Christi 
+      <lb ed="#R" n="62"/>est perplexus, vt cogatur peccare necessario. Est 
+      <lb ed="#R" n="63"/>enim dare medium inter agere, quod dictat 
+      con<lb ed="#R" n="64" break="no"/>scientia erronea, &amp; non agere secundum conscien 
+      <lb ed="#R" n="65"/>tiam erroneam, illud autem medium est 
+      depo<lb ed="#R" n="66" break="no"/>nere conscientiam. Et si est dubius de eo, quod di- 
+      <!--0309.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>ctat conscientia, vtrum sit peccatum; debet requi 
+      <lb ed="#R" n="68"/>rere virum sapientem, &amp; tunc conscientiam 
+      de<lb ed="#R" n="69" break="no"/>ponere, sed stante illa, semper peccabit, siue agat, 
+      <lb ed="#R" n="70"/>siue non. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e884">
+                  <lb ed="#R" n="71"/>Ad formam ergo argumenti dico, quod nullus 
+      <lb ed="#R" n="72"/>talis necessario peccat, nec est perplexus, quia ha 
+      <lb ed="#R" n="73"/>bet remedium, quod dictum est. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e893">
+                  <lb ed="#R" n="74"/>Ad argumentum in oppositum dicendum, quod 
+      <lb ed="#R" n="75"/>duplex est suadens, quoddam extrinsecum, aliud 
+      <lb ed="#R" n="76"/>intrinsecum, seu iudicatorium naturale: deficien 
+      <lb ed="#R" n="77"/>te ergo intrinseco tenetur quilibet conformari iu 
+      <lb ed="#R" n="78"/>dicatorio extrinseco; ad propositum stante 
+      con<lb ed="#R" n="79" break="no"/>scientia erronea tenetur voluntas obedire iudica 
+      <lb ed="#R" n="80"/>torio, intrinseco, si non sit extrinsecum, &amp; hoc, quia 
+      <lb ed="#R" n="81"/>aliter habet suadenti obedire. 
+   </p>
+            </div>
+            <div xml:id="olm8ij-f94146-Dd1e914">
+               <head xml:id="olm8ij-f94146-Hd1e916">Articulus 2</head>
+               <head xml:id="olm8ij-f94146-Hd1e918" type="question-title">
+        De synderesi, quid sit: An etiam possit in homine extingui
+      </head>
+               <p xml:id="olm8ij-f94146-d1e921">
+                  <lb ed="#R" n="82"/>ARTJCVLVS JJ. 
+      <lb ed="#R" n="83"/>De synderesi, quid sit: An etiam possit in homine 
+      <lb ed="#R" n="84"/>extingui. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e930">
+                  <lb ed="#R" n="85"/>AD secundam quaestionem arguo primo: quod 
+      syn<lb ed="#R" n="86" break="no"/>deresis possit in homine totaliter extingui, 
+      <lb ed="#R" n="87"/>sinderesis enim pertinet ad principia prudentiae: 
+      <lb ed="#R" n="88"/>sed 4. Ethicorum dicitur, quod intemperantia 
+      <lb ed="#R" n="89"/>corrumpit principia prudentiae: ergo. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e943">
+                  <lb ed="#R" n="90"/>In oppositum est, quia non sunt minus efficacia 
+      <lb ed="#R" n="91"/>principia practica, quam speculatiua: sed 
+      princi<lb ed="#R" n="92" break="no"/>pia speculatiua non possunt corrumpi, vnde sunt 
+      <lb ed="#R" n="93"/>notissima, nec aliquis potest negare ea: ergo. Sed 
+      <lb ed="#R" n="94"/>principia practica, &amp; scintilla rationis, sunt illa 
+      <lb ed="#R" n="95"/>sinderesis: ergo. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e960">
+                  <lb ed="#R" n="96"/>Respondeo, primo videndum est, quid sit scintil 
+      <lb ed="#R" n="97"/>la rationis, quae sinderesis dicitur, primo quantum 
+      <lb ed="#R" n="98"/>ad actum, secundo quantum ad nomen, tertio 
+      <lb ed="#R" n="99"/>quantum ad rem. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e971">
+                  <lb ed="#R" n="100"/>Quantum ad actum sciendum, quod sicut 
+      noti<lb ed="#R" n="101" break="no"/>tia principiorum, quae se tenet ex terminis in con 
+      <lb ed="#R" n="102"/>scientia speculatiua est alterius rationis a 
+      noti<lb ed="#R" n="103" break="no"/>tia conclusionum, quae tenet se ex deductione: sed 
+      <lb ed="#R" n="104"/>in practicis est notitia quorundam principiorum 
+      <lb ed="#R" n="105"/>quae se tenet ex terminis, &amp; notitia 
+      conclusio<lb ed="#R" n="106" break="no"/>num, quae se tenet ex deductione illorum 
+      princi<lb ed="#R" n="107" break="no"/>piorum, &amp; vna notitia est omnino alterius 
+      ratio<lb ed="#R" n="108" break="no"/>nis ab alia: Principia ergo prima in practicis 
+      <lb ed="#R" n="109"/>sunt duo, scilicet: oportet soperiori obedire, &amp; non 
+      <lb ed="#R" n="110"/>facias alteri, quod tibi non vis fieri, &amp; primum 
+      <lb ed="#R" n="111"/>respicit Deum, &amp; vniuersaliter quemcunque 
+      su<lb ed="#R" n="112" break="no"/>periorem; aliud vero respicit aequalem, &amp; ex istis 
+      <lb ed="#R" n="113"/>duobus sicut ex per se notis deducuntur omnes con 
+      <lb ed="#R" n="114"/>clusiones practicae; tamen sciendum est, quod 
+      ali<lb ed="#R" n="115" break="no"/>qua possunt pluraliter esse nota per se, ut ex 
+      ter<lb ed="#R" n="116" break="no"/>minis per se, sine deductione aliqua syllopistiea, 
+      <lb ed="#R" n="117"/>eo modo illud principium: de quolibet alli: 
+      ma<lb ed="#R" n="118" break="no"/>tio vel negatio vera, est per se notun. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e1015">
+                  <lb ed="#R" n="119"/>Alia sunt per se nota ex terminis, non 
+      simplici<lb ed="#R" n="120" break="no"/>ter, &amp; absque omni deductione, sed mediante 
+      <lb ed="#R" n="121"/>deductione quadam, licet impersectibili, vnde 
+      po<lb ed="#R" n="122" break="no"/>sitis terminis statim intellectus arguit 
+      imperfe<lb ed="#R" n="123" break="no"/>ctibile, sicut est de se hoc per se notum: Omne totum 
+      <lb ed="#R" n="124"/>est maius sua parte, arguit enim intellectus sic 
+      <lb ed="#R" n="125"/>imperceptibiliter, posito hoc termino: Totum est 
+      <lb ed="#R" n="126"/>aliud, quod pars, nam totum est, quod continet 
+      <lb ed="#R" n="127"/>partem, &amp; plus, &amp; ex hoc concludit 
+      impercepti<lb ed="#R" n="128" break="no"/>biliter, Omne totum est maius sua parte. Sic in 
+      pra<lb ed="#R" n="129" break="no"/>cticis, quaedam sunt principia nota ex terminis 
+      <lb ed="#R" n="130"/>absque omni deductione: &amp; aliqua, quae sunt per 
+      <!--0310.xml-->
+      <pb ed="#R" n="310"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>se nota med iante aliquo imperceptibili syllogismo 
+      <lb ed="#R" n="2"/>accepto ex terminis: isto secundo modo sunt per se 
+      <lb ed="#R" n="3"/>nota praecepta decalogi, &amp; notitia talis istorum 
+      <lb ed="#R" n="4"/>principiorum dicitur scintilla rationis, &amp; hmōi no 
+      <lb ed="#R" n="5"/>titiae sunt quaedam regulae in practicis, secundum quas 
+      <lb ed="#R" n="6"/>recte viuimus, qualis est illa: Temperate est 
+      vi<lb ed="#R" n="7" break="no"/>uendum, &amp; agendum &amp;: Dandum est sicut 
+      opor<lb ed="#R" n="8" break="no"/>tet, &amp; quando oportet. Et haec possunt dici 
+      prin<lb ed="#R" n="9" break="no"/>cipia prima, in quantum ex eis deducuntur actio 
+      <lb ed="#R" n="10"/>nes secundum vitam moralem. Ergo ad 
+      proposi<lb ed="#R" n="11" break="no"/>tum, actus scintillae rationisinon est secundum 
+      <lb ed="#R" n="12"/>principia altissima per se nota primo modo, sed 
+      <lb ed="#R" n="13"/>secundum illa, quae statim quodam imperceptibi 
+      <lb ed="#R" n="14"/>li syllogismo apparent cuilibet esse nota, quod 
+      de<lb ed="#R" n="15" break="no"/>ducit illa scintilla rationis. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e1083">
+                  <lb ed="#R" n="16"/>Secundo, quid est scintilla, quae sinderesis dicitur 
+      <lb ed="#R" n="17"/>quoad nomen? Ad hoc sciendum est, quod secundum 
+      <lb ed="#R" n="18"/>Greg. super Ezechielem, vbi loquitur de illis 
+      qua<lb ed="#R" n="19" break="no"/>tuor animalibus, quae vidit in spiritu Ezechiel, 
+      <lb ed="#R" n="20"/>Aquila figurat scintillam rationis, quae altius 
+      vo<lb ed="#R" n="21" break="no"/>lat: Ratio autem quare dicitur scintilla rationis 
+      <lb ed="#R" n="22"/>est, quia sicut in scintilla est modicus ignis, &amp; 
+      pa<lb ed="#R" n="23" break="no"/>rum durans, sed nunc apparet, nunc disparet: sic 
+      <lb ed="#R" n="24"/>in ratione nostra estt lumen modicum respectu 
+      in<lb ed="#R" n="25" break="no"/>telligentiarum, quia supremum rationis 
+      con<lb ed="#R" n="26" break="no"/>iungitur cum infimo, &amp; ideo supremum nostrae 
+      <lb ed="#R" n="27"/>intelligentiae scintilla hominis appellatur, 
+      secun<lb ed="#R" n="28" break="no"/>dum, quam sunt nota principia pratica: &amp; sicut 
+      <lb ed="#R" n="29"/>ex modica scintilla generatur magnus ignis, sic 
+      <lb ed="#R" n="30"/>ex illis principijs, quae pauca sunt, generatur 
+      to<lb ed="#R" n="31" break="no"/>tummet lumen moralis vitae, &amp; propter hoc in 
+      <lb ed="#R" n="32"/>graeco orsipene idem est, quod scintilla in latino. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e1122">
+                  <lb ed="#R" n="33"/>Nunc dico, quid sit sinderesis quantum ad rem. 
+      <lb ed="#R" n="34"/>Dico primo, quod non est actus tantum, quia 
+      <lb ed="#R" n="35"/>scintilla rationis vtimur, quando volumus, non au 
+      <lb ed="#R" n="36"/>tem vtimur actu quando volumus, tunc enim idē 
+      <lb ed="#R" n="37"/>esset causa sui ipsius per sinderesim, &amp; scintillam 
+      <lb ed="#R" n="38"/>rationis iudicamus, quando volumus: ergo 
+      sin<lb ed="#R" n="39" break="no"/>deresis habet causalitatem aliquam super 
+      iudica<lb ed="#R" n="40" break="no"/>re: non ergo est idem quod actu iudicare, per 
+      no<lb ed="#R" n="41" break="no"/>titiam enim principiorum causalitates 
+      iudica<lb ed="#R" n="42" break="no"/>mus de conclusione, sicut iudicamus non esse 
+      furan<lb ed="#R" n="43" break="no"/>dum, &amp; huiusmodi. Oportet ergo quod sit aliquod 
+      <lb ed="#R" n="44"/>principium inclinans determinatiue ad 
+      iudican<lb ed="#R" n="45" break="no"/>dum, propter quod concludo, quod non est actus, 
+      <lb ed="#R" n="46"/>sed habitualis notitia, qua possumus faciliter exi 
+      <lb ed="#R" n="47"/>re in actum, quando volumus. Sed de isto habitu 
+      <lb ed="#R" n="48"/>inclinatiuo est dubium, quid sit. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e1159">
+                  <lb ed="#R" n="49"/>Hic dicunt quidam, quod est illamet natura po 
+      <lb ed="#R" n="50"/>tentiae: dicunt enim, quod sicut per habitum 
+      scien<lb ed="#R" n="51" break="no"/>tiae iudicamus scientifice de aliqua determinata 
+      <lb ed="#R" n="52"/>conclusione speculatiue; de connexione autem 
+      <lb ed="#R" n="53"/>terminorum non iudicamus per habitum, sed per 
+      <lb ed="#R" n="54"/>potentiam illam. Nam pondere naturali 
+      poten<lb ed="#R" n="55" break="no"/>tiae iudicamus complexionē terminorum primorum 
+      <lb ed="#R" n="56"/>principiorum, non autem ex habitu, quia sic habitus es 
+      <lb ed="#R" n="57"/>set ante habitum: ergo. Sic est practicus, quod 
+      po<lb ed="#R" n="58" break="no"/>tentia est illud, quo iudicamus connexionem 
+      pri<lb ed="#R" n="59" break="no"/>morum principiorum practicorum, licet per habi 
+      <lb ed="#R" n="60"/>tum ipsorum principiorum iudicemus de 
+      conclu<lb ed="#R" n="61" break="no"/>sione, &amp; agibili, sed sinderesis est habitus 
+      princi<lb ed="#R" n="62" break="no"/>piorum, vt dictum est: ergo non est aliud, quam 
+      <lb ed="#R" n="63"/>potentia illa. Et confirmatur propositum, quia non 
+      <lb ed="#R" n="64"/>videtur, quod aliquid acquisitum insit nobis ad 
+      <lb ed="#R" n="65"/>illud: sed habitus principiorum est nobis a natura: 
+      <lb ed="#R" n="66"/>ergo non est nobis aliquid acquisitum siue in spo 
+      <!--0310.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>culatiuis, siue in practicis. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e1208">
+                  <lb ed="#R" n="68"/>Alij dicunt, quod ex notitia actuali 
+      termino<lb ed="#R" n="69" break="no"/>rum acquiritur in nobis notitia habitualiter, &amp; 
+      <lb ed="#R" n="70"/>habitus, quo intellectus iudicat complexionem il 
+      <lb ed="#R" n="71"/>lorum terminorum. Et ad hoc mouentur, quia alias 
+      <lb ed="#R" n="72"/>non videretur, quod notitia primorum 
+      princi<lb ed="#R" n="73" break="no"/>piorum posset corrumpi, quod falsum est, quia 
+      <lb ed="#R" n="74"/>multi negauerunt principia prima. Videtur mihi, 
+      <lb ed="#R" n="75"/>quod in hoc sit distinguendum. Principium. n. potest 
+      <lb ed="#R" n="76"/>accipi pro notitia illa &amp; complexione terminorum, 
+      <lb ed="#R" n="77"/>Secundo pro pondere determinante, &amp; 
+      in<lb ed="#R" n="78" break="no"/>clinante in alteram partem determinate: Tertio mo 
+      <lb ed="#R" n="79"/>do pro aliquo derelicto ex iudicio complexionis 
+      <lb ed="#R" n="80"/>in potentia illa, verbi gratia, accipio istos 
+      termi<lb ed="#R" n="81" break="no"/>nos: Malum, est furari, modo dico, quod multi 
+      <lb ed="#R" n="82"/>sunt, qui habent istos terminos, sicut 
+      princi<lb ed="#R" n="83" break="no"/>pium, nec per consequens complexionem illorum, 
+      <lb ed="#R" n="84"/>tunc dico, quod accipiendo habitum principiorum, 
+      <lb ed="#R" n="85"/>&amp; notitiam terminorum, ex quibus habetur 
+      com<lb ed="#R" n="86" break="no"/>plexio ipsorum, quae complexio est principium, sic 
+      <lb ed="#R" n="87"/>dico, quod habitus principiorum non est ex natu 
+      <lb ed="#R" n="88"/>ra. Multi enim non habent notitiam terminorum 
+      <lb ed="#R" n="89"/>principiorum, quia non habent species ipsorum, 
+      <lb ed="#R" n="90"/>sed oportet prius acquiri notitiam eorum per ac 
+      <lb ed="#R" n="91"/>quisitionem specierum, &amp; per doctrinam. Sed si 
+      <lb ed="#R" n="92"/>habitum principiorum capiamus pro illo 
+      ponde<lb ed="#R" n="93" break="no"/>re determinante talem veridicationem, ita, quod 
+      <lb ed="#R" n="94"/>notis terminis statim assentiamus complexioni, 
+      <lb ed="#R" n="95"/>&amp; iudico de tali veritate, sicut iudicamus, quod 
+      <lb ed="#R" n="96"/>malum est furari, sic dico, quod est a natura 
+      <lb ed="#R" n="97"/>est. n. non aliud, quam lumen potentiae, quia illa 
+      <lb ed="#R" n="98"/>est additio ex ipsis terminis, &amp; lumine intellectus 
+      <lb ed="#R" n="99"/>agentis, ex quibus immediate nullo praeuio 
+      cau<lb ed="#R" n="100" break="no"/>satur notitia complexionis. hoc modo intelligitur 
+      <lb ed="#R" n="101"/>illud, quod dicit Comment. 3. de anima commen 
+      <lb ed="#R" n="102"/>to 49. quod intellectus agens est causa principalis, &amp; 
+      <lb ed="#R" n="103"/>terminata instrumentalis in notitia primorum 
+      <lb ed="#R" n="104"/>principiorum, &amp; tunc, quia intellectus agens 
+      me<lb ed="#R" n="105" break="no"/>diantibus terminis causat formam illam, quae est 
+      <lb ed="#R" n="106"/>notitia principiorum in intellectu possibili; 
+      Ver<lb ed="#R" n="107" break="no"/>bi gratia: Sed malum est furari, &amp; tunc in 
+      secun<lb ed="#R" n="108" break="no"/>do instanti idem intellectus virtute talis 
+      poten<lb ed="#R" n="109" break="no"/>tiae complexionis causat in intellectu possibili no 
+      <lb ed="#R" n="110"/>titiam conclusionis complexionis, ita quod agit 
+      <lb ed="#R" n="111"/>mediante tali notitia, vt instrumento, sicut mediã- 
+      <lb ed="#R" n="112"/>te notitia terminorum, vt instrumento, agebat 
+      <lb ed="#R" n="113"/>ad complexionem eorum. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e1310">
+                  <lb ed="#R" n="114"/>Tertio vero modo potest accipi notitia 
+      termi<lb ed="#R" n="115" break="no"/>norum principiorum pro facultate &amp; habilitate 
+      qua<lb ed="#R" n="116" break="no"/>dam derelicta in intellectu ex frequenti tali iudicio 
+      <lb ed="#R" n="117"/>terminorum, &amp; complexionis ipsorum, quo 
+      facili<lb ed="#R" n="118" break="no"/>ter iudicat intellectus de eorum complexione, &amp; 
+      <lb ed="#R" n="119"/>hoc modo habitus principiorum est habitus 
+      ac<lb ed="#R" n="120" break="no"/>quisitus, &amp; hoc modo in intellectu potest acquiri 
+      <lb ed="#R" n="121"/>habitus oppositus habitui principiorum ex 
+      fre<lb ed="#R" n="122" break="no"/>quenti consideratione actuali oppositi. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e1332">
+                  <lb ed="#R" n="123"/>Sed hic est dubium satis magnum, quoniam se 
+      <lb ed="#R" n="124"/>cundum Arist. 2. Ethicorum, assuefactio non est 
+      res<lb ed="#R" n="125" break="no"/>pectu eorum, quae insunt a natura: sed per te 
+      no<lb ed="#R" n="126" break="no"/>titia complexionis terminorum ipsorum 
+      princi<lb ed="#R" n="127" break="no"/>piorum est a natura, dixisti enim, quod 
+      comple<lb ed="#R" n="128" break="no"/>xio talis causatur immediate, &amp; naturaliter 
+      lu<lb ed="#R" n="129" break="no"/>mine intellectus agentis, &amp; terminorum nullo 
+      <lb ed="#R" n="130"/>addito: ergo. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e1352">
+                  <lb ed="#R" n="131"/>Respondeo: ratio illa efficax est contra illos, 
+      <lb ed="#R" n="132"/>qui ponunt, quod intellectus possibilis causat no- 
+      <!--0311.xml-->
+      <pb ed="#R" n="311"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>titiam in se ipsarum rerum, quia tunc suo 
+      ponde<lb ed="#R" n="2" break="no"/>re causaret, &amp; habet in se principia talia, &amp; per 
+      <lb ed="#R" n="3"/>consequens non posset recipere opposita, sed 
+      in<lb ed="#R" n="4" break="no"/>tellectus agens est ille, qui praesentat terminos, 
+      <lb ed="#R" n="5"/>causat notitiam complexionis illorum, &amp; 
+      secun<lb ed="#R" n="6" break="no"/>dum quod praesentantur alij, &amp; alij termini, 
+      se<lb ed="#R" n="7" break="no"/>cundum hoc causat aliam, &amp; aliam notitiam, &amp; 
+      <lb ed="#R" n="8"/>etiam oppositas notitias secundum conditionem 
+      <lb ed="#R" n="9"/>terminorum praesentatorum. 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e1385">
+                  <lb ed="#R" n="10"/>Ex his colligo, quod scint illa rationis, quae 
+      di<lb ed="#R" n="11" break="no"/>citur sinderesis, non est aliud quam lumen intelle 
+   </p>
+               <p xml:id="olm8ij-f94146-d1e1392">
+                  <lb ed="#R" n="12"/>ctus agentis cum notit ia terminorum talium ha 
+      <lb ed="#R" n="13"/>bita vel immediate, vel quodam imperceptibili 
+      <lb ed="#R" n="14"/>syllogismo, quo habetur iudicium practicae 
+      veri<lb ed="#R" n="15" break="no"/>tatis. Vltimo quantum ad propositum quaestionis 
+      <lb ed="#R" n="16"/>propositae: Vtrum sinderesis possit extingui/dico, 
+      <lb ed="#R" n="17"/>quod si accipiatur pro habitu derelicto, de quo su 
+      <!--0311.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="18"/>pra dictum est, dico quod potest extingui per syllo 
+      <lb ed="#R" n="19"/>gismos positos, vnde sic potest acquiri illud 
+      quie<lb ed="#R" n="20" break="no"/>tum in mente sua, quod bonum est furari, &amp; hoc 
+      <lb ed="#R" n="21"/>est, quod dicit Philosophus in Ethicis, quod qua 
+      <lb ed="#R" n="22"/>lis est vnusquisq; talia sibi videntur, reliqua. Si vero 
+      <lb ed="#R" n="23"/>accipiatur scintilla pro lumine intellectus agentis, 
+      <lb ed="#R" n="24"/>quod est quoddam iudicatorium cum illa 
+      noti<lb ed="#R" n="25" break="no"/>tia terminorum, sic non potest corrumpi: 
+      vnde<lb ed="#R" n="26" break="no"/>posito, quod fur iudicet non esse furandum, tamen 
+      <lb ed="#R" n="27"/>adhuc manet iudicatorium, quo terminis 
+      occur<lb ed="#R" n="28" break="no"/>rentibus recte iudicaret hene esse agendum; tale 
+      <lb ed="#R" n="29"/>autem iudicatorium, &amp; lumen naturale 
+      bene<lb ed="#R" n="30" break="no"/>potest per habitum malum acquisitum 
+      obtene<lb ed="#R" n="31" break="no"/>brari, non tamen potest extingui, nec corrumpi, 
+      <lb ed="#R" n="32"/>sicut nec potentia illa. Ad argumentum principa 
+      <lb ed="#R" n="33"/>le dico, quod Philosophus loquitur de prudentia 
+      <lb ed="#R" n="34"/>quoad habitum derelictum, de quo dictum est.
+   </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

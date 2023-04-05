@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-05">April 05, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b2">Roma 1605, Book 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="311"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-f95498"><!-- l2d40-prae -->
+            <head xml:id="olm8ij-f95498-Hd1e101">Praeambulum</head>
+            <p xml:id="olm8ij-f95498-d1e103">
+      <!--0311.xml-->
+               <cb ed="#R" n="c"/>
+               <lb ed="#R" n="35"/>DISTINCTIO XXXX. 
+      <lb ed="#R" n="36"/>AN ALJQVJS ACTVS 
+      <lb ed="#R" n="37"/>FACTVS EXDELJBERATJONE 
+      <lb ed="#R" n="38"/>POSSJT ESSE INDJFFERENS 
+      <lb ed="#R" n="39"/>ad bonum, &amp; malum. 
+  </p>
+            <p xml:id="olm8ij-f95498-d1e121">
+               <lb ed="#R" n="40"/>Post haec de actibus &amp;c. In ista Distinctione xxxx. quaero sicut Magister quaerit: Vtrum 
+      <lb ed="#R" n="41"/>aliquis actus factus ex deliberatione possit esse indifferens ad bonum, &amp; malum: 
+      <lb ed="#R" n="42"/>&amp; arguo, quod non: quia sicut se habet actus intellectus ad bonitatem, vel malitiam 
+      <lb ed="#R" n="43"/>suam, quae sunt veritas, &amp; falsitas, sic se habet actus voluntatis ad propriam 
+      bo<lb ed="#R" n="44" break="no"/>nitatem, &amp; malitiam moralem: sed nullus est actus intellectus, qui non sit 
+      ve<lb ed="#R" n="45" break="no"/>rus, vel falsus: ergo nullus est actus voluntatis, qui non sit bonus, vel malus. In 
+      op<lb ed="#R" n="46" break="no"/>positum est, quia secundum hoc non esset actus aliquis, in quo non esset 
+      meri<lb ed="#R" n="47" break="no"/>tum, vel demeritum, quod falsum est, quia multi sunt actus indifferentes ad 
+      <lb ed="#R" n="48"/>meritum, &amp; demeritum, &amp; huiusmodi sunt fricatio barbae, &amp; leuatio festucae, 
+      <lb ed="#R" n="49"/>&amp; huiusmodi. Consequentia probatur, quia nullus actus videtur esse bonus, qui 
+      sup<lb ed="#R" n="50" break="no"/>posita charitate non sit meritorius. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-05">April 05, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b2">Roma 1605, Book 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="269"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-f82871"><!-- l2d26-q1 -->
+            <head xml:id="olm8ij-f82871-Hd1e101">Quaestio 1</head>
+            <p xml:id="olm8ij-f82871-d1e103">
+               <lb ed="#R" n="14"/>QVAESTIO VNICA. 
+   </p>
+            <div xml:id="olm8ij-f82871-Dd1e108">
+               <head xml:id="olm8ij-f82871-Hd1e110">Articulus 1</head>
+               <head xml:id="olm8ij-f82871-Hd1e112" type="question-title">
+      Utrum gratia, &amp; virtutes realiter 
+      distinguantur
+    </head>
+               <p xml:id="olm8ij-f82871-d1e115">
+      <!--0269.xml-->
+                  <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="15"/>ARTJCVLVS J. 
+      <lb ed="#R" n="16"/>Vtrum gratia, &amp; virtutes realiter 
+      di<lb ed="#R" n="17" break="no"/>stinguantur. 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e128">
+                  <lb ed="#R" n="18"/>ARGVO primo, quod 
+      <lb ed="#R" n="19"/>non, Quia sicut 
+      perfe<lb ed="#R" n="20" break="no"/>ctibile se habet ad 
+      per<lb ed="#R" n="21" break="no"/>fectibile, sic perfectio 
+      <lb ed="#R" n="22"/>ad perfectionem: 
+      er<lb ed="#R" n="23" break="no"/>go sicut se habet esse 
+      <lb ed="#R" n="24"/>animae, quae est 
+      imme<lb ed="#R" n="25" break="no"/>diate perfectibilis per 
+      <lb ed="#R" n="26"/>gratiam ad potentiam, 
+      <lb ed="#R" n="27"/>quae est immediatum perfectibile per virtutes, sic 
+      <lb ed="#R" n="28"/>se habet gratia ad virtutes: sed potentia aliqua 
+      <lb ed="#R" n="29"/>realiter differt ab illa anima, siue ab esse 
+      ani<lb ed="#R" n="30" break="no"/>mae: ergo. 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e159">
+                  <lb ed="#R" n="31"/>In oppositum est: Quia illa sunt eadem, quorum 
+      <lb ed="#R" n="32"/>diffinitio est eadem: sed diffiinitio gratiae &amp; 
+      vir<lb ed="#R" n="33" break="no"/>tutis est eadem, Probo hoc per diffinitionem 
+      Ma<lb ed="#R" n="34" break="no"/>gistri in litera, &amp; est sumpta ab Augustino, quod 
+      <lb ed="#R" n="35"/>virtus est bona qualitas mentis, qua recte 
+      viui<lb ed="#R" n="36" break="no"/>tur: Haec etiam est diffinitio gratiae: ergo. 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e176">
+                  <lb ed="#R" n="37"/>Respondeo in hac quaestione sic procedo; pono 
+      <lb ed="#R" n="38"/>enim per ordines aliquas propositiones. Prima 
+      <lb ed="#R" n="39"/>est, quod virtus &amp; gratia non se habent sicut 
+      ge<lb ed="#R" n="40" break="no"/>nus, &amp; species; nec sicut causa &amp; effectus causae, 
+      <lb ed="#R" n="41"/>sed sicut totale &amp; integrum, &amp; partes, ex quibus 
+      <lb ed="#R" n="42"/>consurgit. Haec propositio dicit tria, primo quod 
+      <lb ed="#R" n="43"/>gratia &amp; virtus non se habent vt genus &amp; species, 
+      <lb ed="#R" n="44"/>contra opinionem quandam, quae dicit quod gra 
+      <lb ed="#R" n="45"/>tia est ipsa charitas, quae est species virtutis, at 
+      <!--0269.xml-->
+      <cb ed="#R" n="c"/>
+                  <lb ed="#R" n="46"/>virtus est vnum commune ad gratiam, &amp; alias 
+      <lb ed="#R" n="47"/>virtutes: &amp; sic vna species sub genere non est alia, 
+      <lb ed="#R" n="48"/>sic nec spirituales virtutes, cuius sunt species, 
+      <lb ed="#R" n="49"/>humilitas, &amp; huiusmodi, non sunt gratia, cum non 
+      <lb ed="#R" n="50"/>sint charitas formaliter, char itas tamen, siue 
+      ge<lb ed="#R" n="51" break="no"/>nus, &amp; reliquae spirituales virtutes continentur 
+      <lb ed="#R" n="52"/>sub hoc communi genere habitus, qui dicitur 
+      <lb ed="#R" n="53"/>virtus. 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e220">
+                  <lb ed="#R" n="54"/>Sed hanc opinionem ego non intelligo, &amp; 
+      pro<lb ed="#R" n="55" break="no"/>bo quod virtutes aliquae spirituales sint gratia 
+      <lb ed="#R" n="56"/>formaliter aliquo modo. Arguo primo sic: Fides 
+      <lb ed="#R" n="57"/>est formaliter gratia: sed fides est spiritualis 
+      vir<lb ed="#R" n="58" break="no"/>tus distincta contra charitatem: ergo aliquae 
+      <lb ed="#R" n="59"/>spirituales virtutes distinctae a charitate sunt for 
+      <lb ed="#R" n="60"/>maliter gratia. Consequentia patet de se, 
+      antece<lb ed="#R" n="61" break="no"/>dens probo per Magistrum in litera: Jlle enim 
+      di<lb ed="#R" n="62" break="no"/>cit, quod gratia praeueniens est fides, qua 
+      iustifi<lb ed="#R" n="63" break="no"/>camur: ergo aliae virtutes a charitate pertinent 
+      <lb ed="#R" n="64"/>ad gratiam. 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e246">
+                  <lb ed="#R" n="65"/>Secundo ex Scriptura probo idem, quoniam 
+      <lb ed="#R" n="66"/>gratia nihil est aliud quam illud, quo aliquis est 
+      <lb ed="#R" n="67"/>formaliter acceptus Deo: sed per virtutes 
+      ali<lb ed="#R" n="68" break="no"/>quas a charitate est aliquis formaliter acceptus 
+      <lb ed="#R" n="69"/>Deo: ergo. 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e259">
+                  <lb ed="#R" n="70"/>Maior patet, probo minorem primo per 
+      Apo<lb ed="#R" n="71" break="no"/>stolum ad Haebreos: Jmpossibile est sine fide 
+      pla<lb ed="#R" n="72" break="no"/>cere Deo. 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e268">
+                  <lb ed="#R" n="73"/>Et confirmo hoc, quia dempta fide habens 
+      <lb ed="#R" n="74"/>charitatem non esset acceptus, &amp; gratus Deo: 
+      <lb ed="#R" n="75"/>ergo charitas, vt distinguitur ab alijs virtutibus, 
+      <lb ed="#R" n="76"/>non est gratia per essentiam, quia omni alio 
+      cir<lb ed="#R" n="77" break="no"/>cumscripto, illa non reddit acceptum Deo. Item 
+      <lb ed="#R" n="78"/>eamdem minorem probo per illud Esaiae: Super 
+      <!--0270.xml-->
+      <pb ed="#R" n="270"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>quem (inquit in persona Dei) requiescet spiritus 
+      <lb ed="#R" n="2"/>meus, supple per amorem, &amp; placitum? &amp; 
+      res<lb ed="#R" n="3" break="no"/>pondet, super humilem corde, &amp; timentem 
+      ser<lb ed="#R" n="4" break="no"/>mones meos: ergo humilitas, &amp; timor ex se 
+      for<lb ed="#R" n="5" break="no"/>maliter reddunt acceptum Deo. Item hoc probo specia 
+      <lb ed="#R" n="6"/>liter ratione, sic; Illud reddit formaliter acceptum 
+      <lb ed="#R" n="7"/>Dec, quod facit hominem conformem ipsi Deo, hoc 
+      <lb ed="#R" n="8"/>patent, quia gratitudo, &amp; dilectio fundantur 
+      su<lb ed="#R" n="9" break="no"/>per conformitate, &amp; vnitate secundum quasdam 
+      <lb ed="#R" n="10"/>perfectiones, consimiles vt est amicitia, religio 
+      <lb ed="#R" n="11"/>&amp; huiusmodi: sed aliae virtutes a charitate 
+      red<lb ed="#R" n="12" break="no"/>dunt hominem conformem Deo, vnde Matthaei 
+      <lb ed="#R" n="13"/>12. Vt sitis perfecti, sicut &amp; pater vester 
+      caele<lb ed="#R" n="14" break="no"/>stis, qui solem suum oriri facit, cum loquatur 
+      <lb ed="#R" n="15"/>ibi de dilectione proximi, &amp; loquens ibi de miseri 
+      <lb ed="#R" n="16"/>cordiadicit Christus, Estore misericordes, sicut &amp; 
+      <lb ed="#R" n="17"/>pater vester est misericors, &amp; de munditia: Sancti 
+      <lb ed="#R" n="18"/>estote, quoniam ego sanctus sum. Et confirmo 
+      <lb ed="#R" n="19"/>hoc: Deus necessario diligit virtutem suam; 
+      pu<lb ed="#R" n="20" break="no"/>ta misericordiam, iustitiam, &amp; alias perfectiones, 
+      <lb ed="#R" n="21"/>quae sunt in eo; ergo secundario diligit ex 
+      neces<lb ed="#R" n="22" break="no"/>sitate perfectiones consimiles in creatura, 
+      quo<lb ed="#R" n="23" break="no"/>niam potentia, quae fertur necessario in obiectum 
+      <lb ed="#R" n="24"/>primarium, eadē necessitate fertur in illud, quod 
+      <lb ed="#R" n="25"/>per essentiam est participatio obiecti primarij, 
+      <lb ed="#R" n="26"/>perfectiones autem simpliciter in creatura sunt 
+      <lb ed="#R" n="27"/>per essentiam participationis perfectionum simi 
+      <lb ed="#R" n="28"/>liter simpliciter ipsius Dei, &amp; vltra, ergo 
+      natu<lb ed="#R" n="29" break="no"/>raliter eadem necessitate diligit illud, quod 
+      na<lb ed="#R" n="30" break="no"/>turaliter participat huiusmodi perfectiones. Non 
+      <lb ed="#R" n="31"/>enim videtur, quod perfectiones simpliciter 
+      for<lb ed="#R" n="32" break="no"/>maliter sint in te, &amp; quod Deus non acceptet te, 
+      <lb ed="#R" n="33"/>sicut obiectum naturale: Vnde dixi in primo 
+      pro<lb ed="#R" n="34" break="no"/>lixius in principio, quod diuina voluntas 
+      neces<lb ed="#R" n="35" break="no"/>sario, &amp; immutabiliter fertur super essentiam, &amp; 
+      <lb ed="#R" n="36"/>perfectiones suas, sicut super obiectum 
+      prima<lb ed="#R" n="37" break="no"/>riu, &amp; super quidditates participantes essentiam 
+      <lb ed="#R" n="38"/>suam fertur immutabiliter sicut super obiecta pri 
+      <lb ed="#R" n="39"/>maria, &amp; haec est latio simplicis complacentiae, su 
+      <lb ed="#R" n="40"/>per perfectiones autem simpliciter in creatura 
+      <lb ed="#R" n="41"/>fertur in speciali complacentia, scilicet 
+      compla<lb ed="#R" n="42" break="no"/>centia amicitiae, &amp; hoc sicut in obiecta 
+      secunda<lb ed="#R" n="43" break="no"/>ria: &amp; per consequens super creaturam, vt 
+      parti<lb ed="#R" n="44" break="no"/>cipat huiusmodi perfectiones, fertur vt super 
+      <lb ed="#R" n="45"/>obiectum naturale complacentia amicitiae; ergo 
+      <lb ed="#R" n="46"/>Deus diligit omnem illum, in quo sunt 
+      participa<lb ed="#R" n="47" break="no"/>tiue perfectiones eiusmodi simpliciter amore ami 
+      <lb ed="#R" n="48"/>citiae, &amp; hoc naturaliter ratione obiecti formalis 
+      <lb ed="#R" n="49"/>participati in illo. 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e396">
+                  <lb ed="#R" n="50"/>Secundam partem conclusionis, quod scilicet 
+      <lb ed="#R" n="51"/>non distinguuntur gratia &amp; virtutes, sicut uausa, 
+      <lb ed="#R" n="52"/>&amp; effluxus causae, contra opinionem illam, quae 
+      <lb ed="#R" n="53"/>dicit quod gratia se habet vt causa, virtutes vero 
+      <lb ed="#R" n="54"/>vt quoddam profluens a gratia illa. Motinum au 
+      <lb ed="#R" n="55"/>tem opinionis est illud. Dicunt enim quod homo 
+      <lb ed="#R" n="56"/>prior est fecundum essentiam, quam secundum po 
+      <lb ed="#R" n="57"/>tentias, ideo primo perficitur secundum esientiam, 
+      <lb ed="#R" n="58"/>deinde secundum potentias; perfectio autem ho 
+      <lb ed="#R" n="59"/>minis, quoad essentiam est gratia, ipsa enim est 
+      <lb ed="#R" n="60"/>conformitas quaedam, qua homo ex essentia sua 
+      <lb ed="#R" n="61"/>configuratur Deo, essentia autem sic perfecta per 
+      <lb ed="#R" n="62"/>gratiam redundat secundario perfectio in 
+      poten<lb ed="#R" n="63" break="no"/>tijs, quae sunt virtutes ipsae, vt sic homo in essentia 
+      <lb ed="#R" n="64"/>perficiatur per gratiam, &amp; in potentiis pervirtutes. 
+      <lb ed="#R" n="65"/>Tunc vltra sicut se habet essentia sua ad potentias, sic 
+      <lb ed="#R" n="66"/>gratia ad virtutes, scilicet, quoniam sicut se ha- 
+      <!--0270.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>bet perfectibile ad perfectibile, sic perfectio ad 
+      <lb ed="#R" n="68"/>perfectionem: sed potentiae realiter differunt ab 
+      <lb ed="#R" n="69"/>ipsa essentia animae, &amp; sunt effluentes in esse ab 
+      <lb ed="#R" n="70"/>essentia animae: ergo sic virtutes different 
+      reali<lb ed="#R" n="71" break="no"/>ter a gratia profluentes realiter ab illa. 
+      Funda<lb ed="#R" n="72" break="no"/>mentum istius opinionis consistit in vno, arguunt 
+      <lb ed="#R" n="73"/>autem sic. Vt fundamento competant primo 
+      opera<lb ed="#R" n="74" break="no"/>tiones aliquae oportet, quod illud primo sit 
+      pro<lb ed="#R" n="75" break="no"/>portionatum in illis operationibus, &amp; si non est 
+      <lb ed="#R" n="76"/>proportionatum de se, oportet quod proportione 
+      <lb ed="#R" n="77"/>tur per aliud; sed operationes quaedam 
+      superna<lb ed="#R" n="78" break="no"/>turales competūt nostrae naturae, ad quas ipsa de 
+      <lb ed="#R" n="79"/>se est proportionata: ergo oportet sibi dare 
+      ali<lb ed="#R" n="80" break="no"/>quid, quo fiat proportionatum: illud autem 
+      <lb ed="#R" n="81"/>est gratia, deinde a gratia prosluunt virtutes 
+      <lb ed="#R" n="82"/>vt species; etgo. 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e475">
+                  <lb ed="#R" n="83"/>Confirmatur, quia operari supponit esse: ergo 
+      <lb ed="#R" n="84"/>ope rari supernaturaliter supponit esse supernatu 
+      <lb ed="#R" n="85"/>rale, quod dat illa gratia. 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e484">
+                  <lb ed="#R" n="86"/>Contra opinionem istam arguo primo, quia 
+      <lb ed="#R" n="87"/>si hoc est: ergo nulla remanet in anima virtus in 
+      <lb ed="#R" n="88"/>fusa: ergo non fides, nec spes, cuius oppositum ip 
+      <lb ed="#R" n="89"/>si concedunt. Consequentia probatur ex dictis eo 
+      <lb ed="#R" n="90"/>rum, quia virtutes secundum eos non sunt nisi 
+      <lb ed="#R" n="91"/>profuxus quidam in potentijs a gratia, quae 
+      po<lb ed="#R" n="92" break="no"/>nitur in esse, 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e502">
+                  <lb ed="#R" n="93"/>Item fictitium videtur, quod sit aliqua 
+      quali<lb ed="#R" n="94" break="no"/>tas faciens deiformitatem, quae non sit fides, vel 
+      <lb ed="#R" n="95"/>aliqua alia virtus. Item gratia illa aut facit 
+      dei<lb ed="#R" n="96" break="no"/>formitatem quantum ad actum primum, &amp; hoc 
+      <lb ed="#R" n="97"/>nihil est, quia hoc modo anima multo magis est 
+      <lb ed="#R" n="98"/>conformis Deo, quam qualitas quaecunque, cum 
+      <lb ed="#R" n="99"/>se ipsa sit imago eius: aut facit deiformitatem 
+      <lb ed="#R" n="100"/>quoad perfectiones secundarias, scilicet vt homo 
+      <lb ed="#R" n="101"/>sit participatiue talis, qualis est Deus formaliter, 
+      <lb ed="#R" n="102"/>&amp; hoc faciunt aeque bene aliae virtutes. 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e526">
+                  <lb ed="#R" n="103"/>Dices: quomodo ergo scriptura distinguit 
+      gra<lb ed="#R" n="104" break="no"/>tiam, &amp; virtutes? 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e533">
+                  <lb ed="#R" n="105"/>Respondeo: non inuenio nec in veteri, nec in no 
+      <lb ed="#R" n="106"/>uo testamento, quod suadeatur vel praecipiatur ha 
+      <lb ed="#R" n="107"/>beri forma aliqua, quae non sit virtus aliqua. 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e542">
+                  <lb ed="#R" n="108"/>Ad virtutes enim ibidem plurimum 
+      exhorta<lb ed="#R" n="109" break="no"/>mur, co modo quo in loco isto: Estote 
+      misericor<lb ed="#R" n="110" break="no"/>des, sicut &amp; pater vester &amp; c. &amp; ad illas 
+      beatitudi<lb ed="#R" n="111" break="no"/>nes quae sunt actus virtutum, tamen ad gratiam 
+      <lb ed="#R" n="112"/>per se nullam inuenio exhortationem. 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e556">
+                  <lb ed="#R" n="113"/>Et confirmo: quia per virtutes illas maxime con 
+      <lb ed="#R" n="114"/>formatur anima ipsi Deo, quando fit homo per il 
+      <lb ed="#R" n="115"/>las participatiue, qualis ipse est formaliter. 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e565">
+                  <lb ed="#R" n="116"/>Item: si ponis aliquam formam, quae non sit 
+      <lb ed="#R" n="117"/>principium operationis, sed propter hoc vt sit 
+      <lb ed="#R" n="118"/>quaedam pulchritudo animae, propter hoc (inquã) 
+      <lb ed="#R" n="119"/>non oportet ponere formam, quae non sit 
+      prin<lb ed="#R" n="120" break="no"/>cipium operationis, quoniam virtutes seipsis 
+      <lb ed="#R" n="121"/>sunt animae maxima pulchritudo, vnde 1. Etich. 
+      <lb ed="#R" n="122"/>dicit Philosophus, quod in virtute non 
+      separan<lb ed="#R" n="123" break="no"/>tur haec tria pulcherrimum, delectatiuum, &amp; 
+      op<lb ed="#R" n="124" break="no"/>timum. Tertium quod pono in propositione scili 
+      <lb ed="#R" n="125"/>cet, quod gratia distinguitur a virtute siue virtutibus 
+      <lb ed="#R" n="126"/>ficut totale, &amp; integrum a partibus, ex quibus 
+      con<lb ed="#R" n="127" break="no"/>furgit, probo, &amp; primo expono quod intendo: Dico. n. 
+      <lb ed="#R" n="128"/>quod gratia consurgit in anima ex integritate vir 
+      <lb ed="#R" n="129"/>tutum, do exemplum, sicut enim se habet gratia 
+      <lb ed="#R" n="130"/>corporalis ad corpus, ita videtur se habere gratia 
+      <lb ed="#R" n="131"/>animae ad ipsam animam: sed gratia corporalis 
+      <lb ed="#R" n="132"/>non videtur esse vna forma aliqua per se, sed ma- 
+      <!--0271.xml-->
+      <pb ed="#R" n="271"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>gis videtur esse quoddam consurgens ex formis 
+      <lb ed="#R" n="2"/>diuersis, sicut gratiositas faciei consurgit ex 
+      fi<lb ed="#R" n="3" break="no"/>gura, colore, &amp; virtute puta verecundia; Nam 
+      <lb ed="#R" n="4"/>pone illam faciem, quod sit proportionata 
+      quan<lb ed="#R" n="5" break="no"/>titas, figura debita, color proportionalis, &amp; 
+      ge<lb ed="#R" n="6" break="no"/>stus verecundiae, statim omni alio congregato fa 
+      <lb ed="#R" n="7"/>cies illa erit formaliter grata, altero vero deficiem 
+      <lb ed="#R" n="8"/>te ideo deficit esse grata; vnde si facies habeat 
+      <lb ed="#R" n="9"/>nasum longum, vel sit inuerecunda, vel pallida, 
+      <lb ed="#R" n="10"/>eo ipso est ingratiosa. Sic ergo est in proposito, 
+      <lb ed="#R" n="11"/>quando in anima concurrit dilectio, fides, spes, &amp; 
+      <lb ed="#R" n="12"/>ceterae huiusmodi virtutes, on nes simul integrant 
+      <lb ed="#R" n="13"/>rationem vnius gratiae, nam eo ipso anima est 
+      <lb ed="#R" n="14"/>Deo cara, &amp; grata, ex hoc enim homo est 
+      qua<lb ed="#R" n="15" break="no"/>lis esse debet, ideo Deus complacet in eo, &amp; 
+      red<lb ed="#R" n="16" break="no"/>ditur acceptus Deo, &amp; hoc propter rationes 
+      su<lb ed="#R" n="17" break="no"/>perius tactas, quia virtutes sunt quaedam 
+      parti<lb ed="#R" n="18" break="no"/>cipatio formalis obiecti dilectionis diuinae. 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e650">
+                  <lb ed="#R" n="19"/>Dices: in me sola charitas ex hoc dicitur gratia, 
+      <lb ed="#R" n="20"/>probo, quia ea posita homo placet Deo, ea vero 
+      <lb ed="#R" n="21"/>amota omnes aliae virtutes sunt informes. 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e659">
+                  <lb ed="#R" n="22"/>Respondeo, concedo, quod charitas est gratia, 
+      <lb ed="#R" n="23"/>ita tamen, quod concurrant virtutes aliae, vnde 
+      <lb ed="#R" n="24"/>qui haberet charitatem, &amp; non haberet fidem, non 
+      <lb ed="#R" n="25"/>esset acceptus, quia impossibile est sine fide place 
+      <lb ed="#R" n="26"/>re Deo; &amp; ad Rom. 8. Justificati ergo per fidem, 
+      <lb ed="#R" n="27"/>&amp; Justus ex fide viuit, vnde bene concedo, quod 
+      <lb ed="#R" n="28"/>charitas est principale, &amp; hoc est quod Apostolus 
+      <lb ed="#R" n="29"/>dicit: Si habuero omnem fidem, charitatem autem 
+      <lb ed="#R" n="30"/>non habeam, nih l sum. Vnde sciendum, quod 
+      <lb ed="#R" n="31"/>quando aliqua se habent sic ad inuicem, quod ex 
+      <lb ed="#R" n="32"/>eis resultat vnum per integralitatem, bene 
+      possi<lb ed="#R" n="33" break="no"/>bile est, quod alterum illorum concurrat, vt 
+      ma<lb ed="#R" n="34" break="no"/>gis principale, sicut figura domus resultat ex J 
+      <lb ed="#R" n="35"/>parietibus, &amp; tecto, tamen non resultat ex 
+      ae<lb ed="#R" n="36" break="no"/>quo ex illis, sed tectum se habet vt magis 
+      prin<lb ed="#R" n="37" break="no"/>cipale. Sic in proposito, amicitia qua Deus nos 
+      <lb ed="#R" n="38"/>diligit, fundatur super connexione virtutum, 
+      vn<lb ed="#R" n="39" break="no"/>de omnes virtutes hoc modo sunt annexae in vna 
+      <lb ed="#R" n="40"/>gratia. Vnde 9. Ethicorum dicitur, quod amicitia 
+      <lb ed="#R" n="41"/>fundatur super virtutem, Vnde virtuosus ea 
+      ne<lb ed="#R" n="42" break="no"/>cessitate, qua diligit virtutem in alio. Sic in 
+      pro<lb ed="#R" n="43" break="no"/>posito amicitia Dei ad nos fundatur super vir. 
+      <lb ed="#R" n="44"/>tutum communicatione, &amp; hoc saltem secundum 
+      <lb ed="#R" n="45"/>quandam analogiam, quia sicut Deus est 
+      perfe<lb ed="#R" n="46" break="no"/>ctus virtutibus per essentiam, sic gratus Deo per 
+      <lb ed="#R" n="47"/>participationem. 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e718">
+                  <lb ed="#R" n="48"/>Est autem aduertendum, quod licet amicitia 
+      <lb ed="#R" n="49"/>hoc modo fundetur super communicatione virtu 
+      <lb ed="#R" n="50"/>tum, tamen vnum est ibi, quod dat 
+      complemen<lb ed="#R" n="51" break="no"/>tum ipsi amicitiae, sine quo amicitia non est perfe 
+      <lb ed="#R" n="52"/>cta, illud autem est redamatio, Vnde 
+      quantum<lb ed="#R" n="53" break="no"/>cunque sim virtuosus, licet diligas me propter in 
+      <lb ed="#R" n="54"/>me existentem virtutem, non tamen perfecte 
+      di<lb ed="#R" n="55" break="no"/>ligis me, nisi e conuerso ego redamem te, &amp; 
+      con<lb ed="#R" n="56" break="no"/>stet tibi, quod ego redamem te: ratio est quia re 
+      <lb ed="#R" n="57"/>damatio dat vltimatam mensuram, &amp; 
+      comple<lb ed="#R" n="58" break="no"/>mentum amicitiae, quia propter charitatem in no 
+      <lb ed="#R" n="59"/>bis quae est quaedam redamatio, quo redamamus 
+      <lb ed="#R" n="60"/>Deum, illa est virtus, quae complet, &amp; perficit 
+      <lb ed="#R" n="61"/>amicitiam Dei ad nos, sine qua non esset 
+      amici<lb ed="#R" n="62" break="no"/>tia perfecta. propter quod exhortatur nos ad hu 
+      <lb ed="#R" n="63"/>iusmodi redamationem, cum dicit: diligamus 
+      <lb ed="#R" n="64"/>Deum, quoniam ille prior dilexit nos, hinc est, 
+      <lb ed="#R" n="65"/>quod caritas principalius concurrit ad 
+      amici<lb ed="#R" n="66" break="no"/>tiam inter Deum, &amp; nos, &amp; per consequens, quod 
+      <lb ed="#R" n="67"/>hoc est, quo sumus Deo grati: sicut possemus dice 
+      <!--0271.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>re, quod figuratio debita faciei concurrit 
+      prin<lb ed="#R" n="69" break="no"/>cipalius quam color ad gratitudinem faciei. 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e773">
+                  <lb ed="#R" n="70"/>Sed est nic aliud dubium, quia lecundum 
+      Do<lb ed="#R" n="71" break="no"/>ctores communiter, &amp; Sanctos videtur, quod cha 
+      <lb ed="#R" n="72"/>ritas sit idem, quog gratia, vnde ꝓueis graece idem 
+      <lb ed="#R" n="73"/>est quod gratia latte. 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e785">
+                  <lb ed="#R" n="74"/>Respondeo, charitas dupliciter potest accipi, vno 
+      <lb ed="#R" n="75"/>modo pro eo, quo alsquis acce ptat actiue, alio 
+      <lb ed="#R" n="76"/>modo pro eo quod acceptatur passiue, 
+      Exem<lb ed="#R" n="77" break="no"/>plum primi, ideo dicimus aliquem esse in 
+      gra<lb ed="#R" n="78" break="no"/>tia Regis, vnde sic intelligitur illud Regum 
+      <lb ed="#R" n="79"/>haec est gratia tua ad amicum tuum. Exemplum 
+      <lb ed="#R" n="80"/>secundi, ncut dicimus, iste est gratus Regi siue 
+      il<lb ed="#R" n="81" break="no"/>le est gratiosus, &amp; habet in se gratiam, Primo 
+      <lb ed="#R" n="82"/>ergo modo concedo quod charitas est gratia, est 
+      <lb ed="#R" n="83"/>enim illud, quo formaliter diligimus Deum, &amp; 
+      <lb ed="#R" n="84"/>in Deo est illud, quo formaliter diligit nos: sed 
+      <lb ed="#R" n="85"/>secundo modo charitas non est gratia, idest non 
+      <lb ed="#R" n="86"/>non est gratiositas, illud quo praecise anima est 
+      <lb ed="#R" n="87"/>Deo grata; illud enim est connexio omnium 
+      vir<lb ed="#R" n="88" break="no"/>tutum, licet ibi principaliter concurrat charitas, 
+      <lb ed="#R" n="89"/>quae est red amatio vt dictum est. 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e822">
+                  <lb ed="#R" n="90"/>Alia difficultas est, quia omnes aliae virtutes 
+      <lb ed="#R" n="91"/>Theologicae excepta charitate euacuabuntur, puta 
+      <lb ed="#R" n="92"/>fides, &amp; spes, &amp; tamen gratia in patria non 
+      <lb ed="#R" n="93"/>euacuabitur, ergo fides, &amp; spes non faciunt per 
+      <lb ed="#R" n="94"/>se gratiam sed charitas sola. 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e835">
+                  <lb ed="#R" n="95"/>Respondeo dupliciter, vno modo, quod fides, 
+      <lb ed="#R" n="96"/>&amp; spes non euacuabuntur, quoad habitus, licet 
+      <lb ed="#R" n="97"/>euacuabuntur quoad actus. 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e844">
+                  <lb ed="#R" n="98"/>Secundo respondeo, dico quod gratia integra 
+      <lb ed="#R" n="99"/>tur ex fide, &amp; spe, sicut virtutes, virtus autem 
+      <lb ed="#R" n="100"/>connotat respectum condecentiae ad habentem, &amp; 
+      <lb ed="#R" n="101"/>ad statum habentis, hinc est quod primo Politico 
+      <lb ed="#R" n="102"/>rum dicitur, quod taciturnitas est vitium in 
+      sa<lb ed="#R" n="103" break="no"/>piente, &amp; virtus in muliere, decet enim 
+      sapien<lb ed="#R" n="104" break="no"/>tem loqui, Vnde Eccl. 3. tacere primum verbum 
+      <lb ed="#R" n="105"/>&amp;c. Ratio est quia vir habet consiliatiuum 
+      for<lb ed="#R" n="106" break="no"/>tem, mulier vero debilem, sic ergo idem 
+      absolu<lb ed="#R" n="107" break="no"/>tum in vno virtus, in alio vitium in vno 
+      tempo<lb ed="#R" n="108" break="no"/>re, &amp; eodem est virtus, alio vero tempore vitium; 
+      <lb ed="#R" n="109"/>ex quo patet quod virtus non debet accipi secun 
+      <lb ed="#R" n="110"/>dum esse absolutum, &amp; naturale, sed secundum 
+      <lb ed="#R" n="111"/>quod connotat respectum congruentiae, potest 
+      <lb ed="#R" n="112"/>si licet, decet, quod facit omne morale. 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e879">
+                  <lb ed="#R" n="113"/>Ad propositum dico, quod fides, &amp; spes sunt 
+      <lb ed="#R" n="114"/>virtutes, non tantum quoad absoluta, sed quoad 
+      <lb ed="#R" n="115"/>congruentiam qua fundantur; ideo etsi sint 
+      vir<lb ed="#R" n="116" break="no"/>tutes pro statu viae, non tamen sunt virtutes pro 
+      <lb ed="#R" n="117"/>statu patriae, &amp; quia gratia non fundatur super 
+      <lb ed="#R" n="118"/>virtutibus ratione absoluti tantum, sed ratione qua 
+      <lb ed="#R" n="119"/>sunt virtutes, hoc est, in quantum illud 
+      absolu<lb ed="#R" n="120" break="no"/>tum fundat, siue connotat respectum 
+      condecen<lb ed="#R" n="121" break="no"/>tiae ad habentem, in patria autem non sunt 
+      <lb ed="#R" n="122"/>ibi habitus condecentes, ideo in patria gratia 
+      <lb ed="#R" n="123"/>non exigit istos habitus, quoniam non sunt 
+      vir<lb ed="#R" n="124" break="no"/>tutes. Et hinc est, quod forte si fides, &amp; spes 
+      eua<lb ed="#R" n="125" break="no"/>cuabuntur in patria, erunt quoad habitum, non cha 
+      <lb ed="#R" n="126"/>ritas, quia charitas decer omnem statum, non fides, 
+      <lb ed="#R" n="127"/>quia tunc esset aperta visio, &amp; vltimata tentio. 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e914">
+                  <lb ed="#R" n="128"/>Secunda propositio est, quod gratia habet tres 
+      <lb ed="#R" n="129"/>diuisiones vna diuisio est: gratia quaedam est 
+      prae<lb ed="#R" n="130" break="no"/>ueniens, quaedam subsequens. 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e924">
+                  <lb ed="#R" n="131"/>Alia diuisio est, gratia quaedam est operans 
+      quae<lb ed="#R" n="132" break="no"/>dam cooperans, &amp; has duas diuisiones ponit 
+      <lb ed="#R" n="133"/>Augustinus, vt patet in litera. 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e933">
+                  <lb ed="#R" n="134"/>Tertia diuisio esi trimembris, vt dicatur quod 
+      <!--0272.xml-->
+      <pb ed="#R" n="272"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>gratia quaedam est bonae voluntatis immissiua 
+      <lb ed="#R" n="2"/>quaedam malae voluntatis immutatiua, &amp; 
+      quae<lb ed="#R" n="3" break="no"/>dam facultatis ad bonam operationem 
+      admini<lb ed="#R" n="4" break="no"/>stratiua. Quantum ad primam diuisionem 
+      scien<lb ed="#R" n="5" break="no"/>dum est, quod illa prima diuisio potest accipi 
+      <lb ed="#R" n="6"/>quinque modis, vno modo, Ahod gratia 
+      praeue<lb ed="#R" n="7" break="no"/>niens potest quandoque diꝗᷓipsa bona naturalia, 
+      <lb ed="#R" n="8"/>vt sunt industria ingenium, &amp; huiusmodi, 
+      gra<lb ed="#R" n="9" break="no"/>tia vero subsequens dicitur gratia gratum 
+      fa<lb ed="#R" n="10" break="no"/>ciens. Secundo modo, vt gratia praeueniens 
+      <lb ed="#R" n="11"/>dicatur gratia gratis data, subsequens vero 
+      di<lb ed="#R" n="12" break="no"/>catur gratia gratum faciens; verbi gratia de 
+      pri<lb ed="#R" n="13" break="no"/>mo membro, quando peccator existens in 
+      pec<lb ed="#R" n="14" break="no"/>cato mortali cogitat resilire, haec cogitatio 
+      im<lb ed="#R" n="15" break="no"/>missa dicitur gratia gratis data, gratia autem 
+      <lb ed="#R" n="16"/>gratum faciens est, quam recipit postquam 
+      resur<lb ed="#R" n="17" break="no"/>git a peccato, eiusmodi sunt dona, &amp; virtutes. 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e981">
+                  <lb ed="#R" n="18"/>Tertio modo potest accipi gratia praeueniens 
+      <lb ed="#R" n="19"/>pro gratia, qua sanamur, subsequens vero pro gra 
+      <lb ed="#R" n="20"/>tia, qua sanati operamur; Deus enim praeuenit 
+      <lb ed="#R" n="21"/>nos fanando, &amp; subsequitur cooperando. 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e992">
+                  <lb ed="#R" n="22"/>Quarto modo vt gratia praeueniens sit gratia, 
+      <lb ed="#R" n="23"/>qua operamur habitualiter, gratia vero 
+      subse<lb ed="#R" n="24" break="no"/>quens, qua operamur actualiter. 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e1001">
+                  <lb ed="#R" n="25"/>Quinto modo vt gratia praeueniens dicitur 
+      re<lb ed="#R" n="26" break="no"/>spectu boni, pro quodam pondere ad bonum, 
+      <lb ed="#R" n="27"/>sed gratia subsequens dicatur respectu mali, pro 
+      <lb ed="#R" n="28"/>quadam resistentia ad malum. Quantum ad 
+      secun<lb ed="#R" n="29" break="no"/>dam diuisionem, sciendum est, quod illam ponit 
+      <lb ed="#R" n="30"/>Augustinus dicens, quod gratia operans opera 
+      <lb ed="#R" n="31"/>tur in nobis velle, sed gratia cooperans implet, &amp; 
+      <lb ed="#R" n="32"/>complet velle. Sciendum enim, quod in nobis est 
+      <lb ed="#R" n="33"/>duplex actus voluntatis, vnus interior, alius 
+      ex<lb ed="#R" n="34" break="no"/>terior, primus est a Deo, &amp; ad hunc nos non 
+      co<lb ed="#R" n="35" break="no"/>operamur; alius vero est extrinsecus, quod est 
+      <lb ed="#R" n="36"/>bene operari, &amp; ad hunc nos bene possumus 
+      co<lb ed="#R" n="37" break="no"/>operari, siue in bonum agendo, siue in malo 
+      refi<lb ed="#R" n="38" break="no"/>stendo, vtrobique tamen Deus cooperatur.
+   </p>
+               <p xml:id="olm8ij-f82871-d1e1034">
+                  <lb ed="#R" n="39"/>Quod tertiam diuisionem, quae est 
+      trimem<lb ed="#R" n="40" break="no"/>bris, est sciendum, quod gratia respicit potentias 
+      <lb ed="#R" n="41"/>secundum quas sunt operationes humanae, harum 
+      <lb ed="#R" n="42"/>prima est intellectus, &amp; respectu huiuimodi dici 
+      <lb ed="#R" n="43"/>tur gratia in primo membro, quae est immissio 
+      <lb ed="#R" n="44"/>bonae voluntatis, idest bonae cogitationis. 
+  </p>
+               <p xml:id="olm8ij-f82871-d1e1051">
+                  <lb ed="#R" n="45"/>Secunda vero potentia est voluntatis, &amp; respe 
+      <lb ed="#R" n="46"/>ctu huiusmodi ponitur gratia in secundo 
+      mem<lb ed="#R" n="47" break="no"/>bro, quae est voluntatis immutatiua ad bonum. 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e1060">
+                  <lb ed="#R" n="48"/>Tertia vero potentia est executiua exterior, 
+      re<lb ed="#R" n="49" break="no"/>spectu cuius gratia in secundo membro, quae est 
+      ad<lb ed="#R" n="50" break="no"/>ministratiua facultatis ad bonam operationem. 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e1069">
+                  <lb ed="#R" n="51"/>Sed hinc est dubium vnum, quare dicatur 
+      gra<lb ed="#R" n="52" break="no"/>tia operans, &amp; quae est operatio illa, quae sibi 
+      at<lb ed="#R" n="53" break="no"/>tribuitur? Jdeo sciendum, quod gratia est 
+      impul<lb ed="#R" n="54" break="no"/>sus quidam diuinus cum sit quoddam integratum 
+      <lb ed="#R" n="55"/>ex virtutibus, quae sunt quidam influxus a Deo 
+      <lb ed="#R" n="56"/>in voluntatem nostram. &amp; in isto impulsu non 
+      <lb ed="#R" n="57"/>se habet voluntas nostra applicatiue, sicut est 
+      de<lb ed="#R" n="58" break="no"/>virtutibus naturalibus, sed solius Dei est 
+      appli<lb ed="#R" n="59" break="no"/>care, voluntatis autem est obedire, &amp; exequi, &amp; 
+      <lb ed="#R" n="60"/>hoc modo gratia dicitur in nobis operari. 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e1093">
+                  <lb ed="#R" n="61"/>Ad hoc exemplum Augusti de Seslore, &amp; 
+      <lb ed="#R" n="62"/>Equo, sessor pungit equum, &amp; applicat ad 
+      mo<lb ed="#R" n="63" break="no"/>tum, Equus autem tantum habet exequi, &amp; 
+      obe<lb ed="#R" n="64" break="no"/>dire, sic in nobis virtutes infusae a Deo, quae est 
+      <lb ed="#R" n="65"/>gratia illa, sunt quasi quidam stimuli pungentes 
+      <lb ed="#R" n="66"/>ac continue impellentes ad bene agere, &amp; 
+      volun<lb ed="#R" n="67" break="no"/>tate obsequente fluunt in actum, idest, in bene 
+      <!--0272.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>velle, quae est gratia, sicut a Sessore principaliter, 
+      <lb ed="#R" n="69"/>a voluntate autem sicut a pedissequa. 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e1119">
+                  <lb ed="#R" n="70"/>Vltiina propositio est ex effectibus gratiae, 
+      di<lb ed="#R" n="71" break="no"/>co, quod sunt plures, vt Sãcti dicut, &amp; scriptura in plu 
+      <lb ed="#R" n="72"/>ribus locis, vnde Glossa super illud ad Ephesios 
+      <lb ed="#R" n="73"/>primo capitulo: In quo signati estis, dicit, quod 
+      <lb ed="#R" n="74"/>gratia est signaculum imaginis Dei: &amp; super 
+      il<lb ed="#R" n="75" break="no"/>lud Plalmi: buper niuem dealbabor, dicit quod 
+      <lb ed="#R" n="76"/>gratia est nitor animae: &amp; super illud, sana me Do 
+      <lb ed="#R" n="77"/>mine, &amp; saluabor, dicit, quod est sanitas nostra, 
+      <lb ed="#R" n="78"/>&amp; super illud ad Roman. 6. qua liberate Christus 
+      <lb ed="#R" n="79"/>nos liberauit, dicit, quod gratia liberat a 
+      pec<lb ed="#R" n="80" break="no"/>cato, &amp; super illud ad Roman. 9. Justificati 
+      er<lb ed="#R" n="81" break="no"/>go ex fide, dicitur quod gratia iustificat ex hoc 
+      <lb ed="#R" n="82"/>efficiendo actus voluntarios. Vnde est 
+      scien<lb ed="#R" n="83" break="no"/>dum, quod gratia, si inuenit hominem in culpa, 
+      <lb ed="#R" n="84"/>habet liberare ab ira, sanare a vulnere, &amp; 
+      mor<lb ed="#R" n="85" break="no"/>bo peccati, &amp; potentias mouere ad bene operan 
+      <lb ed="#R" n="86"/>dum. Jdeo effectus gratiae sunt isti, consignare, niti 
+      <lb ed="#R" n="87"/>dum reddere, sanare, liberare, &amp; ad bonum 
+      mo<lb ed="#R" n="88" break="no"/>uere; plurimi autem istorum effectum competunt 
+      <lb ed="#R" n="89"/>gratiae non absolute, sed in ordine ad 
+      subie<lb ed="#R" n="90" break="no"/>ctum, quem inuenit sub culpa, videlicet quoad 
+      sa<lb ed="#R" n="91" break="no"/>nare, liberare; secundum enim istos effectus grar 
+      <lb ed="#R" n="92"/>tia non est in Deo, nec in Angelis, sed quoad effe 
+      <lb ed="#R" n="93"/>ctus alios qui sunt pulchrificare, illustrare opus 
+      <lb ed="#R" n="94"/>reddere meritorium vtique est in Angelis, &amp; 
+      iu<lb ed="#R" n="95" break="no"/>stificatis, haec de quaestione. 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e1178">
+                  <lb ed="#R" n="96"/>Ad argumentum respondeo dupliciter; primo 
+      <lb ed="#R" n="97"/>concesso quod potentia animae differunt ab essen 
+      <lb ed="#R" n="98"/>tia, argumentum non concludit; virtutes enim, 
+      <lb ed="#R" n="99"/>&amp; gratia non tantum dat bonum esse, sed esse 
+      pri<lb ed="#R" n="100" break="no"/>mum, non nude, non tantum bonum opus 
+      red<lb ed="#R" n="101" break="no"/>det, sed etiam habentes perficiunt. &amp; si dicas, non 
+      <lb ed="#R" n="102"/>valet, quia per gratiam oportet quod homo 
+      con<lb ed="#R" n="103" break="no"/>stituatur in esle supernaturali. 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e1199">
+                  <lb ed="#R" n="104"/>Contra, hoc est superfluum, Nam hoc faciunt 
+      <lb ed="#R" n="105"/>virtutes; ponunt enim in esse supernaturali mora 
+      <lb ed="#R" n="106"/>li, &amp; sicut virtus moralis ponit in esse morali 
+      na<lb ed="#R" n="107" break="no"/>turali, sic virtutes supernaturales ponunt in esse 
+      <lb ed="#R" n="108"/>supernaturali morali. 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e1212">
+                  <lb ed="#R" n="109"/>Allegatur tamen contra hoc autoritas 
+      quae<lb ed="#R" n="110" break="no"/>dam Dionys. secundo capitulo caelest. hierar. quod 
+      <lb ed="#R" n="111"/>sicut in generatione aliquid accipit rem prius, 
+      <lb ed="#R" n="112"/>quam operari, sic in regeneratione per gratiam. 
+      <lb ed="#R" n="113"/>Respondeo dico quod autoritas illa magis est 
+      <lb ed="#R" n="114"/>vocalis quam realis, ille enim ibi de regeneratio 
+      <lb ed="#R" n="115"/>ne per baptismum concludens, quod antequam 
+      <lb ed="#R" n="116"/>percipiat aliqua sacramenta oportet, quod prius 
+      <lb ed="#R" n="117"/>statuatur in vita Christianitatis per baptismum. 
+   </p>
+               <p xml:id="olm8ij-f82871-d1e1234">
+                  <lb ed="#R" n="118"/>Secundo dico argumentum accipit dubium, 
+      <lb ed="#R" n="119"/>scilicet quod potentiae animae differant ab anima; 
+      <lb ed="#R" n="120"/>hoc enim, etsi verum sit de potentijs subiectiuis, 
+      <lb ed="#R" n="121"/>non tamen est verum de intellectu, &amp; voluntate, 
+      <lb ed="#R" n="122"/>alias dicam de hoc. Vnde intentio omnium Philo 
+      <lb ed="#R" n="123"/>sophantium nunquam est, quod intellectus agens 
+      <lb ed="#R" n="124"/>&amp; possibilis differant vt qualitates, &amp; quod in ani 
+      <lb ed="#R" n="125"/>ma sit qualitas quaedam, quae sit pura potentia in 
+      <lb ed="#R" n="126"/>genere intelligibilium, habens recipere 
+      intentio<lb ed="#R" n="127" break="no"/>nes omnium generum, nec etiam, quod intellectus 
+      <lb ed="#R" n="128"/>agens sit qualitas, cum dicat Philosophus, quod 
+      <lb ed="#R" n="129"/>eit substantia abstractiua transferens intentiones 
+      <lb ed="#R" n="130"/>de ordine ad ordinem, hoc idem dico de 
+      volunta<lb ed="#R" n="131" break="no"/>te. haec opinio, quod tales potentiae sunt 
+      qualita<lb ed="#R" n="132" break="no"/>tes, est extranca, &amp; contra opinionem omnium 
+      <lb ed="#R" n="133"/>Philosophantium, de hoc tamen alias.
+   </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

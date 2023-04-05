@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-05">April 05, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b2">Roma 1605, Book 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="80"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-f25280"><!-- l2d5-q1 -->
+            <head xml:id="olm8ij-f25280-Hd1e101">Quaestio 1</head>
+            <p xml:id="olm8ij-f25280-d1e103">
+               <lb ed="#R" n="70"/>QVAESTIO PRIMA.
+   </p>
+            <p xml:id="olm8ij-f25280-d1e108">
+      <!--0080.xml-->
+               <cb ed="#R" n="d"/>
+               <lb ed="#R" n="71"/>1 Vtrum Angeli meruerint suam 
+      beatitudi<lb ed="#R" n="72" break="no"/>nem. 
+      <lb ed="#R" n="73"/>2 Secunda est. Vtrum prius tempore eam 
+      <lb ed="#R" n="74"/>meruerint, quam receperint. 
+   </p>
+            <div xml:id="olm8ij-f25280-Dd1e124">
+               <head xml:id="olm8ij-f25280-Hd1e126">Articulus 1</head>
+               <head xml:id="olm8ij-f25280-Hd1e128" type="question-title">
+      Utrum Angeli meruerint suam beatitudinem
+    </head>
+               <p xml:id="olm8ij-f25280-d1e131">
+                  <lb ed="#R" n="75"/>ARTJCVLVS J. 
+      <lb ed="#R" n="76"/>Vtrum Angeli meruerint suam beatitudinem.
+   </p>
+               <p xml:id="olm8ij-f25280-d1e138">
+      <!--0080.xml-->
+                  <cb ed="#R" n="e"/>
+                  <lb ed="#R" n="77"/>QVANTVM ad primam 
+      <lb ed="#R" n="78"/>arguo primo, quod Angeli 
+      <lb ed="#R" n="79"/>non meruerint suam 
+      bea<lb ed="#R" n="80" break="no"/>titudinem sic. Nullus actus 
+      <lb ed="#R" n="81"/>est meritorius, qui non est 
+      <lb ed="#R" n="82"/>laboriosus: sed in Angelo 
+      <lb ed="#R" n="83"/>nullus erat actus huiusmo 
+      <lb ed="#R" n="84"/>di: ergo. 
+  </p>
+               <p xml:id="olm8ij-f25280-d1e162">
+                  <lb ed="#R" n="85"/>In oppositum arguo, quia beatitudo Angeli, 
+      <!--0081.xml-->
+      <pb ed="#R" n="81"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>&amp; hominis est eiusdem rationis; ergo eius subie 
+      <lb ed="#R" n="2"/>ctum, &amp; principium acquirendi vtrobique est 
+      <lb ed="#R" n="3"/>eiusdem rationis: sed beati tudo hominis nón 
+      ha<lb ed="#R" n="4" break="no"/>betur in homine sine meritis: ergo. 
+   </p>
+               <p xml:id="olm8ij-f25280-d1e183">
+                  <lb ed="#R" n="5"/>Respondeo. Teneo de facto, quod Angeli 
+      me<lb ed="#R" n="6" break="no"/>ruerunt suam beatitudinem. Secunda 
+      Proposi<lb ed="#R" n="7" break="no"/>tio est, quod meruerunt eam actu amoris, &amp; 
+      ti<lb ed="#R" n="8" break="no"/>moris circa Deum.
+   </p>
+               <p xml:id="olm8ij-f25280-d1e194">
+                  <lb ed="#R" n="9"/>Primam Propositionem probo sic. Deus in 
+      <lb ed="#R" n="10"/>prima institutione naturae non immutauit 
+      na<lb ed="#R" n="11" break="no"/>turalem ordinem, quem exigit iustitia 
+      com<lb ed="#R" n="12" break="no"/>mutatiua: sed iustitia commutatiua exigit, vt 
+      <lb ed="#R" n="13"/>detur gloria pro merito, paena pro demerito; 
+      <lb ed="#R" n="14"/>quia exigit iustitia, vt detur finis pro his, 
+      <lb ed="#R" n="15"/>quae ex natura sua sunt ad finem, nono 
+      Ethi<lb ed="#R" n="16" break="no"/>corum: ergo si Deus dedisset Angelis 
+      beatitu<lb ed="#R" n="17" break="no"/>dinem sine merito, &amp; malis paeuam sine 
+      deme<lb ed="#R" n="18" break="no"/>rito, immutasset ordinem naturalem, quem 
+      ex<lb ed="#R" n="19" break="no"/>poscit iustitia commutatiua. Hoc inconueniens 
+      <lb ed="#R" n="20"/>est: ergo. 
+   </p>
+               <p xml:id="olm8ij-f25280-d1e223">
+                  <lb ed="#R" n="21"/>Item: Si Deus dedisset Angelis beatitudinem 
+      <lb ed="#R" n="22"/>sine meritis, dedisset eam fortius, vel melius, 
+      <lb ed="#R" n="23"/>quam hominibus. Et confirmo, quia 
+      vnumquod<lb ed="#R" n="24" break="no"/>que agit, prout natum est agi, a. phys. sed creatura 
+      <lb ed="#R" n="25"/>rationalis est apta, &amp; potens acquirere suam bea 
+      <lb ed="#R" n="26"/>titudinem: ergo acquisiuit eam: sed non acquirit 
+      <lb ed="#R" n="27"/>eam, nisi merendo: ergo. 
+   </p>
+               <p xml:id="olm8ij-f25280-d1e241">
+                  <lb ed="#R" n="28"/>Sciendum est autem, quod beatitudo potest 
+      <lb ed="#R" n="29"/>consider ari dupliciter, vel quoad absolutum, siue 
+      <lb ed="#R" n="30"/>sit actus, siue habitus, siue passio, siue actio, 
+      quo<lb ed="#R" n="31" break="no"/>ad hanc rationem, in quantum praemium 
+      impor<lb ed="#R" n="32" break="no"/>tat formaliter relationem ad meritum: primo 
+      <lb ed="#R" n="33"/>ergo modo Deus potuis sine meritis causare 
+      <lb ed="#R" n="34"/>beatitudinem in Angelo. Vnde superius dictum 
+      <lb ed="#R" n="35"/>est, quod Angelus potuit causare beatitudinem 
+      <lb ed="#R" n="36"/>in primo instanti suae creationis, sed 
+      accipien<lb ed="#R" n="37" break="no"/>do beatitudinem sub illa ratione, in quantum 
+      <lb ed="#R" n="38"/>meritum est, &amp; ex sua institutione habet 
+      ratio<lb ed="#R" n="39" break="no"/>nem finis, sic dico seruato natura li ordine 
+      <lb ed="#R" n="40"/>oportet dicere, quod meritum in Angelo 
+      praeces<lb ed="#R" n="41" break="no"/>sit beatitudinem suam. 
+   </p>
+               <p xml:id="olm8ij-f25280-d1e274">
+                  <lb ed="#R" n="42"/>Secundam Propositionem probo. Ad cuius 
+      <lb ed="#R" n="43"/>euidentiam infero istam Propositionem, quod 
+      <lb ed="#R" n="44"/>aliter actui, qui est perfecte 
+      circumstantiona<lb ed="#R" n="45" break="no"/>tus in ordine ad diuinam voluntatem debetur 
+      <lb ed="#R" n="46"/>ratio meriti per se, &amp; immediate, nec oportet, 
+      <lb ed="#R" n="47"/>quod induat aliquam qualitatem aliam, vt 
+      di<lb ed="#R" n="48" break="no"/>cunt quidam, licet ad aliud exigatur impulsus 
+      <lb ed="#R" n="49"/>Spiritus sancti, de quo dicetur alias, &amp; in 4. lib. 
+      <lb ed="#R" n="50"/>dictum est. 
+   </p>
+               <p xml:id="olm8ij-f25280-d1e296">
+                  <lb ed="#R" n="51"/>Hanc Propositionem probo: Aut actus est 
+      me<lb ed="#R" n="52" break="no"/>ritorius, quia laboriosus, &amp; hoc non, quia 
+      la<lb ed="#R" n="53" break="no"/>bor non est circumstantia ex se accepta. Vnde 
+      <lb ed="#R" n="54"/>Isaias, Nonne est hoc ieiunium, quod elegi? &amp;c. 
+      <lb ed="#R" n="55"/>pro tanto tamen communiter dicetur, quod 
+      <lb ed="#R" n="56"/>vbi intercidit maior labor, meritum est fortius, 
+      <lb ed="#R" n="57"/>quia electio ibi est fortior, &amp; intensior, sed 
+      ab<lb ed="#R" n="58" break="no"/>solute labor, vt labor stante aequali electione 
+      <lb ed="#R" n="59"/>non est meritorius, immo frequenter actus cum 
+      <lb ed="#R" n="60"/>minori labore est magis meritorius: &amp; hinc 
+      <lb ed="#R" n="61"/>est, quod ieiunantes ex habitu cum ieiunent 
+      <lb ed="#R" n="62"/>delectabiliter, plus habent de merito, quam 
+      il<lb ed="#R" n="63" break="no"/>li ieiunantes sine habitu, qui abstinerent cum 
+      <lb ed="#R" n="64"/>maximo labore actus: ergo ex hoc habeo, 
+      <lb ed="#R" n="65"/>quod sit meritorius, quia est decens, &amp; bonus, 
+      <lb ed="#R" n="66"/>&amp; perfecte circumstantionatus, sicut dictat di- 
+      <!--0081.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>uina voluntas, &amp; recta ratio; sed actus 
+      diligen<lb ed="#R" n="68" break="no"/>di Deum cum debitis circumstantijs est 
+      perde<lb ed="#R" n="69" break="no"/>cens, &amp; bonus, quia per istum amorem 
+      impen<lb ed="#R" n="70" break="no"/>dit se amans Deo, nec plus dare potest, &amp; vnit 
+      <lb ed="#R" n="71"/>se intime illi, ac reddit Deo, quod iustum est, &amp; 
+      <lb ed="#R" n="72"/>quod suum est: ergo. 
+   </p>
+               <p xml:id="olm8ij-f25280-d1e352">
+                  <lb ed="#R" n="73"/>Confirmo hoc per Phylosoph. 8. Ethic. cap. 
+      <lb ed="#R" n="74"/>3. vbi dicit, quod amor ex se meretur ad 
+      reada<lb ed="#R" n="75" break="no"/>mationem: ergo amor, quo quis amat Deum, 
+      <lb ed="#R" n="76"/>meretur redamari a Deo: sed hoc est amari a 
+      <lb ed="#R" n="77"/>Deo, quod acceptari a Deo: esse autem 
+      acce<lb ed="#R" n="78" break="no"/>ptum est esse meritorium: ergo. 
+      <lb ed="#R" n="79"/>Et confirmo per illud. Ego diligentes me 
+      <lb ed="#R" n="80"/>diligo: dico autem, quod Angeli boni non 
+      ha<lb ed="#R" n="81" break="no"/>buerunt actum laboriosum, sed actum 
+      ardentis<lb ed="#R" n="82" break="no"/>simi amoris, quo se Deo totaliter intimarunt, 
+      <lb ed="#R" n="83"/>&amp; impenderunt omni alio concepto, &amp; ideo 
+      <lb ed="#R" n="84"/>quia cum vehementissimo affectu illud donum 
+      <lb ed="#R" n="85"/>fuit maius omni eo, quod nos impendimus 
+      me<lb ed="#R" n="86" break="no"/>rendo ipsi Deo. Ad argumentum in oppositum 
+      <lb ed="#R" n="87"/>patet quid dicendum. 
+   </p>
+            </div>
+            <div xml:id="olm8ij-f25280-Dd1e388">
+               <head xml:id="olm8ij-f25280-Hd1e390">Articulus 2</head>
+               <head xml:id="olm8ij-f25280-Hd1e392" type="question-title">
+      Utrum Angeli prius tempore receperint beatitudinem, quam illam meruerint
+    </head>
+               <p xml:id="olm8ij-f25280-d1e395">
+                  <lb ed="#R" n="88"/>ARTJCVLVS II. 
+      <lb ed="#R" n="89"/>Vtrum Angeli prius tempore receperint 
+      <lb ed="#R" n="90"/>beatitudinem, quam illam 
+      <lb ed="#R" n="91"/>meruerint.
+   </p>
+               <p xml:id="olm8ij-f25280-d1e406">
+                  <lb ed="#R" n="92"/>AD secundam quaestionem, Vtrum Augeli 
+      <lb ed="#R" n="93"/>prius meruerint beatitudinem suam, quam 
+      <lb ed="#R" n="94"/>acceperint, sine argumentis respondeo, pono 
+      <lb ed="#R" n="95"/>aliquas Propositiones. Prima est ista, quod 
+      An<lb ed="#R" n="96" break="no"/>geli non meruerunt suam beatitudinem, sicut 
+      <lb ed="#R" n="97"/>Magister dicit expresse, cuius opinio 
+      communi<lb ed="#R" n="98" break="no"/>ter reprobatur. Adducuntur autem contra 
+      <lb ed="#R" n="99"/>eum rationes multae, quae non concludunt. Et 
+      <lb ed="#R" n="100"/>prima quidem est, Quia si sic: tunc Angeli 
+      su<lb ed="#R" n="101" break="no"/>premi ordinis, vt Seraphini, non meruissent 
+      <lb ed="#R" n="102"/>suam beatitudinem, cum non mittantur. Sed 
+      re<lb ed="#R" n="103" break="no"/>spondetur ad illam rationem, quod omnes 
+      An<lb ed="#R" n="104" break="no"/>geli mittuntur missione exteriori ad 
+      obsequen<lb ed="#R" n="105" break="no"/>dum nobis, vel missione interiori ad reuelandum 
+      <lb ed="#R" n="106"/>secreta ijs, quae obsequuntur nobis.
+  </p>
+               <p xml:id="olm8ij-f25280-d1e441">
+                  <lb ed="#R" n="107"/>Alij arguunt aliter videlicet, quod terminus 
+      <lb ed="#R" n="108"/>non praecedit viam: ergo nec beatitudo, quae est 
+      <lb ed="#R" n="109"/>terminus, praecedit merita, quae se habent, vt 
+      <lb ed="#R" n="110"/>via. Sed Magister respondet, quod terminus in 
+      <lb ed="#R" n="111"/>intentione est prior via, oportet quod via 
+      sem<lb ed="#R" n="112" break="no"/>per sit prior ex intentione, immo 
+      apprehen<lb ed="#R" n="113" break="no"/>dens illud, quod est prius in executione, potest 
+      <lb ed="#R" n="114"/>illud dare prius tempore propter aliquid, quod 
+      <lb ed="#R" n="115"/>nondum est, sed postea suturum est. Exemplum 
+      <lb ed="#R" n="116"/>ponit Magister de Rege, qui potest militi 
+      da<lb ed="#R" n="117" break="no"/>re equum, vel aliquod aliud donum, non tamen 
+      <lb ed="#R" n="118"/>propter victoriam, &amp; actum fortitudinis, quem 
+      <lb ed="#R" n="119"/>exercuit, sed propter aliquem bonum actum, 
+      <lb ed="#R" n="120"/>quem ab eo sperat. 
+   </p>
+               <p xml:id="olm8ij-f25280-d1e475">
+                  <lb ed="#R" n="121"/>Alia ratio communis, quae adducitur est ista. 
+      <lb ed="#R" n="122"/>Nullus actus, qui se habet ad alium actum vt 
+      po<lb ed="#R" n="123" break="no"/>sterius ad prius, potest habere rationem meriti, 
+      <lb ed="#R" n="124"/>nisi actus prior sitmeritorius. Ratio est, quia 
+      pro<lb ed="#R" n="125" break="no"/>pter quod vnumquodque tale, &amp; illud magis: 
+      <lb ed="#R" n="126"/>actus autem posterior est meritorius propter 
+      <lb ed="#R" n="127"/>priorem: ergo: Verbi gratia, de acttu 
+      exterio<lb ed="#R" n="128" break="no"/>ri, qui non estt meritorius sine interiori: Sed 
+      <!--0082.xml-->
+      <pb ed="#R" n="82"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>omnis actus meritorius est propter actum 
+      <lb ed="#R" n="2"/>amoris, vt patet superius: ergo si ille actus 
+      <lb ed="#R" n="3"/>non sit meritorius nullus alius actus 
+      poste<lb ed="#R" n="4" break="no"/>rior erit meritorius: sed actus amoris 
+      An<lb ed="#R" n="5" break="no"/>geli, quem elicit circa Deum, videndo Deum, 
+      <lb ed="#R" n="6"/>non est meritorius: est enim finis: de 
+      ratione<lb ed="#R" n="7" break="no"/>autem meriti est, vt sit ad finem. Vnde posset 
+      <lb ed="#R" n="8"/>ratio sic formari. Nullus actus, qui procedit 
+      <lb ed="#R" n="9"/>a fine, siue ab actu, qui est finis, &amp; sequela 
+      <lb ed="#R" n="10"/>eius, potest esse meritorius, non enim habet 
+      ra<lb ed="#R" n="11" break="no"/>tionem ordinabilem ad finem. Da enim 
+      oppo<lb ed="#R" n="12" break="no"/>situm, sequitur, quod illud, cuius ipsum est 
+      se<lb ed="#R" n="13" break="no"/>quela, ordinabitur ad ipsum sicut ad finem, &amp; 
+      <lb ed="#R" n="14"/>ratio est, quia cum illud, quod est sequela, 
+      or<lb ed="#R" n="15" break="no"/>dinabitur, ad quidquid ordinatur in virtute eius, 
+      <lb ed="#R" n="16"/>cuius est sequela, si ipsum ordinatur ad aliud, 
+      <lb ed="#R" n="17"/>&amp; illud, cuius est sequela, ordinabitur ad illud: 
+      <lb ed="#R" n="18"/>sed omnes actus, qui eliciuntur ab Angelo 
+      cir<lb ed="#R" n="19" break="no"/>ca nos, sequuntur per modum cuiusdam 
+      seque<lb ed="#R" n="20" break="no"/>lae ab actu amoris beatitudinis, quo diligunt 
+      <lb ed="#R" n="21"/>Deum summe. Is autem non habet rationem 
+      <lb ed="#R" n="22"/>ordinabilem ad finem, cum sit finis vltimus, 
+      <lb ed="#R" n="23"/>&amp; vltima perfectio naturae rationalis: ergo. 
+   </p>
+               <p xml:id="olm8ij-f25280-d1e551">
+                  <lb ed="#R" n="24"/>Dices, licet huiusmodi actus sequantur acum 
+      <lb ed="#R" n="25"/>beatificum, tamen Deus prouidit, quod 
+      huius<lb ed="#R" n="26" break="no"/>modi actus consecuti erant beatitudinem, puta, 
+      <lb ed="#R" n="27"/>quod obsequerentur nobis, &amp; elicerent actus 
+      <lb ed="#R" n="28"/>aliquos circa nos, &amp; tunc Deus bene potuit 
+      da<lb ed="#R" n="29" break="no"/>re primo illud, &amp; primo cadebat in intentione 
+      <lb ed="#R" n="30"/>sui. 
+   </p>
+               <p xml:id="olm8ij-f25280-d1e569">
+                  <lb ed="#R" n="31"/>Contra. Etsi sic Deus praeuiderit, non tamen 
+      <lb ed="#R" n="32"/>praeuidit, quod huiusmodi actus haberent 
+      ratio<lb ed="#R" n="33" break="no"/>nem meriti, sed sequelae ad meritum; ergo.
+  </p>
+               <p xml:id="olm8ij-f25280-d1e578">
+                  <lb ed="#R" n="34"/>Alia ratio est, quia si obsequia impensa 
+      no<lb ed="#R" n="35" break="no"/>bis ab Angelis mererentur eis suam 
+      beatitudi<lb ed="#R" n="36" break="no"/>nem, sequitur, quod Angeli essent magis 
+      bea<lb ed="#R" n="37" break="no"/>ti, qui magis ministrant nobis, quia sicut simpli 
+      <lb ed="#R" n="38"/>citer ad simpliciter, ita magis ad magis: ergo. 
+   </p>
+               <p xml:id="olm8ij-f25280-d1e591">
+                  <lb ed="#R" n="39"/>Tertio, quia tunc actus meritorius primo, &amp; 
+      <lb ed="#R" n="40"/>per se esset actus dilectionis proximi, quod 
+      ta<lb ed="#R" n="41" break="no"/>men falsum est, cum meritum principalius 
+      con<lb ed="#R" n="42" break="no"/>sistat in Dei dilectione. 
+   </p>
+               <p xml:id="olm8ij-f25280-d1e602">
+                  <lb ed="#R" n="43"/>Secunda Propositio est, quod actus 
+      concomi<lb ed="#R" n="44" break="no"/>tantes beatitudinem, vel simul tempore 
+      inexi<lb ed="#R" n="45" break="no"/>stentes non habuerunt rationem meriti in 
+      An<lb ed="#R" n="46" break="no"/>gelis bonis. Hoc dico propter quandam opi- 
+      <!--0082.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="47"/>nionem, quae dicit, quod in instanti, quo 
+      An<lb ed="#R" n="48" break="no"/>geli fuerunt conuersi ad Deum, habuerunt 
+      gra<lb ed="#R" n="49" break="no"/>tiam, &amp; in eodem habuerunt gloriam, quia 
+      <lb ed="#R" n="50"/>tnnc actus, quo conuerterent se ad Deum, 
+      po<lb ed="#R" n="51" break="no"/>terat comparari ad voluntatem, &amp; sic erat actus 
+      <lb ed="#R" n="52"/>naturalis; poterat comparari secundo ad 
+      gra<lb ed="#R" n="53" break="no"/>tiam, &amp; sic erat meritorius, tertio ad gloriam, 
+      <lb ed="#R" n="54"/>&amp; sic erit beatificus.
+  </p>
+               <p xml:id="olm8ij-f25280-d1e636">
+                  <lb ed="#R" n="55"/>Sed non capio istam opinionem. Ideo pono 
+      <lb ed="#R" n="56"/>oppositam propositionem, &amp; probo eam. 
+      Quae<lb ed="#R" n="57" break="no"/>ro enim de actu illo, aut in primo instanti illo 
+      <lb ed="#R" n="58"/>fuit beatificus, &amp; si sic, impossibile est, quod 
+      fue<lb ed="#R" n="59" break="no"/>rit meritorius, quia impossibile est, quod idem 
+      <lb ed="#R" n="60"/>habeat rationem finis, &amp; eius, quod est ad 
+      fi<lb ed="#R" n="61" break="no"/>nem: ergo ille actus in instanti illo fuit alius 
+      <lb ed="#R" n="62"/>actus ab actu beatifico. Tunc, aut fuit actus 
+      <lb ed="#R" n="63"/>perfectus, quo perfectissime diligit Deum, &amp; si 
+      <lb ed="#R" n="64"/>sic, ille fuit beatificus, aut fuit imperfectus, &amp; 
+      <lb ed="#R" n="65"/>hoc est impossibile; quia tunc in eodem instanti 
+      <lb ed="#R" n="66"/>fuisset in Angelo circa idem dilectio perfecta, &amp; 
+      <lb ed="#R" n="67"/>imperfecta. 
+  </p>
+               <p xml:id="olm8ij-f25280-d1e667">
+                  <lb ed="#R" n="68"/>Et confirmo, quia actus meritorius est actus 
+      <lb ed="#R" n="69"/>inchoatus siue initiatus. Est enim actus, qui 
+      eli<lb ed="#R" n="70" break="no"/>citur circa absens, actus autem beatificus est 
+      <lb ed="#R" n="71"/>actus vltimatae complacentiae circa iam 
+      habi<lb ed="#R" n="72" break="no"/>tum, &amp; praesens: contradictio autem est, quod 
+      <lb ed="#R" n="73"/>in eodem respectu eiusdem sit desiderium, &amp; com 
+      <lb ed="#R" n="74"/>Placentis vltimata; ergo
+  </p>
+               <p xml:id="olm8ij-f25280-d1e685">
+    <!-- missing line break -->Tertio, ergo, quod in Angelis meritum 
+      prae<lb ed="#R" n="75" break="no"/>cesssit tempore beatitudinem, siue ipsum 
+      meri<lb ed="#R" n="76" break="no"/>tum. Sed quod fuit illud tempus, in quo ponis 
+      <lb ed="#R" n="77"/>praecessisse i 
+   </p>
+               <p xml:id="olm8ij-f25280-d1e696">
+                  <lb ed="#R" n="78"/>Respondeo, dico, quod fuit mora aliqua 
+      <lb ed="#R" n="79"/>cui correspondere potuit aliqua duratio saltem 
+      <lb ed="#R" n="80"/>imaginata, vel duratio realis caeli, &amp; hoc 
+      extrin<lb ed="#R" n="81" break="no"/>sece, vel intrinsece, Angelus licet non habeat, 
+      <lb ed="#R" n="82"/>per quod duraret vt sic, esset ille ordo; in aliquo 
+      <lb ed="#R" n="83"/>enim instanti conuertunt se ad Deum, &amp; cum 
+      <lb ed="#R" n="84"/>in illo instanti super omnia dilexerunt, tunc 
+      ha<lb ed="#R" n="85" break="no"/>buerunt gratiam, &amp; in aliqua mora. 
+      Existen<lb ed="#R" n="86" break="no"/>tes in actu illo, fuerunt in statu meriti, &amp; erat 
+      <lb ed="#R" n="87"/>eis actus iste meritorius, &amp; in termino illius mo 
+      <lb ed="#R" n="88"/>rae Deus dedit illis beatitudinem tanquam 
+      fi<lb ed="#R" n="89" break="no"/>nem. De mora autem ista dictum est in 
+      Di<lb ed="#R" n="90" break="no"/>stinctione praecedenti.
+   </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

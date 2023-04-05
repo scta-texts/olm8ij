@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-05">April 05, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b2">Roma 1605, Book 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="248"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-f76896"><!-- l2d20-q1 -->
+            <head xml:id="olm8ij-f76896-Hd1e101">Quaestio 1</head>
+            <p xml:id="olm8ij-f76896-d1e103">
+      <!--0248.xml-->
+               <pb ed="#R" n="248"/>
+               <cb ed="#R" n="a"/>
+               <lb ed="#R" n="1"/>QVESTIO PRIMA. 
+      <!--0248.xml-->
+      <cb ed="#R" n="b"/>
+               <lb ed="#R" n="2"/>1 Quinam homines fuissent generati in statu 
+      <lb ed="#R" n="3"/>innocentiae. 
+      <lb ed="#R" n="4"/>2 Quales fuissent generati. 
+      <lb ed="#R" n="5"/>3 Vtrum per commixtionem sexuum. 
+   </p>
+            <div xml:id="olm8ij-f76896-Dd1e127">
+               <head xml:id="olm8ij-f76896-Hd1e129">Articulus 1</head>
+               <head xml:id="olm8ij-f76896-Hd1e131" type="question-title">
+      Quinam homines fuissent generati in statu innocentiae
+    </head>
+               <p xml:id="olm8ij-f76896-d1e134">
+                  <lb ed="#R" n="6"/>ARTJCVLVS I. 
+      <lb ed="#R" n="7"/>Quinam homines fuissent generati in statu 
+      <lb ed="#R" n="8"/>innocentiae. 
+   </p>
+               <p xml:id="olm8ij-f76896-d1e143">
+                  <lb ed="#R" n="9"/>DE primo dicunt quidam 
+      <lb ed="#R" n="10"/>quod soli praedestinati, 
+      <lb ed="#R" n="11"/>&amp; qui saluabuntur, 
+      fuis<lb ed="#R" n="12" break="no"/>sent generati: ratio est, 
+      <lb ed="#R" n="13"/>quia diuina 
+      praedestina<lb ed="#R" n="14" break="no"/>tio non potest minui, &amp; 
+      <lb ed="#R" n="15"/>quos ab aeterno 
+      praede<lb ed="#R" n="16" break="no"/>stinauit fuissent nati ad 
+      <lb ed="#R" n="17"/>gloriam praedestinatam; 
+      <lb ed="#R" n="18"/>alias fuisset diminura ea praedestinatio: reprobi 
+      <lb ed="#R" n="19"/>vero non fuissent nati, eo quod peccatum non 
+      <lb ed="#R" n="20"/>fuisset. Sed contra hoc est, quia tunc impossibile 
+      <lb ed="#R" n="21"/>esset, quod aliquis saluaretur, qui natus est ex 
+      paren<lb ed="#R" n="22" break="no"/>tibus damnatis, per te enim non fuissent 
+      paren<lb ed="#R" n="23" break="no"/>tes: ergo nec ille fuisset natus: Tunc vltra: ergo 
+      <lb ed="#R" n="24"/>non omnes saluati, &amp; praedestinati fuissent nati. 
+      <lb ed="#R" n="25"/>Confirmatur, quia vbi est materia alia, &amp; aliud 
+      <lb ed="#R" n="26"/>agens, non videtur esse idem effectus, alietas enim 
+      <lb ed="#R" n="27"/>materiae, &amp; agentis sufficit ad alietatem effectus, 
+      <lb ed="#R" n="28"/>sed quicunque est hodie saluatus, natus ex paren 
+      <lb ed="#R" n="29"/>tibus damnatis fuisset natus ex parentibus alijs, 
+      <lb ed="#R" n="30"/>quia damnati non fuissent nati, ergo quilibet ta 
+      <lb ed="#R" n="31"/>lis habuisset parentes alios: ergo aliam materiam, 
+      <lb ed="#R" n="32"/>&amp; aliud agens. &amp; per consequens alius esset quili 
+      <lb ed="#R" n="33"/>bet talis, quam ipse qui nunc est. 
+   </p>
+               <p xml:id="olm8ij-f76896-d1e200">
+                  <lb ed="#R" n="34"/>Dicetur quod ad hoc, vt effectus sit idem non 
+      <lb ed="#R" n="35"/>oportet semper agens esse idem quia 
+      quodcun<lb ed="#R" n="36" break="no"/>que agens applicatum eidem passo potest vnum 
+      <lb ed="#R" n="37"/>numero inducere, &amp; ideo ex alio, &amp; alio parente 
+      <lb ed="#R" n="38"/>non est inconueniens idem numero generari. Sed 
+      <lb ed="#R" n="39"/>haec opinio non videtur esse vera, quod scilicet 
+      <lb ed="#R" n="40"/>idem homo possit a diuersis parentibus generari. 
+      <lb ed="#R" n="41"/>&amp; si dicatur, quod nihil distinguitur per agens, 
+      <lb ed="#R" n="42"/>dico, quod verum est formaliter, tamen 
+      efficaci<lb ed="#R" n="43" break="no"/>ter, &amp; originaliter facit, quod illud seipso, 
+      forma<lb ed="#R" n="44" break="no"/>liter tamen efficeretur, &amp; originaliter, quod 
+      il<lb ed="#R" n="45" break="no"/>lud se ipso formaliter distinguatur, &amp; praeterea 
+      <lb ed="#R" n="46"/>ibi fuisset materia alia, quia tunc materia seminis 
+      <lb ed="#R" n="47"/>fuisset lignum, nunc autem est ad alimentum, etiam 
+      <lb ed="#R" n="48"/>alterius matris est aliud &amp; aliud menstruum, quae 
+      <lb ed="#R" n="49"/>sunt alia, forma autem alia est propter materiam. 
+      <lb ed="#R" n="50"/>Qui tamen vellent hanc opinionem sustinere, 
+      dice<lb ed="#R" n="51" break="no"/>rent, quod non esset idem homo quantum ad cor 
+      <lb ed="#R" n="52"/>pus, licet esset idem, quantum ad animam, licet 
+      <lb ed="#R" n="53"/>enim forma sit complementum, &amp; perfectio 
+      ma<lb ed="#R" n="54" break="no"/>teriae, tamen, quia non est ita de anima, illa enim 
+      <lb ed="#R" n="55"/>non educitur de potentia materiae, sed creatur; 
+      <lb ed="#R" n="56"/>ideo indifferenter potest vniri alteri corpori. 
+   </p>
+               <p xml:id="olm8ij-f76896-d1e253">
+                  <lb ed="#R" n="57"/>Quicquid sit de hoc, dico, quod non oportet 
+      in<lb ed="#R" n="58" break="no"/>trare in tantam dimcultatem. Dico enim, quod 
+      <lb ed="#R" n="59"/>non oportuisset, quod aliquis saluandus nunc 
+      <lb ed="#R" n="60"/>fuisset natus, &amp; ad illud de praescientia; 
+      Respon<lb ed="#R" n="61" break="no"/>di in primo, quomodo illa abstrahit a potentiali- 
+      <!--0248.xml-->
+      <cb ed="#R" n="c"/>
+                  <lb ed="#R" n="62"/>tate, &amp; futuritione. Ideo Diuina praedestinatio 
+      <lb ed="#R" n="63"/>est tantum simplex intuitus, &amp; ideo non respicit 
+      <lb ed="#R" n="64"/>istos, qui nunc sunt, scilicet talem futuritionem 
+      <lb ed="#R" n="65"/>temporis determinati. 
+   </p>
+            </div>
+            <div xml:id="olm8ij-f76896-Dd1e280">
+               <head xml:id="olm8ij-f76896-Hd1e282">Articulus 2</head>
+               <head xml:id="olm8ij-f76896-Hd1e284" type="question-title">
+        Quales homines generati fuissent in statu innocentiae quantum ad sexum
+      </head>
+               <p xml:id="olm8ij-f76896-d1e287">
+                  <lb ed="#R" n="66"/>ARTJCVLVS JJ. 
+      <lb ed="#R" n="67"/>
+                  <!-- line coord break -->
+                  <lb ed="#R" n="68"/>Quales homines generati fuissent in statu 
+      inno<lb ed="#R" n="69" break="no"/>centiae quantum ad sexum. 
+   </p>
+               <p xml:id="olm8ij-f76896-d1e300">
+                  <lb ed="#R" n="70"/>SEcundo est videndum quales fuissent 
+      genera<lb ed="#R" n="71" break="no"/>ti homines quantum ad sexum: Respondetur, 
+      <lb ed="#R" n="72"/>quod aequales fuissent in numero viri, &amp; mulieres 
+      <lb ed="#R" n="73"/>quia omnes vacassent generationi. Sed hic est du 
+      <lb ed="#R" n="74"/>bium, quia secundum Aristotelem de 
+      animali<lb ed="#R" n="75" break="no"/>bus mulier est masculus occasionatus, nam 
+      mu<lb ed="#R" n="76" break="no"/>lier secundum eum generatur ex frigiditate 
+      viri<lb ed="#R" n="77" break="no"/>li seminis, &amp; imperfecta eius digestione, vnde ex 
+      <lb ed="#R" n="78"/>hoc videtur, quod natura non intendit mulierem 
+      <lb ed="#R" n="79"/>nisi per accidens, sed in statu innocentiae fuisset 
+      <lb ed="#R" n="80"/>perfecta digestio in semine, &amp; caliditas 
+      propor<lb ed="#R" n="81" break="no"/>tionata, ideo videtur, quod semper fuisset 
+      mas<lb ed="#R" n="82" break="no"/>culus generatus. Dico ad hoc, quod, etsi mulier 
+      <lb ed="#R" n="83"/>dicatur masculus occasionatus, non tamen 
+      in<lb ed="#R" n="84" break="no"/>tenditur a natura simpliciter per accidens, &amp; hoc 
+      <lb ed="#R" n="85"/>quia facit ad bonum vniuersi. Sciendum tamen 
+      <lb ed="#R" n="86"/>quod aliquod potest esse per se intentum a 
+      particu<lb ed="#R" n="87" break="no"/>lari agente, &amp; tamen per accidens erit intentum 
+      <lb ed="#R" n="88"/>ab agente vniuersali; &amp; ego dico tunc, quod 
+      <lb ed="#R" n="89"/>quia agens particulare, quantum est ex se, semper 
+      <lb ed="#R" n="90"/>agit, quantum potest, &amp; ideo inducit effectum sub 
+      <lb ed="#R" n="91"/>maiori perfectione, qua potest: ideo respectu 
+      <lb ed="#R" n="92"/>istius agentis particularis generantis mulier est 
+      <lb ed="#R" n="93"/>intenta per accidens, &amp; ob hoc est masculus 
+      oc<lb ed="#R" n="94" break="no"/>casionatus: sed quia agens vniuersale non 
+      sem<lb ed="#R" n="95" break="no"/>per agit quantum potest, &amp; perfectiori modo, 
+      quo<lb ed="#R" n="96" break="no"/>modo potest cum agat propter bonum vniuersi, 
+      <lb ed="#R" n="97"/>&amp; totius speciei: &amp; quaedam imperfecta sunt 
+      ne<lb ed="#R" n="98" break="no"/>cessaria ad vniuersum: ideo cum mulier sit 
+      neces<lb ed="#R" n="99" break="no"/>saria propter bonum speciei, licet non sit 
+      necessa<lb ed="#R" n="100" break="no"/>ria propter bonum huius indiuidui, &amp; agentis 
+      <lb ed="#R" n="101"/>particularis; hinc est, quod mulier est per se 
+      in<lb ed="#R" n="102" break="no"/>tenta ab agente vniuersali. Sed dubium est, quae 
+      <lb ed="#R" n="103"/>esset causa in semine, quod ex ipso generaretur 
+      <lb ed="#R" n="104"/>mulier, cum ibi sit digestio perfecta, &amp; caliditas &amp; 
+      <lb ed="#R" n="105"/>digestio proportionata. Dicunt aliqui, quod cau 
+      <lb ed="#R" n="106"/>sa fuisset non ex parte seminis, sed fortis 
+      imagi<lb ed="#R" n="107" break="no"/>nationis generantis. 
+   </p>
+               <p xml:id="olm8ij-f76896-d1e385">
+                  <lb ed="#R" n="108"/>Alij vero dicunt, quod quandoque 
+      genera<lb ed="#R" n="109" break="no"/>tio mulieris est causa extrinseca non tantum ex 
+      <lb ed="#R" n="110"/>defectu seminis, &amp; tamen illa extrinseca est 
+      <lb ed="#R" n="111"/>proprietas quorumdam ventorum qui quando flant 
+      <lb ed="#R" n="112"/>disponunt semen ad generationem mulieris. Sed 
+      <lb ed="#R" n="113"/>haec causa non videtur ad propositum, quia forte 
+      <lb ed="#R" n="114"/>in Paradiso non fuissent tales venti. Videtur 
+      <lb ed="#R" n="115"/>mihi, quod causa esset reducenda ad diuinam 
+      <lb ed="#R" n="116"/>prouidentiam, quae nunc statuisset generari 
+      ma<lb ed="#R" n="117" break="no"/>sculum, nunc feminam, sicut sciebat 
+      necessa<lb ed="#R" n="118" break="no"/>rium esse ad continuationem hominum. Vel dico, 
+      <lb ed="#R" n="119"/>quod aliquo modo potuisset reduci in causam 
+      <lb ed="#R" n="120"/>vniuersalem; sunt enim in matrice mulieris 
+      diui<lb ed="#R" n="121" break="no"/>se cellulae, &amp; in dextera, &amp; sinistra; quando 
+      au<lb ed="#R" n="122" break="no"/>tem semen cecidit in partem dexteram, in illa cel 
+      <!--0249.xml-->
+      <pb ed="#R" n="249"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>lula generatur vir, quando vero in sinistram 
+      ge<lb ed="#R" n="2" break="no"/>neratur mulier: &amp; secundum hoc potest dici, quod 
+      <lb ed="#R" n="3"/>vir generans in statu illo fuisset plenus scientia, 
+      <lb ed="#R" n="4"/>&amp; idcirco potuisset se taliter disponere, quod semen 
+      <lb ed="#R" n="5"/>cecidisset nunc ad vnum locum, nunc ad alium, 
+      <lb ed="#R" n="6"/>secundum quod visum ei fuisset expedire nunc 
+      <lb ed="#R" n="7"/>generatio viri nunc mulieris. Sed nunquid 
+      fuis<lb ed="#R" n="8" break="no"/>sent omnes generati in statura &amp; magnitudine per 
+      <lb ed="#R" n="9"/>secta? sicut fuit Adam creatus? Respondeo dico, 
+      <lb ed="#R" n="10"/>quod non: natura enim procedit de imperfecto 
+      <lb ed="#R" n="11"/>ad perfectum: nec apparet necessitas, quare 
+      opor<lb ed="#R" n="12" break="no"/>tuerit homines procreari sic perfectos in 
+      quanti<lb ed="#R" n="13" break="no"/>tate, &amp; alijs membris corporis, &amp; ideo non 
+      <lb ed="#R" n="14"/>oportet ibi ponere diuinum miraculum; sed puto, 
+      <lb ed="#R" n="15"/>quod Deus ibi permisit naturalia secundum 
+      <lb ed="#R" n="16"/>modum suum. 
+   </p>
+               <p xml:id="olm8ij-f76896-d1e462">
+                  <lb ed="#R" n="17"/>Sed nunquid fuisset dolor in partu? posset 
+      <lb ed="#R" n="18"/>dici vno modo quantum ad naturalia principia 
+      <lb ed="#R" n="19"/>ibi fuisset necessario dolor, licet supernaturaliter 
+      <lb ed="#R" n="20"/>diuina actione poterat non esse dolor, tum quia 
+      <lb ed="#R" n="21"/>scriptura videtur dolorem illum attribuere 
+      pec<lb ed="#R" n="22" break="no"/>cato, vt sit paena peccati, iuxta illud, quod dixit 
+      <lb ed="#R" n="23"/>Dominus mulieri post peccatum. In dolore 
+      <lb ed="#R" n="24"/>paries filios, ac per hoc non videtur esse dolor 
+      <lb ed="#R" n="25"/>ille naturalis nisi naturae lapsae. Ideo potest dici 
+      <lb ed="#R" n="26"/>aliter, quod tunc nullus dolor fuisset; &amp; hoc ideo, 
+      <lb ed="#R" n="27"/>quia per donum Dei speciale potentia motiua 
+      <lb ed="#R" n="28"/>totaliter fuisset in potestate mulieris, quae nunc 
+      <lb ed="#R" n="29"/>quia non est in potestate, causat dolorem. Vnde 
+      <lb ed="#R" n="30"/>sciendum est, quod vt dicitur, quod sunt aliqui 
+      <lb ed="#R" n="31"/>homines qui habent virtutes motiuas speciali mo 
+      <lb ed="#R" n="32"/>do in sui potestate, vt patet de quibusdam 
+      mo<lb ed="#R" n="33" break="no"/>nentibus aures, &amp; alia membra, &amp; partes, quae 
+      <lb ed="#R" n="34"/>communiter in alijs sunt immobiles, &amp; sic potest 
+      <lb ed="#R" n="35"/>dici, quod secundum conditionem illius status 
+      <lb ed="#R" n="36"/>fuisset in potestate mulieris dilatare partes illas 
+      <lb ed="#R" n="37"/>per quas egreditur faetus, adeo quod ibi nullus 
+      <lb ed="#R" n="38"/>fuisset dolor, quia nulla fuisset vioientia. Sed 
+      <lb ed="#R" n="39"/>nunquid fuisseut generati homines in membris 
+      <lb ed="#R" n="40"/>debilibus ita, quod non potuissent ire in principio 
+      <lb ed="#R" n="41"/>sicut nec modo: &amp; de imaginatione, vtrum fuisset 
+      <lb ed="#R" n="42"/>eo modo quo nunc apparet in nobis, quando 
+      su<lb ed="#R" n="43" break="no"/>mus pueri. Respondeo dico, quod sic, ita 
+      <lb ed="#R" n="44"/>enim habuissent membra fluida, sicut modo: quia 
+      <lb ed="#R" n="45"/>ita habuissent complexionem humidam 
+      humori<lb ed="#R" n="46" break="no"/>bus abundantem sicut nunc: &amp; sic oportuisset prius 
+      <lb ed="#R" n="47"/>digeri humores illos, quae digestio causa est 
+      soli<lb ed="#R" n="48" break="no"/>dationis membrorum. Sed de actu intellectus 
+      <lb ed="#R" n="49"/>nunquid statim habuissent notitiam 
+      intellectua<lb ed="#R" n="50" break="no"/>lem? Respondeo cum Magistro, quod non 
+      opor<lb ed="#R" n="51" break="no"/>tet: anima enim tunc elicuisset suas operationes 
+      <lb ed="#R" n="52"/>per corpus, sicut &amp; modo fecit, &amp; per consequens 
+      <lb ed="#R" n="53"/>vim in organo corporali, quo vtitur anima in 
+      in<lb ed="#R" n="54" break="no"/>telligendo, puta in cerebro; non fuisset 
+      superflui<lb ed="#R" n="55" break="no"/>tas humoris, &amp; humiditatis, sicut est modo in pue 
+      <lb ed="#R" n="56"/>ris: propter quod species existentes in cerebro non fuis 
+      <lb ed="#R" n="57"/>sent ad motum, &amp; fuissent organa alia interiora ita 
+      <lb ed="#R" n="58"/>impedita ex hoc, quod phantasma non potuisset 
+      exi<lb ed="#R" n="59" break="no"/>re in actum ordinate, sicut modo apparet in pue 
+      <lb ed="#R" n="60"/>ris, &amp; ebriosis. Propterea quod sunt vapores ibi 
+      <lb ed="#R" n="61"/>multiplicati perturbantes cerebrum, in pueris 
+      <lb ed="#R" n="62"/>quidem propter superfluitatem humorum, &amp; 
+      eo<lb ed="#R" n="63" break="no"/>rum cruditatem, siue indigestionem: in ebriosis 
+      <lb ed="#R" n="64"/>propter superfluitatem vini, vel potus, vel alterius, 
+      <lb ed="#R" n="65"/>quia(inquã) conditio haec fuisset in pueris tunc 
+      si<lb ed="#R" n="66" break="no"/>cut nunc, ideo actus imaginationis fuisset in eis im 
+      <!--0249.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>peditus tunc, sicut nunc, &amp; per consequens non 
+      <lb ed="#R" n="68"/>habuissent notitiam intellectiuam; smo nec puram 
+      <lb ed="#R" n="69"/>phantasiam, sed processu temporis humores 
+      <lb ed="#R" n="70"/>fuissent paulatim digesti, &amp; phantasia ad 
+      perfe<lb ed="#R" n="71" break="no"/>ctam dispositionem reducta priusquam 
+      intelle<lb ed="#R" n="72" break="no"/>ctualem notitiam habuissent: Sed nunquid fuissent 
+      <lb ed="#R" n="73"/>omnes generati in gratia? Respondeo hic sunt duo 
+      <lb ed="#R" n="74"/>quae sunt certa, &amp; vnum, quod est dubium. 
+      Cer<lb ed="#R" n="75" break="no"/>tum est vnum quod pater non generasset filium 
+      <lb ed="#R" n="76"/>in gratia illam gratiam in filio generando, vel 
+      <lb ed="#R" n="77"/>transfundendo, &amp; de hoc idem de iustitia 
+      origi<lb ed="#R" n="78" break="no"/>nali, illa enim fuissent immediate a Deo, &amp; hoc ex 
+      <lb ed="#R" n="79"/>generali influentia Dei, quae tunc fuisset a Deo 
+      <lb ed="#R" n="80"/>volita, &amp; instituta tunc, sicut nunc generato corpo 
+      <lb ed="#R" n="81"/>re &amp; disposito vltimate Deus absq. speciali influem 
+      <lb ed="#R" n="82"/>tia, sed per generalem solam infundit animam. Sic 
+      e<lb ed="#R" n="83" break="no"/>tiam tunc generato homine ex anima, &amp; corpore sta 
+      <lb ed="#R" n="84"/>stim Deus astitisset ad infundendum originalem 
+      <lb ed="#R" n="85"/>iustitiam, &amp; gratiam. Et ideo secundo certum 
+      <lb ed="#R" n="86"/>es, quod ab instanti generationis omnes 
+      ha<lb ed="#R" n="87" break="no"/>buissent gratiam, &amp; originalem iust itiam a Deo 
+      <lb ed="#R" n="88"/>sibi datam. Originalem autem iustitiam ego voco 
+      <lb ed="#R" n="89"/>subiectionem virium inferiorum totalem ad 
+      su<lb ed="#R" n="90" break="no"/>periores, &amp; superiorum ad Deum. Jllud autem, 
+      <lb ed="#R" n="91"/>quod est dubium, est, vtrum Deus dedisset eis gra 
+      <lb ed="#R" n="92"/>tiam gratum facientem, vel fuisset gratia gratis 
+      <lb ed="#R" n="93"/>data, &amp; dicunt quidam, quod sic: quoniam 
+      si<lb ed="#R" n="94" break="no"/>cut primus homo demeruit omnibus, vt 
+      habe<lb ed="#R" n="95" break="no"/>rent peccatum originale, sic meruisset omnibus, 
+      <lb ed="#R" n="96"/>vt haberent gratiam gratum facientem: sicut nunc 
+      <lb ed="#R" n="97"/>omnes sumus filij naturae, sic tunc omnes fuissent 
+      <lb ed="#R" n="98"/>filij gratiae. 
+   </p>
+               <p xml:id="olm8ij-f76896-d1e647">
+                  <lb ed="#R" n="99"/>Alij dicunt oppositum, &amp; ratio est, quia homo se 
+      <lb ed="#R" n="100"/>disposuisset ad habendum eam, &amp; hoc, quia 
+      glo<lb ed="#R" n="101" break="no"/>riosius est illud, quod datur cum meritis. 
+   </p>
+               <p xml:id="olm8ij-f76896-d1e656">
+                  <lb ed="#R" n="102"/>Alij dicunt, quod est in nobis nunc quoad ali 
+      <lb ed="#R" n="103"/>quid, sicut ante originalis iustitia data fuit Adam 
+      <lb ed="#R" n="104"/>pro tota eius posteritate, carentia vero istius 
+      <lb ed="#R" n="105"/>cum debito habendi est hodie in paruulis 
+      origi<lb ed="#R" n="106" break="no"/>nale peccatum: illa autem carentia non tollitur 
+      <lb ed="#R" n="107"/>nisi per habitum oppositum, vel per aliud 
+      conti<lb ed="#R" n="108" break="no"/>nens aliquo modo illud virtualiter: gratia 
+      <lb ed="#R" n="109"/>autem quantum adhoc, quod est coniungere tan 
+      <lb ed="#R" n="110"/>tum, immediate est donum perfectius, &amp; 
+      excel<lb ed="#R" n="111" break="no"/>lentius iustitia originali, &amp; ideo quantum adhoc 
+      <lb ed="#R" n="112"/>supplet, qd faciebat originalis iustitia perfectius 
+      <lb ed="#R" n="113"/>quam illa iustitia. &amp; ideo carentia originalis 
+      iu<lb ed="#R" n="114" break="no"/>stitiae tollitur per hoc donum gratiae, vt iam non 
+      <lb ed="#R" n="115"/>sit amplius debitor iustitiae originalis ille, cui 
+      <lb ed="#R" n="116"/>confertur gratia. In statu ergo innocentiae dicitur, 
+      <lb ed="#R" n="117"/>quod potuit esse originalis iustitia seu gratia, quia 
+      <lb ed="#R" n="118"/>quantum ad illum statum originalis iustitia erat 
+      <lb ed="#R" n="119"/>prius: e conuerso autem, qui habuissent gratiam, 
+      <lb ed="#R" n="120"/>sine originali non fuissent in statu perfecto 
+      inno<lb ed="#R" n="121" break="no"/>centiae, quia originalis iustitia constituebat in ta 
+      <lb ed="#R" n="122"/>li statu essentialiter. Quid autem dicendum sit de istis 
+      <lb ed="#R" n="123"/>opinionibus? Nunc ad propositum, vtrum 
+      gene<lb ed="#R" n="124" break="no"/>rati fuissent per commixtionem sexuum dico, quod 
+      <lb ed="#R" n="125"/>sic, quia non apparet alius modus generationis 
+      <lb ed="#R" n="126"/>naturalis, &amp; credendum est, quod quoad talia 
+      <lb ed="#R" n="127"/>Deus permiserit illam naturam in suo ordine 
+      <lb ed="#R" n="128"/>naturali. Sed dubium est contra hoc illud, quod 
+      <lb ed="#R" n="129"/>inductum est ad principale de amissione 
+      virgini<lb ed="#R" n="130" break="no"/>tatis, &amp; de absortione rationis. 
+   </p>
+               <p xml:id="olm8ij-f76896-d1e721">
+                  <lb ed="#R" n="131"/>Ad ista respondeo, quod in actu illo 
+      genera<lb ed="#R" n="132" break="no"/>tionis quaedam sunt actu talia, quae induunt ra- 
+      <!--0250.xml-->
+      <pb ed="#R" n="250"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>tionem indecentiae, &amp; turpitudinis oppositam 
+      <lb ed="#R" n="2"/>pulchritudini, &amp; munditiae virginitatis, cuius 
+      <lb ed="#R" n="3"/>sunt ex parte appetitus improbabilis, &amp; 
+      inordi<lb ed="#R" n="4" break="no"/>natus motus, ex parte autem voluntatis intima 
+      <lb ed="#R" n="5"/>absortio, quae ibi profundius absorbetur, aliud 
+      <lb ed="#R" n="6"/>est ibi videlicet delectatio, quae sequitur 
+      emis<lb ed="#R" n="7" break="no"/>sionem seminis. Jllud vltimum putandum est, quod 
+      <lb ed="#R" n="8"/>fuisset in summo in statu illo propter 
+      necessita<lb ed="#R" n="9" break="no"/>tem naturae, &amp; complexionis, quae tunc fuisset 
+      <lb ed="#R" n="10"/>permaxima; sed alia puta inordinatus motus, &amp; 
+      <lb ed="#R" n="11"/>libido, &amp; absortio rationis ibi non fuissent 
+      pro<lb ed="#R" n="12" break="no"/>pter intimam subiectionem virium inferiorum 
+      <lb ed="#R" n="13"/>rationi, &amp; rationis ipsi Deo, &amp; illa praecise 
+      <lb ed="#R" n="14"/>sunt, quae frangunt virginitatem, vt virtus est. Nam 
+      <lb ed="#R" n="15"/>etsi virginitas, si claustrorum fractio a 
+      materia<lb ed="#R" n="16" break="no"/>le, tamen immoderata libido, &amp; subuersio 
+      ratio<lb ed="#R" n="17" break="no"/>nis sunt ibi formalia: Vnde, secundum 
+      Augusti<lb ed="#R" n="18" break="no"/>num Virgo oppressa per violentiam non perdit 
+      <lb ed="#R" n="19"/>virginitatem: licet ergo ibi fuisset virginitatis 
+      <!--0250.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="20"/>amissio quoad materiale, quod est claustrorum 
+      <lb ed="#R" n="21"/>fractio non fuisset tamen ibi, quoad formale, vt 
+      <lb ed="#R" n="22"/>opponit decentiae, &amp; pulchritudini virtutis. Sed 
+      <lb ed="#R" n="23"/>nunquid potuisset ibi esse semen? videtur enim 
+      <lb ed="#R" n="24"/>quod non, quia semen est superfluum alimenti, 
+      <lb ed="#R" n="25"/>ibi autem alimentum non fuisset superfluum, non 
+      <lb ed="#R" n="26"/>enim fuisset ibi gulae inordinatio, sicut nunc est. 
+      <lb ed="#R" n="27"/>Respondeo: semen est de superfluum alimenti in or 
+      <lb ed="#R" n="28"/>dine ad indiuiduum, cuius est, non autem in ordi 
+      <lb ed="#R" n="29"/>ne ad speciem; nam natura intendit per se semen 
+      <lb ed="#R" n="30"/>illud propter multitudinem speciei, licet non 
+      <lb ed="#R" n="31"/>egeat eo indiuiduum, in quo est: quia homo in sta 
+      <lb ed="#R" n="32"/>tu illo fuisset praeditus ratione, &amp; si non sumpsisset 
+      <lb ed="#R" n="33"/>cibum quantum suffecisset ad eius nutrimentum 
+      <lb ed="#R" n="34"/>&amp; seminis geuerationem, quantum necessarium 
+      <lb ed="#R" n="35"/>fuisset ad generationem prolis tamen nulla ibi 
+      fuis<lb ed="#R" n="36" break="no"/>set superfluitas vbi totum necessarium 
+      fuis<lb ed="#R" n="37" break="no"/>set, &amp; si non respectu indiuidui tamen respectu, 
+      <lb ed="#R" n="38"/>speciei.
+   </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

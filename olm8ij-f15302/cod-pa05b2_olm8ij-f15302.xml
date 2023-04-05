@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-04-05">April 05, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b2">Roma 1605, Book 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="49"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-f15302"><!-- l2d2-q3 -->
+            <head xml:id="olm8ij-f15302-Hd1e101">Quaestio 3</head>
+            <p xml:id="olm8ij-f15302-d1e103">
+      <!--0049.xml-->
+               <cb ed="#R" n="c"/>
+               <lb ed="#R" n="65"/>QVAESTIO TERTIA. 
+      <lb ed="#R" n="66"/>DE LOCO ANGELORVM. 
+    </p>
+            <p xml:id="olm8ij-f15302-d1e114">
+               <lb ed="#R" n="67"/>Postquam quaesitum est de mensura Angelorum, quaero hic de locabilitate illorum, 
+      <lb ed="#R" n="68"/>&amp; quaero circa hoc tres quaestiones. Prima est de 
+      <lb ed="#R" n="69"/>loci entitate in se.
+  </p>
+            <p xml:id="olm8ij-f15302-d1e123">
+      <!--0049.xml-->
+               <cb ed="#R" n="d"/>
+               <lb ed="#R" n="70"/>1 Vtrum locus sit superficies corporis 
+      con<lb ed="#R" n="71" break="no"/>tinentis immobile primum. 
+      <lb ed="#R" n="72"/>2 Secunda de Angeli locabilitate. Vtrum 
+      <lb ed="#R" n="73"/>Angeli sunt in caelo Empireo sicut in loco. 
+      <lb ed="#R" n="74"/>3 Tertia de loci Angelorum qualitate. Vtrum 
+      <lb ed="#R" n="75"/>entitas caeli Empirei sit inuestigabilis ratione 
+      <lb ed="#R" n="76"/>naturali. 
+   </p>
+            <div xml:id="olm8ij-f15302-Dd1e145">
+               <head xml:id="olm8ij-f15302-Hd1e147">Articulus 1</head>
+               <head xml:id="olm8ij-f15302-Hd1e149" type="question-title">
+      Utrum locus sit superficies corporis 
+      continentis immobile primum
+    </head>
+               <p xml:id="olm8ij-f15302-d1e152">
+                  <lb ed="#R" n="77"/>ARTJCVLVS J. 
+      <lb ed="#R" n="78"/>Vtrum locus sit superficies corporis 
+      continen<lb ed="#R" n="79" break="no"/>tis immobile primum. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e161">
+                  <lb ed="#R" n="80"/>QVantum ad primam arguo primo, quod 
+      <lb ed="#R" n="81"/>locus sit superficies corporis continentis 
+      <lb ed="#R" n="82"/>ad priori immobili per Arist. &amp; 
+      Commen<lb ed="#R" n="83" break="no"/>tatorem, qui dicit hanc esse completam 
+      diffini<lb ed="#R" n="84" break="no"/>tionem loci. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e174">
+                  <lb ed="#R" n="85"/>In oppositum est, quia mutato continente, 
+      <lb ed="#R" n="86"/>puta aere circumstante, mutaretur locus, quod 
+      <lb ed="#R" n="87"/>falsum est per Arist. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e184">
+                  <lb ed="#R" n="88"/>Dices; non mutatur quia manet idem forma, 
+      <!--0049.xml-->
+      <cb ed="#R" n="e"/>
+                  <lb ed="#R" n="89"/>idest idem respectus ad polos mundi. Contra: 
+      <lb ed="#R" n="90"/>Mutato fundamento mutatur, seu corrumpitur 
+      <lb ed="#R" n="91"/>respectus: ergo mutato continente, mutatur etiam 
+      <lb ed="#R" n="92"/>respectus super continens ad polos mundi. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e202">
+                  <lb ed="#R" n="93"/>Respondeo. Pono hic duas propositiones. 
+      Pri<lb ed="#R" n="94" break="no"/>ma est, quod locus per se, &amp; primo non est aliud, 
+      <lb ed="#R" n="95"/>quam positio, puta hic, vel ibi. Secunda est, quod 
+      <lb ed="#R" n="96"/>per accidens locus est superficies corporis 
+      con<lb ed="#R" n="97" break="no"/>tinentis: ex ijs inferam quaedam, quae 
+      communi<lb ed="#R" n="98" break="no"/>ter dicuntur de loco. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e218">
+                  <lb ed="#R" n="99"/>Primam conclusionem probo primo, quia est 
+      <lb ed="#R" n="100"/>formaliter ratio loci, quo posito circa locatum, 
+      <lb ed="#R" n="101"/>locatum dicitur habere determinatum locum in 
+      <lb ed="#R" n="102"/>toto, &amp; in vniuerso: sed ex hoc, quod res habent 
+      <lb ed="#R" n="103"/>determinatam positionem, habent 
+      determina<lb ed="#R" n="104" break="no"/>tum locum, &amp; situm in vniuerso: ergo. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e234">
+                  <lb ed="#R" n="105"/>Maior nota est, probo minorem. Pone enim, 
+      <lb ed="#R" n="106"/>quod corpus aliquod sit in determinata 
+      positio<lb ed="#R" n="107" break="no"/>ne, puta hic, vel ibi, &amp; varia, quantum cumque vo 
+      <lb ed="#R" n="108"/>lueris ipsum continens, res semper manebit in 
+      <lb ed="#R" n="109"/>eodem determinato loco: Similiter pone illud 
+      con<lb ed="#R" n="110" break="no"/>tinens, puta vas, &amp; varia rationem positionis hic, vel 
+      <!--0050.xml-->
+      <pb ed="#R" n="50"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>ibi non remanebit idem determinatus locus: ergo. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e258">
+                  <lb ed="#R" n="2"/>Secundo probo eandem conclusionem sic. Motus 
+      <lb ed="#R" n="3"/>localis per se, &amp; primo est ad locum, tunc sic: 
+      lo<lb ed="#R" n="4" break="no"/>cus per se, &amp; formaliter est illud, adquod primo 
+      <lb ed="#R" n="5"/>est motus localis: sed motus localis primo, &amp; 
+      <lb ed="#R" n="6"/>per se est ad positionem, videlicet, quod idem est, 
+      <lb ed="#R" n="7"/>quod hic vel ibi: ergo. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e274">
+                  <lb ed="#R" n="8"/>Maior patet, probo minorem, quia 
+      circum<lb ed="#R" n="9" break="no"/>scribe aerem, vel aquam, adhuc terra, si po 
+      <lb ed="#R" n="10"/>neretur iuxta interstitium Lunae, moueretur ad 
+      <lb ed="#R" n="11"/>centrum, sicut ad locum; tunc autem centrum 
+      <lb ed="#R" n="12"/>non esset aliquod continens, sed determinata po 
+      <lb ed="#R" n="13"/>sitio, siue determinatum hic: ergo. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e291">
+                  <lb ed="#R" n="14"/>Secundo arguo ad idem sic. Illa sunt eadem, 
+      <lb ed="#R" n="15"/>quorum per se differentiae sunt eaedem: sed 
+      dif<lb ed="#R" n="16" break="no"/>ferentiae positionis, &amp; loci sunt omnino eaedem: 
+      <lb ed="#R" n="17"/>ergo locus idem est, quod positio: maior patet, 
+      <lb ed="#R" n="18"/>probo minorem, quia differentiae positionis 
+      <lb ed="#R" n="19"/>sunt ante, &amp; retro, sursum, &amp; deorsum, 
+      dex<lb ed="#R" n="20" break="no"/>trum, &amp; sinistrum: sed hae eaedem sunt 
+      differen<lb ed="#R" n="21" break="no"/>tiae loci: quia illa est diuisio per se locorum 
+      <lb ed="#R" n="22"/>alius est inferius, &amp; alius est superius: ergo. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e313">
+                  <lb ed="#R" n="23"/>Confirmo, quia hae differentiae sursum, 
+      deor<lb ed="#R" n="24" break="no"/>sum, &amp; huiusmodi non conueniunt corpori 
+      con<lb ed="#R" n="25" break="no"/>tinenti, nisi per determinatam positionem, non 
+      <lb ed="#R" n="26"/>autem per continens; quia illud non 
+      determina<lb ed="#R" n="27" break="no"/>uit sibi, quod sit superius, nec inferius, nec 
+      ali<lb ed="#R" n="28" break="no"/>quam propriam differentiam loci. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e329">
+                  <lb ed="#R" n="29"/>Quarto arguo per locum a coniugatis, quia 
+      <lb ed="#R" n="30"/>locari est situari, siue poni: ergo locus est 
+      po<lb ed="#R" n="31" break="no"/>sitio. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e338">
+                  <lb ed="#R" n="32"/>Quinto, quia ad interrogationem factam per 
+      <lb ed="#R" n="33"/>vbi respondetur per Positionem, vt, vbi est? 
+      respon<lb ed="#R" n="34" break="no"/>detur, intra, extra, &amp; huiusmodi: ergo. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e347">
+                  <lb ed="#R" n="35"/>Secundam Conclusionem probo: tum quia 
+      <lb ed="#R" n="36"/>corpus glorificatum non habet continens, &amp; 
+      ta<lb ed="#R" n="37" break="no"/>men est in loco per hoc, quod habet 
+      determina<lb ed="#R" n="38" break="no"/>tam positionem; tum quia sursum, deorsum, 
+      <lb ed="#R" n="39"/>&amp; huiusmodi differentiae sunt in partibus 
+      singu<lb ed="#R" n="40" break="no"/>lis, &amp; vt sic, accidit eis, quod sint contiguae, vel 
+      <lb ed="#R" n="41"/>continuae, vel continuatae. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e365">
+                  <lb ed="#R" n="42"/>Tertio principaliter soluo, quae dicunt de 
+      lo<lb ed="#R" n="43" break="no"/>co, dicitur enim de loco, quod est quantitas 
+      <lb ed="#R" n="44"/>continua, &amp; discreta species quantitatis 
+      conti<lb ed="#R" n="45" break="no"/>nuae. Illa volo declarare, &amp; vt melius videatur 
+      <lb ed="#R" n="46"/>propositum, primo insto, &amp; secundo ex 
+      solutio<lb ed="#R" n="47" break="no"/>ne instantiarum propositum ostendo. Primo sic. 
+      <lb ed="#R" n="48"/>Proprium est loci conseruare: sed conseruatio 
+      <lb ed="#R" n="49"/>inest loco per qualitates actiuas, &amp; passiuas, non 
+      <lb ed="#R" n="50"/>per quantitatem: ergo locus vltra quantiratem 
+      <lb ed="#R" n="51"/>includit formaliter quantitates, alias non 
+      con<lb ed="#R" n="52" break="no"/>seruaret; conseruare non inesset loco per 
+      pro<lb ed="#R" n="53" break="no"/>priam rationem loci. Haec est ratio 
+      Commenta<lb ed="#R" n="54" break="no"/>toris, 7. metaph. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e397">
+                  <lb ed="#R" n="55"/>Secundo, quia quantitas est accidens reale: 
+      <lb ed="#R" n="56"/>sed locus non est huiusmodi: ergo. Maior patet, 
+      <lb ed="#R" n="57"/>probo minorem, quia imposibile est, quod 
+      <lb ed="#R" n="58"/>idem accidens reale sit realiter in tribus: sed 
+      lo<lb ed="#R" n="59" break="no"/>cus potest fundari in tribus subiectis, puta si idē 
+      <lb ed="#R" n="60"/>locatum sit in aere, aqua, &amp; terra, idem locus fun 
+      <lb ed="#R" n="61"/>dabitur in illis tribus: ergo. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e415">
+                  <lb ed="#R" n="62"/>Tertio, quia quantitas est formaliter quid 
+      ab<lb ed="#R" n="63" break="no"/>solutum: sed formale loci non est quid 
+      absolu<lb ed="#R" n="64" break="no"/>tum: ergo. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e424">
+                  <lb ed="#R" n="65"/>Maior nota est, probo minorem, primo quia 
+      <lb ed="#R" n="66"/>secundum Commentatorem, optimus locus est 
+      <lb ed="#R" n="67"/>vltimum continentis: tunc sic, aut est vltimum 
+      <!--0050.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>absolute, &amp; tunc non differret, nec esset quantitas 
+      <lb ed="#R" n="69"/>distincta a superficie, aut non absolute; sed sub 
+      <lb ed="#R" n="70"/>hac habitudine in quantum continens, &amp; si sic 
+      <lb ed="#R" n="71"/>habeo propositum, tunc enim locus erit 
+      nespe<lb ed="#R" n="72" break="no"/>ctus. Secundo, quia locus dicitur immobilis quã- 
+      <lb ed="#R" n="73"/>tum ad suum formale: sed non est immobilis, 
+      ni<lb ed="#R" n="74" break="no"/>si quoad distantiam certam ad polos mundi: 
+      <lb ed="#R" n="75"/>ergo. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e455">
+                  <lb ed="#R" n="76"/>Haec sunt dubia, quae oriri possunt circaea 
+      <lb ed="#R" n="77"/>quae communiter dicuntur de loco. Nunc soluo 
+      <lb ed="#R" n="78"/>illa. Ad cuius euidentiam pono primo aliorum re 
+      <lb ed="#R" n="79"/>sponsiones, quae dantur communiter, secundo 
+      re<lb ed="#R" n="80" break="no"/>spondeo iuxta positionem meam. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e468">
+                  <lb ed="#R" n="81"/>Quantum ad primum dicunt aliqui, quod 
+      si<lb ed="#R" n="82" break="no"/>cut in relatione, aliud est quod est relatio 
+      secun<lb ed="#R" n="83" break="no"/>dum esse, aliud quod secundum dici: sic enim in 
+      <lb ed="#R" n="84"/>illo genere est aliquid, quod est in tali 
+      genere<lb ed="#R" n="85" break="no"/>essentialiter, &amp; secundum esse, &amp; aliquod quod 
+      <lb ed="#R" n="86"/>est in eo tantum secundum dici, verbi gratia: 
+      Sa<lb ed="#R" n="87" break="no"/>nitas, &amp; pulchritudo sunt essentialiter 
+      relatio<lb ed="#R" n="88" break="no"/>nes, consimiliter scientia, &amp; virtutes per 
+      Phyloso<lb ed="#R" n="89" break="no"/>phum, 7. phys. tex. 17. &amp; tamen ponuntur de gene 
+      <lb ed="#R" n="90"/>re qualitatis ibidem, &amp; in praedicamentis, quod 
+      <lb ed="#R" n="91"/>intelligendum est secundum dici. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e494">
+                  <lb ed="#R" n="92"/>Tunc respondeo ad dubia. Ad primum, quod 
+      <lb ed="#R" n="93"/>locus non est in genere qualitatis. Ratio est, quia 
+      <lb ed="#R" n="94"/>si sic, esset in secunda specie; sed hoc non, cum 
+      <lb ed="#R" n="95"/>tertia species qualitatis sit passibilis qualitas, 
+      <lb ed="#R" n="96"/>quod non conuenit loco. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e508">
+                  <lb ed="#R" n="97"/>Ad motiuum illud, de ratione loci est 
+      conser<lb ed="#R" n="98" break="no"/>uare: respondent, quod accidit loco conseruare, 
+      <lb ed="#R" n="99"/>&amp; similiter locato conseruari; non enim conserua 
+      <lb ed="#R" n="100"/>tur in quantum locatum; sed in quantum talis na 
+      <lb ed="#R" n="101"/>tura est, Vnde accidit locato in quantum locatum 
+      <lb ed="#R" n="102"/>est, quod conseruetur, nam locatum potest esse, 
+      <lb ed="#R" n="103"/>vt sit in loco aliquo sibi discontinenti, sicut in ali 
+      <lb ed="#R" n="104"/>quo sibi continenti. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e528">
+                  <lb ed="#R" n="105"/>Dices: ergo locus non est de consideratione 
+      <lb ed="#R" n="106"/>Phylosophi. Respondetur, quod immo, in 
+      quan<lb ed="#R" n="107" break="no"/>tum continuum, &amp; ad ipsum est primo motus 
+      <lb ed="#R" n="108"/>localis sicut ad terminum. Ad secundum 
+      respon<lb ed="#R" n="109" break="no"/>dent, quod ad vnitatem loci sufficit contiguitas, 
+      <lb ed="#R" n="110"/>sed ad vnitatem locati requiritur continuitas. 
+      <lb ed="#R" n="111"/>sed secundum hanc solutionem ratio 
+      conclude<lb ed="#R" n="112" break="no"/>ret, quod vel locus non haberet proprie 
+      vnita<lb ed="#R" n="113" break="no"/>tem per se, vel si sic, idem accidens fundabitur in 
+      <lb ed="#R" n="114"/>pluribus subiectis. Jdeo aliter dicitur, quod sunt 
+      <lb ed="#R" n="115"/>tria Vbi, sicut sunt tres superficies distinctae, 
+      sci<lb ed="#R" n="116" break="no"/>licet aquae, aeris, &amp; terrae, &amp; ex consequenti tria 
+      <lb ed="#R" n="117"/>vbi, quia tres circumscriptiones actiuae, &amp; 
+      passi<lb ed="#R" n="118" break="no"/>uae. Nec est inconueniens idem corpus habere 
+      <lb ed="#R" n="119"/>tres vbeitates in tribus partibus suis, sicut nec 
+      <lb ed="#R" n="120"/>habere albedinem, &amp; nigredinem in diuersis 
+      <lb ed="#R" n="121"/>partibus. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e567">
+                  <lb ed="#R" n="122"/>Item non est inconueniens idem corpus sit in 
+      <lb ed="#R" n="123"/>diuersis locis non distantibus distantia alia, &amp; 
+      <lb ed="#R" n="124"/>alia secundum speciem. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e576">
+                  <lb ed="#R" n="125"/>Ad vltimum dicunt, quod formale in loco est 
+      <lb ed="#R" n="126"/>continuare, continere, quod vt absolutum 
+      po<lb ed="#R" n="127" break="no"/>nit superficiem corporis continentis, quod patet, 
+      <lb ed="#R" n="128"/>quia si Deus annihilaret corpus locatum, &amp; 
+      re<lb ed="#R" n="129" break="no"/>tineret latera continentis distantanea, illud 
+      con<lb ed="#R" n="130" break="no"/>tinens non esset locus, quia locus non est sine 
+      lo<lb ed="#R" n="131" break="no"/>cato, &amp; tamen nihil absolutum esset corruptum 
+      <lb ed="#R" n="132"/>in ipso continente; dicunt ergo, quod locus est 
+      <lb ed="#R" n="133"/>in genere relationis secundum esse, sed secundum 
+      <lb ed="#R" n="134"/>dici est in genere quantitatis. Hoc enim modo 
+      <!--0051.xml-->
+      <pb ed="#R" n="51"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>non est aliud, quam superficies locati. 
+      <lb ed="#R" n="2"/>Ad vltimum dicunt, quod locus est 
+      immobi<lb ed="#R" n="3" break="no"/>lis; quia circa distantia ad polos &amp; ad centrum 
+      <lb ed="#R" n="4"/>est inuariabilis, quantumcumq. continens 
+      trans<lb ed="#R" n="5" break="no"/>mutetur. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e618">
+                  <lb ed="#R" n="6"/>Contra hoc arguo, quia distantia illa 
+      subiecti<lb ed="#R" n="7" break="no"/>ne est in corpore locante. Tunc ergo aut 
+      opor<lb ed="#R" n="8" break="no"/>tet, quod accidens migret de subiecto in subiect, 
+      <lb ed="#R" n="9"/>aut necessario corrupto altero continente 
+      cor<lb ed="#R" n="10" break="no"/>rumpitur distantia illa. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e631">
+                  <lb ed="#R" n="11"/>Item poli sunt quaedam puncta imaginata: 
+      er<lb ed="#R" n="12" break="no"/>ge illa distantia ad polos non habet aliquid 
+      rea<lb ed="#R" n="13" break="no"/>le, sed imaginatum: ergo est ens rationis: non 
+      <lb ed="#R" n="14"/>ergo locus erit aliquid reale. Jdeo aliter dicunt, 
+      <lb ed="#R" n="15"/>quod locus mouetur per accidens, non per se; 
+      <lb ed="#R" n="16"/>nam mouetur ad motum corporis continentis, 
+      <lb ed="#R" n="17"/>&amp; corrumpitur illo corrupto, sed per se non 
+      moue<lb ed="#R" n="18" break="no"/>tur, nec corrumpitur, quia, quod per se mouetur, 
+      <lb ed="#R" n="19"/>est per se in loco: locus autem non est in loco. 
+      <lb ed="#R" n="20"/>Ad probationem ergo quando dicitur, quod Ari 
+      <lb ed="#R" n="21"/>stoteles dicit, quod locus est vas immobile, 
+      di<lb ed="#R" n="22" break="no"/>cunt, quod illa duo loca censentur esse idem 
+      lo<lb ed="#R" n="23" break="no"/>cus pro eo, quod locus est terminus motus 
+      lo<lb ed="#R" n="24" break="no"/>calis, quia non requireretur locus, nisi 
+      pro<lb ed="#R" n="25" break="no"/>pter motum, sed illa dud non sunt terminus, 
+      ni<lb ed="#R" n="26" break="no"/>si vnus, quod patet primum, quia locus 
+      praece<lb ed="#R" n="27" break="no"/>dens, &amp; sequous non distant in aliqua 
+      magni<lb ed="#R" n="28" break="no"/>tudine interiori, quare, ab eodem nop potest 
+      <lb ed="#R" n="29"/>esse motus in alium: ergo non possunt esse 
+      <lb ed="#R" n="30"/>duo termini, sed sunt necedario vnus 
+      termi<lb ed="#R" n="31" break="no"/>
+                  <!-- line coord error -->
+                  <lb ed="#R" n="32"/>nus. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e684">
+                  <lb ed="#R" n="33"/>Secundo, quia idem mobile, secundum 
+      ean<lb ed="#R" n="34" break="no"/>dem magnitudinem moueret codem motu, &amp; c 
+      <lb ed="#R" n="35"/>dicetur ergo terra quiescens localiter 
+      mouebi<lb ed="#R" n="36" break="no"/>tur: quia mutabit locum mutato continente, &amp; 
+      <lb ed="#R" n="37"/>variato. Respondent, quod non sequitur: Hoc 
+      <lb ed="#R" n="38"/>corpus est in aliquo loco, quam prius: ergo est 
+      <lb ed="#R" n="39"/>muratum secundum locum: sed sequitur, ergo 
+      <lb ed="#R" n="40"/>vel est mutatum localiter, vel eius locus est 
+      mu<lb ed="#R" n="41" break="no"/>tatus: in formis enim relatiuis ad mutationem 
+      <lb ed="#R" n="42"/>relatiui non oportet semper, quod fiat mutatio 
+      <lb ed="#R" n="43"/>in fubiecto, sed sufficit, quod fiat in termino: ad 
+      <lb ed="#R" n="44"/>hoc ergo quod virga non sit inaqua, sufficit 
+      al<lb ed="#R" n="45" break="no"/>terum duorum, aut quod virga sit mota, vel 
+      <lb ed="#R" n="46"/>quod aqua sit mota. Haec sunt, quae 
+      communi<lb ed="#R" n="47" break="no"/>ter dicuntur ab alijs, sed illa mihi non placent. 
+      <lb ed="#R" n="48"/>Ideo pono duas Propositiones. Prima est, quod 
+      <lb ed="#R" n="49"/>rationem loci non constituit relatio, seu 
+      respe<lb ed="#R" n="50" break="no"/>ctus. Secunda erit de immobilitate loci, primo 
+      <lb ed="#R" n="51"/>sic. Illud non est formaliter relatio, quo aliud 
+      <lb ed="#R" n="52"/>est formaliter distincta species sub quantitate. 
+      <lb ed="#R" n="53"/>Probo illam, quia species constituuntur sub 
+      ge<lb ed="#R" n="54" break="no"/>nere per aliud, quod pertinet ad genus per se, 
+      <lb ed="#R" n="55"/>per Arist. 7. metaph. text. 28. sed locus est 
+      distin<lb ed="#R" n="56" break="no"/>cta species quantitatis formaliter per propriam 
+      <lb ed="#R" n="57"/>rationem locabilitatis; vt sic non est relatio, 
+      <lb ed="#R" n="58"/>sed de genere relationis quantitatis. Nec 
+      videli<lb ed="#R" n="59" break="no"/>cet, quod dicunt alij, quod locus est relatio 
+      se<lb ed="#R" n="60" break="no"/>cundum dici, quia species, siue secundum dici, 
+      <lb ed="#R" n="61"/>siue secundum esse, oportet quod constituatur 
+      <lb ed="#R" n="62"/>per aliquid illius generis, alias non esset magis il 
+      <lb ed="#R" n="63"/>lius generis, quam alterius: tum quia ratio men 
+      <lb ed="#R" n="64"/>surae conuenit per se loco. locati enim est 
+      mensu<lb ed="#R" n="65" break="no"/>ra, sed ratio mensurae conuenit quantitati: 
+      pri<lb ed="#R" n="66" break="no"/>mo ergo locus primo &amp; per se est quantitas; non 
+     <lb ed="#R" n="67"/>est ergo quantitas secundum dici.
+   </p>
+               <p xml:id="olm8ij-f15302-d1e762">
+                  <lb ed="#R" n="68"/>Item locari passiue non est relatio, immo est 
+      <!--0051.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>praedicamentum distinctum, Verbi gratia, ex 
+      <lb ed="#R" n="70"/>alia parte locatur non est relatio: ergo per se, 
+      <lb ed="#R" n="71"/>&amp; primo, &amp; secundum esse locus non est relatio, 
+      <lb ed="#R" n="72"/>seu respectus. &amp; quod opinio alia dicit de 
+      sani<lb ed="#R" n="73" break="no"/>tate, quod est ad aliquid, non est verum: &amp; ad 
+      <lb ed="#R" n="74"/>Aristor. 7. metaphys. text. 27. dico quod Aristo 
+      <lb ed="#R" n="75"/>teles vocat ibi formas ad aliquid omnes formas, 
+      <lb ed="#R" n="76"/>quae consistunt in quadam plurium 
+      medietate<lb ed="#R" n="77" break="no"/>seu quae fiunt connexiones, siue resultationes plu 
+      <lb ed="#R" n="78"/>rium formarum: ad talia enim non est motus; 
+      <lb ed="#R" n="79"/>quia sunt ad aliquid, idest, quia esse eorum 
+      consi<lb ed="#R" n="80" break="no"/>stit in quadam medietate plurium, &amp; 
+      proportio<lb ed="#R" n="81" break="no"/>ne. Ideo valde aequiuoce accipitur ibi ad aliquid: 
+      <lb ed="#R" n="82"/>&amp; in proposito. 
+    </p>
+               <p xml:id="olm8ij-f15302-d1e801">
+                  <lb ed="#R" n="83"/>Secunda propositio est de immobilitate est, 
+      <lb ed="#R" n="84"/>quod dicitur, quod ideo locus est immobilis, 
+      <lb ed="#R" n="85"/>quia non variatur continens, quia continentia illa 
+      <lb ed="#R" n="86"/>non sunt, nisi vnus terminus motus localiter, 
+      <lb ed="#R" n="87"/>ideo saluant vnitatem, &amp; immobilitatem loci. Ar 
+      <lb ed="#R" n="88"/>guo enim sic, secundum illos de alia opinione: Jl 
+      <lb ed="#R" n="89"/>la censentur vnus locus, quae sunt terminus vnius 
+      <lb ed="#R" n="90"/>motus localis: sed continens primum, &amp; 
+      secun<lb ed="#R" n="91" break="no"/>dum non sunt vnus terminus vnius motus 
+      loca<lb ed="#R" n="92" break="no"/>lis: quia non fundant vnum vbi numero, vbi autem 
+      <lb ed="#R" n="93"/>est terminus motus localis; quod autem non fun 
+      <lb ed="#R" n="94"/>daret vnum vbi numero, patet, quia alias 
+      acci<lb ed="#R" n="95" break="no"/>dens migraret de subiecto in subiectum. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e832">
+                  <lb ed="#R" n="96"/>Et alia solutio, quae datur ad illam rationem, 
+      <lb ed="#R" n="97"/>quae fortisest contra eos, videlicet, quod quiescens 
+      <lb ed="#R" n="98"/>diceretur moueri localiter, mutato, &amp; variato 
+      <lb ed="#R" n="99"/>continente, non videtur aliquid ad propositum. 
+      <lb ed="#R" n="100"/>Jllud enim localiter mouetur, quod transit de 
+      <lb ed="#R" n="101"/>vna vbeitate ad aliam. sic est in proposito, 
+      quan<lb ed="#R" n="102" break="no"/>do circa aliquod quiescens variatur continens. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e850">
+                  <lb ed="#R" n="103"/>Dices: non mutatur localiter corpus per hoc, 
+      <lb ed="#R" n="104"/>quod transit de vna vbeitate ad aliam, nisi transit 
+      <lb ed="#R" n="105"/>per mutationem sui: in proposito autem transit 
+      <lb ed="#R" n="106"/>per mutationem ipsarum vbeitatum. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e861">
+                  <lb ed="#R" n="107"/>Contra: non aliter mouetur corpus de loco ad 
+      <lb ed="#R" n="108"/>locum, nisi per hoc, quod sit sub alia, &amp; alia 
+      vbei<lb ed="#R" n="109" break="no"/>tate. Cum enim dicis, quod videlicet est, quando 
+      <lb ed="#R" n="110"/>hoc sit sub alia, &amp; alia vbeitate per mutationem 
+      <lb ed="#R" n="111"/>corporis. Contra: secundum nihil aliud mutatur 
+      <lb ed="#R" n="112"/>corpus, cum mouetur de loco ad locum, quam se 
+      <lb ed="#R" n="113"/>cundum vbeitates: Da enim aliud, secundum quod 
+      <lb ed="#R" n="114"/>mutetur, non secundum aliquod absolutum, quia 
+      <lb ed="#R" n="115"/>stante, &amp; remanente eodem absoluto corpus mu 
+      <lb ed="#R" n="116"/>tatur de loco ad locum, nec secundum respectum 
+      <lb ed="#R" n="117"/>aliquem alium, quia quaero, cuius respectus est 
+      <lb ed="#R" n="118"/>ille: ergo si aer moueatur circa virgam, eodem 
+      <lb ed="#R" n="119"/>modo dicetur virga moueri de loco ad locum, 
+      si<lb ed="#R" n="120" break="no"/>cut si virga transiret de aere in aerem, aere rema 
+      <lb ed="#R" n="121"/>nente immobili: ergo virga tunc mutabit locum; 
+      <lb ed="#R" n="122"/>nullam enim mutationem aliam habet virga, 
+      ni<lb ed="#R" n="123" break="no"/>si ipsius vbi, quando continens circa illam 
+      va<lb ed="#R" n="124" break="no"/>riatur. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e904">
+                  <lb ed="#R" n="125"/>Dicitur ergo aliter, quod virga non mutat, da 
+      <lb ed="#R" n="126"/>to quod mutetur aer circumstans, ratio est, quia 
+      <lb ed="#R" n="127"/>retinet eundem situm, &amp; distantiam. Sed si sic 
+      dica<lb ed="#R" n="128" break="no"/>tur, puto quod verum dicatur, sed hoc accipio 
+      <lb ed="#R" n="129"/>pro me: Ex hoc enim apparet, quod locus non 
+      <lb ed="#R" n="130"/>est aliud, quam situs ille, &amp; positio, vt declaratum 
+      <lb ed="#R" n="131"/>est in prima Conclusione. Sed quomodo positio 
+      <lb ed="#R" n="132"/>est quantitas? 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e924">
+                  <lb ed="#R" n="133"/>Respondeo dico, quod positio est quantitas 
+      <lb ed="#R" n="134"/>distincta a corpore, superficie, &amp; linea: Arguo 
+      <lb ed="#R" n="135"/>enim sic. Sicut se habent partes superficiei, vel 
+      <!--0052.xml-->
+      <pb ed="#R" n="52"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>corporis, vel lineae, sic omnes partes ad sui 
+      si<lb ed="#R" n="2" break="no"/>tus partes, &amp; per consequens totum ad 
+      to<lb ed="#R" n="3" break="no"/>tum situm, sed pars lineae, superficieis vel 
+      cor<lb ed="#R" n="4" break="no"/>poris sic se habent ad partem sui situs, quod 
+      <lb ed="#R" n="5"/>differt ab ea. Vnde potest quaelibet pars 
+      da<lb ed="#R" n="6" break="no"/>ta suum situm ammittere, quare totus situs 
+      <lb ed="#R" n="7"/>differt a toto corpore, &amp; e conuerso. Restat 
+      <lb ed="#R" n="8"/>igitur vt positio, quae est in linea, non sit linea, 
+      <lb ed="#R" n="9"/>&amp; cum sit quoddam continuum, restat, quod 
+      <lb ed="#R" n="10"/>sit quantitas distincta a linea: Eodem modo 
+      <lb ed="#R" n="11"/>arguo de situ, qui est in corpore respectu 
+      cor<lb ed="#R" n="12" break="no"/>poris, &amp; de situ superficiei respectu superficiei, &amp; 
+      <lb ed="#R" n="13"/>sic de caeteris, quare vniuersaliter positio est 
+      <lb ed="#R" n="14"/>species quantitatis distincta a linea, corpore, 
+      <lb ed="#R" n="15"/>&amp; superficie. Haec est intentio Philosophi in prae 
+      <lb ed="#R" n="16"/>dicamentis, quod singulae corporis particulae ad 
+      <lb ed="#R" n="17"/>eundem terminum copulentur, quia obtinent 
+      <lb ed="#R" n="18"/>eundem locum, ideo corpus est quantitas 
+      posi<lb ed="#R" n="19" break="no"/>tiua. Vnde dicit, quod quantitates habentes 
+      po<lb ed="#R" n="20" break="no"/>sitionem sunt linea, &amp; tamen non dicit, quod 
+      <lb ed="#R" n="21"/>sunt positiones. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e985">
+                  <lb ed="#R" n="22"/>Tunc ad dubia. Ad primum dico, quod locus 
+      <lb ed="#R" n="23"/>ratione conformis qualitatis bene conseruat, 
+      <lb ed="#R" n="24"/>non tamen situs proprie. Quomodo autem 
+      di<lb ed="#R" n="25" break="no"/>stinguuntur locus vas, a loco, situ, &amp; positione. 
+      <lb ed="#R" n="26"/>infra dicam. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e998">
+                  <lb ed="#R" n="27"/>Ad secundum dico, quod situs non est in 
+      duo<lb ed="#R" n="28" break="no"/>bus subiectis. Est enim in situato, &amp; posito, vt 
+      <lb ed="#R" n="29"/>in subiecto, non in ipso continente, ideo non 
+      nu<lb ed="#R" n="30" break="no"/>meratur per eum.
+   </p>
+               <p xml:id="olm8ij-f15302-d1e1009">
+                  <lb ed="#R" n="31"/>Ad tertium patet, quomodo differt a 
+      superfi<lb ed="#R" n="32" break="no"/>cie. Ad aliud dico, quod si terminus situs est 
+      im<lb ed="#R" n="33" break="no"/>mobilis, quia non mutatur, nisi ad mutationem 
+      <lb ed="#R" n="34"/>continentis. Sed hic sunt aliquae difficultates. Pri 
+      <lb ed="#R" n="35"/>ma est: quia Arist. diffiniendo locum dicit, quod 
+      <lb ed="#R" n="36"/>locus est vltimum continentis immobilis, primum 
+      <lb ed="#R" n="37"/>nullam faciens mentionem de situ, &amp; positione: 
+      <lb ed="#R" n="38"/>non ergo locus est essentialiter positio, vel Arist. 
+      <lb ed="#R" n="39"/>fuit insufficiens. 
+  </p>
+               <p xml:id="olm8ij-f15302-d1e1031">
+    <!-- missing line break -->Item secundo, Arist. dicit, quod locus est 
+      quan<lb ed="#R" n="40" break="no"/>titas habens positionem: non ergo est positio.
+   </p>
+               <p xml:id="olm8ij-f15302-d1e1039">
+                  <lb ed="#R" n="41"/>Tertio, quia tunc videtur, quod sint duo genera 
+      <lb ed="#R" n="42"/>distincta loci, scilicet locus vas, &amp; locus positio. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e1046">
+                  <lb ed="#R" n="43"/>Quarto, quia positio est ordo partium, ordo 
+      <lb ed="#R" n="44"/>est relatio: ergo positio est relatio: ergo locus est 
+      <lb ed="#R" n="45"/>relatio. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e1055">
+                  <lb ed="#R" n="46"/>Quinto, quia tunc vna species quantitatis 
+      es<lb ed="#R" n="47" break="no"/>set subiectum alterius, quia linea subiectum 
+      po<lb ed="#R" n="48" break="no"/>sitionis. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e1064">
+                  <lb ed="#R" n="49"/>Sexto, quia quantitas continua non est, nisi 
+      <lb ed="#R" n="50"/>quaedam partibilitas, sed positio non videtur 
+      es<lb ed="#R" n="51" break="no"/>se huiusmodi. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e1073">
+                  <lb ed="#R" n="52"/>Septimo, quia tunc videtur, quod locus sit de 
+      <lb ed="#R" n="53"/>genere Vbi positio enim, qua virga dicitur 
+      posi<lb ed="#R" n="54" break="no"/>ta, non videtur aliud, quam quoddam vbi. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e1082">
+                  <lb ed="#R" n="55"/>Octauo, quia de ratione loci est continere. 
+      Pro<lb ed="#R" n="56" break="no"/>pter illas difficultates sciendum est. 
+   </p>
+            </div>
+            <div xml:id="olm8ij-f15302-Dd1e1091">
+               <head xml:id="olm8ij-f15302-Hd1e1093">Articulus 2</head>
+               <head xml:id="olm8ij-f15302-Hd1e1095" type="question-title">
+      Utrum Angeli sint creati in caelo Empireo, sicut in loco
+    </head>
+               <p xml:id="olm8ij-f15302-d1e1098">
+                  <lb ed="#R" n="57"/>ARTJCVLVS II. 
+      <lb ed="#R" n="58"/>Vtrum Angeli sint creati in caelo Empireo, 
+      <lb ed="#R" n="59"/>sicut in loco. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e1107">
+                  <lb ed="#R" n="60"/>ARguo primo, quod non, quia secundum 
+      Boe<lb ed="#R" n="61" break="no"/>tium de ebdomadibus, Communis animi 
+      <lb ed="#R" n="62"/>conceptio est spiritualia in loco non esse. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e1116">
+                  <lb ed="#R" n="63"/>In oppositum est Strabus, &amp; Beda similiter, vt 
+      <!--0052.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="64"/>Magister inducit in littera. Respondeo, ista 
+      quae<lb ed="#R" n="65" break="no"/>stio de loco Angeli est valde difficilis, &amp; sicut Ma 
+      <lb ed="#R" n="66"/>gister dicit in primo de praesentialitate Dei, vel 
+      <lb ed="#R" n="67"/>specie ad locum, quod sic est difficillimum 
+      inue<lb ed="#R" n="68" break="no"/>stigare positiue, licet priuatiue sit satis 
+      materia<lb ed="#R" n="69" break="no"/>le: quia est quaedam indistantia ab alio, vt 
+      di<lb ed="#R" n="70" break="no"/>ctum est de praesentialitate Dei in primo. Sed quan 
+      <lb ed="#R" n="71"/>tum nunc spectat ad propositum pono aliquam Propo 
+      <lb ed="#R" n="72"/>sitionem negatiuam excludentem modum 
+      mul<lb ed="#R" n="73" break="no"/>torum, quem assignant circa locabilitatem 
+      Ange<lb ed="#R" n="74" break="no"/>lorum. Vnum est in quo omnes conueniunt, quod 
+      <lb ed="#R" n="75"/>Angelus non est in loco circumscriptiue, sed 
+      dif<lb ed="#R" n="76" break="no"/>finitiue, quod idem est, quod Angelum 
+      applica<lb ed="#R" n="77" break="no"/>ri determinato loco, sic huic, quod non alteri, &amp; 
+      <lb ed="#R" n="78"/>tunc versatur difficultas, illa applicatio, &amp; deter 
+      <lb ed="#R" n="79"/>minatio quid est. Pono ergo illam positionem, 
+      <lb ed="#R" n="80"/>quod Angelum applicari ad locum, siue 
+      deter<lb ed="#R" n="81" break="no"/>minari, vel habitudinem habere non est per praesen 
+      <lb ed="#R" n="82"/>tiam substantiae ad substantiam, nec per praesentiam 
+      <lb ed="#R" n="83"/>substantiae ad operationem, siue per praesentiam 
+      <lb ed="#R" n="84"/>operationis suae ad corpus, nec per operationem 
+      <lb ed="#R" n="85"/>suae virtutis, nec per habitudinem situati ad situa 
+      <lb ed="#R" n="86"/>tum, quae sit praesentia litas substantiae, vt hic, ad 
+      <lb ed="#R" n="87"/>substantiam, vt ibi. Omnes enim isti modi ponun 
+      <lb ed="#R" n="88"/>tur a diuersis diuersimode opinantibus. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e1180">
+                  <lb ed="#R" n="89"/>Primum probo: quia tunc sequeretur, quod 
+      <lb ed="#R" n="90"/>Angeli essent corpora. Arguo enim sic, 
+      substan<lb ed="#R" n="91" break="no"/>tiam applicari ad substantiam, siue ad corpus, est 
+      <lb ed="#R" n="92"/>substantiam contingere substantiam, seu corpus: 
+      <lb ed="#R" n="93"/>sed contingere est conditio corporis: ergo. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e1193">
+                  <lb ed="#R" n="94"/>Secundo, quia tantum est abstracta substantia 
+      <lb ed="#R" n="95"/>Angeli, quantum Jdea Platonis si poneretur: sed 
+      <lb ed="#R" n="96"/>Jdea Platonis si poneretur, non sundaret 
+      praesen<lb ed="#R" n="97" break="no"/>tiam ad locum. Vnde Philosophus: Jdeae nunquam 
+      <lb ed="#R" n="98"/>sunt, &amp; ratio est, quia sunt omnino abstractae, &amp; 
+      <lb ed="#R" n="99"/>ideo applicari non possunt ad locum. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e1209">
+                  <lb ed="#R" n="100"/>Confirmo hoc, quia non minus est abstractus 
+      <lb ed="#R" n="101"/>Angelus a loco, quam iustitia, vel misericordia, 
+      <lb ed="#R" n="102"/>vel aliqua qualitas huiusmodi: sed talia 
+      impos<lb ed="#R" n="103" break="no"/>sibile est applicari loco, vel corpori in 
+      habitudi<lb ed="#R" n="104" break="no"/>dine praesentialitatis: ergo. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e1222">
+                  <lb ed="#R" n="105"/>Secundum probo, videlicet, quod Angelus non 
+      <lb ed="#R" n="106"/>determinetur ad locum propter habitudinem 
+      ope<lb ed="#R" n="107" break="no"/>rationis ad corpus, circa quod operatur. licet 
+      <lb ed="#R" n="108"/>hic modus dicendi videatur inter alios esse 
+      ma<lb ed="#R" n="109" break="no"/>gis Philosophicus: quia hoc videtur sentire Arist. 
+      <lb ed="#R" n="110"/>&amp; Commentator 8. phys. &amp; si videlicet quod 
+      An<lb ed="#R" n="111" break="no"/>gelus necessario operetur circa aliquam 
+      sub<lb ed="#R" n="112" break="no"/>stantiam, siue locum, substinerem libentius, &amp; 
+      de<lb ed="#R" n="113" break="no"/>clararem ad illam viam, vt sicut animam 
+      appli<lb ed="#R" n="114" break="no"/>cari corpori non est aliud, quam illam 
+      viuifica<lb ed="#R" n="115" break="no"/>re corpus: sic Angelum applicari corpori non est 
+      <lb ed="#R" n="116"/>aliud, quam ipsum operari necessario, &amp; continue 
+      <lb ed="#R" n="117"/>circa corpus: quomodo dici posset de substantia, 
+      <lb ed="#R" n="118"/>quae mouet caelum. Sed quia secundum fidem sup 
+      <lb ed="#R" n="119"/>positum non est verum, ratio est, quia Angeli 
+      <lb ed="#R" n="120"/>ponuntur in caelo Empireo, vbi tamen nulla 
+      po<lb ed="#R" n="121" break="no"/>nitur operatio transiens in exteriorem materiam. 
+      <lb ed="#R" n="122"/>Jdeo via haec non sufficienter euadit difficultatem. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e1264">
+                  <lb ed="#R" n="123"/>Ex hoc apparet, quod opinio illa antiquioris 
+      <lb ed="#R" n="124"/>Doctoris, qui ponit, quod applicatio 
+      huiusmo<lb ed="#R" n="125" break="no"/>di est quaedam praesidentia, si intelligat praesiden 
+      <lb ed="#R" n="126"/>tiam, idest influentiam, patet, quod est difficile 
+      <lb ed="#R" n="127"/>hoc videre, quia non apparet, quod Angelus 
+      in<lb ed="#R" n="128" break="no"/>fluat in caelo Empireo. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e1280">
+                  <lb ed="#R" n="129"/>Vltra hoc etiam est articulus exconicatus Pari 
+      <lb ed="#R" n="130"/>sijs, qui dicit quod Angelus sit in loco non per 
+      <!--0053.xml-->
+      <pb ed="#R" n="53"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>substantiam, sed per operationem, est error. 
+      <lb ed="#R" n="2"/>Tertium probo, quia illa applicatio non est 
+      <lb ed="#R" n="3"/>applicatio virtutis, vt dicit opinio Doctoris 
+      <lb ed="#R" n="4"/>Communis prima parte q. Dicit enim, quod 
+      <lb ed="#R" n="5"/>substantia abstracta supernaturaliter in se non 
+      <lb ed="#R" n="6"/>applicatur ad corpus, sed tantum per 
+      applica<lb ed="#R" n="7" break="no"/>tionem suae virtutis ad illud: quod non est aliud, 
+      <lb ed="#R" n="8"/>quam posse esse principium actionis eo modo, 
+      <lb ed="#R" n="9"/>quo dicimus, quod triste tangit cor, &amp; hoc non 
+      <lb ed="#R" n="10"/>tactu situato, sed virtuali; licet autem illa 
+      opi<lb ed="#R" n="11" break="no"/>nio videatur esse rationabilis, non tamen video 
+      <lb ed="#R" n="12"/>illam virtutem, quid sit: aut enim erat illa 
+      vir<lb ed="#R" n="13" break="no"/>tus intellectus per modum actus, vel per 
+      mo<lb ed="#R" n="14" break="no"/>dum habitus: si per modum actus, tunc redit 
+      <lb ed="#R" n="15"/>opinio prima, quia tunc Angelus esset in loco, 
+      <lb ed="#R" n="16"/>quia operatur in loco, &amp; tunc habet difficultatem, 
+      <lb ed="#R" n="17"/>quam adduxi contra opinionem illam. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e1331">
+                  <lb ed="#R" n="18"/>Si vero intelligatur per modum habitus. Con 
+      <lb ed="#R" n="19"/>tra, quaero de habitu illo, quid est, aut est 
+      sub<lb ed="#R" n="20" break="no"/>stantia Angeli, &amp; tunc habeo propositum, quia 
+      <lb ed="#R" n="21"/>cum non applicetur loco per substantiam per 
+      <lb ed="#R" n="22"/>te, non poterit applicari per operationem, aut 
+      <lb ed="#R" n="23"/>est accidens, &amp; tunc aut accidens corporale, &amp; 
+      <lb ed="#R" n="24"/>hoc non, quia tale accidens non potest esse in 
+      <lb ed="#R" n="25"/>substantia mere spirituali, aut est spirituale, &amp; 
+      <lb ed="#R" n="26"/>si sic, erit tantae abstractionis a situ, quantae 
+      sub<lb ed="#R" n="27" break="no"/>stantia ipsius: ergo. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e1355">
+                  <lb ed="#R" n="28"/>Dices: est vnio virtutis. Contra illam vnionem 
+      <lb ed="#R" n="29"/>quaerimus. Nec valet, quod adducit de triste, 
+      <lb ed="#R" n="30"/>quod tangit cor, pro tanto enim tangit triste 
+      <lb ed="#R" n="31"/>ipsum cor, quia apprehendendo vocem, causat in 
+      <lb ed="#R" n="32"/>corde alterationem. hoc non potest dari in 
+      pro<lb ed="#R" n="33" break="no"/>posito. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e1371">
+                  <lb ed="#R" n="34"/>Vltimo probo quartum membrum, quod 
+      sci<lb ed="#R" n="35" break="no"/>licet Angelus non dicatur esse in loco per 
+      prae<lb ed="#R" n="36" break="no"/>seruantiam substantiae, vt situatae ad 
+      substan<lb ed="#R" n="37" break="no"/>tiam situatam mediantibus ipsis sitibus, vt 
+      po<lb ed="#R" n="38" break="no"/>nit opinio quaedam dicens, quod esse fundat respe 
+      <lb ed="#R" n="39"/>ctum quendam praesentialitatis ad situm, median 
+      <lb ed="#R" n="40"/>te quo dicitur esse in loco diffinitiue, sed tamen 
+      <lb ed="#R" n="41"/>diffinire sibi locum certum, &amp; 
+      determinare<lb ed="#R" n="42" break="no"/>non sit aliud, quam fundare certum respectum 
+      <lb ed="#R" n="43"/>praesentialitatis ad determinatum locum. 
+      Opi<lb ed="#R" n="44" break="no"/>nionem hanc non capio. Ideo probo 
+      opposi<lb ed="#R" n="45" break="no"/>tum eius, quod accepi primo, quia 
+      indiuisibili<lb ed="#R" n="46" break="no"/>tas Angeli non est indiuisibilitas habens, &amp; con 
+      <lb ed="#R" n="47"/>cernens positionem, sicut est indiuisibilitas 
+      pun<lb ed="#R" n="48" break="no"/>cti. Tunc autem secundum opinionem illam 
+      <lb ed="#R" n="49"/>Angelus concernet positionem, sicut puncta. 
+      <lb ed="#R" n="50"/>Si ergo Angelus debeat intelligi substantia non 
+      <lb ed="#R" n="51"/>posita, oportet, quod abstrahat a positione, &amp; 
+      <lb ed="#R" n="52"/>per consequens ab esse hic. Secundo quia 
+      posi<lb ed="#R" n="53" break="no"/>tio est propria passio quantitatum: propria 
+      au<lb ed="#R" n="54" break="no"/>tem passio non reperitur in subiecto. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e1419">
+                  <lb ed="#R" n="55"/>Item: Nihil potest esse subiectum praesentiae, 
+      <lb ed="#R" n="56"/>qua aliquid dicitur esse hic, nisi quod ponitur 
+      <lb ed="#R" n="57"/>esse terminus distantiae, &amp; inter quam potest 
+      li<lb ed="#R" n="58" break="no"/>nearis distantia intercipi, &amp; illum in ordinem 
+      <lb ed="#R" n="59"/>ad quem fundat praedictum respectum. Pro 
+      tan<lb ed="#R" n="60" break="no"/>to enim ego dico, possum esse hic, &amp; tu ibi, quia 
+      <lb ed="#R" n="61"/>sumus duo termini vnius distantiae linearis: sed 
+      <lb ed="#R" n="62"/>inter duos Angelos, siue inter Angelum, &amp; 
+      cor<lb ed="#R" n="63" break="no"/>pus non potest intercipi linearis distantia, 
+      <lb ed="#R" n="64"/>ita quod Angelus ponatur esse terminus illius 
+      <lb ed="#R" n="65"/>lineae. Probo, quia aut esset terminus lineae 
+      il<lb ed="#R" n="66" break="no"/>lius intrinsecus, &amp; tunc esset terminus extrin- 
+      <!--0053.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>secus, &amp; tunc necessario esset contiguum, 
+      <lb ed="#R" n="68"/>tunc enim esset contiguus lineae, &amp; contingeret 
+      <lb ed="#R" n="69"/>eam: contactus &amp; contangibilitas sunt 
+      conditio<lb ed="#R" n="70" break="no"/>nes continui quanti: ergo. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e1461">
+                  <lb ed="#R" n="71"/>Nunc secundo restat dicere, applicatio 
+      An<lb ed="#R" n="72" break="no"/>geli ad locum quid sit positiue. Magister in 
+      <lb ed="#R" n="73"/>primo Sententiarum dicit; quod modus, quo 
+      spi<lb ed="#R" n="74" break="no"/>ritus est praesens loco, est inintelligibilis. 
+      Vi<lb ed="#R" n="75" break="no"/>detur mihi, quod inter corpus, &amp; spiritum 
+      <lb ed="#R" n="76"/>nulla sit talis habitudo, vel applicatio, 
+      siue<lb ed="#R" n="77" break="no"/>connexio, immo spiritus abstrahit ab omni 
+      ta<lb ed="#R" n="78" break="no"/>li habitudine ad corpus: oportet ergo, quod 
+      il<lb ed="#R" n="79" break="no"/>la applicatio, vel determinatio reducatur ad 
+      <lb ed="#R" n="80"/>aliquod genus causae, vel formalis, eo modo, 
+      <lb ed="#R" n="81"/>quo anima applicatur corpori, non in 
+      habitu<lb ed="#R" n="82" break="no"/>dine, quae sit praesentialitas, siue alius respectus 
+      <lb ed="#R" n="83"/>extrinsecus, sed in habitudine causalitatis respe 
+      <lb ed="#R" n="84"/>ctu vnius effectus formalis, qui est ab vtrisque, 
+      <lb ed="#R" n="85"/>in quo sunt indiuisa, quae indiuisio est eorum 
+      <lb ed="#R" n="86"/>simultas: vel si non appareat, quod habitudo 
+      <lb ed="#R" n="87"/>causalitatis formalis possit esse inter Angelum, 
+      <lb ed="#R" n="88"/>&amp; corpus, saltem oporteret dare habitudinem 
+      <lb ed="#R" n="89"/>efficientis, vel mouentis: quomodo potest dici, 
+      <lb ed="#R" n="90"/>quod intelligentia mouens caelum est applicata 
+      <lb ed="#R" n="91"/>ipsi caelo, quod mouet diffinitiue; sed tunc 
+      An<lb ed="#R" n="92" break="no"/>gelus esset in loco per operationem, &amp; cum 
+      <lb ed="#R" n="93"/>non appareat, quam operationem habeat in 
+      <lb ed="#R" n="94"/>caelo, ideo est valde difficile, cum dicatur esse 
+      <lb ed="#R" n="95"/>in caelo Empireo, vt sit in loco. Si ergo illa non 
+      <lb ed="#R" n="96"/>placent, qui sciret inuenire aliquod genus 
+      <lb ed="#R" n="97"/>causalitatis, vel formalis, vel efficientis, ille 
+      <lb ed="#R" n="98"/>posset videre modum, per quem Angelus esset in 
+      <lb ed="#R" n="99"/>loco. Jdeo sciendum. 
+   </p>
+            </div>
+            <div xml:id="olm8ij-f15302-Dd1e1527">
+               <head xml:id="olm8ij-f15302-Hd1e1529">Articulus 3</head>
+               <head xml:id="olm8ij-f15302-Hd1e1531" type="question-title">
+      Utrum entitas caeli Empirei sit inuesttigabilis ratione
+    </head>
+               <p xml:id="olm8ij-f15302-d1e1534">
+                  <lb ed="#R" n="100"/>ARTJCVLVS III. 
+      <lb ed="#R" n="101"/>Vtrum entitas caeli Empirei sit 
+      inuesttiga<lb ed="#R" n="102" break="no"/>bilis ratione. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e1543">
+                  <lb ed="#R" n="103"/>AD tertiam quaestionem arguo, quod sic: 
+      <lb ed="#R" n="104"/>Quia primo metaphy s. &amp; secundo 
+      Poste<lb ed="#R" n="105" break="no"/>riorum, inconueniens est nos habere 
+      nobilissi<lb ed="#R" n="106" break="no"/>mas cognitiones, &amp; quod lateant nos: ergo a 
+      <lb ed="#R" n="107"/>simili, impossibile est esse corpus nobilissimum, 
+      <lb ed="#R" n="108"/>&amp; quod lateat hominem secundum totam 
+      spe<lb ed="#R" n="109" break="no"/>ciem humanam. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e1561">
+                  <lb ed="#R" n="110"/>Sed in oppositum est; quia de natura, &amp; 
+      nu<lb ed="#R" n="111" break="no"/>mero caelorum intromittunt se tres artifices, 
+      <lb ed="#R" n="112"/>scilicet Naturalis, Astrologus, &amp; Metaphysicus: 
+      <lb ed="#R" n="113"/>Naturalis sistit in caelo stellato, nec ponit alium 
+      <lb ed="#R" n="114"/>vlteriorem. Astrologus vero ponit aliud caelum 
+      <lb ed="#R" n="115"/>a caelo sydereo, quod est primum mobile, &amp; 
+      ra<lb ed="#R" n="116" break="no"/>tio est, quia experitur, quod caelum stellatum 
+      <lb ed="#R" n="117"/>habet duos motus, vnum proprium ab oriente 
+      <lb ed="#R" n="118"/>ad occidens, alterum ab occidente ad oriens, 
+      <lb ed="#R" n="119"/>qui sequitur motum alterius caeli, scilicet 
+      pri<lb ed="#R" n="120" break="no"/>mi; ideo arguit, quod oportet ponere aliquod 
+      <lb ed="#R" n="121"/>primum caelum: Metaphysicus vero inuestigat 
+      <lb ed="#R" n="122"/>numerum caelorum per numerum motuum, ex 
+      <lb ed="#R" n="123"/>quo habet numerum intelligentiarum, sic quod 
+      <lb ed="#R" n="124"/>non ponit caelum aliud, quam caelos mobiles: 
+      <lb ed="#R" n="125"/>Cum, igitur non sit alia consideratio ab illis 
+      tri<lb ed="#R" n="126" break="no"/>bus, videtur, quod caelum non sit inuestigabile 
+      <lb ed="#R" n="127"/>ratione naturali, quia omne, quod est 
+      huiusmo<lb ed="#R" n="128" break="no"/>di, cadit sub consideratione alicuius illorum 
+      <lb ed="#R" n="129"/>trium.
+   </p>
+               <p xml:id="olm8ij-f15302-d1e1608">
+      <!--0054.xml-->
+                  <pb ed="#R" n="54"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Respondeo: Pono propositiones aliquas. 
+      <lb ed="#R" n="2"/>Prima est, quod caelum Empireum habet tres 
+      <lb ed="#R" n="3"/>conditiones, quae omnino videntur repugnare 
+      <lb ed="#R" n="4"/>naturae corporeae; est enim corpus; &amp; tamen 
+      <lb ed="#R" n="5"/>hoc est immobile, &amp; est lucidum, &amp; tamen non 
+      <lb ed="#R" n="6"/>est sensibile. Tertio est actu, &amp; tamen non est 
+      <lb ed="#R" n="7"/>actiuum, nec aliquam habet influentiam, vt alij 
+      <lb ed="#R" n="8"/>caeli. Primum videtur irrationale, quia omne 
+      <lb ed="#R" n="9"/>corpus est mobile. ex primo caeli &amp; mundi. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e1637">
+                  <lb ed="#R" n="10"/>Confirmo, quia corpus, quod non est mobile 
+      <lb ed="#R" n="11"/>aliquo motu, nullam habet naturam, cum 
+      natu<lb ed="#R" n="12" break="no"/>ra sit principium motus, &amp; quietis: ergo non 
+      <lb ed="#R" n="13"/>esset corpus phylosophicum, sed mathematicum, 
+      <lb ed="#R" n="14"/>quia quae non sunt mobilia, vel non mouent, non 
+      <lb ed="#R" n="15"/>sunt physicae considerationis. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e1653">
+                  <lb ed="#R" n="16"/>Sed in oppositum est, quia non posset Deus cae 
+      <lb ed="#R" n="17"/>lum illum mouere circulariter: ergo est corpus 
+      <lb ed="#R" n="18"/>mobile. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e1662">
+                  <lb ed="#R" n="19"/>Respondeo, secundum fidem oportet tenere, 
+      <lb ed="#R" n="20"/>quod tale caelum nullum motum habeat 
+      natu<lb ed="#R" n="21" break="no"/>ralem, quomodo ergo corpus erit naturale? 
+      Re<lb ed="#R" n="22" break="no"/>spondeo, nullum corpus circulare, vnde tale est, 
+      <lb ed="#R" n="23"/>habet quod sit mobile naturaliter per principium 
+      <lb ed="#R" n="24"/>intrinsecum, quod est natura, quae est in 
+      quoli<lb ed="#R" n="25" break="no"/>bet principium motus, &amp; quietis, sed est in sola 
+      <lb ed="#R" n="26"/>potentia passiua ad motum. Ratio est, quia 
+      mo<lb ed="#R" n="27" break="no"/>tus circularis est motus animae, non enim motus 
+      <lb ed="#R" n="28"/>circularis potest esse a propria forma corporis, 
+      <lb ed="#R" n="29"/>alias vna pars moueret aliam, &amp; e conuerso. 
+      <lb ed="#R" n="30"/>Jmmo cum quaelibet pars sit mobilis, in quantum 
+      <lb ed="#R" n="31"/>natura corporea est, sequitur, quod idem 
+      mo<lb ed="#R" n="32" break="no"/>ueret se, quare secundum mentem Phylosophi, 
+      <lb ed="#R" n="33"/>Omne corpus quod est naturaliter, separatum 
+      <lb ed="#R" n="34"/>est, sed proportionatum aliter substantiae 
+      sepa<lb ed="#R" n="35" break="no"/>ratae, in ordine ad quam est, propter quam 
+      na<lb ed="#R" n="36" break="no"/>tura generauit tale corpus: eo modo, quo 
+      cor<lb ed="#R" n="37" break="no"/>pus hominis generauit propter animam, vt sit 
+      <lb ed="#R" n="38"/>talis formae, &amp; habeat perfectiones postremas, 
+      <lb ed="#R" n="39"/>quas exigit illa anima, vt sic corpus circulare 
+      <lb ed="#R" n="40"/>sit talis naturae, quod proportionetur 
+      naturali<lb ed="#R" n="41" break="no"/>ter ex ordine naturae propriae ipsi substantiae 
+      se<lb ed="#R" n="42" break="no"/>paratae, &amp; ex hoc dicitur naturale, quia ex tali 
+      <lb ed="#R" n="43"/>proportione dicitur habere vnionem cum illa 
+      <lb ed="#R" n="44"/>substantia in habitudine mouentis, &amp; moti. Hinc 
+      <lb ed="#R" n="45"/>est, quod si stella adderetur caelo, non esset 
+      mobi<lb ed="#R" n="46" break="no"/>le ab illa substantia: quia iam non esset 
+      propor<lb ed="#R" n="47" break="no"/>tio eius ad eam. Hinc est etiam, quod motus 
+      cae<lb ed="#R" n="48" break="no"/>li aliquo modo dicitur naturalis propter talem 
+      <lb ed="#R" n="49"/>proportionem, &amp; vnionem mobilis ad 
+      princi<lb ed="#R" n="50" break="no"/>pium motus. Hinc est etiam, quod finita 
+      quanti<lb ed="#R" n="51" break="no"/>tas, &amp; caeterae proprietates caeli dicuntur 
+      natura<lb ed="#R" n="52" break="no"/>les, quia sunt secundum exigentiam talis substan 
+      <lb ed="#R" n="53"/>tiae habentis naturalem habitudinem secundum 
+      <lb ed="#R" n="54"/>rationem naturalem proportionem, &amp; finem ad 
+      <lb ed="#R" n="55"/>ipsum corpus. Vnde sicut forma praeter hoc, 
+      <lb ed="#R" n="56"/>quod largitur actum primum, est finis ipsius 
+      me<lb ed="#R" n="57" break="no"/>dij, per modum cuiusdam naturalis exigentiae, &amp; 
+      <lb ed="#R" n="58"/>sequelae: sic substantia abstracta non dando actum 
+      <lb ed="#R" n="59"/>primum ipsi caelo, tamen illa est finis naturalis 
+      <lb ed="#R" n="60"/>ipsius caeli, pro quanto caelum non ingeminauit 
+      <lb ed="#R" n="61"/>per illam, &amp; in hoc praebet ipsi caelo omnes 
+      ex<lb ed="#R" n="62" break="no"/>tremas perfectiones, puta figuram, motum, &amp; 
+      hu<lb ed="#R" n="63" break="no"/>iusmodi, ex quo omnia talia dicuntur esse 
+      natu<lb ed="#R" n="64" break="no"/>ralia ipsi caelo. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e1764">
+                  <lb ed="#R" n="65"/>Ad propositum igitur pari ratione loquendo 
+      <lb ed="#R" n="66"/>secundum fidem, Potuit Deus ingeminare cor- 
+      <!--0054.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>pus, quod hoc modo non esset vnibile alicui 
+      sub<lb ed="#R" n="68" break="no"/>stantiae abstractae in ordine ad motum, 
+      quapro<lb ed="#R" n="69" break="no"/>pter habebit naturam, &amp; tamen non esset 
+      mo<lb ed="#R" n="70" break="no"/>bile nec motu recta, nec circulari. Sed tunc 
+      <lb ed="#R" n="71"/>est quaestio, quomodo habebit naturam, cum 
+      na<lb ed="#R" n="72" break="no"/>tura sit principium motus, &amp; quietis: Dico, quod 
+      <lb ed="#R" n="73"/>nihil est in eo, quod sit principium motus, &amp; 
+      ta<lb ed="#R" n="74" break="no"/>men aliquid in eo, quod est principium quietis, 
+      <lb ed="#R" n="75"/>non dico quietis, quae est priuatio motus, sed 
+      <lb ed="#R" n="76"/>quietis, quae est immobilitas aeterna, quomodo 
+      <lb ed="#R" n="77"/>terra dicitur habere in se immobilitatem, 
+      prin<lb ed="#R" n="78" break="no"/>cipium immobilitatis aeternae. Sed nunquid 
+      ta<lb ed="#R" n="79" break="no"/>le corpus posset a Deo violenter moueri, &amp; 
+      vi<lb ed="#R" n="80" break="no"/>detur quod non, propter duo: primo quia 
+      mo<lb ed="#R" n="81" break="no"/>tus violentus non est sine motu naturali, illud 
+      <lb ed="#R" n="82"/>autem non est mobile naturaliter. Secundo, 
+      <lb ed="#R" n="83"/>quia immobilitas eius non est priuatio motus, 
+      <lb ed="#R" n="84"/>sicut aer dicitur non lucidus, vel caecus non 
+      vi<lb ed="#R" n="85" break="no"/>dens, sed est simplex negatio formae eo modo, 
+      <lb ed="#R" n="86"/>quo lapis dicitur non videns: Oppositum 
+      au<lb ed="#R" n="87" break="no"/>tem talis negationis non videtur, quod Deus 
+      <lb ed="#R" n="88"/>posset facere in subiecto sic negato. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e1823">
+                  <lb ed="#R" n="89"/>In oppositum est, quia dissonum videtur 
+      val<lb ed="#R" n="90" break="no"/>de negare Deo, quod non posset tale corpus 
+      re<lb ed="#R" n="91" break="no"/>gitare. Hoc cogitetis per vos. T Quoad secundam 
+      <lb ed="#R" n="92"/>proprietatem, qua dicitur, quod est lucidus, &amp; 
+      <lb ed="#R" n="93"/>tamen insensibile potest dici hoc non esse verum. 
+      <lb ed="#R" n="94"/>Ratio huiusmodi est, quia lux non est sensibilis, 
+      <lb ed="#R" n="95"/>nisi recipiatur in corpore terminato. Debet 
+      <lb ed="#R" n="96"/>enim lucidum, quod videtur esse densius medio 
+      <lb ed="#R" n="97"/>secundum perspectiuum. Nunc autem corpus 
+      <lb ed="#R" n="98"/>illud est maximae varietatis, &amp; non terminatum: 
+      <lb ed="#R" n="99"/>ergo. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e1850">
+                  <lb ed="#R" n="100"/>Ad tertiam conditionem. Vtrum habeat 
+      <lb ed="#R" n="101"/>influentiam in haec inferiora, dicunt aliqui, 
+      <lb ed="#R" n="102"/>quod sic, illud tamen non experimur. 
+      Ra<lb ed="#R" n="103" break="no"/>tio est, quia est vniformis &amp; inuariabilis, sicut 
+      <lb ed="#R" n="104"/>ratio eorum, quia alias esset dare otiosum 
+      in<lb ed="#R" n="105" break="no"/>natura, quia substantia sine operatione.
+  </p>
+               <p xml:id="olm8ij-f15302-d1e1866">
+                  <lb ed="#R" n="106"/>Alij dicunt, quod caelum Empireum non est 
+      <lb ed="#R" n="107"/>factum pro statu peregrinationis, sed pro statu 
+      <lb ed="#R" n="108"/>patriae, &amp; ideo debet statui patriae 
+      proportio<lb ed="#R" n="109" break="no"/>nari: status autem patriae est status quietis 
+      per<lb ed="#R" n="110" break="no"/>petuae: ergo caelum Empireum debuit perpetuo 
+      <lb ed="#R" n="111"/>esse sub quiete. Vnde nullam influentiam 
+      ha<lb ed="#R" n="112" break="no"/>bere potest specialiter super illos, qui sunt ibi, 
+      <lb ed="#R" n="113"/>cum sint in termino suae perfectionis &amp; 
+      acciden<lb ed="#R" n="114" break="no"/>talis, &amp; essentialis. Quid ergo dicendum? 
+      Vide<lb ed="#R" n="115" break="no"/>tur mihi quod in talibus aserere, vel negare ea, 
+      <lb ed="#R" n="116"/>quae non sunt nota per sensum, nec per 
+      scriptu<lb ed="#R" n="117" break="no"/>ram, non sit vsquequaque tutum: tamen certum 
+      <lb ed="#R" n="118"/>est vnum, quod Philosophi omnes effectus 
+      redu<lb ed="#R" n="119" break="no"/>cunt in caelos mobiles, &amp; ideo non est 
+      irrationa<lb ed="#R" n="120" break="no"/>bile, vt videtur dicere, quod tale caelum sit in 
+      <lb ed="#R" n="121"/>perpetua quiete, &amp; quod ab ipso nullus perfluat 
+      <lb ed="#R" n="122"/>effectus. Ideo teneo cum secunda opinione; 
+      <lb ed="#R" n="123"/>quod cum tale caelum sit factum pro statu patriae 
+      <lb ed="#R" n="124"/>non pro statu viae, insunt sibi proprietates, quae 
+      <lb ed="#R" n="125"/>congruunt statui patriae. Ideo inest ei 
+      lumino<lb ed="#R" n="126" break="no"/>sitas, vt sit conformis refulgentiae corporum 
+      <lb ed="#R" n="127"/>beatorum. Repugnat autem ei, quae repugnant 
+      <lb ed="#R" n="128"/>statui patriae: ideo non inest mobilitas, sed 
+      im<lb ed="#R" n="129" break="no"/>mobilitas, &amp; quies perpetua, sicut beatitudo, &amp; 
+      <lb ed="#R" n="130"/>selicitas consistunt in quadam quiete, &amp; 
+      perpe<lb ed="#R" n="131" break="no"/>tua immobilitate. Est etiam altum, &amp; supremum 
+      <lb ed="#R" n="132"/>propter eleuationem contemplationis beatifi- 
+      <!--0055.xml-->
+      <pb ed="#R" n="55"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>cae, &amp; ideo talem locum Deus instituit, &amp; 
+      crea<lb ed="#R" n="2" break="no"/>uit pro beatis. Nec vero afficit, quod dicitur 
+      <lb ed="#R" n="3"/>quod talis substantia esset otiosa: non enim est 
+      <lb ed="#R" n="4"/>otiosa, cum sit ordinata ad bonum vniuersi, &amp; 
+      <lb ed="#R" n="5"/>vt sit locus substantiarum separatarum, vt 
+      di<lb ed="#R" n="6" break="no"/>citur . caeli. Vnde motus caeli cessabit post 
+      iu<lb ed="#R" n="7" break="no"/>dicium, &amp; tamen tunc non dicitur otiosum.- 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e1949">
+                  <lb ed="#R" n="8"/>Secunda Propositio quoad propositum, Vtrum
+      <lb ed="#R" n="9"/>caelum empireum possit inuestigari ratione: 
+      Ali<lb ed="#R" n="10" break="no"/>quibus videtur, quod sic: primo per rationem, 
+      <lb ed="#R" n="11"/>quia est dare corpus, quod est miouens, &amp; 
+      mobi<lb ed="#R" n="12" break="no"/>le; &amp; est dare corpus mobens, quod non est 
+      mo<lb ed="#R" n="13" break="no"/>bile: ergo est dare corpus, quod nec est 
+      immobi<lb ed="#R" n="14" break="no"/>le, nec mouens; per hanc formam probat Aristot. 
+      <lb ed="#R" n="15"/>12. metaph. tex. 30. quod est dare mouens non 
+      <lb ed="#R" n="16"/>motum. Alii arguunt ex hoc, quod experimur 
+      <lb ed="#R" n="17"/>diuersitatem influentiae etiam in eadem 
+      latitu<lb ed="#R" n="18" break="no"/>dine climatis. Vnde regiones distantes ad 
+      inui<lb ed="#R" n="19" break="no"/>cem in eadem latitudine climatis, sicut est in 
+      <lb ed="#R" n="20"/>longitudine climatis ab oriente in occidens, 
+      <lb ed="#R" n="21"/>sic India, &amp; Hispania sunt in eadem 
+      longitu<lb ed="#R" n="22" break="no"/>dine climatis, India in oriente, Hispania in 
+      <lb ed="#R" n="23"/>occidente, &amp; tamen in India generantur 
+      ani<lb ed="#R" n="24" break="no"/>malia innumera, quae non in Hispania, vel 
+      <lb ed="#R" n="25"/>si non sint in eadem longitudine, tamen 
+      cla<lb ed="#R" n="26" break="no"/>rum est, quod existentibus in eadem 
+      latitu<lb ed="#R" n="27" break="no"/>dine, videlicet ad Septemptrionem, &amp; ad 
+      Au<lb ed="#R" n="28" break="no"/>strum, videmus diuersitatem magnam, sicut non 
+      <lb ed="#R" n="29"/>sunt Leones in Hispania, nec Cameli, quae tamen 
+      <lb ed="#R" n="30"/>sunt in Africa, &amp; similiter patet in multis: erge 
+      <lb ed="#R" n="31"/>oportet, quod ratio diuersitatis istius, cum non 
+      <lb ed="#R" n="32"/>possit esse ex parte caeli mobilis, cum eundem 
+      <lb ed="#R" n="33"/>aspectum habeant ad illas regiones, oportet quod 
+      <lb ed="#R" n="34"/>reducatur in aliquod caelum immobile. Illud 
+      <lb ed="#R" n="35"/>non est, nisi Empireum: ergo.
+   </p>
+               <p xml:id="olm8ij-f15302-d1e2012">
+      <!--0055.xml-->
+                  <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="36"/>Et si arguitur contra eos, quod illud caelum est 
+      <lb ed="#R" n="37"/>vniforme in toto, &amp; partibus ergo non potest 
+      es<lb ed="#R" n="38" break="no"/>se causa difformis influentiae. Respondetur quod 
+      <lb ed="#R" n="39"/>est vniforme in consistendo, sed difforme in 
+      in<lb ed="#R" n="40" break="no"/>fluendo. 
+  </p>
+               <p xml:id="olm8ij-f15302-d1e2030">
+                  <lb ed="#R" n="41"/>Sed contra istam opinionem arguo: quia 
+      effe<lb ed="#R" n="42" break="no"/>ctus, qui potest sufficienter reduci in vnam 
+      cau<lb ed="#R" n="43" break="no"/>sam, non arguit causam aliam: sed diuersitas illa 
+      <lb ed="#R" n="44"/>potest reduci in caelos mobiles: ergo. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e2041">
+                  <lb ed="#R" n="45"/>Probo minorem, tum quia posset dici, quod 
+      <lb ed="#R" n="46"/>a principio Deus creauit in regionibus talem 
+      <lb ed="#R" n="47"/>difformitatem; tum quia licet facies caeli fit 
+      ea<lb ed="#R" n="48" break="no"/>dem hic, &amp; ibi, ibi tamen concurrit alia 
+      dispo<lb ed="#R" n="49" break="no"/>sitio ex parte alterius, &amp; aiterius dispositionis 
+      <lb ed="#R" n="50"/>maris, montium, &amp; huiusmodi, quae non sunt 
+      <lb ed="#R" n="51"/>vniformia in qualibet regione. Tum quia 
+      Philo<lb ed="#R" n="52" break="no"/>sophi hanc diuersitatem viderunt, nec tamen pol 
+      <lb ed="#R" n="53"/>suerunt caelum aliud a caelis mobilibus: tum quia 
+      <lb ed="#R" n="54"/>caelum illud est vniforme in substantia, luciditate, 
+      <lb ed="#R" n="55"/>&amp; alijs accidentibus: ergo influentia esset eadem, 
+      <lb ed="#R" n="56"/>cum sequatur formam substantialem, &amp; alia 
+      ac<lb ed="#R" n="57" break="no"/>cidentia. Ex quo patet, quod illa distinctio est 
+      <lb ed="#R" n="58"/>nulla, qua dicitur, quod est vniforme in 
+      consi<lb ed="#R" n="59" break="no"/>stendo, sed difforme in insluendo. 
+   </p>
+               <p xml:id="olm8ij-f15302-d1e2077">
+                  <lb ed="#R" n="60"/>Dico ergo, quod caelum Empireum non 
+      po<lb ed="#R" n="61" break="no"/>test esse inuestigabile ratione naturali, sed hoc te 
+      <lb ed="#R" n="62"/>nemus mere ex Scriptura, vt ex Genes. &amp; dictis 
+      <lb ed="#R" n="63"/>Sanctorum: &amp; per fidem, quia est ibi locus 
+      bea<lb ed="#R" n="64" break="no"/>torum. Vtrum autem sit ibi fractio, sicut in 
+      <lb ed="#R" n="65"/>aere, quia est ibi laus vocalis, Deus scit.
+   </p>
+               <p xml:id="olm8ij-f15302-d1e2093">
+                  <lb ed="#R" n="66"/>Ad argumentum patet, non enim latet vos, 
+      <lb ed="#R" n="67"/>nec oportet quod omnis entitas nobilior sit inue 
+      <lb ed="#R" n="68"/>stigabilis ratione naturali, nisi de illa, quam 
+      pos<lb ed="#R" n="69" break="no"/>semus scire ex operationibus.
+   </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-05">April 05, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b2">Roma 1605, Book 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="324"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-f99111"><!-- l2d43-q1 -->
+            <head xml:id="olm8ij-f99111-Hd1e101">Quaestio 1</head>
+            <p xml:id="olm8ij-f99111-d1e103">
+               <lb ed="#R" n="8"/>QVAESTIO VNICA. 
+   </p>
+            <p xml:id="olm8ij-f99111-d1e108">
+      <!--0324.xml-->
+               <cb ed="#R" n="b"/>
+               <lb ed="#R" n="9"/>1 Prima est: Vtrum sit aliquod peccatum 
+      <lb ed="#R" n="10"/>speciale in personam Spiritus sancti. 
+      <lb ed="#R" n="11"/>2 Secunda est: Vtrum peccatum in 
+      Spiri<lb ed="#R" n="12" break="no"/>tum sanctum sit irremissibile, &amp; grauissimum 
+      <lb ed="#R" n="13"/>peccatorum. 
+   </p>
+            <div xml:id="olm8ij-f99111-Dd1e126">
+               <head xml:id="olm8ij-f99111-Hd1e128">Articulus 1</head>
+               <head xml:id="olm8ij-f99111-Hd1e130" type="question-title">
+        Utrum sit aliquid peccatum speciale in personam 
+        Spiritus sancti
+      </head>
+               <p xml:id="olm8ij-f99111-d1e133">
+                  <lb ed="#R" n="14"/>ARTJCVLVS J. 
+      <lb ed="#R" n="15"/>Vtrum sit aliquid peccatum speciale in personam 
+      <lb ed="#R" n="16"/>Spiritus sancti. 
+   </p>
+               <p xml:id="olm8ij-f99111-d1e142">
+                  <lb ed="#R" n="17"/>QVANTVM ad primum 
+      <lb ed="#R" n="18"/>arguo primo, quod nullum 
+      <lb ed="#R" n="19"/>peccatum possit 
+      commit<lb ed="#R" n="20" break="no"/>ti specialiter in personam 
+      <lb ed="#R" n="21"/>Spiritus sancti, Quia 
+      pec<lb ed="#R" n="22" break="no"/>catum habet, quod sit pec 
+      <lb ed="#R" n="23"/>catum, per hoc quod 
+      ve<lb ed="#R" n="24" break="no"/>nit contra regulam primam, 
+      <lb ed="#R" n="25"/>quae est voluntas diuina: sed vna est voluntas 
+      <lb ed="#R" n="26"/>trium personarum, sicut vna est maiestas: ergo. 
+   </p>
+               <p xml:id="olm8ij-f99111-d1e166">
+                  <lb ed="#R" n="27"/>In oppositum est illud, quod dicit Saluator in 
+      <lb ed="#R" n="28"/>Euangelio, quod, qui peccabit in Spiritum 
+      san<lb ed="#R" n="29" break="no"/>ctum, non remittetur ei in hoc saeculo, neque 
+      <lb ed="#R" n="30"/>in futuro. 
+   </p>
+               <p xml:id="olm8ij-f99111-d1e178">
+                  <lb ed="#R" n="31"/>Respondeo primo pono propositiones aliquas. 
+      <lb ed="#R" n="32"/>Secundo ad propositum. 
+  </p>
+               <p xml:id="olm8ij-f99111-d1e185">
+                  <lb ed="#R" n="33"/>Quoad primum sciendum, quod loquendo de 
+      <lb ed="#R" n="34"/>peccato, qui est error, non video, quomodo 
+      pos<lb ed="#R" n="35" break="no"/>sit aliquis peccare ita praecise in personam 
+      Spi<lb ed="#R" n="36" break="no"/>ritus sancti, quod non peccabit in aliam. Hanc 
+      <lb ed="#R" n="37"/>probo propositionem, Quia de quo possunt esse 
+      <lb ed="#R" n="38"/>distincti articuli, &amp; distinctae obligationes, 
+      pos<lb ed="#R" n="39" break="no"/>sunt esse distincti errores in intellectu; errores 
+      <lb ed="#R" n="40"/>enim capiunt distinctionem penes articulos, &amp; 
+      <lb ed="#R" n="41"/>principia, quibus obligamur: sed de facto sunt ar 
+      <lb ed="#R" n="42"/>ticuli distincti de distinctis personis, &amp; 
+      obligatio<lb ed="#R" n="43" break="no"/>nes quibus obligamur ad sentiendum de vna 
+      per<lb ed="#R" n="44" break="no"/>sona, quod non sentiamus de alia: certum est 
+      <lb ed="#R" n="45"/>enim, quod alius articulus est, quod Spiritus 
+      san<lb ed="#R" n="46" break="no"/>ctus procedat a Patre &amp; Filio, &amp; alius, quod 
+      Fi<lb ed="#R" n="47" break="no"/>lius procedat a Patre, &amp; alia est obligatio ad vnum 
+      <lb ed="#R" n="48"/>quam ad alterum: ergo error in vno non est er- 
+      <!--0324.xml-->
+      <cb ed="#R" n="c"/>
+                  <lb ed="#R" n="49"/>ror in alio: &amp; loquor hic de errore directe: bene 
+      <lb ed="#R" n="50"/>enim qui errat in vno articulo, consequenter 
+      er<lb ed="#R" n="51" break="no"/>rat in omnibus, quia negare aliquid, quod est in 
+      <lb ed="#R" n="52"/>diuinis, est consequenter negare omnia diuina: 
+      <lb ed="#R" n="53"/>vnde si negetur processio Spiritus sancti a Filio, 
+      <lb ed="#R" n="54"/>negabitur ex consequenti omne quod est in Deo. 
+      <lb ed="#R" n="55"/>Confirmo rationem istam, quoniam sicut possunt 
+      <lb ed="#R" n="56"/>esse distinctae complexiones affirmatiuae de 
+      per<lb ed="#R" n="57" break="no"/>sonis distinetis, quibus distinctae affirmationes 
+      <lb ed="#R" n="58"/>oriuntur, sic possunt esse distinctae negationes; 
+      <lb ed="#R" n="59"/>quibus mediantibus ab affirmatiuis dissentimus, 
+      <lb ed="#R" n="60"/>&amp; per consequens errores distincti. 
+   </p>
+               <p xml:id="olm8ij-f99111-d1e253">
+                  <lb ed="#R" n="61"/>Secunda Propositio est, quod peccatum 
+      irre<lb ed="#R" n="62" break="no"/>uerentiae potest esse directe in Spiritum sanctum, 
+      <lb ed="#R" n="63"/>ne dum peccatum erroris. Hoc probo, quia illud 
+      <lb ed="#R" n="64"/>quod contingit intelligere directe &amp; distincte, 
+      po<lb ed="#R" n="65" break="no"/>test voluntas velle, sed intellectus potest 
+      distin<lb ed="#R" n="66" break="no"/>cte intelligere personam Spiritus sancti directe: 
+      <lb ed="#R" n="67"/>ergo voluntas potest ferri in ipsum directe ergo 
+      <lb ed="#R" n="68"/>per irreuerentiam. &amp; confirmo, quia de facto 
+      ora<lb ed="#R" n="69" break="no"/>mus quandoque distincte Patrem, 
+      quandoque<lb ed="#R" n="70" break="no"/>Filium, quandoque Spiritum sanctum, &amp; licet 
+      <lb ed="#R" n="71"/>intelligendo Filium, intelligam per necessitatem 
+      <lb ed="#R" n="72"/>ratione indiuisionis tres personas, sicut Saluator 
+      <lb ed="#R" n="73"/>ait: Philippe, qui videt me, videt &amp; Patrem meum. 
+      <lb ed="#R" n="74"/>nec oppositum credam esse etiam de potentia 
+      <lb ed="#R" n="75"/>absoluta, cum dico intelligendo vnam personam, 
+      <lb ed="#R" n="76"/>non necessario aeque directe intelligo aliam, sed 
+      <lb ed="#R" n="77"/>hoc est secundario, &amp; in obliquo siue indirecte, 
+      <lb ed="#R" n="78"/>&amp; quia nullo istorum modorum accipitur 
+      pro<lb ed="#R" n="79" break="no"/>prie peccatum in Spiritum sanctum, vt in 
+      pro<lb ed="#R" n="80" break="no"/>posito intendimus, ideo pono. 
+   </p>
+               <p xml:id="olm8ij-f99111-d1e299">
+                  <lb ed="#R" n="81"/>Tertiam Propositionem, quod peccatum 
+      in<lb ed="#R" n="82" break="no"/>Spiritum sanctum, scilicet eo modo, quo hic 
+      lo<lb ed="#R" n="83" break="no"/>quimur, non est directe in personam Spiritus 
+      san<lb ed="#R" n="84" break="no"/>cti, puta in gratiam, &amp; eius effectum, &amp; vt 
+      me<lb ed="#R" n="85" break="no"/>lius videatur, declaro primo, quomodo potest 
+      <lb ed="#R" n="86"/>esse peccatum in gratiam. Vbi considerandum 
+      <lb ed="#R" n="87"/>quod gratia Dei potest considerari, vel in suo 
+      <lb ed="#R" n="88"/>principio, quod est Dei misericordia, a qua 
+      pro<lb ed="#R" n="89" break="no"/>fluit vt a fonte, &amp; sic oritur duplex peccatum 
+      <lb ed="#R" n="90"/>contra misericordiam, quorum vnum est contra 
+      <lb ed="#R" n="91"/>infinitatem eius, &amp; illud est Desperatio, qua quis 
+      <!--0325.xml-->
+      <pb ed="#R" n="325"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>existimat culpam maiorem misericordia. Aliud 
+      <lb ed="#R" n="2"/>est contra eius regularitatem, &amp; rectitudinem, 
+      <lb ed="#R" n="3"/>&amp; illud est peccatum Praesumptionis, quo quis 
+      <lb ed="#R" n="4"/>tantum praesumit de misericordia Dei, vt 
+      repu<lb ed="#R" n="5" break="no"/>tet eam quasi dissolutam, videlicet irregularem, 
+      <lb ed="#R" n="6"/>non iustam, &amp; ideo audacius fert se in peccatum, 
+      <lb ed="#R" n="7"/>quia putat, quod misericordia Dei non 
+      mensu<lb ed="#R" n="8" break="no"/>retur iustitia. 
+   </p>
+               <p xml:id="olm8ij-f99111-d1e349">
+                  <lb ed="#R" n="9"/>Secundo modo Dei gratia potestt comparari ad 
+      <lb ed="#R" n="10"/>subiectum, in quo est, &amp; hoc dupliciter, vel ad se, 
+      <lb ed="#R" n="11"/>vel ad proximum. Primo modo non potest 
+      pec<lb ed="#R" n="12" break="no"/>cari in gratiam Dei directe, potest tamen 
+      indire<lb ed="#R" n="13" break="no"/>cte, &amp; hoc peccando in dispositiones, quae 
+      dispo<lb ed="#R" n="14" break="no"/>nunt ad gratiam. Harum autem dispositionum. 
+   </p>
+               <p xml:id="olm8ij-f99111-d1e365">
+                  <lb ed="#R" n="15"/>Prima est paenitere, quod habet peccatum 
+      amo<lb ed="#R" n="16" break="no"/>uere, &amp; peccatum contra illud dicitur finalis 
+      im<lb ed="#R" n="17" break="no"/>paenitentia. 
+   </p>
+               <p xml:id="olm8ij-f99111-d1e375">
+                  <lb ed="#R" n="18"/>Secunda dispositio ad gratiam est cordis ad 
+      <lb ed="#R" n="19"/>Deum conuersio, &amp; praeparatio, &amp; peccatum contra 
+      <lb ed="#R" n="20"/>illam dispositionem dicitur Obduratio cordis, &amp; 
+      ob<lb ed="#R" n="21" break="no"/>stinatio, quale fuit peccatum Judae, &amp; Pharaonis. 
+   </p>
+               <p xml:id="olm8ij-f99111-d1e386">
+                  <lb ed="#R" n="22"/>Secundo modo considerando gratiam Dei in 
+      <lb ed="#R" n="23"/>proximo, sic oritur duplex peccatum contra gra 
+      <lb ed="#R" n="24"/>tiam, scilicet in proximo existentem. Potest tamen 
+      <lb ed="#R" n="25"/>quis contra talem gratiam venire duobus modis, 
+      <lb ed="#R" n="26"/>vno modo conatu effectus ad intra, alio modo 
+      <lb ed="#R" n="27"/>conatu effectus ad extra. Primo modo oritur pec 
+      <lb ed="#R" n="28"/>catum, quod dicitur Inuidentia fraternae gratiae, 
+      <lb ed="#R" n="29"/>nec inuidere fraternae gratiae, quia diminuit suam 
+      <lb ed="#R" n="30"/>excellentiam, est peccatum in Spiritum sanctum: 
+      <lb ed="#R" n="31"/>hoc enim est actus Inuidiae, sed tristari de gratia 
+      <lb ed="#R" n="32"/>proximo data a Deo absolute, hoc est peccatum 
+      <lb ed="#R" n="33"/>in Spiritum sanctum. Si autem veniat contra 
+      gra<lb ed="#R" n="34" break="no"/>tiam, qua Spiritus sanctificat proximum conatu ef 
+      <lb ed="#R" n="35"/>fectus extra, sic oritur peccatum aliud, quod 
+      di<lb ed="#R" n="36" break="no"/>citur Impugnatio veritatis agnitae, &amp; sic patet, 
+      <lb ed="#R" n="37"/>quod septem sunt peccata in Spiritum sanctum, 
+      <lb ed="#R" n="38"/>sicut septem modis contingit venire hominem 
+      <lb ed="#R" n="39"/>contra gratiam Dei. 
+   </p>
+               <p xml:id="olm8ij-f99111-d1e428">
+                  <lb ed="#R" n="40"/>Sed de modo istius peccati, quid scilicet, addit 
+      <lb ed="#R" n="41"/>super alia peccata, quoad grauitatem? sciendum 
+      <lb ed="#R" n="42"/>quod peccatum in Spiritum sanctum, dicitur 
+      pec<lb ed="#R" n="43" break="no"/>catum ex malitia. Peccatum autem ex malitia 
+      <lb ed="#R" n="44"/>quandoque dicitur peccatum ex habitu: puta 
+      <lb ed="#R" n="45"/>quando quis ex malo habitu est intemperatus, 
+      <lb ed="#R" n="46"/>vel gulosus, &amp; sic non loquimur in proposito. Alio 
+      <lb ed="#R" n="47"/>modo dicitur, quia procedit ex passione, tamen 
+      <lb ed="#R" n="48"/>deliberate, &amp; scienter: puta si quis inuideat 
+      pro<lb ed="#R" n="49" break="no"/>ximo, quia bonum suum datum sibi a Deo 
+      dimi<lb ed="#R" n="50" break="no"/>nuit excellentiam illius, nec sic loquimur in pro 
+      <lb ed="#R" n="51"/>posito. Vocatur ergo peccatum ex malitia 
+      pro<lb ed="#R" n="52" break="no"/>pria, quando mouetur quis non ex habitu, nec 
+      <lb ed="#R" n="53"/>passione, nec ex ignorantia, sed ex mera 
+      liberta<lb ed="#R" n="54" break="no"/>te voluntatis, scilicet, quia sic placet, &amp; hoc 
+      mo<lb ed="#R" n="55" break="no"/>do dicitur peccatum in Spiritum sanctum: sic 
+      ta<lb ed="#R" n="56" break="no"/>men quod cadat circa materias praedictas, puta 
+      <lb ed="#R" n="57"/>dolere, quod proximus habet agnitionem 
+      veri<lb ed="#R" n="58" break="no"/>tatis, quale fuit peccatum Judaeorum contra Chri 
+      <lb ed="#R" n="59"/>stum. Vel impugnando in effectu extra, sicut 
+      <lb ed="#R" n="60"/>quando dixerunt: In Beelzebub principe 
+      daemo<lb ed="#R" n="61" break="no"/>niorum eijcit daemonia; tale autem peccatum 
+      <lb ed="#R" n="62"/>valde raro, &amp; de difficili inuenitur: fuit tamen 
+      <lb ed="#R" n="63"/>peccatum ipsorum Judaeorum. 
+   </p>
+               <p xml:id="olm8ij-f99111-d1e483">
+                  <lb ed="#R" n="64"/>Dices: Non sic est, nam Judaei moti fuerunt ex 
+      <lb ed="#R" n="65"/>passione, videlicet, quod fama Christi diminue- 
+      <!--0325.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="66"/>bat famam eorum. Respondeo, concedo, quod 
+      <lb ed="#R" n="67"/>initium vnde motus peccati eorum fuit inuidia, 
+      <lb ed="#R" n="68"/>tamen puto, quod vltimo ad tantum venerunt, 
+      <lb ed="#R" n="69"/>quod ceciderunt in inuidentiam doni Dei 
+      abso<lb ed="#R" n="70" break="no"/>lute, &amp; impugnationem agnitae veritatis. 
+   </p>
+               <p xml:id="olm8ij-f99111-d1e505">
+                  <lb ed="#R" n="71"/>Sed contra, quia nullus operatur ad malum 
+      <lb ed="#R" n="72"/>aspiciens. Respondeo, nullus agit, nisi intendit ali 
+      <lb ed="#R" n="73"/>quod saltem apparens bonum, &amp; sic est in pecca 
+      <lb ed="#R" n="74"/>to ex malitia: agit enim ibi homo intendens hoc 
+      <lb ed="#R" n="75"/>bonum, quod est facere, quod placet, &amp; prosequi 
+      <lb ed="#R" n="76"/>libertatem suam, quod apud aliquos est maius 
+      <lb ed="#R" n="77"/>bonum, &amp; magis mouet, quam passio quaecumque, 
+      <lb ed="#R" n="78"/>experiri(scilicet) ad libitum suam libertatem. Ad 
+      <lb ed="#R" n="79"/>argumentum in oppositum patet ex dictis. 
+   </p>
+            </div>
+            <div xml:id="olm8ij-f99111-Dd1e528">
+               <head xml:id="olm8ij-f99111-Hd1e530">Articulus 2</head>
+               <head xml:id="olm8ij-f99111-Hd1e532" type="question-title">
+      An peccatum in Spiritum sanctum sit 
+      grauissimum omnium peccatorum, 
+      &amp; irremissibile
+    </head>
+               <p xml:id="olm8ij-f99111-d1e535">
+                  <lb ed="#R" n="80"/>ARTJCVLVS II. 
+      <lb ed="#R" n="81"/>An peccatum in Spiritum sanctum sit 
+      gra<lb ed="#R" n="82" break="no"/>uissimum omnium peccatorum, 
+      <lb ed="#R" n="83"/>&amp; irremissibile. 
+   </p>
+               <p xml:id="olm8ij-f99111-d1e546">
+                  <lb ed="#R" n="84"/>AD secundam quaestionem: An peccatum in 
+      <lb ed="#R" n="85"/>Spiritum sanctum sit grauissimum omnium 
+      <lb ed="#R" n="86"/>peccatorum, &amp; irremissibile. Sine argumentis 
+      <lb ed="#R" n="87"/>respondeo de peccato impaenitentiae, &amp; 
+      obstina<lb ed="#R" n="88" break="no"/>tionis, non est dubium, quod non remittitur, 
+      <lb ed="#R" n="89"/>sed hoc est per accidens, quia peccator non 
+      <lb ed="#R" n="90"/>conuertitur. 
+   </p>
+               <p xml:id="olm8ij-f99111-d1e564">
+                  <lb ed="#R" n="91"/>Sed contra hoc est illud, quod dicit Saluator: 
+      <lb ed="#R" n="92"/>Qui autem blasphemauerit in Spiritum sanctum, 
+      <lb ed="#R" n="93"/>non remittetur ei in hoc saeculo, neque in futuro: 
+      <lb ed="#R" n="94"/>ergo non tantum loquitur de finali remissione: 
+      <lb ed="#R" n="95"/>Jdeo dicunt aliqui, quod omnes species huius 
+      pec<lb ed="#R" n="96" break="no"/>cati habent, quod sint irremissibiles: ratio est, quia 
+      <lb ed="#R" n="97"/>priuant se principio gratiae scienter, scilicet mise 
+      <lb ed="#R" n="98"/>ricordia. Sed contra est, quia multi peccantes 
+      <lb ed="#R" n="99"/>hoc peccato fuerunt finaliter conuersi. 
+   </p>
+               <p xml:id="olm8ij-f99111-d1e587">
+                  <lb ed="#R" n="100"/>Dico ergo aliter, quod quaedam sunt peccata, 
+      <lb ed="#R" n="101"/>quae merentur vtique paenam aeternam: non 
+      ta<lb ed="#R" n="102" break="no"/>men clausionem diuinae misericordiae, quantum 
+      <lb ed="#R" n="103"/>est ex genere, &amp; conditione peccati, cuiusmodi 
+      <lb ed="#R" n="104"/>sunt omnia peccata, quae proueniunt ex passione 
+      <lb ed="#R" n="105"/>vel ignorantia, quantumcumque sint ex 
+      delibera<lb ed="#R" n="106" break="no"/>tione: talia enim non claudunt diuinam 
+      miseri<lb ed="#R" n="107" break="no"/>cordiam, propter fortem persuasionem 
+      passio<lb ed="#R" n="108" break="no"/>nis ex carne nostra corrupta: habet enim Deus 
+      <lb ed="#R" n="109"/>tunc quod cogitet, scilicet, quod caro sunt, &amp; c. 
+      <lb ed="#R" n="110"/>Alia vero sunt, quae claudunt diuinam misericor 
+      <lb ed="#R" n="111"/>diam, quantum ex se, quia priuant gratia per se 
+      <lb ed="#R" n="112"/>directe, qualia sunt illa, quae sunt directe in mise 
+      <lb ed="#R" n="113"/>ricordiam Dei, de quibus supra d ictum est. 
+      Que<lb ed="#R" n="114" break="no"/>dam enim horum priuant Dei misericordia, vt 
+      <lb ed="#R" n="115"/>duo prima, alia vero priuant gratia directe, vt 
+      <lb ed="#R" n="116"/>duo vltima. Alia vero dispositione ad gratiam, 
+      <lb ed="#R" n="117"/>vt duo media. Talia ergo videntur irremissibilia, 
+      <lb ed="#R" n="118"/>quoniam, quantum est de se, non merentur 
+      ve<lb ed="#R" n="119" break="no"/>niam; hoc modo peccatum Diaboli est 
+      irremis<lb ed="#R" n="120" break="no"/>sibile, &amp; non peccatum Adam: peccauit enim 
+      <lb ed="#R" n="121"/>Diabolus nulla persuasione impellente: Adam 
+      <lb ed="#R" n="122"/>vero peccanit Diabolo impellente, &amp; tentante. 
+      <lb ed="#R" n="123"/>Cum ergo dicit Saluator, quod non remittetur 
+      <lb ed="#R" n="124"/>in hoc saeculo, nec in futuro, debet intelligi, quã- 
+      <lb ed="#R" n="125"/>tum est de se, &amp; in ordine ad meritum peccati in 
+      <lb ed="#R" n="126"/>se, non ad Dei potentiam, quae prona est ad 
+      pec<lb ed="#R" n="127" break="no"/>catoribus indulgendum. 
+   </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

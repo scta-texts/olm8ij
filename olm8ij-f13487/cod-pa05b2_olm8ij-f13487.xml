@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-04-05">April 05, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b2">Roma 1605, Book 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="27"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-f13487"><!-- l2d1-q4 -->
+            <head xml:id="olm8ij-f13487-Hd1e101">Quaestio 4</head>
+            <p xml:id="olm8ij-f13487-d1e103">
+      <!--0027.xml-->
+               <cb ed="#R" n="c"/>
+               <lb ed="#R" n="80"/>
+               <!-- line coord error -->
+               <lb ed="#R" n="81"/>QVAESTIO <sic>SECVNDA</sic>. <!-- actually 4 -->
+      <lb ed="#R" n="82"/>Vltimo ad maiorem euidentiam praedictorum, quaero de creatione, comparando eam 
+      <lb ed="#R" n="83"/>ad conseruationem, &amp; quaero ad euidentiam quaestionis 
+      <lb ed="#R" n="84"/>duas questiones. 
+  </p>
+            <p xml:id="olm8ij-f13487-d1e127">
+      <!--0027.xml-->
+               <cb ed="#R" n="d"/>
+               <lb ed="#R" n="85"/>1 Prima est, Vtrum omnes res indigeant 
+      con<lb ed="#R" n="86" break="no"/>seruari a Deo. 
+      <lb ed="#R" n="87"/>2 Secunda, Vtrum creatio, &amp; conseruatio sint 
+      <lb ed="#R" n="88"/>eadem actio. 
+   </p>
+            <div xml:id="olm8ij-f13487-Dd1e143">
+               <head xml:id="olm8ij-f13487-Hd1e145">Articulus 1</head>
+               <head xml:id="olm8ij-f13487-Hd1e147" type="question-title">
+      Utrum omnes res indigeant conseruari a Deo.
+    </head>
+               <p xml:id="olm8ij-f13487-d1e150">
+                  <lb ed="#R" n="89"/>ARTJCVLVS J. 
+      <lb ed="#R" n="90"/>Vtrum omnes res indigeant conseruari 
+      <lb ed="#R" n="91"/>a Deo.
+   </p>
+               <p xml:id="olm8ij-f13487-d1e159">
+                  <lb ed="#R" n="92"/>QVantum ad primam arguo primo, quod 
+      <lb ed="#R" n="93"/>non omnes res indigeant conseruari a 
+      <lb ed="#R" n="94"/>Deo, &amp; hoc sic: Non minoris efficaciae 
+      <lb ed="#R" n="95"/>est Deus modo agendo, quam quodcumque 
+      <lb ed="#R" n="96"/>agens creatum: sed agens creatum aliquod pro- 
+      <!--0027.xml-->
+      <cb ed="#R" n="e"/>
+                  <lb ed="#R" n="97"/>ducit effectum, qui non indigeret conseruari 
+      <lb ed="#R" n="98"/>actione transeunte, vt patet de artifice 
+      produ<lb ed="#R" n="99" break="no"/>cente formam domus: ergo. 
+  </p>
+               <p xml:id="olm8ij-f13487-d1e183">
+                  <lb ed="#R" n="100"/>In oppositum est auctoritas Augustini, qui 
+      <lb ed="#R" n="101"/>dicit, quod si manum fabricatiuam Deus 
+      sub<lb ed="#R" n="102" break="no"/>traheret, omnia redirent in nihilum. 
+  </p>
+               <p xml:id="olm8ij-f13487-d1e193">
+                  <lb ed="#R" n="103"/>Respondeo hic ponam primo duas 
+      Propo<lb ed="#R" n="104" break="no"/>sitiones; secundo mouebo quaedam dubia 
+      <lb ed="#R" n="105"/>Quantum ad primum pono istam Propositionem, 
+      <lb ed="#R" n="106"/>quod omnis creatura indiget semper causa, vt a 
+      <lb ed="#R" n="107"/>Deo conseruante: Hanc Propositionem nituntur 
+      <lb ed="#R" n="108"/>aliqui probare a priori sic: Differentia est inter 
+      <lb ed="#R" n="109"/>effectum aequiuocum, &amp; effectum vniuocum. Effe 
+      <lb ed="#R" n="110"/>ctus enim aequiuocus requirit causam in fieri, &amp; 
+      <lb ed="#R" n="111"/>in esse, vt patet de radio, qui indiget Sole 
+      <lb ed="#R" n="112"/>quoad vtrumque: sed vniuocus effectus re- 
+      <!--0028.xml-->
+      <pb ed="#R" n="28"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>quirit causam tantummodo in fieri, vt patet 
+      <lb ed="#R" n="2"/>de igne generato ab igne. Causa huiusmodi est, 
+      <lb ed="#R" n="3"/>quia in effectu aequiuoco non saluatur ratio esse, 
+      <lb ed="#R" n="4"/>&amp; ideo ad hoc, quod effectus maneat oportet, 
+      <lb ed="#R" n="5"/>quod effectus semper maneat in eo. In effectu 
+      <lb ed="#R" n="6"/>vero vniuoco non saluatur aliquo modo ratio 
+      <lb ed="#R" n="7"/>illius causae, &amp; hinc est, quod continet semper 
+      <lb ed="#R" n="8"/>quandam influentiam causae in se in virtute. Jd cer 
+      <lb ed="#R" n="9"/>to non indiget noua influentia: sed potest 
+      mane<lb ed="#R" n="10" break="no"/>re absente causa: sed creatura est effectus 
+      aequi<lb ed="#R" n="11" break="no"/>uocus Dei, quare indiget semper causa 
+      conser<lb ed="#R" n="12" break="no"/>uante 
+   </p>
+               <p xml:id="olm8ij-f13487-d1e250">
+                  <lb ed="#R" n="13"/>Contra istum modum dicendi facile est 
+      ar<lb ed="#R" n="14" break="no"/>guere. Habet enim motiuum non contemnendum: 
+      <lb ed="#R" n="15"/>Mulus enim est effectus aequiuocus equi, &amp; tamen 
+      <lb ed="#R" n="16"/>potest manere dato, quod non manuteneatur ab 
+      <lb ed="#R" n="17"/>equo: similiter obiectum est causa aequiuoca 
+      <lb ed="#R" n="18"/>respectu speciei in intellectu, quae tam en manet 
+      <lb ed="#R" n="19"/>in absentia obiecti. Et licet aliqui negent de 
+      <lb ed="#R" n="20"/>specie in intellectu, non tamen negant de specie 
+      <lb ed="#R" n="21"/>in imaginatione. Dico, quod aliter est 
+      dicen<lb ed="#R" n="22" break="no"/>dum secundum viam Aristotelis, &amp; arguitur 
+      se<lb ed="#R" n="23" break="no"/>cundum viam Theologorum. 
+   </p>
+               <p xml:id="olm8ij-f13487-d1e276">
+                  <lb ed="#R" n="24"/>Aristoteles enim habuit pro per se noto, 
+      <lb ed="#R" n="25"/>quod contingens de se non posset perpetuari ab 
+      <lb ed="#R" n="26"/>aliquo, tamen secundum fidem oportet dicere, 
+      <lb ed="#R" n="27"/>quod creatura sit de se contingens, &amp; possibile 
+      <lb ed="#R" n="28"/>esse: &amp; tamen, quod potest manuteneri ab illo, 
+      <lb ed="#R" n="29"/>puta a Deo. Quicquid ergo, sit de opinione 
+      Phy<lb ed="#R" n="30" break="no"/>losophorum, probo specialiter propositionem 
+      <lb ed="#R" n="31"/>praemissam: quod omnis creatura indiget ab 
+      <lb ed="#R" n="32"/>alio conseruari: quia si creatura posset durare 
+      <lb ed="#R" n="33"/>ex se absque manutenentia alicuius, sequeretur, 
+      <lb ed="#R" n="34"/>quod creatura esset necesse esse: Consequens est 
+      <lb ed="#R" n="35"/>falsum: ergo, &amp; c. Probo falsitatem consequen 
+      <lb ed="#R" n="36"/>tis, quia illud, quod de se est possibile esse, id pos 
+      <lb ed="#R" n="37"/>sibile est, quod sit etiam necesse esse. hoc probat 
+      <lb ed="#R" n="38"/>Commentator deducendo ad hoc inconueniens, 
+      <lb ed="#R" n="39"/>quod natura contingentis vniretur innaturam 
+      <lb ed="#R" n="40"/>necessarij; &amp; ratio ad hoc est, quia magis 
+      oppo<lb ed="#R" n="41" break="no"/>nuntur natura contingentis, &amp; necessarij, quam 
+      <lb ed="#R" n="42"/>albedo, &amp; nigredo. Impossibile est autem, 
+      qua<lb ed="#R" n="43" break="no"/>cumque potentia albedinem fieri nigredinem; 
+      <lb ed="#R" n="44"/>licet subiectum posset fieri de albedine sub 
+      ni<lb ed="#R" n="45" break="no"/>gredine: patet ergo falsitas consequentis: sed 
+      <lb ed="#R" n="46"/>consequentiam probo sic. Si caelum, vel 
+      quae<lb ed="#R" n="47" break="no"/>cumque creatura alia duraret ex se, 
+      imposibi<lb ed="#R" n="48" break="no"/>le esset caelum non esse: ergo esset necesse esse. 
+      <lb ed="#R" n="49"/>Probo consequentiam, quia quaero, a quo 
+      dedu<lb ed="#R" n="50" break="no"/>ceretur a non esse aliquid ex se, ita quod ipsum 
+      <lb ed="#R" n="51"/>deducat se ipsum ad non esse: hoc est 
+      impossi<lb ed="#R" n="52" break="no"/>bile, quia ens secundum totum ambitum suum 
+      <lb ed="#R" n="53"/>opponitur contradictorie ad non esse: vnum 
+      <lb ed="#R" n="54"/>autem contradicttoriorum per so non mouot se 
+      <lb ed="#R" n="55"/>ad alterum: sed subiectum est illud, quod 
+      mo<lb ed="#R" n="56" break="no"/>uetur de contradictorio in contradictorium: 
+      er<lb ed="#R" n="57" break="no"/>go oportet, quod deducatur ad non esse per 
+      a<lb ed="#R" n="58" break="no"/>ctionem alterius: sed hoc etiam impossibile. 
+      <lb ed="#R" n="59"/>Probatio, quia si sic, aut per actionem positiuam, 
+      <lb ed="#R" n="60"/>aut per actionem priuatiuam. Impossibile est 
+      <lb ed="#R" n="61"/>autem, quod deducatur ad non esse per actionem 
+      <lb ed="#R" n="62"/>positiuam: quia omnis actio positiua requirit 
+      <lb ed="#R" n="63"/>subiectum, requirit &amp; terminum positiuum: &amp; 
+      <lb ed="#R" n="64"/>hinc est, quod vnum agens habet ex se priuare. 
+      <lb ed="#R" n="65"/>Agens enim non inuenit negationes secundum 
+      <lb ed="#R" n="66"/>Commentatorem: &amp; per rationem, quia vel 
+      <lb ed="#R" n="67"/>facere est non facere: ergo si actione aliqua cae- 
+      <!--0028.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>lum fieret, vel talis actio esset non agere, &amp; per 
+      <lb ed="#R" n="69"/>consequens esset non actio. Vnde videtur mihi, 
+      <lb ed="#R" n="70"/>quod contradictio sit dicere actionem 
+      tantum<lb ed="#R" n="71" break="no"/>modo priuatiuam. Vnde necessario actio 
+      posi<lb ed="#R" n="72" break="no"/>tiua habet terminum positiuum. Tunc ergo 
+      a<lb ed="#R" n="73" break="no"/>ctione positiua Deus non potest redigere caelum 
+      <lb ed="#R" n="74"/>in nihilum: ergo si redigere posset illud in 
+      ni<lb ed="#R" n="75" break="no"/>hilum: hoc esset actione negatiua: sed hoc est 
+      <lb ed="#R" n="76"/>impossibile, quia actio negatiua non est actio 
+      <lb ed="#R" n="77"/>vlla; ergo non apparet, quomodo Deus 
+      pos<lb ed="#R" n="78" break="no"/>sit caelum, vel lapidem annullare, si caelum ex 
+      <lb ed="#R" n="79"/>se haberet, quod duraret: sed si ponatur, quod 
+      <lb ed="#R" n="80"/>caelum conseruetur a Deo, bene apparet, quia 
+      <lb ed="#R" n="81"/>licet res non posset annihilari per actionem 
+      a<lb ed="#R" n="82" break="no"/>gentis cuiuscunque, potest tamen annullari per 
+      <lb ed="#R" n="83"/>subtractionem actionis, &amp; tunc si Deus 
+      subtra<lb ed="#R" n="84" break="no"/>heret suam conseruationem, eo ipso res cedet in 
+      <lb ed="#R" n="85"/>nihilum, &amp; si res cedit in nihilum, subtracta 
+      <lb ed="#R" n="86"/>actione diuina, siue conseruatione; ergo per 
+      op<lb ed="#R" n="87" break="no"/>positum conseruatio est esse causa rei, quia si 
+      ne<lb ed="#R" n="88" break="no"/>gatio est causa negationis, &amp; affirmatio est causa 
+      <lb ed="#R" n="89"/>affirmationis: ergo omnes res indigent 
+      conser<lb ed="#R" n="90" break="no"/>uari a Deo in esse suo: quod erat propositum. 
+      <lb ed="#R" n="91"/>Secunda Propositio est, quod omnes res, quae 
+      <lb ed="#R" n="92"/>immediate insunt, &amp; creantur a Deo, immediate 
+      <lb ed="#R" n="93"/>conseruantur ab eo: res autem, quae sunt a Deo 
+      <lb ed="#R" n="94"/>mediantibus causis secundis (si quae reperirentur) 
+      <lb ed="#R" n="95"/>non video, quare oporteat dicere, quod 
+      imme<lb ed="#R" n="96" break="no"/>diate conseruentur a Deo, quia videtur, quod 
+      <lb ed="#R" n="97"/>sufficiat, quod conseruentur mediantibus cansis 
+      <lb ed="#R" n="98"/>secundis, ipso Deo cooperante tanquam causa 
+      <lb ed="#R" n="99"/>principali, &amp; immediata. 
+   </p>
+               <p xml:id="olm8ij-f13487-d1e448">
+                  <lb ed="#R" n="100"/>Primam partem propositionis probo: nam 
+      <lb ed="#R" n="101"/>caelum, &amp; animae, &amp; intelligentiae, quae 
+      immedia<lb ed="#R" n="102" break="no"/>tae sunt a Deo, immediate manutenentur ab eo, 
+      <lb ed="#R" n="103"/>&amp; hoc probo, quia illa immediate 
+      manutenen<lb ed="#R" n="104" break="no"/>tur a Deo, quae natura tota non potest annihi. 
+      <lb ed="#R" n="105"/>lare, &amp; reducere in nihilum: sed animam, 
+      cae<lb ed="#R" n="106" break="no"/>lum, &amp; intelligentias, &amp; caetera, quae immediate 
+      <lb ed="#R" n="107"/>sunt a Deo, non potest natura tota 
+      annihi<lb ed="#R" n="108" break="no"/>lare, sed quantum ad hoc subsunt soli Deo, 
+      <lb ed="#R" n="109"/>ergo. 
+   </p>
+               <p xml:id="olm8ij-f13487-d1e472">
+                  <lb ed="#R" n="110"/>Secunda pars propositionis habet maiorem 
+      <lb ed="#R" n="111"/>difficultatem. Quidam enim volunt dicere, 
+      <lb ed="#R" n="112"/>quod non tantum materia immediate 
+      conserue<lb ed="#R" n="113" break="no"/>tur a Deo, sed illa forma in materia, &amp; actus, &amp; 
+      <lb ed="#R" n="114"/>omnes perfectiones consequentes sunt 
+      imme<lb ed="#R" n="115" break="no"/>diate a Deo. Deus enim, vt dicunt isti, 
+      imme<lb ed="#R" n="116" break="no"/>diate agit in omni actione creaturae: quod 
+      pro<lb ed="#R" n="117" break="no"/>bant, quia ignitio est actio quaedam, &amp; 
+      creatu<lb ed="#R" n="118" break="no"/>ra, &amp; ideo indiget conseruari: sed non potest, 
+      <lb ed="#R" n="119"/>vt videtur, conseruari, nisi a Deo; conseruatio 
+      <lb ed="#R" n="120"/>autem actio quaedam Dei est, &amp; ideo Deus agit 
+      <lb ed="#R" n="121"/>immediate in omnia.
+   </p>
+               <p xml:id="olm8ij-f13487-d1e501">
+                  <lb ed="#R" n="122"/>Alijs non placet dictus modus: sed videtur 
+      <lb ed="#R" n="123"/>eis, quod non oportet, quod forma, &amp; ex ea 
+      con<lb ed="#R" n="124" break="no"/>sequentia immediate a Deo conseruentur, sed 
+      <lb ed="#R" n="125"/>sufficit, quod mediante materia. Quid ergo 
+      di<lb ed="#R" n="126" break="no"/>cendum? Dico, quod mihi magis placet primus 
+      <lb ed="#R" n="127"/>modus dicendi, puta, quod caelum, anima, 
+      intel<lb ed="#R" n="128" break="no"/>ligentiae, &amp; materia, &amp; vniuersaliter omnia 
+      im<lb ed="#R" n="129" break="no"/>mediate conseruentur ab eo. Caetera sunt 
+      instru<lb ed="#R" n="130" break="no"/>menta, veluti causae secundae. 
+   </p>
+               <p xml:id="olm8ij-f13487-d1e524">
+                  <lb ed="#R" n="131"/>Nunc secundo moueo dubia, &amp; primum est; 
+      <lb ed="#R" n="132"/>quia Commentator dicit, quod secus est de 
+      mo<lb ed="#R" n="133" break="no"/>tu, secus de substantia. Permanentia enim 
+      sub<lb ed="#R" n="134" break="no"/>stantiae non est ab extrinseco: sed est a se. 
+      <!--0029.xml-->
+      <pb ed="#R" n="29"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Permanentia vero motus potest esse ab 
+      extrin<lb ed="#R" n="2" break="no"/>seco, quia de ratione motus est, quod sit in 
+      con<lb ed="#R" n="3" break="no"/>tinuo fieri ab alio; de ratione vero substantiae 
+      <lb ed="#R" n="4"/>est, quod sit permanens ex natura sua, &amp; ideo 
+      <lb ed="#R" n="5"/>dicit Commentator, quod impossibile est, quod 
+      <lb ed="#R" n="6"/>substantia sit possibilis, &amp; contingens ex se, &amp; 
+      <lb ed="#R" n="7"/>quod ab alio perpetuetur; cuius oppofitum est 
+      <lb ed="#R" n="8"/>de motu. 
+   </p>
+               <p xml:id="olm8ij-f13487-d1e559">
+                  <lb ed="#R" n="9"/>Respondeo. Intentio Commentatoris est, 
+      <lb ed="#R" n="10"/>quod nulla res potest permanens esse, &amp; 
+      conti<lb ed="#R" n="11" break="no"/>nuo dependere, &amp; ideo Intelligentias posuit 
+      im<lb ed="#R" n="12" break="no"/>productas, &amp; necesse esse, &amp; hoc 
+      impossibile<lb ed="#R" n="13" break="no"/>est, quod eis communicat ex alio: sed quia 
+      se<lb ed="#R" n="14" break="no"/>cundum Catholicam veritatem habemus 
+      cla<lb ed="#R" n="15" break="no"/>rum, res de natura carum non posse se 
+      perpe<lb ed="#R" n="16" break="no"/>tuare. Hinc est, quod oportet negare Phylos 
+      <lb ed="#R" n="17"/>&amp; Commentatorem, &amp; supponere, quod sit idem 
+      <lb ed="#R" n="18"/>do permanentibus, sicut de motu, vt sint 
+      depen<lb ed="#R" n="19" break="no"/>dentia. Hoc accepto, quod motus est in 
+      con<lb ed="#R" n="20" break="no"/>tinua permanentia per hoc, quod partes eius 
+      <lb ed="#R" n="21"/>effectiue innouantur, non sic autem est de 
+      re<lb ed="#R" n="22" break="no"/>permanente, tenendum est, quod omnia 
+      <lb ed="#R" n="23"/>conseruatione indigent continua, alias 
+      cede<lb ed="#R" n="24" break="no"/>rent necefario in nihilum, si cessaret 
+      conferua<lb ed="#R" n="25" break="no"/>tio Dei, quae est causa omnis rei. 
+   </p>
+               <p xml:id="olm8ij-f13487-d1e598">
+                  <lb ed="#R" n="26"/>Secuudum dubium, quia videtur, quod illud, 
+      <lb ed="#R" n="27"/>quod potest ex se durare aliquo tempore 
+      quan<lb ed="#R" n="28" break="no"/>tumcumque paruo, ei non repugnet durare in 
+      <lb ed="#R" n="29"/>infinitum: sed Creatura potest ex se 
+      durare<lb ed="#R" n="30" break="no"/>tempore aliquo, ergo. Maior patet; quia 
+      <lb ed="#R" n="31"/>sient potest in aliquo, &amp; eadem ratione in 
+      ter<lb ed="#R" n="32" break="no"/>tio, &amp; sic in infinitum. Minorem probo. Pono 
+      <lb ed="#R" n="33"/>quod Deus creat lapidem in instanti, &amp; 
+      dimit<lb ed="#R" n="34" break="no"/>tat suam actionem, aut lapis relictus sibi 
+      anni<lb ed="#R" n="35" break="no"/>hilabitur in eodem instanti, aut in alio: Non 
+      <lb ed="#R" n="36"/>primo modo, quia tunc in eodem instanti esset, 
+      <lb ed="#R" n="37"/>&amp; non esset, &amp; est contradictio; nec in alio 
+      in<lb ed="#R" n="38" break="no"/>stanti immediate, quia non sunt duo instantia 
+      <lb ed="#R" n="39"/>immediate, ergo si lapis dimissus sibi, prius, 
+      <lb ed="#R" n="40"/>scilicet, suae producttionis cedet in nihilum; 
+      <lb ed="#R" n="41"/>oportet, quod cessio illa sit in aliquo instanti, 
+      <lb ed="#R" n="42"/>inter quod scilicet, &amp; suae creationis sit 
+      tem<lb ed="#R" n="43" break="no"/>pus medium: ergo in tempore illo lapis fibi 
+      <lb ed="#R" n="44"/>dimissus durauit.
+   </p>
+               <p xml:id="olm8ij-f13487-d1e642">
+                  <lb ed="#R" n="45"/>Respondeo, &amp; ad probationem dico, quod 
+      <lb ed="#R" n="46"/>cederet in nihilum, non in eodem instanti, quo 
+      <lb ed="#R" n="47"/>creatus est, quia in eodem instanti inessent sibi 
+      <lb ed="#R" n="48"/>contradictoria, nec in instanti immediate, quia 
+      <lb ed="#R" n="49"/>non est immediatum instanti: ergo nec 
+      instan<lb ed="#R" n="50" break="no"/>ti, inter quod, &amp; primum instans sit tempus 
+      <lb ed="#R" n="51"/>medium: sed pono sic, quod lapis habebit esse 
+      <lb ed="#R" n="52"/>tantum per instans, sicut sua creatio fuit per, 
+      in<lb ed="#R" n="53" break="no"/>stans, &amp; in toto tempore sequenti Deus 
+      sub<lb ed="#R" n="54" break="no"/>trahet actionem, &amp; ideo pro toto tempore sequen 
+      <lb ed="#R" n="55"/>ti, lapis non habet esse: ergo lapis habet esse ex 
+      <lb ed="#R" n="56"/>se, sine actione diuina, quia instanti illo, in quo 
+      <lb ed="#R" n="57"/>ponitur tantum esse, est actio diuina.
+  </p>
+               <p xml:id="olm8ij-f13487-d1e673">
+                  <lb ed="#R" n="58"/>Dices, adhuc manet difficultas argumenti, 
+      <lb ed="#R" n="59"/>quia concedo, quod pro toto tempore sequenti 
+      <lb ed="#R" n="60"/>Deus subtrahat actionem suam: ego tamen 
+      <lb ed="#R" n="61"/>quaero de mensura eius subtractionis, non 
+      vi<lb ed="#R" n="62" break="no"/>detur, quod illa sit totum tempus sequens, quia 
+      <lb ed="#R" n="63"/>sicut potentia actionis est instantanea, non men 
+      <lb ed="#R" n="64"/>suratur toto tempore, sed aliquo instanti; sic 
+      <lb ed="#R" n="65"/>videtur esse de subtractione actionis, &amp; tunc 
+      <lb ed="#R" n="66"/>resat quaerere, quod instans est illud, vt prius. 
+  </p>
+               <p xml:id="olm8ij-f13487-d1e695">
+                  <lb ed="#R" n="67"/>Respondeo. Dico, quod subtractio actionis 
+      <!--0029.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>non oportet, quod mensuretur aliquo instanti; 
+      <lb ed="#R" n="69"/>talia enim non habent realem mensuram, quia 
+      <lb ed="#R" n="70"/>non entia nulla reali mensura mensurantur. 
+      <lb ed="#R" n="71"/>Subtractio enim actionis diuinae non est per 
+      <lb ed="#R" n="72"/>aliquam actionem mediam: sed est pura 
+      priua<lb ed="#R" n="73" break="no"/>tio, &amp; dimissio actionis, ideo est pura non actio. 
+   </p>
+               <p xml:id="olm8ij-f13487-d1e718">
+                  <lb ed="#R" n="74"/>Tertium dubium est, quia si Creatura 
+      indi<lb ed="#R" n="75" break="no"/>geret conseruante, hoc esset, quia relicta sibi ce 
+      <lb ed="#R" n="76"/>deret in nihilum: sed hoc est impossibile. 
+      Pro<lb ed="#R" n="77" break="no"/>bo. Magis repugnant ens, &amp; nihilum, quam 
+      <lb ed="#R" n="78"/>albedo, &amp; nigredo: sed impossibile est, quod 
+      <lb ed="#R" n="79"/>albedo sibi relicta cedat in nigredinem: ergo 
+      <lb ed="#R" n="80"/>impossibile est, quod aliquod ens relictum sibi 
+      <lb ed="#R" n="81"/>cedat in nihilum. 
+   </p>
+               <p xml:id="olm8ij-f13487-d1e738">
+                  <lb ed="#R" n="82"/>Responsio. Tota difficultas est haec: quoniam 
+      <lb ed="#R" n="83"/>valde inimaginabile estt, quod Creatura 
+      anni<lb ed="#R" n="84" break="no"/>hiletur. Si enim esset aliquod subsistens, quod 
+      <lb ed="#R" n="85"/>existens sub vno opposito fieret, &amp; postea sub 
+      <lb ed="#R" n="86"/>alio, non esset difficultas: sed tenendo, quod 
+      <lb ed="#R" n="87"/>non remaneat subsistens, videtur, quod sit 
+      <lb ed="#R" n="88"/>repugnantia Creaturae ad annihilationem 
+      sal<lb ed="#R" n="89" break="no"/>tem de secundo modo. Dico tunc, quod quia 
+      <lb ed="#R" n="90"/>Creatura continue dependet a Deo, &amp; eius 
+      <lb ed="#R" n="91"/>conseruatione: remota autem causa 
+      remoue<lb ed="#R" n="92" break="no"/>tur effectus: ergo remota conseruatione 
+      di<lb ed="#R" n="93" break="no"/>uina remouetur Creatura, quod idem est, 
+      <lb ed="#R" n="94"/>quod cedere in nihilum, quare Creatura hoc 
+      <lb ed="#R" n="95"/>modo non est impossibile, immo est necesse, 
+      <lb ed="#R" n="96"/>quod cedat in nihilum. 
+   </p>
+               <p xml:id="olm8ij-f13487-d1e773">
+                  <lb ed="#R" n="97"/>Ad illud, quod dicitur, quod vnum 
+      opposi<lb ed="#R" n="98" break="no"/>tum non cedat in aliud. Concedo, quod hoc est 
+      <lb ed="#R" n="99"/>inintelligibile: sed tamen non impossibile Deo. 
+   </p>
+               <p xml:id="olm8ij-f13487-d1e782">
+                  <lb ed="#R" n="100"/>Ad argumentum in oppositum dico, quod 
+      <lb ed="#R" n="101"/>artificialia non conseruant se ipsa, sed 
+      conser<lb ed="#R" n="102" break="no"/>uantur per dispositionem materiae, vt per 
+      duri<lb ed="#R" n="103" break="no"/>tiem; totum tamen reducitur in conseruationem 
+      <lb ed="#R" n="104"/>alicuius, quod primo, &amp; immediate Deus 
+      con<lb ed="#R" n="105" break="no"/>seruet, puta materiae, &amp; caeli. 
+   </p>
+            </div>
+            <div xml:id="olm8ij-f13487-Dd1e799">
+               <head xml:id="olm8ij-f13487-Hd1e801">Articulus 2</head>
+               <head xml:id="olm8ij-f13487-Hd1e803" type="question-title">
+      Utrum creatio &amp; conseruatio sint eadem 
+      actio
+    </head>
+               <p xml:id="olm8ij-f13487-d1e806">
+                  <lb ed="#R" n="106"/>ARTJCVLVS II. 
+      <lb ed="#R" n="107"/>Vtrum creatio &amp; conseruatio sint eadem 
+      <lb ed="#R" n="108"/>actio. 
+   </p>
+               <p xml:id="olm8ij-f13487-d1e815">
+                  <lb ed="#R" n="109"/>AD secundam quaestionem arguo primo; 
+      <lb ed="#R" n="110"/>quod creatio creaturae, &amp; eius 
+      conserua<lb ed="#R" n="111" break="no"/>tio sunt realiter eadem, quia inter duos termi 
+      <lb ed="#R" n="112"/>nos vniformiter se habentes, &amp; penes eadem 
+      <lb ed="#R" n="113"/>fundamenta, non videtur, quod possit esse nisi 
+      <lb ed="#R" n="114"/>vna habitudo, sicut non est nisi vna similitudo 
+      <lb ed="#R" n="115"/>inter duo alba; sed in primo instanti creator, 
+      <lb ed="#R" n="116"/>&amp; creatura se habent vniformiter, &amp; ex parte 
+      <lb ed="#R" n="117"/>ipsorum, vt termini sunt, &amp; ex parte 
+      funda<lb ed="#R" n="118" break="no"/>mentorum in primo stanti, &amp; in toto tempore 
+      <lb ed="#R" n="119"/>prius: ergo creatio ad Deum in primo 
+      instan<lb ed="#R" n="120" break="no"/>ti, &amp; in toto tempore, non est nisi vnica 
+      habitu<lb ed="#R" n="121" break="no"/>do: sed in primo instanti habitudo media 
+      in<lb ed="#R" n="122" break="no"/>ter creaturam, &amp; Deum est creatio, in toto 
+      <lb ed="#R" n="123"/>alio tempore est conseruatio: ergo creatio, &amp; 
+      <lb ed="#R" n="124"/>conseruatio sunt eadem operatio, &amp; eadem 
+      <lb ed="#R" n="125"/>habitudo. 
+   </p>
+               <p xml:id="olm8ij-f13487-d1e854">
+                  <lb ed="#R" n="126"/>In oppositum est: quia quando aliqua duo 
+      <lb ed="#R" n="127"/>sunt idem realiter, quamdiu manet vnum, 
+      ma<lb ed="#R" n="128" break="no"/>net alterum: sed quando manet conseruatio, non 
+      <lb ed="#R" n="129"/>manet creatio: quia in toto tempore post 
+      pri<lb ed="#R" n="130" break="no"/>mum instans creatura conseruatur, &amp; non 
+      <lb ed="#R" n="131"/>creatur: ergo.
+   </p>
+               <p xml:id="olm8ij-f13487-d1e871">
+      <!--0030.xml-->
+                  <pb ed="#R" n="30"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Respondeo in ista quaestione. Primo ponam 
+      <lb ed="#R" n="2"/>quasdam Propositiones. Secundo mouebo quaedam 
+      <lb ed="#R" n="3"/>dubia. Primo pono Propositionem istam, quod 
+      <lb ed="#R" n="4"/>crea tio, &amp; conseruatio sunt operationes reali 
+      <lb ed="#R" n="5"/>ter distinctae. Hanc propositionem pono 
+      pro<lb ed="#R" n="6" break="no"/>pter opinionem quandam, quae dicit, quod 
+      crea<lb ed="#R" n="7" break="no"/>tio, &amp; conseruatio sunt eadem habitudo, &amp; per 
+      <lb ed="#R" n="8"/>consequens e adem operatio. Hanc opinionem 
+      <lb ed="#R" n="9"/>fulciam aliquibus rationibus. 
+   </p>
+               <p xml:id="olm8ij-f13487-d1e900">
+                  <lb ed="#R" n="10"/>Primo sic. Creatio sub ratione, qua creatio 
+      <lb ed="#R" n="11"/>conseruat: ergo creatio sub ratione, qua 
+      crea<lb ed="#R" n="12" break="no"/>tio, est conseruatio. Antecedens probo per 
+      Au<lb ed="#R" n="13" break="no"/>gustinum 8. sup. Genes. ad litteram, cap. 12. 
+      cir<lb ed="#R" n="14" break="no"/>ca medium, qui dicit: Aer praesente lumine non 
+      <lb ed="#R" n="15"/>factus est lucidus, sed fit lucidus: &amp; per 
+      Aui<lb ed="#R" n="16" break="no"/>cennam, qui dicit: Creatura indiget datore 
+      <lb ed="#R" n="17"/>sui esse semper, &amp; incessabiliter, quam diu 
+      ha<lb ed="#R" n="18" break="no"/>bet esse. Consequentiam probant: quia 
+      eius<lb ed="#R" n="19" break="no"/>dem effectus ad idem efficiens non videtur esse, 
+      <lb ed="#R" n="20"/>nisi vna dependentia essentialis, &amp; eiusdem 
+      effi<lb ed="#R" n="21" break="no"/>cientis ad eundem effectum non nisi vnica actio.
+   </p>
+               <p xml:id="olm8ij-f13487-d1e929">
+                  <lb ed="#R" n="22"/>Confirmatur per Augustinum de ciuit. Dei, 
+      <lb ed="#R" n="23"/>qui dicit: &amp; si potentiam suam, vt ita dicam, 
+      <lb ed="#R" n="24"/>fabricatiuam rebus subtrahat, infra non erunt, 
+      <lb ed="#R" n="25"/>sicut antequam fierent non sunt: sed potentia 
+      <lb ed="#R" n="26"/>fabricatiua est potentia creatiua, vnde ante 
+      <lb ed="#R" n="27"/>ea vocauerat eam potentiam, qua creauit 
+      cae<lb ed="#R" n="28" break="no"/>lum, &amp; terram. 
+  </p>
+               <p xml:id="olm8ij-f13487-d1e947">
+                  <lb ed="#R" n="29"/>Secundo, quia idem est creatum, &amp; 
+      conser<lb ed="#R" n="30" break="no"/>uatum: ergo eadem actio, &amp; conseruatio. 
+      An<lb ed="#R" n="31" break="no"/>tecedens patet de se, consequentiam probat: 
+      <lb ed="#R" n="32"/>quia operationes capiunt distinctionem, &amp; 
+      idem<lb ed="#R" n="33" break="no"/>titatem ex terminis. Dicunt ergo isti, quod 
+      <lb ed="#R" n="34"/>creatio, &amp; conseruatio dicunt omnino eandē 
+      <lb ed="#R" n="35"/>habitudinem; sed tamen differunt in ordine 
+      <lb ed="#R" n="36"/>ad connotata: quia creatio dicit 
+      acceptio<lb ed="#R" n="37" break="no"/>nem esse; tamen connotat immediatum 
+      non<lb ed="#R" n="38" break="no"/>esse praecedens; sed conseruatio dicit eandem. 
+      <lb ed="#R" n="39"/>acceptionem esse continuatam sine tali ordine 
+      <lb ed="#R" n="40"/>ad non esse praecedens. 
+   </p>
+               <p xml:id="olm8ij-f13487-d1e976">
+                  <lb ed="#R" n="41"/>Hanc propositionem non capio, ideo probo 
+      <lb ed="#R" n="42"/>propositionem propositam contra eam 
+      aliqui<lb ed="#R" n="43" break="no"/>bus rationibus. 
+   </p>
+               <p xml:id="olm8ij-f13487-d1e985">
+                  <lb ed="#R" n="44"/>Primo sic. Viae in terminum, &amp; 
+      manutenen<lb ed="#R" n="45" break="no"/>tia in termino non sunt eaedem propositiones, 
+      <lb ed="#R" n="46"/>nec idem respectus: sed creatio. &amp; conseruatio 
+      <lb ed="#R" n="47"/>se habent, sicut via in terminum, &amp; 
+      manute<lb ed="#R" n="48" break="no"/>nentia in termino, quia creatio deducit ad 
+      <lb ed="#R" n="49"/>esse, conseruatio manutenet in esse: ergo. 
+      Ma<lb ed="#R" n="50" break="no"/>iorem probo exemplo, auctoritate, &amp; ratione: 
+      <lb ed="#R" n="51"/>exemplo, quia leuare lapidem in aere, &amp; 
+      tene<lb ed="#R" n="52" break="no"/>re non sunt idem: Columna potest lapidem 
+      in<lb ed="#R" n="53" break="no"/>aere leuare, similiter non idem, nec ex eadem 
+      <lb ed="#R" n="54"/>causa figura sigilli actiue imprimitur in cera 
+      <lb ed="#R" n="55"/>&amp; conseruatur; conseruatur enim ratione 
+      di<lb ed="#R" n="56" break="no"/>spositionum materiae, quae non sunt actiuae, puta 
+      <lb ed="#R" n="57"/>ratione duriciei, &amp; huiusmodi. 
+   </p>
+               <p xml:id="olm8ij-f13487-d1e1019">
+                  <lb ed="#R" n="58"/>Item secundo auctoritate Philosophi: impossi 
+      <lb ed="#R" n="59"/>bile est simul ire Thebas, &amp; illic esse. 
+   </p>
+               <p xml:id="olm8ij-f13487-d1e1026">
+                  <lb ed="#R" n="60"/>Item ratione, quia mutuo se excludunt. 
+      Ei<lb ed="#R" n="61" break="no"/>enim, cui attribuitur manutenentia, 
+      impossibi<lb ed="#R" n="62" break="no"/>le est, quod attribuatur via: termino enim in 
+      <lb ed="#R" n="63"/>esse accepto, &amp; acquisito attribuitur manutenem 
+      <lb ed="#R" n="64"/>tia, &amp; tamen terminus excludit viam: 
+      Exem<lb ed="#R" n="65" break="no"/>plum est de generatione, &amp; motu, habitibus nã- 
+      <lb ed="#R" n="66"/>que praesentibus cessat motus, &amp; generatio. 
+      <lb ed="#R" n="67"/>Respondetur ad hoc, quod duplex est via. Vna 
+      <!--0030.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>est processus imperfectus imperfecti ad 
+      perfe<lb ed="#R" n="69" break="no"/>ctum, &amp; processus termini a quo ad terminum 
+      <lb ed="#R" n="70"/>ad quem, &amp; talis via est motus. Alia via est 
+      pro<lb ed="#R" n="71" break="no"/>cessus ab agente in passum, &amp; talis via est 
+      gene<lb ed="#R" n="72" break="no"/>ratio illa, &amp; creatio. Huius enim via est 
+      instan<lb ed="#R" n="73" break="no"/>tanea. Prima via non habet terminum 
+      coniun<lb ed="#R" n="74" break="no"/>ctum: secunda vero habet: prima via 
+      praece<lb ed="#R" n="75" break="no"/>dit ratione interminabilitatis, via autem 
+      se<lb ed="#R" n="76" break="no"/>cunda, cum instet in ipsotermino, non plus requi 
+      <lb ed="#R" n="77"/>ritur ad hoc, quod manuteneatur, nisi 
+      habitu<lb ed="#R" n="78" break="no"/>do ipsius termini ad productum. Vnde per hoc, 
+      <lb ed="#R" n="79"/>quod continuatur acceptio esse, esse 
+      vniformi<lb ed="#R" n="80" break="no"/>ter dicetur creatum, &amp; productum 
+      conser<lb ed="#R" n="81" break="no"/>uari. 
+   </p>
+               <p xml:id="olm8ij-f13487-d1e1081">
+                  <lb ed="#R" n="82"/>Sed contra istam responsionem arguo primo, 
+      <lb ed="#R" n="83"/>quod impossibile est, quod continuatio, quae ca 
+      <lb ed="#R" n="84"/>dit super originem, non cedat origo, alias esset 
+      <lb ed="#R" n="85"/>processus in infinitum. Vnde sicut origo non 
+      <lb ed="#R" n="86"/>originatur, sed est illud, quo aliud originatur, 
+      <lb ed="#R" n="87"/>sic non seruatur. Secundo dato, quod 
+      conser<lb ed="#R" n="88" break="no"/>uatio cadit, &amp; super originem, tunc prius 
+      crea<lb ed="#R" n="89" break="no"/>tio conseruabatur, quam creatura: quia 
+      crea<lb ed="#R" n="90" break="no"/>tura hoc modo conseruabit per conseruationē 
+      <lb ed="#R" n="91"/>creationem. Tertio, quia non euadit 
+      difficul<lb ed="#R" n="92" break="no"/>tatem, dato enim, quod conseruatio cadat 
+      su<lb ed="#R" n="93" break="no"/>per originem, quaeram: Vtrum creatum 
+      con<lb ed="#R" n="94" break="no"/>seruetur sola creatione nullo addito, vel aliquo 
+      <lb ed="#R" n="95"/>addito: non sola: ergo. Quarto, quia licet vra 
+      <lb ed="#R" n="96"/>instantanea, &amp; terminus sint simul in eodem 
+      <lb ed="#R" n="97"/>stanti duratione, tamen stanti aliquo signabili 
+      <lb ed="#R" n="98"/>vnum excludit aliud: productum enim 
+      instan<lb ed="#R" n="99" break="no"/>ti aliquo signabili est sub opposito originis, 
+      <lb ed="#R" n="100"/>quia sub esse. 
+   </p>
+               <p xml:id="olm8ij-f13487-d1e1125">
+                  <lb ed="#R" n="101"/>Secunda ratio est ad quaestionem 
+      principali<lb ed="#R" n="102" break="no"/>ter ista. Illud, quod quantum est de se, non 
+      ha<lb ed="#R" n="103" break="no"/>bet, quod sit, nisi per instans, eo quod non 
+      po<lb ed="#R" n="104" break="no"/>test creatura conseruari, alias conseruaretur 
+      si<lb ed="#R" n="105" break="no"/>ne eo, quod habet formaliter conseruari: ergo 
+      <lb ed="#R" n="106"/>si productio, quantum est ex se, non habet, quod 
+      <lb ed="#R" n="107"/>duret, nisi per instans, oportet quod productum 
+      <lb ed="#R" n="108"/>sit est in tempore sequenti, quod sit alia via, &amp; 
+      <lb ed="#R" n="109"/>alia positione agentis, quae non transit in 
+      in<lb ed="#R" n="110" break="no"/>stans. Hinc est, quod quia productio in 
+      diui<lb ed="#R" n="111" break="no"/>nis ex propria natura habet, quod duret ex se, 
+      <lb ed="#R" n="112"/>&amp; mensuratur aeternitate, ideo non indiget 
+      ter<lb ed="#R" n="113" break="no"/>minus aliqua manutenentia, &amp; conseruatione: 
+      <lb ed="#R" n="114"/>sed creatio &amp; vniuersaliter omnis productio in 
+      <lb ed="#R" n="115"/>creaturis ex se non habet, quod duret, nisi per 
+      <lb ed="#R" n="116"/>instans; da enim, quod haberet ex se, quod 
+      du<lb ed="#R" n="117" break="no"/>raret prius instans, non posset Deus annullare 
+      <lb ed="#R" n="118"/>productum immediate post primum instans. 
+   </p>
+               <p xml:id="olm8ij-f13487-d1e1167">
+                  <lb ed="#R" n="119"/>Confirmo, quia si haberet, quod duraret ex 
+      <lb ed="#R" n="120"/>se sine aliqua manutenentia, esset ex se necesse 
+      <lb ed="#R" n="121"/>esse, quia illud est ex se necesse esse, quod habet 
+      <lb ed="#R" n="122"/>ex se, quod duret quocunque alio 
+      circumscri<lb ed="#R" n="123" break="no"/>pto: ergo si productum conseruetur prius 
+      in<lb ed="#R" n="124" break="no"/>stans, necessario oportet, quod aliqua via, &amp; 
+      <lb ed="#R" n="125"/>alia positione.
+   </p>
+               <p xml:id="olm8ij-f13487-d1e1185">
+                  <lb ed="#R" n="126"/>Secunda Propositio est, quod conseruatio non 
+      <lb ed="#R" n="127"/>est realiter idem quod conseruatum, probatur 
+      <lb ed="#R" n="128"/>per easdem rationes, quibus probatur supra de 
+      <lb ed="#R" n="129"/>creatione, quod differat a creatura. 
+  </p>
+               <p xml:id="olm8ij-f13487-d1e1197">
+                  <lb ed="#R" n="130"/>Nunc tertio pono difficultates, &amp; prima est, 
+      <lb ed="#R" n="131"/>quod non oportet plus ponere in 
+      conseruatio<lb ed="#R" n="132" break="no"/>ne creaturae a Deo, quam ponatur in 
+      conserua<lb ed="#R" n="133" break="no"/>tione effectus a sua causa inferiori creata: sed 
+      <lb ed="#R" n="134"/>aliae causae inferiores conseruant effectus suos 
+      <!--0031.xml-->
+      <pb ed="#R" n="31"/>
+                  <cb ed="#R" n="a"/>
+                  <!-- left off 3/26 -->
+                  <lb ed="#R" n="1"/>continuando suam causalitatem, vt patet de 
+      <lb ed="#R" n="2"/>Sole conseruante lumen in medio, quare, &amp; c. 
+   </p>
+               <p xml:id="olm8ij-f13487-d1e1223">
+                  <lb ed="#R" n="3"/>Secundo sic. Duae operationes non habent 
+      <lb ed="#R" n="4"/>eundem terminum, maxime si quaelibet 
+      totali<lb ed="#R" n="5" break="no"/>ter vel altera totaliter ponat in esse ipsum 
+      ope<lb ed="#R" n="6" break="no"/>ratum: ergo si creatio, &amp; conseruatio differunt, 
+      <lb ed="#R" n="7"/>sunt duae operationes cum creatione, creatura 
+      <lb ed="#R" n="8"/>capit totale, &amp; totaliter esse, non poterunt crea 
+      <lb ed="#R" n="9"/>tio, &amp; conseruatio esse respectu eiusdem 
+      termi<lb ed="#R" n="10" break="no"/>ni: ergo conseruatio habebit aliud operatum 
+      <lb ed="#R" n="11"/>a creatione, quaero ergo, quid est illud, non res 
+      <lb ed="#R" n="12"/>ipsa in se, quia ipse est terminus creationis, nec 
+      <lb ed="#R" n="13"/>accidens aliud, quia continuatio, &amp; 
+      conserua<lb ed="#R" n="14" break="no"/>tio accidentis non est conseruatio subiecti, sed e 
+      <lb ed="#R" n="15"/>conuerso; conseruatio ergo &amp; creatio sunt 
+      re<lb ed="#R" n="16" break="no"/>spectu eiusdem termini producti, &amp; operati: ergo 
+      <lb ed="#R" n="17"/>sunt eadem operatio. 
+   </p>
+               <p xml:id="olm8ij-f13487-d1e1258">
+                  <lb ed="#R" n="18"/>Tertio sic: Omne quod capit de nouo esse 
+      an<lb ed="#R" n="19" break="no"/>te est terminus productionis, aut est illud, quo 
+      <lb ed="#R" n="20"/>res capit esse, vt productione. Omne enim ens no 
+      <lb ed="#R" n="21"/>uum, vel ponitur in esse per productionem 
+      no<lb ed="#R" n="22" break="no"/>uam, vel est illud, quo res de nouo ponitur in 
+      <lb ed="#R" n="23"/>esse. Actio, &amp; passio habent nouum esse, quia 
+      <lb ed="#R" n="24"/>sunt id, quo aliquid capit nouum esse. Vnde 
+      <lb ed="#R" n="25"/>haec est manifesta per se, quod quicquid de non 
+      <lb ed="#R" n="26"/>esse exit ad esse, vel est ipsum esse rei productae, 
+      <lb ed="#R" n="27"/>vel est acceptio esse ipsius rei productae; sed 
+      <lb ed="#R" n="28"/>conseruatio non est ipsa res capiens esse, nec 
+      <lb ed="#R" n="29"/>est acceptio esse rei, qua res capit esse, quia 
+      <lb ed="#R" n="30"/>tunc esset creatio: ergo conseruatio, vt 
+      distin<lb ed="#R" n="31" break="no"/>guitur a creatione, non exit aliquo modo de non 
+      <lb ed="#R" n="32"/>esse ad esse: ergo non est aliquid in creatura 
+      dif<lb ed="#R" n="33" break="no"/>ferens a creatione. 
+   </p>
+               <p xml:id="olm8ij-f13487-d1e1295">
+                  <lb ed="#R" n="34"/>Confirmo hoc, quia conseruatio non est 
+      ope<lb ed="#R" n="35" break="no"/>ratio differens a creatione, non est prior creâ
+      tio<lb ed="#R" n="36" break="no"/>ne, patet de se, nec simul natura, alias non 
+      pos<lb ed="#R" n="37" break="no"/>set res creari, &amp; non conseruari: ergo est 
+      poste<lb ed="#R" n="38" break="no"/>rior creatione. Quaero tunc, quomodo in isto 
+      <lb ed="#R" n="39"/>posteriori signo realitas conseruationis exit de 
+      <lb ed="#R" n="40"/>non esse ad esse: non potest dici, quod exeat. 
+      <lb ed="#R" n="41"/>ad esse, sicut per se terminus productionis, nec 
+      <lb ed="#R" n="42"/>sicut terminus productionis subiecti, scilicer rei 
+      <lb ed="#R" n="43"/>creatae per accidens, vt videlicet perducatur ad 
+      <lb ed="#R" n="44"/>producttionem eius per modum sequelae, eo 
+      mo<lb ed="#R" n="45" break="no"/>do, quo respectus producitur ad productionem 
+      <lb ed="#R" n="46"/>sundamenti. Tunc enim realitas fundationis 
+      de<lb ed="#R" n="47" break="no"/>penderet a subiecto, scilicet a re creata, &amp; tunc 
+      <lb ed="#R" n="48"/>esset circulus in dependentibus essentialiter. 
+   </p>
+               <p xml:id="olm8ij-f13487-d1e1330">
+                  <lb ed="#R" n="49"/>Quarto ad idem arguit quidam Doctor sic. 
+      <lb ed="#R" n="50"/>Jmpossibile est effectum aliquem duplici 
+      depen<lb ed="#R" n="51" break="no"/>dentia a creatura vna vnius generis causalitatis 
+      <lb ed="#R" n="52"/>dependere, &amp; hoc totaliter, da enim oppositum. 
+      <lb ed="#R" n="53"/>Tunc nulla illarum dependentiarum esset 
+      essen<lb ed="#R" n="54" break="no"/>tialis, quia quacumque illarum circumscripta, 
+      <lb ed="#R" n="55"/>adhuc effectus poterit remanere dependens in 
+      <lb ed="#R" n="56"/>eodem genere causalitatis: sed si creatio esset 
+      <lb ed="#R" n="57"/>habitudo, alia a conseruatione, cum per 
+      vtrum<lb ed="#R" n="58" break="no"/>que res dependeret essentialiter a Deo, vt a cau 
+      <lb ed="#R" n="59"/>sa efficiente, sequitur quod idem effectus 
+      depen<lb ed="#R" n="60" break="no"/>debat a Deo duplici dependentia cau salitatis 
+      <lb ed="#R" n="61"/>eiusdem rationis, scilicet in genere causae 
+      effi<lb ed="#R" n="62" break="no"/>cientis: ergo. 
+   </p>
+               <p xml:id="olm8ij-f13487-d1e1363">
+                  <lb ed="#R" n="63"/>Quinto sic. Eiusdem termini ad eundem 
+      ter<lb ed="#R" n="64" break="no"/>minum non potest esse relatio, nisi vna 
+      eius<lb ed="#R" n="65" break="no"/>dem modi relationum, &amp; hoc secundum idem 
+      <lb ed="#R" n="66"/>fundamentum, vnde licet caloris producentis 
+      <lb ed="#R" n="67"/>ad calorem productum sit duplex relatio primi 
+      <!--0031.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>modi, vel duplex secundi: sed si creatio, &amp; 
+      con<lb ed="#R" n="69" break="no"/>seruatio sint duae habitudines, quaelibet partium ad 
+      <lb ed="#R" n="70"/>secundum modum, pater de se, quod quaelibet 
+      ea<lb ed="#R" n="71" break="no"/>rum habet eosdem terminos, puta Deum, &amp; 
+      <lb ed="#R" n="72"/>creaturam, &amp; idem fundamentum, scilicet entita 
+      <lb ed="#R" n="73"/>tem creaturae: quare. 
+    </p>
+               <p xml:id="olm8ij-f13487-d1e1395">
+                  <lb ed="#R" n="74"/>Sexto ad idem, quia vnius potentiae in 
+      or<lb ed="#R" n="75" break="no"/>dine ad eundem terminum non videtur esse 
+      pos<lb ed="#R" n="76" break="no"/>se nisi vnus actus. Vnde sicut potentia ad 
+      po<lb ed="#R" n="77" break="no"/>tentiam, sic actio ad actionem: sed potentia 
+      <lb ed="#R" n="78"/>creatiua, &amp; conseruatiua est eadem potentia 
+      <lb ed="#R" n="79"/>Hoc patet per Augustinum lib. 4. super Genes. 
+      <lb ed="#R" n="80"/>ad literam cap. 1a. qui dicit, quod si potentiam 
+      <lb ed="#R" n="81"/>fabricatiuam, idest creatiuam, Deus 
+      subtrahe<lb ed="#R" n="82" break="no"/>ret a rebus, redirent res in nihilum, quod non 
+      <lb ed="#R" n="83"/>esset; nisi potentia creatiua esset potentia 
+      con<lb ed="#R" n="84" break="no"/>seruatiua. Maior autem istius rationis patet: 
+      <lb ed="#R" n="85"/>quia potentiae distinguuntur per actus proprios: 
+      <lb ed="#R" n="86"/>quod est, quia quaelibet potentia videtur habere 
+      <lb ed="#R" n="87"/>actum vnum adaequatum. 
+   </p>
+               <p xml:id="olm8ij-f13487-d1e1428">
+                  <lb ed="#R" n="88"/>Septimo sic. Si conseruatio es res aliqua 
+      di<lb ed="#R" n="89" break="no"/>stincta a creatione, &amp; creatura necessario 
+      indi<lb ed="#R" n="90" break="no"/>get conseruari a Deo: ergo aut manutenentia 
+      <lb ed="#R" n="91"/>aliqua, &amp; sic procedetur in infinitum, aut se 
+      ip<lb ed="#R" n="92" break="no"/>sa, &amp; sic standum fuit in primum, scilicet in creaturã: 
+   </p>
+               <p xml:id="olm8ij-f13487-d1e1441">
+                  <lb ed="#R" n="93"/>Si dicas, quod sufficit non suspendere 
+      respe<lb ed="#R" n="94" break="no"/>ctu alicuius manutenentiae, &amp; ideo non indiget 
+      <lb ed="#R" n="95"/>manutenentia aliqua; pari ratione sufficeret non 
+      <lb ed="#R" n="96"/>suspendere creationem, &amp; sic conseruabitur 
+      <lb ed="#R" n="97"/>creatione. 
+   </p>
+               <p xml:id="olm8ij-f13487-d1e1454">
+                  <lb ed="#R" n="98"/>Propter istas rationes volunt quidam dicere, 
+      <lb ed="#R" n="99"/>quod creatio, &amp; conseruatio quantum ad illud, 
+      <lb ed="#R" n="100"/>quod important in recto, dicunt eandem 
+      reali<lb ed="#R" n="101" break="no"/>tatem omnino. sed eorum dictum accipitur 
+      to<lb ed="#R" n="102" break="no"/>taliter ab extrinfeco secundum diuersa connotata; 
+      <lb ed="#R" n="103"/>vt sic creatio sit dependentia creaturae ad Deum, 
+      <lb ed="#R" n="104"/>sicut ad efficiens, in quantum connotat non esse 
+      <lb ed="#R" n="105"/>res procedens, &amp; primum aut res primo est: sed 
+      <lb ed="#R" n="106"/>conseruatio connotat instantia posteriora, in 
+      <lb ed="#R" n="107"/>quibus intelligitur res iam esse, &amp; per hoc 
+      sequi<lb ed="#R" n="108" break="no"/>tur euadere multas rationes contra eos 
+      possibi<lb ed="#R" n="109" break="no"/>les fieri. 
+   </p>
+               <p xml:id="olm8ij-f13487-d1e1483">
+                  <lb ed="#R" n="110"/>Si enim dicatur, quod creatio est in primo 
+      in<lb ed="#R" n="111" break="no"/>stanti, sed conseruatio praesupponit primum esse, 
+      <lb ed="#R" n="112"/>&amp; mensuratur instantibus posterioribus. 
+      Re<lb ed="#R" n="113" break="no"/>spondent, quod hoc non argnit differentiam, nisi in 
+      <lb ed="#R" n="114"/>connotatis: &amp; si dicatur quod origo 
+      praeintelli<lb ed="#R" n="115" break="no"/>gitur ipsi realitati, respondent, quod hoc est 
+      <lb ed="#R" n="116"/>verum quoad connotata. 
+   </p>
+               <p xml:id="olm8ij-f13487-d1e1501">
+                  <lb ed="#R" n="117"/>Si vero dicatur tertio, quod de eo, de quo 
+      <lb ed="#R" n="118"/>verificatur conseruatio, non verificatur creatio; 
+      <lb ed="#R" n="119"/>quia illud, quod est, possibile est conseruari, sed 
+      <lb ed="#R" n="120"/>quod non est, impossibile est conseruari, tamen 
+      <lb ed="#R" n="121"/>possibile est creari. 
+   </p>
+               <p xml:id="olm8ij-f13487-d1e1515">
+                  <lb ed="#R" n="122"/>Respondent, quod ista diuersa denominatio 
+      <lb ed="#R" n="123"/>est ratione diuersorum connotatorum, sic 
+      re<lb ed="#R" n="124" break="no"/>spondent ad consimilia multa, quae contra eos 
+      <lb ed="#R" n="125"/>inducuntur. Sed ista opinio(vt mihi videtur) non 
+      <lb ed="#R" n="126"/>habet solidum fundamentum, &amp; per consequens 
+      <lb ed="#R" n="127"/>rationes praedictae non soluuntur, &amp; improbo 
+      <lb ed="#R" n="128"/>istam opinionem quo ad hoc, quod dicit, quod 
+      <lb ed="#R" n="129"/>creatio, &amp; conseruatio in recto dicunt eandem 
+      <lb ed="#R" n="130"/>realitatem. Primo sic. Creatio in recto, &amp; 
+      se<lb ed="#R" n="131" break="no"/>cundum suam rationem sormalem est acceptio 
+      <lb ed="#R" n="132"/>esse ipsius rei: sed conseruatio in recto non 
+      po<lb ed="#R" n="133" break="no"/>test esse acceptio esse ipsius rei, imo ei repugnat, 
+      <lb ed="#R" n="134"/>ergo. 
+      <!--0032.xml-->
+      <pb ed="#R" n="32"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Maior nota est, quia creatione passiua capit 
+      <lb ed="#R" n="2"/>esse formaliter, sicut lignum albedine est album 
+      <lb ed="#R" n="3"/>formaliter. Minorem probo, quia re non 
+      incor<lb ed="#R" n="4" break="no"/>rupta, impossibile est, quod eiusdem rei sit alia, 
+      <lb ed="#R" n="5"/>&amp; alia acceptio esse. da enim oppositum. Tunc 
+      <lb ed="#R" n="6"/>sequitur, quod res iam habens esse capiet de 
+      <lb ed="#R" n="7"/>nouo esse, &amp; quod res prius sit, quam accipiat 
+      <lb ed="#R" n="8"/>esse; nam per vnam productionem sufficienter 
+      <lb ed="#R" n="9"/>res capit esse. Si ergo illa transeunte detur 
+      pro<lb ed="#R" n="10" break="no"/>ductio aliqua, remanente ista productione, res, 
+      <lb ed="#R" n="11"/>quae iam est, capit esse, ex quo ponitur fuisse 
+      <lb ed="#R" n="12"/>per productionem primam, &amp; non incorrupta. 
+   </p>
+               <p xml:id="olm8ij-f13487-d1e1578">
+                  <lb ed="#R" n="13"/>Sed eiusdem rei non incorruptae potest esse 
+      <lb ed="#R" n="14"/>alia, &amp; alia, immo in diuersis instantibus 
+      conser<lb ed="#R" n="15" break="no"/>uatio, quod patet: quia pono lumen pro 
+      instan<lb ed="#R" n="16" break="no"/>ti A. conseruari a Sole, idem lumen, immo non 
+      <lb ed="#R" n="17"/>incorruptum, potest conseruari a Deo pro instan 
+      <lb ed="#R" n="18"/>ti B: &amp; certum est, quod non eadem 
+      conserua<lb ed="#R" n="19" break="no"/>tione, nisi ponas, quod eadem sit conseruatio, 
+      <lb ed="#R" n="20"/>&amp; dependentia, quia lumen dependet a Sole, &amp; 
+      <lb ed="#R" n="21"/>a Deo: ergo. 
+   </p>
+               <p xml:id="olm8ij-f13487-d1e1600">
+                  <lb ed="#R" n="22"/>Et confirmo hoc, quia de ratione conseruationis 
+      <lb ed="#R" n="23"/>est, quod sit alia, &amp; alia, immo in alio, &amp; alio 
+      in<lb ed="#R" n="24" break="no"/>stanti. vt infra dicetur, &amp; hoc remanente eadem 
+      <lb ed="#R" n="25"/>re conseruata. Hoc autem repugnat ei realitati, 
+      <!--0032.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="26"/>quae est acceptio esse formaliter, quare 
+      conser<lb ed="#R" n="27" break="no"/>uatio formaliter non est acceptio esse. Vnde 
+      <lb ed="#R" n="28"/>potest confirmari ratio sic, de ratione 
+      produ<lb ed="#R" n="29" break="no"/>ctionis per te, quae est acceptio esse, formaliter 
+      <lb ed="#R" n="30"/>est, quod transeat in instans, &amp; quod aliqua 
+      <lb ed="#R" n="31"/>mora sit in aliquo instanti circa eandem rem 
+      <lb ed="#R" n="32"/>quod est omnino imposibile: sed licet creatio 
+      <lb ed="#R" n="33"/>data transeat in instans, tamen potest reiterari, 
+      <lb ed="#R" n="34"/>&amp; reiteratur de facto in aliquo instanti, 
+      qua<lb ed="#R" n="35" break="no"/>re, &amp; c. 
+   </p>
+               <p xml:id="olm8ij-f13487-d1e1637">
+                  <lb ed="#R" n="36"/>Secundo contra opinionem praedictam 
+      ar<lb ed="#R" n="37" break="no"/>guo: supponit enim falsum, quod productio 
+      con<lb ed="#R" n="38" break="no"/>notet primum instans, vel non esse praecedens; 
+      <lb ed="#R" n="39"/>quia generatio actiua in diuinis non esset vera 
+      <lb ed="#R" n="40"/>productio, &amp; ideo licet creatio connotet 
+      pri<lb ed="#R" n="41" break="no"/>mum instans hoc modo; hoc tamen non habet, 
+      <lb ed="#R" n="42"/>vnde productio est; hoc sibi enim omninoaccidit 
+      <lb ed="#R" n="43"/>productioni: cum ergo creatio in recto sit vera 
+      <lb ed="#R" n="44"/>productio, licet vltra hoc connotet non esse 
+      pri<lb ed="#R" n="45" break="no"/>mum &amp; primum instans; repugnat autem 
+      con<lb ed="#R" n="46" break="no"/>seruationi, quod sit productio: patet ergo, quod 
+      <lb ed="#R" n="47"/>creatio quantum ad illud, quod importat in 
+      re<lb ed="#R" n="48" break="no"/>cto, formaliter non est conseruatio. Ex quibus 
+      <lb ed="#R" n="49"/>patet solutio ad argumenta, &amp; consequentias 
+      <lb ed="#R" n="50"/>inductas in oppositum. 
+   </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

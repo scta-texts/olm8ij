@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-05">April 05, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b2">Roma 1605, Book 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="56"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-f17348"><!-- l2d3-q1 -->
+            <head xml:id="olm8ij-f17348-Hd1e101">Quaestio 1</head>
+            <p xml:id="olm8ij-f17348-d1e103">
+      <!--0056.xml-->
+               <pb ed="#R" n="56"/>
+               <cb ed="#R" n="a"/>
+               <lb ed="#R" n="1"/>QVAESTIO I
+  </p>
+            <p xml:id="olm8ij-f17348-d1e114">
+               <lb ed="#R" n="2"/>1 Prima est. Vtrum in genere substantiarum 
+      <lb ed="#R" n="3"/>intelligibilium sit necesse ponere naturam, 
+      in<lb ed="#R" n="4" break="no"/>qua sit purum possibile in illo genere, &amp; 
+      princi<lb ed="#R" n="5" break="no"/>pium quasi materiale. 
+      <lb ed="#R" n="6"/>2 Secunda est. Vtrum omnes substantiae 
+      sepa<lb ed="#R" n="7" break="no"/>ratae sequendo principium, &amp; intentionem 
+      Phi<lb ed="#R" n="8" break="no"/>losophi sint compositae ex hac natura principali, 
+      <lb ed="#R" n="9"/>&amp; aliquo pure actuali. 
+      <lb ed="#R" n="10"/>3 Tertia quaestio est. Vtrum, loquendo 
+      abso<lb ed="#R" n="11" break="no"/>lute, &amp; secundum fidem, substantiae separatae sint 
+      <lb ed="#R" n="12"/>compositae ex materia, &amp; forma. 
+      <lb ed="#R" n="13"/>4 Quarta quaestio est. Vtrum haec materia, &amp; 
+      <lb ed="#R" n="14"/>haec forma in substantijs separatis sint res 
+      diffe<lb ed="#R" n="15" break="no"/>rens in actu. 
+   </p>
+            <div xml:id="olm8ij-f17348-Dd1e147">
+               <head xml:id="olm8ij-f17348-Hd1e149">Articulus 1</head>
+               <head xml:id="olm8ij-f17348-Hd1e151" type="question-title">
+      Utrum in genere Substantiarum intelligibilium 
+      sit necesse ponere purum possibile in illo 
+      genere, &amp; principium quasi materiale
+    </head>
+               <p xml:id="olm8ij-f17348-d1e154">
+                  <lb ed="#R" n="16"/>ARTJCVLVS J. 
+      <lb ed="#R" n="17"/>Vtrum in genere Substantiarum intelligibilium 
+      <lb ed="#R" n="18"/>sit necesse ponere purum possibile in illo 
+      ge<lb ed="#R" n="19" break="no"/>nere, &amp; principium quasi materiale. 
+   </p>
+               <p xml:id="olm8ij-f17348-d1e165">
+                  <lb ed="#R" n="20"/>QVANTVM ad primam 
+      <lb ed="#R" n="21"/>istam quaestionem arguo 
+      <lb ed="#R" n="22"/>primo, quod in genere 
+      <lb ed="#R" n="23"/>substantiarum intellectua 
+      <lb ed="#R" n="24"/>lium non sit ponere, secun 
+      <lb ed="#R" n="25"/>dum viam Philosophi, &amp; 
+      <lb ed="#R" n="26"/>Commentatoris, 
+      princi<lb ed="#R" n="27" break="no"/>pium aliquod 
+      materiali<lb ed="#R" n="28" break="no"/>ter, &amp; naturam, quae sit purum possibile in illo 
+      <lb ed="#R" n="29"/>genere: Quia impossibile est plures res existere, 
+      <lb ed="#R" n="30"/>quae sint purae potentiae; non enim haberent, quo 
+      <lb ed="#R" n="31"/>distinguerentur, eo quod actus separat, &amp; 
+      distin<lb ed="#R" n="32" break="no"/>guit. 5. Metaph. Sed si ponatur natura talis in ge 
+      <lb ed="#R" n="33"/>nere intellectualium, ponuntur plures res, quae 
+      <lb ed="#R" n="34"/>sunt purae potentiae: ergo. 
+   </p>
+               <p xml:id="olm8ij-f17348-d1e200">
+                  <lb ed="#R" n="35"/>Maior probata est, minor patet; quia 
+      opor<lb ed="#R" n="36" break="no"/>tebit ponere aliquid tale in genere intelligibilium, 
+      <lb ed="#R" n="37"/>quod variet genere, ab illo, quod ponitur in 
+      ge<lb ed="#R" n="38" break="no"/>nere sensibilium, cuius ratio est, quia 
+      quodli<lb ed="#R" n="39" break="no"/>bet eorum est in potentia ad alium, &amp; alium 
+      <lb ed="#R" n="40"/>actum: ergo. 
+   </p>
+               <p xml:id="olm8ij-f17348-d1e217">
+                  <lb ed="#R" n="41"/>In oppositum est Commentator 3. de anima 
+      <lb ed="#R" n="42"/>comm. 18. Pono propositionem vnam, &amp; 
+      ratio<lb ed="#R" n="43" break="no"/>nem ad probandum eam, in qua sustentati sunt 
+      <lb ed="#R" n="44"/>Philosophi, &amp; Comment. tanquam in 
+      demon<lb ed="#R" n="45" break="no"/>stratione, quam crediderunt habere ad istam 
+      <lb ed="#R" n="46"/>Conclusionem per expressas auctoritates 
+      Philo<lb ed="#R" n="47" break="no"/>sophi, &amp; Commentatoris. 
+   </p>
+               <p xml:id="olm8ij-f17348-d1e235">
+                  <lb ed="#R" n="48"/>Quantum ad primam pono illam 
+      Conclusio<lb ed="#R" n="49" break="no"/>nem, quod secundum doctrinam Philosophi, &amp; 
+      <lb ed="#R" n="50"/>Commentatoris, sicut in genere substantiarum 
+      <lb ed="#R" n="51"/>sensibiliũ; sunt tria actu scilicet tres realitates, qua 
+      <lb ed="#R" n="52"/>rum vna est pura potentia, &amp; esse materiae, alia 
+      <lb ed="#R" n="53"/>accidentia ipsius materiae, quae facit eam actu; 
+      <lb ed="#R" n="54"/>&amp; tertio substantiae compositae ex his. Sic per 
+      or<lb ed="#R" n="55" break="no"/>dinem in genere substantiarum intelligibilium, 
+      <lb ed="#R" n="56"/>est aliud, quod est pura potentia, &amp; hoc est 
+      intel<lb ed="#R" n="57" break="no"/>lectus possibilis; &amp; alia, quae est actus, quae 
+      tra<lb ed="#R" n="58" break="no"/>hit illam ad actum, quae est intentio intellecta: 
+      <lb ed="#R" n="59"/>tertium vero, quod componitur ex istis tanquam 
+      <lb ed="#R" n="60"/>ex formali, &amp; materiali, siue ex potentia, &amp; actu. 
+      <!--0056.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="61"/>Ratio eorum, in qua Aristot. &amp; Commentator 
+      <lb ed="#R" n="62"/>videlicet sustentati sunt, est illa, quae ponitur 
+      <lb ed="#R" n="63"/>tertio de anima ab vtroq. Omne recipiens, opor 
+      <lb ed="#R" n="64"/>tet esse denudatum ab eo, quod recipit, &amp; 
+      secun<lb ed="#R" n="65" break="no"/>dum spec iem, &amp; secundum genus proximum: 
+      <lb ed="#R" n="66"/>sed in genere substantiarum intellectualium est 
+      <lb ed="#R" n="67"/>dare aliquid, quod potest recipere omnem 
+      enti<lb ed="#R" n="68" break="no"/>tatem actualem in genere intellectualium. Jllud 
+      <lb ed="#R" n="69"/>autem sic recipiens non est ad actum trahibile, 
+      <lb ed="#R" n="70"/>quare illud esset ens in pura potentia absque 
+      <lb ed="#R" n="71"/>omni actualitate. 
+   </p>
+               <p xml:id="olm8ij-f17348-d1e294">
+                  <lb ed="#R" n="72"/>Maiorem probo ( &amp; quia quidam exponunt 
+      <lb ed="#R" n="73"/>maiorem, quod oportet recipiens in genere 
+      in<lb ed="#R" n="74" break="no"/>tellectualium esse denudatum ab eo, quod 
+      reci<lb ed="#R" n="75" break="no"/>pit, hoc est secundum esse intentionale, recipien 
+      <lb ed="#R" n="76"/>do speciem alicuius, ita quod oportet, quod sit 
+      <lb ed="#R" n="77"/>denudatum ab omni eo, cuius speciem recipit. 
+      <lb ed="#R" n="78"/>hoc patet in exemplo. Oculus enim recipit 
+      co<lb ed="#R" n="79" break="no"/>lores, immo omnes colores traheret ad suum co 
+      <lb ed="#R" n="80"/>lorem; quod patet experientia, quoniam quan 
+      <lb ed="#R" n="81"/>do in oculo fuerit aliquis humor rubeus, omnia 
+      <lb ed="#R" n="82"/>videntur sibi rubea. 
+   </p>
+               <p xml:id="olm8ij-f17348-d1e320">
+                  <lb ed="#R" n="83"/>Dixi etiam; siue realiter, siue intentionaliter, 
+      <lb ed="#R" n="84"/>quia oculus non recipit colorem realiter, sed 
+      in<lb ed="#R" n="85" break="no"/>tentionaliter, &amp; per speciem, ideo oportet quod 
+      <lb ed="#R" n="86"/>sit omnino abscolor. Dixi etiam notabiliter, 
+      se<lb ed="#R" n="87" break="no"/>cundum speciem, &amp; secundum genus 
+      propin<lb ed="#R" n="88" break="no"/>quum, quia secundum Commentator. 3. de 
+      ani<lb ed="#R" n="89" break="no"/>ma. comm. 18. licet tactus non sit denudatus a 
+      <lb ed="#R" n="90"/>tangibili, secundum genus remotum, puta ab ar 
+      <lb ed="#R" n="91"/>monia, quae est quaedam qualitas, tamen oportet 
+      <lb ed="#R" n="92"/>quod sit denudatus a genere propinquo, quod est 
+      <lb ed="#R" n="93"/>secundum contrarias qualitates, puta calido, 
+      <lb ed="#R" n="94"/>humido, frigido, &amp; sicco. 
+   </p>
+               <p xml:id="olm8ij-f17348-d1e349">
+                  <lb ed="#R" n="95"/>Nunc secundo etiam probo eandem maiorem 
+      <lb ed="#R" n="96"/>auctoritatibus Philosophi, &amp; Commentatoris. 
+      <lb ed="#R" n="97"/>Commentator enim 3. de anima comm. 7. contra 
+      <lb ed="#R" n="98"/>Auicenn. dicit, quod recipiens aliud non recipit 
+      <lb ed="#R" n="99"/>illud, nisi eo modo, quo caret illo, alias idem 
+      re<lb ed="#R" n="100" break="no"/>ciperet se, &amp; esset causa sui in recipiendo se: &amp; 
+      se<lb ed="#R" n="101" break="no"/>quitur: Aristoteles enim vtitur hoc sermone 
+      <lb ed="#R" n="102"/>communiter, &amp; ad spiritualia vt oculus recipit 
+      <lb ed="#R" n="103"/>colorem, &amp; ad corporalia, vt corpus recipit 
+      <lb ed="#R" n="104"/>colorem. Item 3. de anima dicit, quod in illa 
+      <lb ed="#R" n="105"/>Conclusione Philosoph. sustentatus fuit super 
+      <lb ed="#R" n="106"/>duas Propositiones. Prima est, quod, oportet 
+      re<lb ed="#R" n="107" break="no"/>cipiens esse denudatum a natura recepti, alias idem 
+      <lb ed="#R" n="108"/>esset recipiens, &amp; receptum, mouens, &amp; motum, 
+      <lb ed="#R" n="109"/>&amp; hoc est manifestum per se. Secunda est, quod 
+      <lb ed="#R" n="110"/>non oportet, quod denudetur a natura generis re 
+      <lb ed="#R" n="111"/>moti, sed propinqui. 
+   </p>
+               <p xml:id="olm8ij-f17348-d1e388">
+                  <lb ed="#R" n="112"/>Hanc etiam maiorem probo per talem 
+      ratio<lb ed="#R" n="113" break="no"/>nem: Sicut est impossibile aliter dare formam, 
+      <lb ed="#R" n="114"/>quam habet, sic est impossibile recipere formam, 
+      <lb ed="#R" n="115"/>quam habet &amp; in specie, &amp; in genere propinquo; 
+      <lb ed="#R" n="116"/>in specie quidem, vt si sit album non potest 
+      reci<lb ed="#R" n="117" break="no"/>pere albedinem aliam in genere propinquo: quia 
+      <lb ed="#R" n="118"/>species eiusdem generis propinqui habent 
+      ean<lb ed="#R" n="119" break="no"/>dem potentiam: natura autem, quae recipit, non 
+      <lb ed="#R" n="120"/>est potentia illius, quod recipitur, hoc patet non 
+      <lb ed="#R" n="121"/>tantum in eo, quod recipitur in esse reali, sed etiam 
+      <lb ed="#R" n="122"/>quod recipitur in esse intentionali, quia sicut 
+      al<lb ed="#R" n="123" break="no"/>bedo non potest recipere albedinem, sic nec 
+      spe<lb ed="#R" n="124" break="no"/>ciem albedinis; quia reciperet se in suo simili, &amp; 
+      <lb ed="#R" n="125"/>assimilaretur sibi ipsi: sic patet ergo illa maior 
+      <lb ed="#R" n="126"/>principalis rationis. Sed minor nota est, quia in 
+      <!--0057.xml-->
+      <pb ed="#R" n="57"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>natura intellectuali est aliquid, quod recipit 
+      om<lb ed="#R" n="2" break="no"/>nem entitatem in quantum est actu intellecuali, 
+      <lb ed="#R" n="3"/>&amp; ideo cum attingitur ab intellectu est 
+      intelle<lb ed="#R" n="4" break="no"/>ctualis in actu; omnis autem actualitas est 
+      in<lb ed="#R" n="5" break="no"/>tellectualis: ergo oportet, quod careat omni 
+      <lb ed="#R" n="6"/>actualitate: ergo esset in pura potentia. 
+   </p>
+               <p xml:id="olm8ij-f17348-d1e444">
+                  <lb ed="#R" n="7"/>Secundo principaliter probo conclusionem 
+      <lb ed="#R" n="8"/>principalem auctoritatibus Arist. &amp; 
+      Common<lb ed="#R" n="9" break="no"/>tatoris, &amp; primo per auctoritates Philosophi, 
+      <lb ed="#R" n="10"/>quae aliter non possunt intelligi, ponit autem 
+      <lb ed="#R" n="11"/>Arist. quatuor propositiones, ex quibus 
+      conclu<lb ed="#R" n="12" break="no"/>ditur oppositum expresse. Prima est: sicut se 
+      <lb ed="#R" n="13"/>habet sensus ad sensibilia, sic intellectus ad 
+      in<lb ed="#R" n="14" break="no"/>telligibilia, quod oportet quod sit denudatus a 
+      <lb ed="#R" n="15"/>toto genere sensibilium: ergo sio oportet, quod 
+      <lb ed="#R" n="16"/>intellectus sit denudatus a toto genere 
+      intelligi<lb ed="#R" n="17" break="no"/>bilium: sed omnis actualitas est intelligibilis: 
+      <lb ed="#R" n="18"/>ergo oportet quod sit denudatus ab omni 
+      actua<lb ed="#R" n="19" break="no"/>litate. 
+   </p>
+               <p xml:id="olm8ij-f17348-d1e475">
+                  <lb ed="#R" n="20"/>Secunda propositio sua haec est. Oportet 
+      in<lb ed="#R" n="21" break="no"/>tellectum esse immixtum, &amp;c. &amp; intelligit per 
+      <lb ed="#R" n="22"/>hoc secundum Commentatorem, quod si 
+      intel<lb ed="#R" n="23" break="no"/>lectus habet iudicare de intelligibilibus, oportet 
+      <lb ed="#R" n="24"/>eum esse impermixtum ab istis: sed omnis 
+      actna<lb ed="#R" n="25" break="no"/>litas est iudiciabilis, &amp; potest de illa iudicare 
+      <lb ed="#R" n="26"/>intellectus: ergo oportet intellectum esse 
+      immix<lb ed="#R" n="27" break="no"/>tum omni actualitati.
+   </p>
+               <p xml:id="olm8ij-f17348-d1e495">
+                  <lb ed="#R" n="28"/>Tertia propositio est haec. Oportet 
+      intelle<lb ed="#R" n="29" break="no"/>ctum non vnicam naturam habere, sed oportet 
+      <lb ed="#R" n="30"/>quod sit tantum in potentia. 
+   </p>
+               <p xml:id="olm8ij-f17348-d1e504">
+                  <lb ed="#R" n="31"/>Quarta propositio est. quod intellectus nihil 
+      <lb ed="#R" n="32"/>est eorum, quae sunt ante intelligere: intelligit 
+      <lb ed="#R" n="33"/>hoc de entibus actualibus, de quibus potest 
+      iu<lb ed="#R" n="34" break="no"/>dicare. 
+   </p>
+               <p xml:id="olm8ij-f17348-d1e515">
+                  <lb ed="#R" n="35"/>Secundo induco auctoritates 
+      Commentato<lb ed="#R" n="36" break="no"/>ris. Prima est. 3. de anima, vbi exponens illud 
+      <lb ed="#R" n="37"/>Aristotelis, non habebit naturam, nisi illam 
+      <lb ed="#R" n="38"/>quod sit possibilis intellectus, &amp; materialis. 
+      <lb ed="#R" n="39"/>Dicit Commentator, non habebit naturam 
+      ali<lb ed="#R" n="40" break="no"/>quam nisi possibilitatis, vt denudetur ab 
+      omni<lb ed="#R" n="41" break="no"/>bus formis sensibilibus, &amp; intelligibilibus. Item 
+      <lb ed="#R" n="42"/>eodem comm. 8. Dispositio intellectus 
+      materia<lb ed="#R" n="43" break="no"/>lis: &amp;c. dicit quod est in potentia non in actu 
+      <lb ed="#R" n="44"/>omnium entium, antequam intelligat illa, &amp; 
+      in<lb ed="#R" n="45" break="no"/>sra. Et intellectus possibilis differt a prima 
+      ma<lb ed="#R" n="46" break="no"/>teria in hoc, quod est in potentia ad omnes 
+      po<lb ed="#R" n="47" break="no"/>tentias formarum vniuersalium, materia autem 
+      <lb ed="#R" n="48"/>non. Et ratio, quare materia non est cognoscens, 
+      <lb ed="#R" n="49"/>&amp; distinguens, quia non recipit tales formas. Et 
+      <lb ed="#R" n="50"/>in fine commenti tractans illam quaestionem 
+      <lb ed="#R" n="51"/>quomodo intellectus possibilis est ens, cum non 
+      <lb ed="#R" n="52"/>sit aliqua formarum: dic quod est quartum 
+      ge<lb ed="#R" n="53" break="no"/>nus esse, quia intelligibile esse diuiditur in duo, 
+      <lb ed="#R" n="54"/>quorum vnum est materiale, &amp; aliud actuale. 
+      <lb ed="#R" n="55"/>Forte dicetur ad omnes istas auctoritatos, quod 
+      <lb ed="#R" n="56"/>deceptio est per aequiuocationem, quia cum 
+      <lb ed="#R" n="57"/>Aristoteles dicit, quod non habet aliquam 
+      natu<lb ed="#R" n="58" break="no"/>ram, intelligit quod non habet species 
+      aliquo<lb ed="#R" n="59" break="no"/>rum intelligibilium, quod est sicut tabula 
+      ra<lb ed="#R" n="60" break="no"/>sa: &amp;c. &amp; in hoc respectu illarum specierum est 
+      <lb ed="#R" n="61"/>natura pura potentialis. sed an sit in se natura 
+      <lb ed="#R" n="62"/>actualis, non dicit. Haec expositio fuit Alexandri, 
+      <lb ed="#R" n="63"/>coutra quam arguit Commentator, quod si 
+      Ari<lb ed="#R" n="64" break="no"/>stoteles sic intelligeret, diceret mendacium, 
+      ta<lb ed="#R" n="65" break="no"/>men dicit: Si intel lectus esset aliqua natura in 
+      <lb ed="#R" n="66"/>actu, impediret eum, ne iudicare posset de illa; 
+      <lb ed="#R" n="67"/>sed si in intellectu possent esse species intelligibi- 
+      <!--0057.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>les, non impediretur, quin posset de illis 
+      iudica<lb ed="#R" n="69" break="no"/>re, imo per illas fit in actu primo ad iudicandum 
+      <lb ed="#R" n="70"/>de ipsis. 
+   </p>
+               <p xml:id="olm8ij-f17348-d1e600">
+                  <lb ed="#R" n="71"/>Item Commentator arguit contra 
+      Alexan<lb ed="#R" n="72" break="no"/>drum. Alexander dicebat, quod praeparatio in 
+      <lb ed="#R" n="73"/>intellectu possibili vocatur potentia, &amp; istam 
+      <lb ed="#R" n="74"/>habet puram, sed vltra hoc habet differentem 
+      <lb ed="#R" n="75"/>naturam actualem illam praeparationem: 
+      di<lb ed="#R" n="76" break="no"/>cit Commentator contra Alexandrum, quod 
+      <lb ed="#R" n="77"/>hoc est commune omni rei de mundo, quod illa 
+      <lb ed="#R" n="78"/>praeparatio non est aliquid in actu: ergo si 
+      Ari<lb ed="#R" n="79" break="no"/>stoteles diceret de tali praeparatione, cum dicit, 
+      <lb ed="#R" n="80"/>quod intellectus est pura potentia, esset supersluum 
+      <lb ed="#R" n="81"/>dicere. Cera enim nihil habet de figuris, ad quas 
+      <lb ed="#R" n="82"/>est in potentia, nihil ergo probaret de intellectu, 
+      <lb ed="#R" n="83"/>quod esset pura potentia, &amp; quod dicit vnicam 
+      <lb ed="#R" n="84"/>naturam, vt Aristoteles dicit, si hoc intelligis, &amp; 
+      <lb ed="#R" n="85"/>quod est commune omnibus.
+   </p>
+               <p xml:id="olm8ij-f17348-d1e636">
+                  <lb ed="#R" n="86"/>Item commento 21. dicit, &amp; intellexit ibi 
+      Ari<lb ed="#R" n="87" break="no"/>stoteles, quod natura illa possibilis non 
+      intelli<lb ed="#R" n="88" break="no"/>gitur, nisi quando facta est in actu per 
+      intelle<lb ed="#R" n="89" break="no"/>ctum agentem, sicut materia fit in actu per 
+      for<lb ed="#R" n="90" break="no"/>mam in composito substantiae sensibilis. sed 
+      diffi<lb ed="#R" n="91" break="no"/>cultas vna est hic quantum ad dictum 
+      Com<lb ed="#R" n="92" break="no"/>mentatoris, quia dicit 3. de anima, quod non est 
+      <lb ed="#R" n="93"/>demonstratum: Vtrum intellectus potentialis 
+      <lb ed="#R" n="94"/>de se habeat aliquid. Contra, videtur quod 
+      ha<lb ed="#R" n="95" break="no"/>beat formam, licet non corporalem; vel saltem 
+      <lb ed="#R" n="96"/>non dicit Philosophus oppositum.
+  </p>
+               <p xml:id="olm8ij-f17348-d1e662">
+                  <lb ed="#R" n="97"/>Respondeo. Ille dicit, non est adhuc 
+      proba<lb ed="#R" n="98" break="no"/>tum, quia non putauit, quod posset probari ex 
+      <lb ed="#R" n="99"/>alia ratione, quam ex ista. Tunc ergo non 
+      fue<lb ed="#R" n="100" break="no"/>rat probatum: vtrum per intellectum 
+      intelli<lb ed="#R" n="101" break="no"/>geret substantias separatas, sed probato hoc, 
+      <lb ed="#R" n="102"/>quod postea probauit, quod omnis substantia 
+      <lb ed="#R" n="103"/>separata intelligatur. Nunc probatum est, quod 
+      <lb ed="#R" n="104"/>nullam actualitatem habet intellectus 
+      possibi<lb ed="#R" n="105" break="no"/>lis, qui intelligit illas actualitates, &amp; hoc in 
+      vir<lb ed="#R" n="106" break="no"/>tute istius rationis, Omne recipiens: &amp; c. 
+   </p>
+               <p xml:id="olm8ij-f17348-d1e686">
+                  <lb ed="#R" n="107"/>Ad argumentum in oppositum: respondit 
+      <lb ed="#R" n="108"/>Commentator ad istam rationem assignando 
+      <lb ed="#R" n="109"/>tres differentias inter intellecum possibilem, 
+      <lb ed="#R" n="110"/>&amp; materiam primam. Prima est, quod sicut 
+      to<lb ed="#R" n="111" break="no"/>tum genus sensibilium differt a toto genere 
+      in<lb ed="#R" n="112" break="no"/>telligibilium: sic hac materia ab illa, quia 
+      ma<lb ed="#R" n="113" break="no"/>teria est quoddam ens trahibile ad totum genus 
+      <lb ed="#R" n="114"/>sensibilium, non intellectualium. Intellectus 
+      ve<lb ed="#R" n="115" break="no"/>ro potentialis e contra ad totum genus 
+      intelli<lb ed="#R" n="116" break="no"/>gibilium, non sensibilium. 
+   </p>
+               <p xml:id="olm8ij-f17348-d1e710">
+                  <lb ed="#R" n="117"/>Secunda differentia, quia materia prima ex 
+      <lb ed="#R" n="118"/>toto suo genere determinat sibi vt propriam 
+      <lb ed="#R" n="119"/>passionem trinam dimensionem, &amp; omne 
+      rece<lb ed="#R" n="120" break="no"/>ptum in ea necessario est quantum. Intellectus 
+      <lb ed="#R" n="121"/>autem potentialis separatus est a trina 
+      dimen<lb ed="#R" n="122" break="no"/>sione, ita quod innotescit nobis differentia illa 
+      <lb ed="#R" n="123"/>materiae, &amp; intellectus per proprias passiones. 
+   </p>
+               <p xml:id="olm8ij-f17348-d1e728">
+                  <lb ed="#R" n="124"/>Tertia differentia est ex natura 
+      transmutatio<lb ed="#R" n="125" break="no"/>nis; quia materia prima est illud, quo aliud 
+      re<lb ed="#R" n="126" break="no"/>cipitur cum transmutatione, &amp; cum abiectione 
+      <lb ed="#R" n="127"/>alterius, &amp; hoc accidit sibi ratione trinae 
+      dimen<lb ed="#R" n="128" break="no"/>sionis, quae necessario trahitur ad 
+      determina<lb ed="#R" n="129" break="no"/>tam figuram &amp; exigentiam formae receptae: sed 
+      <lb ed="#R" n="130"/>intellectus possibilis est illud, quo aliquid 
+      reci<lb ed="#R" n="131" break="no"/>pitur sine transmutatione, &amp; abiecttione 
+      ali<lb ed="#R" n="132" break="no"/>cuius. 
+   </p>
+               <p xml:id="olm8ij-f17348-d1e750">
+                  <lb ed="#R" n="133"/>Ad formam igitur argumenti cum dicitur; 
+      <lb ed="#R" n="134"/>Non haberent vnde distinguerentur illae duae 
+      <!--0058.xml-->
+      <pb ed="#R" n="58"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>matoriae, quia solus actus distinguit.
+   </p>
+               <p xml:id="olm8ij-f17348-d1e767">
+                  <lb ed="#R" n="2"/>Respondeo. Vtrumque potest dupliciter 
+      con<lb ed="#R" n="3" break="no"/>siderari, vel secundum respectum possibilitatis, 
+      <lb ed="#R" n="4"/>vel secundum substratum ipsi respectui: 
+      possibi<lb ed="#R" n="5" break="no"/>litas illa est respectus, sed substratum est in 
+      ge<lb ed="#R" n="6" break="no"/>nem substantiae, potentia gerp in actu. 
+      <lb ed="#R" n="7"/>Quaotum igitur ad primum, scilicet ad 
+      respe<lb ed="#R" n="8" break="no"/>ctum possibilitatis nulla est differentia iuter 
+      ma<lb ed="#R" n="9" break="no"/>teriam primam, &amp; intellectum possibilem: 
+      acci<lb ed="#R" n="10" break="no"/>piendo pero substrarum, quod ramen est 
+      intelli<lb ed="#R" n="11" break="no"/>gibile, tsi sub illo respectu, quod tamen est aliud 
+      <lb ed="#R" n="12"/>abaeo, &amp; ab informitate, soilices &amp; a 
+      posubilita<lb ed="#R" n="13" break="no"/>te, tunc habet differentiam, Vnam ab alio, quae 
+      <lb ed="#R" n="14"/>innotescit nobis per praprias passiones, quia 
+      al<lb ed="#R" n="15" break="no"/>xerum sibi determinat trioam dimensionem 
+      <lb ed="#R" n="16"/>aliud non. hoc puto intellexit <name xml:id="olm8ij-f17348-Nd1e801">Doctor antiquus 
+      <lb ed="#R" n="17"/>Bonauentura</name>, qui dicit, quod materia illorum 
+      <lb ed="#R" n="18"/>sensibilium, &amp; intelligibilium non differt 
+      secun<lb ed="#R" n="19" break="no"/>dum quidditatem tamen differt secundum esse, 
+      <lb ed="#R" n="20"/>quia videlicet illa est semper sub trina 
+      dimen<lb ed="#R" n="21" break="no"/>si one, &amp; illa non, 
+   </p>
+            </div>
+            <div xml:id="olm8ij-f17348-Dd1e817">
+               <head xml:id="olm8ij-f17348-Hd1e819">Articulus 2</head>
+               <head xml:id="olm8ij-f17348-Hd1e821" type="question-title">
+      Utrum substantia separata loquendo 
+      secundum viam Philosophi sint compositae ex 
+      illa natura actuali, &amp; 
+      potentiali sine argumentis
+    </head>
+               <p xml:id="olm8ij-f17348-d1e824">
+                  <lb ed="#R" n="22"/>ARTJCVLVS II. 
+      <lb ed="#R" n="23"/>Vtrum substantia separata loquendo 
+      secun<lb ed="#R" n="24" break="no"/>dum viam Philosophi sint compositae ex 
+      <lb ed="#R" n="25"/>illa natura actuali, &amp; 
+      poten<lb ed="#R" n="26" break="no"/>tiali sine argumentis. 
+   </p>
+               <p xml:id="olm8ij-f17348-d1e837">
+                  <lb ed="#R" n="27"/>AD secundam quaestionem respondeo, quod 
+      <lb ed="#R" n="28"/>sola prima forma, quae est Deus, 
+      libera<lb ed="#R" n="29" break="no"/>est ab illa natura potentiali. Omnis autem alia 
+      <lb ed="#R" n="30"/>substantia, siue intelligentia mouens orbem, siue 
+      <lb ed="#R" n="31"/>anima intellectiua participat de natura illa 
+      po<lb ed="#R" n="32" break="no"/>tentiali, &amp; omnes sunt compositae praeter 
+      pri<lb ed="#R" n="33" break="no"/>mam. Immo est intentio eorum, quod si aliqua 
+      <lb ed="#R" n="34"/>natura intellectualis, praeter primam, esset 
+      pri<lb ed="#R" n="35" break="no"/>ma forma absque aliquo possibili, tamen 
+      secun<lb ed="#R" n="36" break="no"/>dum eum intellectio eorum sit sua substantia 
+      <lb ed="#R" n="37"/>Tunc, vel intelliget extra se, quia non haberet, 
+      <lb ed="#R" n="38"/>per quid intelligeret, non enim haberet 
+      possi<lb ed="#R" n="39" break="no"/>bilem intellectum, quo posset recipere 
+      intelle<lb ed="#R" n="40" break="no"/>ctiones aliorum a se, &amp; ideo omnes antiqui ante 
+      <lb ed="#R" n="41"/>Philosophum posuerunt, quod omnes 
+      intelligen<lb ed="#R" n="42" break="no"/>tiae intelligebant alia intelligendo se intelligunt 
+      <lb ed="#R" n="43"/>alia: ita quod non recipit intellectiones 
+      alio<lb ed="#R" n="44" break="no"/>rum, sed intelligit omnia, quia est ens, in quo 
+      <lb ed="#R" n="45"/>continentur omnia eminonter: ergo omnes aliae 
+      <lb ed="#R" n="46"/>substantiae separatae a prima sunt compositae ex 
+      <lb ed="#R" n="47"/>intellectione sui, ita quod intellectus sui est 
+      a<lb ed="#R" n="48" break="no"/>ctus, &amp; forma substantiarum illarum 
+      separata<lb ed="#R" n="49" break="no"/>rum, &amp; recipitur in aliquo pure possibili. ex quo 
+      <lb ed="#R" n="50"/>sicut ex possibili, &amp; ex intellectione sui, sicut ex 
+      <lb ed="#R" n="51"/>actuali fit, &amp; resultat vna substantia separata 
+      in<lb ed="#R" n="52" break="no"/>tellectualis, &amp; per illud purum possibile 
+      reci<lb ed="#R" n="53" break="no"/>piunt omnes formas, &amp; omnes intellectiones 
+      <lb ed="#R" n="54"/>omnium extra se. Haec est intentio Aristotelis, 
+      <lb ed="#R" n="55"/>&amp; Commentatoris, &amp; motiuum eorum tactum 
+      <lb ed="#R" n="56"/>est in quaestione praecedenti, nec fuit mens 
+      eo<lb ed="#R" n="57" break="no"/>rum, quod omnes Intelligentiae essent totalis 
+      en<lb ed="#R" n="58" break="no"/>titas subsistens eminenter, sicut Deus omnia 
+      <lb ed="#R" n="59"/>continens, &amp; ideo licet ponant de Deo, quod 
+      ni<lb ed="#R" n="60" break="no"/>bil intellexit extra se, quia intelligit per solam 
+      <lb ed="#R" n="61"/>essentiam suam omnia continentem, hoc tamen 
+      <lb ed="#R" n="62"/>non posuerunt de alijs. Et ideo vel huiusmodi 
+      <lb ed="#R" n="63"/>substantiae aliae a primo essent miserrimae, nihil 
+      <lb ed="#R" n="64"/>intelligendo extra se, vel necessario habent in 
+      <!--0058.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="65"/>se naturam puram possibilem denudatam ab 
+      <lb ed="#R" n="66"/>omni actualitate intellectuali, per quam 
+      reci<lb ed="#R" n="67" break="no"/>piunt intellectiones aliorum a se, cum se non 
+      in<lb ed="#R" n="68" break="no"/>telligant per suam essentiam. Vtrum autem 
+      <lb ed="#R" n="69"/>rales intellectiones aliorum a se recipiant 
+      effe<lb ed="#R" n="70" break="no"/>ctiue ab obiectis, &amp; sicut accidentia recepta in 
+      <lb ed="#R" n="71"/>eis, de hoc dixi intentionem meam in principio 
+      <lb ed="#R" n="72"/>huius secundi. 
+  </p>
+               <p xml:id="olm8ij-f17348-d1e944">
+                  <lb ed="#R" n="73"/>Pro ijs quae dicta sunt, adduco auctoritatem 
+      <lb ed="#R" n="74"/>Commentatoris, vbi dicit sic: quemadmodum 
+      <lb ed="#R" n="75"/>natura sensibilis componitur ex materia, &amp; 
+      for<lb ed="#R" n="76" break="no"/>ma, ita quoque intellectualis substantia, &amp; hoc 
+      <lb ed="#R" n="77"/>nacesse est in ouni abstracto, quod intelligit 
+      a<lb ed="#R" n="78" break="no"/>diud extra se, alias non esset multitudo in formis 
+      <lb ed="#R" n="79"/>abstractis, &amp; sicut nulla forma est libera a 
+      po<lb ed="#R" n="80" break="no"/>tentia nisi prima, quae est quidditas simplex, om 
+      <lb ed="#R" n="81"/>nes tamen aliae diuersificantur in actum, &amp; 
+      poten<lb ed="#R" n="82" break="no"/>tiam, alias non possent intelligere alia a se: sic 
+      er<lb ed="#R" n="83" break="no"/>go ad quaestionem.
+  </p>
+               <p xml:id="olm8ij-f17348-d1e971">
+                  <lb ed="#R" n="84"/>Respondeo, quod mens Aristotelis, &amp; 
+      Com<lb ed="#R" n="85" break="no"/>mentatoris fuit, quod substantiae abstractae 
+      es<lb ed="#R" n="86" break="no"/>sent composita ex aliqua natura pure possibili. 
+      <lb ed="#R" n="87"/>&amp; aliquodctuali; vt purum possibile esset 
+      intel<lb ed="#R" n="88" break="no"/>lectus possibilis, actuale vero sui intellectio, ex 
+      <lb ed="#R" n="89"/>quibus resultat vna substantia intellectualis cō- 
+      <lb ed="#R" n="90"/>posita. Intellectiones autem omnium aliorum 
+      <lb ed="#R" n="91"/>extra se sunt proprietates quaedam, quas 
+      reci<lb ed="#R" n="92" break="no"/>piunt ab obiectis per naturam illius principij 
+      <lb ed="#R" n="93"/>potentialis. 
+   </p>
+            </div>
+            <div xml:id="olm8ij-f17348-Dd1e997">
+               <head xml:id="olm8ij-f17348-Hd1e999">Articulus 3</head>
+               <head xml:id="olm8ij-f17348-Hd1e1001" type="question-title">
+      Utrum substantiae separatae sint compositae ex 
+      materia &amp; forma
+    </head>
+               <p xml:id="olm8ij-f17348-d1e1004">
+                  <lb ed="#R" n="94"/>ARTJCVLVS JJJ. 
+      <lb ed="#R" n="95"/>Vtrum substantiae separatae sint compositae ex 
+      <lb ed="#R" n="96"/>materia &amp; forma. 
+   </p>
+               <p xml:id="olm8ij-f17348-d1e1013">
+                  <lb ed="#R" n="97"/>QVoad tertiam quaestionem arguo primo, 
+      <lb ed="#R" n="98"/>quod absolute loquendo, &amp; secundum 
+      si<lb ed="#R" n="99" break="no"/>dem &amp; Theologos, Substantiae separatae non 
+      <lb ed="#R" n="100"/>sint compositae ex materia &amp; forma, sic: Materia 
+      <lb ed="#R" n="101"/>impedit intellectualitatem: ergo non est in 
+      ali<lb ed="#R" n="102" break="no"/>qua intellectuali natura. Oppositum videtur 
+      <lb ed="#R" n="103"/>sequi necessario ex praecedentibus. 
+   </p>
+               <p xml:id="olm8ij-f17348-d1e1031">
+                  <lb ed="#R" n="104"/>Respondeo primo ponam duas opiniones, &amp; 
+      <lb ed="#R" n="105"/>secundo quod videtur mihi. Opinio vna valde 
+      <lb ed="#R" n="106"/>communis est, quod non sunt compositae ex 
+      ma<lb ed="#R" n="107" break="no"/>teria, &amp; forma, &amp; ratio prima est, quae tacta est. 
+      <lb ed="#R" n="108"/>Secundo, quia anima non habet in se materiam: 
+      <lb ed="#R" n="109"/>ergo multo minus Angelus, cum sit purioris, &amp; 
+      <lb ed="#R" n="110"/>simplicioris naturae. Antecedens patet, quia vel 
+      <lb ed="#R" n="111"/>vna forma informaret duas naturas, vel 
+      mate<lb ed="#R" n="112" break="no"/>ria informaret materiam, quia vel forma, ex 
+      <lb ed="#R" n="113"/>qua anima componitur, informaret propriam 
+      <lb ed="#R" n="114"/>materiam, &amp; cum hoc materiam, quae est 
+      cor<lb ed="#R" n="115" break="no"/>pus, vel torum similiter, scilicet propria 
+      mate<lb ed="#R" n="116" break="no"/>ria a se, &amp; propria forma eius: ergo simul 
+      infor<lb ed="#R" n="117" break="no"/>marent corpus, &amp; tunc materia informaret 
+      ma<lb ed="#R" n="118" break="no"/>teriam. 
+   </p>
+               <p xml:id="olm8ij-f17348-d1e1067">
+                  <lb ed="#R" n="119"/>Item. Aut forma illa esset separabilis a 
+      mate<lb ed="#R" n="120" break="no"/>ria, &amp; tunc essent formae corporales, aut non 
+      <lb ed="#R" n="121"/>posset separari, &amp; tunc anima esset nobilior illa, 
+      <lb ed="#R" n="122"/>quae potest separari. Est enim forma magis 
+      im<lb ed="#R" n="123" break="no"/>mersa materiae, quam Angelus. 
+   </p>
+               <p xml:id="olm8ij-f17348-d1e1080">
+                  <lb ed="#R" n="124"/>Quarta ratio, quia non debet poni multitudo 
+      <lb ed="#R" n="125"/>sine necessitate: sed hic nulla est necessitas 
+      po<lb ed="#R" n="126" break="no"/>nendi materiam, cum in istis nulla sit potentia 
+      <lb ed="#R" n="127"/>ad transmutationem realem, quae transmutatio 
+      <lb ed="#R" n="128"/>secundum Commentatorem facit nos scire ma- 
+      <!--0059.xml-->
+      <pb ed="#R" n="59"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>teriam: similiter non est potentia in eis ad 
+      ali<lb ed="#R" n="2" break="no"/>quam passionem realem, sed propter nihil aliud 
+      <lb ed="#R" n="3"/>vide tur ponenda materia, vbi ponitur: ergo non 
+      <lb ed="#R" n="4"/>est ineis materia talis cum forma. 
+   </p>
+               <p xml:id="olm8ij-f17348-d1e1108">
+                  <lb ed="#R" n="5"/>Alia opinio opposita est, quod sunt composi. 
+      <lb ed="#R" n="6"/>tae ex materia: Rationes possunt adduci, quia 
+      <lb ed="#R" n="7"/>alias adaequarent diuinam simplicitatem. Secun 
+      <lb ed="#R" n="8"/>do, quia Daemones, &amp; animae patiuntur passione 
+      <lb ed="#R" n="9"/>reali simplici. Tertio, quia in eis est realis 
+      trans<lb ed="#R" n="10" break="no"/>mutatio realis alterationis, &amp; translatio ad vbi 
+      <lb ed="#R" n="11"/>adaequat materiam: Omnia enim insunt 
+      ra<lb ed="#R" n="12" break="no"/>tione materiae. Vnde Boetius dicit, quod prima 
+      <lb ed="#R" n="13"/>forma non potest esse subiectum accidentium. 
+   </p>
+               <p xml:id="olm8ij-f17348-d1e1130">
+                  <lb ed="#R" n="14"/>Nunc secundo pono, quid videtur mihi. Dico 
+      <lb ed="#R" n="15"/>autem, quod dato, quod non esset expressa 
+      inten<lb ed="#R" n="16" break="no"/>tio Phylosophorum, vt dixi, non video magnum 
+      <lb ed="#R" n="17"/>robur in aliqua parte istius quaestionis, tum quia 
+      <lb ed="#R" n="18"/>Phylosophi, &amp; Sancti, qui diligentissime 
+      inuesti<lb ed="#R" n="19" break="no"/>garunt de naturis istorum, expresse 
+      intellexe<lb ed="#R" n="20" break="no"/>runt, quod essent compositae ex materia, &amp; 
+      for<lb ed="#R" n="21" break="no"/>ma. Ideo teneo cum eis, licet prima facie 
+      vi<lb ed="#R" n="22" break="no"/>deatur dissonum, &amp; imaginatio horreat, ratione 
+      <lb ed="#R" n="23"/>trinae dimensionis, cum qua semper intelligimus 
+      <lb ed="#R" n="24"/>materiam, a qua huiusmodi substantiae sunt 
+      ab<lb ed="#R" n="25" break="no"/>stractae, &amp; intelliguntur componi ex materia, &amp; 
+      <lb ed="#R" n="26"/>forma, sicut intelligit Commentator, quia sunt 
+      <lb ed="#R" n="27"/>compositae ex aliqua natura pure possibili, &amp; 
+      <lb ed="#R" n="28"/>alia actuali, quae trahit ad actum illum, quae 
+      <lb ed="#R" n="29"/>est possibilis, ita quod sicut ignis est compositus 
+      <lb ed="#R" n="30"/>ex vna natura possibili, quae est passibilis, &amp; ex 
+      <lb ed="#R" n="31"/>alia, quae esbactus, &amp; actuatio istius potentialis, 
+      <lb ed="#R" n="32"/>qua ignis agit, sic in istis substantijs 
+      intellectua<lb ed="#R" n="33" break="no"/>libus, &amp; in anima sunt verae substantiae duae, 
+      qua<lb ed="#R" n="34" break="no"/>rum vna est mere potentialis, &amp; alia est mere 
+      <lb ed="#R" n="35"/>actus, ex quibus intrinsece componuntur, &amp; vna 
+      <lb ed="#R" n="36"/>dicitur intellectus possibilis, aequiuoca sub. 
+      <lb ed="#R" n="37"/>stantia patitur, idest, recipit intellectionem 
+      alio<lb ed="#R" n="38" break="no"/>rum a se, &amp; per consequens, quo formaliter 
+      in<lb ed="#R" n="39" break="no"/>telligit alia, non est intellectio vi, per quam est 
+      <lb ed="#R" n="40"/>in actu. 
+   </p>
+               <p xml:id="olm8ij-f17348-d1e1191">
+                  <lb ed="#R" n="41"/>Ad probandum autem istam conclusionem 
+      <lb ed="#R" n="42"/>non adduco alias rationes, nisi quas adduxi in 
+      <lb ed="#R" n="43"/>quaestione praecedenti in 3. q. nec alias 
+      auctori<lb ed="#R" n="44" break="no"/>tates induco, nisi quae inductae sunt in secunda. 
+      <lb ed="#R" n="45"/>Illa via ego exponerem totum ex tertia de 
+      <lb ed="#R" n="46"/>anima, nisi quod in hoc Arist. non est tenendus, 
+      <lb ed="#R" n="47"/>quod intellectio sui sit substantialis forma, &amp; 
+      <lb ed="#R" n="48"/>actus ipsius Angeli, vt Commentator, qui posuit 
+      <lb ed="#R" n="49"/>illum intellectum non numerari in nobis, sed est 
+      <lb ed="#R" n="50"/>vnus in omnibus. Item ad hoc est expresse 
+      au<lb ed="#R" n="51" break="no"/>ctoritas Augustini in duobus locis exponens 
+      il<lb ed="#R" n="52" break="no"/>lud, In principio creauit Deus, &amp; c. vbi dicit, quod 
+      <lb ed="#R" n="53"/>quinque expositiones dantur, quae omnes verae 
+      <lb ed="#R" n="54"/>sunt, inter quas ponit istam, qui fecit informem 
+      <lb ed="#R" n="55"/>materiam omnis creaturae spiritualis, &amp; 
+      corpo<lb ed="#R" n="56" break="no"/>ralis. 
+   </p>
+               <p xml:id="olm8ij-f17348-d1e1228">
+                  <lb ed="#R" n="57"/>Item exponens illud verbum: Terra autem 
+      <lb ed="#R" n="58"/>erat inanis, &amp; vacua, ponit duas expositiones, 
+      <lb ed="#R" n="59"/>quas dicit esse veras, inter quas est ista. Terra, 
+      <lb ed="#R" n="60"/>idest materia, ex qua fieret omnis inuisibilis, 
+      visi<lb ed="#R" n="61" break="no"/>bilisq. creatura.
+   </p>
+               <p xml:id="olm8ij-f17348-d1e1242">
+                  <lb ed="#R" n="62"/>Tunc ad argumenta alterius opinionis; ad 
+      <lb ed="#R" n="63"/>primum cum deducitur, quod vna forma 
+      infor<lb ed="#R" n="64" break="no"/>maret duas materias: primo secundum dicta 
+      <lb ed="#R" n="65"/>eorum. Ipsi dicnnt, quod anima est hoc aliquid, 
+      <lb ed="#R" n="66"/>&amp; cum hoc quod est forma corporis: tunc ad formam, 
+      <lb ed="#R" n="67"/>argumenti inconueniens, ad quod inducunt; ha- 
+      <!--0059.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>bet locum in formis, quae sunt solum 
+      modifica<lb ed="#R" n="69" break="no"/>tiones, &amp; non hoc aliquid: Tales enim tantum 
+      <lb ed="#R" n="70"/>informant vnam materiam, quia non sunt 
+      mo<lb ed="#R" n="71" break="no"/>dificatio nisi vnius.
+  </p>
+               <p xml:id="olm8ij-f17348-d1e1271">
+                  <lb ed="#R" n="72"/>Alia solutio: ad rationem dico, quod non est 
+      <lb ed="#R" n="73"/>imaginandum, quod vna forma informaret duas 
+      <lb ed="#R" n="74"/>materias, nec materia materiam; quia 
+      composi<lb ed="#R" n="75" break="no"/>tum est vnum per dimensionem propriam, &amp; ita 
+      <lb ed="#R" n="76"/>essentia animae sic indiuisa non intelligitur 
+      ha<lb ed="#R" n="77" break="no"/>bere materiam distinctam a forma, nec quod 
+      <lb ed="#R" n="78"/>materia informaret, nec forma; sed totum hoc 
+      <lb ed="#R" n="79"/>indiuisum dicitur informare, idest dare tale esse 
+      <lb ed="#R" n="80"/>per sui communicationem, consimiliter quantitas 
+      <lb ed="#R" n="81"/>materiata informaret materiam. 
+   </p>
+               <p xml:id="olm8ij-f17348-d1e1295">
+                  <lb ed="#R" n="82"/>Ad secundum dico, quod non est separabilis a 
+      <lb ed="#R" n="83"/>materia, &amp; ideo non est corporalis solum, hoc 
+      <lb ed="#R" n="84"/>enim habet natura materiae in genere sensibilium 
+      <lb ed="#R" n="85"/>propter trinam dimenfionem, sicut dictum est: in 
+      <lb ed="#R" n="86"/>substantijs autem abstractis non est talis 
+      mate<lb ed="#R" n="87" break="no"/>ria sub trina dimensione, ita quod propter 
+      exi<lb ed="#R" n="88" break="no"/>gentiam formarum contrariarum sit apta nata 
+      <lb ed="#R" n="89"/>trahi ad talem, &amp; talem terminationem, aliam, 
+      <lb ed="#R" n="90"/>&amp; aliam. 
+   </p>
+               <p xml:id="olm8ij-f17348-d1e1317">
+                  <lb ed="#R" n="91"/>Ad aliud dico, quod necessitas ponendi ibi 
+      <lb ed="#R" n="92"/>materiam, vti patet supra, sequendo viam 
+      Philofo<lb ed="#R" n="93" break="no"/>phi per hoc, quod alias non apparet, quod 
+      pos<lb ed="#R" n="94" break="no"/>sent recipere intellectiones aliorum a se: 
+      opor<lb ed="#R" n="95" break="no"/>tet, quod recipiens sit denudatum ab omni 
+      for<lb ed="#R" n="96" break="no"/>ma 
+   </p>
+               <p xml:id="olm8ij-f17348-d1e1333">
+                  <lb ed="#R" n="97"/>Ad argumentum in oppositum, verum est 
+      de<lb ed="#R" n="98" break="no"/>materia, cuius proprietas est trina dimensio, 
+      quia<lb ed="#R" n="99" break="no"/>trina dimensio arctat ipsam ad formas 
+      termina<lb ed="#R" n="100" break="no"/>tas, quae terminatio dat, quod non possint 
+      intel<lb ed="#R" n="101" break="no"/>ligere. De hoc dictum est in libro primo 
+      distin<lb ed="#R" n="102" break="no"/>ctio. 32. 
+   </p>
+            </div>
+            <div xml:id="olm8ij-f17348-Dd1e1350">
+               <head xml:id="olm8ij-f17348-Hd1e1352">Articulus 4</head>
+               <head xml:id="olm8ij-f17348-Hd1e1354" type="question-title">
+      Utrum natura possibilis &amp; actualis in 
+      substantiis separatis sint res distincta 
+      in actu
+    </head>
+               <p xml:id="olm8ij-f17348-d1e1357">
+                  <lb ed="#R" n="103"/>ARTJCVLVS IIJJ. 
+      <lb ed="#R" n="104"/>Vtrum natura possibilis &amp; actualis in 
+      substan<lb ed="#R" n="105" break="no"/>tijs separatis sint res distincta 
+      <lb ed="#R" n="106"/>in actu. 
+   </p>
+               <p xml:id="olm8ij-f17348-d1e1368">
+                  <lb ed="#R" n="107"/>AD quartam questionem arguo primo, quod 
+      <lb ed="#R" n="108"/>haec natura possibilis, &amp; actualis in 
+      sub<lb ed="#R" n="109" break="no"/>stantijs separatis sint res distinctae in actu; quia 
+      <lb ed="#R" n="110"/>Quod non est in actu, non potest actu 
+      compone<lb ed="#R" n="111" break="no"/>re: sed materia componit actu: ergo. 
+   </p>
+               <p xml:id="olm8ij-f17348-d1e1381">
+                  <lb ed="#R" n="112"/>In oppositum est, quia maior est vnitas forme, 
+      <lb ed="#R" n="113"/>&amp; materiae in substantijs abstractis, quam in 
+      sen<lb ed="#R" n="114" break="no"/>sibilibus, secundum Commentatorem 3. de 
+      ani<lb ed="#R" n="115" break="no"/>ma: sed in (substantijs sensibilibus, materia, &amp; 
+      <lb ed="#R" n="116"/>forma non sunt duae res in actu: ergo. 
+   </p>
+               <p xml:id="olm8ij-f17348-d1e1395">
+                  <lb ed="#R" n="117"/>Respondeo hic, primo pono Conclusionem 
+      <lb ed="#R" n="118"/>intentam: secundo probo eam auctoritate, &amp; 
+      ra<lb ed="#R" n="119" break="no"/>tione. Conclusio est haec: quod sicut in 
+      fensibi<lb ed="#R" n="120" break="no"/>libus materia, &amp; forma non sunt, nisi vna res in 
+      <lb ed="#R" n="121"/>actu, duae autem non in actu, sed solum in 
+      po<lb ed="#R" n="122" break="no"/>tentia: sic in proposito natura pure possibilis, &amp; 
+      <lb ed="#R" n="123"/>actualis, ex quibus componitur Angelus, sunt duae 
+      <lb ed="#R" n="124"/>res solum in potentia, sic quod in Angelo fint 
+      <lb ed="#R" n="125"/>tres entitates. Vna est entitas compositi, quae 
+      <lb ed="#R" n="126"/>resultat ex possibili, &amp; actuali; alia est entitas na 
+      <lb ed="#R" n="127"/>turae pure possibilis; &amp; alia entitas naturae, quae 
+      <lb ed="#R" n="128"/>est actus, quae ambo non sunt res distinctae in 
+      <lb ed="#R" n="129"/>actu, sed sunt res omnino indistinctae: &amp; 
+      intelli<lb ed="#R" n="130" break="no"/>go sic, quod materia est aliquid, &amp; forma 
+      simi<lb ed="#R" n="131" break="no"/>liter est aliquid, &amp; hoc aliquid non est illud ali- 
+      <!--0060.xml-->
+      <pb ed="#R" n="60"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>quid, non tamen sint distincta in actu, quia in 
+      <lb ed="#R" n="2"/>plus se habet esse ens, &amp; aliquid, quam esse actu 
+      <lb ed="#R" n="3"/>distinctum: licet omne quod est ens, &amp; aliquid 
+      <lb ed="#R" n="4"/>sit distinctum, vel distinguibile in potentia. Haec 
+      <lb ed="#R" n="5"/>est expressa intentio Commentatoris, vt patet in 
+      <lb ed="#R" n="6"/>multis locis, &amp; primo, vbi dicit, quod materia 
+      <lb ed="#R" n="7"/>non est haec, nisi per formam: et si materia, &amp; 
+      for<lb ed="#R" n="8" break="no"/>ma essent existentes in actu in composito, non 
+      es<lb ed="#R" n="9" break="no"/>sent compositum vnum, nisi per aggregati onem, 
+      <lb ed="#R" n="10"/>&amp; subdit quod materia non differt a forma in 
+      <lb ed="#R" n="11"/>composito, nisi in potentia. 
+   </p>
+               <p xml:id="olm8ij-f17348-d1e1460">
+                  <lb ed="#R" n="12"/>Item 8. metaph. com. I7. soluens illam 
+      quae<lb ed="#R" n="13" break="no"/>stionem, quomodo materia, &amp; forma faciunt 
+      <lb ed="#R" n="14"/>vnum, dicit idem. Vnde dicit, quod qui 
+      dixe<lb ed="#R" n="15" break="no"/>rit materiam, &amp; formam plura esse in potentia 
+      <lb ed="#R" n="16"/>ab illa pluralitate, quae est in actu, non poterit 
+      il<lb ed="#R" n="17" break="no"/>lam quaestionem dissoluere, &amp; in fine commenti 
+      <lb ed="#R" n="18"/>dicit, quod non est aliud in actu, quod agens 
+      <lb ed="#R" n="19"/>agit, contra Themistoc. scilicet, quod esse materiae 
+      <lb ed="#R" n="20"/>est per formam, &amp; prius eo, in quod agit.
+  </p>
+               <p xml:id="olm8ij-f17348-d1e1482">
+                  <lb ed="#R" n="21"/>Item idem, 12. metaph. com. 7. quod natura 
+      <lb ed="#R" n="22"/>materiae est in comparatione, quia cum alio, &amp; 
+      <lb ed="#R" n="23"/>non est actu per se, sed cum alio, &amp; potentia 
+      tan<lb ed="#R" n="24" break="no"/>tum, &amp; non est nihil, quia nihil nec est actu per 
+      <lb ed="#R" n="25"/>se, nec cum alio: &amp; subdit, quod materia de se non 
+      <lb ed="#R" n="26"/>habet naturam propriam. 
+  </p>
+               <p xml:id="olm8ij-f17348-d1e1498">
+                  <lb ed="#R" n="27"/>Item dicit, quod materia est pars in potentia 
+      <lb ed="#R" n="28"/>entis in actu: ergo esse eius in actu, non est, nisi 
+      <lb ed="#R" n="29"/>inquantum est pars eius in potentia: si ergo inue 
+      <lb ed="#R" n="30"/>niretur per se, &amp; singulariter, non secundum 
+      <lb ed="#R" n="31"/>quod est pars in potentia, tunc esset ens in actu. 
+      <lb ed="#R" n="32"/>Sic ergo secundum Commenta torem, materia 
+      <lb ed="#R" n="33"/>est ens non absolute, &amp; quomodocumque, sed 
+      <lb ed="#R" n="34"/>cum additione illa, scilicet pars in potentia entis 
+      <lb ed="#R" n="35"/>in actu non distinctum. Hoc autem non 
+      conue<lb ed="#R" n="36" break="no"/>nit nihil, ideo non est nihil. 
+   </p>
+               <p xml:id="olm8ij-f17348-d1e1522">
+                  <lb ed="#R" n="37"/>Secundo probo idem ratione sic. Quando 
+      ali<lb ed="#R" n="38" break="no"/>quid est res vere vera vnitate simpliciter, &amp; 
+      pro<lb ed="#R" n="39" break="no"/>prie dicta, non vnitate copulationis, siue coacer 
+      <lb ed="#R" n="40"/>uatim, sed magis, quantumcumque continuum, si 
+      <!--0060.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="41"/>componitur ex pluribus partibus in tali vnitate, 
+      <lb ed="#R" n="42"/>necesse est, quod illa, ex quibus componitur, sint 
+      <lb ed="#R" n="43"/>vnum, &amp; partes ad inuicem distinctae: sed compo 
+      <lb ed="#R" n="44"/>situm ex materia &amp; forma est vere vnum, &amp; 
+      ma<lb ed="#R" n="45" break="no"/>gis quam compositum ex partibus 
+      quantitati<lb ed="#R" n="46" break="no"/>uis: ergo stante tali vnitate impossibile est illa 
+      <lb ed="#R" n="47"/>manere actu distincta. Maior patet in exemplo: 
+      <lb ed="#R" n="48"/>si enim diuidas continuum, ita quod partes 
+      ma<lb ed="#R" n="49" break="no"/>neant actu diuisae, tunc linea, siue continuum 
+      <lb ed="#R" n="50"/>illud non estt vnum, nisi vnitate cuiusdam 
+      acer<lb ed="#R" n="51" break="no"/>ui: si ergo remanet vnum per se, oportet, quod 
+      <lb ed="#R" n="52"/>partes sint ad inuicem distinctae. Minor autem 
+      <lb ed="#R" n="53"/>est satis nota: ergo.
+   </p>
+               <p xml:id="olm8ij-f17348-d1e1566">
+                  <lb ed="#R" n="54"/>Sed contra hoc arguitur sic. Illa, quae sunt 
+      di<lb ed="#R" n="55" break="no"/>stincta in se, ita quod vnum non potest esse aliud, 
+      <lb ed="#R" n="56"/>illa impossibile est, quod sint indistincta in 
+      ter<lb ed="#R" n="57" break="no"/>tio: sed materia, &amp; forma sunt distincta inter se, 
+      <lb ed="#R" n="58"/>ita quod verum est dicere, quod materia non est 
+      <lb ed="#R" n="59"/>forma, nec e conuerso: ergo impossibile est, 
+      <lb ed="#R" n="60"/>quod sint indistincta in composito. 
+   </p>
+               <p xml:id="olm8ij-f17348-d1e1585">
+                  <lb ed="#R" n="61"/>Respondeo, ista vera est, quod materia non est 
+      <lb ed="#R" n="62"/>forma, sed tamen haec vera est, quod materia 
+      <lb ed="#R" n="63"/>&amp; forma sunt vnum indiuisum in composito: ad 
+      <lb ed="#R" n="64"/>hoc enim, quod vnum non sit aliud, sufficit quod 
+      <lb ed="#R" n="65"/>sint partes distinguibiles in potentia, sed non 
+      se<lb ed="#R" n="66" break="no"/>quitur ex hoc, quod sint distincta in actu, ideo 
+      <lb ed="#R" n="67"/>dico, quod sunt vnum in actu, plura vero 
+      in<lb ed="#R" n="68" break="no"/>potentia. 
+   </p>
+               <p xml:id="olm8ij-f17348-d1e1605">
+                  <lb ed="#R" n="69"/>Ad argumentum in oppositum, aequiuocatio 
+      <lb ed="#R" n="70"/>est de actu, si enim accipis essse in actu, idest, non 
+      <lb ed="#R" n="71"/>esse nihil, concedo Conclusionem: sed 
+      accipien<lb ed="#R" n="72" break="no"/>do actum pro distinctione, &amp; praecisione, eo 
+      mo<lb ed="#R" n="73" break="no"/>do, quo dicitur, quod actus separat, &amp; distinguit, 
+      <lb ed="#R" n="74"/>tunc argumentum non concludit. Non enim 
+      <lb ed="#R" n="75"/>oportet, quod illud, quod ponit actu, sit actu in 
+      <lb ed="#R" n="76"/>se terminatum, &amp; praecisum, &amp; non in se, sed cum 
+      <lb ed="#R" n="77"/>alio, in se autem praecisum non actu, sed potentia 
+      <lb ed="#R" n="78"/>tantum, alias non constituent vnum, vt 
+      Com<lb ed="#R" n="79" break="no"/>mentator dicit. 
+   </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

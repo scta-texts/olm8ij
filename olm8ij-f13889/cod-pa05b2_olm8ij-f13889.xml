@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-04-05">April 05, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b2">Roma 1605, Book 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="45"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-f13889"><!-- l2d2-q2 -->
+            <head xml:id="olm8ij-f13889-Hd1e101">Quaestio 2</head>
+            <p xml:id="olm8ij-f13889-d1e103">
+      <!--0045.xml-->
+               <pb ed="#R" n="45"/>
+               <cb ed="#R" n="a"/>
+               <lb ed="#R" n="1"/>QVAESTIO SECVNDA 
+      <lb ed="#R" n="2"/>DE AEVO. 
+      <lb ed="#R" n="3"/>Viso de tempore accedendum est ad propositum de mensura Angelorum, 
+      <lb ed="#R" n="4"/>&amp; quaero circa hoc duas questiones.
+    </p>
+            <p xml:id="olm8ij-f13889-d1e121">
+      <!--0045.xml-->
+               <cb ed="#R" n="b"/>
+               <lb ed="#R" n="5"/>1 Prima est, Vtrum duratio esse Angeli 
+      men<lb ed="#R" n="6" break="no"/>suretur aeuo. 
+      <lb ed="#R" n="7"/>2 Secunda, Vtrum in aeuo sit successio. 
+   </p>
+            <div xml:id="olm8ij-f13889-Dd1e134">
+               <head xml:id="olm8ij-f13889-Hd1e136">Articulus 1</head>
+               <head xml:id="olm8ij-f13889-Hd1e138" type="question-title">
+      Utrum duratio esse Angeli mensuretur aeuo
+    </head>
+               <p xml:id="olm8ij-f13889-d1e141">
+                  <lb ed="#R" n="8"/>ARTJCVLVS J. 
+      <lb ed="#R" n="9"/>Vtrum duratio esse Angeli mensuretur aeuo.
+   </p>
+               <p xml:id="olm8ij-f13889-d1e148">
+                  <lb ed="#R" n="10"/>QVantum ad primum arguo primo, quod 
+      <lb ed="#R" n="11"/>duratio esse Angeli mensuratur aeuo, quia 
+      <lb ed="#R" n="12"/>Philosophus 4. physic. text. I14. 
+      deter<lb ed="#R" n="13" break="no"/>minat sufficienter de mensuris rerum durantium, 
+      <lb ed="#R" n="14"/>tam eorum, quorum esse consistit in motu, &amp; 
+      <lb ed="#R" n="15"/>transmutatione, quam eorum, quae sunt 
+      aeter<lb ed="#R" n="16" break="no"/>na, &amp; inuariabilia; sed nullam mentionem facit 
+      <lb ed="#R" n="17"/>de aeuo: ergo vel fuit insufficiens, vel aeuum non 
+      <lb ed="#R" n="18"/>est mensura durationis esse Angeli. In 
+      opposi<lb ed="#R" n="19" break="no"/>tum est; quia communiter distinguitur de 
+      men<lb ed="#R" n="20" break="no"/>suris, quod mensura est in triplici genere: 
+      quae<lb ed="#R" n="21" break="no"/>dam, quae mensurat esse eorum, quae consistunt 
+      <lb ed="#R" n="22"/>in motu, &amp; quiete; &amp; quaedam, quae mensurat 
+      <lb ed="#R" n="23"/>esse eorum, quae sunt semper vniformiter, tamen 
+      <lb ed="#R" n="24"/>habent principium, &amp; finem sui esse, &amp; quaedam 
+      <lb ed="#R" n="25"/>sunt semper vniformiter, &amp; non habent 
+      princi<lb ed="#R" n="26" break="no"/>pium, nec finem. Prima est tempus; lecunda 
+      <lb ed="#R" n="27"/>aeuum, tertia aeternitas. 
+   </p>
+               <p xml:id="olm8ij-f13889-d1e190">
+                  <lb ed="#R" n="28"/>Respondeo, in ista quaestione ponam primo 
+      <lb ed="#R" n="29"/>tres Propositiones. Prima est, quod aeuum non 
+      <lb ed="#R" n="30"/>est formaliter, &amp; intrinsece duratio, sed 
+      tantum<lb ed="#R" n="31" break="no"/>modo extrinsece, &amp; connotatiue. Hanc 
+      Con<lb ed="#R" n="32" break="no"/>clusionem probaui in simili de aeternitate in 
+      pri<lb ed="#R" n="33" break="no"/>mo libro, &amp; nunc probo eam in speciali, &amp; 
+      pri<lb ed="#R" n="34" break="no"/>mo notando. Notandum ergo, quod sic 
+      intelli<lb ed="#R" n="35" break="no"/>gendum est demagnitudine durationis, sicut de ma 
+      <lb ed="#R" n="36"/>gnitudine extensionis; aliqua enim dicuntur esse 
+      <lb ed="#R" n="37"/>magna magnitudine extensionis intrinsece, &amp; 
+      <lb ed="#R" n="38"/>formaliter: quia sunt quanta formaliter per quã- 
+      <lb ed="#R" n="39"/>titatem eis inhaerentem formaliter; quaedam 
+      <lb ed="#R" n="40"/>dicuntur quanta, &amp; extensa extrinsece tantum, 
+      <lb ed="#R" n="41"/>&amp; denominatiue, eo modo quo Angelus, &amp; 
+      ani<lb ed="#R" n="42" break="no"/>ma sunt quanta, &amp; extensa: non enim Angelus 
+      <lb ed="#R" n="43"/>est indiuisibilis, vt punctus; nec anima est 
+      diuisi<lb ed="#R" n="44" break="no"/>bilis dimensiue, alias esset corpus: est ergo 
+      An<lb ed="#R" n="45" break="no"/>gelus magnus extensiue solummodo extrinsece, 
+      <lb ed="#R" n="46"/>&amp; denominatiue a quantitate corporaliter, cui co 
+      <lb ed="#R" n="47"/>existit, &amp; hoc modo de anima dicimus, quod illa 
+      <lb ed="#R" n="48"/>est tota in toto, &amp; tota in qualibet parte, quia 
+      to<lb ed="#R" n="49" break="no"/>ta coexistit toti, &amp; tota parti: eo ipso. n. quo anima 
+      <lb ed="#R" n="50"/>vel Angelus sunt praesentes corporaliter, non 
+      in<lb ed="#R" n="51" break="no"/>diuisibiliter per modum puncti: sed coexistendo 
+      <lb ed="#R" n="52"/>toti, &amp; cuilibet parti, eo ipso intelligimus 
+      quan<lb ed="#R" n="53" break="no"/>titatem, &amp; magnitudinem in Angelo, siue in 
+      <lb ed="#R" n="54"/>anima, non quidem intrinsece, sed extrinsece, 
+      <lb ed="#R" n="55"/>quia coexistit magnitudini, vt sic quanto maio- 
+      <!--0045.xml-->
+      <cb ed="#R" n="c"/>
+                  <lb ed="#R" n="56"/>ri magnitudini coexistit tanto dicatur maior; 
+      <lb ed="#R" n="57"/>cum etiam imaginamur Angelum esse indiuisibi 
+      <lb ed="#R" n="58"/>lem, non debet hoc intelligi intrinsece per modum 
+      <lb ed="#R" n="59"/>puncti; sed extrinsece: quia sua entitas potest 
+      <lb ed="#R" n="60"/>coexistere toti minimae parti, &amp; etiam 
+      indiuisi<lb ed="#R" n="61" break="no"/>bili, si ponatur in actu punctus. Sic intelligo in 
+      <lb ed="#R" n="62"/>proposito; quod esse Angeli non durat 
+      intrinse<lb ed="#R" n="63" break="no"/>ce, &amp; formaliter duratione intrinseca, 
+      huiusmo<lb ed="#R" n="64" break="no"/>di enim ratione duratione intrinseca non durant, 
+      <lb ed="#R" n="65"/>nisi illa, quae sunt in motu, &amp; ratio est: quia 
+      du<lb ed="#R" n="66" break="no"/>ratio non est aliud, quam successio quaedam 
+      se<lb ed="#R" n="67" break="no"/>cundum prius, &amp; post: duratio etiam dicit 
+      quan<lb ed="#R" n="68" break="no"/>titatem permanentiae, quae est quantitas 
+      succes<lb ed="#R" n="69" break="no"/>siua secundum ante, &amp; post: sed esse Angeli est 
+      <lb ed="#R" n="70"/>res permanens, &amp; consistens in quodam 
+      indiui<lb ed="#R" n="71" break="no"/>sibili: ergo non potest mensurari mensura, quae 
+      <lb ed="#R" n="72"/>sit formaliter, &amp; intrinsece duratio, sed tantum 
+      <lb ed="#R" n="73"/>extrinsece, &amp; denominatiue; quia tota coexistit 
+      <lb ed="#R" n="74"/>tali durationi toti, &amp; cuilibet parti durationis. 
+      <lb ed="#R" n="75"/>Vnde possum per intellectum capere tempus, 
+      <lb ed="#R" n="76"/>quod nondum est, vel tempus quod praeterijt, &amp; 
+      <lb ed="#R" n="77"/>intelligendo Angelum coexistere tam tempori, 
+      <lb ed="#R" n="78"/>quod praeterijt, &amp; quod est, quam quod non dum 
+      <lb ed="#R" n="79"/>est, &amp; omnibus prioribus imaginatis, intelligo 
+      <lb ed="#R" n="80"/>Angelum habere durationem. Hoc autem 
+      non<lb ed="#R" n="81" break="no"/>nisi quia coexistit intrinsece ipsi durationi.
+   </p>
+               <p xml:id="olm8ij-f13889-d1e315">
+                  <lb ed="#R" n="82"/>His visis patet, quid intelligo, cum dico, quod 
+      <lb ed="#R" n="83"/>aeuum non est duratio formaliter, &amp; intrinsece, 
+      <lb ed="#R" n="84"/>sed extrinsece tantum: &amp; ideo aeuum Angeli non 
+      <lb ed="#R" n="85"/>est aliud, quam Angelus coexistens isti durationi 
+      <lb ed="#R" n="86"/>reali factae, vel factibili, vel imaginatae. 
+      Propo<lb ed="#R" n="87" break="no"/>sitionem autem sic intellectam probo vnica 
+      ra<lb ed="#R" n="88" break="no"/>tione, sic: Sicut simpliciter ad simpliciter, sic 
+      ma<lb ed="#R" n="89" break="no"/>gis ad magis, &amp; maxime ad maxime: sed in illo 
+      <lb ed="#R" n="90"/>consistit, magis formaliter duratio, in que 
+      ma<lb ed="#R" n="91" break="no"/>gis consistit formaliter ratio maioris durationis 
+      <lb ed="#R" n="92"/>&amp; in quo maxima ratio maximae durationis. 
+      <lb ed="#R" n="93"/>Haec enim propositio potissime valet in 
+      cau<lb ed="#R" n="94" break="no"/>sis formalibus: sed Angelus non dicitur magis 
+      <lb ed="#R" n="95"/>durare, nisi per hoc, quod sua coexistentia 
+      con<lb ed="#R" n="96" break="no"/>paratur ad maiorem durationem, quae est 
+      for<lb ed="#R" n="97" break="no"/>maliter tempus: ergo. 
+   </p>
+               <p xml:id="olm8ij-f13889-d1e352">
+                  <lb ed="#R" n="98"/>Probatio minoris. Angelus enim non plus du 
+      <lb ed="#R" n="99"/>rauit, nisi quia fuit prius, &amp; durauit plus ante: 
+      <lb ed="#R" n="100"/>ergo ratio maioris durationis consistit in quadam 
+      <lb ed="#R" n="101"/>prioritate, &amp; posterioritate, vnde durare, est 
+      <lb ed="#R" n="102"/>habere permanentiam in ante, sed ante, siue prius 
+      <lb ed="#R" n="103"/>&amp; post sunt formaliter ipsum tempus. Probatio, 
+      <lb ed="#R" n="104"/>quia sicut non est dare, nisi vnam quantitatem 
+      <lb ed="#R" n="105"/>successiuam (tempus autem est quantitas 
+      suc<lb ed="#R" n="106" break="no"/>cessiua) vnde tempus non est aliud, quam prius 
+      <lb ed="#R" n="107"/>&amp; posterius cuiuslibet succedentis, nisi quod ad 
+      <lb ed="#R" n="108"/>dit vltra hoc mensurationem &amp; quantitatem. 
+      <lb ed="#R" n="109"/>Tempus enim est nomen impositum quantitati 
+      <!--0046.xml-->
+      <pb ed="#R" n="46"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>determinatae, &amp; reductae ad certum numerum, 
+      <lb ed="#R" n="2"/>non autem quantitati indeterminatae. Sic ergo 
+      <lb ed="#R" n="3"/>habere volo, quod cum magis durare non sit 
+      <lb ed="#R" n="4"/>aliud, quam plus in ante, &amp; in plus durare, 
+      du<lb ed="#R" n="5" break="no"/>rare absolute non est aliud, quam prius, &amp; 
+      poste<lb ed="#R" n="6" break="no"/>rius durare, &amp; per consequens quaedam 
+      priori<lb ed="#R" n="7" break="no"/>tas, &amp; posterioritas fundata in esse rei durantis: 
+      <lb ed="#R" n="8"/>ergo esse rei durantis intrinsecae, vt sic includit 
+      <lb ed="#R" n="9"/>successionem aliquam secundum prius, &amp; 
+      poste<lb ed="#R" n="10" break="no"/>rius: sed Angelus non potest esse subiectum 
+      se<lb ed="#R" n="11" break="no"/>cundum prius &amp; posterius: ergo nulla duratio 
+      <lb ed="#R" n="12"/>est formaliter, &amp; intrinsece in esse Angeli, sed 
+      <lb ed="#R" n="13"/>tantum connotatiue. 
+   </p>
+               <p xml:id="olm8ij-f13889-d1e415">
+                  <lb ed="#R" n="14"/>Secunda Propositio est, quod aeuum nihil addit 
+      <lb ed="#R" n="15"/>absolutum super esse Angeli, sed tantummodo 
+      <lb ed="#R" n="16"/>coexistentiam ad tempus factum, vel factibile 
+      <lb ed="#R" n="17"/>imaginatum vel imaginabile. Vnde quando 
+      vo<lb ed="#R" n="18" break="no"/>lo imaginari Michaelem, quantum durauit, 
+      acci<lb ed="#R" n="19" break="no"/>piam in mente mea aliquod prius, &amp; 
+      crea<lb ed="#R" n="20" break="no"/>tionem eius intelligam existere illi priori, &amp; illi 
+      <lb ed="#R" n="21"/>posteriori vsque ad illud instans, &amp; 
+      cointelligen<lb ed="#R" n="22" break="no"/>do ipsum coexistere tot partibus temporis, &amp; 
+      <lb ed="#R" n="23"/>tot prius, &amp; posterius, intelligo quantum 
+      du<lb ed="#R" n="24" break="no"/>rauit. 
+   </p>
+               <p xml:id="olm8ij-f13889-d1e441">
+                  <lb ed="#R" n="25"/>Ex his potest patere sufficientia, &amp; numerus 
+      <lb ed="#R" n="26"/>durationum. A Philosopho enim, &amp; Commentatore 
+      <lb ed="#R" n="27"/>ponitur triplex duratio. Ad cuius euidentiam scien 
+      <lb ed="#R" n="28"/>dum est, quod tempus potest aliqua respicere 
+      <lb ed="#R" n="29"/>per modum continuitatis, quia continuat illa: 
+      <lb ed="#R" n="30"/>talia autem sunt, quorum esse consistit in priori, 
+      <lb ed="#R" n="31"/>&amp; posteriori, qualia sunt entia successiua, &amp; 
+      ra<lb ed="#R" n="32" break="no"/>tio est, quia tempus formaliter est ipsum prius, 
+      <lb ed="#R" n="33"/>&amp; posterius: aliqua vero respicit tempus per 
+      mo<lb ed="#R" n="34" break="no"/>dum coexistentis; quia talia dicuntur coexistere 
+      <lb ed="#R" n="35"/>ipsi tempori, &amp; huiusmodi sunt caelum, intelligen 
+      <lb ed="#R" n="36"/>tiae, &amp; omnia aeterna: esse enim talium, licet sit 
+      <lb ed="#R" n="37"/>omnino inuariabile, &amp; ideo intrinsece nullum 
+      <lb ed="#R" n="38"/>habeant prius, &amp; posterius, tamen coexistunt 
+      <lb ed="#R" n="39"/>tempori facto, vel factibili. 
+   </p>
+               <p xml:id="olm8ij-f13889-d1e476">
+                  <lb ed="#R" n="40"/>Quaedam vero respicit non primo modo, nec 
+      <lb ed="#R" n="41"/>secundo, sed per oppositum per modum subsiden 
+      <lb ed="#R" n="42"/>tis, ita quod talia aspiciunt tempus non per 
+      mo<lb ed="#R" n="43" break="no"/>dum contenti, nec coexistentis, sed magis per 
+      <lb ed="#R" n="44"/>modum praesidentis, &amp; hoc modo tempus 
+      men<lb ed="#R" n="45" break="no"/>surat esse diuinum, quia totum tempus continet, 
+      <lb ed="#R" n="46"/>&amp; fluit sub esse diuino. Sic igitur durationum 
+      <lb ed="#R" n="47"/>aliqua est, quae est duratio intrinsece, &amp; 
+      forma<lb ed="#R" n="48" break="no"/>liter, &amp; sic habemus tempus; vel extrinsece, &amp; 
+      <lb ed="#R" n="49"/>connotatiue, &amp; hoc dupliciter, vel per modum 
+      <lb ed="#R" n="50"/>coexistentis ipsi durationi, &amp; sic habemus aeuum, 
+      <lb ed="#R" n="51"/>vel per modum subsistentis, &amp; sic habemus 
+      aeter<lb ed="#R" n="52" break="no"/>nitatem; in quolibet autem istorum est accipere 
+      <lb ed="#R" n="53"/>proprium nunc; tempus enim habet suum nunc, 
+      <lb ed="#R" n="54"/>&amp; aeuum similiter, quia sicut coexistentia ad tem 
+      <lb ed="#R" n="55"/>pus dicitur aeuum, sic coexistentia ad nunc 
+      tem<lb ed="#R" n="56" break="no"/>poris dicitur nunc aeui, &amp; sic de aeternitate: 
+      <lb ed="#R" n="57"/>aeternitas enim est aliquod indiuisibile, quod 
+      <lb ed="#R" n="58"/>quantum est de se, attingit quodlibet nunc 
+      tem<lb ed="#R" n="59" break="no"/>poris, &amp; infinita nunc si essent, ideo vt 
+      intelligi<lb ed="#R" n="60" break="no"/>tur attingere vnum nunc, dicitur nunc 
+      aeternita<lb ed="#R" n="61" break="no"/>tis, &amp; est differentia inter illa nunc, quia illas 
+      <lb ed="#R" n="62"/>mensuras alia, &amp; alia, quia nunc in tempore 
+      dif<lb ed="#R" n="63" break="no"/>fert a tempore, sicut indiuisibile, &amp; continuum, 
+      <lb ed="#R" n="64"/>cuius est tempus. In aeuo enim differret nunc aeui, 
+      <lb ed="#R" n="65"/>&amp; aeuum, sicut totalis coex istentia &amp; 
+      par<lb ed="#R" n="66" break="no"/>tialis, &amp; ideo est Communis quaestio. Vtrum 
+      <!--0046.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>nunc aeui sit inuariabile, quod videbitur in 
+      se<lb ed="#R" n="68" break="no"/>quenti quaestione. 
+   </p>
+               <p xml:id="olm8ij-f13889-d1e546">
+                  <lb ed="#R" n="69"/>De nunc autem aeternitatis certum est, quod 
+      <lb ed="#R" n="70"/>est inuariabile, quia quantum est ex se, 
+      attin<lb ed="#R" n="71" break="no"/>geret omne nunc temporis possibile. Hi ergo 
+      <lb ed="#R" n="72"/>sunt tres modi durationum, qui communiter 
+      as<lb ed="#R" n="73" break="no"/>signantur a Philosopho, &amp; Commentatore. Sed 
+      <lb ed="#R" n="74"/>difficultas est haec. Vtrum sit dare minimum ge 
+      <lb ed="#R" n="75"/>nus mensurae, scilicet tempus discretum, vt 
+      qui<lb ed="#R" n="76" break="no"/>dam Doctores ponunt; &amp; videtur eis, quod sit de 
+      <lb ed="#R" n="77"/>intentione Aristotelis: nam oratio est mensura 
+      <lb ed="#R" n="78"/>prolationis secundum longum tempus, &amp; 
+      bre<lb ed="#R" n="79" break="no"/>ue; est autem quantitas discreta ita quod 
+      lon<lb ed="#R" n="80" break="no"/>gum, &amp; breue tempus ad nullum communem 
+      <lb ed="#R" n="81"/>terminum copulantur: ergo secundum 
+      Ari<lb ed="#R" n="82" break="no"/>stotelem est dare mensuram discretam, quae 
+      <lb ed="#R" n="83"/>est tempus quoddam discretum continens 
+      lon<lb ed="#R" n="84" break="no"/>gum, &amp; breue, vt partes temporis discreti, 
+      <lb ed="#R" n="85"/>&amp; hoc tempus discretum dicunt ipsi, quod est 
+      <lb ed="#R" n="86"/>mensura operationum Angeli, ita quod 
+      quaeli<lb ed="#R" n="87" break="no"/>bet operatio Angeli mensuratur instanti aliquo; 
+      <lb ed="#R" n="88"/>ex multis autem talibus instantibus consurgit 
+      <lb ed="#R" n="89"/>tempus discretum. Sed non puto, quod sit 
+      ne<lb ed="#R" n="90" break="no"/>cessarium ponere tale tempus propter talem 
+      di<lb ed="#R" n="91" break="no"/>scontinuitatem operationum Angeli: nam possi 
+      <lb ed="#R" n="92"/>bile est dare tempus continuum, quod mensurat 
+      <lb ed="#R" n="93"/>interrupta, sicut motus interruptus ipsius sabae 
+      <lb ed="#R" n="94"/>mensuratur tempore continuo, ita quod inter 
+      <lb ed="#R" n="95"/>nunc, in quo desinit vnum, &amp; incipit aliud, est 
+      da<lb ed="#R" n="96" break="no"/>re continuum tempus. Sic in proposito dicendo, 
+      <lb ed="#R" n="97"/>quod omnes operationes Angeli mensurantur 
+      <lb ed="#R" n="98"/>tempore continuo, sic, quod licet quaelibet 
+      ope<lb ed="#R" n="99" break="no"/>ratio non habeat esse nisi per instans, tamen 
+      in<lb ed="#R" n="100" break="no"/>ter instans, in quo desinit vna operatio, &amp; incipit 
+      <lb ed="#R" n="101"/>alia, est dare tempus continuum medium.
+   </p>
+               <p xml:id="olm8ij-f13889-d1e621">
+                  <lb ed="#R" n="102"/>Et cum dicitur de oratione, sciendum est, quod 
+      <lb ed="#R" n="103"/>in oratione aliud est considerare mensuram 
+      ip<lb ed="#R" n="104" break="no"/>sam, quae est duratio, videlicet, quantum durauit, 
+      <lb ed="#R" n="105"/>&amp; aliud est proportio syllabae ad syllabam, qua 
+      <lb ed="#R" n="106"/>vna respectu alterius dicatur longa, alia breuis: 
+      <lb ed="#R" n="107"/>modo quod Aristoteles dicit. Mensuratur enim 
+      <lb ed="#R" n="108"/>syllaba longa, &amp; breui; intelligendum, idest, 
+      <lb ed="#R" n="109"/>producta, &amp; correpta: proportio ergo, quod 
+      il<lb ed="#R" n="110" break="no"/>la syllaba sit longa &amp; alia breuis, mensura istius 
+      <lb ed="#R" n="111"/>proportionis est oratio formalis, sed mensura 
+      <lb ed="#R" n="112"/>longitudinis, quantum scilicet durauit oratio, est 
+      <lb ed="#R" n="113"/>tempus continuum, licet illa in partibus suis se 
+      <lb ed="#R" n="114"/>habeat intercise, &amp; discontinue; &amp; ideo oratio 
+      <lb ed="#R" n="115"/>hoc secundo modo non est mensura distincta a 
+      <lb ed="#R" n="116"/>tempore, &amp; numero, immo illa, vt sic magis est 
+      <lb ed="#R" n="117"/>quoddam mensuratum, sed primo modo illa 
+      <lb ed="#R" n="118"/>est mensura proportionis syllabarum 
+      discreta<lb ed="#R" n="119" break="no"/>rum, ideo ponitur mensura discreta, non quod 
+      <lb ed="#R" n="120"/>sit mensura duratiua, sed mensura cuiusdam 
+      <lb ed="#R" n="121"/>proportionis. Ideo non oportet, quod propter 
+      <lb ed="#R" n="122"/>hoc ponatur mensura discreta. tempus enim, 
+      si<lb ed="#R" n="123" break="no"/>ue continuum, siue discretum est mensura 
+      du<lb ed="#R" n="124" break="no"/>ratiua, huiusmodi non est oratio, vt dictum est. 
+      <lb ed="#R" n="125"/>Tertia Propositio est, quod tantum est vnum 
+      <lb ed="#R" n="126"/>aeuum omnium aeuiternorum, nec tamen 
+      ponen<lb ed="#R" n="127" break="no"/>dum, quod illud sit subiectiue in Angelo 
+      haben<lb ed="#R" n="128" break="no"/>te nobilius esse, vt dicit quaedam opinio; immo 
+      <lb ed="#R" n="129"/>dico, quod non est extra animam actu, sed poten 
+      <lb ed="#R" n="130"/>tia tantum: in actu autem completo est in 
+      ani<lb ed="#R" n="131" break="no"/>ma tantum obiectiue, eo modo, quo dixi supra 
+      <lb ed="#R" n="132"/>de tempore.
+  </p>
+               <p xml:id="olm8ij-f13889-d1e691">
+      <!--0047.xml-->
+                  <pb ed="#R" n="47"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Hanc Conclusionem probo primo a 
+      posterio<lb ed="#R" n="2" break="no"/>ri. secundo a priori. A posteriori sic, quia si 
+      plu<lb ed="#R" n="3" break="no"/>ra essent aeua aeuiternorum, tunc ad 
+      interroga<lb ed="#R" n="4" break="no"/>tionem factam per quando, non posset responde. 
+      <lb ed="#R" n="5"/>ri de duobus aeuiternis, quod essent in vno quan 
+      <lb ed="#R" n="6"/>do, demonstrato: sed quodlibet esset in suo 
+      quan<lb ed="#R" n="7" break="no"/>do. Hanc rationem feci supra, quod non sunt 
+      <lb ed="#R" n="8"/>plura tempora, cum non possint esse plura nunc, 
+      <lb ed="#R" n="9"/>eo quod si essent plura nunc, non posset dici, quod 
+      <lb ed="#R" n="10"/>in eodem nunc, ego lego, &amp; tu audis, propter 
+      <lb ed="#R" n="11"/>quod dicitur 4. physic. text. 53. quod licet essent 
+      <lb ed="#R" n="12"/>plures mundi, non tamen essent plura tempora, 
+      <lb ed="#R" n="13"/>sed consequens est falsum: nam de Gabriele, &amp; 
+      <lb ed="#R" n="14"/>Micha ele potest dici, quod in eodem quando, 
+      <lb ed="#R" n="15"/>quo est Michael, est Gabriel, ergo eorum mensu 
+      <lb ed="#R" n="16"/>ra est vna.
+  </p>
+               <p xml:id="olm8ij-f13889-d1e735">
+                  <lb ed="#R" n="17"/>Dices, quod habent proprias mensuras, tamē 
+      <lb ed="#R" n="18"/>habent vnum commune quando.
+  </p>
+               <p xml:id="olm8ij-f13889-d1e742">
+                  <lb ed="#R" n="19"/>Contra: impossibile est plurificari nunc, &amp; 
+      <lb ed="#R" n="20"/>quando, nisi plurificentur prius, &amp; post. Sicut 
+      <lb ed="#R" n="21"/>enim impossibile est plurificari situs, puta hic, &amp; 
+      <lb ed="#R" n="22"/>ibi, nisi per suum extra dimensiue, sic 
+      impossibi<lb ed="#R" n="23" break="no"/>le est plurificari nunc, nisi per suum extra 
+      dura<lb ed="#R" n="24" break="no"/>tiue: extra autem magnitudinem durare sunt 
+      an<lb ed="#R" n="25" break="no"/>te, &amp; post: ergo impossibile est, quod sunt duo 
+      <lb ed="#R" n="26"/>nunc, nisi alterum sit ante, &amp; alterum post, non 
+      <lb ed="#R" n="27"/>ergo sunt simul duo nunc, ergo nec duae 
+      dura<lb ed="#R" n="28" break="no"/>tiones. 
+   </p>
+               <p xml:id="olm8ij-f13889-d1e766">
+                  <lb ed="#R" n="29"/>Secundo probo Conclusionem a priori sic. 
+      <lb ed="#R" n="30"/>Manente in pluribus eodem formali, ex cuius 
+      <lb ed="#R" n="31"/>adiacentia aliud relinquitur idem, sicut si ego, 
+      <lb ed="#R" n="32"/>&amp; tu haberemus idem ornamentum, haberemus 
+      <lb ed="#R" n="33"/>idem esse ornatum: sed duratio cuiusdam 
+      dura<lb ed="#R" n="34" break="no"/>tionis non est aliud formaliter, quam prius, &amp; 
+      <lb ed="#R" n="35"/>post, quod est ipsum tempus: esse autem angeli 
+      <lb ed="#R" n="36"/>non dicitur durare, nisi extrinsece ex 
+      adiacen<lb ed="#R" n="37" break="no"/>tia ad tempus, ita quod ex adiacentia ad tempus 
+      <lb ed="#R" n="38"/>relinquitur in Angelo ipsum durare: impossibile 
+      <lb ed="#R" n="39"/>est autem esse, nisi vnum tempus; patet ex 
+      supra<lb ed="#R" n="40" break="no"/>dictis, quia nonnisi vnum prius, &amp; posterius, &amp; 
+      <lb ed="#R" n="41"/>vnum nunc: ergo duratio, quae relinquitur in 
+      <lb ed="#R" n="42"/>Angelo isto, vel illo ex adiacentia ad tempus, 
+      <lb ed="#R" n="43"/>non est nisi vna. 
+   </p>
+               <p xml:id="olm8ij-f13889-d1e801">
+                  <lb ed="#R" n="44"/>Dices. Alia est coexistentia istius Angeli ad 
+      tem<lb ed="#R" n="45" break="no"/>pus, &amp; alia illius, eo quod aliud est esle, quod 
+      <lb ed="#R" n="46"/>coexistit: ergo alia duratio, quia per te 
+      dura<lb ed="#R" n="47" break="no"/>tio Angeli non est nisi coexistentia esse eius ad 
+      <lb ed="#R" n="48"/>tempus. 
+   </p>
+               <p xml:id="olm8ij-f13889-d1e815">
+                  <lb ed="#R" n="49"/>Respondeo, quod bene sunt multa 
+      coexisten<lb ed="#R" n="50" break="no"/>tia, quae coexistunt vni tempori: ibi ergo est 
+      con<lb ed="#R" n="51" break="no"/>siderare fundamentum coexistentiae, &amp; terminum, 
+      <lb ed="#R" n="52"/>&amp; tertio, illud quod relinquitur. Fundamenta 
+      <lb ed="#R" n="53"/>sunt illa quae coexistunt, terminus est ipsum cui 
+      <lb ed="#R" n="54"/>coexistunt; coexistentia ergo non habet, quod 
+      <lb ed="#R" n="55"/>numeretur, &amp; multiplicetur ratione 
+      fundamen<lb ed="#R" n="56" break="no"/>ti, sed ratione termini: ideo non est, nisi vnum 
+      <lb ed="#R" n="57"/>durare, quia durare relinquitur ex termino, non 
+      <lb ed="#R" n="58"/>ex fundamentis. sicut ergo licet lapis, &amp; lignum, 
+      <lb ed="#R" n="59"/>vt adiacent tempori, sint plura, &amp; per consequens 
+      <lb ed="#R" n="60"/>plures coexistentiae: tamen vnum quando est, 
+      <lb ed="#R" n="61"/>quod relinquitur in lapide, &amp; ligno propter idem 
+      <lb ed="#R" n="62"/>tempus, cui adiacent: sic licet sint plures Angeli 
+      <lb ed="#R" n="63"/>coexistentes vni tempori, &amp; per consequens ex 
+      <lb ed="#R" n="64"/>ratione coexistentium sint plures coexistentiae, 
+      <lb ed="#R" n="65"/>tamen illud, quod relinquitur ex illis 
+      coexisten<lb ed="#R" n="66" break="no"/>tijs ratione vnius temporis, ex quo illud 
+      relin<lb ed="#R" n="67" break="no"/>quitur, tanquam ex termino, dicitur vnum. 
+  </p>
+               <p xml:id="olm8ij-f13889-d1e859">
+      <!--0047.xml-->
+                  <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>Secundam partem propositionis improbo, 
+      sci<lb ed="#R" n="69" break="no"/>licet quod aeuum non sit subiectiue in vno 
+      Ange<lb ed="#R" n="70" break="no"/>lo habente nobilius esse, vt quidam ponunt, quod 
+      <lb ed="#R" n="71"/>ficut est vnum tempus omnium temporalium, &amp; 
+      <lb ed="#R" n="72"/>illud est subiectiue in motu primi mobilis, sic est 
+      <lb ed="#R" n="73"/>vnum aeuum aeuiternorum, quod est subiectiue 
+      <lb ed="#R" n="74"/>in primo nobiliori Angelo. 
+  </p>
+               <p xml:id="olm8ij-f13889-d1e881">
+                  <lb ed="#R" n="75"/>Haec autem opinio deficit in duobus. Primo, 
+      <lb ed="#R" n="76"/>quia tempus, vt est quantitas indeterminata, est 
+      <lb ed="#R" n="77"/>subiectiue in omni motu: sic enim 
+      apprehen<lb ed="#R" n="78" break="no"/>lo quocumque motu apprehendo tempus, sed 
+      <lb ed="#R" n="79"/>tempus vt est prius, &amp; posterius reducta ad 
+      cer<lb ed="#R" n="80" break="no"/>tum numerum, &amp; mensuram, &amp; vt mensura 
+      ha<lb ed="#R" n="81" break="no"/>bens certificare de motibus vt sic per tempus, 
+      <lb ed="#R" n="82"/>non est in omni motu, sed tantum in motu 
+      pri<lb ed="#R" n="83" break="no"/>mo: quia prius, &amp; posterius in motu alio non 
+      <lb ed="#R" n="84"/>sunt apta certificare, &amp; vniformiter mensurare, 
+      <lb ed="#R" n="85"/>nisi vt applicantur ad motum primi mobilis.
+  </p>
+               <p xml:id="olm8ij-f13889-d1e907">
+                  <lb ed="#R" n="86"/>Tunc ad propositum deficit opinio praedicta 
+      <lb ed="#R" n="87"/>in hoc, qula si debeamus reputare, quod 
+      mensu<lb ed="#R" n="88" break="no"/>ra, quae dicitur aeuum, sit subiectiue in aliquo vno 
+      <lb ed="#R" n="89"/>Angelo, puta in nobiliori, hoc ideo est, quia 
+      ap<lb ed="#R" n="90" break="no"/>paret hoc in tempore, quia ponitur subiectiue 
+      <lb ed="#R" n="91"/>in vno motu primi mobilis, sed hoc non facit ad 
+      <lb ed="#R" n="92"/>propositum, quia si loquaris de tempore, vt est 
+      <lb ed="#R" n="93"/>quantitas indeterminata, sic est subiectiue in om 
+      <lb ed="#R" n="94"/>ni motu, quia apprehenso priori, &amp; posteriori in 
+      <lb ed="#R" n="95"/>quocumque motu apprehendo tempus, cum 
+      <lb ed="#R" n="96"/>prius, &amp; posterius ipsius motus sit ipsum tempus, 
+      <lb ed="#R" n="97"/>vt supra probatum est: ergo sic aeuum erit subie 
+      <lb ed="#R" n="98"/>ctiue in quolibet Angelo, ita quod quilibet 
+      An<lb ed="#R" n="99" break="no"/>gelus habebit proprium aeuum, ex hoc, quod in 
+      <lb ed="#R" n="100"/>omni esse Angeli in ordine ad tempus apprehen 
+      <lb ed="#R" n="101"/>do suum aeuum. 
+  </p>
+               <p xml:id="olm8ij-f13889-d1e944">
+                  <lb ed="#R" n="102"/>Si vero loquaris de tempore, vt est quantitas 
+      <lb ed="#R" n="103"/>determinata reducta ad rationem certi numeri, 
+      <lb ed="#R" n="104"/>&amp; mensurae certificantis, vt sic, licet tempus 
+      de<lb ed="#R" n="105" break="no"/>terminat sibi vnum subiectum, puta motum 
+      pri<lb ed="#R" n="106" break="no"/>mi mobilis; tamen hoc non potest poni de aeuo. 
+      <lb ed="#R" n="107"/>Ratio est, quia esse nullius Angeli habet talem 
+      <lb ed="#R" n="108"/>habitudinem ad esse omnium Angelorum, qualem 
+      <lb ed="#R" n="109"/>motus primi mobilis ad motus alios, propter 
+      <lb ed="#R" n="110"/>quod mereatur fundare rationem mensurae in or 
+      <lb ed="#R" n="111"/>dine ad alios. 
+   </p>
+               <p xml:id="olm8ij-f13889-d1e968">
+                  <lb ed="#R" n="112"/>Dices: Jmmo, quia ibi est dare Angelum 
+      ali<lb ed="#R" n="113" break="no"/>quem nobiliorem inter alios. Respondeo, 
+      men<lb ed="#R" n="114" break="no"/>sura durationis non debet accipi secundum 
+      ali<lb ed="#R" n="115" break="no"/>quid ratione cuius possit haberi certitudo de 
+      <lb ed="#R" n="116"/>mensuratis, sed per esse Seraphim 
+      quantumcum<lb ed="#R" n="117" break="no"/>que nobilem nunquam scire licet, quantum 
+      du<lb ed="#R" n="118" break="no"/>rauit Michael. Ratio est: quia non habet illas 
+      <lb ed="#R" n="119"/>conditiones, per quas posset certificari 
+      quanti<lb ed="#R" n="120" break="no"/>tas aliorum Angelorum, sicut habe: motus 
+      pri<lb ed="#R" n="121" break="no"/>mus respectu aliorum motuum scilicet 
+      regulari<lb ed="#R" n="122" break="no"/>tatem, vniformitatem, &amp; alias conditiones, de 
+      <lb ed="#R" n="123"/>quibus dixi supra, propter quas posui, quod mo 
+      <lb ed="#R" n="124"/>tus primi mobilis erat subiectum temporis, vt 
+      <lb ed="#R" n="125"/>induit rationem mensurae, &amp; numeri 
+      certifican<lb ed="#R" n="126" break="no"/>tis: ergo. 
+   </p>
+               <p xml:id="olm8ij-f13889-d1e1004">
+                  <lb ed="#R" n="127"/>Secundo deficit opinio in conclusione, nisi 
+      <lb ed="#R" n="128"/>quia ad habendam notitiam de quantitate 
+      du<lb ed="#R" n="129" break="no"/>rationis Angelorum non oportet recurrere ad 
+      <lb ed="#R" n="130"/>alium, quam ad ipsummet, de quo volo 
+      certifi<lb ed="#R" n="131" break="no"/>cari. hoc probo ex dictis a priori, quoniam 
+      du<lb ed="#R" n="132" break="no"/>ratio omnis intrinsece, &amp; formaliter est ipsum 
+      <lb ed="#R" n="133"/>tempus; esse autem Angeli durat, non 
+      intrinse<lb ed="#R" n="134" break="no"/>ce, sed extrinsece per coexistentiam ad tempus, 
+      <!--0048.xml-->
+      <pb ed="#R" n="48"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>quia igitur quilibet Angelus habet propriam 
+      <lb ed="#R" n="2"/>coexistentiam ad tempus, non oportet ad 
+      certi<lb ed="#R" n="3" break="no"/>ficandum de duratione Angeli istius, recurrere 
+      <lb ed="#R" n="4"/>ad coexistentiam alterius Angeli, sed ad 
+      suam<lb ed="#R" n="5" break="no"/>met; non enim oportet reducere aeuum istius 
+      <lb ed="#R" n="6"/>Angeli ad aliud, vnde habet, quod sit duratio 
+      <lb ed="#R" n="7"/>istius, sed habet, quod sit duratio ex coexistentia 
+      <lb ed="#R" n="8"/>eius ad tempus, non ex coexistentia alterius: sic 
+      <lb ed="#R" n="9"/>ergo dico, quod est vnum aeuum aeuiternorum 
+      <lb ed="#R" n="10"/>omnium, &amp; illud non est subiectiue in aliquo vno 
+      <lb ed="#R" n="11"/>Angelo: non enim est in re extra actu, sed 
+      poten<lb ed="#R" n="12" break="no"/>tia tantum, actu vero, &amp; complectiue est in 
+      ani<lb ed="#R" n="13" break="no"/>ma obiectiue, sicut dixi supra de tempore. Jllud 
+      <lb ed="#R" n="14"/>autem aeuum format anima ex apprehensione 
+      <lb ed="#R" n="15"/>cuius libet Angeli in ordine ad tempus. Cum 
+      <lb ed="#R" n="16"/>enim anima concipit Angelum coexistere 
+      tem<lb ed="#R" n="17" break="no"/>pori, ex adiacentia eius ad tempus relinquitur 
+      <lb ed="#R" n="18"/>necessario in anima aliquid, quo apprehendit 
+      <lb ed="#R" n="19"/>certitudinem de quantitate durationis, quod est 
+      <lb ed="#R" n="20"/>aeuum, apprehenso quolibet Angelo, propter cau 
+      <lb ed="#R" n="21"/>sam dictam in prima conclusione. 
+   </p>
+               <p xml:id="olm8ij-f13889-d1e1076">
+                  <lb ed="#R" n="22"/>Ad argumentum in oppositum respondeo. 
+      <lb ed="#R" n="23"/>Nego illud, quod supponitur, quod 
+      Philoso<lb ed="#R" n="24" break="no"/>phus, &amp; Commentator nullam fecerint 
+      mentio<lb ed="#R" n="25" break="no"/>nem nisi de tempore. Nam Commentator 
+      ex<lb ed="#R" n="26" break="no"/>ponens Philosophum ibi dicentem, intendit 
+      diffe<lb ed="#R" n="27" break="no"/>rentiam inter illa, quae sunt in tempore, &amp; illa, 
+      <lb ed="#R" n="28"/>quae non sunt in tempore, dicit, quod illa quae 
+      <lb ed="#R" n="29"/>funt in tempore continentur ex tempore, &amp; 
+      tem<lb ed="#R" n="30" break="no"/>pus excedit illa ex vtraque parte, &amp; eodem 
+      con<lb ed="#R" n="31" break="no"/>mento, &amp; cum declarauit, quod illa, quae sunt in 
+      <lb ed="#R" n="32"/>tempore, sunt illa, quae tempus excedit ex 
+      vtra<lb ed="#R" n="33" break="no"/>que parte, declarauit ex hoc, quod res aeternae 
+      <lb ed="#R" n="34"/>non sunt in tempore. Et infra parum: &amp; 
+      inten<lb ed="#R" n="35" break="no"/>dit per res aeternas corpora caelestia, &amp; infra 
+      <lb ed="#R" n="36"/>modicum: &amp; innuit ea, quae sunt separata a 
+      ma<lb ed="#R" n="37" break="no"/>teria. Corpora enim caelestia non sunt in 
+      tem<lb ed="#R" n="38" break="no"/>pore, secundum quod tempus non continet illa, 
+      <lb ed="#R" n="39"/>tamen sunt coexistentia cum tempore, scilicet 
+      <lb ed="#R" n="40"/>quod esse eorum, quod est in motu, est coexistens 
+      <lb ed="#R" n="41"/>cum esse temporis coexistentia, quantitatis cum 
+      <lb ed="#R" n="42"/>quantitate: res autem separatae a materia non 
+      <lb ed="#R" n="43"/>habent continentiam, neque coexistentiam cum 
+      <lb ed="#R" n="44"/>tempore. 
+   </p>
+            </div>
+            <div xml:id="olm8ij-f13889-Dd1e1129">
+               <head xml:id="olm8ij-f13889-Hd1e1131">Articulus 2</head>
+               <head xml:id="olm8ij-f13889-Hd1e1133" type="question-title">
+      Utrum in aeuo sit successio
+    </head>
+               <p xml:id="olm8ij-f13889-d1e1136">
+                  <lb ed="#R" n="45"/>ARTJCVLVS II. 
+      <lb ed="#R" n="46"/>Vtrum in aeuo sit successio.
+   </p>
+               <p xml:id="olm8ij-f13889-d1e1143">
+                  <lb ed="#R" n="47"/>AD secundam quaestionem arguo primo, 
+      <lb ed="#R" n="48"/>quod in aeuo Angelorum est successio, 
+      <lb ed="#R" n="49"/>quia secundum Hieronymum super Exod. cap. 
+      <lb ed="#R" n="50"/>4. super illud: Ego sum qui sum, dicit solum 
+      <lb ed="#R" n="51"/>esse diuinum est vere esse, quod non habet 
+      prae<lb ed="#R" n="52" break="no"/>teritum, &amp; futurum: ergo in esse Angelorum est 
+      <lb ed="#R" n="53"/>praeteritum, &amp; futurum. Tunc sic: in illo esse est 
+      <lb ed="#R" n="54"/>successio, in quo est praeteritum: &amp; futurum: 
+      <lb ed="#R" n="55"/>sed in esse Angeli, vt dictum est, est praeteritum, 
+      <lb ed="#R" n="56"/>&amp; futurum: ergo. 
+   </p>
+               <p xml:id="olm8ij-f13889-d1e1167">
+                  <lb ed="#R" n="57"/>In oppositum est Dionysius de diuinis nom. 
+      <lb ed="#R" n="58"/>cap. de aeuo. Acuum est esse antiquum 
+      intrans<lb ed="#R" n="59" break="no"/>mutabile totum secundum totum 
+      intransmuta<lb ed="#R" n="60" break="no"/>bile, &amp; simul totum. 
+   </p>
+               <p xml:id="olm8ij-f13889-d1e1179">
+                  <lb ed="#R" n="61"/>Respondeo hic primo recitabo duas 
+      opinio<lb ed="#R" n="62" break="no"/>nes, &amp; secundo mediabo inter illas. Est ergo 
+      pri<lb ed="#R" n="63" break="no"/>ma opinio, quod in esse Angeli non est successio, 
+      <lb ed="#R" n="64"/>successio tamen eius est in duratione: exemplum 
+      <!--0048.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="65"/>dant de sole, &amp; radio. Si enim poneretur, quod 
+      <lb ed="#R" n="66"/>radius vnus semper vniformiter exiret a sole 
+      <lb ed="#R" n="67"/>radius ille in se non variaretur, tamen continua 
+      <lb ed="#R" n="68"/>successio eius in aere esset in quadam 
+      succes<lb ed="#R" n="69" break="no"/>sione. 
+   </p>
+               <p xml:id="olm8ij-f13889-d1e1205">
+                  <lb ed="#R" n="70"/>Hi probant hanc opinionem auctoritate 
+      <lb ed="#R" n="71"/>Hieronymi, quae adducta est, arguendo ad 
+      prin<lb ed="#R" n="72" break="no"/>cipale. Item per Ansel. Angeli nondum habent 
+      <lb ed="#R" n="73"/>de aeternitate, quod futurum est, nec de 
+      praeteri<lb ed="#R" n="74" break="no"/>to, quod iam transactum est. 
+   </p>
+               <p xml:id="olm8ij-f13889-d1e1218">
+                  <lb ed="#R" n="75"/>Alia opinio opposita est, quod nec in esse, nec 
+      <lb ed="#R" n="76"/>in duratione Angelorum est successio, patet 
+      de<lb ed="#R" n="77" break="no"/>esse, de duratione probant, quia, Nihil diuisibile 
+      <lb ed="#R" n="78"/>potest esse mensura indiuisibilis; sed Angelus 
+      se<lb ed="#R" n="79" break="no"/>cundum omnes in suo esse est indiuisibilis: ergo 
+      <lb ed="#R" n="80"/>nihil ibi est, quod possit dici succedere. 
+   </p>
+               <p xml:id="olm8ij-f13889-d1e1234">
+                  <lb ed="#R" n="81"/>Nunc secundo medio inter illas opiniones ex 
+      <lb ed="#R" n="82"/>dictis in prima quaestione praecedenti. Cum enim 
+      <lb ed="#R" n="83"/>in Angelo non sit duratio aliqua intrinsece, sed 
+      <lb ed="#R" n="84"/>extrinsece tantum ex coexistentia ad tempus, ita 
+      <lb ed="#R" n="85"/>quod tempus se habet per modum adiacentis, &amp; 
+      <lb ed="#R" n="86"/>esse per modum coexistentis. Hoc viso posset 
+      <lb ed="#R" n="87"/>poni in aeuo successio aliquo trium modorum: 
+      <lb ed="#R" n="88"/>Vel extrinsece, secundum connotata, &amp; sic 
+      cla<lb ed="#R" n="89" break="no"/>rum est, quod in aeuo est successio. Impossibile 
+      <lb ed="#R" n="90"/>est enim, quod aliquid hoc modo intelligatur 
+      <lb ed="#R" n="91"/>durare, nisi in ante, &amp; prius. Vnde cum dicitur 
+      <lb ed="#R" n="92"/>multum durauit, iam vadis in aliquid prius, &amp; 
+      <lb ed="#R" n="93"/>ante. Illa autem successio communis est, tam 
+      <lb ed="#R" n="94"/>ad aeuum, quam ad aeternitatem. Vtrumque enim 
+      <lb ed="#R" n="95"/>tam aeuum, quam aeternitas connotant 
+      successio<lb ed="#R" n="96" break="no"/>nem, &amp; durationem intrinsece, &amp; formaliter. De 
+      <lb ed="#R" n="97"/>aeuo patet, de aeternitate similiter, quia 
+      impos<lb ed="#R" n="98" break="no"/>sibile est Deum intelligere aeternum, nisi per hoc, 
+      <lb ed="#R" n="99"/>quod intelligitur attingere omne tempus factum, 
+      <lb ed="#R" n="100"/>&amp; factibile, imaginatum, &amp; imaginabile, &amp; ad 
+      <lb ed="#R" n="101"/>hoc ibat opinio prima. 
+   </p>
+               <p xml:id="olm8ij-f13889-d1e1282">
+                  <lb ed="#R" n="102"/>Secundo modo potest esse intellectus 
+      quaestio<lb ed="#R" n="103" break="no"/>nis de successione respectu ipsius esse, quod dat, 
+      <lb ed="#R" n="104"/>sic opinio secunda dicit verum de esse. In esse 
+      <lb ed="#R" n="105"/>enim Angeli durantis nulla est omnino successio 
+      <lb ed="#R" n="106"/>intrinsece, &amp; ad hoc vadit auctoritas Dionysij 
+      <lb ed="#R" n="107"/>adducta arguendo ad principale. 
+   </p>
+               <p xml:id="olm8ij-f13889-d1e1298">
+                  <lb ed="#R" n="108"/>Tertio modo potest intelligi quaestio non eun 
+      <lb ed="#R" n="109"/>do ad connotatum, quod est tempus, nec ad 
+      es<lb ed="#R" n="110" break="no"/>se Angeli in se, sed ad medium, puta ad 
+      coexi<lb ed="#R" n="111" break="no"/>stentiam Angeli ad ipsum tempus, hoc modo 
+      <lb ed="#R" n="112"/>oportet necessario ponere in Angelo 
+      successio<lb ed="#R" n="113" break="no"/>nem, &amp; hanc vel realem, si coexistentia sit 
+      rea<lb ed="#R" n="114" break="no"/>lis, vel secundum rationem, si coexistentia sit 
+      <lb ed="#R" n="115"/>tantum secundum rationem, vt eam faciat 
+      in<lb ed="#R" n="116" break="no"/>tellectus in actu, hoc autem modo non potest 
+      po<lb ed="#R" n="117" break="no"/>ni successio in aeternitate. Et ad hunc modum 
+      <lb ed="#R" n="118"/>vadit forte prima opinio: non enim possum 
+      ima<lb ed="#R" n="119" break="no"/>ginari esse Angeli coexistere tempori, &amp; 
+      dura<lb ed="#R" n="120" break="no"/>tioni, nisi imaginer prius, &amp; posterius, &amp; per 
+      <lb ed="#R" n="121"/>consequens durationem. Hoc vltimum 
+      mem<lb ed="#R" n="122" break="no"/>brum probo. Si enim capio esse ipsius Angeli, 
+      <lb ed="#R" n="123"/>&amp; tempus totum vsque ad hodie, &amp; concipio 
+      ip<lb ed="#R" n="124" break="no"/>sum esse in ordine ad prius, &amp; posterius in 
+      futu<lb ed="#R" n="125" break="no"/>rum, licet intelligam esse inuariatum, cum 
+      co<lb ed="#R" n="126" break="no"/>existentia sit alia &amp; alia, &amp; si coexistentia fit 
+      rea<lb ed="#R" n="127" break="no"/>lis, est alia realiter, si secundum rationem, est alia 
+      <lb ed="#R" n="128"/>secundum rationem: formo ergo sic rationem: 
+      <lb ed="#R" n="129"/>illa coexistentia est successiua, vel rea liter, vel 
+      <lb ed="#R" n="130"/>secundum imaginationem, quae habet 
+      imagina<lb ed="#R" n="131" break="no"/>tionem, quae habet in se difformitatem, &amp; varia- 
+      <!--0049.xml-->
+      <pb ed="#R" n="49"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>tionem: sed coexistentia angeli comparata ad 
+      <lb ed="#R" n="2"/>tempus praeteritum, praesens, &amp; suturum habet in 
+      <lb ed="#R" n="3"/>se difformitatem, &amp; variationem: ergo.
+   </p>
+               <p xml:id="olm8ij-f13889-d1e1367">
+                  <lb ed="#R" n="4"/>Maior patet, quia si capiatur coexistentia 
+      re<lb ed="#R" n="5" break="no"/>spectu praesentis in actu respectu futuri in 
+      poten<lb ed="#R" n="6" break="no"/>tia, necessario capitur cum successione actus ad 
+      <lb ed="#R" n="7"/>potentiam. Minorem probo. Cum enim 
+      conci<lb ed="#R" n="8" break="no"/>pio coexistentiam angeli praesentem, non 
+      conci<lb ed="#R" n="9" break="no"/>pio eam necessario in actu; cum vero concipio 
+      <lb ed="#R" n="10"/>per modum futuri, concipio eam necessario in 
+      <lb ed="#R" n="11"/>potentia. Coexistentia etiam ad praesens est alia 
+      <lb ed="#R" n="12"/>a coexistentia ad futurum, quia stante 
+      coexisten<lb ed="#R" n="13" break="no"/>tia ad praesens posset Deus facere, quod non 
+      <lb ed="#R" n="14"/>esset coexistentia ad futurum, nec actu, nec 
+      poten<lb ed="#R" n="15" break="no"/>tia: ergo coexistentia Angeli ad tempus 
+      praeteri<lb ed="#R" n="16" break="no"/>tum praesens, &amp; futurum est alia &amp; alia, &amp; habet 
+      <lb ed="#R" n="17"/>in se variationem, &amp; difformitatem. Hoc idem 
+      <lb ed="#R" n="18"/>probo ex ratione contingentis, &amp; necessarij sic: 
+      <lb ed="#R" n="19"/>Jllud, quod respicit aliquid contingenter, non 
+      eo<lb ed="#R" n="20" break="no"/>dem modo respicit aliud, quod respicit 
+      necesfa<lb ed="#R" n="21" break="no"/>rio: sed coexistentia respicit praesens 
+      neces<lb ed="#R" n="22" break="no"/>sario, futurum vero contingenter: ergo 
+      neces<lb ed="#R" n="23" break="no"/>sario in coexistentia Angeli est variatio, &amp; 
+      dif<lb ed="#R" n="24" break="no"/>formitas, vt aspicit ipsum tempus. Esse autem 
+      <lb ed="#R" n="25"/>diuinum aspicit totum decursum temporis 
+      vni<lb ed="#R" n="26" break="no"/>formiter, quia quantum est ex se, coexistit omni 
+      <lb ed="#R" n="27"/>tempori, ideo non est in potentia, vt coexistat 
+      <lb ed="#R" n="28"/>suturo, &amp; ideo sic non est successio in illa 
+      coexi<lb ed="#R" n="29" break="no"/>stentia esse Dei ad tempus, sicut est in 
+      coexisten<lb ed="#R" n="30" break="no"/>tia Angeli. 
+   </p>
+               <p xml:id="olm8ij-f13889-d1e1428">
+                  <lb ed="#R" n="31"/>Similiter nec aspicit tempus suturum, &amp; 
+      con<lb ed="#R" n="32" break="no"/>tingenter sicut Angelus; sed eodem modo, quan- 
+      <!--0049.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="33"/>tum est de se aspicit futurum necessario, sicut 
+      <lb ed="#R" n="34"/>praesens: esse autem Angeli non sic aspicit 
+      dura<lb ed="#R" n="35" break="no"/>tionem vniformiter: ergo habitudo esse ad 
+      ip<lb ed="#R" n="36" break="no"/>sum tempus, quod est ista duratio Angeli 
+      ex<lb ed="#R" n="37" break="no"/>trinfece, vt dictum est, se habet variabiliter in 
+      <lb ed="#R" n="38"/>Angelo, vniformiter autem in Deo: ideo aeuum 
+      <lb ed="#R" n="39"/>Angeli aliquo modo est variabile, non tamen 
+      <lb ed="#R" n="40"/>aeternitas Dei, &amp; ideo hoc modo in aeuo est 
+      <lb ed="#R" n="41"/>prius, &amp; posterius, non in aeternitate. Ex hoc 
+      <lb ed="#R" n="42"/>patet concordia auctoritatum diuersarum, quae 
+      <lb ed="#R" n="43"/>sibi videntur repugnare. Auctoritas enim 
+      Dio<lb ed="#R" n="44" break="no"/>nysij allegata ad principale loquitur de esse 
+      <lb ed="#R" n="45"/>Angeli, non autem de coexistentia eius ad 
+      tem<lb ed="#R" n="46" break="no"/>pus, &amp; ad antiquitatem, quia statim cum 
+      ca<lb ed="#R" n="47" break="no"/>pio antiquitatem esse Angeli, eoincludo 
+      tem<lb ed="#R" n="48" break="no"/>pus, ideo respectu antiquitatis suae non se 
+      ha<lb ed="#R" n="49" break="no"/>bet vniformiter, quando enim coexistebat 
+      tem<lb ed="#R" n="50" break="no"/>pori priori, intelligebatur esse in potentia ad 
+      <lb ed="#R" n="51"/>coexistendum tempori posteriori, sicut hodie 
+      <lb ed="#R" n="52"/>respectu istius nunc se habet in sua coexistentia 
+      <lb ed="#R" n="53"/>necessario; respectu autem futuri se habet 
+      con<lb ed="#R" n="54" break="no"/>tingenter: posset enim Deus ipsum annihilare, 
+      <lb ed="#R" n="55"/>&amp; sic non haberet coexistentiam ad tempus 
+      il<lb ed="#R" n="56" break="no"/>lud. &amp; ad hoc vadit opinio illa, quae dicit, quod 
+      <lb ed="#R" n="57"/>in aeuo Angelorum est successio, &amp; prius, &amp; 
+      po<lb ed="#R" n="58" break="no"/>sterius; illud est aeuum, vt dictum est, non est 
+      <lb ed="#R" n="59"/>aliqua mensura intrinseca, quae sit duratio 
+      in<lb ed="#R" n="60" break="no"/>trinseca Angeli, quoniam duratio non est sine 
+      <lb ed="#R" n="61"/>priori, &amp; posteriori, esse autem Angeli, cum 
+      <lb ed="#R" n="62"/>sit omnino indiuisibile, non habet intrinsece 
+      <lb ed="#R" n="63"/>prius, &amp; posterius. Ad auctoritates in 
+      opposi<lb ed="#R" n="64" break="no"/>tum patet, quia currunt vijs suis.
+   </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

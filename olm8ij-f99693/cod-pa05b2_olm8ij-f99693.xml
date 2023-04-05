@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-05">April 05, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b2">Roma 1605, Book 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="326"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-f99693"><!-- l2d44-q1 -->
+            <head xml:id="olm8ij-f99693-Hd1e101">Quaestio 1</head>
+            <p xml:id="olm8ij-f99693-d1e103">
+               <lb ed="#R" n="7"/>QVAESTIO VNICA. 
+   </p>
+            <p xml:id="olm8ij-f99693-d1e108">
+      <!--0326.xml-->
+               <cb ed="#R" n="b"/>
+               <lb ed="#R" n="8"/>1 Prima est: Vtrum potentia peccandi 
+      ha<lb ed="#R" n="9" break="no"/>beat praecise pro fundamento libertatem arbitrij. 
+      <lb ed="#R" n="10"/>2 Secunda est: Vtrum potentia peccandi sit 
+      <lb ed="#R" n="11"/>a Deo. 
+      <lb ed="#R" n="12"/>3 Tertia in secunda parte distinctionis est: 
+      <lb ed="#R" n="13"/>Vtrum omnis potestas, &amp; principatus saecularis 
+      <lb ed="#R" n="14"/>sit a Deo. 
+      <lb ed="#R" n="15"/>4 Quarta est: Vtrum obedientia sit 
+      specia<lb ed="#R" n="16" break="no"/>lis virtus. 
+   </p>
+            <div xml:id="olm8ij-f99693-Dd1e134">
+               <head xml:id="olm8ij-f99693-Hd1e136">Articulus 1</head>
+               <head xml:id="olm8ij-f99693-Hd1e138" type="question-title">
+      Utrum potentia peccandi habeat praecise pro 
+      fundamento libertatem arbitrii
+    </head>
+               <p xml:id="olm8ij-f99693-d1e141">
+                  <lb ed="#R" n="17"/>ARTJCVLVS J. 
+      <lb ed="#R" n="18"/>Vtrum potentia peccandi habeat praecise pro 
+     fun<lb ed="#R" n="19" break="no"/>damento libertatem arbitrij. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e150">
+                  <lb ed="#R" n="20"/>QVANTVM ad primam 
+      <lb ed="#R" n="21"/>quaestionem arguo primo, 
+      <lb ed="#R" n="22"/>quod potentia peccandi 
+      <lb ed="#R" n="23"/>habeat pro immediato 
+      fun<lb ed="#R" n="24" break="no"/>damento liberum 
+      arbi<lb ed="#R" n="25" break="no"/>trium: Quia potentia 
+      pec<lb ed="#R" n="26" break="no"/>candi habet pro fundamen 
+      <lb ed="#R" n="27"/>to potentiam ad vtramque 
+      <lb ed="#R" n="28"/>partem contradictionis indifferentem: sed 
+      poten<lb ed="#R" n="29" break="no"/>tia, quae est aequaliter ad vtrumque oppositorum, 
+      <lb ed="#R" n="30"/>est primo per se liberum arbitrium, de quo 
+      Phi<lb ed="#R" n="31" break="no"/>losophus 9. Metaph dicit, quod rationales 
+      poten<lb ed="#R" n="32" break="no"/>tiae sunt ad opposita: ergo. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e181">
+                  <lb ed="#R" n="33"/>In oppositum est, quia; Vbi est praecisum 
+      sun<lb ed="#R" n="34" break="no"/>damentum alicuius formae, ibi est forma illa pos 
+      <lb ed="#R" n="35"/>sibilis: ergo vbi erit liberum arbitrium, ibi pote 
+      <lb ed="#R" n="36"/>rit inueniri potentia formaliter ad peccandum: 
+      <lb ed="#R" n="37"/>sed in Deo est liberum arbitrium: quare in Deo 
+      <lb ed="#R" n="38"/>poterit esse potentia peccandi. Consequens est fal 
+      <lb ed="#R" n="39"/>sum; ergo illud, vnde sequitur, scilicet, quod 
+      po<lb ed="#R" n="40" break="no"/>tentia peccandi fundetur immediate in libero 
+      ar<lb ed="#R" n="41" break="no"/>bitrio. Respondeo primo ponam punctum 
+      quae<lb ed="#R" n="42" break="no"/>stionis, Secundo propositiones intentas. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e206">
+                  <lb ed="#R" n="43"/>De primo sciendum, quod in conclusione ista 
+      <lb ed="#R" n="44"/>est controuersia inter Doctores modernos. 
+      Di<lb ed="#R" n="45" break="no"/>cunt namque quidam, quod potentia peccandi 
+      <lb ed="#R" n="46"/>habet pro immediato fundamento libertatem 
+      <lb ed="#R" n="47"/>arbitrii. Sed opinio illa non placet aliis propter 
+      <lb ed="#R" n="48"/>argumentum inductum, in arguendo ad 
+      princi<lb ed="#R" n="49" break="no"/>pale in oppositum, quoniam, scilicet liberum 
+      <lb ed="#R" n="50"/>arbitrium est in Deo. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e226">
+                  <lb ed="#R" n="51"/>Alii dicunt, quod habet pro immediato 
+      fun<lb ed="#R" n="52" break="no"/>damento liberum arbitrium non absolute, sed in 
+      <lb ed="#R" n="53"/>quantum est limitatum. Alii, quod inquantum 
+      <lb ed="#R" n="54"/>productum ex corruptione. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e237">
+                  <lb ed="#R" n="55"/>Vt ergo videatur, quid veritatis continent 
+      <lb ed="#R" n="56"/>opiniones praedictae, est praesens quaestio 
+      intro<lb ed="#R" n="57" break="no"/>ducta 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e246">
+      <!--0326.xml-->
+                  <cb ed="#R" n="c"/>
+                  <lb ed="#R" n="58"/>Nunc secundo pono propositiones, &amp; Prima 
+      <lb ed="#R" n="59"/>est, quod potentia peccandi non est aliquod 
+      il<lb ed="#R" n="60" break="no"/>lorum trium praedictorum, nec omnia simul 
+      acce<lb ed="#R" n="61" break="no"/>pta. Ratio prima ad conclusionem istam est, quia 
+      <lb ed="#R" n="62"/>vbi ponuntur, &amp; reperiuntur illa, non reperitur 
+      <lb ed="#R" n="63"/>potentia ad peccandum: ergo illa potentia 
+      pec<lb ed="#R" n="64" break="no"/>candi non erit aliquod illorum trium, etiam 
+      si<lb ed="#R" n="65" break="no"/>mul sumpta, quia actus bonus dicitur mora liter 
+      <lb ed="#R" n="66"/>in ordine ad finem, quae conclusio fuit superius 
+      <lb ed="#R" n="67"/>probata: ergo si habet alium, &amp; alium modum 
+      <lb ed="#R" n="68"/>attingendi finem, necessario habet aliam, &amp; 
+      a<lb ed="#R" n="69" break="no"/>liam bonitatem moralem. Consequentia patet, 
+      <lb ed="#R" n="70"/>quia posita causa vel ponitur, vel saltem potest 
+      <lb ed="#R" n="71"/>poni effectus. Antecedens probo, quia in confir 
+      <lb ed="#R" n="72"/>matis in via, sicut in matre Domini, &amp; aliis 
+      hu<lb ed="#R" n="73" break="no"/>iusmodi, erat liberum arbitrium limitatum, &amp; 
+      <lb ed="#R" n="74"/>ex nihilo, &amp; tamen non potentia ad peccandum. 
+      <lb ed="#R" n="75"/>hoc idem patet de Beatis, in quibus non est 
+      po<lb ed="#R" n="76" break="no"/>testas peccandi, cum tamen in eis sit liberum ar 
+      <lb ed="#R" n="77"/>bitrium cum omnibus illis. 
+  </p>
+               <p xml:id="olm8ij-f99693-d1e296">
+                  <lb ed="#R" n="78"/>Ad illa forte dicetur, quod pro tanto non erat 
+      <lb ed="#R" n="79"/>in praenominatis potentia peccandi, quia 
+      confir<lb ed="#R" n="80" break="no"/>mati in gratia. Contra: Illud non dat potentiam 
+      <lb ed="#R" n="81"/>ad peccandum, cui insunt conditiones illae, quae 
+      <lb ed="#R" n="82"/>faciunt aliter in eo, quod sit potentia ad 
+      peccan<lb ed="#R" n="83" break="no"/>dum: sed gratiae, quam ponis, insunt conditiones 
+      <lb ed="#R" n="84"/>istae, scilicet esse ex nihilo, &amp; limitatio, quae sunt 
+      <lb ed="#R" n="85"/>conditiones potentiae peccandi: ergo. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e316">
+                  <lb ed="#R" n="86"/>Confirmo, quia illud non tollit potentiam ad 
+      <lb ed="#R" n="87"/>peccandum, quod relinquit in subiecto illa, quae 
+      <lb ed="#R" n="88"/>faciunt potentiam peccandi: sed gratia relinquit 
+      <lb ed="#R" n="89"/>in subiecto habente eam limitationem, &amp; esse ex 
+      <lb ed="#R" n="90"/>nihilo cum potentia ad vtrumque: ergo. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e330">
+                  <lb ed="#R" n="91"/>Secundo in speciali probo, quod liberum 
+      ar<lb ed="#R" n="92" break="no"/>bitrium non sit potentia immediata ad 
+      peccan<lb ed="#R" n="93" break="no"/>dum, sic: Nulla perfectio(quantum est ex se) est 
+      cau<lb ed="#R" n="94" break="no"/>sa alicuius imperfectionis. Da enim oppositum, 
+      <lb ed="#R" n="95"/>iam non erit melius ipsum, quam non ipsum in 
+      <lb ed="#R" n="96"/>quocumque, &amp; sic non esset perfectio simpliciter: 
+      <lb ed="#R" n="97"/>sed libertas arbitrii (quantum est de se) dicit 
+      per<lb ed="#R" n="98" break="no"/>fectionem simpliciter, &amp; hoc secundum suam 
+      ra<lb ed="#R" n="99" break="no"/>tionem formalem in communi, alias non 
+      pone<lb ed="#R" n="100" break="no"/>remus eam in Deo: ergo. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e354">
+                  <lb ed="#R" n="101"/>Confirmo per Ansel. qui dicit de casu diaboli, 
+      <lb ed="#R" n="102"/>quod posse peccare, nec est libertas arbitrii, nec 
+      <lb ed="#R" n="103"/>pars libertatis arbitrii. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e363">
+                  <lb ed="#R" n="104"/>Tertio in speciali probo, quod esse ex nihilo, non 
+      <lb ed="#R" n="105"/>sit ratio, quod liberum arbitrium dicatur 
+      poten<lb ed="#R" n="106" break="no"/>tia ad peccandum. Quia illud, quod est mere 
+      rela<lb ed="#R" n="107" break="no"/>tio rationis non dat aliter, quod habeat potentiam, 
+      <lb ed="#R" n="108"/>aut quod sit potentia ad peccandum; sed esse ex 
+      <lb ed="#R" n="109"/>nihilo super illam rem solum dicit relationem 
+      <lb ed="#R" n="110"/>rationis: habitudo enim importata per ly, ex, ha- 
+      <!--0327.xml-->
+      <pb ed="#R" n="327"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>bet non ens pro termino; relatio enim realis 
+      ha<lb ed="#R" n="2" break="no"/>bet realem terminum in actu: ergo. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e392">
+                  <lb ed="#R" n="3"/>Secundo ad idem, cum dico, esse ex nihilo, duo 
+      <lb ed="#R" n="4"/>dico, scilicet esse, &amp; ex nihileitate, aut ergo esse 
+      <lb ed="#R" n="5"/>ex nihilo constituit, &amp; dat rationem potentiae ad 
+      <lb ed="#R" n="6"/>peccandum ratione denominati; aut ratione ipsius 
+      <lb ed="#R" n="7"/>nihileitatis: non primo modo, ita quod ens ex ni 
+      <lb ed="#R" n="8"/>hilo ex hoc solo possit peccare, quia est, quia tunc 
+      <lb ed="#R" n="9"/>Deus posset peccare, cum habeat esse: nec 
+      secun<lb ed="#R" n="10" break="no"/>do modo, puta, quod nihileitas det rei posse 
+      pec<lb ed="#R" n="11" break="no"/>care, quia nihileitas omnino nihil ponit in 
+      re<lb ed="#R" n="12" break="no"/>ipsa: ergo. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e416">
+                  <lb ed="#R" n="13"/>Tertio probo in speciali, quod limitatio non 
+      <lb ed="#R" n="14"/>det rationem potentiae peccandi, &amp; hoc propter 
+      <lb ed="#R" n="15"/>easdem rationes, propter quas supra probatum 
+      <lb ed="#R" n="16"/>est de aliis, quoniam limitatio inest beatis, &amp; con 
+      <lb ed="#R" n="17"/>firmatis, nulla tamen potentia ad peccandum. 
+      Si<lb ed="#R" n="18" break="no"/>militer ex hoc, quod res est limitata, non habet, 
+      <lb ed="#R" n="19"/>quod sit bona, vel mala causaliter: similiter actus 
+      <lb ed="#R" n="20"/>quidam diuini circa nos sunt limitati, sicut mors, 
+      <lb ed="#R" n="21"/>&amp; huiusmodi; similiter gratia est ens limitatum, 
+      <lb ed="#R" n="22"/>&amp; tamen confirmat voluntatem contra peccatum, 
+      <lb ed="#R" n="23"/>vnde stante limitatione est in potentia ad peccant 
+      <lb ed="#R" n="24"/>dum in confirmatis. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e445">
+                  <lb ed="#R" n="25"/>Nunc secundo ponam propositionem 
+      affirma<lb ed="#R" n="26" break="no"/>tiuam, scilicet, quod potentia peccandi fundatur 
+      <lb ed="#R" n="27"/>immediate in libertate arbitrii non absolute, sed 
+      <lb ed="#R" n="28"/>ex hoc, quod non est prima regula; nec formae 
+      na<lb ed="#R" n="29" break="no"/>turaliter primae regulae; ex his inquam duabus 
+      <lb ed="#R" n="30"/>conditionibus clauditur in substantia intellectuali 
+      <lb ed="#R" n="31"/>potentia ad peccandum. Hanc propositionem 
+      pro<lb ed="#R" n="32" break="no"/>bo, &amp; primo quo ad conditionem primam, 
+      vide<lb ed="#R" n="33" break="no"/>licet, quod voluntas habet, quod possit peccare, 
+      <lb ed="#R" n="34"/>ex hoc, quod non est regula prima. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e470">
+                  <lb ed="#R" n="35"/>Arguo autem sic: Potentia illa, quae potest, 
+      quan<lb ed="#R" n="36" break="no"/>tum est de se, ad opposita contradictorie, si non 
+      ha<lb ed="#R" n="37" break="no"/>beat ex se, quod omnis actus eius sit rectus, ex 
+      <lb ed="#R" n="38"/>hoc solo potest peccare, quantum est de se. Hoc 
+      <lb ed="#R" n="39"/>probo, quoniam ideo voluntas diuina non peccat, 
+      <lb ed="#R" n="40"/>quia omnis actus eius eo ipso, quo elicitus est a 
+      <lb ed="#R" n="41"/>tali voluntate, est rectus. Vnde ipsa potest in vtrã- 
+      <lb ed="#R" n="42"/>que partem contradictionis, &amp; quicquid cuiuscũ- 
+      <lb ed="#R" n="43"/>que partis agit, totum rectum est; haec autem ratio 
+      <lb ed="#R" n="44"/>est, quia ipsa est regula prima rectitudinis actuum 
+      <lb ed="#R" n="45"/>liberi arbitrii potens libere dare rectitudinem 
+      in<lb ed="#R" n="46" break="no"/>differenter actibus oppositis. Hinc est, quod si 
+      <lb ed="#R" n="47"/>Deus praecipiat homicidium, siue furtum, 
+      siue<lb ed="#R" n="48" break="no"/>etiam interfectionem filii, vt fecit Abrahae, 
+      simili<lb ed="#R" n="49" break="no"/>ter, si causet odium sui in voluntate tua; vel si 
+      su<lb ed="#R" n="50" break="no"/>bito annihilet mundum, &amp; transferat possessionem, 
+      <lb ed="#R" n="51"/>&amp; ius de dominio in dominium, totum rectum est, 
+      <lb ed="#R" n="52"/>quod non esset, nisi quia ipsa est regula prima: 
+      er<lb ed="#R" n="53" break="no"/>go per oppositum, voluntas illa, quae non habet, 
+      <lb ed="#R" n="54"/>quod sit regula prima, ex hoc ipso, ipsa quantum 
+      <lb ed="#R" n="55"/>est de, etsi nihil sibi addatur, potest peccare, quia 
+      <lb ed="#R" n="56"/>non habet ex se, vnde determinet actum ad 
+      recti<lb ed="#R" n="57" break="no"/>tudinem, sed in ordine ad regulam primã; &amp; per 
+      <lb ed="#R" n="58"/>consequens cum sit potens agere opposita, 
+      pote<lb ed="#R" n="59" break="no"/>rit esse causa eius deformis primae regulae: quia in 
+      <lb ed="#R" n="60"/>eius potestate non est determinare rectitudinem 
+      <lb ed="#R" n="61"/>in actu, nec facere eum conformem regulae 
+      pri<lb ed="#R" n="62" break="no"/>mae, ex quo ipsa non est regula prima. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e533">
+                  <lb ed="#R" n="63"/>Secundum probo, scilicet, quod exigatur ad 
+      pos<lb ed="#R" n="64" break="no"/>se peccare in potestate liberi arbitrii, quod ex se 
+      <lb ed="#R" n="65"/>non est conformis regulae primae. Da enim 
+      oppo<lb ed="#R" n="66" break="no"/>situm, scilicet, quod aliquid ex se sit conforme re- 
+      <!--0327.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>gulae primae, iam aufert omnem potentiam ad 
+      pec<lb ed="#R" n="68" break="no"/>candum. Vnde voluntas creata, quae non est de se 
+      <lb ed="#R" n="69"/>regula prima, fit impotens ad peccandum per 
+      <lb ed="#R" n="70"/>quoddam pondus, quod est desectus illius gratiae, 
+      <lb ed="#R" n="71"/>quae facit conformitatem ad diuinam voluntatem, 
+      <lb ed="#R" n="72"/>&amp; per essentiam est ligata, coniuncta, &amp; conformis 
+      <lb ed="#R" n="73"/>primae regulae: &amp; ideo gratia dat formaliter esse 
+      <lb ed="#R" n="74"/>gratum, quia dat talem conformitatem ad 
+      diui<lb ed="#R" n="75" break="no"/>nam voluntatem. Et ex hoc apparet 
+      impossibili<lb ed="#R" n="76" break="no"/>tas beati, vel Angeli ad peccandum: quia stante 
+      <lb ed="#R" n="77"/>gratia in eo gradu, quo facit perfectam conformi 
+      <lb ed="#R" n="78"/>tatem ad diuinam voluntatem, permanet 
+      volun<lb ed="#R" n="79" break="no"/>tas determinata ad actus conformes primae regu 
+      <lb ed="#R" n="80"/>gulae, quae est voluntas ipsa diuina. Vnde gratia 
+      <lb ed="#R" n="81"/>per essentiam est conformis diuinae voluntati, &amp; 
+      <lb ed="#R" n="82"/>illud, quod per essentiam esset: ergo ipsum esset 
+      <lb ed="#R" n="83"/>conforme voluntati diuinae per essentiam. Sic 
+      er<lb ed="#R" n="84" break="no"/>go si ponatur impeccabilitas in libero arbitrio, 
+      o<lb ed="#R" n="85" break="no"/>portet, quod sit prima regula, vel ligatum, &amp; 
+      con<lb ed="#R" n="86" break="no"/>iunctum formaliter per suam essentiam ipsi 
+      regu<lb ed="#R" n="87" break="no"/>lae; puta, si illud per essentiam sit gratia, vel 
+      deter<lb ed="#R" n="88" break="no"/>minetur ad talem conformitatem per additum, si 
+      <lb ed="#R" n="89"/>de se non sit conformis regulae primae: ergo per 
+      <lb ed="#R" n="90"/>oppositum potentia ad peccandum inest libero 
+      <lb ed="#R" n="91"/>arbitrio, aut quia non est prima regula, aut quia 
+      <lb ed="#R" n="92"/>de se non est conformis illi, nec per additum. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e605">
+                  <lb ed="#R" n="93"/>Ex his infero, quod natura intellectualis, vt 
+      in<lb ed="#R" n="94" break="no"/>telligitur sine gratia, necessario intelligitur in po 
+      <lb ed="#R" n="95"/>tentia ad peccandum, &amp; ratio a priori est, quoniam 
+      <lb ed="#R" n="96"/>ex conditione sua ex hoc, quod non est prima regula, 
+      <lb ed="#R" n="97"/>illa est in potentia ad opposita contradictorie, &amp; 
+      <lb ed="#R" n="98"/>ad actum bonum, &amp; malum: ergo si debeat carere 
+      po<lb ed="#R" n="99" break="no"/>tentia ad peccandum, necessario oportet, quod 
+      determi<lb ed="#R" n="100" break="no"/>netur ad actum bonum: illud non habet ex se; quia da 
+      <lb ed="#R" n="101"/>oppositum, iam ex se non esset indeterminata ad 
+      bo<lb ed="#R" n="102" break="no"/>num, &amp; malum, &amp; sic esset prima regula: ergo esset 
+      de<lb ed="#R" n="103" break="no"/>terminata, &amp; indeterminata, quod est contradictio: 
+      er<lb ed="#R" n="104" break="no"/>go oportet, quoddeterminetur aliunde: illud autem, quo 
+      <lb ed="#R" n="105"/>determinatur, non est aliud, quam illa gratia: ergo.
+   </p>
+               <p xml:id="olm8ij-f99693-d1e636">
+                  <lb ed="#R" n="106"/>Dices, quare magis gratia determinat ad actum
+    <!-- missing line break error -->bonum, quam quaecumque entitas alia creata. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e643">
+                  <lb ed="#R" n="107"/>Respondeo. Actus dicitur bonus theologice ex 
+      <lb ed="#R" n="108"/>conformitate ad diuinam voluntatem, quae est 
+      regu<lb ed="#R" n="109" break="no"/>la actuum humanorum. Jllud ergo, quod ex se facit 
+      <lb ed="#R" n="110"/>conformitatem actus ad diuinam volunratem, illud 
+      <lb ed="#R" n="111"/>per se determinat ad actum bonum. Sic autem est in 
+      <lb ed="#R" n="112"/>proposito: gratia vero per rationem suam propriam, 
+      <lb ed="#R" n="113"/>per quam est formalis, habet, quod faciat 
+      conformita<lb ed="#R" n="114" break="no"/>tem ad voluntatem diuinam. Cuius quidem ratio est, 
+      <lb ed="#R" n="115"/>quia gratia est integritas omnium virtutum, &amp; ex 
+      ra<lb ed="#R" n="116" break="no"/>tione sua consequenter includit amicitiam, &amp; charita 
+      <lb ed="#R" n="117"/>tem ad Deum: propriam autem ratio amicitiae est facere 
+      <lb ed="#R" n="118"/>conformitatem in ordine ad amicum, vnde amicitia 
+      <lb ed="#R" n="119"/>est idem velle, &amp; nolle, 8. Ethic. ergo gratia hoc 
+      mo<lb ed="#R" n="120" break="no"/>do, vt est pondus quoddam in voluntate, facit velle 
+      <lb ed="#R" n="121"/>voluntatis conforme voluntati diuinae, ex hoc 
+      de<lb ed="#R" n="122" break="no"/>terminat actum voluntatis ad rectitudinem, quam 
+      <lb ed="#R" n="123"/>numen.
+   </p>
+            </div>
+            <div xml:id="olm8ij-f99693-Dd1e683">
+               <head xml:id="olm8ij-f99693-Hd1e685">Articulus 2</head>
+               <head xml:id="olm8ij-f99693-Hd1e687" type="question-title">
+      Utrum poena peccandi sit a Deo
+    </head>
+               <p xml:id="olm8ij-f99693-d1e690">
+                  <lb ed="#R" n="124"/>ARTJCVLVS JJ. 
+      <lb ed="#R" n="125"/>Vtrum paena peccandi sit a Deo. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e697">
+                  <lb ed="#R" n="126"/>QVoad secundam quaestionem arguo primo, 
+      <lb ed="#R" n="127"/>quod potentia peccandi non sit a Deo: Quo- 
+      <!--0328.xml-->
+      <pb ed="#R" n="328"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>niam nullum malum est a Deo: sed potentia 
+      pec<lb ed="#R" n="2" break="no"/>candi videtur esse quid malum: ergo. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e715">
+                  <lb ed="#R" n="3"/>In oppositum est illud Joannis, vbi dicit 
+      Salua<lb ed="#R" n="4" break="no"/>tor Pilato: Non haberes in me potestatem, nisi 
+      <lb ed="#R" n="5"/>datum esset tibi desuper: ergo potestas Pilati in 
+      <lb ed="#R" n="6"/>Christum erat a Deo, sed illa erat potestas 
+      pec<lb ed="#R" n="7" break="no"/>candi, cum esset voluntas occidendi Christum, 
+      <lb ed="#R" n="8"/>de qua potestate dixerat Pilatus: Potestatem 
+      ha<lb ed="#R" n="9" break="no"/>beo occidere te: ergo. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e734">
+                  <lb ed="#R" n="10"/>Respondeo primo ponam punctum quaestionis: 
+      <lb ed="#R" n="11"/>secundo propositiones intentas. Quoad primum, 
+      <lb ed="#R" n="12"/>sciendum, quod quidam volunt distinguere in 
+      <lb ed="#R" n="13"/>actu peccati ipsum substratum, quod est elicitiuum 
+      <lb ed="#R" n="14"/>actus, &amp; defectibilitatem, &amp; secundum hoc 
+      di<lb ed="#R" n="15" break="no"/>cunt, quod in potentia peccandi quantum ad 
+      sub<lb ed="#R" n="16" break="no"/>stratum, quod est principium elicitiuum, actus 
+      <lb ed="#R" n="17"/>est a Deo, cuius quidem ratio est; quia idem 
+      sub<lb ed="#R" n="18" break="no"/>stratum est elicitiuum actus boni, &amp; mali, &amp; ideo, 
+      <lb ed="#R" n="19"/>vt sic non habet malitiam conuolitã: sed quoad 
+      <lb ed="#R" n="20"/>defectibilitatem non est a Deo. Quod probant, 
+      <lb ed="#R" n="21"/>quia quantum ad hoc principium includit 
+      defor<lb ed="#R" n="22" break="no"/>mitatem, &amp; hoc per consequens, vt sic includit 
+      <lb ed="#R" n="23"/>imperfectionem: illa autem deformites, &amp; imper 
+      <lb ed="#R" n="24"/>fectio non potest inesse a Deo: ergo oportet, quod 
+      <lb ed="#R" n="25"/>iusit creaturae secundum suam rationem. Illud 
+      <lb ed="#R" n="26"/>autem, per quod conuenit creaturae, siue libero 
+      ar<lb ed="#R" n="27" break="no"/>bitrio creato illa deformitas, &amp; imperfectio, 
+      di<lb ed="#R" n="28" break="no"/>cunt, quod est ex nihilo esse; non habet autem 
+      <lb ed="#R" n="29"/>creatura, quod sit ex nihilo ex parte Dei, sod est 
+      <lb ed="#R" n="30"/>ex se, secundum propriam rationem: Deus 
+      au<lb ed="#R" n="31" break="no"/>tem non potest dare creaturae oppositam rationem, 
+      <lb ed="#R" n="32"/>non ex defectu diuinae potentiae; sed quia 
+      creatu<lb ed="#R" n="33" break="no"/>ra non est capax, &amp; hoc modo dicunt, quod 
+      pos<lb ed="#R" n="34" break="no"/>set concedi, quod Deus est causa illius 
+      defectibi<lb ed="#R" n="35" break="no"/>litatis, non quidem positiua, sed priuatiua, quia 
+      <lb ed="#R" n="36"/>non dat oppositum creatur, ; sed quia non dat, hoc 
+      <lb ed="#R" n="37"/>est, quia repugnat creaturae, vt dictum est. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e797">
+                  <lb ed="#R" n="38"/>Alii dicunt, quod in potentia peccandi est con 
+      <lb ed="#R" n="39"/>siderare absolutum, &amp; respectiuum; quoad 
+      pri<lb ed="#R" n="40" break="no"/>mum est a Deo, quia sic est entitas positiua; quoad 
+      <lb ed="#R" n="41"/>secundum non est entitas aliqua positiua, quia 
+      <lb ed="#R" n="42"/>respectus ille est ad non esse, &amp; nihil: Quaestio 
+      er<lb ed="#R" n="43" break="no"/>go mota est, vt videatur, quid sentiendum sit de 
+      <lb ed="#R" n="44"/>modis istis dicendi. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e815">
+                  <lb ed="#R" n="45"/>Nunc secundo pono conclusionem primam 
+      <lb ed="#R" n="46"/>negatiuam, scilicet, quod potentia peccandi non 
+      <lb ed="#R" n="47"/>includit defectibilitatem formaliter, &amp; 
+      intrinse<lb ed="#R" n="48" break="no"/>ce, sed tantum connotatiue per modum termini. 
+      <lb ed="#R" n="49"/>Hanc propositionem probo per hoc, quod poten 
+      <lb ed="#R" n="50"/>tia peccandi est potentia ad peccandum. Potentia 
+      <lb ed="#R" n="51"/>autem ad peccandum non includit defectum in 
+      <lb ed="#R" n="52"/>recto, sed connotatiue in obiecto. Vnde 
+      poten<lb ed="#R" n="53" break="no"/>tia ad peccandum est potentia ad defectum 
+      si<lb ed="#R" n="54" break="no"/>cut ad obiectum. Et quod non includat formaliter 
+      <lb ed="#R" n="55"/>talem defectum; patet, quia defectus ille non est 
+      <lb ed="#R" n="56"/>idem, quod esse ex nihilo, vel tendere, quantum 
+      <lb ed="#R" n="57"/>est de se, in nihil, nec esse limitatum, sicut probatum 
+      <lb ed="#R" n="58"/>est quaestione praecedenti: nullus autem defectus 
+      ali<lb ed="#R" n="59" break="no"/>cuius communiter attribuitur creaturae intrinsece 
+      <lb ed="#R" n="60"/>ex generali eius conditione. Confirmo hoc, quia 
+      <lb ed="#R" n="61"/>sicut ex parte actus deformis substratum eius, nec 
+      <lb ed="#R" n="62"/>eius deformitas est a defectu, sed a positiuo, ex 
+      <lb ed="#R" n="63"/>parte principii per se quidem, &amp; primo substratum, 
+      <lb ed="#R" n="64"/>&amp; ex consequenti deformitas, sic nec principium, 
+      <lb ed="#R" n="65"/>in quantum est principium talis actus, includit 
+      <lb ed="#R" n="66"/>defectum aliquem intrinsece, sed tantum extrin- 
+      <!--0328.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>sece in ipso actu, &amp; denominatiue ex consequenti 
+      <lb ed="#R" n="68"/>in principio. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e874">
+                  <lb ed="#R" n="69"/>Dices. Habilitas ad peccandum dicit 
+      defectibi<lb ed="#R" n="70" break="no"/>litatem quandam in libero arbitrio. Respondeo. 
+      <lb ed="#R" n="71"/>Dico, quod aptitudo ad peccandum non est 
+      acci<lb ed="#R" n="72" break="no"/>pienda ad deficiendum formaliter intrinsece, sed 
+      <lb ed="#R" n="73"/>extrinsece, scilicet ad actum defectuosum. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e887">
+                  <lb ed="#R" n="74"/>Secunda Propositio quoad propositum 
+      inten<lb ed="#R" n="75" break="no"/>tum est, quod potentia peccandi quoad illud, quod 
+      <lb ed="#R" n="76"/>importat intrinsece, &amp; formaliter est a Deo, &amp; 
+      <lb ed="#R" n="77"/>haec est opinio Magistri in litera. Hanc 
+      proposi<lb ed="#R" n="78" break="no"/>tionem probo primo sic: Quicquid creatura habet 
+      <lb ed="#R" n="79"/>a se formaliter, totum habet a Deo effectiue, alias 
+      <lb ed="#R" n="80"/>tota creaturae entitas non esset a Deo, &amp; accipien 
+      <lb ed="#R" n="81"/>do, quicquid habet creatura ex natura sua, vt 
+      ta<lb ed="#R" n="82" break="no"/>lis est. Verbi gratia, quicquid habet liberum 
+      ar<lb ed="#R" n="83" break="no"/>bitrium ex conditione sua prima, nullo addito, 
+      <lb ed="#R" n="84"/>vt probatum est quaestione praecedenti: sed 
+      po<lb ed="#R" n="85" break="no"/>tentia peccandi inest libero arbitrio ex natura sua 
+      <lb ed="#R" n="86"/>prima: ex natura sua enim habet, quod possit esse 
+      <lb ed="#R" n="87"/>conforme primae regulae, &amp; difforme 
+      indifferen<lb ed="#R" n="88" break="no"/>ter, quia nec est prima regula, nec essentialiter 
+      <lb ed="#R" n="89"/>conformitas ad primam regulam: ergo porentia 
+      <lb ed="#R" n="90"/>peccandi inest hoc modo libero arbitrio a Deo 
+      <lb ed="#R" n="91"/>effectiue. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e929">
+                  <lb ed="#R" n="92"/>Secundo ad idem. Si potentia peccandi non sit 
+      <lb ed="#R" n="93"/>a Deo; aut hoc est, quia potentia non est a Deo; 
+      <lb ed="#R" n="94"/>aut quia aptitudo ad peccandum non est a Deo: 
+      <lb ed="#R" n="95"/>non primo modo, quia certum est, quod natura 
+      li<lb ed="#R" n="96" break="no"/>beri arbitrii, &amp; eius potentia est a Deo: nec secun 
+      <lb ed="#R" n="97"/>do modo, quia talis aptitudo intrinsece non dicit, 
+      <lb ed="#R" n="98"/>nisi naturam liberi arbitrii, licet extrinsece 
+      con<lb ed="#R" n="99" break="no"/>notet deformitatem, &amp; quoad hoc concedo, quod 
+      <lb ed="#R" n="100"/>non est a Deo: hoc tamen teneo, quod quoad 
+      om<lb ed="#R" n="101" break="no"/>ne intrinsecum potentia peccandi, quicquid dicit 
+      <lb ed="#R" n="102"/>in libero arbitrio, est a Deo. Ad argumentum 
+      pa<lb ed="#R" n="103" break="no"/>tet ex praedictis. 
+   </p>
+            </div>
+            <div xml:id="olm8ij-f99693-Dd1e960">
+               <head xml:id="olm8ij-f99693-Hd1e962">Articulus 3</head>
+               <head xml:id="olm8ij-f99693-Hd1e964" type="question-title">
+      Utrum omnis potestas, &amp; principatus secu laris sit a Deo
+    </head>
+               <p xml:id="olm8ij-f99693-d1e967">
+                  <lb ed="#R" n="104"/>ARTJCVLVS JJJ. 
+      <lb ed="#R" n="105"/>Vtrum omnis potestas, &amp; Principatus secu 
+      <lb ed="#R" n="106"/>laris sit a Deo. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e976">
+                  <lb ed="#R" n="107"/>AD tertiam quaestionem arguo primo, quod 
+      <lb ed="#R" n="108"/>non omnis potestas, &amp; principatus secularis 
+      <lb ed="#R" n="109"/>sit a Deo, sic: Relatio non causatur ab eo, a quo non 
+      <lb ed="#R" n="110"/>causatur suum fundamentum, alias relatio posset 
+      <lb ed="#R" n="111"/>esse per se terminus productionis, quod falsum 
+      <lb ed="#R" n="112"/>est per Philosophum; sed relatio dominii &amp; 
+      ser<lb ed="#R" n="113" break="no"/>uitutis fundatur super actus voluntatis seruorum 
+      <lb ed="#R" n="114"/>pariter, &amp; dominorum inuicem mutuo 
+      consentien<lb ed="#R" n="115" break="no"/>tium, actus autem non est huiusmodi a Deo 
+      imme<lb ed="#R" n="116" break="no"/>diate, sed mediate, sicut a libero arbitrio: ergo. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e1000">
+                  <lb ed="#R" n="117"/>In oppositum est illud Apostoli: A quo omnis 
+      <lb ed="#R" n="118"/>potestas in caelo, &amp; in terra, &amp;c. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e1008">
+                  <lb ed="#R" n="119"/>Respondeo, primo videndum est, quid 
+      forma<lb ed="#R" n="120" break="no"/>liter importet hoc nomen, Potestas: secundo 
+      po<lb ed="#R" n="121" break="no"/>nendae sunt propositiones duae cum aliquibus, quae 
+      <lb ed="#R" n="122"/>ex eis deducuntur. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e1019">
+                  <lb ed="#R" n="123"/>Quantum ad primum pono propositionem 
+      <lb ed="#R" n="124"/>istam, scilicet, quod potestas, dominium, &amp; 
+      <lb ed="#R" n="125"/>seruitus, non dicunt relationem realem, sed 
+      re<lb ed="#R" n="126" break="no"/>lationem rationis. Hanc propositionem pono 
+      <lb ed="#R" n="127"/>propter duos modos dicendi in ista materia: 
+      <lb ed="#R" n="128"/>dicunt enim quidam, quod voluntas potest 
+      cau<lb ed="#R" n="129" break="no"/>sare realem relationem, sicut nonnulli dicunt 
+      <!--0329.xml-->
+      <pb ed="#R" n="329"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>de matrimonio, quod est relatio realis causata 
+      <lb ed="#R" n="2"/>per actum voluntatis, siue per consensum 
+      mu<lb ed="#R" n="3" break="no"/>tuum duorum. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e1050">
+                  <lb ed="#R" n="4"/>Alij dicunt, quod sunt relationes reales, non 
+      <lb ed="#R" n="5"/>tamen causatae per actum voluntatis; sed 
+      exi<lb ed="#R" n="6" break="no"/>gunt praecise actum voluntis eo modo, quo 
+      pa<lb ed="#R" n="7" break="no"/>ternitas est relatio consequens actum 
+      genera<lb ed="#R" n="8" break="no"/>tionis, non tamen causata per illum. Non 
+      vi<lb ed="#R" n="9" break="no"/>detur mihi, quod relatio aliqua possit esse hoc 
+      <lb ed="#R" n="10"/>modo realis, nisi illa, quae est ipsummet agere, 
+      <lb ed="#R" n="11"/>tamen in speciali de istis relationibus, de 
+      qui<lb ed="#R" n="12" break="no"/>bus est propositum nostrum probo, quod non 
+      <lb ed="#R" n="13"/>sint reales, &amp; vt arguam contra vtrumque 
+      <lb ed="#R" n="14"/>modum praedictum formo rationem sic. Aut 
+      <lb ed="#R" n="15"/>enim sunt reales, quia causatae per actum 
+      volun<lb ed="#R" n="16" break="no"/>tatis; aut quia sunt sequela consequens actum 
+      <lb ed="#R" n="17"/>voluntatis: non primo modo; ratio est, quia 
+      vo<lb ed="#R" n="18" break="no"/>luntas creata non videtur, quod sit productiua 
+      <lb ed="#R" n="19"/>alicuius extra se. Confirmatur, quia relatio 
+      <lb ed="#R" n="20"/>non producitur, nisi quia producitur 
+      fundamen<lb ed="#R" n="21" break="no"/>tum, quia secundum hoc amando te causarem 
+      <lb ed="#R" n="22"/>relationem in te, nullum tamen absolutum 
+      cau<lb ed="#R" n="23" break="no"/>sando in te: ergo causarem in te relationem, non 
+      <lb ed="#R" n="24"/>causando fundamentum. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e1098">
+                  <lb ed="#R" n="25"/>Secundo ad idem, quia non est magis 
+      po<lb ed="#R" n="26" break="no"/>tens voluntas in appetendo, quam intellectus 
+      <lb ed="#R" n="27"/>in apprehendendo: sed intellectus 
+      apprehenden<lb ed="#R" n="28" break="no"/>do obiectum nihil causat reale in obiecto: ergo 
+      <lb ed="#R" n="29"/>nec voluntas. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e1111">
+                  <lb ed="#R" n="30"/>Secundo, non potest dari modus secundus, 
+      <lb ed="#R" n="31"/>scilicet dicendo, quod huiusmodi relationes sunt 
+      <lb ed="#R" n="32"/>consequentes actum voluntatis, sed ille est 
+      mi<lb ed="#R" n="33" break="no"/>nus irrationabilis, &amp; sic tenerem illam viam. Ex 
+      <lb ed="#R" n="34"/>hoc modo posset sustineri opinio de 
+      matrimo<lb ed="#R" n="35" break="no"/>nio, &amp; sic relatio realis, vt quidam dicunt, 
+      ta<lb ed="#R" n="36" break="no"/>men arguo contra istum modum dicendi. Primo, 
+      <lb ed="#R" n="37"/>quia ratio dominij potest esse, vbi non est 
+      consen<lb ed="#R" n="38" break="no"/>sus voluntatis, sicut patet in depositione 
+      prin<lb ed="#R" n="39" break="no"/>cipatus. Et confirmo hoc, quia si tales 
+      relatio<lb ed="#R" n="40" break="no"/>nes manerent actu transeunte, non posset 
+      domi<lb ed="#R" n="41" break="no"/>nium deleri per dissensum, quia dissensus non 
+      <lb ed="#R" n="42"/>potest per se agere relationem: ergo 
+      remanenti<lb ed="#R" n="43" break="no"/>bus Sorte, &amp; Platone semper remanebit 
+      domi<lb ed="#R" n="44" break="no"/>nium Sortis ad Platonem. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e1146">
+                  <lb ed="#R" n="45"/>Secundo pono propositiones ad oppositum, &amp; 
+      <lb ed="#R" n="46"/>prima est ista: Ordo rationis exigit, quod inter 
+      <lb ed="#R" n="47"/>homines sit Principatus. Hanc propositionem 
+      <lb ed="#R" n="48"/>probo sic: In agibilibus ratio agendi accipitur ex 
+      <lb ed="#R" n="49"/>fine, vt Philosophus dicit 1. Physic. sed ad 
+      con<lb ed="#R" n="50" break="no"/>sequendum finem, quem intendit tota 
+      Commu<lb ed="#R" n="51" break="no"/>nitas hominum in mundo viuentium, necessario 
+      <lb ed="#R" n="52"/>oportet esse principatum: ergo ordo rationis exi 
+      <lb ed="#R" n="53"/>git. quod inter homines sit principatus, sicut 
+      or<lb ed="#R" n="54" break="no"/>do rationis exigit, quod ea, quae necessario sunt 
+      <lb ed="#R" n="55"/>ad finem, ponantur in esse ad hoc, quod 
+      habea<lb ed="#R" n="56" break="no"/>tur finis. Maior patet. Probatio minoris, quia 
+      <lb ed="#R" n="57"/>finis communitatis hominum videtur esse bene 
+      <lb ed="#R" n="58"/>viuere, &amp; bene operari secundum rectam 
+      ratio<lb ed="#R" n="59" break="no"/>nem, sed finis ille non attingitur sine Principe: ergo. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e1182">
+                  <lb ed="#R" n="60"/>Ad cuius euidentiam sciendum est, quod 
+      Prin<lb ed="#R" n="61" break="no"/>ceps habet duos actus sibi proprios. Vnum, qui 
+      <lb ed="#R" n="62"/>est dirigere; alterum, qui est coercere, &amp; 
+      puni<lb ed="#R" n="63" break="no"/>re: &amp; quoad actum primum necessarius est 
+      Prin<lb ed="#R" n="64" break="no"/>ceps ad vnum bonum viuere totius 
+      Communi<lb ed="#R" n="65" break="no"/>tatis. Ratio huiusmodi est, quia omnes 
+      homi<lb ed="#R" n="66" break="no"/>nes sunt praediti naturali sensu, &amp; lumen ratio- 
+      <!--0329.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>nis a Deo viget in omnibus, quod omnes 
+      pos<lb ed="#R" n="68" break="no"/>sunt scire se regere sufficienter in viuere 
+      secun<lb ed="#R" n="69" break="no"/>dum rectam rationem, &amp; ideo necessario est 
+      su<lb ed="#R" n="70" break="no"/>perior mouens, &amp; dirigens, vt, qui se nesciunt 
+      <lb ed="#R" n="71"/>in finem dirigere, dirigantur ab vno superiori, 
+      <lb ed="#R" n="72"/>&amp; haec est ratio Philosophi 1. Polit. quod 
+      praedi<lb ed="#R" n="73" break="no"/>ti mente sunt apti ad regendum: potentes vero 
+      <lb ed="#R" n="74"/>corpore ad obsequendum. Secundus vero actus 
+      <lb ed="#R" n="75"/>Principis, qui est coercere, &amp; punire, est 
+      neces<lb ed="#R" n="76" break="no"/>sarius. Cuius ratio ex hoc sumi potest, quod 
+      ho<lb ed="#R" n="77" break="no"/>minum genus non est totaliter liberale, nec 
+      se<lb ed="#R" n="78" break="no"/>cundum totum suum ambitum est amator 
+      veri<lb ed="#R" n="79" break="no"/>tatis, &amp; ideo contingit multos operari 
+      illibera<lb ed="#R" n="80" break="no"/>liter, vel non virtuose: ea propter ad hoc, quod 
+      <lb ed="#R" n="81"/>retrahantur illiberales ab operationibus 
+      huius<lb ed="#R" n="82" break="no"/>modi, necessariae sunt paenae ad terrendum, &amp; 
+      le<lb ed="#R" n="83" break="no"/>ges ad ligandum, &amp; per censequens necessarius 
+      <lb ed="#R" n="84"/>est superior aliquis, cuius actus sit punire, &amp; 
+      <lb ed="#R" n="85"/>coercere, &amp; cogere ad legem obseruandam 
+      <lb ed="#R" n="86"/>Formetur ergo ratio ad propositum sic: Isti duo 
+      <lb ed="#R" n="87"/>actus, qui sunt dirigere, &amp; coercere, sunt 
+      neces<lb ed="#R" n="88" break="no"/>sarij ad bene viuere Communitatis totius: sed 
+      <lb ed="#R" n="89"/>actus isti duo constituunt rationem Principatus, 
+      <lb ed="#R" n="90"/>&amp; Praelationis: ergo congruit secundum rectam 
+      <lb ed="#R" n="91"/>rationem naturalem, quod inter homines sit 
+      <lb ed="#R" n="92"/>praelatio, &amp; Principatus. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e1260">
+                  <lb ed="#R" n="93"/>Secunda ratio ad idem est ista: Jllud congruit, 
+      <lb ed="#R" n="94"/>esse secundum rectam rationem inter homines 
+      <lb ed="#R" n="95"/>in statu naturae lapsae, quod fuisset in statu 
+      natu<lb ed="#R" n="96" break="no"/>rae integrae: sed in statu innocentiae fuisset 
+      Prin<lb ed="#R" n="97" break="no"/>cipatus, non quidem dispositus ad bonum sui, 
+      <lb ed="#R" n="98"/>sed Politicus, &amp; licet non quoad secundum 
+      a<lb ed="#R" n="99" break="no"/>ctum, qui est coercere, tamen quo ad actum, 
+      <lb ed="#R" n="100"/>qui est dirigere, fuisset necessarius, Etsi enim 
+      <lb ed="#R" n="101"/>non fuissent tunc illiberales, &amp; vitiose agentes, 
+      <lb ed="#R" n="102"/>ac per consequens non fuissent leges positiuae ad 
+      <lb ed="#R" n="103"/>coercendum, nec per consequens Princeps fuisset 
+      <lb ed="#R" n="104"/>necessarius quo ad istum actum, qui est coercere 
+      <lb ed="#R" n="105"/>illiberales. Vnus tamen ibi fuisset debilioris 
+      lu<lb ed="#R" n="106" break="no"/>minis naturalis, quam alius, &amp; aliquis fuisset 
+      na<lb ed="#R" n="107" break="no"/>turaliter praeditus naturali sensu super alium, &amp; 
+      <lb ed="#R" n="108"/>per consequens fuisset aptus natus regere illum 
+      <lb ed="#R" n="109"/>in bono viuere, secundum rectam rationem: 
+      pu<lb ed="#R" n="110" break="no"/>to enim quod non omnes fuissent ibi aequales in 
+      <lb ed="#R" n="111"/>bonitate ingenij, &amp; animae aptitudine, &amp; ideo 
+      <lb ed="#R" n="112"/>congrue fuisset ibi potestas, &amp; praelatio in vno ad 
+      <lb ed="#R" n="113"/>aliorum directionem: ergo hoc magis congruit 
+      <lb ed="#R" n="114"/>in praesenti statu. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e1310">
+                  <lb ed="#R" n="115"/>Ex hoc potest inferri primo, quod non est 
+      ve<lb ed="#R" n="116" break="no"/>rum, quod dicunt quidam, quod si Adam non 
+      <lb ed="#R" n="117"/>peccasset, semper primogenitus fuisset 
+      Monar<lb ed="#R" n="118" break="no"/>cha: ratio est, quia ibi non fuisset Praelatio, nisi 
+      <lb ed="#R" n="119"/>ad dirigendum alios, qui quidem actus pertinet 
+      <lb ed="#R" n="120"/>ad praeditos ratione super alios: nunc autem 
+      be<lb ed="#R" n="121" break="no"/>ne possibile fuisset quandoque, quod tertius 
+      ge<lb ed="#R" n="122" break="no"/>nitus fuisset melioris ingenij, &amp; nobilioris 
+      ani<lb ed="#R" n="123" break="no"/>mi, quam primogenitus; &amp; ideo illum fuisent 
+      se<lb ed="#R" n="124" break="no"/>cuti alij, vt ad ipsorum directionem. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e1334">
+                  <lb ed="#R" n="125"/>Secunda propositio principalis est ista. Ordo 
+      <lb ed="#R" n="126"/>rationis exigit, quod sit vnus Monarcha, &amp; vnus 
+      <lb ed="#R" n="127"/>Princeps, &amp; in hac propositione concordarunt 
+      <lb ed="#R" n="128"/>omnes luristae, sequentes ius gentium, quod est 
+      <lb ed="#R" n="129"/>propinquum valde aequitati iuris naturalis. Haec 
+      <lb ed="#R" n="130"/>propositio potest probari ex eadem maiori, qua 
+      <lb ed="#R" n="131"/>fuit probata propositio praecedens. Nam in 
+      agi<lb ed="#R" n="132" break="no"/>bilibus necessitas, &amp; congruentia eorum, quae 
+      <!--0330.xml-->
+      <pb ed="#R" n="330"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>sunt ad finem, accipitur, &amp; commensuratur ex 
+      fi<lb ed="#R" n="2" break="no"/>ne: tunc autem ad finem totius communitatis 
+      ho<lb ed="#R" n="3" break="no"/>minum, qui est recte viuere, &amp; operari secundum 
+      <lb ed="#R" n="4"/>rectam rationem vniuersi, congruit vnitas 
+      Prin<lb ed="#R" n="5" break="no"/>cipis, &amp; Monarchiae. Videmus enim, quod 
+      im<lb ed="#R" n="6" break="no"/>peditur Justitia ex multitudine Principatuum, 
+      <lb ed="#R" n="7"/>quoniam malefactor euadit iustitiam proprij 
+      Prin<lb ed="#R" n="8" break="no"/>cipis confugiens ad alterius Principatum. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e1378">
+                  <lb ed="#R" n="9"/>Secundo impeditur pax in vita communitatis 
+      <lb ed="#R" n="10"/>hominum; quoniam ex modica causa, imo iniusta, 
+      <lb ed="#R" n="11"/>conspicitur saepe Principem insurgere contra 
+      Princi<lb ed="#R" n="12" break="no"/>pem, maxime vbi non est superior communis am 
+      <lb ed="#R" n="13"/>bobus. Videmus etiam, quod ex hoc potest 
+      Prin<lb ed="#R" n="14" break="no"/>ceps in Principatu suo tyrannizare, quia non est 
+      <lb ed="#R" n="15"/>superior, ad quem fieri possit appellatio. Vnde 
+      <lb ed="#R" n="16"/>vbi in Ciuitate, vel Communitate esset Princeps 
+      <lb ed="#R" n="17"/>aliquis tyrannus, si desit superior, iuste, &amp; 
+      secun<lb ed="#R" n="18" break="no"/>dum rectam rationem tota communitas potest 
+      <lb ed="#R" n="19"/>consurgere ad eius corruptionem, vel si 
+      incorri<lb ed="#R" n="20" break="no"/>gibilis est, ad perpetuam depositionem: 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e1407">
+                  <lb ed="#R" n="21"/>Vltimo dico, quod si non oporteat totam Com 
+      <lb ed="#R" n="22"/>munitatem hominum reduci ad vnum 
+      Princi<lb ed="#R" n="23" break="no"/>pem, congruit tamen, quod reducatur ad plures, 
+      <lb ed="#R" n="24"/>sub quodam ordine, &amp; sub quadam vnitate; 
+      <lb ed="#R" n="25"/>&amp; super hoc fundatur ratio de hierarchia Monar 
+      <lb ed="#R" n="26"/>chiarum: fuit enim actus iustus secundum ius 
+      re<lb ed="#R" n="27" break="no"/>ctae rationis, &amp; ius gentium, quia ex hoc 
+      proba<lb ed="#R" n="28" break="no"/>tur, quod secundum rectam rationem ille, qui 
+      <lb ed="#R" n="29"/>videt aliquam vnam nationem non consequi finem 
+      <lb ed="#R" n="30"/>naturae humanae, scilicet recte viuere, &amp; 
+      opera<lb ed="#R" n="31" break="no"/>ri, quia scilicet sunt in eis homines illiberales, &amp; 
+      <lb ed="#R" n="32"/>corrupti, &amp; vnusq uisque agit, vt sibi videtur; in 
+      <lb ed="#R" n="33"/>tali casu licitum est ei, qui hoc viderit, siue vicinis 
+      <lb ed="#R" n="34"/>nationibus recte viuentibus subijcere sibi illos ad 
+      <lb ed="#R" n="35"/>hunc finem, vt scilicet recipiant vnum bonum 
+      vi<lb ed="#R" n="36" break="no"/>uere per iustas leges eis impositas, &amp; contra 
+      ta<lb ed="#R" n="37" break="no"/>les multo fortius licet bellare secundum rectam 
+      <lb ed="#R" n="38"/>rationem, quam licet contra detinentes iniuste 
+      <lb ed="#R" n="39"/>rem suam, &amp; proprium ius. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e1452">
+                  <lb ed="#R" n="40"/>Ex hoc paret, quod lomani, qui suerunt 
+      ae<lb ed="#R" n="41" break="no"/>latores summae iustitiae, adeo, vt iustitiam in 
+      pro<lb ed="#R" n="42" break="no"/>prios filios, &amp; personas suas exercerent, iuste 
+      <lb ed="#R" n="43"/>subijcerent sibi nationes alias exorbitantes a 
+      iu<lb ed="#R" n="44" break="no"/>stitia. Hinc est, quod Iuristae loquuntur de 
+      pote<lb ed="#R" n="45" break="no"/>state Jmperiali; non enim de dictamine rationis 
+      <lb ed="#R" n="46"/>est, quod Imperator sit Romanus, vel 
+      Aleman<lb ed="#R" n="47" break="no"/>nus, sed qui magis viget in zelo iustitiae, &amp; 
+      di<lb ed="#R" n="48" break="no"/>ctamine rationis rectae.) 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e1474">
+                  <lb ed="#R" n="49"/>Dices, quod ex hac-nitate Principis 
+      sequun<lb ed="#R" n="50" break="no"/>tur impedimenta iustitiae, ex eo videlicet, quod 
+      <lb ed="#R" n="51"/>vnus Princeps non potest audire omnes causas. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e1483">
+                  <lb ed="#R" n="52"/>Respondeo. Potest causas audire mediantibus 
+      <lb ed="#R" n="53"/>alijs, quibus iniuste agentibus appellatio est ad 
+      <lb ed="#R" n="54"/>ipsum. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e1492">
+                  <lb ed="#R" n="55"/>Tertia, &amp; vltima conclusio ad propositum, 
+      <lb ed="#R" n="56"/>Nunquid omnis Principatus secularis est a Deo, 
+      <lb ed="#R" n="57"/>non tantum permissiue, sed etiam dispositiue. 
+      <lb ed="#R" n="58"/>Respondeo: puto quod vniuersales 
+      Principa<lb ed="#R" n="59" break="no"/>tus, &amp; Monarchiae dispositiue sunt hactenus a 
+      <lb ed="#R" n="60"/>Deo. Haec conclusio satis nota est ex dictis 
+      Scri<lb ed="#R" n="61" break="no"/>pturae sacrae: vnde visiones quatuor animalium 
+      Eze<lb ed="#R" n="62" break="no"/>ch. exponit Clos. de quatuor Monarchijs. hoc 
+      <lb ed="#R" n="63"/>idem apparet ex Daniel: Item Esdrae de Tiro Rege, 
+      <lb ed="#R" n="64"/>Omnia, inquit, regna mihi dedit Dominus: de 
+      <lb ed="#R" n="65"/>quo etiam loquitur Isa. Per me Reges regnant &amp; c. 
+      <lb ed="#R" n="66"/>&amp; hoc intendit Apostolus, cum dicit: A quo om- 
+      <!--0330.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>nis potestas, &amp;c. Et si loquimur de aliquibus 
+      par<lb ed="#R" n="68" break="no"/>tialibus Principatibus, &amp; tyrannide, non 
+      opor<lb ed="#R" n="69" break="no"/>ter, quod Deus omnes tales disponat 
+      immedia<lb ed="#R" n="70" break="no"/>te: Ratio est, quia secundum Augustinum: Sic 
+      <lb ed="#R" n="71"/>Deus cunctas res administrat, vt eas earum 
+      opi<lb ed="#R" n="72" break="no"/>niones, &amp; motus agere sinat. Dispositio autem 
+      <lb ed="#R" n="73"/>humana sufficit immediate ad prouisionem 
+      ta<lb ed="#R" n="74" break="no"/>lium Principum; ideo respectu talium magis 
+      di<lb ed="#R" n="75" break="no"/>citur Deus permissor, quam Dispositor. Hinc est 
+      <lb ed="#R" n="76"/>quod communiter Praelati in suis titulis 
+      inscri<lb ed="#R" n="77" break="no"/>bunt: Permissione diuina: magis quam: 
+      Disposi<lb ed="#R" n="78" break="no"/>tione, licet forte contrarium reperiatur de 
+      re<lb ed="#R" n="79" break="no"/>gno multum notabili, &amp; hoc ratione specialis 
+      ri<lb ed="#R" n="80" break="no"/>goris iustitiae, quae ibi obseruatur. Talia enim 
+      <lb ed="#R" n="81"/>regna ratione huius iustitiae saepe immediate 
+      di<lb ed="#R" n="82" break="no"/>sponuntur a Deo, &amp; ideo quando cessat, vel 
+      ob<lb ed="#R" n="83" break="no"/>liquatur iustitia in talibus regnis, satis 
+      timen<lb ed="#R" n="84" break="no"/>dum est de translatione regni. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e1564">
+                  <lb ed="#R" n="85"/>Ad argumentum in oppositum responsum est 
+      <lb ed="#R" n="86"/>per praedicta. 
+   </p>
+            </div>
+            <div xml:id="olm8ij-f99693-Dd1e1572">
+               <head xml:id="olm8ij-f99693-Hd1e1574">Articulus 4</head>
+               <head xml:id="olm8ij-f99693-Hd1e1576" type="question-title">
+      Utrum Obedientia sit virtus
+    </head>
+               <p xml:id="olm8ij-f99693-d1e1579">
+                  <lb ed="#R" n="87"/>ARTJCVLVS IIII. 
+      <lb ed="#R" n="88"/>Vtrum Obedientia sit virtus.
+   </p>
+               <p xml:id="olm8ij-f99693-d1e1586">
+                  <lb ed="#R" n="89"/>CIrca quartam, &amp; vltimam quaestionem 
+      <lb ed="#R" n="90"/>An scilicet obedientia sit virtus? Sine 
+      argu<lb ed="#R" n="91" break="no"/>mentis pono tres Conclusiones. Prima est; quod 
+      <lb ed="#R" n="92"/>obedientia est virtus: Secunda quod specialis 
+      <lb ed="#R" n="93"/>virtus: Tertia, quod moralis virtus. Primam 
+      <lb ed="#R" n="94"/>Propositionem probo sic; quando actus aliquis 
+      <lb ed="#R" n="95"/>est talis, quod potest recte, &amp; non recte elici 
+      se<lb ed="#R" n="96" break="no"/>cundum rectam rationem, ex tali actu 
+      multipli<lb ed="#R" n="97" break="no"/>cato potest per assuefactionem, &amp; initium 
+      ge<lb ed="#R" n="98" break="no"/>nerari: sed actus inferiorum circa Praelatos 
+      po<lb ed="#R" n="99" break="no"/>test recte, &amp; non recte elici, recte quidem, 
+      quan<lb ed="#R" n="100" break="no"/>do consistit in medio dictato, &amp; inuento a 
+      ratio<lb ed="#R" n="101" break="no"/>ne: non recte autem, dupliciter, scilicet 
+      secun<lb ed="#R" n="102" break="no"/>dum excessum, vel defectum, &amp; quia homo 
+      ra<lb ed="#R" n="103" break="no"/>ro excedit: ratio enim plus agit, quam 
+      impe<lb ed="#R" n="104" break="no"/>ret dominus; &amp; quia plurimum deficit, minus 
+      <lb ed="#R" n="105"/>agendo, ideo vitium consisens in excessu est in 
+      <lb ed="#R" n="106"/>nominatum, &amp; habetur nomen de vitio 
+      secun<lb ed="#R" n="107" break="no"/>dum defectum, quod dicitur inobedientia, idest 
+      <lb ed="#R" n="108"/>defectns ab obsequendo imperio Principis; ideo 
+      <lb ed="#R" n="109"/>cum circa tales actus extrema sint vitium, actus, 
+      <lb ed="#R" n="110"/>qui tenet medium, est actus virtuosus: exemplum 
+      <lb ed="#R" n="111"/>est in aliis: nam intemperatus, &amp; agrestis sunt 
+      <lb ed="#R" n="112"/>extrema, &amp; vitiosa, ideo medium ibi est 
+      vir<lb ed="#R" n="113" break="no"/>tus. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e1643">
+                  <lb ed="#R" n="114"/>Secunda conclusio est, quod est specialis 
+      vir<lb ed="#R" n="115" break="no"/>tus, &amp; sub iustitia. Sciendum est ergo, quod 
+      iusti<lb ed="#R" n="116" break="no"/>tia vno modo aspicit Principem in ordine ad 
+      su<lb ed="#R" n="117" break="no"/>biectos, &amp; hoc modo exigit in Principe, quod 
+      <lb ed="#R" n="118"/>sciat leges condere, &amp; virtus circa hoc dicitur 
+      <lb ed="#R" n="119"/>virtus positiua. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e1660">
+                  <lb ed="#R" n="120"/>Alio modo iustitia aspicit subditos in ordine 
+      <lb ed="#R" n="121"/>ad Principem. Hoc dicunt quidam, quod 
+      obe<lb ed="#R" n="122" break="no"/>dientia est legalis iustitia, ita quod iustitia 
+      lega<lb ed="#R" n="123" break="no"/>lis sit habitus, quo subditus obedit superiori: sed 
+      <lb ed="#R" n="124"/>hoc non bene intelligo. Vbi considerandum est, 
+      <lb ed="#R" n="125"/>quod vt habetur 5. Ethic. Lex est iudex 
+      inanima<lb ed="#R" n="126" break="no"/>tus, Princeps autem iudex animatus: &amp; ideo 
+      con<lb ed="#R" n="127" break="no"/>cludo, quod non tantum obedire Principi est 
+      le<lb ed="#R" n="128" break="no"/>galis iustitia; imo etiam obedire legi. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e1682">
+                  <lb ed="#R" n="129"/>Confirmo hoc per illud Aristotelis 1. Polytie. 
+      <!--0331.xml-->
+      <pb ed="#R" n="331"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Ille dicit ibi, quod pauciora sunt committenda 
+      <lb ed="#R" n="2"/>Principi: &amp; hoc, quia voluntates hominum sunt 
+      <lb ed="#R" n="3"/>flexibiles ad malum, ideo in omni statu 
+      paucio<lb ed="#R" n="4" break="no"/>ra sunt committenda arbitrio iudicis, &amp; omnia 
+      <lb ed="#R" n="5"/>deberent committi legi, vt intendit Philosophus 
+      <lb ed="#R" n="6"/>ibi: ergo secundum Philosophum, elusdem 
+      ratio<lb ed="#R" n="7" break="no"/>nis sunt praecepta iudicis, &amp; lex in ordine ad 
+      sub<lb ed="#R" n="8" break="no"/>ditos: ergo si obedientia dicitur respectu 
+      iudi<lb ed="#R" n="9" break="no"/>cis, &amp; lex in ordine ad subditos, aeque debet dici 
+      <lb ed="#R" n="10"/>respectu legis. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e1715">
+                  <lb ed="#R" n="11"/>Vlterius sciendum est, quod sicut temperantia 
+      <lb ed="#R" n="12"/>est duplex, quaedam communis, quam habet om 
+      <lb ed="#R" n="13"/>nis virtuosus temperatus, quae est abstinere, quan 
+      <lb ed="#R" n="14"/>do oportet, &amp; sicut oportet, quaedam vero specia 
+      <lb ed="#R" n="15"/>lis, quae est supererogationis, sicut est ieiunium: 
+      <lb ed="#R" n="16"/>sic obedientia quaedam est communis, ad quam 
+      <lb ed="#R" n="17"/>tenetur quilibet respectu superioris, &amp; talis est 
+      <lb ed="#R" n="18"/>non tantum respectu iudicis, sed legis, vt dictum 
+      <lb ed="#R" n="19"/>est, &amp; hoc dicitur Politica, &amp; est legalis iustitia. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e1737">
+                  <lb ed="#R" n="20"/>Alia vero est Obedientia specialis, quae est 
+      su<lb ed="#R" n="21" break="no"/>pererogationis, &amp; est illa, super quam cadit Vo- 
+      <!--0331.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="22"/>tam. Obedientia ergo est virtus specialis 
+      con<lb ed="#R" n="23" break="no"/>tenta sub iustitia. Ratio est: quia actus iustitiae est 
+      <lb ed="#R" n="24"/>reddere vnicuique quod suum est; sicut autem 
+      <lb ed="#R" n="25"/>Princeps debet subiectis reddere vnicuique 
+      <lb ed="#R" n="26"/>quod suum est, scilicet bonos dirigendo, &amp; 
+      ma<lb ed="#R" n="27" break="no"/>los coercendo, &amp; hoc dicitur iustitia Principis, 
+      <lb ed="#R" n="28"/>scilicet Lex positiua, &amp; est virtus sub iustitia 
+      <lb ed="#R" n="29"/>contenta: sic e conuerso, subiecti debent reddere 
+      <lb ed="#R" n="30"/>Principi, &amp; legi, quod suum est, scilicet 
+      executio<lb ed="#R" n="31" break="no"/>nem praeceptorum, &amp; statutorum, quando 
+      opor<lb ed="#R" n="32" break="no"/>tet, &amp; sicut oportet; &amp; haec est Obedientia, &amp; 
+      le<lb ed="#R" n="33" break="no"/>galis iustitia sub iustitia contenta. 
+   </p>
+               <p xml:id="olm8ij-f99693-d1e1774">
+                  <lb ed="#R" n="34"/>Tertio dico, quod est virtus moralis. Ratio 
+      <lb ed="#R" n="35"/>est: quia est inter duas malitias extremas, 
+      super<lb ed="#R" n="36" break="no"/>abundantiam scilicet, &amp; defectum. Qualiter 
+      au<lb ed="#R" n="37" break="no"/>tem ratio haec concludat dicetur in Tertio, &amp; 
+      se<lb ed="#R" n="38" break="no"/>quenti Libro, vbi de moralibus virtutibus 
+      age<lb ed="#R" n="39" break="no"/>tur, Domino auxilium praebente: cui est honor, 
+      <lb ed="#R" n="40"/>&amp; obedientia impendenda in saecula saeculorum. 
+      <lb ed="#R" n="41"/>AMEN. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

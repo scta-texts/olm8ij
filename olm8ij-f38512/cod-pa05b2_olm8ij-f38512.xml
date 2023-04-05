@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-05">April 05, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b2">Roma 1605, Book 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="123"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-f38512"><!-- l2d11-q1 -->
+            <head xml:id="olm8ij-f38512-Hd1e101">Quaestio 1</head>
+            <p xml:id="olm8ij-f38512-d1e103">
+               <lb ed="#R" n="52"/>QVAESTIO PRIMA. 
+  </p>
+            <p xml:id="olm8ij-f38512-d1e108">
+      <!--0123.xml-->
+               <cb ed="#R" n="d"/>
+               <lb ed="#R" n="53"/>1 Vtrum cuilibet homini viatori sit aliquis 
+      <lb ed="#R" n="54"/>Ange lorum deputatus ad custodiam. 
+      <lb ed="#R" n="55"/>a Vtrum Angelus custodiens operetur 
+      ali<lb ed="#R" n="56" break="no"/>quid circa intellectum, &amp; voluntatem hominis 
+      <lb ed="#R" n="57"/>custoditi. 
+   </p>
+            <div xml:id="olm8ij-f38512-Dd1e126">
+               <head xml:id="olm8ij-f38512-Hd1e128">Articulus 1</head>
+               <head xml:id="olm8ij-f38512-Hd1e130" type="question-title">
+      Utrum cuilibet homini viatori sit aliquis 
+      Angelorum deputatus ad custodiam
+    </head>
+               <p xml:id="olm8ij-f38512-d1e133">
+                  <lb ed="#R" n="58"/>ARTJCVLVS I. 
+      <lb ed="#R" n="59"/>Vtrum cuilibet homini viatori sit aliquis 
+      An<lb ed="#R" n="60" break="no"/>gelorum deputatus ad custodiam 
+   </p>
+               <p xml:id="olm8ij-f38512-d1e142">
+                  <lb ed="#R" n="61"/>QVANTVM ad primam 
+      <lb ed="#R" n="62"/>quaestionem arguo 
+      pri<lb ed="#R" n="63" break="no"/>mo, quod non cuilibet ho 
+      <lb ed="#R" n="64"/>mini viatori est vnus, &amp; 
+      <lb ed="#R" n="65"/>proprius Angelus ad 
+      cu<lb ed="#R" n="66" break="no"/>stod iam deputatus, 
+      Quo<lb ed="#R" n="67" break="no"/>niam si sic, sequeretur, 
+      <lb ed="#R" n="68"/>quod inter Angelos esset 
+      <!--0123.xml-->
+      <cb ed="#R" n="e"/>
+                  <lb ed="#R" n="69"/>pugna, quia si vnus Angelus iuuat ipsum in vna 
+      <lb ed="#R" n="70"/>promotione, &amp; bono aliquo fortunae, &amp; alius 
+      <lb ed="#R" n="71"/>Angelus iuuat alium ad consequendum bonum, 
+      <lb ed="#R" n="72"/>illud videtur necessario, quod inter Angelos 
+      <lb ed="#R" n="73"/>istos debeat esse pugna. 
+   </p>
+               <p xml:id="olm8ij-f38512-d1e177">
+                  <lb ed="#R" n="74"/>In oppositum est auctoritas sacrae Scripturae: 
+      <lb ed="#R" n="75"/>quarum vna est, accidit Petro egrediente de 
+      <lb ed="#R" n="76"/>carcere, &amp; pulsante ad hostium discipulorum, 
+      <lb ed="#R" n="77"/>de quo dixerunt, Angelus eius est. Act. 12.
+   </p>
+               <p xml:id="olm8ij-f38512-d1e189">
+                  <lb ed="#R" n="78"/>Respondeo, Conclusio affirmatiua est haec 
+      <lb ed="#R" n="79"/>certa, quia fides hanc tenet, &amp; ex dictis 
+      Sancto<lb ed="#R" n="80" break="no"/>rum habetur, quod etiam quilibet ab instanti 
+      <lb ed="#R" n="81"/>conceptionis habet Angelum vnum pro custodia 
+      <lb ed="#R" n="82"/>deputatum; patet per illud, quod allegatum est 
+      <lb ed="#R" n="83"/>in argumento principali de Petro, &amp; in Psal. 90. 
+      <lb ed="#R" n="84"/>similiter: Angelis suis Deus mandauit de te, &amp; c. 
+      <lb ed="#R" n="85"/>hoc idem expresse tenet Augustinus de Ciuitat. 
+      <lb ed="#R" n="86"/>cap. 14. vt patet. Item Hieronymus, Magna 
+      <lb ed="#R" n="87"/>est dignitas animarum, quod quaelibet habeat 
+      <!--0124.xml-->
+      <pb ed="#R" n="124"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>suum Angelum ad custodiam deputatum. 
+   </p>
+               <p xml:id="olm8ij-f38512-d1e222">
+                  <lb ed="#R" n="2"/>Sed occurrunt hic dubia. Primum est, quid 
+      <lb ed="#R" n="3"/>facit Angelus circa hominem, quem custodit, 
+      <lb ed="#R" n="4"/>tunc nihil potest proficere, vt puta, si homo, 
+      <lb ed="#R" n="5"/>quem custodit, fuerit obstinatus. Respondeo non 
+      <lb ed="#R" n="6"/>propter hoc, quod aliquis sit obstinatus (eo 
+      mo<lb ed="#R" n="7" break="no"/>do, quo obstinatio potest esse in via illa, de 
+      <lb ed="#R" n="8"/>quo alias) Angelus dimittit custodire illum 
+      <lb ed="#R" n="9"/>cui fuerat ab initio conceptionis pro custtodia 
+      <lb ed="#R" n="10"/>de putatus: &amp; hoc patet, quia nullus sic est 
+      obsti<lb ed="#R" n="11" break="no"/>natus, quin quandoque conscientiae remorsus, 
+      <lb ed="#R" n="12"/>&amp; imitationes aliquas ad bonum, &amp; motus 
+      re<lb ed="#R" n="13" break="no"/>ctitudinis a malo habeat, qui procurantur ab An 
+      <lb ed="#R" n="14"/>gelo custodiente, non enim oportet dicere 
+      <lb ed="#R" n="15"/>quod talia sint semper, &amp; immediate a Deo.
+   </p>
+               <p xml:id="olm8ij-f38512-d1e255">
+                  <lb ed="#R" n="16"/>Aliud dubium est de Antichristo. Si habebit 
+      <lb ed="#R" n="17"/>Angelum, dicitur, quod ille erit obstinatus in via 
+      <lb ed="#R" n="18"/>totaliter, &amp; ideo Angelum non habebit, vel si 
+      <lb ed="#R" n="19"/>non est obstinatus, potest dici, quod habebit. 
+      <lb ed="#R" n="20"/>nec videtur inconueniens, quod habe at vt in 
+      iu<lb ed="#R" n="21" break="no"/>dicio appareat malitia eius esse totaliter ab. eo 
+      <lb ed="#R" n="22"/>cui non subtraxit communia beneficia 
+      subtra<lb ed="#R" n="23" break="no"/>hentia a malo, quae alijs communiter 
+      impen<lb ed="#R" n="24" break="no"/>duntur. 
+   </p>
+               <p xml:id="olm8ij-f38512-d1e277">
+                  <lb ed="#R" n="25"/>Tertium dubium est, quod est tactum 
+      arguen<lb ed="#R" n="26" break="no"/>do ad principale, &amp; confirmatur per illud 
+      Danie<lb ed="#R" n="27" break="no"/>lis: Princeps Persarum restitit mihi, &amp; Glosa 
+      di<lb ed="#R" n="28" break="no"/>cit ibi, quod ambo erant Angeli boni. 
+   </p>
+               <p xml:id="olm8ij-f38512-d1e288">
+                  <lb ed="#R" n="29"/>Ad hoc respondetur, quod non est 
+      inconue<lb ed="#R" n="30" break="no"/>niens inter Angelos esse talem diuersitatem 
+      <lb ed="#R" n="31"/>operationum, quant um ad ea, quae sunt ad finem, 
+      <lb ed="#R" n="32"/>licet hoc sit impossibile circa finem. quod autem 
+      <lb ed="#R" n="33"/>Dei beneplacitum fuit hoc, quilibet intendit 
+      <lb ed="#R" n="34"/>pro fine, nec in hoc possunt aliquatenus 
+      discor<lb ed="#R" n="35" break="no"/>dare. Sed quomodo hoc Dei beneplacitum 
+      poni<lb ed="#R" n="36" break="no"/>tur in esse, hoc potest esse discordia opinionum, 
+      <lb ed="#R" n="37"/>vt vnus dicat, quod melius poneretur isto, &amp; me 
+      <lb ed="#R" n="38"/>lius alio, &amp; hoc, donec videant Dei sententiam, 
+      <lb ed="#R" n="39"/>quam expe tant. 
+   </p>
+               <p xml:id="olm8ij-f38512-d1e314">
+                  <lb ed="#R" n="40"/>Quartum dubium est. Vtrum Angelus 
+      custo<lb ed="#R" n="41" break="no"/>diens tristetur de homine perdito, &amp; respondeo. 
+      <lb ed="#R" n="42"/>Tristitia vno modo potest accipi pro passione 
+      <lb ed="#R" n="43"/>causata in voluntate, quae est afflictio quaedam 
+      <lb ed="#R" n="44"/>formaliter, alio modo accipitur pro actu 
+      volun<lb ed="#R" n="45" break="no"/>tatis, quae est velle, quomodo intelligitur illud 
+      <lb ed="#R" n="46"/>Genesis de Deo: Videns Deus malitiam 
+      homi<lb ed="#R" n="47" break="no"/>num tactus est dolore cordis intrinsecus. Ibi 
+      <lb ed="#R" n="48"/>enim accipitur dolor pro quodam intenso nolle. 
+      <lb ed="#R" n="49"/>Tunc dicitur, quod Angelus custodiens licet 
+      ha<lb ed="#R" n="50" break="no"/>beat nolle circa perditionem hominis, quum 
+      <lb ed="#R" n="51"/>custodit; non tamen habet passionem, &amp; 
+      tristi<lb ed="#R" n="52" break="no"/>tiam, quae in voluntate sequitur illud nolle, nec 
+      <lb ed="#R" n="53"/>de damnatione tristantur: Paenam etiam vt 
+      tri<lb ed="#R" n="54" break="no"/>stitia accipitur pro nolle, quia illa est d Deo 
+      no<lb ed="#R" n="55" break="no"/>lita, &amp; ipsi summe conformes sunt Dei 
+      volunta<lb ed="#R" n="56" break="no"/>ti. De causa tamen damnationis, scilicet de com 
+      <lb ed="#R" n="57"/>missione peccati, tristantur vtique, sed eorum tri 
+      <lb ed="#R" n="58"/>stari est ibi eorum nolle peccatum committi. 
+   </p>
+               <p xml:id="olm8ij-f38512-d1e359">
+                  <lb ed="#R" n="59"/>Quintum dubium est: quia secundum hoc 
+      vi<lb ed="#R" n="60" break="no"/>detur, quod esset dare innumerabilem 
+      multitu<lb ed="#R" n="61" break="no"/>dinem Angelorum, cum innumerabilis sit 
+      homi<lb ed="#R" n="62" break="no"/>num particularium multitudo, quae a proprijs, 
+      <lb ed="#R" n="63"/>&amp; singulis Angelis custodiuntur. Dicunt quidam 
+      <lb ed="#R" n="64"/>quod Angeli sint plures, quam sint omnia 
+      multi<lb ed="#R" n="65" break="no"/>plicabilia: &amp; ratio est, quia substantia, quae secun 
+      <lb ed="#R" n="66"/>dum suam rationem est perfectior, excedit om- 
+      <!--0124.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>nem substantiam imperfectiorem: sed substantia 
+      <lb ed="#R" n="68"/>Angeli est perfectior, quam substantia 
+      materia<lb ed="#R" n="69" break="no"/>lis: ergo. Omnis autem excessus est, vel in 
+      quan<lb ed="#R" n="70" break="no"/>titate continua, vel in numero. Probatur, quia 
+      <lb ed="#R" n="71"/>sicut aequalitas est propria passio quantitatis, sic 
+      <lb ed="#R" n="72"/>excessus, &amp; inaequalitas: Quantitas autem, vel 
+      <lb ed="#R" n="73"/>est continua, vel discreta: sed in Angelis non est 
+      <lb ed="#R" n="74"/>quantitas continua: ergo eorum excessus 
+      funda<lb ed="#R" n="75" break="no"/>bitur in quantitate discreta, quae est numerus: 
+      <lb ed="#R" n="76"/>ergo excedent in numero. Sed argumentum 
+      ni<lb ed="#R" n="77" break="no"/>hil valet: Arguerem enim ego, quod essent 
+      plu<lb ed="#R" n="78" break="no"/>res Phaenices, quam lapides, &amp; hoc, quia phaenix 
+      <lb ed="#R" n="79"/>est perfectior excedens lapidem, &amp; non in 
+      ma<lb ed="#R" n="80" break="no"/>gnitudine: ergo in numero. Argumentum enim 
+      <lb ed="#R" n="81"/>peccat per fallaciam consequentis. Potest enim 
+      <lb ed="#R" n="82"/>esse excessus non solum penes quantitatem 
+      mo<lb ed="#R" n="83" break="no"/>bilis, sed virtutis, &amp; talis excessus est Angelorum 
+      <lb ed="#R" n="84"/>ad substantias materiales. 
+   </p>
+               <p xml:id="olm8ij-f38512-d1e422">
+                  <lb ed="#R" n="85"/>Alij assignant rationem aliam, quod sicut est 
+      <lb ed="#R" n="86"/>in numeris, sic est in speciebus: sed inter 
+      vlti<lb ed="#R" n="87" break="no"/>mum substantiae abstractae, &amp; substantiae 
+      mate<lb ed="#R" n="88" break="no"/>rialis imperfectae est quoddam medium, scilicet 
+      <lb ed="#R" n="89"/>anima. Aut est in orizonte substantiarum 
+      mate<lb ed="#R" n="90" break="no"/>rialium, &amp; abstractarum, quare aliquid 
+      partici<lb ed="#R" n="91" break="no"/>pat de vtroque ab anima; aut versus materiam 
+      <lb ed="#R" n="92"/>itur ad inferius, aut per perfectissimam 
+      abstra<lb ed="#R" n="93" break="no"/>ctam itur ad superius: Modo in numeris sic est, 
+      <lb ed="#R" n="94"/>quod eundo ad superius itur in infinitum, 
+      eun<lb ed="#R" n="95" break="no"/>do autem ad inferius est status, puta ad 
+      vnita<lb ed="#R" n="96" break="no"/>tem: ergo sic erit in proposito, quod eundo ab 
+      <lb ed="#R" n="97"/>anima ad substantiam primam abstractam erit 
+      <lb ed="#R" n="98"/>processus in infinitum; sed eundo ab anima ad 
+      <lb ed="#R" n="99"/>res materiales erit status ad materiam, &amp; ideo 
+      <lb ed="#R" n="100"/>videtur probabile, quod plures sint substantiae 
+      <lb ed="#R" n="101"/>abstractae inter animam, &amp; materiam primam. 
+      <lb ed="#R" n="102"/>Et confirmatur, quia entia abstracta 
+      numeran<lb ed="#R" n="103" break="no"/>tur, secundum quod diuersimode participant 
+      <lb ed="#R" n="104"/>perfectiones diuinas: sed Deus est participabilis 
+      <lb ed="#R" n="105"/>in infinitum: ergo. 
+   </p>
+               <p xml:id="olm8ij-f38512-d1e470">
+                  <lb ed="#R" n="106"/>Haec ratio non valet, scilicet, quia sic 
+      proba<lb ed="#R" n="107" break="no"/>rem, quod corpora caelestia essent plura, quam 
+      <lb ed="#R" n="108"/>lapides: similiter, quod phaenices essent plures 
+      <lb ed="#R" n="109"/>quam aurum: quia aurum est quoddam medium 
+      <lb ed="#R" n="110"/>inter solem &amp; lapidem, ab auro ad solem itur in 
+      <lb ed="#R" n="111"/>superius: ergo in infinitum. Similiter in 
+      nume<lb ed="#R" n="112" break="no"/>ris, licet sit status in formali ratione numeri, 
+      <lb ed="#R" n="113"/>quo numeramus, non est tamen status in 
+      nume<lb ed="#R" n="114" break="no"/>ro numerato, sicut nec ad superius, sic nec ad 
+      <lb ed="#R" n="115"/>inferius: substantiae autem immateriales sunt 
+      <lb ed="#R" n="116"/>numerus numeratus. Similiter quia essentia 
+      di<lb ed="#R" n="117" break="no"/>uina non sic est participabilis in infinitum, vt 
+      <lb ed="#R" n="118"/>in infinitum possint fieri tales substantiae 
+      abstra<lb ed="#R" n="119" break="no"/>ctae, quia forte aliqua potest esse ita nobilis, 
+      <lb ed="#R" n="120"/>quod nulla alia est possibilis nobilior. Dico 
+      er<lb ed="#R" n="121" break="no"/>go, quod licet numerus Angelorum non 
+      pos<lb ed="#R" n="122" break="no"/>sit aliter probari, quam per numerum orbium, 
+      <lb ed="#R" n="123"/>&amp; hoc ratione naturali, vt Arist. 12. metaph. 
+      <lb ed="#R" n="124"/>tex. 47. &amp; 48. probat: tamen ex scriptura 
+      pro<lb ed="#R" n="125" break="no"/>bari potest maxima Angelorum multitudo, &amp; 
+      <lb ed="#R" n="126"/>hoc per reuelationem illius, cui notus est 
+      nume<lb ed="#R" n="127" break="no"/>rus, scilicet Dei. Breuiter ergo dicendum, quod 
+      <lb ed="#R" n="128"/>sunt tot, quot sufficiunt ad custodiam 
+      homi<lb ed="#R" n="129" break="no"/>num, vt vnus vni pro custodia sit deputatus.
+   </p>
+            </div>
+            <div xml:id="olm8ij-f38512-Dd1e526">
+               <head xml:id="olm8ij-f38512-Hd1e528">Articulus 2</head>
+               <head xml:id="olm8ij-f38512-Hd1e530" type="question-title">
+      Utrum cuilibet homini viatori sit aliquis 
+      Angelorum deputatus ad custodiam
+    </head>
+               <p xml:id="olm8ij-f38512-d1e533">
+      <!--0125.xml-->
+                  <pb ed="#R" n="125"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>ARTJCVLVS <sic>III.</sic>
+                  <lb ed="#R" n="2"/>Vtrum Angelus custodiens aliquid operetur 
+      <lb ed="#R" n="3"/>circa intellectum hominis. 
+  </p>
+               <p xml:id="olm8ij-f38512-d1e551">
+                  <lb ed="#R" n="4"/>AD secundam quaestionem, quod Angelus 
+      <lb ed="#R" n="5"/>custodiens nihil operetur circa intollectum 
+      <lb ed="#R" n="6"/>hominis custoditi per Augustinum in quadam 
+      <lb ed="#R" n="7"/>glosa super illud 
+  </p>
+               <p xml:id="olm8ij-f38512-d1e562">
+                  <lb ed="#R" n="8"/>In oppositum est quia alias frustra 
+      custodire<lb ed="#R" n="9" break="no"/>tur homo ab Angelo, non enim illud videtur, 
+      <lb ed="#R" n="10"/>quod possit agere circa ipsum, nisi agendo circa 
+      <lb ed="#R" n="11"/>voluntatem, &amp; intellectum. 
+  </p>
+               <p xml:id="olm8ij-f38512-d1e574">
+                  <lb ed="#R" n="12"/>Respondeo, praemitto distinctionem vnam, 
+      <lb ed="#R" n="13"/>quod Angelum operari circa intellectum 
+      homi<lb ed="#R" n="14" break="no"/>nis potest intelligi directé, vel indirecte. Tunc 
+      <lb ed="#R" n="15"/>si quaestio quaerat secundo modo, concordant 
+      <lb ed="#R" n="16"/>omnes, quod Angelus indirecte potest circa 
+      in<lb ed="#R" n="17" break="no"/>tellectum hominis operari, &amp; circa voluntatem, 
+      <lb ed="#R" n="18"/>inducendo dispositiones ad actus: hoc modo 
+      <lb ed="#R" n="19"/>non solus Angelus bonus, sed Angelus malus 
+      <lb ed="#R" n="20"/>operatur circa intellectum &amp; voluntatem 
+      ho<lb ed="#R" n="21" break="no"/>minis; sicut potest inducere transmutationes &amp; 
+      <lb ed="#R" n="22"/>dispositiones in corpore hominis, ex quibus 
+      <lb ed="#R" n="23"/>redditur homo inclinatus ad consimiles motus 
+      <lb ed="#R" n="24"/>in voluntate. Vnde potest accendere 
+      sangui<lb ed="#R" n="25" break="no"/>nem cirea cor, ex quo sequitur inclinatio ad 
+      <lb ed="#R" n="26"/>iram, &amp; calorem excitare in partibus, in 
+      qui<lb ed="#R" n="27" break="no"/>bus viget virtus generatiua, ex quo sequitur 
+      <lb ed="#R" n="28"/>inclinatio, &amp; impulsus ad actus venereos, &amp; hoc 
+      <lb ed="#R" n="29"/>quia optime nouir uomplexionem, &amp; 
+      anclinatio<lb ed="#R" n="30" break="no"/>nes ad tales actus. Sic per oppofitum bonus 
+      An<lb ed="#R" n="31" break="no"/>gelus nouit complexionem, &amp; dispositionem 
+      <lb ed="#R" n="32"/>quam habent ad tales actus virtuosos inclinare: 
+      <lb ed="#R" n="33"/>&amp; ideo potest indirecte actus huiusmodi in 
+      vo<lb ed="#R" n="34" break="no"/>luntate, &amp; intellectu causando tales 
+      complexio<lb ed="#R" n="35" break="no"/>nes, &amp; dispositiones in corpore. Et ideo 
+      creden<lb ed="#R" n="36" break="no"/>dum est, quod quando malus Angelus inducit 
+      <lb ed="#R" n="37"/>in corpore qualitatem inducentem ad actum 
+      <lb ed="#R" n="38"/>malum, quod Angelus bonus custodiens 
+      indu<lb ed="#R" n="39" break="no"/>cat oppositam qualitatem, quae habet ad actum 
+      <lb ed="#R" n="40"/>virtuosum illi opposito inclinare. Sed si quaestio 
+      <lb ed="#R" n="41"/>quarar de operari directe, sicut concordant 
+      <lb ed="#R" n="42"/>quasi omnes, quod vt potest imprimere in 
+      in<lb ed="#R" n="43" break="no"/>tellectu notitiam, nec speciem, nec in 
+      volunta<lb ed="#R" n="44" break="no"/>te volitionem, vt in sensu visionem, siue speciem. 
+      <lb ed="#R" n="45"/>Dicunt tamen quidam, quod potest species 
+      exi<lb ed="#R" n="46" break="no"/>stentes in fantasia localiter mouere, &amp; mutare 
+      <lb ed="#R" n="47"/>ordinem earum ad inuicem, ad nouum ordinem 
+      <lb ed="#R" n="48"/>inducere, &amp; ex hoc virtus cognitiua componet 
+      <lb ed="#R" n="49"/>species sis ordinantes ad inuicem, &amp; eliciet acttum 
+      <lb ed="#R" n="50"/>cognoscendi. E contra Angelus bonus potest 
+      <lb ed="#R" n="51"/>species ad inuicem ordinare, puta speciem Cru- 
+      <!--0125.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="52"/>cis, &amp; speciem Christi, &amp; hoc modo cognitiua 
+      <lb ed="#R" n="53"/>componet vtrumque, &amp; sequitur cogitatio 
+      Chri<lb ed="#R" n="54" break="no"/>sti in Cruce.
+  </p>
+               <p xml:id="olm8ij-f38512-d1e674">
+                  <lb ed="#R" n="55"/>Secundo dicunt, quod tasia phantasmata potest 
+      <lb ed="#R" n="56"/>sic illuminare, &amp; subtiliare, vt per hoc 
+      accen<lb ed="#R" n="57" break="no"/>dat homines ad profundissima, de diuinis, aut 
+      <lb ed="#R" n="58"/>quodammodo rapiatur. Quicquid sit de primo, 
+      <lb ed="#R" n="59"/>hoc tamen secundum non placet mihi, puta 
+      <lb ed="#R" n="60"/>quod Angelus possit sic phantasmata 
+      fortifica<lb ed="#R" n="61" break="no"/>re, &amp; illuminare: non enim lumen illud 
+      intel<lb ed="#R" n="62" break="no"/>lectus agentis est qualitas aliqua, ficut ipsi 
+      <lb ed="#R" n="63"/>imaginantur, &amp; per. hoc lumen additum 
+      con<lb ed="#R" n="64" break="no"/>fortetur actio intellectus agentis, Actio enim 
+      <lb ed="#R" n="65"/>intellectus non est nisi quoddam coagere 
+      phan<lb ed="#R" n="66" break="no"/>tasmati ad agnitionem speciei in intellectu, ad 
+      <lb ed="#R" n="67"/>transferendam rem de ordine ad ordinem secun 
+      <lb ed="#R" n="68"/>dum esse cognitum.
+   </p>
+               <p xml:id="olm8ij-f38512-d1e707">
+                  <lb ed="#R" n="69"/>Quantum vero ad primum dictum de ordine 
+      <lb ed="#R" n="70"/>phantasmatum, licet sit satis dubium, quia talis 
+      <lb ed="#R" n="71"/>ordinatio non videtur esse aliud, quam motus 
+      <lb ed="#R" n="72"/>localis; potest tamen dici, quod multae species 
+      <lb ed="#R" n="73"/>de facto sint simul in thesauro imaginatiuae, &amp; 
+      <lb ed="#R" n="74"/>multae similiter species sensationum sint in 
+      the<lb ed="#R" n="75" break="no"/>sauro memoriae simul, &amp; hoc in eadem 
+      parte<lb ed="#R" n="76" break="no"/>specierum subiectiue; alias si exigeret aliam, &amp; 
+      <lb ed="#R" n="77"/>aliam partem, non posset recipi tanta multitudo 
+      <lb ed="#R" n="78"/>specierum in parua quantitate specierum 
+      existen<lb ed="#R" n="79" break="no"/>tium in cellula parua, &amp; ideo species rosae 
+      non<lb ed="#R" n="80" break="no"/>est in vna parte spiritus, &amp; species Parisiorum in 
+      <lb ed="#R" n="81"/>alia: alias, qui haberent magnum caput, possent 
+      <lb ed="#R" n="82"/>plura fantasticari. Consimiliter ex aliquo 
+      nume<lb ed="#R" n="83" break="no"/>ro specierum posset occupari tota quantitas 
+      spi<lb ed="#R" n="84" break="no"/>rituum illorum, &amp; omnes partes repleri, &amp; tuno 
+      <lb ed="#R" n="85"/>sequeretur, quod homo, postquam acquisisset ali 
+      <lb ed="#R" n="86"/>quam certam multitudinem specierum, non 
+      pos<lb ed="#R" n="87" break="no"/>set plures species recipere, &amp; ideo non est 
+      ima<lb ed="#R" n="88" break="no"/>ginandum, quod species rerum in oculo sic sint 
+      <lb ed="#R" n="89"/>situaliter positae, quod occupent locum proprium 
+      <lb ed="#R" n="90"/>quaelibet, quod non occupat alia. Immo in vna 
+      <lb ed="#R" n="91"/>parua pupilla potest recipi similitudo totius vni 
+      <lb ed="#R" n="92"/>uersi, &amp; tota geographia: similiter in eadem 
+      par<lb ed="#R" n="93" break="no"/>te spirituum possunt recipi species omnes 
+      inten<lb ed="#R" n="94" break="no"/>tionum, quae sunt in memoria, &amp; in eadem 
+      par<lb ed="#R" n="95" break="no"/>te spiritus possunt recipi species omnium 
+      forma<lb ed="#R" n="96" break="no"/>rum, quae sunt in imaginatione. Tunc ex his 
+      ori<lb ed="#R" n="97" break="no"/>tur difficultas circa primum dictum, quod 
+      di<lb ed="#R" n="98" break="no"/>cit opinio recitata de ordinatione, &amp; transposi. 
+      <lb ed="#R" n="99"/>tione specierum, aut enim mouebunt speciem, 
+      <lb ed="#R" n="100"/>&amp; ponent eam extra spiritum, &amp; tunc accidens 
+      <lb ed="#R" n="101"/>migrabit a subiecto in subiectum, aut 
+      immutan<lb ed="#R" n="102" break="no"/>do speciem ipsam, &amp; tunc nihil ad propositum. 
+      <lb ed="#R" n="103"/>quomodocumque mutentur partes spiritus. Si 
+      <lb ed="#R" n="104"/>ergo nihil possit noui imprimere in intellectu, 
+      <lb ed="#R" n="105"/>nec posset in existentia mutare quoad ordinem, 
+      <lb ed="#R" n="106"/>quomodo ergo docet hominem in cogitatu? 
+   </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

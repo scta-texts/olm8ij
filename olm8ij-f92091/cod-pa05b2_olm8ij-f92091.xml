@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-05">April 05, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b2">Roma 1605, Book 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="300"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-f92091"><!-- l2d37-q1 -->
+            <head xml:id="olm8ij-f92091-Hd1e101">Quaestio 1</head>
+            <p xml:id="olm8ij-f92091-d1e103">
+               <lb ed="#R" n="24"/>QVAESTIO VNICA.
+  </p>
+            <p xml:id="olm8ij-f92091-d1e108">
+      <!--0300.xml-->
+               <cb ed="#R" n="d"/>
+               <lb ed="#R" n="25"/>1 Vtrum peccatum vnum possit esse paena 
+      <lb ed="#R" n="26"/>alterius peccati. 
+      <lb ed="#R" n="27"/>2 Vtrum peccatum possit esse causa alterius 
+   </p>
+            <div xml:id="olm8ij-f92091-Dd1e121">
+               <head xml:id="olm8ij-f92091-Hd1e123">Articulus 1</head>
+               <head xml:id="olm8ij-f92091-Hd1e125" type="question-title">
+      Utrum peccatum unum possit esse paena alterius peccati
+    </head>
+               <p xml:id="olm8ij-f92091-d1e128">
+                  <lb ed="#R" n="28"/>ARTJCVLVS J. 
+      <lb ed="#R" n="29"/>Vtrum peccatum vnum possit esse paena alterius 
+      <lb ed="#R" n="30"/>peccati
+   </p>
+               <p xml:id="olm8ij-f92091-d1e137">
+                  <lb ed="#R" n="31"/>QVANTVM ad primum 
+      <lb ed="#R" n="32"/>arguo primo, quod 
+      pecca<lb ed="#R" n="33" break="no"/>tum vnum non possit 
+      ha<lb ed="#R" n="34" break="no"/>bere rationem paenae respe 
+      <lb ed="#R" n="35"/>ctu alterius, quia de 
+      ratio<lb ed="#R" n="36" break="no"/>ne paenae sunt tria, scilicet 
+      <lb ed="#R" n="37"/>quod inuoluntaria, &amp; ab 
+      <lb ed="#R" n="38"/>alio inflicta, &amp; iuste: sed 
+      <lb ed="#R" n="39"/>peccatum est voluntarium, non ab alio, &amp; 
+      iniu<lb ed="#R" n="40" break="no"/>stum: ergo. 
+   </p>
+               <p xml:id="olm8ij-f92091-d1e161">
+                  <lb ed="#R" n="41"/>Ad oppositum, est Apostolus ad 
+      Roma<lb ed="#R" n="42" break="no"/>nus primo, qui cum dixisset, quod Philosophi 
+      <lb ed="#R" n="43"/>Deum non cognouerunt dicit, quod propterea 
+      tra<lb ed="#R" n="44" break="no"/>didit illos Deus in passiones ignorantiae, &amp; 
+      caete<lb ed="#R" n="45" break="no"/>ra peccata, quae ioi enumerat, quae secundum 
+      <lb ed="#R" n="46"/>eum sunt paena peccati: ergo. 
+   </p>
+               <p xml:id="olm8ij-f92091-d1e178">
+                  <lb ed="#R" n="47"/>Respondeo primo ponam vnam 
+      propositio<lb ed="#R" n="48" break="no"/>nem, in qua declarabitur, quomodo peccatum 
+      <lb ed="#R" n="49"/>habet rationem paenae, &amp; secundo ponam 
+      quan<lb ed="#R" n="50" break="no"/>dam aliam, in qua probabo, quod habet 
+      ratio<lb ed="#R" n="51" break="no"/>nem paenae. Quoad primum, dico quod vnum pec 
+      <lb ed="#R" n="52"/>catum respectu alterius habet sex modis 
+      ratio<lb ed="#R" n="53" break="no"/>nem prnae. Primo modo priuatiue, quia priuat 
+      <lb ed="#R" n="54"/>homines bonis naturalibus, &amp; spoliat gratuitis, 
+      <!--0300.xml-->
+      <cb ed="#R" n="e"/>
+                  <lb ed="#R" n="55"/>&amp; inclinatione ad bonum, &amp; illa inter caeteras 
+      <lb ed="#R" n="56"/>paenas est non modica, maior enim est, quam tem 
+      <lb ed="#R" n="57"/>poralibus spoliari. 
+   </p>
+               <p xml:id="olm8ij-f92091-d1e209">
+                  <lb ed="#R" n="58"/>Secundo modo causatiue, aliqua enim peccata 
+      <lb ed="#R" n="59"/>causant quandam afflicionem, &amp; passiones 
+      affli<lb ed="#R" n="60" break="no"/>ctiuas, sicut est illa, quae facit ehullire cor, 
+      simi<lb ed="#R" n="61" break="no"/>liter tristitia, quae causat casum cordis, &amp; 
+      deie<lb ed="#R" n="62" break="no"/>ctionem 
+   </p>
+               <p xml:id="olm8ij-f92091-d1e222">
+                  <lb ed="#R" n="63"/>Tertio modo elongatiue, quia elongat a fine, 
+      <lb ed="#R" n="64"/>&amp; perfectione vltima, &amp; haec est maxima 
+      paena<lb ed="#R" n="65" break="no"/>rum, quae possit esse. 
+   </p>
+               <p xml:id="olm8ij-f92091-d1e231">
+                  <lb ed="#R" n="66"/>Quarto modo concomitatiue. Nam sunt 
+      quae<lb ed="#R" n="67" break="no"/>dam peccata, quae concomitantur magis, vt dolor, 
+      <lb ed="#R" n="68"/>&amp; difficultas maxima, vt patet de peccato 
+      aua<lb ed="#R" n="69" break="no"/>ritiae, &amp; incontinentiae. Vnde in persona 
+      peccato<lb ed="#R" n="70" break="no"/>rum dicit Sapiens sapien. 7. Ambulauimus vias 
+      <lb ed="#R" n="71"/>difficiles, &amp; 7. Ethicorum dicitur, quod 
+      pericu<lb ed="#R" n="72" break="no"/>losus est violentus. 
+   </p>
+               <p xml:id="olm8ij-f92091-d1e249">
+                  <lb ed="#R" n="73"/>Quinto modo consequenter, quia ad 
+      pecca<lb ed="#R" n="74" break="no"/>tum sequitur priuatio gratiae, qua subtracta 
+      la<lb ed="#R" n="75" break="no"/>bitur homo faciliter in peccatum: ideo dicitur ad 
+      <lb ed="#R" n="76"/>Rom. r. Tradidit illos Deus in reprobum sensum, 
+      <lb ed="#R" n="77"/>hoc est, remouendo prohibens, quod erat gratia. 
+   </p>
+               <p xml:id="olm8ij-f92091-d1e262">
+                  <lb ed="#R" n="78"/>Sexto modo formaliter, &amp; intrinsece, quia per 
+      <lb ed="#R" n="79"/>se habet rationem disconuenientis, dato, quod 
+      <lb ed="#R" n="80"/>nihil expoliaret, nec auferret ab homine; sicut 
+      <lb ed="#R" n="81"/>enim coniunctio conuenientis cum conuenienti 
+      <lb ed="#R" n="82"/>ponit rem in sua perfectione, sic ratio 
+      discon<lb ed="#R" n="83" break="no"/>uenientis, cuiusmodi est peccatum, per se 
+      po<lb ed="#R" n="84" break="no"/>nit in maxima imperfectione, &amp; ob hoc actus 
+      de<lb ed="#R" n="85" break="no"/>formis est maxime malum paenae, quia ponit 
+      vo<lb ed="#R" n="86" break="no"/>luntatem extra statum suum naturalem. Est etiam 
+      <lb ed="#R" n="87"/>paena propter hoc, quod oritur pugna crudelis 
+      <!--0301.xml-->
+      <pb ed="#R" n="301"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>in homine, ratio enim ostendit recte esse 
+      agen<lb ed="#R" n="2" break="no"/>dum, voluntas elicit e contra: est etiam in 
+      pec<lb ed="#R" n="3" break="no"/>catore continuus stimulus conscientiae 
+      remor<lb ed="#R" n="4" break="no"/>dentis, &amp; vermis, qui nunquam extingui potest. 
+   </p>
+               <p xml:id="olm8ij-f92091-d1e302">
+                  <lb ed="#R" n="5"/>Secunda propositio est, quod non eo modo, 
+      <lb ed="#R" n="6"/>quo quidam dicunt, peccatum habet per se 
+      ra<lb ed="#R" n="7" break="no"/>tionem paenae, dicunt quidam, quod culpa est 
+      <lb ed="#R" n="8"/>priuatio perfectionis, scilicet rectae operationis, 
+      <lb ed="#R" n="9"/>sed paena priuatio perfectionis personae est. 
+   </p>
+               <p xml:id="olm8ij-f92091-d1e315">
+                  <lb ed="#R" n="10"/>Aliqui etiam dicunt, quod priuatio secundae 
+      <lb ed="#R" n="11"/>per fectionis aliquid adimit de perfectione 
+      <lb ed="#R" n="12"/>prima, sicut iracundia, &amp; inuidia. Sed contra, 
+      <lb ed="#R" n="13"/>haec ratio non videtur sufficere, Nos enim 
+      quae<lb ed="#R" n="14" break="no"/>rimus, si peccatum per se potest habere rationem 
+      <lb ed="#R" n="15"/>paenae causatiue. Praeterea, priuatio rectae 
+      opera<lb ed="#R" n="16" break="no"/>tionis est per se disconueniens voluntati: ergo 
+      <lb ed="#R" n="17"/>per se peccatum habet rationem paenae. Fuit etiam 
+      <lb ed="#R" n="18"/>haec opinio superius improbata, quoad hoc, 
+      <lb ed="#R" n="19"/>quod dicit, quod paena adimit perfectionem 
+      <lb ed="#R" n="20"/>primam, &amp; pecgmm secundam. Alij dicunt, 
+      <lb ed="#R" n="21"/>quod de ratione cusrespicere per se agens, sed 
+      <lb ed="#R" n="22"/>de ratione paena pe est respicere patiens, pro 
+      <lb ed="#R" n="23"/>pter hoc dicitur comimuniter, quod paena non est 
+      <lb ed="#R" n="24"/>voluntaria, sed culpa. 
+   </p>
+               <p xml:id="olm8ij-f92091-d1e350">
+                  <lb ed="#R" n="25"/>Item peccatum licet includat 
+      disconuenien<lb ed="#R" n="26" break="no"/>tiam, cum non habeat rationem culpae, ex hoc 
+      <lb ed="#R" n="27"/>vt respicit agens, a quo causatur voluntarie: haec 
+      <lb ed="#R" n="28"/>autem opinio videtur esse probabilior, Vnde 
+      be<lb ed="#R" n="29" break="no"/>ne saluat, quod culpa, vt culpa, hoc est, vt 
+      com<lb ed="#R" n="30" break="no"/>parata ad agens, non habet rationem paenae, nec 
+      <lb ed="#R" n="31"/>paena rationem culpae, adiunctum habet duorum, 
+      <lb ed="#R" n="32"/>quia sub illa ratione sub qua causat, videtur etiam 
+      <lb ed="#R" n="33"/>quod habeat rationem paenae, quia secundum hoc 
+      <lb ed="#R" n="34"/>elicit, causat, &amp; priuat, &amp; tamen secundum hoc ha 
+      <lb ed="#R" n="35"/>bet rationem paenae: &amp; in quantum elicitur, &amp; respicit 
+      <lb ed="#R" n="36"/>agens habet rationem disconuenientis, quia ponitur 
+      <lb ed="#R" n="37"/>per hoc voluntas extra statum naturae, quod per 
+      <lb ed="#R" n="38"/>mittit Deus iusto iudicio propter peccatum, con 
+      <lb ed="#R" n="39"/>tra statum enim naturalis rectitudinis est agere 
+      <lb ed="#R" n="40"/>non recte. Jdeo dico sicut Magister in littera, quod 
+      <lb ed="#R" n="41"/>nullum est inconueniens, quod paena sit culpa, &amp; 
+      <lb ed="#R" n="42"/>e conuerso. 
+   </p>
+               <p xml:id="olm8ij-f92091-d1e392">
+                  <lb ed="#R" n="43"/>Ad argumentum in oppositum, dico, quod in 
+      <lb ed="#R" n="44"/>quantum est priuatio, habet rationem 
+      inuolun<lb ed="#R" n="45" break="no"/>tarij, in quantum vero est actio, habet rationem 
+      <lb ed="#R" n="46"/>voluntarij, quia sic respicit agens liberum. Vel 
+      <lb ed="#R" n="47"/>dico, quod non est inconueniens, quod pena 
+      ha<lb ed="#R" n="48" break="no"/>beat rationem voluntarij, &amp; haec pena non dicitur 
+      <lb ed="#R" n="49"/>inflictiua tantum, sicut est in proposito. 
+   </p>
+            </div>
+            <div xml:id="olm8ij-f92091-Dd1e411">
+               <head xml:id="olm8ij-f92091-Hd1e413">Articulus 2</head>
+               <head xml:id="olm8ij-f92091-Hd1e415" type="question-title">
+      Utrum vnum peccatum sit causa alterius peccati
+    </head>
+               <p xml:id="olm8ij-f92091-d1e418">
+                  <lb ed="#R" n="50"/>ARTJCVLVS JJ. 
+      <lb ed="#R" n="51"/>Vtrum vnum peccatum sit causa alterius 
+      <lb ed="#R" n="52"/>peccati. 
+   </p>
+               <p xml:id="olm8ij-f92091-d1e427">
+                  <lb ed="#R" n="53"/>AD secundam quaestionem arguo primo, quod 
+      <lb ed="#R" n="54"/>vnum peccatum non sit causa alterius 
+      pec<lb ed="#R" n="55" break="no"/>cati, quia, quod est pura priuatio, non potest 
+      ali<lb ed="#R" n="56" break="no"/>quid causare: peccatum est huiusmodi: ergo. 
+   </p>
+               <p xml:id="olm8ij-f92091-d1e438">
+                  <lb ed="#R" n="57"/>In oppositum est Scriptura, quae dicit: Initium 
+      <lb ed="#R" n="58"/>peccati superbia; initium enim, &amp; causa idem 
+      <lb ed="#R" n="59"/>videntur importare, &amp; alibi: radix omnium 
+      ma<lb ed="#R" n="60" break="no"/>lorum est cupiditas. 
+   </p>
+               <p xml:id="olm8ij-f92091-d1e450">
+                  <lb ed="#R" n="61"/>Respondeo, primo est videndum in generali, 
+      <lb ed="#R" n="62"/>quot modis vnum peccatum potest esse causa 
+      al<lb ed="#R" n="63" break="no"/>terius, &amp; postea in speciali. In generali autem 
+      <lb ed="#R" n="64"/>sciendum, quod decem modis vnum peccatum 
+      <lb ed="#R" n="65"/>potest esse causa alterius: sufficientia enim 
+      redu<lb ed="#R" n="66" break="no"/>citur ad quatuor genera causarum, peccatum 
+      <!--0301.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>enim potest esse causa per modum efficientis, vel 
+      <lb ed="#R" n="68"/>quasi efficientis, per modum materiae; uel quasi; 
+      <lb ed="#R" n="69"/>per modum finis, vel quasi: per modum formae: 
+      <lb ed="#R" n="70"/>Per modum enicientis potest esse quatuor modis, 
+      <lb ed="#R" n="71"/>primo modo dispositiue affirmatiue, &amp; hoc 
+      fa<lb ed="#R" n="72" break="no"/>cit derelinquendo habitum malum, qui est prius 
+      <lb ed="#R" n="73"/>causa peccati, eo modo, quo mendacium causat 
+      <lb ed="#R" n="74"/>habitum vitiosum, ex quo proueniunt multa ma 
+      <lb ed="#R" n="75"/>la, &amp; mendacia aliqua. 
+   </p>
+               <p xml:id="olm8ij-f92091-d1e489">
+                  <lb ed="#R" n="76"/>Secundo modo priuatiue, &amp; remotiue, quia 
+      re<lb ed="#R" n="77" break="no"/>mouetur prohibens peccatum; quae sunt tria, vnum 
+      <lb ed="#R" n="78"/>intrinsecum, scilicet donum supernaturale 
+      colla<lb ed="#R" n="79" break="no"/>tum, vt gratia, &amp; virtutes. 
+   </p>
+               <p xml:id="olm8ij-f92091-d1e500">
+                  <lb ed="#R" n="80"/>Aliud vero intrinsecum est naturale, puta, 
+      re<lb ed="#R" n="81" break="no"/>cta ratio, &amp; operationes quaedam laudabiles, &amp; 
+      <lb ed="#R" n="82"/>verecundia. 
+   </p>
+               <p xml:id="olm8ij-f92091-d1e509">
+                  <lb ed="#R" n="83"/>Tertium autem est extrinsecum, vt custodia di 
+      <lb ed="#R" n="84"/>uina, &amp; angelorum custodia, quae remouent 
+      op<lb ed="#R" n="85" break="no"/>portunitatem peccandi; ergo tribus istis ablatis, 
+      <lb ed="#R" n="86"/>demeritorie per peccatum fit homo pronus, &amp; 
+      <lb ed="#R" n="87"/>labilis ad peccandum, quia sine iltis non potest 
+      <lb ed="#R" n="88"/>homo diu vitare peccatum: Vnde Gregorius: 
+      Pec<lb ed="#R" n="89" break="no"/>catum quod per paenitentiam non diminuitur, 
+      <lb ed="#R" n="90"/>mox suo pondere ad aliud trahit. Sic ergo 
+      pec<lb ed="#R" n="91" break="no"/>catum, quia tollit gratiam, &amp; virtutes, aliqua 
+      <lb ed="#R" n="92"/>etiam tollunt verecundiam, &amp; rectam rationem, 
+      <lb ed="#R" n="93"/>vt gula, &amp; luxuria: aliqua etiam curam, &amp; 
+      cusio<lb ed="#R" n="94" break="no"/>diam diuinam demeritorie, Jdeo hoc modo sunt 
+      <lb ed="#R" n="95"/>causa peccatorum, quia sine istis labitur homo in 
+      <lb ed="#R" n="96"/>peccatum. 
+   </p>
+               <p xml:id="olm8ij-f92091-d1e542">
+                  <lb ed="#R" n="97"/>Secundo dico per modum materiae, ministran 
+      <lb ed="#R" n="98"/>do scilicet obiectum, &amp; materiam circa quam 
+      <lb ed="#R" n="99"/>&amp; hoc conuenit dupliciter, vel directe vel 
+      indire<lb ed="#R" n="100" break="no"/>cte, quaedam ad luxuriam indirecte, &amp; sicut instru 
+      <lb ed="#R" n="101"/>mentum, vt auaritia, quae ministrat materiam su 
+      <lb ed="#R" n="102"/>perbiae, puta diuitias ipsas, hodie enim 
+      tantum<lb ed="#R" n="103" break="no"/>modo diuites honorantur, cum tamen honor 
+      de<lb ed="#R" n="104" break="no"/>beatur virtuti 4. Ethicorum. Vnde Aristoteles 
+      <lb ed="#R" n="105"/>3. polit. dicit, quod illi, qui propter pecuniam 
+      ele<lb ed="#R" n="106" break="no"/>uantur ad honores, sunt magis superbi alijs. 
+   </p>
+               <p xml:id="olm8ij-f92091-d1e566">
+                  <lb ed="#R" n="107"/>Tertio modo vnum peccatum est causa 
+      alte<lb ed="#R" n="108" break="no"/>rius per modum finis, &amp; hoc conuenit dupliciter, 
+      <lb ed="#R" n="109"/>vel positiue, vel priuatiue, primo modo 
+      quando<lb ed="#R" n="110" break="no"/>que conuenit, quod vnum peccatum est finis 
+      al<lb ed="#R" n="111" break="no"/>terius finis, seu inducit finem alteri, quomodo 
+      <lb ed="#R" n="112"/>quae dam peccata inducunt, &amp; praestant finem 
+      su<lb ed="#R" n="113" break="no"/>perbiae, Vnde dicit Gregorius Moral. lib. 33. quod 
+      <lb ed="#R" n="114"/>vanagloria est finis praesumptionis, &amp; sic pra sum 
+      <lb ed="#R" n="115"/>ptio, &amp; hypocrisis praestant finem superbiae, puta 
+      <lb ed="#R" n="116"/>istam vanam gloriam. 
+   </p>
+               <p xml:id="olm8ij-f92091-d1e591">
+                  <lb ed="#R" n="117"/>Secundo modo priuatiue, quando vnum pecca 
+      <lb ed="#R" n="118"/>tum non potest attingi nisi per aliud, sicut 
+      vana<lb ed="#R" n="119" break="no"/>gloria non attingitur nisi per superbiam, finis 
+      <lb ed="#R" n="120"/>enim gloriae est propria exceilentia: ergo ex hoc 
+      <lb ed="#R" n="121"/>causatur inuidia in hoc, quod bonum alterius 
+      <lb ed="#R" n="122"/>extimatione sua tollit, vel diminuit propriam ex 
+      <lb ed="#R" n="123"/>cellentiam. 
+   </p>
+               <p xml:id="olm8ij-f92091-d1e609">
+                  <lb ed="#R" n="124"/>Quarto modo dico, quod peccatum est causa 
+      <lb ed="#R" n="125"/>peccati per modum formae, &amp; hoc dupliciter 
+      se<lb ed="#R" n="126" break="no"/>cundum, quod est duplex forma naturalis, 
+      scili<lb ed="#R" n="127" break="no"/>cet extra, &amp; paradigma, &amp; ipsum secundum quid 
+      <lb ed="#R" n="128"/>est 7. metaphysicae, &amp; 2. physicorum: primo 
+      mo<lb ed="#R" n="129" break="no"/>do iustitia aliquando est causa crudelitatis, &amp; 
+      <lb ed="#R" n="130"/>exemplar huiusmodi, quia fit aliquid ex similitudi 
+      <lb ed="#R" n="131"/>ne, quam habet iustitia suo effectu ex crudelitate, 
+      <lb ed="#R" n="132"/>ideo ex illa exemplaritate &amp; similitudine multi 
+      <!--0302.xml-->
+      <pb ed="#R" n="302"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>hodie decipiuntur in habitu, &amp; insttinctu 
+      iusti<lb ed="#R" n="2" break="no"/>tiae inferendo crudeles paenas: Sic ergo 
+      benigni<lb ed="#R" n="3" break="no"/>tas quando est causa remissionis: hoc etiam 
+      me<lb ed="#R" n="4" break="no"/>do a prudentia videtur oriri astutia, &amp; quasi simi 
+      <lb ed="#R" n="5"/>lis illi esse, sicut etiam apparet inter vitia, &amp; 
+      vir<lb ed="#R" n="6" break="no"/>tutes, sic etiam est inter illa peccata ad inuicem, 
+      <lb ed="#R" n="7"/>licet hoc modo fiat indirecte. 
+   </p>
+               <p xml:id="olm8ij-f92091-d1e653">
+                  <lb ed="#R" n="8"/>Secundo modo, ut exemplar, &amp; directe, sicut quod 
+      <lb ed="#R" n="9"/>quid est, est ratio formalis essendi, &amp; sic oem vitium 
+      <lb ed="#R" n="10"/>oritur ex superbia, &amp; primo vanagloria, quae est 
+      <lb ed="#R" n="11"/>appetitus laudis, siue famae cum laude frequenti, 
+      <lb ed="#R" n="12"/>&amp; hoc praefert omni rei: superbus autem consurgit 
+      <lb ed="#R" n="13"/>&amp; audet contra Deum, &amp; proximum, quia non 
+      <lb ed="#R" n="14"/>videtur sibi, quod debeat alicui esse subiectus. Et 
+      <lb ed="#R" n="15"/>ideo in omni peccato est superbia, quia omne pec 
+      <lb ed="#R" n="16"/>catum est transgressio praecepti alicuius; auersio 
+      <lb ed="#R" n="17"/>enim a fine, quae includitur in omni peccato 
+      dici<lb ed="#R" n="18" break="no"/>tur actus superbiae. 
+   </p>
+               <p xml:id="olm8ij-f92091-d1e679">
+                  <lb ed="#R" n="19"/>Nunc in speciali magis sciendum, quod 
+      Gre<lb ed="#R" n="20" break="no"/>gorius Moral. lib. 33. ponit vitia, quae 
+      oriun<lb ed="#R" n="21" break="no"/>tur ex vitijs capitalibus, de quibus dicetur proli- 
+      <!--0302.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="22"/>xius infra, nunc sufficiat gratia exempli accipere 
+      <lb ed="#R" n="23"/>de vno, verbi gratia de gula. Gregorius dicit, quod 
+      <lb ed="#R" n="24"/>ex gula oriuntur inepta laetitia, scurrilitas, 
+      mul<lb ed="#R" n="25" break="no"/>tiloquium, hebetudo sensuum, &amp; respectu istorum 
+      <lb ed="#R" n="26"/>gula videtur esse a causa efficienti, quia remouet 
+      <lb ed="#R" n="27"/>prohibens, scilicet iudicium rationis; ex crapula 
+      <lb ed="#R" n="28"/>enim, &amp; ebrietate absorbetur iudicium 
+      ratio<lb ed="#R" n="29" break="no"/>nis, ideo oritur dissolutio in gestibus, &amp; hoc est in 
+      <lb ed="#R" n="30"/>epta letitia: aliud est prohibens os a superfluo, 
+      <lb ed="#R" n="31"/>&amp; stulto eloquio, scilicet verecundia, hoc 
+      tolli<lb ed="#R" n="32" break="no"/>tur per gulam, ideo oritur scurrilitas, verba 
+      scili<lb ed="#R" n="33" break="no"/>cet vilia, truffata, &amp; multiloquium: per modum 
+      <lb ed="#R" n="34"/>autem materiae est causa aliquorum, puta immun 
+      <lb ed="#R" n="35"/>ditiae, vomitus, &amp; similium, gula enim istis 
+      im<lb ed="#R" n="36" break="no"/>munditijs materiam administrat: similiter gula 
+      <lb ed="#R" n="37"/>perturbat sensus, in quibus viget claritas 
+      specie<lb ed="#R" n="38" break="no"/>rum, &amp; spirituum, &amp; ideo oritur hebetudo 
+      sen<lb ed="#R" n="39" break="no"/>suum, &amp; sic de alijs. 
+   </p>
+               <p xml:id="olm8ij-f92091-d1e731">
+                  <lb ed="#R" n="40"/>Nunc ad argumentum in oppositum, argumen 
+      <lb ed="#R" n="41"/>tum concludit de efficiente dinesse non de efficiente 
+      <lb ed="#R" n="42"/>indirecte.
+   </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

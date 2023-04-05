@@ -1,0 +1,1103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-05">April 05, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b2">Roma 1605, Book 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="1"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-f12222"><!-- l2prol-q1 -->
+            <head xml:id="olm8ij-f12222-Hd1e101">Quaestio 1</head>
+            <p xml:id="olm8ij-f12222-d1e103">
+               <lb ed="#R" n="26"/>QVAESTIO 
+      <lb ed="#R" n="27"/>prohemialis. 
+   </p>
+            <div xml:id="olm8ij-f12222-Dd1e110">
+               <head xml:id="olm8ij-f12222-Hd1e112">Articulus 1</head>
+               <head xml:id="olm8ij-f12222-Hd1e114" type="question-title">
+        Utrum tempori praeterito secundum formalem 
+        rationem suam, qua praeteritum est, 
+        repugnet sibi 
+        contradictorie ratio infiniti.
+      </head>
+               <p xml:id="olm8ij-f12222-d1e117">
+                  <lb ed="#R" n="28"/>ARTJCVLVS J. 
+      <lb ed="#R" n="29"/>Vtrum tempori praeterito secundum formalem 
+      <lb ed="#R" n="30"/>rationem suam, qua praeteritum est, 
+      <lb ed="#R" n="31"/>repugnet sibi 
+      contradicto<lb ed="#R" n="32" break="no"/>rie ratio infiniti. 
+  </p>
+               <p xml:id="olm8ij-f12222-d1e130">
+                  <lb ed="#R" n="33"/>ET argumentor primo, quod non: 
+      Philo<lb ed="#R" n="34" break="no"/>sophus nouit naturam temporis, nouit &amp; 
+      <!--0001.xml-->
+      <cb ed="#R" n="c"/>
+                  <lb ed="#R" n="35"/>propriam rationem infiniti, &amp; tamen non 
+      ob<lb ed="#R" n="36" break="no"/>stante notitia de propria ratione cuiuslibet 
+      <lb ed="#R" n="37"/>eorum, non vidit contradictionem aliquam 
+      <lb ed="#R" n="38"/>temporis praeteriti &amp; infiniti; cum demonstret 
+      <lb ed="#R" n="39"/>ex intentione, quod tempus praeteritum est 
+      aeter<lb ed="#R" n="40" break="no"/>num, &amp; infinitum, quia non est de nouo post 
+      <lb ed="#R" n="41"/>non esse ad esse productum, ergo. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e156">
+                  <lb ed="#R" n="42"/>Secundo sic: Tempus praeteritum, &amp; 
+      futu<lb ed="#R" n="43" break="no"/>rum sunt partes vnius tatius temporis 
+      homo<lb ed="#R" n="44" break="no"/>genei, &amp; per consequens sunt partes eiusdem 
+      <lb ed="#R" n="45"/>rationis, &amp; quidquid non repugnat vni, neque 
+      <lb ed="#R" n="46"/>alteri repugnabit. Sed infinitas non repugnat 
+      <lb ed="#R" n="47"/>tempori futuro, vt manifestum est: ergo non 
+      re<lb ed="#R" n="48" break="no"/>pugnabit praeterito. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e175">
+                  <lb ed="#R" n="49"/>Tertio sic. Sola illa ratio, quae ponit 
+      infini<lb ed="#R" n="50" break="no"/>tatem in actu repugnat tempori. Probo, quia 
+      <lb ed="#R" n="51"/>solum infinitum actu, &amp; simul est illud. quod 
+      <lb ed="#R" n="52"/>repugnat esse in rerum natura secundum 
+      inten<lb ed="#R" n="53" break="no"/>tionem Aristot. &amp; Commentatoris. Sed 
+      infini<lb ed="#R" n="54" break="no"/>tas temporis praeteriti si ponatur, non est 
+      infini<lb ed="#R" n="55" break="no"/>tas simul &amp; in actu, sed successiue vnius partis 
+      <lb ed="#R" n="56"/>pos aliam, ergo. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e195">
+                  <lb ed="#R" n="57"/>In oppositum arguo. Quoniam de ratione 
+      <lb ed="#R" n="58"/>infiniti est, quod nondum sit completum, 
+      perfe<lb ed="#R" n="59" break="no"/>ctum, &amp; consummatum: de ratione autem 
+      <lb ed="#R" n="60"/>praeteriti est, quod sit completum, &amp; 
+      consum<lb ed="#R" n="61" break="no"/>matum, &amp; perfectum secundum omnes partes 
+      <lb ed="#R" n="62"/>suas: ergo infinitum, &amp; praeteritum 
+      contradi<lb ed="#R" n="63" break="no"/>cunt, sicut completum &amp; non completum; 
+      per<lb ed="#R" n="64" break="no"/>fectum, &amp; non perfectum, consummatum, &amp; 
+      <lb ed="#R" n="65"/>non consummatum. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e217">
+                  <lb ed="#R" n="66"/>Respondendo ad quaestionem istam hoc or- 
+      <!--0002.xml-->
+      <pb ed="#R" n="2"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>dine procedetur. Primo namque ponetur 
+      Con<lb ed="#R" n="2" break="no"/>clusio Philosophi, &amp; Commentatoris sui. 
+      Se<lb ed="#R" n="3" break="no"/>cundo inquiretur, quid ex dictis eorum de 
+      na<lb ed="#R" n="4" break="no"/>tura infiniti possit concludi. Tertio dicetur ad 
+      <lb ed="#R" n="5"/>punctum quaestionis.
+   </p>
+               <p xml:id="olm8ij-f12222-d1e239">
+                  <lb ed="#R" n="6"/>Quantum ad primum, dico, quod conclusio 
+      <lb ed="#R" n="7"/>Philosophi, &amp; Commentatoris sui est, quod 
+      <lb ed="#R" n="8"/>praeteritum, &amp; infinitum non repugnant; imo 
+      <lb ed="#R" n="9"/>de intentione eorum est, quod ratio infiniti 
+      ne<lb ed="#R" n="10" break="no"/>cessario includitur in ratione temporis 
+      praete<lb ed="#R" n="11" break="no"/>riti, eo quod tempus praeteritum secundum 
+      <lb ed="#R" n="12"/>eos necessario est aeternum, &amp; infinitum. Et 
+      <lb ed="#R" n="13"/>hanc conclusionem credit se Philosophus 
+      de<lb ed="#R" n="14" break="no"/>monstrare, vbi arguit per duas rationes, quas 
+      <lb ed="#R" n="15"/>Commentator prosequitur ibidem, quarum 
+      <lb ed="#R" n="16"/>prima est haec, &amp; accipitur ex ratione 
+      huius<lb ed="#R" n="17" break="no"/>modi, quod esse productum de nouo sit illud, 
+      <lb ed="#R" n="18"/>quod incipit esse, post non esse, de nouo 
+      ha<lb ed="#R" n="19" break="no"/>bet necessario esse, post non esse, duratione: 
+      <lb ed="#R" n="20"/>Ergo si tempus habet esse de nouo post non 
+      es<lb ed="#R" n="21" break="no"/>se, suum esse fuit posterius suo non esse, 
+      dura<lb ed="#R" n="22" break="no"/>tione: ergo suum non esse duratione fuit 
+      <lb ed="#R" n="23"/>prius. Ista prioritas, quae fuit, necessario est 
+      <lb ed="#R" n="24"/>prioritas praeteritionis, ergo quando tempus 
+      <lb ed="#R" n="25"/>de nouo fit, est dare priorem durationem 
+      prae<lb ed="#R" n="26" break="no"/>teritam. Sed quando tempus primo fit, 
+      non<lb ed="#R" n="27" break="no"/>dum est praeteritum: ergo tempus erit 
+      prae<lb ed="#R" n="28" break="no"/>teritum: quando nondum est tempus 
+      praeteri<lb ed="#R" n="29" break="no"/>tum, quare tempus fieri de nouo post suum 
+      <lb ed="#R" n="30"/>non esse, implicat contradictionem. Hanc 
+      ra<lb ed="#R" n="31" break="no"/>tionem inducit Philosoph. &amp; repetit 12. 
+      Me<lb ed="#R" n="32" break="no"/>taph. &amp; illam Commentator exponit, &amp; 
+      per<lb ed="#R" n="33" break="no"/>tractat, &amp; eius declaratio consistit in hoc: quia 
+      <lb ed="#R" n="34"/>supponit pro per se noto, quod omne factum 
+      <lb ed="#R" n="35"/>habet esse, post non esse. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e307">
+                  <lb ed="#R" n="36"/>Quia vero esse rei est post non esse, in illo 
+      <lb ed="#R" n="37"/>priori, non esse praecedit esse; impossibile 
+      au<lb ed="#R" n="38" break="no"/>tem est non praecedere, nisi sit dare prioritatem 
+      <lb ed="#R" n="39"/>in qua prius erat, in quo impossibile est circũ- 
+      <lb ed="#R" n="40"/>scribi a praeteritione, &amp; per consequens a 
+      tem<lb ed="#R" n="41" break="no"/>pore. Ergo ante tempus erit tempus, &amp; per 
+      con<lb ed="#R" n="42" break="no"/>sequens contradictio est, quod tempus sit 
+      fa<lb ed="#R" n="43" break="no"/>ctum: quia si tempus totum praeteritum sit 
+      pro<lb ed="#R" n="44" break="no"/>ductum, ante praeteritum erit praeteritum, &amp; 
+      <lb ed="#R" n="45"/>erit praeteritum, quando nondumerit praeteritum. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e331">
+                  <lb ed="#R" n="46"/>Ad istam responsionem respondetur a 
+      qui<lb ed="#R" n="47" break="no"/>busdam, quod omne quod incipit esse post non 
+      <lb ed="#R" n="48"/>esse, suum non esse praecedit esse, non quidem 
+      se<lb ed="#R" n="49" break="no"/>cundum realem durationem, sed tantum secun 
+      <lb ed="#R" n="50"/>dum rationem, &amp; tunc non sequitur quod 
+      tem<lb ed="#R" n="51" break="no"/>pus sit ante tempus. Sed haec solutio videtur mi 
+      <lb ed="#R" n="52"/>hi parui momenti, &amp; probo, quod necesse est, 
+      <lb ed="#R" n="53"/>quod non esse eius, quod fit, praecedat 
+      duratio<lb ed="#R" n="54" break="no"/>ne suum esse. Primo sic: Cuius non esse praecedit 
+      <lb ed="#R" n="55"/>esse tantum secundum rationem, illud est 
+      aeter<lb ed="#R" n="56" break="no"/>num; res producta de nouo non est aeterna: 
+      er<lb ed="#R" n="57" break="no"/>go. Maior nota est. Vnde secundum illos, 
+      <lb ed="#R" n="58"/>qui ponunt creaturam aliquam esse 
+      produ<lb ed="#R" n="59" break="no"/>ctam ab aeterno, non esse earum nulla praecedit 
+      <lb ed="#R" n="60"/>esse, quia de non esse trahuntur ad esse, alias 
+      <lb ed="#R" n="61"/>non esset creatio. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e369">
+                  <lb ed="#R" n="62"/>Probo &amp; hoc ratione sic. Cuius non esse 
+      so<lb ed="#R" n="63" break="no"/>lum ratione praecedit esse, illud est coaeternum 
+      <lb ed="#R" n="64"/>Deo, &amp; simul cum eo duratione: sed illud, quod 
+      <lb ed="#R" n="65"/>de nouo productum est, non est coaeternum 
+      <lb ed="#R" n="66"/>Deo, nec aliquid coaeternum Deo est de no- 
+      <!--0002.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>uo productum, quare, &amp;c. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e389">
+                  <lb ed="#R" n="68"/>Probatio maioris, quia da, quod non sit coae 
+      <lb ed="#R" n="69"/>ternum Deo, Deus erit prior duratione esse 
+      il<lb ed="#R" n="70" break="no"/>lius rei; in illo autem priori res habet non esse; 
+      <lb ed="#R" n="71"/>ergo non esse erit prius esse duratione: ergo 
+      <lb ed="#R" n="72"/>oportet dare alterum, scilicet, quod illud cuius 
+      <lb ed="#R" n="73"/>non esse solum secundum rationem praecedit 
+      <lb ed="#R" n="74"/>esse, sit simul duratione cum Deo. Minor vero 
+      <lb ed="#R" n="75"/>de se nota est, quare &amp;c. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e409">
+                  <lb ed="#R" n="76"/>Tertio ad idem sic. In relatiuis primi, &amp; 
+      se<lb ed="#R" n="77" break="no"/>cundi modi, si relatio in vno extremo sit realis, 
+      <lb ed="#R" n="78"/>oportet quod in altero extremo sit realis; &amp; si 
+      <lb ed="#R" n="79"/>in vno relatio est extra intellectum, &amp; in 
+      reli<lb ed="#R" n="80" break="no"/>quo: licet hoc non oporteat in relatiuis tertij 
+      <lb ed="#R" n="81"/>modi, vbi relatio non est mutua. Verbi gratia. 
+      <lb ed="#R" n="82"/>Si pater est pater realis, &amp; extra intellectum; de 
+      <lb ed="#R" n="83"/>necess itate filius erit realis, &amp; necessario extra 
+      <lb ed="#R" n="84"/>intellectum: sed prius &amp; posterius, sunt 
+      relati<lb ed="#R" n="85" break="no"/>ua, non de tertio modo, sed de primo, sunt enim 
+      <lb ed="#R" n="86"/>relatiua in alium mutua. Probo, quia relatio 
+      <lb ed="#R" n="87"/>prioritatis est opposita simultati; simultas 
+      au<lb ed="#R" n="88" break="no"/>tem fundatur super vnitatem, ergo 
+      prio<lb ed="#R" n="89" break="no"/>ritas sequitur simultatem: ergo impossibile 
+      <lb ed="#R" n="90"/>est quod detur posterius reale, quin prius fit 
+      <lb ed="#R" n="91"/>reale: sed rei factae de nouo, posterioritas sui 
+      <lb ed="#R" n="92"/>esse est realis, &amp; extra intellectum; talis est 
+      <lb ed="#R" n="93"/>prioritas durationis, ergo. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e451">
+                  <lb ed="#R" n="94"/>Quarto sic. Nouitas, &amp; antiquitas sunt rela 
+      <lb ed="#R" n="95"/>tiua; sed nouitas rei factae secundum suum 
+      es<lb ed="#R" n="96" break="no"/>se post non esse est realis, &amp; extra intellectum; 
+      <lb ed="#R" n="97"/>ergo similiter eius antiquitas secundum suum 
+      <lb ed="#R" n="98"/>non esse est simpliciter realis, &amp; extra 
+      intelle<lb ed="#R" n="99" break="no"/>ctum. Item ad idem. Illud sine quo res non 
+      <lb ed="#R" n="100"/>potest intelligi, est tale, quod sine eo res non 
+      <lb ed="#R" n="101"/>potest esse. Ratio huius est, quia secundum 
+      <lb ed="#R" n="102"/>Commentatorem natura intellectus est, quod 
+      <lb ed="#R" n="103"/>diuidit inter ea, quae non sunt diuisa in re: sed 
+      <lb ed="#R" n="104"/>impossibile est, quod intellectus concipiat ali 
+      <lb ed="#R" n="105"/>quid fieri de nouo, quin per necessitatem 
+      con<lb ed="#R" n="106" break="no"/>cipiat illud prius non habere esse: ergo nec 
+      <lb ed="#R" n="107"/>agens naturale poterit facere, quod res habeat 
+      <lb ed="#R" n="108"/>tunc de nouo esse, &amp; quod non praecedat 
+      reali<lb ed="#R" n="109" break="no"/>ter suum non esse. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e488">
+                  <lb ed="#R" n="110"/>Secunda ratio principalis Philosophi est ex 
+      <lb ed="#R" n="111"/>natura instantis: formari autem potest ratio 
+      <lb ed="#R" n="112"/>sic. Illud de cuius quidditatiua ratione est, 
+      <lb ed="#R" n="113"/>quod sit terminus praeteriti, &amp; initium futuri, 
+      <lb ed="#R" n="114"/>&amp; impossibile est aliter concipi, illi repugnat, 
+      <lb ed="#R" n="115"/>quod sit primum; nam ex quo est finis 
+      praeteri<lb ed="#R" n="116" break="no"/>ti, ipsum necesario praecedit ipsum praeteritum; 
+      <lb ed="#R" n="117"/>sed instans secundum rationem suam 
+      quiddi<lb ed="#R" n="118" break="no"/>tatiuam necessario est terminus praeteriti, &amp; 
+      <lb ed="#R" n="119"/>initium futuri, &amp; oppositum repugnat 
+      contradi<lb ed="#R" n="120" break="no"/>ctorie naturae instantis: ergo instanti repugnat 
+      es<lb ed="#R" n="121" break="no"/>se principium, &amp; per consequens impossibile est 
+      <lb ed="#R" n="122"/>tempus inchoari, quia da oppositum, iam 
+      in<lb ed="#R" n="123" break="no"/>stans illius temporis esset principium. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e521">
+                  <lb ed="#R" n="124"/>Hanc rationem innuit Philosophus, &amp; 
+      Com<lb ed="#R" n="125" break="no"/>mentator in 8. phys. com. 11. ibidem declarat 
+      <lb ed="#R" n="126"/>eam. &amp; similiter in 4. Physicorum J21. 125. 
+      tra<lb ed="#R" n="127" break="no"/>ctatu de instanti, quae breuiter in hoc consistit: 
+      <lb ed="#R" n="128"/>supponit, quod per se notum est, quod instans est 
+      <lb ed="#R" n="129"/>indiuisibile quoddam &amp; in fluxu: ita quod non 
+      <lb ed="#R" n="130"/>est ens per modum permanentis, sed consistit 
+      <lb ed="#R" n="131"/>in quodam fluxu a priori in posterius: sed 
+      il<lb ed="#R" n="132" break="no"/>lud, quod sic accipitur in fluxu prioris in 
+      <!--0003.xml-->
+      <pb ed="#R" n="3"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>posterius, sed illud, quod sic accipitur in fluxu prio 
+      <lb ed="#R" n="2"/>ris ad posterius, necessario accipitur, vt 
+      ter<lb ed="#R" n="3" break="no"/>minus prioris, &amp; initium posterioris, quare, &amp; c 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e557">
+                  <lb ed="#R" n="4"/>Ad istam rationem dicitur a multis 
+      negan<lb ed="#R" n="5" break="no"/>do maiorem, &amp; distinguendo de duplici 
+      instan<lb ed="#R" n="6" break="no"/>ti, siue triplici, quia quoddam est instans 
+      initiati<lb ed="#R" n="7" break="no"/>num futuri, quoddam terminatiuum 
+      praeteri<lb ed="#R" n="8" break="no"/>ti, &amp; quoddam continuatiuum praeteriti, &amp; 
+      fu<lb ed="#R" n="9" break="no"/>turi. Tunc dicunt, quod de ratione instantis ini 
+      <lb ed="#R" n="10"/>tiatiui non est quod sit terminus, de ratione 
+      <lb ed="#R" n="11"/>etiam instantis terminatiui non est, quod sit ini 
+      <lb ed="#R" n="12"/>tium: sed esse terminum, &amp; initium praecise 
+      <lb ed="#R" n="13"/>pertinet ad continuationem &amp; de hoc instanti 
+      <lb ed="#R" n="14"/>solummodo. habet euidentiam ratio 
+      Philoso<lb ed="#R" n="15" break="no"/>phi, non de alijs.
+   </p>
+               <p xml:id="olm8ij-f12222-d1e586">
+                  <lb ed="#R" n="16"/>Ista responsio non satisfacit secundum 
+      men<lb ed="#R" n="17" break="no"/>tem Aristot. &amp; Commentatoris, ideo arguo 
+      <lb ed="#R" n="18"/>contra eam ex declaratione Commentatoris, 
+      <lb ed="#R" n="19"/>non curo de istis rationibus, quae sunt 
+      initiati<lb ed="#R" n="20" break="no"/>num, vel terminatiuum: quia petitur 
+      princi<lb ed="#R" n="21" break="no"/>pium, cum dicitur, quod instans, quod est 
+      <lb ed="#R" n="22"/>sic initiatiuum, quod non est terminatiuum: tum 
+      <lb ed="#R" n="23"/>quia illae sunt rationes accidentales rationi 
+      in<lb ed="#R" n="24" break="no"/>stantis; fed ego capio naturam instantis vt talis 
+      <lb ed="#R" n="25"/>natura est, &amp; ex propria ratione eius probo, 
+      <lb ed="#R" n="26"/>quod necessario sit principium, &amp; finis.
+    </p>
+               <p xml:id="olm8ij-f12222-d1e612">
+                  <lb ed="#R" n="27"/>Primo sic. De cuius ratione est, quod non 
+      <lb ed="#R" n="28"/>potest concipi nisi instando, &amp; accedendo, de 
+      <lb ed="#R" n="29"/>ratione eius est, quod sit fluxus quidam 
+      acce<lb ed="#R" n="30" break="no"/>dentis ad illud: sed de ratione instantis est, quod 
+      <lb ed="#R" n="31"/>non possit concipi nisi instando, &amp; accedendo 
+      <lb ed="#R" n="32"/>ergo, &amp;c. Maior patet, quia si de quidditatiua 
+      <lb ed="#R" n="33"/>ratione alicuius est, quod sit in quodam 
+      instan<lb ed="#R" n="34" break="no"/>do mihi, &amp; accedendo mihi: si accedat mihi, 
+      ne<lb ed="#R" n="35" break="no"/>cessario est finis distantiae inter me, &amp; ipsum. 
+      <lb ed="#R" n="36"/>Minor patet ex ratione vocabuli. Sicut enim in 
+      <lb ed="#R" n="37"/>conceptu disgregatiui includitur disgregare, sic 
+      <lb ed="#R" n="38"/>in conceptu instantis includitur instare: ergo 
+      <lb ed="#R" n="39"/>sicut disgregatiuum non potest concipi sine 
+      <lb ed="#R" n="40"/>disgregare, sic nec instans sine accessu, &amp; 
+      acce<lb ed="#R" n="41" break="no"/>dendo. Hanc rationem Commentator innuit. 
+    </p>
+               <p xml:id="olm8ij-f12222-d1e647">
+                  <lb ed="#R" n="42"/>Secundo sic. Istae dictiones, ecce, modo, iam, 
+      <lb ed="#R" n="43"/>nunc, &amp; instans significant eandem rem: Tunc 
+      <lb ed="#R" n="44"/>sic. Illud est de ratione instantis, quod est de 
+      <lb ed="#R" n="45"/>ratione eius, quod importatur per illas 
+      dictio<lb ed="#R" n="46" break="no"/>nes, ecce, modo, &amp; c. Sed impossibile est concipe 
+      <lb ed="#R" n="47"/>re ecce, vel statim, vel nunc, quin necessario 
+      de<lb ed="#R" n="48" break="no"/>monstretur terminus accessus, &amp; successionis 
+      <lb ed="#R" n="49"/>ad ipsum, ergo &amp; c. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e667">
+                  <lb ed="#R" n="50"/>Tertio sic. Nunc, siue instans non est mensura mo 
+      <lb ed="#R" n="51"/>tus, sed mutati esse: Tunc sic. Sicut se habet mu 
+      <lb ed="#R" n="52"/>tatum esse ad motum, sic instans ad tempus: sed 
+      <lb ed="#R" n="53"/>impossibile est concipere mutatum esse, nisi vt 
+      <lb ed="#R" n="54"/>finem vnius motus, &amp; principium alterius: 
+      er<lb ed="#R" n="55" break="no"/>go impossibile est concipere instans, nisi vt prin 
+      <lb ed="#R" n="56"/>cipium vnius temporis puta futuri, &amp; finis alte 
+      <lb ed="#R" n="57"/>rius puta praeteriti. Maior patet, quia instans 
+      <lb ed="#R" n="58"/>non mensurat motum, sed mutatum esse, ergo 
+      <lb ed="#R" n="59"/>qualis est habitudo est mutati esse ad motum, 
+      <lb ed="#R" n="60"/>talis est habitudo eius ad tempus. Minorem 
+      <lb ed="#R" n="61"/>dat Philosophus, &amp; conclusio sua est ista, quod 
+      <lb ed="#R" n="62"/>omne mutatum esse praecedit aliquod moueri. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e698">
+                  <lb ed="#R" n="63"/>Responsio eiusdem pro illa conclusione est, 
+      <lb ed="#R" n="64"/>quia alias duo indiuisibilia haberent se 
+      conti<lb ed="#R" n="65" break="no"/>gue sine medio in spacio. Summa rationis suae 
+      <lb ed="#R" n="66"/>breuiter est ista, quia mobile, dum quiescit in 
+      <!--0003.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>spacio, Verbi gratia, ponatur aliqua linea 
+      quie<lb ed="#R" n="68" break="no"/>scere, super magnitudinem: vltimum eius est 
+      <lb ed="#R" n="69"/>simul cum puncto aliquo in spacio, incipiat 
+      <lb ed="#R" n="70"/>tunc moueri, quaero, aut acquirit aliquid 
+      diui<lb ed="#R" n="71" break="no"/>sibile, &amp; habeo propositũ; aut acquirit aliquid 
+      <lb ed="#R" n="72"/>praecise indiuisibile de spacio, &amp; tunc illud 
+      in<lb ed="#R" n="73" break="no"/>diuisibile esset immediatum priori 
+      indiuisibi<lb ed="#R" n="74" break="no"/>li, in quo quiescebat secundum vltimum sui, 
+      <lb ed="#R" n="75"/>&amp; sic duo indiuisibilia erunt immediata 
+      in<lb ed="#R" n="76" break="no"/>magnitudine. Ergo impossibile est quod 
+      <lb ed="#R" n="77"/>prima translatio sit ad indiuisibile, sed est 
+      <lb ed="#R" n="78"/>necessario ad diuisibile, ergo illam non 
+      <lb ed="#R" n="79"/>mensurabit, quia non est mensura nisi mutati 
+      <lb ed="#R" n="80"/>esse. quare, &amp; c.
+  </p>
+               <p xml:id="olm8ij-f12222-d1e745">
+                  <lb ed="#R" n="81"/>Quarto ad idem, &amp; accipitur ex mente 
+      Com<lb ed="#R" n="82" break="no"/>mentatoris sic. Illud non intelligitur per 
+      mo<lb ed="#R" n="83" break="no"/>dum fluxus, sed per modum stantis, quod non 
+      <lb ed="#R" n="84"/>intelligitur vt inchoatum, quod accedit, &amp; 
+      ter<lb ed="#R" n="85" break="no"/>minans quod recedit. Omne enim accedens 
+      <lb ed="#R" n="86"/>alicui accedit: Ergo quod intelligitur vt 
+      acce<lb ed="#R" n="87" break="no"/>dens, intelligitur necessario vt terminus eius, 
+      <lb ed="#R" n="88"/>cui accedit: sed instans si intelligatur 
+      inchoa<lb ed="#R" n="89" break="no"/>re tempus, videtur inchoare, vt accedens, quia 
+      <lb ed="#R" n="90"/>omne futurum intelligitur per modum 
+      acce<lb ed="#R" n="91" break="no"/>dentis, &amp; si hoc necessario intelligitur 
+      termi<lb ed="#R" n="92" break="no"/>nare id, cui accedit, accedit autem illi, quod 
+      <lb ed="#R" n="93"/>praecedit: ergo si est initium accedentis, 
+      neces<lb ed="#R" n="94" break="no"/>sario est terminus praecedentis. Sic ergo patet 
+      <lb ed="#R" n="95"/>conclusio Philosophi, quod est primum. 
+   </p>
+            </div>
+            <div xml:id="olm8ij-f12222-Dd1e781">
+               <head xml:id="olm8ij-f12222-Hd1e783">Articulus 2</head>
+               <head xml:id="olm8ij-f12222-Hd1e785" type="question-title">
+          Quid possit concludi ex dictis Philosophi, &amp; 
+          Commentatoris de infinito, quod 
+          contradicat praeterito
+        </head>
+               <p xml:id="olm8ij-f12222-d1e788">
+                  <lb ed="#R" n="96"/>ARTJCVLVS JJ. 
+      <lb ed="#R" n="97"/>Quid possit concludi ex dictis Philosophi, &amp; 
+      <lb ed="#R" n="98"/>Commentatoris de infinito, quod 
+      con<lb ed="#R" n="99" break="no"/>tradicat praeterito. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e799">
+                  <lb ed="#R" n="100"/>Circa secundum videndum est, quid possit 
+      <lb ed="#R" n="101"/>concludi ex dictis Philosophi, &amp; 
+      Com<lb ed="#R" n="102" break="no"/>mentatoris de infinito: &amp; videtur mihi, quod 
+      <lb ed="#R" n="103"/>ex ratione infiniti, &amp; ijs, quae ipsi attribuunt 
+      <lb ed="#R" n="104"/>infinito, possit euidenter concludi, quod ratio 
+      <lb ed="#R" n="105"/>infiniti, &amp; praeteriti contradicunt. Hanc 
+      con<lb ed="#R" n="106" break="no"/>clusionem probo quinque vel sex rationibus. 
+      <lb ed="#R" n="107"/>Prima est ex ratione permixtionis actus cum 
+      <lb ed="#R" n="108"/>potentia. Secunda ex conditione processus in 
+      <lb ed="#R" n="109"/>ante, et posterius. Tertia ex non cessare, et non 
+      <lb ed="#R" n="110"/>exire in actum. Quarta ex ratione partis et 
+      <lb ed="#R" n="111"/>incompleti. Quinta ex ratione propria, quam 
+      <lb ed="#R" n="112"/>ponit de infinito. Sexta ex specialibus 
+      rationi<lb ed="#R" n="113" break="no"/>bus dictorum in alia Conclusione.
+    </p>
+               <p xml:id="olm8ij-f12222-d1e832">
+                  <lb ed="#R" n="114"/>Primo sic: De ratione infiniti est, quod fit 
+      a<lb ed="#R" n="115" break="no"/>ctus permixtus potentiae: rationi autem praeteriti 
+      <lb ed="#R" n="116"/>repugnat contradictorie, quod sit actus 
+      permix<lb ed="#R" n="117" break="no"/>tus potentiae: ergo ratio infiniti repugnat 
+      con<lb ed="#R" n="118" break="no"/>tradictorie rationi praeteriti. Huius rationis 
+      <lb ed="#R" n="119"/>maiorem dat Philosophus, &amp; Commentator 
+      <lb ed="#R" n="120"/>expresse. Philosophus ibi enim dicit, quod 
+      infi<lb ed="#R" n="121" break="no"/>nitum est in potentia, &amp; infra. quod infinitum 
+      <lb ed="#R" n="122"/>est in potentia, &amp; infra. quod infinitum est in 
+      <lb ed="#R" n="123"/>successione, sicut dies semper generatur succes 
+      <lb ed="#R" n="124"/>siue: &amp; ibi Commentator ex pressius dicit sic: Infi 
+      <lb ed="#R" n="125"/>nitum esse in re non est, nisi secundum potentiam 
+      exi<lb ed="#R" n="126" break="no"/>stentem in ea. quemadmodum differentiae 
+      sub<lb ed="#R" n="127" break="no"/>stantiales plurium rerum, quae conseruant suum 
+      <lb ed="#R" n="128"/>esse in commixtione potentiae cum eis, vt est 
+      <lb ed="#R" n="129"/>in rebus, quarum esse est in motu, &amp; infra. 
+      <lb ed="#R" n="130"/>Infinitum enim est in continuatione huius con- 
+      <!--0004.xml-->
+      <pb ed="#R" n="4"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>iunctionis, non in corruptione potentiae 
+      adue<lb ed="#R" n="2" break="no"/>niente, scilicet actu: &amp; infra: &amp; perfectio eius est 
+      <lb ed="#R" n="3"/>in potentia coniuncta cum actu, &amp; non est actus 
+      <lb ed="#R" n="4"/>entis, quod est in actu puro. Minor est nota. 
+      <lb ed="#R" n="5"/>Nam respectu praeteriti nulla est potentia 
+      re<lb ed="#R" n="6" break="no"/>spectu cuiuscunque agentis, hoc enim iolo 
+      pri<lb ed="#R" n="7" break="no"/>uatur Deus, &amp; c. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e894">
+                  <lb ed="#R" n="8"/>Respondetur ab aliquibus ad minorem, quod 
+      <lb ed="#R" n="9"/>in praeterito semper est potentia coniuncta cum 
+      <lb ed="#R" n="10"/>actu, sicut in infinito; quia quando vis 
+      accipe<lb ed="#R" n="11" break="no"/>re praeteritum, quando aliquid acceperis, adhuc 
+      <lb ed="#R" n="12"/>restat aliud sumendum. Vt, accipe diem 
+      he<lb ed="#R" n="13" break="no"/>sternam, restat tertia dies accipienda, &amp; sic 
+      <lb ed="#R" n="14"/>semper in infinitum: nam illud, quod 
+      ac<lb ed="#R" n="15" break="no"/>ceptum est, est in actu, quod restat 
+      acci<lb ed="#R" n="16" break="no"/>piendum, est in potentia. Contra istam 
+      solu<lb ed="#R" n="17" break="no"/>tionem ostendo, quod confirmat 
+      proposi<lb ed="#R" n="18" break="no"/>tum, &amp; reduco rationem sic. Ex parte illa 
+      in<lb ed="#R" n="19" break="no"/>est tempori infinitas, ex qua inest ei potentia; 
+      <lb ed="#R" n="20"/>&amp; non ex illa, ex qua nulla inest potentia sibi, 
+      <lb ed="#R" n="21"/>sed ab eo excluditur omnis potentia: Non enim 
+      <lb ed="#R" n="22"/>habet infinitatem ex illa parte, ex qua tantum 
+      <lb ed="#R" n="23"/>est in actu per Commentatorem, qui dicit vbi 
+      <lb ed="#R" n="24"/>supra, quod infinitum non est actus entis, quod 
+      <lb ed="#R" n="25"/>est in actu puro non admixto potentiae: &amp; 
+      <lb ed="#R" n="26"/>quod infinitum non est in re, nisi secundum 
+      po<lb ed="#R" n="27" break="no"/>tentiam exhibentem in actu, &amp; ex 
+      continuatio<lb ed="#R" n="28" break="no"/>ne potentiae cum actu non ex corruptione eius, 
+      <lb ed="#R" n="29"/>alias corrumperetur ratio infiniti: sed 
+      tempo<lb ed="#R" n="30" break="no"/>ri ex parte, qua praeteritum est, nulla inest 
+      po<lb ed="#R" n="31" break="no"/>tentia, &amp; hoc non ex parte, qua accipitur in 
+      an<lb ed="#R" n="32" break="no"/>te, sed ex parte futuri: qua accipitur in post, 
+      er<lb ed="#R" n="33" break="no"/>go infinitas solum inest tempori a parte post, 
+      <lb ed="#R" n="34"/>&amp; in tempore futuro, &amp; non a parte ante, &amp; in 
+      <lb ed="#R" n="35"/>tempore praeterito. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e957">
+                  <lb ed="#R" n="36"/>Dices. Capio illud a parte post: illud transijt 
+      <lb ed="#R" n="37"/>in praeteritum, similiter aliud post sequens, &amp; sic in 
+      <lb ed="#R" n="38"/>infinitum, ergo infinita posteriora praeterierunt. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e966">
+                  <lb ed="#R" n="39"/>Contra. Probo quod hoc modo non potest 
+      <lb ed="#R" n="40"/>esse infinitas in post capto. Arguo sic primo ex 
+      <lb ed="#R" n="41"/>parte, qua ponitur terminus, nunquam inest 
+      <lb ed="#R" n="42"/>infinitas, sed considerando post in praeterito tē 
+      <lb ed="#R" n="43"/>pore semper inuenies terminum, ergo. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e979">
+                  <lb ed="#R" n="44"/>Vnde hoc modo accipiendo infinitatem in 
+      <lb ed="#R" n="45"/>ipso post accipio infinitatem in ante, &amp; non in 
+      <lb ed="#R" n="46"/>post futurum, quod tamen est impossibile. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e988">
+                  <lb ed="#R" n="47"/>Secundo ad idem. Pro tunc, pro quo ponitur 
+      <lb ed="#R" n="48"/>res aliqua, si illa habeat infinitatem pro illo 
+      <lb ed="#R" n="49"/>Tunc, oportet, quod ponatur in ea 
+      potentiali<lb ed="#R" n="50" break="no"/>tas, quia infinitas non inest rei nisi per rationem 
+      <lb ed="#R" n="51"/>potentiae per Comment. vbi supra: sed dicis, quod 
+      <lb ed="#R" n="52"/>infinitas est in tempore praeterito, &amp; versus 
+      an<lb ed="#R" n="53" break="no"/>te. nihil autem eius quod est praeteritum, &amp; in 
+      <lb ed="#R" n="54"/>ante, est in potentia, immo ratio praeteriti cō- 
+      <lb ed="#R" n="55"/>tradicit praeterito, ergo. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e1010">
+                  <lb ed="#R" n="56"/>Secunda ratio principalis accipitur ex 
+      pro<lb ed="#R" n="57" break="no"/>cessu, &amp; arguo sic. Ratio infiniti est ratio, quae 
+      <lb ed="#R" n="58"/>necessario in processu est, ita quod est accidens 
+      <lb ed="#R" n="59"/>entis, quod est in processu, nec inuenitur, nisi 
+      <lb ed="#R" n="60"/>in processum, &amp; ex parte illa, ad quam 
+      procedi<lb ed="#R" n="61" break="no"/>tur, non autem ex parte illa, a qua proceditur; 
+      <lb ed="#R" n="62"/>sed tempus non procedit in praeteritum, sed a 
+      <lb ed="#R" n="63"/>praeterito; ergo omnis infinitas est in tempore 
+      <lb ed="#R" n="64"/>praecise a parte futuri. Maiorem declaro primo 
+      <lb ed="#R" n="65"/>exemplo, secundo auctoritatibus. Primo sic. Con 
+      <lb ed="#R" n="66"/>mentator in 3. phis. vbi sup. ca. de infinito dicit, 
+      <!--0004.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>quod infinitum est accidens rei, cuius esse consi 
+      <lb ed="#R" n="68"/>stit in motu, &amp; cuius esse consistit in actu poten 
+      <lb ed="#R" n="69"/>tiae mixto. Exemplum pono de infinito reperto 
+      <lb ed="#R" n="70"/>in numero, &amp; in magnitudine, quod non est, 
+      ni<lb ed="#R" n="71" break="no"/>si in fluxu: infinitas. n. vtrobiq. est processus ver 
+      <lb ed="#R" n="72"/>sus partem ad quam, non versus partem, a qua: non. n. 
+      <lb ed="#R" n="73"/>processus numeri in infinitum est, procedendo ad 
+      <lb ed="#R" n="74"/>vnitatē, sed ab vnitate. Consimiliter processus 
+      <lb ed="#R" n="75"/>diuisionis in infinitum in continuo non est adtotum, 
+      <lb ed="#R" n="76"/>sed a toto, ergo patet propositum in exemplo. 
+      <lb ed="#R" n="77"/>Probo autem idem per rationem, quia ex 
+      <lb ed="#R" n="78"/>quo infinitas in processu non est per rationem 
+      <lb ed="#R" n="79"/>termini a quo, quia ille non est in potentia, sed 
+      <lb ed="#R" n="80"/>in actu perfecto. ergo est per rationem termini 
+      <lb ed="#R" n="81"/>ad quem. Minor autem rationis patet, quia 
+      <lb ed="#R" n="82"/>tempus procedit a praeterito in futurum, sicut 
+      <lb ed="#R" n="83"/>numerus ab vnitate: ergo infinitas est ex parte 
+      <lb ed="#R" n="84"/>temporis futuri, &amp; non ex parte temporis praeteriti. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e1081">
+                  <lb ed="#R" n="85"/>Item Commentator vbi supra, quod 
+      commu<lb ed="#R" n="86" break="no"/>ne est omnibus speciebus infiniti, quod potest 
+      <lb ed="#R" n="87"/>quis accipere aliud post aliud, &amp;c. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e1090">
+                  <lb ed="#R" n="88"/>Dicetur ad rationem istam concedendo 
+      maio<lb ed="#R" n="89" break="no"/>rem. Et ad minorem dicetur, quod tempus hoc 
+      <lb ed="#R" n="90"/>modo potest accipi in processu in infinitum acci 
+      <lb ed="#R" n="91"/>piendo in ante. Vnde capiendo diem hesternam, 
+      <lb ed="#R" n="92"/>possum adhuc capere aliam priorem, &amp; ita in 
+      <lb ed="#R" n="93"/>infinitum, &amp; sic nunquam finietur: ergo 
+      ver<lb ed="#R" n="94" break="no"/>sus praeteritum potest esse processus, &amp; per con 
+      <lb ed="#R" n="95"/>sequens infinitas. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e1110">
+                  <lb ed="#R" n="96"/>Contra. Ista responsio confirmat 
+      proposi<lb ed="#R" n="97" break="no"/>tum, reduco ad rationem sic. Illi parti 
+      tempo<lb ed="#R" n="98" break="no"/>ris conuenit infinitas in processu, circa quam 
+      <lb ed="#R" n="99"/>intellectus concipit rationem processus: sed cir 
+      <lb ed="#R" n="100"/>ca praeteritum non concipit intellectus 
+      proces<lb ed="#R" n="101" break="no"/>sum in infinitum, nisi mutando praeteritum in 
+      <lb ed="#R" n="102"/>futurum. Probo, quia, quando capio hanc 
+      par<lb ed="#R" n="103" break="no"/>tem, &amp; post aliam, &amp; aliam, mens mea 
+      proce<lb ed="#R" n="104" break="no"/>dit in ante; sed praeteritum non procedit in 
+      an<lb ed="#R" n="105" break="no"/>te, sed ab ante in post: ergo praeteritum 
+      conce<lb ed="#R" n="106" break="no"/>ptum vt procedens hoc modo non concipitur, 
+      <lb ed="#R" n="107"/>vt praeteritum. Vnde possset ratio sic formari. 
+      <lb ed="#R" n="108"/>Jmpossibile est conditionem aliquam attribue 
+      <lb ed="#R" n="109"/>re praeterito, quae attributa mutat rationem 
+      prae<lb ed="#R" n="110" break="no"/>teriti in rationem futuri: sed infinitas 
+      attribu<lb ed="#R" n="111" break="no"/>ta praeterito mutat ipsum praeteritum in 
+      futu<lb ed="#R" n="112" break="no"/>rum, ergo, &amp;c. Maior nota est; probo 
+      mino<lb ed="#R" n="113" break="no"/>rem, quia conditio praeteriti est, quod sit 
+      pro<lb ed="#R" n="114" break="no"/>cessus ab eo; conditio futuri est, quod sit 
+      pro<lb ed="#R" n="115" break="no"/>cessus ad eã: infinitum autem impossibile est 
+      cape<lb ed="#R" n="116" break="no"/>re in eo, a quo proceditur; immo eo ipso tempore 
+      <lb ed="#R" n="117"/>quo tu accipis infinitum, respicis necessario illud 
+      <lb ed="#R" n="118"/>ad quod proceditur: cuius ratio est, quia eundo 
+      <lb ed="#R" n="119"/>ad illud, a quo proceditur, semper inuenis 
+      fini<lb ed="#R" n="120" break="no"/>tum, non enim proceditur nisi ab aliquo 
+      determi<lb ed="#R" n="121" break="no"/>nato, &amp; per cōsequens a finito, quia hic finitur 
+      <lb ed="#R" n="122"/>processus, vbi incipis: Quod vero dicitur, quod 
+      <lb ed="#R" n="123"/>hoc modo possibile est procedere adpraeteritum. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e1173">
+                  <lb ed="#R" n="124"/>Respondeo, quod in re nunquam est 
+      proces<lb ed="#R" n="125" break="no"/>sus ad praeteritum, licet sit processus a praeterito 
+      <lb ed="#R" n="126"/>ad futurum, sed infinitas non inuenitur, nisi respe 
+      <lb ed="#R" n="127"/>ctu eius, ad quod proceditur, quare in rerum 
+      na<lb ed="#R" n="128" break="no"/>tura repugnat infinitas rationi ipsius praeteriti. 
+      <lb ed="#R" n="129"/>Vnde autem volo, quod apprehenso praeterito in 
+      <lb ed="#R" n="130"/>anima sit processus ad futurum, sed statim omnia 
+      fa<lb ed="#R" n="131" break="no"/>cit de praeterito futurum: quia mutat ante in post. 
+      <lb ed="#R" n="132"/>&amp; si dicis: Nonne Deus potuit facere quocumque. 
+      <!--0005.xml-->
+      <pb ed="#R" n="5"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>ante dato aliquod prius ante, &amp; sic in infinitum. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e1204">
+                  <lb ed="#R" n="2"/>Respondeo, Deus potuit ante quodlibet 
+      assi<lb ed="#R" n="3" break="no"/>gnatum ante facere aliud ante, sed tu non 
+      pro<lb ed="#R" n="4" break="no"/>cedis nunc in ante, sed in post secundum 
+      appre<lb ed="#R" n="5" break="no"/>hensionem tuam; quia si procederes ad ante, 
+      <lb ed="#R" n="6"/>semper inuenires terminum, &amp; ideo non esset 
+      <lb ed="#R" n="7"/>infinitus processus, sed inuenires terminum. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e1220">
+                  <lb ed="#R" n="8"/>Tertia ratio principalis sumitur ex non 
+      ces<lb ed="#R" n="9" break="no"/>sare, &amp; est ista. Illud de cuius ratione est, quod 
+      <lb ed="#R" n="10"/>eius potentia non exeat ad actum, nec possit 
+      <lb ed="#R" n="11"/>cessare, illud repugnat rationi praeteriti: Sed 
+      <lb ed="#R" n="12"/>de ratione infiniti est, quod nunquam cesset, &amp; 
+      <lb ed="#R" n="13"/>quod eius potentia nũquam exeat ad actum, ergo. 
+      <lb ed="#R" n="14"/>Maior patet, quia illud, quod est praeteritum, 
+      <lb ed="#R" n="15"/>de ratione eius est, quod totum exiuit ad actum: 
+      <lb ed="#R" n="16"/>Dato enim quod non iam non est praeteritum, ergo 
+      <lb ed="#R" n="17"/>de ratione praeteriti, vt sic, est quod eius 
+      poten<lb ed="#R" n="18" break="no"/>tia desinat esse, &amp; tollatur, &amp; per consequens 
+      <lb ed="#R" n="19"/>illud quod non cessat, &amp; eius potentia non 
+      <lb ed="#R" n="20"/>totaliter exit ad esse, repugnat rationi 
+      praete<lb ed="#R" n="21" break="no"/>riti: sed infinitum est huiusmodi ergo.
+   </p>
+               <p xml:id="olm8ij-f12222-d1e1254">
+                  <lb ed="#R" n="22"/>Probatio minoris per Philosophum, quod 
+      <lb ed="#R" n="23"/>infinitum non est aliquid in potentia 
+      quo<lb ed="#R" n="24" break="no"/>quomodo, sicut illud quod est separatum in 
+      <lb ed="#R" n="25"/>actu, sed secundum Philosophum necesse est, vt 
+      <lb ed="#R" n="26"/>actus sit in potentia, quae non exeat in actum. 
+      <lb ed="#R" n="27"/>haec eadem dicit ibidem Commentator, &amp; est 
+      <lb ed="#R" n="28"/>ista ratio eius principalis. Respondetur, quod 
+      <lb ed="#R" n="29"/>in praeterito remanet adhuc potentia, 
+      quo<lb ed="#R" n="30" break="no"/>niam quantumcumque intelligam praeteritum 
+      <lb ed="#R" n="31"/>in infinitum, semper accipio aliquid in actu, 
+      <lb ed="#R" n="32"/>&amp; remanet mihi accipiendum aliquid in 
+      po<lb ed="#R" n="33" break="no"/>tentia. Concedo, quod intellectus possit hoc 
+      <lb ed="#R" n="34"/>facere, &amp; intelligere in praeterito aliud, &amp; 
+      <lb ed="#R" n="35"/>aliud in infinitum procedendo; &amp; similiter 
+      <lb ed="#R" n="36"/>quod Deus posset illud facere, sed hoc esset 
+      <lb ed="#R" n="37"/>procedendo in post, &amp; non in praeteritum, sed 
+      <lb ed="#R" n="38"/>quasi in futurum: sed accipiendo praeteritum 
+      <lb ed="#R" n="39"/>in ratione praeteriti, de ratione eius est, quod 
+      <lb ed="#R" n="40"/>totum exiuerit in actu, &amp; ideo dicere, quod 
+      <lb ed="#R" n="41"/>praeteritum sit infinitum, est dicere, quod 
+      infi<lb ed="#R" n="42" break="no"/>nitum sit in actu exclusa ratione potentiae. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e1302">
+                  <lb ed="#R" n="43"/>4. Ratio principalis est ista secundum 
+      Phi<lb ed="#R" n="44" break="no"/>los. &amp; Commentatorem. Ratio infiniti est 
+      ra<lb ed="#R" n="45" break="no"/>tio partis, &amp; causa huius est, quia ratio 
+      infini<lb ed="#R" n="46" break="no"/>ti est ratio imperfecti, &amp; incompleti. Tunc sic. 
+      <lb ed="#R" n="47"/>Ex parte illa inest tempori infinitas, ex qua 
+      <lb ed="#R" n="48"/>parte habet rationem imperfecti, &amp; 
+      incomple<lb ed="#R" n="49" break="no"/>ti, &amp; rationem partis: sed quod sit 
+      imperfe<lb ed="#R" n="50" break="no"/>ctum, &amp; incompletum, &amp; pars non inest 
+      tem<lb ed="#R" n="51" break="no"/>pori sub ratione, qua praeteritum, sed sub 
+      ra<lb ed="#R" n="52" break="no"/>tione, qua est futurum, immo sub ratione qua 
+      <lb ed="#R" n="53"/>est praeteritum habet quod sit completum, &amp;
+      <lb ed="#R" n="54"/>perfectum. quare &amp; c. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e1331">
+                  <lb ed="#R" n="55"/>Maior est euidens per Philos. &amp; per 
+      Com<lb ed="#R" n="56" break="no"/>ment. magis expresse, qui attribuunt infinito 
+      <lb ed="#R" n="57"/>rationem imperfecti, &amp; incompleti, &amp; partis. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e1340">
+                  <lb ed="#R" n="58"/>Minorem probo, quia semper tempus sub 
+      <lb ed="#R" n="59"/>ratione, qua praeteritum est, habet rationem 
+      <lb ed="#R" n="60"/>perfecti. Vnde dicunt Grammatici praeteritum 
+      <lb ed="#R" n="61"/>perfectum. sub ea ratione habet rationem 
+      to<lb ed="#R" n="62" break="no"/>tius, &amp; completi, quia vt praeteritum est, extra 
+      <lb ed="#R" n="63"/>ipsum nihil est, nec expectat aliquid, quod sit 
+      <lb ed="#R" n="64"/>eius pars, inquantum praeteritum est; nam 
+      <lb ed="#R" n="65"/>quicquid expectat aliud totum pertinet ad 
+      fu<lb ed="#R" n="66" break="no"/>turum, &amp; est pars futuri. Haec est ratio Com- 
+     <!--0005.xml-->
+     <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>mentatoris vbi dicit, quod totum &amp; perfectum 
+     <lb ed="#R" n="68"/>opposita sunt infinito.
+   </p>
+               <p xml:id="olm8ij-f12222-d1e1371">
+                  <lb ed="#R" n="69"/>Vltima ratio sumitur ex dictis Philos. Jlle 
+      <lb ed="#R" n="70"/>autem reprobat opinionem antiquorum de 
+      in<lb ed="#R" n="71" break="no"/>finito. Ipsi diffiniebant infinitum dicentes: 
+      In<lb ed="#R" n="72" break="no"/>finitum est intra quod est omne. Hoc 
+      impro<lb ed="#R" n="73" break="no"/>bat Philos. tanquam implicans 
+      contradictio<lb ed="#R" n="74" break="no"/>nem, quia de ratione eius intra quod est 
+      <lb ed="#R" n="75"/>omne, est quod habeat omnes partes suas, et sic 
+      <lb ed="#R" n="76"/>iam est finitum, &amp; terminatum, &amp; completum. 
+      <lb ed="#R" n="77"/>Haec sunt contra rationem infiniti, &amp; ideo 
+      con<lb ed="#R" n="78" break="no"/>cludit, quod infinitum est extra quod est aliud 
+      <lb ed="#R" n="79"/>semper. Tunc sic. Illi repugnat infinitas, cui 
+      <lb ed="#R" n="80"/>repugnat esse extra quod aliud est. Sed 
+      tem<lb ed="#R" n="81" break="no"/>pori praeterito ratione qua praeteritum, 
+      repu<lb ed="#R" n="82" break="no"/>gnat esse extra quod est aliud, ergo &amp;c. 
+      <lb ed="#R" n="83"/>Maior euidens est ex suppositione: probo mi 
+      <lb ed="#R" n="84"/>norem. Capio illam propositionem: Infiniti 
+      <lb ed="#R" n="85"/>dies transierunt. Impossibile est, quod aliqua 
+      <lb ed="#R" n="86"/>dies totius istius praeteriti sit extra ipsum, alias 
+      <lb ed="#R" n="87"/>non esset praeterita, &amp; sic non esset dies extra 
+      <lb ed="#R" n="88"/>totum praeteritum: de ratione vero infiniti est, 
+      <lb ed="#R" n="89"/>quod aliquid inueniatur extra ipsum pertinens 
+      <lb ed="#R" n="90"/>ad totalitatem eius, quare &amp; c. Quia ergo esse 
+      <lb ed="#R" n="91"/>tale extra quod semper aliquid est praecise, con 
+      <lb ed="#R" n="92"/>uenit tempori in quantum futurum, quia 
+      con<lb ed="#R" n="93" break="no"/>ditio temporis futuri est, quod semper extra 
+      <lb ed="#R" n="94"/>quodcumque datum sit aliud accipiendum, 
+      <lb ed="#R" n="95"/>ideo ex sola ratione futuri competit tempori 
+      <lb ed="#R" n="96"/>infinitas. Dices quod extra praeteritum potest 
+      <lb ed="#R" n="97"/>esse aliquid. Verbi gratia: accipio extremam 
+      <lb ed="#R" n="98"/>diem, restat accipere tertiam praeteritam, &amp; 
+      <lb ed="#R" n="99"/>sic de alijs, ergo. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e1441">
+                  <lb ed="#R" n="100"/>Contra quia sic capiendo non procedit ad 
+      <lb ed="#R" n="101"/>praeteritum, sed ad futurum. Dices, immo ad 
+      <lb ed="#R" n="102"/>praeteritum, quia quaelibet illarum 
+      praeterita<lb ed="#R" n="103" break="no"/>est. Contra. Quaelibet illarum est praeterita in 
+      <lb ed="#R" n="104"/>re, &amp; ideo in re non est processus ad praeteritas, 
+      <lb ed="#R" n="105"/>sed praecise a praeteritis ad futuras: Quod 
+      au<lb ed="#R" n="106" break="no"/>tem sic accipiendo, sit processus ad praeteritas, 
+      <lb ed="#R" n="107"/>hoc est tantum in mente tua, &amp; ideo dies illi 
+      <lb ed="#R" n="108"/>licet in re sint praeteriti, sunt tamen in mente 
+      <lb ed="#R" n="109"/>tua futuri. Hanc rationem innuit 
+      Commenta<lb ed="#R" n="110" break="no"/>tor, dicens, quod diffinitio antiquorum 
+      prae<lb ed="#R" n="111" break="no"/>dicta magis est praeteriti, quam infiniti. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e1471">
+                  <lb ed="#R" n="112"/>Vltimo arguo ex dictis Doctorum sic. 
+      Secun<lb ed="#R" n="113" break="no"/>dum Doctores omnes contradictio est 
+      infini<lb ed="#R" n="114" break="no"/>tum esse in actu, ergo tempus praeteritum esse 
+      <lb ed="#R" n="115"/>infinitum actu est contradictio. Antecedens 
+      con<lb ed="#R" n="116" break="no"/>ceditur ab omnibus. Consequentiam probo, 
+      <lb ed="#R" n="117"/>quia secundum Doctores: Si Deus faceret 
+      in<lb ed="#R" n="118" break="no"/>finitum in actu, sequerentur impossibilia, puta, 
+      <lb ed="#R" n="119"/>quod pars esset aequalis toti, &amp; totum non 
+      es<lb ed="#R" n="120" break="no"/>set maius sua parte, quod probant; quia 
+      quae<lb ed="#R" n="121" break="no"/>libet pars infiniti est infinita, &amp; ideo capias 
+      <lb ed="#R" n="122"/>vnum infinitum, ibi erunt tot cubiti, quot 
+      di<lb ed="#R" n="123" break="no"/>cttae, erunt enim infinitae dietae &amp; infiniti cubiti. 
+      <lb ed="#R" n="124"/>Sed illa ratio aeque bene concludit propositum. 
+      <lb ed="#R" n="125"/>Probo. Si praecesserunt infiniti dies, ibi 
+      conue<lb ed="#R" n="126" break="no"/>nit dare infinitos menses, quia dato quod sunt 
+      <lb ed="#R" n="127"/>finiti, ergo dies non erunt infiniti: sed dies est 
+      <lb ed="#R" n="128"/>pars respectu mensis, ergo pars aequalis toti. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e1510">
+                  <lb ed="#R" n="129"/>Respondebitur, quod infinitum nec est 
+      <lb ed="#R" n="130"/>aequale, nec inaequale. Contra sic. Dicam ad 
+      <lb ed="#R" n="131"/>rationem Doctorum. Dices non est simile 
+      <lb ed="#R" n="132"/>quia vbi pono magnitudinem infinitam, ibi 
+      <!--0006.xml-->
+      <pb ed="#R" n="6"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>pono videlicet rationem totius &amp; partis, non 
+      <lb ed="#R" n="2"/>autem vbi pono praeteritum, infinitum. Ratio 
+      <lb ed="#R" n="3"/>est quia partes infiniti praeteriti non 
+      perma<lb ed="#R" n="4" break="no"/>nent sicut partes magnitudinis, ideo non 
+      <lb ed="#R" n="5"/>constituunt vnum totum.
+   </p>
+               <p xml:id="olm8ij-f12222-d1e1539">
+                  <lb ed="#R" n="6"/>Contra. Responsio ista non euadit, quoniam 
+      <lb ed="#R" n="7"/>ita habet suas partes quantitas successiua, sicut 
+      <lb ed="#R" n="8"/>continua permanens, &amp; ita repugnat parti eius 
+      <lb ed="#R" n="9"/>aequari toti suo, sicut de parte magnitudinis 
+      <lb ed="#R" n="10"/>permanentis: sic enim repugnat, quod hora 
+      <lb ed="#R" n="11"/>sit aequalis diei, sicut quod cubitus dietae, vel 
+      <lb ed="#R" n="12"/>digito. ex propria enim ratione partis oritur 
+      <lb ed="#R" n="13"/>minoritas ad totum, vbicumque reperiatur. 
+      <lb ed="#R" n="14"/>Dicetur, quod ex alio est, quod repugnet 
+      infini<lb ed="#R" n="15" break="no"/>to esse in actu, quam ex aequalitate partis ad 
+      to<lb ed="#R" n="16" break="no"/>tum, quia huiusmodi est ratione simultatis, 
+      <lb ed="#R" n="17"/>quia si ponatur infinitum permanens, ponetur 
+      <lb ed="#R" n="18"/>infinitas simul. Si vero ponatur infinitum 
+      suc<lb ed="#R" n="19" break="no"/>cessiuum, non ponetur simultas, ideo non est 
+      <lb ed="#R" n="20"/>sic impossibile hic, sicut ibi. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e1574">
+                  <lb ed="#R" n="21"/>Contra: Ostendo quod habeo propositum 
+      <lb ed="#R" n="22"/>sic. Non magis repugnat infinitas simultati, 
+      <lb ed="#R" n="23"/>quam prioritati, &amp; posterioritati; non enim 
+      <lb ed="#R" n="24"/>est magis impossibile infinita esse in actu simul, 
+      <lb ed="#R" n="25"/>quam infinita esse sub prioritate, &amp; 
+      posteriori<lb ed="#R" n="26" break="no"/>tate. Repugnantia, si qua est, est ex ratione 
+      <lb ed="#R" n="27"/>actualitatis, quia vbi infinitum est in actu, ibi 
+      <lb ed="#R" n="28"/>omnes partes sunt redactae ad actum, &amp; per 
+      <lb ed="#R" n="29"/>consequens ad finem, &amp; complementum, ergo non 
+      <lb ed="#R" n="30"/>sunt infinitae, quia ratio infiniti consistit in 
+      <lb ed="#R" n="31"/>ratione imperfecti, &amp; incompleti, si autem 
+      <lb ed="#R" n="32"/>repugnantia est ratione actualitatis; ergo 
+      re<lb ed="#R" n="33" break="no"/>pugnat infinitas ipsi praeterito, cuius partes 
+      <lb ed="#R" n="34"/>omnes sunt redactae ad actum. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e1607">
+                  <lb ed="#R" n="35"/>Vltimo quid dicendum est ad Aristotelem, qui 
+      <lb ed="#R" n="36"/>nouit ita naturam praeteriti, &amp; futuri, &amp; apud 
+      <lb ed="#R" n="37"/>Peripateticos, &amp; veritatem opiniones suae 
+      <lb ed="#R" n="38"/>fuerint examinatae, quod Commentator dicat 
+      <lb ed="#R" n="39"/>de eo, quod opiniones suae rectae sunt absque 
+      <lb ed="#R" n="40"/>omni contradictione, &amp; tamen ipse posuit 
+      tem<lb ed="#R" n="41" break="no"/>pus praeteritum esse infinitum. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e1625">
+                  <lb ed="#R" n="42"/>Respondeo. Aristoteles in hoc deceptus est, 
+      <lb ed="#R" n="43"/>putauit enim se per rationes supra positas 
+      de<lb ed="#R" n="44" break="no"/>monstrasse in principio, quod tempus 
+      praeteri<lb ed="#R" n="45" break="no"/>tum necessario est aeternum. Et qui dicūt, quod 
+      <lb ed="#R" n="46"/>hoc non dixit demonstratiue, quod esset 
+      de<lb ed="#R" n="47" break="no"/>ter minatus ad partem illam, vel illam, non habent 
+      <lb ed="#R" n="48"/>isti bene mentem Aristotelis; nam aliud non 
+      <lb ed="#R" n="49"/>habet Aristoteles, per quod possit probare, 
+      <lb ed="#R" n="50"/>quod primum principium est aeternum, &amp; 
+      <lb ed="#R" n="51"/>quod est actus purus, &amp; non in magnitudine, 
+      <lb ed="#R" n="52"/>nisi quia mouet tempore finito. Confirmatur, 
+      <lb ed="#R" n="53"/>quia Augustinus expresse dicit, quod in hac 
+      <lb ed="#R" n="54"/>positione solus Aristoteles fuit primo 
+      haereti<lb ed="#R" n="55" break="no"/>cus, qua posuit, tempus ingenitum esse. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e1659">
+                  <lb ed="#R" n="56"/>Ad euidentiam ergo difficultatum, quas Ari 
+      <lb ed="#R" n="57"/>stoteles adducit pro se; praemitto vnam 
+      distin<lb ed="#R" n="58" break="no"/>ctionem de infinito, quod infinitum est duplex 
+      <lb ed="#R" n="59"/>secundum entitatem, &amp; secundum 
+      quantita<lb ed="#R" n="60" break="no"/>tem, &amp; ambo isti modi infinitatis dicuntur 
+      val<lb ed="#R" n="61" break="no"/>de aequiuoce. Infinitum enim secundum 
+      entita<lb ed="#R" n="62" break="no"/>tem est possibile esse, immo est necesse esse, &amp; 
+      <lb ed="#R" n="63"/>hoc in actu: Infinitum autem secundum 
+      quan<lb ed="#R" n="64" break="no"/>titatem repugnat in actu esse. Infinitum vero 
+      <lb ed="#R" n="65"/>secundum entitatem accipitur per carentiam 
+      <lb ed="#R" n="66"/>finis entitatis. Ens enim finitum secundum 
+      <!--0006.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>entitatem arctatur per differentiam aliquam 
+      <lb ed="#R" n="68"/>contrahentem ipsum: omnem talem 
+      differen<lb ed="#R" n="69" break="no"/>tiam contrahentem excludit infinitum 
+      secun<lb ed="#R" n="70" break="no"/>dum entitatem, &amp; tale infinitum non est aliud, 
+      <lb ed="#R" n="71"/>quam totum ens eminenter subsistens. verbi 
+      <lb ed="#R" n="72"/>gratia. Cum concipio rosam simpliciter, 
+      ca<lb ed="#R" n="73" break="no"/>pio naturam rosae simpliciter subsistentem, &amp; 
+      <lb ed="#R" n="74"/>non contractam per aliquam differentiam indi 
+      <lb ed="#R" n="75"/>uidualem ad hanc rosam, vel llam, &amp; ideo 
+      ab<lb ed="#R" n="76" break="no"/>straho eam ab omni contracttione, &amp; tunc 
+      con<lb ed="#R" n="77" break="no"/>cipiendo rosam simpliciter, habeo conceptum 
+      <lb ed="#R" n="78"/>rosae quodammodo infinite, quia in illa 
+      conci<lb ed="#R" n="79" break="no"/>pio omnem rosam, quae infinitae possunt esse: &amp; 
+      <lb ed="#R" n="80"/>hinc est, quod Commentator ait, quod in 
+      pro<lb ed="#R" n="81" break="no"/>positione vniuersali infinita apprehendimus: 
+      <lb ed="#R" n="82"/>sed quando concipio indiuiduum rosae, tunc ro 
+      <lb ed="#R" n="83"/>sa simpliciter contrahitur, &amp; limitatur. Sic in 
+      <lb ed="#R" n="84"/>proposito, concipiendo ens simpliciter, quod 
+      <lb ed="#R" n="85"/>est ens carens omni contractione, habeo 
+      infi<lb ed="#R" n="86" break="no"/>nitum quoddam secundum entitatem, sed 
+      con<lb ed="#R" n="87" break="no"/>cipiendo ens contractum per aliquam differen 
+      <lb ed="#R" n="88"/>tiam, statim habeo ens finitum, &amp; 
+      portio<lb ed="#R" n="89" break="no"/>nem quandam entitatis, &amp; contraho ens 
+      sim<lb ed="#R" n="90" break="no"/>pliciter ad illud. Sicut ergo, si esset rosa 
+      subsi<lb ed="#R" n="91" break="no"/>stens, illa esset illimitate omnis rosa nullam 
+      <lb ed="#R" n="92"/>contractionem habens in specie rosae, esset 
+      ta<lb ed="#R" n="93" break="no"/>men contracta in genere florum, sed si esset flos 
+      <lb ed="#R" n="94"/>simpliciter, esset illimitate omnis flos nullam ha 
+      <lb ed="#R" n="95"/>bens contractionem, &amp; limitationem in genere 
+      flo<lb ed="#R" n="96" break="no"/>rum; esset tamen limitatum in ratione 
+      superio<lb ed="#R" n="97" break="no"/>ris generis, puta corporis, &amp; sic semper 
+      ascen<lb ed="#R" n="98" break="no"/>dendo quousq; perueniatur ad ens illud: tunc 
+      <lb ed="#R" n="99"/>quod esset ens simpliciter, esset illimitate 
+      om<lb ed="#R" n="100" break="no"/>ne ens, &amp; nullam haberet limitationem, nec 
+      <lb ed="#R" n="101"/>ad infra, nec supra; &amp; ideo esset simpliciter 
+      <lb ed="#R" n="102"/>infinitum secundum entitatem, &amp; tale est Deus, 
+      <lb ed="#R" n="103"/>vt expresse dicit Commentator, vbi dicit, quod 
+      <lb ed="#R" n="104"/>Deus cognoscit omne ens, quia cognoscit 
+      na<lb ed="#R" n="105" break="no"/>turam entis simpliciter, quod est ipse. In hoc 
+      <lb ed="#R" n="106"/>autem infinito secundum entitatem patet, quod 
+      <lb ed="#R" n="107"/>nulla contradictio est ponere ipsum, immo est 
+      <lb ed="#R" n="108"/>necesse esse, de quo in Primo libro dictum est.
+   </p>
+               <p xml:id="olm8ij-f12222-d1e1781">
+                  <lb ed="#R" n="109"/>De secundo modo infinitatis scilicet 
+      secun<lb ed="#R" n="110" break="no"/>dum quantitatem, sciendum est, quod finitum 
+      <lb ed="#R" n="111"/>secundum quantitatem est habere complemen 
+      <lb ed="#R" n="112"/>tum, &amp; finem suarum partium, &amp; per 
+      opposi<lb ed="#R" n="113" break="no"/>tum infinitum secundum quantitatem est non 
+      <lb ed="#R" n="114"/>esse completum, &amp; terminatum in suis 
+      parti<lb ed="#R" n="115" break="no"/>bus, sed habere partes infinitas, &amp; secundum 
+      <lb ed="#R" n="116"/>eas esse incompletum, &amp; non terminatum. Ex 
+      <lb ed="#R" n="117"/>quo patet quod concipiendo infinitum 
+      secun<lb ed="#R" n="118" break="no"/>dum quantitatem, concipis necessario aliud 
+      incon<lb ed="#R" n="119" break="no"/>pletum, quoniam concipis aliquod cui semper 
+      <lb ed="#R" n="120"/>additio fienda est, &amp; quod expectat partem 
+      <lb ed="#R" n="121"/>aliam, alias iam terminares ipsum, &amp; finires: 
+      <lb ed="#R" n="122"/>si vero poneretur infinitum in actu, ponerentur 
+      <lb ed="#R" n="123"/>in actu omnes partes eius, &amp; sic exirent ad 
+      <lb ed="#R" n="124"/>actum secundum omnes partes, &amp; per 
+      conse<lb ed="#R" n="125" break="no"/>quens esset completum, &amp; terminatum 
+      secun<lb ed="#R" n="126" break="no"/>dum omnes partes eius: ergo non esset 
+      infini<lb ed="#R" n="127" break="no"/>tum, quia ratio infiniti consistit in ratione 
+      in<lb ed="#R" n="128" break="no"/>completi, &amp; imperfecti, &amp; hoc vel secundum 
+      <lb ed="#R" n="129"/>rem, vel secundum imaginationem. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e1829">
+                  <lb ed="#R" n="130"/>Nunc ad rationes Philosophi. Ad primam, 
+      <lb ed="#R" n="131"/>quae procedit ex ratione producti, concedendo 
+      <lb ed="#R" n="132"/>maiorem: sed tamen non oportet, quod illa 
+      <!--0007.xml-->
+      <pb ed="#R" n="7"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>duratio sit extra intellectum, sed sufficit, quod 
+      <lb ed="#R" n="2"/>sit in imaginatione. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e1849">
+                  <lb ed="#R" n="3"/>Ad probationem, cùm dicitur, quod 
+      tale<lb ed="#R" n="4" break="no"/>haberet esse ab aeterno; Respondeo. Aliud est 
+      <lb ed="#R" n="5"/>non esse praecedere esse natura, aliud natura, 
+      <lb ed="#R" n="6"/>&amp; duratione: aliud est duratione reali, &amp; aliud 
+      <lb ed="#R" n="7"/>est duratione imaginatiua. Dico tunc, quod 
+      <lb ed="#R" n="8"/>eius quod fit, non oportet quod non esse eius 
+      <lb ed="#R" n="9"/>praeced at esse duratione reali, quod si illud 
+      po<lb ed="#R" n="10" break="no"/>natur productam ab aeterno, ibi non esse non 
+      prae<lb ed="#R" n="11" break="no"/>cederet esse, nisi secundum rationem, &amp; naturam, 
+      nul<lb ed="#R" n="12" break="no"/>lo autem modo nec duratione, nec reali, nec ima 
+      <lb ed="#R" n="13"/>ginaria: in producto autem de nouo, non oportet 
+      <lb ed="#R" n="14"/>quod suum non esse praecedat esse duratione rea 
+      <lb ed="#R" n="15"/>li: Negationes enim non habent realem mensuram, 
+      <lb ed="#R" n="16"/>ibi ergo non est sola processio non esse ad esse 
+      <lb ed="#R" n="17"/>secundum rationem, sed secundum 
+      duratio<lb ed="#R" n="18" break="no"/>nem: non oportet autem quod secundum 
+      dura<lb ed="#R" n="19" break="no"/>tionem realem, sed sufficit, quod secundum 
+      <lb ed="#R" n="20"/>durationem imaginariam; quia intellectus 
+      ca<lb ed="#R" n="21" break="no"/>piens non esse alicuius, quod postea est, 
+      neces<lb ed="#R" n="22" break="no"/>sario concipit aliquam durationem, in qua con 
+      <lb ed="#R" n="23"/>cipit non esse eius. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e1897">
+                  <lb ed="#R" n="24"/>Ad secundam probationem dico, quod, si 
+      lo<lb ed="#R" n="25" break="no"/>quamur de reali praecessione, in nullo priori 
+      <lb ed="#R" n="26"/>praecessit Deus, nec oportet ex hoc, quod 
+      pro<lb ed="#R" n="27" break="no"/>ductum sit coaeternum Deo, adhuc enim Deus 
+      <lb ed="#R" n="28"/>praecedit illud, sed non praecedit duratione, 
+      <lb ed="#R" n="29"/>sed aeternitate, quae est mensura infinitae 
+      dura<lb ed="#R" n="30" break="no"/>tionis non formaliter, sed extensiue, eo quod 
+      <lb ed="#R" n="31"/>aeternitas attingit omnem durationem factam, 
+      <lb ed="#R" n="32"/>&amp; factibilem, &amp; infinitam. Tunc quando res 
+      <lb ed="#R" n="33"/>fit de nouo, non oportet quod sit aliqua dura. 
+      <lb ed="#R" n="34"/>tio realis, in qua Deus praecedat; quia duratio 
+      <lb ed="#R" n="35"/>illa vel mensuraret esse Dei, vel non haberet 
+      <lb ed="#R" n="36"/>subiectum aliquod: sed in illo priori, in quo 
+      <lb ed="#R" n="37"/>intelligo Deum praecedere, intelligo 
+      duratio<lb ed="#R" n="38" break="no"/>nem aliquam secundum rationem, &amp; illi 
+      intel<lb ed="#R" n="39" break="no"/>ligo coexistere aeternitatem, &amp; in illa Deus 
+      <lb ed="#R" n="40"/>praecedit esse rei factae, non in duratione aliqua 
+      <lb ed="#R" n="41"/>reali. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e1939">
+                  <lb ed="#R" n="42"/>Tunc ad formam argumenti, concedo, quod 
+      <lb ed="#R" n="43"/>Deus praecedit duratione rem illam, sed non 
+      <lb ed="#R" n="44"/>duratione formali, &amp; perpetua; sed illa 
+      aeter<lb ed="#R" n="45" break="no"/>nitate, quae dicitur duratio pro tarto, quia 
+      co<lb ed="#R" n="46" break="no"/>existit omni durationi factae, &amp; factibili. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e1953">
+                  <lb ed="#R" n="47"/>Ad aliud, quod dicitur, quod prius, &amp; post 
+      <lb ed="#R" n="48"/>sunt correlatiua, nego istam, eo quod ibi non 
+      <lb ed="#R" n="49"/>est prius realiter, nec posterius: sed tantum 
+      se<lb ed="#R" n="50" break="no"/>cundum imaginationem. Vnde idem scilicet in 
+      <lb ed="#R" n="51"/>quo fit res est prima realis prioritas respectu 
+      <lb ed="#R" n="52"/>sequentium instantium; ante autem nullum fuit 
+      <lb ed="#R" n="53"/>prius, nisi sola imaginatione. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e1971">
+                  <lb ed="#R" n="54"/>Ad aliud de esse nouo, &amp; antiquo, respondeo 
+      <lb ed="#R" n="55"/>eodem modo, vt de priori &amp; de posteriori. 
+      Con<lb ed="#R" n="56" break="no"/>cedo enim, quod secundum esse est nouum, &amp; 
+      <lb ed="#R" n="57"/>secundum non esse, est antiquum; sed non est 
+      <lb ed="#R" n="58"/>aliqua relatio realis non esse antiqui ad esse 
+      <lb ed="#R" n="59"/>nouum, nisi secundum imaginationem tantum. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e1987">
+                  <lb ed="#R" n="60"/>Ad aliud, quod dicit, quod non potest 
+      intel<lb ed="#R" n="61" break="no"/>ligere, &amp;c. Respondeo: dixi alias, quod ex hoc 
+      <lb ed="#R" n="62"/>Philosophus negauit creationem, &amp; 
+      productio<lb ed="#R" n="63" break="no"/>nem creatiuam: quia putauit, quod quando 
+      <lb ed="#R" n="64"/>aliud de nouo creatur necessario suum non 
+      <lb ed="#R" n="65"/>esse realiter praecedat esse, ita quod sit aliqua 
+      <lb ed="#R" n="66"/>duratio, in qua suum non esse praecessit, ita quod 
+      <!--0007.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>habitudo est necessaria realiter non esse ad esse, 
+      <lb ed="#R" n="68"/>licet, quando est non esse, vel rei sit, &amp; hic ordo 
+      <lb ed="#R" n="69"/>oritur ex natura terminorum: sed Deus potest 
+      <lb ed="#R" n="70"/>facere, quod tempus nunc primo sit, quia 
+      habi<lb ed="#R" n="71" break="no"/>tudo est, non in primo modo; sed in secundo: &amp; 
+      <lb ed="#R" n="72"/>quia non oportet, quod illud non esse 
+      praece<lb ed="#R" n="73" break="no"/>dat secundum realem durationem, sed sufficit, 
+      <lb ed="#R" n="74"/>quod secundum imaginariam. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e2026">
+                  <lb ed="#R" n="75"/>Dices. Ex hoc habeo quod tempus 
+      secun<lb ed="#R" n="76" break="no"/>dum suum rea le esse non potest esse nunc minus 
+      <lb ed="#R" n="77"/>primo; quia dixisti alias, quod secundum 
+      Phi<lb ed="#R" n="78" break="no"/>losophum esse reale temporis est esse in anima, 
+      <lb ed="#R" n="79"/>non in re extra. Nunc autem concedis, quod si 
+      <lb ed="#R" n="80"/>tempus fiat nunc, primo non esse eius praecessit 
+      <lb ed="#R" n="81"/>in aliqua imaginaria duratione; ergo ratio Ari 
+      <lb ed="#R" n="82"/>stotelis concludit, quod ante tempus est verum 
+      <lb ed="#R" n="83"/>tempus in infinitum. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e2048">
+                  <lb ed="#R" n="84"/>Respondeo, tempus esse in anima potest 
+      du<lb ed="#R" n="85" break="no"/>pliciter intelligi, vel quantum ad materiale 
+      <lb ed="#R" n="86"/>&amp; formale eius, vel quantum ad materiale 
+      tan<lb ed="#R" n="87" break="no"/>tum: formaliter ergo entitas temporis 
+      conce<lb ed="#R" n="88" break="no"/>do, quod est in anima, secundum tamen 
+      mate<lb ed="#R" n="89" break="no"/>riale dico, quod est in re extra, scilicet motus 
+      <lb ed="#R" n="90"/>ille in quo &amp; tempus habet suum formale 
+      in<lb ed="#R" n="91" break="no"/>choatiue: nam motus cogit intellecum ad con 
+      <lb ed="#R" n="92"/>cipiendum prius, &amp; posterius, quae sunt illa 
+      <lb ed="#R" n="93"/>duratio formaliter. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e2072">
+                  <lb ed="#R" n="94"/>Ad propositum duratio illa, quae esset prior 
+      <lb ed="#R" n="95"/>motu nunc post facto, esset in anima, &amp; quoad 
+      <lb ed="#R" n="96"/>materiale, &amp; quoad formale; &amp; ideo non essset 
+      <lb ed="#R" n="97"/>verum tempus, de quo est sermo. Sic ergo 
+      pa<lb ed="#R" n="98" break="no"/>tet ad primam rationem Philosophi, &amp; ad 
+      con<lb ed="#R" n="99" break="no"/>firmationes eius. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e2089">
+                  <lb ed="#R" n="100"/>Ad secundam rationem ex parte instantis 
+      di<lb ed="#R" n="101" break="no"/>citur, quod si tempus incepit ab instanti, &amp; 
+      il<lb ed="#R" n="102" break="no"/>lud habet de ratione fluxus, quia non durauit 
+      <lb ed="#R" n="103"/>nisi per instans, &amp; hoc est esse in fluxu: sed 
+      il<lb ed="#R" n="104" break="no"/>lud instans non fuit continuatiuum temporis, 
+      <lb ed="#R" n="105"/>quia non fuit instans cuius ratio consistit in 
+      <lb ed="#R" n="106"/>accedendo, &amp; in instando, puto quod Commen 
+      <lb ed="#R" n="107"/>tator, &amp; Aristoteles reputarent 
+      contradictio<lb ed="#R" n="108" break="no"/>nem, quod esset instans, &amp; quod vel instaret, 
+      <lb ed="#R" n="109"/>vel accederet, ideo dicendo arguitur, quod 
+      <lb ed="#R" n="110"/>intellectus noster non concipit sine continuo, 
+      <lb ed="#R" n="111"/>&amp; tempore. Ideo quando intelligo aliud, 
+      intel<lb ed="#R" n="112" break="no"/>ligo illud in quadam linea successionis, &amp; ideo 
+      <lb ed="#R" n="113"/>si concipimus instans, necessario intelligimus 
+      il<lb ed="#R" n="114" break="no"/>lud in quodam fluxu, &amp; per consequens in 
+      in<lb ed="#R" n="115" break="no"/>stando, &amp; accedendo: sed intellectus 
+      abstra<lb ed="#R" n="116" break="no"/>ctus non conciperet hoc modo instans, quia non 
+      <lb ed="#R" n="117"/>concipit cum linea successionis, &amp; ideo de eius 
+      <lb ed="#R" n="118"/>essentia absolute non est, quod sit 
+      continuati<lb ed="#R" n="119" break="no"/>uum temporis praecedentis cum sequenti, sed 
+      <lb ed="#R" n="120"/>tantum vt concipitur a nobis. tamen non 
+      vide<lb ed="#R" n="121" break="no"/>tur possibile, quod tempus incepit ab instanti. 
+      <lb ed="#R" n="122"/>Probatur, quia nec motus a mutato esse: 
+      simi<lb ed="#R" n="123" break="no"/>le enim videtur hic, &amp; ibi: impossibile est autem 
+      <lb ed="#R" n="124"/>quod motus inceperit a mutato esse. Probatur 
+      <lb ed="#R" n="125"/>quia si tempus incepit ab instanti, ergo motus 
+      <lb ed="#R" n="126"/>a mutato esse: Consequens est impossibile, 
+      er<lb ed="#R" n="127" break="no"/>go &amp; antecedens. Probo primo consequentiam. 
+      <lb ed="#R" n="128"/>Si enim motus incipiat, &amp; tempus mensuret, si 
+      <lb ed="#R" n="129"/>tempus incipit ab instanti, oportet quod 
+      men<lb ed="#R" n="130" break="no"/>suret aliquid de motu, quod &amp; incipit: illud 
+      <lb ed="#R" n="131"/>non potest esse motus, quia instans non 
+      men<lb ed="#R" n="132" break="no"/>surat motum: ergo illud est mutatum essle. Sed 
+      <!--0008.xml-->
+      <pb ed="#R" n="8"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>falsitatem consequentis probo: quia 
+      sequere<lb ed="#R" n="2" break="no"/>tur, quod linea componeretur ex punctis, &amp; 
+      <lb ed="#R" n="3"/>quod motus caeli esset supra situs indiuisibiles, 
+      <lb ed="#R" n="4"/>&amp; ideo non esset continuus. Primum probo: 
+      <lb ed="#R" n="5"/>pono quod aliquid moueatur super lineam, 
+      ex<lb ed="#R" n="6" break="no"/>tremitas mobilis tangit punctum, incipiat 
+      er<lb ed="#R" n="7" break="no"/>go moueri. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e2185">
+                  <lb ed="#R" n="8"/>Quaero nunc, vel primum, quod acquirit, est 
+      <lb ed="#R" n="9"/>aliquid indiuisibile, &amp; tunc indiuisibile 
+      acqui<lb ed="#R" n="10" break="no"/>situm est immediatum indiuisibili, quod 
+      tange<lb ed="#R" n="11" break="no"/>bat, &amp; sic linea componitur ex punctis 
+      imme<lb ed="#R" n="12" break="no"/>diatis, aut mobile acquiret primo aliquid diui 
+      <lb ed="#R" n="13"/>sibile: ergo motus non incepit in mutato esse, 
+      <lb ed="#R" n="14"/>sed primum quod incepit de motu, est motus. 
+      <!--0008.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="15"/>Eadem ratio probat secundum quod motus cae 
+      <lb ed="#R" n="16"/>li est super situs indiuisibiles. 
+   </p>
+               <p xml:id="olm8ij-f12222-d1e2211">
+                  <lb ed="#R" n="17"/>Quid ergo dicemus de eo, quod Aristoteles 
+      <lb ed="#R" n="18"/>per hoc probat, quod omnem motum praecedat 
+      <lb ed="#R" n="19"/>motus; quia incipit a mutato esse, quod 
+      ne<lb ed="#R" n="20" break="no"/>cessario est aliud alterius motus. Quidquid sit: 
+      <lb ed="#R" n="21"/>de hoc, vos videbitis. Ad primum in 
+      opposi<lb ed="#R" n="22" break="no"/>tum principaliter patet ex dictis. Ad 
+      secun<lb ed="#R" n="23" break="no"/>dum dicendum, quod non est simile de praeterito 
+      <lb ed="#R" n="24"/>&amp; futuro, quia ratio futuri non consistit in com 
+      <lb ed="#R" n="25"/>pleto esse, sed expectat semper partem &amp; 
+      com<lb ed="#R" n="26" break="no"/>pletum, &amp; ideo eius ratio consiftit in potentia. 
+      <lb ed="#R" n="27"/>oppositum autem est de tempore praeterito. 
+      <lb ed="#R" n="28"/>Ad tertium patet ex dictis.
+   </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

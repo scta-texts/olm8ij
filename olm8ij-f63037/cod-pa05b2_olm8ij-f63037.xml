@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-05">April 05, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b2">Roma 1605, Book 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="201"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-f63037"><!-- l2d15-q1 -->
+            <head xml:id="olm8ij-f63037-Hd1e101">Quaestio 1</head>
+            <p xml:id="olm8ij-f63037-d1e103">
+      <!--0201.xml-->
+               <cb ed="#R" n="d"/>
+               <lb ed="#R" n="58"/>1 Vtrum formae Elementorum essentiales sint 
+      <lb ed="#R" n="59"/>eorum qualitates. 
+      <lb ed="#R" n="60"/>2 Vtrum materia, &amp; subiectum formae 
+      ele<lb ed="#R" n="61" break="no"/>mentaris sit materia omnino prima, vel sit 
+      ma<lb ed="#R" n="62" break="no"/>teria mediante aliqua forma corporali 
+      commu<lb ed="#R" n="63" break="no"/>ni, quae maneat communis in mutua 
+      elemento<lb ed="#R" n="64" break="no"/>rum ad inuicem mixtione. 
+   </p>
+            <div xml:id="olm8ij-f63037-Dd1e125">
+               <head xml:id="olm8ij-f63037-Hd1e127">Articulus 1</head>
+               <head xml:id="olm8ij-f63037-Hd1e129" type="question-title">
+      Utrum formae elementorum essentiales sint eorum qualitates.
+    </head>
+               <p xml:id="olm8ij-f63037-d1e132">
+                  <lb ed="#R" n="65"/>ARTJCVLVS J. 
+      <lb ed="#R" n="66"/>Vtrum formae elementorum essentiales sint 
+      eo<lb ed="#R" n="67" break="no"/>rum qualitates.
+   </p>
+               <p xml:id="olm8ij-f63037-d1e141">
+      <!--0201.xml-->
+                  <cb ed="#R" n="e"/>
+                  <lb ed="#R" n="68"/>QVANTVM ad primum 
+      <lb ed="#R" n="69"/>arguo primo, quod formae 
+      <lb ed="#R" n="70"/>elementorum 
+      generatio<lb ed="#R" n="71" break="no"/>ne elementorum sint sim 
+      <lb ed="#R" n="72"/>plices qualitates, quia se 
+      <lb ed="#R" n="73"/>cundum Aristote lem: 
+      Ab<lb ed="#R" n="74" break="no"/>stractis a forma aquae, fri 
+      <lb ed="#R" n="75"/>giditate, &amp; humiditate, &amp; 
+      <lb ed="#R" n="76"/>dyaphaneitate, &amp; raritate propria cum alijs 
+      ac<lb ed="#R" n="77" break="no"/>cidentibus non remanet nisi materia cum dimen 
+      <lb ed="#R" n="78"/>sionibus: sed hoc non esset, si materia 
+      elemento<lb ed="#R" n="79" break="no"/>rum haberet formam a materia abstractam 
+      qua<lb ed="#R" n="80" break="no"/>litatibus illis: ergo.
+  </p>
+               <p xml:id="olm8ij-f63037-d1e176">
+      <!--0202.xml-->
+                  <pb ed="#R" n="202"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>In oppositum est, quia quod in vno est 
+      substan<lb ed="#R" n="2" break="no"/>tia, in nullo est accidens secundum Philosophum 
+      <lb ed="#R" n="3"/>&amp; Commentatorem 1. physic. sed caliditas est 
+      ac<lb ed="#R" n="4" break="no"/>cidens in corporibus mixtis: ergo. 
+  </p>
+               <p xml:id="olm8ij-f63037-d1e195">
+                  <lb ed="#R" n="5"/>Respondeo hic primo ponam duas 
+      proposi<lb ed="#R" n="6" break="no"/>tiones. Secundo eliciam ex eis aliquas 
+      conclu<lb ed="#R" n="7" break="no"/>siones. 
+  </p>
+               <p xml:id="olm8ij-f63037-d1e204">
+                  <lb ed="#R" n="8"/>Quantum ad primum pono Conclusionem 
+      <lb ed="#R" n="9"/>istam, quod formae elementares non sunt 
+      qua<lb ed="#R" n="10" break="no"/>litates ipsorum elementorum. Oppositum enim 
+      <lb ed="#R" n="11"/>dixit <ref xml:id="olm8ij-f63037-Rd1e214">Alex.</ref> vt <ref xml:id="olm8ij-f63037-Rd1e217">Commentator 5. physicorum</ref> 
+      reci<lb ed="#R" n="12" break="no"/>tat. Haec autem propositio probatur faciliter, tum 
+      <lb ed="#R" n="13"/>quia, quod est in vno de praedicamento 
+      substan<lb ed="#R" n="14" break="no"/>tiae, non potest in alio esse de praedicamento acci 
+      <lb ed="#R" n="15"/>dentis. Hanc rationem innuit Commentator 5. 
+      <lb ed="#R" n="16"/>physicorum, &amp; 7. metaph. 
+   </p>
+               <p xml:id="olm8ij-f63037-d1e230">
+                  <lb ed="#R" n="17"/>Secundo, quia tunc dicendo ignem calidum 
+      <lb ed="#R" n="18"/>nugaremus, sicut nugamus, dicendo homo 
+      ri<lb ed="#R" n="19" break="no"/>sibilis. Tertio: quia essent multae formae substan 
+      <lb ed="#R" n="20"/>iales vnius elementi, cum sint multae ad, minus 
+      <lb ed="#R" n="21"/>duae qualitates eius. Harum duarum rationum 
+      <lb ed="#R" n="22"/>prima est Philosophi 7. metaph. com. 11. &amp; 
+      Com<lb ed="#R" n="23" break="no"/>mentatoris 8. metaph. com. 5. Secunda vero poni 
+      <lb ed="#R" n="24"/>tur a Commentatore. 
+   </p>
+               <p xml:id="olm8ij-f63037-d1e250">
+                  <lb ed="#R" n="25"/>Secunda propositio est, quod huiusmodi 
+      for<lb ed="#R" n="26" break="no"/>mae elementorum magnam habent 
+      propinquita<lb ed="#R" n="27" break="no"/>tem, &amp; vicinitatem cum qualitatibus 
+      elemen<lb ed="#R" n="28" break="no"/>torum, &amp; e conuersos eo modo quo propria 
+      ha<lb ed="#R" n="29" break="no"/>bent vicinitatem ad formam subiecti. Haec 
+      conclu<lb ed="#R" n="30" break="no"/>sio est de mente Aristotesis, &amp; Commentatoris 8. 
+      <lb ed="#R" n="31"/>metaph. quod patet. Vbi positis multis 
+      differen<lb ed="#R" n="32" break="no"/>tijs rerum inter se, quia quaedam differunt in 
+      com<lb ed="#R" n="33" break="no"/>paratione, quaedam secundum situm; quaedam 
+      <lb ed="#R" n="34"/>secundum tempus, quaedam secundum qualitates, 
+      <lb ed="#R" n="35"/>vt caliditas, &amp; frigiditas, &amp; tunc confestim 
+      sub<lb ed="#R" n="36" break="no"/>dit, quod quaerendum est in vnoquoque istorum, 
+      <lb ed="#R" n="37"/>quae sit causa essentiae earum; quia nulla harum 
+      <lb ed="#R" n="38"/>differentiarum est in eis substantialis forma,; sed 
+      <lb ed="#R" n="39"/>quaelibet illarum indiget forma substantiali sibi 
+      <lb ed="#R" n="40"/>conuenienti, quam conuenientiam exponens ibi 
+      <lb ed="#R" n="41"/>Commentator com. 5. dicit, quod quaelibet 
+      illa<lb ed="#R" n="42" break="no"/>rum qualitatum sequitur formam substantialem 
+      <lb ed="#R" n="43"/>sibi conuenientem, &amp; ideo accipimus eas in 
+      dif<lb ed="#R" n="44" break="no"/>finitionibus loco substantialium differentiarum: 
+      <lb ed="#R" n="45"/>&amp; ideo estimatur, quod quedam qualitates 
+      passi<lb ed="#R" n="46" break="no"/>nae sint differentiae quorundam entium, sicut 
+      ca<lb ed="#R" n="47" break="no"/>lor ignis, &amp; humiditas aeris. 
+   </p>
+               <p xml:id="olm8ij-f63037-d1e302">
+                  <lb ed="#R" n="48"/>Item <ref xml:id="olm8ij-f63037-Rd1e306">Commentator 5. physicorum comm. 18.</ref>
+                  <lb ed="#R" n="49"/>dicit, quod huiusmodi qualitates elementorum 
+      <lb ed="#R" n="50"/>non sunt propriae substantialis differentiae 
+      eo<lb ed="#R" n="51" break="no"/>rum, nec sunt in praedicamento substantiae, sed 
+      <lb ed="#R" n="52"/>sunt in genere propinquo substantiae, &amp; ideo 
+      ca<lb ed="#R" n="53" break="no"/>liditas accipitur in diffinitione ignis loco 
+      dif<lb ed="#R" n="54" break="no"/>ferentiae, in compositis autem est substantia 
+      re<lb ed="#R" n="55" break="no"/>motius. 
+   </p>
+               <p xml:id="olm8ij-f63037-d1e324">
+                  <lb ed="#R" n="56"/>Item <ref xml:id="olm8ij-f63037-Rd1e328">4. de cael. &amp; mundo</ref> circa finem dicit, quod 
+      <lb ed="#R" n="57"/>forma quanto est perfectior, tanto magis ponitur 
+      <lb ed="#R" n="58"/>in difffinitione horum accidentium, quanto autem 
+      <lb ed="#R" n="59"/>fuerit imperfectior tanto minus poniture conuer 
+      <lb ed="#R" n="60"/>so, &amp; ideo calidum, &amp; humidum frigidum, &amp; siccum 
+      <lb ed="#R" n="61"/>sunt causae in esse formis elementorum, &amp; sunt 
+      <lb ed="#R" n="62"/>causae in formis animalium, &amp; subdit. 
+      Aristote<lb ed="#R" n="63" break="no"/>les enim concedit, quod differentiae aliarum 
+      sub<lb ed="#R" n="64" break="no"/>stantiarum sint de alijs praedicamentis: accipit au 
+      <lb ed="#R" n="65"/>tem Commentator ibi, causam, illud, quod est 
+      <lb ed="#R" n="66"/>principium cognoscendi, Vnde dixerat supra, 
+      <!--0202.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>quod propter imperfectionem formarum elemē 
+      <lb ed="#R" n="68"/>torum ponuntur eorum qualitates in diffinitione 
+      <lb ed="#R" n="69"/>eorum. Ratio autem est propinquitas harum 
+      <lb ed="#R" n="70"/>formarum ad qualitates suas, &amp; e conuerso, quae 
+      <lb ed="#R" n="71"/>tanta est, vt intelligens vnum eorum, 
+      cointelli<lb ed="#R" n="72" break="no"/>gat necessario alterum. Vnde qui intelligit 
+      ca<lb ed="#R" n="73" break="no"/>liditatem in summo, necessario intelligit ignem: 
+      <lb ed="#R" n="74"/>&amp; e couerso: sicut intelligens simitatem, 
+      neces<lb ed="#R" n="75" break="no"/>sario intelligit nasum. 
+   </p>
+               <p xml:id="olm8ij-f63037-d1e377">
+                  <lb ed="#R" n="76"/>Ex hac autem propinquitate illorum ita 
+      con<lb ed="#R" n="77" break="no"/>cipi, consurgit, quod vbi substantia est nota, 
+      <lb ed="#R" n="78"/>priusquam talia accidentia, cognoscit accidentia 
+      <lb ed="#R" n="79"/>ipsa per substantiam. Vbi vero e conuerso 
+      acci<lb ed="#R" n="80" break="no"/>dentia prius sunt nota, quam substantia, 
+      cogno<lb ed="#R" n="81" break="no"/>scitur diffinitione substantia mediantibus talibus 
+      <lb ed="#R" n="82"/>accidentibus. Hinc est, quod Aristoteles dicit, quod 
+      <lb ed="#R" n="83"/>vtile est cognoscere non tantum quid, sed etiam 
+      ac<lb ed="#R" n="84" break="no"/>cidentia, quia accidentia magnam partem conferunt 
+      <lb ed="#R" n="85"/>ad esse alterius, &amp; quod huiusmodi forma est 
+      <lb ed="#R" n="86"/>aliud ab accidentibus, quae sunt in mixto; &amp; est 
+      <lb ed="#R" n="87"/>additum elementis, cum illa non sit elementum, 
+      <lb ed="#R" n="88"/>nec compositum ex elementis. Vnde patet, quod 
+      <lb ed="#R" n="89"/>per esse additum elementis intelligit formam 
+      <lb ed="#R" n="90"/>aliam ab elementis; &amp; per hoc, quod dicit illam 
+      <lb ed="#R" n="91"/>non esse elementum, intelligit, quod non est 
+      na<lb ed="#R" n="92" break="no"/>tura simplex, sicut elementum, &amp; tamen ibidem 
+      <lb ed="#R" n="93"/>post concedit formam illam esse elementum: 
+      <lb ed="#R" n="94"/>ergo in alio, &amp; alio sensu accipit elementum 
+      <lb ed="#R" n="95"/>hic, &amp; ibi. Est enim forma elementum, quia 
+      <lb ed="#R" n="96"/>est principium, tamen non est elementum, quia 
+      <lb ed="#R" n="97"/>est simplex natura. quod probat, quia si esset 
+      <lb ed="#R" n="98"/>elementum quintum simplicius quatuor elemen 
+      <lb ed="#R" n="99"/>tis, ita quod, si non esset forma resultans, 
+      pro<lb ed="#R" n="100" break="no"/>cederetur in infinitum. Per hoc vero, quod dixi 
+      <lb ed="#R" n="101"/>hanc formam non esse ex elementis, intelligit 
+      inte<lb ed="#R" n="102" break="no"/>gris, &amp; formaliter retinentibus nomen, &amp; 
+      diffi<lb ed="#R" n="103" break="no"/>nitionem elementi: quia tunc non fieret ex eis 
+      <lb ed="#R" n="104"/>vnum, vt Commentator dediit. Si autem 
+      intel<lb ed="#R" n="105" break="no"/>ligeretur, quod hec forma i&amp; resultaret ex 
+      qua<lb ed="#R" n="106" break="no"/>litatibus elementorum, contradiceret sibi, quia 
+      <lb ed="#R" n="107"/>supra dixit, quod caro est vnum aggregatum ex 
+      <lb ed="#R" n="108"/>elementis, &amp; quod ex congregatione 
+      elemento<lb ed="#R" n="109" break="no"/>rum, sit aliud ab elementis: &amp; quod 
+      dissimile<lb ed="#R" n="110" break="no"/>est de carne respectu ignis, &amp; terrae, &amp; de syllaba 
+      <lb ed="#R" n="111"/>respectu literarum, sic enim diceretur ab 
+      aliqui<lb ed="#R" n="112" break="no"/>bus, quod in syllaba, Ba, sunt, soni literarum, licet 
+      <lb ed="#R" n="113"/>inperceptibiles: Hoc non est verum, quia pono, 
+      <lb ed="#R" n="114"/>quod proferatur sonus, B. certum est, quod 
+      profer<lb ed="#R" n="115" break="no"/>tur in instanti, in instanti autem non est, nisi 
+      <lb ed="#R" n="116"/>vnus sonus; tunc quaero. Vtrum sonus A. 
+      profe<lb ed="#R" n="117" break="no"/>ratur in eodem instanti, vel in alio: si in eodem: 
+      <lb ed="#R" n="118"/>ergo est idem sonus, quod sonus B. quia pro 
+      eo<lb ed="#R" n="119" break="no"/>dem instanti tantum proferatur vnus sonus. Si 
+      <lb ed="#R" n="120"/>autem in alio instanti, tunc instantia non sunt cō 
+      <lb ed="#R" n="121"/>sequenter se habentia, inter ea esset tempus 
+      me<lb ed="#R" n="122" break="no"/>dium: ergo est dare tempus modium inter B. &amp; A. 
+      <lb ed="#R" n="123"/>&amp; tunc sonus B. esset sonus disiunctiuus, nec esset 
+      <lb ed="#R" n="124"/>vnus, sed duo discreti. 
+   </p>
+               <p xml:id="olm8ij-f63037-d1e486">
+                  <lb ed="#R" n="125"/>Secunda ratio dicens propter quid a causa 
+      es<lb ed="#R" n="126" break="no"/>ficiente, &amp; est ratio Commentatoris a. do 
+      gene<lb ed="#R" n="127" break="no"/>nerat. Arguo enim sic: capio aliqua duo, siue plu 
+      <lb ed="#R" n="128"/>ra ad inuicem se habentia; sicut enim dixi alias se 
+      <lb ed="#R" n="129"/>cundum Aristotelem libro de coloribus, Elemen 
+      <lb ed="#R" n="130"/>ta habent proprias luces, &amp; colore, vnde 
+      aqua<lb ed="#R" n="131" break="no"/>habet de se virorem, aerque albedinem, ignis 
+      <lb ed="#R" n="132"/>rubedinem, &amp; terra nigredinem. Et si dicas, quod 
+      <!--0203.xml-->
+      <pb ed="#R" n="203"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>colores sunt accidentia mixti, Concedo, de 
+      cor<lb ed="#R" n="2" break="no"/>pore mixto: huiusmodi autem qualitates 
+      simpli<lb ed="#R" n="3" break="no"/>ces concurrunt, nec vnum colorem mixtum 
+      di<lb ed="#R" n="4" break="no"/>uersimode, secundum quod praedominatur 
+      alte<lb ed="#R" n="5" break="no"/>rum elementorum, &amp; qualitas sua, sicut patet de 
+      <lb ed="#R" n="6"/>pomo, quod primo est viride propter 
+      praedomi<lb ed="#R" n="7" break="no"/>nium aquae, &amp; secundo est subalbum propter 
+      <lb ed="#R" n="8"/>praedominium aeris, Tertio vero est rubeum 
+      <lb ed="#R" n="9"/>propter praedominium ignis: Tunc cum illae 
+      qua<lb ed="#R" n="10" break="no"/>litates simplices miscentur, &amp; contrariantur 
+      a<lb ed="#R" n="11" break="no"/>gendo ad inuicem, quaero, aut vna vnitur 
+      tota<lb ed="#R" n="12" break="no"/>liter corrumpendo omnes alias, aut neutra 
+      vni<lb ed="#R" n="13" break="no"/>tur, nec corrumpitur, sed manet in suo gradu: 
+      <lb ed="#R" n="14"/>aut vtraque manet secundum aliquid, &amp; vtraque 
+      <lb ed="#R" n="15"/>corrumpitur, &amp; reducatur ad medium, &amp; tunc 
+      <lb ed="#R" n="16"/>ego habeo propositum: non potest dari primus 
+      <lb ed="#R" n="17"/>modus, quia tunc non veniret ad medium, sed 
+      <lb ed="#R" n="18"/>totaliter corrumpentur; nec potest dari 
+      secun<lb ed="#R" n="19" break="no"/>dum, quia tunc non resultaret vnum, sed esset 
+      <lb ed="#R" n="20"/>aceruus, ergo oportet, quod detur tertium. 
+   </p>
+               <p xml:id="olm8ij-f63037-d1e556">
+                  <lb ed="#R" n="21"/>Sicut ergo argumentantur de qualitatibus, sic 
+      <lb ed="#R" n="22"/>arguo de formis eorum substantialibus; quoniam, 
+      <lb ed="#R" n="23"/>non agunt, nec patiuntur ad inuicem, non 
+      pos<lb ed="#R" n="24" break="no"/>sunt commisceri, nisi forte commixtione ad 
+      sen<lb ed="#R" n="25" break="no"/>sum, quae est secundum partes minimas; tunc ex 
+      <lb ed="#R" n="26"/>tali actione aut vtraque corrumpitur, &amp; sic non 
+      <lb ed="#R" n="27"/>esset mixtio, sed esset mera corruptio, aut 
+      vtrum<lb ed="#R" n="28" break="no"/>que manet totaliter, &amp; tunc erit mixtio ad 
+      sen<lb ed="#R" n="29" break="no"/>sum tantum; aut vtrumque manet secundum 
+      <lb ed="#R" n="30"/>substantiam, &amp; corrumpitur secundum 
+      acciden<lb ed="#R" n="31" break="no"/>tia, &amp; tunc esset vere aceruus; aut 
+      vtrumque<lb ed="#R" n="32" break="no"/>corrumpitur secundum substantiam, &amp; manet 
+      se<lb ed="#R" n="33" break="no"/>cundum accidentia, &amp; si sic, tunc illud non esset 
+      <lb ed="#R" n="34"/>mixtum substantiale, sed accidentale: aut 
+      tota<lb ed="#R" n="35" break="no"/>liter vtrumque non corrumpitur; sed manet 
+      al<lb ed="#R" n="36" break="no"/>terum, &amp; tunc non esset mixtio, sed conuersio: 
+      <lb ed="#R" n="37"/>ergo oportet, quod Vtrumque corrumpatur 
+      se<lb ed="#R" n="38" break="no"/>cundum aliquid, &amp; secundum aliquid maneat, &amp; 
+      <lb ed="#R" n="39"/>tunc fiet forma media, quae non esset alterum 
+      <lb ed="#R" n="40"/>extremorum, pro eo quod licet in eo sit aliud 
+      <lb ed="#R" n="41"/>extremum, tamen est in ea aliquid habens 
+      ratio<lb ed="#R" n="42" break="no"/>nem medij, &amp; diffinitionem extremi; sed omnes 
+      <lb ed="#R" n="43"/>tales realitates simul concurrunt ad vnam ratio 
+      <lb ed="#R" n="44"/>nem tertiam, &amp; haec est vera mixtio, quae 
+      non<lb ed="#R" n="45" break="no"/>est corcursus secundum quantitatem vnam, aut 
+      <lb ed="#R" n="46"/>secundum situm, aut secundum contactum, sed 
+      <lb ed="#R" n="47"/>secundum qualitatem substantialem, &amp; 
+      secun<lb ed="#R" n="48" break="no"/>dum hanc viam procedit Aristoteles, &amp; 
+      Com<lb ed="#R" n="49" break="no"/>mentator in fine 1. de generat. Dicit enim ibi 
+      <lb ed="#R" n="50"/>Commentator quod cum ad mixta non corrum 
+      <lb ed="#R" n="51"/>pantur, nec tamen remaneant fixa, oportet quod 
+      <lb ed="#R" n="52"/>secundum vnum modum sint, &amp; secundum alium 
+      <lb ed="#R" n="53"/>non sint: &amp; similiter hoc est, quod nos videmus, 
+      <lb ed="#R" n="54"/>quod postquam admixta caeperint separari, non 
+      <lb ed="#R" n="55"/>possumus dicere, quod in mixtione sint fixa 
+      mi<lb ed="#R" n="56" break="no"/>scibilia, sicut ante mixtionem, nec quando 
+      ni<lb ed="#R" n="57" break="no"/>hil erant, nec quod sit ibi alterum illorum, quia 
+      <lb ed="#R" n="58"/>possunt separari. Et infra. Dicamus ergo, quod 
+      <lb ed="#R" n="59"/>mixtio aut esset ex qualitate, &amp; forma; aut esset 
+      <lb ed="#R" n="60"/>ex quantitate, &amp; diui sio cuiuslibet mixtorum in 
+      <lb ed="#R" n="61"/>partes conseruando suas essentias, deinde 
+      intra<lb ed="#R" n="62" break="no"/>bunt illae partes ad inuicem, quae quo modo; ita 
+      <lb ed="#R" n="63"/>quod difficile possit eos sensus distinguere, &amp; 
+      se<lb ed="#R" n="64" break="no"/>cundum hoc mixtio non erit nisi secundum 
+      acci<lb ed="#R" n="65" break="no"/>dentia, siue artificiosa, vel si sic, esset mixtio secun 
+      <lb ed="#R" n="66"/>dum qualitatem, &amp; infra dicit, quoniam mate- 
+      <!--0203.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>ria miscibilium est vna, cum sint contraria, 
+      ne<lb ed="#R" n="68" break="no"/>cesse est, quod ex his sit qualitas mixta, 
+      secun<lb ed="#R" n="69" break="no"/>dum quod est mixtio medij inter extrema. 
+      Mix<lb ed="#R" n="70" break="no"/>tio enim tunc est, quando aequaliter patiuntur, 
+      <lb ed="#R" n="71"/>&amp; agunt miscibilia, ita quod veniat post aliqua 
+      <lb ed="#R" n="72"/>qualitas media inter duas contrarietates. Haec 
+      <lb ed="#R" n="73"/>
+                  <quote xml:id="olm8ij-f63037-Qd1e677">Commentator 1. de gener. in fine.</quote> &amp; 2. de gener. 
+      <lb ed="#R" n="74"/>in fine dicit, quod miscibilia in mixtione sunt par 
+      <lb ed="#R" n="75"/>tes in qualitate, non in quantitate. Mixtio enim 
+      <lb ed="#R" n="76"/>contrariorum fit, quando alterum non 
+      domina<lb ed="#R" n="77" break="no"/>tur super alterum, nec habet aequalem potentiam; 
+      <lb ed="#R" n="78"/>si enim alterum fuit simpliciter dominans, 
+      <lb ed="#R" n="79"/>esset corruptio dominati, &amp; generatio 
+      dominan<lb ed="#R" n="80" break="no"/>rtis; et si aequales fuerint potentiae, tunc non esset 
+      <lb ed="#R" n="81"/>aliqua forma, sed cum potentia alterius non 
+      <lb ed="#R" n="82"/>fuerit dominans simpliciter, sed si fuerit 
+      domi<lb ed="#R" n="83" break="no"/>nans dominati, generabitur ex eis aliquod 
+      me<lb ed="#R" n="84" break="no"/>dium. Haec ille. 
+   </p>
+               <p xml:id="olm8ij-f63037-d1e704">
+                  <lb ed="#R" n="85"/>Secundo pono rationem a priori, quae dicit 
+      <lb ed="#R" n="86"/>propter quid a causa formali- Vbi 
+      consideran<lb ed="#R" n="87" break="no"/>dum, quod sicut probatum est alias, forma non 
+      <lb ed="#R" n="88"/>est aliud, quam actuatio, &amp; terminatio, ac 
+      di<lb ed="#R" n="89" break="no"/>stinctio materiae; non est enim imaginandum, 
+      <lb ed="#R" n="90"/>quod forma sit res aliqua praecise acceptabilis, 
+      <lb ed="#R" n="91"/>&amp; quod adueniat materiae mediante vnione, 
+      <lb ed="#R" n="92"/>quae est relatio, sed vnione, quae est indiuisio 
+      in<lb ed="#R" n="93" break="no"/>aliquo tertio, vnde forma indiuiditur materiae; 
+      <lb ed="#R" n="94"/>&amp; ex ipsis sic indiuisis, ac indistinctis resultat 
+      <lb ed="#R" n="95"/>vnitas ipsius compositi ipsis existentibus in 
+      com<lb ed="#R" n="96" break="no"/>posito, non in actu, hoc est, non terminata, &amp; 
+      di<lb ed="#R" n="97" break="no"/>stincta, sed in potentia minus, posito enim non 
+      <lb ed="#R" n="98"/>est nisi res vna in actu, scilicet forma ipsius 
+      <lb ed="#R" n="99"/>compositi, alias esset aceruus, haec magis 
+      pa<lb ed="#R" n="100" break="no"/>tent alibi. Si ergo illa vera sunt, valde difficile est 
+      <lb ed="#R" n="101"/>videre, quomodo de forma possit auferri 
+      distin<lb ed="#R" n="102" break="no"/>ctio, &amp; terminatio, cum sit essentialiter 
+      termina<lb ed="#R" n="103" break="no"/>tio illa, ac per consequens, quomodo elementa 
+      <lb ed="#R" n="104"/>sunt in mixto, quin sint ibi, in quantum sormae 
+      <lb ed="#R" n="105"/>sunt. Non ergo videtur possibile, quod realitas 
+      <lb ed="#R" n="106"/>elementi possit reperiri, quin habeat rationem 
+      <lb ed="#R" n="107"/>formae, cum realitas cuiuscumque formae sit 
+      <lb ed="#R" n="108"/>per essentiam illa terminatio: ergo 
+      insepara<lb ed="#R" n="109" break="no"/>bilis ab ea, &amp; eadem difficultas est in omni mixto. 
+      <lb ed="#R" n="110"/>Vnde impossibile videtur, quod a realitate vnius 
+      <lb ed="#R" n="111"/>elementi tollatur terminatio, &amp; distinctio ab alio 
+      <lb ed="#R" n="112"/>elemento. 
+   </p>
+               <p xml:id="olm8ij-f63037-d1e767">
+                  <lb ed="#R" n="113"/>Sed tamen dicendum est, quod a realitate 
+      ali<lb ed="#R" n="114" break="no"/>quarum formarum possit tolli propria 
+      termina<lb ed="#R" n="115" break="no"/>tio, &amp; distinctio. Vbi considerandum est, quod 
+      <lb ed="#R" n="116"/>aliud est formam intendere, &amp; remittere, &amp; 
+      di<lb ed="#R" n="117" break="no"/>minuere, &amp; aliud est ipsam frangere, vt sic 
+      fra<lb ed="#R" n="118" break="no"/>cta amittat posse dare effectum formalem 
+      subie<lb ed="#R" n="119" break="no"/>cto, &amp; materiae, &amp; hoc quia vt sic est 
+      fundamenta<lb ed="#R" n="120" break="no"/>ta, non saluatur in ea ratio formae. Imaginor ergo 
+      <lb ed="#R" n="121"/>quod forma aliqua potest habere duplex genus 
+      <lb ed="#R" n="122"/>partium alterius rationis, &amp; modi, ita quod in tota 
+      <lb ed="#R" n="123"/>latitudine partium vnius modi aequiuocum est 
+      no<lb ed="#R" n="124" break="no"/>bilius suo efffectu, &amp; ideo viuum non est 
+      produ<lb ed="#R" n="125" break="no"/>ctum a non viuo; non est enim verum, quod 
+      vi<lb ed="#R" n="126" break="no"/>uum sit primo productum in productione 
+      ani<lb ed="#R" n="127" break="no"/>malis, sed est sequela alterius primo producti. 
+      <lb ed="#R" n="128"/>Agens enim naturale non inducit formas 
+      sub<lb ed="#R" n="129" break="no"/>stantiales, ponendo eas in materia, sed alterando 
+      <lb ed="#R" n="130"/>tantum. 
+   </p>
+               <p xml:id="olm8ij-f63037-d1e809">
+                  <lb ed="#R" n="131"/>Illa autem propositio de nobilitate causae 
+      ae<lb ed="#R" n="132" break="no"/>quiuocae non intelligitur, nisi respectu primi 
+      <!--0204.xml-->
+      <pb ed="#R" n="204"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>effectus, nobilius enim potest esse forma 
+      ignobi<lb ed="#R" n="2" break="no"/>lioris. Ex his etiam apparet irrationalitas modi di 
+      <lb ed="#R" n="3"/>cendi de generatione caloris ex motu. Dicunt 
+      <lb ed="#R" n="4"/>enim quidam, quod motus facit distare partes, 
+      <lb ed="#R" n="5"/>ideo generat calorem, quia motus habet 
+      calo<lb ed="#R" n="6" break="no"/>rem in virtute. hoc enim non est verum; cum mo 
+      <lb ed="#R" n="7"/>tus localis sit imperfectius quid calore; illud 
+      <lb ed="#R" n="8"/>etiam de distantia partium, &amp; si sit verum, tamen 
+      <lb ed="#R" n="9"/>adhuc manet quaestio, quare ad distantias 
+      par<lb ed="#R" n="10" break="no"/>tium consequitur calor, &amp; est eadem ratio, quia 
+      <lb ed="#R" n="11"/>ex eadem materia motus efficit raritatem, &amp; 
+      ca<lb ed="#R" n="12" break="no"/>lorem, non quod calorem generet mediante 
+      ra<lb ed="#R" n="13" break="no"/>ritate, vt superius probatum est. 
+   </p>
+               <p xml:id="olm8ij-f63037-d1e852">
+                  <lb ed="#R" n="14"/>Ex his etiam apparet friuolum esse motiuum 
+      <lb ed="#R" n="15"/>eorum, qui ponunt virtutem formatiuam 
+      car<lb ed="#R" n="16" break="no"/>nis, ossis, &amp; nerui, &amp; similium partium in 
+      se<lb ed="#R" n="17" break="no"/>mine, esse alium a calore complexionali, vt 
+      prae<lb ed="#R" n="18" break="no"/>seruent se ab opinione Alexandri, qui ista 
+      attri<lb ed="#R" n="19" break="no"/>buit calido, &amp; sicco, humido, &amp; frigido: 
+      secun<lb ed="#R" n="20" break="no"/>dum enim Commentatorem, vt supra allegatum 
+      <lb ed="#R" n="21"/>est, huiusmodi virtutes formatiuae non sunt aliud 
+      <lb ed="#R" n="22"/>quam calor proportionalis, &amp; mensuratus, quae 
+      <lb ed="#R" n="23"/>quidem mensura indiget organo, &amp; 
+      conseruan<lb ed="#R" n="24" break="no"/>te. Causatur enim ex tribus in propagatis, 
+      scili<lb ed="#R" n="25" break="no"/>cet ex sole, &amp; Orbe decliui, &amp; ex decidente 
+      se<lb ed="#R" n="26" break="no"/>mine animalis, aut tantum ex duobus, scilicet ex 
+      <lb ed="#R" n="27"/>sole, &amp; Orbe decliui: Tunc ille calor est forma 
+      <lb ed="#R" n="28"/>complexional is resultans ex calido, humido, 
+      <lb ed="#R" n="29"/>frigido, &amp; sicco, quae est proportionata formae, li 
+      <lb ed="#R" n="30"/>cet a praedominante calido calor nominetur. 
+      Il<lb ed="#R" n="31" break="no"/>la autem varietas, quae apparet in effectu, 
+      scili<lb ed="#R" n="32" break="no"/>cet varia digestio, &amp; varia figuratio secundum 
+      <lb ed="#R" n="33"/>partium diuersitatem, &amp; processus ordinatos 
+      se<lb ed="#R" n="34" break="no"/>cundum prius, &amp; posterius, quae reddunt hanc 
+      <lb ed="#R" n="35"/>virtutem mirabilem, ita vt eam magnificet 
+      Ga<lb ed="#R" n="36" break="no"/>letius dicens: Nescio, vtrum sit creator, vel 
+      crea<lb ed="#R" n="37" break="no"/>tura, &amp; Aristot. assimilat eam 18. de animalibus 
+      <lb ed="#R" n="38"/>artificio, intellectui, &amp; arti; possibile reduci 
+      in<lb ed="#R" n="39" break="no"/>huiusmodi proportionalem calorem, ex hoc, 
+      <lb ed="#R" n="40"/>quod est accidens proprium formae generandae: 
+      <lb ed="#R" n="41"/>mouendo enim materiam ad huiusmodi 
+      quali<lb ed="#R" n="42" break="no"/>tatem, quantum dat de ea, tantum de figura 
+      pro<lb ed="#R" n="43" break="no"/>pria, &amp; accidentibus alijs proprijs formae 
+      gene<lb ed="#R" n="44" break="no"/>randae. Ex his sequitur, quod cum elementa ab 
+      <lb ed="#R" n="45"/>agente extrinseco priuantur proprijs 
+      qualitati<lb ed="#R" n="46" break="no"/>bus in actu per solam remotionem prohibentis, 
+      <lb ed="#R" n="47"/>redeunt ad eas absque motore extrinseco, puta 
+      <lb ed="#R" n="48"/>aqua calefacta redit remoto prohibente ad 
+      pro<lb ed="#R" n="49" break="no"/>priam frigiditatem, ignis ad locum sursum, &amp; 
+      <lb ed="#R" n="50"/>graue, puta terra, deorsum, ablato solo prohiben 
+      <lb ed="#R" n="51"/>te, vnde licet aliquid non posset moueri ad actum 
+      <lb ed="#R" n="52"/>primum ex se, vel aliquo extrahente, sicut de 
+      igno<lb ed="#R" n="53" break="no"/>rante non transfertur ad scientiam, quia nisi 
+      <lb ed="#R" n="54"/>per docentem; de ocio tamen potest quis 
+      transi<lb ed="#R" n="55" break="no"/>re in actum, vt de scientia in habitu ad 
+      consi<lb ed="#R" n="56" break="no"/>derare in actu, nullo alio extrahente, vt patet in 2. 
+      <lb ed="#R" n="57"/>de anima. Nec huic obstat illud principium, 
+      <lb ed="#R" n="58"/>quod impossibile est aliquid simul esse respectu 
+      <lb ed="#R" n="59"/>eiusdem in potentia, &amp; in actu; Aqua enim est 
+      <lb ed="#R" n="60"/>in actu per se respectu frigiditatis; in potentia 
+      <lb ed="#R" n="61"/>vero ratione prohibentis, &amp; ideo remoto 
+      pro<lb ed="#R" n="62" break="no"/>hibente non est amplius in potentia ad 
+      frigidita<lb ed="#R" n="63" break="no"/>tem, sed est in actu. Vnde esse in actu essentiali, 
+      <lb ed="#R" n="64"/>&amp; in potentia actuali non est impossibile, vt 
+      pa<lb ed="#R" n="65" break="no"/>tet 8. physicorum. Sed vtrum hoc sufficiat ad 
+      sal<lb ed="#R" n="66" break="no"/>uandum principium idem, quod idem simul non 
+      <!--0204.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>est in potentia formali, &amp; actu virtuali dicetur 
+      <lb ed="#R" n="68"/>infra, cum agetur de libero arbitrio. 
+   </p>
+               <p xml:id="olm8ij-f63037-d1e978">
+                  <lb ed="#R" n="69"/>Notandum vero, ex praedictis, quod 
+      elemen<lb ed="#R" n="70" break="no"/>ta respectu illarum qualitatum non habent 
+      tan<lb ed="#R" n="71" break="no"/>tum habitudinem materiae. Materia enim, &amp; 
+      <lb ed="#R" n="72"/>efficiens non coincidunt, sed habent 
+      habitudi<lb ed="#R" n="73" break="no"/>nem essentialiter, &amp; per se in secundo modo. 
+      <lb ed="#R" n="74"/>Ex tali enim substantia oritur accidens sequela, 
+      <lb ed="#R" n="75"/>ideo potest per eius quidditatem demomstrari: 
+      <lb ed="#R" n="76"/>materia autem, vt sic respectu formae, quantum 
+      <lb ed="#R" n="77"/>est de se in potentia essentialis, &amp; potentia 
+      con<lb ed="#R" n="78" break="no"/>tradictionis, &amp; non in actu quantum est ex se, lice t 
+      <lb ed="#R" n="79"/>habeant rationem, in quantum ad hoc quod habent 
+      <lb ed="#R" n="80"/>respectu illarum habitudinem susce ptiui. Ad argu 
+      <lb ed="#R" n="81"/>mentum in oppositum bene concludit, quod est 
+      <lb ed="#R" n="82"/>connexio inter accidentia illa, &amp; formam, sicut 
+      <lb ed="#R" n="83"/>inter principia, &amp; conclusiones; non tamen 
+      con<lb ed="#R" n="84" break="no"/>cludit, quod accidentia illa sint formae 
+      substau<lb ed="#R" n="85" break="no"/>tiales. 
+   </p>
+            </div>
+            <div xml:id="olm8ij-f63037-Dd1e1018">
+               <head xml:id="olm8ij-f63037-Hd1e1020">Articulus 2</head>
+               <head xml:id="olm8ij-f63037-Hd1e1022" type="question-title">
+        Utrum materia, &amp; subiectum formae 
+        elementaris sit materia omnino prima, vel sit 
+        materia mediante aliqua forma corporali 
+        communi, quae manet communis 
+        in mutua elementorum ad 
+        inuicem mixtione
+      </head>
+               <p xml:id="olm8ij-f63037-d1e1025">
+                  <lb ed="#R" n="86"/>ARTJCVLVS JJ. 
+      <lb ed="#R" n="87"/>Vtrum materia, &amp; subiectum formae 
+      elementa<lb ed="#R" n="88" break="no"/>ris sit materia omnino prima, vel sit 
+      ma<lb ed="#R" n="89" break="no"/>teria mediante aliqua forma corporali 
+      <lb ed="#R" n="90"/>communi, quae manet communis 
+      <lb ed="#R" n="91"/>in mutua elementorum ad 
+      <lb ed="#R" n="92"/>inuicem mixtione. 
+   </p>
+               <p xml:id="olm8ij-f63037-d1e1043">
+                  <lb ed="#R" n="93"/>QVoad secundam quaestionem. An subiectum 
+      <lb ed="#R" n="94"/>formarum elementarium sit materia om 
+      <lb ed="#R" n="95"/>ninon prima, vel illa mediante aliqua forma 
+      sub<lb ed="#R" n="96" break="no"/>stantialis communis. Respondeo haec est opinio 
+      <lb ed="#R" n="97"/>quorundam, materiam formae elementaris non 
+      <lb ed="#R" n="98"/>esse denudatam ab omni forma substantiali, &amp; 
+      <lb ed="#R" n="99"/>per consequens non esse materiam omnino 
+      pri<lb ed="#R" n="100" break="no"/>mam. Huius sententiae fuit Auicenn. &amp; motiuum 
+      <lb ed="#R" n="101"/>opinionis suae fuit, quod quantitas, &amp; dimensio 
+      <lb ed="#R" n="102"/>trina remanet communis generato, &amp; corrupto. 
+      <lb ed="#R" n="103"/>Corpus enim non fit non corpus, nec ex non cor 
+      <lb ed="#R" n="104"/>pore fit corpus. Quantitas autem, cum sit 
+      acci<lb ed="#R" n="105" break="no"/>dens, non potest in materia prima fundari sine 
+      <lb ed="#R" n="106"/>substantiali forma: ergo necesse est in materia 
+      <lb ed="#R" n="107"/>esse communem formam substantialem quatuor 
+      <lb ed="#R" n="108"/>elementis, quam consequitur trina dimensio. 
+      <lb ed="#R" n="109"/>Haec autem est forma corporeitatis, vnde 
+      Aui<lb ed="#R" n="110" break="no"/>cen. 2. metaph. suae diffiniens corporeitatis 
+      for<lb ed="#R" n="111" break="no"/>mam dicit, quod est illa, quam consequitur 
+      tri<lb ed="#R" n="112" break="no"/>na dimensio, longum, latum, &amp; profundum. Sed 
+      <lb ed="#R" n="113"/>haec opinio stare non potest, tum quia est contra 
+      <lb ed="#R" n="114"/>mentem Aristotelis, &amp; Commentatoris; tum 
+      <lb ed="#R" n="115"/>quia repugnat manifestis rationibus. Quod sit 
+      <lb ed="#R" n="116"/>contra mentem Aristotelis, &amp; Commentatoris 
+      <lb ed="#R" n="117"/>patet multipliciter. Dicit enim Commentator 
+      <lb ed="#R" n="118"/>2. de cael, &amp; mund. quod pura materia apud 
+      <lb ed="#R" n="119"/>Aristotelem est materia propria quatuor elemen 
+      <lb ed="#R" n="120"/>tis, siue quatuor corporibus primis, &amp; non est 
+      <lb ed="#R" n="121"/>apud eum generabilis, &amp; corruptibilis, sed 
+      si<lb ed="#R" n="122" break="no"/>mul generationi, &amp; corruptioni subiecta siue 
+      <lb ed="#R" n="123"/>vnita. 
+   </p>
+               <p xml:id="olm8ij-f63037-d1e1113">
+                  <lb ed="#R" n="124"/>Item in eod. 3. dicit, quod prima materia est 
+      <lb ed="#R" n="125"/>materia corporum simplicium primo; secundo 
+      <lb ed="#R" n="126"/>vero est materia compositorum mediantibus 
+      il<lb ed="#R" n="127" break="no"/>lis elementis. 
+   </p>
+               <p xml:id="olm8ij-f63037-d1e1125">
+                  <lb ed="#R" n="128"/>Item a. metaph. dicit, quod materia prima 
+      <lb ed="#R" n="129"/>recipit formas vniuersales, &amp; post formas par- 
+      <!--0205.xml-->
+      <pb ed="#R" n="205"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>ticulares, &amp; intelligit per formas vniuersales for 
+      <lb ed="#R" n="2"/>mas elementorum. 
+   </p>
+               <p xml:id="olm8ij-f63037-d1e1143">
+                  <lb ed="#R" n="3"/>Item dicit, quod si aliquis dixerit, quod 
+      cor<lb ed="#R" n="4" break="no"/>pora simplicia sunt composita ex materia, &amp; 
+      for<lb ed="#R" n="5" break="no"/>ma, dicet adhuc, quod prima materia non est exi 
+      <lb ed="#R" n="6"/>stens in actu: ex quo innuit. quod sormae 
+      corpo<lb ed="#R" n="7" break="no"/>rum simplicium immediate materiae vniuntur. 
+   </p>
+               <p xml:id="olm8ij-f63037-d1e1156">
+                  <lb ed="#R" n="8"/>Item dicit, quod haec quatuor corpora, scilicet 
+      <lb ed="#R" n="9"/>quatuor elementa, habent naturam existentem 
+      <lb ed="#R" n="10"/>in potentia, &amp; componūtur ex ea, &amp; contrarieta 
+      <lb ed="#R" n="11"/>te existente in ea. Ponendum est ergo, quod 
+      prin<lb ed="#R" n="12" break="no"/>cipium omnium rerum est materia in re possibili 
+      <lb ed="#R" n="13"/>subiecta primis qualitatibus, idest formis 
+      qua<lb ed="#R" n="14" break="no"/>tuor elementorum, &amp; subdit, quapropter primum 
+      <lb ed="#R" n="15"/>principium est illud, quo est in potentia corpus 
+      <lb ed="#R" n="16"/>sensibile; secundum autem sunt primae 
+      contrarie<lb ed="#R" n="17" break="no"/>tates, a quibus non denudatur subiectum, quae sunt 
+      <lb ed="#R" n="18"/>formae substantiales elementares. Tertium 
+      ve<lb ed="#R" n="19" break="no"/>ro est aqua, ignis, &amp; aer, &amp; terra, quae sunt 
+      <lb ed="#R" n="20"/>compiosita ex primis contrarietatibus, &amp; prima 
+      <lb ed="#R" n="21"/>materia, sunt autem illa in ordine tertio, quia 
+      <lb ed="#R" n="22"/>transmutantur ad inuicem, quapropter habent 
+      <lb ed="#R" n="23"/>elementa priora eis, scilicet materiam, &amp; formam. 
+      <lb ed="#R" n="24"/>Secundo patet positionem illam irrationabilem 
+      ratio<lb ed="#R" n="25" break="no"/>ne: nam ad eam sequuntur tria inconuenientia mani 
+      <lb ed="#R" n="26"/>festa. Primum est, quod formae elementares 
+      es<lb ed="#R" n="27" break="no"/>sent accidentia; aduenirent enti in actu habenti 
+      <lb ed="#R" n="28"/>diffinitionem, &amp; entitatem simpliciter, &amp; sic non 
+      <lb ed="#R" n="29"/>daret entitatem simpliciter, sed entitatem talem. 
+      <lb ed="#R" n="30"/>Secundum est, quia tunc formae elementares non 
+      <lb ed="#R" n="31"/>essent quidditatiue formae corporeae, quia ens non 
+      <lb ed="#R" n="32"/>sequeretur per se trina dimensio secundum illam 
+      <lb ed="#R" n="33"/>formam communem: nisi ponas, quod essent ibi 
+      <lb ed="#R" n="34"/>duae corporeitates, &amp; bis trina dimensio. 
+   </p>
+               <p xml:id="olm8ij-f63037-d1e1217">
+                  <lb ed="#R" n="35"/>Tertium vero est, quia illa forma communis 
+      <lb ed="#R" n="36"/>daret nomen, &amp; diffinitionem, &amp; ita corpus illud 
+      <lb ed="#R" n="37"/>commune esset habens nomen, &amp; diffinitionem, 
+      <lb ed="#R" n="38"/>&amp; esset aliquid demonstratum in actu, quod repu 
+      <lb ed="#R" n="39"/>gnat sensui, cum enim ex aqua generatur ignis, 
+      <lb ed="#R" n="40"/>aufertur nomen, &amp; diffinitio rei demonstratae. 
+      <lb ed="#R" n="41"/>Ad interrogationem enim factam per quid 
+      re<lb ed="#R" n="42" break="no"/>spondebitur aqua, &amp; post, respondetur ignis: 
+      Ha<lb ed="#R" n="43" break="no"/>rum trium rationum primam innuit 
+      Commen<lb ed="#R" n="44" break="no"/>tator, cum dicit, quod in materia eodem 
+      tempo<lb ed="#R" n="45" break="no"/>re non inuenitur tantum vna forma, sed tertia. &amp; in 
+      <lb ed="#R" n="46"/>1. physic. cum dicit, quod cum corpus in eodem 
+      <lb ed="#R" n="47"/>loco transfertur de terrestreitate in 
+      carneita<lb ed="#R" n="48" break="no"/>tem, mutatur nomen, &amp; diffinitio, &amp; ex hoc 
+      sci<lb ed="#R" n="49" break="no"/>mus, quod illud corpus non est vnum per 
+      dispo<lb ed="#R" n="50" break="no"/>sitionem existentem in ipso dantem ei nomen 
+      <lb ed="#R" n="51"/>&amp; diffinit ionem propriam: vnde necesse est illud 
+      <lb ed="#R" n="52"/>subiectum esse vnum, quia non habet nomen, &amp; 
+      <!--0205.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="53"/>diffinitionem propriam, nec formam dantem 
+      <lb ed="#R" n="54"/>nomen, &amp; diffinitionem vnam. Dimensiones 
+      au<lb ed="#R" n="55" break="no"/>tem tres, quae videntur ab ipso inseparabiles, 
+      <lb ed="#R" n="56"/>sunt accidentia, sunt vero eadem numero, quia 
+      <lb ed="#R" n="57"/>subiectum illarum non habet nomen, &amp; 
+      diffini<lb ed="#R" n="58" break="no"/>tionem vnam numero; &amp; si essent tres dimensiones 
+      <lb ed="#R" n="59"/>formae substantialis, non mutaretur nomen, &amp; 
+      <lb ed="#R" n="60"/>diffinitio, quod cum ita sit, sequitur, quod est 
+      <lb ed="#R" n="61"/>vnum subiectum numero non habens 
+      dispositio<lb ed="#R" n="62" break="no"/>nem substantialem, sed habens naturam 
+      reci<lb ed="#R" n="63" break="no"/>piendi omnes dispositiones accidentales, &amp; 
+      sub<lb ed="#R" n="64" break="no"/>stantiales. 
+   </p>
+               <p xml:id="olm8ij-f63037-d1e1289">
+                  <lb ed="#R" n="65"/>Ad motiuum autem opinionis respondeo, 
+      <lb ed="#R" n="66"/>quod licet tres dimensiones terminatae non 
+      pos<lb ed="#R" n="67" break="no"/>sint fundari in materia nuda, eo quod 
+      termina<lb ed="#R" n="68" break="no"/>tio est per formam, dimensiones autem 
+      intermi<lb ed="#R" n="69" break="no"/>natae con sequi possunt materiam, &amp; per hoc 
+      <lb ed="#R" n="70"/>existere in ea non tempore, sed natura: &amp; ratio 
+      <lb ed="#R" n="71"/>est, quia materia dicit naturam interminatam, 
+      <lb ed="#R" n="72"/>interminatum enim sequi naturam 
+      intermina<lb ed="#R" n="73" break="no"/>tam lib. de substantia orbis, &amp; esse eius 
+      proprieta<lb ed="#R" n="74" break="no"/>tem non est impossibile. &amp; hanc solutionem 
+      in<lb ed="#R" n="75" break="no"/>nuit Commentator, cum dicit de Auicenna: 
+      vn<lb ed="#R" n="76" break="no"/>de putauit Auicenna, quod dispositio trium 
+      di<lb ed="#R" n="77" break="no"/>mensionum existentium in materia scilicet 
+      termi<lb ed="#R" n="78" break="no"/>natarum in ea, propter quod dixit, quod necesse 
+      <lb ed="#R" n="79"/>est primam formam existere in materia prima, 
+      <lb ed="#R" n="80"/>antequam dimensiones existant in eo: ex quo 
+      ac<lb ed="#R" n="81" break="no"/>cidunt ei impossibilia multa, tum quia illae tres 
+      <lb ed="#R" n="82"/>dimensiones numquam existent in materia 
+      in<lb ed="#R" n="83" break="no"/>actu, siue forma substantiali aliqua non dico cō- 
+      <lb ed="#R" n="84"/>muni, sed propria aliqua. In isto enim instanti, in 
+      <lb ed="#R" n="85"/>quo forma, quae corrumpitur, &amp; manet materia, 
+      <lb ed="#R" n="86"/>manent tres dimensiones in ea, non tamen sine 
+      <lb ed="#R" n="87"/>forma: quia in eodem inducitur forma aeris in 
+      <lb ed="#R" n="88"/>ea. &amp; hanc solutionem innuit Commentator cum 
+      <lb ed="#R" n="89"/>dicit: &amp; quia formae dimensiones non terminatae 
+      <lb ed="#R" n="90"/>existunt in materia prima primitus, ideo 
+      impos<lb ed="#R" n="91" break="no"/>sibile est subiectum denudari a forma, nisi per for 
+      <lb ed="#R" n="92"/>mae corruptionem: non enim est possibile 
+      for<lb ed="#R" n="93" break="no"/>mam fieri in subiecto, nisi per agens extrahens 
+      <lb ed="#R" n="94"/>ipsam de potentia in actum, vnde necesse est has 
+      <lb ed="#R" n="95"/>formae esanι arias, adeo quod altera 
+      corrum<lb ed="#R" n="96" break="no"/>pat contrariam sibi, &amp; subiectum recipiat formam 
+      <lb ed="#R" n="97"/>substantialem: vnde formae elementorum sunt 
+      <lb ed="#R" n="98"/>contrariae. Haec Commentator. Dico ergo ad 
+      <lb ed="#R" n="99"/>formam quaestionis, quod subiectum formae 
+      ele<lb ed="#R" n="100" break="no"/>mentaris est materia prima sine omni forma 
+      sub<lb ed="#R" n="101" break="no"/>stantiali, cum sola interminata dimensione, quae 
+      <lb ed="#R" n="102"/>est proprietas materiae inseparabilis ab ea, &amp; 
+      <lb ed="#R" n="103"/>coeua ci, vt alias, cum de dimensionibus 
+      agere<lb ed="#R" n="104" break="no"/>tur, dictum est. 
+   </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
