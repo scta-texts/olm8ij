@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-14">April 14, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b3">Roma 1605, Book 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-14" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="330"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-g10001"><!-- l3-d1prae -->
+            <head xml:id="olm8ij-g10001-Hd1e101">Praeambulum</head>
+            <p xml:id="olm8ij-g10001-d1e103"><!--0330.xml-->
+               <pb ed="#R" n="330"/>
+               <cb ed="#R" n="a"/>
+               <lb ed="#R" n="1"/>COMMENTARJORVM 
+      <lb ed="#R" n="2"/>JN TERTJVM LJBRVM 
+      <lb ed="#R" n="3"/>SENTENTJARVM. 
+      <lb ed="#R" n="4"/>Auctore 
+      <lb ed="#R" n="5"/>F. PETRO AVREOLO VERBERIO 
+      <lb ed="#R" n="6"/>Ordinis Minorum, Archiepiscopo Aquensi 
+      <lb ed="#R" n="7"/>S. R. E. Cardinali. 
+      <lb ed="#R" n="8"/>SVPER TERTJO LJBRO MAGJSTRJ SENTENTJARVM 
+      <lb ed="#R" n="9"/>Quaestiones acutissimae simul, &amp; doctissimae.
+   </p>
+            <p xml:id="olm8ij-g10001-d1e130">
+      <!--0330.xml-->
+               <cb ed="#R" n="b"/>
+               <lb ed="#R" n="10"/>DISTINCTIO PRIMA. 
+      </p>
+            <p xml:id="olm8ij-g10001-d1e139">
+               <lb ed="#R" n="11"/>AD euidentiam totius Distinctionis primo, &amp; praecipue est possibilitas 
+      <lb ed="#R" n="12"/>Incarnationis. Circa istum tertium librum, quaero primo decem 
+      <lb ed="#R" n="13"/>Quaestiones, quarum prima ad vnionem in generali pertinet. Et 
+      <lb ed="#R" n="14"/>est quaestio prima. 
+      </p>
+            <p xml:id="olm8ij-g10001-d1e150">
+               <lb ed="#R" n="15"/>Diuisio Quaestionum Distinctionis Primae.
+      </p>
+            <p xml:id="olm8ij-g10001-d1e156">
+      <!--0330.xml-->
+               <cb ed="#R" n="c"/>
+               <lb ed="#R" n="16"/>QVAESTIO PRIMA. 
+      </p>
+            <p xml:id="olm8ij-g10001-d1e165">
+               <lb ed="#R" n="17"/>De Vnione in genere. 
+      <lb ed="#R" n="18"/>Vtrum possibile sit aliqua sic vniri, quod inter 
+      <lb ed="#R" n="19"/>illa non sit alia vnitas, nisi byppstatica. 
+      </p>
+            <p xml:id="olm8ij-g10001-d1e174">
+               <lb ed="#R" n="20"/>QVAESTIO II. 
+      <lb ed="#R" n="21"/>De natura assumpta. 
+      </p>
+            <p xml:id="olm8ij-g10001-d1e181">
+               <lb ed="#R" n="22"/>I Vtrum naturam singularem de genere 
+      sub<lb ed="#R" n="23" break="no"/>stantiae sit possibile vniri alteri naturae. 
+      <lb ed="#R" n="24"/>a Vtrum omnem naturam de genere substantiae 
+      <lb ed="#R" n="25"/>sit possibile alteri vniri hyposatica vnione. 
+      <lb ed="#R" n="26"/>3 Vtrum omnem naturam de genere accidentis 
+      <lb ed="#R" n="27"/>sit possibile alteri vniri bypostatice. 
+      </p>
+            <p xml:id="olm8ij-g10001-d1e197">
+               <lb ed="#R" n="28"/>QVAESTIOIII. 
+      <lb ed="#R" n="29"/>De persona assumente. 
+      </p>
+            <p xml:id="olm8ij-g10001-d1e204">
+      <!--0330.xml-->
+               <cb ed="#R" n="d"/>
+               <lb ed="#R" n="30"/>IVtrum vnionem hypostaticam naturae creatae 
+      <lb ed="#R" n="31"/>sit possibile terminari ad diuinum suppositum. 
+      <lb ed="#R" n="32"/>2 Vtrum sit possibile talem vnionem termina ri 
+      <lb ed="#R" n="33"/>ad suppositum naturae creatae. 
+      <lb ed="#R" n="34"/>3 Vtrum sit possibile praedictam vnionem termi 
+      <lb ed="#R" n="35"/>nari ita ad vnum suppositum in diuinis, quod 
+      <lb ed="#R" n="36"/>non ad aliud. 
+      <lb ed="#R" n="37"/>4 Vtrum vnio naturae creatae possit terminari 
+      <lb ed="#R" n="38"/>ad suppositum alterius naturae creatae. 
+      </p>
+            <p xml:id="olm8ij-g10001-d1e231">
+               <lb ed="#R" n="39"/>QVAESTIO IIII. 
+      <lb ed="#R" n="40"/>De comparatione naturae ad personam. 
+      <lb ed="#R" n="41"/>I Vtrum sit possibile vnam naturam vniri plu 
+      <lb ed="#R" n="42"/>ribus suppositis. 
+      <lb ed="#R" n="43"/>a Vtrum sit possibile plures naturas vniri eidem 
+      <lb ed="#R" n="44"/>supposito in di uinis vnione hypostatica. 
+      <lb ed="#R" n="45"/>3 Vltimo quaeram de facto. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

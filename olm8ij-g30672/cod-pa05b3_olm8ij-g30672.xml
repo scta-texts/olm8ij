@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-04-14">April 14, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b3">Roma 1605, Book 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-14" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="420"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-g30672"><!-- l3-d13q3 -->
+            <head xml:id="olm8ij-g30672-Hd1e101">Quaestio 3</head>
+            <p xml:id="olm8ij-g30672-d1e103">
+               <lb ed="#R" n="33"/>Quaestio JJJ.
+      </p>
+            <div xml:id="olm8ij-g30672-Dd1e108">
+               <head xml:id="olm8ij-g30672-Hd1e110">Articulus 1</head>
+               <head xml:id="olm8ij-g30672-Hd1e112" type="question-title">
+           Verum anima Christi per gradus suorum naturalium aliquid operetur ad eliciendum actum beatificum
+         </head>
+               <p xml:id="olm8ij-g30672-d1e115">
+                  <lb ed="#R" n="34"/>ARTJCVLVS VNJCVS. 
+      <lb ed="#R" n="35"/>Verum anima Christi per gradus suorum 
+      natu<lb ed="#R" n="36" break="no"/>ralium aliquid operetur ad eliciendum 
+      <lb ed="#R" n="37"/>actum beatificum 
+      </p>
+               <p xml:id="olm8ij-g30672-d1e126">
+                  <lb ed="#R" n="38"/>ARGVO primo, quod 
+      <lb ed="#R" n="39"/>sic: Potentia eiusdem 
+      <lb ed="#R" n="40"/>rationis in omnibus 
+      vir<lb ed="#R" n="41" break="no"/>tutibus suis habet 
+      vni<lb ed="#R" n="42" break="no"/>formem modum agendi, 
+      <lb ed="#R" n="43"/>hoc patet in quaestione 
+      <lb ed="#R" n="44"/>qua determinaui, quod 
+      <lb ed="#R" n="45"/>potentia distinguitur po 
+      <lb ed="#R" n="46"/>tissime penes formalem 
+      <lb ed="#R" n="47"/>alium modum agendi, &amp; ferendi in obiectum: 
+      <lb ed="#R" n="48"/>sed intellectus alia intellectione per gradum suum 
+      <lb ed="#R" n="49"/>operatur aliquid: ergo pari ratione in actum 
+      se<lb ed="#R" n="50" break="no"/>cundum beatificum. 
+      </p>
+               <p xml:id="olm8ij-g30672-d1e157">
+                  <lb ed="#R" n="51"/>Item: Anima Christi habet susceptiuum 
+      respe<lb ed="#R" n="52" break="no"/>ctu actus beatifici: ergo, &amp; actionem. Antecedens 
+      <lb ed="#R" n="53"/>patet, probo consequentiam, quia respectu cuius 
+      <lb ed="#R" n="54"/>per intellectum possibilem est in potentia 
+      recepti<lb ed="#R" n="55" break="no"/>ua, per intellectum agentem est in potentia actiua, 
+      <lb ed="#R" n="56"/>vt dicitur 3. de anima. Intellectus possibilis est, 
+      <lb ed="#R" n="57"/>qui est omnia fieri, &amp; agens. qui est omnia facere. 
+      </p>
+               <p xml:id="olm8ij-g30672-d1e176">
+                  <lb ed="#R" n="58"/>Item: actus materialis procedit a principio 
+      vi<lb ed="#R" n="59" break="no"/>tali: sed actus beatificus est summe vitalis: ergo. 
+      <lb ed="#R" n="60"/>Sed si concurrunt intellectus, &amp; lumen gloriae, 
+      in<lb ed="#R" n="61" break="no"/>tellectus se habet per modum principij vitalis, non 
+      <lb ed="#R" n="62"/>lumen gloriae: ergo.
+      </p>
+               <p xml:id="olm8ij-g30672-d1e189">
+      <!--0422.xml-->
+                  <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="63"/>Item: Quicquid sic habet actum per aliquod 
+      ad<lb ed="#R" n="64" break="no"/>ditum, quod per se nullo modo potest, illud dat 
+      <lb ed="#R" n="65"/>sibi esse potestatiuum simpliciter: sed omne 
+      tale<lb ed="#R" n="66" break="no"/>est formaliter potentia, quod dat formaliter 
+      pos<lb ed="#R" n="67" break="no"/>se, &amp; cum beatitudo consistat in potentia 
+      forma<lb ed="#R" n="68" break="no"/>liter, ille, vel idem habitus poterit bearificari. 
+      </p>
+               <p xml:id="olm8ij-g30672-d1e209">
+                  <lb ed="#R" n="69"/>Contra, si anima Christi per motum suorum 
+      na<lb ed="#R" n="70" break="no"/>turalium operatur ad eliciendum actum 
+      beatifi<lb ed="#R" n="71" break="no"/>cum, pari ratione &amp; omnes aliae. Consequentia 
+      <lb ed="#R" n="72"/>patet, quia omnis anima est eiusdem rationis, 
+      con<lb ed="#R" n="73" break="no"/>sequens est falsum, probo, quia non sequitur, quod 
+      <lb ed="#R" n="74"/>dispares in merito possint aequari in praemio. 
+      Pro<lb ed="#R" n="75" break="no"/>bo sic: Vna vetula, quae meruit dupliciter, quam 
+      <lb ed="#R" n="76"/>Philosophus aliquis, &amp; Philosophus habeat in 
+      du<lb ed="#R" n="77" break="no"/>plo meliora naturalia, quam vetula, tunc si 
+      in<lb ed="#R" n="78" break="no"/>tensio actus est ex intensione naturalium, excessus 
+      <lb ed="#R" n="79"/>naturalium Philosophi faciet, &amp; aequabit actum 
+      <lb ed="#R" n="80"/>beatificum, quod est praemium meriti illius 
+      ve<lb ed="#R" n="81" break="no"/>tulae. Item ex eodem sequitur, quod pares in 
+      me<lb ed="#R" n="82" break="no"/>rito, dum naturalia non sint aequalia, sint dispares 
+      <lb ed="#R" n="83"/>in praemio. 
+      </p>
+               <p xml:id="olm8ij-g30672-d1e244">
+                  <lb ed="#R" n="84"/>Item: tunc Christus non posset elicere summum 
+      <lb ed="#R" n="85"/>actum gloriae, quia Angelus eo, quod habeat 
+      me<lb ed="#R" n="86" break="no"/>liora naturalia, poterit elicere actum intensiorem: 
+      <lb ed="#R" n="87"/>hoc autem probaui quaestione praecedenti. 
+      </p>
+               <p xml:id="olm8ij-g30672-d1e255">
+                  <lb ed="#R" n="88"/>Respondeo. Istam quaestionem induco propter 
+      <lb ed="#R" n="89"/>lumen, quod pono. Dico hic quinque conclusiones. 
+      </p>
+               <p xml:id="olm8ij-g30672-d1e262">
+                  <lb ed="#R" n="90"/>Prima Conclusio est, quod oportet ponere 
+      ha<lb ed="#R" n="91" break="no"/>bitum ad eliciendum actum: non ad suscipiendum. 
+      <lb ed="#R" n="92"/>Secundo, quod intellectus actum beatificum 
+      eli<lb ed="#R" n="93" break="no"/>cit, non solum suscipit. Tertio, quod totum actum 
+      <lb ed="#R" n="94"/>elicit mediante isto lumine. Quarto, quod 
+      acti<lb ed="#R" n="95" break="no"/>uitatem istam habitus, seu luminis non potest 
+      sup<lb ed="#R" n="96" break="no"/>plere. Quinto est de proposito, quod gradus actus 
+      <lb ed="#R" n="97"/>debet mensurari gradu istius luminis solum. 
+      </p>
+               <p xml:id="olm8ij-g30672-d1e283">
+                  <lb ed="#R" n="98"/>Circa primum dico, quod anima respectu actus 
+      <lb ed="#R" n="99"/>beatifici se habet elicitiue, &amp; susceptiue, vnde 
+      ima<lb ed="#R" n="100" break="no"/>ginor, quod respectu actus suscipiendi sit 
+      necessa<lb ed="#R" n="101" break="no"/>rius iste habitus; quia non oportet ponere illud 
+      <lb ed="#R" n="102"/>respectu actus imperfectioris, tanquam me dians 
+      <lb ed="#R" n="103"/>inter actum, &amp; potentiam, vt patet de actu 
+      prae<lb ed="#R" n="104" break="no"/>cedente habitum: ergo pari ratione, nec in actu 
+      per<lb ed="#R" n="105" break="no"/>fectissimo, quia potentia est eiusdem rationis, actus 
+      <lb ed="#R" n="106"/>perfectus, &amp; imperfectus sunt eiusdem rationis. 
+      </p>
+               <p xml:id="olm8ij-g30672-d1e305">
+                  <lb ed="#R" n="107"/>Item: vltimata perfectio potentiae media tius 
+      <lb ed="#R" n="108"/>perficit ipsum: ergo: sed actus beatificus est 
+      per<lb ed="#R" n="109" break="no"/>fectio potentiae: ergo. Item terminato actiuo, &amp; 
+      <lb ed="#R" n="110"/>passiuo, si ab actiuo minus efficaci passionem 
+      im<lb ed="#R" n="111" break="no"/>mediate patitur, multo magis ab actiuo magis 
+      ef<lb ed="#R" n="112" break="no"/>ficaci passiuum immediate patitur, nec vt sic 
+      indi<lb ed="#R" n="113" break="no"/>get habitu, vt patet, quando intelligit aliquid de 
+      <lb ed="#R" n="114"/>nouo: ergo non indiget intellectus habitu, vt 
+      su<lb ed="#R" n="115" break="no"/>scipiat visionem. Si pono autem intellectum 
+      acti<lb ed="#R" n="116" break="no"/>uum, vt quod specie informatus elicit actum, 
+      ne<lb ed="#R" n="117" break="no"/>cessario, tunc indiget habitu ad eliciendum, &amp; hoc 
+      <lb ed="#R" n="118"/>probo per quatuor rationes. Primo sic: Potentia, 
+      <lb ed="#R" n="119"/>quae sine vigore non potest in minus, non potestt 
+      si<lb ed="#R" n="120" break="no"/>ne vigore in maius: sed potentia intellecciua, si 
+      po<lb ed="#R" n="121" break="no"/>test in minus, quam diuina essentia sine vigore: ergo. 
+      <lb ed="#R" n="122"/>&amp; in maius. Maior patet, quia si ex debilitate non 
+      <lb ed="#R" n="123"/>potes portare decem libras, multo minus viginti. 
+      <lb ed="#R" n="124"/>Probo minorem, quia secundum Commentatorem 3. 
+      <lb ed="#R" n="125"/>de anima. comm. 36. &amp; lib. de beat. anim. cap. 3. 
+      <lb ed="#R" n="126"/>Intellectus ex sui debilitate non potest in 
+      Intelli<lb ed="#R" n="127" break="no"/>gentias separatas per se. Et a. Metaph. in tali sua 
+      <lb ed="#R" n="128"/>debilitate caligat circa maxime intelligibilia. 
+      <lb ed="#R" n="129"/>Jdeo respectu Intelligentiarum indiget intellectus 
+      <!--0423.xml-->
+      <pb ed="#R" n="421"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>vigore, &amp; lumine, vnde &amp; notitiam 
+      intelligentia<lb ed="#R" n="2" break="no"/>rum habere non possumus, nisi per 
+      demonstratio<lb ed="#R" n="3" break="no"/>nem, quia sunt altioris ordinis, &amp; sic egemus 
+      vi<lb ed="#R" n="4" break="no"/>gore, quia sortificari circa alia intelligibilia hoc 
+      <lb ed="#R" n="5"/>Commentator 3. de anima. 
+      </p>
+               <p xml:id="olm8ij-g30672-d1e375">
+                  <lb ed="#R" n="6"/>Aliqui tamen dixerunt, quod naturaliter 
+      pos<lb ed="#R" n="7" break="no"/>sumus attingere notitiam earum: Fides autem 
+      te<lb ed="#R" n="8" break="no"/>net, quod non: sed tantummodo dono Dei 
+      possu<lb ed="#R" n="9" break="no"/>sumus intelligere substantias separatas, vt 
+      glorifi<lb ed="#R" n="10" break="no"/>cati. Patet minor: Tunc sequitur, quod si in 
+      sub<lb ed="#R" n="11" break="no"/>stantias separatas non potest intellectus absque 
+      <lb ed="#R" n="12"/>vigore pertingere, multo minus in diuinam 
+      essen<lb ed="#R" n="13" break="no"/>tiam. Secunda ratio sic: Si simpliciter ad 
+      simpli<lb ed="#R" n="14" break="no"/>citer, &amp; magis ad magis, &amp; maxime ad maxime: 
+      <lb ed="#R" n="15"/>si ergo intellectus respectu simplicis intelligibilis 
+      <lb ed="#R" n="16"/>indiget habitu, respectu maioris intelligibilis 
+      <lb ed="#R" n="17"/>maiori vigore, &amp; respectu maximi, maximo: sed 
+      <lb ed="#R" n="18"/>in tale respectu simplicis intelligibilis indiget 
+      vi<lb ed="#R" n="19" break="no"/>gore, &amp; respectu fortioris fortiore. 
+      </p>
+               <p xml:id="olm8ij-g30672-d1e408">
+                  <lb ed="#R" n="20"/>Dicet, quod intellectus indiget vigore respectu 
+      <lb ed="#R" n="21"/>simplicis intelligibilis; sed iste vigor est 
+      genera<lb ed="#R" n="22" break="no"/>tionis potentiae, non aliquid additum ad 
+      poten<lb ed="#R" n="23" break="no"/>tiam: sed idem quod potentia in tali gradu. 
+      </p>
+               <p xml:id="olm8ij-g30672-d1e419">
+                  <lb ed="#R" n="24"/>Contra: sequitur, quod habens debilem 
+      intelle<lb ed="#R" n="25" break="no"/>ctum nunquam possit eleuari ad summum 
+      intelli<lb ed="#R" n="26" break="no"/>gibile, quia potentia non potest mutari. 
+      </p>
+               <p xml:id="olm8ij-g30672-d1e428">
+                  <lb ed="#R" n="27"/>Item: tunc ex studio non vigoraretur 
+      intelle<lb ed="#R" n="28" break="no"/>ctus, &amp; per consequens non delecabitur, quod 
+      ap<lb ed="#R" n="29" break="no"/>paret manifeste falsum. Et confirmatur ratio 6. 
+      <lb ed="#R" n="30"/>Moralium Nichomachiorum, vbi dicit, quod puer 
+     
+      <lb ed="#R" n="31"/>non potest fieri Philosophus, seu medicus ex 
+      debi<lb ed="#R" n="32" break="no"/>litate intellectus, cuius ratio est, quia non tanta 
+      <lb ed="#R" n="33"/>eleuatione indiget potentia 1. metaphysicae, 
+      respe<lb ed="#R" n="34" break="no"/>ctu philosophiae, vnde entia abstracta maiori 
+      vi<lb ed="#R" n="35" break="no"/>gore, quam concreta indigent metaphysica; eo quod 
+      <lb ed="#R" n="36"/>sunt multum imaginabilia. Hoc idem confirmatur 
+      <lb ed="#R" n="37"/>ex Euangelio Ioannis 12. Ambulate, dum 
+      modi<lb ed="#R" n="38" break="no"/>cum lumen in vobis est: ergo gradus ille non est 
+      ip<lb ed="#R" n="39" break="no"/>sa potentia, vt dicebas. 
+      </p>
+               <p xml:id="olm8ij-g30672-d1e460">
+                  <lb ed="#R" n="40"/>Item: quando aliqua potentia habet in 
+      pote<lb ed="#R" n="41" break="no"/>state duos actus, quorum vnus est alio altior, 
+      indi<lb ed="#R" n="42" break="no"/>get maiori vigore respectu altioris, probo, quia 
+      <lb ed="#R" n="43"/>Philosophus 1. de caelo, &amp; mundo, dicit, quod 
+      vir<lb ed="#R" n="44" break="no"/>tus est vltimum de potentia: ergo respectu altioris 
+      <lb ed="#R" n="45"/>oportet ponere vigorem altiorem: sed intelligibi. 
+      <lb ed="#R" n="46"/>lis habet actum circa separata a materia, &amp; circa 
+      <lb ed="#R" n="47"/>communia materiae, &amp; primum altius est, scilicet, 
+      <lb ed="#R" n="48"/>qui circa separata altior, quam qui circa non 
+      se<lb ed="#R" n="49" break="no"/>parata. Hoc probatur, quia actus mensuratur 
+      obie<lb ed="#R" n="50" break="no"/>cto; obiectum antem separatorum est altius, quam 
+      <lb ed="#R" n="51"/>non separatorum. 
+      </p>
+               <p xml:id="olm8ij-g30672-d1e489">
+                  <lb ed="#R" n="52"/>Dicit, quod ratio non concludit, quia respectu 
+      <lb ed="#R" n="53"/>altissimi obiecti potest esse actus imperfectus, &amp; sic 
+      <lb ed="#R" n="54"/>saltem, vt sic, non indiget vigore. 
+      </p>
+               <p xml:id="olm8ij-g30672-d1e498">
+                  <lb ed="#R" n="55"/>Contra: Si dico, quod modicus actus, siue 
+      quan<lb ed="#R" n="56" break="no"/>tumcunque imperfectus circa illud est maior 
+      quo<lb ed="#R" n="57" break="no"/>cunque actu intensissimo circa alia, vt modicus 
+      <lb ed="#R" n="58"/>actus circa substantiam separatam est maior 
+      quo<lb ed="#R" n="59" break="no"/>cunque actu circa ista sensibilia: qui dicit, quod isti 
+      <lb ed="#R" n="60"/>actus sunt alterius rationis, &amp; ideo in talibus 
+      ra<lb ed="#R" n="61" break="no"/>tio non valet. Dico, quod sunt alterius speciei, 
+      <lb ed="#R" n="62"/>sicut obiecta, &amp; habitus secundum adgenerari per 
+      <lb ed="#R" n="63"/>tales actus. Sed propter hoc non sunt alterius 
+      ra<lb ed="#R" n="64" break="no"/>tionis, quia est aliud esse alterius speciei, &amp; 
+      alte<lb ed="#R" n="65" break="no"/>rius rationis, non omnia, quae aspiciuntur a 
+      po<lb ed="#R" n="66" break="no"/>tentia sub vna ratione generali, sunt eiusdem 
+      ra<lb ed="#R" n="67" break="no"/>tionis, &amp; potentia intellectiua reipectu intelligen- 
+      <!--0423.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>tiarum non est, vt dicitur albedo respectu 
+      poten<lb ed="#R" n="69" break="no"/>tiae visiuae: ergo oportet, quod habeat vigorem 
+      <lb ed="#R" n="70"/>additum 
+      </p>
+               <p xml:id="olm8ij-g30672-d1e540">
+                  <lb ed="#R" n="71"/>Modo arguo experientia. Intellectus noster 
+      in<lb ed="#R" n="72" break="no"/>diget acumine addito potentiae, quia quanto 
+      intel<lb ed="#R" n="73" break="no"/>lectus noster est acutior, tanto potest in obiectum 
+      <lb ed="#R" n="74"/>altius: ergo necessario requiritur acumen additum, 
+      <lb ed="#R" n="75"/>&amp; illud non est idem cum potentia. Dicis, quod 
+      <lb ed="#R" n="76"/>imo per studium fit homo acutior, tamen manet 
+      <lb ed="#R" n="77"/>idem intellectus. Item; perditur cessante studio: 
+      <lb ed="#R" n="78"/>ergo est aliud a potentia: tunc, vel est aliquid, 
+      <lb ed="#R" n="79"/>vel nihil: non nihil, quia acquiritur per actus: 
+      er<lb ed="#R" n="80" break="no"/>go est aliquid: sed illud non est ipsa potentia, quia 
+      <lb ed="#R" n="81"/>stante potentia destruitur: ergo. Modo nihil 
+      ca<lb ed="#R" n="82" break="no"/>pio per acumen, nisi vigorem, quia sunt duo 
+      Sy<lb ed="#R" n="83" break="no"/>nonima: ergo concludo, quod respectu summi 
+      <lb ed="#R" n="84"/>obiecti requiritur vigor, dico tunc quod non 
+      re<lb ed="#R" n="85" break="no"/>quiritur propter facilitatem actus, nec propter 
+      <lb ed="#R" n="86"/>suscipere: se d potentia respectu summi 
+      intelligi<lb ed="#R" n="87" break="no"/>bilis indiget vigore, qui vigor respectu summi 
+      in<lb ed="#R" n="88" break="no"/>telligibilis non acquiritur ex actibus, sed est mere 
+      <lb ed="#R" n="89"/>donum Dei immediate, vt tali vigore potentia sit 
+      <lb ed="#R" n="90"/>immediate in esse vigorato, &amp; potestatiuo. 
+      </p>
+               <p xml:id="olm8ij-g30672-d1e586">
+                  <lb ed="#R" n="91"/>Ad videndum autem propositum dictae quaestionis, 
+      <lb ed="#R" n="92"/>pono vnum notabile. Dico, quod in actu sunt duo, 
+      <lb ed="#R" n="93"/>substantia, &amp; actus, &amp; gradualitas, vt tantus, vel 
+      <lb ed="#R" n="94"/>tantus: ergo potentia, vt potentia respicit actum 
+      <lb ed="#R" n="95"/>quo ad substantiam, &amp; rationem ipsius, sed non 
+      <lb ed="#R" n="96"/>quantum ad gradum, quia gradus est omnino a 
+      <lb ed="#R" n="97"/>vigore addito: ergo ad actum concurrunt duo 
+      sub<lb ed="#R" n="98" break="no"/>stantia, &amp; ratio actus, &amp; gradus. &amp; non 
+      imagi<lb ed="#R" n="99" break="no"/>nor, quod ista sint duo, sed tantummodo duae 
+      ra<lb ed="#R" n="100" break="no"/>tiones eiusdem actus: ita quod actus sub vna 
+      ra<lb ed="#R" n="101" break="no"/>tione est a potentia, sub alia a vigore illius 
+      addi<lb ed="#R" n="102" break="no"/>to, &amp; ideo potentia respectu gradus actus 
+      indi<lb ed="#R" n="103" break="no"/>get illo. Et confirmatur, quia modo non respicit, 
+      <lb ed="#R" n="104"/>vt sic, nisi videre, sed tantum, vel tantum 
+      vide<lb ed="#R" n="105" break="no"/>re, non est a visione vt visio, vel a potentia visiua, 
+      <lb ed="#R" n="106"/>vt sic: sed ex aliquo alio, vt in aquila tantum 
+      <lb ed="#R" n="107"/>videre non est ex parte potentiae simpliciter, sed 
+      <lb ed="#R" n="108"/>ex aliqua qualitate, quam habet Aquila in maiori 
+      <lb ed="#R" n="109"/>perfectione. 
+      </p>
+               <p xml:id="olm8ij-g30672-d1e630">
+                  <lb ed="#R" n="110"/>Item: potentia motiua solum aspicit motum, sed 
+      <lb ed="#R" n="111"/>tantum, &amp; tantum qui est a vigore: sed moueri est 
+      <lb ed="#R" n="112"/>ex alia dispositione de secunda specie qualitatis: 
+      <lb ed="#R" n="113"/>sic ergo potentia intellectiua aspicit actum, qui 
+      <lb ed="#R" n="114"/>est intelligere, sed tantum, vel tantum est a 
+      vi<lb ed="#R" n="115" break="no"/>gore. 
+      </p>
+               <p xml:id="olm8ij-g30672-d1e647">
+                  <lb ed="#R" n="116"/>Ita quod actus dependet a potentia, quia 
+      nun<lb ed="#R" n="117" break="no"/>quam sine potentia esset actus, &amp; actus in tali 
+      gra<lb ed="#R" n="118" break="no"/>du dependet a potentia cum vigore, sine quibus 
+      <lb ed="#R" n="119"/>non esset actus, vt creatus. Actus ergo, &amp; gradus 
+      <lb ed="#R" n="120"/>idem sunt: sed capio aliam rationem, vt capio 
+      <lb ed="#R" n="121"/>actum in tali gradu, &amp; sicut ex parte actus sunt 
+      <lb ed="#R" n="122"/>duae rationes, sic requiruntur duo a parte 
+      poten<lb ed="#R" n="123" break="no"/>tiae, scilicet substantia potentiae, &amp; vigor additus. 
+      <lb ed="#R" n="124"/>Sed in isto, aut illo vigor est eiusdem rationis cum 
+      <lb ed="#R" n="125"/>potentia, aut alterius: si eiusdem, tunc tantum 
+      <lb ed="#R" n="126"/>posset potentia in re vigorari, &amp; posset sumi illo 
+      <lb ed="#R" n="127"/>in actu tantum: si alterius rationis: Contra, tunc 
+      <lb ed="#R" n="128"/>erunt duae causalitates alterius rationis respectu 
+      <lb ed="#R" n="129"/>vnius actus, &amp; sic potentia habebit suam 
+      causali<lb ed="#R" n="130" break="no"/>tatem respectu actus in tali gradu, quod negas. 
+      </p>
+               <p xml:id="olm8ij-g30672-d1e682">
+                  <lb ed="#R" n="131"/>Dico, quod non sunt eiusdem, sed sicut ad 
+      vi<lb ed="#R" n="132" break="no"/>dendum requiritur lumen non propter medium, 
+      <lb ed="#R" n="133"/>vel obiectum, sed propter potentiam; sic 
+      requiri<lb ed="#R" n="134" break="no"/>tur vigor propter confurtationem potentiae: &amp; li- 
+      <!--0424.xml-->
+      <pb ed="#R" n="422"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>cet sint duo, habent tamen rationem vnius agentis: 
+      <lb ed="#R" n="2"/>sed ad gradualitatem non fertur potentia per se 
+      <lb ed="#R" n="3"/>sine vigore. 
+      </p>
+               <p xml:id="olm8ij-g30672-d1e706">
+                  <lb ed="#R" n="4"/>Dicis: obiectum est clarissimum: ergo. Dico, 
+      <lb ed="#R" n="5"/>quod non requiritur vigor propter obiectum: sed 
+      <lb ed="#R" n="6"/>propter potentiam, sicut licet sol sit clarissimus, 
+      <lb ed="#R" n="7"/>tamen requiritur vigor eleuans potentiam, vt 
+      aqui<lb ed="#R" n="8" break="no"/>la habet acumen visus, in sensibilibus bene 
+      requiri<lb ed="#R" n="9" break="no"/>tur lumen propter obiestum, sed hic propter 
+      vigo<lb ed="#R" n="10" break="no"/>rationem potentiae: semper ergo requiritur aliud 
+      <lb ed="#R" n="11"/>praeter potentiam, vel lumen, vel acumen, &amp; 
+      huius<lb ed="#R" n="12" break="no"/>modi, quo taxatur gradus in actu. Et sicut dixi de 
+      <lb ed="#R" n="13"/>intellectu, dico de voluntate, nam respectu 
+      obie<lb ed="#R" n="14" break="no"/>cti summe diligibilis indiget vigore, quem voco 
+      cha<lb ed="#R" n="15" break="no"/>ritatem vnam, &amp; est eiusdem rationis cum ista, quae 
+      <lb ed="#R" n="16"/>est in via. 
+      </p>
+               <p xml:id="olm8ij-g30672-d1e737">
+                  <lb ed="#R" n="17"/>Nunc probo secundam conclusionem. Suppono 
+      <lb ed="#R" n="18"/>enim, quod potentia intellectiua aliquorum se 
+      ha<lb ed="#R" n="19" break="no"/>beat actiue eliciendo, &amp; passiue. Tunc potentia 
+      <lb ed="#R" n="20"/>intellectiua est eiusdem rationis respectu omnium, 
+      <lb ed="#R" n="21"/>sed respectu aliquorum se habet elicitiue, &amp; 
+      passi<lb ed="#R" n="22" break="no"/>ue: ergo &amp; respectu actus beatifici, quia cadit sub 
+      <lb ed="#R" n="23"/>potentia eodem modo, sicut &amp; alij, quia 
+      poten<lb ed="#R" n="24" break="no"/>tia vniformiter comparatur ad omnes actus suos. 
+      </p>
+               <p xml:id="olm8ij-g30672-d1e757">
+                  <lb ed="#R" n="25"/>Nunc probo tertiam declarationem sic. Sed 
+      di<lb ed="#R" n="26" break="no"/>cunt aliqui secundum istum actum non potest 
+      ani<lb ed="#R" n="27" break="no"/>ma de se sine assistentia Dei. Contra: Intellectus, 
+      <lb ed="#R" n="28"/>quicquid potest capere susceptiue, potest elicere 
+      <lb ed="#R" n="29"/>actiue, quod respectu omnium respectu quorum 
+      <lb ed="#R" n="30"/>est quo fieri, respectu eorundem est quo facere: sed 
+      <lb ed="#R" n="31"/>intellectus sine speciali actu &amp; assistentia: ergo 
+      po<lb ed="#R" n="32" break="no"/>test actum quemlibet recipere: ergo. Quia est 
+      <lb ed="#R" n="33"/>immediatum perfectibile a quocunque obiecto: 
+      <lb ed="#R" n="34"/>ergo. 
+      </p>
+               <p xml:id="olm8ij-g30672-d1e781">
+                  <lb ed="#R" n="35"/>Dicis, quod minor est falsa, &amp; probabis sic. 
+      In<lb ed="#R" n="36" break="no"/>tellectus cuiuslibet ad plus se extendit per 
+      poten<lb ed="#R" n="37" break="no"/>tiam obed ientialem, quam per potentiam 
+      natura<lb ed="#R" n="38" break="no"/>lem: Sed altiorem actum non potest Deus elicere 
+      <lb ed="#R" n="39"/>in anima Christi, quam per potentiam 
+      obedientia<lb ed="#R" n="40" break="no"/>lem: ergo iste actus non est in potentia naturali 
+      su<lb ed="#R" n="41" break="no"/>sceptiua 
+      </p>
+               <p xml:id="olm8ij-g30672-d1e800">
+                  <lb ed="#R" n="42"/>Dico, quod anima Christi non potest in istum 
+      <lb ed="#R" n="43"/>actum naturaliter sine lumine, &amp; illud voco 
+      po<lb ed="#R" n="44" break="no"/>tentiam obedientialem, prout tale lumen est 
+      su<lb ed="#R" n="45" break="no"/>pernaturale. 
+      </p>
+               <p xml:id="olm8ij-g30672-d1e811">
+                  <lb ed="#R" n="46"/>Sequitur quarta Conclusio, &amp; probo eam. 
+      Fa<lb ed="#R" n="47" break="no"/>cio autem talem rationem. Quando duae 
+      ratio<lb ed="#R" n="48" break="no"/>nes actiue concurrunt ad eundem actum, non sicut 
+      <lb ed="#R" n="49"/>ambae actiuae, vel non sicut agens cum agente: 
+      <lb ed="#R" n="50"/>sed vnum vt agens alio, aliud quod non potest 
+      es<lb ed="#R" n="51" break="no"/>se alterius, non potest supplere illud, quo illud 
+      <lb ed="#R" n="52"/>agens agit, sit exemplum: Jgnis, &amp; calor 
+      concur<lb ed="#R" n="53" break="no"/>runt ad effectum non vt duo agentia, sed ignis, 
+      <lb ed="#R" n="54"/>vt quod, calor vt quo. Sic etiam est forte de 
+      in<lb ed="#R" n="55" break="no"/>tellectu, &amp; specie respectu actus, vt intellectus agit 
+      <lb ed="#R" n="56"/>specie, non agit autem species tantum illud, quod 
+      <lb ed="#R" n="57"/>non potest esse alterius, vt informans non potest 
+      <lb ed="#R" n="58"/>supplere vicem caloris, vel si esset separatum, iam 
+      <lb ed="#R" n="59"/>agens non ageret illo. Sic lumen, &amp; potentia 
+      con<lb ed="#R" n="60" break="no"/>currunt ad actum beatificum non vt agens, &amp; agens: 
+      <lb ed="#R" n="61"/>sed potentia, vt agens lumine, quia intellectus 
+      <lb ed="#R" n="62"/>videret per lumen: ergo. Tunc vlterius; sed Deus 
+      <lb ed="#R" n="63"/>non potest esse alterius intrinsece: ergo: ergo 
+      in<lb ed="#R" n="64" break="no"/>te llectus non creat per Deum, vel Deo, quia 
+      om<lb ed="#R" n="65" break="no"/>ne tale generaliter est alterius forma, &amp; eodem 
+      <lb ed="#R" n="66"/>modo Deus non potest supplere vicem speciei, quia 
+      <lb ed="#R" n="67"/>intellectus agit ipsa specie. 
+    </p>
+               <p xml:id="olm8ij-g30672-d1e861">
+      <!--0424.xml-->
+                  <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>Quinta: Intellectus nobilior in naturalibus cum 
+      <lb ed="#R" n="69"/>aequali lumine eliciat actum intensiorem. Dico, 
+      <lb ed="#R" n="70"/>quod per gradum naturalium, vel potentiam 
+      in<lb ed="#R" n="71" break="no"/>trinsece intelligis, vel acumen, qui debetur 
+      natu<lb ed="#R" n="72" break="no"/>raliter, nec natura altiorem sequitur vigor altior, 
+      <lb ed="#R" n="73"/>&amp; iste vocatur vigor naturae, vt sic illud sit intra 
+      <lb ed="#R" n="74"/>facultatem potentiae, in quod potest potentia per 
+      <lb ed="#R" n="75"/>istum vigorem attingere, &amp; supra facultatem 
+      <lb ed="#R" n="76"/>quandonon potest, &amp; est, vt mathematicus ad 
+      ma<lb ed="#R" n="77" break="no"/>thematicam non pertingit, nisi per studium 
+      ac<lb ed="#R" n="78" break="no"/>quirat sibi vigorem istum; tunc dico, quod ad 
+      <lb ed="#R" n="79"/>elicere actum operatur, &amp; dependet Philosophus: 
+      <lb ed="#R" n="80"/>sed elicere tantum, vel tantum non dependet ex 
+      <lb ed="#R" n="81"/>bonitate naturalium; sed illo vigore, &amp; hoc 
+      pro<lb ed="#R" n="82" break="no"/>bo sic. Quando duae actiones habent duas causas, 
+      <lb ed="#R" n="83"/>intensio causae vnius non facit intensionem eius, 
+      <lb ed="#R" n="84"/>cuius non est causa. Sed actus, &amp; gradus habent 
+      <lb ed="#R" n="85"/>duas causas, scilicet potentiam, &amp; vigorem, ita 
+      <lb ed="#R" n="86"/>quod potentia aspicit actum, vigor gradum: 
+      er<lb ed="#R" n="87" break="no"/>go intensio naturalium potentiae non intendit 
+      gra<lb ed="#R" n="88" break="no"/>dum. Tunc: iste vigor fuit summus in Christo, &amp; 
+      <lb ed="#R" n="89"/>vocatur respectu intellectus lumen gloriae: 
+      respe<lb ed="#R" n="90" break="no"/>ctu autem voluntatis vocatur charitas meritoria 
+      <lb ed="#R" n="91"/>in summo gradu meritoria, &amp; istud fuit summum 
+      <lb ed="#R" n="92"/>in Christo; ita quod licet Angelus habeat 
+      melio<lb ed="#R" n="93" break="no"/>ra naturalia, tamen quia non habet tantum de 
+      <lb ed="#R" n="94"/>lumine, non habet actum gloriae in summo, vt 
+      <lb ed="#R" n="95"/>Christus. Ex hoc, quod licet Philosophus habeat 
+      <lb ed="#R" n="96"/>meliora naturalia, quam vetula, &amp; ista plus de 
+      <lb ed="#R" n="97"/>charitate, mensurabitur actus gloriae tali 
+      charita<lb ed="#R" n="98" break="no"/>te datus ex meritis. 
+      </p>
+               <p xml:id="olm8ij-g30672-d1e935">
+                  <lb ed="#R" n="99"/>Item: si Angeli, &amp; vetula habeant aequale 
+      meri<lb ed="#R" n="100" break="no"/>tum, habebunt aequalem actum propter aequale 
+      lu<lb ed="#R" n="101" break="no"/>men datum ex meritis. 
+      </p>
+               <p xml:id="olm8ij-g30672-d1e944">
+                  <lb ed="#R" n="102"/>Ad argumenta in oppositum. Ad primùm non 
+      <lb ed="#R" n="103"/>concedo, sed addo, vt dixi, quod potentia 
+      non<lb ed="#R" n="104" break="no"/>aspicit vt potentia gradum actus: sed quia actus 
+      <lb ed="#R" n="105"/>est eliciendus in tali gradu duo requiruntur ex 
+      par<lb ed="#R" n="106" break="no"/>te elicientis, scilicet potentia, &amp; vigor; ita quod 
+      <lb ed="#R" n="107"/>vigor nunquam posset actum elicere, nec potentia 
+      <lb ed="#R" n="108"/>actum in tali gradu. 
+      </p>
+               <p xml:id="olm8ij-g30672-d1e962">
+                  <lb ed="#R" n="109"/>Ad illud concedo, sed non oportet, quod 
+      gra<lb ed="#R" n="110" break="no"/>dus sumatur ex illo. 
+      </p>
+               <p xml:id="olm8ij-g30672-d1e970">
+                  <lb ed="#R" n="111"/>Ad aliud dico, quod actus vitalis est ab 
+      intelle<lb ed="#R" n="112" break="no"/>ctu, sed non gradualitas. Ad aliud dico, quod 
+      <lb ed="#R" n="113"/>vigor ponit in esse potestatiuo, quod homo non 
+      <lb ed="#R" n="114"/>habens, non potest in talem actum simpliciter, 
+      <lb ed="#R" n="115"/>sed post studium acquisito vigore potest: Vnde 
+      <lb ed="#R" n="116"/>quando ad effectum concurrunt duo, si effectus 
+      <lb ed="#R" n="117"/>sit in potentialitate inquantum ad vnum, non 
+      <lb ed="#R" n="118"/>quantum ad aliud, tunc totaliter non ponitur actus 
+      <lb ed="#R" n="119"/>in esse potestatiuo per illud, &amp; sic non ponit 
+      tale<lb ed="#R" n="120" break="no"/>lumem in esse potestatiuo simpliciter respectu actus 
+      <lb ed="#R" n="121"/>sed quoad gradum. Si autem daret simpliciter 
+      pos<lb ed="#R" n="122" break="no"/>se in substantiam actus, tunc necessario esset poten 
+      <lb ed="#R" n="123"/>tia, sed non ponit in esse potestatiuo respectu actus 
+      <lb ed="#R" n="124"/>simpliciter, sed in tali gradu. 
+      </p>
+               <p xml:id="olm8ij-g30672-d1e1003">
+                  <lb ed="#R" n="125"/>Dicit supra: est ergo potentia altior elicere 
+      sal<lb ed="#R" n="126" break="no"/>tem substantiam actus altiorem. Dico quod non, 
+      <lb ed="#R" n="127"/>quia ista altitudo accidens est substantiae alterius 
+      <lb ed="#R" n="128"/>magis, &amp; per consequens mensurabitur 
+      extrin<lb ed="#R" n="129" break="no"/>seco.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,1411 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-14">April 14, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b3">Roma 1605, Book 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-14" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="470"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-g47381"><!-- l3-d21q1 -->
+            <head xml:id="olm8ij-g47381-Hd1e101">Quaestio 1</head>
+            <!-- possibly praeambulum -->
+            <p xml:id="olm8ij-g47381-d1e105">
+               <lb ed="#R" n="5"/>DISTINCTIO XXI. 
+      <lb ed="#R" n="6"/>DE MORTE CHRJSTJ. 
+      <lb ed="#R" n="7"/>
+               <!-- line coord error -->
+            </p>
+            <p xml:id="olm8ij-g47381-d1e116">
+               <lb ed="#R" n="8"/>Circa Distinctionē Vigesimamprimam agit Ma 
+      <lb ed="#R" n="9"/>git Magister de morte Christi, &amp; 
+      consequen<lb ed="#R" n="10" break="no"/>tibus mortem, &amp; ideo primo circa istam 
+      di<lb ed="#R" n="11" break="no"/>stinctionem quaero vnam Quaestionem: 
+      <lb ed="#R" n="12"/>Vtrum negare remansisse in corpore 
+      Chri<lb ed="#R" n="13" break="no"/>sti mortuo aliquam formam substantialem, 
+      <lb ed="#R" n="14"/>quae erat in viuo, repugnet fidei veritati, 
+      <lb ed="#R" n="15"/>&amp; sinceritati. &amp; arguo quod non, Primo 
+      <lb ed="#R" n="16"/>sic: Pietas, &amp; sinceritas fidei circa hoc 
+      at<lb ed="#R" n="17" break="no"/>tenditur, vt saluetur corpus Christi 
+      mor<lb ed="#R" n="18" break="no"/>tuum esse, non autem incineratum, sed 
+      <lb ed="#R" n="19"/>fuerit eadem caro: hoc enim (vt videtur) 
+      <lb ed="#R" n="20"/>solum exigit fides: sed absque remansione 
+      <lb ed="#R" n="21"/>alicuius formae in corpore Christi mortuo, 
+      <lb ed="#R" n="22"/>quae erat in viuo, potest saluari corpus 
+      Chri<lb ed="#R" n="23" break="no"/>sti viuum, &amp; mortuum esse idē: minus ergo 
+      <lb ed="#R" n="24"/>incineratum. Maior videtur satis manifesta, 
+      <lb ed="#R" n="25"/>probo minorem sic: Quando suppositum 
+      for<lb ed="#R" n="26" break="no"/>marum eiusdem generis manet idem, 
+      quan<lb ed="#R" n="27" break="no"/>tuncunque fiat successio varia talium 
+      forma<lb ed="#R" n="28" break="no"/>rum, verum est dicere, quod idem manet 
+      <lb ed="#R" n="29"/>idem vnum. Exemplum, albedo, &amp; 
+      nigre<lb ed="#R" n="30" break="no"/>do succedunt sibi mutuo circa aliquod 
+      co<lb ed="#R" n="31" break="no"/>loratum: sed manet idem coloratum, 
+      quan<lb ed="#R" n="32" break="no"/>tumcunque fiat variatio circa albedinē, &amp; 
+      <lb ed="#R" n="33"/>nigredinem: ergo verum erit dicere, quod 
+      <lb ed="#R" n="34"/>coloratum est idem post, quod prius. 
+    </p>
+            <p xml:id="olm8ij-g47381-d1e177">
+               <lb ed="#R" n="35"/>Item: Scis hodie gramaticam, cras logicam, 
+      <lb ed="#R" n="36"/>supposito etiam, quod cras oblitus scis grã- 
+      <lb ed="#R" n="37"/>maticae, semper tamen erit verum dicere, 
+      <lb ed="#R" n="38"/>quod idem vnus est sciens hodie, qui fuit he 
+      <lb ed="#R" n="39"/>ri. Cum ergo corpus sit ens determinati 
+      <lb ed="#R" n="40"/>generis, quantumcumque ponit tres, vel 
+      <lb ed="#R" n="41"/>plures formas, est idem vnum. Secundo 
+      <lb ed="#R" n="42"/>sic: Solum exigit pietas fidei circa corpus 
+      <lb ed="#R" n="43"/>Christi mortui mortuum, vt caro eius non. 
+      <lb ed="#R" n="44"/>viderit corruptionem: sed esto, quod 
+      for<lb ed="#R" n="45" break="no"/>ma carnis non remanserit eadem, adhuc 
+      <lb ed="#R" n="46"/>saluatur incorruptio corporis &amp; carnis: 
+      er<lb ed="#R" n="47" break="no"/>go. Maior patet, quia fides ex hoc exigit 
+      <lb ed="#R" n="48"/>Prophetae implorationem: Caro mea 
+      re<lb ed="#R" n="49" break="no"/>quiescet in spe, &amp; Non dabis sanctum tuum 
+      <lb ed="#R" n="50"/>videre corruptionem. 
+    </p>
+            <p xml:id="olm8ij-g47381-d1e215">
+               <lb ed="#R" n="51"/>Item ibidem: propheta ergo cum esset, &amp; 
+      sci<lb ed="#R" n="52" break="no"/>ret, quia iure iurando iurasset illi Deus, &amp;c. 
+      <lb ed="#R" n="53"/>quia neque derelittus est in inferno, neque 
+      <!--0472.xml-->
+      <cb ed="#R" n="b"/>
+               <lb ed="#R" n="54"/>caro eius vidit corruptionem. 
+    </p>
+            <p xml:id="olm8ij-g47381-d1e231">
+               <lb ed="#R" n="55"/>Probo minorem. Duplex est corruptio, 
+      quae<lb ed="#R" n="56" break="no"/>dam abiectio esse simpliciter, &amp; formae 
+      sub<lb ed="#R" n="57" break="no"/>stantialis, &amp; hanc corruptionem vidit Chri 
+      <lb ed="#R" n="58"/>stus qui vidit separationem formae carnis. 
+      <lb ed="#R" n="59"/>Est autem corruptio, quae idem est, quod 
+      <lb ed="#R" n="60"/>putrefactio &amp; incineratio, &amp; de tali 
+      loqui<lb ed="#R" n="61" break="no"/>tur Propheta, &amp; aliae auctoritates, &amp; tunc 
+      <lb ed="#R" n="62"/>verum est dicere, quod caro Christi non 
+      <lb ed="#R" n="63"/>fuit corrupta, idest, incinerata, vel 
+      putre<lb ed="#R" n="64" break="no"/>facta propter accelerationem 
+      resurrectio<lb ed="#R" n="65" break="no"/>nis. 
+    </p>
+            <p xml:id="olm8ij-g47381-d1e257">
+               <lb ed="#R" n="66"/>Et confirmatur, quia Damasc. lib. 3. 
+      Ortodo<lb ed="#R" n="67" break="no"/>xae fidei. cap. 28. ly, suum, sic exponit, 
+      cor<lb ed="#R" n="68" break="no"/>pus, &amp; auctoritates allegatas de 
+      putrefa<lb ed="#R" n="69" break="no"/>ctione, quas ego non pono: ergo, &amp;c. Sic 
+      <lb ed="#R" n="70"/>positio, quae saluat vniuocationem carnis 
+      <lb ed="#R" n="71"/>mortuae in Christo cum carne aliorum 
+      ho<lb ed="#R" n="72" break="no"/>minum mortuorum, non repugnat fidei 
+      sin<lb ed="#R" n="73" break="no"/>ceritati: sed positio ponens abiectionem 
+      <lb ed="#R" n="74"/>formae substantialis prioris potest hoc 
+      te<lb ed="#R" n="75" break="no"/>nendo saluare: ergo. Maior patet, quia 
+      <lb ed="#R" n="76"/>fides non tenet aliter Christum mortuum, 
+      <lb ed="#R" n="77"/>quam alij moriantur. Probo minorem sic. 
+      <lb ed="#R" n="78"/>2. de anima, &amp; 7. &amp; 4. Meth. caro mortua 
+      <lb ed="#R" n="79"/>non est caro, nisi aequiuoce, quia remanet 
+      <lb ed="#R" n="80"/>idem vnum, &amp; mutatur alia ratio: alia 
+      <lb ed="#R" n="81"/>enim ratio dat materiae esse carnis viuae, &amp; 
+      <lb ed="#R" n="82"/>alia esse carnis mortuae: sed hoc aeque est 
+      <lb ed="#R" n="83"/>in omnibus hominibus: ergo si ponitur in 
+      <lb ed="#R" n="84"/>Christo, saluatur vniuocatio Christi, &amp; 
+      alio<lb ed="#R" n="85" break="no"/>rum hominum. 
+    </p>
+            <p xml:id="olm8ij-g47381-d1e303">
+               <lb ed="#R" n="86"/>Item: illud est ponendum in Christo, quod exi 
+      <lb ed="#R" n="87"/>gitur ad veram mortem Christi, &amp; hoc 
+      <lb ed="#R" n="88"/>realiter non repugnat fidei, quae docet, 
+      Chri<lb ed="#R" n="89" break="no"/>stum vere mortuum: sed vt saluetur mors, 
+      <lb ed="#R" n="90"/>tenetur omnis formae abiectiò, quia alias 
+      <lb ed="#R" n="91"/>non esset totalis corruptio, vnde sicut 
+      ge<lb ed="#R" n="92" break="no"/>neratio terminatur ad ens simpliciter, non 
+      <lb ed="#R" n="93"/>secundum quid, sic corruptio ad non ens 
+      <lb ed="#R" n="94"/>simpliciter,non secundum quid. 
+    </p>
+            <p xml:id="olm8ij-g47381-d1e325">
+               <lb ed="#R" n="95"/>Quinto arguo sic: Nulla veritas demonstrata 
+      <lb ed="#R" n="96"/>repugnat fidei, probo quia verum vero con 
+      <lb ed="#R" n="97"/>sonat: sed fides vera: ergo. Sed veritas 
+      <lb ed="#R" n="98"/>est demonstrata, quod in corpore vnius 
+      ho<lb ed="#R" n="99" break="no"/>minis non est nisi vna forma substantialis, 
+      <lb ed="#R" n="100"/>scilicet anima; ex hoc autem vero 
+      demon<lb ed="#R" n="101" break="no"/>strato sequitur aliud, quod in morte 
+      abij<lb ed="#R" n="102" break="no"/>ciatur aliqua forma, non autem forma 
+      cor<lb ed="#R" n="103" break="no"/>poreitatis: ergo quod tenetur in corpore 
+      <lb ed="#R" n="104"/>Christi mortuo, non repugnat fidei. Maior 
+      <lb ed="#R" n="105"/>probata, est, minor probatur. sic: Forma 
+      <lb ed="#R" n="106"/>dat esse simpliciter, idest sine addito, quia 
+      <lb ed="#R" n="107"/>modo est simpliciter, &amp; simpliciter ante 
+      <lb ed="#R" n="108"/>non erat, vnde verum est dicere, quod 
+      <lb ed="#R" n="109"/>remota. forma remanet simpliciter non 
+      <lb ed="#R" n="110"/>Deus, quia ens solum in potentia materiae. 
+      <!--0473.xml-->
+      <pb ed="#R" n="471"/>
+               <cb ed="#R" n="a"/>
+               <lb ed="#R" n="1"/>Materia autem non dicit aliquid hoc, sed 
+      <lb ed="#R" n="2"/>solum modificabile: animal ergo aduenien 
+      <lb ed="#R" n="3"/>te forma aliqua, si inueniet aliam 
+      for<lb ed="#R" n="4" break="no"/>mam, inueniret ens simpliciter, &amp; tunc 
+      il<lb ed="#R" n="5" break="no"/>la non daret esse simpliciter, ergo: ergo in 
+      <lb ed="#R" n="6"/>Christo, &amp; alijs hominibus est sola vna 
+      <lb ed="#R" n="7"/>forma, dans esse carnis, &amp; huius: sed in 
+      <lb ed="#R" n="8"/>morte Christi fuit separata forma, quae 
+      da<lb ed="#R" n="9" break="no"/>bat esse ergo: &amp; illa quae dabat esse carnis. 
+      <lb ed="#R" n="10"/>Item Joannes 2. Soluite templum hoc, &amp;c. 
+      <lb ed="#R" n="11"/>sequitur, hoc autem dicebat de templo, 
+      <lb ed="#R" n="12"/>corporis sui: sed hoc non soluitur, nisi in 
+      <lb ed="#R" n="13"/>carne corporali fuerit aliquid aliud 
+      mo<lb ed="#R" n="14" break="no"/>tum: ergo. Contra: Non dabis sanctum 
+      <lb ed="#R" n="15"/>tuum videre corruptionem, in Psal. 15. Sed 
+      <lb ed="#R" n="16"/>Christus vere fuisset corruptus, nisi forma 
+      <lb ed="#R" n="17"/>carnis remansisset: ergo repugnat. 
+      Re<lb ed="#R" n="18" break="no"/>spondeo, hic in ista quaestione non intendo 
+      <lb ed="#R" n="19"/>de formarum pluralitate, vel in homine, 
+      <lb ed="#R" n="20"/>vel in alijs. Sed hoc solum quaero de 
+      Chri<lb ed="#R" n="21" break="no"/>sto, &amp; hic non cogito arguere 
+      metaphy<lb ed="#R" n="22" break="no"/>sice, sed solum videre, vtrum consono 
+      pie<lb ed="#R" n="23" break="no"/>tati fidei. Dico secundo pietati, &amp; 
+      since<lb ed="#R" n="24" break="no"/>ritati, quia non est clare contra 
+      Articu<lb ed="#R" n="25" break="no"/>lum fidei, quia aliter dictum esset 
+      haereti<lb ed="#R" n="26" break="no"/>cum: sed dico, quod pietas fidei, &amp; 
+      since<lb ed="#R" n="27" break="no"/>ritas magis relucet in hoc. 
+    </p>
+            <p xml:id="olm8ij-g47381-d1e427">
+               <lb ed="#R" n="28"/>Ad propositum ergo cum quaeritur: Vtrum 
+      <lb ed="#R" n="29"/>negare aliquam formam, quae ante erat 
+      <lb ed="#R" n="30"/>in corpore viuo, remanere in corpore 
+      <lb ed="#R" n="31"/>Christi mortuo repugnet sinceritati, &amp; 
+      <lb ed="#R" n="32"/>pietati fidei. 
+    </p>
+            <p xml:id="olm8ij-g47381-d1e441">
+               <lb ed="#R" n="33"/>Hic primo inquiro: Vtrum sinceritas fidei 
+      <lb ed="#R" n="34"/>exigat, vt caro viua, &amp; mortua in Christo 
+      <lb ed="#R" n="35"/>fuerit eodem modo. Secundo si sic, vtrum 
+      <lb ed="#R" n="36"/>hoc saluari possit absque hoc, quod 
+      pona<lb ed="#R" n="37" break="no"/>tur aliquam formam eandem vnius reman 
+      <lb ed="#R" n="38"/>sisse. Tertio si oportet ponere, quod 
+      ali<lb ed="#R" n="39" break="no"/>quid remanserit substantiale, non solum 
+      ac<lb ed="#R" n="40" break="no"/>cidentale, inquiram, vtrum illud sit forma, 
+      <lb ed="#R" n="41"/>vel potius truncatio formae. Quarto, Vtrum 
+      <lb ed="#R" n="42"/>praeter formam animae rationalis sit aliquid 
+      <lb ed="#R" n="43"/>abiectum, puta vita sensitiua. Quinto: vtrum 
+      <lb ed="#R" n="44"/>vita sensitiua se habeat ad formam 
+      rema<lb ed="#R" n="45" break="no"/>nentem sicut additum, vel sicut 
+      comple<lb ed="#R" n="46" break="no"/>mentum illius. Circa primum, primo 
+      po<lb ed="#R" n="47" break="no"/>nam quatuor vias ad partem affirmatiuam. 
+      <lb ed="#R" n="48"/>Secundo ponam solutionem, quae datur 
+      <lb ed="#R" n="49"/>ab alijs apparenter. Tertio, inquiram: 
+      <lb ed="#R" n="50"/>Vtrum auctoritates possint retorqueri 
+      con<lb ed="#R" n="51" break="no"/>tra solutiones. 
+      </p>
+            <!-- questio 1 ? -->
+            <p xml:id="olm8ij-g47381-d1e487">
+               <lb ed="#R" n="52"/>Quaestio Vnica. 
+      <lb ed="#R" n="53"/>1 Vtrum caro viua &amp; mortua in Christo 
+      fue<lb ed="#R" n="54" break="no"/>rit eadem 
+      <lb ed="#R" n="55"/>2 An vnitus carnis in numero possit saluari, 
+      <lb ed="#R" n="56"/>nisi ponatur remanere eadem forma numero. 
+      <!--0473.xml-->
+      <cb ed="#R" n="b"/>
+               <lb ed="#R" n="57"/>3 Vtrum post mortem remanserit caro 
+      tota<lb ed="#R" n="58" break="no"/>lis, &amp; quid remansit. 
+      <lb ed="#R" n="59"/>4 Quid fuerit abiectum in morte Christi. 
+      </p>
+            <div xml:id="olm8ij-g47381-Dd1e511">
+               <head xml:id="olm8ij-g47381-Hd1e513">Articulus 1</head>
+               <head xml:id="olm8ij-g47381-Hd1e515" type="question-title">
+        Utrum caro viua et mortua in Christo fuerit 
+        eadem
+      </head>
+               <p xml:id="olm8ij-g47381-d1e518">
+                  <lb ed="#R" n="60"/>ARTJCVLVS I. 
+      <lb ed="#R" n="61"/>Vtrum caro viua &amp; mortua in Christo fuerit 
+      <lb ed="#R" n="62"/>eadem 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e527">
+                  <lb ed="#R" n="63"/>CIRCA primum, Dico, 
+      <lb ed="#R" n="64"/>quod ad partem 
+      affirma<lb ed="#R" n="65" break="no"/>tiuam primo arguitur 
+      au<lb ed="#R" n="66" break="no"/>thoritate Scripturae. 
+      Se<lb ed="#R" n="67" break="no"/>cundo ex Sacramētorum 
+      <lb ed="#R" n="68"/>virtute. Tertio ex 
+      Sancto<lb ed="#R" n="69" break="no"/>rum auctoritatibus. Quar 
+      <lb ed="#R" n="70"/>to ex efficaci ratione. 
+      <lb ed="#R" n="71"/>Circa primum sciendum, 
+      <lb ed="#R" n="72"/>quod Scripturae veritas cadit sub articulo fidei 
+      <lb ed="#R" n="73"/>illo scilicet, Qui loquutus est per Prophetas, vnde 
+      <lb ed="#R" n="74"/>negare Scripturam esset haereticum: ergo 
+      quan<lb ed="#R" n="75" break="no"/>tum ad propositum probandum. Quod ad primum 
+      <lb ed="#R" n="76"/>articulum sit pro parte affirmatiua quantum ad 
+      <lb ed="#R" n="77"/>praesens triplex auctoritas, vna Psal. 15. Non dabis 
+      <lb ed="#R" n="78"/>sanctum tuum, &amp; c. Secunda: Caro mea requiescet in 
+      <lb ed="#R" n="79"/>spe. Tertia ex Actibus Apostol. sciat omnis domus 
+      <lb ed="#R" n="80"/>Israel, &amp; c. sequitur, non videbit caro eius 
+      corruptio<lb ed="#R" n="81" break="no"/>nem. Ex istis tribus apparet, quod de intentione 
+      <lb ed="#R" n="82"/>sacrae Scripturae sit, quod caro Christi vina, &amp; 
+      mor<lb ed="#R" n="83" break="no"/>tua sit eadem numero, alias vere vidisset 
+      corrup<lb ed="#R" n="84" break="no"/>tionem, &amp; sic non requieuit in spe resurrectionis, 
+      <lb ed="#R" n="85"/>ex quo fuit corrupta. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e579">
+                  <lb ed="#R" n="86"/>Ad istas auctoritates respondent per 
+      distinctio<lb ed="#R" n="87" break="no"/>nem de corruptione, quoniam est corruptio mixti, &amp; 
+      <lb ed="#R" n="88"/>ista putrefactio, incineratio, de qua loquitur 
+      Phi<lb ed="#R" n="89" break="no"/>losophus 4. metaphisices; alia est corruptio, quae 
+      <lb ed="#R" n="90"/>ambit omne ens, &amp; ista est amisssio entitatis 
+      sim<lb ed="#R" n="91" break="no"/>pliciter, quae in viuentibus dicitur mors: tunc 
+      di<lb ed="#R" n="92" break="no"/>citur, quod error esset dicere, quod caro 
+      Christi<lb ed="#R" n="93" break="no"/>non fuerit vere mortua, sed in morte requiritur, 
+      <lb ed="#R" n="94"/>quod moriens amittat simpliciter entitatem, 
+      qua<lb ed="#R" n="95" break="no"/>re hoc modo non repugnat ponere carnem Christi 
+      <lb ed="#R" n="96"/>Christi corruptam, nec ponere non remansisse 
+      ean<lb ed="#R" n="97" break="no"/>dem numero. Imo posita morte sequitur hoc 
+      ne<lb ed="#R" n="98" break="no"/>cessario. De hac autem corruptione non 
+      loquun<lb ed="#R" n="99" break="no"/>tur auctoritates propositae, sed loquuntur de 
+      cor<lb ed="#R" n="100" break="no"/>ruptione secundo modo, quae proprie est 
+      incine<lb ed="#R" n="101" break="no"/>ratio, seu putrefactio. Et sic non repugnat fidei 
+      te<lb ed="#R" n="102" break="no"/>nere, quod caro Christi viua, &amp; mortua non sit 
+      <lb ed="#R" n="103"/>eadem numero, quoniam datur intellectus 
+      aucto<lb ed="#R" n="104" break="no"/>ritatum Scripturae. Secundo arguitur ad 
+      principa<lb ed="#R" n="105" break="no"/>le propositum ex veritate Sacramentorum, scilicet 
+      <lb ed="#R" n="106"/>Baptismi, &amp; Eucharistiae, tenet enim fides Ecclesiae, 
+      <lb ed="#R" n="107"/>quod Sacramenta fluxerunt ex latere in aqua, &amp; 
+      <lb ed="#R" n="108"/>sanguine, quae fluxerunt ex eius pectore. 
+      <lb ed="#R" n="109"/>Quaero igitur, aut fluxerunt de corpore Christi 
+      <lb ed="#R" n="110"/>inanimato, aut ex alio. Si ex alio, non videntur 
+      <lb ed="#R" n="111"/>habere efficaciam ex carne Christi. Si sic, habeo 
+      <lb ed="#R" n="112"/>propositum, quod vulnus fuit impressum corpori 
+      <lb ed="#R" n="113"/>mortuo. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e643">
+                  <lb ed="#R" n="114"/>Hic dicitur, quod propositio est concedenda. 
+      <lb ed="#R" n="115"/>Sed ad dissolutionem sciendum, quod caro 
+      Chri<lb ed="#R" n="116" break="no"/>sti dicitur dupliciter, vel vt pars integralis, vel vt 
+      <lb ed="#R" n="117"/>aliquid condescendens. Primo modo dicunt, quod 
+      <lb ed="#R" n="118"/>illa caro Christi mortua non fuit caro de eius 
+      es<lb ed="#R" n="119" break="no"/>sentia, quae ipsum integrabat: sed secundo 
+      mo<lb ed="#R" n="120" break="no"/>do dicunt, quod fuit descensus formae prioris. 
+      <lb ed="#R" n="121"/>Ad cuius euidentiam dicunt, quod est quidam 
+      <!--0474.xml-->
+      <pb ed="#R" n="472"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>ordo formarum oppositus in generatione, &amp; 
+      cor<lb ed="#R" n="2" break="no"/>ruptione.
+      </p>
+               <p xml:id="olm8ij-g47381-d1e674">
+                  <lb ed="#R" n="3"/>Eae enim formae, quae per accessum ad formam 
+      <lb ed="#R" n="4"/>intentam a natura antecedunt illam formam, 
+      si<lb ed="#R" n="5" break="no"/>cut est in generatione, vbi generabile est modo 
+      <lb ed="#R" n="6"/>sub vna, modo sub alia, donec habeat formam 
+      in<lb ed="#R" n="7" break="no"/>tentam, tales formae dicuntur in ascensu. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e687">
+                  <lb ed="#R" n="8"/>DE conuerso autem omnes formae, in quas sub 
+      di<lb ed="#R" n="9" break="no"/>uersis gradibus resoluitur corrumpendum, vt est 
+      <lb ed="#R" n="10"/>forma cadaueris, &amp;c. dicuntur formae in descensu, 
+      <lb ed="#R" n="11"/>&amp; sequela, sicut est primo cadauer, deinde 
+      putrefa<lb ed="#R" n="12" break="no"/>ctio in tertio elemento, vel huiusmodi: tunc ergo 
+      <lb ed="#R" n="13"/>caro Christi dicitur Christi per descensum, &amp; vt 
+      <lb ed="#R" n="14"/>sequela, quia sicut vnum in actu, sic in mortuum, 
+      <lb ed="#R" n="15"/>scilicet cadauer, &amp; sicut actu non est idem, quod 
+      <lb ed="#R" n="16"/>viuum; ita per descensum. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e709">
+                  <lb ed="#R" n="17"/>Tunc ad argumentum dico, quod iste descensus, 
+      <lb ed="#R" n="18"/>&amp; sequela dat tantam nobilitatem corpori 
+      mor<lb ed="#R" n="19" break="no"/>tuo, quod potest adorari, &amp; si sibi debetur 
+      ado<lb ed="#R" n="20" break="no"/>ratio, quae indignitas est, quod de carne ﬂuxerit 
+      <lb ed="#R" n="21"/>aqua, &amp; sanguis, &amp; sic potuerunt habere 
+      effica<lb ed="#R" n="22" break="no"/>ciam ratione carnis dignissimae, de qua fluxerunt. 
+      <lb ed="#R" n="23"/>Tertio arguo ad principale. Ex aeternitate 
+      Sa<lb ed="#R" n="24" break="no"/>cramenti Eucharistiae, fuit in institutione, ergo in 
+      <lb ed="#R" n="25"/>triduo potuit tunc confici. Tunc arguitur. In 
+      <lb ed="#R" n="26"/>triduo mortis fuit possibile confici. Pono ergo, 
+      <lb ed="#R" n="27"/>quod Barnabas confecerit: quaero aut sub 
+      specie<lb ed="#R" n="28" break="no"/>bus panis fuisset eadem caro, quae fuit viua, aut non; 
+      <lb ed="#R" n="29"/>si sic, habeo propositum. Si dicis, quod alia, 
+      con<lb ed="#R" n="30" break="no"/>tra: sequitur, quod non fuisset Sacramentum, quia 
+      <lb ed="#R" n="31"/>non fuisset sacrae rei signum: hic autem ponitur 
+      <lb ed="#R" n="32"/>yariari. 
+    </p>
+               <p xml:id="olm8ij-g47381-d1e746">
+                  <lb ed="#R" n="33"/>Ad hoc dicitur, quod institutio Sacramenti fuit 
+      <lb ed="#R" n="34"/>in coena, sed accepit confirmationem ex 
+      resurre<lb ed="#R" n="35" break="no"/>ctione, &amp; aduentu Spiritus sancti, quia tunc fuit 
+      <lb ed="#R" n="36"/>lex innouata, &amp; vetus lex euacuata. Tunc ad 
+      argu<lb ed="#R" n="37" break="no"/>mentum dicitur, quod non potuisset quis conficere 
+      <lb ed="#R" n="38"/>in triduo, &amp; sic hypothesis, siue suppositio est falsa. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e762">
+                  <lb ed="#R" n="39"/>Quarto arguitur ad principale ex Sanctorum 
+      <lb ed="#R" n="40"/>auctoritate: secundum enim Sanctos eadem caro, 
+      <lb ed="#R" n="41"/>quae fuit in sepulchro, fuit in Christo resurgente: sed 
+      <lb ed="#R" n="42"/>caro, quae fuit in Christo resurgente, fuit eadem 
+      <lb ed="#R" n="43"/>numero cum illa, quae fuit ante: ergo. Minor huius 
+      <lb ed="#R" n="44"/>rationis, quae habet pro maiori Sanctorum 
+      aucto<lb ed="#R" n="45" break="no"/>ritates, probatur ad oppositum, sequitur tunc, quod 
+      <lb ed="#R" n="46"/>non idem numero resurrexit, quod est contra 
+      au<lb ed="#R" n="47" break="no"/>ctoritatem illam Iob 19. &amp; in carne mea videbo 
+      <lb ed="#R" n="48"/>Deum. Item probo maiorem, quae supponebatur 
+      <lb ed="#R" n="49"/>a Sanctis. Augustinus super illud: Deus Deorum, 
+      <lb ed="#R" n="50"/>dicit: Ostendebat Dominus eandem formam, &amp; car 
+      <lb ed="#R" n="51"/>nem, quam in cruce viderunt, &amp; in sepulchro 
+      po<lb ed="#R" n="52" break="no"/>fuerant: vnde credo simpliciter, quod Augustinus 
+      <lb ed="#R" n="53"/>fuit huius opinionis, vnde dicit istud, idem in 
+      Epi<lb ed="#R" n="54" break="no"/>stola de fide ad Pet. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e800">
+                  <lb ed="#R" n="55"/>Ad istud argumentum respondetur vno modo, quod 
+      <lb ed="#R" n="56"/>isti Sancti loquuntur secundum sensualem 
+      appari<lb ed="#R" n="57" break="no"/>tionem, &amp; vulgo, non autem est sic secundum 
+      veri<lb ed="#R" n="58" break="no"/>tatem. Ista solutio statim apparet non bona, quod 
+      <lb ed="#R" n="59"/>videlicet tanti viri loquuntur, non secundum 
+      veri<lb ed="#R" n="60" break="no"/>tatem, &amp; ideo soluitur. Secundo, quod sufficit ad 
+      <lb ed="#R" n="61"/>hoc, vt caro mortua sit caro per descensum, &amp; tunc 
+      <lb ed="#R" n="62"/>in tali carne remanserunt cicatrices, vt ad hoc 
+      pro<lb ed="#R" n="63" break="no"/>bandum, quod Christus habuit cicatrices, sit 
+      for<lb ed="#R" n="64" break="no"/>ma descendens, &amp; sequela prioris: ita quod 
+      secun<lb ed="#R" n="65" break="no"/>dum istos vna forma descendens probat aliam 
+      prio<lb ed="#R" n="66" break="no"/>rem: Vnde dicit: Tu es Deus meus, &amp; c. non dicit, 
+      <lb ed="#R" n="67"/>quod eadem caro sit haec cum illa: sed probat, &amp; 
+      <!--0474.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>arguit, quod ibi fuit talis forma carnis, quod fit, 
+      <lb ed="#R" n="69"/>quia qualitates talium formarum sunt simbolae, &amp; 
+      <lb ed="#R" n="70"/>ideo sic se consequuntur, quod vix diuersitas 
+      di<lb ed="#R" n="71" break="no"/>scernitur. Sic intelligunt sancti solum, quia sic 
+      pro<lb ed="#R" n="72" break="no"/>bantur cicatrices fuisse. Vel soluitur sic, quod est 
+      <lb ed="#R" n="73"/>forma, quae est vere caro, &amp; est forma apparens, 
+      <lb ed="#R" n="74"/>quae non est vere caro, sed quaeritur quaedam 
+      acci<lb ed="#R" n="75" break="no"/>dentalis qualitas. De prima sancti non loquuntur, 
+      <lb ed="#R" n="76"/>quod istam Christus non ostendebat, sed 
+      loquun<lb ed="#R" n="77" break="no"/>tur de secundo modo dicta, scilicet de forma 
+      ap<lb ed="#R" n="78" break="no"/>parente, &amp; simili, vnde dicit Ostendebat, &amp; c. 
+      <lb ed="#R" n="79"/>Quinto arguo sic ad principale, ex necessitate 
+      ra<lb ed="#R" n="80" break="no"/>tionis, nam hic non accipio rationem philosophicam. 
+      <lb ed="#R" n="81"/>sed ex aliis, quae secundum fidem nostram 
+      tenen<lb ed="#R" n="82" break="no"/>tur: ergo secundum quod tenemus, istud est 
+      ve<lb ed="#R" n="83" break="no"/>rum, quod nunquam Verbum deposuerit, quod 
+      as<lb ed="#R" n="84" break="no"/>sumpsit. Item, &amp; istud est verum, quod verbum 
+      <lb ed="#R" n="85"/>nunquam aliquid nouum resumpsit, quod ante non 
+      <lb ed="#R" n="86"/>assumpserat. Ex istis arguo sic: Si forma carnis 
+      vi<lb ed="#R" n="87" break="no"/>uae fuisset corrupta, tunc Christus illam 
+      deposuis<lb ed="#R" n="88" break="no"/>set, quod est contra illud, quod supponimus 
+      pri<lb ed="#R" n="89" break="no"/>mo, si ponam quod eadem forma remanserit non, 
+      <lb ed="#R" n="90"/>sequitur istud inconueniens, sed optime saluatur. 
+      <lb ed="#R" n="91"/>Ad hoc respondetur, quod aliud est deponere rem 
+      <lb ed="#R" n="92"/>vel formam, &amp; aliud est formam definite: ergo 
+      <lb ed="#R" n="93"/>Christus nunquam deposuit, quod assumpsit, quia 
+      <lb ed="#R" n="94"/>deponere est separari ab aliquo illo manente: sed 
+      <lb ed="#R" n="95"/>forma carnis non remansit, quia esse desijt, &amp; tunc 
+      <lb ed="#R" n="96"/>proprie non fuit deposita a verbo: bene enim 
+      ce<lb ed="#R" n="97" break="no"/>cidit a Verbo, sed Verbum illam proprie non 
+      di<lb ed="#R" n="98" break="no"/>misit, quia ipsa non remansit, sed esse desiit. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e902">
+                  <lb ed="#R" n="99"/>Secundo arguitur ex secunda suppositione fic: 
+      <lb ed="#R" n="100"/>Christus non assumpsit aliquid de nouo: non 
+      er<lb ed="#R" n="101" break="no"/>go fuit in Verbo noua assumptio alicuius formae: 
+      <lb ed="#R" n="102"/>sed si fuisset alia forma, vel fuisset corpus vnitum, 
+      <lb ed="#R" n="103"/>vel non, quod dicere esset haereticum: ergo 
+      fuis<lb ed="#R" n="104" break="no"/>set vnitum: ergo si hoc, assumpsit formam aliam 
+      <lb ed="#R" n="105"/>nouam. Item tunc assumpsisset cadauer. Ad istud 
+      <lb ed="#R" n="106"/>respondetur, quod Christus noua assumptione 
+      no<lb ed="#R" n="107" break="no"/>uum nihil assumpsit, quia quando formae habent 
+      <lb ed="#R" n="108"/>ordinem secundum descensum, vel in eadem 
+      ma<lb ed="#R" n="109" break="no"/>teria succedunt sibi, assumens formam priorem 
+      <lb ed="#R" n="110"/>assumit neceiario omnes alias, sed non actu, &amp; 
+      <lb ed="#R" n="111"/>&amp; principaliter, sed vt sequeias: ergo non ea 
+      ne<lb ed="#R" n="112" break="no"/>cessitate, qua asiumitur humanitas, assumuntur 
+      <lb ed="#R" n="113"/>omnes formae, quae sequuntur, &amp; sic non noua 
+      <lb ed="#R" n="114"/>assumptione fuit assumpta: sed fuit eadem 
+      assum<lb ed="#R" n="115" break="no"/>ptio ratione eiusdem materiae, &amp; ordinis 
+      forma<lb ed="#R" n="116" break="no"/>rum; nec est indignum, quod eadem quoad 
+      huma<lb ed="#R" n="117" break="no"/>nitatem, &amp; omnem sequelam. Et confirmatur, 
+      <lb ed="#R" n="118"/>quod in Christo fuit alteratio, quia sumebat 
+      ali<lb ed="#R" n="119" break="no"/>mentum formam, &amp; per calorem deperdidit, &amp; 
+      <lb ed="#R" n="120"/>assumpsit per alimentum nouam actionem 
+      nutri<lb ed="#R" n="121" break="no"/>tiuae. Sic etiam dicitur de formis accidentalibus, 
+      <lb ed="#R" n="122"/>verbi gratia, per rarefactionem procedemus, non 
+      <lb ed="#R" n="123"/>multum habemus substantiae. Et ideo videndum est 
+      <lb ed="#R" n="124"/>in secundo, vtrum solutiones praefatae stare posssint 
+      <lb ed="#R" n="125"/>cum fidei pietate. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e963">
+                  <lb ed="#R" n="126"/>Primo ergo accedo ad expositionem factam ad 
+      <lb ed="#R" n="127"/>solutionem primi argumenti. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e970">
+                  <lb ed="#R" n="128"/>Dico autem, quod solutio illa non videtur 
+      pla<lb ed="#R" n="129" break="no"/>na, eo quod Scriptura non concordat. Dicit 
+      Pro<lb ed="#R" n="130" break="no"/>pheta in Psal. 15. Dilatatum est cor meum, &amp; 
+      exul<lb ed="#R" n="131" break="no"/>tauit lingua mea, quoniam, supple, caro mea 
+      re<lb ed="#R" n="132" break="no"/>quiescet in spe: tunc quaero illud, quod sperat, tunc 
+      <lb ed="#R" n="133"/>quaero, quae caro est, quae est in spe: aut est illa, quae 
+      <lb ed="#R" n="134"/>in viuo erat, &amp; non est in mortuo, &amp; hoc non pont dici 
+      <!--0475.xml-->
+      <pb ed="#R" n="473"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>quia tunc non quieuisset; caro enim viua (inquantum 
+      <lb ed="#R" n="2"/>viua) non est illa quae quieuit in sepulchro, &amp; in spe. 
+      <lb ed="#R" n="3"/>Sed si illa alia anima in spe resurrectionis, illa 
+      au<lb ed="#R" n="4" break="no"/>tem quieuit, fuit in spe: ergo illa, quae in sepulchro, 
+      <lb ed="#R" n="5"/>est in spe. Jmo quia fuisset abiecta in resurrectione: 
+      <lb ed="#R" n="6"/>ergo. Si ergo ista abijcitur, iam non est mortua 
+      <lb ed="#R" n="7"/>cum spe transgreditur: si ergo ista dicas, quod ista non 
+      <lb ed="#R" n="8"/>est in spe, sed prima quae erat in viuo. Contra: illa 
+      <lb ed="#R" n="9"/>non requieuit, quia secundum te ponitur abiecta &amp; 
+      <lb ed="#R" n="10"/>corrupta, &amp; sic non saluas Prophetam dicentem: 
+      <lb ed="#R" n="11"/>Caro mea requiescet in spe. Item, non soluitur 
+      se<lb ed="#R" n="12" break="no"/>cundum de corruptione, auctoritas enim Actuum 
+      <lb ed="#R" n="13"/>intelligit, quod caro Christi non vidit corruptionē, 
+      <lb ed="#R" n="14"/>quam alij homines viderunt &amp; hanc ponere 
+      differen<lb ed="#R" n="15" break="no"/>tiam inter Christum, &amp; alios homines, sed alij 
+      ho<lb ed="#R" n="16" break="no"/>mines non viderunt hoc, quia caro, quae praecessit, 
+      <lb ed="#R" n="17"/>nunquam putrefit: ita etiam Christi, sicut alterius. 
+      <lb ed="#R" n="18"/>Sed alia introducitur, quae videt corruptionem, &amp; 
+      <lb ed="#R" n="19"/>sic hoc non est priuilegium Christi. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e1035">
+                  <lb ed="#R" n="20"/>Si autem de alia corruptione, ita quod nulla de 
+      <lb ed="#R" n="21"/>istis formis corrumpatur, etiam in quocunque tunc 
+      <lb ed="#R" n="22"/>saluatur, quod caro mea, quae est in me, vidit 
+      cor<lb ed="#R" n="23" break="no"/>ruptionem, illa autem, quae remansit in Christo, non 
+      <lb ed="#R" n="24"/>vidit. Et preterea Augustinus videtur loqui de 
+      cor<lb ed="#R" n="25" break="no"/>ruptione interitus, non putrefactionis. Psal. 15. 
+      Con<lb ed="#R" n="26" break="no"/>serua me Domine, &amp;c. Dicit insuper, Et caro mea 
+      <lb ed="#R" n="27"/>non deficiet in interitu, sed in spe resurrectionis 
+      <lb ed="#R" n="28"/>obdormiet: ergo illa caro, vt videtur, non defecit in 
+      <lb ed="#R" n="29"/>morte. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e1059">
+                  <lb ed="#R" n="30"/>Ad minus auctoritas Scripturae nimis vacillat, si 
+      <lb ed="#R" n="31"/>ad voluntatem cuiuslibet exponatur. Sic enim 
+      <lb ed="#R" n="32"/>potero dicere, quod maledicti non erunt in 
+      igne<lb ed="#R" n="33" break="no"/>in aeternum, quia exponam aeternum, idest longo 
+      <lb ed="#R" n="34"/>tempore, vt alibi Psal. 131. Dicit Dominus Dauid: 
+      <lb ed="#R" n="35"/>Sedebit super sedem tuam in aeternum, quod 
+      intel<lb ed="#R" n="36" break="no"/>ligitur longo tempore. hoc de prima solutione.
+      </p>
+               <p xml:id="olm8ij-g47381-d1e1078">
+                  <lb ed="#R" n="37"/>Nunc de solutione rationis de Sacramentis 
+      dice<lb ed="#R" n="38" break="no"/>re, quod de eodem corpore non descenderint per 
+      <lb ed="#R" n="39"/>fluxum, non videtur verum, quia sacramenta a 
+      car<lb ed="#R" n="40" break="no"/>ne digniori sumpserunt efficaciam per fluxum, &amp;c. 
+      <lb ed="#R" n="41"/>sed licet caro illa, quam ponis per descensum, sit 
+      di<lb ed="#R" n="42" break="no"/>gna, illa tamen quam traxit de Virgine, est magis 
+      <lb ed="#R" n="43"/>digna. Item, idem dicam de sanguine &amp; aqua, 
+      <lb ed="#R" n="44"/>quod mutauerunt formam, &amp; sic non vere fuit 
+      san<lb ed="#R" n="45" break="no"/>guis Christi, qui erat in corpore Christi viuo. Item 
+      <lb ed="#R" n="46"/>dicam, quod vulnus laterale non transfigit post 
+      <lb ed="#R" n="47"/>mortem corpus de Virgine tractum. Et iterum 
+      <lb ed="#R" n="48"/>est contra Joannis epist. 1. cap. 5. vbi dicitur: Tres 
+      <lb ed="#R" n="49"/>sunt, qui testimonium dant in terra, licet in 
+      carne<lb ed="#R" n="50" break="no"/>Christi, quam viuam gestabat, ideo solutio non 
+      vi<lb ed="#R" n="51" break="no"/>detur valere. Sed per verba posset multum palliari, 
+      <lb ed="#R" n="52"/>tamen quia ponit indignitatem, videtur repugnare 
+      <lb ed="#R" n="53"/>fidei sinceritati. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e1117">
+                  <lb ed="#R" n="54"/>Respondeo, illud de sacramento Eucharistiae 
+      re<lb ed="#R" n="55" break="no"/>puto demonstrationem: quod enim dicitur de 
+      Re<lb ed="#R" n="56" break="no"/>surrectione, &amp; Aduentu, est contra eum, contra 
+      <lb ed="#R" n="57"/>duo verba specialiter. Primo est hoc, 
+      quotiescun<lb ed="#R" n="58" break="no"/>que, &amp;c. Tunc quaero, Vtrum quotie scumque 
+      in<lb ed="#R" n="59" break="no"/>cludat duos dies ante resurrectionem, vel non, si non, 
+      <lb ed="#R" n="60"/>non videtur propositio vera. Si dicas, 
+      quotiescum<lb ed="#R" n="61" break="no"/>que, idest, ex quo resurrectio. Si sic exponas, tunc 
+      <lb ed="#R" n="62"/>pari ratione potero mistice determinando vertere 
+      <lb ed="#R" n="63"/>scripturam: ergo ad eius sinceritatem saluandam 
+      <lb ed="#R" n="64"/>exponi debet: sed isti duo dies fuerunt intra istud 
+      <lb ed="#R" n="65"/>quotiescunque: ergo. Item dicitur verbum, quod 
+      <lb ed="#R" n="66"/>dicitur in Euangelio Matth. cap. 26. &amp; Mar. 14. Est 
+      <lb ed="#R" n="67"/>sanguis noui, &amp; aeterni: ibi ergo incaepit nouum 
+      <lb ed="#R" n="68"/>Testamentum, quia secundum Sanctos ibi vacauit 
+      <!--0475.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>vetus testamentum. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e1159">
+                  <lb ed="#R" n="70"/>Quaero ergo de hoc quod dicitur aeterni, aut 
+      inclu<lb ed="#R" n="71" break="no"/>duntur duo illi dies, aut non: si dicis quod sic, habeo 
+      <lb ed="#R" n="72"/>propositum: si dicis, quod non, iam non est aeternum, 
+      <lb ed="#R" n="73"/>quod est contra verbum, &amp; ideo oportet, quod 
+      in<lb ed="#R" n="74" break="no"/>triduo potuit conficere omne, &amp; idem quod hodie, 
+      <lb ed="#R" n="75"/>Tunc sumitur minor sic: sed idem non conficeretur, 
+      <lb ed="#R" n="76"/>nisi esset eadem caro, quae primo fuit, quia ista caro 
+      <lb ed="#R" n="77"/>viua vere est cibus, quod non esset, si fuisset 
+      corru<lb ed="#R" n="78" break="no"/>pta: ergo. hoc autem non saluatur assignatio 
+      car<lb ed="#R" n="79" break="no"/>nis carnis per descensum, quia sic non saluaret 
+      <lb ed="#R" n="80"/>identitatem sacramenti, quae potuisset esse in 
+      tri<lb ed="#R" n="81" break="no"/>duo, &amp; eius qui modo est: ergo. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e1188">
+                  <lb ed="#R" n="82"/>Quod soluitur ad auctoritates sanctorum 
+      <lb ed="#R" n="83"/>Prima solutio videtur esse transfantastica, quod 
+      <lb ed="#R" n="84"/>Sancti loquuntur sicut vulgus. Alia vero solutio 
+      <lb ed="#R" n="85"/>non sufficit, quia oportet saluare verba sanctorum 
+      <lb ed="#R" n="86"/>sine distorsione, sed verbum expresse dicit eam 
+      car<lb ed="#R" n="87" break="no"/>nem, quae fuit in sepulchro: ergo. si autem Sancti ex 
+      <lb ed="#R" n="88"/>ista carne absolute intenderent probare 
+      resurre<lb ed="#R" n="89" break="no"/>ctionem, apparentiam quandam haberet talis 
+      solu<lb ed="#R" n="90" break="no"/>tio: sed quia ipsi dicunt eandem carnem, quae fuit 
+      <lb ed="#R" n="91"/>in sepulchro, ideo non valet, nec hic iuuat soluere 
+      <lb ed="#R" n="92"/>aliquid per carnem secundum descensum. Tertia 
+      <lb ed="#R" n="93"/>etiam solutio ad idem non valet, licet enim 
+      for<lb ed="#R" n="94" break="no"/>te valeat quantum ad hoc, quod dicunt eandem 
+      <lb ed="#R" n="95"/>formam, &amp; figuram, non tamen quantum ad hoc, 
+      <lb ed="#R" n="96"/>quod dicunt eandem carnem, oportet enim quod 
+      <lb ed="#R" n="97"/>cum apparentia sit eadem caro secundum 
+      auctori<lb ed="#R" n="98" break="no"/>tatem, non soluuntur dicta Sanctorum. Quarta via 
+      <lb ed="#R" n="99"/>minus euaditur. Depositione enim corporis 
+      Chri<lb ed="#R" n="100" break="no"/>sti de Cruce euadunt, quod ibi non fuisset de positio, 
+      <lb ed="#R" n="101"/>quia forsan fuisset aliquid exclusum pertinens ad 
+      <lb ed="#R" n="102"/>carnem, &amp; ideo dicitur caro mortua, quia aliquid 
+      <lb ed="#R" n="103"/>extrinsecum excluditur: sed quod remaneat idem 
+      <lb ed="#R" n="104"/>substantiale, non saluatur: sed de assumptione, si 
+      <lb ed="#R" n="105"/>est noua forma, quin sit assumptio noua, non valet 
+      <lb ed="#R" n="106"/>euasio, quia aut caro Christi descendens remansit 
+      <lb ed="#R" n="107"/>vnita prima vnione, aut alia: si alia: ergo fuit 
+      no<lb ed="#R" n="108" break="no"/>ua assumptio. Non potest dici per eandem, quia 
+      <lb ed="#R" n="109"/>dicit quod vere est vnita, sed non eadem vnione, 
+      <lb ed="#R" n="110"/>qua prima caro, quia illa secundum te fuit 
+      amo<lb ed="#R" n="111" break="no"/>ta, amoto autem fundamento immediato 
+      rela<lb ed="#R" n="112" break="no"/>tionis, necessario corrumpitur relatio. Exemplum 
+      <lb ed="#R" n="113"/>de similitudine in albedine fundata: sed vnionis 
+      il<lb ed="#R" n="114" break="no"/>lius forma carnis erat vere sundamentum: ergo. 
+      <lb ed="#R" n="115"/>Dicet, quod fundamentum relationis non erat 
+      for<lb ed="#R" n="116" break="no"/>ma, sed materia, &amp; ideo ablata alia forma manet 
+      <lb ed="#R" n="117"/>eadem vnio, quia manet idem fundamentum. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e1269">
+                  <lb ed="#R" n="118"/>Ista euasio est nulla, quia sicut se habet materia 
+      <lb ed="#R" n="119"/>ad alia accidentia, sic ad vnionem istam: sed 
+      secun<lb ed="#R" n="120" break="no"/>dum eos, materia non fundat accidens sine forma 
+      <lb ed="#R" n="121"/>substantiali, secundum etiam Philosophum: ergo 
+      <lb ed="#R" n="122"/>nec istam vnionem. Dices: Concedo quod materia 
+      <lb ed="#R" n="123"/>non potest fundare vnionem sine forma 
+      substantia<lb ed="#R" n="124" break="no"/>li, tamen forma substantialis non oportet quod sit 
+      <lb ed="#R" n="125"/>immediatum fundamentum, nec immediata ratio 
+      <lb ed="#R" n="126"/>fundandi, &amp; ideo stante materia cum forma 
+      sub<lb ed="#R" n="127" break="no"/>stantiali, ipsa vnio poterit fundari in materia. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e1293">
+                  <lb ed="#R" n="128"/>Contra: Fundamentum vnionis est magis vnitum, 
+      <lb ed="#R" n="129"/>quam illud, quod non est fundamentum: sed 
+      mate<lb ed="#R" n="130" break="no"/>ria non magis vnitur quam caro, imo est e 
+      conuer<lb ed="#R" n="131" break="no"/>so: ergo intra rationem fundamenti includitur 
+      ca<lb ed="#R" n="132" break="no"/>ro, &amp; ideo licet materia manet, non tamen manet 
+      <lb ed="#R" n="133"/>immediatum fundamentum, quia mutatur caro. Et 
+      <lb ed="#R" n="134"/>confirmatur: Quaero de eadem vnione, aut est ista 
+      <lb ed="#R" n="135"/>sola denominatiua istius carnis, aut sormaliter, 
+      <lb ed="#R" n="136"/>quia caro est forma vnione vnita si sic: ergo opor- 
+      <!--0476.xml-->
+      <pb ed="#R" n="474"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>tet necessario, quod sit noua vnio. Si autem 
+      <lb ed="#R" n="2"/>dicis, quod solum est denominatiua. Contra: 
+      Om<lb ed="#R" n="3" break="no"/>nis forma necessario est in aliquo supposito: sed 
+      ta<lb ed="#R" n="4" break="no"/>lis vnio non est in supposito Verbi: ergo: non ergo 
+      <lb ed="#R" n="5"/>solum est denominatiua carnis. Et si das secundo 
+      <lb ed="#R" n="6"/>modo, habeo propositum, quia assumptio 
+      termina<lb ed="#R" n="7" break="no"/>tur ad nouam vnionem, &amp; vnio ista ad terminum 
+      <lb ed="#R" n="8"/>non fuit facta in ordine naturae, sed diuina 
+      ope<lb ed="#R" n="9" break="no"/>ratione. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e1342">
+                  <lb ed="#R" n="10"/>Et quod dicis de ascensu non saluat, quia 
+      bene<lb ed="#R" n="11" break="no"/>concedo, quod per primam formam assumpsit 
+      om<lb ed="#R" n="12" break="no"/>nes alias, quae sunt sequela, sed quod noua 
+      assum<lb ed="#R" n="13" break="no"/>ptione non assumpserit, non video, &amp; 
+      confirmatio<lb ed="#R" n="14" break="no"/>nem de alimento non approbo. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e1355">
+                  <lb ed="#R" n="15"/>Propter hoc reputo necessarium ponere, quod 
+      <lb ed="#R" n="16"/>caro, quae est educta de alimento, nunquam sit caro 
+      <lb ed="#R" n="17"/>substantialis corporea separata a subiecto, &amp; 
+      for<lb ed="#R" n="18" break="no"/>ma: ideo solum est aliquod perfectionale carnis, 
+      <lb ed="#R" n="19"/>&amp; tunc caro, quae ante vniebatur, per 
+      rarefactio<lb ed="#R" n="20" break="no"/>nem occupauit maiorem dimensionem, &amp; virtute 
+      <lb ed="#R" n="21"/>nutritiuae formaliter fit perfecta. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e1373">
+                  <lb ed="#R" n="22"/>De sanguine vero respondeo breuiter, quod 
+      hu<lb ed="#R" n="23" break="no"/>mores non sunt anima, sed sunt cibus &amp; anima 
+      <lb ed="#R" n="24"/>vnitur, vnde non fuit de nouo vnito. De formis 
+      <lb ed="#R" n="25"/>accidentalibus idem dico. &amp; haec de primo 
+      Arti<lb ed="#R" n="26" break="no"/>culo. 
+      </p>
+            </div>
+            <div xml:id="olm8ij-g47381-Dd1e1387">
+               <head xml:id="olm8ij-g47381-Hd1e1389">Articulus 2</head>
+               <head xml:id="olm8ij-g47381-Hd1e1391" type="question-title">
+          An unitas carnis in numero possit saluari, nisi 
+          ponatur remanere eadem forma numero
+        </head>
+               <p xml:id="olm8ij-g47381-d1e1394">
+                  <lb ed="#R" n="27"/>ARTJCVLVS II. 
+      <lb ed="#R" n="28"/>An unitas carnis in numero possit saluari, nisi 
+      <lb ed="#R" n="29"/>ponatur remanere eadem forma numero.
+      </p>
+               <p xml:id="olm8ij-g47381-d1e1403">
+                  <lb ed="#R" n="30"/>ESt primus modus dicendi, quod sic, propter 
+      <lb ed="#R" n="31"/>La vnitatem suppositi. Alius modus, quod 
+      pro<lb ed="#R" n="32" break="no"/>pter eandem materiam affectatam. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e1412">
+                  <lb ed="#R" n="33"/>Primus modus dicit, quod caro mortua &amp; viua 
+      <lb ed="#R" n="34"/>sunt eadem numero suppositum, sed ipsae in se 
+      re<lb ed="#R" n="35" break="no"/>spectu sui solum non sunt eadem, nisi specie solum. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e1422">
+                  <lb ed="#R" n="36"/>Hic adducitur argumentum sictum in 
+      opposi<lb ed="#R" n="37" break="no"/>tum de identitate suppositi cum formis 
+      succeden<lb ed="#R" n="38" break="no"/>tibus in genere, &amp; applicando ad propositum 
+      acci<lb ed="#R" n="39" break="no"/>piatur Maior, deinde subinferatur sic: sed 
+      accipia<lb ed="#R" n="40" break="no"/>tur corpus, habeo formam corporcitatis, quae alia 
+      <lb ed="#R" n="41"/>est in viuo, &amp; alia in mortuo, manet idem tamen 
+      <lb ed="#R" n="42"/>substratum: ergo manebit corpus idem, &amp; istud 
+      <lb ed="#R" n="43"/>idem numero, licet sint aliae formae, sicut etiam 
+      di<lb ed="#R" n="44" break="no"/>citur de sciente nunc grammatice, nunc logice. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e1444">
+                  <lb ed="#R" n="45"/>Contra istud arguitur sic: Quando aliquid dat 
+      <lb ed="#R" n="46"/>esse alicui aliquale, multiplicato illo quod dat sic 
+      <lb ed="#R" n="47"/>esse, non est idem. Exemplum: si albedo non est 
+      <lb ed="#R" n="48"/>eadem mane, quae de sero, non est idem album: si 
+      er<lb ed="#R" n="49" break="no"/>go sit alia forma corporis viui &amp; mortui, cum talis 
+      <lb ed="#R" n="50"/>forma det esse corporeitatis, erit aliud esse 
+      corpo<lb ed="#R" n="51" break="no"/>reitatis eorum, &amp; sic non idem corpus. 
+      Respon<lb ed="#R" n="52" break="no"/>deo non dabit, negando maiorem, quoniam 
+      super<lb ed="#R" n="53" break="no"/>ficies ex diuersis coloribus est super vnum 
+      colora<lb ed="#R" n="54" break="no"/>tum in genere. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e1468">
+                  <lb ed="#R" n="55"/>Secundo arguo sic: Sicut vnitas specifica ad 
+      for<lb ed="#R" n="56" break="no"/>mam specificam, sic vnitas numeralis ad formam 
+      <lb ed="#R" n="57"/>numeralem: sed aliquid non potest esse vnum, nisi 
+      <lb ed="#R" n="58"/>per vnam formam specificam: ergo nec vnum 
+      nu<lb ed="#R" n="59" break="no"/>mero, nisi per vnam formam numero. hic 
+      respon<lb ed="#R" n="60" break="no"/>detur per interemptionem, vt prius. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e1484">
+                  <lb ed="#R" n="61"/>Tertio arguo: Non est vnum specie, quin vnum 
+      <lb ed="#R" n="62"/>numero, nec specie, quin plura numero: sed per te 
+      <lb ed="#R" n="63"/>hic sunt plures species, quia viuum &amp; mortuum: 
+      <lb ed="#R" n="64"/>ergo. Respondeo, quod non est verum, quia si ide m 
+      <lb ed="#R" n="65"/>numero denominatur ab eodem supposito, non o- 
+      <!--0476.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="66"/>oportet quod ab eadem forma, &amp; ideo maior non 
+      <lb ed="#R" n="67"/>fuit totaliter vera. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e1506">
+                  <lb ed="#R" n="68"/>Arguitur quarto sic: Licet omne denominatum 
+      <lb ed="#R" n="69"/>sit idem numero ex vnitate subiecti, non tamen est 
+      <lb ed="#R" n="70"/>in abstracto, vnde licet. sit vnus sciens 
+      grammati<lb ed="#R" n="71" break="no"/>cam &amp; logicam, sunt tamen possibiles scientiae: sed 
+      <lb ed="#R" n="72"/>corpus nominat aliquid in abstracto: ergo. 
+      <lb ed="#R" n="73"/>Respondeo: In corpore est corporeitas 
+      abstra<lb ed="#R" n="74" break="no"/>ctum, &amp; corpus concretum, non pono ergo quod sit 
+      <lb ed="#R" n="75"/>eadem corporcitas, sed corpus. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e1526">
+                  <lb ed="#R" n="76"/>Contra: saltem potest argumentum tenere 
+      de<lb ed="#R" n="77" break="no"/>carne, quae est quid abstractum. Respondeo: Caro 
+      <lb ed="#R" n="78"/>non est abstractum, sed carneitas: patet ergo quod 
+      <lb ed="#R" n="79"/>istis rationibus non impeditur, quin propter 
+      vni<lb ed="#R" n="80" break="no"/>tatem substrati caro viua &amp; mortua sint idem 
+      nu<lb ed="#R" n="81" break="no"/>mero, licet non sint eaedem formae numero.
+      </p>
+               <p xml:id="olm8ij-g47381-d1e1543">
+                  <lb ed="#R" n="82"/>Igitur licet identitas suppositi saluet vnitatem 
+      <lb ed="#R" n="83"/>numeralem, non tamen talem qualem exigit 
+      fin<lb ed="#R" n="84" break="no"/>ceritas Fidei, vt tactum est supra per illas quatuor 
+      <lb ed="#R" n="85"/>vel quinque rationes: non enim saluatur bene, 
+      <lb ed="#R" n="86"/>quod dicitur: Caro eius non vidit corruptionem 
+      <lb ed="#R" n="87"/>per solam vnitatem suppositi. Nec illud, quod 
+      tan<lb ed="#R" n="88" break="no"/>git ratio secnnda, quia non est eadem dignitas 
+      po<lb ed="#R" n="89" break="no"/>sterioris &amp; prioris. Item, etiam de Eucharistia 
+      <lb ed="#R" n="90"/>non saluatur, quoniam tunc sequitur, quod inter 
+      <lb ed="#R" n="91"/>duos terminos transubstantiationis esset cadauer. 
+      <lb ed="#R" n="92"/>Nec auctoritates saluantur, quoniam auctoritates 
+      <lb ed="#R" n="93"/>dicunt eandem carnem: ergo. Sed eam, &amp; quae 
+      <lb ed="#R" n="94"/>vnum demonstrant, scilicet carnem: sed vltra, quae 
+      <lb ed="#R" n="95"/>refertur ad veram carnem: ergo &amp; ly, eam. Igitur 
+      <lb ed="#R" n="96"/>non potest saluari, quin fuerit noua assumptio, vt 
+      <lb ed="#R" n="97"/>patet supra, &amp; ideo cum ista vnitas suppositi 
+      non<lb ed="#R" n="98" break="no"/>saluet vnitatem, quam exigit sincera fides, patet, 
+      <lb ed="#R" n="99"/>quia ponendum est idem. &amp; ponenda estt alia vnitas. 
+      <lb ed="#R" n="100"/>Secunda solutio de materia affectata, est rudis. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e1587">
+                  <lb ed="#R" n="101"/>Iste enim imaginatur, quod materia sicut forma 
+      <lb ed="#R" n="102"/>est subiecta accidentibus, &amp; sint quaedam absoluta 
+      <lb ed="#R" n="103"/>imprimentia aliquid in materia, &amp; sic etiam 
+      affe<lb ed="#R" n="104" break="no"/>ctatio per istas impressiones, &amp; ideo separata 
+      for<lb ed="#R" n="105" break="no"/>ma substantiali adhu: remanet affectio. Sed iste 
+      <lb ed="#R" n="106"/>tenet, quod accidentia efficienter dant istam 
+      affe<lb ed="#R" n="107" break="no"/>ctionem. Ego autem teneo, quod form iliter sunt 
+      <lb ed="#R" n="108"/>ipsae affectiones. Item, tunc dicam quod remanet 
+      <lb ed="#R" n="109"/>affectata forma substantiali. Credo ergo, quod 
+      <lb ed="#R" n="110"/>pietas fidei arguat, quod remaneat forma verae 
+      <lb ed="#R" n="111"/>carnis aliqua, quia alids non esset eadem, nec aeque 
+      <lb ed="#R" n="112"/>digna; nec esset idem terminus 
+      transubstantiatio<lb ed="#R" n="113" break="no"/>nis, modo, quia fuisset in triduo; nec esset eadem 
+      <lb ed="#R" n="114"/>assumptio, &amp; huiusmodi. 
+      </p>
+            </div>
+            <div xml:id="olm8ij-g47381-Dd1e1621">
+               <head xml:id="olm8ij-g47381-Hd1e1623">Articulus 3</head>
+               <head xml:id="olm8ij-g47381-Hd1e1625" type="question-title">
+          Utrum post mortem remanserit caro totalis, et 
+          quid remansit
+        </head>
+               <p xml:id="olm8ij-g47381-d1e1628">
+                  <lb ed="#R" n="115"/>ARTJCVLVS JJJ. 
+      <lb ed="#R" n="116"/>Vtrum post mortem remanserit caro totalis, &amp; 
+      <lb ed="#R" n="117"/>quid remansit. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e1637">
+                  <lb ed="#R" n="118"/>NVnc de quarto Articulo, viso quod 
+      sinceri<lb ed="#R" n="119" break="no"/>Ntas fidei non saluetur, nisi ponatur eandem 
+      <lb ed="#R" n="120"/>formam carnis numero remansisse, Est nunc 
+      in<lb ed="#R" n="121" break="no"/>quirendumq, uid est illud quod remansit, vtrum 
+      <lb ed="#R" n="122"/>forma, vel truncatio formae, adhuc videndum est, 
+      <lb ed="#R" n="123"/>Vtrum ratione carnis intrinsece per mortem 
+      cor<lb ed="#R" n="124" break="no"/>rumpatur, vel remaneat caro totalis. Et dico, quod 
+      <lb ed="#R" n="125"/>non caro totalis, sed aliquid intrinsecum carni non 
+      <lb ed="#R" n="126"/>truncatum. hic tamen sunt multae opiniones. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e1659">
+                  <lb ed="#R" n="127"/>Primo talis, quod forma totalis remanet, &amp; 
+      <lb ed="#R" n="128"/>abijcitur ratio vitae, quae est omnino alterius 
+      ratio<lb ed="#R" n="129" break="no"/>nis. Sunt hic quatuor rationes difficiles. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e1669">
+                  <lb ed="#R" n="130"/>Prima talis: Jllud quod est ssmplex &amp; indiuisibi- 
+      <!--0477.xml-->
+      <pb ed="#R" n="475"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>le, vbicumque manet, totaliter manet: sed forma 
+      <lb ed="#R" n="2"/>carnis est huiusmodi: non ergo abijeitur aliquid 
+      <lb ed="#R" n="3"/>intrinsecum eius per mortem. Minor habetur 4. 
+      <lb ed="#R" n="4"/>metaph. cap. 1. Maior probatur per illud 6. 
+      Princi<lb ed="#R" n="5" break="no"/>piorum, forma est componi contingens. Caro 
+      au<lb ed="#R" n="6" break="no"/>tem est forma substantialis. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e1693">
+                  <lb ed="#R" n="7"/>Secundo sic: Si aliquid abijcitur a forma carnis, 
+      <lb ed="#R" n="8"/>tunc caro suscipit magis &amp; minus, quia magis &amp; 
+      <lb ed="#R" n="9"/>minus suscipere trahit de maiori perfectione ad 
+      <lb ed="#R" n="10"/>minorem, vel e conuerso: Falsitas consequentis 
+      <lb ed="#R" n="11"/>apparet, quia forma substantialis se habet sicut 
+      nu<lb ed="#R" n="12" break="no"/>meri, ex 9. metaph. tex. 10. Tertio sic: In morte non 
+      <lb ed="#R" n="13"/>abijcitur nisi vita, &amp; anima: sed vita non est aliquid 
+      <lb ed="#R" n="14"/>intrinsecum: ergo. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e1713">
+                  <lb ed="#R" n="15"/>Item: Anima est forma vitalis: sed caro &amp; sua 
+      ra<lb ed="#R" n="16" break="no"/>tio non est forma vitalis: ergo videtur quod 
+      re<lb ed="#R" n="17" break="no"/>manet ratio tota carnis. Item tunc necesse est 
+      po<lb ed="#R" n="18" break="no"/>nere, quod caro non sit mortua, sed corrupta 
+      <lb ed="#R" n="19"/>quod non dicimus. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e1726">
+                  <lb ed="#R" n="20"/>Istis non obstantibus videtur, quod in 
+      morte<lb ed="#R" n="21" break="no"/>forma carnis, &amp; sua ratio non remaneat totaliter 
+      <lb ed="#R" n="22"/>integra, sed perficitur, quia adimitur aliquid sui, 
+      <lb ed="#R" n="23"/>vt dicamus, quod vita non se habeat ad carnem, 
+      <lb ed="#R" n="24"/>sicut forma alterius rationis, ita quod ratio 
+      car<lb ed="#R" n="25" break="no"/>nis non sit vna ratio in sui ratione terminata 
+      abs<lb ed="#R" n="26" break="no"/>que vita: sed intra eam includit rationem vitae tan 
+      <lb ed="#R" n="27"/>quam complens vnam rationem carnis. Istud 
+      mul<lb ed="#R" n="28" break="no"/>tum repugnat imaginationi, quia non sumus circa 
+      <lb ed="#R" n="29"/>talia vsitati, sed magis in contraria. Ideo primo 
+      <lb ed="#R" n="30"/>do exemplum iuxta doctrinam Commentatoris 4. 
+      <lb ed="#R" n="31"/>Metaph. vbi difficultas est ibi vtendum exemplis 
+      <lb ed="#R" n="32"/>rethoricis. Secundo ponam quasdam 
+      distinctio<lb ed="#R" n="33" break="no"/>nes ad maiorem declarationem. Modo ostendo 
+      <lb ed="#R" n="34"/>possibilitatem &amp; necessitatem ponendi, &amp; sic non 
+      <lb ed="#R" n="35"/>repugnat. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e1763">
+                  <lb ed="#R" n="36"/>Primum circa primum imaginor de ratione car 
+      <lb ed="#R" n="37"/>nis, &amp; vitae respectu eius, sicut imaginor de 
+      curui<lb ed="#R" n="38" break="no"/>tate ac circularitate; circulus enim, &amp; sua ratio 
+      <lb ed="#R" n="39"/>est ratio indiuisibilis &amp; vna, quia omnes lineae 
+      in<lb ed="#R" n="40" break="no"/>circulo ductae a puncto ad circumferentiam sunt 
+      <lb ed="#R" n="41"/>aequales, &amp; sic est ista ratio indiuisibilis, quia 
+      varia<lb ed="#R" n="42" break="no"/>to aliquo iam non manet circulus; tunc accipio 
+      <lb ed="#R" n="43"/>vnam lineam rectam quam curuabo, &amp; per multas 
+      <lb ed="#R" n="44"/>curuitates vsque ad vltimum, quod fit circulus: 
+      <lb ed="#R" n="45"/>tunc quaero quid additur, &amp; certum est, quod 
+      ali<lb ed="#R" n="46" break="no"/>quid pertinens ad curuitatem, &amp; tamen illo 
+      addi<lb ed="#R" n="47" break="no"/>to completur ratio circuli, quo amoto remanet cir 
+      <lb ed="#R" n="48"/>culus, sed aequiuoce &amp; incomplete, quia remouetur 
+      <lb ed="#R" n="49"/>vltimum, &amp; complens rationem eius. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e1796">
+                  <lb ed="#R" n="50"/>Sic ergo potest dici, quod praecedens &amp; vltimum 
+      <lb ed="#R" n="51"/>sunt alterius rationis, inquantum amoto vltimo 
+      <lb ed="#R" n="52"/>manet ratio incompleta, &amp; imperfecta, sed sunt 
+      <lb ed="#R" n="53"/>eiusdem, prout illud vltimum nihil est nisi 
+      comple<lb ed="#R" n="54" break="no"/>mentum istius rationis. Sic dico de forma carnis, 
+      <lb ed="#R" n="55"/>quod non est ratio terminata, cui adueniat vita: 
+      <lb ed="#R" n="56"/>sed dico quod est aliquid vitae impersectum, &amp; vita 
+      <lb ed="#R" n="57"/>adueniente fit completa ratio prior, &amp; terminata, 
+      <lb ed="#R" n="58"/>vt sic vna ratio &amp; vna forma vitalis sit caro vita. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e1819">
+                  <lb ed="#R" n="59"/>Nunc secundo pono distinctionem de partibus 
+      <lb ed="#R" n="60"/>formarum, ita quod partes formae non omnes 
+      se<lb ed="#R" n="61" break="no"/>habent vniformiter ad formas suas, sed 
+      diuersimo<lb ed="#R" n="62" break="no"/>de. Quod enim sunt partes sufficientes, ita quod 
+      <lb ed="#R" n="63"/>neutra illarum est ratio tota, sed concurrit cum 
+      <lb ed="#R" n="64"/>alio ad rationem habendam. Aliquae autem 
+      par<lb ed="#R" n="65" break="no"/>tes fic concurrunt, quod illa, vel qualibet illarum 
+      <lb ed="#R" n="66"/>data, statim est ratio per completa, vt talis ratio 
+      <lb ed="#R" n="67"/>est, ita quod ad suam essentiam completam 
+      non<lb ed="#R" n="68" break="no"/>expectat aliud, &amp; istae sunt partes, quae faciunt in- 
+      <!--0477.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>tensionem &amp; remissionem in forma, ita quod 
+      in<lb ed="#R" n="70" break="no"/>quolibet gradu est forma completa, per 
+      additio<lb ed="#R" n="71" break="no"/>nem autem talium partium sit forma magis 
+      perfe<lb ed="#R" n="72" break="no"/>cta intensiue, &amp; has partes pono in omni sorma 
+      <lb ed="#R" n="73"/>quae suscipit magis &amp; minus; ita quod in 
+      quacum<lb ed="#R" n="74" break="no"/>que talium partium forma accipitur, illud est 
+      for<lb ed="#R" n="75" break="no"/>maliter tale, sed addita alia parte, scilicet fit 
+      per<lb ed="#R" n="76" break="no"/>fectius. Hoc non dico competere formae 
+      substan<lb ed="#R" n="77" break="no"/>tiali, quia non credo, quod suscipiat magis &amp; 
+      mi<lb ed="#R" n="78" break="no"/>nus, istae ergo sunt partes de scientia modo 
+      prae<lb ed="#R" n="79" break="no"/>tacto. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e1871">
+                  <lb ed="#R" n="80"/>De primo autem modo dico, sunt partes, quae 
+      <lb ed="#R" n="81"/>integrant aliquam vnam rationem, etiam 
+      indiui<lb ed="#R" n="82" break="no"/>sibilem, ita quod neutra illarum dat formam, &amp; 
+      <lb ed="#R" n="83"/>rationem illarum, sed necessario exspectant 
+      ali<lb ed="#R" n="84" break="no"/>quid vltimum, &amp; tamen sunt de eadem ratione, ita 
+      <lb ed="#R" n="85"/>quod ste di scrumt c te e formaliter statim, &amp; 
+      <lb ed="#R" n="86"/>post per concursum aliarum fit magis, &amp; magis 
+      per<lb ed="#R" n="87" break="no"/>fecta. Istae autem partes non dant statim formam, 
+      <lb ed="#R" n="88"/>sed bene inchoant illam, &amp; vltima adueniente fit 
+      <lb ed="#R" n="89"/>ratio completa, vt dictum est de circulo respectu 
+      <lb ed="#R" n="90"/>curuitatum per tractionem linearum a centro. 
+      <lb ed="#R" n="91"/>Dico autem, quod istae non faciunt intensionem &amp; 
+      <lb ed="#R" n="92"/>remissionem, eo quod non dant statim formam 
+      <lb ed="#R" n="93"/>sed bene esse formaliter. Ista est ergo prima 
+      diui<lb ed="#R" n="94" break="no"/>sio partium formarum. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e1906">
+                  <lb ed="#R" n="95"/>Secunda diuisio, vel subdiuisio est, quod partes 
+      <lb ed="#R" n="96"/>de primo modo distinguuntur. Quaedam enim 
+      <lb ed="#R" n="97"/>sunt istarum partium, quae habent esse terminatum, 
+      <lb ed="#R" n="98"/>ita quod possunt poni in re absque positione 
+      alte<lb ed="#R" n="99" break="no"/>rius terminantis, vt sunt curuitates respectu 
+      circu<lb ed="#R" n="100" break="no"/>li. Aliae sunt tales partes, quae poni non possunt in 
+      <lb ed="#R" n="101"/>re, nisi per aliquid terminentur, vel connectantur 
+      <lb ed="#R" n="102"/>in vna formaliter, &amp; tales sunt partes elementorũ; 
+      <lb ed="#R" n="103"/>hoc docet natura rerum. Item, quaedam 
+      susci<lb ed="#R" n="104" break="no"/>piunt magis &amp; minus, secundum partes, in quibus 
+      <lb ed="#R" n="105"/>in quolibet est vera forma, ita quod intensio sit 
+      <lb ed="#R" n="106"/>per aliquid pertinens ad rationem formae, &amp; illud 
+      <lb ed="#R" n="107"/>additum docet, quod non sit forma perfecta, quia 
+      <lb ed="#R" n="108"/>praehaberet suam indiuisibilitatem, &amp; sic posset 
+      in<lb ed="#R" n="109" break="no"/>tellectus angelicus ibi percipere possibiles formas. 
+      <lb ed="#R" n="110"/>Et tunc quaero, vel sunt idem penes vltima, &amp; 
+      non<lb ed="#R" n="111" break="no"/>habent talia vltima; vel sunt actus &amp; potentia, &amp; 
+      <lb ed="#R" n="112"/>certum, quod cum sint eiusdemrationis, vnum non 
+      <lb ed="#R" n="113"/>se habet vt potentia respectu alterius, magis quam 
+      <lb ed="#R" n="114"/>e conuerso. Intensio ergo formarum arguit istum 
+      <lb ed="#R" n="115"/>modum, vt saepe dictum est. Mixtio autem arguit 
+      <lb ed="#R" n="116"/>alium modum, quem determinaui alias, scilicet 
+      <lb ed="#R" n="117"/>quod realitas sit forma truncata. Tertio dico, quod 
+      <lb ed="#R" n="118"/>alium modum partium exigit intrinseca 
+      imperfe<lb ed="#R" n="119" break="no"/>ctio, eo modo quo dixi de circulo, &amp; sic dico de 
+      <lb ed="#R" n="120"/>carne, quae remota vita intrinsece imperficitur: 
+      er<lb ed="#R" n="121" break="no"/>go arguit, quod dicimus, istae partes non sint ratio, 
+      <lb ed="#R" n="122"/>sed aliquid pertinens ad rationem. hoc de 
+      prima<lb ed="#R" n="123" break="no"/>distinctione. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e1971">
+                  <lb ed="#R" n="124"/>Secunda Distinctio principalis est ista, scilicet de 
+      <lb ed="#R" n="125"/>vltimo ad praecedentia, Vtrum respectu eorum 
+      <lb ed="#R" n="126"/>sunt eiusdem rationis, vel alterius: si alterius, iam 
+      <lb ed="#R" n="127"/>incidit in aliud, quod est negatum: si est eiusdem 
+      <lb ed="#R" n="128"/>rationis, quaero quare magis isto habito 
+      denomi<lb ed="#R" n="129" break="no"/>natur forma, quam habitis prioribus. Ad hoc 
+      di<lb ed="#R" n="130" break="no"/>co, quod est eiusdem rationis per carentiam omnis 
+      <lb ed="#R" n="131"/>rationis formaliter; sed est ratio etiam integrans 
+      <lb ed="#R" n="132"/>vnam formam, &amp; vnam rationem formae, sed est 
+      <lb ed="#R" n="133"/>alterius in modo se habendi diuersimode ad 
+      com<lb ed="#R" n="134" break="no"/>pletiuum, &amp; faciunt vnam rationem. Ergo 
+      dico<lb ed="#R" n="135" break="no"/>quod caro est vna forma vitalis, ita quod vita ad- 
+      <!--0478.xml-->
+      <pb ed="#R" n="476"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>ueniens non est aliquid additum formaliter, sed est 
+      <lb ed="#R" n="2"/>pars complens rationem totalem, sicut vltima pars 
+      <lb ed="#R" n="3"/>curuitatis in circulo. Et istam conclusionem 
+      te<lb ed="#R" n="4" break="no"/>neo pro vera, quam probo adducendo quatuor 
+      ra<lb ed="#R" n="5" break="no"/>tiones. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e2017">
+                  <lb ed="#R" n="6"/>Prima sit talis: Quando ratio non dat esse tale, 
+      <lb ed="#R" n="7"/>nisi aequiuoce, impossibile est quod illa ratio 
+      perfe<lb ed="#R" n="8" break="no"/>cte &amp; complete sit in illo: sed per mortem non 
+      re<lb ed="#R" n="9" break="no"/>manet caro nisi aequiuoce, &amp; in ratione carnis: 
+      er<lb ed="#R" n="10" break="no"/>go aliquid est demptum, quod pertinet ad rationem 
+      <lb ed="#R" n="11"/>carnis. Probo minorem per Philosophum de caelo 
+      <lb ed="#R" n="12"/>&amp; mundo, &amp; Comment. &amp; a. de anim. tex. S. Amota 
+      <lb ed="#R" n="13"/>anima remanet caro aequiuoce caro. Dices, quod 
+      <lb ed="#R" n="14"/>ideo dicitur aequiuoce, quia amota vita, sed in 
+      ra<lb ed="#R" n="15" break="no"/>tione, qua est quoddam mixtum, est vera caro. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e2041">
+                  <lb ed="#R" n="16"/>Contra: ex hoc confirmas rationem meam, nam 
+      <lb ed="#R" n="17"/>Aristoteles dicit: vita amota remanet aequiuoce non 
+      <lb ed="#R" n="18"/>simpliciter, sed aequiuoce caro. Tunc arguo: illud, 
+      <lb ed="#R" n="19"/>quo amoto aliud remanet aequiuocum illud, 
+      neces<lb ed="#R" n="20" break="no"/>se est de suo intrinseco. Si dicis, non remanet 
+      aequi<lb ed="#R" n="21" break="no"/>uoce caro, iam negas Philosophum. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e2058">
+                  <lb ed="#R" n="22"/>Item secundo sic: Omne, quod habet rationem 
+      <lb ed="#R" n="23"/>perfectam alicuius formae, potest perficere in 
+      ope<lb ed="#R" n="24" break="no"/>ratione consequentem illam formam: ergo a 
+      de<lb ed="#R" n="25" break="no"/>structione consequentis, omne quod non potest 
+      per<lb ed="#R" n="26" break="no"/>fecte in operationem consequentem aliquam 
+      for<lb ed="#R" n="27" break="no"/>mam, non habet perfecte rationem illius formae: 
+      <lb ed="#R" n="28"/>sed caro mortua non potest in operationem 
+      car<lb ed="#R" n="29" break="no"/>nis, vt est conuertere, &amp; huiusmodi, &amp; istud est 
+      ar<lb ed="#R" n="30" break="no"/>gumentum Philosophi. Dices, quod potest in 
+      ope<lb ed="#R" n="31" break="no"/>rationem carnis, non autem in operationem viuae 
+      <lb ed="#R" n="32"/>carnis. Ex hoc habeo propositum, quia ex hoc 
+      <lb ed="#R" n="33"/>sequitur, quod viuum sit aliquid intrinsecum 
+      <lb ed="#R" n="34"/>carni. 
+    </p>
+               <p xml:id="olm8ij-g47381-d1e2089">
+                  <lb ed="#R" n="35"/>Tertio sic: Duarum differentiarum diuidentium 
+      <lb ed="#R" n="36"/>idem genus, si sub altera continetur aliqua species, 
+      <lb ed="#R" n="37"/>impossibile est aliquam speciem reperiri, de quo 
+      <lb ed="#R" n="38"/>praed icetur alia differentia, quia alias contenta sub 
+      <lb ed="#R" n="39"/>duabus differentijs coincident in eandem naturam: 
+      <lb ed="#R" n="40"/>sed accipio corpus, diuido illud per viuum &amp; 
+      non<lb ed="#R" n="41" break="no"/>viuum, bona est diuisio &amp; immediata in corpus viuum, 
+      <lb ed="#R" n="42"/>deinde diuiditur in leonem, equum, &amp; huiusmodi. 
+      <lb ed="#R" n="43"/>De ratione autem leonis est caro: ergo mortuum, 
+      <lb ed="#R" n="44"/>quod ex alia parte diuidebat corpus, non 
+      praedica<lb ed="#R" n="45" break="no"/>tur de carne, quod est contentum in specie, quae 
+      ca<lb ed="#R" n="46" break="no"/>dit sub alia differentia. 
+    </p>
+               <p xml:id="olm8ij-g47381-d1e2118">
+                  <lb ed="#R" n="47"/>Dices, quod idem argumentum posset fieri 
+      de<lb ed="#R" n="48" break="no"/>materia prima, quod non sit contenta sub duobus 
+      <lb ed="#R" n="49"/>differentijs diuidentibus idem genus. Dico, quod 
+      <lb ed="#R" n="50"/>materia prima nullam rationem dicit, sed est 
+      in<lb ed="#R" n="51" break="no"/>choatio omnis rationis, ita quod lapideitas non 
+      <lb ed="#R" n="52"/>est nisi vna ratio pura, cuius inchoatiuum est 
+      ma<lb ed="#R" n="53" break="no"/>teria, forma vero completiuum. Dicit materia 
+      <lb ed="#R" n="54"/>prima aliquid indeterminate pertinens ad omnem 
+      <lb ed="#R" n="55"/>rationem, &amp; ideo caret omni ratione, &amp; non 
+      repu<lb ed="#R" n="56" break="no"/>gnat sibi fieri multas rationes, non sic est de carne: 
+      <lb ed="#R" n="57"/>ergo. Sicut nullum ens de mundo, excepto homine 
+      <lb ed="#R" n="58"/>dicit nisi vnam rationem, &amp; sic dicunt Doctores, 
+      <lb ed="#R" n="59"/>quod est aequiuoce forma, quia dicit aliquid 
+      huius<lb ed="#R" n="60" break="no"/>modi potens per se esse: ergo lapis, leo, &amp; 
+      huiusmo<lb ed="#R" n="61" break="no"/>di dicunt etiam vnam rationem, tunc in leone est 
+      <lb ed="#R" n="62"/>materia, &amp; materia annumerata formae carnis, &amp; 
+      <lb ed="#R" n="63"/>completa ratione vitae. Tunc quaero, aut istae 
+      par<lb ed="#R" n="64" break="no"/>tes quaelibet venit, vt habens suam rationem, &amp; 
+      fa<lb ed="#R" n="65" break="no"/>ciunt quandam compositionem, aut non est vna 
+      <lb ed="#R" n="66"/>ratio, respectu cuius vnum istorum se habet, vt 
+      in<lb ed="#R" n="67" break="no"/>choans quid, vt faciens accessum, aliud vero sicut 
+      <lb ed="#R" n="68"/>compleus. 
+    </p>
+               <p xml:id="olm8ij-g47381-d1e2168">
+      <!--0478.xml-->
+                  <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>Non potest dari primus modus, quia quae sunt 
+      <lb ed="#R" n="70"/>talia, impossibile est, quod in duabus rationibus ta 
+      <lb ed="#R" n="71"/>libus fiat vnum nisi conslatiue, ita quod tale non 
+      <lb ed="#R" n="72"/>est intrinsece vna quidditas. Si secundo modo, 
+      ha<lb ed="#R" n="73" break="no"/>beo propositum, nam materia est inchoatio in om 
+      <lb ed="#R" n="74"/>ni genere, &amp; ideo indistinctum in omni genere, tunc 
+      <lb ed="#R" n="75"/>forma carnis adueniens materiae facit accessum, &amp; 
+      <lb ed="#R" n="76"/>vita complet, vt sic sit totum vna ratio completa 
+      <lb ed="#R" n="77"/>vitalis. Et hoc maxime mouet me, quia non 
+      pos<lb ed="#R" n="78" break="no"/>sum videre aliter, quod caro mortua sit intrinsece 
+      <lb ed="#R" n="79"/>caro aequiuoca nisi per intrinsecum amotum. Illis 
+      <lb ed="#R" n="80"/>positis sic non video repugnantiam. Et ad dubia 
+      <lb ed="#R" n="81"/>quatuor mota. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e2203">
+                  <lb ed="#R" n="82"/>Respondeo: Ad primum dico, quod forma substan 
+      <lb ed="#R" n="83"/>tialis, &amp; omnis forma est simplex, eo quod est 
+      indi<lb ed="#R" n="84" break="no"/>uisibilis in duas actiones, sed intra vnam formam 
+      <lb ed="#R" n="85"/>sic simplicem se compatiuntur partes eiusdem 
+      ra<lb ed="#R" n="86" break="no"/>tionis, &amp; hoc patet in exē plo de circularitate, quae 
+      <lb ed="#R" n="87"/>est ratio indiuisibilis, &amp; tamen ibi sunt partes, que 
+      <lb ed="#R" n="88"/>sunt non forma circuli, sed vt sic dicam, sunt 
+      om<lb ed="#R" n="89" break="no"/>nes concirculus; vnde fit quod amoto vltimo, quod 
+      <lb ed="#R" n="90"/>dat circularitatem, amouetur ratio perfecta 
+      circu<lb ed="#R" n="91" break="no"/>li: sic dico de carne in proposito, intra quam est 
+      <lb ed="#R" n="92"/>forma vltimam complens rationem carnis 
+      intrin<lb ed="#R" n="93" break="no"/>sece, qua amota remouetur ratio completa 
+      <lb ed="#R" n="94"/>carnis. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e2234">
+                  <lb ed="#R" n="95"/>Dico, quod forma substantialis habet huiusmodi 
+      <lb ed="#R" n="96"/>partes, &amp; quod aeque primo sint formae simplices, 
+      <lb ed="#R" n="97"/>forma substantialis, &amp; accidentalis: sed forma 
+      sub<lb ed="#R" n="98" break="no"/>stantiae est esse primum significabile non per se, sed 
+      <lb ed="#R" n="99"/>cum materia; vnde est actus dans esse simpliciter, 
+      <lb ed="#R" n="100"/>non per modum efficientis, sed per modum formae, 
+      <lb ed="#R" n="101"/>&amp; ideo praesupponitur ab omni accidente, quae 
+      for<lb ed="#R" n="102" break="no"/>ma iam inuenit esse simplex, &amp; ideo dat secundum 
+      <lb ed="#R" n="103"/>quid, &amp; quantum ad hoc est differens, quantum 
+      <lb ed="#R" n="104"/>autem ad simplicitatem non differt. Ad aliud 
+      di<lb ed="#R" n="105" break="no"/>co, quod ex hoc forma carnis non suscipit magis, 
+      <lb ed="#R" n="106"/>&amp; minus, sed truncatur, quoniam amota vita non 
+      <lb ed="#R" n="107"/>est ibi ratio carnis, nisi valde imperfecte: partes au 
+      <lb ed="#R" n="108"/>tem, quae sunt tales, quod in quolibet gradu 
+      secun<lb ed="#R" n="109" break="no"/>dum ipsas sorma est in esse formali, secundum istas 
+      <lb ed="#R" n="110"/>est intensio, &amp; magis &amp; minus. Ad aliud dico, quod 
+      <lb ed="#R" n="111"/>verum dicis. Dico enim, quod per mortem 
+      amo<lb ed="#R" n="112" break="no"/>uetur pars vltima complens vitam, ita quod vita 
+      <lb ed="#R" n="113"/>imperficitur. Dico etiam, quod non est caro forma 
+      <lb ed="#R" n="114"/>vitalis imo si sit completa, est vna simplex vitalis. 
+      <lb ed="#R" n="115"/>Dum autem est imperfecta non est ratio vitalis, nisi 
+      <lb ed="#R" n="116"/>inchoatiue, &amp; sic non est vere caro, &amp; hoc ostendunt 
+      <lb ed="#R" n="117"/>rationabiliter proprietates vitae &amp; carnis, sicut 
+      pa<lb ed="#R" n="118" break="no"/>tet de proprietatibus circuli: ergo vltimum 
+      adue<lb ed="#R" n="119" break="no"/>niens dat, quod omnes proprietates ibi sint, &amp; sine 
+      <lb ed="#R" n="120"/>isto non insunt, vnd e caro non est ens viuum, nisi 
+      <lb ed="#R" n="121"/>illo adueniente, sed est imperfecte viuum, 
+      quia<lb ed="#R" n="122" break="no"/>inchoans. Dices: ergo, anima &amp; caro non sunt 
+      al<lb ed="#R" n="123" break="no"/>terius rationis. Dico, quod animae est nomen 
+      im<lb ed="#R" n="124" break="no"/>positum ab illa parte dante esse completum, sed carni 
+      <lb ed="#R" n="125"/>ab illa faciente per te accessum, &amp; hoc modo caro 
+      <lb ed="#R" n="126"/>&amp; anima sunt eiusdem rationis, quoniam hoc 
+      mo<lb ed="#R" n="127" break="no"/>do caro est intra vitalitatem. De hac dixi in 
+      quae<lb ed="#R" n="128" break="no"/>stione de articulo charitatis, quia nulla 
+      repugnan<lb ed="#R" n="129" break="no"/>tia est, quod termini motus, vel quod in ratione am 
+      <lb ed="#R" n="130"/>bitus entis non sint istae partes, hoc ostendi non 
+      <lb ed="#R" n="131"/>repugnare: ergo in hoc sto, quod ambitui entis 
+      ta<lb ed="#R" n="132" break="no"/>les partes non repugnant, nisi quia illud non dicit 
+      <lb ed="#R" n="133"/>rationem aliquam, sed inchoatiuum rationis, &amp; 
+      ta<lb ed="#R" n="134" break="no"/>men est extra nihil. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e2324">
+                  <lb ed="#R" n="135"/>Item, est dare aliquas partes, quae sunt non 
+      ra<lb ed="#R" n="136" break="no"/>tio, sed conratio ad inuicem, &amp; talia non sunt nihil, 
+      <!--0479.xml-->
+      <pb ed="#R" n="477"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>quia nihil non est huiusmodi. Et sic etiam in 
+      pro<lb ed="#R" n="2" break="no"/>posito intelligo, quod forma carnis in Christo 
+      in<lb ed="#R" n="3" break="no"/>trinsece fuit truncata. Dico enim quod caro non 
+      <lb ed="#R" n="4"/>est forma extra rationem vitae, sed tamen 
+      comple<lb ed="#R" n="5" break="no"/>te est vna ratio vitae. Hoc videtur coniecturari 
+      om<lb ed="#R" n="6" break="no"/>nem opinionem de gradibus formarum, nam 
+      se<lb ed="#R" n="7" break="no"/>cundum hoc dicitur, quod in omni alio homine est 
+      <lb ed="#R" n="8"/>vna forma, &amp; vna simplex ratio, cuius rationis est 
+      <lb ed="#R" n="9"/>materia inchoatiuum, forma vero complens; sicut 
+      <lb ed="#R" n="10"/>modo inchoat rationem leonis, sed faciens 
+      acces<lb ed="#R" n="11" break="no"/>sum est caro, dans vero complementum est eius 
+      <lb ed="#R" n="12"/>anima, ita quod totum est vna ratio, &amp; sic habent 
+      <lb ed="#R" n="13"/>intentum ponentes contra hoc suas opiniones 
+      di<lb ed="#R" n="14" break="no"/>minute de vnitate formae substantialis, quod isto 
+      <lb ed="#R" n="15"/>modo intelligendo credo esse verum, nisi in 
+      homi<lb ed="#R" n="16" break="no"/>ne. Si enim essent duae rationes aliae in eodem, 
+      po<lb ed="#R" n="17" break="no"/>sterior adueniens inueniret ens iam in actu, &amp; sic 
+      <lb ed="#R" n="18"/>erit accidens eius: quapropter oportet dicere, quod 
+      <lb ed="#R" n="19"/>illud non sit ratio, sed solum inchoatiuum 
+      ratio<lb ed="#R" n="20" break="no"/>nis, deinde posterior adueniens facit accessum, vel 
+      <lb ed="#R" n="21"/>complet rationem, tunc enim dico, quod si albedo 
+      <lb ed="#R" n="22"/>esset de intrinseco vitalitatis, caro alba esset vere 
+      <lb ed="#R" n="23"/>vnum ens per se, &amp; si vita esset extra rationem 
+      car<lb ed="#R" n="24" break="no"/>nis, non esset caro viua per se vnum. Item, ex hoc 
+      <lb ed="#R" n="25"/>habent intentum contra intentum contra 
+      opinio<lb ed="#R" n="26" break="no"/>nem de pluralitate formarum. Sic enim ponitur, 
+      <lb ed="#R" n="27"/>quod in Christo remanet eadem caro, sed 
+      imperfe<lb ed="#R" n="28" break="no"/>cta: sic etiam saluantur illa, quae apparent ad 
+      sen<lb ed="#R" n="29" break="no"/>sum, scilicet quod remaneant cicatrices, &amp; alia 
+      ac<lb ed="#R" n="30" break="no"/>cidentia huiusmodi. Sic etiam saluatur, quod 
+      po<lb ed="#R" n="31" break="no"/>sito istae partes non ponitur susceptio magis &amp; 
+      mi<lb ed="#R" n="32" break="no"/>nus, sed truncatio. Sic etiam saluatur, quomodo 
+      <lb ed="#R" n="33"/>omnis ratio est indiuisibilis, hoc dico in omni re ab 
+      <lb ed="#R" n="34"/>homine. De homine autem dico, quod oportet 
+      <lb ed="#R" n="35"/>ponere duas naturas. In omnibus autem alijs non 
+      <lb ed="#R" n="36"/>est nisi ratio vna, nam intellectus nec Angeli, nec 
+      <lb ed="#R" n="37"/>alterius posset ibi figurare diuersas rationes. Vtrum 
+      <lb ed="#R" n="38"/>ergo in viuentibus sit alia forma. Dico, quod 
+      po<lb ed="#R" n="39" break="no"/>nere aliam formam in viuentibus praeter hominem, 
+      <lb ed="#R" n="40"/>ita quod primo sit vnus actus, &amp; post adueniat 
+      a<lb ed="#R" n="41" break="no"/>lius actus alterius rationis, hoc est impossibile. 
+      <lb ed="#R" n="42"/>Si autem dicatur, quod ibi est aliquid aliud, scilicet 
+      <lb ed="#R" n="43"/>aliquid inchoatiuum, &amp; aliud completiuum, sic est 
+      <lb ed="#R" n="44"/>possibile, &amp; credo quod necessarium, &amp; sic dico, 
+      <lb ed="#R" n="45"/>quod intra adueniens formae mixti, non est alterius 
+      <lb ed="#R" n="46"/>rationis, quam si esset omnino accidens. 
+      </p>
+            </div>
+            <div xml:id="olm8ij-g47381-Dd1e2439">
+               <head xml:id="olm8ij-g47381-Hd1e2441">Articulus 4</head>
+               <head xml:id="olm8ij-g47381-Hd1e2443" type="question-title">
+            Quid fuerit abiectum in morte Christi
+          </head>
+               <p xml:id="olm8ij-g47381-d1e2446">
+                  <lb ed="#R" n="47"/>ARTJCVLVS JJJJ. 
+      <lb ed="#R" n="48"/>Quid fuerit abiectum in morte Christi.
+      </p>
+               <p xml:id="olm8ij-g47381-d1e2453">
+                  <lb ed="#R" n="49"/>De quarto Articulo dico, quod in Christo fuit 
+      <lb ed="#R" n="50"/>aliquid abiectum ab anima, scilicet vita, &amp; 
+      <lb ed="#R" n="51"/>fundo me in hoc: Vita enim est substantiale 
+      perti<lb ed="#R" n="52" break="no"/>nens ad hominem, &amp; istud fuit abiectum in morte: 
+      <lb ed="#R" n="53"/>sed vita non est idem, quod ipsa anima: ergo. 
+      To<lb ed="#R" n="54" break="no"/>tum stat, quod minor probetur: probo ergo sic: 
+      lo<lb ed="#R" n="55" break="no"/>quor de vita, de qua verum est dicere, quod anima 
+      <lb ed="#R" n="56"/>viuit vita formaliter: tunc ista vita, aut dicit 
+      ani<lb ed="#R" n="57" break="no"/>mam, aut aliquid impressum ab anima, aut 
+      relatio<lb ed="#R" n="58" break="no"/>nem: non primo modo, quia viuere quo formaliter 
+      <lb ed="#R" n="59"/>viuit caro, est impossibile separari a carne, sic quod 
+      <lb ed="#R" n="60"/>maneat separatum a carne, sicut nec possibile est 
+      <lb ed="#R" n="61"/>rectitudinem a linea separari: nec dicit relationem, 
+      <lb ed="#R" n="62"/>quae est vnio amborum. Clarum est hoc, quod vita 
+      <lb ed="#R" n="63"/>qua formaliter caro viuit, non est relatio: ergo est 
+      <lb ed="#R" n="64"/>modus carnis. Tunc, aut est aliquid ab anima 
+      <lb ed="#R" n="65"/>impressum, &amp; hoc non est possibile, quia tunc ani- 
+      <!--0479.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="66"/>ma viuificaret per modum efficientis. Oportet 
+      er<lb ed="#R" n="67" break="no"/>go quod sit aliquid intrinsecum, quod non est 
+      im<lb ed="#R" n="68" break="no"/>pressum, &amp; sic impossibile est, quod aliquid 
+      forma<lb ed="#R" n="69" break="no"/>liter viuat alio, nisi illud sit modus eius 
+      intrinse<lb ed="#R" n="70" break="no"/>cus: hoc autem est distinctum ab anima, cum 
+      ani<lb ed="#R" n="71" break="no"/>ma sit subsistens, tunc dico, quod tota vita in 
+      Chri<lb ed="#R" n="72" break="no"/>sto non fuit amota, quoniam remanet caro, quae est 
+      <lb ed="#R" n="73"/>inchoatiuum. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e2514">
+                  <lb ed="#R" n="74"/>Hic est dubium: sequitur enim ex hac positione, 
+      <lb ed="#R" n="75"/>quod in homine sint duae animae, scilicet vita, quae 
+      <lb ed="#R" n="76"/>est anima quaedam, forte sensitiua in homine, &amp; sic 
+      <lb ed="#R" n="77"/>in Christo sit a generante. Item tertio sequitur 
+      se<lb ed="#R" n="78" break="no"/>cundum te, quod anima rationalis non dat esse 
+      <lb ed="#R" n="79"/>viuum. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e2531">
+                  <lb ed="#R" n="80"/>Ad primum respondeo per interemptionem, 
+      ac<lb ed="#R" n="81" break="no"/>cipiendo proprie animam, nisi voces ipsam 
+      viuaci<lb ed="#R" n="82" break="no"/>tatem animam, &amp; tamen non est anima: &amp; differt 
+      <lb ed="#R" n="83"/>ab anima propter tria, primo quod anima est 
+      con<lb ed="#R" n="84" break="no"/>seruatiua, &amp; contentiua corporis, anima enim 
+      cor<lb ed="#R" n="85" break="no"/>pus continet, ipsa autem vita non est continens, 
+      <lb ed="#R" n="86"/>sed contenta. Verum ista vita non continet 
+      cor<lb ed="#R" n="87" break="no"/>pus, sed vtrumque continetur ab anima, corpus 
+      sci<lb ed="#R" n="88" break="no"/>licet, &amp; vita. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e2553">
+                  <lb ed="#R" n="89"/>Secunda differentia, quod vita non est forma ter 
+      <lb ed="#R" n="90"/>minata in operatione, nam virtute istius vitae non 
+      <lb ed="#R" n="91"/>possunt elici operationes sensuum nostrorum, nisi 
+      <lb ed="#R" n="92"/>per communicationem animae in nobis, ita quod 
+      <lb ed="#R" n="93"/>in omnibus operationibus ista forma imperficitur 
+      <lb ed="#R" n="94"/>sine illa. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e2569">
+                  <lb ed="#R" n="95"/>Tertia differentia est, quod ista forma vitalis est 
+      <lb ed="#R" n="96"/>imperfecta in essendo, sicut in operando, perficitur 
+      <lb ed="#R" n="97"/>autem vtroque modo per coniunctionem animae. 
+      <lb ed="#R" n="98"/>Vnde sciendum est, quod duo sunt genera entium. 
+      <lb ed="#R" n="99"/>Quaedam enim sunt corporalia, quaedam vero 
+      spi<lb ed="#R" n="100" break="no"/>ritualia. Item corporalium quaedam sunt non 
+      vi<lb ed="#R" n="101" break="no"/>talia, vt lapis; quaedam sunt vitalia, sicut &amp; ista 
+      om<lb ed="#R" n="102" break="no"/>nia dat differentia talis. Harum autem rerum 
+      cor<lb ed="#R" n="103" break="no"/>poralium genus est terminatum, &amp; spiritualium 
+      <lb ed="#R" n="104"/>ex alia parte similiter: tunc ex ordine arguit, quod 
+      <lb ed="#R" n="105"/>vnum genus alteri vniatur, ita quod superiora 
+      in<lb ed="#R" n="106" break="no"/>fimis, &amp; infima superioribus coniungantur, &amp; 
+      <lb ed="#R" n="107"/>vniantur. Sed quae sit dependentia animae ad 
+      cor<lb ed="#R" n="108" break="no"/>pus, &amp; e conuerso: vt ergo natura corporalis 
+      vnia<lb ed="#R" n="109" break="no"/>tur spirituali, ingenerat summum quo possit vniri, 
+      <lb ed="#R" n="110"/>&amp; secundum istud habet essentialem dependentiam 
+      <lb ed="#R" n="111"/>ad illud, &amp; ex ijs fit vnum per se, non quod sit vna 
+      <lb ed="#R" n="112"/>ratio, sed sunt duae, &amp; vniuntur effentialiter, quia 
+      <lb ed="#R" n="113"/>secundum vltimum, &amp; finem dependent 
+      essentia<lb ed="#R" n="114" break="no"/>liter. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e2615">
+                  <lb ed="#R" n="115"/>Dico ergo, quod talis viuacitas proprie non est 
+      <lb ed="#R" n="116"/>anima, sed magis propria ratio ad animam. 
+      Ve<lb ed="#R" n="117" break="no"/>rum est, quod non concedo de vocabulis: Vnde 
+      Au<lb ed="#R" n="118" break="no"/>gustinus dicit, quod illae formae, quas ingenerat, &amp; 
+      <lb ed="#R" n="119"/>istud inferius vniretur superiori, &amp; e conuerso; 
+      vn<lb ed="#R" n="120" break="no"/>de in homine, secundum antiquos, vita sensitiua est 
+      <lb ed="#R" n="121"/>a generante. Ista est intentio Augustini in 
+      homi<lb ed="#R" n="122" break="no"/>ne natura corporalis, &amp; spiritualis, &amp; ista est vita 
+      <lb ed="#R" n="123"/>quam amisit corpus, quae de necessitate refertur 
+      <lb ed="#R" n="124"/>ad animam, &amp; est quodammodo depositio, qui est 
+      <lb ed="#R" n="125"/>necessitas. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e2641">
+                  <lb ed="#R" n="126"/>Ad aliud dico, quod generare est aliqua vita 
+      ne<lb ed="#R" n="127" break="no"/>cessario, quod probo, quia terminus formaliter 
+      <lb ed="#R" n="128"/>generatiuae hominis est nobilior quam terminus 
+      <lb ed="#R" n="129"/>generatiuae asini: sed generatiua asim habet 
+      termi<lb ed="#R" n="130" break="no"/>num vitalem: ergo multo magis terminus 
+      gene<lb ed="#R" n="131" break="no"/>ratiuae hominis est vitalis, ita quod forma, que 
+      in<lb ed="#R" n="132" break="no"/>ducitur virtute generatiuae, cre do quod sit 
+      vi<lb ed="#R" n="133" break="no"/>talis.
+      </p>
+               <p xml:id="olm8ij-g47381-d1e2661">
+      <!--0480.xml-->
+                  <pb ed="#R" n="478"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Item illud, quod facit connexionem cum 
+      ani<lb ed="#R" n="2" break="no"/>ma, est nobilius quocumque corporali, quia fit 
+      se<lb ed="#R" n="3" break="no"/>cundum supremum: ergo aliquid vitale est a 
+      gene<lb ed="#R" n="4" break="no"/>rante: sensitiua autem, quoniam nominat principium 
+      <lb ed="#R" n="5"/>sensus, quam operationem non habet ab illa vita, 
+      <lb ed="#R" n="6"/>sed ab anima, inquantum perficit istam in omnibus 
+      <lb ed="#R" n="7"/>operationibus, &amp; ideo secundum hoc conceditur, 
+      <lb ed="#R" n="8"/>quod sensitiua non est a generante. 
+    </p>
+               <p xml:id="olm8ij-g47381-d1e2688">
+                  <lb ed="#R" n="9"/>Sed quare ista forma non est vitalis terminata 
+      <lb ed="#R" n="10"/>in nobis, sicut in brutis? Respondeo, quod forte 
+      <lb ed="#R" n="11"/>est ex nobilitate, quia intendit ad nobiliorem 
+      per<lb ed="#R" n="12" break="no"/>fectionem. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e2699">
+                  <lb ed="#R" n="13"/>Ad quartum dico, quod animam viuificare est 
+      <lb ed="#R" n="14"/>tripliciter, vel quod sit formaliter vita, vel 
+      impri<lb ed="#R" n="15" break="no"/>mendo, vt sic, vita sit quidam motus. Et tunc hoc 
+      <lb ed="#R" n="16"/>esset efficaciter: vel secundo conseruatiue, &amp; hoc 
+      <lb ed="#R" n="17"/>non, quia etiam hoc esset per modum efficientis. 
+      <lb ed="#R" n="18"/>Vel dat esse viuum formaliter: &amp; hoc, vel quo ad 
+      <lb ed="#R" n="19"/>omnes conditiones formae, &amp; hoc non, quia omnes 
+      <lb ed="#R" n="20"/>aliae formae nulla est hoc, sed sunt mere ipsa 
+      forma<lb ed="#R" n="21" break="no"/>tio, &amp; ideo dat esse viuum per modum formae 
+      finiem<lb ed="#R" n="22" break="no"/>tis. Tota enim ratio vitae in homine ordinatur ad 
+      <lb ed="#R" n="23"/>animam rationalem, &amp; ideo anima dat illa sicut 
+      <lb ed="#R" n="24"/>finis, non sicut operatio, sed sicut finis formaliter, 
+      <lb ed="#R" n="25"/>&amp; ideo non est illa sine anima, nec e conuerso, quia 
+      <lb ed="#R" n="26"/>ista exigitur propter vnionem corporalis cum 
+      spi<lb ed="#R" n="27" break="no"/>rituali. Et ex alia parte non habet ista terminari 
+      <lb ed="#R" n="28"/>sine anima, &amp; tunc patet, quomodo agens naturale 
+      <lb ed="#R" n="29"/>generat &amp; corrumpit: nam generata ista statim 
+      in<lb ed="#R" n="30" break="no"/>funditur anima, quoniam est dispositio, quae est 
+      ne<lb ed="#R" n="31" break="no"/>cessitas, &amp; hoc secundum leges statutas non 
+      abso<lb ed="#R" n="32" break="no"/>lute. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e2745">
+                  <lb ed="#R" n="33"/>Item, agens agendo, &amp; corrumpendo istam 
+      vi<lb ed="#R" n="34" break="no"/>tam corrumpit hominem, &amp; separat animam, eo quod 
+      <lb ed="#R" n="35"/>anima non est sine anima. Per hoc patet ad 
+      argu<lb ed="#R" n="36" break="no"/>menta in oppositum principalia. 
+    </p>
+               <p xml:id="olm8ij-g47381-d1e2756">
+                  <lb ed="#R" n="37"/>Ad primum dico, quod non saluas fidei 
+      sinceri<lb ed="#R" n="38" break="no"/>tatem, nisi ponas, quod aliquid de forma carnis 
+      re<lb ed="#R" n="39" break="no"/>maneat, nam non saluas identitatem, vnus enim 
+      <lb ed="#R" n="40"/>dicit, quod erat eadem ratione vnius suppositi ma 
+      <lb ed="#R" n="41"/>teriae, &amp; esse accidentium. Hoc non saluat fidem, 
+      <lb ed="#R" n="42"/>quia fides exigit, quod in illo triduo corpus 
+      Chri<lb ed="#R" n="43" break="no"/>sti fuisset vere confectum, &amp; consecratum, ita quod 
+      <lb ed="#R" n="44"/>panis fuisset transubstātiatus in veram carnem, non 
+      <lb ed="#R" n="45"/>in accidentia. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e2778">
+                  <lb ed="#R" n="46"/>Ad aliud dico, quod non sufficit, imo oportet vt 
+      <lb ed="#R" n="47"/>non videat primam corruptionem, quae est 
+      separa<lb ed="#R" n="48" break="no"/>tio, nam textus Scripturae dicit, quod caro, quae fuit 
+      <lb ed="#R" n="49"/>in sepulchro, requieuit in spe. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e2789">
+                  <lb ed="#R" n="50"/>Ad aliud dico, quod verum dicit, sed dico, quod 
+      <lb ed="#R" n="51"/>non video resurrectionem, si remanet forma 
+      car<lb ed="#R" n="52" break="no"/>nis, nam sic credo, quod post mortem remanet leo, 
+      <lb ed="#R" n="53"/>vel homo aequiuoce, quod idem est, aut quaedam 
+      <lb ed="#R" n="54"/>quod est remotio totalis rationis, &amp; sic non est 
+      ca<lb ed="#R" n="55" break="no"/>ro aequiuoce, vel quod solum complementi, &amp; 
+      per<lb ed="#R" n="56" break="no"/>fectionis, &amp; sic remanet caro aequiuoce. 
+      <lb ed="#R" n="57"/>Ad aliud dico, quod mors non dicit totalem 
+      re<lb ed="#R" n="58" break="no"/>motionem, sed solum complementi, quod dat esse 
+      <lb ed="#R" n="59"/>simpliciter; nisi autem est resolutio ad primam 
+      <lb ed="#R" n="60"/>materiam, remouetur omnis forma, vnde iste 
+      mo<lb ed="#R" n="61" break="no"/>dus mortis magis est truncatio. In alio autem 
+      <lb ed="#R" n="62"/>modo est corruptio abijciens totaliter omnem 
+      for<lb ed="#R" n="63" break="no"/>mam. Cum autem dicitur, quod generatio vnius 
+      <lb ed="#R" n="64"/>est corruptio alterius, dico quod verum est, nisi 
+      to<lb ed="#R" n="65" break="no"/>tum abijciatur, non autem, nisi truncatur. 
+    </p>
+               <p xml:id="olm8ij-g47381-d1e2827">
+                  <lb ed="#R" n="66"/>Ad aliud de veritate demonstrata, dicit verum, 
+      <lb ed="#R" n="67"/>quod oppositum fidei non demonstrant: &amp; quod 
+      <lb ed="#R" n="68"/>dicit non esse nisi vnam sormam, dico quod dif- 
+      <!--0480.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>ficile est mihi, quod sint rationes plures, 
+      quare<lb ed="#R" n="70" break="no"/>posterior adueniens inueniet ens simpliciter, &amp; sic 
+      <lb ed="#R" n="71"/>non dabit illud esse simpliciter. 
+      </p>
+               <p xml:id="olm8ij-g47381-d1e2847">
+                  <lb ed="#R" n="72"/>Ad aliud dico, quod si remanet illa ratio 
+      trun<lb ed="#R" n="73" break="no"/>cata, non est nisi vna forma, &amp; est eiusdem 
+      ratio<lb ed="#R" n="74" break="no"/>nis cum prima parte, &amp; ideo sicut primum non est 
+      <lb ed="#R" n="75"/>accidens, nec istud, &amp; sic pono plures gradus 
+      for<lb ed="#R" n="76" break="no"/>mae in composito. non autem plures formae, vel 
+      ra<lb ed="#R" n="77" break="no"/>tiones, vt dictum est in corpore Quaestionis. haec 
+      di<lb ed="#R" n="78" break="no"/>cta sint de Quaestione totali. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

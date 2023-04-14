@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-14">April 14, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b3">Roma 1605, Book 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-14" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="514"/>
+            <cb ed="#R" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-g62068"><!-- l3-d28q1 -->
+            <head xml:id="olm8ij-g62068-Hd1e101">Quaestio 1</head>
+            <p xml:id="olm8ij-g62068-d1e103">
+               <lb ed="#R" n="111"/>DISTINCTIO XXXIJJ. 
+      <lb ed="#R" n="112"/>DE VJRTVTJBVS MORALJBVS. 
+      </p>
+            <p xml:id="olm8ij-g62068-d1e110">
+               <lb ed="#R" n="113"/>Quaestio J.
+      </p>
+            <div xml:id="olm8ij-g62068-Dd1e115">
+               <head xml:id="olm8ij-g62068-Hd1e117">Articulus 1</head>
+               <head xml:id="olm8ij-g62068-Hd1e119" type="question-title">
+        Utrum Virtutes Morales insint nobis a natura?
+      </head>
+               <p xml:id="olm8ij-g62068-d1e122">
+                  <lb ed="#R" n="114"/>ARTJCVLVS J. 
+      <lb ed="#R" n="115"/>Vtrum Virtutes Morales insint nobis a natura?
+    </p>
+               <p xml:id="olm8ij-g62068-d1e129">
+                  <lb ed="#R" n="116"/>VIDETVR quod sic, quia 
+      <lb ed="#R" n="117"/>omnis qualitas laudabilis 
+      <lb ed="#R" n="118"/>immediate consistens 
+      vi<lb ed="#R" n="119" break="no"/>detur esse virtus, quia haec 
+      <lb ed="#R" n="120"/>videtur esse ratio virtutis: 
+      <lb ed="#R" n="121"/>sed multae sunt tales 
+      qua<lb ed="#R" n="122" break="no"/>litates, quae insunt a 
+      natu<lb ed="#R" n="123" break="no"/>ra, quia aliqui 
+      naturali<lb ed="#R" n="124" break="no"/>ter sūt liberales, ita quod 
+      <lb ed="#R" n="125"/>dant quando, &amp; sicut oportet, &amp; ista qualitas, quae 
+      <!--0517.xml-->
+      <pb ed="#R" n="515"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>inclinat ipsos ad talem actum, est laudabilis, &amp; inest a 
+      <lb ed="#R" n="2"/>natura, &amp; per consequens virtus inest a natura. &amp; 
+      <lb ed="#R" n="3"/>confirmatur, quia opposita qualitas, scilicet, qua 
+      <lb ed="#R" n="4"/>quis naturaliter inclinatur ad non dandum, est 
+      vi<lb ed="#R" n="5" break="no"/>tium: ergo ista est virtus. &amp; eodem modo potest 
+      in<lb ed="#R" n="6" break="no"/>duci in multis alijs. Contrarium dicit Philosophus 2. 
+      <lb ed="#R" n="7"/>&amp; 6. Ethic, Respondeo punctus quaestionis in hoc 
+      <lb ed="#R" n="8"/>stat, quod quaestio non intendit quaerere: Vtrum 
+      <lb ed="#R" n="9"/>virtutes insint nobis a natura eo modo, quo Plato 
+      <lb ed="#R" n="10"/>ponit virtutes non solum intellectuales, vt patet 
+      pri<lb ed="#R" n="11" break="no"/>mo Poster. sed etiam intellectuales, ita vt insint 
+      no<lb ed="#R" n="12" break="no"/>bis a natura, licet nos lateat, sic quod opposita 
+      vi<lb ed="#R" n="13" break="no"/>tia non pssunt nobis inesse, quia certum est, quod 
+      <lb ed="#R" n="14"/>non insint nobis a natura; nec etiam vtrum in 
+      po<lb ed="#R" n="15" break="no"/>tentia, idest per potentiam susceptiuam insint 
+      no<lb ed="#R" n="16" break="no"/>bis a natura per seminaria, quae possunt dici actiua, 
+      <lb ed="#R" n="17"/>&amp; passiua virtutum; quia in nobis naturaliter sunt 
+      <lb ed="#R" n="18"/>actiua, &amp; passiua, quo possumus virtutes 
+      acquire<lb ed="#R" n="19" break="no"/>re, scilicet intellectus, &amp; voluntas, vel sensus, &amp; 
+      ap<lb ed="#R" n="20" break="no"/>petitus; vel illa quibus virtutes per assuefactionem 
+      <lb ed="#R" n="21"/>acquiruntur. Sed debet intelligi quaestio de 
+      virtu<lb ed="#R" n="22" break="no"/>tibus in actu: Vtrum scilicet sit aliqua qualitas 
+      na<lb ed="#R" n="23" break="no"/>turalis laudabilis, quae inquantum huiusmodi 
+      pos<lb ed="#R" n="24" break="no"/>sit dici virtus moralis, &amp; sic intelligitur quaestio, &amp; 
+      <lb ed="#R" n="25"/>habet difficultatem. 
+      </p>
+               <p xml:id="olm8ij-g62068-d1e214">
+                  <lb ed="#R" n="26"/>Nunc pono propositiones. Prima est, quod 
+      ali<lb ed="#R" n="27" break="no"/>qua qualitas naturalis est virtus, &amp; ratio huius est, 
+      <lb ed="#R" n="28"/>quia nulla qualitas inclinans ad actum, inquantum 
+      <lb ed="#R" n="29"/>actus est, non inquantum est regulatus, est virtus: 
+      <lb ed="#R" n="30"/>sed nulla qualitas naturalis inclinat ad actum 
+      in<lb ed="#R" n="31" break="no"/>quantum regulatum ratione, sed inquantum talis 
+      <lb ed="#R" n="32"/>actus est: ergo. Maior declaratur, quia ponatur, 
+      <lb ed="#R" n="33"/>quod aliquis naturaliter delectetur in dando, 
+      in<lb ed="#R" n="34" break="no"/>quantum dare est dare, idest, inquantum est effusio 
+      <lb ed="#R" n="35"/>pecuniae, &amp; sic non videtur liberalis, quia non incli 
+      <lb ed="#R" n="36"/>nat ad talem actum, inquantum est bonum rationis, 
+      <lb ed="#R" n="37"/>quia actus talis secundum se potest separari a 
+      bo<lb ed="#R" n="38" break="no"/>no rationis, &amp; tunc erit vitiosus, quia non habet 
+      <lb ed="#R" n="39"/>obiectum; nec videtur ibi medium, &amp; bonum 
+      ra<lb ed="#R" n="40" break="no"/>tionis, quod pertinet ad prudentiam, vnde sic 
+      ope<lb ed="#R" n="41" break="no"/>rantes frequenter laedunt se, propter defectum 
+      ocu<lb ed="#R" n="42" break="no"/>lorum cognitionis boni rationis. Minor 
+      declara<lb ed="#R" n="43" break="no"/>tur, quia talis qualitas non est nisi complexio 
+      natu<lb ed="#R" n="44" break="no"/>ralis, vel saltem oritur ex complexione naturali, 
+      <lb ed="#R" n="45"/>quae inclinat ad actum conformem complexioni, 
+      <lb ed="#R" n="46"/>inquantum actus talis est conformis complexioni 
+      <lb ed="#R" n="47"/>non rationi; in melancholico, &amp; sene est 
+      compres<lb ed="#R" n="48" break="no"/>sio, &amp; constrictio humorum propter frigiditatem, 
+      <lb ed="#R" n="49"/>&amp; ideo inclinant naturaliter ad actus consimiles, 
+      <lb ed="#R" n="50"/>puta ad retinendum, &amp; non dandum: e conuerso est 
+      <lb ed="#R" n="51"/>de sanguineo, &amp; iuuene, &amp; sic de alijs suo modo, 
+      <lb ed="#R" n="52"/>quia enim complexio, vel qualitas talis non est, nisi 
+      <lb ed="#R" n="53"/>ex humore proportionato ipsi complexionato, ideo 
+      <lb ed="#R" n="54"/>inclinat ipsum ad actus consimiles, &amp; hoc 
+      natura<lb ed="#R" n="55" break="no"/>liter, inquantum tales actus sunt, non inquantum 
+      <lb ed="#R" n="56"/>sunt bonum rationis. 
+      </p>
+               <p xml:id="olm8ij-g62068-d1e285">
+                  <lb ed="#R" n="57"/>Secunda Propositio, quod huiusmodi qualitas 
+      <lb ed="#R" n="58"/>naturalis potest assuefactione induere rationem 
+      <lb ed="#R" n="59"/>virtutis, vt patet 6. Ethic. &amp; quia si accipiat vsum, 
+      <lb ed="#R" n="60"/>vt, scilicet inclinat, secundum quodlratio dictat, 
+      <lb ed="#R" n="61"/>&amp; ad iudicium rationis, tunc efficitur virtus. &amp; hoc 
+      <lb ed="#R" n="62"/>probatur, quia omnis inclinatio, quae potest 
+      eleua<lb ed="#R" n="63" break="no"/>ri, vt tendat in actum, inquantum iste actus est 
+      bo<lb ed="#R" n="64" break="no"/>num rationis, potest induere rationem virtutis: mo 
+      <lb ed="#R" n="65"/>do inclinatio naturalis sic potest eleuari, ratio 
+      <lb ed="#R" n="66"/>enim particularis, quicquid sit illa, siue 
+      aestimati<lb ed="#R" n="67" break="no"/>ua, siue cogitatiua, nata est mouere, &amp; regulare 
+      <lb ed="#R" n="68"/>appetitum sensitiuum, &amp; ideo si appetitus inclina- 
+      <!--0517.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>tur in actum, ratio particularis potest 
+      coniectu<lb ed="#R" n="70" break="no"/>rari circa ipsum actum in bonum, &amp; medium 
+      ra<lb ed="#R" n="71" break="no"/>tionis, &amp; sic appetitus eleuabitur in tantum, 
+      <lb ed="#R" n="72"/>quod ad talem actum inclinabitur, inquantum est 
+      <lb ed="#R" n="73"/>bonum rationis, secundum quod dictatum est a 
+      <lb ed="#R" n="74"/>ratione. Et ex hoc patet, quare sic 
+      complexiona<lb ed="#R" n="75" break="no"/>ti de facili acquirunt virtutem propter talem 
+      pas<lb ed="#R" n="76" break="no"/>sionem, quae est idem, quod virtus initiatiue, 
+      vn<lb ed="#R" n="77" break="no"/>de tales habent partem virtutis, secundum quod 
+      <lb ed="#R" n="78"/>dicitur de medico, quod aliquis per se, &amp; 
+      facili<lb ed="#R" n="79" break="no"/>ter curatur, &amp; non indiget medico, eo quod habet 
+      <lb ed="#R" n="80"/>partem sanitatis, idest, principium in se, per quod 
+      <lb ed="#R" n="81"/>potest eum reducere ad perfectam sanitatem, &amp; sic 
+      <lb ed="#R" n="82"/>est in proposito suo modo. 
+      </p>
+               <p xml:id="olm8ij-g62068-d1e348">
+                  <lb ed="#R" n="83"/>Tertia Propositio, quod virtus proprie est 
+      ha<lb ed="#R" n="84" break="no"/>bitus consuetudinalis, quia illa circunstantia, quae 
+      <lb ed="#R" n="85"/>pertinet principaliter ad omnem virtutem, &amp; ex 
+      <lb ed="#R" n="86"/>quo omnes aliae oriuntur, est ex consuetudine, puta 
+      <lb ed="#R" n="87"/>delectabiliter operari, ex hoc enim oritur, quod 
+      <lb ed="#R" n="88"/>aliquis qui operatur prompte, faciliter, repente, 
+      fir<lb ed="#R" n="89" break="no"/>miter, &amp; immobiliter, omnia ista, &amp; similia 
+      oriun<lb ed="#R" n="90" break="no"/>tur ex hoc, quod aliquis delectabiliter operatur: 
+      <lb ed="#R" n="91"/>modo delectatio in operatione maxime oritur ex 
+      <lb ed="#R" n="92"/>consuetudine: natura enim est indifferens 
+      secun<lb ed="#R" n="93" break="no"/>dum se ad actum hunc, &amp; illum, &amp; extranea, &amp; 
+      <lb ed="#R" n="94"/>ideo vt sic non delectatur in actu, sed per 
+      assue<lb ed="#R" n="95" break="no"/>factionem oritur quaedam connaturalitas inter 
+      <lb ed="#R" n="96"/>potentiam, &amp; actum, &amp; sic causatur delectatio. 
+      <lb ed="#R" n="97"/>Et si dicatur, quod actus virtutum moralium non 
+      <lb ed="#R" n="98"/>sunt productiui, &amp; similiter ex ipsis frequentatis 
+      <lb ed="#R" n="99"/>per consuetudinem non potest causari habitus. 
+      Di<lb ed="#R" n="100" break="no"/>cendum, quod non sunt productiui obiecti, vel 
+      re<lb ed="#R" n="101" break="no"/>spectu obiecti: sed quid alterius 
+      <lb ed="#R" n="102"/>vel dicendum, quod non sunt productiui directe, 
+      <lb ed="#R" n="103"/>tamen indirecte inclinando ad ipsos sequitur 
+      ali<lb ed="#R" n="104" break="no"/>quod productiuum, non negatur, vnde nec habitus 
+      <lb ed="#R" n="105"/>directe producuntur, sed sic, quod ex 
+      assuefactio<lb ed="#R" n="106" break="no"/>ne in actibus derelinquitur quaedam facilitas 
+      in<lb ed="#R" n="107" break="no"/>ipsa potentia vitalium actuum. 
+      </p>
+               <p xml:id="olm8ij-g62068-d1e405">
+                  <lb ed="#R" n="108"/>Ad argumentum dicendum, quod tales 
+      passio<lb ed="#R" n="109" break="no"/>nes sunt laudabiles, non quia inclinant ad bonum 
+      <lb ed="#R" n="110"/>rationis; vel dicendum, quod laus datur propter 
+      <lb ed="#R" n="111"/>spem, &amp; quia de habentibus tales passiones est 
+      <lb ed="#R" n="112"/>spes, quod debeant effici virtuosi, ideo laudantur; 
+      <lb ed="#R" n="113"/>sicut &amp; verecundia est passio laudabilis. Vel 
+      dicen<lb ed="#R" n="114" break="no"/>dum, quod sunt laudabiles, quia retrahunt a 
+      <lb ed="#R" n="115"/>malo, non quod inducant ad bonum virtutis. 
+      </p>
+            </div>
+            <div xml:id="olm8ij-g62068-Dd1e426">
+               <head xml:id="olm8ij-g62068-Hd1e428">Articulus 2</head>
+               <head xml:id="olm8ij-g62068-Hd1e430" type="question-title">
+          De Virtutibus
+        </head>
+               <p xml:id="olm8ij-g62068-d1e433">
+                  <lb ed="#R" n="116"/>ARTJCVLVS JJ. 
+      <lb ed="#R" n="117"/>De Virtutibus.
+      </p>
+               <p xml:id="olm8ij-g62068-d1e440">
+                  <lb ed="#R" n="118"/>Vtrum bonum siue medium rationis, inquantum 
+      <lb ed="#R" n="119"/>huiusmodi sit respectus 
+      ra<lb ed="#R" n="120" break="no"/>tionis. 
+    </p>
+               <p xml:id="olm8ij-g62068-d1e449">
+                  <lb ed="#R" n="121"/>Et Videtur, quod sic: quia, vt sic est aliquid 
+      im<lb ed="#R" n="122" break="no"/>positum, &amp; dictatum a ratione in ipsis 
+      pas<lb ed="#R" n="123" break="no"/>sionibus. Contra a. Ethic. virtus moralis est 
+      conie<lb ed="#R" n="124" break="no"/>ctatrix medij secundum rationem. Respondeo. sit 
+      <lb ed="#R" n="125"/>prima propositio: Virtus non est medium inter 
+      <lb ed="#R" n="126"/>bonitatem, &amp; malitiam, quia sic nec bona, nec 
+      ma<lb ed="#R" n="127" break="no"/>la esset: modo bona est, &amp; sic est extremum 
+      con<lb ed="#R" n="128" break="no"/>tra malitiam, vt patet a. Ethicorum. Sed hic est 
+      <lb ed="#R" n="129"/>dubium: vtrum sit dare talem habitum medium 
+      <lb ed="#R" n="130"/>inter bonitatem, &amp; malitiam, quae sit neutra 
+      <lb ed="#R" n="131"/>sicut dictum est prius de actu. &amp; dicendum 
+      <!--0518.xml-->
+      <pb ed="#R" n="516"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>quod il non sit actus indifferens, vt aliqui 
+      di<lb ed="#R" n="2" break="no"/>cunt, tunc non possit esse habitus indifferens. 
+      Se<lb ed="#R" n="3" break="no"/>cundo, dato, quod possit esse actus indifferens, vt 
+      vi<lb ed="#R" n="4" break="no"/>sum est prius, sicut leuare festucam nunc non faciat 
+      <lb ed="#R" n="5"/>quilibet, &amp; hoc quando non obligatur ad alium 
+      a<lb ed="#R" n="6" break="no"/>ctum pro tali nunc, tamen habitus non potest esse 
+      <lb ed="#R" n="7"/>indifferens, &amp; ingeneratus nisi per assuefactionem, 
+      <lb ed="#R" n="8"/>quae est per actus frequentes. Modo talis actus 
+      be<lb ed="#R" n="9" break="no"/>ne potest esse indifferens pro aliquo nunc, &amp; tamen 
+      <lb ed="#R" n="10"/>frequentatio talis actus, &amp; occupatio frequens 
+      <lb ed="#R" n="11"/>esset vitiosa, &amp; per consequens habitus 
+      ingenera<lb ed="#R" n="12" break="no"/>tus eslet vitiosus. 
+      </p>
+               <p xml:id="olm8ij-g62068-d1e509">
+                  <lb ed="#R" n="13"/>Secunda conclusio est de medio, rationis qũo est 
+      <lb ed="#R" n="14"/>obiectum virtutis moralis. Vbi notandum, quod 
+      obie<lb ed="#R" n="15" break="no"/>ctum materiale dicitur illud, circa quod artitex 
+      o<lb ed="#R" n="16" break="no"/>peratur, vt ligna dicuntur obiectum carpentarij; 
+      <lb ed="#R" n="17"/>obiectum formale est illud, quod principaliter 
+      in<lb ed="#R" n="18" break="no"/>tendit, &amp; quo mensurat omnia, quae considerat, vel 
+      <lb ed="#R" n="19"/>facit, vt forma arcae. Sic hic obiectum materiale, est 
+      <lb ed="#R" n="20"/>illud, circa quod virtus operatur, puta passiones. 
+      <lb ed="#R" n="21"/>Exemplum Justitia, quod habet pro obiecto 
+      materia<lb ed="#R" n="22" break="no"/>li ipsas actiones, quae sunt ad alterum; licet enim in 
+      <lb ed="#R" n="23"/>iustitia concurrant passiones, quae faciunt ad 
+      iusti<lb ed="#R" n="24" break="no"/>tiam, vt zelus, ferocitas, &amp; huiusmodi. Quando 
+      ra<lb ed="#R" n="25" break="no"/>tione regulantur, tamen iustitia non est directe 
+      mo<lb ed="#R" n="26" break="no"/>deratiua ipsarum passionum, sed actionum, quod 
+      <lb ed="#R" n="27"/>patet, quia amotis omnibus passionibus adhuc 
+      re<lb ed="#R" n="28" break="no"/>quiritur ipsa iustitia, vt patet in Angelis, passiones 
+      <lb ed="#R" n="29"/>tamen in alijs virtutibus moralibus sunt obiectum 
+      <lb ed="#R" n="30"/>materiale, circa quod negotiantur. Obiectum autem 
+      <lb ed="#R" n="31"/>formale est illud, quod educit ipsa virtus, puta 
+      for<lb ed="#R" n="32" break="no"/>ma quam inducit, quae con sistit in quadam 
+      propor<lb ed="#R" n="33" break="no"/>tione, siue in medio rationis, ita quod medium 
+      ra<lb ed="#R" n="34" break="no"/>tionis est obiectum formale virtutum moralium. 
+      <lb ed="#R" n="35"/>Quod autem obiectum virtutum moralium sit 
+      me<lb ed="#R" n="36" break="no"/>dium, probatur, primo, quia illud, quod consistit in 
+      <lb ed="#R" n="37"/>proportione, consistit in medio, ergo. Maior patet 
+      <lb ed="#R" n="38"/>quia proportione medium est, vt patet de sanitate in 
+      <lb ed="#R" n="39"/>ordine ad naturam. Sanitas. n. consistit in quadam 
+      <lb ed="#R" n="40"/>proportione ad naturam, vnde fit de colera in 
+      ali<lb ed="#R" n="41" break="no"/>quo, quantum competit suae naturae: vnde sanitas 
+      di<lb ed="#R" n="42" break="no"/>citur proportio humorum, non quia sit proportio 
+      hu<lb ed="#R" n="43" break="no"/>morum inter se, vt quod talis humor sic alteri 
+      pro<lb ed="#R" n="44" break="no"/>portionetur in triplo, vel duplo, sed in proportione 
+      <lb ed="#R" n="45"/>humorum ad naturam, secundum quod conuenit naturae, ita 
+      <lb ed="#R" n="46"/>quod sanitas non est, nisi ipsi humores 
+      proportio<lb ed="#R" n="47" break="no"/>nati naturae, &amp; complexioni, habētes sanitatem, &amp; 
+      se<lb ed="#R" n="48" break="no"/>cundum hoc dicitur consistere in medio, &amp; sic patet 
+      <lb ed="#R" n="49"/>maior. Sed minor declaratur, vt patet ex his, quae 
+      <lb ed="#R" n="50"/>dicta sunt de sanitate: nam virtus moralis consistit in 
+      <lb ed="#R" n="51"/>quadam proportione, vtputa liberalis dat, quantum 
+      <lb ed="#R" n="52"/>decet statum suum, &amp; quantum sibi conuenit, &amp; ideò 
+      <lb ed="#R" n="53"/>dicitur virtus perfecta dispositio ad optimum, ita 
+      <lb ed="#R" n="54"/>quod sit dispositio perfectionis ad optimum 
+      sta<lb ed="#R" n="55" break="no"/>tum ipsius habentis virtutem, secundum quod 
+      con<lb ed="#R" n="56" break="no"/>uenit. Secundo illud, quod consistit in quadam 
+      <lb ed="#R" n="57"/>medietate circumstantiarum consistit in medio: sed 
+      <lb ed="#R" n="58"/>virtus consistit in medietate circumstantiarum, &amp; 
+      se<lb ed="#R" n="59" break="no"/>cundum quod conuenit, &amp; ideo dicitur, quod 
+      <lb ed="#R" n="60"/>consistit in medietate, quo ad nos. Et ex hoc 
+      pa<lb ed="#R" n="61" break="no"/>tet, quod actus virtuosi, vel virtutes non 
+      consi<lb ed="#R" n="62" break="no"/>stunt in medio rei, sed in medio quo ad nos, idest, 
+      <lb ed="#R" n="63"/>vt tali conuenit. Sed patet per exemplum, quod 
+      <lb ed="#R" n="64"/>ponit Philosophus de paruo, qui comedit quatuor 
+      <lb ed="#R" n="65"/>panes, &amp; excedit in nimis, &amp; de magno, qui 
+      co<lb ed="#R" n="66" break="no"/>medit sex, &amp; lobrius est, quia non excedit, sed 
+      <lb ed="#R" n="67"/>istud medium dicitur rationis, idest inuentum 
+      <lb ed="#R" n="68"/>a ratione, non quod iste respectus, qui est esse in- 
+      <!--0518.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>uentum a ratione, ingrediatur rationem 
+      forma<lb ed="#R" n="70" break="no"/>lem obiecti virtutum; tum quia respectus est 
+      ra<lb ed="#R" n="71" break="no"/>tionis; tum quia virtus moralis sortiretur 
+      nobili<lb ed="#R" n="72" break="no"/>tatem ab isto respectu, quia sortitur rationem 
+      no<lb ed="#R" n="73" break="no"/>bilitatis ab obiecto; tum quia oriretur ex isto 
+      re<lb ed="#R" n="74" break="no"/>spectu, sicut oritur ab obiecto formaliter. Medium 
+      <lb ed="#R" n="75"/>ergo rationis dicitur obiectum formale virtutum, 
+      <lb ed="#R" n="76"/>pro tanto, quia est quoddam bonum hominis, 
+      in<lb ed="#R" n="77" break="no"/>quantum decet ipsum, &amp; conuenit sibi, est obiectum 
+      <lb ed="#R" n="78"/>virtutis moralis: modo istud est illud bonum 
+      <lb ed="#R" n="79"/>quod ratio dictat, non pro illo dictamine, quia 
+      <lb ed="#R" n="80"/>illud dictamen non dat sibi rationem talis 
+      bonita<lb ed="#R" n="81" break="no"/>tis, sed quantum ad illud, quod est in ordine ad 
+      <lb ed="#R" n="82"/>ipsum, qui habet virtutem. Et confirmatur, quia 
+      <lb ed="#R" n="83"/>dato quod ratio inueniret illud medium, 
+      nihilomi<lb ed="#R" n="84" break="no"/>nus esset bonum hominis secundum quod sibi 
+      con<lb ed="#R" n="85" break="no"/>gruit, &amp; esset obiectum virtutis: sicut patet de 
+      sa<lb ed="#R" n="86" break="no"/>nitate, quod dicitur sanitas hominis, quia est 
+      me<lb ed="#R" n="87" break="no"/>dium conueniens homini secundum naturam suam. 
+      <lb ed="#R" n="88"/>vnde si voluntas posset serri in illud medium, &amp; 
+      <lb ed="#R" n="89"/>in tale bonum in iudicio, vel inuentione rationis, 
+      <lb ed="#R" n="90"/>non minus esset bonum hominis, quam modo, sed 
+      <lb ed="#R" n="91"/>qnia caeca est, ideo tenetur, quod tale medium 
+      <lb ed="#R" n="92"/>inueniatur, &amp; indicetur a ratione. Quantum 
+      <lb ed="#R" n="93"/>ergo ad illud, quod est tale medium, dicitur 
+      obie<lb ed="#R" n="94" break="no"/>ctum formale virtutum, sed non quantum ad esse 
+      <lb ed="#R" n="95"/>indicium, vel inuentum a ratione, quia tunc 
+      con<lb ed="#R" n="96" break="no"/>scientia erronea bene ageret, quia habet medium 
+      <lb ed="#R" n="97"/>iudicatum a rationae. Et si dicas; non quia errat, hoc 
+      <lb ed="#R" n="98"/>non habet, quia tunc conceditur propositum, 
+      vi<lb ed="#R" n="99" break="no"/>delicet, quod esse iudicatum non sit ratio 
+      forma<lb ed="#R" n="100" break="no"/>lis obiecti virtutis, sed est bonitas obiecti 
+      secun<lb ed="#R" n="101" break="no"/>dum se, quomodo tamen dictare debet, &amp; 
+      inue<lb ed="#R" n="102" break="no"/>re; &amp; si errat, tunc non est bona ratio formalis 
+      obie<lb ed="#R" n="103" break="no"/>ci nisi secundum esse iudicatum, non secundum 
+      <lb ed="#R" n="104"/>rei veritatem. Et haec est intentio Philosophi, cum 
+      <lb ed="#R" n="105"/>dicit, quod virtus consistit in medio rationis quo 
+      <lb ed="#R" n="106"/>ad nos, prout sapiens determinabit, ita quod ibi 
+      <lb ed="#R" n="107"/>solum se habet per modum determinantis.
+      </p>
+               <p xml:id="olm8ij-g62068-d1e722">
+                  <lb ed="#R" n="108"/>Tertia Propositio, quod virtus in speciali est 
+      <lb ed="#R" n="109"/>quidam habitus faciens generalem inclinationem 
+      <lb ed="#R" n="110"/>ad obiectum virtutis in communi, &amp; in generali 
+      <lb ed="#R" n="111"/>secundum quod congruit homini, &amp; in qualibet 
+      <lb ed="#R" n="112"/>virtute inclinatio specialis ad obiectum speciale, 
+      <lb ed="#R" n="113"/>vt congruit homini, vt virtus temperantiae est 
+      <lb ed="#R" n="114"/>habitus inclinans ad delectationes, secundum 
+      <lb ed="#R" n="115"/>quod congruit homini, vt patet 6. Ethic. Ita quod 
+      <lb ed="#R" n="116"/>virtus temperantiae circa delectationes facit 
+      re<lb ed="#R" n="117" break="no"/>ctam electionem ex inclinatione sua, vnde 
+      tem<lb ed="#R" n="118" break="no"/>peratus hoc habet ex habitu, quod circa omnes 
+      <lb ed="#R" n="119"/>delectationes, &amp; ex inclinatione temperantiae vult 
+      <lb ed="#R" n="120"/>facere rectam electionem; &amp; tunc necessaria est 
+      <lb ed="#R" n="121"/>virtus prudentiae, quae ordinat, &amp; iudicat de ijs, 
+      <lb ed="#R" n="122"/>quae sunt ad finem, dicens tantum congruere sibi, 
+      <lb ed="#R" n="123"/>&amp; sic ad illud elicienduminclinat temperantia 
+      <lb ed="#R" n="124"/>&amp; sic de alijs. Et hoc est quod dicit Augustinus de 
+      <lb ed="#R" n="125"/>moribus ecclesiae, quod virtutes sunt quidam 
+      <lb ed="#R" n="126"/>mores, &amp; habituales consuetudines inclinantes 
+      <lb ed="#R" n="127"/>ad illud, quod decet vnumquemque propter hoc 
+      <lb ed="#R" n="128"/>dicitur ergo &amp; hic, quod qualis est 
+      vnusquis<lb ed="#R" n="129" break="no"/>que, talia sibi optat propter habitualem 
+      inclina<lb ed="#R" n="130" break="no"/>tionem. 
+      </p>
+               <p xml:id="olm8ij-g62068-d1e774">
+                  <lb ed="#R" n="131"/>Ad argumentum patet, non enim medium rationis 
+      <lb ed="#R" n="132"/>dicitur obiectum formale virtutis, quantum ad 
+      se<lb ed="#R" n="133" break="no"/>cundum respectum, qui est esse dictatum a 
+      ratio<lb ed="#R" n="134" break="no"/>ne; sed quantum ad illud, quod est in rei veritate, 
+      <lb ed="#R" n="135"/>vt proportionatum homini bene, si bonitas posset 
+      <lb ed="#R" n="136"/>cadere in illud sine dictamine rationis, nisi faceret 
+      <!--0519.xml-->
+      <pb ed="#R" n="517"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>ratio: sed voluntas non caderet in tale medium, nisi 
+      <lb ed="#R" n="2"/>a casu, &amp; est simile in proposito, vnde dicitur, quod 
+      <lb ed="#R" n="3"/>bonum apprehensum est obiectum voluntatis. 
+      </p>
+            </div>
+            <div xml:id="olm8ij-g62068-Dd1e805">
+               <head xml:id="olm8ij-g62068-Hd1e807">Articulus 3</head>
+               <head xml:id="olm8ij-g62068-Hd1e809" type="question-title">
+            Utrum virtutes morales sint subiectiue in 
+            appetitu sensitiuo, vel in voluntate
+          </head>
+               <p xml:id="olm8ij-g62068-d1e812">
+                  <lb ed="#R" n="4"/>ARTJCVLVS III. 
+      <lb ed="#R" n="5"/>De Virtutibus. 
+      <lb ed="#R" n="6"/>Vtrum virtutes morales sint subiectiue in 
+      appeti<lb ed="#R" n="7" break="no"/>tu sensitiuo, vel in voluntate. 
+      </p>
+               <p xml:id="olm8ij-g62068-d1e823">
+                  <lb ed="#R" n="8"/>VIdetur, quod in appetitu sensitiuo, quia 1. 
+      <lb ed="#R" n="9"/>Ethic. Philosophus diuidit, per realem, per 
+      <lb ed="#R" n="10"/>rationalem per participationem, &amp; secundum hoc 
+      <lb ed="#R" n="11"/>ponit diuisionem virtutum, &amp; ponit virtutes 
+      mora<lb ed="#R" n="12" break="no"/>les in rationali, per participationem, quod est appe 
+      <lb ed="#R" n="13"/>titus sensitiuus. Et 3. Ethic. dicit, quod 
+      Temperan<lb ed="#R" n="14" break="no"/>tia in concupiscibili, &amp; Fortitudo in irascibili, quae 
+      <lb ed="#R" n="15"/>virtus est appetitus elicitiuus: sed oppositus ipsius 
+      <lb ed="#R" n="16"/>non est elicitiuus, sed voluntas: ergo. 
+      </p>
+               <p xml:id="olm8ij-g62068-d1e845">
+                  <lb ed="#R" n="17"/>Respondeo punctus quaestionis in hoc stat, quod 
+      <lb ed="#R" n="18"/>vna est opinio, quod omnes virtutes morales gene 
+      <lb ed="#R" n="19"/>raliter sunt in appetitu sensitiuo, &amp; haec videtur 
+      es<lb ed="#R" n="20" break="no"/>se intentio Aristotelis. Fundamentum istorum est, 
+      <lb ed="#R" n="21"/>quod voluntas determinata est ex se ad bonum, 
+      si<lb ed="#R" n="22" break="no"/>militer ad malum, quia ex nunc determinari 
+      po<lb ed="#R" n="23" break="no"/>test per rationem, quomodo statim sequitur, quia 
+      <lb ed="#R" n="24"/>nullum recordatiuum habet, nisi inquantum iũ
+      gi<lb ed="#R" n="25" break="no"/>tur appetitui sensitiuo, qui trahit voluntatem, 
+      si<lb ed="#R" n="26" break="no"/>cut rota mota trahit rotam, &amp; ideo solum in 
+      appe<lb ed="#R" n="27" break="no"/>titu sensitiuo, qui est rebellis rationis, &amp; 
+      indeter<lb ed="#R" n="28" break="no"/>minatus ad bonum, quantum est de se, debent poni 
+      <lb ed="#R" n="29"/>virtutes morales. Secundo quia 1. Polit. dicitur, 
+      <lb ed="#R" n="30"/>quod non dominatur appetus principatu politico, 
+      <lb ed="#R" n="31"/>idest, tali, vt habeat, vnde resistere possit, non autem 
+      <lb ed="#R" n="32"/>principatu despotico, idest, seruili, vt non habeat 
+      <lb ed="#R" n="33"/>vnde resistere possit, nisi a principatu despotico, 
+      <lb ed="#R" n="34"/>idest, seruili, sicut dominatur anima corpori. In illo 
+      <lb ed="#R" n="35"/>ergo poni debent virtutes morales, quod habet vn 
+      <lb ed="#R" n="36"/>de possit resistere rationi, hoc est appetitum 
+      sensi<lb ed="#R" n="37" break="no"/>tiuum: ergo. 
+      </p>
+               <p xml:id="olm8ij-g62068-d1e894">
+                  <lb ed="#R" n="38"/>Tertio appetitus sensitiuus voluntatis libertatem: 
+      <lb ed="#R" n="39"/>habitus autem inclinat per modum naturalem, &amp; ad 
+      <lb ed="#R" n="40"/>vnum determinat, quod est contra naturam 
+      liber<lb ed="#R" n="41" break="no"/>tatis voluntatis. Quarto, quia per habitus 
+      super<lb ed="#R" n="42" break="no"/>naturales potest voluntas singulariter disponi, &amp; 
+      <lb ed="#R" n="43"/>regulari, sine virtutibus moralibus acquisitis. Quin 
+      <lb ed="#R" n="44"/>to, quia si temperantia est in voluntate, tunc vnus 
+      <lb ed="#R" n="45"/>Angelus posset considerare de passionibus, &amp; relin 
+      <lb ed="#R" n="46"/>quere frequentes actus in voluntate sua, &amp; sic acqui 
+      <lb ed="#R" n="47"/>rere habitum temperantiae: hoc autem falsum est. 
+      </p>
+               <p xml:id="olm8ij-g62068-d1e918">
+                  <lb ed="#R" n="48"/>Alia est opinio praedictae contraria, quae ponit, 
+      <lb ed="#R" n="49"/>quod intellectus humanus non ponitur in appetitu 
+      <lb ed="#R" n="50"/>sensitiuo, in quo conuenit homo cum brutis, sed in 
+      <lb ed="#R" n="51"/>voluntate essentialiter, licet in appetitu sensitiuo 
+      <lb ed="#R" n="52"/>bene derelinquantur aliquae impressiones 
+      confor<lb ed="#R" n="53" break="no"/>mes virtutibus existentibus in voluntate, quae 
+      ta<lb ed="#R" n="54" break="no"/>men non sunt proprie virtutes. Et hoc probatur pri 
+      <lb ed="#R" n="55"/>mo, quia voluntas propria est homini, &amp; in hoc 
+      <lb ed="#R" n="56"/>diuina beatitudo, &amp; ideo in illa debent virtutes hu 
+      <lb ed="#R" n="57"/>manae poni, quae brutis non conueniunt. Secundo, 
+      <lb ed="#R" n="58"/>quia voluntas est indeterminata respectu boni, &amp; 
+      <lb ed="#R" n="59"/>ideo indiget determinante. 
+      </p>
+               <p xml:id="olm8ij-g62068-d1e947">
+                  <lb ed="#R" n="60"/>Tertio, quia signa aggenerati habitus est 
+      dele<lb ed="#R" n="61" break="no"/>ctabiliter, prompte, immobiliter, &amp; faciliter operari: 
+      <lb ed="#R" n="62"/>modo hoc omnia experitur aliquis in ꝓpria volũ- 
+      <lb ed="#R" n="63"/>tate. Quarto, quia bonum rationis est bonum virtutis, 
+      <lb ed="#R" n="64"/>modo istud bonum non pertinet ad appetitum sen 
+      <lb ed="#R" n="65"/>sitiuum, quia non mouetur in tale bonum, sed magis 
+      <lb ed="#R" n="66"/>de iustitia, etiam, quod est in appetitu sensitiuo, quod 
+      <!--0519.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>patet falsum etiam secundum aliquos ipsorum. 
+      </p>
+               <p xml:id="olm8ij-g62068-d1e971">
+                  <lb ed="#R" n="68"/>Alia est opinio, quae ponit, quod voluntas potest 
+      <lb ed="#R" n="69"/>accipi, vt natura, &amp; sic virtutes morales non sunt in 
+      <lb ed="#R" n="70"/>ipsa, quia vt sic debet manere indeterminata: vel vt 
+      <lb ed="#R" n="71"/>deliberatiua, &amp; sic in ipsa sunt virtutes morales: 
+      ta<lb ed="#R" n="72" break="no"/>men ista opinio parum valet, quia voluntas, vt 
+      de<lb ed="#R" n="73" break="no"/>liberatiua, libera est. 
+      </p>
+               <p xml:id="olm8ij-g62068-d1e987">
+                  <lb ed="#R" n="74"/>Quarta opinio mediat inter istas, &amp; est magis 
+      <lb ed="#R" n="75"/>probabilis, quia ponit aliquas virtutes in 
+      volun<lb ed="#R" n="76" break="no"/>tate, vt iustitiam; &amp; alias in appetitu sensitiuo, vt 
+      <lb ed="#R" n="77"/>reliquas. 
+      </p>
+               <p xml:id="olm8ij-g62068-d1e998">
+                  <lb ed="#R" n="78"/>Prima Propositio, quae concordat omnes istas 
+      <lb ed="#R" n="79"/>opiniones, est, quod virtutes morales sunt 
+      subiecti<lb ed="#R" n="80" break="no"/>ue, &amp; essentialiter in voluntate, &amp; in appetitu 
+      sensi<lb ed="#R" n="81" break="no"/>tiuo, quae ligat plures qualitates, quae subiectiue 
+      <lb ed="#R" n="82"/>sunt in voluntate, &amp; in appetitu sensitiuo, &amp; alia in 
+      <lb ed="#R" n="83"/>voluntate. Sed tunc contra hoc sunt dubia. 
+      </p>
+               <p xml:id="olm8ij-g62068-d1e1015">
+                  <lb ed="#R" n="84"/>Primum est, quia humana virtus videtur esse vna 
+      <lb ed="#R" n="85"/>simplex qualitas, &amp; sic non includit plures 
+      qualita<lb ed="#R" n="86" break="no"/>tes, nec per consequens est in diuersis potentiis 
+      sub<lb ed="#R" n="87" break="no"/>iectiue. Secundum, quod ibi debet poni virtus per 
+      <lb ed="#R" n="88"/>essentiam, vnde est bonum rationis: hoc est in 
+      volun<lb ed="#R" n="89" break="no"/>tate, non in appetilu sensitiuo, nisi per 
+      participatio<lb ed="#R" n="90" break="no"/>nem, &amp; ideo non debet ibi poni, nisi participatiue. 
+      <lb ed="#R" n="91"/>Tertium, quia tunc sequeretur, quod nullus esset 
+      <lb ed="#R" n="92"/>virtuosus, quod falsum est. 
+      </p>
+               <p xml:id="olm8ij-g62068-d1e1037">
+                  <lb ed="#R" n="93"/>Dicendum tamen his non obstantibus, quod 
+      vir<lb ed="#R" n="94" break="no"/>tus moralis includit, &amp; ligat qualitatem existētem 
+      <lb ed="#R" n="95"/>in appetitu sensitiuo inclinando ipsum ad exequen 
+      <lb ed="#R" n="96"/>dum electionem voluntatis, &amp; sic virtus moralis 
+      <lb ed="#R" n="97"/>subiectiue partim est in voluntate, &amp; partim 
+      in<lb ed="#R" n="98" break="no"/>appetitu sensitiuo. Hoc autem probo sic. 
+      Non<lb ed="#R" n="99" break="no"/>est maior simplicitas in virtute morali, quam 
+      <lb ed="#R" n="100"/>in sanitate corporali, quia vtraque ponitur in 
+      pri<lb ed="#R" n="101" break="no"/>ma specie qualitatis. Item contra: 
+      Naturalia<lb ed="#R" n="102" break="no"/>habent maiorem vnitatem, quam moralia: sed 
+      sa<lb ed="#R" n="103" break="no"/>nitas corporalis non est simpliciter qualitas, sed 
+      <lb ed="#R" n="104"/>ligat plures qualitates, nam vt dictum est prius, non 
+      <lb ed="#R" n="105"/>est nisi ipsi humores proportionati, non inter se, sed 
+      <lb ed="#R" n="106"/>respectu ad naturam; ita quod isti humores per 
+      <lb ed="#R" n="107"/>hoc, quod est congruum naturae, trahunt ad hoc, 
+      <lb ed="#R" n="108"/>quod fiat sanitas, vt scilicet sunt fundamentum 
+      ta<lb ed="#R" n="109" break="no"/>lis congruentiae. Non enim sanitas dicitur talis 
+      re<lb ed="#R" n="110" break="no"/>spectus congruentiae, nec humores abstracte, vt sunt 
+      <lb ed="#R" n="111"/>qualitates praecise, sed est ipsi gumores, vt 
+      sunda<lb ed="#R" n="112" break="no"/>mentum congruentiae, sic patet de pulchritudina 
+      <lb ed="#R" n="113"/>non enim pulchritudo faciei est qualitas nasi, vel 
+      <lb ed="#R" n="114"/>oris solum, sed effectio cuiuslibet partis faciei, &amp; 
+      <lb ed="#R" n="115"/>coloratio similiter secundum quod congruit, &amp; 
+      ta<lb ed="#R" n="116" break="no"/>men omnia ista, vt conueniunt, dicuntur vna 
+      pul<lb ed="#R" n="117" break="no"/>chritudo faciei, &amp; tamen est ibi forma qualitas 
+      su<lb ed="#R" n="118" break="no"/>peraddita: sed omnia ista, vt conueniunt, sunt vna 
+      <lb ed="#R" n="119"/>sanitas, vel vna pulchritudo resultans ex 
+      humori<lb ed="#R" n="120" break="no"/>bus, vel qualitatibus, &amp; ideo facta variatione 
+      in<lb ed="#R" n="121" break="no"/>aliquo humorum, statim perditur sanitas, quia 
+      <lb ed="#R" n="122"/>illi humores dicuntur sanitas, inquantum sunt 
+      fun<lb ed="#R" n="123" break="no"/>damentum commune huiuimodi conuenientiae, nec 
+      <lb ed="#R" n="124"/>ingrediuntur intrinsece rationem sanitatis, vt 
+      di<lb ed="#R" n="125" break="no"/>ctum est. Idem ergo est in virtute morali, quod 
+      li<lb ed="#R" n="126" break="no"/>gat plures qualitates, quae omnes sunt fundamentum 
+      <lb ed="#R" n="127"/>conuenientiae in ordine ad hominem, per quod patet, 
+      <lb ed="#R" n="128"/>quod virtus moralis potest esse in pluribus substan 
+      <lb ed="#R" n="129"/>tijs, sicut sunt qualitates. Secundo: Quando aliqua 
+      <lb ed="#R" n="130"/>concurrunt per modum vnius totalis actus 
+      in<lb ed="#R" n="131" break="no"/>ratione principij, debet poni in quolibet ipsorum 
+      <lb ed="#R" n="132"/>aliquod fundamento, seu conuenientia: sed 
+      ap<lb ed="#R" n="133" break="no"/>petitus sensitiuus concurrit ad actum 
+      virtuo<lb ed="#R" n="134" break="no"/>sum in ratione vnius principii, quod patet ex cir- 
+      <!--0520.xml-->
+      <pb ed="#R" n="518"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>cumstantijs requisitis in actu virtuoso; oportet 
+      <lb ed="#R" n="2"/>enim, quod sit ibi electio, &amp; firmitas, quae ad 
+      vo<lb ed="#R" n="3" break="no"/>luntatem pertinent, &amp; promptitudo in exequendo, 
+      <lb ed="#R" n="4"/>&amp; obedientia appetitus ad exequendum electionem 
+      <lb ed="#R" n="5"/>voluntatis, quod ad appetitum sensitiuum pertinet, 
+      <lb ed="#R" n="6"/>&amp; sic de multis alijs, ita quod appetitus, &amp; voluntas 
+      <lb ed="#R" n="7"/>se habent ibi in ratione vnius principij, &amp; ideo 
+      ha<lb ed="#R" n="8" break="no"/>bitus virtuosus, vnus existens, debet perficere 
+      <lb ed="#R" n="9"/>vtramque potentiam. 
+      </p>
+               <p xml:id="olm8ij-g62068-d1e1157">
+                  <lb ed="#R" n="10"/>Tertio: Cui competit ratio virtutis, &amp; virtus, per 
+      <lb ed="#R" n="11"/>locum a definitione: sed habitui perficienti 
+      appe<lb ed="#R" n="12" break="no"/>titum sensitiuum, &amp; intellectiuum, &amp; non habitui 
+      <lb ed="#R" n="13"/>perficienti sensitiuum tamen conuenit definitio 
+      vir<lb ed="#R" n="14" break="no"/>tutis, quia virtus est quae habentem perficit, &amp; opus 
+      <lb ed="#R" n="15"/>eius bonum reddit; modo habens est ipse homo, qui 
+      <lb ed="#R" n="16"/>non est perfectus moraliter, nisi perficiatur 
+      secun<lb ed="#R" n="17" break="no"/>dum voluntatem, &amp; secundum appetitum sensitiuum, 
+      <lb ed="#R" n="18"/>secundum quae est principium talis actus. Verum si 
+      <lb ed="#R" n="19"/>si esset electio recta in bonitate, appetitus esset 
+      re<lb ed="#R" n="20" break="no"/>bellis, tunc operaretur cum tristitia, &amp; non esset 
+      per<lb ed="#R" n="21" break="no"/>fectus homo, nec opus eius esset bonum 
+      simplici<lb ed="#R" n="22" break="no"/>ter, sed secundum quid, vt virtuosum est agere 
+      de<lb ed="#R" n="23" break="no"/>lectabiliter. 
+      </p>
+               <p xml:id="olm8ij-g62068-d1e1190">
+                  <lb ed="#R" n="24"/>Quarto: Quando alicui attribuitur nomen, &amp; 
+      de<lb ed="#R" n="25" break="no"/>finitio ex caractherizatione facta per relationem, 
+      <lb ed="#R" n="26"/>idest, inquantum est fundamentum relationum, non 
+      <lb ed="#R" n="27"/>debet sibi attribui, nisi ꝓ omnibus illis simul, super 
+      <lb ed="#R" n="28"/>quae fundatur relatio, vel quae sunt fundamentum 
+      <lb ed="#R" n="29"/>relationis: sicut patet, quod pulchritudo faciei non 
+      <lb ed="#R" n="30"/>attribuitur, nisi omnibus qualitatibus, &amp; 
+      tractioni<lb ed="#R" n="31" break="no"/>bus, quae requiruntur ad rationem congruentiae 
+      pul<lb ed="#R" n="32" break="no"/>chritudinis: sed virtus moralis attribuitur 
+      quali<lb ed="#R" n="33" break="no"/>tatibus, vt sunt fundamentum relationis 
+      conuenien<lb ed="#R" n="34" break="no"/>tiae, &amp; decentiae: sed homo non dicitur se habere 
+      <lb ed="#R" n="35"/>congrue, nec decenter, nisi se habeat secundum ap 
+      <lb ed="#R" n="36"/>petitum sensitiuum, &amp; secundum voluntatem, vt 
+      <lb ed="#R" n="37"/>puta, nisi eligat per voluntatem, &amp; firmetur in 
+      bo<lb ed="#R" n="38" break="no"/>num rationis, &amp; nisi appetitus sit domatus. Vnde 
+      <lb ed="#R" n="39"/>si sit defectus in aliquo istorum, dicitur, quod homo 
+      <lb ed="#R" n="40"/>non est talis, qualis debet esse, vel qualem decet 
+      ip<lb ed="#R" n="41" break="no"/>sum esse in materia virtutis. Hoc autem ostenditur 
+      <lb ed="#R" n="42"/>auctoritate, nam, vt patet 6. Ethic. Virtus est 
+      habi<lb ed="#R" n="43" break="no"/>tus elicitus, &amp; etiam virtuosus firmiter, &amp; immobi 
+      <lb ed="#R" n="44"/>liter agens. Hoc autem pertinet ad voluntatem. Item 
+      <lb ed="#R" n="45"/>3. Ethic. temperatus, vel castus dicitur, quasi 
+      do<lb ed="#R" n="46" break="no"/>matus, quia appetitus debet esse domatus, &amp; 
+      casti<lb ed="#R" n="47" break="no"/>gatus ad modum catulorum, qui castigantur. Idem 
+      <lb ed="#R" n="48"/>7. Ethic. patet ex differentia inter temperatum, &amp; 
+      <lb ed="#R" n="49"/>continentem. Temperatus enim eligit bonum 
+      ra<lb ed="#R" n="50" break="no"/>tionis, etiam in hoc conuenit cum continente, &amp; 
+      dif<lb ed="#R" n="51" break="no"/>fert ab intemperato: temperatus enim habet 
+      appe<lb ed="#R" n="52" break="no"/>titum domatum, &amp; obedientem, vel exequentem 
+      <lb ed="#R" n="53"/>electionem voluntatis, &amp; in hoc differt a continente, 
+      <lb ed="#R" n="54"/>qui licet habeat electionem rectam, non tamen 
+      ha<lb ed="#R" n="55" break="no"/>bet appetitum domatum, &amp; ideo non dicitur 
+      virtuo<lb ed="#R" n="56" break="no"/>sus, nec temperatus. Primum, scilicet eligere 
+      secun<lb ed="#R" n="57" break="no"/>dum rectam rationem, pertinet ad voluntatem. 
+      Se<lb ed="#R" n="58" break="no"/>cundum, scilicet, domatum, pertinet ad appetitum, 
+      <lb ed="#R" n="59"/>&amp; quia ista duo sunt de ratione virtutis, ideo, &amp;c. 
+      <lb ed="#R" n="60"/>&amp; hoc idem patet, quia sicut aggenerati habitus 
+      <lb ed="#R" n="61"/>est delectare, quod non esset, si esset repugnantia in 
+      <lb ed="#R" n="62"/>appetitu sensitiuo.
+      </p>
+               <p xml:id="olm8ij-g62068-d1e1277">
+                  <lb ed="#R" n="63"/>Tunc ad primam difficultatem, Dicendum, quod 
+      <lb ed="#R" n="64"/>alia est vnitas realis &amp; metaphysica, &amp; alia vnitas 
+      <lb ed="#R" n="65"/>moralis: in eo enim, quod moraliter loquendo 
+      di<lb ed="#R" n="66" break="no"/>citur vnum, includuntur aliqua metaphysice, &amp;
+      reali<lb ed="#R" n="67" break="no"/>ter sunt multa, vt patet in pulchritudine, in qua 
+      in<lb ed="#R" n="68" break="no"/>cluduntur color, &amp; figura oculorum, &amp; nasi, &amp; oris, 
+      <!--0520.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>&amp; sic de alijs, quae sunt realiter multa, tamen sunt 
+      ni<lb ed="#R" n="70" break="no"/>si vna pulchritudo faciei. Temperantia etiam non 
+      <lb ed="#R" n="71"/>est vna simpliciter qualitas, vnde sicut est alia incli 
+      <lb ed="#R" n="72"/>natio, &amp; delectatio respectu cibi, &amp; respectu vini, 
+      <lb ed="#R" n="73"/>&amp; respectu malorum aliorum, in quibus diuersi 
+      di<lb ed="#R" n="74" break="no"/>uersimode delectantur, &amp; ab ipsis trahuntur, aliqui 
+      <lb ed="#R" n="75"/>qui delectantur multum allijs, vel salsa, non delectan 
+      <lb ed="#R" n="76"/>tur in lacte, &amp; e conuerso aliquando accidit. Ideo 
+      <lb ed="#R" n="77"/>habitus moralis in omnibus istis secundum rectam 
+      <lb ed="#R" n="78"/>rationem non est vna simplex qualitas, nisi pro quan 
+      <lb ed="#R" n="79"/>to induit rationem congruentiae, secundum quod 
+      <lb ed="#R" n="80"/>aliquis in omnibus istis se habet, vt conuenit, &amp; sic 
+      <lb ed="#R" n="81"/>dicitur vna qualitas moralis, quae tamen multas 
+      <lb ed="#R" n="82"/>partiales qualitates copulat, &amp; sic temperantia vna 
+      <lb ed="#R" n="83"/>complectitur multas qualitates partiales, propter 
+      <lb ed="#R" n="84"/>hoc, quod mediant respectu diuersarum passionum, 
+      <lb ed="#R" n="85"/>&amp; inclinationum humanarum extra medium 
+      ratio<lb ed="#R" n="86" break="no"/>nis: Ita complectitur multas propter virtutem ipsius 
+      <lb ed="#R" n="87"/>agentis, quod est vnum constitutum ex voluntate, 
+      <lb ed="#R" n="88"/>&amp; appetitu, &amp; secundum vtrumque oportet, quod 
+      <lb ed="#R" n="89"/>homo bene se habeat: &amp; ideo complectitur plures 
+      <lb ed="#R" n="90"/>qualitates partiales, quarum quaedam sunt in 
+      volun<lb ed="#R" n="91" break="no"/>tate, quaedam in appetitu, &amp; sic non est vna simplex 
+      <lb ed="#R" n="92"/>qualitas realiter, sed moraliter loquendo est vna. 
+      <lb ed="#R" n="93"/>&amp; sic realiter loquendo, non est in vno subiecto, sed 
+      <lb ed="#R" n="94"/>moraliter loquendo bene est in vno subiecto, quia 
+      <lb ed="#R" n="95"/>in vno subiecto principio morali, quod est vnum 
+      <lb ed="#R" n="96"/>principiuni, &amp; vnum subiectum, respectu habitus, 
+      <lb ed="#R" n="97"/>&amp; actus moralis. 
+    </p>
+               <p xml:id="olm8ij-g62068-d1e1360">
+                  <lb ed="#R" n="98"/>Ad secundam dicendum, quod quaelibet qualitas 
+      <lb ed="#R" n="99"/>essentialiter concurrit ad hoc, quod habeat 
+      funda<lb ed="#R" n="100" break="no"/>mentum congruentiae, &amp; condecentiae, quia decet 
+      <lb ed="#R" n="101"/>hominem esse ordinatum secundum vtramque 
+      po<lb ed="#R" n="102" break="no"/>tentiam, &amp; vtrumque est bonum rationis; non enim 
+      <lb ed="#R" n="103"/>appetitus sensitiuus in homine, habet rationem cuius 
+      <lb ed="#R" n="104"/>dam principij, vel perfectibilis separatim, sed 
+      con<lb ed="#R" n="105" break="no"/>stitutum ex voluntate, &amp; appetitu sensitiuo habet 
+      <lb ed="#R" n="106"/>rationem vnius principij, &amp; vnius perfectibilis, &amp; 
+      <lb ed="#R" n="107"/>maxime appetitus sensitiuus coniunctus rationi 
+      di<lb ed="#R" n="108" break="no"/>citur rationalis per participationem, &amp; regulatus 
+      <lb ed="#R" n="109"/>per rationem participatam, siue illa sit cogitatiua, 
+      <lb ed="#R" n="110"/>vel aestimatiua, siue sit ipsa ratio negocians circa 
+      <lb ed="#R" n="111"/>singularia. Et ideo cum dicitur, quod bonum 
+      ra<lb ed="#R" n="112" break="no"/>tionis solum pertinet ad voluntatem essentialiter, 
+      <lb ed="#R" n="113"/>falsum assumitur, quia ad appetitum sensitiuum 
+      <lb ed="#R" n="114"/>pertinet, inquantum coniungitur rationi, &amp; 
+      regu<lb ed="#R" n="115" break="no"/>latur ratione particulari. 
+      </p>
+               <p xml:id="olm8ij-g62068-d1e1403">
+                  <lb ed="#R" n="116"/>Ad tertiam, quod loquendo de virtutibus in suos, 
+      <lb ed="#R" n="117"/>aliquis potest esse castus sine hoc, quod appetitus 
+      <lb ed="#R" n="118"/>sit domatus, quia non habent per assuefactionem, &amp; 
+      <lb ed="#R" n="119"/>Deus non vult facere miracula, ut in homine virtu, 
+      <lb ed="#R" n="120"/>tes reprimat, vel domet appetitum sensitiuum, &amp; hoc 
+      <lb ed="#R" n="121"/>facit ad confirmandum fidem, &amp; ad argumentum 
+      <lb ed="#R" n="122"/>meriti, verum tales virtutes praecise sunt in 
+      volun<lb ed="#R" n="123" break="no"/>tate: sed castus castitate acquisita necessario 
+      ha<lb ed="#R" n="124" break="no"/>bet appetitum domatum. Sed tamen dubium 
+      vide<lb ed="#R" n="125" break="no"/>tur hic, quod per rationes praedictas, videtur quod 
+      <lb ed="#R" n="126"/>prudentia ingredi debeat intrinsece rationem 
+      vir<lb ed="#R" n="127" break="no"/>tutum moralium, quia homo est vnum principium, 
+      <lb ed="#R" n="128"/>&amp; requiritur, quod sit decenter se habens, non solum 
+      <lb ed="#R" n="129"/>secundum voluntatem, &amp; appetitum sensitiuum, sed 
+      <lb ed="#R" n="130"/>ent secundum rationem: Sed hoc magis patebit infra.
+      </p>
+               <p xml:id="olm8ij-g62068-d1e1438">
+                  <lb ed="#R" n="131"/>Per dicta patet ad argumenta opinionum 
+      vtrius<lb ed="#R" n="132" break="no"/>que partis, &amp; ad principalia, quod procedunt 
+      mo<lb ed="#R" n="133" break="no"/>dis suis. Probant enim, quod sint in appetitu, sed non 
+      <lb ed="#R" n="134"/>praecise, &amp; quod in voluntate, sed non praecise, conse 
+      <lb ed="#R" n="135"/>quenter falsum concludunt, &amp; non valent.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

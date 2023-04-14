@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-14">April 14, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b3">Roma 1605, Book 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-14" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="535"/>
+            <cb ed="#R" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-g68722"><!-- l3-d39q1 -->
+            <head xml:id="olm8ij-g68722-Hd1e101">Quaestio 1</head>
+            <p xml:id="olm8ij-g68722-d1e103">
+               <lb ed="#R" n="94"/>DISTINCTIO XXXIX. 
+      <lb ed="#R" n="95"/>DE PERJVRJO. 
+      <lb ed="#R" n="96"/>Quaestio Vnica.
+      </p>
+            <div xml:id="olm8ij-g68722-Dd1e112">
+               <head xml:id="olm8ij-g68722-Hd1e114">Articulus 1</head>
+               <head xml:id="olm8ij-g68722-Hd1e116" type="question-title">
+        Utrum omne Periurium sit peccatum 
+        mortale
+      </head>
+               <p xml:id="olm8ij-g68722-d1e119">
+                  <lb ed="#R" n="97"/>ARTJCVLVS VNJCVS. 
+      <lb ed="#R" n="98"/>Vtrum omne Periurium sit peccatum 
+      <lb ed="#R" n="99"/>mortale. 
+      </p>
+               <p xml:id="olm8ij-g68722-d1e128">
+                  <lb ed="#R" n="100"/>VIDETVR primo, quod non, 
+      <lb ed="#R" n="101"/>quia aliquando aliquis 
+      iu<lb ed="#R" n="102" break="no"/>rat de aliquo, quod si 
+      im<lb ed="#R" n="103" break="no"/>plet illud, peccat 
+      mortali<lb ed="#R" n="104" break="no"/>ter, vt si iurat, quod 
+      inter<lb ed="#R" n="105" break="no"/>ficiat hominem: ergo si non 
+      <lb ed="#R" n="106"/>implet, peccat mortaliter, 
+      <lb ed="#R" n="107"/>quia esset periurus. Modo si 
+      <lb ed="#R" n="108"/>non implet, periurat. Contra est illud Decalogi 
+      <lb ed="#R" n="109"/>praeceptum: Non assumes nomen Dei tui in 
+      va<lb ed="#R" n="110" break="no"/>num. Respondeo primo videndum est quomodo, 
+      <lb ed="#R" n="111"/>&amp; ad quam virtutem iuramentum reducitur. 
+      Ali<lb ed="#R" n="112" break="no"/>quando enim iurare est assumere veritatem, quae 
+      <lb ed="#R" n="113"/>fallere, nec falli potest ad testimonium dicti sui; &amp; 
+      <lb ed="#R" n="114"/>sic iurare assumere est amorem alicuius, sicut cum 
+      <lb ed="#R" n="115"/>aliquis iurat per animam suam, idest, quantum 
+      <lb ed="#R" n="116"/>amat animam suam, &amp; sic iurare est actus 
+      amici<lb ed="#R" n="117" break="no"/>tiae, &amp; aequitatis, &amp; ideo etiam correspondet. 
+      Per<lb ed="#R" n="118" break="no"/>iurium potest esse actus, quo infringitur latria, vel 
+      <lb ed="#R" n="119"/>quo infringitur charitas, &amp; amicitia, vtroque enim 
+      <lb ed="#R" n="120"/>modo possumus iurare per Deum accipiendo 
+      ip<lb ed="#R" n="121" break="no"/>sum, vt veritatem infallibilem, vel accipiendo 
+      a<lb ed="#R" n="122" break="no"/>morem, quem habemus ad ipsum. Secundo alio 
+      <lb ed="#R" n="123"/>modo tantum possumus iurare per creaturas, quia 
+      <!--0538.xml-->
+      <pb ed="#R" n="536"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>nulla creatura est veritas inobliquabilis. 
+      </p>
+               <p xml:id="olm8ij-g68722-d1e191">
+                  <lb ed="#R" n="2"/>Vlterius iuramentum distinguitur penes 
+      mate<lb ed="#R" n="3" break="no"/>riam; quoddam enim est assertorium de re iam 
+      ex<lb ed="#R" n="4" break="no"/>hibita; &amp; aliud est promissorium de re futura, &amp; 
+      <lb ed="#R" n="5"/>fienda, &amp; secundum hoc etiam est dupliciter 
+      per<lb ed="#R" n="6" break="no"/>iurium, periurium assertorium factum ex 
+      delibe<lb ed="#R" n="7" break="no"/>ratione, si sit per illa per quae homines 
+      consueue<lb ed="#R" n="8" break="no"/>runt iurare, quando volunt assumere veritatem 
+      <lb ed="#R" n="9"/>infallibilem in testimonium dicti sui, est peccatum 
+      <lb ed="#R" n="10"/>mortale. Vnde sciendum, quod aliquando veritas 
+      <lb ed="#R" n="11"/>diuina assumitur in testimonium vltimatum 
+      veri<lb ed="#R" n="12" break="no"/>tatis, sic accipiendo, quod sicut Deus verus est, 
+      <lb ed="#R" n="13"/>ita dictum, quod testificatur, est verum, &amp; ad hoc 
+      <lb ed="#R" n="14"/>testimonium perhibendum instituta sunt diuersa 
+      <lb ed="#R" n="15"/>signa ex diuersa assuefactione. Vnde aliquando 
+      si<lb ed="#R" n="16" break="no"/>cut consuetum est iurare per sancta Euangelia, 
+      ali<lb ed="#R" n="17" break="no"/>quando per corpus Christi in sacerdote, hoc 
+      si<lb ed="#R" n="18" break="no"/>gnum est, quando ponit manum ad pectus, &amp; 
+      iu<lb ed="#R" n="19" break="no"/>rat in verbo sacerdotis, &amp; sic in consimilibus. Alia 
+      <lb ed="#R" n="20"/>autem signa sunt instituta ad assumendam diuinam 
+      <lb ed="#R" n="21"/>veritatem in testimonium vltimatum dicti sui, &amp; 
+      <lb ed="#R" n="22"/>tunc qui sic periurat, peccat mortaliter. Quando 
+      <lb ed="#R" n="23"/>autem assumitur signum, quod non est aliquod 
+      <lb ed="#R" n="24"/>tale testimonium institutum, non credo, quod 
+      pec<lb ed="#R" n="25" break="no"/>cet mortaliter, vtputa quando iurat per Deum, 
+      <lb ed="#R" n="26"/>sicut communiter iuratur: si autem certitudinaliter 
+      <lb ed="#R" n="27"/>asserit id, de quo dubitat, &amp; asserit id cum 
+      certi<lb ed="#R" n="28" break="no"/>tudine efficaci, &amp; certissime, peccat mortaliter. 
+      <lb ed="#R" n="29"/>Si autem asserit illa modo humano, sicut potest 
+      <lb ed="#R" n="30"/>sciri in talibus, sicut patet in ordinandis, cum 
+      di<lb ed="#R" n="31" break="no"/>citur, dignus est: tunc non peccat mortaliter. 
+      </p>
+               <p xml:id="olm8ij-g68722-d1e260">
+                  <lb ed="#R" n="32"/>Iuramentum autem promissorium triplex est, 
+      <lb ed="#R" n="33"/>scilicet, incautum, dolosum, &amp; indeliberatum. Et 
+      <lb ed="#R" n="34"/>similiter periurium sibi correspondens. Incautum 
+      <lb ed="#R" n="35"/>est ratione materiae, super quam cadit, quia mala, 
+      <lb ed="#R" n="36"/>sicut si aliquis iurat, quod non ibit ad Ecclesiam, 
+      <lb ed="#R" n="37"/>&amp; tunc est peccatum mortale, &amp; iurare, &amp; 
+      periu<lb ed="#R" n="38" break="no"/>rare in tali materia, ex quo materia est mala de 
+      <lb ed="#R" n="39"/>se, nec aliquis debet implere tale iuramentum, 
+      <lb ed="#R" n="40"/>imo tenetur contrarium facere. Si autem 
+      mate<lb ed="#R" n="41" break="no"/>ria sit supererogationis, vt si aliquis iuret, quod 
+      <lb ed="#R" n="42"/>non intrabit religionem, tunc etiam peierat, &amp; 
+      <lb ed="#R" n="43"/>peccat mortaliter, tamen non tenetur ire contra 
+      <lb ed="#R" n="44"/>iuramentum, nec tamen tenetur ad obseruationem 
+      <lb ed="#R" n="45"/>illius. 
+      </p>
+               <p xml:id="olm8ij-g68722-d1e293">
+                  <lb ed="#R" n="46"/>Dolosum autem iuramentum est, quando vnum 
+      <lb ed="#R" n="47"/>in ore, &amp; aliud habet in corde, &amp; tale periurium 
+      <lb ed="#R" n="48"/>est peccatum mortale: si autem dum iurat, habet 
+      <lb ed="#R" n="49"/>intentionem implendi, quod iurat, tamen postea 
+      <lb ed="#R" n="50"/>non implet illud, tunc peierat, &amp; peccat 
+      morta<lb ed="#R" n="51" break="no"/>liter. Quantum est ex genere peccati de 
+      iuramen<lb ed="#R" n="52" break="no"/>to indeliberato, Dicendum, quod si sit ex motu 
+      <lb ed="#R" n="53"/>cadente in constantem virum, tunc obligat sic, quod 
+      <lb ed="#R" n="54"/>peccet mortaliter, qui contrarium facit. Et sic 
+      <lb ed="#R" n="55"/>patet, quando periurium est peccatum mortale, &amp; 
+      <lb ed="#R" n="56"/>quando non. 
+      </p>
+               <p xml:id="olm8ij-g68722-d1e319">
+                  <lb ed="#R" n="57"/>Ad argumentum patet, quod non est 
+      inconue<lb ed="#R" n="58" break="no"/>niens, quod aliquis sit perplexus, si voluntarie 
+      <lb ed="#R" n="59"/>ponit se in statu tali; voluntarie enim potest 
+      ali<lb ed="#R" n="60" break="no"/>quis se ponere, in quo necessarium est ipsum 
+      pecca<lb ed="#R" n="61" break="no"/>re mortaliter. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

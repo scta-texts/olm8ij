@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-14">April 14, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b3">Roma 1605, Book 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-14" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="398"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-g23047"><!-- l3-d9q1 -->
+            <head xml:id="olm8ij-g23047-Hd1e101">Quaestio 1</head>
+            <p xml:id="olm8ij-g23047-d1e103">
+               <lb ed="#R" n="25"/>DISTINCTIO IX 
+      </p>
+            <p xml:id="olm8ij-g23047-d1e108">
+               <lb ed="#R" n="26"/>Quaestio Vnica. 
+      <lb ed="#R" n="27"/>De Adoratione 
+      </p>
+            <div xml:id="olm8ij-g23047-Dd1e115">
+               <head xml:id="olm8ij-g23047-Hd1e117">Articulus 1</head>
+               <head xml:id="olm8ij-g23047-Hd1e119" type="question-title">
+        Vnde sumatur ratio formalis adorationis, et quo- 
+        modo distinguantur inter se eius species, 
+        et praecipue latriae, an sit virtus, 
+        et qualis?
+      </head>
+               <p xml:id="olm8ij-g23047-d1e122">
+                  <lb ed="#R" n="28"/>ARTJCVLVS J. 
+      <lb ed="#R" n="29"/>Vnde sumatur ratio formalis adorationis, &amp; 
+      quo<lb ed="#R" n="30" break="no"/>modo distinguantur inter se eius species, 
+      <lb ed="#R" n="31"/>&amp; praecipue latriae, an sit virtus, 
+      <lb ed="#R" n="32"/>&amp; qualis? 
+      </p>
+               <p xml:id="olm8ij-g23047-d1e135">
+                  <lb ed="#R" n="33"/>ET videtur dicendum, quod 
+      <lb ed="#R" n="34"/>eius ratio formalis non sit 
+      <lb ed="#R" n="35"/>assignare, quia dependet 
+      <lb ed="#R" n="36"/>inesse ab alio. Tunc 
+      for<lb ed="#R" n="37" break="no"/>mo talem rationem, 
+      quan<lb ed="#R" n="38" break="no"/>do aliqui actus habent 
+      ra<lb ed="#R" n="39" break="no"/>tionem aliquam formalem 
+      <lb ed="#R" n="40"/>in genere, tunc distinctio 
+      <lb ed="#R" n="41"/>formalis illorum actuum sumitur per rationes spe 
+      <lb ed="#R" n="42"/>cificas in illo genere, non secundum materiales. 
+      <lb ed="#R" n="43"/>Exemplum, vilio est respectu coloris, tunc si vis 
+      di<lb ed="#R" n="44" break="no"/>stinguere visiones, oportet, quod distinguas penes 
+      <lb ed="#R" n="45"/>distinguentia formaliter rationem coloris, vt 
+      con<lb ed="#R" n="46" break="no"/>gregare. &amp; disgregare faciunt diuersos actus 
+      for<lb ed="#R" n="47" break="no"/>males, igitur accidit distinctio penes materiale 
+      <lb ed="#R" n="48"/>obiectum, sicut accidit, quod visio distinguatur 
+      <lb ed="#R" n="49"/>per hoc, quod color est in lapide, qui non est in 
+      li<lb ed="#R" n="50" break="no"/>gno, vel formaliter distinguatur per album, &amp; 
+      ni<lb ed="#R" n="51" break="no"/>grum, &amp; pallidum visio, quia ratio coloris 
+      varia<lb ed="#R" n="52" break="no"/>tur in eis. Sed sumo sub: sed vnus actus voluntatis 
+      <lb ed="#R" n="53"/>est adoratio, cuius ratio formalis, vt ita dicam, est 
+      <lb ed="#R" n="54"/>di pendentia ab alio, nam istud mouet voluntatem. 
+      <lb ed="#R" n="55"/>Si ergo est distinctio, erit ex parte dependentiae: tunc 
+      <lb ed="#R" n="56"/>dico differentias specificas in ista dependentia ad 
+      <lb ed="#R" n="57"/>Deum differre ab illa quae est ad creaturam, nam 
+      <lb ed="#R" n="58"/>dependentia, quae est ad Deum, est vnionis quantum 
+      <!--0400.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="59"/>ad omnia, quae sunt in creatura. Item est solitaria, 
+      <lb ed="#R" n="60"/>quia nulla alia sibi aequata. Item estnecessaria. Et 
+      <lb ed="#R" n="61"/>dico dependentia quo ad Deum est vniuersalis, quia 
+      <lb ed="#R" n="62"/>Deus potest immediate dare esse, &amp; creatura 
+      de<lb ed="#R" n="63" break="no"/>pendet a Deo quantum ad omnia, nam quoad 
+      con<lb ed="#R" n="64" break="no"/>seruari in esse ab eo solo dependet, non ab aliqua 
+      <lb ed="#R" n="65"/>alia creatura. Item: licet aliquando in 
+      quibus<lb ed="#R" n="66" break="no"/>dam bonis dependeat a creatura, tamen in eisdem 
+      <lb ed="#R" n="67"/>dependet a Deo. Est solitaria, quia non requiritur 
+      <lb ed="#R" n="68"/>aliud. Item est necessaria, quia ab omni alia 
+      po<lb ed="#R" n="69" break="no"/>test absolui, ideo est dependentia simpliciter. 
+      </p>
+               <p xml:id="olm8ij-g23047-d1e222">
+                  <lb ed="#R" n="70"/>Non sic autem est dependentia ad creaturam, 
+      <lb ed="#R" n="71"/>quia creatura non dependet ab alia quo ad omnia, 
+      <lb ed="#R" n="72"/>nec creatura potest conseruare in esse, nec dare 
+      es<lb ed="#R" n="73" break="no"/>se, nec etiam est necessaria, quia quamuis filius 
+      <lb ed="#R" n="74"/>dependeat a patre, Deus potest immutare, &amp; etiam 
+      <lb ed="#R" n="75"/>filius plus, &amp; principalius dependet a Deo, ideo 
+      <lb ed="#R" n="76"/>talis dependentia creaturae est dependentia 
+      secun<lb ed="#R" n="77" break="no"/>dum quid. 
+        
+      <lb ed="#R" n="78"/>Dices, quod sunt distincta solum secundum 
+      ma<lb ed="#R" n="79" break="no"/>gis, &amp; minus, vt maior albedo, &amp; minor. Dico, 
+      <lb ed="#R" n="80"/>quod non, imo dico, quod sunt omnino alterius 
+      <lb ed="#R" n="81"/>rationis, quia quantumcumque addens ad 
+      depen<lb ed="#R" n="82" break="no"/>tiam creaturae, nunquam attingeret ad illam, quae 
+      <lb ed="#R" n="83"/>est ad Deum, &amp; ideo actus, qui necessario sequitur 
+      <lb ed="#R" n="84"/>in voluntate ex illa, est alterius rationis ab eo actu, 
+      <lb ed="#R" n="85"/>qui sequitur ex illa: ergo sequitur Conclusio 
+      prin<lb ed="#R" n="86" break="no"/>cipalis, quia dependentia est ratio formalis 
+      ado<lb ed="#R" n="87" break="no"/>rationis, &amp; dependentia ad Deum &amp; creaturam 
+      <lb ed="#R" n="88"/>sunt alterius rationis. Arguo enim sic, Distinctio 
+      <lb ed="#R" n="89"/>formalis obiecti in diuersas species arguit 
+      distin<lb ed="#R" n="90" break="no"/>ctionem actuum in diuersas species: sed 
+      dependen<lb ed="#R" n="91" break="no"/>tia ad Deum &amp; creaturam, quae est formale 
+      obie<lb ed="#R" n="92" break="no"/>ctum adorationis, sunt diuersae species: ergo actus 
+      <lb ed="#R" n="93"/>adorationis eis correspondentes. Illa autem 
+      ado<lb ed="#R" n="94" break="no"/>ratio quae est respectu Dei, vocatur latria, quae est 
+      <lb ed="#R" n="95"/>idem quod seruitus, &amp; quia haec seruitus est 
+      tota<lb ed="#R" n="96" break="no"/>lis, ideo obtinuit nomen seruitutis simpliciter, &amp; 
+      <lb ed="#R" n="97"/>generaliter, licet etiam in creatura sit seruitus, 
+      <lb ed="#R" n="98"/>tamen non est nisi secundum quid. Dico quod 
+      po<lb ed="#R" n="99" break="no"/>test obtinere nomen commune, quod est seruitus, 
+      <lb ed="#R" n="100"/>vel subiugatio. Sed hoc est dupliciter, quia potest 
+      <lb ed="#R" n="101"/>accipi, vel pro actu interiori, &amp; talis actus est 
+      ve<lb ed="#R" n="102" break="no"/>ra adoratio, quae est subiectio cordis, nec forte est 
+      <lb ed="#R" n="103"/>alia in Angelis, &amp; vocatur simplex adoratio, sed 
+      <lb ed="#R" n="104"/>declaratio per exteriora, vt per signum, scilicet, 
+      <lb ed="#R" n="105"/>genuflectendo; verbo, scilicet protestando, &amp; 
+      ex<lb ed="#R" n="106" break="no"/>primendo, vel facto, scilicet sacrificando, tales 
+      <lb ed="#R" n="107"/>actus non sunt formaliter adoratio, nisi 
+      inquan<lb ed="#R" n="108" break="no"/>tum sunt signa actus intrinseci: vnde sacrificare, 
+      <lb ed="#R" n="109"/>quia est determinatum signum adorationis 
+      inte<lb ed="#R" n="110" break="no"/>rioris, ide. si exhiberetur creaturae, esset 
+      idola<lb ed="#R" n="111" break="no"/>tria; sed si sit tale signum, quod non est signum 
+      <lb ed="#R" n="112"/>determinatum respectu actus interioris, scilicet 
+      <lb ed="#R" n="113"/>adorationis, sed alterius puta reuerentiae, talia 
+      <lb ed="#R" n="114"/>sine idolatria exhiberi possunt creaturae, vt 
+      genu<lb ed="#R" n="115" break="no"/>flexio; talia enim non ex se, nec ex vsu sunt 
+      prae<lb ed="#R" n="116" break="no"/>cisa signa actus, qui est latria, sicut est 
+      sacrifi<lb ed="#R" n="117" break="no"/>cium. Secundo aliter dico, quod inquantum ex 
+      <lb ed="#R" n="118"/>frequenti subiugatione generatur habitus, si 
+      ta<lb ed="#R" n="119" break="no"/>lis habitus sit conformis rectae rationi, &amp; recto 
+      iu<lb ed="#R" n="120" break="no"/>dicio intellectus, &amp; sic respectu obiecti debiti est 
+      <lb ed="#R" n="121"/>virtus, quae est latria: si autem non respectu 
+      obie<lb ed="#R" n="122" break="no"/>cti debiti, vel recta rationis, tunc est Jdolatria: 
+      <lb ed="#R" n="123"/>latria ergo est virtus, respectu obiecti 
+      conuenien<lb ed="#R" n="124" break="no"/>tis cum debita circumstantia conformis rectae 
+      ra<lb ed="#R" n="125" break="no"/>tioni, cuius oppositum est idolatria. Quia enim 
+      <!--0401.xml-->
+      <pb ed="#R" n="399"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>circa istos actus possumus nos bene habere, vel 
+      <lb ed="#R" n="2"/>male, ideo circa eos potest esse virtus, &amp; 
+      vi<lb ed="#R" n="3" break="no"/>tium. 
+      </p>
+               <p xml:id="olm8ij-g23047-d1e360">
+                  <lb ed="#R" n="4"/>Sunt etiam alia nomina exprimentia istos actus, 
+      <lb ed="#R" n="5"/>vt pietas, quae est dulcedo, &amp; amor in ordine ad 
+      il<lb ed="#R" n="6" break="no"/>lum: explicat enim latriam, cuius oppositum in 
+      <lb ed="#R" n="7"/>Scripturis vocatur impietas. Dicitur etiam 
+      Euse<lb ed="#R" n="8" break="no"/>bia, idest bonus cultus, scilicet Teusebia, idest, 
+      di<lb ed="#R" n="9" break="no"/>uinus cultus, vel dicitur religio, idest, religatio per 
+      <lb ed="#R" n="10"/>istam virtutem in vnum modum colendi, sed 
+      pro<lb ed="#R" n="11" break="no"/>prium nomen est latria. 
+      </p>
+               <p xml:id="olm8ij-g23047-d1e380">
+                  <lb ed="#R" n="12"/>Si quaeras, qualis virtus est. Dico quod 
+      mora<lb ed="#R" n="13" break="no"/>lis, &amp; ratio est, quia non habet Deum pro obiecto 
+      <lb ed="#R" n="14"/>immediato, sicut habent omnes virtutes 
+      theolo<lb ed="#R" n="15" break="no"/>gicae, &amp; ista est immoderatiua passionum, vel actuum 
+      <lb ed="#R" n="16"/>humanorum, &amp; potest dici latria pars Iustitiae, quae 
+      <lb ed="#R" n="17"/>est reddere vnicuique, quod suum est, &amp; fundatur 
+      <lb ed="#R" n="18"/>iustitia super obligationem: &amp; similiter est virtus 
+      <lb ed="#R" n="19"/>spiritualis, quia habet obiectum speciale sub 
+      ratio<lb ed="#R" n="20" break="no"/>ne spirituali, licet dici possit generalis respectu 
+      plu<lb ed="#R" n="21" break="no"/>rium. &amp; ista dicta sint de latria. 
+      </p>
+            </div>
+            <div xml:id="olm8ij-g23047-Dd1e405">
+               <head xml:id="olm8ij-g23047-Hd1e407">Articulus 2</head>
+               <head xml:id="olm8ij-g23047-Hd1e409" type="question-title">
+        De Dulia
+      </head>
+               <p xml:id="olm8ij-g23047-d1e412">
+                  <lb ed="#R" n="22"/>ARTJCVLVS JJ. 
+      <lb ed="#R" n="23"/>De Dulia 
+      </p>
+               <p xml:id="olm8ij-g23047-d1e419">
+                  <lb ed="#R" n="24"/>NVnc de Dulia dicendum. Dico, quod dulia, 
+      <lb ed="#R" n="25"/>est alterius rationis, &amp; distinguitur 
+      specifi<lb ed="#R" n="26" break="no"/>ce a latria, quia dependentia a creatura non est 
+      to<lb ed="#R" n="27" break="no"/>talis, nec necessaria, nec solitaria, ideo est 
+      alte<lb ed="#R" n="28" break="no"/>rius rationis. 
+      </p>
+               <p xml:id="olm8ij-g23047-d1e432">
+                  <lb ed="#R" n="29"/>Item: quia est partialis, &amp; tamen est adoratio 
+      <lb ed="#R" n="30"/>non simpliciter tamen, &amp; proprie, quia non 
+      tota<lb ed="#R" n="31" break="no"/>lis, &amp; idem est secundum quid, quia dependentia, 
+      <lb ed="#R" n="32"/>super quam fundatur, est secundum quid, vnde cum 
+      <lb ed="#R" n="33"/>dicitur in Scripturis, Dominum Deum tuum 
+      ado<lb ed="#R" n="34" break="no"/>rabis, &amp; illi soli seruies, intelligitur de simplici 
+      <lb ed="#R" n="35"/>adoratione. 
+      </p>
+               <p xml:id="olm8ij-g23047-d1e451">
+                  <lb ed="#R" n="36"/>Dico etiam vltra, quod habet species non 
+      secun<lb ed="#R" n="37" break="no"/>dum numerum creaturarum, sed penes diuersas 
+      <lb ed="#R" n="38"/>dependentias, quia alia est dependentia, qua 
+      de<lb ed="#R" n="39" break="no"/>pendes a patre, alia a Rege, alia a magistro: nam 
+      <lb ed="#R" n="40"/>a patre dependes quantum ad principium essendi, 
+      <lb ed="#R" n="41"/>vel secundum rationem causati non totaliter, a 
+      <lb ed="#R" n="42"/>Rege, sicut a conseruante te de libertatibus, &amp; 
+      in<lb ed="#R" n="43" break="no"/>quantum defendit te; a magistro, inquantum 
+      in<lb ed="#R" n="44" break="no"/>struit te, &amp; sic de alijs, ideo sunt alterius rationis, 
+      <lb ed="#R" n="45"/>&amp; sunt alij acus in mente, quia voluntas aliter se 
+      <lb ed="#R" n="46"/>habet contra ipsa. 
+      </p>
+               <p xml:id="olm8ij-g23047-d1e477">
+                  <lb ed="#R" n="47"/>Sed an dulia, &amp; hiperdulia sint alterius 
+      ratio<lb ed="#R" n="48" break="no"/>nis, vel species distinctae; dico. quod potest dici, 
+      <lb ed="#R" n="49"/>quod sunt alterius, quia sicut diuersa dependentia 
+      <lb ed="#R" n="50"/>distinguuntur adorationes, si ergo sit vna 
+      dependen<lb ed="#R" n="51" break="no"/>tia excellens singulariter omnes alias, illa erit 
+      al<lb ed="#R" n="52" break="no"/>terius rationis. &amp; quia a Christo habes meritorie 
+      <lb ed="#R" n="53"/>bonum gratiae, &amp; gloriae, quia mediator, &amp; istud 
+      <lb ed="#R" n="54"/>bonum est altius, &amp; nobilius; ideo tu teneris, te 
+      <lb ed="#R" n="55"/>subiugare illi vltra omnem aliam creaturam, &amp; 
+      <lb ed="#R" n="56"/>dependentia, qua ab eo dependes, est alterius 
+      ratio<lb ed="#R" n="57" break="no"/>nis a dependentia ab omni alia creatura, &amp; ex hoc 
+      <lb ed="#R" n="58"/>habes hiperduliam aliam speciem a dulia; vt sic 
+      <lb ed="#R" n="59"/>sit dulia, quae debetur creaturae ratione 
+      dependen<lb ed="#R" n="60" break="no"/>tiae, quae est communis in creatura; sed hiperdulia 
+      <lb ed="#R" n="61"/>est respectu singularis dependentiae, &amp; tamen stet 
+      <lb ed="#R" n="62"/>intra limites creaturae. Tunc dico, quod dulia tot 
+      <lb ed="#R" n="63"/>modis dicitur, quot modis potest sumi 
+      diuersimo<lb ed="#R" n="64" break="no"/>de dependentia ad creaturam.
+      </p>
+            </div>
+            <div xml:id="olm8ij-g23047-Dd1e521">
+               <head xml:id="olm8ij-g23047-Hd1e523">Articulus 3</head>
+               <head xml:id="olm8ij-g23047-Hd1e525" type="question-title">
+        Quae debeant adorari
+      </head>
+               <p xml:id="olm8ij-g23047-d1e528">
+      <!--0401.xml-->
+                  <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="65"/>ARTJCVLVS JJJ. 
+      <lb ed="#R" n="66"/>Quae debeant adorari.
+    </p>
+               <p xml:id="olm8ij-g23047-d1e539">
+                  <lb ed="#R" n="67"/>DE tertio articulo, quae sunt illa, quae debent 
+      <lb ed="#R" n="68"/>adorari, ponitur e contra talis distinctio, 
+      <lb ed="#R" n="69"/>quod aliqua per se adorantur illa, quibus per se 
+      <lb ed="#R" n="70"/>competunt species adorationis, quae sunt latria, &amp; 
+      <lb ed="#R" n="71"/>dulia, &amp; hiperdulia: tunc latria debetur 
+      Trinita<lb ed="#R" n="72" break="no"/>ti, &amp; vnica, quia vnica est dependentia omnis 
+      crea<lb ed="#R" n="73" break="no"/>turae ad totam Trinitatem, &amp; vnum formale 
+      obie<lb ed="#R" n="74" break="no"/>ctum est ibi, &amp; talis dependentia est ibi 
+      vniuersa<lb ed="#R" n="75" break="no"/>lis, simplex, &amp; necessaria, &amp; solitaria, quae 
+      inquan<lb ed="#R" n="76" break="no"/>tum dependentia est obiectum formale latriae, vt 
+      <lb ed="#R" n="77"/>patuit. Hiperdulia vero debetur humanitati 
+      Chri<lb ed="#R" n="78" break="no"/>sti, quia omnis creatura dependet ab eo nobiliori 
+      <lb ed="#R" n="79"/>modo, &amp; respectu nobilioris boni, scilicet gloriae 
+      <lb ed="#R" n="80"/>&amp; gratiae, scilicet, inquantum est mediator. 
+      Du<lb ed="#R" n="81" break="no"/>lia vero secundum diuersas species diuersis 
+      attri<lb ed="#R" n="82" break="no"/>buitur, quia vel dependes ab aliquo in donis 
+      gra<lb ed="#R" n="83" break="no"/>tiae, &amp; sic dependes a Sanctis, non quod dent 
+      gra<lb ed="#R" n="84" break="no"/>tiam creando, sed merendo tibi gratiam in vita 
+      <lb ed="#R" n="85"/>propter exempla sua, &amp; ratione istius 
+      dependen<lb ed="#R" n="86" break="no"/>tiae debetur adoratio; &amp; quanto ista dependentia 
+      <lb ed="#R" n="87"/>est altior, tanto potior est dulia, &amp; sic debetur 
+      ex<lb ed="#R" n="88" break="no"/>cellentiori modo Virgini beatae. Et propter hoc 
+      di<lb ed="#R" n="89" break="no"/>cunt quidam, quod quia beata Virgo plus nobis 
+      <lb ed="#R" n="90"/>meruit de gratia, &amp; gloria, quod sibi debetur 
+      hi<lb ed="#R" n="91" break="no"/>perdulia, &amp; Christo similiter hiperdulia: Alijs 
+      ve<lb ed="#R" n="92" break="no"/>ro Sanctis debetur dulia, &amp; quia omnes Sancti se 
+      <lb ed="#R" n="93"/>habent ad modum vnius rationis in merendo, 
+      sci<lb ed="#R" n="94" break="no"/>licet per modum procurantis, &amp; impetrantis, non 
+      <lb ed="#R" n="95"/>per modum mediantis; ideo respectu omnium est 
+      <lb ed="#R" n="96"/>vna species duliae, licet secundum plus, vel minus, 
+      <lb ed="#R" n="97"/>secundum quod magis, vel minus nobis 
+      procu<lb ed="#R" n="98" break="no"/>rant gratiam. 
+      </p>
+               <p xml:id="olm8ij-g23047-d1e611">
+                  <lb ed="#R" n="99"/>Si autem dependes in bonis fortunae, sicut 
+      de<lb ed="#R" n="100" break="no"/>pendes a Rege, vel a Magistro, tunc talis 
+      depen<lb ed="#R" n="101" break="no"/>dentia amittit nomen adorationis, vt sic adoratio 
+      <lb ed="#R" n="102"/>contineat latriam hiperduliam Christo, &amp; duliam 
+      <lb ed="#R" n="103"/>quae Sanctis; Regibus autem, &amp; magistris magis 
+      <lb ed="#R" n="104"/>debeatur reuerentia, licet talis reuerentia 
+      adora<lb ed="#R" n="105" break="no"/>tio dici possit, quia consistit in dependentia, &amp; 
+      ali<lb ed="#R" n="106" break="no"/>quando etiam in Scriptura talis reuerentia 
+      voca<lb ed="#R" n="107" break="no"/>tur adoratio, vt cum dicitur: Adorauit Regem 
+      pro<lb ed="#R" n="108" break="no"/>nus in terram. Si vero loquimur de adoratione 
+      <lb ed="#R" n="109"/>per accidens, dicit quidam Magister solemnis, 
+      <lb ed="#R" n="110"/>quod fit quinque modis, scilicet ratione 
+      significa<lb ed="#R" n="111" break="no"/>tionis, imitationis, continentiae, pertractationis, 
+      <lb ed="#R" n="112"/>condensationis, &amp; resolutionis. Sextus modus est 
+      <lb ed="#R" n="113"/>ex vi relationis, licet istum modum non teneam, 
+      <lb ed="#R" n="114"/>vt dicam inferius. 
+      </p>
+               <p xml:id="olm8ij-g23047-d1e649">
+                  <lb ed="#R" n="115"/>Primo igitur adoratio debetur alicui per 
+      acci<lb ed="#R" n="116" break="no"/>dens ratione interioris significationis. Vbi nota, 
+      <lb ed="#R" n="117"/>quod in omnibus istis modis, semper adoratur 
+      <lb ed="#R" n="118"/>aliquid propter aliud, ita quod illa adoratione, 
+      <lb ed="#R" n="119"/>qua adoratur aliquid per se, eadē adoratione 
+      ado<lb ed="#R" n="120" break="no"/>ratur per accidens illud, quod in ordine ad ipsum 
+      <lb ed="#R" n="121"/>aliquo istorum modorum adoratur: ergo primo 
+      <lb ed="#R" n="122"/>adoratur aliquid per accidens ratione 
+      significatio<lb ed="#R" n="123" break="no"/>nis, vt verba sancti Euangelii, &amp; Sacramenta. 
+      Se<lb ed="#R" n="124" break="no"/>cundo adoratur aliquid per accidens ratione 
+      imita<lb ed="#R" n="125" break="no"/>tionis, vt imagines non per se, quia sic esset 
+      idola<lb ed="#R" n="126" break="no"/>tria; sed in ordine ad illud, cuius sunt imagines, 
+      <lb ed="#R" n="127"/>&amp; imitatio, &amp; isto modo imago quae expressius 
+      re<lb ed="#R" n="128" break="no"/>praesentat illud, quod per se adoratur, deuotius po- 
+      <!--0402.xml-->
+      <pb ed="#R" n="400"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>test adorari; sicut imago Beatae Virginis quam 
+      fe<lb ed="#R" n="2" break="no"/>cit Beatus Lucas. Sic, &amp; Veronica Christi 
+      ho<lb ed="#R" n="3" break="no"/>die deuotius, &amp; cum maiori reuerentia adoratur. 
+      </p>
+               <p xml:id="olm8ij-g23047-d1e695">
+                  <lb ed="#R" n="4"/>Tertio adoratur aliquid ratione continentiae, vt 
+      <lb ed="#R" n="5"/>species in Sacramento altaris, vt columba in qua 
+      <lb ed="#R" n="6"/>apparuit Spiritus sanctus, similiter Abraham illos 
+      <lb ed="#R" n="7"/>tres viros, in quibus Trinitas apparuit; sed credo, 
+      <lb ed="#R" n="8"/>quod istud melius diceretur, quod per modum 
+      si<lb ed="#R" n="9" break="no"/>gnificationis. 
+      </p>
+               <p xml:id="olm8ij-g23047-d1e711">
+                  <lb ed="#R" n="10"/>Quarto: Ratione pertractationis, vt pater 
+      no<lb ed="#R" n="11" break="no"/>ster, &amp; huiusmodi, quae ponuntur super reliquias 
+      <lb ed="#R" n="12"/>Sanctorum, &amp; sic excellentius adoratur Crux Chri 
+      <lb ed="#R" n="13"/>sti vera, quae pertractauit membra eius. Sic etiam 
+      <lb ed="#R" n="14"/>beata Virgo, quia ipsum Christum dulcissime 
+      per<lb ed="#R" n="15" break="no"/>tractauit. 
+      </p>
+               <p xml:id="olm8ij-g23047-d1e727">
+                  <lb ed="#R" n="16"/>Quinto ratione condensationis, &amp; resolutionis, 
+      <lb ed="#R" n="17"/>nam sicut in generatione est processus ab 
+      imperfe<lb ed="#R" n="18" break="no"/>ctis formis ad perfectas, sic in resolutione; sed 
+      cor<lb ed="#R" n="19" break="no"/>rumpendo est e conuerso a formis perfectis ad 
+      im<lb ed="#R" n="20" break="no"/>perfectas, tunc omnes formae, quae sunt mediae in 
+      <lb ed="#R" n="21"/>resolutione, quas per se natura non intendit, 
+      pos<lb ed="#R" n="22" break="no"/>sunt adorari isto modo, vt corpus, brachia, 
+      cine<lb ed="#R" n="23" break="no"/>res, &amp; huiusmodi, quae descendunt a Sanctis: si 
+      <lb ed="#R" n="24"/>vero fieret resolutio in formam terminatam, 
+      vtpo<lb ed="#R" n="25" break="no"/>te in vermem, tunc non debet adorari talis forma 
+      <lb ed="#R" n="26"/>isto modo. 
+      </p>
+               <p xml:id="olm8ij-g23047-d1e753">
+                  <lb ed="#R" n="27"/>Sextus modus est per relationem, vt si animal 
+      <lb ed="#R" n="28"/>generetur ex ossibus, vel corporibus, potest 
+      ma<lb ed="#R" n="29" break="no"/>teria adorari sub illa forma per relationem inquan 
+      <lb ed="#R" n="30"/>tum, scilicet fuit sub forma sancti, vt bufo, vel 
+      ver<lb ed="#R" n="31" break="no"/>mis inquantum referuntur ad illum terminum, cuius 
+      <lb ed="#R" n="32"/>fuerunt: sed de sexto modo non reputo verum, 
+      quo<lb ed="#R" n="33" break="no"/>niam in illa materia nil remanet, quod fuerit 
+      San<lb ed="#R" n="34" break="no"/>cti, cum non sit aliquid hoc. 
+      </p>
+               <p xml:id="olm8ij-g23047-d1e773">
+                  <lb ed="#R" n="35"/>Ista reputo pro vno intellectu vera, sed pro alio 
+      <lb ed="#R" n="36"/>falsa, nam illa adoratio, vel accipitur pro actu 
+      <lb ed="#R" n="37"/>exteriori, vt osculari, genuflectere, &amp;c. &amp; tunc 
+      <lb ed="#R" n="38"/>quinque modi continent veritatem, vt patet 
+      di<lb ed="#R" n="39" break="no"/>scurrendo; sed ille actus exterior non est 
+      formali<lb ed="#R" n="40" break="no"/>ter adoratio. Sed si de actu interiori, quae est 
+      re<lb ed="#R" n="41" break="no"/>cognitio seruitutis in voluntate, non credo, quod 
+      <lb ed="#R" n="42"/>aliquid possit per accidens adorari, vnde non 
+      de<lb ed="#R" n="43" break="no"/>bes te subiugare illi, nisi solum Christo, vel Deo, 
+      <lb ed="#R" n="44"/>&amp; ratio est, quia illud iudicium est de actu 
+      volun<lb ed="#R" n="45" break="no"/>tatis, &amp; reputatione intellectus, a quo oritur actus 
+      <lb ed="#R" n="46"/>in voluntate: sed planum est, quod nec per se, nec 
+      <lb ed="#R" n="47"/>per accidens iudicas te dependere ab aliquo 
+      prae<lb ed="#R" n="48" break="no"/>dictorum modorum. 
+      </p>
+               <p xml:id="olm8ij-g23047-d1e807">
+                  <lb ed="#R" n="49"/>Si vero accipias actum interiorem pro actu 
+      re<lb ed="#R" n="50" break="no"/>uerentiae, sic possum talem actum exhibere 
+      prae<lb ed="#R" n="51" break="no"/>dictis, quando reputo, quod ista adoratio magis 
+      <lb ed="#R" n="52"/>sit reuerentia quaedam, vt Crux magis reuereri 
+      <lb ed="#R" n="53"/>dicatur, quam adorari; vel tali, &amp; tunc ex co 
+      obij<lb ed="#R" n="54" break="no"/>cio actum exteriorem, qui est signum huius 
+      reue<lb ed="#R" n="55" break="no"/>rentiae interioris, sed respectu illorum, quae per se 
+      <lb ed="#R" n="56"/>adorantur, dicitur bene cultus, &amp; obsequium, &amp; 
+      <lb ed="#R" n="57"/>quia adoratio est cultus mentis, ideo quod nulla 
+      <lb ed="#R" n="58"/>res nisi per se adoratur, nisi accipiatur adorare 
+      <lb ed="#R" n="59"/>pro reuereri. 
+      </p>
+               <p xml:id="olm8ij-g23047-d1e833">
+                  <lb ed="#R" n="60"/>Et hic potest videri: Vtrum crux debeat 
+      ado<lb ed="#R" n="61" break="no"/>rari, vel dulia, vel latria, dico quod non per se 
+      <lb ed="#R" n="62"/>considerata, sine relatione ad corpus Christi, quod 
+      <lb ed="#R" n="63"/>tetigit, &amp; sustentauit, &amp; repraesentat, quia ibi non 
+      <lb ed="#R" n="64"/>est proprie adoratio: sed dulia, &amp; latria exprimunt 
+      <lb ed="#R" n="65"/>mihi adorationem, ideo crux non est adoranda 
+      <lb ed="#R" n="66"/>tet ca sitmum Articulum, &amp; principale propo- 
+      <!--0402.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>situm: Vtrum caro Christi, &amp; anima debeant 
+      ado<lb ed="#R" n="68" break="no"/>rari adoratione, quae est latria, an dulia. 
+      Dicen<lb ed="#R" n="69" break="no"/>dum, quod non latria, quia latria exprimit 
+      serui<lb ed="#R" n="70" break="no"/>tutem, quae est vere species adorationis: nulla 
+      au<lb ed="#R" n="71" break="no"/>tem creatura proprie adoratur, sed debent 
+      vene<lb ed="#R" n="72" break="no"/>rari, nam aliud dicit venerari, quam adorare, vt 
+      <lb ed="#R" n="73"/>dictum est. 
+      </p>
+               <p xml:id="olm8ij-g23047-d1e870">
+                  <lb ed="#R" n="74"/>De isto ergo quarto articulo expedio me, 
+      quo<lb ed="#R" n="75" break="no"/>niam si quaestio fiat de adoratione per se, planum 
+      <lb ed="#R" n="76"/>est, quod per hiperduliam debet adorari, prout a 
+      <lb ed="#R" n="77"/>Verbo separata concipitur, quia ab eo dependens 
+      <lb ed="#R" n="78"/>in excellentissimo bono, scilicet gratiae, &amp; gloriae, 
+      <lb ed="#R" n="79"/>&amp; modo nobiliori, &amp; singulari, quia nulli alteri 
+      <lb ed="#R" n="80"/>creaturae dependet quis in ratione mediatoris, nisi 
+      <lb ed="#R" n="81"/>a Christo inquantum homo, sed hoc quaestio non 
+      <lb ed="#R" n="82"/>quaerit. Sed quaestio quaerit, vtrum capiendo 
+      hu<lb ed="#R" n="83" break="no"/>manitatem in verbo ratione vnionis quidditatiuae, 
+      <lb ed="#R" n="84"/>vtrum talis habitudo det sibi, quod possit cum 
+      <lb ed="#R" n="85"/>Verbo adorari adoratione, quae est latria. 
+      </p>
+               <p xml:id="olm8ij-g23047-d1e899">
+                  <lb ed="#R" n="86"/>Dicunt quidam, quod aliquid adorari est 
+      tri<lb ed="#R" n="87" break="no"/>pliciter, vel obiectiue, vel formaliter, vel 
+      mate<lb ed="#R" n="88" break="no"/>rialiter. Exemplum; video colorem, &amp; video 
+      la<lb ed="#R" n="89" break="no"/>pidem, cuius est color: sed lapidem video 
+      obiecti<lb ed="#R" n="90" break="no"/>ue, vel formaliter, vel materialer, quia coniunctum 
+      <lb ed="#R" n="91"/>formali obiecto, scilicet colori, sed colorem video 
+      <lb ed="#R" n="92"/>formaliter in ratione obiecti per se, &amp; principalis. 
+      <lb ed="#R" n="93"/>Ad propositum latria debetur humanitati 
+      Chri<lb ed="#R" n="94" break="no"/>sti modo, scilicet obiectiue materialiter, quia 
+      vni<lb ed="#R" n="95" break="no"/>ta verbo, sed secundo modo, non, quia 
+      quantum<lb ed="#R" n="96" break="no"/>cumque sit vnita, non habet quod sit formale 
+      <lb ed="#R" n="97"/>obiectum adorationis, quod semper manet intra 
+      <lb ed="#R" n="98"/>limites creaturae, nam obiectum formale est tota 
+      <lb ed="#R" n="99"/>Trinitas. 
+      </p>
+               <p xml:id="olm8ij-g23047-d1e932">
+                  <lb ed="#R" n="100"/>Sed contra istum modum, arguo quantum ad 
+      <lb ed="#R" n="101"/>ad primum membrum, scilicet, quod latria 
+      de<lb ed="#R" n="102" break="no"/>beatur obiectiue humanitati Christi. Arguo enim 
+      <lb ed="#R" n="103"/>sic contra eum.
+      </p>
+               <p xml:id="olm8ij-g23047-d1e943">
+                  <lb ed="#R" n="104"/>Quando aliquis actus alicuius potentiae fertur 
+      <lb ed="#R" n="105"/>in aliquam rationem formalem per se, sed debet 
+      <lb ed="#R" n="106"/>ferri in aliud obiectiue, oportet, quod formaliter 
+      <lb ed="#R" n="107"/>ratio inhaereat sibi, vt patet in exemplo suo, nam 
+      <lb ed="#R" n="108"/>color inest lapidi; sed formalis ratio adorationis, 
+      <lb ed="#R" n="109"/>quae est dependere ab eo, quod adoratur totaliter 
+      <lb ed="#R" n="110"/>adoratione latriae, non communicatur totaliter 
+      hu<lb ed="#R" n="111" break="no"/>manitati Christi: ergo. 
+      </p>
+               <p xml:id="olm8ij-g23047-d1e964">
+                  <lb ed="#R" n="112"/>Dico, quod humanitas est coniuncta Deitati, 
+      <lb ed="#R" n="113"/>&amp; ideo ratione huius communicatur sibi, quod 
+      <lb ed="#R" n="114"/>sufficit, quod formalis ratio sit ei vnita, &amp; 
+      copu<lb ed="#R" n="115" break="no"/>lata ei, quod obiectiue debet terminare actum 
+      po<lb ed="#R" n="116" break="no"/>tentiae. 
+      </p>
+               <p xml:id="olm8ij-g23047-d1e977">
+                  <lb ed="#R" n="117"/>Contra, dulcedo in lacte copulatur albedini, 
+      <lb ed="#R" n="118"/>quae est formaliter obiectum visus, &amp; tamen non 
+      <lb ed="#R" n="119"/>videtur dulcedo obiectiue, nec etiam 
+      materiali<lb ed="#R" n="120" break="no"/>ter, ita ibi de humanitate Christi. 
+      </p>
+               <p xml:id="olm8ij-g23047-d1e988">
+                  <lb ed="#R" n="121"/>Item; illud est obiectum adorationis, quod est 
+      <lb ed="#R" n="122"/>obiectum actus voluntatis, de quo dixi supra, 
+      sci<lb ed="#R" n="123" break="no"/>licet seruitus: sed humanitas Christi non est 
+      obie<lb ed="#R" n="124" break="no"/>ctum actus voluntatis illius, scilicet, qui est 
+      serui<lb ed="#R" n="125" break="no"/>tus, quia non intendo seruire sibi, sed ratione 
+      di<lb ed="#R" n="126" break="no"/>uinitatis, quare modus iste non placet. 
+      </p>
+               <p xml:id="olm8ij-g23047-d1e1004">
+                  <lb ed="#R" n="127"/>Jdeo dico, quod aliter est loquendum de 
+      adora<lb ed="#R" n="128" break="no"/>tione, &amp; aliter de veneratione; humanitati enim 
+      <lb ed="#R" n="129"/>Christi debetur adoratio, &amp; ipsam venerari super 
+      <lb ed="#R" n="130"/>omnem creaturam, &amp; de exteriori omnem actum 
+      <lb ed="#R" n="131"/>venerationis, quae debetur vnitati, &amp; vnum actum 
+      <lb ed="#R" n="132"/>quem debemus exhibere, scilicet diuinitati, &amp; 
+      hu<lb ed="#R" n="133" break="no"/>manitati.
+      </p>
+               <p xml:id="olm8ij-g23047-d1e1022">
+      <!--0403.xml-->
+                  <pb ed="#R" n="401"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Dico venerationis esse, hoc est ratione vnionis 
+      <lb ed="#R" n="2"/>suae cum Verbo. Si autem loqueris de actu 
+      interio<lb ed="#R" n="3" break="no"/>ri, qui proprie est adoratio, Vtrum sit vnus duorum, 
+      <lb ed="#R" n="4"/>scilicet diuinitatis, &amp; humanitatis. 
+      </p>
+               <p xml:id="olm8ij-g23047-d1e1040">
+                  <lb ed="#R" n="5"/>Dico, quod humanitas sic potest dupliciter 
+      con<lb ed="#R" n="6" break="no"/>siderari, vel distincte, vt est distincta ratione 
+      vnio<lb ed="#R" n="7" break="no"/>nis, ita quod ratione vnionis debeatur sibi 
+      adora<lb ed="#R" n="8" break="no"/>tio latriae, &amp; ita videtur posse concedi. 
+      </p>
+               <p xml:id="olm8ij-g23047-d1e1052">
+                  <lb ed="#R" n="9"/>Dices, quod implicat contradictionem, quia 
+      di<lb ed="#R" n="10" break="no"/>uidens contradicit diuiso, sicut si diceres animal 
+      <lb ed="#R" n="11"/>aliud homo, aliud non animal, sic in proposito, cum 
+      <lb ed="#R" n="12"/>dicis, humanitas vnita Verbo potest considerari, 
+      <lb ed="#R" n="13"/>vel diuisim, ecce iam istud contradicit diuisio, 
+      sci<lb ed="#R" n="14" break="no"/>licet vnire Verbo. 
+      </p>
+               <p xml:id="olm8ij-g23047-d1e1068">
+                  <lb ed="#R" n="15"/>Dico, quod non capio per disiunctim rationem 
+      <lb ed="#R" n="16"/>adoran ii, scilicet quod feratur super vnionem; sed 
+      <lb ed="#R" n="17"/>distinctim cadit super suam humanitatem, vt 
+      tan<lb ed="#R" n="18" break="no"/>quam quod. Exemplum de veste Regis, etiam dum 
+      <lb ed="#R" n="19"/>applicatur ad Regem, potest voluntas per actum 
+      <lb ed="#R" n="20"/>adorationis ferri dupliciter in vestem Regis, vno 
+      <lb ed="#R" n="21"/>modo ratione induitionis, quia potest actus ferri 
+      <lb ed="#R" n="22"/>super vestem indutam, vt dicam, ista vestis est 
+      vene<lb ed="#R" n="23" break="no"/>randa, quia Regis, ita quod actus feratur supra 
+      <lb ed="#R" n="24"/>vestem vt in quod, &amp; dico quod non debet vestis 
+      <lb ed="#R" n="25"/>adorari etiam ratione induitionis. Si vero 
+      intel<lb ed="#R" n="26" break="no"/>ligit coniunctim non distinguendo, sic potest, vt 
+      <lb ed="#R" n="27"/>Regem totum, &amp; omnia quae sunt in Rege, adores 
+      <lb ed="#R" n="28"/>vnica adoratione. 
+      </p>
+               <p xml:id="olm8ij-g23047-d1e1101">
+                  <lb ed="#R" n="29"/>Ad propositum, idem dico de humanitate vnita 
+      <lb ed="#R" n="30"/>Verbo, nam si actus eius feratur in humanitatem 
+      <lb ed="#R" n="31"/>non vt vnitam, ita quod hic excludo vnionem, vt 
+      <lb ed="#R" n="32"/>dicatur humanitas, quando est Verbo vnita, 
+      adora<lb ed="#R" n="33" break="no"/>ri latria, ita quod actus adorationis feratur in eam, 
+      <lb ed="#R" n="34"/>vt in quod; sic dico, quod, non debet adorari latria, 
+      <lb ed="#R" n="35"/>quia humanitati,, vt quod non debetur latria. Si 
+      <lb ed="#R" n="36"/>autem coniunctim consideres eam, scilicet ratione 
+      <lb ed="#R" n="37"/>vnionis, ita quod ibi non distinguis per intellectum, 
+      <lb ed="#R" n="38"/>sed ferendo super totum vnitum, vel compositum. 
+      <lb ed="#R" n="39"/>Sic dico, quod caro, &amp; anima Christi in Verbo 
+      de<lb ed="#R" n="40" break="no"/>beant vnica adoratione latriae adorari; sed non 
+      diui<lb ed="#R" n="41" break="no"/>sim. Et haec est intentio Damasc. vt patet in 
+      lite<lb ed="#R" n="42" break="no"/>ra, &amp; esse Augustini vide in litera, quod alia 
+      exem<lb ed="#R" n="43" break="no"/>pla sunt ibi, quia si super totum aspectum feram, 
+      <lb ed="#R" n="44"/>sic debeo vna adoratione latriae adorare, sed non 
+      <lb ed="#R" n="45"/>diuisim. 
+      </p>
+               <p xml:id="olm8ij-g23047-d1e1140">
+                  <lb ed="#R" n="46"/>Ad argumenta. Ad primum dico, quod Ecclesia 
+      <lb ed="#R" n="47"/>est specialis cultus Dei, tunc ratione vnionis non 
+      <lb ed="#R" n="48"/>debetur humanitati, vt scilicet terminet actum, vt 
+      <lb ed="#R" n="49"/>quod, sed toti supposito, idest Verbo homini. 
+      </p>
+               <p xml:id="olm8ij-g23047-d1e1151">
+                  <lb ed="#R" n="50"/>Ad aliud similiter dico. Ad tertium idem 
+      <lb ed="#R" n="51"/>dico. 
+      </p>
+               <p xml:id="olm8ij-g23047-d1e1158">
+                  <lb ed="#R" n="52"/>Ad aliud dico, quod propter aliud, &amp; cum 
+      ar<lb ed="#R" n="53" break="no"/>guis contra: Respondeo, quod humanitas non 
+      ado<lb ed="#R" n="54" break="no"/>ratur vt quod, nec per se, nec per aliud: sed per se 
+      <lb ed="#R" n="55"/>totum, aliud est enim adorare aliquod totum, &amp; 
+      <lb ed="#R" n="56"/>aliud adorare in illo vnum propter aliud. 
+      </p>
+               <p xml:id="olm8ij-g23047-d1e1172">
+                  <lb ed="#R" n="57"/>Ad aliud dico, quod non est propter 
+      communi<lb ed="#R" n="58" break="no"/>cationem idiomatum, sed per vnionem; nec 
+      ado<lb ed="#R" n="59" break="no"/>ro diuisim, sed coniunctim, nec etiam est per 
+      iden<lb ed="#R" n="60" break="no"/>titatem 
+      </p>
+               <p xml:id="olm8ij-g23047-d1e1183">
+                  <lb ed="#R" n="61"/>Ad aliud dicol, quod verum est coniunctim. &amp; 
+      <lb ed="#R" n="62"/>haec de tota quaestione. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

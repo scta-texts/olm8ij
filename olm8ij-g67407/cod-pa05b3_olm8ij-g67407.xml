@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-14">April 14, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b3">Roma 1605, Book 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-14" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="531"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-g67407"><!-- l3-d37q1 -->
+            <head xml:id="olm8ij-g67407-Hd1e101">Quaestio 1</head>
+            <p xml:id="olm8ij-g67407-d1e103">
+      <!--0533.xml-->
+               <cb ed="#R" n="b"/>
+               <lb ed="#R" n="61"/>DISTINCTIO XXXVII 
+      <lb ed="#R" n="62"/>Quaestio J. 
+      <lb ed="#R" n="63"/>DEDECEM 
+      <lb ed="#R" n="64"/>PRAECEPTJS. 
+    </p>
+            <div xml:id="olm8ij-g67407-Dd1e119">
+               <head xml:id="olm8ij-g67407-Hd1e121">Articulus 1</head>
+               <head xml:id="olm8ij-g67407-Hd1e123" type="question-title">
+        Utrum Decalogus praeceptorum bene sit a 
+        Domino ordinatus
+      </head>
+               <p xml:id="olm8ij-g67407-d1e126">
+                  <lb ed="#R" n="65"/>ARTJCVLVS J. 
+      <lb ed="#R" n="66"/>Vtrum Decalogus praeceptorum bene sit a 
+      Do<lb ed="#R" n="67" break="no"/>mino ordinatus. 
+      </p>
+               <p xml:id="olm8ij-g67407-d1e135">
+                  <lb ed="#R" n="68"/>VIDETVR, quod non, 
+      <lb ed="#R" n="69"/>quia secundo Ethicor. 
+      di<lb ed="#R" n="70" break="no"/>citur: Legislator debet 
+      <lb ed="#R" n="71"/>praecipere actus omnium 
+      <lb ed="#R" n="72"/>virtutum, quia intendie 
+      <lb ed="#R" n="73"/>vt populus assuescat 
+      acti<lb ed="#R" n="74" break="no"/>bus omnium virtutum. &amp; 
+      <lb ed="#R" n="75"/>in quinto etiam dicitur, 
+      <lb ed="#R" n="76"/>quod iustitia legalis ese 
+      <lb ed="#R" n="77"/>de actibus omnium virtutum, vnde est illud, quod 
+      <lb ed="#R" n="78"/>omnis virtus realiter in illo Decalogo non 
+      conti<lb ed="#R" n="79" break="no"/>netur, quae non est de actibus omnium virtutum: 
+      <lb ed="#R" n="80"/>ergo. Contra, auctoritas Dei, quae est debiti 
+      or<lb ed="#R" n="81" break="no"/>dinis institutorum extra. Respondeo. 
+      </p>
+               <p xml:id="olm8ij-g67407-d1e168">
+                  <lb ed="#R" n="82"/>Prima propositio, quod totus Decalogus est 
+      <lb ed="#R" n="83"/>de actibus iustitiae, &amp; non alterius virtutis, &amp; hoc 
+      <lb ed="#R" n="84"/>probo, quia actus latriae, pietatis &amp; 
+      commuta<lb ed="#R" n="85" break="no"/>tiuae iustitiae sunt actus iustitiae: istae enim sunt 
+      <lb ed="#R" n="86"/>tres species iustitiae in communi. Latria reddit 
+      <lb ed="#R" n="87"/>debitum Deo; pietas proximo coniuncto, a quo 
+      <lb ed="#R" n="88"/>quis habet esse vt parentibus, vel patriae; 
+      iusti<lb ed="#R" n="89" break="no"/>tia vero commutatiua proximo non coniuncto 
+      <lb ed="#R" n="90"/>quantum ad commutationes voluntarias, &amp; sic 
+      <lb ed="#R" n="91"/>sunt partes, &amp; species iustitiae: sed omnia 
+      prae<lb ed="#R" n="92" break="no"/>cepta Decalogi sunt de actibus istarum trium 
+      <lb ed="#R" n="93"/>virtutum. Tria prima praecepta sunt de actibus 
+      <lb ed="#R" n="94"/>Iustitiae in ordine ad Deum. Quartum es 
+      de<lb ed="#R" n="95" break="no"/>actu pietatis, quae est respectu parentum, tam 
+      <lb ed="#R" n="96"/>carnalium, quam spiritualium, &amp; praelatorum: 
+      <lb ed="#R" n="97"/>alia autem sunt actus iustitiae commutatiuae 
+      in<lb ed="#R" n="98" break="no"/>ordine ad proximum non coniunctum: sunt enim 
+      <lb ed="#R" n="99"/>prohibitiones prohibentes actus in 
+      commutatio<lb ed="#R" n="100" break="no"/>nibus non voluntarijs, quae sunt contra iustitiam 
+      <lb ed="#R" n="101"/>commutatiuam, quae est in commutationibus 
+      vo<lb ed="#R" n="102" break="no"/>luntarijs. Circa quod sciendum est, quod Latria 
+      <lb ed="#R" n="103"/>est habitus, quo aliquis voluntate inclinatur ad 
+      <lb ed="#R" n="104"/>exhibendum cultum Deo, in quantum est auctor 
+      <lb ed="#R" n="105"/>omnium bonorum, vt sic profiteatur homo Deum 
+      <lb ed="#R" n="106"/>habere superiorem, &amp; creatorem, &amp; largitorem 
+      <lb ed="#R" n="107"/>omnium bonorum. Potest autem considerari vt 
+      <lb ed="#R" n="108"/>omnium productor, vel vt omnium prouisor, vel 
+      <lb ed="#R" n="109"/>vt omnium speculator, &amp; secundum hoc accipi 
+      <lb ed="#R" n="110"/>possunt species latris.
+    </p>
+               <p xml:id="olm8ij-g67407-d1e234">
+                  <lb ed="#R" n="111"/>Nam si considerentur, inquantum est omnium 
+      <lb ed="#R" n="112"/>productor debemus eum colere, ore, &amp; corde 
+      <lb ed="#R" n="113"/>&amp; tunc dicitur Deuotio, quae est totalis 
+      recolle<lb ed="#R" n="114" break="no"/>ctio mentis in Deum, &amp; sic est prima species La- 
+      <!--0534.xml-->
+      <pb ed="#R" n="532"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>triae, cui opponitur Indeuotio quaedam, quae est 
+      <lb ed="#R" n="2"/>primum vitium inter vitia, quae opponuntur 
+      spe<lb ed="#R" n="3" break="no"/>ciebus latriae. 
+      </p>
+               <p xml:id="olm8ij-g67407-d1e258">
+                  <lb ed="#R" n="4"/>Possumus etiam eum colere ore, laudes referendo 
+      <lb ed="#R" n="5"/>sibi vpcaliter, &amp; sic dicitur laus vocalis, quae 
+      per<lb ed="#R" n="6" break="no"/>soluitur in horis Canonicis, in quibus magnalia 
+      <lb ed="#R" n="7"/>Dei extolluntur, &amp; huic opponitur Omissio 
+      soluen<lb ed="#R" n="8" break="no"/>di, vel dicendi horas Canonicas in illis, qui ad hoc 
+      <lb ed="#R" n="9"/>tenentur. Debemus etiam ipsum colere opere, &amp; 
+      <lb ed="#R" n="10"/>hoc potest fieri dupliciter: aliquando enim 
+      coli<lb ed="#R" n="11" break="no"/>tur opere, quo quis non necessario tenetur 
+      cole<lb ed="#R" n="12" break="no"/>re, &amp; tunc est deuouere, &amp; votum adimplere, 
+      <lb ed="#R" n="13"/>quod deuouemré est supererogationis, &amp; huic 
+      op<lb ed="#R" n="14" break="no"/>ponitur omissio, &amp; non solutio voti. Vel potest 
+      <lb ed="#R" n="15"/>coli opere, quo aliquis necessario obligatur ad 
+      co<lb ed="#R" n="16" break="no"/>lendum, &amp; tunc est oblatio, vt solutio 
+      decima<lb ed="#R" n="17" break="no"/>ruma &amp; omnis oblatio, quam aliquis necessariꝗ 
+      tae<lb ed="#R" n="18" break="no"/>netur Deo offerre colendo ipsum opere. Item 
+      <lb ed="#R" n="19"/>debemus eum colere gestibus exterioribus, &amp; sic 
+      <lb ed="#R" n="20"/>est Adoratio, quae est in genuflexione, &amp; 
+      consimi<lb ed="#R" n="21" break="no"/>libus gestibus exterioribus, &amp; huic opponitur 
+      <lb ed="#R" n="22"/>Jdolatria, quae talibus gestibus colit creaturam. 
+      <lb ed="#R" n="23"/>Debemus etiam colere signo, vel nutu ad hoc 
+      in<lb ed="#R" n="24" break="no"/>stitutum, &amp; secundum hoc in omni lege sunt 
+      ali<lb ed="#R" n="25" break="no"/>quae cerimoniae, quibus sicut quibusdam signis 
+      co<lb ed="#R" n="26" break="no"/>litur Deus, &amp; sic colitur in Sacramentis, &amp; 
+      iste<lb ed="#R" n="27" break="no"/>actus dicitur Sanctitas, siue sanctificatio, cui 
+      op<lb ed="#R" n="28" break="no"/>ponitur Simonia, quae est in vendendo 
+      sacramen<lb ed="#R" n="29" break="no"/>ta, &amp; sacrilegium. 
+      </p>
+               <p xml:id="olm8ij-g67407-d1e317">
+                  <lb ed="#R" n="30"/>Si autem consideretur. Deus, in quantum 
+      pro<lb ed="#R" n="31" break="no"/>uiser de suturo, vol vt: prouisor de praeterito, 
+      <lb ed="#R" n="32"/>quantum ad illa, de quistus iam prouidit nobis: 
+      <lb ed="#R" n="33"/>Si primo modo, hoc est dupliciter, quia potest 
+      <lb ed="#R" n="34"/>accipi vt prouisor iminediate per seipsum, &amp; tuno 
+      <lb ed="#R" n="35"/>oritur actus, quae est Oratio, qua inuocatur Deus 
+      <lb ed="#R" n="36"/>immediate, vt nobis in futuro prouideat, cui 
+      op<lb ed="#R" n="37" break="no"/>ponitum contemptus orandi pro necessarijs 
+      acci<lb ed="#R" n="38" break="no"/>piendis; vet ut prouisor mediate per alium, &amp; 
+      <lb ed="#R" n="39"/>fic est Adiurantio, quae dicitur esse per Deum. 
+      <lb ed="#R" n="40"/>Si autem consideretur, in quantum est prouisor 
+      <lb ed="#R" n="41"/>respectu praeteritorum, sio gratiarum actio, 
+      <lb ed="#R" n="42"/>qui est pro receptione bonorum, &amp; differt 
+      lau<lb ed="#R" n="43" break="no"/>de, quae laus est pro magnanimitate &amp; 
+      promis<lb ed="#R" n="44" break="no"/>sione in speciali pro: bonitate diuina. 
+      <lb ed="#R" n="45"/>Si autem considerutur tertio modo, inquantum 
+      <lb ed="#R" n="46"/>est speculator, sic colitur per actum, qui dicitur 
+      <lb ed="#R" n="47"/>iurare. Est enim iurare colere Deum, &amp;
+      xhono<lb ed="#R" n="48" break="no"/>rificare, quia est ipsum protestari, vt veritatem 
+      <lb ed="#R" n="49"/>infallibilem, quod soli Deo conuenit. Vnde 
+      iura<lb ed="#R" n="50" break="no"/>re isto modo, accipiendo creaturam pro-
+      Creato<lb ed="#R" n="51" break="no"/>re esset Idolatria: &amp; sic sunt quatuor species 
+      La<lb ed="#R" n="52" break="no"/>triae, quae habent quatuor vitia opposita, quae 
+      <lb ed="#R" n="53"/>prohibentur in tribus primis praeceptis primae 
+      ta<lb ed="#R" n="54" break="no"/>bulae, &amp; actus praedictarum virtutum 
+      praecipiun<lb ed="#R" n="55" break="no"/>tur. In primo namque praecepto cum dicitur, Non 
+      <lb ed="#R" n="56"/>adorabis Deos alienos, prohibetur idolatria, &amp; 
+      sa<lb ed="#R" n="57" break="no"/>crilegium directe, &amp; alia, quae ad hoc reducuntur, 
+      <lb ed="#R" n="58"/>&amp; praecipitur actus adorationis. 
+      </p>
+               <p xml:id="olm8ij-g67407-d1e382">
+                  <lb ed="#R" n="59"/>
+                  <!-- line coord error -->
+                  <lb ed="#R" n="60"/>In secundo, Non assumes nomen Dei rui in 
+      va<lb ed="#R" n="61" break="no"/>num, prohibetur Periurium, &amp; praecipitur actus 
+      <lb ed="#R" n="62"/>lorandi per Deum implicite, &amp; quae ad hoc 
+      redu<lb ed="#R" n="63" break="no"/>cuntur. 
+      </p>
+               <p xml:id="olm8ij-g67407-d1e398">
+                  <lb ed="#R" n="64"/>In tertio vero, Memento s &amp; c. praecipitur 
+      a<lb ed="#R" n="65" break="no"/>ctus sanctitatis. Item Pietas etiam continetur, 
+      <lb ed="#R" n="66"/>quae reddit debitum creaturae, a qua homo 
+      acce<lb ed="#R" n="67" break="no"/>pit effe, &amp; ideo homo debet talem creaturam 
+      re<lb ed="#R" n="68" break="no"/>uereri, &amp; hoc tam signo, quam facto subuenien- 
+      <!--0534.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>do ei, &amp; hoc continetur in quarto praecepto, quod 
+      <lb ed="#R" n="70"/>est solum affirmatiuum inter illa, quae sunt 
+      se<lb ed="#R" n="71" break="no"/>cundae tabulae, quia ad nullum aliud homo 
+      ob<lb ed="#R" n="72" break="no"/>ligatur affirmatiue, nisi ad subueniendum 
+      in<lb ed="#R" n="73" break="no"/>casu necessitatis, sed bene obligatur negatiue 
+      <lb ed="#R" n="74"/>non faciendo sibi iniuriam, &amp; non ledendo 
+      ip<lb ed="#R" n="75" break="no"/>sum. 
+      </p>
+               <p xml:id="olm8ij-g67407-d1e431">
+                  <lb ed="#R" n="76"/>Commutatiua autem Justitia, quae continet 
+      di<lb ed="#R" n="77" break="no"/>rectiuam sicut genus speciem, est in 
+      commutatio<lb ed="#R" n="78" break="no"/>nibus voluntarijs, &amp; ideo commutatio 
+      inuolun<lb ed="#R" n="79" break="no"/>taria est contra istam iustitiam, &amp; prohibetur per 
+      <lb ed="#R" n="80"/>actus iustitiae commutatiuae. Ista autem inuolun⸗ 
+      <lb ed="#R" n="81"/>taria commutatio habens modos non in 
+      volun<lb ed="#R" n="82" break="no"/>tate, non est aliud quam proximum laedere, &amp; 
+      <lb ed="#R" n="83"/>hoc potest fieri quadrupliciter. In communi, quia 
+      <lb ed="#R" n="84"/>vel laedere in persona propria, vel in persona 
+      con<lb ed="#R" n="85" break="no"/>iuncta, vel in re possessa spirituali, vel in re 
+      pos<lb ed="#R" n="86" break="no"/>sessa temporali, &amp; corporali. Laesio autem in 
+      <lb ed="#R" n="87"/>propria persona fit, vel in bono principali ipsius 
+      <lb ed="#R" n="88"/>personae, &amp; sic est homicidium, per quod tollitur 
+      <lb ed="#R" n="89"/>vita, quae est principale bonum hominis: Vel fit 
+      <lb ed="#R" n="90"/>in bono minus principali, puta in membro, &amp; 
+      di<lb ed="#R" n="91" break="no"/>citur mutilatio; vel fit dispositiue ad praedicta 
+      <lb ed="#R" n="92"/>&amp; in bono accidentali, &amp; annexo, puta in 
+      sanctita<lb ed="#R" n="93" break="no"/>te, &amp; sic dicitur inductio cuiuscumque 
+      infirmita<lb ed="#R" n="94" break="no"/>tis, vt vulneratio, intoxicatio, &amp; similia. 
+      </p>
+               <p xml:id="olm8ij-g67407-d1e476">
+                  <lb ed="#R" n="95"/>Si autem sit laesio in re possessa corporali, hoc 
+      <lb ed="#R" n="96"/>contingit quadrupliciter; vno modo, illo cui fit 
+      <lb ed="#R" n="97"/>damnum sciente, &amp; tunc dicitur rapina, vel illo 
+      <lb ed="#R" n="98"/>totaliter ignorante, &amp; nolente, &amp; dicitur furtum: 
+      <lb ed="#R" n="99"/>Vel illo non totaliter ignorante, sed sciente 
+      ali<lb ed="#R" n="100" break="no"/>quo modo, volente tamen; &amp; dicitur fraus; Vel 
+      <lb ed="#R" n="101"/>illo simpliciter sciente, volente tamen non 
+      sim<lb ed="#R" n="102" break="no"/>pliciter, sed secundum quid, &amp; tunc dicitur 
+      Vsu<lb ed="#R" n="103" break="no"/>ra. Omnes enim isti actus vitiosi prohibentur in 
+      <lb ed="#R" n="104"/>alijs sex praeceptis secundae tabulae, vt patet 
+      in<lb ed="#R" n="105" break="no"/>tuenti. 
+      </p>
+               <p xml:id="olm8ij-g67407-d1e502">
+                  <lb ed="#R" n="106"/>Duo alia praecepta dantur de actu voluntatis 
+      <lb ed="#R" n="107"/>in non concupiscendo aliena, quae sunt magis 
+      vio<lb ed="#R" n="108" break="no"/>lenta, &amp; magis inclinant ad malum. 
+    </p>
+               <p xml:id="olm8ij-g67407-d1e511">
+                  <lb ed="#R" n="109"/>Secunda Propositio, quod rationabile fuit, quod 
+      <lb ed="#R" n="110"/>praecepta Decalogi caderent cum actu iustitiae, 
+      <lb ed="#R" n="111"/>tum quia Legislator intendit illud, quod 
+      conser<lb ed="#R" n="112" break="no"/>uat communitatem, &amp; politiam, quod maxime 
+      <lb ed="#R" n="113"/>fit per iustitiam, quia in quacunque politia, si 
+      re<lb ed="#R" n="114" break="no"/>gnat iniustitia, soluitur statim politia, vt patet 
+      <lb ed="#R" n="115"/>tertio Ethicorum, &amp; quinto Politic. tum quia 
+      in<lb ed="#R" n="116" break="no"/>tendit pacem, quae per iustitiam saluatur, tum 
+      <lb ed="#R" n="117"/>quia intendit saluare amicitiam? Modo iustum 
+      <lb ed="#R" n="118"/>illud est, quod idem est quod amicum, 
+      vnde<lb ed="#R" n="119" break="no"/>quando soluitur iustitia inter amicos, statim 
+      <lb ed="#R" n="120"/>soluitur amicitia, &amp; ideo de actibus iustitiae, qui 
+      <lb ed="#R" n="121"/>sunt in ordine ad proximum, tam coniunctum 
+      <lb ed="#R" n="122"/>quam non coniunctum, dantur praecepta a 
+      legis<lb ed="#R" n="123" break="no"/>latore, &amp; ideo sciendum, quod de actibus 
+      iusti<lb ed="#R" n="124" break="no"/>tiae non dantur praecepta de actibus iustitiae 
+      com<lb ed="#R" n="125" break="no"/>mutatiuae affirmatiua, sed negatiua tantum, quia 
+      <lb ed="#R" n="126"/>non teneor commutare cum proximo, nisi 
+      velim<lb ed="#R" n="127" break="no"/>teneor tamen non laedere ipsum: &amp; ideo contra 
+      <lb ed="#R" n="128"/>laesionem dant praecepta negatiua, &amp; ex hod pad 
+      <lb ed="#R" n="129"/>tet quomodo praecepta Charitatis (quia iustum 
+      <lb ed="#R" n="130"/>&amp; amicum idem sunt) dependent ex illa 
+      Chagita<lb ed="#R" n="131" break="no"/>te, qua diligimus Deum &amp; proximum. 
+      </p>
+               <p xml:id="olm8ij-g67407-d1e563">
+                  <lb ed="#R" n="132"/>Tertia Propositio, quod praedictus Decalogus 
+      <lb ed="#R" n="133"/>sufficienter est ordinatus, &amp; sufficientia sic 
+      po<lb ed="#R" n="134" break="no"/>test sumi: Ordinatus enim est ad conseruationem 
+      <lb ed="#R" n="135"/>politiae, quae seruatur in iustitia, &amp; in ordine 
+      <!--0535.xml-->
+      <pb ed="#R" n="533"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>debito modo. In Politia triplex est ordo, vnus ad 
+      <lb ed="#R" n="2"/>principem Deum, alia ad proximum coniunctum, 
+      <lb ed="#R" n="3"/>vt patet ex dictis. Deum autem debemus colere 
+      <lb ed="#R" n="4"/>corde, &amp; hoc praecipitur in primo praecepto, ore, 
+      <lb ed="#R" n="5"/>&amp; hoc praecipitur in secundo, quia in isto 
+      intel<lb ed="#R" n="6" break="no"/>ligitur omnis laus vocalis, &amp; opus quantum ad 
+      <lb ed="#R" n="7"/>tertium, &amp; hoc fit in sacrificijs: sed licet duo 
+      pri<lb ed="#R" n="8" break="no"/>ma negatiue ponantur, tamen affirmatiua 
+      prae<lb ed="#R" n="9" break="no"/>cepta includunt. Alio modo distinguuntur, quia 
+      <lb ed="#R" n="10"/>debemus Deo fidelitatem, quo ad primum, 
+      reue<lb ed="#R" n="11" break="no"/>rentiam quo ad secundum: cultum quo ad 
+      ter<lb ed="#R" n="12" break="no"/>tium. 
+      </p>
+               <p xml:id="olm8ij-g67407-d1e607">
+                  <lb ed="#R" n="13"/>Respectu autem ordinis ad parentes tam 
+      cor<lb ed="#R" n="14" break="no"/>porales, quam spirituales, &amp; ad patriam etiam 
+      <lb ed="#R" n="15"/>ponitur quartum praeceptum, quod est 
+      affirma<lb ed="#R" n="16" break="no"/>tiuum, &amp; additur ibi: Vt sis longaeuus super 
+      ter<lb ed="#R" n="17" break="no"/>ram, quod habet impletio huius praecepti, 
+      qua<lb ed="#R" n="18" break="no"/>si quoddam principium actuale, sicut 
+      misericor<lb ed="#R" n="19" break="no"/>des ex merito consequuntur misericordiam: 
+      Bea<lb ed="#R" n="20" break="no"/>ti, inquit, misericordes: &amp; ratio est, quia qui 
+      fa<lb ed="#R" n="21" break="no"/>cit contra istud praeceptum, peccat in vita, &amp; in 
+      <lb ed="#R" n="22"/>eo, a quo accepit vitam, meretur. Quantum ad 
+      ter<lb ed="#R" n="23" break="no"/>tium ordinem respectu proximi non coniuncti, 
+      <lb ed="#R" n="24"/>non est aliquod praeceptum affirmatiuum, quia 
+      <lb ed="#R" n="25"/>homo non tenetur proximo non coniuncto, nisi 
+      <lb ed="#R" n="26"/>in casu necessitatis, &amp; tunc tenetur ex virtute 
+      <lb ed="#R" n="27"/>istius praecepti: Non occides. sunt ergo 
+      necessa<lb ed="#R" n="28" break="no"/>ria, quia homo tenetur non laedere suum 
+      proxi<lb ed="#R" n="29" break="no"/>mum corde, non concupiscendo rem proximi, 
+      <lb ed="#R" n="30"/>vel vxorem eius, &amp; sic sunt duo vltima, quae 
+      pro<lb ed="#R" n="31" break="no"/>hibent duas concupiscentias, scilicet oculorum, 
+      <lb ed="#R" n="32"/>&amp; carnis. Ore etiam tenetur non laedere, &amp; sic 
+      <lb ed="#R" n="33"/>non dicendum est falsum testimonium, ad quod 
+      <lb ed="#R" n="34"/>reducitur omnis detractio, &amp; omnis laesio in 
+      bo<lb ed="#R" n="35" break="no"/>no fraternali possesso. Tenetur etiam non laedere 
+      <lb ed="#R" n="36"/>opere, &amp; hoc in persona propria, &amp; sic est idem 
+      <lb ed="#R" n="37"/>praeceptum, Non occides, ad quod reducuntur 
+      <lb ed="#R" n="38"/>alia de vulneratione, &amp; quacunque laesione 
+      in<lb ed="#R" n="39" break="no"/>proprio corpore, &amp; hoc est in persona 
+      coniun<lb ed="#R" n="40" break="no"/>cta, &amp; est illud praeceptum, Non moechaberis. 
+      <lb ed="#R" n="41"/>Sed sic exponendo non prohibetur simpliciter 
+      for<lb ed="#R" n="42" break="no"/>nicatio, &amp; ideo potest dici, quod persona 
+      con<lb ed="#R" n="43" break="no"/>iuncta non solum dicitur vxor proximi, sed 
+      pro<lb ed="#R" n="44" break="no"/>les: modo contra bonum prolis est, quod sit 
+      ille<lb ed="#R" n="45" break="no"/>gitima, &amp; ideo in simplici fornicatione leditur 
+      <lb ed="#R" n="46"/>proles. Sed adhuc maneret peccatum contra 
+      na<lb ed="#R" n="47" break="no"/>turam, ex quo nascitur proles, &amp; dicendum 
+      <lb ed="#R" n="48"/>quod est ibi laesio in ordine naturae, quia est 
+      con<lb ed="#R" n="49" break="no"/>tra iustitiam naturalem, &amp; sic lederetur natura. 
+      <lb ed="#R" n="50"/>Justitia potest etiam laedi in re possessa 
+      tempora<lb ed="#R" n="51" break="no"/>li, &amp; contra hoc est illud praeceptum: Non furtum 
+      <lb ed="#R" n="52"/>facies, &amp; sic patet sufficientia quatuor 
+      praecepto<lb ed="#R" n="53" break="no"/>rum decalogi. 
+      </p>
+               <p xml:id="olm8ij-g67407-d1e698">
+                  <lb ed="#R" n="54"/>Ad argumentum dicendum, non oportet dare 
+      <lb ed="#R" n="55"/>praeceptum de omnibus actibus virtutum, quia 
+      <lb ed="#R" n="56"/>periculum esset in obseruando; nec omnia sunt 
+      <lb ed="#R" n="57"/>necessitatis, &amp; ideo sufficit, quod dentur de 
+      a<lb ed="#R" n="58" break="no"/>ctibus magis necessarijs ad conseruationem 
+      po<lb ed="#R" n="59" break="no"/>litiae.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

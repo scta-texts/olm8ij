@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-14">April 14, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b3">Roma 1605, Book 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-14" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="534"/>
+            <cb ed="#R" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-g68404"><!-- l3-d38q1 -->
+            <head xml:id="olm8ij-g68404-Hd1e101">Quaestio 1</head>
+            <p xml:id="olm8ij-g68404-d1e103">
+               <lb ed="#R" n="90"/>DISTINCTIO XXVJJJ. 
+      <lb ed="#R" n="91"/>DE MENDACJO. 
+      <lb ed="#R" n="92"/>Quaestio Vnica. 
+      </p>
+            <div xml:id="olm8ij-g68404-Dd1e112">
+               <head xml:id="olm8ij-g68404-Hd1e114">Articulus 1</head>
+               <head xml:id="olm8ij-g68404-Hd1e116" type="question-title">
+        Utrum Mendacium semper sit peccatum
+      </head>
+               <p xml:id="olm8ij-g68404-d1e119">
+                  <lb ed="#R" n="93"/>ARTJCVLVS VNJCVS. 
+      <lb ed="#R" n="94"/>Vtrum Mendacium semper sit peccatum. 
+      </p>
+               <p xml:id="olm8ij-g68404-d1e126">
+                  <lb ed="#R" n="95"/>VIDETVR, quod non, 
+      <lb ed="#R" n="96"/>quia cadit in sanctis viris, 
+      <lb ed="#R" n="97"/>puta in Abraham, Iacob, 
+      <lb ed="#R" n="98"/>Rachel, Judith, &amp; 
+      obste<lb ed="#R" n="99" break="no"/>tricibus, pro quo etiam 
+      <lb ed="#R" n="100"/>remuneratae fuerunt. 
+      </p>
+               <p xml:id="olm8ij-g68404-d1e142">
+                  <lb ed="#R" n="101"/>Contra, quia est 
+      oppo<lb ed="#R" n="102" break="no"/>situm veritati, quae est 
+      vir<lb ed="#R" n="103" break="no"/>tus. Respondeo primo 
+      <lb ed="#R" n="104"/>iciendum eit, quod multipliciter est mendacium, 
+      <lb ed="#R" n="105"/>aliquando enim opponitur veritati, vt quando 
+      ali<lb ed="#R" n="106" break="no"/>quis ex delectatione, verbo, vel signo immutat 
+      <lb ed="#R" n="107"/>aliter, quam sit, &amp; exprimit scienter falsum, &amp; 
+      <lb ed="#R" n="108"/>istud dicitur mendacium culpae, &amp; abundat in 
+      mu<lb ed="#R" n="109" break="no"/>lieribus, &amp; in quibusdam alijs, qui delectantur in 
+      <lb ed="#R" n="110"/>mentiendo. Aliud est mendacium, quod 
+      opponi<lb ed="#R" n="111" break="no"/>tur humilitati, &amp; pertinet a superbiam, quod 
+      ali<lb ed="#R" n="112" break="no"/>quando est in verbo, sicut est arrogantia, vel 
+      ia<lb ed="#R" n="113" break="no"/>ctantia, attribuendo sibi, quod aliquis non habet. 
+      <lb ed="#R" n="114"/>Aliquando est in facto, &amp; hoc est, vel plus 
+      osten<lb ed="#R" n="115" break="no"/>dendo sibi inesse, quam insit, &amp; dicitur 
+      hypocri<lb ed="#R" n="116" break="no"/>sis, vel minus, negando a se, quod aliquis habet, 
+      <lb ed="#R" n="117"/>vt magis commendetur, &amp; propter superbiam, 
+      <lb ed="#R" n="118"/>&amp; dicitur Ironya, qui nequiter se humiliat. 
+      Ter<lb ed="#R" n="119" break="no"/>tium mendacium est, quod opponitur virtuti 
+      Eu<lb ed="#R" n="120" break="no"/>trapeliae, quae est in conuiuendo, in consolabili 
+      lo<lb ed="#R" n="121" break="no"/>cutione, &amp; tunc dicitur mendacium iocosum, quod 
+      <lb ed="#R" n="122"/>fit propter recreationem in colloquijs, non debet 
+      <lb ed="#R" n="123"/>tamen mentiri. Quartum est quod opponitur vir- 
+      <!--0537.xml-->
+      <pb ed="#R" n="535"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>tuti Affabilitatis, vel beneuolentiae, &amp; dicitur 
+      men<lb ed="#R" n="2" break="no"/>dacium officiosum, vel vtile, &amp; habet minus 
+      de<lb ed="#R" n="3" break="no"/>malitia, quam alia. Quintum est, quod 
+      opponi<lb ed="#R" n="4" break="no"/>tur virtuti Modestiae, quae modestia consistit 
+      in<lb ed="#R" n="5" break="no"/>in non laedere alterum. Istud autem mendacium 
+      <lb ed="#R" n="6"/>ledit alterum, &amp; dicitur mendacium perniciosum, 
+      <lb ed="#R" n="7"/>&amp; quodlibet istorum posset distingui secundum 
+      di<lb ed="#R" n="8" break="no"/>uersas materias, in quibus sunt. 
+      </p>
+               <p xml:id="olm8ij-g68404-d1e219">
+                  <lb ed="#R" n="9"/>Secundo pono propositionem intentam, &amp; est, 
+      <lb ed="#R" n="10"/>quod mendacium semper est peccatum, sed 
+      mor<lb ed="#R" n="11" break="no"/>ta le peccatum ex genere est solum perniciosum. 
+      <lb ed="#R" n="12"/>Aliqui enim dicunt, quod mendacium est 
+      pecca<lb ed="#R" n="13" break="no"/>tum, solum quia est prohibitum, sed male dicunt, 
+      <lb ed="#R" n="14"/>quia ex natura sua peccatum est. Primo, quia est 
+      <lb ed="#R" n="15"/>contra virtutem, vt patet ex immediate dictis. 
+      Se<lb ed="#R" n="16" break="no"/>cundo, quia cadit super materiam non debitam: 
+      lo<lb ed="#R" n="17" break="no"/>quela enim cadit super orationem, quae oratio 
+      di<lb ed="#R" n="18" break="no"/>citur esse vera, quia est expressio mentis 
+      conce<lb ed="#R" n="19" break="no"/>ptus, &amp; ideo debet esse conformis conceptui 
+      men<lb ed="#R" n="20" break="no"/>tis, &amp; haec conformitas est veritas orationis, quae 
+      <lb ed="#R" n="21"/>deest in mendacio, &amp; ideo materia est indebita 
+      <lb ed="#R" n="22"/>Tertio, quia habet inuolutam malam 
+      circunstan<lb ed="#R" n="23" break="no"/>tiam, puta intentionem fallendi, vt ille, qui audit, 
+      <lb ed="#R" n="24"/>aliud apprehendat, quam loquens intendat, etsi 
+      <lb ed="#R" n="25"/>non sit necessaria in mendacio ista intentio 
+      fallen<lb ed="#R" n="26" break="no"/>di, quia forte audiens bene percipit, quod loquens 
+      <lb ed="#R" n="27"/>dicit falsum, &amp; proferens mendacium est fallax, seu 
+      <lb ed="#R" n="28"/>vitiosus vtendo oratione falsa. Quarto patet ex 
+      per<lb ed="#R" n="29" break="no"/>uersitate eius, quod est ad finem, non ordinatur ad 
+      <lb ed="#R" n="30"/>finem debitum, sed indebitum, &amp; sic omne 
+      men<lb ed="#R" n="31" break="no"/>dacium ex natura sua peccatum est. Perniciosum 
+      <lb ed="#R" n="32"/>autem mendacium dicitur omne peccatum 
+      mor<lb ed="#R" n="33" break="no"/>tale ex genere suo, quod est contra illud praeceptum 
+      <lb ed="#R" n="34"/>secundae tabulae: Non dices falsum testimonium, 
+      <lb ed="#R" n="35"/>&amp; c. quia hoc est contra charitatem proximi: alia 
+      <lb ed="#R" n="36"/>autem non sunt mortalia ex genere. 
+      </p>
+               <p xml:id="olm8ij-g68404-d1e282">
+                  <lb ed="#R" n="37"/>Sed dubium est: an iocosum ratione personae, &amp; 
+      <lb ed="#R" n="38"/>status, vel ratione assuefactionis, possit dici 
+      morta<lb ed="#R" n="39" break="no"/>le peccatum. Vnde dicendum, quod 
+      consideran<lb ed="#R" n="40" break="no"/>do istas circunstantias secundum se, non faciunt 
+      pec<lb ed="#R" n="41" break="no"/>catum mortale, sicut dicitur, quod ebrius 
+      dupli<lb ed="#R" n="42" break="no"/>ci increpatione dignus est: actus enim ebrij non 
+      <lb ed="#R" n="43"/>esset sibi peccatum, nisi posuisset se in tali statu per 
+      <lb ed="#R" n="44"/>culpam suam; sicut etiam ille, qui ponit se in 
+      qua<lb ed="#R" n="45" break="no"/>dam necessitate mentiendi, propter malum 
+      habi<lb ed="#R" n="46" break="no"/>tum acquisitum potest mortaliter peccare ratione 
+      <lb ed="#R" n="47"/>assuefactionis, in quam ex quodam contemptu 
+      se<lb ed="#R" n="48" break="no"/>permisit cadere, imo quam voluntarie acquisiuit. 
+      <lb ed="#R" n="49"/>Quantum ad circumstantiam personae, vtputa si 
+      <lb ed="#R" n="50"/>praelatus, vel religiosus mentiendo iocose, peccat 
+      <lb ed="#R" n="51"/>mortaliter. Videtur Magister dicere, quod sic, quia 
+      <lb ed="#R" n="52"/>tale mendacium (vt dicit) est damnosum, &amp; ratio 
+      <lb ed="#R" n="53"/>huius videtur esse, quia tales videntur perfecti, 
+      to<lb ed="#R" n="54" break="no"/>taliter debent adhaerere Deo. Alij dicunt, quod 
+      ta<lb ed="#R" n="55" break="no"/>les mentiendo iocose, vel officiose peccaut 
+      morta<lb ed="#R" n="56" break="no"/>liter, &amp; ratio est, quia peccata venialia non fierent 
+      <lb ed="#R" n="57"/>eis mortalia, nisi caderent eis sub voto. Alij 
+      au<lb ed="#R" n="58" break="no"/>tem distinguunt dicentes, quod in actibus 
+      perfectio<lb ed="#R" n="59" break="no"/>nis, puta praedicationis, &amp; instructionis, &amp; 
+      con<lb ed="#R" n="60" break="no"/>similibus, mendacium iocosum esset eis peccatum 
+      <lb ed="#R" n="61"/>mortale ratione status, vt ratione personae, nisi 
+      <lb ed="#R" n="62"/>forte velit ex tanta libidine, quod aequipollenter 
+      <lb ed="#R" n="63"/>praeceptum diuinum interpretetur, vt puta, si 
+      ta<lb ed="#R" n="64" break="no"/>lis tali libidine mentiretur, quod si occurreret 
+      si<lb ed="#R" n="65" break="no"/>bi, quod hoc esset contra peccatum diuinum 
+      pro<lb ed="#R" n="66" break="no"/>pter tale mendacium; tunc enim esset: sicut 
+      supra<lb ed="#R" n="67" break="no"/>dictum est de superbia, &amp; inuidia. Vel nisi forte, 
+      <!--0537.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>quando homo perfectus loquitur iocose aliqua 
+      <lb ed="#R" n="69"/>quae reputantur autentica, &amp; omnia, quasi 
+      euan<lb ed="#R" n="70" break="no"/>gelica dicta, tunc miscere mendacium iocosum 
+      <lb ed="#R" n="71"/>vel officiosum, non posset dici peccatum mortale. 
+      </p>
+               <p xml:id="olm8ij-g68404-d1e365">
+                  <lb ed="#R" n="72"/>Ad argumentum in oppositum concedunt 
+      ali<lb ed="#R" n="73" break="no"/>qui, quod illi peccauerint, nec est inconueniens 
+      <lb ed="#R" n="74"/>maius de antiquis Patribus, quam de Petro, qui 
+      <lb ed="#R" n="75"/>negauit Christum. Vel dicendum de Abraham, 
+      <lb ed="#R" n="76"/>quod veritatem vnam taceret, &amp; aliam assereret, 
+      <lb ed="#R" n="77"/>quia vxor sua erat, &amp; soror sua, scilicet filia 
+      fra<lb ed="#R" n="78" break="no"/>tris sui, &amp; tales vocantur sorores. De Iacob 
+      di<lb ed="#R" n="79" break="no"/>cendum, quod erat Esau dignitate, non persona: 
+      <lb ed="#R" n="80"/>sicut Christus dicit de Joanne, quod erat Elias: 
+      <lb ed="#R" n="81"/>quod Joannes tamen negauit de seipso, &amp; sic de 
+      <lb ed="#R" n="82"/>alijs. De Rachel dicunt aliqui, quod mentita est, 
+      <lb ed="#R" n="83"/>&amp; peccauit. Iudith vero non peccauit in ornatu 
+      <lb ed="#R" n="84"/>suo, quia ornauit se vt honesta domina, non vt 
+      <lb ed="#R" n="85"/>meretrix: &amp; ideo si Holophernes accepit 
+      occasio<lb ed="#R" n="86" break="no"/>nem peccandi, hoc fuit per accidens, &amp; ex 
+      mali<lb ed="#R" n="87" break="no"/>tia sua: quod autem orauit, quod caperetur in 
+      <lb ed="#R" n="88"/>aspectu suo, non affectauit peccatum suum, sed 
+      <lb ed="#R" n="89"/>sciens probabiliter, quod peccatum iam habebat, 
+      <lb ed="#R" n="90"/>orauit, vt bene vti posset peccato illus: nec 
+      pec<lb ed="#R" n="91" break="no"/>cauit interficiendo, quia auctoritate Dei fecit. 
+      Ob<lb ed="#R" n="92" break="no"/>stetrices autem peccauerunt, sed Deus 
+      remune<lb ed="#R" n="93" break="no"/>nerauit affectum eorum, non mendacium. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

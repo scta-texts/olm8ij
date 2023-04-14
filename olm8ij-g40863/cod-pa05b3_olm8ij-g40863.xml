@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-04-14">April 14, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b3">Roma 1605, Book 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-14" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="450"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-g40863"><!-- l3-d16q2 -->
+            <head xml:id="olm8ij-g40863-Hd1e101">Quaestio 2</head>
+            <p xml:id="olm8ij-g40863-d1e103">
+               <lb ed="#R" n="52"/>Quaestio JJ. 
+      <lb ed="#R" n="53"/>
+               <!-- line coord error -->
+               <lb ed="#R" n="54"/>DE CAVSJS PASSJONVM 
+      <lb ed="#R" n="55"/>ANJMALJVM. 
+      </p>
+            <p xml:id="olm8ij-g40863-d1e116">
+               <lb ed="#R" n="56"/>Nunc videndum est de concursu dictarum 
+      pas<lb ed="#R" n="57" break="no"/>sionum ad inuicem. &amp; hic primo 
+      viden<lb ed="#R" n="58" break="no"/>dum est de concursu passionum animalium 
+      <lb ed="#R" n="59"/>cum corporalibus; deinde de concursu 
+      a<lb ed="#R" n="60" break="no"/>ctuum voluntatis cum passionibus 
+      anima<lb ed="#R" n="61" break="no"/>libus. &amp; tertio, Vtrum actus voluntatis con 
+      <!--0452.xml-->
+      <cb ed="#R" n="b"/>
+               <lb ed="#R" n="62"/>comitentur semper aliquae passiones 
+      ani<lb ed="#R" n="63" break="no"/>males. 
+      </p>
+            <div xml:id="olm8ij-g40863-Dd1e140">
+               <head xml:id="olm8ij-g40863-Hd1e142">Articulus 1</head>
+               <head xml:id="olm8ij-g40863-Hd1e144" type="question-title">
+        De concursu passionum corporalium cum animalibus
+      </head>
+               <p xml:id="olm8ij-g40863-d1e147">
+                  <lb ed="#R" n="64"/>ARTJCVLVS J. 
+      <lb ed="#R" n="65"/>De concursu passionum corporalium cum 
+      <lb ed="#R" n="66"/>animalibus. 
+      </p>
+               <p xml:id="olm8ij-g40863-d1e156">
+                  <lb ed="#R" n="67"/>CIRCA primum, verbi 
+      <lb ed="#R" n="68"/>gratia, si est dolor in 
+      car<lb ed="#R" n="69" break="no"/>ne, Vtrum sit necessarium 
+      <lb ed="#R" n="70"/>consequi dolorem in 
+      cor<lb ed="#R" n="71" break="no"/>de, &amp; quod sic videtur. 
+      <lb ed="#R" n="72"/>Arguo enim sic: Quando 
+      <lb ed="#R" n="73"/>aliqua sic se habent 
+      ordi<lb ed="#R" n="74" break="no"/>nata, quod ad primum
+        <!-- line coord error -->sequitur secundum, &amp; ad
+      <lb ed="#R" n="75"/>secundum tertium, &amp; quartum, ad secundum 
+      neces<lb ed="#R" n="76" break="no"/>sario sequitur quartum: exemplum sit a, b, c, d: sed 
+      <lb ed="#R" n="77"/>experimur, quod per tactum alicuius 
+      contristan<lb ed="#R" n="78" break="no"/>tis, vel delectantis sequitur statim passio in 
+      appe<lb ed="#R" n="79" break="no"/>titu exteriori. &amp; ad illud tertio sequitur in 
+      aelli<lb ed="#R" n="80" break="no"/>matiua necessario iudicium de conuenientia, vel 
+      <lb ed="#R" n="81"/>disconuenientia obiecti, quia ex hoc fit immutatio 
+      <lb ed="#R" n="82"/>in imaginatione tertio; ex quo statim fit motus in 
+      <lb ed="#R" n="83"/>cogitatione, &amp; post hanc sequitur necessario 
+      mo<lb ed="#R" n="84" break="no"/>tus in appetitu: ergo ad passiones corporales de 
+      <lb ed="#R" n="85"/>primo ad vltimum sequuntur passiones animales. 
+      </p>
+               <p xml:id="olm8ij-g40863-d1e202">
+                  <lb ed="#R" n="86"/>De prima clarum est, scilicet, quod ad 
+      appre<lb ed="#R" n="87" break="no"/>hensionem sensitiuam sequitur passio in appetitu 
+      <lb ed="#R" n="88"/>exteriori complantato. De secundo etiam est 
+      no<lb ed="#R" n="89" break="no"/>tum, quod obiectum sic apprehensum immutat phan 
+      <lb ed="#R" n="90"/>tasiam, &amp; illa necessario cogitatiuam. Vltimum 
+      <lb ed="#R" n="91"/>vero postquam appetitus in nobis non est liber: 
+      er<lb ed="#R" n="92" break="no"/>go mouetur ad praesentiam obiecti: ergo. 
+      </p>
+               <p xml:id="olm8ij-g40863-d1e221">
+                  <lb ed="#R" n="93"/>Secundo sic: Quando duae potentiae sunt 
+      colliga<lb ed="#R" n="94" break="no"/>tae in eadem essentia, vna necessario compatitur 
+      al<lb ed="#R" n="95" break="no"/>teri, vt si patitur appetitus sensitiuus, compatitur 
+      <lb ed="#R" n="96"/>statim voluntas: sed appetitus exterior 
+      complanta<lb ed="#R" n="97" break="no"/>tus, &amp; appetitus sensitiuus sunt fundati in eadem 
+      <lb ed="#R" n="98"/>essentia animae: ergo. 
+      </p>
+               <p xml:id="olm8ij-g40863-d1e237">
+                  <lb ed="#R" n="99"/>Contra hoc est magnum dubium. Sequitur 
+      au<lb ed="#R" n="100" break="no"/>tem, quod voluntate nunquam erit homo 
+      tempe<lb ed="#R" n="101" break="no"/>ratus. Probo, quia 3. Ethic. cap. 11. non est 
+      tem<lb ed="#R" n="102" break="no"/>peratus, qui abstinendo non gaudet, non est solum 
+      <lb ed="#R" n="103"/>necessarium non tristari, sed necessarium est cum 
+      <lb ed="#R" n="104"/>hoc gaudium: tunc arguo: pono in 
+      phantasmate<lb ed="#R" n="105" break="no"/>tristitiam apprehensam ab appetitu exteriori 
+      tri<lb ed="#R" n="106" break="no"/>sato, tunc aut sequitur gaudium in corde, aut 
+      <lb ed="#R" n="107"/>non: si non, nullus iam est temperatus: si sic, habeo 
+      <lb ed="#R" n="108"/>propositum. Item sequitur, quod nullus sit 
+      vere<lb ed="#R" n="109" break="no"/>patiens: probo, quia obiectum patientiae est triste 
+      <lb ed="#R" n="110"/>exterius, quia oportet vt sic sit patiens, quod 
+      gau<lb ed="#R" n="111" break="no"/>deat, &amp; sic habeo propositum. Dicit, quod ad 
+      pa<lb ed="#R" n="112" break="no"/>tientiam sufficit non tristari. Dico, quod ad 
+      excellen<lb ed="#R" n="113" break="no"/>tiam oportet inesse gaudium, vt patet de 
+      matri<lb ed="#R" n="114" break="no"/>bus: ergo non solum sequitur passio conformis in 
+      <lb ed="#R" n="115"/>appetitu interiori, imo quod plus est sequitur 
+      pas<lb ed="#R" n="116" break="no"/>sio opposita. Item dico, quod non sequitur passio 
+      <lb ed="#R" n="117"/>opposita, non tamen sequitur passio conformis in 
+      <lb ed="#R" n="118"/>appetitu interiori, imo, quod plus est, sequitur 
+      <lb ed="#R" n="119"/>passio opposita.
+      </p>
+               <p xml:id="olm8ij-g40863-d1e285">
+                  <lb ed="#R" n="120"/>Item dato, quod non sequatur passio opposita, 
+      <lb ed="#R" n="121"/>non tamen sequitur passio conformis; alias non 
+      <lb ed="#R" n="122"/>esset virtus temperantiae, vel patientiae, &amp; esset 
+      con<lb ed="#R" n="123" break="no"/>tra Apostolum, quia sequeretur, quod non posset 
+      <lb ed="#R" n="124"/>homo gaudere de tribulatione. 
+      <!--0453.xml-->
+      <pb ed="#R" n="451"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Dico hic duo, primo, quod in omni animali 
+      <lb ed="#R" n="2"/>alio ab homine passiones animales conformes 
+      con<lb ed="#R" n="3" break="no"/>comitantur passiones corporales, &amp; ratio est 
+      ra<lb ed="#R" n="4" break="no"/>dicatio in eadem essentia. Cuius ratio est, quia 
+      <lb ed="#R" n="5"/>nunquam potentia mouetur ad actum sine suo 
+      <lb ed="#R" n="6"/>obiecto. 
+      </p>
+               <p xml:id="olm8ij-g40863-d1e318">
+                  <lb ed="#R" n="7"/>Non autem ex essentia, vnum quodque enim 
+      <lb ed="#R" n="8"/>fic agitur, vt aptum natum est agi: sed radicatio 
+      <lb ed="#R" n="9"/>est causa, quod sit obiectum praesens vtrique 
+      po<lb ed="#R" n="10" break="no"/>tentiae primo, nam essentia non recipit obiectum 
+      <lb ed="#R" n="11"/>in ratione essentiae. Item essentia, vt essentia non 
+      <lb ed="#R" n="12"/>praesentat illud obiectum, cum ergo potentia non 
+      <lb ed="#R" n="13"/>sit apta nata pati, nisi ab obiecto, essentia autem, 
+      <lb ed="#R" n="14"/>vt essentia non praesentet obiectum, igitur 
+      poten<lb ed="#R" n="15" break="no"/>tia non patitur ab essentia: non ergo ex ratione 
+      <lb ed="#R" n="16"/>radicationis in eadem essentia est ista compassio, 
+      <lb ed="#R" n="17"/>eo quod vt dictum est potentia non est apta pati, 
+      <lb ed="#R" n="18"/>nisi ab obiecto.
+      </p>
+               <p xml:id="olm8ij-g40863-d1e347">
+                  <lb ed="#R" n="19"/>Item confirmo propositum per experientiam 
+      <lb ed="#R" n="20"/>quoniam simul potest esse dolor in oculo, &amp; 
+      de<lb ed="#R" n="21" break="no"/>lectatio in gustu rerum delectabilium, nec transit 
+      <lb ed="#R" n="22"/>dolor visus ad gustum: ergo. Tota ergo ratio, 
+      qua<lb ed="#R" n="23" break="no"/>re sic se concomitantur tales passiones diuersarum 
+      <lb ed="#R" n="24"/>potentiarum, est ex connexione obiectorum, sicut 
+      <lb ed="#R" n="25"/>prima ratio tangebat, quando potentiae sic se 
+      ha<lb ed="#R" n="26" break="no"/>bent. quod praesente obiecto vni potentiae fit 
+      obie<lb ed="#R" n="27" break="no"/>ctum conforme alteri, necessario ex passione 
+      cau<lb ed="#R" n="28" break="no"/>sata ab obiecto illa potentia fuit passio conformis 
+      <lb ed="#R" n="29"/>in alia: sed ad praesentiam obiecti extra fit 
+      necessa<lb ed="#R" n="30" break="no"/>rio obiectum praesens in imaginatione, &amp; ab ista 
+      <lb ed="#R" n="31"/>fit obiectum conforme in aestimatiua, &amp; obiectum 
+      <lb ed="#R" n="32"/>sic iudicatum necessario est obiectum appetitus: 
+      <lb ed="#R" n="33"/>ergo de primo ad vltimum praesente obiecto in sen 
+      <lb ed="#R" n="34"/>su extra, fit necessario obiectum praesens, potentia 
+      <lb ed="#R" n="35"/>enim extra fit necessario obiectum praesens, 
+      poten<lb ed="#R" n="36" break="no"/>tiam enim liberam sequitur necessario passio in 
+      appe<lb ed="#R" n="37" break="no"/>titu, &amp; hoc in animalibus alijs ab homine. 
+      Secun<lb ed="#R" n="38" break="no"/>do dico, quod in homine non necessario sequitur 
+      <lb ed="#R" n="39"/>passlo in appetitu interiori ex passione corporalis 
+      <lb ed="#R" n="40"/>appetitus, &amp; ratio est non propter immutationem 
+      <lb ed="#R" n="41"/>primae colligantiae, sed inter apprehensiuam 
+      exte<lb ed="#R" n="42" break="no"/>riorem, &amp; appetitum, quia necessario ex obiecto 
+      <lb ed="#R" n="43"/>exterius apprehenso sequitur passio in appetitu 
+      <lb ed="#R" n="44"/>complacito; nec propter mutationem; nec tertio 
+      <lb ed="#R" n="45"/>quod ad iudicium aestimatiuae sequatur passio in 
+      <lb ed="#R" n="46"/>appetitu interiori, quia aliter esset potentia 
+      libe<lb ed="#R" n="47" break="no"/>ra, sed est propter secundam connexionem, 
+      sci<lb ed="#R" n="48" break="no"/>licet inter sensum communem, &amp; aestimatiuam 
+      <lb ed="#R" n="49"/>Dico enim, quod quandocũque fit passio exterior, 
+      <lb ed="#R" n="50"/>&amp; recipitur ab imaginatione, vel phantasmate, 
+      po<lb ed="#R" n="51" break="no"/>test esse immutatio in iudicio aestimatiuae. 
+      Aesti<lb ed="#R" n="52" break="no"/>matiua enim discurrit, compellitque futurum 
+      bo<lb ed="#R" n="53" break="no"/>num cum praesenti malo, &amp; iudicat passionem 
+      ex<lb ed="#R" n="54" break="no"/>terius apprehensam esse bonam, &amp; tunc sequitur 
+      <lb ed="#R" n="55"/>necessario gaudium in corde, quod expresse patet 
+      <lb ed="#R" n="56"/>in matribus, in quibus iudicium propter gaudium 
+      <lb ed="#R" n="57"/>futurum non sequebatur passionem exteriorem 
+      <lb ed="#R" n="58"/>vnde dicebat beatus Laurentius in tormentis: Gra 
+      <lb ed="#R" n="59"/>tias tibi ago Domine, &amp;c. 
+    </p>
+               <p xml:id="olm8ij-g40863-d1e438">
+                  <lb ed="#R" n="60"/>Sic etiam apparet in temperanto, vbi ratione 
+      <lb ed="#R" n="61"/>aestimatiuae aliter aestimantis sequitur passio in 
+      <lb ed="#R" n="62"/>oppositum in corde. In brutis autem animalibus, 
+      <lb ed="#R" n="63"/>quia non discurrunt, nec apprehendunt sic futurum 
+      <lb ed="#R" n="64"/>bonum, vt iudicium aestimatiuae possit trahere ad 
+      <lb ed="#R" n="65"/>aliud, quam apprehensum, est exterius, non potest 
+      <lb ed="#R" n="66"/>sequi non conformis in appetitu interiori. 
+      </p>
+               <p xml:id="olm8ij-g40863-d1e457">
+                  <lb ed="#R" n="67"/>Sed hic est dubium, ostendo enim, quod isto modo 
+      <lb ed="#R" n="68"/>non possit immutari ordo, sed sensus communis, &amp; 
+      <!--0453.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>aestimatiua: Sic, si quod magis videtur inesse, non 
+      <lb ed="#R" n="70"/>inest, nec illud quod minus: sed est magis, quod 
+      <lb ed="#R" n="71"/>ordo sensus exterioris, &amp; iudicij, &amp; rationis 
+      pos<lb ed="#R" n="72" break="no"/>fit immutari, quam ordo sensus communis, &amp; 
+      aesti<lb ed="#R" n="73" break="no"/>matiuae: ex isto ordo non immutatur: ergo. 
+      Pro<lb ed="#R" n="74" break="no"/>batur minor sic: secundum enim Aristotelem lib. 
+      <lb ed="#R" n="75"/>6. Ethic. cap. 5. delectatio aufert iudicium 
+      ratio<lb ed="#R" n="76" break="no"/>nis: ergo a simili tantus potest esse dolor, vel 
+      de<lb ed="#R" n="77" break="no"/>lectatio, quod iudicium aestimatiuae absorbebitur, 
+      <lb ed="#R" n="78"/>sicut &amp; iudicium rationis. Dico ad hoc: Quod 
+      <lb ed="#R" n="79"/>iste modus est immutabilis: vnde si talis ordo 
+      po<lb ed="#R" n="80" break="no"/>test immutari, non necessario est colligantia, quod 
+      <lb ed="#R" n="81"/>si ponam motum oppositum in imaginatione, tunc 
+      <lb ed="#R" n="82"/>forte verum est. Sed dico, quod iudicium rationis 
+      <lb ed="#R" n="83"/>patitur dupliciter, vel distrahendo ad alia, vel 
+      di<lb ed="#R" n="84" break="no"/>strahendo in se. Modo non patitur distrahendo ad 
+      <lb ed="#R" n="85"/>alia, vt dolor potest esse ita fortis, quod poterit 
+      <lb ed="#R" n="86"/>distrahere, &amp; ad hoc determinare, cuius ratio est, 
+      <lb ed="#R" n="87"/>quia delectatio perficit operationem; &amp; ibi, quia 
+      <lb ed="#R" n="88"/>apprehensio sensitiua est maxima, &amp; ideo 
+      immu<lb ed="#R" n="89" break="no"/>tat phantasiam, &amp; aestimatiuam, &amp; sic voluntatem, 
+      <lb ed="#R" n="90"/>quia fortior impressio vincit. 
+      </p>
+               <p xml:id="olm8ij-g40863-d1e516">
+                  <lb ed="#R" n="91"/>Secundo modo potest distrahi ratio a se, eo quod 
+      <lb ed="#R" n="92"/>sensus intenditur propter delectationem: attensio 
+      <lb ed="#R" n="93"/>autem est in omnibus potentijs apprehensiuis, &amp; 
+      <lb ed="#R" n="94"/>sic accedit ad istam fortem attensionem, &amp; sic in 
+      <lb ed="#R" n="95"/>illo intenditur attensio animi, &amp; de ista attensione 
+      <lb ed="#R" n="96"/>est mirabile quid sit, scilicet attensio, quae 
+      copu<lb ed="#R" n="97" break="no"/>lat, &amp; non est solum voluntas. De hoc vere 
+      non<lb ed="#R" n="98" break="no"/>cognoscitur: videtur autem esse communis, vt 
+      quan<lb ed="#R" n="99" break="no"/>do attendis ad vnum, non attendis ad aliud: 
+      quan<lb ed="#R" n="100" break="no"/>do ergo est fortis passio, attendit fortiter, &amp; tunc 
+      <lb ed="#R" n="101"/>intenditur iudicium rationis, tunc dum sic est, 
+      ani<lb ed="#R" n="102" break="no"/>ma nostra rationalis per cognitionem, &amp; 
+      discur<lb ed="#R" n="103" break="no"/>sum, quantumcunque sit magna delectatio, potest 
+      <lb ed="#R" n="104"/>aduertere se ab illa. Quod probo, quia ex quo in 
+      <lb ed="#R" n="105"/>aliquo gradu aduertit respectum, poterit intendi ita, 
+      <lb ed="#R" n="106"/>quod totaliter aduertet, &amp; tunc aestimatiue, &amp; tunc 
+      <lb ed="#R" n="107"/>fit ita fortis, quod figatur in hoc, ex hoc est fixum 
+      <lb ed="#R" n="108"/>iudicium rationis alibi, &amp; ideo sanctus Laurentius 
+      <lb ed="#R" n="109"/>non sentiebat dolorem carnis, quia cor suum 
+      fixe<lb ed="#R" n="110" break="no"/>rat in gaudio cordis, quod vicit dolorem carnis, 
+      <lb ed="#R" n="111"/>vel delectationem, quod est maius alia 
+      delectatio<lb ed="#R" n="112" break="no"/>ne, quare est possibile, quod aliqui doleant 
+      in<lb ed="#R" n="113" break="no"/>carne summe, &amp; tamen non dolebunt in corde, &amp; 
+      <lb ed="#R" n="114"/>sic fuit de Christo.
+      </p>
+               <p xml:id="olm8ij-g40863-d1e571">
+                  <lb ed="#R" n="115"/>Ad Aristotelem, cum dicit, quod peruertitur 
+      <lb ed="#R" n="116"/>iudicium, dico, quod verum est: sed eius in anima, 
+      <lb ed="#R" n="117"/>quae potest vincere modo praedicto. Haec de 
+      con<lb ed="#R" n="118" break="no"/>comitantia animalium passionum ad 
+      corpora<lb ed="#R" n="119" break="no"/>les. 
+      </p>
+               <p xml:id="olm8ij-g40863-d1e584">
+                  <lb ed="#R" n="120"/>Nunc secundo dicendum est de concomitantia 
+      <lb ed="#R" n="121"/>actuum voluntatis ad passiones animales, hoc e st 
+      <lb ed="#R" n="122"/>actuum appetitus intellectiui, &amp; appetitus 
+      sensi<lb ed="#R" n="123" break="no"/>tiui intentioris. Hic suppono, quod actus 
+      volun<lb ed="#R" n="124" break="no"/>tatis sint cũformes actibus appetitus sensitiui, quia 
+      <lb ed="#R" n="125"/>sicut ponimus, quod amor est in voluntate, sic 
+      po<lb ed="#R" n="126" break="no"/>nimus amorem in appetitu: sicut etiam ponimus 
+      <lb ed="#R" n="127"/>iram in vno, sic &amp; in alio. Ponimus etiam spem 
+      <lb ed="#R" n="128"/>in vtroque, quia alias spes non esset virtus 
+      Theo<lb ed="#R" n="129" break="no"/>logica: eodem modo dico de audacia, ita quod 
+      <lb ed="#R" n="130"/>respectu istorum videntur esse actus consormes in 
+      <lb ed="#R" n="131"/>vtroque 
+      </p>
+            </div>
+            <div xml:id="olm8ij-g40863-Dd1e614">
+               <head xml:id="olm8ij-g40863-Hd1e616">Articulus 2</head>
+               <head xml:id="olm8ij-g40863-Hd1e618" type="question-title">
+        De concursu actuum voluntatis cum passionibus animalibus
+      </head>
+               <p xml:id="olm8ij-g40863-d1e621">
+      <!--0454.xml-->
+                  <pb ed="#R" n="452"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>ARTJCVLVS JJ. 
+      <lb ed="#R" n="2"/>De concursu actuum voluntatis cum passionibus 
+      <lb ed="#R" n="3"/>animalibus. 
+    </p>
+               <p xml:id="olm8ij-g40863-d1e637">
+                  <lb ed="#R" n="4"/>TVnc est hic dubium, an omnem talem actum in 
+      <lb ed="#R" n="5"/>Lanimali appetitu sequatur actus conformis in 
+      <lb ed="#R" n="6"/>voluntate. Secundo, an sit e conuerso, scilicet, 
+      <lb ed="#R" n="7"/>Vtrum cum voluntate aliquid diligitur, cor 
+      dili<lb ed="#R" n="8" break="no"/>gat illud idem, sicut de alijs passionibus. Hoc est 
+      <lb ed="#R" n="9"/>multum difficile, &amp; ad maiorem euidentiam 
+      pri<lb ed="#R" n="10" break="no"/>mo insto, &amp; arguo quod non. Primo sic: In homine 
+      <lb ed="#R" n="11"/>continente voluntas discordat ab appetitu 
+      sensiti<lb ed="#R" n="12" break="no"/>uo, nam sensitiua in homine totaliter vult 
+      delecta<lb ed="#R" n="13" break="no"/>tionem, quam voluntas refugit in temperato: 
+      er<lb ed="#R" n="14" break="no"/>go cum isti actus non solum sint difformes, sed 
+      op<lb ed="#R" n="15" break="no"/>positi, non videtur, quod semper concomitentur 
+      <lb ed="#R" n="16"/>actus voluntatis conformes actibus appetitus 
+      sen<lb ed="#R" n="17" break="no"/>sitiui. 
+      </p>
+               <p xml:id="olm8ij-g40863-d1e670">
+                  <lb ed="#R" n="18"/>Item, quando duo sequuntur tertium, vnum 
+      li<lb ed="#R" n="19" break="no"/>bere, aliud de necessitate, illud quod sequitur ad 
+      <lb ed="#R" n="20"/>illud libere, non necessario concomitatur illud, quod 
+      <lb ed="#R" n="21"/>sequitur ad idem de necessitate: sed ad 
+      apprehen<lb ed="#R" n="22" break="no"/>sionem aestimatiuae sequitur actus necessarius in 
+      <lb ed="#R" n="23"/>corde, vt supra est ostensum; ad idem vero 
+      sequi<lb ed="#R" n="24" break="no"/>tur actus voluntatis libere, eo quod voluntas non 
+      <lb ed="#R" n="25"/>necessitatur ab obiecto: ergo. Item: si semper cō- 
+      <lb ed="#R" n="26"/>comitaretur actum appetitus actus voluntatis, 
+      sem<lb ed="#R" n="27" break="no"/>per esset consensus, &amp; tunc quaelibet actio cordis 
+      <lb ed="#R" n="28"/>esset peccatum mortale. Item: Voluntas sequitur 
+      <lb ed="#R" n="29"/>iudicium rationis, appetitus voluntatis: semper ve 
+      <lb ed="#R" n="30"/>ro animalis sequitur iudicium sensus: sed ista 
+      iudi<lb ed="#R" n="31" break="no"/>cia simul non stant: ergo. 
+      </p>
+               <p xml:id="olm8ij-g40863-d1e704">
+                  <lb ed="#R" n="32"/>Contra est <ref xml:id="olm8ij-g40863-Rd1e708">Arist. 3. de ani. tex. 57.</ref> Ita trahit 
+      ap<lb ed="#R" n="33" break="no"/>petitus sensitiuus intellectum, sicut rota rotam 
+      <lb ed="#R" n="34"/>In continente est praesentatio rationis. Item 
+      se<lb ed="#R" n="35" break="no"/>cundo sic: Concordia inter actum voluntatis &amp; 
+      ap<lb ed="#R" n="36" break="no"/>petitus aut est, quia ipsum cor se habet obiectiue 
+      <lb ed="#R" n="37"/>respectu appetitus intellectui, &amp; hoc non; 
+      manife<lb ed="#R" n="38" break="no"/>stum est, quia sensus non praesentat obiectum 
+      vo<lb ed="#R" n="39" break="no"/>luntati, sed intellectus; aut quia cooperatur sibi 
+      or<lb ed="#R" n="40" break="no"/>ganice, &amp; hoc non, quia voluntas non est 
+      organi<lb ed="#R" n="41" break="no"/>ca: ergo. 
+      </p>
+               <p xml:id="olm8ij-g40863-d1e730">
+                  <lb ed="#R" n="42"/>Respondeo, dico de hoc, quod vltimo quae situm 
+      <lb ed="#R" n="43"/>est, quod nunquam est actio in voluntate, quin sit 
+      <lb ed="#R" n="44"/>conformis motus in appetitu sensitiuo: &amp; probo 
+      <lb ed="#R" n="45"/>primo, quod ita sit de facto per experientiam, 
+      nun<lb ed="#R" n="46" break="no"/>quam enim insurgit in voluntate amare, quin fiat 
+      <lb ed="#R" n="47"/>similis motus in appetitu, siue in corde. Accipio 
+      <lb ed="#R" n="48"/>ergo istam propositionem, quod nũquam est actus 
+      <lb ed="#R" n="49"/>voluntatis, quin sit immutatio in corde: sed nunquam 
+      <lb ed="#R" n="50"/>est immutatio in corde, quin sit actus appetitus: 
+      er<lb ed="#R" n="51" break="no"/>go. Minor patet per experientiam, vnde in 
+      dilectio<lb ed="#R" n="52" break="no"/>ne Dei fit immutatio cordis, qui vocatur amor cor 
+      <lb ed="#R" n="53"/>dis fouens. Sed dices: non est dolor in voluntate. 
+      <lb ed="#R" n="54"/>Dico, quod fallum est, nam alias non posset dolere 
+      <lb ed="#R" n="55"/>de peccato: est ergo dolor in voluntate, &amp; timor 
+      <lb ed="#R" n="56"/>non corporalis, scilicet actus: ergo necessario 
+      se<lb ed="#R" n="57" break="no"/>quitur in corde immutatio ex tali actu voluntatis; 
+      <lb ed="#R" n="58"/>vnde nunquam speras aliquid arduum, quin sit 
+      di<lb ed="#R" n="59" break="no"/>latatio cordis, &amp; sic de omnibus experimur, vnde 
+      <lb ed="#R" n="60"/>si vnus magnus amor facit magnam immutationem, 
+      <lb ed="#R" n="61"/>in quocumque gradu facit, quoniam si summum 
+      <lb ed="#R" n="62"/>es causa summi, &amp; simplex est causa simplicis ex 
+      <lb ed="#R" n="63"/>consideratione Philosophi: hoc est ergo ratione 
+      <lb ed="#R" n="64"/>colligationis potentiarum. Sed quia quandoque 
+      <lb ed="#R" n="65"/>non experimur, ideo tunc quasi non vocantur pas- 
+      <!--0454.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="66"/>siones: ergo patet maior. Probo nunc minorem: 
+      <lb ed="#R" n="67"/>quod scilicet nunquam est immutatio in corde, 
+      <lb ed="#R" n="68"/>quin supponatur actus appetitus, quaero enim 
+      <lb ed="#R" n="69"/>quid facit illam immutationem, non potest esse 
+      <lb ed="#R" n="70"/>actus voluntatis, quia est sperans: ergo facit illam 
+      <lb ed="#R" n="71"/>appetitus. Item, obiectum voluntatis est 
+      separa<lb ed="#R" n="72" break="no"/>tum, &amp; omnia talia: ergo. 
+      </p>
+               <p xml:id="olm8ij-g40863-d1e804">
+                  <lb ed="#R" n="73"/>Sed quod isti motus animales ita sequantur mo 
+      <lb ed="#R" n="74"/>tum voluntatis, quae est causa huius, quandoque 
+      <lb ed="#R" n="75"/>fuit mihi visum, quod hoc esset indistinctio 
+      poten<lb ed="#R" n="76" break="no"/>tiarum: videbatur enim mihi, quod in 
+      homine<lb ed="#R" n="77" break="no"/>non esset nisi vnus appetitus, vt scilicet inquantum 
+      <lb ed="#R" n="78"/>sequitur primam apprehensionem, dicitur 
+      appeti<lb ed="#R" n="79" break="no"/>tus sensitiuus; prout vero sequitur libramen 
+      aesti<lb ed="#R" n="80" break="no"/>matiuae, dicitur voluntas, &amp; haec videtur plane esse 
+      <lb ed="#R" n="81"/>intentio Arist. 1. Ethicorum cap. vltimo, qui dicit, 
+      <lb ed="#R" n="82"/>quod est rationale per essentiam &amp; 
+      participatio<lb ed="#R" n="83" break="no"/>nem: sed iste non distinguit. Vnde omnes virtutes 
+      <lb ed="#R" n="84"/>tales sunt in appetitu sensitiuo, vt temperantia, &amp; 
+      <lb ed="#R" n="85"/>huiusmodi, &amp; iustitia, non autem videtur 
+      distinxis<lb ed="#R" n="86" break="no"/>se alibi: ergo. 
+      </p>
+               <p xml:id="olm8ij-g40863-d1e837">
+                  <lb ed="#R" n="87"/>Item <ref xml:id="olm8ij-g40863-Rd1e841">3. de anima tex. 50.</ref> dicit, quod sola ratio 
+      <lb ed="#R" n="88"/>non mouet, vt continere. Item, appetitus in 
+      con<lb ed="#R" n="89" break="no"/>tinente non mouet, sed quando concordat vnum 
+      <lb ed="#R" n="90"/>cum alio: ergo vel loquitur de voluntate, vel de 
+      <lb ed="#R" n="91"/>intellectu; patet quod non intellectu, quia secundum 
+      <lb ed="#R" n="92"/>voluntatem quilibet mouetur: ergo. Ista voluntas 
+      <lb ed="#R" n="93"/>est in temperato ad oppositum. Item, esto 
+      particu<lb ed="#R" n="94" break="no"/>laris aestimatiua mouet appetitum: ergo 
+      sufficien<lb ed="#R" n="95" break="no"/>ter, ex quo sensitiuus videtur moueri a 
+      phantasma<lb ed="#R" n="96" break="no"/>te, videtur, quod sufficit vnus. Si dicit, quod in tertio 
+      <lb ed="#R" n="97"/>ponit appetitum, &amp; voluntatem. Dico, quod 
+      so<lb ed="#R" n="98" break="no"/>lum sunt diuersa vocabula. Et si dicit, quod 
+      appe<lb ed="#R" n="99" break="no"/>titus sensitiuus ducit voluntatem, sicut rota rotam, 
+      <lb ed="#R" n="100"/>dico, quod hoc est intelligendum de actibus 
+      eius<lb ed="#R" n="101" break="no"/>dem appetitus, quia actus trahit actum. vnde 
+      di<lb ed="#R" n="102" break="no"/>cit Commentator, quod idem eodem mouetur, in 
+      <lb ed="#R" n="103"/>quo est apprehensio futuri, vt quis vult nunc currere, 
+      <lb ed="#R" n="104"/>&amp; statim desinit. Cuius ratio est, quoniam 
+      aestima<lb ed="#R" n="105" break="no"/>tiua cogitante de nocumento futuro, de ponderan 
+      <lb ed="#R" n="106"/>te, &amp; c. statim sequitur in appetitu actus oppositus 
+      <lb ed="#R" n="107"/>necessario. Et si dicit, quod appetitus est 
+      vniuer<lb ed="#R" n="108" break="no"/>salium. Dico, quod nunquam mouet nisi 
+      particu<lb ed="#R" n="109" break="no"/>lare. Et dices, ad spiritualia, Dicam tibi similiter 
+      <lb ed="#R" n="110"/>de leone, qui eleuatur ad excellentiam, &amp; mulier 
+      <lb ed="#R" n="111"/>ad verecundiam de turpi: ergo non est hic, nisi vnum 
+      <lb ed="#R" n="112"/>difficile, quod in anima separata est appetitus, alias 
+      <lb ed="#R" n="113"/>non beatificatur: tunc existente eo in corde, vel 
+      <lb ed="#R" n="114"/>idem ille appetitus est idem cum appetitu 
+      corpo<lb ed="#R" n="115" break="no"/>reo, &amp; patet, quod non, quoniam nulla potentia 
+      <lb ed="#R" n="116"/>organica separatur. Posset tamen hoc argumentum 
+      <lb ed="#R" n="117"/>solui per simile, quoniam sicut in nobis potentia 
+      <lb ed="#R" n="118"/>motiua mouet, dum est in corpore organico. fic 
+      <lb ed="#R" n="119"/>etiam appetitus dum est in animali, mouet animal. 
+      <lb ed="#R" n="120"/>Tunc de ista potentia motiua quaeram, sicut 
+      quae<lb ed="#R" n="121" break="no"/>rebatur de appetitu, dum in corpore est anima, &amp; 
+      <lb ed="#R" n="122"/>dum separatur, pari ratione dicam de appetitu, &amp; 
+      <lb ed="#R" n="123"/>sic habeo propositum. Si dicit, quod est actu, 
+      quae<lb ed="#R" n="124" break="no"/>ro, quare anima, dum est in esse suo naturali, 
+      sepa<lb ed="#R" n="125" break="no"/>ratur ab isto actu, nam esse suum naturale est in 
+      cor<lb ed="#R" n="126" break="no"/>pore, &amp; tunc non videtur ratio, quare anima 
+      non<lb ed="#R" n="127" break="no"/>habet potentiam istam motiuam, absque illa quae 
+      <lb ed="#R" n="128"/>est in potentia organica. Si autem potentia 
+      mo<lb ed="#R" n="129" break="no"/>tiua organica, &amp; non organica sunt eadem 
+      poten<lb ed="#R" n="130" break="no"/>tia, non video quin idem possit dici de appetitu. 
+      <lb ed="#R" n="131"/>Item: Anima rationalis est in confinio formarum 
+      <lb ed="#R" n="132"/>intelligibilium, &amp; sensitiuarum: ergo pari 
+      ratio<lb ed="#R" n="133" break="no"/>ne &amp; potentiae ipsius erunt in eodem confinio: si- 
+      <!--0455.xml-->
+      <pb ed="#R" n="453"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>eut ergo anima ex vna parte est conformis animae 
+      <lb ed="#R" n="2"/>bruti, &amp; sic habet conformem potentiam, scilicet 
+      <lb ed="#R" n="3"/>visum, ex alia vero parte vt organice, prout aspicit 
+      <lb ed="#R" n="4"/>inferiora, &amp; sine organo, vt aspicit superiora, &amp; 
+      <lb ed="#R" n="5"/>hoc semper stante vna potentia, &amp; tunc quia 
+      pro<lb ed="#R" n="6" break="no"/>positum principale, scilicet de conuenientia actuum, 
+      <lb ed="#R" n="7"/>ex quo ponuntur intra eandem potentiam, nec 
+      vi<lb ed="#R" n="8" break="no"/>deo contra praedica multum magnam 
+      difficulta<lb ed="#R" n="9" break="no"/>tem: erit ergo hoc sic, quod quando voluntas est in 
+      <lb ed="#R" n="10"/>actu suo necessario, est intellectum esse in conformi 
+      <lb ed="#R" n="11"/>iudicio. Secundo, ad iudicium intellectus 
+      necessa<lb ed="#R" n="12" break="no"/>rio est iudicium conforme in aestimatiua; si enim 
+      <lb ed="#R" n="13"/>pono duas potentias, tunc necessario essent simul, 
+      <lb ed="#R" n="14"/>quod impossibile est esse iudicium intellectus, quin 
+      <lb ed="#R" n="15"/>sit conforme iudicium in aestimatiua, vel 
+      cogitati<lb ed="#R" n="16" break="no"/>ua: sed ex iudicio aestimatiuae sequitur actus 
+      con<lb ed="#R" n="17" break="no"/>formis in appetitu: ergo de primo ad vltimum, 
+      stan<lb ed="#R" n="18" break="no"/>te actu voluntatis necessario stat actus intellectus. 
+      <lb ed="#R" n="19"/>Dico, quod est quoddam iudicium sequens naturam rei, 
+      <lb ed="#R" n="20"/>vt sic vocetur isto modo iudicium, non quod actu 
+      <lb ed="#R" n="21"/>sit iudicatum: sed quia aptum natum est, vt natura 
+      <lb ed="#R" n="22"/>sua sit iudicari, &amp; contra tale iudicium se potest 
+      <lb ed="#R" n="23"/>moueri voluntas. 
+      </p>
+               <p xml:id="olm8ij-g40863-d1e1000">
+                  <lb ed="#R" n="24"/>Secundo, est aliud iudicium, quod non sequitur 
+      <lb ed="#R" n="25"/>naturam rerum, sed quia sic est iudicatum, &amp; tunc 
+      <lb ed="#R" n="26"/>necessario est conforme iudicium; vnde istud 
+      iudi<lb ed="#R" n="27" break="no"/>cium non est ex natura rei, sed ex determinatione 
+      <lb ed="#R" n="28"/>voluntatis, &amp; sic e conuerso voluntas determinata 
+      <lb ed="#R" n="29"/>ad vnum, necessario sequitur in intellectu actus 
+      <lb ed="#R" n="30"/>conformis, de ista materia dixi prolixius in 
+      secun<lb ed="#R" n="31" break="no"/>do. Sic ergo de illa via secundo dicit in secunda 
+      <lb ed="#R" n="32"/>colligatione, quod stante iudicio intellectus non 
+      <lb ed="#R" n="33"/>necessario est esse conforme iudicium in 
+      cogitati<lb ed="#R" n="34" break="no"/>ua, eo quod intellectus est separatus. Dico, quod 
+      <lb ed="#R" n="35"/>imo, &amp; ratio est, quia in intellectu est duplex actus, 
+      <lb ed="#R" n="36"/>vnus, qui est componere &amp; diuidere, alius qui est 
+      <lb ed="#R" n="37"/>simplicium intelligentia: sed in actu intellectus, 
+      <lb ed="#R" n="38"/>qui est simplicium intelligentia, intellectus indiget 
+      <lb ed="#R" n="39"/>imaginatione, quia impossibile est intelligere, nisi 
+      <lb ed="#R" n="40"/>sit imaginatio in actu suo, &amp; iterum 
+      impossibile<lb ed="#R" n="41" break="no"/>est, quod intellectus intelligat vnum, &amp; 
+      imagina<lb ed="#R" n="42" break="no"/>tio imaginetur oppositum. Sic dico de alia parte 
+      <lb ed="#R" n="43"/>intellectiua, quae componit, &amp; diuidit cum parte 
+      <lb ed="#R" n="44"/>phantasiae, quae componit, &amp; diuidit, cuius est 
+      co<lb ed="#R" n="45" break="no"/>gitatiua, &amp; ideo laeso illo membro laeditur iudicium 
+      <lb ed="#R" n="46"/>intellectus, quare actus intellectus, &amp; 
+      imaginatio<lb ed="#R" n="47" break="no"/>nis sunt simul, &amp; ideo in imaginatione, &amp; in 
+      cogi<lb ed="#R" n="48" break="no"/>tatiua sunt bene distinctiui. Bene autem imaginatiui 
+      <lb ed="#R" n="49"/>sunt bene acuti ad metaphysica. Et hinc fit, quod 
+      <lb ed="#R" n="50"/>homo dormiens non discurrit, quia organum 
+      co<lb ed="#R" n="51" break="no"/>gitatiuae est ligatum, quare ex omnibus his 
+      con<lb ed="#R" n="52" break="no"/>cluditur propositum. Est ergo in phantasmate 
+      <lb ed="#R" n="53"/>ponere tria per ordinem, scilicet, memoriam, &amp; 
+      <lb ed="#R" n="54"/>phantasiam, vel imaginatiuam &amp; cogitatiuam, ita 
+      <lb ed="#R" n="55"/>quod in actu simplici vtimur imaginatione, &amp; 
+      co<lb ed="#R" n="56" break="no"/>gitatione, in memorari autem ipsa memoria. &amp; 
+      <lb ed="#R" n="57"/>hoc sit dictum de isto articulo, vnde &amp; natura sic 
+      <lb ed="#R" n="58"/>prouidit, quod isti modi sic ligentur. 
+      </p>
+               <p xml:id="olm8ij-g40863-d1e1078">
+                  <lb ed="#R" n="59"/>Nunc quaero, quare non possunt esse motus in 
+      <lb ed="#R" n="60"/>appetitu animali sine voluntate. Dico, quod in 
+      <lb ed="#R" n="61"/>voluntate sunt conformes motus, vel actus 
+      moti<lb ed="#R" n="62" break="no"/>ui appetitus animalis, dupliciter, aut 
+      determina<lb ed="#R" n="63" break="no"/>te, &amp; quiete, &amp; vltimate; aut opposito modo, 
+      scili<lb ed="#R" n="64" break="no"/>cet non vltimate. Exemplum: amor potest esse in 
+      <lb ed="#R" n="65"/>intellectu vltimate, &amp; quiete, &amp; determinate, &amp; tunc 
+      <lb ed="#R" n="66"/>talis actus vocabitur sistere, &amp; consensus: secundo 
+      <lb ed="#R" n="67"/>potest esse alius actus, vt quando deliberat, &amp; 
+      mo<lb ed="#R" n="68" break="no"/>do vltra, modo non vltra vacillando, &amp; talem actum 
+      <!--0455.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>voluntatis vocant quidam velle simpliciter. Et non 
+      <lb ed="#R" n="70"/>differunt isti duo actus potentiae intensae &amp; 
+      remis<lb ed="#R" n="71" break="no"/>sae, seu potentiae vltimatae, &amp; non vltimatae, &amp; 
+      po<lb ed="#R" n="72" break="no"/>tentiae quietae, &amp; non quietae. Vnde quandiu 
+      vo<lb ed="#R" n="73" break="no"/>luntas est sic in actu non vltimato, &amp; inquieto, 
+      non<lb ed="#R" n="74" break="no"/>dum ponit aliquid in effectu, si est semper in 
+      suspem<lb ed="#R" n="75" break="no"/>so, &amp; tamen quantumcunque sit actus remissus, dum 
+      <lb ed="#R" n="76"/>tamen sic vltimate, &amp; quiete ponit voluntas in 
+      <lb ed="#R" n="77"/>effectu. Conformitas ergo est talis, quod quando 
+      <lb ed="#R" n="78"/>appetitus animalis est sub actibus non vltimate, su 
+      <lb ed="#R" n="79"/>spense &amp; inquiete, sic &amp; actus voluntatis. &amp; ratio 
+      <lb ed="#R" n="80"/>huius est, quia motum cordis praecedit iudicium 
+      <lb ed="#R" n="81"/>aestimatiuae, &amp; hoc praecedit iudicium rationis 
+      pra<lb ed="#R" n="82" break="no"/>cticae, vel rationis particularis, quia per 
+      composi<lb ed="#R" n="83" break="no"/>tionem &amp; diuisionem operatur intellectus, &amp; si 
+      in<lb ed="#R" n="84" break="no"/>tellectus se aduertit, &amp; aestimatio: quando 
+      volun<lb ed="#R" n="85" break="no"/>tas ergo est in inquietudine &amp; aestimatiua, &amp; 
+      sem<lb ed="#R" n="86" break="no"/>per in actibus talibus est commotio in corde: sed 
+      <lb ed="#R" n="87"/>in brutis quies actus est ex forti aestimatione: sed in 
+      <lb ed="#R" n="88"/>homine est ex ratione, nam ratio vtitur 
+      aestimati<lb ed="#R" n="89" break="no"/>ua sicut instrumento, ita quod semper ista duo se 
+      <lb ed="#R" n="90"/>consequuntur; ita quod secundum iudicium 
+      ratio<lb ed="#R" n="91" break="no"/>nis est quietatio, vbique est ex ratione, quod hic vo 
+      <lb ed="#R" n="92"/>luntas non sequitur iudicium ex natura rei, &amp; ideo 
+      <lb ed="#R" n="93"/>ex se potest facere determinationem in actu. Haec 
+      <lb ed="#R" n="94"/>quantum ad istud, quod passiones animales sequun 
+      <lb ed="#R" n="95"/>tur actus voluntatis. 
+      </p>
+               <p xml:id="olm8ij-g40863-d1e1166">
+                  <lb ed="#R" n="96"/>Ad primum in oppositum dico, quod appetitus 
+      <lb ed="#R" n="97"/>sensitiuus est suum quo, quia repugnat ad 
+      vtrum<lb ed="#R" n="98" break="no"/>que, vnde aestimatione nocumenti sequitur fuga, &amp; 
+      <lb ed="#R" n="99"/>ex opposito prosecutio, &amp; sic de voluntate: ergo 
+      <lb ed="#R" n="100"/>vtrumque trahit ad vnam partem: sed quando est 
+      <lb ed="#R" n="101"/>circa cor, dicit vnum, &amp; imaginatio aliud. 
+      </p>
+               <p xml:id="olm8ij-g40863-d1e1182">
+                  <lb ed="#R" n="102"/>Ad aliud, quod sequitur, quod omnes motus 
+      <lb ed="#R" n="103"/>sunt necessarij. Dico, quod primi motus non sunt 
+      <lb ed="#R" n="104"/>in voluntate nostra, nec quieti, nec inquieti: sed 
+      vl<lb ed="#R" n="105" break="no"/>timate sic consistere. Ad tertium dico, quod 
+      pri<lb ed="#R" n="106" break="no"/>mi motus non sunt peccatum. Ad aliud dico, quod 
+      <lb ed="#R" n="107"/>licet sint diuersa, sunt tamen colligata, &amp; ideo 
+      se<lb ed="#R" n="108" break="no"/>quitur conformis motus in vtroque. 
+      </p>
+               <p xml:id="olm8ij-g40863-d1e1200">
+                  <lb ed="#R" n="109"/>Ad aliud dico, quod idem appetitus mouetur ad 
+      <lb ed="#R" n="110"/>opposita. Ad aliud dico, quod hoc est, quia 
+      colli<lb ed="#R" n="111" break="no"/>gantur in conformi iudicio: sic nunquam intelligis 
+      <lb ed="#R" n="112"/>nisi phantasieris, &amp; sic nunquam vis aliquid volun 
+      <lb ed="#R" n="113"/>tate, quin velis idem appetitu sensitiuo, &amp; ex hoc 
+      <lb ed="#R" n="114"/>patet in beatis. quod quia beati gaudebunt in 
+      ap<lb ed="#R" n="115" break="no"/>prehensione diu inae essentiae, quod quidem quoniam 
+      <lb ed="#R" n="116"/>est in multis, &amp; abstracta ab omni materia, ideo 
+      <lb ed="#R" n="117"/>non attingit ad cognitionem, &amp; ideo solum in 
+      vo<lb ed="#R" n="118" break="no"/>luntate erit actus in beatis. 
+      </p>
+               <p xml:id="olm8ij-g40863-d1e1224">
+                  <lb ed="#R" n="119"/>Item, illud gaudium attingit, aut quia transit, 
+      <lb ed="#R" n="120"/>&amp; non, aut quia facit obiectum praesens, &amp; non 
+      <lb ed="#R" n="121"/>quia non attingit illud, &amp; ideo gaudium fruitionis 
+      <lb ed="#R" n="122"/>nunquam dilatauit cor Christi, quia mouebatur 
+      <lb ed="#R" n="123"/>ad actum fruitionis; sed concursu actus potentiae 
+      <lb ed="#R" n="124"/>aestimatiuae. 
+      </p>
+               <p xml:id="olm8ij-g40863-d1e1240">
+                  <lb ed="#R" n="125"/>De Secundo Articulo, qui est amor fortis, &amp; quae 
+      <lb ed="#R" n="126"/>passiones ipsum concomitentur, quia amor est 
+      dila<lb ed="#R" n="127" break="no"/>tatio cordis, &amp; odium rarefactio, &amp; quomodo 
+      conse<lb ed="#R" n="128" break="no"/>quitur desiderium, quia est quasi vacua, &amp; quomodo 
+      <lb ed="#R" n="129"/>detestatio non est nisi expressio obiecti, &amp; 
+      quomo<lb ed="#R" n="130" break="no"/>do delectatio non est nisi dilatatio ambiens, &amp; tri- 
+      </p>
+               <p xml:id="olm8ij-g40863-d1e1256">
+                  <lb ed="#R" n="131"/>stitia est coangustatio opposita, de omnibus 
+      huius<lb ed="#R" n="132" break="no"/>modi esset videndum, &amp; de effectibus istarum 
+      pas<lb ed="#R" n="133" break="no"/>sionum, quomodo aliquas consequitur sanitas, 
+      <lb ed="#R" n="134"/>quasdam languor: sic etiam de passionibus 
+      irasci<lb ed="#R" n="135" break="no"/>bilis, cuius passiones sunt assurrectio fortis, &amp; non 
+      <lb ed="#R" n="136"/>alia. vnde ira est surrectio, quod audacia est con- 
+      <!--0456.xml-->
+      <pb ed="#R" n="454"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>surrectio, &amp; aggressio, &amp; quomodo timor est 
+      ob<lb ed="#R" n="2" break="no"/>ruitio, &amp; destructio, ac oppositum consurrectionis, 
+      <lb ed="#R" n="3"/>&amp; aggressionis, esto enim quod cadat, adhuc potest 
+      <lb ed="#R" n="4"/>esse desiderium: sed timor, qui est obruitio cum 
+      <lb ed="#R" n="5"/>cordis contritione claudit, Sed quomodo ira est, &amp; 
+      <lb ed="#R" n="6"/>quomodo spei correspondet alteratio cordis, quae 
+      <lb ed="#R" n="7"/>videtur infrigidatio, ira fit ex spiritibus 
+      multipli<lb ed="#R" n="8" break="no"/>catis confortantibus cor, postea sequitur audacia 
+      <lb ed="#R" n="9"/>&amp; spes. Sed spes est cum quadam appetitione, quae 
+      <lb ed="#R" n="10"/>est rarefactio: sed audacia cum contritione cordis, 
+      <lb ed="#R" n="11"/>quasi dicat alterationem, &amp; appetitum, siue consur 
+      <lb ed="#R" n="12"/>rectionem, &amp; aggressionem; Oppositum vtriusque 
+      <lb ed="#R" n="13"/>defectus est cordis, vnde post vnum digestum fit cor 
+      <lb ed="#R" n="14"/>marcidum non stans, &amp; ista contritio 
+      correspon<lb ed="#R" n="15" break="no"/>det motui intentionali, &amp; est cum quadam 
+      aper<lb ed="#R" n="16" break="no"/>tione, &amp; tunc sequitur desperatio, quia semper 
+      <lb ed="#R" n="17"/>facit locum rei. In timore vero est cor marcidius 
+      <lb ed="#R" n="18"/>cum clausione. Irae vero correspondet ebullitio, 
+      <lb ed="#R" n="19"/>vbi supponitur violentia, cum facit viam, sic de 
+      ira<lb ed="#R" n="20" break="no"/>to, &amp; ira conformis irae motus in corde, scilicet 
+      <lb ed="#R" n="21"/>quaedam ebullitio, siue insurrecttio, quae facit sibi 
+      <lb ed="#R" n="22"/>viam: &amp; omnia ista possunt probari. Nam amor 
+      <lb ed="#R" n="23"/>est fluxus cordis ad amatum: oppositum est 
+      stri<lb ed="#R" n="24" break="no"/>ctio cordis, &amp; viget per frigidum &amp; siccum. Sic 
+      <lb ed="#R" n="25"/>etiam de spe, quia multiplicatio spirituum facit bo 
+      <lb ed="#R" n="26"/>nam spem: sed istarum passionum quaedam sunt mul 
+      <lb ed="#R" n="27"/>tum cuidentes, vt passio amoris; sed passio spei, &amp; 
+      <lb ed="#R" n="28"/>audaciae, non sic. Vnde quando confortatur, quasi 
+      <lb ed="#R" n="29"/>trahitur ad dispositionem naturalem congruam. 
+      <lb ed="#R" n="30"/>Item, de prioritate, quod ira includit passionem, 
+      <lb ed="#R" n="31"/>&amp; sic de caeteris quinque huiusmodi. 
+      </p>
+            </div>
+            <div xml:id="olm8ij-g40863-Dd1e1347">
+               <head xml:id="olm8ij-g40863-Hd1e1349">Articulus 3</head>
+               <head xml:id="olm8ij-g40863-Hd1e1351" type="question-title">
+        Utrum in Christo fuerint verae passiones, et 
+        sic verus dolor
+      </head>
+               <p xml:id="olm8ij-g40863-d1e1354">
+                  <lb ed="#R" n="32"/>ARTJCVLVS III. 
+      <lb ed="#R" n="33"/>Vtrum in Christo fuerint verae passiones, &amp; 
+      <lb ed="#R" n="34"/>sic verus dolor. 
+      </p>
+               <p xml:id="olm8ij-g40863-d1e1363">
+                  <lb ed="#R" n="35"/>NVnc de tertio articulo principali, scilicet de 
+      <lb ed="#R" n="36"/>Jistis passionibus in Christo, dico, quod 
+      passio<lb ed="#R" n="37" break="no"/>nes exterioris appetitus aliquae vere fuerunt 
+      in<lb ed="#R" n="38" break="no"/>Christo, vt verus dolor fuit in Christo, eo quod 
+      <lb ed="#R" n="39"/>eius complexio fuit delicatissima, &amp; organum 
+      <lb ed="#R" n="40"/>appetitus exterioris, quae est complantatio in 
+      car<lb ed="#R" n="41" break="no"/>ne. Delectatione vero consequente praedictum 
+      <lb ed="#R" n="42"/>appetitum, Vtrum fuerit in Christo, est 
+      distinguen<lb ed="#R" n="43" break="no"/>dum, quod quaedam sunt delectationes naturales, 
+      <lb ed="#R" n="44"/>quaedam innaturales. Naturalium quaedam 
+      con<lb ed="#R" n="45" break="no"/>sequuntur conseruationem indiuidui, quaedam con 
+      <lb ed="#R" n="46"/>ser uationem speciei. De primis, vt sunt cibus &amp; po 
+      <lb ed="#R" n="47"/>tus, dico, quod plus delectari in cibo, quam non exigit, 
+      <lb ed="#R" n="48"/>tales etiam in Christo non fuerunt. De 
+      delectationi<lb ed="#R" n="49" break="no"/>bus vero appetitus interioris dicendum est, quod 
+      <lb ed="#R" n="50"/>quaedam sunt fomenta malorum, quaedam sunt 
+      for<lb ed="#R" n="51" break="no"/>te bonae, sed supponunt malum; quaedam sunt cum 
+      <lb ed="#R" n="52"/>voluptate bonae, quaedam vero sunt indifferentes. 
+      <lb ed="#R" n="53"/>De primis sunt inuidia, &amp; huiusmodi, &amp; tales non 
+      <lb ed="#R" n="54"/>fuerunt in Christo. De tertio alio modo, vt sunt 
+      <lb ed="#R" n="55"/>Nemesis &amp; zelus, dico, quod tales fuerunt in 
+      Chri<lb ed="#R" n="56" break="no"/>sto: Similiter de quarto modo, vt tristitia. Sed hic 
+      <lb ed="#R" n="57"/>attende, quod omnes tales passiones, quae fuerunt 
+      <lb ed="#R" n="58"/>in Christo, fuerunt non vt praeuenientes rationem, 
+      <lb ed="#R" n="59"/>sed vt sequentes, quoniam in potestate sua erat, 
+      qui<lb ed="#R" n="60" break="no"/>bus tangeretur, nec fuerunt illi vt resistentes, sed vt 
+      <lb ed="#R" n="61"/>obedientes, vt quando iudicabat bonum, 
+      desidera<lb ed="#R" n="62" break="no"/>ret, tristaretur, gauderet, &amp; huiusmodi: &amp; hoc de 
+      <lb ed="#R" n="63"/>totali quaestione. Et conformando me communi opi 
+      <lb ed="#R" n="64"/>nioni, quod appetitus in corde existens sit alius ab 
+      <lb ed="#R" n="65"/>appetitu intellectuali, oportet autem saluare 
+      col<lb ed="#R" n="66" break="no"/>ligantiam eorum actuum. Dico ergo, quod ratio 
+      <!--0456.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="67"/>huius colligationis est colligantia obiectorum, &amp; 
+      <lb ed="#R" n="68"/>principiorum motiuorum, quae simul colligantiam 
+      <lb ed="#R" n="69"/>quandam habent, quod probo. Arguo enim sic: 
+      <lb ed="#R" n="70"/>Actiuo sufficienter applicato ad appetitum 
+      sensiti<lb ed="#R" n="71" break="no"/>uum necessario sequitur actus conformis in illo: sed. 
+      <lb ed="#R" n="72"/>ad actum voluntatis oportet necessario obiectum es 
+      <lb ed="#R" n="73"/>se applicatum cum sensitiuo: ergo. Maior patet: sed 
+      <lb ed="#R" n="74"/>probo minorem sic: non dico, quod ad actum 
+      vo<lb ed="#R" n="75" break="no"/>luntatis sequitur motio in corde, quia quod est 
+      spi<lb ed="#R" n="76" break="no"/>rituale, non agit transmutando materiam: &amp; esto, 
+      <lb ed="#R" n="77"/>quod sic iste actus non est transmutabilis, nisi ab 
+      <lb ed="#R" n="78"/>obiecto, nec per colligantiam, quia aut ille actus 
+      <lb ed="#R" n="79"/>voluntatis venit hic, &amp; non; aut causat hic aliquid, 
+      <lb ed="#R" n="80"/>&amp; non. 
+      </p>
+               <p xml:id="olm8ij-g40863-d1e1470">
+                  <lb ed="#R" n="81"/>Ad argumenta in oppositum respondeo. Ad 
+      pri<lb ed="#R" n="82" break="no"/>mum dico, quod in Christo fuit verus dolor. Ad 
+      <lb ed="#R" n="83"/>illatiuum nunc dico, quod non fuit intentio sua 
+      <lb ed="#R" n="84"/>negare, quin fuerit in Christo verus dolor: sed 
+      pro<lb ed="#R" n="85" break="no"/>pter conditionem aliquam, scilicet, quod non fuit 
+      <lb ed="#R" n="86"/>talis dolor necessarius, eo quod potuit aliter 
+      sa<lb ed="#R" n="87" break="no"/>cere 
+      </p>
+               <p xml:id="olm8ij-g40863-d1e1489">
+                  <lb ed="#R" n="88"/>Ad aliud dico, quod in Christo non fuit 
+      turbu<lb ed="#R" n="89" break="no"/>lentia, sed tristitia. Turbulentia enim dicitur, vt 
+      <lb ed="#R" n="90"/>deuiat a ratione, sed tristitia potest esse ex recto 
+      iu<lb ed="#R" n="91" break="no"/>dicio rationis. De timore autem dico, quod 
+      ha<lb ed="#R" n="92" break="no"/>bendo ordinem ad Deitatem, verum dicit. non 
+      de<lb ed="#R" n="93" break="no"/>appetitu sensitiuo, quia vt homo, non effugit 
+      ma<lb ed="#R" n="94" break="no"/>nus crucifigentium. 
+      </p>
+               <p xml:id="olm8ij-g40863-d1e1507">
+                  <lb ed="#R" n="95"/>Ad aliud dico, quod &amp; forte Paulus timuit, sed 
+      <lb ed="#R" n="96"/>appetitus sensitiuus erat forte ita consortatus, quod 
+      <lb ed="#R" n="97"/>&amp;c. &amp; sic fuit in Christo. 
+      </p>
+               <p xml:id="olm8ij-g40863-d1e1516">
+                  <lb ed="#R" n="98"/>Ad aliud dico, quod verum est, vt praeuenit rem, 
+      <lb ed="#R" n="99"/>non autem vt sequitur. 
+      </p>
+               <p xml:id="olm8ij-g40863-d1e1523">
+                  <lb ed="#R" n="100"/>Ad aliud dico, quod verum est immoderate, &amp; 
+      <lb ed="#R" n="101"/>hic attende de concomitatione istorum. 
+      Dixe<lb ed="#R" n="102" break="no"/>runt namque Stoici, quod in nullam animam 
+      ca<lb ed="#R" n="103" break="no"/>dit passio, idest in sapientem, verum dicunt, quod 
+      <lb ed="#R" n="104"/>vt praeueniunt, bene cadunt: sed vt sequuntur, &amp; 
+      <lb ed="#R" n="105"/>non subuertunt, sed vt obediunt, fuerunt in Christo- 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

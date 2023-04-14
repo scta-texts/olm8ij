@@ -1,0 +1,1045 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-04-14">April 14, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b3">Roma 1605, Book 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-14" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="486"/>
+            <cb ed="#R" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-g52840"><!-- l3-d23q2 -->
+            <head xml:id="olm8ij-g52840-Hd1e101">Quaestio 2</head>
+            <p xml:id="olm8ij-g52840-d1e103">
+               <lb ed="#R" n="100"/>Quaestio JJ. 
+      <lb ed="#R" n="101"/>DE IRASCJBILJ, ET 
+      <lb ed="#R" n="102"/>CONCVPJSCJBJLJ. 
+      </p>
+            <p xml:id="olm8ij-g52840-d1e112">
+               <lb ed="#R" n="103"/>Vtrum in appetitu naturali Jrascibilis, &amp; 
+      Con<lb ed="#R" n="104" break="no"/>cupiscibilis distinguantur, vt diuersae 
+      po<lb ed="#R" n="105" break="no"/>tentiae? Arguitur quod sic: Conueniens, &amp; 
+      <lb ed="#R" n="106"/>arduum sunt diuersae rationes obiectorum: 
+      <lb ed="#R" n="107"/>sed ex diuersitate obiectorum formalium 
+      <lb ed="#R" n="108"/>arguitur diuersitas potentiarum: ergo. 
+      <lb ed="#R" n="109"/>Confirmatur, quia in appetitu sensitiuo sic 
+      <lb ed="#R" n="110"/>distinguuntur: per simile ergo in 
+      intelle<lb ed="#R" n="111" break="no"/>ctiuo. 
+    </p>
+            <p xml:id="olm8ij-g52840-d1e134">
+               <lb ed="#R" n="112"/>Contra: Voluntas est potentia altior, quam 
+      <lb ed="#R" n="113"/>sensitiua: sed quod est dispersum in 
+      infe<lb ed="#R" n="114" break="no"/>rioribus, est vnitum in superioribus: ergo. 
+      <lb ed="#R" n="115"/>Respondeo in ista quaestione, dico tria: 
+      <lb ed="#R" n="116"/>Primo, quod concupiscibilis, &amp; 
+      irascibi<lb ed="#R" n="117" break="no"/>bilis distinguuntur. Secundo penes quid 
+      <lb ed="#R" n="118"/>distinguuntur. Tertio, vbi distinguuntur, 
+      <lb ed="#R" n="119"/>Vtrum in appetitu sensitiuo, vel rationali. 
+      <lb ed="#R" n="120"/>Quarto: Vtrum distinguantur sicut 
+      diuer<lb ed="#R" n="121" break="no"/>sae potentiae.
+    </p>
+            <p xml:id="olm8ij-g52840-d1e158">
+               <lb ed="#R" n="122"/>1 Irascibilis, &amp; concupiscibilis an distinguantur. 
+      <lb ed="#R" n="123"/>2 Penes quid distinguantur irascibilis, &amp; 
+      con<lb ed="#R" n="124" break="no"/>cupiscibilis. 
+      <!--0489.xml-->
+      <pb ed="#R" n="487"/>
+               <cb ed="#R" n="a"/>
+               <lb ed="#R" n="1"/>3 Vbi distinguantur irascibilis, &amp; 
+      concupi<lb ed="#R" n="2" break="no"/>scibilis. 
+      </p>
+            <div xml:id="olm8ij-g52840-Dd1e179">
+               <head xml:id="olm8ij-g52840-Hd1e181">Articulus 1</head>
+               <head xml:id="olm8ij-g52840-Hd1e183" type="question-title">
+        Irascibilis, et concupiscibilis an distinguantur
+      </head>
+               <p xml:id="olm8ij-g52840-d1e186">
+                  <lb ed="#R" n="3"/>ARTJCVLVS J. 
+      <lb ed="#R" n="4"/>Irascibilis, &amp; concupiscibilis an distinguantur. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e193">
+                  <lb ed="#R" n="5"/>CIRCA primum, dico, quod 
+      <lb ed="#R" n="6"/>distinguuntur, quod sic 
+      de<lb ed="#R" n="7" break="no"/>claro, quia omnes Doct. 
+      di<lb ed="#R" n="8" break="no"/>cunt irascibilem, &amp; 
+      con<lb ed="#R" n="9" break="no"/>cupiscibilem distingui 
+      ali<lb ed="#R" n="10" break="no"/>quo modo. Ita Auicen. 6. 
+      <lb ed="#R" n="11"/>naturalium parte 4. dicit: 
+      <lb ed="#R" n="12"/>-huius autem virtutis, idest, 
+      <lb ed="#R" n="13"/>voluntatis, rami sunt irascibilis, cuius est vincere, 
+      <lb ed="#R" n="14"/>&amp; concupiscibilis, quae concupiscit. Item Damasc. 
+      <lb ed="#R" n="15"/>lib. 2. cap. 12. &amp; sumit ex verbi Philosophi 4. Ethic. 
+      <lb ed="#R" n="16"/>in rationali autem sunt duae partes, scilicet 
+      inobe<lb ed="#R" n="17" break="no"/>diens rationi, &amp; obediens rationi, scilicet 
+      volun<lb ed="#R" n="18" break="no"/>tas, quae diuiditur in concupiscentiam, &amp; iram 
+      <lb ed="#R" n="19"/>Item Augustinus de spiritu, &amp; anima cap. 3. loquens 
+      <lb ed="#R" n="20"/>de concupiscibili, &amp; irascibili: dicit sic: Circa 
+      <lb ed="#R" n="21"/>has potentias tota ratio animae consistit in 
+      ratio<lb ed="#R" n="22" break="no"/>nabilitate, &amp; concupiscibilitate, &amp; irascibilitate. 
+      <lb ed="#R" n="23"/>Hoc de primo articulo. 
+      </p>
+            </div>
+            <div xml:id="olm8ij-g52840-Dd1e238">
+               <head xml:id="olm8ij-g52840-Hd1e240">Articulus 2</head>
+               <head xml:id="olm8ij-g52840-Hd1e242" type="question-title">
+          Penes quid distinguantur Irascibilis, et 
+          Concupiscibilis
+        </head>
+               <p xml:id="olm8ij-g52840-d1e245">
+                  <lb ed="#R" n="24"/>ARTJCVLVS JI. 
+      <lb ed="#R" n="25"/>Penes quid distinguantur Irascibilis, &amp; 
+      Con<lb ed="#R" n="26" break="no"/>cupiscibilis. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e254">
+                  <lb ed="#R" n="27"/>CIrca secundum penes quid distinguantur, hic 
+      <lb ed="#R" n="28"/>primo pono quinque modos dicendi. 
+      Secun<lb ed="#R" n="29" break="no"/>do ponam, quod mihi videtur. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e263">
+                  <lb ed="#R" n="30"/>Primus ergo modus est, quod irascibilis, &amp; 
+      con<lb ed="#R" n="31" break="no"/>cupiscibilis distinguuntur per inclinari ad 
+      conue<lb ed="#R" n="32" break="no"/>niens, &amp; resurgere, vel impugnare impediens. 
+      <lb ed="#R" n="33"/>Quod autem haec sic bene assignata, probatur, quia 
+      <lb ed="#R" n="34"/>perfectio consequens formam naturalem, debet 
+      <lb ed="#R" n="35"/>consequi formam animalem, &amp; vitalem: imo 
+      mul<lb ed="#R" n="36" break="no"/>to plus sit perfectior: sed in forma naturali 
+      inueni<lb ed="#R" n="37" break="no"/>tur alienatio, &amp; tendentia in conueniens, &amp; 
+      repu<lb ed="#R" n="38" break="no"/>gnantia in prohibens: ergo. Maior probatur, quia 
+      <lb ed="#R" n="39"/>ignis per eandem virtutem ascendit, &amp; repugnat 
+      <lb ed="#R" n="40"/>prohibenti. Et confirmatur hoc per Auicen. qui 
+      <lb ed="#R" n="41"/>plane hoc vult, vbi supra. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e293">
+                  <lb ed="#R" n="42"/>Item dicitur communiter, quod irascibilis estt 
+      <lb ed="#R" n="43"/>propugnatrix concupiscibilis. Item dicitur, quod 
+      <lb ed="#R" n="44"/>passiones irascibilis surgunt de passionibus concu 
+      <lb ed="#R" n="45"/>piscibilis. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e304">
+                  <lb ed="#R" n="46"/>Contra: Haec positio deficit in conclusione 
+      prin<lb ed="#R" n="47" break="no"/>cipali, &amp; ratione. Quod in conclusione probo sic. 
+      <lb ed="#R" n="48"/>Sicut se habet forma naturalis ad haec duo, scilicet 
+      <lb ed="#R" n="49"/>inclinari, &amp; repellere, sic anima: sed per eandem 
+      <lb ed="#R" n="50"/>vim, &amp; actum habet forma naturalis inclinari, &amp; 
+      <lb ed="#R" n="51"/>prohibenti repugnare, sicut patet de lapide 
+      gran<lb ed="#R" n="52" break="no"/>di descendente: eadem enim grauitate descendit, 
+      <lb ed="#R" n="53"/>&amp; repellit omnem obicem, eodem etiam motu: 
+      er<lb ed="#R" n="54" break="no"/>go multo fortius anima. Et confirmatur, quia quod 
+      <lb ed="#R" n="55"/>est dispersum in inferioribus, vnitur in 
+      superiori<lb ed="#R" n="56" break="no"/>bus: si ergo ibi est vnitum, multo magis hic. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e330">
+                  <lb ed="#R" n="57"/>Item contra conclusionem: Jlla non est 
+      differen<lb ed="#R" n="58" break="no"/>tia constitutiua alicuius naturae diuisiua, quae non 
+      <lb ed="#R" n="59"/>adaequat omne indiuiduum illius speciei, &amp; ratio 
+      <lb ed="#R" n="60"/>est, quia complet illam totam: sed refugere 
+      non<lb ed="#R" n="61" break="no"/>dietiut de ee cauu ira- 
+      <!--0489.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="62"/>scibilis, &amp; non repugnare formaliter. Ista ergo 
+      <lb ed="#R" n="63"/>opinio habet imaginationem, quae oritur ex vno, 
+      <lb ed="#R" n="64"/>vbi vere est deceptio, scilicet, quod actus 
+      adae<lb ed="#R" n="65" break="no"/>quatus Jrascibilis sit irasci, quod non est verum. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e356">
+                  <lb ed="#R" n="66"/>Secundus modus ponendi, quod distinguuntur pe 
+      <lb ed="#R" n="67"/>nes diuersa obiecta, quia concupiscibilis aspicit 
+      bo<lb ed="#R" n="68" break="no"/>num simpliciter: irascibilis vero bonum arduum, 
+      <lb ed="#R" n="69"/>quod patet ex communi dicto, quia dicimus, quod 
+      <lb ed="#R" n="70"/>ise irascitur circa arduum, &amp; sic secundum istos 
+      <lb ed="#R" n="71"/>penes bonum simpliciter, &amp; penes bonum arduum, 
+      <lb ed="#R" n="72"/>hae duae potentiae differunt. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e374">
+                  <lb ed="#R" n="73"/>Ista est communis opinio, &amp; ideo appropinquat 
+      <lb ed="#R" n="74"/>magis ad verum, quam dicam superius. Sed 
+      ad<lb ed="#R" n="75" break="no"/>huc non sufficit, &amp; sumo propositionem istam, quo 
+      <lb ed="#R" n="76"/>duae differentiae diuidentes aliquod commune non 
+      <lb ed="#R" n="77"/>debent inueniri alternatim vna in specie alterius, 
+      <lb ed="#R" n="78"/>circa aliam: sed concupiscibilis sertur in arduum, 
+      <lb ed="#R" n="79"/>&amp; in malum simplex non in arduum: ergo. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e392">
+                  <lb ed="#R" n="80"/>Item declaro: Quoniam concupiscere est propter 
+      <lb ed="#R" n="81"/>beatitudinem, quae est ad arduum. Item probo per 
+      <lb ed="#R" n="82"/>rationem, quia ad eandem potentiam pertinet 
+      fer<lb ed="#R" n="83" break="no"/>ri in arduum simpliciter, &amp; in quocunque gradu, 
+      <lb ed="#R" n="84"/>sicut patet de ente, &amp; particulari ente respectu 
+      in<lb ed="#R" n="85" break="no"/>tellectus: ita quod non oportet potentiam propter 
+      <lb ed="#R" n="86"/>hoc innouare: sed per te ad naturam 
+      concupisci<lb ed="#R" n="87" break="no"/>bilis pertinet ferri in bonum simpliciter: ergo &amp; 
+      <lb ed="#R" n="88"/>ad arduum. Dico, quod arduum non est gradus bo 
+      <lb ed="#R" n="89"/>nitatis, sed est solū difficile bonum, quod pro eodē 
+      <lb ed="#R" n="90"/>habeo, quia quantuncũque sit difficilis beatitudo, 
+      <lb ed="#R" n="91"/>concupisco tamen eam mihi. Item: Potentia, quae 
+      <lb ed="#R" n="92"/>potest in aliquem actum specificum, potest in 
+      om<lb ed="#R" n="93" break="no"/>nem alium actum eiusdem rationis: sed 
+      concupi<lb ed="#R" n="94" break="no"/>scere bonum arduum non est alterius rationis, quam 
+      <lb ed="#R" n="95"/>concupiscere bonum simpliciter: ergo. Probo idem 
+      <lb ed="#R" n="96"/>de actu irascibilis, &amp; opposito, quod malum non 
+      <lb ed="#R" n="97"/>arduum, vel bonum non arduum est respectu irasci 
+      <lb ed="#R" n="98"/>bilis, vt quando irasceris respectu muscae 
+      volan<lb ed="#R" n="99" break="no"/>tis, &amp; patet de Iona propheta respectu hederae. 
+      <lb ed="#R" n="100"/>Dico, quod imo tale malum, circa quod irascor, 
+      <lb ed="#R" n="101"/>quantumcunque sit, est mihi arduum. Dico, quod 
+      <lb ed="#R" n="102"/>hoc non est malum, quod patet, quia video, quod 
+      <lb ed="#R" n="103"/>de facili possum habere victoriam, si volo: ergo. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e448">
+                  <lb ed="#R" n="104"/>Item: eodem modo timor est multo maius 
+      ma<lb ed="#R" n="105" break="no"/>lum: illa ergo distinctio non est absolute vera. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e455">
+                  <lb ed="#R" n="106"/>Tertius modus dicendi est, quod distinguitur 
+      <lb ed="#R" n="107"/>penes intensum, &amp; remissum, ita quod 
+      imaginan<lb ed="#R" n="108" break="no"/>tur isti, quod actus irascibilis non sit, nisi 
+      inten<lb ed="#R" n="109" break="no"/>sus actus concupiscibilis vehementer. Quod 
+      de<lb ed="#R" n="110" break="no"/>claratur, quia quando vehementer speras, tunc est 
+      <lb ed="#R" n="111"/>spes, non autem quando lente speras; similiter 
+      ti<lb ed="#R" n="112" break="no"/>mor quando est vehemens est irascibilis. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e473">
+                  <lb ed="#R" n="113"/>Contra: Magis, &amp; minus intentum non 
+      diuer<lb ed="#R" n="114" break="no"/>sificant speciem 1. Polit. sed spes, &amp; desiderium 
+      bo<lb ed="#R" n="115" break="no"/>ni sunt diuersa specie: ergo. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e482">
+                  <lb ed="#R" n="116"/>Item, quod spes non sit vehemens desiderium 
+      pro<lb ed="#R" n="117" break="no"/>bo, quia quando aliquid potest esse cum opposito ali 
+      <lb ed="#R" n="118"/>cuius, illud non est idem cum illo: sed desiderium 
+      <lb ed="#R" n="119"/>intensum est cum desperatione: ergo desiderium 
+      <lb ed="#R" n="120"/>intensum non est idem cum spe. Item, idem dico de 
+      <lb ed="#R" n="121"/>irascibili. Illa enim non sunt idem, quae possunt 
+      <lb ed="#R" n="122"/>separari, sed ab ira potest separari desiderium 
+      in<lb ed="#R" n="123" break="no"/>tensum vindictae, &amp; tamen non assurget ad 
+      vindi<lb ed="#R" n="124" break="no"/>ctam, &amp; tamen iratus assurgit: ergo est, vel esse 
+      po<lb ed="#R" n="125" break="no"/>test desiderium vindictae sine ira. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e506">
+                  <lb ed="#R" n="126"/>Item: Causa, &amp; effectus non sunt idem: sed spes, &amp; 
+      <lb ed="#R" n="127"/>desperatio, &amp; huiusmodi oriuntur ex desiderio: 
+      er<lb ed="#R" n="128" break="no"/>go. De hoc vide prolixius in tertio, quaestione: An 
+      <lb ed="#R" n="129"/>in Christo fuerit verus dolor.
+      </p>
+               <p xml:id="olm8ij-g52840-d1e517">
+      <!--0490.xml-->
+                  <pb ed="#R" n="488"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Ideo est quartus modus, quod distinguuntur 
+      pe<lb ed="#R" n="2" break="no"/>nes bonum, &amp; malum, nam irascibilis est 
+      respe<lb ed="#R" n="3" break="no"/>ctu mali praesentis, quod probatur, quia nullus 
+      ira<lb ed="#R" n="4" break="no"/>scitur, nisi malo nociuo, nec irascitur quis cibo, 
+      <lb ed="#R" n="5"/>vel delectabili: similiter concupiscentia non est nisi 
+      <lb ed="#R" n="6"/>respectu boni, haec positio minus valet, quam 
+      om<lb ed="#R" n="7" break="no"/>nes, nam irascibilis est respectu boni, non solum 
+      <lb ed="#R" n="8"/>mali. Spes etiam, &amp; desperatio. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e544">
+                  <lb ed="#R" n="9"/>Dicitur quinto quod irascibilis deriuatur ab vno 
+      <lb ed="#R" n="10"/>actu adaequato ipsi irascibili, quod est irasci, &amp; con 
+      <lb ed="#R" n="11"/>cupiscibilis ab alio actu adaequato, quod est 
+      concu<lb ed="#R" n="12" break="no"/>piscere. Item etiam non valet, quod irasci non 
+      <lb ed="#R" n="13"/>est actus adaequatus concupiscibili: probo, omnis 
+      <lb ed="#R" n="14"/>actus adaequans potentiam praedicatur de omni 
+      <lb ed="#R" n="15"/>actu illius potentiae, vt intelligere se habet respectu 
+      <lb ed="#R" n="16"/>omnis actus intellectus: sed superbire non est 
+      ira<lb ed="#R" n="17" break="no"/>sci, nec timere, nec sperare sunt irasci, nec alia 
+      <lb ed="#R" n="18"/>huiusmodi: ergo. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e568">
+                  <lb ed="#R" n="19"/>Quomodo ergo denominatur potentia ab actu 
+      <lb ed="#R" n="20"/>irascendi, si non est adaequatus. Respondeo, 
+      di<lb ed="#R" n="21" break="no"/>co, quod denominatur sicut ab actu priori, vel 
+      <lb ed="#R" n="22"/>notiori, sicut concupiscentia concupiscere. Ideo 
+      <lb ed="#R" n="23"/>vltimo dico, quod mihi videtur. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e581">
+                  <lb ed="#R" n="24"/>Ad cuius euidentiam accipio hic vnam 
+      propositio<lb ed="#R" n="25" break="no"/>nem talem: Quando in aliqua potentia inuenitur 
+      <lb ed="#R" n="26"/>aliqua coordinatio actuum, ita quod tota 
+      coordi<lb ed="#R" n="27" break="no"/>natio reducitur ad vnum modum generalem, &amp; alia 
+      <lb ed="#R" n="28"/>ad alium modum: tunc distinctio potest sumi secun 
+      <lb ed="#R" n="29"/>dum ista duo, ad quae omnia reducuntur, &amp; ipsa 
+      <lb ed="#R" n="30"/>sunt prima, &amp; ad nihil aliud reducta: ita: capio hic 
+      <lb ed="#R" n="31"/>coordinationes distinctas in contrarium, vt 
+      desi<lb ed="#R" n="32" break="no"/>derium, &amp; fuga, &amp; delectatio, &amp; tristitia, spes, &amp; 
+      <lb ed="#R" n="33"/>desperatio, &amp; huiusmodi, haec non reducuntur ad 
+      <lb ed="#R" n="34"/>vnum modum, sed ab illis coordinationibus 
+      sumi<lb ed="#R" n="35" break="no"/>tur distinctio potentiae, quae reducuntur in alium, 
+      <lb ed="#R" n="36"/>&amp; alium modum, qui non sunt in alios 
+      reducibi<lb ed="#R" n="37" break="no"/>les. Exemplum distinctio potentiarum, siue 
+      or<lb ed="#R" n="38" break="no"/>ganum, quod est quaedam coordinatio actuum 
+      au<lb ed="#R" n="39" break="no"/>ditus, &amp; vocatur auditio, &amp; est alia actuum visus, 
+      <lb ed="#R" n="40"/>quae vocatur visio, vbi ergo inueneris tales 
+      coor<lb ed="#R" n="41" break="no"/>dinationes in acttibus, hoc sufficit ad distinctionem 
+      <lb ed="#R" n="42"/>potentiarum: sed inuenio hic tales coordinationes: 
+      <lb ed="#R" n="43"/>ergo. Maior patet inducendo, minorem probo. 
+      <lb ed="#R" n="44"/>ad cuius euidentiam. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e629">
+                  <lb ed="#R" n="45"/>Notandum est, quod inuenio quandam 
+      coordi<lb ed="#R" n="46" break="no"/>nationem actuum, qui actus sunt irasci, sperare &amp; 
+      <lb ed="#R" n="47"/>desperare, audere &amp; timere, &amp;c. Ista prima 
+      coor<lb ed="#R" n="48" break="no"/>dinatio actuum, &amp; haec coordinatio includit multa 
+      <lb ed="#R" n="49"/>alterius speciei ab alia coordinatione, quae est 
+      ama<lb ed="#R" n="50" break="no"/>re, &amp; desiderare, &amp; delectari, odisse, &amp; fugere, &amp; 
+      <lb ed="#R" n="51"/>tristari. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e647">
+                  <lb ed="#R" n="52"/>Dico etiam, quod irasci, &amp; sperare, &amp; 
+      huiusmo<lb ed="#R" n="53" break="no"/>di, quae sunt de prima coordinatione, sunt inter 
+      se<lb ed="#R" n="54" break="no"/>alterius rationis, siue speciei, &amp; tamen sub ea 
+      coor<lb ed="#R" n="55" break="no"/>dinatione sunt, quia reducuntur ad vnum: istae enim 
+      <lb ed="#R" n="56"/>conueniunt in vno formali, &amp; in ratione obiectali, 
+      <lb ed="#R" n="57"/>&amp; in modo causandi. Ex his autem tribus 
+      distin<lb ed="#R" n="58" break="no"/>guitur ista tota coordinatio ab alia coordinatione. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e665">
+                  <lb ed="#R" n="59"/>Dico ergo quantum ad primum, quod tota ista 
+      <lb ed="#R" n="60"/>coordinatio, quae est in prima, conueniunt in hoc, 
+      <lb ed="#R" n="61"/>quod est amare, vel assurgere, vel erigi, ita quod 
+      <lb ed="#R" n="62"/>isti actus non sunt formaliter appetere, sed sunt 
+      <lb ed="#R" n="63"/>actus alij, quia si respectu obiecti conantis, est spes. 
+      <lb ed="#R" n="64"/>Si autem deficit, est desperatio. Hoc autem 
+      decla<lb ed="#R" n="65" break="no"/>ro sic. Sed ad euidentiam maiorem, primo insto, 
+      <lb ed="#R" n="66"/>&amp; probo, quod isti actus formaliter sunt appetere, 
+      <lb ed="#R" n="67"/>primo sic. Irasci est appetere formaliter, nam 
+      <lb ed="#R" n="68"/>appetere cadit in definitione eius. Item velle, &amp; 
+      <!--0490.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>nolle adaequant omnes actus positinos: ergo 
+      opor<lb ed="#R" n="70" break="no"/>tet omnem actum voluntatis esse velle, vel nolle. 
+      <lb ed="#R" n="71"/>Respondeo, dico ad hoc, quod non sunt formaliter 
+      <lb ed="#R" n="72"/>appetere, vt dixi. Primo probo de spe, &amp; 
+      despera<lb ed="#R" n="73" break="no"/>tione, quod non sint appetere bonum arduum, non. n. 
+      <lb ed="#R" n="74"/>spes apperit arduum. Probo, quando aliquid est 
+      se<lb ed="#R" n="75" break="no"/>parabile ab aliquo, illud non est idem cum illo, sed 
+      <lb ed="#R" n="76"/>possunt separari: ergo non est spes. Minorem 
+      <lb ed="#R" n="77"/>probo, pono exemplum. Tu appetis Papatum 
+      <lb ed="#R" n="78"/>deinde offendis Cardinales, &amp; sic desperas, &amp; 
+      ta<lb ed="#R" n="79" break="no"/>men appetis adhuc Papatum: ergo aliquid aliud 
+      <lb ed="#R" n="80"/>dicit, quam appetere, &amp; hoc est, quia enim 
+      ap<lb ed="#R" n="81" break="no"/>petendo iudicas posse obtinere illud, ex iudicio 
+      as<lb ed="#R" n="82" break="no"/>surgis ad illud, &amp; sic assurgere est sperare. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e725">
+                  <lb ed="#R" n="83"/>Item: desideras quandoque, &amp; quandoque 
+      ap<lb ed="#R" n="84" break="no"/>petis. Similiter, de ira, mortem aliquando 
+      appe<lb ed="#R" n="85" break="no"/>tis inimici, &amp; tamen continue irasceris illi: ergo ali 
+      <lb ed="#R" n="86"/>quid aliud est desiderare ab ira. Idem dico de 
+      au<lb ed="#R" n="87" break="no"/>dacia, &amp; timore: nam audax non desiderat 
+      ma<lb ed="#R" n="88" break="no"/>lum: similiter prosterni timore respectu mali: non 
+      <lb ed="#R" n="89"/>autem appetere: Vnde dico, quod respectu eiusdem 
+      <lb ed="#R" n="90"/>obiecti sunt actus concupiscibilis, sicut 
+      desidera<lb ed="#R" n="91" break="no"/>re, &amp; huiusmodi: sed alius modus se babendi est 
+      <lb ed="#R" n="92"/>respectu actuum irascibilis, sicut timoris, &amp; 
+      huius<lb ed="#R" n="93" break="no"/>modi, vt dictum est, quod sit modus actuum 
+      Con<lb ed="#R" n="94" break="no"/>cupiscibilis. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e754">
+                  <lb ed="#R" n="95"/>Sed dices forte, quod illud, quod dicunt 
+      forma<lb ed="#R" n="96" break="no"/>liter isti actus, per quod differunt ab alia 
+      coordina<lb ed="#R" n="97" break="no"/>tione secundum potentiam concupiscibilem, non 
+      <lb ed="#R" n="98"/>est aliquod additum, sed quaedam passio exorta 
+      <lb ed="#R" n="99"/>ex tali appetitu, &amp; desiderio, quae passiones sunt 
+      <lb ed="#R" n="100"/>in corpore. Confirmatur, quia istud corpori non 
+      <lb ed="#R" n="101"/>est actus vitalis: ergo ponere hoc in appetitu 
+      ra<lb ed="#R" n="102" break="no"/>tionali est irrationale. Item conatus est 
+      circum<lb ed="#R" n="103" break="no"/>stantia actus, qui est concupiscere, vel 
+      appetere<lb ed="#R" n="104" break="no"/>cum conatu. Respondeo: ista iuuat me, quia 
+      dici<lb ed="#R" n="105" break="no"/>tur, quod actus istos sequuntur passiones 
+      corpora<lb ed="#R" n="106" break="no"/>les, &amp; ex hoc, quod vltra illam passionem sit 
+      da<lb ed="#R" n="107" break="no"/>re aliquid aliud, ad quod est ille modus, vel illud 
+      <lb ed="#R" n="108"/>sormale actuum irascibilis. Probo, quia actus 
+      ap<lb ed="#R" n="109" break="no"/>petitus est causa illarum passionum secundum te. 
+      <lb ed="#R" n="110"/>Tunc arguo sic. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e791">
+                  <lb ed="#R" n="111"/>Quando aliquid est causa alicuius, oportet, 
+      <lb ed="#R" n="112"/>quod si ponatur, quod ponatur esfectus: sed ex 
+      de<lb ed="#R" n="113" break="no"/>siderio solum non sequitur inflammatio: ergo 
+      vl<lb ed="#R" n="114" break="no"/>tra illud desiderium est aliquid aliud, quod est cau 
+      <lb ed="#R" n="115"/>sa istius passionis, quo posito ponitur effectus, &amp; 
+      <lb ed="#R" n="116"/>vltra hoc aliquid aliud, vt conari, vel assurgere, 
+      <lb ed="#R" n="117"/>ex quo primo oritur talis passio corporalis. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e809">
+                  <lb ed="#R" n="118"/>Ad secundum dico, quod conari est actus vitalis 
+      <lb ed="#R" n="119"/>appetitus, non quod sit vita, sed quia includit 
+      mo<lb ed="#R" n="120" break="no"/>dum aliquem vitalem, vt de intelligere, quo 
+      po<lb ed="#R" n="121" break="no"/>nitur aliquid in esse formato. Similiter dico de 
+      vi<lb ed="#R" n="122" break="no"/>su, vt patet in albo, quod non est intra speculum, 
+      <lb ed="#R" n="123"/>tales species, &amp; sic sunt vitales, quoniam procedunt 
+      <lb ed="#R" n="124"/>a vita, similiter amor est actus vitalis, quoniam eo 
+      <lb ed="#R" n="125"/>fertur intentionaliter in amatum; similiter hic est 
+      <lb ed="#R" n="126"/>quidam actuum ex aspectu. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e831">
+                  <lb ed="#R" n="127"/>Secundo dico, quod est actus appetitus, quia 
+      <lb ed="#R" n="128"/>illud, quo mouetur appetitus, est actus eius: sed 
+      ip<lb ed="#R" n="129" break="no"/>so conari, vel assurgere mouetur appetitus: ergo. 
+      <lb ed="#R" n="130"/>Assumptum declaro sic, quia actus rationalis extra 
+      <lb ed="#R" n="131"/>sunt conformes actibus intrinsecis, ex quibus 
+      oriun<lb ed="#R" n="132" break="no"/>tur, vel quos sequuntur, qui actus sunt in 
+      ap<lb ed="#R" n="133" break="no"/>petitu. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e849">
+                  <lb ed="#R" n="134"/>Dico autem conformes, non quod sicut 
+      erigi<lb ed="#R" n="135" break="no"/>tur potentia executiua exterior, quia elicit actum, 
+      <lb ed="#R" n="136"/>quo dicitur erigi modo intentionali, ad quem se- 
+      <!--0491.xml-->
+      <pb ed="#R" n="489"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>quitur actus erectionis in executiua exteriori. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e868">
+                  <lb ed="#R" n="2"/>Ad tertium cum dicis, quod est circunstantia 
+      <lb ed="#R" n="3"/>actus: ergo non facit diuersitatem in potentia. 
+      <lb ed="#R" n="4"/>Dico, quod per conari, vel intelligis gradum 
+      in<lb ed="#R" n="5" break="no"/>actu, &amp; sic non distinguitur, nec sic ego accipio 
+      <lb ed="#R" n="6"/>conari: vel accipis alio modo, quod sit conatus 
+      <lb ed="#R" n="7"/>non respectu actus, sed respectu obiecti, non quod 
+      <lb ed="#R" n="8"/>sit gradus actus, vel circumstantia, &amp; sic intelligo, 
+      <lb ed="#R" n="9"/>&amp; isto modo est alius actus habens alium modum 
+      <lb ed="#R" n="10"/>qui distinguit. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e890">
+                  <lb ed="#R" n="11"/>Nunc ad instantias principales factas contra 
+      <lb ed="#R" n="12"/>illud, quod dicebatur, quod huiusmodi actus non 
+      <lb ed="#R" n="13"/>sunt formaliter appetere. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e899">
+                  <lb ed="#R" n="14"/>Ad primum dico, quod ira non est appetitus vin 
+      <lb ed="#R" n="15"/>dictae formaliter, licet coincludat illum. Ad aliud 
+      <lb ed="#R" n="16"/>dico, quod si ferri in obiectum sit appetere, tamen 
+      <lb ed="#R" n="17"/>conari non est appetere, quia vltra illud dicit 
+      co<lb ed="#R" n="18" break="no"/>natus assurrectionem, &amp; secundum hoc differunt, 
+      <lb ed="#R" n="19"/>vnde velle, &amp; nolle omnes actus adaequant ad 
+      ap<lb ed="#R" n="20" break="no"/>petitus, prout actus sunt ab appetitu, sed tamen 
+      <lb ed="#R" n="21"/>ex sua ratione formali assurgere, &amp; cum 
+      assurre<lb ed="#R" n="22" break="no"/>ctione se ferre in obiectum, &amp; surgere in obiectum. &amp; 
+      <lb ed="#R" n="23"/>sic potes dicere de velle &amp; nolle, vnde ferri in 
+      obie<lb ed="#R" n="24" break="no"/>ctum non est conari, quia conari vltra ferri vult 
+      as<lb ed="#R" n="25" break="no"/>surgere. Secundo conueniunt in ratione obedientali, 
+      <lb ed="#R" n="26"/>ꝗa in bono separato est ratio boni, &amp; ratio 
+      ardui<lb ed="#R" n="27" break="no"/>tatis. Oens ergo isti actus habent pro obiecto ipsam 
+      <lb ed="#R" n="28"/>arduitatem supposita bonitate: ita quod sunt ibi 
+      <lb ed="#R" n="29"/>duo actus, vnus est respectu totius boni, quod 
+      to<lb ed="#R" n="30" break="no"/>tum concupiscit, alius actus est respectu ardui, &amp; 
+      <lb ed="#R" n="31"/>sic est conari, &amp; assurgere. Sed quid est honum 
+      <lb ed="#R" n="32"/>arduum, est dubium, nam non dicit, nisi absens, quia 
+      <lb ed="#R" n="33"/>sic beati non haberent tentionem, quae tentio est 
+      <lb ed="#R" n="34"/>actus irascibilis: tentio autem in patria succedit 
+      fi<lb ed="#R" n="35" break="no"/>dei. Item non est excedens, quia sic Deus non 
+      <lb ed="#R" n="36"/>haberet tentionem, cum sit omnia excedens. Item 
+      <lb ed="#R" n="37"/>non est ratio praeciabilitatis, quia iste amor est. 
+      <lb ed="#R" n="38"/>Item, obiectum charitatis est inappreciabile. Item, 
+      <lb ed="#R" n="39"/>tu apprecias per actum: ergo actus praecedit, 
+      ante<lb ed="#R" n="40" break="no"/>quam appreciares, &amp; sic capitis ante illud bonum, quod 
+      <lb ed="#R" n="41"/>est arduum: quaero ergo hoc quod autem non 
+      absolu<lb ed="#R" n="42" break="no"/>tum, patet: nec respectiuum, probo, quia tunc 
+      re<lb ed="#R" n="43" break="no"/>latio esset ratio obiectiua: quando ergo dico, quod 
+      <lb ed="#R" n="44"/>uis aliud, voco arduum, nisi per comparationem 
+      <lb ed="#R" n="45"/>ad appetentem. Non dico, quod sit gradus 
+      inten<lb ed="#R" n="46" break="no"/>sus boni, quod obijcitur in se, sed solum per 
+      respe<lb ed="#R" n="47" break="no"/>ctum ad appetentem: vnde licet etiam in se sit 
+      mo<lb ed="#R" n="48" break="no"/>dicum, si est difficile respectu appetitus, est 
+      ar<lb ed="#R" n="49" break="no"/>duum. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e980">
+                  <lb ed="#R" n="50"/>Non dicit autem impossibilitatem per respectum 
+      <lb ed="#R" n="51"/>ad appetentem, quia impossibile non habet 
+      ordi<lb ed="#R" n="52" break="no"/>nem ad attingibilitatem: dicit ergo rationem 
+      pos<lb ed="#R" n="53" break="no"/>sibilis attingibilis, non quocunque modo, sed cum 
+      <lb ed="#R" n="54"/>quadam difficultate, &amp; sic includit quandam 
+      alti<lb ed="#R" n="55" break="no"/>tudinem, &amp; eleuationem appetitus non totaliter: 
+      <lb ed="#R" n="56"/>sed supponit communem eleuationem. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e998">
+                  <lb ed="#R" n="57"/>Prima ergo coordinatio fertur in bonum absolu 
+      <lb ed="#R" n="58"/>te; sed secunda coordinatio est respectu 
+      arduita<lb ed="#R" n="59" break="no"/>tis, quia secundae coordinationis est eleuari, &amp; 
+      co<lb ed="#R" n="60" break="no"/>nari, &amp; assurgere, &amp; ista altitudo, ad quam eleuaris 
+      <lb ed="#R" n="61"/>conaris, &amp; assurgis, est ratio ardui, in quod ista 
+      <lb ed="#R" n="62"/>coordinatio cernit istam coordinationem. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e1014">
+                  <lb ed="#R" n="63"/>Et cum dicis, quod bonum arduum est bonum 
+      <lb ed="#R" n="64"/>absens: dico, quod bene loqueris, &amp; tu probas, 
+      <lb ed="#R" n="65"/>quod alias non esset ibi tensio. Dico, quod non 
+      <lb ed="#R" n="66"/>est ibi actus irascibilis, &amp; licet succedit spei, non 
+      <lb ed="#R" n="67"/>tamen in eadem potentia: vnde non habet 
+      ratio<lb ed="#R" n="68" break="no"/>nem actus bene, nulla enim ibi assurrectio: sed se- 
+      <!--0491.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>quitur actum intellectus, &amp; voluntatis, &amp; sic 
+      inclu<lb ed="#R" n="70" break="no"/>dit absens. Vel possum dicere, quod licet sit 
+      prae<lb ed="#R" n="71" break="no"/>sens, tamen est altum, &amp; ideo arduum. Cum 
+      <lb ed="#R" n="72"/>dicis, non est excedens, dico, quod imo excedens, 
+      <lb ed="#R" n="73"/>idest cum difficultate attingibilis, non quin possit 
+      <lb ed="#R" n="74"/>attingi, nec volo, quod in Deo sint actus 
+      irascibi<lb ed="#R" n="75" break="no"/>lis: vnde quando imaginaris, quod musca 
+      offen<lb ed="#R" n="76" break="no"/>dit te, &amp; est absens, quod non potes te faciliter 
+      <lb ed="#R" n="77"/>vindicare, ideo assurgis, &amp; ideo dico, quod 
+      opor<lb ed="#R" n="78" break="no"/>tet, quod sit difficulter attingibilis, &amp; hoc voco 
+      <lb ed="#R" n="79"/>arduum, &amp; sic tota coordinatio ista habet pro 
+      obie<lb ed="#R" n="80" break="no"/>cto totum hoc, scilitet bonum arduum, &amp; tunc 
+      pa<lb ed="#R" n="81" break="no"/>tet, quod tota ista coordinatio conuenit in 
+      ratio<lb ed="#R" n="82" break="no"/>ne obedientiali, quae est arduitas modo, quo 
+      di<lb ed="#R" n="83" break="no"/>ctum est. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e1067">
+                  <lb ed="#R" n="84"/>Ad aliud, quod dicit, quod non est relatio, quia 
+      <lb ed="#R" n="85"/>tunc relatio esset ratio obiectiua. Dimitto istud 
+      <lb ed="#R" n="86"/>modo. Nunc tertio dico, quod conueniunt in 
+      <lb ed="#R" n="87"/>actiuo causali, &amp; in ordine ad causam, &amp; ab alijs. 
+      <lb ed="#R" n="88"/>Dico ergo, quod sicut se habet voluntas ad 
+      intelle<lb ed="#R" n="89" break="no"/>ctum, quod volitio includit apprehensionem per 
+      <lb ed="#R" n="90"/>intellectum, &amp; intellectio phantasiam; sic actus 
+      ira<lb ed="#R" n="91" break="no"/>scibilis includit actus concupiscibilis: nunquam 
+      <lb ed="#R" n="92"/>enim irasceris, quin appetas vindictam: est enim 
+      <lb ed="#R" n="93"/>ira quidam actus, quo surgis: sed includit 
+      appeti<lb ed="#R" n="94" break="no"/>tum vindictae: ita quod secundum hoc sunt duo 
+      a<lb ed="#R" n="95" break="no"/>ctus, quorum primus est respectu irae desiderare, 
+      <lb ed="#R" n="96"/>&amp; iste est actus concupiscibilis, &amp; postmodum 
+      re<lb ed="#R" n="97" break="no"/>spectu altitudinis, in qua consistit arduitas, est actus 
+      <lb ed="#R" n="98"/>alterius coordinationis. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e1102">
+                  <lb ed="#R" n="99"/>Item sic est de spe, quoniam nunquam speras, 
+      <lb ed="#R" n="100"/>nisi desideres: Deinde quia in obiecto respectu 
+      al<lb ed="#R" n="101" break="no"/>terius assurgis, &amp; tunc elicis actum irascibilis; 
+      si<lb ed="#R" n="102" break="no"/>militer est de timore, &amp; breuiter de omnibus 
+      acti<lb ed="#R" n="103" break="no"/>bus irascibilis, includit enim actus 
+      concupiscibi<lb ed="#R" n="104" break="no"/>lis, quemadmodum velle includit intelligere; 
+      In<lb ed="#R" n="105" break="no"/>telligere includit phantasiare: &amp; ideo nunquam 
+      <lb ed="#R" n="106"/>assurgis, nisi concupiscis, cuius ratio est, quia 
+      <lb ed="#R" n="107"/>obiectum arduitatis includit ipsum bonum, 
+      respe<lb ed="#R" n="108" break="no"/>ctu cuius est primo actus concupiscibilis idem 
+      <lb ed="#R" n="109"/>ipsum desiderium. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e1128">
+                  <lb ed="#R" n="110"/>Ad propositum, quando quaeris, penes quid 
+      di<lb ed="#R" n="111" break="no"/>stinguuntur. Dico, quod non penes arduitatem, 
+      <lb ed="#R" n="112"/>&amp; penes bonum simpliciter, &amp; absolute, vt dicit 
+      <lb ed="#R" n="113"/>opinio vna supradicta, quia tunc sequeretur, quod 
+      <lb ed="#R" n="114"/>actus appetitiuae, scilicet concupiscibilis, non 
+      pos<lb ed="#R" n="115" break="no"/>set ferri in totum bonum arduum speratum, sed 
+      <lb ed="#R" n="116"/>penes modum qui est assurgere, vel conari 
+      respe<lb ed="#R" n="117" break="no"/>ctu boni desiderati. Ita quod est ibi distinctio ex 
+      <lb ed="#R" n="118"/>actibus diuersarum coordinationum, quae 
+      diuer<lb ed="#R" n="119" break="no"/>sae coordinationes sunt secundum alium, &amp; alium 
+      <lb ed="#R" n="120"/>modum ferendi; ita quod quaelibet coordinatio 
+      <lb ed="#R" n="121"/>reducitur ad vnum modum generalem, &amp; ad istos 
+      <lb ed="#R" n="122"/>actus reducuntur omnes passiones. Haec de modo, 
+      <lb ed="#R" n="123"/>quo irascibilis, &amp; concupiscibilis distinguuntur. 
+      </p>
+            </div>
+            <div xml:id="olm8ij-g52840-Dd1e1162">
+               <head xml:id="olm8ij-g52840-Hd1e1164">Articulus 3</head>
+               <head xml:id="olm8ij-g52840-Hd1e1166" type="question-title">
+            Vbi disttinguantur Irascibilis, et 
+            Concupiscibilis
+          </head>
+               <p xml:id="olm8ij-g52840-d1e1169">
+                  <lb ed="#R" n="124"/>ARTJCVLVS JJJ. 
+      <lb ed="#R" n="125"/>Vbi disttinguantur Irascibilis, &amp; 
+      Concu<lb ed="#R" n="126" break="no"/>piscibilis. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e1178">
+                  <lb ed="#R" n="127"/>NVnc restat videre, vbi distinguantur. 
+      Vn<lb ed="#R" n="128" break="no"/>de si quaeris, in duobus appetitibus, certum 
+      <lb ed="#R" n="129"/>est, quod sic, quia diuersae potentiae in sensitiuo, &amp; 
+      <lb ed="#R" n="130"/>rationali. Sed si quaeris, quomodo in eodem: hic 
+      <lb ed="#R" n="131"/>sunt opiniones. 
+    </p>
+               <p xml:id="olm8ij-g52840-d1e1191">
+                  <lb ed="#R" n="132"/>Vna est cuiusdam Doct. antiqui, quod 
+      Irascibi<lb ed="#R" n="133" break="no"/>lis, &amp; Concupiscibilis sunt diuersae potentiae in ap- 
+      <!--0492.xml-->
+      <pb ed="#R" n="490"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>petitu sensitiuo, non appetitu intellectiuo: sed 
+      so<lb ed="#R" n="2" break="no"/>lum sunt intellectiuae similitudine. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e1210">
+                  <lb ed="#R" n="3"/>Alius dicit, quod in appetitu sensitiuo 
+      distin<lb ed="#R" n="4" break="no"/>guuntur, sicut duae potentiae: sed intellectiuo, 
+      si<lb ed="#R" n="5" break="no"/>cut duae vires eiusdem potentiae. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e1219">
+                  <lb ed="#R" n="6"/>Motiuum autem primae opin. est hoc: 
+      Quantum<lb ed="#R" n="7" break="no"/>cunque aliquae duae potentiae sic se habent, quod 
+      <lb ed="#R" n="8"/>vna respicit rationem generalem obiectiuam, &amp; 
+      <lb ed="#R" n="9"/>alia respicit rationes speciales sub illo obiecto, 
+      <lb ed="#R" n="10"/>Prima potentia non distinguitur ex hoc in duas 
+      <lb ed="#R" n="11"/>potentias: sed potentiae quae aspiciunt 
+      particula<lb ed="#R" n="12" break="no"/>res rationes bene distinguuntur. Exemplum: 
+      sen<lb ed="#R" n="13" break="no"/>sus communis respicit omnia sensibilia pro 
+      obie<lb ed="#R" n="14" break="no"/>cto adaequando: sed visus aspicit non quodlibet 
+      <lb ed="#R" n="15"/>sensibile, sed tantum colorem, &amp; auditus sonum, 
+      <lb ed="#R" n="16"/>&amp; sic de alijs, tunc sensus communis non 
+      distin<lb ed="#R" n="17" break="no"/>guitur, licet habeat colorem, &amp; sonum, &amp; 
+      diuer<lb ed="#R" n="18" break="no"/>sa sensibilia: sed bene visus respectu coloris 
+      distin<lb ed="#R" n="19" break="no"/>guitur auditus vero respectu soni, &amp; similiter est 
+      <lb ed="#R" n="20"/>de intellectu, qui respicit ens in generali pro 
+      obie<lb ed="#R" n="21" break="no"/>cto adaequato: sed partiales potentiae aspiciunt, &amp; 
+      <lb ed="#R" n="22"/>habent pro obiecto entia partialia. Tota autem 
+      <lb ed="#R" n="23"/>illa propositio videtur valde rationalis, sed 
+      quan<lb ed="#R" n="24" break="no"/>do potentia habet aliquod obiectum adaeqnatum, 
+      <lb ed="#R" n="25"/>&amp; obiectum adaequat potentiam, non dicitur 
+      po<lb ed="#R" n="26" break="no"/>tentia respectu illius obiecti, licet illud obiectum 
+      <lb ed="#R" n="27"/>habeat rationes partiales, quia illae partiales 
+      ra<lb ed="#R" n="28" break="no"/>tiones non adaequant potentiam: sed vbi est dare 
+      <lb ed="#R" n="29"/>potentiam aliam, quae aequate aspicit rationem 
+      <lb ed="#R" n="30"/>partialem vnam sub obiecto partiali, ratio 
+      adae<lb ed="#R" n="31" break="no"/>quat potentiam, tunc per tales rationes partiales 
+      <lb ed="#R" n="32"/>necessarium est, quod tales potentiae 
+      distinguan<lb ed="#R" n="33" break="no"/>tur. Tunc format Minorem sic: sed appetitus 
+      in<lb ed="#R" n="34" break="no"/>tellectiuus fertur in bonum generaliter, 
+      appeti<lb ed="#R" n="35" break="no"/>tus autem sensitiuus respicit bonum, &amp; arduum: 
+      <lb ed="#R" n="36"/>ergo. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e1289">
+                  <lb ed="#R" n="37"/>Item: Sicut se habet potentia apprehensiua 
+      re<lb ed="#R" n="38" break="no"/>spectu aliquarum potentiarum apprehensiuarum 
+      <lb ed="#R" n="39"/>sic se habet appetitus intellectiuus respectu 
+      appe<lb ed="#R" n="40" break="no"/>tituum sensitiuorum: sed intellectus est respectu 
+      <lb ed="#R" n="41"/>omnium, respectu quorum sunt aliae potentiae 
+      ap<lb ed="#R" n="42" break="no"/>prehensiuae: ergo appetitus intellectiuus est 
+      respe<lb ed="#R" n="43" break="no"/>ctu omnium appetibilium, respectu quorum sunt 
+      <lb ed="#R" n="44"/>aliae potentiae appetitiuae: ergo penes 
+      diuersimo<lb ed="#R" n="45" break="no"/>de appetitiua non distinguitur appetitus 
+      intelle<lb ed="#R" n="46" break="no"/>ctiuus, licet penes illa distinguitur sensitiuus. Et 
+      <lb ed="#R" n="47"/>confirmatur: quoniam quae sunt dispersa in 
+      inferio<lb ed="#R" n="48" break="no"/>ribus sunt vnita in superioribus. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e1318">
+                  <lb ed="#R" n="49"/>Item: Philosophi ponunt, vel distinguunt 
+      appe<lb ed="#R" n="50" break="no"/>titum in irascibilem, &amp; concupiscibilem, illum 
+      <lb ed="#R" n="51"/>scilicet, qui est rationalis per participationem, vt 
+      <lb ed="#R" n="52"/>patet 3. de anima, &amp; ex Damasc. vnde positum est 
+      <lb ed="#R" n="53"/>in principio quaestionis, &amp; allegat Damascenus ad 
+      <lb ed="#R" n="54"/>hoc Gregorium Nazian. sed voluntas non est 
+      ratio<lb ed="#R" n="55" break="no"/>nalis per participationem, sed per essentiam: ergo 
+      <lb ed="#R" n="56"/>non fuit intentio Philosophorum, quod appetitus 
+      <lb ed="#R" n="57"/>intellectiuus diuideretur in irascibilem, &amp; 
+      concu<lb ed="#R" n="58" break="no"/>piscibilem, vt in duas potentias, sed solum de 
+      sen<lb ed="#R" n="59" break="no"/>sitiuo. Istta ergo est prima opinio. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e1344">
+                  <lb ed="#R" n="60"/>Modus ponendi istius opinionis est iste: Modus 
+      <lb ed="#R" n="61"/>concupiscibilis est quietari: modus vero 
+      irascibi<lb ed="#R" n="62" break="no"/>lis est non quietari, sed repellere: sunt ergo 
+      diuer<lb ed="#R" n="63" break="no"/>si modi vtriusque. Isti autem diuersi modi non 
+      <lb ed="#R" n="64"/>possunt esse in anima mediante vno organo: sed 
+      <lb ed="#R" n="65"/>oportet, quod sint organa diuersa, vnum, quo 
+      re<lb ed="#R" n="66" break="no"/>pellatialiud, quo quiescat. Et quia potentiae 
+      orga<lb ed="#R" n="67" break="no"/>nicae distinguuntur per diuersa organa, ideo 
+      neces<lb ed="#R" n="68" break="no"/>sario in appetitu organico irascibilis, &amp; concupi- 
+      <!--0492.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>scibilis sunt diuersae potentiae. Sed in appetitu 
+      in<lb ed="#R" n="70" break="no"/>tellectiuo non est dare organum, quia intellectus 
+      <lb ed="#R" n="71"/>non est potentia organo alligata: ergo quiescere, 
+      <lb ed="#R" n="72"/>&amp; repellere non arguunt ibi diuersa organa: sed 
+      <lb ed="#R" n="73"/>bene aliquas directiones appetituum, vt, volo quie 
+      <lb ed="#R" n="74"/>scere, volo repellere, &amp; tunc quiesco, vel irascor; 
+      <lb ed="#R" n="75"/>sicut ergo intellectus est auditus, cum iudicat 
+      de<lb ed="#R" n="76" break="no"/>sono, &amp; est visus, cum iudicat de colore; ita quod 
+      <lb ed="#R" n="77"/>potentia visiua, &amp; auditus isto modo mediate sunt 
+      <lb ed="#R" n="78"/>in intellectu: sic irascibilis, &amp; concupiscibilis in 
+      vo<lb ed="#R" n="79" break="no"/>luntate secundum istas reductiones. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e1394">
+                  <lb ed="#R" n="80"/>Hic nunc arguo contra conclusionem. Secundo 
+      <lb ed="#R" n="81"/>contra rationes, &amp; motiua sua.
+    </p>
+               <p xml:id="olm8ij-g52840-d1e1402">
+                  <lb ed="#R" n="82"/>Prima enim ratio deficit in maiori, &amp; minori. 
+      <lb ed="#R" n="83"/>Maior enim, quae dicebat: Quando aliqua potentia 
+      <lb ed="#R" n="84"/>habet pro obiecto rationem generalem, vna, &amp;c. Di 
+      <lb ed="#R" n="85"/>co quod haec maior est falsa, nisi addatur, quod 
+      <lb ed="#R" n="86"/>rationes partiales per se sint contentae sub ratione 
+      <lb ed="#R" n="87"/>obiectiua generali, ad hoc, vt non causent 
+      distin<lb ed="#R" n="88" break="no"/>ctionem in potentia, quae est respectu illius 
+      ratio<lb ed="#R" n="89" break="no"/>nis generalis, alias si sint extrinsece, non erit 
+      pro<lb ed="#R" n="90" break="no"/>positio vera. Exemplum, visus habet colorem 
+      <lb ed="#R" n="91"/>pro obiecto, albedo etiam continetur sub colore. 
+      <lb ed="#R" n="92"/>Dico ergo, quod sicut visus per se fertur in colorem, 
+      <lb ed="#R" n="93"/>eadem necessitate oportet, quod feratur in 
+      omne<lb ed="#R" n="94" break="no"/>illud, quod per se, &amp; formaliter est sub colore, &amp; 
+      <lb ed="#R" n="95"/>sic per se visus fertur in albedinem, sicut in 
+      colo<lb ed="#R" n="96" break="no"/>rem, licet non primo, quia fertur in albedinem, 
+      <lb ed="#R" n="97"/>per colorem, quia visibile est passio prima 
+      co<lb ed="#R" n="98" break="no"/>loris, &amp; per colorem est albedinis. Vbi ergo est 
+      <lb ed="#R" n="99"/>per se contentum sub colore fertur, in illud 
+      vi<lb ed="#R" n="100" break="no"/>sus per se: sed pono substantiam, quia ratio 
+      sub<lb ed="#R" n="101" break="no"/>stantiae se habet extrinsece ad rationem coloris, &amp; 
+      <lb ed="#R" n="102"/>per accidens: ergo potentia, quae per se solum 
+      fer<lb ed="#R" n="103" break="no"/>tur in illud, quod per se continetur sub colore. Si 
+      <lb ed="#R" n="104"/>autem aliquid per accidens continetur sub colore, 
+      <lb ed="#R" n="105"/>simili modo potentia, quae per se sertur in colorem, 
+      <lb ed="#R" n="106"/>per accidens fertur in illud aliud, &amp; sic visus in 
+      <lb ed="#R" n="107"/>substantiam fertur per accidens, &amp; sic talia arguunt 
+      <lb ed="#R" n="108"/>diuersas potentias. Tunc accipio istam minorem 
+      <lb ed="#R" n="109"/>tuam sic correctam, &amp; arguo oppositum contra 
+      <lb ed="#R" n="110"/>te sic: Quando aliqua potentia fertur in aliquam 
+      <lb ed="#R" n="111"/>rationem generalem adaequate etiam fertur in 
+      ra<lb ed="#R" n="112" break="no"/>tiones partiales, quae sunt per se in illud 
+      reducibi<lb ed="#R" n="113" break="no"/>les, non extrinsece, nec oportet, quod ferri in 
+      <lb ed="#R" n="114"/>obiectum, &amp; rationes alias partiales arguat 
+      diuer<lb ed="#R" n="115" break="no"/>sas potentias: sed ratio arduitatis non est per se 
+      <lb ed="#R" n="116"/>reducibilis ad rationem boni, nec mali: ergo per 
+      <lb ed="#R" n="117"/>accidens: ergo. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e1483">
+                  <lb ed="#R" n="118"/>Probatio minoris, quia secundum Philosophum, 
+      <lb ed="#R" n="119"/>bonum per se diuiditur in delectabile, vtile, &amp; 
+      ho<lb ed="#R" n="120" break="no"/>nestum; non autem in arduum. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e1492">
+                  <lb ed="#R" n="121"/>Item, si sic, tunc vbicunque ponetur ratio ardui, 
+      <lb ed="#R" n="122"/>ponetur boni, vel mali, posito enim inferiori, 
+      poni<lb ed="#R" n="123" break="no"/>tur superius: sed hoc non est; nam audibile potest 
+      <lb ed="#R" n="124"/>habere rationem ardui, quia arduum voco non 
+      <lb ed="#R" n="125"/>aliud, quam difficile &amp; eleuatum, &amp; tamen 
+      audibi<lb ed="#R" n="126" break="no"/>le, nec bonum, vel malum, vt tale est: ergo illa 
+      po<lb ed="#R" n="127" break="no"/>tentia, quae fertur per se in arduitatem, oportet, 
+      <lb ed="#R" n="128"/>quod sit alia ab illa potentia, quae fertur per le in 
+      <lb ed="#R" n="129"/>bonum delectabile, vel in vtile, vel honestum. Quia 
+      <lb ed="#R" n="130"/>vero ad hoc, quod irascibilis feratur super 
+      ardui<lb ed="#R" n="131" break="no"/>tatem, sufficit, quod illud, super quod fertur, sit 
+      bo<lb ed="#R" n="132" break="no"/>num desideratum, ideo ratio bonitatis per se non 
+      <lb ed="#R" n="133"/>requiritur, sed solum sicut exigit. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e1523">
+                  <lb ed="#R" n="134"/>Nunc ad minorem dico, quod potest habere 
+      du<lb ed="#R" n="135" break="no"/>plicem intellectum, ita quod in vno nil concludit; in 
+      <lb ed="#R" n="136"/>alio nil probat. Quaero enim quid intelligis in mi- 
+      <!--0493.xml-->
+      <pb ed="#R" n="491"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>nori per partiales rationes, aut speciem aliquam, 
+      <lb ed="#R" n="2"/>vel rationem, quae est vnius speciei, &amp; sic 
+      bene<lb ed="#R" n="3" break="no"/>probares, si probares, quod appetitus rationalis 
+      <lb ed="#R" n="4"/>fertur in bonum simpliciter, &amp; appetitus 
+      sensiti<lb ed="#R" n="5" break="no"/>uus in aliquam partialem rationem: sed non 
+      pro<lb ed="#R" n="6" break="no"/>bas, quod oportet, quod si potentia fertur in 
+      ar<lb ed="#R" n="7" break="no"/>duitatem, quod illa sit potentia alia. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e1554">
+                  <lb ed="#R" n="8"/>Secundus intellectus potest esse, vt dicatur 
+      ra<lb ed="#R" n="9" break="no"/>tio partialis, idest particulare, vt continetur sub 
+      <lb ed="#R" n="10"/>vniuersali, &amp; tunc, vel probat, quod ferretur 
+      po<lb ed="#R" n="11" break="no"/>tentia semper in talem hic, &amp; nunc; quia nec 
+      opor<lb ed="#R" n="12" break="no"/>tet, quod ibi sit vna potentia respectu vniuersalis, 
+      <lb ed="#R" n="13"/>&amp; alia respectu particularis, vel partialis: sicut 
+      pa<lb ed="#R" n="14" break="no"/>tet de colore, &amp; hic color, qui est respectu eiusdem 
+      <lb ed="#R" n="15"/>potentiae: vnde si probaret, quod bonum 
+      requi<lb ed="#R" n="16" break="no"/>rit organum distinctum, &amp; arduum aliud, tunc 
+      pro<lb ed="#R" n="17" break="no"/>baret, sed non probat. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e1578">
+                  <lb ed="#R" n="18"/>Nunc ad secundam rationem vbi dicit, quod 
+      si<lb ed="#R" n="19" break="no"/>cut est vna potentia intellectiua, quae continet 
+      vir<lb ed="#R" n="20" break="no"/>tualiter omnes actus aliarum apprehensiuarum, 
+      <lb ed="#R" n="21"/>fic vna potentia apprehensiua, &amp;c. Si hoc valet, 
+      di<lb ed="#R" n="22" break="no"/>cam tunc idem de appetitu sensitiuo, quia in 
+      ordi<lb ed="#R" n="23" break="no"/>ne apprehensiuarum est vna aestimatiua, quae est 
+      re<lb ed="#R" n="24" break="no"/>spectu omnium actuum aliarum: ergo etiam vnus 
+      <lb ed="#R" n="25"/>appetitus sensitiuus, vt talis, &amp; sic ratio non 
+      con<lb ed="#R" n="26" break="no"/>cludit. Similiter secunda ratio non valet. Dico 
+      <lb ed="#R" n="27"/>enim, quod Philosophi ponūt voluntatem 
+      irratio<lb ed="#R" n="28" break="no"/>nalem per participationem, vnde dico, quod 
+      vo<lb ed="#R" n="29" break="no"/>luntatem includit Philosophus per participationem; 
+      <lb ed="#R" n="30"/>quod probatur, quia ipse ponit, quod omnis 
+      vir<lb ed="#R" n="31" break="no"/>tus moralis est in voluntate, quae tamen virtutes 
+      <lb ed="#R" n="32"/>ponuntur in rationali per participationem: 
+      vnde<lb ed="#R" n="33" break="no"/>rationem per essentiam nominat potentiam 
+      iudica<lb ed="#R" n="34" break="no"/>tiuam. Item dicit ibi, quod est continens, quod 
+      <lb ed="#R" n="35"/>est obediens, &amp; quoddam non, &amp; obediens ponit 
+      ra<lb ed="#R" n="36" break="no"/>tionalem per participationem, &amp; sic vocat, &amp; per 
+      <lb ed="#R" n="37"/>participationem solum, quod non. Item, de 
+      dif<lb ed="#R" n="38" break="no"/>ferentia spiritus, &amp; animae. Dicit, quod 
+      irascibi<lb ed="#R" n="39" break="no"/>lis, &amp; concupiscibilis insunt animae, antequam 
+      infun<lb ed="#R" n="40" break="no"/>datur in corpore. Modus ponendi nihil valet, quia 
+      <lb ed="#R" n="41"/>spes non fertur, vt repellat, &amp; tamen est actus 
+      ira<lb ed="#R" n="42" break="no"/>scibilis. Ideo Henricus super 8. quolibet suo quaest. 
+      <lb ed="#R" n="43"/>15. dicit, quod irascibilis, &amp; concupiscibilis 
+      distin<lb ed="#R" n="44" break="no"/>guuntur, sicut potentiae in sensitiuo, &amp; 
+      intellecti<lb ed="#R" n="45" break="no"/>uo, sicut vires, nisi vt potentiae. Probat autem 
+      <lb ed="#R" n="46"/>quod sicuti in intellectu non irascimur per iudicium 
+      <lb ed="#R" n="47"/>rationis, quando iudicat. Item spes est in 
+      volun<lb ed="#R" n="48" break="no"/>tate, quae est actus irascibilis, vnde ponit 
+      charita<lb ed="#R" n="49" break="no"/>tem in concupiscibili, &amp; spem in irascibili. Tamen 
+      <lb ed="#R" n="50"/>alius modus probandi eius est melior, quia non 
+      <lb ed="#R" n="51"/>potest negare, quin in voluntate sit timor, qui 
+      <lb ed="#R" n="52"/>est, donec sit tempus, scilicet cum alia actus 
+      ira<lb ed="#R" n="53" break="no"/>scibilis. Similiter autem actus sperandi, &amp; spes, 
+      <lb ed="#R" n="54"/>&amp; dico, non solum est spes actus desiderandi. 
+      <lb ed="#R" n="55"/>Imo est quodam electio, &amp; sic oportet 
+      ponere<lb ed="#R" n="56" break="no"/>aliam virtutem a charitate, &amp; fide: sunt ergo actus 
+      <lb ed="#R" n="57"/>irascibilis in voluntate, sed non vt sunt passiones: 
+      <lb ed="#R" n="58"/>rationem autem, quare non, quaere in tertio 
+      quae<lb ed="#R" n="59" break="no"/>stione: Vtrum in Christo fuit verus dolor. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e1673">
+                  <lb ed="#R" n="60"/>Vlterius dicit iste, quod distinguuntur in 
+      appe<lb ed="#R" n="61" break="no"/>titu intellectiuo, sicut vires, non sicut potentiae, 
+      ra<lb ed="#R" n="62" break="no"/>tio sua talis est, quando aliqua duo sic se habent, 
+      <lb ed="#R" n="63"/>quod distinguuntur penes modum agendi, &amp; 
+      patien<lb ed="#R" n="64" break="no"/>di, alia aūt duo sic se habent, quod non 
+      distinguun<lb ed="#R" n="65" break="no"/>tur, nisi penes modū patiendi, vel solū agendi, 
+      pri<lb ed="#R" n="66" break="no"/>ma duo distinguuntur, vt potentiae, alia vero duo 
+      <lb ed="#R" n="67"/>duo non, vt duae potentiae: sed irascibilis, &amp; 
+      concu<lb ed="#R" n="68" break="no"/>piscibilis in sensitiuo distinguuntur penes modos 
+      <!--0493.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>agendi, &amp; patiendi, quia anima concupiscendo agit, 
+      <lb ed="#R" n="70"/>Jrascendo patitur, &amp; ratio est, quia appetitus 
+      sen<lb ed="#R" n="71" break="no"/>sitiuus mouet, &amp; mouetur: ergo: sed voluntas est 
+      <lb ed="#R" n="72"/>mouens non mota, &amp; ideo solum differunt 
+      irascibi<lb ed="#R" n="73" break="no"/>lis, &amp; concupiscibilis in voluntate penes modum 
+      <lb ed="#R" n="74"/>agendi, &amp; sic non distinguuntur, vt potentiae: sed 
+      <lb ed="#R" n="75"/>alia distinctione sint vires.
+      </p>
+               <p xml:id="olm8ij-g52840-d1e1715">
+                  <lb ed="#R" n="76"/>Item, quando aliqua duo sic se habent, quod vnum 
+      <lb ed="#R" n="77"/>oritur ab alio, &amp; ordinatur ad illud, iam non sunt 
+      <lb ed="#R" n="78"/>duae potentiae, licet sint duae vires: sed in voluntate 
+      <lb ed="#R" n="79"/>actus irascibilis, oritur ab actibus concupiscibilis. 
+      <lb ed="#R" n="80"/>&amp; ordinatur ad illos: ergo. Minor patet 8. de 
+      ani<lb ed="#R" n="81" break="no"/>mal. Item irascor quia desidero aliquid. Ideo 
+      ira<lb ed="#R" n="82" break="no"/>scor impedienti. Item ideo repellis, vt delectetur 
+      <lb ed="#R" n="83"/>concupiscibilis, &amp; sic est ibi ordo, quod etiam 
+      oriun<lb ed="#R" n="84" break="no"/>tur passiones irascibilis a concupiscibili, patet, 
+      quo<lb ed="#R" n="85" break="no"/>niam aliqua animalia repugnant propter cibum, vel 
+      <lb ed="#R" n="86"/>propter coitum, vel nidum, &amp; sic sunt duae vires, 
+      <lb ed="#R" n="87"/>quoni am non pont appetitus quiescere, nisi repellat. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e1744">
+                  <lb ed="#R" n="88"/>Sed contra: non capio aliud per vires, quam per 
+      <lb ed="#R" n="89"/>potentias, vegetatiuam, sensitiuam, intellectiuam 
+      di<lb ed="#R" n="90" break="no"/>cuntur a Philosophis vires, quae tamen sunt 
+      poten<lb ed="#R" n="91" break="no"/>tiae, &amp; sic non video, quid vocas vim, nisi forte vim 
+      <lb ed="#R" n="92"/>voces vltimum de potentia, &amp; hoc non est nisi actus 
+      <lb ed="#R" n="93"/>in potentia cum vltimo gradu conatus, vel vltimo 
+      <lb ed="#R" n="94"/>conatu, &amp; ita tua distinctio nihil valet, sic 
+      intelligem<lb ed="#R" n="95" break="no"/>do vires. Nam actus irascibilis non est vltimum de 
+      <lb ed="#R" n="96"/>potentia, quia spes non dicit vltimum de potentia. 
+      <lb ed="#R" n="97"/>Item secundum eum potentiae dicuntur respectus: 
+      <lb ed="#R" n="98"/>ergo duo sunt actus respectu concupiscibilis, &amp; 
+      ira<lb ed="#R" n="99" break="no"/>scibilis: ergo alij, &amp; alij respectus, &amp; ita distincta 
+      <lb ed="#R" n="100"/>principia, &amp; potentiae. Si etiam voces vim, quia 
+      <lb ed="#R" n="101"/>actus sunt alterius rationis: hoc ego voco potentiam. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e1777">
+                  <lb ed="#R" n="102"/>Rationes autem non concludunt, cum dicit 
+      Phi<lb ed="#R" n="103" break="no"/>losophus, differunt tam in sensitiuo, quam 
+      intellecti<lb ed="#R" n="104" break="no"/>uo: sed ibi sunt potentiae: hic ergo erunt vires, hoc 
+      <lb ed="#R" n="105"/>nihil concludit, quia vegetatiua, &amp; nutritiua plus 
+      <lb ed="#R" n="106"/>differunt, quam intellectus agens, &amp; possibilis. Sed 
+      <lb ed="#R" n="107"/>vegetatiua, &amp; nutritiua differunt, vt duae potentiae, 
+      <lb ed="#R" n="108"/>quod non est verum: ergo consequentia non est bona. 
+      <lb ed="#R" n="109"/>Alia autem ratio parum valet, quia aut intelligis 
+      <lb ed="#R" n="110"/>per (oririjentitatiue, vt quod irascibilis sic oriatur 
+      <lb ed="#R" n="111"/>a concupiscibili, &amp; hoc est falsum, quia ipsemet non 
+      <lb ed="#R" n="112"/>posuit nisi distinctionem rerum. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e1803">
+                  <lb ed="#R" n="113"/>Si dicas, quod vna supponit aliam, quia obiectum 
+      <lb ed="#R" n="114"/>vnius praesupponit obiectum alterius: tunc dico, 
+      <lb ed="#R" n="115"/>quod maior est falsa. Si vero intelligis 
+      fundamen<lb ed="#R" n="116" break="no"/>taliter, adhuc est falsa, vt patet de quibusdam, quae 
+      <lb ed="#R" n="117"/>adhuc differunt, vt potentiae. Dico ergo, quod 
+      con<lb ed="#R" n="118" break="no"/>cupiscibilis, &amp; irascibilis minus distinguuntur a 
+      <lb ed="#R" n="119"/>rationali appetitu, quam a sensitiuo, &amp; tamen dico 
+      <lb ed="#R" n="120"/>quod sunt duae potentiae. Hic dico tres conclusiones. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e1823">
+                  <lb ed="#R" n="121"/>Prima est. quod Irascibilis, &amp; Concupiscibilis 
+      di<lb ed="#R" n="122" break="no"/>stinguuntur, vt duae potentiae in sensitiuo. Secunda 
+      <lb ed="#R" n="123"/>est, quod in intellectiuo distinguuntur, vt duae 
+      po<lb ed="#R" n="124" break="no"/>tentiae in sensitiuo. Tertia, est quod minus 
+      distin<lb ed="#R" n="125" break="no"/>guuntur in intellectiuo, quam in sensitiuo.
+      </p>
+               <p xml:id="olm8ij-g52840-d1e1837">
+                  <lb ed="#R" n="126"/>Primam conclusionem, probo sic: Actus exigens 
+      <lb ed="#R" n="127"/>aliam, &amp; aliam qualitatem sensibilem, &amp; aliam 
+      <lb ed="#R" n="128"/>complexionem, exigit aliam, &amp; aliam potentiam: 
+      <lb ed="#R" n="129"/>sed actus illarum duarum coordinationum, exigūt 
+      <lb ed="#R" n="130"/>aliam &amp; aliam complexionem, &amp; aliam qualitate 
+      <lb ed="#R" n="131"/>sensibilem in corpore: ergo. Maior patet, quare 
+      <lb ed="#R" n="132"/>dico, quod exigunt qualitatem, quia 
+      Commen<lb ed="#R" n="133" break="no"/>tator a. vel 3. de anima dicit, quod actus vitales 
+      <lb ed="#R" n="134"/>non eliciuntur mediantibus qualitatibus; sed 
+      exi<lb ed="#R" n="135" break="no"/>gunt illas dispositiones corporales: si ergo isti 
+      <lb ed="#R" n="136"/>actus exigunt aliam, &amp; aliam qualitatem, patet, quod 
+      <!--0494.xml-->
+      <pb ed="#R" n="492"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>reducuntur ad diuersas potentias, sicut visus exigit. 
+      <lb ed="#R" n="2"/>humore glacialem, &amp; auditus aerem complantatũ; 
+      <lb ed="#R" n="3"/>&amp; adeo sunt istae qualitates alterius modi, quod 
+      <lb ed="#R" n="4"/>non possunt esse in eadem potentia, &amp; hoc 
+      contin<lb ed="#R" n="5" break="no"/>git tam in actibus elicitis, quam non elicitis: sic 
+      <lb ed="#R" n="6"/>est memorari, idest retinere respectu intellectus non 
+      <lb ed="#R" n="7"/>arguit, nec exigit qualitatem: sed respectu 
+      sensi<lb ed="#R" n="8" break="no"/>tiuae requirit frigiditatem, &amp; siccitatem, quia 
+      <lb ed="#R" n="9"/>retinet in virtute humidi, &amp; sicci; sed 
+      imagina<lb ed="#R" n="10" break="no"/>tio, quae vtitur spiritibus calidis propter 
+      mobili<lb ed="#R" n="11" break="no"/>tatem spirituum, &amp; sic semper exiguntur diuersae 
+      <lb ed="#R" n="12"/>qualitates respectu diuersorum actuum: sic ergo 
+      <lb ed="#R" n="13"/>dico, quod duo actus, siue eliciti, siue non, qui 
+      re<lb ed="#R" n="14" break="no"/>quirunt alias dispositiones, &amp; complexiones 
+      cor<lb ed="#R" n="15" break="no"/>porales, sunt reducibiles ad diuersa organa, &amp; per 
+      <lb ed="#R" n="16"/>consequens ad diuersas potentias: sed illarum 
+      <lb ed="#R" n="17"/>duarum complexionum coordinatarum actus sunt 
+      <lb ed="#R" n="18"/>huiusmodi. Vnde corpus molle est aptum ad 
+      dele<lb ed="#R" n="19" break="no"/>ctandum, sed non ad pugnandum, vel irascendum, 
+      <lb ed="#R" n="20"/>sed oportet esse calidum, &amp; siccum. &amp; sic isti actus 
+      <lb ed="#R" n="21"/>reducuntur in aliam, &amp; aliam passionem, siue 
+      po<lb ed="#R" n="22" break="no"/>tentiam, &amp; sic in aliud, &amp; aliud organum, sicut 
+      <lb ed="#R" n="23"/>visus, &amp; auditus. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e1920">
+                  <lb ed="#R" n="24"/>Contra hoc videtur <quote xml:id="olm8ij-g52840-Qd1e1924">Commentator 3. de anima</quote>, 
+      <lb ed="#R" n="25"/>vbi dicit, quod totum est in eodem, sicut 
+      delecta<lb ed="#R" n="26" break="no"/>ri, &amp; irasci. Dico, quod forte sunt ambo in eodem, 
+      <lb ed="#R" n="27"/>sicut duo sensus in lingua, &amp; tamen tactus, &amp; 
+      gu<lb ed="#R" n="28" break="no"/>stus in lingua sunt, &amp; habent distincta organa, 
+      si<lb ed="#R" n="29" break="no"/>cut etiam organa distincta habent complexionem 
+      <lb ed="#R" n="30"/>aliam, &amp; aliam. Hoc de prima quaestione. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e1940">
+                  <lb ed="#R" n="31"/>Secunda Conclusio est, quod irascibilis, &amp; 
+      Con<lb ed="#R" n="32" break="no"/>cupiscibilis distinguuntur in intellectiuo, sicut duae 
+      <lb ed="#R" n="33"/>potentiae. Probo sic: Actus vitales, qui non 
+      exi<lb ed="#R" n="34" break="no"/>gunt in eliciente aliam, &amp; aliam qualitatem 
+      distin<lb ed="#R" n="35" break="no"/>guuntur penes alium modum intentionalem 
+      respe<lb ed="#R" n="36" break="no"/>ctu obiecti, &amp; penes obiectum, non autem penes 
+      <lb ed="#R" n="37"/>qualitates, sicut patet de intelligere, qui est 
+      mo<lb ed="#R" n="38" break="no"/>tus rei ad intra, &amp; in voluntate e conuerso ipsius, 
+      <lb ed="#R" n="39"/>scilicet voluntatis ad rem, quia intellectus ponit 
+      <lb ed="#R" n="40"/>obiectum in esse formato, in voluntate vero est 
+      <lb ed="#R" n="41"/>obiectum in esse transformato conditionato. Isti 
+      <lb ed="#R" n="42"/>autem duo modi sunt actus generales 
+      intentiona<lb ed="#R" n="43" break="no"/>les, ad quos omnes alij reducuntur, &amp; tunc quia 
+      <lb ed="#R" n="44"/>omnes actus intellectus sunt modus eodem modo 
+      <lb ed="#R" n="45"/>ferendi in obiectum, ideo non exigunt distinctam 
+      <lb ed="#R" n="46"/>potentiam. Ideo dico ex parte voluntatis. 
+      Quan<lb ed="#R" n="47" break="no"/>do autem inuenio, quod sunt tales modi 
+      diuerso<lb ed="#R" n="48" break="no"/>rum obiectorum, &amp; quod habent diuersum modum 
+      <lb ed="#R" n="49"/>serendi, tunc distinguuntur vt actus duarum 
+      po<lb ed="#R" n="50" break="no"/>tentiarum: talis ergo actuum distinctio arguit 
+      di<lb ed="#R" n="51" break="no"/>stinctionem potentiarum, sed si actus per specificas 
+      <lb ed="#R" n="52"/>rationes distinguuntur, non oportet reduci ad diuer 
+      <lb ed="#R" n="53"/>sas potentias, sicut est de actu sperandi, &amp; audendi. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e1992">
+                  <lb ed="#R" n="54"/>Item: actus habentes in se contrarietatem ad 
+      ean<lb ed="#R" n="55" break="no"/>dem potentiam reducuntur, vt est timere, &amp; 
+      au<lb ed="#R" n="56" break="no"/>dere: sperare, &amp; desperare, vt tales actus 
+      potentia<lb ed="#R" n="57" break="no"/>rum per qualitates sensibiles, quia carent organo: 
+      <lb ed="#R" n="58"/>ergo oportet, quod per vnum modum in genere; 
+      <lb ed="#R" n="59"/>ita quod sunt alterius generis, &amp; capio per alium 
+      mo<lb ed="#R" n="60" break="no"/>dum in genere, secundum potentias, vel gradus 
+      vita<lb ed="#R" n="61" break="no"/>litatis. Sed tota coordinatio Jrascibilis habet vnum 
+      <lb ed="#R" n="62"/>modum in genere, alium modum dico vitalitatis 
+      <lb ed="#R" n="63"/>respectu obiecti, &amp; alium modum coordinatio con 
+      <lb ed="#R" n="64"/>cupiscibilis, quia alius modus ferendi est 
+      simplici<lb ed="#R" n="65" break="no"/>ter in obiectum, &amp; alius modus est erigi: &amp; ratio 
+      <lb ed="#R" n="66"/>obedientialis est alterius rationis, quia bonum 
+      si<lb ed="#R" n="67" break="no"/>ue ratio bonitatis habet trahere: sed altitudo, siue 
+      <lb ed="#R" n="68"/>arduitas assurgere, &amp; sic ex ratione obedientiali, &amp; 
+      <!--0494.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>modo agendi istae potentiae distingnuntur. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e2034">
+                  <lb ed="#R" n="70"/>Et si dicas, quod actus Jrascibilis exigit bonum 
+      <lb ed="#R" n="71"/>arduum; dico, quod ratio bonitatis, &amp; arduitatis sunt 
+      <lb ed="#R" n="72"/>duae rationes; ita quod spes, &amp; huiusmodi sunt respe 
+      <lb ed="#R" n="73"/>ctu boni desiderati, ex quo illa oritur, &amp; desperatio 
+      <lb ed="#R" n="74"/>prosternitur. Similiter timor respecu mali oditi, 
+      <lb ed="#R" n="75"/>&amp; audacia, hic erigitur, ille prosternitur. Ira 
+      ve<lb ed="#R" n="76" break="no"/>ro est respectu mali iam habiti, &amp; experti, &amp; ideo 
+      <lb ed="#R" n="77"/>prae supponit actum tristitiae, &amp; sic ratio bonitatis 
+      <lb ed="#R" n="78"/>non est ratio obiectiua Jrascibilis, licet praeexigatur. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e2056">
+                  <lb ed="#R" n="79"/>Vltimo quantum ad tertiam conclusionem, 
+      di<lb ed="#R" n="80" break="no"/>co, quod minus distinguuntur in intellectiuo, quam 
+      <lb ed="#R" n="81"/>in sensitiuo penes modum vitalis alium, &amp; rationem 
+      <lb ed="#R" n="82"/>obiectiuam, &amp; per organum, in intellectiuo autem 
+      <lb ed="#R" n="83"/>solum duobus modis, quia non per organum. Hoc 
+      <lb ed="#R" n="84"/>de totali quaestione. 
+      </p>
+               <p xml:id="olm8ij-g52840-d1e2073">
+                  <lb ed="#R" n="85"/>Rationes pro tertia Conclusione sunt pro me.
+      </p>
+               <p xml:id="olm8ij-g52840-d1e2078">
+                  <lb ed="#R" n="86"/>Ad argumenta alterius positionis, dico, quod 
+      <lb ed="#R" n="87"/>consequentia non tenet, quando vnus modus 
+      vita<lb ed="#R" n="88" break="no"/>lis est in potentia obiectiua: sed iudicare distingui, 
+      <lb ed="#R" n="89"/>aut in ratione iudicij, &amp; ponere obiectum in esse 
+      <lb ed="#R" n="90"/>formato in omnibus potentijs, vt est distinctio. Sed 
+      <lb ed="#R" n="91"/>quia speciei est alia, &amp; alia receptio, &amp; speciei 
+      re<lb ed="#R" n="92" break="no"/>ceptae in organo impressio, &amp; ideo in oculo exigit 
+      <lb ed="#R" n="93"/>dyaphanum, in aure aerem frangibilem: sed 
+      di<lb ed="#R" n="94" break="no"/>stinguitur potentia ex hoc, quod species alterius 
+      <lb ed="#R" n="95"/>rationis reperitur, &amp; organum alterius rationis: 
+      <lb ed="#R" n="96"/>sed in appetitu intellectiuo distinguuntur penes 
+      <lb ed="#R" n="97"/>modos diuersos, qui sunt trahi, &amp; erigi. &amp; haec de 
+      <lb ed="#R" n="98"/>omnibus. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

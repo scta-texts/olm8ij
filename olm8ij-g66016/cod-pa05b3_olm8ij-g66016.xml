@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-14">April 14, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b3">Roma 1605, Book 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-14" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="527"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-g66016"><!-- l3-d35q1 -->
+            <head xml:id="olm8ij-g66016-Hd1e101">Quaestio 1</head>
+            <p xml:id="olm8ij-g66016-d1e103">
+               <lb ed="#R" n="4"/>DISTINCTIO XXXV. 
+      <lb ed="#R" n="5"/>Quaestio Vnica. 
+      <lb ed="#R" n="6"/>DE DONJS SAPJENTJAE, 
+      <lb ed="#R" n="7"/>ET SCJENTJAE, JNTELLECTVS, 
+      <lb ed="#R" n="8"/>ET CONSILII. 
+      </p>
+            <div xml:id="olm8ij-g66016-Dd1e116">
+               <head xml:id="olm8ij-g66016-Hd1e118">Articulus 1</head>
+               <head xml:id="olm8ij-g66016-Hd1e120" type="question-title">
+        Utrum quatuor dona, scilicet Intellectus, 
+        Sapientia, Scientia, et Consilium distinguantur 
+        vita actiua, et contemplatiua
+      </head>
+               <p xml:id="olm8ij-g66016-d1e123">
+                  <lb ed="#R" n="9"/>ARTJCVLVS J. 
+      <lb ed="#R" n="10"/>Vtrum quatuor dona, scilicet Intellectus, 
+      Sapien<lb ed="#R" n="11" break="no"/>tia, Scientia, &amp; Consilium distinguantur 
+      <lb ed="#R" n="12"/>vita actiua, &amp; contemplatiua 
+      </p>
+               <p xml:id="olm8ij-g66016-d1e134">
+                  <lb ed="#R" n="13"/>VIDETVR, quod non, 
+      <lb ed="#R" n="14"/>quia ista omnia pertinent 
+      <lb ed="#R" n="15"/>ad intellectum. Contra 
+      <lb ed="#R" n="16"/>Augustinus, qui dicit, quod 
+      <lb ed="#R" n="17"/>per scientiam 
+      administra<lb ed="#R" n="18" break="no"/>mus temporalia. Respon 
+      <lb ed="#R" n="19"/>deo primo, quod de istis 
+      <lb ed="#R" n="20"/>quatuor bonis, quae 
+      perti<lb ed="#R" n="21" break="no"/>nent ad Intellectum, 
+      di<lb ed="#R" n="22" break="no"/>cunt aliqui, quod Intellectus, &amp; Scientia sunt in 
+      <lb ed="#R" n="23"/>portione superiori, ita quod inuenire pertinet ad 
+      <lb ed="#R" n="24"/>Intellectum, &amp; iudicare de inuentis ad Sapientiam. 
+      <lb ed="#R" n="25"/>In parte autem inferiori inuenire pertinet ad Con 
+      <lb ed="#R" n="26"/>silium, iudicare ad Scientiam. Sed hoc non 
+      vide<lb ed="#R" n="27" break="no"/>tur valere, quia ista dona non possunt a Charitate 
+      <lb ed="#R" n="28"/>separari, modo praedicti actus possunt esse sine 
+      <lb ed="#R" n="29"/>Charitate, &amp; informes. Vnde dicendum, quod 
+      a<lb ed="#R" n="30" break="no"/>ctus interior non sunt inuenire, &amp; iudicare sic 
+      ab<lb ed="#R" n="31" break="no"/>solute sumpta: sed sunt vltimati actus ipsius 
+      Intel<lb ed="#R" n="32" break="no"/>lectus, qui a Charitate non separantur. Vnde bene 
+      <lb ed="#R" n="33"/>sciendum, quod intellectus potest sumi, vt est 
+      prin<lb ed="#R" n="34" break="no"/>cipium mouendi voluntatem ad intra, vel ad 
+      ex<lb ed="#R" n="35" break="no"/>tra in exequendo. Si ad intra, sic mouet 
+      duplici<lb ed="#R" n="36" break="no"/>ter voluntatem ad contemplationem interiorem; 
+      <lb ed="#R" n="37"/>vno modo ex consideratione Deitatis &amp; 
+      beatitu<lb ed="#R" n="38" break="no"/>dinis, secundum quod vltimatum iudicium est 
+      vi<lb ed="#R" n="39" break="no"/>dere, &amp; sic dicitur Sapientia. Alio modo 
+      consi<lb ed="#R" n="40" break="no"/>derando alia temporalia, puta considerando 
+      pas<lb ed="#R" n="41" break="no"/>sionem Christi, &amp; huiusmodi, in quantum est 
+      in<lb ed="#R" n="42" break="no"/>vltimato videre, ad quod est complacentia in 
+      <lb ed="#R" n="43"/>voluntate, &amp; hoc pertinet ad Scientiam. Si autem 
+      <lb ed="#R" n="44"/>accipiatur Intellectus in quantum est principium 
+      <lb ed="#R" n="45"/>mouendi voluntatem extra, puta ad operandum 
+      <lb ed="#R" n="46"/>extra, tunc est dupliciter, vel consiliando principia, 
+      <lb ed="#R" n="47"/>vel operando, vnde aliqui obtusi nihil possunt 
+      con<lb ed="#R" n="48" break="no"/>siderare, nec operari: sic igitur considerando 
+      prin<lb ed="#R" n="49" break="no"/>cipia agibilia vltimate dicitur Intellectus: sed 
+      re<lb ed="#R" n="50" break="no"/>spectu futurorum dicetur Consilium. 
+      </p>
+               <p xml:id="olm8ij-g66016-d1e219">
+                  <lb ed="#R" n="51"/>Secundo, dicendum, quod vita contemplatiua &amp; 
+      <lb ed="#R" n="52"/>actiua distinguuntur per ista dona, nam vita 
+      con<lb ed="#R" n="53" break="no"/>templatiua exercetur per donum Sapientiae, &amp; Scien- 
+      <!--0529.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="54"/>tiae; vita autem actiua per donum Intellectus, &amp; 
+      <lb ed="#R" n="55"/>Consilij. 
+      </p>
+               <p xml:id="olm8ij-g66016-d1e238">
+                  <lb ed="#R" n="56"/>Tertio dicendum, quod vita contemplatiua est 
+      <lb ed="#R" n="57"/>nobilior actiua, quantum est ex parte obiecti, quod 
+      <lb ed="#R" n="58"/>est nobilius, quantum ex parte potentiarum, cum 
+      <lb ed="#R" n="59"/>pertineat ad rationem superiorem saltem magis, &amp; 
+      <lb ed="#R" n="60"/>quantum est ex actibus, quia actus 
+      contemplati<lb ed="#R" n="61" break="no"/>uae sunt directiui &amp; imperatiui, respectu actuum 
+      a<lb ed="#R" n="62" break="no"/>ctiuae, qui sunt actus imperati &amp; directi per actus 
+      <lb ed="#R" n="63"/>contemplatiuae. Secundo, quia actiua est magis 
+      <lb ed="#R" n="64"/>meritoria quantum ad satisfactionem pro 
+      pecca<lb ed="#R" n="65" break="no"/>tis, quia est magis laboriosa: sed quantum ad 
+      prae<lb ed="#R" n="66" break="no"/>mium essentiale contemplatiua est magis 
+      merito<lb ed="#R" n="67" break="no"/>ria. Ad argumentum patet, sic enim pertinet ad 
+      <lb ed="#R" n="68"/>Intellectum, quod mouet voluntatem, 
+      </p>
+            </div>
+            <div xml:id="olm8ij-g66016-Dd1e270">
+               <head xml:id="olm8ij-g66016-Hd1e272">Articulus 2</head>
+               <head xml:id="olm8ij-g66016-Hd1e274" type="question-title">
+          Utrum habitus Prudentiae possit esse in Intellectu, 
+          absque hoc quod habitus morales sint 
+          in voluntate
+        </head>
+               <p xml:id="olm8ij-g66016-d1e277">
+                  <lb ed="#R" n="69"/>ARTJCVLVS JJ. 
+      <lb ed="#R" n="70"/>Vtrum habitus Prudentiae possit esse in Intellectu, 
+      <lb ed="#R" n="71"/>absque hoc quod habitus morales sint 
+      <lb ed="#R" n="72"/>in voluntate. 
+      </p>
+               <p xml:id="olm8ij-g66016-d1e288">
+                  <lb ed="#R" n="73"/>Videtur quod sic, quia primum potest 
+      separa<lb ed="#R" n="74" break="no"/>Vri a suo posteriori: sed habitus Prudentiae prior 
+      <lb ed="#R" n="75"/>est alijs habitibus moralibus, quia dictamen, quod 
+      <lb ed="#R" n="76"/>pertinet ad Prudentiam praecedit electionem, &amp; 
+      <lb ed="#R" n="77"/>executionem, quod pertinet ad caeteras Morales 
+      <lb ed="#R" n="78"/>virtutes. Et confirmatur, quia 2. Ethic. dicitur, quod 
+      <lb ed="#R" n="79"/>virtus est habitus elicitiuus immediate consistens, 
+      <lb ed="#R" n="80"/>prout sapiens determinabit, ita quod 
+      determina<lb ed="#R" n="81" break="no"/>tio sapientis, vel prudentis prior est habitu morali.
+    </p>
+               <p xml:id="olm8ij-g66016-d1e310">
+                  <lb ed="#R" n="82"/>Contra 6. Ethic. Impossibile est prudentem esse 
+      <lb ed="#R" n="83"/>sine virtute. Respondeo: Primo pono punctum 
+      <lb ed="#R" n="84"/>quaestionis, qui est in hoc, quod de hoc sunt tres 
+      o<lb ed="#R" n="85" break="no"/>piniones. Vna est, quod habitus Prudentiae potest 
+      <lb ed="#R" n="86"/>acquiri in intellectu, sine hoc quod habitus 
+      mora<lb ed="#R" n="87" break="no"/>les acquirantur in appetitu. Cuius ratio est, quia 
+      <lb ed="#R" n="88"/>Prudentia acquiritur per actus, qui sunt in recto 
+      <lb ed="#R" n="89"/>dictamine rationis, puta in iudicando recte, &amp; 
+      in<lb ed="#R" n="90" break="no"/>ueniendo medium rationis. Modo talis actus, vel 
+      <lb ed="#R" n="91"/>tale dictamen potest esse in intellectu, sine hoc, 
+      <lb ed="#R" n="92"/>quod sit electio in voluntate, quia voluntas potest 
+      <lb ed="#R" n="93"/>moueri contra iudicium rationis, etiam in 
+      parti<lb ed="#R" n="94" break="no"/>culari, secundum quod dicit Arist. ex actibus 
+      fre<lb ed="#R" n="95" break="no"/>quentatis potest aggenerari in Intellectu habitus 
+      <lb ed="#R" n="96"/>Prudentiae, &amp; tamen in voluntate non 
+      aggenerabi<lb ed="#R" n="97" break="no"/>tur aliquis habitus, quia voluntas non eliget 
+      con<lb ed="#R" n="98" break="no"/>formiter illis actibus intellectus. Vnde haec 
+      posi<lb ed="#R" n="99" break="no"/>tio fundatur super hoc, quod voluntas potest 
+      mo<lb ed="#R" n="100" break="no"/>ueri contra iudicium rationis, tam in vniuersali, 
+      <lb ed="#R" n="101"/>quam in particulari. &amp; confirmatur hoc per illud 
+      <lb ed="#R" n="102"/>quod habetur 2. Ethic. vbi dicitur, quod ad 
+      virtu<lb ed="#R" n="103" break="no"/>tem parum prodest scire, quasi diceret, quod 
+      vo<lb ed="#R" n="104" break="no"/>luntas in eligendo virtuose non sequitur ipsum 
+      <lb ed="#R" n="105"/>scire. Et 7. Ethic. reprobet Philosophus 
+      opinio<lb ed="#R" n="106" break="no"/>nem Socratis, qui ponebat virtutem scientiam 
+      <lb ed="#R" n="107"/>quia tunc nulla voluntas consormiter ageret ad 
+      <lb ed="#R" n="108"/>scientiam. Et Augustinus dicit, quod vnum 
+      absor<lb ed="#R" n="109" break="no"/>bet hominem, qui dicit voluntatem moliri contra 
+      <lb ed="#R" n="110"/>iudicium rationis, in damnatis non esset vermis 
+      <lb ed="#R" n="111"/>conscientiae, qui est hoc, quod bene videt, qnod 
+      <lb ed="#R" n="112"/>male egerunt, &amp; tamen non poenitent, nec 
+      displi<lb ed="#R" n="113" break="no"/>cet eis.
+    </p>
+               <p xml:id="olm8ij-g66016-d1e383">
+                  <lb ed="#R" n="114"/>Alia est opinio praedictae contraria, quod 
+      im<lb ed="#R" n="115" break="no"/>possibile est Prudentiam esse, vel acquiri in 
+      intel<lb ed="#R" n="116" break="no"/>lectu, quin sint, vel acquirantur virtutes Morales 
+      <lb ed="#R" n="117"/>in appetitu: &amp; ratio est ex fundamento opposi- 
+      <!--0530.xml-->
+      <pb ed="#R" n="528"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>to, quia scilicet voluntas non potest moueri 
+      con<lb ed="#R" n="2" break="no"/>tra iudicium rationis in particulari, vt patet 7. 
+      <lb ed="#R" n="3"/>Ethic. Licet enim voluntas possit agere contra 
+      <lb ed="#R" n="4"/>scientiam in habitu, vel contra scientiam in actu, 
+      <lb ed="#R" n="5"/>&amp; in vniuersali, non tamen contra scientiam in 
+      <lb ed="#R" n="6"/>actu, &amp; in particulari in tertio, quod ignorat 
+      om<lb ed="#R" n="7" break="no"/>nis malus: voluntas ergo conformiter eligit 
+      ip<lb ed="#R" n="8" break="no"/>si actui rationis, &amp; tunc per consequens ex 
+      a<lb ed="#R" n="9" break="no"/>ctibus voluntatis conformibus actibus rationis 
+      <lb ed="#R" n="10"/>aggeneratur habitus informis, &amp; virtuosus in 
+      vo<lb ed="#R" n="11" break="no"/>luntate. 
+    </p>
+               <p xml:id="olm8ij-g66016-d1e425">
+                  <lb ed="#R" n="12"/>Tertia opinio concordat cum prima quantum 
+      <lb ed="#R" n="13"/>ad hoc, quod voluntas potest moueri contra 
+      iudi<lb ed="#R" n="14" break="no"/>cium rationis, &amp; quod in Intellectu potest 
+      aggene<lb ed="#R" n="15" break="no"/>rari habitus ex dictamine ratione, sine hoc quod 
+      <lb ed="#R" n="16"/>aggeneretur habitus conformis in voluntate: sed 
+      <lb ed="#R" n="17"/>tamen discordat in hoc, quod dicit, quod talis 
+      <lb ed="#R" n="18"/>habitus non esset habitus Prudentiae, quae 
+      genera<lb ed="#R" n="19" break="no"/>tur ex actibus, qui sunt secundum dictamen rectae 
+      <lb ed="#R" n="20"/>rationis; sed oportet quod illi sint conformes 
+      ap<lb ed="#R" n="21" break="no"/>petitui recto. &amp; in hoc concordat cum secunda 
+      o<lb ed="#R" n="22" break="no"/>pinione, scilicet quod Prudentia non potest esse 
+      <lb ed="#R" n="23"/>in intellectu, quin virtus Moralis ponatur in 
+      ap<lb ed="#R" n="24" break="no"/>petitu. 
+    </p>
+               <p xml:id="olm8ij-g66016-d1e456">
+                  <lb ed="#R" n="25"/>Secundo pono vnam distinctionem, per quam 
+      <lb ed="#R" n="26"/>praedictae opiniones possunt ad concordiam 
+      redu<lb ed="#R" n="27" break="no"/>ci, &amp; alias ponenda est, sed magis explicabitur, &amp; 
+      <lb ed="#R" n="28"/>est quod duplex est iudicium rationis, quod est 
+      a<lb ed="#R" n="29" break="no"/>ctus intellectus, &amp; intelligere, vnum est quod 
+      at<lb ed="#R" n="30" break="no"/>tribuitur Sinesi, &amp; formatur in intellectu 
+      iudica<lb ed="#R" n="31" break="no"/>tiue, &amp; per modum enunciationis, &amp; sequitur 
+      na<lb ed="#R" n="32" break="no"/>turam rei, vel obiecti, dicendo, hoc est faciendum, 
+      <lb ed="#R" n="33"/>vel non faciendum. Aliud est iudicium, quod 
+      dici<lb ed="#R" n="34" break="no"/>tur imperium, siue vltimatum videre, &amp; est actus 
+      <lb ed="#R" n="35"/>Prudentiae, vt patet 6. Ethic. &amp; non formatur 
+      iudi<lb ed="#R" n="36" break="no"/>catiue, vel non enunciatiue, sed magis 
+      imperati<lb ed="#R" n="37" break="no"/>ue, ita quod imponit verbum imperatiuum 
+      dicen<lb ed="#R" n="38" break="no"/>do fac hoc: hoc enim imperium licet sit ex 
+      volun<lb ed="#R" n="39" break="no"/>tate determinatiue, &amp; actiue, tamen elicitiue &amp; 
+      <lb ed="#R" n="40"/>subiectiue est ipsius intellectus, cuius est 
+      compone<lb ed="#R" n="41" break="no"/>re, &amp; diuidere. Iste autem consistit in 
+      compositio<lb ed="#R" n="42" break="no"/>ne quadam imperatiua, vel in diuisione, si sit 
+      iudi<lb ed="#R" n="43" break="no"/>cium negatiuum, &amp; non sequitur materiam rei, sed 
+      <lb ed="#R" n="44"/>libertatem iudicantis; ita quod istud iudicium, 
+      <lb ed="#R" n="45"/>vel imperium est in libertate hominis, &amp; hoc per 
+      <lb ed="#R" n="46"/>voluntatem determinantem, non per actum 
+      ali<lb ed="#R" n="47" break="no"/>quem, sed ex natura sua habet, quod potest sine 
+      <lb ed="#R" n="48"/>actu elicito intellectum ad tale iudicium 
+      determi<lb ed="#R" n="49" break="no"/>nare, &amp; ad intellectum elicere. In coniunctione 
+      <lb ed="#R" n="50"/>istarum potentiarum consistit libertas, &amp; ex 
+      vtra<lb ed="#R" n="51" break="no"/>que dependet praedictum iudicium, &amp; sic istud 
+      iu<lb ed="#R" n="52" break="no"/>cium sequitur libertatem iudicantis, non 
+      mate<lb ed="#R" n="53" break="no"/>riam obiecti: modo voluntas potest venire 
+      con<lb ed="#R" n="54" break="no"/>tra primum iudicium, quod est per modum 
+      <lb ed="#R" n="55"/>enunciationis, &amp; sic dicit verum secunda 
+      opi<lb ed="#R" n="56" break="no"/>nio. 
+      </p>
+               <p xml:id="olm8ij-g66016-d1e528">
+                  <lb ed="#R" n="57"/>Sed contra istud secundum, quod est imperium 
+      <lb ed="#R" n="58"/>non potest venire voluntas, vt quilibet etiam in se 
+      <lb ed="#R" n="59"/>potest experiri, vt dicit prima opinio, &amp; loquendo 
+      <lb ed="#R" n="60"/>de isto secundo iudicio, verum est, quod ignorat 
+      <lb ed="#R" n="61"/>omnis malus. 
+      </p>
+               <p xml:id="olm8ij-g66016-d1e541">
+                  <lb ed="#R" n="62"/>Tertio, pono propositiones aliquas. Prima, est 
+      <lb ed="#R" n="63"/>quod impossibile est actum Prudentiae proprie 
+      di<lb ed="#R" n="64" break="no"/>ctum esse in intellectu, quin sit actus virtutis Moralis 
+      <lb ed="#R" n="65"/>in voluntate. Loquor autem hic de actu virtutis, vel 
+      <lb ed="#R" n="66"/>Prudentiae, non qui procedit ab habitu, sed qui 
+      dici<lb ed="#R" n="67" break="no"/>tur actus vniuerialis actui virtutis, ex quo nata est 
+      <!--0530.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>aggenerari habitus virtutis: &amp; hoc probo, quod 
+      <lb ed="#R" n="69"/>impossibile est, quod in Intellectu sit vltimatum 
+      <lb ed="#R" n="70"/>videre, vel imperium, quod pertinet ad Intellectum 
+      <lb ed="#R" n="71"/>quin in voluntate sit elicitio, &amp; operatio(non 
+      tar<lb ed="#R" n="72" break="no"/>ditas adsit) quia illud iudicium est vltimata deter 
+      <lb ed="#R" n="73"/>minatio, in qua finitur totus processus intellectus. 
+      <lb ed="#R" n="74"/>Nec illud est solum Intellectus, sed totius liberi 
+      ar<lb ed="#R" n="75" break="no"/>bitrij, quod includit voluntatem, &amp; intellectum, &amp; 
+      <lb ed="#R" n="76"/>ideo quando ex libertate fiunt, in hoc concordant, 
+      <lb ed="#R" n="77"/>&amp; conueniunt intellectus, &amp; voluntas, quod volun 
+      <lb ed="#R" n="78"/>tas actiue determinat, &amp; Intellectus elicit, 
+      dicen<lb ed="#R" n="79" break="no"/>do, Fac hoc: impossibile est quin sequatur elicitio 
+      <lb ed="#R" n="80"/>in voluntate, vel appetitus conformis cum tali 
+      iu<lb ed="#R" n="81" break="no"/>dicio: modo iste actus est proprie ipsius Prudentiae, 
+      <lb ed="#R" n="82"/>&amp; elicitio conformis tali ratione est actus virtutis 
+      <lb ed="#R" n="83"/>Moralis: ergo. 
+      </p>
+               <p xml:id="olm8ij-g66016-d1e596">
+                  <lb ed="#R" n="84"/>Secunda Conclusio, quod actus Prudentiae potest 
+      <lb ed="#R" n="85"/>esse in intellectu, &amp; tamen habitus oppositus 
+      virtu<lb ed="#R" n="86" break="no"/>ti Morali, puta vitium, est in appetitu, &amp; in 
+      volun<lb ed="#R" n="87" break="no"/>tate, sicut aliquis potest habere istum actum in 
+      ma<lb ed="#R" n="88" break="no"/>teria Temperantiae, abstinere ab hac delectatione, 
+      <lb ed="#R" n="89"/>&amp; tamen habitus viciosus est in appetitu inclinans 
+      <lb ed="#R" n="90"/>talem ad istam delectationem contra iudicium 
+      <lb ed="#R" n="91"/>rationis., &amp; hoc patet per locum a minori, 
+      quate<lb ed="#R" n="92" break="no"/>nus videretur, quod talis habitus vitiosus staret 
+      <lb ed="#R" n="93"/>cum actu virtutis illius, cui illud vitium 
+      formali<lb ed="#R" n="94" break="no"/>ter opponitur, &amp; tamen cum illo stat. Nam aliquis 
+      <lb ed="#R" n="95"/>potest habere actum elicitum, quod vult &amp; eligit 
+      <lb ed="#R" n="96"/>abstinere, &amp; tamen cum hoc stat habitus 
+      intempe<lb ed="#R" n="97" break="no"/>rantiae, quae inclinat ipsum ad comedendum: &amp; 
+      <lb ed="#R" n="98"/>ratio est, quia habitus vitiosus acquisitus non 
+      cor<lb ed="#R" n="99" break="no"/>rumpitur per vnum actum, &amp; ideo potest stare cum 
+      <lb ed="#R" n="100"/>actu virtuoso contrario actui illius habitus 
+      virtuo<lb ed="#R" n="101" break="no"/>si: multo ergo magis actus Prudentiae, idest qui 
+      ag<lb ed="#R" n="102" break="no"/>generatur Prudentiae, si frequentetur, stat cum 
+      ha<lb ed="#R" n="103" break="no"/>bitu opposito virtuti Morali in appetitu. 
+      </p>
+               <p xml:id="olm8ij-g66016-d1e643">
+                  <lb ed="#R" n="104"/>Tertia Propositio, quod impossibile est habitum 
+      <lb ed="#R" n="105"/>Prudentiae acquiri in Intellectu, quin habitus 
+      Mo<lb ed="#R" n="106" break="no"/>ralis conformis acquiratur in appetitu, &amp; hoc 
+      pa<lb ed="#R" n="107" break="no"/>tet ex dictis, sic: Quando aliqui actus sunt 
+      conne<lb ed="#R" n="108" break="no"/>xi in acquirendo, &amp; in essendo, &amp; in 
+      multiplicatio<lb ed="#R" n="109" break="no"/>ne, vel frequentatione, necessario habitus per istos 
+      <lb ed="#R" n="110"/>generati sunt connexi: eodem modo actus 
+      Pru<lb ed="#R" n="111" break="no"/>dentiae, &amp; virtutis Moralis sunt ita connexi, quod 
+      <lb ed="#R" n="112"/>posito actu Prudentiae in Intellectu ponatur actus 
+      <lb ed="#R" n="113"/>virtutis in appetitu, &amp; srequentato illo necessario 
+      <lb ed="#R" n="114"/>frequentetur iste, vt patet ex dictis: ergo si 
+      agge<lb ed="#R" n="115" break="no"/>neratur habitus in Intellectu ex actibus 
+      Pruden<lb ed="#R" n="116" break="no"/>tiae, necessario aggenerabitur virtus Moralis in 
+      ap<lb ed="#R" n="117" break="no"/>petitu. 
+      </p>
+               <p xml:id="olm8ij-g66016-d1e676">
+                  <lb ed="#R" n="118"/>Quarta Propositio, quod impossibile est 
+      habi<lb ed="#R" n="119" break="no"/>tum Prudentiae esse in Intellectu, quin omnes 
+      vir<lb ed="#R" n="120" break="no"/>tutes Morales, quae distinguuntur per 
+      Pruden<lb ed="#R" n="121" break="no"/>tiam, sint in appetitu, &amp; haec est intentio 
+      Philoso<lb ed="#R" n="122" break="no"/>phi expresse, licet aliqui velint contrarium 
+      som<lb ed="#R" n="123" break="no"/>niare: &amp; hoc probo primo, quia impossibile est 
+      <lb ed="#R" n="124"/>habitum Prudentiae esse in intellectu, quin in 
+      ap<lb ed="#R" n="125" break="no"/>petitu sit conformis habitus virtuosus, vt patet ex 
+      <lb ed="#R" n="126"/>immediate dictis: sed eidem habitui Prudentiae in 
+      <lb ed="#R" n="127"/>voluntate correspondent, &amp; sunt conformes 
+      om<lb ed="#R" n="128" break="no"/>nes virtutes Morales, ita quod vna exisens 
+      om<lb ed="#R" n="129" break="no"/>nes dirigit: ergo. Maior nota est, sed minor 
+      re<lb ed="#R" n="130" break="no"/>putatur dubia, &amp; ideo illam probo sic: Ille idem 
+      <lb ed="#R" n="131"/>habitus, qui sententiat de propositione 
+      vniuer<lb ed="#R" n="132" break="no"/>sali, sententiat de omni illa particulari, quae 
+      con<lb ed="#R" n="133" break="no"/>tinetur sua ista vniuersali, quia eodem habitu 
+      <lb ed="#R" n="134"/>scio, quod triangulus habet tres, quo quod hic 
+      <!--0531.xml-->
+      <pb ed="#R" n="529"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>triangulus conceptus in tali materia habet tres: 
+      <lb ed="#R" n="2"/>sed prudens habitu Prudentiae sententiat de 
+      pro<lb ed="#R" n="3" break="no"/>positione vniuersali, sub qua consistunt multae 
+      par<lb ed="#R" n="4" break="no"/>ticulares in materia determinata; ad prudentiam 
+      <lb ed="#R" n="5"/>enim pertinet sententiare de hac propositione 
+      <lb ed="#R" n="6"/>vniuersali, scilicet quod illud est agendum, quod 
+      <lb ed="#R" n="7"/>condecet secundum rectam rationem, &amp; 
+      secun<lb ed="#R" n="8" break="no"/>dum quod congruit huiusmodi, in quacumque 
+      ma<lb ed="#R" n="9" break="no"/>teria hoc sit: vnde ad synesim pertinet 
+      sententia<lb ed="#R" n="10" break="no"/>re, quod illud est faciendum quod condecet. Ad 
+      <lb ed="#R" n="11"/>proprium autem actum Prudentiae pertinet etiam 
+      <lb ed="#R" n="12"/>hoc, visis imperatis facere illud, quod condecet; 
+      <lb ed="#R" n="13"/>ita quod propter defectum alicuius praedictorum 
+      <lb ed="#R" n="14"/>dicitur imprudens: si enim haberet iudicium 
+      fa<lb ed="#R" n="15" break="no"/>ciendi omne illud quantum decet, &amp; non 
+      impera<lb ed="#R" n="16" break="no"/>ret illud faciendum, diceretur imprudens, quia 
+      <lb ed="#R" n="17"/>primum actum habet fatuus, qui bene iudicat 
+      fa<lb ed="#R" n="18" break="no"/>ciendum, quod condecet in quacumque materia, 
+      <lb ed="#R" n="19"/>sed non imperat: ergo ad eundem habitum 
+      Pru<lb ed="#R" n="20" break="no"/>dentiae pertinet in tali materia, &amp; vt nunc sentire 
+      <lb ed="#R" n="21"/>hoc pro nunc, &amp; in tali materia, puta 
+      Tempe<lb ed="#R" n="22" break="no"/>rantiae, vel Fortitudinis est facere quantum ad 
+      a<lb ed="#R" n="23" break="no"/>ctum synesis, &amp; hoc facere in tali modo, quantum 
+      <lb ed="#R" n="24"/>ad actum proprium ipsius Prudentiae, &amp; ideo non 
+      <lb ed="#R" n="25"/>sunt duae Prudentiae respectu vniuersalis, &amp; 
+      parti<lb ed="#R" n="26" break="no"/>cularis, vt quidam imaginantur: sed bene sunt duo 
+      <lb ed="#R" n="27"/>actus eiusdem Prudentiae, vnus in vniuersali, &amp; 
+      a<lb ed="#R" n="28" break="no"/>lius in particulari, &amp; sic est vna synesis, &amp; vna 
+      <lb ed="#R" n="29"/>Prudentia. Quomodo autem isti habitus 
+      distin<lb ed="#R" n="30" break="no"/>guantur, patet ex praedictis, cum actus synesis 
+      <lb ed="#R" n="31"/>ad Prudentiam pertinet, quia Synesis est species 
+      <lb ed="#R" n="32"/>Prudentiae. 
+    </p>
+               <p xml:id="olm8ij-g66016-d1e791">
+                  <lb ed="#R" n="33"/>Ad eandem minorem secundo arguo sic. quia 
+      <lb ed="#R" n="34"/>vt patet 6. Ethic. non est solum vniuersalium: sed 
+      <lb ed="#R" n="35"/>etiam particularium: ergo vna &amp; eadem 
+      vniuer<lb ed="#R" n="36" break="no"/>salia, &amp; particularia considerat. 
+      </p>
+               <p xml:id="olm8ij-g66016-d1e802">
+                  <lb ed="#R" n="37"/>Tertio, de ratione prudentis est cognoscere 
+      par<lb ed="#R" n="38" break="no"/>ticulare, tunc sic: illi actus pro certo pertinent ad 
+      <lb ed="#R" n="39"/>Prudentiam, quorum altero damnato aliquis 
+      di<lb ed="#R" n="40" break="no"/>citur imprudens: sed amoto actu, qui est circa 
+      <lb ed="#R" n="41"/>vniuersale, vel illo qui est circa particulare 
+      quod<lb ed="#R" n="42" break="no"/>cumque, statim aliquis dicitur imprudens. Si enim 
+      <lb ed="#R" n="43"/>aliquis non imperat faciendum omne, quod 
+      con<lb ed="#R" n="44" break="no"/>gruit, reputatur fatuus: similiter si non imperat 
+      <lb ed="#R" n="45"/>fiendum, quod fiendum est in materia 
+      Temperan<lb ed="#R" n="46" break="no"/>tiae, vel Fortitudinis, reputatur fatuus &amp; 
+      impru<lb ed="#R" n="47" break="no"/>dens: ergo. 
+      </p>
+               <p xml:id="olm8ij-g66016-d1e828">
+                  <lb ed="#R" n="48"/>Quarto: Si aliquis habitus respicit plura aliqua 
+      <lb ed="#R" n="49"/>per vnam rationem, oportet quod prius respiciat 
+      <lb ed="#R" n="50"/>illam rationem, &amp; tendat in illam principaliter, sed 
+      <lb ed="#R" n="51"/>Prudentia in omni materia eligit, vel praecipit 
+      <lb ed="#R" n="52"/>quod decet, inquantum est congruum, &amp; 
+      conde<lb ed="#R" n="53" break="no"/>cens, &amp; bonum rationis, quia isto amoto non 
+      in<lb ed="#R" n="54" break="no"/>cideret in illa, in quacumque materia esset: ergo 
+      <lb ed="#R" n="55"/>prius, &amp; principaliter tendit in illud, quod 
+      pri<lb ed="#R" n="56" break="no"/>mo condecet, &amp; est bonum rationis, in 
+      quacum<lb ed="#R" n="57" break="no"/>que materia sit. Vnde illi qui imaginantur, quod 
+      <lb ed="#R" n="58"/>iudicium Prudentiae proueniat ex inclinatione 
+      <lb ed="#R" n="59"/>speciali in tali materia, vt est medium in 
+      mate<lb ed="#R" n="60" break="no"/>ria Temperantiae, vel Fortitudinis, falsum 
+      imagi<lb ed="#R" n="61" break="no"/>nantur: sed totum illud iudicium tenet in virtute 
+      <lb ed="#R" n="62"/>illius, quod pertinet ad prudentem, quod 
+      praeci<lb ed="#R" n="63" break="no"/>pit facere, quod condecet in quauis materia 
+      Tem<lb ed="#R" n="64" break="no"/>perantiae, hoc condecet, ideo ad Prudentiam 
+      per<lb ed="#R" n="65" break="no"/>tinet hoc praecipere. 
+      </p>
+               <p xml:id="olm8ij-g66016-d1e870">
+                  <lb ed="#R" n="66"/>Quinto, sicut Vniuersale interimitur per vnum 
+      <lb ed="#R" n="67"/>singulare, ita tota Prudentia interimitur, &amp; tol- 
+      <!--0531.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>litur per vnum singularem actum oppositum ei, 
+      <lb ed="#R" n="69"/>quod condecet: si enim aliquis faciat, vel 
+      praeci<lb ed="#R" n="70" break="no"/>piat illud, quod non decet in materia 
+      Temperan<lb ed="#R" n="71" break="no"/>tiae, dicitur similiter imprudens: &amp; ratio haec est, 
+      <lb ed="#R" n="72"/>quia contradictio est, quod habeat vniuersalem, 
+      <lb ed="#R" n="73"/>&amp; quod habeat negationem particularis 
+      cuius<lb ed="#R" n="74" break="no"/>cumque, &amp; ideo contradictio est, quod habeat 
+      <lb ed="#R" n="75"/>hanc vniuersalem, volo facere illud, quod decet 
+      <lb ed="#R" n="76"/>vniuersaliter, &amp; quod in aliquo singulari velim 
+      <lb ed="#R" n="77"/>facere illud, quod non decet, in quacumque 
+      ma<lb ed="#R" n="78" break="no"/>teria sit, nam actus particularis praecedit istam 
+      <lb ed="#R" n="79"/>primam Prudentiam. 
+      </p>
+               <p xml:id="olm8ij-g66016-d1e908">
+                  <lb ed="#R" n="80"/>Sciendum est, quod actus Prudentiae bene 
+      sepa<lb ed="#R" n="81" break="no"/>ratur ab habitu propter passiones, vel habitum 
+      <lb ed="#R" n="82"/>ad contrarium inclinantem, quia aliquis 
+      bene<lb ed="#R" n="83" break="no"/>potest praecipere, fac hoc, quod est condecens, 
+      si<lb ed="#R" n="84" break="no"/>ne hoc quod habeat habitum Prudentiae: sed 
+      quan<lb ed="#R" n="85" break="no"/>do intellectus est assuetus, &amp; acquietatus in 
+      tali<lb ed="#R" n="86" break="no"/>bus iudicijs, tunc dicitur habituatus habitu 
+      Pru<lb ed="#R" n="87" break="no"/>dentiae. Iudicium autem vniuersale, quod dicit, 
+      <lb ed="#R" n="88"/>fac hoc, quod est consonum rationi, sequitur ipsam 
+      <lb ed="#R" n="89"/>synesim, supposito quod synesis habeat iudicium 
+      <lb ed="#R" n="90"/>iudicatiuum, &amp; enunciatiuum, tam de principijs, 
+      <lb ed="#R" n="91"/>quam de conclusionibus. Sed si synesis se extendit 
+      <lb ed="#R" n="92"/>tantum ad conclusiones, tunc iudicium 
+      vniuersa<lb ed="#R" n="93" break="no"/>le ipsius Prudentiae sequitur intellectum. idest 
+      iudi<lb ed="#R" n="94" break="no"/>cium de principijs practicis, quia Intellectus 
+      dici<lb ed="#R" n="95" break="no"/>tur principiorum, non solum in speculatiuis, sed. 
+      <lb ed="#R" n="96"/>etiam in practicis: sed iudicium Prudentiae in 
+      par<lb ed="#R" n="97" break="no"/>ticulari, idest, Fac hoc, sequitur ipsam synesim, 
+      <lb ed="#R" n="98"/>quae dicitur sensus, &amp; iudicat enunciatiue de 
+      cen<lb ed="#R" n="99" break="no"/>clusionibus, &amp; particularibus. 
+      </p>
+               <p xml:id="olm8ij-g66016-d1e954">
+                  <lb ed="#R" n="100"/>Si autem quaeratur, Vtrum synesis sit vna in 
+      om<lb ed="#R" n="101" break="no"/>ni materia, dicendum est, sicut dictum est de 
+      Pru<lb ed="#R" n="102" break="no"/>dentia, quod loquendo de synesi monostica, quae 
+      <lb ed="#R" n="103"/>respicit in vniuersali, &amp; in particulari supposito, 
+      <lb ed="#R" n="104"/>quod vtrumque respiciat, est vna, quia est de 
+      om<lb ed="#R" n="105" break="no"/>ni circumferente, quod decet hominem, 
+      inquan<lb ed="#R" n="106" break="no"/>tum solitarius est, vnde dicit, quod omne quod 
+      de<lb ed="#R" n="107" break="no"/>cet, est faciendum, &amp; quod hoc in tali materia, vt 
+      <lb ed="#R" n="108"/>decet, est faciendum, &amp; semper est vna cum 
+      mono<lb ed="#R" n="109" break="no"/>stica, iustitialis, oeconomica, politica, &amp; legum 
+      po<lb ed="#R" n="110" break="no"/>sitiua bene sunt diuersae, sicut dictum est de 
+      Pru<lb ed="#R" n="111" break="no"/>dentia, quae tamen est vna in suo genere. 
+      </p>
+               <p xml:id="olm8ij-g66016-d1e983">
+                  <lb ed="#R" n="112"/>Secunda ratio ad praedictam quartam 
+      conclu<lb ed="#R" n="113" break="no"/>sionem est, quod impossibile est esse Prudentiam 
+      <lb ed="#R" n="114"/>quietam, nisi habeat prudens voluntatem quietam 
+      <lb ed="#R" n="115"/>respectu finis omnium virtutum in respectu 
+      ele<lb ed="#R" n="116" break="no"/>ctionis, quae debet esse in voluntate, respectu 
+      eo<lb ed="#R" n="117" break="no"/>rum quae sunt ad finem: sed hoc non potest 
+      esse<lb ed="#R" n="118" break="no"/>nisi virtutes Morales ponantur in voluntate: 
+      ergo<lb ed="#R" n="119" break="no"/>Maior probatur, quia sicut se habet actus ad 
+      a<lb ed="#R" n="120" break="no"/>ctum: modo actus potentiae requirit rectum 
+      fi<lb ed="#R" n="121" break="no"/>nem in omni materia, &amp; quietam voluntatem, 
+      <lb ed="#R" n="122"/>&amp; rectam electionem. Vbi sciendum, quod 
+      diffe<lb ed="#R" n="123" break="no"/>runt haec tria, Industria, Astutia, &amp; Prudentia. 
+      <lb ed="#R" n="124"/>Industria enim, quae est naturalis dispositio, est, 
+      <lb ed="#R" n="125"/>quando aliquis statim inuenit media congruentia 
+      <lb ed="#R" n="126"/>ad finem intentum: Astutia autem ad industriam 
+      ad<lb ed="#R" n="127" break="no"/>dit malum finem, vel quoddam inuenire media prom 
+      <lb ed="#R" n="128"/>pte ad malum finem, ad astutiam pertinet. 
+      Pru<lb ed="#R" n="129" break="no"/>dentia autem addit ad industriam bonum finem 
+      <lb ed="#R" n="130"/>quando ordinatur totum ad bonum finem: ficut 
+      <lb ed="#R" n="131"/>ergo actus ad actum, vel habitus ad habitum, &amp; 
+      <lb ed="#R" n="132"/>hoc in quiete: quia hoc addit habitus ad actum, vt 
+      <lb ed="#R" n="133"/>quiete operetur: Cum ergo Prudentia ad bonum 
+      <lb ed="#R" n="134"/>finem ordinetur, &amp; habitus Prudentiae quiete de- 
+      <!--0532.xml-->
+      <pb ed="#R" n="530"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>bet ordinare ad bonum finem, &amp; ad vniuersalem 
+      <lb ed="#R" n="2"/>finem, &amp; ad rectam electionem, puta vt quiete 
+      <lb ed="#R" n="3"/>praecipiat facere, quod decet in omni materia, 
+      <lb ed="#R" n="4"/>&amp; hoc patet tam de monastica, quam de caeteris 
+      <lb ed="#R" n="5"/>Prudentijs. 
+      </p>
+               <p xml:id="olm8ij-g66016-d1e1053">
+                  <lb ed="#R" n="6"/>Minor autem satis patet, quod hoc hon potest 
+      <lb ed="#R" n="7"/>fieri, nisi voluntas sit habituata virtutibus 
+      Morali<lb ed="#R" n="8" break="no"/>bus, quia aliter esset ibi rebellio; vnde in hoc 
+      dif<lb ed="#R" n="9" break="no"/>fert temperatus ab intemperato, quia temperatus 
+      <lb ed="#R" n="10"/>sicut habet rectum dictamen, ita &amp; rectam 
+      ele<lb ed="#R" n="11" break="no"/>ctionem, intemperatus non. Sic licet continens 
+      <lb ed="#R" n="12"/>habeat rectam electionem, quia tamen non habet 
+      <lb ed="#R" n="13"/>illam quietam, ideo dicitur virtuosus, non tamen 
+      <lb ed="#R" n="14"/>prudens, quia oportet, quod prudens habeat 
+      re<lb ed="#R" n="15" break="no"/>ctam &amp; quietam electionem conformem iudicio 
+      <lb ed="#R" n="16"/>Prudentiae. 
+      </p>
+               <p xml:id="olm8ij-g66016-d1e1079">
+                  <lb ed="#R" n="17"/>Ad argumentum dicendum, quod actus 
+      Pru<lb ed="#R" n="18" break="no"/>dentiae est prior habitu Prudentiae, &amp; aliarum 
+      <lb ed="#R" n="19"/>virtutum Moralium, tamen non est prior 
+      tempo<lb ed="#R" n="20" break="no"/>re, licet natura sit prior actibus virtutum 
+      Mora<lb ed="#R" n="21" break="no"/>lium, &amp; voco actum intrinsecum illum, ex quo 
+      na<lb ed="#R" n="22" break="no"/>ta est aggenerari virtus. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

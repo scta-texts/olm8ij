@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-04-14">April 14, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b3">Roma 1605, Book 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-14" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="533"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-g68024"><!-- l3-d37q2 -->
+            <head xml:id="olm8ij-g68024-Hd1e101">Quaestio 2</head>
+            <p xml:id="olm8ij-g68024-d1e103">
+      <!--0535.xml-->
+               <cb ed="#R" n="b"/>
+               <lb ed="#R" n="60"/>Quaestio JJ. 
+      <lb ed="#R" n="61"/>DE PRAECEPTJS 
+      <lb ed="#R" n="62"/>DECALOGJ. 
+    </p>
+            <div xml:id="olm8ij-g68024-Dd1e116">
+               <head xml:id="olm8ij-g68024-Hd1e118">Articulus 1</head>
+               <head xml:id="olm8ij-g68024-Hd1e120" type="question-title">
+        Utrum praedictus Decalogus praeceptorum sit 
+        de iure naturae
+      </head>
+               <p xml:id="olm8ij-g68024-d1e123">
+                  <lb ed="#R" n="63"/>ARTJCVLVS VNJCVS. 
+      <lb ed="#R" n="64"/>Vtrum praedictus Decalogus praeceptorum sit 
+      <lb ed="#R" n="65"/>de iure naturae. 
+      </p>
+               <p xml:id="olm8ij-g68024-d1e132">
+                  <lb ed="#R" n="66"/>VIDETVR, quod non, 
+      <lb ed="#R" n="67"/>quia Deus non potest 
+      di<lb ed="#R" n="68" break="no"/>spensare in ijs, quae sunt 
+      <lb ed="#R" n="69"/>de iure naturae: modo 
+      <lb ed="#R" n="70"/>Deus potest dispensare in 
+      <lb ed="#R" n="71"/>praeceptis secundae 
+      tabu<lb ed="#R" n="72" break="no"/>lae, vt patet in multis 
+      lo<lb ed="#R" n="73" break="no"/>cis sacrae Scripturae. 
+      </p>
+               <p xml:id="olm8ij-g68024-d1e152">
+                  <lb ed="#R" n="74"/>Contra, quia communia 
+      <lb ed="#R" n="75"/>sunt apud omnes, quod proprium est iuris naturalis. 
+      </p>
+               <p xml:id="olm8ij-g68024-d1e160">
+                  <lb ed="#R" n="76"/>Respondetur, punctus Quaestionis est, quia aliqui 
+      <lb ed="#R" n="77"/>dicunt, quod duo prima praecepta primae tabulae 
+      <lb ed="#R" n="78"/>sunt de iure naturae, quia sunt conclusiones istius 
+      <lb ed="#R" n="79"/>principij, Deus est super omnia adorandus: sed de 
+      <lb ed="#R" n="80"/>tertio non apparet, quod sit de iure naturae, quia 
+      <lb ed="#R" n="81"/>non tenemur Sabbatum custodire, nisi Deus 
+      praeci<lb ed="#R" n="82" break="no"/>peret, vnde nec diem Sabbati de iure naturae 
+      sab<lb ed="#R" n="83" break="no"/>batizare, vt patet. quia non obseruamus istam diem, 
+      <lb ed="#R" n="84"/>nec aliquam aliam in hebdomada, vel in anno, quia 
+      <lb ed="#R" n="85"/>nec hunc, nec illum determinate: ergo nullum. 
+      </p>
+               <p xml:id="olm8ij-g68024-d1e184">
+                  <lb ed="#R" n="86"/>Illa secundae tabulae etiam non sunt de iure 
+      na<lb ed="#R" n="87" break="no"/>turae, quia nec sunt principia iuris naturalis, nec 
+      <lb ed="#R" n="88"/>conclusiones immediate deductae ex principijs, quia 
+      <lb ed="#R" n="89"/>talia vera, &amp; necessaria sunt ex terminis, &amp; per 
+      con<lb ed="#R" n="90" break="no"/>sequens Deus non potest in talibus dispensare. Et 
+      <lb ed="#R" n="91"/>confirmatur, quia illa sunt de iure naturae, quae 
+      ob<lb ed="#R" n="92" break="no"/>lata cuicunque voluntati vult illa statim ex 
+      termi<lb ed="#R" n="93" break="no"/>nis &amp; necessario, &amp; per consequens voluntas diuina 
+      <lb ed="#R" n="94"/>necessario vellet talia, &amp; sic necessario vellet 
+      ali<lb ed="#R" n="95" break="no"/>quod creatum, nec esset prima regula, si talibus 
+      re<lb ed="#R" n="96" break="no"/>gularetur, cum dicunt isti, quod multum sunt 
+      con<lb ed="#R" n="97" break="no"/>sona iuri naturali, sed est de praeceptis cuiuslibet 
+      <lb ed="#R" n="98"/>legis. Alij aliter dicunt, quod illa decem praecepta 
+      <lb ed="#R" n="99"/>sunt conclusiones iuris naturalis. 
+      </p>
+               <p xml:id="olm8ij-g68024-d1e217">
+                  <lb ed="#R" n="100"/>Prima Conclusio, quod praecepta septem 
+      secun<lb ed="#R" n="101" break="no"/>dae tabulae, &amp; tertium primae tabulae non est de iure 
+      <lb ed="#R" n="102"/>naturae, sicut sunt duo prima: &amp; hoc probo 
+      maxi<lb ed="#R" n="103" break="no"/>me quantum ad secundae tabulae: Quia illud, quod 
+      <lb ed="#R" n="104"/>nominatum statim habet malitiam inuolutam, 
+      vi<lb ed="#R" n="105" break="no"/>detur esse de iure naturae: sed sic est de ijs, quae 
+      pro<lb ed="#R" n="106" break="no"/>hibentur per illa decem praecepta; vnde moechari, 
+      <lb ed="#R" n="107"/>&amp; adulterium, &amp; homicidium, ista non sunt statim 
+      <lb ed="#R" n="108"/>cum malitia inuoluta, vt patet per Philosophum 2. 
+      <lb ed="#R" n="109"/>Ethic. similiter non obedire parentibus, ex terminis 
+      <lb ed="#R" n="110"/>apparet malum, &amp; sic de alijs, vt patet inducendo. 
+      </p>
+               <p xml:id="olm8ij-g68024-d1e243">
+                  <lb ed="#R" n="111"/>Secundo, quia 5. Ethic. distinguit Philosophus 
+      <lb ed="#R" n="112"/>inter ius naturale &amp; politicum, vel ciuile; quia ius 
+      <lb ed="#R" n="113"/>naturale est, quod est idem apud omnes, non enim 
+      <lb ed="#R" n="114"/>consistit in videri, vel non videri, &amp; vocatur in 
+      pro<lb ed="#R" n="115" break="no"/>posito Jus naturale, Jus gentium, quod est de 
+      dicta<lb ed="#R" n="116" break="no"/>mine rationis: sed praedicta peccata sunt eadem apud 
+      <lb ed="#R" n="117"/>omnes, nec est aliqua lex, quin reprobet, &amp; prohi- 
+      <!--0536.xml-->
+      <pb ed="#R" n="534"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>beat homicidium tãquam malum, &amp; sic de alijs. &amp; 
+      <lb ed="#R" n="2"/>si dicas, quod aliqua istorum sunt ex nimia 
+      mali<lb ed="#R" n="3" break="no"/>tia, sicut sunt peccata spiritualia, negantur ab 
+      ali<lb ed="#R" n="4" break="no"/>quibus ex malitia. 
+      </p>
+               <p xml:id="olm8ij-g68024-d1e276">
+                  <lb ed="#R" n="5"/>Tertio argumentor a minori, quod vnum 
+      no<lb ed="#R" n="6" break="no"/>tum est apud multos, &amp; minus videtur de iure 
+      na<lb ed="#R" n="7" break="no"/>turae: non adorabis Deum alienum, vel: non assumes 
+      <lb ed="#R" n="8"/>nomen Dei tui in vanum, quae alii reputant de 
+      iu<lb ed="#R" n="9" break="no"/>re naturae magis, quam istud: non occides, cuius 
+      ra<lb ed="#R" n="10" break="no"/>tio est, quia proximus est nobis magis notus, quam 
+      <lb ed="#R" n="11"/>Deus, vel vnitas Dei. Vnde beatus loannes 
+      di<lb ed="#R" n="12" break="no"/>cit: Qui non diligit fratrem suum, quem videt, 
+      quo<lb ed="#R" n="13" break="no"/>modo Deum, quem non videt potest diligere: Et iam: 
+      <lb ed="#R" n="14"/>non occides, magis videtur esse de iure naturae, quam 
+      <lb ed="#R" n="15"/>duo illa post praecepta, quae sunt minus nota nobls, 
+      <lb ed="#R" n="16"/>vel secundum te simpliciter magis nota. 
+      </p>
+               <p xml:id="olm8ij-g68024-d1e305">
+                  <lb ed="#R" n="17"/>Quarto, quia Deus non potest dispensare in illis 
+      <lb ed="#R" n="18"/>septem praeceptis, inquantum praecepta sunt: si enim 
+      <lb ed="#R" n="19"/>accipiamus materialiter, vt homicidium pro 
+      pri<lb ed="#R" n="20" break="no"/>uatione vitae facta violenter, &amp; adulterium pro 
+      co<lb ed="#R" n="21" break="no"/>gnitione mulieris alteri nuptae; vel absolute, si non 
+      <lb ed="#R" n="22"/>sunt praecepta sub ista ratione, quia tunc iudex 
+      oc<lb ed="#R" n="23" break="no"/>cidens latronem faceret contra praeceptum illud: 
+      <lb ed="#R" n="24"/>non occides. Si autem accipiatur formaliter, tunc sunt 
+      <lb ed="#R" n="25"/>indispensabilia, vt homicidium sit priuatio facta 
+      <lb ed="#R" n="26"/>a persona singulari auctoritate propria, non 
+      au<lb ed="#R" n="27" break="no"/>ctoritate eius qui potest: tunc enim Deus non 
+      po<lb ed="#R" n="28" break="no"/>test dispensare; quia si praecipit fieri homicidium, 
+      <lb ed="#R" n="29"/>&amp; occidi aliquem, tunc ille, qui occidit, facit hoc 
+      <lb ed="#R" n="30"/>auctoritate Dei, qui est dominus vitae &amp; mortis. &amp; 
+      <lb ed="#R" n="31"/>tunc non facit contra illud praeceptum, &amp; non est 
+      <lb ed="#R" n="32"/>proprie dispensatio, quia nunquam fuit datum con 
+      <lb ed="#R" n="33"/>tra occisionem proximi isto modo intelligendo: sed 
+      <lb ed="#R" n="34"/>est interpretatio praecepti in tali casu, quantum ad 
+      <lb ed="#R" n="35"/>sanctificationem, &amp; obseruationem sabbati, quod ibi 
+      <lb ed="#R" n="36"/>ponitur septimus dies, ceremoniale est, vnde nec 
+      <lb ed="#R" n="37"/>nos obseruamus modo aliam diem, sed tamen de iure 
+      <lb ed="#R" n="38"/>naturae est, quod aliquo tempore, vel aliqua hora 
+      <lb ed="#R" n="39"/>vacandum est ab opere seruili, vt vacemus Deo, &amp; 
+      <lb ed="#R" n="40"/>hoc patet, quia tam sum obligatus Deo, quam mihi: 
+      <lb ed="#R" n="41"/>Sed ius naturae, &amp; ratio dictat, quod pro aliquo 
+      <lb ed="#R" n="42"/>tempore debeo vacare mihi, &amp; procurare salutem 
+      <lb ed="#R" n="43"/>meam, &amp; necessarium mihi: ergo &amp; Deo debeo 
+      va<lb ed="#R" n="44" break="no"/>care, recognoscendo eius beneficia. Nec valet ista 
+      <lb ed="#R" n="45"/>argumentatio ex deductis ista dies est de iure 
+      na<lb ed="#R" n="46" break="no"/>turae, vt appropriatur diuino cultui, sicut de 
+      iu<lb ed="#R" n="47" break="no"/>re naturae est sacrificare Deo; sed vtrum bouem, 
+      <lb ed="#R" n="48"/>vel ouem, hoc est in dispositione offerentis, vel 
+      iu<lb ed="#R" n="49" break="no"/>ris politici. 
+      </p>
+               <p xml:id="olm8ij-g68024-d1e380">
+                  <lb ed="#R" n="50"/>Secunda Propositio, quod praedicta praecepta 
+      <lb ed="#R" n="51"/>decalogi non sunt de iure naturae, vt conclusiones, 
+      <lb ed="#R" n="52"/>sed vt principia. Vbi sciendum, quod licet 
+      ali<lb ed="#R" n="53" break="no"/>quae propositiones possint probari, &amp; deduci ex 
+      <lb ed="#R" n="54"/>principiis, non tamen propterea sunt solum 
+      con<lb ed="#R" n="55" break="no"/>clusiones, imo dicuntur principia quod sint talia, 
+      <lb ed="#R" n="56"/>quia teneant ex terminis, ac quae sint per se nota: 
+      <lb ed="#R" n="57"/>vnde ista deductio non tollit ab eis, quod sint 
+      prin<lb ed="#R" n="58" break="no"/>cipia, sed bene tollit, quod sint immediata. Ista 
+      <lb ed="#R" n="59"/>enim est per se nota, nix est alba, &amp; tamen potest 
+      <lb ed="#R" n="60"/>probari. Similiter hoc est vnum principium., 
+      <lb ed="#R" n="61"/>omne totum est maius sua parte, &amp; tamen 
+      po<lb ed="#R" n="62" break="no"/>test probari argumentando, sic. Illud, quod est 
+      <lb ed="#R" n="63"/>tenens, &amp; amplius est maius, sic est de toto, ergo. 
+      <lb ed="#R" n="64"/>Et isto modo dicerem de praeceptis decalogi, licet 
+      <lb ed="#R" n="65"/>possent deduci septem conclusiones immediate ex 
+      <lb ed="#R" n="66"/>aliis, quia tamen tenent ex terminis, &amp; sunt per se 
+      <lb ed="#R" n="67"/>nota, ideo sunt principia iuris naturalis. Cogni- 
+      <!--0536.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>to enim, quod est filius, statim patet ex terminis, 
+      <lb ed="#R" n="69"/>quod filius debet patri reuerentiam, &amp; sic sunt 
+      prin<lb ed="#R" n="70" break="no"/>cipia, licet forte non prima simpliciter. Et si 
+      di<lb ed="#R" n="71" break="no"/>cas, quod tenent in virtute illius principii: non 
+      fa<lb ed="#R" n="72" break="no"/>cias alteri, quod tibi non vis fieri. Dicendum 
+      <lb ed="#R" n="73"/>quod istud principium non est magis notum quo 
+      <lb ed="#R" n="74"/>ad nos, &amp; quo ad communitatem, quam praecepta 
+      <lb ed="#R" n="75"/>decalogi, quae magis respiciunt facta particularia, 
+      <lb ed="#R" n="76"/>quae sunt magis nota nobis: vnde vna vetula 
+      me<lb ed="#R" n="77" break="no"/>lius cognoscit, quod herba haec sanat coleram, &amp; 
+      <lb ed="#R" n="78"/>hoc simpliciter, quam vniuersalem, quae dicit, quod 
+      <lb ed="#R" n="79"/>omnis talis herba sanat coleram, &amp; hoc patet quia 
+      <lb ed="#R" n="80"/>quando talia principia communia volumus 
+      expla<lb ed="#R" n="81" break="no"/>nare, inducimus in singularia. 
+      </p>
+               <p xml:id="olm8ij-g68024-d1e456">
+                  <lb ed="#R" n="82"/>Sed tunc est vnum dubium, quia de positionibus 
+      <lb ed="#R" n="83"/>per se notis non debent dari praecepta, ex quo notae 
+      <lb ed="#R" n="84"/>sunt. Dicendum, quod imo, primo propter 
+      ma<lb ed="#R" n="85" break="no"/>litiam magnam hominis, ex qua inducuntur ad ne 
+      <lb ed="#R" n="86"/>gandum prouidentiam Dei, vnde &amp; aliqui negant 
+      <lb ed="#R" n="87"/>esse vnum Deum. Secundo, vt homo magis timeat, 
+      <lb ed="#R" n="88"/>quando videt ralia praecipi, &amp; magis imprimat in 
+      <lb ed="#R" n="89"/>corde suo. Ad argumentum patet ex dictis. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

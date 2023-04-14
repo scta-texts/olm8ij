@@ -1,0 +1,1671 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-14">April 14, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b3">Roma 1605, Book 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-14" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="437"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-g36486"><!-- l3-d15q1 -->
+            <head xml:id="olm8ij-g36486-Hd1e101">Quaestio 1</head>
+            <p xml:id="olm8ij-g36486-d1e103">
+               <lb ed="#R" n="49"/>DISTINCTIO XV. 
+      <lb ed="#R" n="50"/>DE DEFECTIBVS 
+      <lb ed="#R" n="51"/>ET PASSJONJBVS 
+      <lb ed="#R" n="52"/>ANJMAE CHRJSTJ. 
+      </p>
+            <p xml:id="olm8ij-g36486-d1e114">
+               <lb ed="#R" n="53"/>Quaestio Vnica. 
+      <lb ed="#R" n="54"/>Circa Distinctionem Decimamquintam, vbi 
+      <lb ed="#R" n="55"/>agitur de defectibus animae Christi, 
+      scili<lb ed="#R" n="56" break="no"/>cet de passionibus, &amp; huiusmodi dubium, 
+      <lb ed="#R" n="57"/>est, &amp; difficultas de vero dolore. Vtrum si- 
+      <!--0439.xml-->
+      <cb ed="#R" n="b"/>
+               <lb ed="#R" n="58"/>mul possunt stare gaudium visionis cum 
+      <lb ed="#R" n="59"/>vero dolore 
+      </p>
+            <div xml:id="olm8ij-g36486-Dd1e136">
+               <head xml:id="olm8ij-g36486-Hd1e138">Articulus 1</head>
+               <head xml:id="olm8ij-g36486-Hd1e140" type="question-title">
+        Utrum passiones appetitus sensitivi vere fuerins in Christo
+      </head>
+               <p xml:id="olm8ij-g36486-d1e143">
+                  <lb ed="#R" n="60"/>ARTJCVLVS I. 
+      <lb ed="#R" n="61"/>Vtrum passiones appetitus sensitiui vere <unclear>
+      fue<lb ed="#R" n="62" break="no"/>rins</unclear> in Christo. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e155">
+                  <lb ed="#R" n="63"/>SED primum quaero: Vtrum 
+      <lb ed="#R" n="64"/>passiones appetitus sensitiui 
+      <lb ed="#R" n="65"/>vere fuerint in Christo. Et 
+      <lb ed="#R" n="66"/>quod non probo sic. In 
+      Chri<lb ed="#R" n="67" break="no"/>sto non fuit verus dolor: 
+      er<lb ed="#R" n="68" break="no"/>go. Antecedens patet per <ref xml:id="olm8ij-g36486-Rd1e170">
+      Hi<lb ed="#R" n="69" break="no"/>lar. lib. 10. de Trinit. in 
+      lite<lb ed="#R" n="70" break="no"/>ra</ref>, &amp; consequentia statim 
+      <lb ed="#R" n="71"/>clare sequitur. Item, in Christo non fuit tristitia: 
+      <lb ed="#R" n="72"/>ergo nec verae passiones appetitus sensitiui. 
+      Ante<lb ed="#R" n="73" break="no"/>cedens patet, Christus non erat tristis, nec 
+      turbu<lb ed="#R" n="74" break="no"/>lentus. Consequentia patet, quia finis omnis 
+      pas<lb ed="#R" n="75" break="no"/>sionis est delectatio, vel tristitia: ergo vbi non est 
+      <lb ed="#R" n="76"/>finis: nec ea quae sunt ad finem. Item, qui non habet 
+      <lb ed="#R" n="77"/>obiectum timoris, nec per consequens timorem; sed 
+      <lb ed="#R" n="78"/>Christus non habuit obiectum: ergo. Probo minorem, 
+      <lb ed="#R" n="79"/>quia obiectum timoris est arduum, &amp; hoc est 
+      incura<lb ed="#R" n="80" break="no"/>bile malum: sed nihil fuit incurabile in Christo: 
+      er<lb ed="#R" n="81" break="no"/>go. &amp; confirmatur hoc per dictum Hilar. qui 
+      di<lb ed="#R" n="82" break="no"/>cit, quod non est verisimile, quod timuerit, quia 
+      <lb ed="#R" n="83"/>ceciderunt illi, qui venerunt ad eum capiendum 
+      <lb ed="#R" n="84"/>in aspectu eius. Item, quod in Christo non fuit ira 
+      <lb ed="#R" n="85"/>patet, quia ira est animi perturbatio, haec non 
+      <lb ed="#R" n="86"/>fuit in Christo. Item probo pluraliter de omnibus 
+      <lb ed="#R" n="87"/>passionibus sic: Si passiones fuerunt in Christo, aut 
+      <lb ed="#R" n="88"/>fuerunt passiones irascibilis, aut concupiscibilis, 
+      <lb ed="#R" n="89"/>quia prima passio eius concupiscentia: hoc autem 
+      <lb ed="#R" n="90"/>est peccatum, quare in Christo non fuit. Item 
+      <lb ed="#R" n="91"/>nec irascibilis, quia potissima, &amp; prior eius 
+      pas<lb ed="#R" n="92" break="no"/>sio est ira: haec autem in Christo non fuit. Item 
+      <lb ed="#R" n="93"/>in homine virtuoso simpliciter, &amp; perfecto 
+      simpli<lb ed="#R" n="94" break="no"/>citer non sunt huiusmodi passiones; probo quia 
+      <lb ed="#R" n="95"/>quantum sunt, tantum deficit a virtute: sed 
+      Chri<lb ed="#R" n="96" break="no"/>stus fuit simpliciter, &amp; perfecte virtuosus: ergo. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e234">
+                  <lb ed="#R" n="97"/>Contra est Euangelium, quod vbi loquitur histori 
+      <lb ed="#R" n="98"/>ce ad literam est intelligendum: sed Euangelium 
+      <lb ed="#R" n="99"/>loquitur historice, quod passiones fuerunt in Chri 
+      <lb ed="#R" n="100"/>sto, vt dicit: Coepit tristari, &amp; moestus esse. Item in 
+      <lb ed="#R" n="101"/>Psal. zelus domus tuae, &amp;c. Sed zelus est passio: 
+      <lb ed="#R" n="102"/>Item Joannis 2. dicitur, quod hoc verbum fuit 
+      <lb ed="#R" n="103"/>verificatum in Christo. Item in Christo fuit verus 
+      <lb ed="#R" n="104"/>dolor: ergo, &amp; passiones verae. Consequentia 
+      pa<lb ed="#R" n="105" break="no"/>tet, quia dolor est vna de passionibus appetitus. 
+      <lb ed="#R" n="106"/>Item Christus assumpsit naturam passibilem, &amp; 
+      <lb ed="#R" n="107"/>animam: ergo. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e261">
+                  <lb ed="#R" n="108"/>Respondeo hic, Dico tria. Primo de 
+      passio<lb ed="#R" n="109" break="no"/>nibus in communi. secundo in speciali, tertio de 
+      <lb ed="#R" n="110"/>passionibus Christi in speciali, quomodo in eo fue 
+      <lb ed="#R" n="111"/>runt. De passionibus in generali difficile est 
+      de<lb ed="#R" n="112" break="no"/>terminare, quia materia est male discussa. Ideo 
+      <lb ed="#R" n="113"/>oportet hic tria inquirere. Primo, quid sunt 
+      pas<lb ed="#R" n="114" break="no"/>siones. Secundo, quot sunt. Tertio, quae 
+      concur<lb ed="#R" n="115" break="no"/>runt ad causandum passiones. In speciali autem 
+      <lb ed="#R" n="116"/>in secundo articulo: in tertio, quomodo in 
+      Chri<lb ed="#R" n="117" break="no"/>sto, &amp;c. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e285">
+                  <lb ed="#R" n="118"/>Circa primum dico, quod passiones sunt actus 
+      <lb ed="#R" n="119"/>appetitus sensitiui, vt amare, gaudere &amp; tristari; 
+      <lb ed="#R" n="120"/>quod autem talia dicantur passiones patet per 
+      Ari<lb ed="#R" n="121" break="no"/>stotelem a. Ethic. dicit Aristoteles, quod in anima 
+      <!--0440.xml-->
+      <pb ed="#R" n="438"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>sunt tria, scilicet potentiae, passiones, &amp; habitus 
+      <lb ed="#R" n="2"/>sub passione. Item Joannes Damasc. lib. 2. cap. 23. 
+      <lb ed="#R" n="3"/>&amp; 38. dicit, quod passio animalis est actus, vel 
+      mo<lb ed="#R" n="4" break="no"/>tus appetitiuae virtutis sentiendi boni, vel mali. &amp; 
+      <lb ed="#R" n="5"/>ibidem, quod passio est modus animae rationalis 
+      <lb ed="#R" n="6"/>in dispositionem boni, vel mali: sed talis actus est 
+      <lb ed="#R" n="7"/>passio 3. Ethic. Augustinus etiam lib. 9. cap. 4. de 
+      <lb ed="#R" n="8"/>Ciuitate Dei, dicit: quod aliqui vocant istas 
+      pas<lb ed="#R" n="9" break="no"/>siones, affectiones, animi perturbationes. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e322">
+                  <lb ed="#R" n="10"/>Sed hic est dubium, quare actus appetitus 
+      sensi<lb ed="#R" n="11" break="no"/>tiui vocantur passiones, &amp; arguo, qued non 
+      pos<lb ed="#R" n="12" break="no"/>sunt dici passiones, sic: Vnum oppositum non 
+      ha<lb ed="#R" n="13" break="no"/>bet nomen alterius: sed tales actus sunt oppositi 
+      <lb ed="#R" n="14"/>passionibus: ergo. Maior patet, quia sicut non 
+      <lb ed="#R" n="15"/>sortitur nomen, ita nec passionem. Minor patet, 
+      <lb ed="#R" n="16"/>quia tales actus sequuntur passiones: sed actio, &amp; 
+      <lb ed="#R" n="17"/>passio opponuntur: ergo. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e342">
+                  <lb ed="#R" n="18"/>Dices, quod sunt passiones realiter, quia 
+      appe<lb ed="#R" n="19" break="no"/>titus sensitiuus patitur ab obiecto. 
+      <lb ed="#R" n="20"/>Non valet, quia secundum hoc secundi actus 
+      vir<lb ed="#R" n="21" break="no"/>tutis sensitiuae apprehensiuae debent dici passio, &amp; 
+      <lb ed="#R" n="22"/>tamen non sunt. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e355">
+                  <lb ed="#R" n="23"/>Dices, quod actioni de genere qualitatis non 
+      <lb ed="#R" n="24"/>opponitur passio. Non valet, quia pari ratione 
+      <lb ed="#R" n="25"/>dicam de intelligere, quod tamen dicitur actio 
+      ta<lb ed="#R" n="26" break="no"/>lis, &amp; tamen non est passio. Item secundo sic: De 
+      <lb ed="#R" n="27"/>quocunque asseritur ratio passionis, aut hoc 
+      ratio<lb ed="#R" n="28" break="no"/>ne receptionis, vel ratione obiectionis. Haec est 
+      <lb ed="#R" n="29"/>sufficiens diuisio 2. de anima tex. 57. &amp; 58. passio 
+      <lb ed="#R" n="30"/>dicitur istis duobus modis: sed ex nullo istorum 
+      <lb ed="#R" n="31"/>modorum potest actio dici passio: ergo. Minorem 
+      <lb ed="#R" n="32"/>probo primo, quod non ex receptione, quia sic 
+      vi<lb ed="#R" n="33" break="no"/>fio recipitur in oculo, sicut amor in appetitu; sic 
+      <lb ed="#R" n="34"/>etiam intellectio, &amp; volitio recipitur in intellectu, 
+      <lb ed="#R" n="35"/>&amp; voluntate, &amp; non dicuntur passiones. Nec 
+      secun<lb ed="#R" n="36" break="no"/>do ex obiectione, quia in laetitia, vel gaudio nulla 
+      <lb ed="#R" n="37"/>obiectio, postea aliquid potest obijci in vna 
+      cogni<lb ed="#R" n="38" break="no"/>tione, &amp; sequitur dolor in capite: ergo. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e392">
+                  <lb ed="#R" n="39"/>Item: si dicuntur passiones, aut dicuntur 
+      pas<lb ed="#R" n="40" break="no"/>siones de praedicamento passionis, aut de tertia 
+      spe<lb ed="#R" n="41" break="no"/>cie qualitatis: sed nec hoc, nec illud. Maior patet. 
+      <lb ed="#R" n="42"/>Minor declaratur, quia praedicamentum actionis 
+      <lb ed="#R" n="43"/>est accidens relatiuum: tales autem sunt 
+      quiddita<lb ed="#R" n="44" break="no"/>tum. Nec secundo modo de tertia specie 
+      qualita<lb ed="#R" n="45" break="no"/>tis, quia passio de tertia specie est generalis, vt 
+      al<lb ed="#R" n="46" break="no"/>bedo, &amp; dulcedo: &amp; postea isti actus secundum 
+      <lb ed="#R" n="47"/>te non erunt in tertia specie, quia sunt huiuimodi 
+      <lb ed="#R" n="48"/>ad hoc, vt gaudium est de bono conuenienti, &amp; ita 
+      <lb ed="#R" n="49"/>includunt terminos determinatos. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e419">
+                  <lb ed="#R" n="50"/>Item: si dicuntur passiones, aut hoc est 
+      forma<lb ed="#R" n="51" break="no"/>liter, aut consequenter, vel concomitanter, aut 
+      ef<lb ed="#R" n="52" break="no"/>ficienter. Non primo modo, quia tales effectus 
+      <lb ed="#R" n="53"/>sunt vere qualitates supernaturales, &amp; formales; 
+      <lb ed="#R" n="54"/>tales autem non sunt passiones, quia nihil est eis 
+      <lb ed="#R" n="55"/>contrarium; passionibus autem est contrarium. 
+      <lb ed="#R" n="56"/>Nec concomitanter, quia sicut in visione aliquid 
+      ope<lb ed="#R" n="57" break="no"/>ratur caelum impressiue, ex quo visio concomitatur. 
+      <lb ed="#R" n="58"/>Nec tertio modo, quia cum sint actus spirituales, 
+      <lb ed="#R" n="59"/>non causant passiones carnales: &amp; postea non 
+      sal<lb ed="#R" n="60" break="no"/>tem appraehensiue, quia hoc facit visio, &amp; visio non 
+      <lb ed="#R" n="61"/>est passio. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e448">
+                  <lb ed="#R" n="62"/>Respondeo, quod actus appetitus sensitiui 
+      vo<lb ed="#R" n="63" break="no"/>cantur passiones, &amp; tamen actus voluntatis, aut 
+      <lb ed="#R" n="64"/>intellectus, nec apprehensiuae, nec sensitiuae 
+      vocan<lb ed="#R" n="65" break="no"/>tur passiones: tamen in appetitu sensitiuae 
+      dicun<lb ed="#R" n="66" break="no"/>tur passiones. Ratio est cuiusdam Doctoris, quia 
+      <lb ed="#R" n="67"/>vitio non est passio, &amp; tamen amor est passio, quia 
+      <lb ed="#R" n="68"/>ratio videtur importare tractum quoddam ipsius 
+      <!--0440.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>passi ad agens, quia passum trahitur ad obiecum, 
+      <lb ed="#R" n="70"/>&amp; ideo talis tractus vocatur pati. Passio ergo est 
+      <lb ed="#R" n="71"/>illud, secundum quod aliquid trahitur ad aliud: sed 
+      <lb ed="#R" n="72"/>per tales actus trahitur appetitus ad obiectum, non 
+      <lb ed="#R" n="73"/>sic de potentijs apprehensiuis: ergo. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e481">
+                  <lb ed="#R" n="74"/>Minor declaratur, quia appetitus vadit ad rem, 
+      <lb ed="#R" n="75"/>&amp; tendit: ergo trahitur, sed in aliis est motus rei 
+      <lb ed="#R" n="76"/>ad potentiam apprehensiuam, ideo passio dicitur 
+      <lb ed="#R" n="77"/>proprie. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e492">
+                  <lb ed="#R" n="78"/>Item: actus appetitus sensitiui dicuntur passio, 
+      <lb ed="#R" n="79"/>&amp; non actus intellectiui: ergo. quia passio dicitur 
+      <lb ed="#R" n="80"/>proprie, vbi transmutatio corporalis 
+      concomita<lb ed="#R" n="81" break="no"/>tur: sed in actu appetitus sensitiui concomitatur 
+      <lb ed="#R" n="82"/>huiusmodi passio, non actus intellectiui: ergo. quod 
+      <lb ed="#R" n="83"/>patet, quia talis passio non est alligata organo 
+      <lb ed="#R" n="84"/>corporali. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e510">
+                  <lb ed="#R" n="85"/>Dicit ergo iste, quod de ratione passionis sunt 
+      <lb ed="#R" n="86"/>duo, scilicet transmutari, &amp; trahi: &amp; ideo propter 
+      <lb ed="#R" n="87"/>primum non est passio in voluntate, propter 
+      sen<lb ed="#R" n="88" break="no"/>sus in apprehensione sensitiua. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e521">
+                  <lb ed="#R" n="89"/>Contra: hoc non sufficit. Primo, quod dicit de 
+      <lb ed="#R" n="90"/>trahi, arguo contra eum sic: Si trahi est de ratione 
+      <lb ed="#R" n="91"/>passionis, vbi non erit trahi, non erit passio: sed 
+      <lb ed="#R" n="92"/>quod hic passio ponatur tractus potentiae ad 
+      obie<lb ed="#R" n="93" break="no"/>ctum: sed odium, &amp; tristitia non sunt tractus ad 
+      <lb ed="#R" n="94"/>obiectum, imo sunt fuga e conuerso, quia per odium 
+      <lb ed="#R" n="95"/>sugitur ab obiecto, &amp; tamen sunt maximae 
+      passio<lb ed="#R" n="96" break="no"/>nes: ergo. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e542">
+                  <lb ed="#R" n="97"/>Item: Si haec est formalis ratio, scilicet trahi, 
+      <lb ed="#R" n="98"/>tunc actus secundum quod potentia magis 
+      trahe<lb ed="#R" n="99" break="no"/>ret, est maxime passio: sed amor maxime trahit: 
+      <lb ed="#R" n="100"/>ergo est maxime passio, quod tamen ipse negat 
+      <lb ed="#R" n="101"/>alibi; imo secundum eum ira est maxime passio. 
+      <lb ed="#R" n="102"/>Item quaero, quid intelligit per trahi ad obiectum, 
+      <lb ed="#R" n="103"/>non capio aliud, nisi similari ad agens, non quia 
+      <lb ed="#R" n="104"/>adducat illud ad se. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e562">
+                  <lb ed="#R" n="105"/>Tunc arguo sic: Vbi est agentis, &amp; patientis 
+      ma<lb ed="#R" n="106" break="no"/>xima assimilatio, ibi erit maxima passio: sed in 
+      <lb ed="#R" n="107"/>actu voluntatis apprehensiuae est maxima 
+      assimi<lb ed="#R" n="108" break="no"/>latio: ergo. Probatur minor, quia obiectum 
+      im<lb ed="#R" n="109" break="no"/>primit suam similitudinem. Dices, quod ego 
+      ac<lb ed="#R" n="110" break="no"/>cipio aliter trahi. Certe tu facis fallaciam 
+      conse<lb ed="#R" n="111" break="no"/>quentis, quia tu ponis, quod mouetur ab obiecto, 
+      <lb ed="#R" n="112"/>tunc aequiuoce loqueris de tractu. Contra illud, 
+      <lb ed="#R" n="113"/>quod dicit, quod non dicitur passio, nisi 
+      conco<lb ed="#R" n="114" break="no"/>mitetur transmutatio corporalis. Contra, quia 
+      <lb ed="#R" n="115"/>formae simplicis ratio eius consistit in vno 
+      simpli<lb ed="#R" n="116" break="no"/>ci: sed transmutatio corporalis, &amp; trahi sunt duo: 
+      <lb ed="#R" n="117"/>ergo oportet ibi esse vnum solum. Item, 
+      transmuta<lb ed="#R" n="118" break="no"/>tio corporalis est ex nimia imaginatione, vt patet 
+      <lb ed="#R" n="119"/>de ouibus Jacobi.
+      </p>
+               <p xml:id="olm8ij-g36486-d1e597">
+                  <lb ed="#R" n="120"/>Item: alia ratio est, vnde dicantur passiones; ad 
+      <lb ed="#R" n="121"/>cuius euidentiam formo Propositiones. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e604">
+                  <lb ed="#R" n="122"/>Prima, quod isti actus sunt formae simplices. 
+      Se<lb ed="#R" n="123" break="no"/>cunda est, quod intra istos actus transmutationes 
+      <lb ed="#R" n="124"/>formaliter non ingrediuntur. Tertia, quia 
+      conco<lb ed="#R" n="125" break="no"/>mitatur aliquo modo istos actus. Quarta, quia 
+      <lb ed="#R" n="126"/>sunt formaliter in prima specie qualitatis. 
+      Quin<lb ed="#R" n="127" break="no"/>ta, quia transmutatio concomitantis est in tertia 
+      <lb ed="#R" n="128"/>specie qualitatis. &amp; ex hoc patebit, quomodo 
+      di<lb ed="#R" n="129" break="no"/>cuntur actus appetitus sensitiui passiones, &amp; non 
+      <lb ed="#R" n="130"/>actus potentiae apprehensiuae. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e626">
+                  <lb ed="#R" n="131"/>Primam propositionem probo sic. Potentiis 
+      cor<lb ed="#R" n="132" break="no"/>respondent actus: ergo potentia vitalis, &amp; quod 
+      <lb ed="#R" n="133"/>radicatur vere in anima: ergo. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e635">
+                  <lb ed="#R" n="134"/>Item: sunt actus formae vitalis, &amp; vniuersaliter 
+      <lb ed="#R" n="135"/>sensitiuae: ergo &amp; amare, &amp; odisse, &amp; 
+      vniuersali<lb ed="#R" n="136" break="no"/>ter appetere. Consequentia patet, quia isti actus 
+      <!--0441.xml-->
+      <pb ed="#R" n="439"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>sunt nobiliores, quam illi, vnde sicut in 
+      homine<lb ed="#R" n="2" break="no"/>voluntas est altior potentia, quam intellectus, sic 
+      <lb ed="#R" n="3"/>appetitus in brutis. Item actus vitales dicuntur, 
+      <lb ed="#R" n="4"/>quibus potentia intentionalis obiecto vnitur, qui 
+      <lb ed="#R" n="5"/>est proprius modus vnionis: verbi gratia, si 
+      intel<lb ed="#R" n="6" break="no"/>ligere esset qualitas mortua, per quam solum 
+      po<lb ed="#R" n="7" break="no"/>tentia assimilaretur obiecto, certe non esset 
+      vita<lb ed="#R" n="8" break="no"/>lis; sed quia ponitur obiectum vniri in esse 
+      cogni<lb ed="#R" n="9" break="no"/>to, ideo vocatur vitalis, quia est specialis modus 
+      <lb ed="#R" n="10"/>similitudinis, &amp; singularis: ita de amore. Vnde 
+      <lb ed="#R" n="11"/>dicit Augustinus, nihil tam praesens, quam quod 
+      <lb ed="#R" n="12"/>cogitatione ponitur: sed actui appetitus sensitiui 
+      <lb ed="#R" n="13"/>vnitur obiectum potentiae modo vitali, &amp; 
+      inten<lb ed="#R" n="14" break="no"/>tionaliter: ergo. Item si dicit, quod non sunt 
+      vi<lb ed="#R" n="15" break="no"/>tales, nec intentionales, sed ira est transmutatio 
+      <lb ed="#R" n="16"/>cordis. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e686">
+                  <lb ed="#R" n="17"/>Contra sequitur, quod vbi esset transmutatio 
+      ta<lb ed="#R" n="18" break="no"/>lis, quam inlammatio esset ira: sed illa 
+      inflamma<lb ed="#R" n="19" break="no"/>tio esset calor: ergo vbi est calor, ibi erit ira. Dicit 
+      <lb ed="#R" n="20"/>quod non valet, quia non quilibet calor, &amp; 
+      inflam<lb ed="#R" n="21" break="no"/>matio est ira: sed talis inflammatio specialis in 
+      <lb ed="#R" n="22"/>corde est ira. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e702">
+                  <lb ed="#R" n="23"/>Contra, tunc solum differret ira, &amp; accensio, 
+      si<lb ed="#R" n="24" break="no"/>cut concauitas, &amp; nasus: sed certum est, quod non 
+      <lb ed="#R" n="25"/>sunt sicut simum, &amp; concauum, quia forma 
+      vbicun<lb ed="#R" n="26" break="no"/>que ponatur, est eiusdem speciei: ergo si est 
+      accen<lb ed="#R" n="27" break="no"/>sio, ibi est ira. Item, concauitas vbicunque est 
+      eius<lb ed="#R" n="28" break="no"/>dem rationis: ergo non est ira formaliter tales trans 
+      <lb ed="#R" n="29"/>mutationes: ergo sunt formae magis in appetitu 
+      si<lb ed="#R" n="30" break="no"/>cut in subiecto. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e722">
+                  <lb ed="#R" n="31"/>Nunc venio ad secundam Conclusionem, &amp; 
+      pri<lb ed="#R" n="32" break="no"/>mo arguo sic, contra: Jllud, quod definitur per aliud, 
+      <lb ed="#R" n="33"/>includit illud formaliter: sed definiendo iram, 
+      de<lb ed="#R" n="34" break="no"/>finis transmutationem corporalem, vt dicitur, ira 
+      <lb ed="#R" n="35"/>est transmutatio sanguinis circa cor. Dices, quod 
+      <lb ed="#R" n="36"/>haec definitio est physica. dico quod verum est, &amp; 
+      <lb ed="#R" n="37"/>ideo est melior, quia ponuntur illa quae pertinent 
+      <lb ed="#R" n="38"/>ad intrinsecum. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e742">
+                  <lb ed="#R" n="39"/>Item: illud quo cessante, cessat aliud, videtur 
+      <lb ed="#R" n="40"/>etiam inclusum in illo: sed cessante tali 
+      transmuta<lb ed="#R" n="41" break="no"/>tione cessat ira: ergo. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e751">
+                  <lb ed="#R" n="42"/>Item: quando duo sic se habent, quod vnum est 
+      <lb ed="#R" n="43"/>in subiecto per aliud, illud videtur pertinere ad suum 
+      <lb ed="#R" n="44"/>intrinsecum: sed vbi est verecundia, ibi est rubedo 
+      <lb ed="#R" n="45"/>faciei, &amp; similiter in corde ira est accensio 
+      sangui<lb ed="#R" n="46" break="no"/>nis: ergo. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e764">
+                  <lb ed="#R" n="47"/>Dico, quod non, &amp; probo sic. Isti actus sunt 
+      <lb ed="#R" n="48"/>vitales, vt probatum est. Tunc sic. Intra tamen 
+      <lb ed="#R" n="49"/>formam vitalem nil intrat, nisi vitale: sed 
+      trans<lb ed="#R" n="50" break="no"/>mutationes corporales sunt non vitales: ergo. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e776">
+                  <lb ed="#R" n="51"/>Item: Intra realitatem formae simplicis, non 
+      in<lb ed="#R" n="52" break="no"/>cluduntur duae realitates distinctae; sed tales 
+      trans<lb ed="#R" n="53" break="no"/>mutationes dicuntur diuersae realiter, quia 
+      diuer<lb ed="#R" n="54" break="no"/>si motus, &amp; concursus, &amp; postea tales sunt 
+      corpo<lb ed="#R" n="55" break="no"/>rales, &amp; sunt coram vitalibus, &amp; non vitalibus: 
+      il<lb ed="#R" n="56" break="no"/>la autem sunt proprie vitalia. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e792">
+                  <lb ed="#R" n="57"/>Ad obiectiones in contrarium. Ad primam 
+      di<lb ed="#R" n="58" break="no"/>co, quod tales definitiones non sunt philosophicae, 
+      <lb ed="#R" n="59"/>quae differunt per motum, &amp; accidentia; vnde non 
+      <lb ed="#R" n="60"/>curat physicus de praecisa quidditate, sed solum 
+      <lb ed="#R" n="61"/>metaphysicus curat de quidditate, &amp; quia ista se 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e805">
+                  <lb ed="#R" n="62"/>concomitantur; ideo physicus de ira dicit, est 
+      ac<lb ed="#R" n="63" break="no"/>census, &amp;c. sed metaphysicus dicit: Ira est 
+      appeti<lb ed="#R" n="64" break="no"/>tus vindictae. Contra iam dicit Aristoteles, quod 
+      <lb ed="#R" n="65"/>definitiones logicae sunt vanae, verum est, sed non 
+      <lb ed="#R" n="66"/>metaphysicae, nisi in ordine ad passiones, quia non 
+      <lb ed="#R" n="67"/>possunt probari passiones, nisi demonstratiue, &amp; 
+      <lb ed="#R" n="68"/>a priori: sed quantum ad intrinsecum non, imo 
+      <!--0441.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>sic sunt verissimae. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e829">
+                  <lb ed="#R" n="70"/>Ad aliud dico, quod non concomitatur: ergo 
+      <lb ed="#R" n="71"/>est intrinsecum, non valet, quia calor non est ignis 
+      <lb ed="#R" n="72"/>&amp; tamen concomitatur. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e838">
+                  <lb ed="#R" n="73"/>Ad aliud dico, quod verecundia non est in 
+      vul<lb ed="#R" n="74" break="no"/>tu, quia verecundia non est aliud, quam timor 
+      im<lb ed="#R" n="75" break="no"/>probationis, &amp; ira est in corde. Imo ex tua 
+      propo<lb ed="#R" n="76" break="no"/>sitione <sic>ptobas</sic>, quod non sunt idem. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e851">
+                  <lb ed="#R" n="77"/>Nunc de tertia Propositione hoc non oportet 
+      <lb ed="#R" n="78"/>probare, quia non est verecundia, quin rubescat, 
+      <lb ed="#R" n="79"/>sic est malum. Sed dubium est, vtrum tales 
+      trans<lb ed="#R" n="80" break="no"/>mutationes praecedant, &amp; sint primae, vt causa, 
+      <lb ed="#R" n="81"/>vel post, vt primo sit gaudium, &amp; post 
+      transmu<lb ed="#R" n="82" break="no"/>tatio. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e868">
+                  <lb ed="#R" n="83"/>Et quod transmutatio praecedat, probo, quia 
+      <lb ed="#R" n="84"/>quando ab aliqua causa sunt duo effectus, quorum 
+      <lb ed="#R" n="85"/>vnus separatur, alius non: ille qui non separatur 
+      <lb ed="#R" n="86"/>debet dici prior. Exemplum de sole respectu 
+      illu<lb ed="#R" n="87" break="no"/>minationis, &amp; caloris: sed imaginatio in appetitu 
+      <lb ed="#R" n="88"/>sensitiuo causat transmutationem, &amp; tunc statim 
+      <lb ed="#R" n="89"/>est in ista passio, &amp; aliquando est ibi transmutatio, 
+      <lb ed="#R" n="90"/>&amp; non est passio: ergo. Et confirmatur, quia 
+      me<lb ed="#R" n="91" break="no"/>dici volentes curare illas passiones, prius curant 
+      <lb ed="#R" n="92"/>illas transmutationes. Sic etiam melancolia 
+      cura<lb ed="#R" n="93" break="no"/>tur per fletum: ergo. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e894">
+                  <lb ed="#R" n="94"/>Item: actus appetitus sunt in appetitu sensitiuo 
+      <lb ed="#R" n="95"/>&amp; organo: sed istae transmutationes sunt 
+      dispositio<lb ed="#R" n="96" break="no"/>nes organi: ergo prius est: ergo. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e903">
+                  <lb ed="#R" n="97"/>Item: dispositi ad iram sunt dispositi per istas 
+      <lb ed="#R" n="98"/>transinutationes, ita de passionibus, &amp; 
+      disposi<lb ed="#R" n="99" break="no"/>tionibus, quia hoc sunt totaliter dispositi: ergo 
+      <lb ed="#R" n="100"/>videtur, quod istae passiones insint mediante alio, 
+      <lb ed="#R" n="101"/>&amp; sic illud erit praeuium: ergo. Et confirmatur 1. 
+      <lb ed="#R" n="102"/>de anima, videtur, quod gaudium, &amp; tristitia 
+      <lb ed="#R" n="103"/>sunt non separata, quia in taliter dispositis 
+      sur<lb ed="#R" n="104" break="no"/>gunt tales passiones; videtur ergo, quod illae sint 
+      <lb ed="#R" n="105"/>primae.
+      </p>
+               <p xml:id="olm8ij-g36486-d1e925">
+                  <lb ed="#R" n="106"/>Contra, videtur de alia parte, quod 
+      transinuta<lb ed="#R" n="107" break="no"/>tiones tales sint sequelae, &amp; probo, quod si tales 
+      exi<lb ed="#R" n="108" break="no"/>gerentur vt primae, aut hoc esset per modum 
+      di<lb ed="#R" n="109" break="no"/>sponentis, aut per modum coelicientis, vt 
+      poten<lb ed="#R" n="110" break="no"/>tia eliciat. Non primo modo, quia inter 
+      poten<lb ed="#R" n="111" break="no"/>tiam, &amp; actum non cadit medium necessario. Nec 
+      <lb ed="#R" n="112"/>secundo modo, quia non videtur, quod caeli 
+      termi<lb ed="#R" n="113" break="no"/>nant actum. Nec ex parte obiecti, quia videtur, 
+      <lb ed="#R" n="114"/>quod potentia sit sufficiens cum obiecto, siue esca. 
+      <lb ed="#R" n="115"/>Et confirmatur, quia dicimus, quod cor dilatatur 
+      <lb ed="#R" n="116"/>prae gaudio, &amp; cor inflammatum dicimus post iram. 
+      <lb ed="#R" n="117"/>Item secundum diuersitatem istarum passionum 
+      <lb ed="#R" n="118"/>diuersificatur transmutatio, quia enim 
+      verecun<lb ed="#R" n="119" break="no"/>dus tristatur, ad locum extrinsecum emirtit 
+      sangui<lb ed="#R" n="120" break="no"/>nem, non e conuerso, &amp; quia gaudet quidam, 
+      sta<lb ed="#R" n="121" break="no"/>tim cor dilatatur. Ideo dico, quod tales 
+      transmu<lb ed="#R" n="122" break="no"/>tationes non sunt primae sequelae. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e964">
+                  <lb ed="#R" n="123"/>Nunc restat exponere alias duas propositiones 
+      <lb ed="#R" n="124"/>de actibus potentiarum, &amp; quantum ad alteram 
+      <lb ed="#R" n="125"/>dico, quod tales actus potentiarum sunt in prima 
+      <lb ed="#R" n="126"/>specie qualitatis formaliter. Hoc probo sic: illa 
+      <lb ed="#R" n="127"/>dispositio, quam comitatur bene, vel male in 
+      <lb ed="#R" n="128"/>disposito, est in prima specie qualitatis, hoc 
+      de<lb ed="#R" n="129" break="no"/>claratur; vbi distinguuntur species qualitatis: 
+      <lb ed="#R" n="130"/>sed ab huiusmodi actibus non potest separari bene, 
+      <lb ed="#R" n="131"/>vel male, probo istam, da quicquid volueris, siue 
+      <lb ed="#R" n="132"/>verecundiam, siue nemesim quamcunque passionem 
+      <lb ed="#R" n="133"/>des, ex suo formali importat bene, vel male. Dices, 
+      <lb ed="#R" n="134"/>quod non important bene, vel male, nisi obiectiue 
+      <lb ed="#R" n="135"/>inquantum circa istas passiones possumus nos 
+      ha<lb ed="#R" n="136" break="no"/>bere per habitus, bene, vel male.
+      </p>
+               <p xml:id="olm8ij-g36486-d1e997">
+      <!--0442.xml-->
+                  <pb ed="#R" n="440"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Contra: absque omni habitu verecundia est 
+      bo<lb ed="#R" n="2" break="no"/>na, &amp; nemesis inuidia mala. Item, a quacunque 
+      <lb ed="#R" n="3"/>passione impossibile est separari bonum, vel malum. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e1014">
+                  <lb ed="#R" n="4"/>Ad tuum argumentum dico, quod per habitus 
+      <lb ed="#R" n="5"/>fit distinctio in illis passionibus, quae sunt 
+      indiffe<lb ed="#R" n="6" break="no"/>renter bonae, vel malae: sed in illis, quae ex genere 
+      <lb ed="#R" n="7"/>important bonitatem, vel malitiam, non sic per hoc. 
+      <lb ed="#R" n="8"/>Idem dico de actibus intellectus, qui omnes sunt 
+      <lb ed="#R" n="9"/>in prima specie qualitatis. Item omnis dispositio, 
+      <lb ed="#R" n="10"/>vel est in prima specie, vel in alijs speciebus, 
+      scili<lb ed="#R" n="11" break="no"/>cet secunda, tertia, quarta: sed actus isti non sunt 
+      <lb ed="#R" n="12"/>in secunda specie, quia non sunt potentiae, nec in 
+      <lb ed="#R" n="13"/>tertia specie, vt argumentum videtur dicere, quod 
+      <lb ed="#R" n="14"/>ira est in tertia specie qualitatis: sed non est sic, cuius 
+      <lb ed="#R" n="15"/>ratio est, quia tertia est dispositio absoluta in se, 
+      <lb ed="#R" n="16"/>&amp; separata ab obiecto. Isti autem actus non sunt 
+      <lb ed="#R" n="17"/>dispositiones sic absolutae, quia sunt huius ad hoc 
+      <lb ed="#R" n="18"/>siue actus. Item nec in quarta specie, quia non 
+      <lb ed="#R" n="19"/>consequitur quantitatem, restat ergo quod in 
+      pri<lb ed="#R" n="20" break="no"/>ma. Item omnis dispositio huius ad hoc disponens 
+      <lb ed="#R" n="21"/>subiectum tanquam perficiens, vel imperficiens est 
+      <lb ed="#R" n="22"/>in prima specie qualitatis: hoc fuit declaratum 
+      <lb ed="#R" n="23"/>quaestione, vbi distinxi species qualitatis: sed actus 
+      <lb ed="#R" n="24"/>isti sunt huiusmodi: actus enim disponit non 
+      abso<lb ed="#R" n="25" break="no"/>lute, sed per respectum ad obiectum, vt actus est 
+      <lb ed="#R" n="26"/>perficere, vel imperficere potentiam: ergo.
+      </p>
+               <p xml:id="olm8ij-g36486-d1e1066">
+                  <lb ed="#R" n="27"/>Nunc ad aliam propositionem dico, quod 
+      trans<lb ed="#R" n="28" break="no"/>mutationes quae ex ijs sequuntur, sunt in tertia 
+      spe<lb ed="#R" n="29" break="no"/>cie qualitatis. Ad istas autem transmutationes 
+      se<lb ed="#R" n="30" break="no"/>quitur quandoque motus localis, vt dilatatio 
+      cor<lb ed="#R" n="31" break="no"/>dis, rarefactio, &amp; huiusmodi, &amp;c. &amp; tales motus 
+      <lb ed="#R" n="32"/>non sunt de genere qualitatis. Et est quaedam 
+      dispo<lb ed="#R" n="33" break="no"/>fitio, quae sequitur ad istum motum, &amp; istud vel est 
+      <lb ed="#R" n="34"/>qualitas actiua, &amp; hoc in tertia specie qualitatis; 
+      <lb ed="#R" n="35"/>vel est dispositio consequens, quae est qualitas 
+      con<lb ed="#R" n="36" break="no"/>sequens quantitatem, vt cum cor dilatatur, vel in 
+      <lb ed="#R" n="37"/>ira consttringitur, &amp; ista densitas est in quarta 
+      spe<lb ed="#R" n="38" break="no"/>cie qualitatis: ergo solum loquitur de qualitate, 
+      <lb ed="#R" n="39"/>quae est dispositio consequens, quae est qualitas 
+      <lb ed="#R" n="40"/>actualis. Hanc dico esse in tertia specie qualitatis, 
+      <lb ed="#R" n="41"/>vt est calefactio in irato, vel frigefactio in timore, 
+      <lb ed="#R" n="42"/>quod idem est in tertia specie qualitatis, quia 
+      in<lb ed="#R" n="43" break="no"/>fert passionem, &amp; ideo inducunt infirmitates, vt 
+      <lb ed="#R" n="44"/>est passio amoris, &amp; aegritudo amoris, quae est 
+      quae<lb ed="#R" n="45" break="no"/>dam dispositio derelicta ab isto, &amp; uocatur a 
+      me<lb ed="#R" n="46" break="no"/>dicis amor haeroicus. &amp; ideo dicuntur passiones, 
+      <lb ed="#R" n="47"/>&amp; aegritudines, quia aegritudo eius terminus, sed 
+      <lb ed="#R" n="48"/>quando intenditur est mors; sic contingit mori 
+      ani<lb ed="#R" n="49" break="no"/>mal nimio gaudio, similiter de ira.
+    </p>
+               <p xml:id="olm8ij-g36486-d1e1118">
+                  <lb ed="#R" n="50"/>Tunc patet propositum, quare motus appetitus 
+      <lb ed="#R" n="51"/>dicuntur passiones, non a suscipiendo, nec 
+      abij<lb ed="#R" n="52" break="no"/>ciendo, sed solum causaliter, prout huiusmodi actus 
+      <lb ed="#R" n="53"/>sequuntur quaedam passiones obiectiuae, sed multum 
+      <lb ed="#R" n="54"/>protenduntur, &amp; sic in hoc, quod inducunt 
+      passio<lb ed="#R" n="55" break="no"/>nem, sunt passiones. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e1134">
+                  <lb ed="#R" n="56"/>Ad primum pro parte alia dico, quod non sunt 
+      <lb ed="#R" n="57"/>passiones formaliter, sed solum causaliter, quia 
+      ve<lb ed="#R" n="58" break="no"/>ras passiones causant. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e1143">
+                  <lb ed="#R" n="59"/>Ad aliud concedo maiorem. Ad minorem dico, 
+      <lb ed="#R" n="60"/>quod non dicunt obiectiones, quod sint formaliter 
+      <lb ed="#R" n="61"/>obiectiones, sed solum causatiue, sed quia ex 
+      acti<lb ed="#R" n="62" break="no"/>bus talibus sequitur transmutatio, quae est 
+      obie<lb ed="#R" n="63" break="no"/>ctio, vnde ira, &amp; gaudium obijciunt, quia si 
+      inten<lb ed="#R" n="64" break="no"/>dantur, afferunt mortem. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e1159">
+                  <lb ed="#R" n="65"/>Ad aliud dico, quod passiones neutro modo, 
+      <lb ed="#R" n="66"/>quia solum dicuntur passiones consecutiue, &amp; 
+      cau<lb ed="#R" n="67" break="no"/>satiue. Ad aliud dico, quod isti actus non sunt in 
+      <lb ed="#R" n="68"/>tertia specie qualitatis, sed sunt aliquid, quod in- 
+      <!--0442.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>ducit passiones de tertia specie qualitatis. Ad aliud 
+      <lb ed="#R" n="70"/>dico, quod non sunt passiones formaliter, sed 
+      so<lb ed="#R" n="71" break="no"/>lum concomitatiue, &amp; causatiue. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e1182">
+                  <lb ed="#R" n="72"/>Instabis dicens, quod visionem concomitatur 
+      <lb ed="#R" n="73"/>passio in sensu: ergo &amp; passio, quod non potentia. 
+      <lb ed="#R" n="74"/>Dico, quod vt actus dicatur passio, non sufficit con 
+      <lb ed="#R" n="75"/>comitantia passionis, sed exigitur causatio: tunc 
+      <lb ed="#R" n="76"/>actus non causat passionem, sed potentia subiectum 
+      <lb ed="#R" n="77"/>causat passionem, vnde obiectum excellens corrũ- 
+      <lb ed="#R" n="78"/>pit visum, non visio: sed ex motu appetitus sunt cau 
+      <lb ed="#R" n="79"/>satiue huiusmodi passiones. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e1202">
+                  <lb ed="#R" n="80"/>Dico, quod imaginatio causat passionem; 
+      at<lb ed="#R" n="81" break="no"/>que hoc, non est ex formali ratione actus, sed 
+      con<lb ed="#R" n="82" break="no"/>secutiue solum, vnde potest imaginatio, quam 
+      <lb ed="#R" n="83"/>non sequitur laesio, sed posito quocunque gradu 
+      ap<lb ed="#R" n="84" break="no"/>petitus sequitur immediate transmutatio. Ex 
+      for<lb ed="#R" n="85" break="no"/>mali ergo ratione imaginationis non est, quod actum 
+      <lb ed="#R" n="86"/>eius sequatur transmutatio; vnde quod dicitur de 
+      <lb ed="#R" n="87"/>Camaleonta, non est ex sola imaginatione, sed ex 
+      <lb ed="#R" n="88"/>affectione aliqua. Sic quod dicitur de ouibus 
+      Ja<lb ed="#R" n="89" break="no"/>cob, dico quod non est ex sola imaginatione, sed ex 
+      <lb ed="#R" n="90"/>actu appetitum sequente. Et hoc de primo articulo. 
+      </p>
+            </div>
+            <div xml:id="olm8ij-g36486-Dd1e1229">
+               <head xml:id="olm8ij-g36486-Hd1e1231">Articulus 2</head>
+               <head xml:id="olm8ij-g36486-Hd1e1233" type="question-title">
+        De numero passionum
+      </head>
+               <p xml:id="olm8ij-g36486-d1e1236">
+                  <lb ed="#R" n="91"/>ARTJCVLVSJJ. 
+      <lb ed="#R" n="92"/>De numero passionum. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e1243">
+                  <lb ed="#R" n="93"/>DE secundo ergo est dicendum, de numero 
+      <lb ed="#R" n="94"/>passionum. Ad cuius euidentiam sciendum 
+      <lb ed="#R" n="95"/>est, quod communiter assignantur passiones sex 
+      <lb ed="#R" n="96"/>concupiscibilis, &amp; quinque irascibilis. Sex 
+      au<lb ed="#R" n="97" break="no"/>tem concupiscibilis sunt istae, scilicet, amor, 
+      desi<lb ed="#R" n="98" break="no"/>derium, delectatio, odium, fuga, tristitia, ita 
+      <lb ed="#R" n="99"/>quod tres primae sunt respectu boni, &amp; tres 
+      vlti<lb ed="#R" n="100" break="no"/>mae respectu mali. Similiter ex parte irascibilis 
+      <lb ed="#R" n="101"/>sunt quinque; duae respectu boni, &amp; duae respectu 
+      <lb ed="#R" n="102"/>mali absentis, &amp; vna respectu mali praesentis. 
+      Re<lb ed="#R" n="103" break="no"/>spectu boni est spes, &amp; desperatio, respectu mali 
+      ab<lb ed="#R" n="104" break="no"/>sentis audere, &amp; timere: sed respectu mali 
+      prae<lb ed="#R" n="105" break="no"/>sentis irascibilis est, scilicet assurgere in iram. Hic 
+      <lb ed="#R" n="106"/>attende, quod huiusmodi passiones dicunt actum 
+      for<lb ed="#R" n="107" break="no"/>maliter, transmutationem consecutiue, &amp; causaliter.
+    </p>
+               <p xml:id="olm8ij-g36486-d1e1278">
+                  <lb ed="#R" n="108"/>Quantum ad primum possunt poni in appetitu 
+      <lb ed="#R" n="109"/>intellectiuo, vnde in parte intellectiua est species: 
+      <lb ed="#R" n="110"/>sed quantum ad secundum non possunt dici 
+      passio<lb ed="#R" n="111" break="no"/>nes, nam ex hoc dicebantur passiones, quia 
+      cau<lb ed="#R" n="112" break="no"/>sabant transmutationem corporalem conformem, 
+      <lb ed="#R" n="113"/>quam sequitur passio. Ista transmutatio non 
+      po<lb ed="#R" n="114" break="no"/>nitur in parte intellectiua, vnde in spiritualibus, vt 
+      <lb ed="#R" n="115"/>appetitus sensitiui, vt conformis motus localiter 
+      <lb ed="#R" n="116"/>hoc non potest esse in intellectu. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e1301">
+                  <lb ed="#R" n="117"/>Hic autem sunt duo dubia. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e1306">
+                  <lb ed="#R" n="118"/>Primum, an istae passiones inter se realiter distin 
+      <lb ed="#R" n="119"/>guantur, vt amor, &amp; odium, quae sunt passiones 
+      <lb ed="#R" n="120"/>concupiscibilis, distinguantur ab alijs &amp; an 
+      eua<lb ed="#R" n="121" break="no"/>cuent omnem passionem appetitus sensitiui. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e1317">
+                  <lb ed="#R" n="122"/>Circa primum concurrit dubium, quomodo 
+      <lb ed="#R" n="123"/>amor, &amp; odium quae sunt passiones concupiscibilis, 
+      <lb ed="#R" n="124"/>distinguantur ab aliis quatuor passionibus concu 
+      <lb ed="#R" n="125"/>piscibilis. Secundo, quomodo delectatio, &amp; tristitia 
+      <lb ed="#R" n="126"/>ibidem ab aliis quatuor. Tertium dubium est de 
+      <lb ed="#R" n="127"/>delectationibus inter se quomodo distinguantur. 
+      </p>
+            </div>
+            <div xml:id="olm8ij-g36486-Dd1e1335">
+               <head xml:id="olm8ij-g36486-Hd1e1337">Articulus 3</head>
+               <head xml:id="olm8ij-g36486-Hd1e1339" type="question-title">
+        De delectationibus, quomodo inter se distinguantur
+      </head>
+               <p xml:id="olm8ij-g36486-d1e1342">
+                  <lb ed="#R" n="128"/>ARTJCVLVS JJJ. 
+      <lb ed="#R" n="129"/>De delectationibus, quomodo inter se 
+      distin<lb ed="#R" n="130" break="no"/>guantur. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e1351">
+                  <lb ed="#R" n="131"/>VTrum delectatio corporalis, quae est quaedam 
+      <lb ed="#R" n="132"/>passio, &amp; delectatio cordis, contineantur sub 
+      <!--0443.xml-->
+      <pb ed="#R" n="441"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>vna ratione generali, &amp; per hoc videbitur 
+      distin<lb ed="#R" n="2" break="no"/>ctio passionum concupiscibilis. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e1369">
+                  <lb ed="#R" n="3"/>Circa primum, quomodo amor, &amp; olium se 
+      <lb ed="#R" n="4"/>habeant ad alias quatuor passiones 
+      concupiscibi<lb ed="#R" n="5" break="no"/>lis: hic est duplex modus dicendi. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e1379">
+                  <lb ed="#R" n="6"/>Dicit vnus Doctor, quod amor, &amp; odium 
+      so<lb ed="#R" n="7" break="no"/>lum dicunt actum primum appetitus, &amp; 
+      qualita<lb ed="#R" n="8" break="no"/>tem quandam inexistentem: sed tristitia, &amp; 
+      desi<lb ed="#R" n="9" break="no"/>derium dicunt actum secundum. Quod probatur a 
+      <lb ed="#R" n="10"/>simisi: sicut enim est in motu rerum naturalium, 
+      <lb ed="#R" n="11"/>motus deorsum est actus elicitus, &amp; actus 
+      secun<lb ed="#R" n="12" break="no"/>dus; inclinatio autem dicit grauitatem, quae est 
+      <lb ed="#R" n="13"/>qualitas quaedam, &amp; actus primus. Sic ergo in 
+      <lb ed="#R" n="14"/>motus appetitus alius cum sit amor est quaedam 
+      <lb ed="#R" n="15"/>complacentia, &amp; confirmatio amati cum amato: 
+      <lb ed="#R" n="16"/>amor non dicit passionem, vel actum secundum, 
+      <lb ed="#R" n="17"/>sed dicit actum primum, &amp; qualitatem quandam 
+      <lb ed="#R" n="18"/>inexistentem, quae est inclinatio ipsa formaliter ad 
+      <lb ed="#R" n="19"/>amatum: sed desiderium, &amp; tristitia dicunt actus 
+      <lb ed="#R" n="20"/>elicitus, &amp; secundos.
+      </p>
+               <p xml:id="olm8ij-g36486-d1e1414">
+                  <lb ed="#R" n="21"/>Item: impossibile est duos actus perfectos 
+      appe<lb ed="#R" n="22" break="no"/>titus poni simul in appetitiuo, &amp; intensos; sed 
+      <lb ed="#R" n="23"/>existente in appetitu desiderio, &amp; delectatione 
+      sum<lb ed="#R" n="24" break="no"/>ma, potest summe inesse amor ergo non inde, quod 
+      <lb ed="#R" n="25"/>differant, sicut duo actus eliciti secundi. Item: 
+      il<lb ed="#R" n="26" break="no"/>lud, a quo oritur actus secundus, non est actus 
+      se<lb ed="#R" n="27" break="no"/>cundus, sed delectatio, &amp; desiderium, quae sunt 
+      se<lb ed="#R" n="28" break="no"/>cundi, oriuntur amor, &amp;c. Minor pater, maiorem 
+      <lb ed="#R" n="29"/>probo, quia amor est desiderium, &amp; amore in 
+      ha<lb ed="#R" n="30" break="no"/>bito delectaris: Est etiam amor principium omnis 
+      <lb ed="#R" n="31"/>actus concupiscibilis, vt videtur: ergo amor non 
+      <lb ed="#R" n="32"/>est nisi qualitas quaedam, quae non est actus 
+      secun<lb ed="#R" n="33" break="no"/>dus, sed primus, &amp; gratuitas faciens 
+      conformita<lb ed="#R" n="34" break="no"/>tem duorum, sicut grauitas est actus primus faciens 
+      <lb ed="#R" n="35"/>conformitatem grauis ad genitum. Sicut ergo amor 
+      <lb ed="#R" n="36"/>solum est grauitas, non actus elicitus. Haec positio 
+      <lb ed="#R" n="37"/>est satis probabilis, sed non videtur verum dicere, 
+      <lb ed="#R" n="38"/>quod amor sit actus secundus. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e1456">
+                  <lb ed="#R" n="39"/>Et probo, quod sic. Jllud, sub quo est statim 
+      <lb ed="#R" n="40"/>potentia ad principium obiecti, &amp; ad absentiam 
+      <lb ed="#R" n="41"/>obiecti statim, non est sub illo, illud est actus 
+      eli<lb ed="#R" n="42" break="no"/>citus. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e1467">
+                  <lb ed="#R" n="43"/>Dico autem statim ad differentiam habitus, sub 
+      <lb ed="#R" n="44"/>quo non est statim potentia ad principium obiecti, 
+      <lb ed="#R" n="45"/>&amp; quia dices forte, quod statim species est in 
+      ocu<lb ed="#R" n="46" break="no"/>lo ad principium obiecti. Ideo addo aliam 
+      parti<lb ed="#R" n="47" break="no"/>culam, quod ad absentiam illud statim abest. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e1480">
+                  <lb ed="#R" n="48"/>Sed dices forte, quod species non conseruatur in 
+      <lb ed="#R" n="49"/>oculo absente obiecto. Ideo addo modo aliud, &amp; 
+      <lb ed="#R" n="50"/>dico, quod illud sit tale, quod sit vitalis, &amp; visio 
+      <lb ed="#R" n="51"/>formalis potentia cum obiecto; stat ergo 
+      proposi<lb ed="#R" n="52" break="no"/>tio, quod istae tres conditiones non conueniunt 
+      ha<lb ed="#R" n="53" break="no"/>bitui nec speciei, sed actui. Tunc subditur, sed amor 
+      <lb ed="#R" n="54"/>statim obiecti ad praesentiam acquiritur visio actus, 
+      <lb ed="#R" n="55"/>quam aliqua passio. Item ad absentiam obiecti 
+      <lb ed="#R" n="56"/>quiescit. Item, vnit potentiam formaliter cum 
+      <lb ed="#R" n="57"/>obiecto, &amp; vitaliter: ergo. Item, amor 
+      distingui<lb ed="#R" n="58" break="no"/>tur in actualem, &amp; habitualem, tunc, illud quo 
+      <lb ed="#R" n="59"/>acquiritur habitus, est actus secundus: sed tale est 
+      <lb ed="#R" n="60"/>amor: ergo. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e1511">
+                  <lb ed="#R" n="61"/>Item: Delectatio, &amp; amor cadit sub praecepto: 
+      <lb ed="#R" n="62"/>sed talis qualitas mortua non cadit sub praecepto: 
+      <lb ed="#R" n="63"/>ergo. Si ergo imaginatur, quod amor sit 
+      quali<lb ed="#R" n="64" break="no"/>tas, quae est operatio, concedo: sed non concedo 
+      <lb ed="#R" n="65"/>aliter. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e1525">
+                  <lb ed="#R" n="66"/>Ac primum pro sua positione dico, quod amor 
+      <lb ed="#R" n="67"/>bene est conformitas, &amp; actus complacentiae: 
+      vn<lb ed="#R" n="68" break="no"/>de est actus, qui vocatur placere, &amp; est qualitas 
+      <!--0443.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>vitalis conditionis in obiectum, &amp; est de prima 
+      <lb ed="#R" n="70"/>specie qualitatis. De grauitate autem autem non 
+      <lb ed="#R" n="71"/>est sic simile, quia grauitas non acquiritur, nec 
+      po<lb ed="#R" n="72" break="no"/>tentia mouetur de aliquo in grauitatem. Item non 
+      <lb ed="#R" n="73"/>est vitalis tendentia in aliud. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e1549">
+                  <lb ed="#R" n="74"/>Ad secundum dico, quod non est aliquod 
+      incon<lb ed="#R" n="75" break="no"/>ueniens assignare duos actus, &amp; qualitates non 
+      <lb ed="#R" n="76"/>solum se habentes quodam ordine, sed quod vnum 
+      <lb ed="#R" n="77"/>sit causa alterius. Exemplum de radio, &amp; calore, 
+      <lb ed="#R" n="78"/>quae sunt subiectiue in aere, &amp; radius est causa 
+      ca<lb ed="#R" n="79" break="no"/>loris: sed in proposito, &amp; complacentia magna ad 
+      <lb ed="#R" n="80"/>rem intenditur eius desiderium, &amp; sic possunt simul 
+      <lb ed="#R" n="81"/>esse cognitum: ergo concludit de actibus 
+      dispara<lb ed="#R" n="82" break="no"/>tis, non sic in proposito. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e1571">
+                  <lb ed="#R" n="83"/>Ad aliud nego minorem, dico enim, quod actus 
+      <lb ed="#R" n="84"/>secundus, qui est vitalis tendentia, totum esse 
+      cau<lb ed="#R" n="85" break="no"/>sa alterius tendentiae, cum sit amor respectu 
+      de<lb ed="#R" n="86" break="no"/>siderij. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e1582">
+                  <lb ed="#R" n="87"/>Alius modus communis, quod realiter 
+      distin<lb ed="#R" n="88" break="no"/>guuntur, ita quod amor, &amp; odium se habent ad 
+      de<lb ed="#R" n="89" break="no"/>siderium, &amp; tristitiam, &amp; alia sicut distincta 
+      rea<lb ed="#R" n="90" break="no"/>liter. De hoc alias fuit dictum. Sed modo 
+      speciali<lb ed="#R" n="91" break="no"/>ter dico, quod amor, &amp; odium non diuiduntur con 
+      <lb ed="#R" n="92"/>tra alias passiones. Imo dico, quod omnis amor 
+      <lb ed="#R" n="93"/>vel est desiderium, vel delectatio, &amp; omne odium, 
+      <lb ed="#R" n="94"/>vel est tristitia, vel fuga, hoc probo aliquibus 
+      ra<lb ed="#R" n="95" break="no"/>tionibus. Primo sic: Quandocunque duae 
+      differen<lb ed="#R" n="96" break="no"/>tiae dicuntur euacuare omnes actus alicuius 
+      poten<lb ed="#R" n="97" break="no"/>tiae, omnis actus contentus in potentia continetur 
+      <lb ed="#R" n="98"/>sub aliqua istarum differentiarum; sed ita est quod 
+      <lb ed="#R" n="99"/>desiderare, &amp; quiescere, appetitum tendere, &amp; 
+      quie<lb ed="#R" n="100" break="no"/>scere, euacuant sufficienter omnes actus 
+      concupi<lb ed="#R" n="101" break="no"/>scibilis: ergo ex vna parte, &amp; fugere, &amp; tristari actus 
+      <lb ed="#R" n="102"/>euacuant illis oppositos ex alia parte: ergo omnis 
+      <lb ed="#R" n="103"/>actus appetitus concupiscibilis est vel tendere, vel 
+      <lb ed="#R" n="104"/>fugere, vel tristari: sed amore est in appetitu: ergo. 
+      <lb ed="#R" n="105"/>Maior patet. Minorem probo a simili, sic: Sicut 
+      <lb ed="#R" n="106"/>se habet de motibus naturalibus, sic de motibus 
+      <lb ed="#R" n="107"/>appetitus animalis: sed omne, quod mouetur 
+      ap<lb ed="#R" n="108" break="no"/>petitu naturali, habet tendere in aliud, vel 
+      quie<lb ed="#R" n="109" break="no"/>tari, vt patet de graui: ergo similiter appetitus 
+      <lb ed="#R" n="110"/>animalis habet, vel motum tendentiae, &amp; motum, 
+      <lb ed="#R" n="111"/>quo in illo quiescit. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e1639">
+                  <lb ed="#R" n="112"/>Dices, quod non simile depono in graui 
+      incli<lb ed="#R" n="113" break="no"/>nari, quod praecedit tendere: ergo similiter in 
+      <lb ed="#R" n="114"/>appetitu est inclinari, &amp; illud non esse praecedit 
+      <lb ed="#R" n="115"/>actum: ergo actus primus, &amp; talem voco amorem. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e1650">
+                  <lb ed="#R" n="116"/>Contra: Aut per inclinari intendis potentiam, 
+      <lb ed="#R" n="117"/>&amp; sic manifestum est, quod non oportet, quod actus 
+      <lb ed="#R" n="118"/>vel dicit aliquid faciens confortatiue, &amp; sit idem 
+      <lb ed="#R" n="119"/>quod placere: sed placere est quietari in illo: ergo 
+      <lb ed="#R" n="120"/>apparet in extremis. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e1664">
+                  <lb ed="#R" n="121"/>Item: probo illud discurrendo sic: Omnis actus 
+      <lb ed="#R" n="122"/>appetitus concupiscibilis est respectu boni, tunc 
+      <lb ed="#R" n="123"/>sic, vel est respectu boni, vt tuum est, &amp; sic vel est 
+      <lb ed="#R" n="124"/>habitum, &amp; sic in illud non fertur, nisi in 
+      delecta<lb ed="#R" n="125" break="no"/>ri; vel est non habitum, &amp; sic non fertur, nisi per 
+      <lb ed="#R" n="126"/>desiderare: Vel est appetitus secundo modo 
+      re<lb ed="#R" n="127" break="no"/>spectu boni alterius, &amp; hoc similiter contingit 
+      du<lb ed="#R" n="128" break="no"/>pliciter. Vel est habitum, &amp; sic super illud feretur 
+      <lb ed="#R" n="129"/>actus, qui est placere, &amp; istud est quiescere. Si 
+      au<lb ed="#R" n="130" break="no"/>tem non sit habitum, sic fertur super illud per 
+      de<lb ed="#R" n="131" break="no"/>siderare, &amp; istud est tendere: igitur omnis actus 
+      <lb ed="#R" n="132"/>appetitus respectu boni est vel quiescere, vel 
+      ten<lb ed="#R" n="133" break="no"/>dere: cum ergo quies sit delectari, &amp; tendere sit 
+      <lb ed="#R" n="134"/>desiderare: ergo ista duo euacuant omnes actus 
+      <lb ed="#R" n="135"/>appetitus respectu boni: quare sequitur, quod 
+      om<lb ed="#R" n="136" break="no"/>nis amor est vel desiderium, vel delectatio: ergo 
+      <!--0444.xml-->
+      <pb ed="#R" n="442"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>non dabit potentiam, quae non reducatur ad 
+      a<lb ed="#R" n="2" break="no"/>ctum 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e1712">
+                  <lb ed="#R" n="3"/>Item tertio sic: Omnis amor, vel est concupiscen 
+      <lb ed="#R" n="4"/>tiae, vel amicitiae: sed amor concupiscentiae est 
+      desi<lb ed="#R" n="5" break="no"/>derare, amor vero amicitiae est delectari, &amp; 
+      quie<lb ed="#R" n="6" break="no"/>scere: ergo. Maior patet. Cum enim dico 
+      amici<lb ed="#R" n="7" break="no"/>tiae, vel concupiscentiae, ista est contractio in 
+      transi<lb ed="#R" n="8" break="no"/>tiuum: omnis amor, vel est amor qui est 
+      compla<lb ed="#R" n="9" break="no"/>centiae, vel amor, qui amicitiae. Minorem probo, 
+      <lb ed="#R" n="10"/>quia idem est concupiscere, quod de siderare, amor 
+      <lb ed="#R" n="11"/>complacentiae, vel amicitiae est delectari. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e1734">
+                  <lb ed="#R" n="12"/>Item, quod idem sit placere, quod delectari, 
+      pa<lb ed="#R" n="13" break="no"/>tet, quoniam idem est obiectum placibilis, &amp; 
+      dele<lb ed="#R" n="14" break="no"/>ctabilis. Item, idem est placens, &amp; delectans, 
+      pla<lb ed="#R" n="15" break="no"/>cet, &amp; delectat: ergo idem est placere &amp; delectari 
+      <lb ed="#R" n="16"/>in illo. Non autem dico, quod omnis amor sit 
+      desi<lb ed="#R" n="17" break="no"/>derium, &amp; delectatio corporalis, sed tantum hoc 
+      <lb ed="#R" n="18"/>dico, quod specificatio amoris est necessario, vel 
+      <lb ed="#R" n="19"/>quiescere, vel desiderare: ita quod omnis amor 
+      spe<lb ed="#R" n="20" break="no"/>cifice vel est desiderium, vel delectatio, idesl 
+      quie<lb ed="#R" n="21" break="no"/>scere, vnde si amas te, dicitur talis amor 
+      compla<lb ed="#R" n="22" break="no"/>centiae, &amp; hoc idem est, quod delectari. Item si 
+      a<lb ed="#R" n="23" break="no"/>lium amas, eodem modo complaces in isto, &amp; 
+      dele<lb ed="#R" n="24" break="no"/>ctaris. Similiter, si aliquid ames tibi, diceris 
+      desi<lb ed="#R" n="25" break="no"/>derare tibi; &amp; si alteri, diceris desiderare illi. Et 
+      <lb ed="#R" n="26"/>ex his patet, quod beatitudo formaliter consistit in 
+      <lb ed="#R" n="27"/>delectatione, qui est amor &amp; complacentia. Non 
+      <lb ed="#R" n="28"/>dico, quod sit complacentia visionis, sed dico, quod est 
+      <lb ed="#R" n="29"/>consequens ipsam visionem, scilicet Dei. Nec 
+      beatitu<lb ed="#R" n="30" break="no"/>do est amor desiderij, quo scilicet Deum desideret, 
+      <lb ed="#R" n="31"/>quia beatus iam habet Deum, vel aliquid 
+      deside<lb ed="#R" n="32" break="no"/>ret, quia nihil ex hoc Deo acquiritur: sed solum est 
+      <lb ed="#R" n="33"/>amor complacentiae, vt quia complacet in summo 
+      <lb ed="#R" n="34"/>bono, vnde 7. Ethic. cap. 13. summum bonum 
+      om<lb ed="#R" n="35" break="no"/>nes res delectabiles: ergo. Dico, quod beatitudo 
+      <lb ed="#R" n="36"/>est delectatio formaliter, ita vt gaudium de Deo, &amp; 
+      <lb ed="#R" n="37"/>complacentia in eo, est actus formaliter 
+      beatitudi<lb ed="#R" n="38" break="no"/>nis contra opinionem quorundam. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e1795">
+                  <lb ed="#R" n="39"/>Sed hic est dubium. Primo, quia amor est 
+      prin<lb ed="#R" n="40" break="no"/>cipium desiderij: ergo non est idem, quod 
+      deside<lb ed="#R" n="41" break="no"/>rium. Item, principium delectationis: ergo 
+      non<lb ed="#R" n="42" break="no"/>est delectatio, quia enim amas desideras, &amp; quia 
+      <lb ed="#R" n="43"/>desideras delecttaris; Quies &amp; delectatio est 
+      vlti<lb ed="#R" n="44" break="no"/>mum potentiae, sed amare est principium. Item, 
+      <lb ed="#R" n="45"/>odium non est idem quod tristari, imo sunt simul, 
+      <lb ed="#R" n="46"/>quod idem se diligat, &amp; summe tristetur. Et patet 
+      <lb ed="#R" n="47"/>de daemone, qui se diligit, &amp; summe tristatur ex 
+      <lb ed="#R" n="48"/>poena: ergo amor non est idem, quod delectatio, 
+      <lb ed="#R" n="49"/>per istam regulam, Si propositum de proposito. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e1821">
+                  <lb ed="#R" n="50"/>Respondeo. Dico ad primum, quod est amor 
+      de<lb ed="#R" n="51" break="no"/>siderij, &amp; amor complacentiae, vel delectationis, 
+      <lb ed="#R" n="52"/>nunc vnio oritur ex delectatione; ex delectatione 
+      <lb ed="#R" n="53"/>oritur desiderium, quia ex eo, quod delectaris, 
+      de<lb ed="#R" n="54" break="no"/>sideras vniri delectanti te. Amor autem, qui est 
+      <lb ed="#R" n="55"/>idem, quod delectatio, ex tali amore oritur ipsum 
+      <lb ed="#R" n="56"/>desiderium. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e1839">
+                  <lb ed="#R" n="57"/>Item, delectatio est multiplex: quaedam in 
+      prae<lb ed="#R" n="58" break="no"/>sentia obiecti, &amp; ista talis delectatio oritur ex 
+      ob<lb ed="#R" n="59" break="no"/>iecto, quod prius, dum non esset praesens, non 
+      dele<lb ed="#R" n="60" break="no"/>ctabat, quia prius oportet esse obiectum 
+      delecta<lb ed="#R" n="61" break="no"/>bile, &amp; talis delectatio dicitur complacentia, vel 
+      <lb ed="#R" n="62"/>complacere, quo obiectum placet tibi, ex isto 
+      amo<lb ed="#R" n="63" break="no"/>re accenditur desiderium, quod scilicet obiecttum 
+      <lb ed="#R" n="64"/>sit sua praesentia vnitum. Secundo, acquisita 
+      prae<lb ed="#R" n="65" break="no"/>sentia obiecti oritur ista delectatio, quae est 
+      alte<lb ed="#R" n="66" break="no"/>rius rationis, vnde Aristoteles, Vnusquisque 
+      dele<lb ed="#R" n="67" break="no"/>ctatur in eo, quod amat, quia primo complacet, 
+      <lb ed="#R" n="68"/>deinde fit desiderium. Deinde dum obiectum est 
+      <!--0444.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>vnitum, fit alia delectatio ad aliud tertium obiectum: 
+      <lb ed="#R" n="70"/>vnde sunt istae duae delectationes alterius rationis. 
+      <lb ed="#R" n="71"/>Non ergo sunt plures actus tendere in obiectum, 
+      <lb ed="#R" n="72"/>&amp; delectari: imo nec possunt esse nisi vnus actus. 
+      <lb ed="#R" n="73"/>Ad aliud dico, quod aequiuocas delectari, quia 
+      <lb ed="#R" n="74"/>ipsi summe quiescunt in se, in quantum sibi placent, 
+      <lb ed="#R" n="75"/>&amp; istud est delectari, &amp; quiescere, siue amor 
+      com<lb ed="#R" n="76" break="no"/>placentiae: nam appetitus fugit poenam, &amp; 
+      inquie<lb ed="#R" n="77" break="no"/>tatur in poenis, imaginatio summe tristatur: sed 
+      <lb ed="#R" n="78"/>in se quietatur, &amp; ideo est amor complacentiae: 
+      vn<lb ed="#R" n="79" break="no"/>de summe de obiecto tristatur, quia appetitus 
+      mo<lb ed="#R" n="80" break="no"/>lestatur, &amp; in se summe placet, &amp; ideo simul stant, 
+      <lb ed="#R" n="81"/>quia sunt actus rationis. In quo autem fit 
+      forma<lb ed="#R" n="82" break="no"/>lis miseria eorum, non cognoscitur, vnde esse in poe 
+      <lb ed="#R" n="83"/>na sensus, vel imaginatione non credo: sed miseria 
+      <lb ed="#R" n="84"/>damnatorum consistit in Dei displicentia, &amp; ista 
+      <lb ed="#R" n="85"/>opponitur foelicitati, quia habentes actum istum 
+      <lb ed="#R" n="86"/>omnibus alijs dictis formaliter sunt damnati. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e1912">
+                  <lb ed="#R" n="87"/>Quantum ad istud dubium patet, quia amor &amp; 
+      <lb ed="#R" n="88"/>odium respectu aliarum passionum se habent, sicut 
+      <lb ed="#R" n="89"/>genus ad speciem. 9. Ethic. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e1921">
+                  <lb ed="#R" n="90"/>De secundo, quomodo scilicet delectatio, &amp; 
+      de<lb ed="#R" n="91" break="no"/>siderium se habent ad tristitiam &amp; fugam, dicunt 
+      <lb ed="#R" n="92"/>aliqui, quod delectatio, &amp; tristitia non sunt actus 
+      <lb ed="#R" n="93"/>potentiae, sed impressiones derelictae ab obiecto, &amp; 
+      <lb ed="#R" n="94"/>habent adhuc aliqua, primum quoddam amare, &amp; 
+      <lb ed="#R" n="95"/>actus huiusmodi sunt in potestate nostra, sed 
+      dele<lb ed="#R" n="96" break="no"/>ctari non est in potestate nostra. Item 7 Ethic. cap. 
+      <lb ed="#R" n="97"/>12. &amp; lib. 10. cap. 3. Delectatio superuenit 
+      operan<lb ed="#R" n="98" break="no"/>tibus, vnde dicitur signum ad generati: habitus 
+      e<lb ed="#R" n="99" break="no"/>nim superueniens est delectatio, quare videtur, quod 
+      <lb ed="#R" n="100"/>sit pailio consequens operationem. Item delecta 
+      <lb ed="#R" n="101"/>tio, &amp; tristitia in actu exteriori non sunt actus, sed 
+      <lb ed="#R" n="102"/>sunt impressiones obiecti: et go. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e1952">
+                  <lb ed="#R" n="103"/>Ad hoc dico, an sint impressiones, non 
+      cognosci<lb ed="#R" n="104" break="no"/>tur, quia forte omnes tales actus sunt 
+      impressio<lb ed="#R" n="105" break="no"/>nes: sed reputo necessarium, quod delectatio sit 
+      a<lb ed="#R" n="106" break="no"/>ctus vitalis formaliter, sicut amare &amp; desiderare 
+      <lb ed="#R" n="107"/>sunt actus a potentia appetitiua in obiectum. 
+      Con<lb ed="#R" n="108" break="no"/>firmo, quia delectatio cordis, gaudium, &amp; laetitia: 
+      <lb ed="#R" n="109"/>sed ista sunt vitales actus: ergo. Et sic dico de 
+      con<lb ed="#R" n="110" break="no"/>trarijs passionibus. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e1972">
+                  <lb ed="#R" n="111"/>Item, quando aliquid mouetur dupliciter, 
+      scili<lb ed="#R" n="112" break="no"/>cet realiter, &amp; intentionaliter, dupliciter in illo 
+      <lb ed="#R" n="113"/>quiescit vt graue, quod realiter mouetur in 
+      cen<lb ed="#R" n="114" break="no"/>trum, non solum in aliquid, ideo non solum 
+      rea<lb ed="#R" n="115" break="no"/>liter quiescit in illo: se d animal mouetur 
+      duplici<lb ed="#R" n="116" break="no"/>ter in obiectum, scilicet realiter in eundo, &amp; 
+      in<lb ed="#R" n="117" break="no"/>tentionaliter, vt appetitu: ergo quiescit 
+      duplici<lb ed="#R" n="118" break="no"/>ter. Tunc quaero, aut ista quies est vnio realis, &amp; si 
+      <lb ed="#R" n="119"/>non, ergo intentionalis; tunc autem quiescit 
+      nega<lb ed="#R" n="120" break="no"/>tiue, scilicet quod non mouetur, &amp; hoc non, quia 
+      <lb ed="#R" n="121"/>oportet, quod desiderium adipiscatur, adipisci 
+      au<lb ed="#R" n="122" break="no"/>tem non est negatio, vnde finis motus est adeptio 
+      <lb ed="#R" n="123"/>eius, ad quod mobile mouetur, non autem negatio 
+      <lb ed="#R" n="124"/>ipsius motus. Tunc istud aut est actus, aut 
+      poten<lb ed="#R" n="125" break="no"/>tia, aut nihil: non potentia, nec nihil: ergo actus ap 
+      <lb ed="#R" n="126"/>petitus, qui est quiescere, est obiectum: ergo est ope 
+      <lb ed="#R" n="127"/>ratio vitalis: sed istud non est gaudere, delectari; 
+      <lb ed="#R" n="128"/>&amp; gaudere, &amp; laetari sunt actus vitales: ergo. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e2014">
+                  <lb ed="#R" n="129"/>Item, delectatio, ex quo vnit potentiam 
+      vitali<lb ed="#R" n="130" break="no"/>ter cum obiecto, &amp; respicit intentionaliter 
+      obie<lb ed="#R" n="131" break="no"/>ctum, dicetur necessario qualitas, &amp; operatio 
+      vi<lb ed="#R" n="132" break="no"/>talis, vnde delectari non est aliud, quam obiectiue 
+      <lb ed="#R" n="133"/>gaudere, &amp; delectari de alio: ergo vere est 
+      ope<lb ed="#R" n="134" break="no"/>ratio, non autem passio impressa, nisi sicut &amp; actus. 
+      <lb ed="#R" n="135"/>Vnde in appetitu sunt duo, scilicet actus 
+      positi<lb ed="#R" n="136" break="no"/>uus, vt desiderare, &amp; quiescere; oppositi, vt fugere, 
+      <!--0445.xml-->
+      <pb ed="#R" n="443"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>&amp; inquietari; vnde in obiecto non placido 
+      poten<lb ed="#R" n="2" break="no"/>tia inquietatur, &amp; hoc est delectatio: quare 
+      dele<lb ed="#R" n="3" break="no"/>ctatio non est circa operationem, nec derelictum, 
+      <lb ed="#R" n="4"/>vt dicebat alia opinio, sed est operatio 
+      appeti<lb ed="#R" n="5" break="no"/>tus, vt animalis, vel intellectualis, vnde est 
+      quie<lb ed="#R" n="6" break="no"/>tatio, quae est ex moueri in obiectum, &amp; ideo 
+      de<lb ed="#R" n="7" break="no"/>lectatio non est actus potentiae apprehensiuae, quia 
+      <lb ed="#R" n="8"/>non mouetur in obiectum, &amp; haec est intentio 
+      Phi<lb ed="#R" n="9" break="no"/>losophi: nec ergo est actus alicuius potentiae 
+      ap<lb ed="#R" n="10" break="no"/>prehensiuae: sed bene est actus appetitus solum, &amp; 
+      <lb ed="#R" n="11"/>hoc dupliciter, vel appetitus animalis, &amp; 
+      intelle<lb ed="#R" n="12" break="no"/>cti. Vtrum autem sit ab obiecto, non curo modo. 
+      <lb ed="#R" n="13"/>Ad rationes pro alia opinione. Ad primam 
+      di<lb ed="#R" n="14" break="no"/>co, quod istae passiones, &amp; actus, qui habent 
+      or<lb ed="#R" n="15" break="no"/>dinem causalitatis non sunt in potestate nostra, vt 
+      <lb ed="#R" n="16"/>nunquam speras nisi amatum; nec fugis, nisi 
+      odi<lb ed="#R" n="17" break="no"/>tum, tunc quando amãre est in appetitu, necessario 
+      <lb ed="#R" n="18"/>alij actus sequuntur: vnde si amas, non 
+      praesenta<lb ed="#R" n="19" break="no"/>tur tibi illud, vt arduum, sed vt possibile, speras, 
+      <lb ed="#R" n="20"/>&amp; sic desideras. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e2084">
+                  <lb ed="#R" n="21"/>Item: ex amore rei habitae est quiescere, idest, 
+      <lb ed="#R" n="22"/>delectari in illa: ergo dico, quod habito primo 
+      <lb ed="#R" n="23"/>actu alij non sunt in potestate nostra, sed 
+      sequen<lb ed="#R" n="24" break="no"/>tes illum: sed si es in potestate respectu primu, eris 
+      <lb ed="#R" n="25"/>in potestate respectu secundi, scilicet passio in 
+      ap<lb ed="#R" n="26" break="no"/>petitu. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e2101">
+                  <lb ed="#R" n="27"/>Ad Aristotelem dico, quod non intelligit, quod 
+      <lb ed="#R" n="28"/>sit passio intellectualis, sed bene aliquid consequens. 
+      <lb ed="#R" n="29"/>operationem in intellectu. Vnde in 
+      contemplatio<lb ed="#R" n="30" break="no"/>ne veritatis appetitus quiescit, &amp; sic non in eadem 
+      <lb ed="#R" n="31"/>potentia, sed in alia, scilicet in appetitu. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e2114">
+                  <lb ed="#R" n="32"/>Nunc autem de tertio dubio, quomodo 
+      dilecta<lb ed="#R" n="33" break="no"/>tio carnalis differat a delectatione, quae vocatur 
+      <lb ed="#R" n="34"/>animalis. Dico autem carnalis, &amp; animalis, 
+      pu<lb ed="#R" n="35" break="no"/>ta gaudium cordis, &amp; delectatio gustus in bono 
+      vi<lb ed="#R" n="36" break="no"/>no, conueniunt in ratione communi: sed plus 
+      dif<lb ed="#R" n="37" break="no"/>ferunt, quam desiderare, &amp; delectari, quia plus 
+      <lb ed="#R" n="38"/>differunt videre, &amp; intelligere, quam intelligere, 
+      <lb ed="#R" n="39"/>&amp; velle, &amp; tamen sunt magis consequentia in 
+      mo<lb ed="#R" n="40" break="no"/>do se habendi ad inuicem. Arguo enim sic: Jllae duae 
+      <lb ed="#R" n="41"/>passiones differunt genere, quae consequuntur 
+      ap<lb ed="#R" n="42" break="no"/>prehensiuas genere distinctas, hoc patet, quia 
+      nun<lb ed="#R" n="43" break="no"/>quam delectaris, nisi apprehendas: sed delecttatio 
+      <lb ed="#R" n="44"/>corporalis sequitur apprehensiuam sensitiuam, 
+      de<lb ed="#R" n="45" break="no"/>lectatio vero cordis sequitur aestimationem 
+      infe<lb ed="#R" n="46" break="no"/>riorem, istae sunt genere distinctae: ergo. Item 
+      <lb ed="#R" n="47"/>plus differunt passiones in potentijs distinctis, quam 
+      <lb ed="#R" n="48"/>in eadem: sed desiderium, &amp; delectatio sunt in 
+      eo<lb ed="#R" n="49" break="no"/>dem appetitu disferentes, vt duae passiones, 
+      dele<lb ed="#R" n="50" break="no"/>ctatio autem corporalis est in apprehensione 
+      exte<lb ed="#R" n="51" break="no"/>riori; delectatio vero cordis in corde: ergo. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e2160">
+                  <lb ed="#R" n="52"/>Hic dico, quod sunt duo appetitus, vnus qui 
+      sequi<lb ed="#R" n="53" break="no"/>tur apprehensionem interiorem, alius, qui habet 
+      ex<lb ed="#R" n="54" break="no"/>teriorem: nunquam enim appetitus exterior 
+      moue<lb ed="#R" n="55" break="no"/>tur ab aestimatiua, nec interior mouetur ab 
+      appre<lb ed="#R" n="56" break="no"/>hensione exteriori: ergo duo appetitus, &amp; sic duae 
+      <lb ed="#R" n="57"/>passiones. Et confirmatur, quia dolor, &amp; delectatio 
+      <lb ed="#R" n="58"/>interior stant simul, vt patet de matribus, non ergo 
+      <lb ed="#R" n="59"/>sunt vnus, quia sic opposita essent in eodem. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e2180">
+                  <lb ed="#R" n="60"/>Item: ista simul stant, quod aliquis interius 
+      tri<lb ed="#R" n="61" break="no"/>stetur, &amp; exterius delectetur, vt patet de Virgine 
+      <lb ed="#R" n="62"/>violenter deflorata: nonebgo idem est appetitus. 
+      <lb ed="#R" n="63"/>Aliquando autem eorum delectationes concurrunt 
+      <lb ed="#R" n="64"/>ad inuicem. Sed contra videtur, quod gustus 
+      de<lb ed="#R" n="65" break="no"/>lectetur, sic de omnibus sensibus, circa suos actus, 
+      <lb ed="#R" n="66"/>non videtur ergo, quod sit alius appetitus exterior 
+      <lb ed="#R" n="67"/>a potentia apprehensiua. Et confirmatur, quia 
+      di<lb ed="#R" n="68" break="no"/>citur sentio dolorem: ergo dolor est actus poten- 
+      <!--0445.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>tiae apprehensiuae, non appetitus. Dico, quod si 
+      <lb ed="#R" n="70"/>ista delectatio possit esse actus potentiae 
+      apprehen<lb ed="#R" n="71" break="no"/>siuae, esset certe apprehensiuae interioris, &amp; sic non 
+      <lb ed="#R" n="72"/>oportet dare alium appetitum animalis, quam 
+      <lb ed="#R" n="73"/>aestimatiuam virtutem. Sed hoc non est verum. 
+      <lb ed="#R" n="74"/>Probo, quia actus apprehensiuae sunt iuditia 
+      for<lb ed="#R" n="75" break="no"/>maliter, &amp; motiones obiectorum ad potentiam, 
+      <lb ed="#R" n="76"/>sed motus appetitus non sunt iudicia, nec sunt 
+      tem<lb ed="#R" n="77" break="no"/>dere, nisi obieci in potentiam. Jmo e conuerso, 
+      <lb ed="#R" n="78"/>&amp; ideo necessario est alia potentia apprehensiua 
+      <lb ed="#R" n="79"/>&amp; ideo oportet dicere necessario, quod sit 
+      appe<lb ed="#R" n="80" break="no"/>titus complantatus, qui sequitur omnem 
+      apure<lb ed="#R" n="81" break="no"/>hensionem, nec potest separari ab aliqua appochen 
+      <lb ed="#R" n="82"/>sione. Quod vero dicit, quod dolorem sentimus. 
+      <lb ed="#R" n="83"/>Dico, quod sentire aliquando accipitur pro 
+      expe<lb ed="#R" n="84" break="no"/>rientia, quandoque pro actu. Primo modo 
+      intel<lb ed="#R" n="85" break="no"/>ligitur, cum dicitur, dolorem sentio, idest experior, 
+      <lb ed="#R" n="86"/>vel doleo, non secundo modo. Pono ergo 
+      qua<lb ed="#R" n="87" break="no"/>druplicem passionem, duas in appetitu exteriori, 
+      <lb ed="#R" n="88"/>tristitiam &amp; dolorem, &amp; hae sunt delectationes 
+      <lb ed="#R" n="89"/>corporales. Item in concupiscibili duas alias 
+      <lb ed="#R" n="90"/>scilicet desiderium, &amp; delecationem, fugam, &amp; 
+      <lb ed="#R" n="91"/>tristitiam, amor vero, &amp; odium coincidunt cum 
+      <lb ed="#R" n="92"/>istis. Pono in irascibili quinque, Spes, &amp; 
+      despera<lb ed="#R" n="93" break="no"/>tio respectu boni, &amp; respectu mali absentis audere, 
+      <lb ed="#R" n="94"/>&amp; timere, respectu vero mali est ira: ergo sunt duae 
+      <lb ed="#R" n="95"/>passiones respectu appetitus carnalis sequentis ap 
+      <lb ed="#R" n="96"/>prehensionem exteriorem, &amp; octo respectu 
+      appe<lb ed="#R" n="97" break="no"/>titus animalis sequentis apprehensionem interiorem, 
+      <lb ed="#R" n="98"/>quorum quatuor sunt concupiscibilis, &amp; quinque 
+      ira<lb ed="#R" n="99" break="no"/>scibilis, vt visum est statim: haec de tertio articulo. 
+      </p>
+            </div>
+            <div xml:id="olm8ij-g36486-Dd1e2275">
+               <head xml:id="olm8ij-g36486-Hd1e2277">Articulus 4</head>
+               <head xml:id="olm8ij-g36486-Hd1e2279" type="question-title">
+        Utrum omnes passiones possint reduci ad has quinque
+      </head>
+               <p xml:id="olm8ij-g36486-d1e2282">
+                  <lb ed="#R" n="100"/>ARTJCVLVS JJJJ. 
+      <lb ed="#R" n="101"/>Vtrum omnes passiones possint reduci ad has 
+      <lb ed="#R" n="102"/>quinque 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e2291">
+                  <lb ed="#R" n="103"/>NVnc de sufficientia istarum, quae consistit in 
+      <lb ed="#R" n="104"/>in reducendo omnes passiones appetitus ad 
+      <lb ed="#R" n="105"/>has quinque: Vtrum omnes passiones tales possint 
+      <lb ed="#R" n="106"/>reduci ad has quinque, &amp; quod non, ostendo 
+      pri<lb ed="#R" n="107" break="no"/>mo, quod non omnes corporales passiones 
+      redu<lb ed="#R" n="108" break="no"/>cuntur ad delectationem, &amp; dolorem. Secundo, quod 
+      <lb ed="#R" n="109"/>non oens passiones concupiscibilis reducuntur ad istas 
+      <lb ed="#R" n="110"/>quatuor, &amp; omnes irascibilis ad quinq. assignatas. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e2311">
+                  <lb ed="#R" n="111"/>Quantum ad primum arguo sic: Fames, &amp; sitis sunt 
+      <lb ed="#R" n="112"/>paliiones corporales: sed non sunt deleccatio, nec 
+      <lb ed="#R" n="113"/>dolor: nam famens non dolet, nec delectatur, &amp; si 
+      di<lb ed="#R" n="114" break="no"/>cit, quod sic esset tristitia. ex Arist. 2. de anima ꝗ dicit, 
+      <lb ed="#R" n="115"/>quod fames est desiderium calidi, &amp; sicci, est 
+      passio<lb ed="#R" n="116" break="no"/>corporalis, &amp; tamen non est dolor, nec delectatio, 
+      <lb ed="#R" n="117"/>Hoc idem dico de multis alijs passionibus, vt 
+      vi<lb ed="#R" n="118" break="no"/>deatur reductio omnium corporalium ad 
+      delecta<lb ed="#R" n="119" break="no"/>tionem, vel dolorem. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e2334">
+                  <lb ed="#R" n="120"/>Nunc secundo arguo, quod non omnes 
+      irascibi<lb ed="#R" n="121" break="no"/>les passiones reducuntur ad quinque praedictas 
+      pas<lb ed="#R" n="122" break="no"/>siones irascibilis. Primo, quia superbia est passio 
+      <lb ed="#R" n="123"/>irascibilis, vnde animalia iracunda sunt superba, vt 
+      <lb ed="#R" n="124"/>leo, &amp; tamen superbia non est aliqua illarum 
+      quin<lb ed="#R" n="125" break="no"/>que, vt nec spes, nec desperatio, nec timor, nec auda 
+      <lb ed="#R" n="126"/>cia, vel ira, vt patet discurrendo per omnes. Item, Par 
+      <lb ed="#R" n="127"/>uipensio, Irreuerentia, vel timor non sunt aliqua 
+      <lb ed="#R" n="128"/>illarum, &amp; tamen sunt irascibilis. Item Verecundia 
+      <lb ed="#R" n="129"/>est in irascibili, &amp; non apparet, quod sit illarum. 
+      <lb ed="#R" n="130"/>Item segnities, pigrities, capitositas, &amp; 
+      huiusmo<lb ed="#R" n="131" break="no"/>di non est aliqua illarum. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e2363">
+                  <lb ed="#R" n="132"/>Item Nemesis, &amp; indignatio. Item, quod est 
+      ma<lb ed="#R" n="133" break="no"/>gis dubium, mitescere est passio, tamen non est ali 
+      <lb ed="#R" n="134"/>qua istarum. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e2372">
+                  <lb ed="#R" n="135"/>Nunc tertio de concupiscibili arguo sic, 
+      quo<lb ed="#R" n="136" break="no"/>niam Auaritia est passio concupiscibilis, &amp; tamen 
+      <!--0446.xml-->
+      <pb ed="#R" n="444"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>non videtur, quod possit reduci ad desiderium, 
+      <lb ed="#R" n="2"/>vel delectationem, vel tristitiam, vel fugam, hoc 
+      <lb ed="#R" n="3"/>idem de inuidia. Item: Aemulatio est passio 
+      concu<lb ed="#R" n="4" break="no"/>piscibilis, quia dicitur, Aemulamini, &amp; c. 
+      Respon<lb ed="#R" n="5" break="no"/>deo, dico, quod imo totus numerus passionum 
+      <lb ed="#R" n="6"/>per istas quinque enumerantur. Ad cuius 
+      euiden<lb ed="#R" n="7" break="no"/>tiam hic sunt duo declaranda. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e2401">
+                  <lb ed="#R" n="8"/>Primo, sufficientia eorum. Secundo, 
+      quomo<lb ed="#R" n="9" break="no"/>do omnes passiones ad illas reducuntur. Primo 
+      <lb ed="#R" n="10"/>ergo de passionibus corporalibus, quae sunt in 
+      ap<lb ed="#R" n="11" break="no"/>petitu exteriori, quod dolor ibidem, &amp; delectatio 
+      <lb ed="#R" n="12"/>euacuent omnes passiones corporales 
+      consequen<lb ed="#R" n="13" break="no"/>tes apprehensionem exteriorem, probo sic. Tot 
+      <lb ed="#R" n="14"/>modis contingit variari passiones appetitus 
+      exte<lb ed="#R" n="15" break="no"/>rioris, quot modis potest haberi ad bonum, vel 
+      <lb ed="#R" n="16"/>malum apprehensum: sed ad bonum, vel ad 
+      ma<lb ed="#R" n="17" break="no"/>lum exterius apprehensum non se potest habere ap 
+      <lb ed="#R" n="18"/>petitus exterior, nisi vt quiescere, vel quietari est 
+      <lb ed="#R" n="19"/>tristari: ergo. Maior patet, quia passiones 
+      appe<lb ed="#R" n="20" break="no"/>titus exterioris consequuntur bonum, vel malum 
+      <lb ed="#R" n="21"/>apprehensum. Quot modis contingit variari huius 
+      <lb ed="#R" n="22"/>modi apprehensiones, tot modis variantur 
+      passio<lb ed="#R" n="23" break="no"/>nes illas sequentes. Minorem probo. Dico, quod 
+      <lb ed="#R" n="24"/>sensus exterior nunquam apprehendit, nisi bonum 
+      <lb ed="#R" n="25"/>praesens, quia in absentia sensibilium non est actus 
+      <lb ed="#R" n="26"/>circa illa: appetitus enim interior circa non 
+      prae<lb ed="#R" n="27" break="no"/>sens desiderat, vel fugit; hos ergo duos actus non 
+      <lb ed="#R" n="28"/>potest habere appetitus exterior, quia semper 
+      <lb ed="#R" n="29"/>aspicit obiectum, vt praesens: sed actus eius sunt 
+      <lb ed="#R" n="30"/>circa bonum, vel malum iam praesens, circa bonum 
+      <lb ed="#R" n="31"/>praesens non se habet desiderando. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e2456">
+                  <lb ed="#R" n="32"/>Item: desiderium est respectu habiti: ergo se 
+      <lb ed="#R" n="33"/>habet quiescendo, &amp; hoc est delectari. Item 
+      cir<lb ed="#R" n="34" break="no"/>ca malum praesens non se habet fugiendo, quia 
+      fu<lb ed="#R" n="35" break="no"/>ga est respectu eius, quod nondum illum consequi. 
+      <lb ed="#R" n="36"/>tur: ergo se habet inquietando hac, alia tristari. 
+      <lb ed="#R" n="37"/>Et si dicit esse aliqua desideria, quae sint 
+      passio<lb ed="#R" n="38" break="no"/>nes corporales solum, dico, quod non. Imo 
+      fa<lb ed="#R" n="39" break="no"/>mes, &amp; sitis, de quibus magis videtur, non 
+      so<lb ed="#R" n="40" break="no"/>lum est desiderium, sed etiam est tristitia, ad quam 
+      <lb ed="#R" n="41"/>sequitur imaginatio de passione, &amp; ex hoc 
+      sequi<lb ed="#R" n="42" break="no"/>tur desiderium cordis ad amouendum illam 
+      pas<lb ed="#R" n="43" break="no"/>sionem 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e2485">
+                  <lb ed="#R" n="44"/>Nunc visa sufficientia passionum corporalium, 
+      <lb ed="#R" n="45"/>reduco omnes ad illas duas. Vbi nota, quod 
+      pas<lb ed="#R" n="46" break="no"/>siones corporales, quae nominant delectationem, 
+      <lb ed="#R" n="47"/>non habent nomina diuersa, vt delectatio, quae est 
+      <lb ed="#R" n="48"/>circa comedere, &amp; bibere: sed illa quae sonant in 
+      <lb ed="#R" n="49"/>dolorem; sic, vt fames &amp; sitis, nam fames est 
+      ex<lb ed="#R" n="50" break="no"/>perientia qualitatis oppositae, vt frigidi, &amp; 
+      humi<lb ed="#R" n="51" break="no"/>di: vnde accidit, quod euntes per mare plus 
+      fa<lb ed="#R" n="52" break="no"/>mescant. Item in hyeme, quod est quia tactus 
+      de<lb ed="#R" n="53" break="no"/>licatus, qui est in parte stomachi, leditur; ex qua 
+      <lb ed="#R" n="54"/>laesione est tristitia in parte illa, quae tristitia est for 
+      <lb ed="#R" n="55"/>tis fames, ex qua est imaginatio, &amp; desiderium 
+      <lb ed="#R" n="56"/>oppositae qualitatis. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e2517">
+                  <lb ed="#R" n="57"/>Similiter tristitia accidit ex hoc, quod sentit 
+      ca<lb ed="#R" n="58" break="no"/>lidum &amp; siccum, &amp; sic tristatur, &amp; sequitur 
+      imagi<lb ed="#R" n="59" break="no"/>natio, ex hoc autem desiderium frigidi, &amp; humidi. 
+      <lb ed="#R" n="60"/>Jdem dico de pruritu, qui accidit ex hoc, quod 
+      ali<lb ed="#R" n="61" break="no"/>quis humor laedit delicatum neruum tactus, ex quo 
+      <lb ed="#R" n="62"/>est tristitia, vnde obiectum tristitiae illius est 
+      obie<lb ed="#R" n="63" break="no"/>ctum apprehensum carni, &amp; tunc aliqua mouetur 
+      <lb ed="#R" n="64"/>ad expulsionem obiecti apprehensi laedentis: est 
+      er<lb ed="#R" n="65" break="no"/>go fortis tristitia. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e2539">
+                  <lb ed="#R" n="66"/>Item: frigere, &amp; calescere est ex praesentia 
+      qua<lb ed="#R" n="67" break="no"/>litatis oppositae, ex qua sequitur tristitia 
+      formali<lb ed="#R" n="68" break="no"/>ter, sicut etiam de solutione continui, quae est no- 
+      <!--0446.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>bis incognita: &amp; ideo est tristitia, quae vocatur 
+      do<lb ed="#R" n="70" break="no"/>lor. Dicitur enim talis laesio dolor, non quod sit 
+      <lb ed="#R" n="71"/>tristitia, quia tristitia nihil est nisi inquietari: sed 
+      <lb ed="#R" n="72"/>dicitur propter vehementiam passionis, vt sic 
+      do<lb ed="#R" n="73" break="no"/>lor sit tristitia vehemens, &amp; ideo omnia causantia 
+      <lb ed="#R" n="74"/>tristitiam acutam dicuntur infligere dolorem: sed 
+      <lb ed="#R" n="75"/>an aliae delectationes habent non proprium: videtur, 
+      <lb ed="#R" n="76"/>quod sic, vt dulce, &amp; suaue, &amp; c. dico, quod non, 
+      <lb ed="#R" n="77"/>imo semper vnum sumitur pro alio, vt suaue dicit 
+      <lb ed="#R" n="78"/>obiectum delectans visum, simul &amp; obiectum 
+      <lb ed="#R" n="79"/>delectans alios sensus: sic etiam dulce, vnde ex 
+      <lb ed="#R" n="80"/>praesentia obiecti conuenientis in appetitu oritur 
+      <lb ed="#R" n="81"/>ista passio: sed quia homines circa tristabilia 
+      an<lb ed="#R" n="82" break="no"/>xiantur, ideo sunt nomina magis in speciali 
+      impo<lb ed="#R" n="83" break="no"/>sita, quam delectabilibus: ergo non est desiderium 
+      <lb ed="#R" n="84"/>in appetitu exteriori, sed in corde, quia omne 
+      de<lb ed="#R" n="85" break="no"/>siderium sequitur apprehensionem extrahitiue. Pa 
+      <lb ed="#R" n="86"/>tet ergo sufficientia passionum corporalium, &amp; 
+      re<lb ed="#R" n="87" break="no"/>ductio omnium ad duas, scilicet delectationem 
+      <lb ed="#R" n="88"/>vel tristitiam. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e2596">
+                  <lb ed="#R" n="89"/>Nunc dicendum est de passionibus 
+      concupisci<lb ed="#R" n="90" break="no"/>lis. Dico, quod in concupiscibili est desiderium, 
+      <lb ed="#R" n="91"/>&amp; delectatio, fugere, vel tristari, quod idē est, quod 
+      <lb ed="#R" n="92"/>dolere, vel anxiari: sunt ergo quatuor passiones. 
+      <lb ed="#R" n="93"/>Et quod non nisi quatuor, probo ratione sicut 
+      su<lb ed="#R" n="94" break="no"/>pra de corporalibus est probatum. Tot sunt 
+      pas<lb ed="#R" n="95" break="no"/>siones concupiscibilis, quot modis contingit ferri 
+      <lb ed="#R" n="96"/>appetitum animalem in bonum, &amp; malum 
+      ap<lb ed="#R" n="97" break="no"/>prehensum sensu interiori. Dico autem absque 
+      as<lb ed="#R" n="98" break="no"/>surrectione non casu, siue, cadendo ab obiecto, quia 
+      <lb ed="#R" n="99"/>talis est passio realis. Dico, apprehensione 
+      inte<lb ed="#R" n="100" break="no"/>riori, quia appetitus interior non mouetur 
+      appre<lb ed="#R" n="101" break="no"/>hensione sensus exterioris: sed aestimatiue iudican 
+      <lb ed="#R" n="102"/>tis bonum, vel malum circa suum subiectum. Sed 
+      <lb ed="#R" n="103"/>appetitum concupiscibilem, modo, quo dictum 
+      <lb ed="#R" n="104"/>est, contingit quatuor modis solum moueri: ergo. 
+      <lb ed="#R" n="105"/>probo minorem. In hoc enim appetitus interior 
+      <lb ed="#R" n="106"/>praecedit exteriorem, quia interior est respectu 
+      ab<lb ed="#R" n="107" break="no"/>sentis, &amp; praesentis, vt dicitur 2. de anima, quod 
+      <lb ed="#R" n="108"/>notitia de re absente est in phantasmate, ergo 
+      po<lb ed="#R" n="109" break="no"/>test cadere sub apprehensione absentis: ergo hio 
+      <lb ed="#R" n="110"/>apparet intellectus interior, duo, plusquam 
+      exte<lb ed="#R" n="111" break="no"/>rior, quia interior fertur circa bonum absens, &amp; 
+      <lb ed="#R" n="112"/>circa malum, quod non accidit de appetitu 
+      exte<lb ed="#R" n="113" break="no"/>riori: sed circa bonum praesens mouetur, vt 
+      quie<lb ed="#R" n="114" break="no"/>scens, &amp; circa malum praesens, vt tristans; circa 
+      <lb ed="#R" n="115"/>bonum absens vt desiderans: sed circa malum 
+      ab<lb ed="#R" n="116" break="no"/>sens vt fugiens, &amp; pluribus modis non conuenit 
+      <lb ed="#R" n="117"/>moueri: ergo. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e2661">
+                  <lb ed="#R" n="118"/>Ad maiorem euidentiam inslo contra hoc 
+      pri<lb ed="#R" n="119" break="no"/>mo sic contra minorem, &amp; contra totam rationem. 
+      <lb ed="#R" n="120"/>Primo est insufficiens, nam bonum apprehenditur 
+      <lb ed="#R" n="121"/>absolute in se, non vt praesens, vel absens: tunc 
+      quae<lb ed="#R" n="122" break="no"/>ro qualis motus est in illud, &amp; quicquid sit illud 
+      <lb ed="#R" n="123"/>erit complacere, &amp; inclinari in illud, &amp; illud vocant 
+      <lb ed="#R" n="124"/>amorem alij: ergo videtur, quod sit bona passio, 
+      <lb ed="#R" n="125"/>scilicet amor, &amp; odium opposita. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e2681">
+                  <lb ed="#R" n="126"/>Item secundo sic: primo Rhetoricorum, 
+      memo<lb ed="#R" n="127" break="no"/>ria delectabilium est delectabilis: sed memoria, &amp; 
+      <lb ed="#R" n="128"/>expectatio est respectu absentium: ergo delectatio 
+      <lb ed="#R" n="129"/>est respectu absentium. Item, respectu boni 
+      praete<lb ed="#R" n="130" break="no"/>riti non est desiderium, &amp; tamen est bonum absens. 
+      <lb ed="#R" n="131"/>Item petis principium, quia assumis, quod non se 
+      <lb ed="#R" n="132"/>potest habere circa bonum praesens, nisi 
+      quiescen<lb ed="#R" n="133" break="no"/>do, quia hoc peto, &amp; patet contrarium, quia se 
+      <lb ed="#R" n="134"/>potest habere in illud, vt transformando: ergo 
+      <lb ed="#R" n="135"/>non probas conclusionem. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e2705">
+                  <lb ed="#R" n="136"/>Ad primum est hic attendendum. Dico, quod 
+      <!--0447.xml-->
+      <pb ed="#R" n="445"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>omnis motus appetitus, vel est in bonitate 
+      simpli<lb ed="#R" n="2" break="no"/>citer, vel in bonitate absolute, vel in bonum 
+      ap<lb ed="#R" n="3" break="no"/>parens, vt in bonum sui, vel in bonum alterius. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e2724">
+                  <lb ed="#R" n="4"/>Si ergo mouetur in bonum alterius, hoc est 
+      du<lb ed="#R" n="5" break="no"/>pliciter, vel in bonum praesens, vel absens: praesens 
+      <lb ed="#R" n="6"/>dico, si sit praesens illi, tunc peto quis motus est iste, 
+      <lb ed="#R" n="7"/>&amp; dico certe, quod est motus quietis, quia 
+      quie<lb ed="#R" n="8" break="no"/>scit in bono, quod est in alio, &amp; istud non est nisi 
+      <lb ed="#R" n="9"/>simul placere cum illo de bono. Si autem feratur 
+      <lb ed="#R" n="10"/>in bonum alterius, vt absens, tunc feretur 
+      optan<lb ed="#R" n="11" break="no"/>do bonum, quod aliter non potest feri 
+      appeti<lb ed="#R" n="12" break="no"/>tus, &amp; sic circa illud erit desiderium, &amp; sic ferri in 
+      <lb ed="#R" n="13"/>bonum alterius, vt absens, tunc feretur 
+      sufficien<lb ed="#R" n="14" break="no"/>ter &amp; euacuabitur per delectari, &amp; desiderare. Item 
+      <lb ed="#R" n="15"/>dicitur si feratur in bonum, vt sui: tunc quaero, 
+      <lb ed="#R" n="16"/>aut bonum est praesens, &amp; tunc fertur delectando: 
+      <lb ed="#R" n="17"/>si autem sit absens, fertur tendendo in illud, &amp; sic 
+      <lb ed="#R" n="18"/>desiderando: ergo absens, &amp; praesens necessario 
+      <lb ed="#R" n="19"/>euacuant modum ferendi in bonum, vel sui, vel 
+      <lb ed="#R" n="20"/>alterius. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e2763">
+                  <lb ed="#R" n="21"/>Si autem fertur primo modo, scilicet in bonum 
+      <lb ed="#R" n="22"/>absolute, vt si fertur in virtutem in se, vel 
+      pulchri<lb ed="#R" n="23" break="no"/>tudinem: dico, quod cum fertur praesens, non in 
+      <lb ed="#R" n="24"/>bonum praesens appetentis, nec in bonum cui 
+      ap<lb ed="#R" n="25" break="no"/>peto; sed fertur in bonum principaliter, quia isti 
+      <lb ed="#R" n="26"/>bono, &amp; virtuti inest ratio bonitatis, vnde si 
+      bo<lb ed="#R" n="27" break="no"/>nitas ista esset separata, dum sit praesens per 
+      eun<lb ed="#R" n="28" break="no"/>dem actum fertur in illam, quo ferretur dum esset 
+      <lb ed="#R" n="29"/>coniuncta, &amp; non separata. Dico ergo, quod actus, 
+      <lb ed="#R" n="30"/>qui fertur in amore absolute, est actus qui est 
+      dele<lb ed="#R" n="31" break="no"/>ctatio in praesenti bono, sic est amor, non vt 
+      alte<lb ed="#R" n="32" break="no"/>rius, vnde bonitas praesens necessario delectat. 
+      <lb ed="#R" n="33"/>Est ergo quidam ordo in actibus circa bonum, 
+      <lb ed="#R" n="34"/>quo primo fertur appetitus in bonum in se, &amp; hoc 
+      <lb ed="#R" n="35"/>est quiescere, &amp; delectari in bono, vt 
+      principali<lb ed="#R" n="36" break="no"/>ter habet rationem bonitatis. Deinde sequitur 
+      <lb ed="#R" n="37"/>desiderium adipiscendi, quo adepto sequitur 
+      de<lb ed="#R" n="38" break="no"/>lectatio alterius rationis. Et sic est de amore 
+      re<lb ed="#R" n="39" break="no"/>spectu beatorum, qui in caelo complacent 
+      viden<lb ed="#R" n="40" break="no"/>do, non quod beatitudo consistat in visione, quia 
+      <lb ed="#R" n="41"/>visio est quid creatum: sed consistit in obiecto, vel 
+      <lb ed="#R" n="42"/>circa obiectum summum, &amp; fertur in bonum diuinum, 
+      <lb ed="#R" n="43"/>non desiderando, sed complacendo, &amp; iste est amor 
+      <lb ed="#R" n="44"/>charitatiuus, &amp; summus: ergo non est vna passio 
+      <lb ed="#R" n="45"/>accipienda respectu boni absoluti, quia illud 
+      ha<lb ed="#R" n="46" break="no"/>bet iam bonitatem suam praesentem, &amp; tunc vt 
+      <lb ed="#R" n="47"/>sic quiescit appetitus, &amp; si nondum habet, 
+      deside<lb ed="#R" n="48" break="no"/>rat, quo adepto, est alia delectatio, vt quies 
+      alte<lb ed="#R" n="49" break="no"/>rius rationis. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e2828">
+                  <lb ed="#R" n="50"/>Ad aliud dico, quod hoc est ratione 
+      actualita<lb ed="#R" n="51" break="no"/>tis, quia memoria, quasi reddit praeterita in actu. 
+      <lb ed="#R" n="52"/>Item de futura est ratione certitudinis expectans, 
+      <lb ed="#R" n="53"/>vnde, vt sit potentia certa de consecutione obiecti 
+      <lb ed="#R" n="54"/>futura, iam ex hoc quodammodo reducit illud 
+      <lb ed="#R" n="55"/>in actu. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e2844">
+                  <lb ed="#R" n="56"/>Ad aliud dico, quod praeteritum cum futuro 
+      con<lb ed="#R" n="57" break="no"/>uenit, quod vtrumque non est. Et differunt, quia 
+      <lb ed="#R" n="58"/>futurum est in potentia, non autem praeteritum: 
+      <lb ed="#R" n="59"/>ergo ratione, qua futurum est in potentia circa 
+      il<lb ed="#R" n="60" break="no"/>lud desiderium: sed ratione praeteriti non est 
+      in<lb ed="#R" n="61" break="no"/>eo desiderium, sed solum circa ipsum est 
+      delecta<lb ed="#R" n="62" break="no"/>tio, prout reducit illud in actu, scilicet memoria. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e2862">
+                  <lb ed="#R" n="63"/>Ad aliud dico, quod imo euacuat, nam 
+      inten<lb ed="#R" n="64" break="no"/>tionales sequuntur conformaliter motus reales: 
+      <lb ed="#R" n="65"/>natura autem res non mouetur ad aliud, nisi 
+      duo<lb ed="#R" n="66" break="no"/>bus modis, vel vt ad distans, &amp; sic mouetur 
+      ten<lb ed="#R" n="67" break="no"/>dendo, vt patet de animali ad cibum. Si autem 
+      <!--0447.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>non sit distans, mouet quiescendo: Sic conformiter 
+      <lb ed="#R" n="69"/>dico de appetitu, qui niouetur intentional. ter, 
+      quo<lb ed="#R" n="70" break="no"/>niam vel mouetur tendendo, &amp; sic est 
+      deside<lb ed="#R" n="71" break="no"/>rium, vel fruendo, &amp; sic est delectatio, &amp; quies. 
+      <lb ed="#R" n="72"/>Tunc arguo sic; To: sunt modi in-tus 
+      intentiona<lb ed="#R" n="73" break="no"/>lis, quot sunt modi motus realis: sed mo:us 
+      rea<lb ed="#R" n="74" break="no"/>lis non nisi dupliciter, vt diccum est: ergo. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e2895">
+                  <lb ed="#R" n="75"/>Dicis, non habes fugam, &amp; tristitiam. Dico, 
+      <lb ed="#R" n="76"/>quod imo quoniam anima fugit, &amp; inquietatur in 
+      <lb ed="#R" n="77"/>praesenti malo: &amp; quod dicebant, quod vniri est 
+      <lb ed="#R" n="78"/>aliud, dico, quod vniri praesupponit absens, &amp; 
+      <lb ed="#R" n="79"/>nondum vnitum, &amp; vnde formaliter est actus 
+      amo<lb ed="#R" n="80" break="no"/>ris, qui est desiderium: sed imo formalis est actus 
+      <lb ed="#R" n="81"/>amoris, qui est complacentia, vnde per vnionem 
+      <lb ed="#R" n="82"/>quiescit graue in centro. Sed per vniri mouetur 
+      <lb ed="#R" n="83"/>ad vnionem form iliter, &amp; talis amor qui est 
+      vni<lb ed="#R" n="84" break="no"/>ri, &amp; mouetur ad vnionem formaliter, est amor, 
+      <lb ed="#R" n="85"/>desiderium, &amp; amor secundum Philosophum. Sed 
+      <lb ed="#R" n="86"/>amor qui est vnio formaliter, &amp; transformatum, 
+      <lb ed="#R" n="87"/>est complacentia, quies. delectatio, &amp; huiusmodi: 
+      <lb ed="#R" n="88"/>ergo amor, &amp; odium non sunt speciales passiones, 
+      <lb ed="#R" n="89"/>vt dictum est supra. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e2931">
+                  <lb ed="#R" n="90"/>Nunc de passionibus concupiscibilis, omnes 
+      no<lb ed="#R" n="91" break="no"/>minantur a tristitia, vel delectatione non 
+      vltima<lb ed="#R" n="92" break="no"/>te consequente, sed de obiecto in se, &amp; tunc sub 
+      <lb ed="#R" n="93"/>eadem paisione reducuntur multae aliae pailiones. 
+      <lb ed="#R" n="94"/>Exemplum. Inuidia est tristitia alienae 
+      prosperi<lb ed="#R" n="95" break="no"/>tatis: quod enim formaliter est tristitia, ex illa 
+      <lb ed="#R" n="96"/>oritur desiderium inficiendi bonum, &amp; vocatur 
+      <lb ed="#R" n="97"/>Inuidia. Item fugere illud bonum vocatur similiter 
+      <lb ed="#R" n="98"/>inuidia: sic ergo a tristitia sumitur in tota 
+      coordi<lb ed="#R" n="99" break="no"/>natione. Tunc enim dico sic. Tristitia vel est de 
+      <lb ed="#R" n="100"/>malo alterius, vel de bono. Si de malo, &amp; hoc 
+      al<lb ed="#R" n="101" break="no"/>terius simpliciter, &amp; sic sumitur vna passio, quae 
+      <lb ed="#R" n="102"/>vocatur inuidia. Vnde Augustinus 12. de Ciuit. 
+      <lb ed="#R" n="103"/>Dei. Tristitia est cor liuidum, cuius oppositum 
+      <lb ed="#R" n="104"/>est passio, quae vocatur Crudelitas. Si autem sit 
+      <lb ed="#R" n="105"/>tristitia de bono alterius simpliciter, quia bonum 
+      <lb ed="#R" n="106"/>est imaginabile, &amp; malum proprium, &amp; tunc 
+      ori<lb ed="#R" n="107" break="no"/>tur tristitia, &amp; vocatur inuidia, &amp; eius oppositum 
+      <lb ed="#R" n="108"/>est beneuolentiaz scilicet habere cor inclinatum 
+      <lb ed="#R" n="109"/>ad bonum alterius. Si autem sit tristitia de bono 
+      <lb ed="#R" n="110"/>alterius non absolute, sed inquantum 
+      apprehen<lb ed="#R" n="111" break="no"/>ditur propria carentia, tunc est Emulatio, quae 
+      <lb ed="#R" n="112"/>est de malo suo, inquantum oppositum bonum 
+      ap<lb ed="#R" n="113" break="no"/>prehenditur. Vnde non est tristicia de bono 
+      alte<lb ed="#R" n="114" break="no"/>rius, vt est illius, quia sic esset Inuidia; nec 
+      de<lb ed="#R" n="115" break="no"/>bono illius absolute: sed solum quia ipse non 
+      ha<lb ed="#R" n="116" break="no"/>bet illa, &amp; ipsa est passio laudabilis, quam facit 
+      <lb ed="#R" n="117"/>conatus ad bonum: ex hoc enim non sequitur 
+      vel<lb ed="#R" n="118" break="no"/>le inficere bonum illius, sed bene aemulatio ad 
+      il<lb ed="#R" n="119" break="no"/>lud. Tunc vltra Tristitia de malo proprio, &amp; 
+      Gau<lb ed="#R" n="120" break="no"/>dium de bono proprio specialiter distinguuntur 
+      <lb ed="#R" n="121"/>ex diuersis obiectis, &amp; materijs, circa quas 
+      dele<lb ed="#R" n="122" break="no"/>ctaris, vt circa pecuniam vocatur Auaritia, circa 
+      <lb ed="#R" n="123"/>ludos vocatur iocunditas, sed circa victoriam 
+      vo<lb ed="#R" n="124" break="no"/>catur capitositas. Vnde capitositas passio est 
+      spe<lb ed="#R" n="125" break="no"/>cialis, &amp; sic pro omnibus talibus. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e3012">
+                  <lb ed="#R" n="126"/>Si quaeras, quare talium passionum aliquae 
+      ha<lb ed="#R" n="127" break="no"/>bent nomen, &amp; aliquae non, vt est delectatio 
+      in<lb ed="#R" n="128" break="no"/>dormiendo. Dico, quod ideo est, quod in 
+      nomi<lb ed="#R" n="129" break="no"/>natis relucet quaedam ratio boni, vel mali; vt in 
+      <lb ed="#R" n="130"/>homine iocundo relucet bonum, quod est 
+      Jocun<lb ed="#R" n="131" break="no"/>ditas. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e3028">
+                  <lb ed="#R" n="132"/>In discolo autem relucet malum, idest 
+      agresti<lb ed="#R" n="133" break="no"/>tas, &amp; sic patet, quomodo reducuntur passiones 
+      <lb ed="#R" n="134"/>concupiscibilis.
+      </p>
+               <p xml:id="olm8ij-g36486-d1e3037">
+      <!--0448.xml-->
+                  <pb ed="#R" n="446"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Nunc de passionibus irascibilis. Primo de 
+      suf<lb ed="#R" n="2" break="no"/>ficientia dico, quod sunt quinque passiones, 
+      scili<lb ed="#R" n="3" break="no"/>cet Spes, &amp; Desperatio, Timor, &amp; audacia, &amp; ira, 
+      <lb ed="#R" n="4"/>&amp; hoc. sic probatur per talem rationem. Tot sunt 
+      <lb ed="#R" n="5"/>passiones, quo. modis contingit assurgere, vel 
+      ca<lb ed="#R" n="6" break="no"/>dere ad bonum, vel a bono apprehenso 
+      apprehen<lb ed="#R" n="7" break="no"/>sione interiori. Ista autem nota, quod omnes actus 
+      <lb ed="#R" n="8"/>irascibilis sunt formaliter assurgere, vel tunc: Quot 
+      <lb ed="#R" n="9"/>sunt species assurrectionis, vel casus, tot sunt 
+      pas<lb ed="#R" n="10" break="no"/>siones irascibilis, tunc sumo sub, sed quatuor 
+      mo<lb ed="#R" n="11" break="no"/>dis solum contingit appetitiuam irascibilem 
+      assur<lb ed="#R" n="12" break="no"/>gere, &amp; cadere ab obiecto: ergo. Minor 
+      proba<lb ed="#R" n="13" break="no"/>tur sic: Bonum apprehensum vel est praesens, &amp; 
+      <lb ed="#R" n="14"/>sic nunquam assurgit, quia vt sic non est sibi 
+      dif<lb ed="#R" n="15" break="no"/>ficile, vel arduum. Si autem sit absens respectu 
+      <lb ed="#R" n="16"/>illius potest assurgere, vel cadere, vt assurgit, sic 
+      <lb ed="#R" n="17"/>oritur spes; vt autem cadit, desperatio. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e3083">
+                  <lb ed="#R" n="18"/>Si autem sit malum, aut est praesens, &amp; sic 
+      re<lb ed="#R" n="19" break="no"/>spectu illius assurgit ardue ad repellendum, &amp; sic 
+      <lb ed="#R" n="20"/>dicitur ira, quae non est nisi assurrectio ad 
+      repel<lb ed="#R" n="21" break="no"/>lendum malum. Modo non dicitur casus 
+      appeti<lb ed="#R" n="22" break="no"/>tus. Sed hoc post discutietur. Sed respectu mali 
+      <lb ed="#R" n="23"/>absentis, quod futurum est, sunt duae passiones, 
+      <lb ed="#R" n="24"/>quoniam assurrectio respectu illius dicitur 
+      auda<lb ed="#R" n="25" break="no"/>eia, casus vero dicitur timor, &amp; quia pluribus 
+      <lb ed="#R" n="26"/>modis non fertur appetitus, ideo non sunt plures 
+      <lb ed="#R" n="27"/>passiones. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e3107">
+                  <lb ed="#R" n="28"/>Hoc est dubium, omnes passiones istae sunt 
+      ap<lb ed="#R" n="29" break="no"/>petitus intendentis, non quiescentis, tunc fertur 
+      <lb ed="#R" n="30"/>in bonum, vt absens, sicut quiescens, quia sicut 
+      <lb ed="#R" n="31"/>cum assurrectione aliquid desiderat, sic cum 
+      assur<lb ed="#R" n="32" break="no"/>rectione quiescit in aliquo, vt Sancti in Deo. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e3121">
+                  <lb ed="#R" n="33"/>Tunc arguo sic: Sicut cum assurrectione tendit 
+      <lb ed="#R" n="34"/>appetitus in aliquid, sic cum assurrectione quiescit 
+      <lb ed="#R" n="35"/>in illo: ergo debet esse aliqua passio respectu boni 
+      <lb ed="#R" n="36"/>praesentis. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e3132">
+                  <lb ed="#R" n="37"/>Item: ponuntur tres actus animae, fruitio, visio, 
+      <lb ed="#R" n="38"/>&amp; tensio, quibus respondent tres vittutes, siue 
+      <lb ed="#R" n="39"/>ipsae respondent tribus virtutibus, fidei, spei, 
+      <lb ed="#R" n="40"/>&amp; charitati: ergo &amp; actus istis correspondentes 
+      <lb ed="#R" n="41"/>mutuo debent esse in eadem vi. Siut ergo spes est 
+      <lb ed="#R" n="42"/>in irascibili, sic tensio est in irascibili, &amp; in 
+      respe<lb ed="#R" n="43" break="no"/>ctu boni praesentis. 
+    </p>
+               <p xml:id="olm8ij-g36486-d1e3150">
+                  <lb ed="#R" n="44"/>Item tertio ostendo, quod insufficienter 
+      osten<lb ed="#R" n="45" break="no"/>dis, quod ira sit respectu mali praesentis, tunc 
+      si<lb ed="#R" n="46" break="no"/>cut contingit assurgere respectu mali praesentis, 
+      <lb ed="#R" n="47"/>sic contingit cadere, non enim in concupiscibili: 
+      <lb ed="#R" n="48"/>ergo. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e3163">
+                  <lb ed="#R" n="49"/>Et confirmatur: Quia cuilibet passioni, 
+      respon<lb ed="#R" n="50" break="no"/>det passio contraria: ergo, &amp; irae, &amp; sic erit 
+      da<lb ed="#R" n="51" break="no"/>re vnam passionem respectu mali praesentis, 
+      in<lb ed="#R" n="52" break="no"/>quantum appetitus cadit ab isto. Respondeo, &amp; 
+      <lb ed="#R" n="53"/>primo do vnam regulam generalem, scilicet, quod 
+      <lb ed="#R" n="54"/>nullus actus irascibilis est in quiescendo. 
+      Secun<lb ed="#R" n="55" break="no"/>do, quod nullus actus irascibilis est ferri, 
+      tende<lb ed="#R" n="56" break="no"/>re, vel desiderare: sed est quoddam assurgere 
+      <lb ed="#R" n="57"/>concomitans: si enim esset quiescere, iam esset actus 
+      <lb ed="#R" n="58"/>concupiscibilis. Et praeterea, non est quies 
+      respe<lb ed="#R" n="59" break="no"/>ctu ardui: sed actus irascibilis est arduum. Item 
+      <lb ed="#R" n="60"/>quiescere non concomitatur assurgere: sed conari 
+      <lb ed="#R" n="61"/>est dupliciter, vel vt circumstantia actus, &amp; sic 
+      po<lb ed="#R" n="62" break="no"/>test esse conari ad istum actum, &amp; sic bene potest 
+      <lb ed="#R" n="63"/>esse idem cum quiescere. Alio modo conari est 
+      <lb ed="#R" n="64"/>idem, quod assurgere, non in actum, sed in 
+      obie<lb ed="#R" n="65" break="no"/>ctum, &amp; sic non est verum, vt sperare bonum non 
+      <lb ed="#R" n="66"/>est desiderare, vel indesiderare corpori, sed in 
+      de<lb ed="#R" n="67" break="no"/>sideratum assurgere, ita quod, vt sic non mediat 
+      <!--0448.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>potentiam, &amp; actum, sed inter actum, &amp; 
+      obie<lb ed="#R" n="69" break="no"/>ctum, &amp; vt sic, est alius actus. Tunc ergo 
+      assurge<lb ed="#R" n="70" break="no"/>re non est quiescere, nec desiderare, nec ipsum 
+      <lb ed="#R" n="71"/>concomitatur assurgere, quia habito obiecto non 
+      <lb ed="#R" n="72"/>assurgis: sed bene concomitatur, &amp; tunc idem 
+      <lb ed="#R" n="73"/>est, quod cum conari quiescere, desiderare; 
+      vn<lb ed="#R" n="74" break="no"/>de est assurrectio ad desideratum, non ad 
+      deside<lb ed="#R" n="75" break="no"/>rium. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e3228">
+                  <lb ed="#R" n="76"/>Si autem dicis, non videtur istud assurgere, nisi 
+      <lb ed="#R" n="77"/>futurum; Dico, quod est necesse actus appetitus, 
+      <lb ed="#R" n="78"/>quia omnis actus vitalis, &amp; intentionalis in 
+      appe<lb ed="#R" n="79" break="no"/>titu est formaliter actus in appetitum; sed istud 
+      as<lb ed="#R" n="80" break="no"/>surgere vnit specialiter potentiam cum obiecto 
+      <lb ed="#R" n="81"/>suo modo: ergo est actus vitalis. 
+    </p>
+               <p xml:id="olm8ij-g36486-d1e3244">
+                  <lb ed="#R" n="82"/>Item: appetitus est potentia motiua: ergo 
+      se<lb ed="#R" n="83" break="no"/>cundum diuersos motus debent poni diuersi actus 
+      <lb ed="#R" n="84"/>in appetitu, tunc iste est motus specialis 
+      appeti<lb ed="#R" n="85" break="no"/>tus, &amp; ideo spes iuuat omnem actum, vnde 
+      mo<lb ed="#R" n="86" break="no"/>uet ad actum non solum desiderium, sed 
+      vtrum<lb ed="#R" n="87" break="no"/>que simul. Dico autem, quod desiderium 
+      includi<lb ed="#R" n="88" break="no"/>tur in omni actu appetitus. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e3263">
+                  <lb ed="#R" n="89"/>Ad rationes in oppositum. Ad primam dico, 
+      <lb ed="#R" n="90"/>quod verum est, quoniam respectu quietis est actus 
+      <lb ed="#R" n="91"/>appetitus, licet autem malum sit praesens, 
+      tamen<lb ed="#R" n="92" break="no"/>victoria non est praesens, ad quam assurgit 
+      appe<lb ed="#R" n="93" break="no"/>titus. Ad aliud dico, quod non est tendentia 
+      <lb ed="#R" n="94"/>in obiectum, sed sorte in actum. Ad aliud dicit 
+      <lb ed="#R" n="95"/>vnus Doctor in summa, quod est aliqua forma 
+      <lb ed="#R" n="96"/>creata ex extremis, illa non habet contrarium 
+      pro<lb ed="#R" n="97" break="no"/>prium, sed extrema, vt est ira, quae conflatur ex 
+      tri<lb ed="#R" n="98" break="no"/>stitia, &amp; desiderio vindictae, &amp; spe consequendi; 
+      <lb ed="#R" n="99"/>ita quod ira ex islis oritur: ergo. Ista ratio non 
+      <lb ed="#R" n="100"/>concludit, quia sequitur, quod saltem cum 
+      extre<lb ed="#R" n="101" break="no"/>ma sint contraria, tunc tristitia, &amp; spes essent 
+      con<lb ed="#R" n="102" break="no"/>trariae. Item, ad actum audaciae concurrunt 
+      desi<lb ed="#R" n="103" break="no"/>derium, &amp; spes victoriae consequendae, &amp; tamen 
+      <lb ed="#R" n="104"/>audacia habet contrarium. Item aequiuocat de 
+      <lb ed="#R" n="105"/>formis creatis per modum medij resultantibus, 
+      <lb ed="#R" n="106"/>vt est calor medius, &amp; de formis causatis per 
+      mo<lb ed="#R" n="107" break="no"/>dum solius causationis, nam ira non resultat pen 
+      <lb ed="#R" n="108"/>modum medii, ex tristitia, &amp; spe, quia imo 
+      ma<lb ed="#R" n="109" break="no"/>nent distincta tristitia, &amp; spes in ira, sed solum 
+      <lb ed="#R" n="110"/>est in illis causare. Ira autem est assurrectio ad 
+      <lb ed="#R" n="111"/>obiectum tristabile, &amp; ad defiderium, scilicet ad 
+      <lb ed="#R" n="112"/>vindictam, &amp; ad speratum, &amp; tamen est neutra 
+      <lb ed="#R" n="113"/>carum. 
+      </p>
+               <p xml:id="olm8ij-g36486-d1e3320">
+                  <lb ed="#R" n="114"/>Dico ergo quod videtur, quod mansuescere, &amp; 
+      <lb ed="#R" n="115"/>mitescere sit vna specialis passio opposita irae, vt 
+      <lb ed="#R" n="116"/>quando aliquis percutitur, &amp; non irascitur, hoc 
+      <lb ed="#R" n="117"/>non definio: Vel forte si est aliqua passio, illa 
+      <lb ed="#R" n="118"/>est innominata, quia raro contingit, tunc 
+      redu<lb ed="#R" n="119" break="no"/>co omnes alias ad praenominatas. Dico, quod 
+      <lb ed="#R" n="120"/>omnis nominata passio irascibilis reducitur ad 
+      ti<lb ed="#R" n="121" break="no"/>morem, vel audaciam; sunt enim de malo, vt 
+      ti<lb ed="#R" n="122" break="no"/>mere operationem est segnities, idest pigritia, &amp; 
+      la<lb ed="#R" n="123" break="no"/>bor, &amp; quando est tristitia fequitur Mollities, 
+      <lb ed="#R" n="124"/>cuius oppositum est Pronitas, oppositum autem 
+      <lb ed="#R" n="125"/>segnitiei est Velocitas. Item homo habet 
+      quan<lb ed="#R" n="126" break="no"/>dam rationem tristabilis, quia magnum, tunc 
+      di<lb ed="#R" n="127" break="no"/>citur iste timor. Reuerentia autem vel est ex 
+      a<lb ed="#R" n="128" break="no"/>more, &amp; sic est reuerentia filialis; vel est ex 
+      ti<lb ed="#R" n="129" break="no"/>more, &amp; iste timor est verecundia, oppositum 
+      <lb ed="#R" n="130"/>huius dicitur Effrons, &amp; Audax. Item: 
+      aude<lb ed="#R" n="131" break="no"/>re respectu honoris est reprehensio, oppositum 
+      <lb ed="#R" n="132"/>vero, scilicet timere est Pusillanimitas. Item 
+      <lb ed="#R" n="133"/>superbia, inquantum est vana gloria, est in 
+      con<lb ed="#R" n="134" break="no"/>cupiscibili, vt autem est audere, est in irascibi- 
+      <!--0449.xml-->
+      <pb ed="#R" n="447"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>li: sed oritur ex illa od ium, &amp; dicitur indignatio, 
+      <lb ed="#R" n="2"/>&amp; zelus, sicut ira Jonae, &amp; quod dicitur: zelus 
+      do<lb ed="#R" n="3" break="no"/>mus tuae, &amp; c. Spes autem, &amp; desperatio in omni ma 
+      <lb ed="#R" n="4"/>teria manent sub proprijs nominibus, &amp; ratio est 
+      <lb ed="#R" n="5"/>quia sequuntur, vel sunt magna bona, vel mala, &amp; 
+      <lb ed="#R" n="6"/>ideo sunt nomina imposita. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

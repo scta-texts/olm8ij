@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-04-14">April 14, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b3">Roma 1605, Book 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-14" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="469"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-g47146"><!-- l3-d20q2 -->
+            <head xml:id="olm8ij-g47146-Hd1e101">Quaestio 2</head>
+            <p xml:id="olm8ij-g47146-d1e103">
+               <lb ed="#R" n="36"/>Quaestio JJ.
+      </p>
+            <div xml:id="olm8ij-g47146-Dd1e108">
+               <head xml:id="olm8ij-g47146-Hd1e110">Articulus 1</head>
+               <head xml:id="olm8ij-g47146-Hd1e112" type="question-title">
+            Utrum mors Dei fuerit homini necessaria ad reparandum lapsum generis humani
+          </head>
+               <p xml:id="olm8ij-g47146-d1e115">
+                  <lb ed="#R" n="37"/>ARTJCVLVS VNJCVS. 
+      <lb ed="#R" n="38"/>Vtrum mors Dei fuerit homini necessaria ad 
+      repa<lb ed="#R" n="39" break="no"/>randum lapsum generis humani. 
+      </p>
+               <p xml:id="olm8ij-g47146-d1e124">
+                  <lb ed="#R" n="40"/>Secundo quaero: Vtrum mors Dei fuerit 
+      ho<lb ed="#R" n="41" break="no"/>mini necessaria ad reparandum lapsum 
+      ge<lb ed="#R" n="42" break="no"/>neris humani. &amp; arguo quod non, primo sic: 
+      <lb ed="#R" n="43"/>Ad deletionem minoris mali non est 
+      ne<lb ed="#R" n="44" break="no"/>cessaria perpetrario mali maloris, iuxta 
+      il<lb ed="#R" n="45" break="no"/>lud: non sunt facienda mala, vt eueniant bo 
+      <lb ed="#R" n="46"/>na. &amp; confirmatur, quia Deus habet alias 
+      <lb ed="#R" n="47"/>vias delendi malum, quam per malum; sed 
+      <lb ed="#R" n="48"/>mors Christi maius fuit malum, quam 
+      pec<lb ed="#R" n="49" break="no"/>catum Adae, &amp; quam paena originalis, quia 
+      <lb ed="#R" n="50"/>mors illa est priuatio vitae Christi, quae 
+      me<lb ed="#R" n="51" break="no"/>lior est, quam quaecunque alia vita: ergo. 
+      <lb ed="#R" n="52"/>Item ad delendum malum non est 
+      necessa<lb ed="#R" n="53" break="no"/>ria multiplicatio malorum, sed in morte 
+      <lb ed="#R" n="54"/>Christi fuerunt mala multiplicata, quia 
+      <lb ed="#R" n="55"/>peccatum ludaeorum, qui peccauerunt in 
+      <lb ed="#R" n="56"/>morte Christi. Item: Ad exeludendum for- 
+      <!--0471.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="57"/>mam aliquam non est necessarium 
+      incide<lb ed="#R" n="58" break="no"/>re in eandem, quia sic non esset exclusio, 
+      <lb ed="#R" n="59"/>sed auctio formae: ergo &amp; ad culpam 
+      delen<lb ed="#R" n="60" break="no"/>dam non est necessaria culpa. Item: Opus 
+      <lb ed="#R" n="61"/>non fuit Deum mori ad indulgendum 
+      of<lb ed="#R" n="62" break="no"/>fensam creaturae rationalis, quam poterat 
+      <lb ed="#R" n="63"/>sine morte indulgere: ergo. Item quod non 
+      <lb ed="#R" n="64"/>sit necessaria mors Dei hominis, probo: 
+      <lb ed="#R" n="65"/>Pronior est Deus ad indulgendum, quam 
+      <lb ed="#R" n="66"/>ad condemnandum; sed propter 
+      praeuari<lb ed="#R" n="67" break="no"/>cationem vnius fuit totum genus 
+      damna<lb ed="#R" n="68" break="no"/>tum: ergo per iustitiam vnius potuit 
+      indul<lb ed="#R" n="69" break="no"/>gere toti generi: ergo. Pro hoc facit 
+      Dio<lb ed="#R" n="70" break="no"/>nysius de diuinis nominibus. Item 
+      Apo<lb ed="#R" n="71" break="no"/>stolus ad Rom. 5. Si peccatum vnius 
+      abun<lb ed="#R" n="72" break="no"/>dauit in multos, multo magis vnius 
+      obe<lb ed="#R" n="73" break="no"/>dientia, &amp;c. 
+      </p>
+               <p xml:id="olm8ij-g47146-d1e204">
+                  <lb ed="#R" n="74"/>Contra Ansel. Cur Deus homo fecit totum 
+      <lb ed="#R" n="75"/>nihil ad istam intentionem. 
+    </p>
+               <p xml:id="olm8ij-g47146-d1e212">
+                  <lb ed="#R" n="76"/>Respondeo breuiter dico, quod reparatio 
+      huma<lb ed="#R" n="77" break="no"/>ni generis potest intelligi fieri tripliciter, scilicet 
+      <lb ed="#R" n="78"/>per condignam satisfactionem &amp; secundo per viam 
+      <lb ed="#R" n="79"/>gratiae. Tertio per impetrationem. Si 
+      loqua<lb ed="#R" n="80" break="no"/>mur secundo modo, sic non fuit necessarium 
+      ho<lb ed="#R" n="81" break="no"/>minem Deum mori, quia Deus simpliciter potuit 
+      <lb ed="#R" n="82"/>condonare culpam Adae: hoc quantum ad 
+      secun<lb ed="#R" n="83" break="no"/>dum modum. 
+      </p>
+               <p xml:id="olm8ij-g47146-d1e232">
+                  <lb ed="#R" n="84"/>De modo, de Impetratione: Vtrum Angeli 
+      pos<lb ed="#R" n="85" break="no"/>sent in reparationem hanc est mihi dubium, quia 
+      <lb ed="#R" n="86"/>in impetratione includitur iustitia commutatiua, 
+      <lb ed="#R" n="87"/>secundum quod preces tantum valeant, &amp; sic 
+      vide<lb ed="#R" n="88" break="no"/>tur coincidere cum primo: ergo restat per viam 
+      <lb ed="#R" n="89"/>satisfactionis, &amp; iustitiam commutatiuam, ita 
+      <lb ed="#R" n="90"/>quod praeuaricator reddat debitum, vel alius pro 
+      <lb ed="#R" n="91"/>eo. Secundum istam viam secundum Ansel. 
+      necessa<lb ed="#R" n="92" break="no"/>riū fuit Deum, &amp; hominem pati; solus enim homo 
+      <lb ed="#R" n="93"/>hoc facere nequiuit, quoniam homo non 
+      indiguis<lb ed="#R" n="94" break="no"/>set reparatione, si non peccasset. Ista ratio forte 
+      <lb ed="#R" n="95"/>non concludit, quia idem dicam de Christo, &amp; ideo 
+      <lb ed="#R" n="96"/>non satisfacit. Alia ratio, quod essemus obligati 
+      <lb ed="#R" n="97"/>illi non pro impossibili, &amp; ideo dicit vnus Doctor, 
+      <lb ed="#R" n="98"/>quod sic: sed ego non capio, quia meritum debuit 
+      <lb ed="#R" n="99"/>esse infinitum in valore, hoc non potuit dare aliquid 
+      <lb ed="#R" n="100"/>finitum: ergo illud dari debuit per aliquid infinitum 
+      <lb ed="#R" n="101"/>modo, quo dictum est in priori: Infinita 
+      accepta<lb ed="#R" n="102" break="no"/>bilitas non est in actu, nisi ex circumstantia, non 
+      <lb ed="#R" n="103"/>qualibet, sed ex persona, quae cadit intra 
+      circun<lb ed="#R" n="104" break="no"/>stantiam, vt dictum est supra; nulla autem 
+      perso<lb ed="#R" n="105" break="no"/>na est infinita, nisi persona Dei, quare necessarium 
+      <lb ed="#R" n="106"/>fuit Deum hominem mereri istam satisfactionem. 
+      <lb ed="#R" n="107"/>Sed vtrum per mortem, est dubium. Dicunt Sancti, 
+      <lb ed="#R" n="108"/>quod minima gutta suffecisset. Sed tunc est dubium, 
+      <lb ed="#R" n="109"/>quare voluit pati. Dico, quod satisfactio debuit 
+      fie<lb ed="#R" n="110" break="no"/>ri per Deum hominem, sed per quem actum? Dico quod 
+      <lb ed="#R" n="111"/>non efficaciter, nisi per mortem, nam non iufficit sic 
+      <lb ed="#R" n="112"/>esse in conspectu Dei, nisi apud homines haberet 
+      <lb ed="#R" n="113"/>efficaciam: habere autem non potuit, nisi per actum 
+      <lb ed="#R" n="114"/>amoris intentissimi, actus amoris non esset efficax, 
+      <lb ed="#R" n="115"/>nisi moreretur: ergo. 
+      </p>
+               <p xml:id="olm8ij-g47146-d1e304">
+                  <lb ed="#R" n="116"/>Ad argumenta in oppositum. Ad primum dico, 
+      <lb ed="#R" n="117"/>quod in morte fuit toleratio, &amp; illa fuit bona. Ad 
+      <lb ed="#R" n="118"/>aliud patet. Ad aliud dico, quod non potuit per 
+      <lb ed="#R" n="119"/>mortem puri hominis, quia peccatum infecit 
+      to<lb ed="#R" n="120" break="no"/>tam naturam, &amp; sic mors hominis puri non suffe- 
+      <!--0472.xml-->
+      <pb ed="#R" n="470"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>cisset pro infinitis culpis, qua esse potuerunt 
+      infi<lb ed="#R" n="2" break="no"/>nitae, &amp; ideo sola persona Dei fuit sufficiens, quae 
+      <lb ed="#R" n="3"/>est infinita, non autem persona puri hominis, quae 
+      <lb ed="#R" n="4"/>est finita.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

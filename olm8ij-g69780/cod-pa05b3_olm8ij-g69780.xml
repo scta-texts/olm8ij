@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-04-14">April 14, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b3">Roma 1605, Book 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-14" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="539"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-g69780"><!-- l3-d40q3 -->
+            <head xml:id="olm8ij-g69780-Hd1e101">Quaestio 3</head>
+            <p xml:id="olm8ij-g69780-d1e103">
+               <lb ed="#R" n="6"/>Quaestio Vltima. 
+      <lb ed="#R" n="7"/>DE COMPARATJONE 
+      <lb ed="#R" n="8"/>LEGIS. 
+      </p>
+            <div xml:id="olm8ij-g69780-Dd1e112">
+               <head xml:id="olm8ij-g69780-Hd1e114">Articulus 1</head>
+               <head xml:id="olm8ij-g69780-Hd1e116" type="question-title">
+        Utrum lex Noua, et Vetus differant per 
+        essentiam
+      </head>
+               <p xml:id="olm8ij-g69780-d1e119">
+                  <lb ed="#R" n="9"/>ARTJCVLVS VNJCVS. 
+      <lb ed="#R" n="10"/>Vtrum lex Noua, &amp; Vetus differant per 
+      es<lb ed="#R" n="11" break="no"/>sentiam 
+      </p>
+               <p xml:id="olm8ij-g69780-d1e128">
+                  <lb ed="#R" n="12"/>VIDETVR, quod sic, 
+      <lb ed="#R" n="13"/>quia quando aliqua sic se 
+      <lb ed="#R" n="14"/>habent, quod 
+      introdu<lb ed="#R" n="15" break="no"/>ctio vnius sit destructio 
+      <lb ed="#R" n="16"/>alterius, illa 
+      essentiali<lb ed="#R" n="17" break="no"/>ter differunt, quia 
+      intro<lb ed="#R" n="18" break="no"/>ductio vnius indiuidui, 
+      <lb ed="#R" n="19"/>quod differt materialiter 
+      <lb ed="#R" n="20"/>ab alio, est destructio 
+      al<lb ed="#R" n="21" break="no"/>terius: sed introductio Nouae legis est destructio 
+      <lb ed="#R" n="22"/>antiquae: translato enim sacerdotio oportet, quod 
+      <lb ed="#R" n="23"/>translatio legis fiat. Contra est illud Ezech. 1. 
+      <lb ed="#R" n="24"/>Quasi dota in medio rotae, &amp; dicit Gregorius 
+      qua<lb ed="#R" n="25" break="no"/>si lex Noua in medio Veteris. 
+      </p>
+               <p xml:id="olm8ij-g69780-d1e161">
+                  <lb ed="#R" n="26"/>Respondeo prima Propositio, quod praedictae 
+      <lb ed="#R" n="27"/>leges non differunt specie, quia leges, quae 
+      perti<lb ed="#R" n="28" break="no"/>nent ad eandem politiam, non differunt specie 
+      <lb ed="#R" n="29"/>quia leges non diuersificantur penes eos, qui non 
+      <lb ed="#R" n="30"/>sunt alij in diuersis politijs, vt patet ex Ethic. Sed 
+      <lb ed="#R" n="31"/>eadem politia est, quae regitur vtraque lege, quia 
+      <lb ed="#R" n="32"/>eadem est ciuitas secundum Augustinum per 
+      to<lb ed="#R" n="33" break="no"/>tum lib. de Ciuitate Dei ab Abel iusto vsque nunc, 
+      <lb ed="#R" n="34"/>&amp; in Angelis, &amp; hominibus eadem patet fides in 
+      <lb ed="#R" n="35"/>Noua lege, &amp; antiqua, licet in lege Noua sit magis 
+      <lb ed="#R" n="36"/>explicata. 
+      </p>
+               <p xml:id="olm8ij-g69780-d1e188">
+                  <lb ed="#R" n="37"/>Secundo. Quando aliquae propositiones sic 
+      se<lb ed="#R" n="38" break="no"/>habent, quod eadem veritas per illas 
+      exprimi<lb ed="#R" n="39" break="no"/>tur, vel in vna explicite, &amp; in alia implicite, 
+      di<lb ed="#R" n="40" break="no"/>cuntur habere rationem vnius legis: sed sic est de 
+      <lb ed="#R" n="41"/>lege noua, &amp; antiqua: illud enim, quod 
+      contine<lb ed="#R" n="42" break="no"/>batur in antiqua lege implicite, continetur in 
+      No<lb ed="#R" n="43" break="no"/>ua explicite. 
+      </p>
+               <p xml:id="olm8ij-g69780-d1e206">
+                  <lb ed="#R" n="44"/>Secunda Propositio, quod multiplex est 
+      diffe<lb ed="#R" n="45" break="no"/>rentia inter legem antiquam, &amp; nouam. Prima 
+      <lb ed="#R" n="46"/>est difficultas, quae fuit in antiqua lege, &amp; 
+      facili<lb ed="#R" n="47" break="no"/>tas quae est in noua, &amp; ista differentia attenditur, 
+      <lb ed="#R" n="48"/>quia tot fuerunt, qui tulerunt onus importabile, 
+      <lb ed="#R" n="49"/>secundum quod dicit beatus Petrus in Actis: nos 
+      <lb ed="#R" n="50"/>autem pauca habemus in noua lege. Puta septem 
+      <lb ed="#R" n="51"/>Sacramenta facilia, quorum etiam vnum est 
+      sim<lb ed="#R" n="52" break="no"/>pliciter necessitatis, scilicet baptismus, qui est 
+      sa<lb ed="#R" n="53" break="no"/>tis facilis. Sed de confessione videtur, quod sit 
+      ma<lb ed="#R" n="54" break="no"/>gis difficile, quam aliquod ceremoniale legis 
+      an<lb ed="#R" n="55" break="no"/>tiquae, &amp; potest dici, quod illa quae cadunt in dif- 
+      <!--0541.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="56"/>ficultate, amota sunt per sigillum confessionis, 
+      <lb ed="#R" n="57"/>nihilominus tamen manet ibi maxima 
+      verecun<lb ed="#R" n="58" break="no"/>dia. &amp; dicendum, quod ista verecundia est de 
+      iu<lb ed="#R" n="59" break="no"/>re naturae, quia rationale est, vt aliquis 
+      verecun<lb ed="#R" n="60" break="no"/>detur de offensa, qua offendit creatorem suum, 
+      <lb ed="#R" n="61"/>&amp; ita tollit magnam partem poenae. Et vlterius 
+      <lb ed="#R" n="62"/>contra istam verecundiam, &amp; difficultatem 
+      habe<lb ed="#R" n="63" break="no"/>mus speciale adiutorium gratiae diuinae. 
+      Mora<lb ed="#R" n="64" break="no"/>lia autem praecepta manent eadem. Et si 
+      dica<lb ed="#R" n="65" break="no"/>tur, quod additum est in Noua lege de diligendis 
+      <lb ed="#R" n="66"/>inimicis, quod est valde difficile, dicendum 
+      <lb ed="#R" n="67"/>quod ista additio est de iure naturae. Alia autem 
+      <lb ed="#R" n="68"/>multa addita non sunt necessitatis, sed 
+      superero<lb ed="#R" n="69" break="no"/>gationis, &amp; haec quae sunt necessitatis, tamen leues 
+      <lb ed="#R" n="70"/>sunt cum adiutorio gratiae, &amp; ideo signanter 
+      di<lb ed="#R" n="71" break="no"/>cit Christus: Jugum meum leue. Jugum enim est 
+      <lb ed="#R" n="72"/>propter difficultatem, sed leue propter auxilium 
+      <lb ed="#R" n="73"/>gratiae abundantis. 
+      </p>
+               <p xml:id="olm8ij-g69780-d1e278">
+                  <lb ed="#R" n="74"/>Secunda differentia est vmbra, &amp; veritas. 
+      Ioan<lb ed="#R" n="75" break="no"/>nis 1. Lex per Moysen data est, gratia, &amp; veritas 
+      <lb ed="#R" n="76"/>per Jesum Christum facta est: vmbram enim 
+      ha<lb ed="#R" n="77" break="no"/>bebat lex futurorum bonorum, vt dicit Apostolus, 
+      <lb ed="#R" n="78"/>&amp; ista differentia accipitur penes intellectum, 
+      pri<lb ed="#R" n="79" break="no"/>ma autem penes actum. 
+      </p>
+               <p xml:id="olm8ij-g69780-d1e294">
+                  <lb ed="#R" n="80"/>Tertia differentia sumitur penes amorem, &amp; 
+      <lb ed="#R" n="81"/>timorem, quia lex antiqua fuit data in timore, 
+      <lb ed="#R" n="82"/>&amp; ideo data est lex timoris: noua autem in 
+      amo<lb ed="#R" n="83" break="no"/>re, quia fuit a Christo data pendente in cruce, 
+      <lb ed="#R" n="84"/>quando inclinato capite emisit spiritum: &amp; 
+      ite<lb ed="#R" n="85" break="no"/>rum fuit scripta in cordibus Apostolorum in 
+      die<lb ed="#R" n="86" break="no"/>Pentecostes, &amp; Christus inducebat semper ad 
+      le<lb ed="#R" n="87" break="no"/>gem suam per amorem, non per timorem: Si 
+      di<lb ed="#R" n="88" break="no"/>ligitis, inquit, me, mandata mea seruate, &amp; 
+      si<lb ed="#R" n="89" break="no"/>milia 
+      </p>
+               <p xml:id="olm8ij-g69780-d1e318">
+                  <lb ed="#R" n="90"/>Quarta differentia sumitur penes libertatem 
+      <lb ed="#R" n="91"/>&amp; seruitutem, quia antiqua fuit seruitutis. 
+      No<lb ed="#R" n="92" break="no"/>ua dicitur lex libertatis, &amp; illa tractabat 
+      homi<lb ed="#R" n="93" break="no"/>nem, sicut seruum, &amp; ideo deputatus erat 
+      serui<lb ed="#R" n="94" break="no"/>libus operibus, vt seruiret sub elementis huius 
+      <lb ed="#R" n="95"/>mundi in timoribus. In ista autem est deputatus 
+      <lb ed="#R" n="96"/>operibus filiorum, scilicet operibus 
+      spirituali<lb ed="#R" n="97" break="no"/>bus, &amp; ista differentia seruorum, &amp; filiorum, 
+      vn<lb ed="#R" n="98" break="no"/>de dicebat Christus Apostolis: Jam non dicam vos 
+      <lb ed="#R" n="99"/>seruos, sed amicos. 
+      </p>
+               <p xml:id="olm8ij-g69780-d1e342">
+                  <lb ed="#R" n="100"/>Quinta sumitur ex fine, quia in antiqua lege 
+      ex<lb ed="#R" n="101" break="no"/>presse promittebantur temporalia: in Noua vero 
+      <lb ed="#R" n="102"/>bona spiritualia, &amp; ista fuit occasio erroris 
+      Ma<lb ed="#R" n="103" break="no"/>nichaei dicentis, quod antiqua lex fuit a malo 
+      <lb ed="#R" n="104"/>Deo, Noua autem a bono, vnde dicit, quod 
+      abij<lb ed="#R" n="105" break="no"/>ciendae sunt tabulae antiquae legis, quia non est 
+      cu<lb ed="#R" n="106" break="no"/>randum de promissione sua temporali. 
+      </p>
+               <p xml:id="olm8ij-g69780-d1e361">
+                  <lb ed="#R" n="107"/>Sexta differentia sumitur penes poenam, &amp; 
+      co<lb ed="#R" n="108" break="no"/>hibitionem, quia in antiqua cohibebatur animus, 
+      <lb ed="#R" n="109"/>non tamen apponebatur ei poena: sed in Noua 
+      ap<lb ed="#R" n="110" break="no"/>ponitur poena, &amp; ideo vocatur cohibitio, quia: Qui 
+      <lb ed="#R" n="111"/>dicit fratri suo Racha, reus erit &amp;c. 
+      </p>
+               <p xml:id="olm8ij-g69780-d1e374">
+                  <lb ed="#R" n="112"/>Septima differentia sumitur penes literam, &amp; 
+      <lb ed="#R" n="113"/>gratiam, penes imperium, &amp; auxilium: Antiqua 
+      <lb ed="#R" n="114"/>enim imperabat, sed auxilium non praebebat, 
+      at<lb ed="#R" n="115" break="no"/>tendebat literam, quae occidit: Noua spir itum, &amp; 
+      <lb ed="#R" n="116"/>gratiam, quae viuificat. 
+      </p>
+               <p xml:id="olm8ij-g69780-d1e387">
+                  <lb ed="#R" n="117"/>Octaua penes imperfectum, &amp; perfectum 
+      <lb ed="#R" n="118"/>penes pedagogum, &amp; Magistrum: vnde sicut 
+      quae<lb ed="#R" n="119" break="no"/>dam scientiae dicuntur introductoriae, quia 
+      dispo<lb ed="#R" n="120" break="no"/>nunt ad illas, in quibus est notitia veritatis; ita 
+      <lb ed="#R" n="121"/>antiqua lex ad modum pedagogi introducta fuir 
+      <lb ed="#R" n="122"/>ad Nouam legem. 
+      </p>
+               <p xml:id="olm8ij-g69780-d1e403">
+      <!--0542.xml-->
+                  <pb ed="#R" n="540"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Ad argumentum dicendum, quod Antiqua lex 
+      <lb ed="#R" n="2"/>non fuit euacuata totaliter per introductionem 
+      <lb ed="#R" n="3"/>Nouae: sed solum quantum ad illud, quod erat 
+      <lb ed="#R" n="4"/>imperfectionis, sicut puer euacuatur, quando scit 
+      <!--0542.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="5"/>vti, secundum illud Apostoli: Quando eram 
+      par<lb ed="#R" n="6" break="no"/>uulus, sapiebam vt paruulus; quando autem 
+      fa<lb ed="#R" n="7" break="no"/>ctus sum senior euacuaui, quae sunt paruuli, &amp;c. 
+      <lb ed="#R" n="8"/>sic ad illud. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

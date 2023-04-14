@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-14">April 14, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b3">Roma 1605, Book 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-14" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="459"/>
+            <cb ed="#R" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-g43944"><!-- l3-d18q1 -->
+            <head xml:id="olm8ij-g43944-Hd1e101">Quaestio 1</head>
+            <p xml:id="olm8ij-g43944-d1e103">
+               <lb ed="#R" n="83"/>DISTJNCTJO XVJJJ. 
+      <lb ed="#R" n="84"/>Circa Distinctionem Decimamoctauam 
+      quae<lb ed="#R" n="85" break="no"/>ro: Vtrum voluntas humana in Christo 
+      fue<lb ed="#R" n="86" break="no"/>rit semper conformis voluntati diuinae. 
+      </p>
+            <p xml:id="olm8ij-g43944-d1e114">
+               <lb ed="#R" n="87"/>Quaestio Vnica.
+      </p>
+            <div xml:id="olm8ij-g43944-Dd1e119">
+               <head xml:id="olm8ij-g43944-Hd1e121">Articulus 1</head>
+               <head xml:id="olm8ij-g43944-Hd1e123" type="question-title">
+            Utrum voluntas humana in Christo fuerit semper 
+            conformis voluntati diuinae
+          </head>
+               <p xml:id="olm8ij-g43944-d1e126">
+                  <lb ed="#R" n="88"/>ARTJCVLVS VNJCVS. 
+      <lb ed="#R" n="89"/>Vtrum voluntas humana in Christo fuerit semper 
+      <lb ed="#R" n="90"/>conformis voluntati diuinae. 
+      </p>
+               <p xml:id="olm8ij-g43944-d1e135">
+                  <lb ed="#R" n="91"/>ARGVO, quod non sic: 
+      Vo<lb ed="#R" n="92" break="no"/>luntas humana in Christo non 
+      <lb ed="#R" n="93"/>fuit semper impleta in suo 
+      <lb ed="#R" n="94"/>desiderio: ergo. Antecedens 
+      <lb ed="#R" n="95"/>patet per orationem, quam 
+      <lb ed="#R" n="96"/>fecit in horto: si possibile est. 
+      <lb ed="#R" n="97"/>Consequentia patet, quia 
+      <lb ed="#R" n="98"/>oratio est voluntatis explica 
+      <lb ed="#R" n="99"/>tio: voluntas humana non 
+      <lb ed="#R" n="100"/>semper fuit exaudita: ergo. Item Christus orauit 
+      <lb ed="#R" n="101"/>pro Judaeis, vt eis parceretur, &amp; tamen Deus non 
+      <lb ed="#R" n="102"/>pepercit omnibus: ergo sequitur, quod voluntas 
+      <lb ed="#R" n="103"/>humana non semper fuit exaudita, vel impleta.
+      </p>
+               <p xml:id="olm8ij-g43944-d1e166">
+                  <lb ed="#R" n="104"/>Item: Vbi nulla est distinctio, non cadit 
+      conforta<lb ed="#R" n="105" break="no"/>tio, quia si in illo supponit distinctionem: sed in 
+      <lb ed="#R" n="106"/>Christo secundum duplicem naturam erat quasi 
+      <lb ed="#R" n="107"/>vnum regnum: ergo ibi non erant capita: si autem 
+      <lb ed="#R" n="108"/>fuissent duo capita, fuisset humanitas caput 
+      aliquo<lb ed="#R" n="109" break="no"/>rum, &amp; diuinitas aliorum. Contra est: Quia voluntas 
+      <lb ed="#R" n="110"/>beatorum semper est conformis voluntati diuinae: 
+      <lb ed="#R" n="111"/>eroo e voiitas christi. Maior paret per illud, fiat 
+      <lb ed="#R" n="112"/>voluntas tua: sequitur, sicut in caelo. 
+      Consequen<lb ed="#R" n="113" break="no"/>tiam probo, quia Christus fuit summe beatus. Item: 
+      <lb ed="#R" n="114"/>voluntas fuit in Christo recta: vnumquodque 
+      au<lb ed="#R" n="115" break="no"/>tem in tantum dicitur rectum, in quantum 
+      confor<lb ed="#R" n="116" break="no"/>matur primae mensurae &amp; regulae per se rectae: ergo 
+      <lb ed="#R" n="117"/>voluntas Christi fuit conformis voluntati diuinae, 
+      <lb ed="#R" n="118"/>alias fuisset non recta, quia deuiasset a recto. 
+      Re<lb ed="#R" n="119" break="no"/>spondeo, hic duo facio. Primo distinguo de 
+      volun<lb ed="#R" n="120" break="no"/>tate in Christo: secundo respondeo ad quaesitum. 
+      </p>
+               <p xml:id="olm8ij-g43944-d1e206">
+                  <lb ed="#R" n="121"/>Circa primum nota, quod voluntas in Christo 
+      <lb ed="#R" n="122"/>primo diuiditur in diuinam, &amp; humanam. Secundo, 
+      <lb ed="#R" n="123"/>voluntas humana diuiditur, quia quaedam est 
+      volun<lb ed="#R" n="124" break="no"/>tas, quae est affectio sequens apprehensionem 
+      ratio<lb ed="#R" n="125" break="no"/>nis, quaedam affectio consequens apprehensionem 
+      <lb ed="#R" n="126"/>sensus. Et tertio ista subdiuiditur. Quaedam enim 
+      <lb ed="#R" n="127"/>affectio sequitur apprehensionem sensus exterioris; 
+      <!--0462.xml-->
+      <pb ed="#R" n="460"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>quaedam sensus interioris. Quarto, prima istarum 
+      <lb ed="#R" n="2"/>diuiditur, quia tot sunt affectiones, quot sunt 
+      ap<lb ed="#R" n="3" break="no"/>prehensiones sensuum exteriorum, nec est aliquod 
+      <lb ed="#R" n="4"/>inc nueniens, quod in Christo fuerint omnes isti 
+      <lb ed="#R" n="5"/>appetitus. Voluntas autem sequens 
+      apprehensio<lb ed="#R" n="6" break="no"/>nem rationis diuiditur, quia quaedam voluntas 
+      <lb ed="#R" n="7"/>naturalis, quaedam deliberatiua, &amp; non sunt istae 
+      <lb ed="#R" n="8"/>duae potentiae, nam voluntas naturalis potest 
+      acci<lb ed="#R" n="9" break="no"/>pi, ro affectione complantata, vt est affectio 
+      scien<lb ed="#R" n="10" break="no"/>tiae. Quod probatur sic. 
+      </p>
+               <p xml:id="olm8ij-g43944-d1e252">
+                  <lb ed="#R" n="11"/>Omnia illa sunt, quod in quocumque ponuntur, 
+      <lb ed="#R" n="12"/>nec in sua integritate, in eodem oportet poni 
+      con<lb ed="#R" n="13" break="no"/>sequentia integritatem illam: sed in Christo sunt duae 
+      <lb ed="#R" n="14"/>naturae integrae, vt habetur in Extrau. extra de Fide 
+      <lb ed="#R" n="15"/>Catholica, contra haereticos, qui ponunt, quod in 
+      <lb ed="#R" n="16"/>Christo non sunt duae naturae, nec duae voluntates. 
+      </p>
+               <p xml:id="olm8ij-g43944-d1e268">
+                  <lb ed="#R" n="17"/>Hic nota, quaedam realium proprietatum, quae 
+      <lb ed="#R" n="18"/>sunt in Christo, quaedam concomitantur solum 
+      <lb ed="#R" n="19"/>vnam naturam, quaedam vtramque, &amp; istae sic. 
+      </p>
+               <p xml:id="olm8ij-g43944-d1e277">
+                  <lb ed="#R" n="20"/>Nunc secundo respondeo ad quaesitum, dico, 
+      <lb ed="#R" n="21"/>quod si loqueris, &amp; quaeris de appetitu exteriori, 
+      <lb ed="#R" n="22"/>quod iste non fuit conformis in Christo voluntati 
+      <lb ed="#R" n="23"/>diuinae semper, eo quod ille non est subiectus legi, 
+      <lb ed="#R" n="24"/>de quo loquitur Paulus. Cum vero loqueris de 
+      <lb ed="#R" n="25"/>appetitu interiori, vel animali, dico etiam quod non, 
+      <lb ed="#R" n="26"/>quoniam diuina voluntas siuit contristari 
+      Chri<lb ed="#R" n="27" break="no"/>stum, &amp; mori voluit, vnde es quod in hoc fuerunt 
+      <lb ed="#R" n="28"/>concordes, quoniam diuina voluntas volebat eos 
+      <lb ed="#R" n="29"/>velle, &amp; contristarentur. Si vero loqueris de 
+      vo<lb ed="#R" n="30" break="no"/>luntate, tunc aut de voluntate naturali: dico tunc, 
+      <lb ed="#R" n="31"/>quod si quaeris de actu, sic dico, quod voluntas 
+      <lb ed="#R" n="32"/>nulla, quae sit alicuius, in Christo fuit vnquam 
+      di<lb ed="#R" n="33" break="no"/>scors. 
+      </p>
+               <p xml:id="olm8ij-g43944-d1e310">
+                  <lb ed="#R" n="34"/>Est enim quidam actus voluntatis non 
+      simplici<lb ed="#R" n="35" break="no"/>ter, &amp; in quietitudine, &amp; libramine, &amp; sic non 
+      sem<lb ed="#R" n="36" break="no"/>per secundum tales actus fuit voluntas diuinae con 
+      <lb ed="#R" n="37"/>formis, vbi velle ponit aliquid, sicut, Transeat a me 
+      <lb ed="#R" n="38"/>calix iste, quod non erat secundum voluntatem 
+      di<lb ed="#R" n="39" break="no"/>uinam: sed de actu quieto, vbi sistebat, non fuit 
+      vn<lb ed="#R" n="40" break="no"/>quam talis actus, quin esset concors ordinationi 
+      <lb ed="#R" n="41"/>diuinae. 
+      </p>
+               <p xml:id="olm8ij-g43944-d1e330">
+                  <lb ed="#R" n="42"/>Tunc ad primum dico, quod voluntas humana 
+      <lb ed="#R" n="43"/>vltimata &amp; quieta sistens semper fuit in Christo 
+      <lb ed="#R" n="44"/>completa, &amp; exaudita. Ad aliud, nego, quod 
+      vo<lb ed="#R" n="45" break="no"/>luntas humana &amp; diuina fuerunt duae in Christo. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

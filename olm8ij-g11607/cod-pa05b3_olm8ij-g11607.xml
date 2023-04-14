@@ -1,0 +1,1536 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-04-14">April 14, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b3">Roma 1605, Book 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-14" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="364"/>
+            <cb ed="#R" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-g11607"><!-- l3-d1q4 -->
+            <head xml:id="olm8ij-g11607-Hd1e101">Quaestio 4</head>
+            <p xml:id="olm8ij-g11607-d1e103">
+               <lb ed="#R" n="122"/>Quaestionis JJJJ. 
+      <lb ed="#R" n="123"/>DE COMPARATJONE 
+      NATV<lb ed="#R" n="124" break="no"/>RAE AD DJVJNVM 
+      <lb ed="#R" n="125"/>SVPPOSITVM. 
+      </p>
+            <p xml:id="olm8ij-g11607-d1e114">
+               <lb ed="#R" n="126"/>Quaestio de vnione hypostatica in se, &amp; in 
+      or<lb ed="#R" n="127" break="no"/>dine ad suppositum, quaeritur nunc 
+      quar<lb ed="#R" n="128" break="no"/>to de ista vnione comparando naturam 
+      <lb ed="#R" n="129"/>ad suppositum.
+  </p>
+            <div xml:id="olm8ij-g11607-Dd1e125">
+               <head xml:id="olm8ij-g11607-Hd1e127">Articulus 1</head>
+               <head xml:id="olm8ij-g11607-Hd1e129" type="question-title">
+        Utrum plures naturae, vel eiusdem rationis, vel alterius possint terminari ad diuinum suppositum, et quidditatiue vniri
+      </head>
+               <p xml:id="olm8ij-g11607-d1e132">
+      <!--0367.xml-->
+                  <pb ed="#R" n="365"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>ARTJCVLVS J. 
+      <lb ed="#R" n="2"/>Vtrum plures naturae, vel eiusdem rationis, vel 
+      al<lb ed="#R" n="3" break="no"/>terius possint terminari ad diuinum 
+      supposi<lb ed="#R" n="4" break="no"/>tum, &amp; quidditatiue vniri. 
+  </p>
+               <p xml:id="olm8ij-g11607-d1e150">
+                  <lb ed="#R" n="5"/>DIco, alterius rationis, quia supposito, vt 
+      ve<lb ed="#R" n="6" break="no"/>Lrum est, quod assumpsit naturam humanam, 
+      <lb ed="#R" n="7"/>vtrum possit assumere naturam Angeli, vel 
+      natu<lb ed="#R" n="8" break="no"/>ram alterius hominis possit assumere, quod non 
+      <lb ed="#R" n="9"/>sic: Quia illud est impossibile, ex quo sequitur 
+      op<lb ed="#R" n="10" break="no"/>positum primi principij, natet, quod ex quo 
+      princi<lb ed="#R" n="11" break="no"/>pia sunt maxime vera, eorum opposita sunt 
+      maxi<lb ed="#R" n="12" break="no"/>me salsa: sed si plures naturae vnirentur vni 
+      suppo<lb ed="#R" n="13" break="no"/>sito quidditatiue sequeretur oppositum istius 
+      prin<lb ed="#R" n="14" break="no"/>cipij, de quolibet affirmatio, vel negatio, &amp; de nullo 
+      <lb ed="#R" n="15"/>eodem ambo simul: Probo, quia de tali supposito non 
+      <lb ed="#R" n="16"/>esset verum dicere, quod esset vnum vel plura, vt 
+      <lb ed="#R" n="17"/>quod vnus homo, vel plures homines; non vnus, 
+      <lb ed="#R" n="18"/>quia vnus posset calefieri, &amp; frigefieri, &amp; alius non, 
+      <lb ed="#R" n="19"/>&amp; tunc vnum, &amp; idem esset calidum, &amp; non 
+      cali<lb ed="#R" n="20" break="no"/>dum. Item posset vnus, &amp; idem esse vir, &amp; mulier. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e187">
+                  <lb ed="#R" n="21"/>Item, non plures, quia multiplicatis formis, dũ- 
+      <lb ed="#R" n="22"/>modo suppositum non multiplicetur, non 
+      multipli<lb ed="#R" n="23" break="no"/>catur denominatio quidditatiua, sicut patet, quod 
+      <lb ed="#R" n="24"/>licet in vno homine sint multi habitus scientiae, 
+      ta<lb ed="#R" n="25" break="no"/>men propter hoc non dicitur, nisi vnus sciens. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e201">
+                  <lb ed="#R" n="26"/>Item, impossibile est plures formas differentes 
+      <lb ed="#R" n="27"/>numero esse in eodem supposito: ergo &amp; plures 
+      na<lb ed="#R" n="28" break="no"/>turas. Consequentia patet, quia magis vnita natura 
+      <lb ed="#R" n="29"/>suoposito, quam forma subiecto: ergo. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e212">
+                  <lb ed="#R" n="30"/>Item per introductionem formae in subiecto 
+      to<lb ed="#R" n="31" break="no"/>ta potentia appetitus mihi euacuatur respectu 
+      for<lb ed="#R" n="32" break="no"/>marum eiusdem rationis: ergo &amp; in natura. Maior 
+      <lb ed="#R" n="33"/>patet, quia si stuppa comburatur, vel fiat sub forma 
+      <lb ed="#R" n="34"/>ignis, non est in potentia ad alium ignem, quia si 
+      es<lb ed="#R" n="35" break="no"/>set, posset per agens naturale educi ignis de illa 
+      po<lb ed="#R" n="36" break="no"/>tentia, &amp; ita eadem pars materiae esset subiecta simul 
+      <lb ed="#R" n="37"/>diuersis formis, &amp; ideo Commentator dicit, quod 
+      <lb ed="#R" n="38"/>numerantur habilitates in materia secundum 
+      for<lb ed="#R" n="39" break="no"/>mas specificas. Sic a simili per hoc, quod in 
+      supposi<lb ed="#R" n="40" break="no"/>to diuino terminatur vna natura: ergo pari 
+      ratio<lb ed="#R" n="41" break="no"/>ne nulla alia eiusdem rationis poterit terminari, 
+      <lb ed="#R" n="42"/>quare nec plures naturae poterunt terminari, &amp; 
+      in<lb ed="#R" n="43" break="no"/>diuino supposito. Modo arguo, quod nec alia 
+      al<lb ed="#R" n="44" break="no"/>terius rationis possit terminari ad diuinum 
+      suppo<lb ed="#R" n="45" break="no"/>situm, sic: Sicut se habet species ad genus, sic 
+      suppo<lb ed="#R" n="46" break="no"/>situm ad naturam; sed non est dare eandem speciem 
+      <lb ed="#R" n="47"/>in diuersis generibus: ergo nec idem suppositum 
+      <lb ed="#R" n="48"/>in diuersis naturis, vel speciebus non subalternatim 
+      <lb ed="#R" n="49"/>positis. Maior patet, quia non est maius 
+      inconue<lb ed="#R" n="50" break="no"/>niens, quod vnum, &amp; idem suppositum reperiatur 
+      <lb ed="#R" n="51"/>in diuersis naturis diuersarum rationum, quam 
+      <lb ed="#R" n="52"/>quod vnum, &amp; idem genus reperiatur in pluribus 
+      <lb ed="#R" n="53"/>speciebus diuersarum rationum, vel ordinum. 
+      An<lb ed="#R" n="54" break="no"/>tecedens patet, quod diuersorum generum, &amp; non 
+      <lb ed="#R" n="55"/>subalternatim positorum. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e271">
+                  <lb ed="#R" n="56"/>Item Commentator 2. Metaph. negantes 
+      deter<lb ed="#R" n="57" break="no"/>minatas formas in determinatis principijs negant 
+      <lb ed="#R" n="58"/>principium: Consequentia patet, quia non magis 
+      de<lb ed="#R" n="59" break="no"/>terminat materia vnam formam, quam suppositum 
+      <lb ed="#R" n="60"/>vnam naturam. Item, non est magis impossibile 
+      <lb ed="#R" n="61"/>suppositum quidditatum humanitate quiddificari 
+      <lb ed="#R" n="62"/>lupideitate, quam quiddificatum Deitate 
+      quiddifi<lb ed="#R" n="63" break="no"/>cari humanitate: sed hoc non est impossibile, quia 
+      <lb ed="#R" n="64"/>ita est de facto: ergo nec primum. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e293">
+                  <lb ed="#R" n="65"/>Item: Potentia verbi non est diminuta per assum- 
+      <!--0367.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="66"/>ptionem naturae humanae, post assumptionem enim 
+      <lb ed="#R" n="67"/>est in pari potentia cum persona Patris; sed 
+      ante<lb ed="#R" n="68" break="no"/>assumptionem poterat aliam naturam assumere, 
+      <lb ed="#R" n="69"/>quam humanam: ergo &amp; post, potest aliam 
+      assume<lb ed="#R" n="70" break="no"/>re cum humana. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e313">
+                  <lb ed="#R" n="71"/>Item: Pater post assumptionem potest, &amp; potius 
+      <lb ed="#R" n="72"/>assumere naturam aliam ab humana: ergo &amp; verbum. 
+      <lb ed="#R" n="73"/>Respondeo de ista quaestione, non inuenio nisi vnam 
+      <lb ed="#R" n="74"/>solemnem opinionem, Ego igitur teneo 
+      affirmati<lb ed="#R" n="75" break="no"/>uam, &amp; primo adduco vnam rationem ad hoc 
+      se<lb ed="#R" n="76" break="no"/>cundo remouebo quaedam dubia. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e329">
+                  <lb ed="#R" n="77"/>Circa primum ergo probo, quod potest 
+      assume<lb ed="#R" n="78" break="no"/>re plures naturas eiusdem rationis, &amp; diuersae: Quia 
+      <lb ed="#R" n="79"/>si esset repugnantia ex parte habitudinum 
+      quiddi<lb ed="#R" n="80" break="no"/>tatiuarum, quod essent incompossibiles, hoc esset 
+      <lb ed="#R" n="81"/>vel respectu naturarum, vel respectu terminorum: 
+      <lb ed="#R" n="82"/>sed non sic, nec sic:ergo. Maior patet per 
+      sufficien<lb ed="#R" n="83" break="no"/>tem diuisionem. Minor declaratur, quod non sunt 
+      <lb ed="#R" n="84"/>incompossibiles istae habitudines, nec respectu natu 
+      <lb ed="#R" n="85"/>rarum, vel terminorum, quia non sunt 
+      incompossi<lb ed="#R" n="86" break="no"/>biles respectu oppositionis, nec respectu sui esse 
+      <lb ed="#R" n="87"/>probo, quod sic manent disparata, &amp; quod non 
+      re<lb ed="#R" n="88" break="no"/>spectu oppositionis, vel sui, opposita includunt 
+      ne<lb ed="#R" n="89" break="no"/>gationes oppositas, nec sufficit quaecumque negatio 
+      <lb ed="#R" n="90"/>ad opposita, vt Pater includit negationem Filij, non 
+      <lb ed="#R" n="91"/>quia non est Filius solum: sed quia Filius est 
+      termi<lb ed="#R" n="92" break="no"/>nus oppositus, ideo filiatio opposita est 
+      incompos<lb ed="#R" n="93" break="no"/>sibilis Patri: sed filiatio non opposita non. Idem 
+      <lb ed="#R" n="94"/>enim potest esse Pater, &amp; Filius, quia filiatio 
+      oppo<lb ed="#R" n="95" break="no"/>sita, &amp; paternitas non possunt esse in eodem: ergo 
+      <lb ed="#R" n="96"/>non sunt opposita, nisi respectu termini, vel respectu 
+      <lb ed="#R" n="97"/>fundamenti, &amp; hoc alterius non, quia 
+      fundamen<lb ed="#R" n="98" break="no"/>tum, non est vnum, &amp; idem, quia humanitas, &amp; 
+      la<lb ed="#R" n="99" break="no"/>pideitas. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e382">
+                  <lb ed="#R" n="100"/>Item: non respectu termini, quia possibile est 
+      <lb ed="#R" n="101"/>eundem terminum terminare diuersas habitudines 
+      <lb ed="#R" n="102"/>in primo genere relatiuorum, hoc patet in primo 
+      <lb ed="#R" n="103"/>modo relatiuorum, qui est modo numeri: vna enim 
+      <lb ed="#R" n="104"/>albedine potest aliquis terminare multas 
+      similitu<lb ed="#R" n="105" break="no"/>dines, vt per eandem albedinem sint termini similes 
+      <lb ed="#R" n="106"/>&amp; similes alij, &amp; sic de alijs, &amp; sic termino multas 
+      <lb ed="#R" n="107"/>similitudines. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e402">
+                  <lb ed="#R" n="108"/>Item: in secundo modo potentiae actiuae, &amp; 
+      pas<lb ed="#R" n="109" break="no"/>siuae, quia idem Pater potest terminare, &amp; 
+      termi<lb ed="#R" n="110" break="no"/>nat plures filiationes, vt quando habet plures 
+      fi<lb ed="#R" n="111" break="no"/>lios. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e413">
+                  <lb ed="#R" n="112"/>Item: in tertio modo, qui est modo mensurae, 
+      <lb ed="#R" n="113"/>&amp; mensurati, quia omnes creaturae referuntur, &amp; 
+      <lb ed="#R" n="114"/>se habent ad diuinam essentiam, vt ad vnam 
+      men<lb ed="#R" n="115" break="no"/>suram, vel finem: ergo non video, quod sit 
+      impos<lb ed="#R" n="116" break="no"/>sibile, quin plures naturae ad vnum supoositum 
+      pos<lb ed="#R" n="117" break="no"/>sint terminari, &amp; sic non posse erit ex parte 
+      infini<lb ed="#R" n="118" break="no"/>tatis, quam non est dare. &amp; hoc de primo. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e431">
+                  <lb ed="#R" n="119"/>Circa secundum occurrunt dubia tria. Primum, 
+      <lb ed="#R" n="120"/>si istae plures habitudines essent alterius rationis, 
+      <lb ed="#R" n="121"/>vel eiusdem. Secundum dubium: Vtrum si verbum 
+      <lb ed="#R" n="122"/>assumeret aliam naturam humanam, vtrum essent 
+      <lb ed="#R" n="123"/>plures homines. Tertium dubium, quae 
+      praedica<lb ed="#R" n="124" break="no"/>menta debent dici in diuinis pluraliter, &amp; quae 
+      sin<lb ed="#R" n="125" break="no"/>gulariter. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e449">
+                  <lb ed="#R" n="126"/>Circa primum dubium videtur, quod istae 
+      habi<lb ed="#R" n="127" break="no"/>tudines non essent eiusdem rationis, quia 
+      habitudi<lb ed="#R" n="128" break="no"/>nes, &amp; relationes distinguuntur per fundamenta, sed 
+      <lb ed="#R" n="129"/>supponit, quod sint naturae diuersae rationis, vt 
+      hu<lb ed="#R" n="130" break="no"/>manitas, &amp; lapideitas. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e462">
+                  <lb ed="#R" n="131"/>Item: si lapis, &amp; homo essent assumpta, 
+      habitu<lb ed="#R" n="132" break="no"/>do humanitatis ad naturam esset suppositatio, &amp; 
+      <lb ed="#R" n="133"/>personatio similis, quia persona est naturae ratio- 
+      <!--0368.xml-->
+      <pb ed="#R" n="366"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>nalis, &amp;c. habitudo lapidis esset solum 
+      supposi<lb ed="#R" n="2" break="no"/>tatio.
+      </p>
+               <p xml:id="olm8ij-g11607-d1e483">
+                  <lb ed="#R" n="3"/>Item, si tres humanitates, &amp; tres lapideitates 
+      es<lb ed="#R" n="4" break="no"/>sent assumptae habitudines, vel rationes trium 
+      hu<lb ed="#R" n="5" break="no"/>manitatum, minus differrent ad inuicem, quam per 
+      <lb ed="#R" n="6"/>respectum ad habitudines trium lapideitatum: sed 
+      <lb ed="#R" n="7"/>istae inter se differrent numero: ergo sunt alterius 
+      <lb ed="#R" n="8"/>rationis speciei. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e499">
+                  <lb ed="#R" n="9"/>Contra, habitudines essent quidditatiuae: ergo 
+      <lb ed="#R" n="10"/>non possent esse alterius rationis. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e506">
+                  <lb ed="#R" n="11"/>Item: suppositum dicit aliquid praecisum 
+      spolia<lb ed="#R" n="12" break="no"/>tum, sicut materia in sundamento naturae, sed Com 
+      <lb ed="#R" n="13"/>mentator 12. Metaph. non hoc dicit, quod 
+      conci<lb ed="#R" n="14" break="no"/>piens materiam, vnde distinguat: ergo ratio 
+      distin<lb ed="#R" n="15" break="no"/>ctionis non est a materia, sic in proposito de 
+      suppo<lb ed="#R" n="16" break="no"/>sito respectu cuiuslibet naturae: ergo sicut materia 
+      <lb ed="#R" n="17"/>vna, &amp; eadem respectu omnium formarum, &amp; estt 
+      <lb ed="#R" n="18"/>eiusdem rationis in omnibus saltem in 
+      generabili<lb ed="#R" n="19" break="no"/>bus; sic suppositum est eiusdem rationis sub omni 
+      <lb ed="#R" n="20"/>quidditate: ergo non erit distinctio per respectum 
+      <lb ed="#R" n="21"/>ad supposita. De hoc non determino, sed vos 
+      co<lb ed="#R" n="22" break="no"/>gitabitis: Dico tamen hic duas propositiones certas. 
+      <lb ed="#R" n="23"/>Prima quod habitudines differunt, &amp; 
+      distinguun<lb ed="#R" n="24" break="no"/>tur formaliter seipsis, &amp; non per subiectum, vel 
+      ter<lb ed="#R" n="25" break="no"/>minum. Secunda, quod intrinsece, &amp; forma liter 
+      <lb ed="#R" n="26"/>habitudo quidditatiua est alterius rationis ab 
+      om<lb ed="#R" n="27" break="no"/>ni alia. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e545">
+                  <lb ed="#R" n="28"/>Circa primum est opinio cuiusdam Doctoris 
+      an<lb ed="#R" n="29" break="no"/>tiqui, quod habitudines differunt ratione 
+      funda<lb ed="#R" n="30" break="no"/>mentorum. Relatio enim de se non dicit, nisi esse 
+      <lb ed="#R" n="31"/>ad aliud, quod de se non plurificatur, nisi per 
+      fun<lb ed="#R" n="32" break="no"/>damentum. Exemplum de concauitate in crure, 
+      <lb ed="#R" n="33"/>&amp; naso. Exemplum aliud de vnitate, quae est in 
+      <lb ed="#R" n="34"/>substantia, est idem in quantitate, vocatur aequale, 
+      <lb ed="#R" n="35"/>in qualitate simile, &amp; sicut hic est aliud, &amp; aliquid 
+      <lb ed="#R" n="36"/>diuersum non ex se, quia vnum non plus dicit quam 
+      <lb ed="#R" n="37"/>aliud, sed ratione fundamentorum, quae 
+      diffe<lb ed="#R" n="38" break="no"/>runt. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e571">
+                  <lb ed="#R" n="39"/>Hoc ego non teneo, &amp; ideo arguo contra hoc sic. 
+      <lb ed="#R" n="40"/>Si fundamentum est causa distinctionis, 
+      manen<lb ed="#R" n="41" break="no"/>te eodem fundamento, &amp; termino essent relationes 
+      <lb ed="#R" n="42"/>eiusdem rationis: sed hoc non potest esse, quia 
+      ca<lb ed="#R" n="43" break="no"/>pio calorem in calefaciente, &amp; in calefacto, modo 
+      <lb ed="#R" n="44"/>calor est eiusdem rationis in vtroque, quod est 
+      subie<lb ed="#R" n="45" break="no"/>ctum relationis calefaciens ad calefactum, &amp; tamen 
+      <lb ed="#R" n="46"/>islud fundamentum (prout refertur ad duo) non est 
+      <lb ed="#R" n="47"/>eiusdem rationis calefacientis ad calefactum in 
+      <lb ed="#R" n="48"/>vtroque, quia in primo est relatio de secundo 
+      mo<lb ed="#R" n="49" break="no"/>do, quae est in producente. In secundo relatio, quae 
+      <lb ed="#R" n="50"/>est in producto in eodem secundo modo. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e600">
+                  <lb ed="#R" n="51"/>Confirmatur ratio, quia quicquid diuiditur in 
+      <lb ed="#R" n="52"/>coordinatione praedicamentali, oportet quod 
+      di<lb ed="#R" n="53" break="no"/>uidatur per aliquid ipsius generis reducibile ad 
+      ge<lb ed="#R" n="54" break="no"/>nus per se, sed relatio est coordinationis 
+      praedica<lb ed="#R" n="55" break="no"/>mentalis: ergo. Sed dices, quod relatio in se non 
+      <lb ed="#R" n="56"/>diuiditur in species, &amp; differentias, nisi per 
+      sunda<lb ed="#R" n="57" break="no"/>mentum. Contra: relatio non esset causa 
+      distinctio<lb ed="#R" n="58" break="no"/>nis: ergo &amp; propter plura significare non est quid in 
+      <lb ed="#R" n="59"/>genere 7. Metaph. quia album dicit Philosophus non 
+      <lb ed="#R" n="60"/>est in genere propter duplex significare, sic 
+      relati<lb ed="#R" n="61" break="no"/>ua dicunt duplicem conceptum proprium, &amp; ipsius 
+      <lb ed="#R" n="62"/>fund: menti. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e630">
+                  <lb ed="#R" n="63"/>Ista opinio, quod fundamentum non est de primo 
+      <lb ed="#R" n="64"/>conceptu relationis, sed caracterizatio per 
+      funda<lb ed="#R" n="65" break="no"/>mentum, non valet, quia quaero, quid dicant mihi 
+      <lb ed="#R" n="66"/>characerizatio, aut absolutum, quia 
+      characteriza<lb ed="#R" n="67" break="no"/>tio non fundatur super habitudinem; habitudo 
+      au<lb ed="#R" n="68" break="no"/>tem respectus non est fundamentum absoluti, nec 
+      <!--0368.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>respectiui, quia aut est eiusdem rationis, aut 
+      non<lb ed="#R" n="70" break="no"/>eiusdem: si non eiusdem, tunc similiter est ens per 
+      <lb ed="#R" n="71"/>accidens: si eiusdem, vel ipsamet, vel alia: de qua 
+      <lb ed="#R" n="72"/>quaero sicut de ista, quia non video, quod per talem 
+      <lb ed="#R" n="73"/>habitudinem eiusdem rationis fieret specificatio. 
+      <lb ed="#R" n="74"/>Modo dico, quod per abstractionem habitudines 
+      <lb ed="#R" n="75"/>differunt seipsis. Quando ergo non possunt reduci 
+      <lb ed="#R" n="76"/>per abstractionem ad aliquod commune, vel ad 
+      ali<lb ed="#R" n="77" break="no"/>quem conceptum communem, tunc sunt genera 
+      <lb ed="#R" n="78"/>generalissima, vt vbitari, situari, ornari, &amp; 
+      huius<lb ed="#R" n="79" break="no"/>modi, quae non includunt fundamentum, nisi 
+      defi<lb ed="#R" n="80" break="no"/>niantur per additamenta, ostensum est autem in 
+      <lb ed="#R" n="81"/>prima quaestione, quod per duplex additamentum 
+      <lb ed="#R" n="82"/>definiuntur. Sunt etiam isti conceptus 
+      irreducibi<lb ed="#R" n="83" break="no"/>les, quia alias non essent primi conceptus. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e682">
+                  <lb ed="#R" n="84"/>Item: sunt conceptus alterius rationis: ideo 
+      con<lb ed="#R" n="85" break="no"/>stituunt diuersa praedicamenta: si autem sint 
+      alte<lb ed="#R" n="86" break="no"/>rius rationis, sint tamen reducibiles in aliquem 
+      <lb ed="#R" n="87"/>vel vnum communem conceptum ex talibus non 
+      <lb ed="#R" n="88"/>constituuntur praedicamenta; sed genera &amp; species 
+      <lb ed="#R" n="89"/>in eodem praedicamento. Sed aliquando inuen 
+      un<lb ed="#R" n="90" break="no"/>tur quaedam, quae distinguuntur ex fundamentis: sed 
+      <lb ed="#R" n="91"/>id est per accidens, nam similitudo non est fundata 
+      <lb ed="#R" n="92"/>in vnitate qualitatis: sed ipsa vnitas: non enim 
+      ac<lb ed="#R" n="93" break="no"/>cipitur hic vnitas pro indiuisione, sed est idem, 
+      <lb ed="#R" n="94"/>quod conformitas duorum, &amp; ideo praedicatur in 
+      <lb ed="#R" n="95"/>recto, quia dico similitudo est vnitas, &amp; 
+      conformi<lb ed="#R" n="96" break="no"/>tas, nec ad talem conformitatem requiritur 
+      vni<lb ed="#R" n="97" break="no"/>tas speciei, vel generis. Ista ergo ex fundamentis 
+      <lb ed="#R" n="98"/>videntur distingui, sed semper per accidens, in alijs 
+      <lb ed="#R" n="99"/>autem semper est distinctio ex intrinseco. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e719">
+                  <lb ed="#R" n="100"/>Sed Propositio est, quod ista habitudo non 
+      dici<lb ed="#R" n="101" break="no"/>tur quidditatiua, ex hoc, quod fundata sit in 
+      quid<lb ed="#R" n="102" break="no"/>ditate solum; sed est quidam specialis modus 
+      ha<lb ed="#R" n="103" break="no"/>bitudinis, vel vbi est habitudo corporum ad locum 
+      <lb ed="#R" n="104"/>diuersa ab alijs habitudinibus; vnde ista 
+      habitu<lb ed="#R" n="105" break="no"/>dine posita imposibile est illam quidditatem non 
+      <lb ed="#R" n="106"/>esse alterius necessario, sicut corpus impossibile est 
+      <lb ed="#R" n="107"/>illam quidditatem vbeitari quin sit vbi. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e739">
+                  <lb ed="#R" n="108"/>Exemplum similiter de anima, quae habet specia 
+      <lb ed="#R" n="109"/>lem habitudinem ad corpus, quae potest dici 
+      insor<lb ed="#R" n="110" break="no"/>matio, nam quaecumque vnio animae ad corpus non 
+      <lb ed="#R" n="111"/>est informatio, non, existentia, vel coexistentia, sed 
+      <lb ed="#R" n="112"/>specialis modus informationis, ita quod anima 
+      <lb ed="#R" n="113"/>posita in corpore, sic impossibile est corpus non 
+      es<lb ed="#R" n="114" break="no"/>se informatum, nec illa potest esse alterius. Si 
+      ar<lb ed="#R" n="115" break="no"/>guas de forma, quia alias dixi, quod est ipsa 
+      infor<lb ed="#R" n="116" break="no"/>matio, hoc dixi de alijs formis, nam anima est 
+      al<lb ed="#R" n="117" break="no"/>terius rationis ab alijs formis, quia haec est 
+      sepa<lb ed="#R" n="118" break="no"/>rabilis, aliae non. Item ipsa est hoc, aliae vero huius. 
+      <lb ed="#R" n="119"/>Similiter dico de formis accidentalibus, quae non 
+      <lb ed="#R" n="120"/>sunt aliud. quam affectio: ergo vnio quidditatiua 
+      <lb ed="#R" n="121"/>est specialis habitudo, quae est talis, vbi suppositum, 
+      <lb ed="#R" n="122"/>&amp; natura differunt realiter, qualis vbi differunt 
+      ra<lb ed="#R" n="123" break="no"/>tione, vt cum dicitur Sorteitas tui. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e776">
+                  <lb ed="#R" n="124"/>Sed nunquid plurificatur humanatio, &amp; 
+      lapida<lb ed="#R" n="125" break="no"/>tio, &amp; aliae habitudines ibi secundum rationem, ita 
+      <lb ed="#R" n="126"/>quod sint alterius rationis. Videtur quod sic, &amp; 
+      ta<lb ed="#R" n="127" break="no"/>lis est habitudo, quando suppositum, &amp; natura 
+      dis<lb ed="#R" n="128" break="no"/>ferunt realiter, sicut quando solo conceptu 
+      distin<lb ed="#R" n="129" break="no"/>guuntur. Sed quando concipio hunc, &amp; 
+      lapidei<lb ed="#R" n="130" break="no"/>tatem, &amp; hunc &amp; humanitatem, est alius, &amp; alius 
+      <lb ed="#R" n="131"/>conceptus, quia si idem esset conceptus, &amp; ita 
+      ali<lb ed="#R" n="132" break="no"/>quid eiusdem rationis, esset in diuersis, quod est 
+      fal<lb ed="#R" n="133" break="no"/>sum, quia est ibi conceptus suppositi vnus, &amp; ita 
+      <lb ed="#R" n="134"/>habitudo illa vna, &amp; sic idem esset homo, quia sequi 
+      <lb ed="#R" n="135"/>tur: iste est homo, &amp; iste est lapis: ergo lapis est 
+      ho<lb ed="#R" n="136" break="no"/>mo, vos considerate per vos.
+      </p>
+               <p xml:id="olm8ij-g11607-d1e807">
+      <!--0369.xml-->
+                  <pb ed="#R" n="367"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Circa secundum dubium: Vtrum dato, quod 
+      ver<lb ed="#R" n="2" break="no"/>bum assumeret aliam naturam humanam, esset 
+      <lb ed="#R" n="3"/>vnus homo, vel plures. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e824">
+                  <lb ed="#R" n="4"/>Dicunt quidam, quod non vnus, nec plures, &amp; 
+      <lb ed="#R" n="5"/>probant sic: Quando aliqua concurrunt ad vnum 
+      <lb ed="#R" n="6"/>tertium vno illorum plurificato, alio non 
+      plurifi<lb ed="#R" n="7" break="no"/>cato, non plurificatur illud, similiter, nec 
+      simpli<lb ed="#R" n="8" break="no"/>citer remanet vnum. Exemplum, ad vnitatem 
+      <lb ed="#R" n="9"/>nominis concurrunt significatum, &amp; vox: si ergo 
+      <lb ed="#R" n="10"/>vox plurificatur, &amp; significatum, siue res non 
+      plu<lb ed="#R" n="11" break="no"/>rificatur, est idem nomen synonimum, quomodo non 
+      <lb ed="#R" n="12"/>est vnum, nec plura. Si vero nomen, vel vox non 
+      <lb ed="#R" n="13"/>plurificetur, sed significatum, tunc nomen 
+      aequi<lb ed="#R" n="14" break="no"/>uocum, quia est nomen vnum simpliciter, sed 
+      aequi<lb ed="#R" n="15" break="no"/>uocum. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e853">
+                  <lb ed="#R" n="16"/>Nunc ad propositum, ad vnionem hominis 
+      con<lb ed="#R" n="17" break="no"/>currit suppositum, &amp; natura: ergo plurificata 
+      natu<lb ed="#R" n="18" break="no"/>ra manente eodem supposito, non est vnus homo, 
+      <lb ed="#R" n="19"/>nec plures. Reputo hanc positionem rationabilem. 
+      <lb ed="#R" n="20"/>Sed contra arguunt aliqui sic: Vnum &amp; ens conuer 
+      <lb ed="#R" n="21"/>tuntur: si ergo est ens, ergo vnum. Item 
+      contra<lb ed="#R" n="22" break="no"/>dictio est, quia est aut vnus homo, aut plures, vel 
+      <lb ed="#R" n="23"/>non vnus. Dico, quod nec hoc, nec illud absolute, 
+      <lb ed="#R" n="24"/>quia vnitas vnius tollit, quod plurificetur, 
+      plurifi<lb ed="#R" n="25" break="no"/>catio vero alterius tollit, quod sit vnum: sed dico 
+      <lb ed="#R" n="26"/>quod esset vnus personaliter, &amp; plures essentialiter. 
+      <lb ed="#R" n="27"/>Sed iste modus non placet mihi, ideo contra arguo, 
+      <lb ed="#R" n="28"/>quia si ad simplicem vnitatem requiritur identitas 
+      <lb ed="#R" n="29"/>suppositi, sequitur, quod Pater, &amp; Filius, &amp; 
+      Spiri<lb ed="#R" n="30" break="no"/>tus sanctus non sunt vnus Deus simpliciter, quare 
+      <lb ed="#R" n="31"/>cum ibi sit vnus Deus simpliciter, est pluralitas, vel 
+      <lb ed="#R" n="32"/>vnitas ex parte naturae solum; ita quod suppositum 
+      <lb ed="#R" n="33"/>nihil faciet. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e895">
+                  <lb ed="#R" n="34"/>Alij dicunt, quod esset vnus homo: sed non 
+      vide<lb ed="#R" n="35" break="no"/>tur, quia esset, vel posset esse hic, &amp; in caelo Jesus. Et 
+      <lb ed="#R" n="36"/>ratio est, quia licet suppositum sit vnum, tamen per 
+      <lb ed="#R" n="37"/>formas diuersas est ibi vnitas nominis substantiui, 
+      <lb ed="#R" n="38"/>quae videtur sumi a forma. Et ita teneo, quod sunt 
+      <lb ed="#R" n="39"/>plures, hoc, quia plurificata natura in diuinis 
+      plu<lb ed="#R" n="40" break="no"/>rificaretur Deus, &amp; non plurificata non 
+      plurifica<lb ed="#R" n="41" break="no"/>tur. Sed redde rationem. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e915">
+                  <lb ed="#R" n="42"/>Dicit quidam Doctor, quod quando est ibi 
+      for<lb ed="#R" n="43" break="no"/>maliter praedicatum, vt cum dico, Sortes est homo, 
+      <lb ed="#R" n="44"/>tunc praedicat naturam, &amp; non suppositum. Sed 
+      <lb ed="#R" n="45"/>quando natura componitur cum verbo transitiuo a 
+      <lb ed="#R" n="46"/>parte post, praedicat suppositum, &amp; stat pro 
+      suppo<lb ed="#R" n="47" break="no"/>sito, vt cum dicitur, verbum assumpsit hominem. 
+      <lb ed="#R" n="48"/>Et confirmatur dictum primum, quia terminus 
+      <lb ed="#R" n="49"/>communis in praedicato positus habet simplic em 
+      <lb ed="#R" n="50"/>suppositionem, cum ergo dico, verbum, vel lesus est 
+      <lb ed="#R" n="51"/>homo, ly homo praedicat naturam: ergo si sint 
+      natu<lb ed="#R" n="52" break="no"/>rae plures, praedicatum plurificatur respectu naturae, 
+      <lb ed="#R" n="53"/>&amp; sic plures homines. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e944">
+                  <lb ed="#R" n="54"/>Contra istum modum arguo: quando sunt duae 
+      <lb ed="#R" n="55"/>propositiones aequipollentes, si vna est vera, &amp; 
+      re<lb ed="#R" n="56" break="no"/>liqua: &amp; si vna falsa, &amp; reliqua; sed istae duae 
+      aequi<lb ed="#R" n="57" break="no"/>pollent, Sortes est homo, &amp; Sortes est humanitas; 
+      <lb ed="#R" n="58"/>sed cum dicitur, Sortes est homo, tenetur pro 
+      natu<lb ed="#R" n="59" break="no"/>ra; sed haec est falsa, Sortes est humanitas: ergo 
+      <lb ed="#R" n="60"/>etiam haec, Sortes es homo, hoc est falsum: ergo. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e962">
+                  <lb ed="#R" n="61"/>Item, quando dico, Sortes est homo, significat, 
+      <lb ed="#R" n="62"/>quod Sortes est habens humanitatem: sed hoc 
+      di<lb ed="#R" n="63" break="no"/>cit suppositum: ergo. Et quando dicis, quod, hic 
+      <lb ed="#R" n="64"/>Sortes est homo, habet suppositionem simplicem, 
+      <lb ed="#R" n="65"/>&amp; non personalem; dico quod si intelligis, quod non 
+      <lb ed="#R" n="66"/>pro supposito indeterminato, falsum est: sed verum 
+      <lb ed="#R" n="67"/>est pro supposito determinato, vnde simplex 
+      sup<lb ed="#R" n="68" break="no"/>positio non excludit suppositum indeterminatum, 
+      <!--0369.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>sed determinatum; ideo non tenetur pro natura, 
+      <lb ed="#R" n="70"/>sed pro habente. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e992">
+                  <lb ed="#R" n="71"/>Item; alii dicunt, quod adiectiuum numeratur 
+      <lb ed="#R" n="72"/>ad numerationem suppositi: dicit enim aliquid 
+      in<lb ed="#R" n="73" break="no"/>determinatum, ideo terminatur a supposito, &amp; 
+      de<lb ed="#R" n="74" break="no"/>pendet ab eo; sed nomen substantiuum dicit quid 
+      <lb ed="#R" n="75"/>determinatum: ideo sua numeratio sumitur ab 
+      in<lb ed="#R" n="76" break="no"/>trinseco; intrinsecum autem sui est forma, ideo 
+      su<lb ed="#R" n="77" break="no"/>mitur numeratio eius a numeratione formae, &amp; 
+      <lb ed="#R" n="78"/>ideo cum sint ibi plures formae, erunt ibi plures 
+      ho<lb ed="#R" n="79" break="no"/>mines. Ista positio est vera, vsque ad illum 
+      lo<lb ed="#R" n="80" break="no"/>cum, numeratur ab intrinseco: sed cum dicit 
+      vl<lb ed="#R" n="81" break="no"/>tra: ergo a forma, vel natura, est fallacia 
+      consequen<lb ed="#R" n="82" break="no"/>tis, quia conceptus suppositi est intrinsecus, imo 
+      <lb ed="#R" n="83"/>primum in significato nominis, quod cadit in recto, 
+      <lb ed="#R" n="84"/>vnde homo significat suppositum habens 
+      humani<lb ed="#R" n="85" break="no"/>tatem, non humanitatem in homine, vt dictum fuit 
+      <lb ed="#R" n="86"/>in prima quaestione. Et ex hoc arguo. 
+      Plurifica<lb ed="#R" n="87" break="no"/>tio nominis ab eo debet sumi, quod principalius 
+      <lb ed="#R" n="88"/>importatur in re; sed ex hoc statim sequitur, quod 
+      <lb ed="#R" n="89"/>Pater, &amp; Filius, &amp; Spiritus sanctus sint plures Dii, 
+      <lb ed="#R" n="90"/>quia supposita sunt plura: quare dico, quod 
+      pluri<lb ed="#R" n="91" break="no"/>ficatio fit non per suppositum; dico tamen, quod 
+      <lb ed="#R" n="92"/>nulla ratio est de illis, quae dictae sunt; nec ratio 
+      il<lb ed="#R" n="93" break="no"/>la, qua dicis, quod ab intrinseco est: ergo a natura, 
+      <lb ed="#R" n="94"/>nisi hoc probes. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e1047">
+                  <lb ed="#R" n="95"/>Dico ergo, quod ratio plurificationis est aliquod 
+      <lb ed="#R" n="96"/>intrinsecum, vel ab intrinseco, &amp; plus a natura 
+      <lb ed="#R" n="97"/>quam a supposito, probo, quia cum dico plures 
+      ho<lb ed="#R" n="98" break="no"/>mines, tunc potest accipi, vel plures homines, idest, 
+      <lb ed="#R" n="99"/>plures habentes humanitatem, vel habens plures 
+      <lb ed="#R" n="100"/>humanitates: non primo modo, quia Pater, &amp; 
+      Fi<lb ed="#R" n="101" break="no"/>lius, &amp; Spiritus sanctus essent plures Dii; sed non 
+      <lb ed="#R" n="102"/>sunt tamen plures Deus, idest, plures habentes 
+      dei<lb ed="#R" n="103" break="no"/>tatem, non quod ex parte naturae fiat plurificatio, 
+      <lb ed="#R" n="104"/>vnde contingit pronomen pro substantiuo 
+      signifi<lb ed="#R" n="105" break="no"/>care naturam semper: ergo natura plurisicata per 
+      <lb ed="#R" n="106"/>substantiuum, vel praedicatiuum; non autem 
+      suppo<lb ed="#R" n="107" break="no"/>sito plurificato a natura, sicut dicitur: Nos Rex 
+      vo<lb ed="#R" n="108" break="no"/>lumus, sic hic non est plurificatio naturae, quamuis 
+      <lb ed="#R" n="109"/>per significationem, &amp; vocem videatur plurificari 
+      <lb ed="#R" n="110"/>suppositum. Nec etiam secnndo modo 
+      intelligi<lb ed="#R" n="111" break="no"/>tur, vt scilicet, quod supposita plurificentur, &amp; 
+      na<lb ed="#R" n="112" break="no"/>tura non, cum dicitur plures habentes 
+      humanita<lb ed="#R" n="113" break="no"/>tem: sed tertio modo intelligitur, scilicet, quod 
+      na<lb ed="#R" n="114" break="no"/>tura plurificatur, &amp; suppositum non plurificatur, &amp; 
+      <lb ed="#R" n="115"/>non e conuerso: Vnde accidit, quod suppositum plu 
+      <lb ed="#R" n="116"/>rificetur ad plurisicationem naturarum, sed hoc est 
+      <lb ed="#R" n="117"/>solum ratione materiae. 
+  </p>
+               <p xml:id="olm8ij-g11607-d1e1099">
+                  <lb ed="#R" n="118"/>Ad argumenta dico, quod principalius est in 
+      ho<lb ed="#R" n="119" break="no"/>mine qualitas quam substantia, &amp; sic principalius 
+      <lb ed="#R" n="120"/>natura quam suppositum, nomen autem vertitur a no 
+      <lb ed="#R" n="121"/>tando, notificatio autem vniuscuiuscunque fit a 
+      qua<lb ed="#R" n="122" break="no"/>litate: ergo nomina principaliter significant 
+      quali<lb ed="#R" n="123" break="no"/>tatem, eo tamen modo, quo est apta nata concipi. 
+      <lb ed="#R" n="124"/>Secundario autem nomen significat suppositum 
+      <lb ed="#R" n="125"/>etiam, vt aptum natum est concipi, quia natura 
+      <lb ed="#R" n="126"/>concipitur, vt huius, suppositum autem, vt hoc: 
+      <lb ed="#R" n="127"/>ideo vnum significatur in obliquo, aliud in recto, 
+      <lb ed="#R" n="128"/>vnde principalitas impositionis nominis est a natu 
+      <lb ed="#R" n="129"/>ra: sed modus est ibi per accidens, ideo accidentia 
+      <lb ed="#R" n="130"/>nominis sumuntur a qualitate, &amp; natura, vt species 
+      <lb ed="#R" n="131"/>&amp; numerus. Similiter nomen est tertiae personae, 
+      <lb ed="#R" n="132"/>vel nullius, quia significat principaliter naturam, 
+      <lb ed="#R" n="133"/>quae semper est tertiae personae. 
+  </p>
+               <p xml:id="olm8ij-g11607-d1e1136">
+                  <lb ed="#R" n="134"/>Pronomen autem, quod principaliter significat 
+      <lb ed="#R" n="135"/>suppositum: Jdeo potest esse primae personae, vel 
+      se<lb ed="#R" n="136" break="no"/>cundae, quia licet suppositum significetur in nomi- 
+      <!--0370.xml-->
+      <pb ed="#R" n="368"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>ne, tamen quia principaliter significatur, &amp; 
+      impli<lb ed="#R" n="2" break="no"/>catur natura, accidentia sunt sumenda in nomine 
+      <lb ed="#R" n="3"/>substantiuo per respectum ad naturam: ergo 
+      nu<lb ed="#R" n="4" break="no"/>merus pluralis, vel singularis sumitur, &amp; est 
+      ratio<lb ed="#R" n="5" break="no"/>ne naturae vnius, vel plurium, &amp; ex hoc patet, quod 
+      <lb ed="#R" n="6"/>Pater, &amp; Filius, &amp; Spiritus sanctus sunt vnus Deus, 
+      <lb ed="#R" n="7"/>&amp; sic Verbum suisset plures homines, si assumpsisset
+      <lb ed="#R" n="8"/>plures humanitates. 
+    </p>
+               <p xml:id="olm8ij-g11607-d1e1169">
+                  <lb ed="#R" n="9"/>Circa tertium dubium, quae praedicata dicuntur 
+      <lb ed="#R" n="10"/>singulariter, &amp; quae pluraliter, ponunt Doctores 
+      <lb ed="#R" n="11"/>vnam regulam, quod quando plurificatur 
+      supposi<lb ed="#R" n="12" break="no"/>tum manente natura sua, omnia, quae se tenent ex 
+      <lb ed="#R" n="13"/>parte suppositi, plurificantur, quae vero a parte 
+      na<lb ed="#R" n="14" break="no"/>turae, non plurificantur, vt dicimus in diuinis, quod 
+      <lb ed="#R" n="15"/>bene diceretur, nos facimus, quia actio est 
+      supposi<lb ed="#R" n="16" break="no"/>torum: sic e conuerso, quando manet suppositum, 
+      <lb ed="#R" n="17"/>&amp; plurificatur natura, pertinentia ad naturam 
+      plu<lb ed="#R" n="18" break="no"/>rificantur, non autem pertinentia ad suppositum. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e1193">
+                  <lb ed="#R" n="19"/>Ad argumenta principalia dicendum. Ad primum 
+      <lb ed="#R" n="20"/>de formis non est simile, quia illa inexistentia 
+      for<lb ed="#R" n="21" break="no"/>marum non est relatio, sed ipsamet formae i sed hic 
+      <lb ed="#R" n="22"/>sunt diuersae habitudines, 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e1205">
+                  <lb ed="#R" n="23"/>Ad aliud de materia dico, quod potentia vna 
+      <lb ed="#R" n="24"/>numero est respectu omnium formarum e iusdem 
+      <lb ed="#R" n="25"/>rationis, &amp; tota euacuatur, sed in verbo nihil ponit 
+      <lb ed="#R" n="26"/>nisi denominationem, nec illa euacuatur, quia idem 
+      <lb ed="#R" n="27"/>terminus potest terminare plura. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e1218">
+                  <lb ed="#R" n="28"/>Ad alias rationes dico, quod per identitatem est 
+      <lb ed="#R" n="29"/>impossibile, hoc est, quod idem suppositum esset 
+      <lb ed="#R" n="30"/>idem vtrique naturae, aliter non. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e1227">
+                  <lb ed="#R" n="31"/>Ad aliud de Commentatore dico, quod aliud est 
+      <lb ed="#R" n="32"/>hic, &amp; ibi, quia ibi est vnum hic, sed hic non, &amp; haec 
+      <lb ed="#R" n="33"/>sufficiunt. 
+      </p>
+            </div>
+            <div xml:id="olm8ij-g11607-Dd1e1237">
+               <head xml:id="olm8ij-g11607-Hd1e1239">Articulus 2</head>
+               <head xml:id="olm8ij-g11607-Hd1e1241" type="question-title">
+        Utrum vnio hypostatica eiusdem naturae possit 
+        simul ad plura diuina supposita terminari
+      </head>
+               <p xml:id="olm8ij-g11607-d1e1244">
+                  <lb ed="#R" n="34"/>ARTJCVLVS JJ. 
+      <lb ed="#R" n="35"/>Vtrum vnio hypostatica eiusdem naturae possit 
+      si<lb ed="#R" n="36" break="no"/>mul ad plura diuina supposita terminari. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e1253">
+                  <lb ed="#R" n="37"/>QVaeritur: Vtrum vnio hypostatica eiusdem 
+      na<lb ed="#R" n="38" break="no"/>turae: possit simul ad plura diuina supposita 
+      <lb ed="#R" n="39"/>terminari, Quod non, quia illud est impossibile, 
+      <lb ed="#R" n="40"/>ex quo sequitur positio propositionum 
+      impossibi<lb ed="#R" n="41" break="no"/>lium: sed si vna non posset vniri pluribus suppositis. 
+      <lb ed="#R" n="42"/>sequitur positio propositionum impossibilium, vel 
+      <lb ed="#R" n="43"/>veritas talium, vt scilicet, quod Filius Dei generet 
+      <lb ed="#R" n="44"/>Filium Dei, &amp; quod Filius esset Filius, &amp; Pater. 
+      Po<lb ed="#R" n="45" break="no"/>sito enim, quod Pater, &amp; Filius assumant eandem 
+      <lb ed="#R" n="46"/>naturam humanam, circa vtrumque esset Deus. Item 
+      <lb ed="#R" n="47"/>hic non est Filius Dei, &amp; hic est Filius Dei, quia 
+      <lb ed="#R" n="48"/>haec est vera, hic est Deus Pater, &amp; similiter, hic 
+      <lb ed="#R" n="49"/>Deus est Filius Dei. Item, homine demonstrato, 
+      <lb ed="#R" n="50"/>haec est vera, hic homo genuit Filium Dei: ergo. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e1286">
+                  <lb ed="#R" n="51"/>Item: impossibile est eandem formam vniri 
+      tri<lb ed="#R" n="52" break="no"/>bus materijs, vel subiectis dando eis esse: ergo 
+      pa<lb ed="#R" n="53" break="no"/>ri ratione impossibile est eandem naturam vniri 
+      <lb ed="#R" n="54"/>tribus suppositis quiddificando ea. Maior est 
+      ma<lb ed="#R" n="55" break="no"/>nifesta, quia impossibile est, quod haec albedo sit 
+      <lb ed="#R" n="56"/>hic, &amp; ibi dando ijs esse, similiter in materia, 
+      <lb ed="#R" n="57"/>quia qua ratione hic &amp; ibi, eadem ratione vbique. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e1305">
+                  <lb ed="#R" n="58"/>Item: impossibile est easdem formas absolutas 
+      <lb ed="#R" n="59"/>plures eiusdem rationis esse in eodem subiecto: 
+      er<lb ed="#R" n="60" break="no"/>go impossibile est &amp; naturas, vel habitudines 
+      eius<lb ed="#R" n="61" break="no"/>dem rationis esse in eodem extremo. Probo 
+      maio<lb ed="#R" n="62" break="no"/>rem, quia tunc plures relationes eiusdem rationis 
+      <lb ed="#R" n="63"/>essent in eodem subiecto, quod est falsum. Probatio 
+      <lb ed="#R" n="64"/>consequentiae, quia maiorem identitatem habet 
+      rela<lb ed="#R" n="65" break="no"/>tio cum fundamento, quam forma accidentalis cum 
+      <!--0370.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="66"/>subiecto: ergo magis est impossibile esse simul 
+      in<lb ed="#R" n="67" break="no"/>eodem plures formas absolutas, quia minus 
+      depen<lb ed="#R" n="68" break="no"/>dent quam relationes. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e1336">
+                  <lb ed="#R" n="69"/>Item: impossibile est potentiam alicuius 
+      possi<lb ed="#R" n="70" break="no"/>bilis plene terminatam per vnius vnionem ad aliud 
+      <lb ed="#R" n="71"/>vel per aliud terminari: sed capacitas tota naturae 
+      <lb ed="#R" n="72"/>humanae per vnionem vnius suppositi terminatur 
+      <lb ed="#R" n="73"/>subtiliter &amp; perfecte, quia tale suppositum est 
+      infi<lb ed="#R" n="74" break="no"/>nitum: ergo impossibile est, quod per aliud 
+      termi<lb ed="#R" n="75" break="no"/>netur. Maior patet de materia coeli, cuius 
+      capa<lb ed="#R" n="76" break="no"/>citas est totaliter terminata per formam caeli, &amp; 
+      <lb ed="#R" n="77"/>ideo non est in potentia ad alias formas. Minor 
+      <lb ed="#R" n="78"/>patet, quia suppositum diuinum est infinitum: &amp; 
+      <lb ed="#R" n="79"/>ideo terminat totam capacitatem, &amp; potentiam 
+      <lb ed="#R" n="80"/>vnionis naturae humanae. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e1365">
+                  <lb ed="#R" n="81"/>Item: si haec habitudo esset ad tria supposita, 
+      quae<lb ed="#R" n="82" break="no"/>ro, an diceretur vnum esse, an plura; non vnum quia 
+      <lb ed="#R" n="83"/>essent tres vniones, nec plura quia non essent nisi vna 
+      <lb ed="#R" n="84"/>natura humana, &amp; vnum (in quantum vnum) non 
+      <lb ed="#R" n="85"/>dat nisi vnum: ergo. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e1378">
+                  <lb ed="#R" n="86"/>Item: hoc dicit Anselm. lib. cur Deus homo, 
+      <lb ed="#R" n="87"/>&amp; de conceptu Virginali, quod non potest. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e1385">
+                  <lb ed="#R" n="88"/>Contra: ratio quorundam est talis, posito, quod 
+      <lb ed="#R" n="89"/>plura supposita agant ad vnionem naturae, tunc 
+      il<lb ed="#R" n="90" break="no"/>la natura, aut vnitur nulli, aut vni, aut tribus: non 
+      <lb ed="#R" n="91"/>potest dici, quod nulli, quia cum tres pesonae agant 
+      <lb ed="#R" n="92"/>per omnipotentiam, sequeretur, quod earum actio 
+      <lb ed="#R" n="93"/>esse otiosa: ergo non potest frustrari earum effectus. 
+      <lb ed="#R" n="94"/>Nec potest dici, quod vni, quia eadem ratione qua 
+      <lb ed="#R" n="95"/>vni, &amp; pluribus: ergo tertium dabitur, quare 
+      tri<lb ed="#R" n="96" break="no"/>bus potest vniri. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e1407">
+                  <lb ed="#R" n="97"/>Respondeo ad quaestionem, &amp; vt melius pateat: 
+      <lb ed="#R" n="98"/>primo pono modos aliorum. Secundo dicam, quod 
+      <lb ed="#R" n="99"/>mihi videtur, primo ergo pono modos aliorum. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e1417">
+                  <lb ed="#R" n="100"/>Primus modus est talis, qui est solemnis 
+      Docto<lb ed="#R" n="101" break="no"/>ris, qui dicit, quod cum quaeritur: Vtrum vna natura 
+      <lb ed="#R" n="102"/>possit assumi a pluribus suppositis, contingit 
+      du<lb ed="#R" n="103" break="no"/>pliciter intelligi, vno modo, quod primus 
+      termi<lb ed="#R" n="104" break="no"/>nus formalis sit natura diuina, alio modo ipsa 
+      sup<lb ed="#R" n="105" break="no"/>posita; sicut hodie de facto est verbum. Si autem 
+      <lb ed="#R" n="106"/>primo modo intelligas, dico, quod vna natura 
+      po<lb ed="#R" n="107" break="no"/>test assumi a tribus suppositis, &amp; ratio es, quia non 
+      <lb ed="#R" n="108"/>plurificato fundamento, quantumcunque alia 
+      plu<lb ed="#R" n="109" break="no"/>rificentur, fundamentum potest esse in pluribus, &amp; 
+      <lb ed="#R" n="110"/>si superficies vna esset in subiectis, vna albedo 
+      pos<lb ed="#R" n="111" break="no"/>set esse in eis: sed diuina essentia est inplurificata in 
+      <lb ed="#R" n="112"/>pluribus suppositis: ergo quicquid sibi conuenit 
+      po<lb ed="#R" n="113" break="no"/>terit esse implurificatum in tribus: ergo, sicut 
+      ea<lb ed="#R" n="114" break="no"/>dem essentia in tribus suppositis est implurificata: 
+      <lb ed="#R" n="115"/>sic natura humana poterit esse in pluribus, &amp; hoc 
+      <lb ed="#R" n="116"/>ideo quia suppositum, quod essentia diuina sit 
+      pri<lb ed="#R" n="117" break="no"/>uatiuum fundamentum naturae humanae: &amp; quod 
+      <lb ed="#R" n="118"/>hoc sit possibile, declaratur sic, quia ratio formalis 
+      <lb ed="#R" n="119"/>terminans naturam, vel talem vnionem est 
+      subsi<lb ed="#R" n="120" break="no"/>stentia, vel esse singulare, vnde essentia antequam 
+      <lb ed="#R" n="121"/>intelligatur esse in his suppositis, est subsistens, &amp; 
+      sin<lb ed="#R" n="122" break="no"/>gularis: ergo. Nec obstat, si habet 
+      incommunica<lb ed="#R" n="123" break="no"/>bilitatem ex proprietate: proprietas enim non est 
+      <lb ed="#R" n="124"/>ratio praecisa, quod sit singularis. Imo de se est 
+      hu<lb ed="#R" n="125" break="no"/>iusmodi. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e1476">
+                  <lb ed="#R" n="126"/>Si vero quaestio intelligatur secundo modo, vt 
+      sci<lb ed="#R" n="127" break="no"/>licet, quod vna natura terminetur ad tria 
+      supposi<lb ed="#R" n="128" break="no"/>ta, quorum quodlibet habeat rationem 
+      terminan<lb ed="#R" n="129" break="no"/>di, hoc est impossibile. Quod sic probatur: 
+      Quan<lb ed="#R" n="130" break="no"/>do aliquid de se est essentialiter dependens, si per 
+      <lb ed="#R" n="131"/>aliquem terminum terminetur eius dependentia, 
+      <lb ed="#R" n="132"/>impossibile est eandem dependentiam per alium 
+      <lb ed="#R" n="133"/>terminum terminari: Exemplum vero sit, C, effectus, 
+      <!--0371.xml-->
+      <pb ed="#R" n="369"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>&amp; ponatur totaliter dependere a. B. Item ponatur 
+      <lb ed="#R" n="2"/>totaliter dependere ab A, est statim contradictio, 
+      <lb ed="#R" n="3"/>ponatur enim A, non posito B, effectus qui est C, erit 
+      <lb ed="#R" n="4"/>rotaliter positus in esse, sit totalis causa, &amp; A, ponens 
+      <lb ed="#R" n="5"/>b, posito quod D, non determinat, adhuc terminabi 
+      <lb ed="#R" n="6"/>tur ab A, &amp; ita impossibile est totaliter ipsum poni, 
+      <lb ed="#R" n="7"/>tunc enim sequeretur, quod aliquid ponatur in essse 
+      <lb ed="#R" n="8"/>sine eo, a quo dependet totaliter. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e1520">
+                  <lb ed="#R" n="9"/>Item posito b. effectus qui est c, ponetur inesse 
+      <lb ed="#R" n="10"/>totaliter, &amp; tunc uel primo non erat positum inesse 
+      <lb ed="#R" n="11"/>totaliter, uel idem bis fiet, quae omnia sunt 
+      impossi<lb ed="#R" n="12" break="no"/>bilia, sicut patet manifeste: sed natura dependet 
+      to<lb ed="#R" n="13" break="no"/>taliter ad vnum suppositum: ergo non ad aliud: 
+      er<lb ed="#R" n="14" break="no"/>go non ad tria. Haec opinio etiam includit quaedam 
+      <lb ed="#R" n="15"/>sibi non consona. Dicit enim tria, primo, quod 
+      es<lb ed="#R" n="16" break="no"/>sentia diuina potest esse formalis terminus. 
+      Secun<lb ed="#R" n="17" break="no"/>do dicit, quod essentia est subsistens in se antequam 
+      <lb ed="#R" n="18"/>intelligatur sub proprietate. Tertio, quod illa 
+      in<lb ed="#R" n="19" break="no"/>communicabilitas, uel proprietas non necessario 
+      <lb ed="#R" n="20"/>est exacta ad hoc, ut essentia habeat rationem 
+      ter<lb ed="#R" n="21" break="no"/>mini. 
+  </p>
+               <p xml:id="olm8ij-g11607-d1e1551">
+                  <lb ed="#R" n="22"/>Primum non capio, scilicet, quod diuina essentia 
+      <lb ed="#R" n="23"/>sit terminus huius habitudinis quidditatiuae, &amp; 
+      ar<lb ed="#R" n="24" break="no"/>guo sic contra: Vnio quidditatiua non potest termi 
+      <lb ed="#R" n="25"/>nari ad suppositum, quia essentia non quiddificat es 
+      <lb ed="#R" n="26"/>sentiam, vel natura naturam, sed suppositum: sed 
+      es<lb ed="#R" n="27" break="no"/>sentia diuina non est suppositum: ergo. Maior 
+      pa<lb ed="#R" n="28" break="no"/>ret secundum ipsum, qui dicit, quod terminatur ad 
+      <lb ed="#R" n="29"/>hypostasim, refertur ad quemlibet, sed 
+      determina<lb ed="#R" n="30" break="no"/>tum ad determinatum sibi proprium, vnde quia 
+      re<lb ed="#R" n="31" break="no"/>latiua determinant sibi terminos, ideo quidditas 
+      <lb ed="#R" n="32"/>quaero respectu cuius dicitur? Dico, quod respectu 
+      <lb ed="#R" n="33"/>habentis quidditatem, sed hoc est suppositum non 
+      <lb ed="#R" n="34"/>esse. Minor patet, quia alias essent quatuor supposi 
+      <lb ed="#R" n="35"/>ta, &amp; quatuor personae, si essentia esset suppositum, 
+      <lb ed="#R" n="36"/>quod est absurdum. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e1586">
+                  <lb ed="#R" n="37"/>Item: omnis vnio terminatur ad vnitatem, aut 
+      er<lb ed="#R" n="38" break="no"/>go ad vnitatem naturae, &amp; hoc est falsum, quia 
+      na<lb ed="#R" n="39" break="no"/>tura est incompossibilis, nec ex duabus naturis 
+      re<lb ed="#R" n="40" break="no"/>sultat aliquid: aut ad vnitatem suppositi, &amp; tunc 
+      <lb ed="#R" n="41"/>quaero, vel terminabitur ad suppositum praeiacens, 
+      <lb ed="#R" n="42"/>uel ad suppositum resultans, sed diuina essentia non 
+      <lb ed="#R" n="43"/>est suppositum praeiacens, nec resultans. Primum non, 
+      <lb ed="#R" n="44"/>quia de se non est suppositum; nec secundum, quia 
+      <lb ed="#R" n="45"/>ex tali vnione non resultat tertium. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e1608">
+                  <lb ed="#R" n="46"/>Contra secundum arguo, scilicet, quod essentia 
+      <lb ed="#R" n="47"/>diuina non est aliquod subsistens, sic: Essentia diuina 
+      <lb ed="#R" n="48"/>non est suppositum: ergo non est subsistens. Item: ni 
+      <lb ed="#R" n="49"/>hil subsistit, nisi habeat esse subsistentiae per se, quia 
+      <lb ed="#R" n="50"/>ibi multiplicatur esse subsistentiae, licet non esse 
+      es<lb ed="#R" n="51" break="no"/>sentiae, vel existentiae. Et si dicas, quod diuina 
+      essen<lb ed="#R" n="52" break="no"/>tia est per se subsistens. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e1627">
+                  <lb ed="#R" n="53"/>Contra, sequitur quod relatio formaliter non cō- 
+      <lb ed="#R" n="54"/>stituat suppositum. Dices, quod subsistere est 
+      duo<lb ed="#R" n="55" break="no"/>bus modis, vno modo, quod subsistens dicat, &amp; sit 
+      <lb ed="#R" n="56"/>aliquid praecisum, &amp; aliquid hoc, vt anima 
+      rationa<lb ed="#R" n="57" break="no"/>lis: alio modo, quod vltra praecisum dicat aliquid 
+      <lb ed="#R" n="58"/>independens, &amp; incommunicabile, de primo modo, 
+      <lb ed="#R" n="59"/>sicut dictum est de anima rationali, quae differt ab 
+      <lb ed="#R" n="60"/>alijs formis in hoc, quod solum aliae sunt purae infor 
+      <lb ed="#R" n="61"/>mationes: ergo anima de se dicit quid, &amp; 
+      commu<lb ed="#R" n="62" break="no"/>nicatur modo partis: ergo subsistere tale non 
+      suffi<lb ed="#R" n="63" break="no"/>cit, vt suppositum sit, sed requiritur aliquid aliud, 
+      <lb ed="#R" n="64"/>scilicet, quod sit independens, &amp; incommunicabile. 
+      <lb ed="#R" n="65"/>Modo ad propositum, essentia diuina est res singula 
+      <lb ed="#R" n="66"/>ris, &amp; praecisum, &amp; subsistens, licet non sit 
+      supposi<lb ed="#R" n="67" break="no"/>tum, quia non est independens, &amp; 
+      incommunica<lb ed="#R" n="68" break="no"/>bilis de se: sed relatio dat incommunicabilitatem 
+      <!--0371.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>de se, &amp; per consequens dat esse suppositum, non ta 
+      <lb ed="#R" n="70"/>men de se hoc, vel subsistens: ergo. Nunc ad 
+      ratio<lb ed="#R" n="71" break="no"/>nem realem, vel formalem termini habitudinis 
+      <lb ed="#R" n="72"/>quidditatiuae sufficit esse hoc, licet non sit 
+      indepen<lb ed="#R" n="73" break="no"/>dens, &amp; incommunicabile. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e1679">
+                  <lb ed="#R" n="74"/>Hic sunt duo dubia. Primum quod essentia 
+      diui<lb ed="#R" n="75" break="no"/>na sit aliquod hoc praecisum a personis, etsi sub 
+      per<lb ed="#R" n="76" break="no"/>sonis. Secundum dato, quod hoc esset, non haberet 
+      <lb ed="#R" n="77"/>rationem terminandi. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e1690">
+                  <lb ed="#R" n="78"/>Primum non capio, arguo contra: 
+      Jmpossibile<lb ed="#R" n="79" break="no"/>est formas aduenientes naturae, quod distinguant 
+      <lb ed="#R" n="80"/>illud, quod procedit, in illo in quo conueniunt, 
+      <lb ed="#R" n="81"/>verbi gratia, vt, si albedo adueniat ma nui, &amp; post 
+      <lb ed="#R" n="82"/>nigredo, non constituunt duas manus, si: ergo 
+      <lb ed="#R" n="83"/>essentia diuina tribus personis est hoc aliquid: 
+      er<lb ed="#R" n="84" break="no"/>go non intelligo, quod aduenientes proprietates 
+      <lb ed="#R" n="85"/>constituent tria supposita, quod est falsum: ergo 
+      <lb ed="#R" n="86"/>non est ibi praecisum suppositum. Et hoc 
+      confir<lb ed="#R" n="87" break="no"/>matur per Aristotelem 6. metaph. tex. 4. qui dicit, 
+      <lb ed="#R" n="88"/>accidens non facere vnum hoc cum subiecto, quia 
+      su<lb ed="#R" n="89" break="no"/>biectum ante aduentum accidentis est iam hoc 
+      ali<lb ed="#R" n="90" break="no"/>quid. Sic in proposito, forte dices, quod relatio dat 
+      <lb ed="#R" n="91"/>essentiae inconuertibilitatem. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e1723">
+                  <lb ed="#R" n="92"/>Contra: nulla forma dat indistinctionem nisi sui ge 
+      <lb ed="#R" n="93"/>neris, sed alterius generis non, vt albedo facit hoc 
+      <lb ed="#R" n="94"/>quale, nigredo facit aliud quale: sed esse suppositum 
+      <lb ed="#R" n="95"/>est quaedam incommunicabilitas, quae dicitur ad se: 
+      <lb ed="#R" n="96"/>ergo si ponas tres relationes, non dabunt esse hoc 
+      <lb ed="#R" n="97"/>subsistentiae, cum non sint eiusdem generis cum 
+      <lb ed="#R" n="98"/>subsistentia, quare non dabunt 
+      incommunicabili<lb ed="#R" n="99" break="no"/>tatem subsistentiae, sed capio per suppositum aliquod 
+      <lb ed="#R" n="100"/>hoc praecisum in mente tua: ergo imaginor, quod 
+      <lb ed="#R" n="101"/>essentia diuina non est capabilis de se, sed 
+      adue<lb ed="#R" n="102" break="no"/>niente proprietate vna capio essentiam cum illa 
+      <lb ed="#R" n="103"/>proprietate, vt hoc, adueniente alia capio aliud ad 
+      <lb ed="#R" n="104"/>hoc, &amp; alia aliud, &amp; ita totum est aliquod hoc, &amp; 
+      <lb ed="#R" n="105"/>illa sic concepta sunt vnum, quia in quolibet est 
+      es<lb ed="#R" n="106" break="no"/>sentia, quia non dicit conceptum praecisum, sed 
+      <lb ed="#R" n="107"/>relatione adueniente fit praecisus: sic ergo essentia 
+      <lb ed="#R" n="108"/>de se non dicebat hoc, vt dicebat opinio. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e1762">
+                  <lb ed="#R" n="109"/>Secundum est dubium, quod dicit, quod ad 
+      ra<lb ed="#R" n="110" break="no"/>tionem terminandi sufficit esse hoc. Contra: habitus 
+      <lb ed="#R" n="111"/>vniuntur animae, vt subiecto, &amp; tamen anima non 
+      <lb ed="#R" n="112"/>intelligit, sed suppositum, sic in proposito. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e1773">
+                  <lb ed="#R" n="113"/>Contra tertium, quod dicit, quod 
+      incommuni<lb ed="#R" n="114" break="no"/>cabilitas non exigitur ad rationem terminationis 
+      <lb ed="#R" n="115"/>istius. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e1783">
+                  <lb ed="#R" n="116"/>Contra: Dixi enim alias, quod nihil terminatur 
+      <lb ed="#R" n="117"/>nisi ad incommunicabile, tunc sic, si nihil 
+      termi<lb ed="#R" n="118" break="no"/>natur nisi ad incommunicabile cum essentia 
+      diui<lb ed="#R" n="119" break="no"/>na non sit incommunicabilis: ergo ad eam nihil 
+      <lb ed="#R" n="120"/>potest terminari, sed ad proprietatem, &amp; ideo 
+      to<lb ed="#R" n="121" break="no"/>ta ratio est, quia est vnio quidditatiua, sed natura 
+      <lb ed="#R" n="122"/>non est quid definibile, sed suppositum. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e1801">
+                  <lb ed="#R" n="123"/>De secundo processu opinionis, quae ponit 
+      na<lb ed="#R" n="124" break="no"/>turam dependere, non reputo verum, scilicet, quod 
+      <lb ed="#R" n="125"/>impossibile est naturam ad tria supposita dependere. 
+      <lb ed="#R" n="126"/>Dico, quod illa vnio non est dependentia, quia illud 
+      <lb ed="#R" n="127"/>non dependet quo non determinante termino, illud 
+      <lb ed="#R" n="128"/>non exigitur, sed non terminante diuina propter 
+      <lb ed="#R" n="129"/>humanam naturam humanitas quantum ad omnia 
+      <lb ed="#R" n="130"/>ita esset, sicut nunc: ergo, vnde aliqua sunt alicuius. 
+      <lb ed="#R" n="131"/>Item, huius depentia est egere alio: ergo cum 
+      na<lb ed="#R" n="132" break="no"/>tura humana non egeat supposito diuino, quod pos 
+      <lb ed="#R" n="133"/>set stare sine, ergo: vnde aliqua sunt alicuius, &amp; 
+      ta<lb ed="#R" n="134" break="no"/>men non dependent ab eo: sicut hic. Contra ergo 
+      <lb ed="#R" n="135"/>alium modum dicendi oppositum, quod vna, &amp; 
+      <lb ed="#R" n="136"/>eadem natura a tribus suppositis possit assumi, &amp; 
+      <!--0372.xml-->
+      <pb ed="#R" n="370"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>ratio est quia secundum Augustinum de 
+      mirabili<lb ed="#R" n="2" break="no"/>bus sacrae Scripturae tota ratio faciendi in rebus mi 
+      <lb ed="#R" n="3"/>rabilibus est potentia facientis: sed haec est de rebus 
+      <lb ed="#R" n="4"/>mirabilibus, &amp; etiam excedit limites naturae: ergo 
+      <lb ed="#R" n="5"/>tota ratio assumptionis istius debet esse ex potentia 
+      <lb ed="#R" n="6"/>assumentis: si ergo Pater non potest assumere 
+      na<lb ed="#R" n="7" break="no"/>turam, quam Filius assumpsit sequitur, quod Pater 
+      <lb ed="#R" n="8"/>non sit omnipotens, quod est falsum. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e1858">
+                  <lb ed="#R" n="9"/>Ista ratio non valet, quia non est repugnantia 
+      so<lb ed="#R" n="10" break="no"/>lum a parte agentis: sed etiam ex parte patientis, 
+      <lb ed="#R" n="11"/>quod sit in se factibilis; non enim sufficit potentia 
+      <lb ed="#R" n="12"/>facientis, nisi natura sit in non repugnantia, 
+      quam<lb ed="#R" n="13" break="no"/>quam non oportet, quod sit in potentia naturali, quae 
+      <lb ed="#R" n="14"/>conferat vim passo: ergo ista ratio non sufficienter 
+      <lb ed="#R" n="15"/>euacuat propositum, nisi ostendat non 
+      repugnan<lb ed="#R" n="16" break="no"/>tiam ex parte naturae non suscipientis actionem a 
+      <lb ed="#R" n="17"/>personis. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e1880">
+                  <lb ed="#R" n="18"/>Vltimo pono, quod videtur, &amp; teneo cum 
+      opi<lb ed="#R" n="19" break="no"/>nione vltima, scilicet, quod vna, &amp; eadem natura 
+      <lb ed="#R" n="20"/>sit assumptibilis a tribus suppositis, nec est 
+      repu<lb ed="#R" n="21" break="no"/>gnantia aliqua, &amp; probo, quod non repugnat, quia 
+      <lb ed="#R" n="22"/>si sit repugnantia, aut est ex parte naturae, vel ex 
+      <lb ed="#R" n="23"/>parte suppositorum, vel ex parte habitudinum, 
+      <lb ed="#R" n="24"/>quod non possunt esse simul: sed nullo modo 
+      isto<lb ed="#R" n="25" break="no"/>rum dictorum repugnat: ergo. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e1900">
+                  <lb ed="#R" n="26"/>Primo non repugnat naturae, eo quod poneretur 
+      <lb ed="#R" n="27"/>infinitas, &amp; hoc non, quia quod non dicit perfe. 
+      <lb ed="#R" n="28"/>ctionem simpliciter, nec infinitatem, nec repugnat, 
+      <lb ed="#R" n="29"/>quia forte poneretur plurificata in tribus, &amp; hoc 
+      <lb ed="#R" n="30"/>non, quia absolutum vnum potestt fundare 
+      relatio<lb ed="#R" n="31" break="no"/>nes diuersas, &amp; plures respectus. Sic in proposito, 
+      <lb ed="#R" n="32"/>eadem natura absoluta potest fundare 
+      habitudi<lb ed="#R" n="33" break="no"/>nem ad quamlibet personam. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e1920">
+                  <lb ed="#R" n="34"/>Dices, quod poneretur illimitata, ex hoc enim 
+      <lb ed="#R" n="35"/>diuina essentia est illimitata, quia est vna in tribus 
+      <lb ed="#R" n="36"/>suppositis, ideo est illimitata: sed nulla natura 
+      <lb ed="#R" n="37"/>creata est illimitata: ergo repugnat sibi, esse in 
+      <lb ed="#R" n="38"/>tribus. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e1934">
+                  <lb ed="#R" n="39"/>Dico, quod non requiritur illimitatio ad hoc, 
+      <lb ed="#R" n="40"/>quod aliquid vnum sit in tribus, nisi vbi natura 
+      es<lb ed="#R" n="41" break="no"/>set idem identitate cum eis; sicut est natura 
+      diui<lb ed="#R" n="42" break="no"/>na in tribus identitate, non sic autem in 
+      proposi<lb ed="#R" n="43" break="no"/>to, quia natura non est realiter idem cum 
+      supposi<lb ed="#R" n="44" break="no"/>to assumente, &amp; ideo non propter hoc est 
+      infini<lb ed="#R" n="45" break="no"/>tas ibi. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e1952">
+                  <lb ed="#R" n="46"/>Dices, quod requiritur illimitatio, tam in 
+      il<lb ed="#R" n="47" break="no"/>lis, quae sunt idem identitate, quam in illis, quae 
+      <lb ed="#R" n="48"/>sunt idem accidentaliter, sicut in anima 
+      acci<lb ed="#R" n="49" break="no"/>dens. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e1963">
+                  <lb ed="#R" n="50"/>Dico, quod non est simile, quia illud est 
+      absolu<lb ed="#R" n="51" break="no"/>tum: istud autem est respectiuum, nec est repugnan 
+      <lb ed="#R" n="52"/>tia ex parte suppositorum assumentium, quia hoc 
+      <lb ed="#R" n="53"/>esset propter hoc, quia Pater, &amp; Verbum non 
+      pos<lb ed="#R" n="54" break="no"/>sunt simul coexistere eidem, &amp; hoc non est verum, 
+      <lb ed="#R" n="55"/>quia in diuinis simul coexistunt; vel etiam, quia 
+      si<lb ed="#R" n="56" break="no"/>mul non possunt terminare vnam naturam, vel 
+      ha<lb ed="#R" n="57" break="no"/>bitudinem, quam aliud terminat, &amp; hoc non 
+      ob<lb ed="#R" n="58" break="no"/>stat, quia Pater per suam rationem suppositi 
+      termi<lb ed="#R" n="59" break="no"/>nat naturam, &amp; Filius per suam: non ergo repugnat 
+      <lb ed="#R" n="60"/>ex parte suppositorum: nec ex parte habitudinum, 
+      <lb ed="#R" n="61"/>quia aut repugnat, quia non possunt plures 
+      habi<lb ed="#R" n="62" break="no"/>tudines in eodem fundari, &amp; hoc non, quia hoc 
+      <lb ed="#R" n="63"/>non repugnat habitudinibus quidditatiuis, vel 
+      re<lb ed="#R" n="64" break="no"/>pugnaret per rationem relationis generelem, sed 
+      <lb ed="#R" n="65"/>hoc non, quia idem potest terminare plures 
+      rela<lb ed="#R" n="66" break="no"/>tiones, vt idem Pater potest terminare plures 
+      fi<lb ed="#R" n="67" break="no"/>liationes. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e2005">
+                  <lb ed="#R" n="68"/>Sed dices, quod vna relatione refertur ad illos. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e2010">
+      <!--0372.xml-->
+                  <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>Contra: Corruptum non est idem cum 
+      permanen<lb ed="#R" n="70" break="no"/>te illo corrupto: sed si omnes Filij pereant, 
+      manen<lb ed="#R" n="71" break="no"/>te vno corrumpuntur simul relationes illorum 
+      re<lb ed="#R" n="72" break="no"/>manente sola relatione permanentis: ergo non est 
+      <lb ed="#R" n="73"/>vna: ergo est per speciales rationes habitudinis: aut 
+      <lb ed="#R" n="74"/>ergo est, quia talis habitudo est respectus 
+      extrinse<lb ed="#R" n="75" break="no"/>cus adueniens, quia non ponitur positis extremis: 
+      <lb ed="#R" n="76"/>sed propter hoc non repugnat, quod idem corpus 
+      <lb ed="#R" n="77"/>existens in pluribus locis vbeatur pluribus vbi, qui 
+      <lb ed="#R" n="78"/>sunt respectus extrinseci secundum opinionem 
+      <lb ed="#R" n="79"/>Magistri. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e2041">
+                  <lb ed="#R" n="80"/>Item: esse calceatum, &amp; ornatum, &amp; huiusmodi, 
+      <lb ed="#R" n="81"/>omnes tales respectus possunt fundari in eodem. 
+      <lb ed="#R" n="82"/>Si dicis non repugnat, quia respectus extrinsecus, 
+      <lb ed="#R" n="83"/>sed quia specialis, &amp; essentialis dependentia est 
+      na<lb ed="#R" n="84" break="no"/>turae ad suppositum, vnum autem non potest 
+      ea<lb ed="#R" n="85" break="no"/>dem dependentia dependere a tribus: Istud 
+      non<lb ed="#R" n="86" break="no"/>obuiat, quia ostensum est supra in alijs 
+      quaestioni<lb ed="#R" n="87" break="no"/>bus, quia ibi nulla est dependentia, licet sit 
+      essentia<lb ed="#R" n="88" break="no"/>lis habitudo, nec quia habet ordinem essentialem 
+      <lb ed="#R" n="89"/>ad verbum, &amp; ad alia supposita, quia sicut 
+      ante<lb ed="#R" n="90" break="no"/>erat posterior verbo, sic modo. Si dicit, quod 
+      re<lb ed="#R" n="91" break="no"/>pugnat habitudinem, vt habitudo est quiddificans, 
+      <lb ed="#R" n="92"/>vel quidditatiua, quia vnum simul, &amp; semel non 
+      <lb ed="#R" n="93"/>quiddificat plura id non contradicit, quia eadem 
+      <lb ed="#R" n="94"/>anima potest informare plura, vt pedem, manum, 
+      <lb ed="#R" n="95"/>&amp; huiusmodi: ergo &amp; quidditas quiddificare 
+      plu<lb ed="#R" n="96" break="no"/>ra supposita. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e2081">
+                  <lb ed="#R" n="97"/>Ad rationes in contrarium. Ad primum de 
+      veri<lb ed="#R" n="98" break="no"/>ficatione impossibilium, dico, quod in talibus 
+      pro<lb ed="#R" n="99" break="no"/>positionibus non est repugnantia, quia 
+      verifican<lb ed="#R" n="100" break="no"/>tur ratione communicationis idiomatum. Ad 
+      om<lb ed="#R" n="101" break="no"/>nes alias patet per disimilitudinem absoluti, &amp; 
+      re<lb ed="#R" n="102" break="no"/>spectus, &amp; per dissimilitudinem respectus, qui est 
+      <lb ed="#R" n="103"/>dependentia, &amp; illius qui non est. Sed infertur 
+      con<lb ed="#R" n="104" break="no"/>tra conclusionem. Primo, quod si posset tribus 
+      vni<lb ed="#R" n="105" break="no"/>ri, pari ratione infinitas naturae, tunc idem accidens 
+      <lb ed="#R" n="106"/>esse &amp; in pluribus subiectis. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e2105"> <!-- confusing Question header here, but article numbering continues -->
+                  <lb ed="#R" n="107"/>Quaestionis J. 
+      <lb ed="#R" n="108"/>Quaero tunc Vltimo de facto: Vtrum Verbum 
+      <lb ed="#R" n="109"/>fuerit incarnatum. 
+      </p>
+            </div>
+            <div xml:id="olm8ij-g11607-Dd1e2118">
+               <head xml:id="olm8ij-g11607-Hd1e2120">Articulus 5</head>
+               <!-- should this be article 3 -->
+               <head xml:id="olm8ij-g11607-Hd1e2124" type="question-title">
+        Utrum Verbum fuerit incarnatum.
+      </head>
+               <p xml:id="olm8ij-g11607-d1e2127">
+                  <lb ed="#R" n="110"/>ARTJCVLVS V. 
+      <lb ed="#R" n="111"/>Vtrum Verbum fuerit incarnatum.
+      </p>
+               <p xml:id="olm8ij-g11607-d1e2134">
+                  <lb ed="#R" n="112"/>AD quintam Quaestionem arguo: Vtrum 
+      Ver<lb ed="#R" n="113" break="no"/>bum fuerit incarnatum, quod non, quia 
+      mi<lb ed="#R" n="114" break="no"/>nimum inconueniens est apud Deum impossibile: 
+      <lb ed="#R" n="115"/>sed ex incarnatione sequuntur maxima 
+      inconue<lb ed="#R" n="116" break="no"/>nientia: sequitur enim, quod Deitas sit infimata 
+      <lb ed="#R" n="117"/>ad multas, &amp; infinitas miserias, quae sequuntur 
+      na<lb ed="#R" n="118" break="no"/>turam hominis, quae oriuntur animis cuiuslibet 
+      in<lb ed="#R" n="119" break="no"/>fidelis: ergo. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e2155">
+                  <lb ed="#R" n="120"/>Item, nos reputamus gentiles idolatras, quia cre 
+      <lb ed="#R" n="121"/>dunt Deum esse lapidem, vel lignum, quae sunt 
+      cor<lb ed="#R" n="122" break="no"/>ruptibilia, &amp; combustibilia, &amp; mutabilia. Idem 
+      <lb ed="#R" n="123"/>autem videtur sequi fidem nostram, quia nos vilem 
+      <lb ed="#R" n="124"/>carnem credimus esse Deum. Contra est Galat. c. 4. 
+      <lb ed="#R" n="125"/>Cum venit plenitudo temporis, misit Deus Filium 
+      <lb ed="#R" n="126"/>suum, &amp;c. Item Joannis 1. Verbum caro factum est, 
+      <lb ed="#R" n="127"/>&amp; multae aliae, quae ad hoc possent adduci. Circa 
+      <lb ed="#R" n="128"/>quae sunt hic quinque per ordinem videnda. Primo 
+      <lb ed="#R" n="129"/>quid sit tenendum de facto: secundo de congruitate: 
+      <!--0373.xml-->
+      <pb ed="#R" n="371"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>tertio de facti qualitate: quarto de facti 
+      cognosci<lb ed="#R" n="2" break="no"/>bilitate: quinto de ordinabilitate, siue fine effecti. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e2190">
+                  <lb ed="#R" n="3"/>Circa primum teneo firmiter, quod sic, &amp; mouet 
+      <lb ed="#R" n="4"/>me arctando determinatio vtriusque symboli. Item 
+      <lb ed="#R" n="5"/>Athanasius in symbolo: Sed necessarium est ad aeter 
+      <lb ed="#R" n="6"/>nam salutem, vt incarnationem Domini nostri 
+      Ie<lb ed="#R" n="7" break="no"/>su Christi fideliter credat. Dicit haereticus, quod 
+      <lb ed="#R" n="8"/>Ecclesia hoc determinauit. Dico, quod imo 
+      Apo<lb ed="#R" n="9" break="no"/>stoli: Verbum caro factum est: Joan. 1. Item alibi: 
+      <lb ed="#R" n="10"/>Gic est vere Filius Dei. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e2210">
+                  <lb ed="#R" n="11"/>Item Rom. 1. qui factus est ei ex semine Dauid 
+      <lb ed="#R" n="12"/>secundum carnem. Item Matth. 1. Genuit Joseph 
+      <lb ed="#R" n="13"/>virum Mariae, de qua natus est Iesus, qui vocatur 
+      <lb ed="#R" n="14"/>Christus. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e2221">
+                  <lb ed="#R" n="15"/>Dicunt Sarraceni, quod discipuli hoc dixerunt de 
+      <lb ed="#R" n="16"/>eo ex amore: Jpse autem Christus hoc non dixit de 
+      <lb ed="#R" n="17"/>se, imo prohibuit ne diceretur, vt in daemonibus 
+      <lb ed="#R" n="18"/>patet. Contra, ipse dixit: Ego &amp; Pater vnum sumus; 
+      <lb ed="#R" n="19"/>similiter hoc dixit Augustinus, quod Judaei melius 
+      <lb ed="#R" n="20"/>intellexerunt Chrisum, quam Arrius; ex hoc enim 
+      <lb ed="#R" n="21"/>Judaei tulerunt lapides, vt lapidarent eum, eo quod 
+      <lb ed="#R" n="22"/>Patri se faceret aequalem. Sed Arrius exponit, quod 
+      <lb ed="#R" n="23"/>illud verbum protulit Christus de vnitate amoris, 
+      <lb ed="#R" n="24"/>&amp; concordiae. Item dixit caeco: Credis in Filium 
+      <lb ed="#R" n="25"/>Dei? Item commendat Petrum de hoc, cum ait: 
+      <lb ed="#R" n="26"/>Beatus es Simon Bariona, quia caro, &amp; sanguis, &amp; c. 
+      <lb ed="#R" n="27"/>licet publice non praedicauerit, ne se iactare, &amp; 
+      lau<lb ed="#R" n="28" break="no"/>darevideretur; tamen hoc docuit discipulos, vt patet. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e2254">
+                  <lb ed="#R" n="29"/>Circa secnndum de congruitate, potest hic 
+      quae<lb ed="#R" n="30" break="no"/>ri triplex congruitas, scilicet assumentis: Vtrum 
+      <lb ed="#R" n="31"/>fuerit magis congruum Filium, quam aliam 
+      perso<lb ed="#R" n="32" break="no"/>nam carnem assumpsisse. Secundo de congruitate 
+      <lb ed="#R" n="33"/>naturae: vtrum fuerit naturam humanam assumere 
+      <lb ed="#R" n="34"/>magis, quam aliam. Tertio de tempore: Vtrum 
+      <lb ed="#R" n="35"/>magis congruum fuit assumere hoc tempore, quam 
+      <lb ed="#R" n="36"/>alio: sed quia hoc a Magistris pulchre 
+      determina<lb ed="#R" n="37" break="no"/>tur, ideo hoc praetermitto. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e2276">
+                  <lb ed="#R" n="38"/>Circa tertium de facti qualitate, considero hic 
+      qua<lb ed="#R" n="39" break="no"/>tuor, Humanitatis plasmationem, habitudinis com 
+      <lb ed="#R" n="40"/>plantationem, intimam coexistentiam, naturae ad 
+      <lb ed="#R" n="41"/>verbum colligantiam. Circa primum considero 
+      hu<lb ed="#R" n="42" break="no"/>manitatem esse plasmatam opere Spiritussancti. 
+      <lb ed="#R" n="43"/>Quid autem beata Virgo fuerit cooperata in ista 
+      <lb ed="#R" n="44"/>benedicta productione, dicam inferius. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e2295">
+                  <lb ed="#R" n="45"/>Circa primum considero omnem aliam naturam, 
+      <lb ed="#R" n="46"/>ex eo ipso, quod esse existentiae est posita dimitti in 
+      <lb ed="#R" n="47"/>sua consistentia absque eo, quod fluat ad suppositum 
+      <lb ed="#R" n="48"/>alterius naturae: in ista autem natura singulari 
+      assum<lb ed="#R" n="49" break="no"/>pta fuit habitudo copulata, quae est esse alterius, vt 
+      <lb ed="#R" n="50"/>verbi. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e2311">
+                  <lb ed="#R" n="51"/>Circa tertium considero intimam coexistentiam, 
+      <lb ed="#R" n="52"/>qua Deus intimatur, &amp; illabitur cuilibet creaturae, 
+      <lb ed="#R" n="53"/>&amp; iste illapsus est trium simul personarum 
+      indiuisi<lb ed="#R" n="54" break="no"/>biliter. Quarto capio, naturae ad verbum colligantiam 
+      <lb ed="#R" n="55"/>ex habitudine quidditatiua ad verbum, quae 
+      habitu<lb ed="#R" n="56" break="no"/>do non habet pro termino tres personas, sed personam 
+      <lb ed="#R" n="57"/>verbi solum: verbum enim solum quidditatiue, ita 
+      <lb ed="#R" n="58"/>quod natura humana fuit; ita vt eo vere dicatur, verbum 
+      <lb ed="#R" n="59"/>est homo quidditatiue, ita quod natura humana sit 
+      <lb ed="#R" n="60"/>eius intrinsece: ergo tota Trinitas naturae coexistit 
+      <lb ed="#R" n="61"/>intime: sed istam coexistentiam non terminat. nisi 
+      per<lb ed="#R" n="62" break="no"/>sona verbi, &amp; ita colligantia naturae ad verbum est 
+      cor<lb ed="#R" n="63" break="no"/>rigia, quam dixit Joannes Bapt se non posse soluere. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e2342">
+                  <lb ed="#R" n="64"/>Sed dubia, quae hic occurrunt, soluuntur per 
+      que<lb ed="#R" n="65" break="no"/>stiones praedeterminatas. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e2349">
+                  <lb ed="#R" n="66"/>Dico autem, quod ista colligantia non est 
+      depen<lb ed="#R" n="67" break="no"/>dentia, nec innixus, nec illapsus, sed solum talis 
+      ha<lb ed="#R" n="68" break="no"/>bitudo realiter, qualis secundum rationem est in- 
+      <!--0373.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>ter Sortem, &amp; Sorteitatem. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e2365">
+                  <lb ed="#R" n="70"/>Circa quartum argumentum de cognoscibilitate 
+      <lb ed="#R" n="71"/>est dubium duplex. Primum: si ab hominibus potuit 
+      <lb ed="#R" n="72"/>ista vnio cognosci: ita quod euidenter potuerunt 
+      <lb ed="#R" n="73"/>dicere, hic est Filius Dei. Secundum dubium: vtrum 
+      <lb ed="#R" n="74"/>a spiritibus demoniacis illa vnio potuit cognosci. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e2378">
+                  <lb ed="#R" n="75"/>De primo videtur, quod sic, &amp; probo: Regula est 
+      <lb ed="#R" n="76"/>circa 5. Metaph. quod operatio facit scire formam, 
+      <lb ed="#R" n="77"/>sicut transmutatio materiam, nec vera caro est, quae 
+      <lb ed="#R" n="78"/>opera carnis facere non potest: tunc, operatio, quae 
+      <lb ed="#R" n="79"/>non est nisi a vera forma determinata potest facere 
+      <lb ed="#R" n="80"/>fidem de ea: sed homines viderunt a Christo 
+      homi<lb ed="#R" n="81" break="no"/>ne operationes mere diuinas: ergo tales 
+      operatio<lb ed="#R" n="82" break="no"/>nes fidem facere potuerunt de forma diuinitatis 
+      <lb ed="#R" n="83"/>inexistente, vt si videro, quod lapis trahit ferrum, scio 
+      <lb ed="#R" n="84"/>ipsum esse magnetem, sic suscitare mortuos, 
+      aperi<lb ed="#R" n="85" break="no"/>re ocul&amp;s caecorum, infirmitates curare, intuitio 
+      cor<lb ed="#R" n="86" break="no"/>dium maxime, quod non pertinet ad prophetiã; sta 
+      <lb ed="#R" n="87"/>videndo innotescit diuinitas inesse. Item doctrina 
+      <lb ed="#R" n="88"/>mirabilis, in moribus, &amp; vita, quae cum doctrina tota 
+      <lb ed="#R" n="89"/>sic concordat fidei. Hanc rationem ponit Josephus, 
+      <lb ed="#R" n="90"/>vbi dicit: Fuit illis temporibus Jesus, sapiens vir, si vi 
+      <lb ed="#R" n="91"/>rum eum nominare fas sit. Item Nicodemus: Nemo 
+      <lb ed="#R" n="92"/>potest facere opera, quae tu facis, nisi sit Deus cum eo. 
+      <lb ed="#R" n="93"/>Item illa intentio Christi, vbi dicit: Si non venissem, 
+      <lb ed="#R" n="94"/>&amp; opera non fecissem, quae nemo alius secit, peccatum 
+      <lb ed="#R" n="95"/>non haberent; tunc arguo, aut illa opera probabant 
+      <lb ed="#R" n="96"/>sufficienter Jesum Deum esse, aut non: si non, iam 
+      ex<lb ed="#R" n="97" break="no"/>cusati fuissent, quod tamen Christus negat: si sic, 
+      ha<lb ed="#R" n="98" break="no"/>beo propositum. Item dixit Philippo, Pater in me 
+      <lb ed="#R" n="99"/>manens ipse facit opera, alioquin propter opera 
+      <lb ed="#R" n="100"/>ipsa credite. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e2438">
+                  <lb ed="#R" n="101"/>Item Augustinus pulchre introducit: illud 
+      dixe<lb ed="#R" n="102" break="no"/>runt, quousque animam nostram tollis in sermone, 
+      <lb ed="#R" n="103"/>vos inquam conuenio o Judaei, vbi dicit Augustinus 
+      <lb ed="#R" n="104"/>quod Christus noluit eis dicere: sed remisit eos ad 
+      <lb ed="#R" n="105"/>opera. Sic ergo videtur, quod non solum vnio 
+      prae<lb ed="#R" n="106" break="no"/>fata sit possibilis cognosci, sed quod de facto ab 
+      ali<lb ed="#R" n="107" break="no"/>quibus fuit cognita. Teneo, quod immediate ista 
+      <lb ed="#R" n="108"/>non probauerunt, sed mediate; ita quod illi 
+      debuis<lb ed="#R" n="109" break="no"/>sent plus esse certi, quam Philosophus multorum, 
+      <lb ed="#R" n="110"/>quae dixit, &amp; dico, quod immediate illi non fuerunt 
+      <lb ed="#R" n="111"/>certi de vnione. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e2464">
+                  <lb ed="#R" n="112"/>Primo probo primum, secundum secundo. Primo sic, 
+      <lb ed="#R" n="113"/>quando aliqua operatio sub duplici modo aspicit 
+      <lb ed="#R" n="114"/>terminum a quo est, velle reducere talem 
+      opera<lb ed="#R" n="115" break="no"/>tionem in illud principium sub vno modo 
+      determi<lb ed="#R" n="116" break="no"/>nate, est fallacia consequentis. Exemplum, si videro 
+      <lb ed="#R" n="117"/>aliquam partem terrae madefactam, ex hoc dicam, 
+      <lb ed="#R" n="118"/>pluit, hic est processus a pluribus causis ad vnam, 
+      <lb ed="#R" n="119"/>nam potest terra esse madida ex alia causa, quam 
+      <lb ed="#R" n="120"/>per pluuiam. Sic enim arguit Commentator de 
+      cae<lb ed="#R" n="121" break="no"/>lo, &amp; mundo contra Ptolomaeum de apparentijs, quas 
+      <lb ed="#R" n="122"/>Ptolomaeus nititur saluare per epiciclos, &amp; c. vbi 
+      <lb ed="#R" n="123"/>probat, quod non demonstrat. sed facit fallaciam 
+      <lb ed="#R" n="124"/>consequentis. Sic dico in proposito facere talia, quae 
+      <lb ed="#R" n="125"/>Christus fecit, est semper a Deo: sed esse a Deo est 
+      <lb ed="#R" n="126"/>dupliciter, vel a Deo per gratiam inexistentem, vel 
+      <lb ed="#R" n="127"/>per vnionem; &amp; vtroque modo potest quis 
+      elice<lb ed="#R" n="128" break="no"/>re operationes Deo mediante. Sic ergo deduco; 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e2503">
+                  <lb ed="#R" n="129"/>Opera, quae Christus fecit. poterant elici, vel a 
+      diui<lb ed="#R" n="130" break="no"/>nitate inexistente per gratiam, vel a diuinitate 
+      per<lb ed="#R" n="131" break="no"/>sonaliter vnita: ergo arguere per operationes illas 
+      <lb ed="#R" n="132"/>vnionem diuinitatis cum humanitate, est facere 
+      falla<lb ed="#R" n="133" break="no"/>ciam consequentis. Quod autem vtroque modo tales 
+      <lb ed="#R" n="134"/>operationes potuerint elici patet, quia omnia talia 
+      <lb ed="#R" n="135"/>opera poterant elici per solam gratuitam vnionem, vt pa 
+      <lb ed="#R" n="136"/>tet de Josue, qui imperauit Soli, &amp; dicit Scriptura, quod 
+      <!--0374.xml-->
+      <pb ed="#R" n="372"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>obediuit Deus voci hominis, &amp; hoc sonant 
+      argu<lb ed="#R" n="2" break="no"/>menta: vnde dixit caecus: Nos scimus, quod Deus 
+      <lb ed="#R" n="3"/>peccatores non exaudit, sed quicumque fecerit 
+      vo<lb ed="#R" n="4" break="no"/>luntatem Patris, &amp; c. Item Nicodemus: Nemo 
+      po<lb ed="#R" n="5" break="no"/>test facere signa, vel opera quae tu facis, nisi fucrit 
+      <lb ed="#R" n="6"/>Deus cum eo: secreta enim cordium potest homo 
+      <lb ed="#R" n="7"/>intueri per solam gratuitam vnionem, vt patet in 
+      <lb ed="#R" n="8"/>quibusdam sanctis. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e2547">
+                  <lb ed="#R" n="9"/>Secundo dico, quod mediate accipiendo istam 
+      <lb ed="#R" n="10"/>propositionem, nemo potest facere, &amp; adducere, 
+      <lb ed="#R" n="11"/>quae facis in testimonium, quia dicit, nisi sit Deus 
+      <lb ed="#R" n="12"/>cum eo. Sic enim argumentando poterunt deuenire 
+      <lb ed="#R" n="13"/>in cognitionem diuinitatis, quod patet. Christus 
+      <lb ed="#R" n="14"/>dicebat, ego, &amp; Pater vnum sumus, &amp; Pater in me 
+      <lb ed="#R" n="15"/>est, &amp; ego in Patre, &amp; ad hoc opera adducebat. 
+      Se<lb ed="#R" n="16" break="no"/>quitur, alioquin propter opera ipsa credite: illa 
+      au<lb ed="#R" n="17" break="no"/>tem quae erant a Deo, non poterant false tificari, 
+      <lb ed="#R" n="18"/>quia tunc Deus esset mendax, Deum autem 
+      impos<lb ed="#R" n="19" break="no"/>sibile est assumere in testimonium non verorum 
+      <lb ed="#R" n="20"/>Christus autem dixit: Ego, &amp; Pater vnum sumus, 
+      <lb ed="#R" n="21"/>propter opera ipsa credite, est qui testimonium 
+      <lb ed="#R" n="22"/>perhibet de me Pater faciendo opera, quae nullus 
+      <lb ed="#R" n="23"/>alius fecit. Item: Exiui a Patre, &amp; veni in mundum, 
+      <lb ed="#R" n="24"/>&amp; multa, quae dixit, per opera ostendit 
+      mediate<lb ed="#R" n="25" break="no"/>cum eo, quod dicebat, &amp; docebat. Docebat 
+      au<lb ed="#R" n="26" break="no"/>tem se esse verum Deum: ergo opera mediante 
+      il<lb ed="#R" n="27" break="no"/>la doctrina poterunt facere fidem de diuinitate. 
+      Di<lb ed="#R" n="28" break="no"/>ces, sic Antichrisius saciet, &amp; dicet ergo opera 
+      da<lb ed="#R" n="29" break="no"/>bunt fidem de eo. Dico, quod illa opera erunt 
+      de<lb ed="#R" n="30" break="no"/>ceptio, &amp; solui poterunt a ratione humana sic, 
+      si<lb ed="#R" n="31" break="no"/>cut natura non deficit in necessarijs, sicut dicit 
+      Phi<lb ed="#R" n="32" break="no"/>losophus, in lib. Coeli, &amp; Mundi, sic multo minus 
+      <lb ed="#R" n="33"/>Deus, qui est natura naturans: quando autem 
+      ali<lb ed="#R" n="34" break="no"/>quid non est inuessigabise per naturam humanam. 
+      <lb ed="#R" n="35"/>Deus dedit viam aliam ad inuestigandum, scilicet 
+      <lb ed="#R" n="36"/>oracula Prophetarum: ergo cum prophetae 
+      praedi<lb ed="#R" n="37" break="no"/>cent Antichristum deceptorem, poterimus ex 
+      tali<lb ed="#R" n="38" break="no"/>bus prophetijs assurgere, ne ipsis operibus fidem 
+      <lb ed="#R" n="39"/>adhibeamus: e conuerso autem de Christo, cuius 
+      di<lb ed="#R" n="40" break="no"/>uinitas fuit praedicta multo tempore ante. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e2619">
+                  <lb ed="#R" n="41"/>Hoc viso apparet, quod rationes concludunt opti 
+      <lb ed="#R" n="42"/>me, nec habent Judaei excusationem, qui dictis non 
+      <lb ed="#R" n="43"/>crediderunt probatis, &amp; approbatis per opera. Sic 
+      <lb ed="#R" n="44"/>ergo teneo de cognoscibilitate, quod deitas in Chri 
+      <lb ed="#R" n="45"/>sto non fuit cognoscibilis per homines, nisi quibus 
+      <lb ed="#R" n="46"/>reuelatum est: ipse autem reuelauit Apostolis, &amp; tunc 
+      <lb ed="#R" n="47"/>ducttu rationis non poterunt dubitare, quia 
+      prae<lb ed="#R" n="48" break="no"/>missa pro potentia est indemonsirabilis. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e2639">
+                  <lb ed="#R" n="49"/>Nunc secundo est dubium de spiritibus angelicis 
+      <lb ed="#R" n="50"/>bonis, &amp; etiam de malis: vt daemone tentante 
+      Chri<lb ed="#R" n="51" break="no"/>stum: vtrum viderint vnionem, vel habitudinem 
+      <lb ed="#R" n="52"/>inter naturam humanam, &amp; verbum. Et sunt 
+      au<lb ed="#R" n="53" break="no"/>ctoritates, quod non, vt illae: Quis est iste qui 
+      ve<lb ed="#R" n="54" break="no"/>nit de Edom, &amp; c. Exponunt Sancti, quod fuit vox 
+      <lb ed="#R" n="55"/>Angelorum ignorantium, quod postea per alios 
+      di<lb ed="#R" n="56" break="no"/>dicerunt. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e2660">
+                  <lb ed="#R" n="57"/>Item Hieronymus in Homil. Cum esset 
+      despon<lb ed="#R" n="58" break="no"/>sata Maria loseph. &amp; c. dicitur, quod ideo fuit 
+      de<lb ed="#R" n="59" break="no"/>sponsata, vt lateret diabolum conceptus virginis. 
+      <lb ed="#R" n="60"/>Item multa similia cantat Ecclesia, vt in prosis, &amp; 
+      <lb ed="#R" n="61"/>huiusmodi. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e2673">
+                  <lb ed="#R" n="62"/>Item: daemon non tentabat, nisi quia scire vel- 
+    <!-- line break error -->let, quod nesciebat
+  </p>
+               <p xml:id="olm8ij-g11607-d1e2680">
+                  <lb ed="#R" n="63"/>Item: daemones de corporibus exeuntes. 
+      Sci<lb ed="#R" n="64" break="no"/>mus te esse Filium Dei, semper dubitatiue. Item, 
+      <lb ed="#R" n="65"/>ostendo idem per rationes, sic: Aut angeli mali istam 
+      <lb ed="#R" n="66"/>habitudinem cognouerunt ex fundamento, &amp; termi 
+      <lb ed="#R" n="67"/>no arguitiue, aut ipsam habitudinem intuendo 
+      <!--0374.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>actualiter: sed non primo modo, quia 
+      fundamen<lb ed="#R" n="69" break="no"/>tum, &amp; terminus habent connexionem 
+      accidenta<lb ed="#R" n="70" break="no"/>lem: ergo si cognouerunt homo fuit Jesus 
+      actuali<lb ed="#R" n="71" break="no"/>ter, formo nunc talem rationem: Video verbum, &amp; 
+      <lb ed="#R" n="72"/>habitudinem: ergo necessario, video habitudinem 
+      <lb ed="#R" n="73"/>necessariam inter isa, &amp; connexionem 
+      contingen<lb ed="#R" n="74" break="no"/>tem video contingenter: sed ista habitudo termini, 
+      <lb ed="#R" n="75"/>&amp; fundamenti est contingens: ergo non necessario 
+      <lb ed="#R" n="76"/>comprehensa, quia quando vna praemissarum est 
+      <lb ed="#R" n="77"/>contingens, conclusio non est necessaria: tunc 
+      syllo<lb ed="#R" n="78" break="no"/>gismus sic formatur: omnes videntes humanitatem, 
+      <lb ed="#R" n="79"/>&amp; verbum vident connexionem inter vtrumque 
+      <lb ed="#R" n="80"/>necessariam, ista maior est necessaria: sed ista 
+      ha<lb ed="#R" n="81" break="no"/>bitudo est connexio, minor est contingens, 
+      habitu<lb ed="#R" n="82" break="no"/>do non oritur ex alia, non est necessaria connexio: 
+      <lb ed="#R" n="83"/>cum igitur dicitur in conclusione: ergo videntes 
+      <lb ed="#R" n="84"/>verbum, &amp; humanitatem viderunt: patet, quod ista 
+      <lb ed="#R" n="85"/>conclusio est contingens non necessaria: ergo non 
+      <lb ed="#R" n="86"/>cognouerunt necessario arguitiue. Nec secundo 
+      <lb ed="#R" n="87"/>modo, sc ilicet, intuendo habitudinem, patet, quia 
+      <lb ed="#R" n="88"/>tunc habitudo produceret speciem, &amp; actum, quod 
+      <lb ed="#R" n="89"/>impossibile est. quia actus, &amp; species sunt absoluta, 
+      <lb ed="#R" n="90"/>absolutum autem non producitur a relatiuo. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e2747">
+                  <lb ed="#R" n="91"/>Item: da mones non vident secretos conceptus 
+      <lb ed="#R" n="92"/>mentis: ergo multo minus illud. Respondeo ad 
+      <lb ed="#R" n="93"/>istud dubium, quod potest quaeri de facto, dico, quod 
+      <lb ed="#R" n="94"/>nullus sciuit habitudinem inter verbum, &amp; 
+      natu<lb ed="#R" n="95" break="no"/>ram; nisi illi quibus reuelata est, vt Gabriel: &amp; 
+      ha<lb ed="#R" n="96" break="no"/>betur de Paulo ad Philipp. Mihi (inquit) sicut 
+      San<lb ed="#R" n="97" break="no"/>ctorum minimo, vbi dicit Glosa, quod istam 
+      habi<lb ed="#R" n="98" break="no"/>tudinem angeli potuerunt arguendo intelligere, 
+      <lb ed="#R" n="99"/>sicut homines: dico, quod omnes, qui tunc 
+      tempo<lb ed="#R" n="100" break="no"/>ris interfuerunt, poterant scire, si Deus eis 
+      reue<lb ed="#R" n="101" break="no"/>labat. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e2773">
+                  <lb ed="#R" n="102"/>Secundo dico, quod de possibili, nisi Deus abscon 
+      <lb ed="#R" n="103"/>disset, poterant istam habitudinem intelligere, 
+      pro<lb ed="#R" n="104" break="no"/>bo: Omnis realitas potest mouere intellectum ad sui 
+      <lb ed="#R" n="105"/>manife stationem, vt dicitur 9. Metaph. quod 
+      vna<lb ed="#R" n="106" break="no"/>quaeque res cognoscitur per hoc, quod est in actu; 
+      <lb ed="#R" n="107"/>illa autem habitudo erat actu, &amp; de se habebat 
+      <lb ed="#R" n="108"/>actualitatem. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e2791">
+                  <lb ed="#R" n="109"/>Dico, quod daemon non videbat verbum: ergo 
+      <lb ed="#R" n="110"/>non cognouit habitudinem: dico, quod ex quo 
+      ha<lb ed="#R" n="111" break="no"/>bitudo est actu, non oportebit verbum 
+      cognosce<lb ed="#R" n="112" break="no"/>re; non enim oportet terminum apprehendere ad 
+      <lb ed="#R" n="113"/>hoc, vt habitudo cognoscatur. hoc confirmat 
+      Aui<lb ed="#R" n="114" break="no"/>cemna, qui dicit, quod aestimatiua cognoscit 
+      intentio<lb ed="#R" n="115" break="no"/>nes non sensatas, vt canis, vel ouis amicitiam, &amp; 
+      ini<lb ed="#R" n="116" break="no"/>micitiam. Item: coniunctio duorum mouet visum, &amp; 
+      <lb ed="#R" n="117"/>ordo similiter mouet visum, &amp; assensum. Quod autem 
+      <lb ed="#R" n="118"/>moueat, patet, quia illud, cuius variatio percipitur 
+      <lb ed="#R" n="119"/>nulla re variata, illud est primo sensu perceptibile, 
+      <lb ed="#R" n="120"/>&amp; ex hoc apparet, quod ex hoc mensura, &amp; motus, 
+      <lb ed="#R" n="121"/>&amp; huiusmodi sunt per se sensibilia, quia sensus per 
+      <lb ed="#R" n="122"/>se percipit variationem, &amp; ita se habes tres 
+      cande<lb ed="#R" n="123" break="no"/>las in situ quodam dispositas, variato situ fit in 
+      or<lb ed="#R" n="124" break="no"/>dine variatio nullo reali mutato in eis; sic etiam 
+      <lb ed="#R" n="125"/>video situm, &amp; motum localem. Si ergo visus ferri 
+      <lb ed="#R" n="126"/>potest in solum ordinem, fortius fertur intellectus, 
+      <lb ed="#R" n="127"/>&amp; specialiter intellectus angelicus realiter 
+      intelli<lb ed="#R" n="128" break="no"/>get similitudinem. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e2838">
+                  <lb ed="#R" n="129"/>Nec valet si dicas, quare non fertur, vel 
+      intue<lb ed="#R" n="130" break="no"/>tur attributa, dico, quod non fertur super ea 
+      intel<lb ed="#R" n="131" break="no"/>lectus Angeli, quia non dicit de se realitatem, sed 
+      <lb ed="#R" n="132"/>actualitatem: auctoritates autem omnes, quae sunt 
+      <lb ed="#R" n="133"/>in contrarium, arguunt de facto. Ad rationes duas 
+      <lb ed="#R" n="134"/>quae fuerunt factae, quod non intuitiue, non soluo, 
+      <lb ed="#R" n="135"/>vos imaginemini.
+      </p>
+               <p xml:id="olm8ij-g11607-d1e2856">
+      <!--0375.xml-->
+                  <pb ed="#R" n="373"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Ad illud de cogitationibus. Dico quod angelus 
+      <lb ed="#R" n="2"/>non videt cogitationes, quia sunt in potentia 
+      libe<lb ed="#R" n="3" break="no"/>ra &amp; vitali: &amp; ideo formis existentibus in se libere 
+      <lb ed="#R" n="4"/>vtitur ad immutandum, vel non immutandum, non 
+      <lb ed="#R" n="5"/>est sic hic, quia non formatur in vitali: hic autem 
+      <lb ed="#R" n="6"/>habitudo fundatur super quidditatem, quae non est 
+      <lb ed="#R" n="7"/>libera. haec de cognoscibilitate. 
+    </p>
+               <p xml:id="olm8ij-g11607-d1e2880">
+                  <lb ed="#R" n="8"/>Circa quintum de ordinabilitate, vel fine istius 
+      <lb ed="#R" n="9"/>vnionis, Vtrum scilicet finis intentus, fuerit 
+      re<lb ed="#R" n="10" break="no"/>demptio, &amp; reparatio naturae humanae, est dubium. 
+      <lb ed="#R" n="11"/>Videtur enim, quod non: Quia nobilius non 
+      ordi<lb ed="#R" n="12" break="no"/>nat ad ignobilius: sed Christus fuit nobilissimus 
+      <lb ed="#R" n="13"/>homo: ergo. Item, tunc sequeretur, quod non 
+      <lb ed="#R" n="14"/>fuisset incarnatus, nisi homo peccasset, hoc autem 
+      <lb ed="#R" n="15"/>est falsum, quia sequeretur, quod nobilior effectus, 
+      <lb ed="#R" n="16"/>vel esse in natura fuisset occasionatus, &amp; a casu, &amp; 
+      <lb ed="#R" n="17"/>ita per accidens, quod est falsum, quia incarnatio 
+      <lb ed="#R" n="18"/>prius videtur fuisse intenta, quam creatio mundi, 
+      <lb ed="#R" n="19"/>non solum inquantum reparatio, quia nobilissimum 
+      <lb ed="#R" n="20"/>esse in natura est principalius intentum a natura. 
+      <lb ed="#R" n="21"/>Item: tunc sequeretur, quod Christus homo 
+      debe<lb ed="#R" n="22" break="no"/>ret gaudere de lapsu hominis, quia summe debet 
+      <lb ed="#R" n="23"/>gaudere de tanta sui foelicitate, &amp; assumptione: sed 
+      <lb ed="#R" n="24"/>per te non fuisset assumptus, nisi homo fuisset 
+      lap<lb ed="#R" n="25" break="no"/>sus: ergo debet gaudere de lapsu. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e2922">
+                  <lb ed="#R" n="26"/>Respondeo ad istum articulum, &amp; teneo, quod 
+      <lb ed="#R" n="27"/>finis intentus incarnationis est reparatio humani 
+      <lb ed="#R" n="28"/>generis. Sed distinguendum est de fine, vt ait 
+      Com<lb ed="#R" n="29" break="no"/>mentator 12. Metaph. duplex est n. finis, vnus 
+      per<lb ed="#R" n="30" break="no"/>ficiens, alius proueniens; finis perficiens est qui ex 
+      <lb ed="#R" n="31"/>aduentu suo perficit, quod est ad finem, &amp; quando 
+      <lb ed="#R" n="32"/>res quaelibet ex acquisitione talis finis perficitur. 
+      <lb ed="#R" n="33"/>Finis proueniens est illud, quod prouenit ex 
+      perfe<lb ed="#R" n="34" break="no"/>cto iam fine. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e2944">
+                  <lb ed="#R" n="35"/>De primo exemplum ponit Commentator finis 
+      <lb ed="#R" n="36"/>perficiens motus caelo est amor illius intelligentiae, 
+      <lb ed="#R" n="37"/>vel amati, &amp; desiderati; sed finis proueniens est 
+      ge<lb ed="#R" n="38" break="no"/>neratio, &amp; corruptio istorum inferiorum, nec 
+      ille<lb ed="#R" n="39" break="no"/>ordinatur ad istum, sed iste ad illum. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e2957">
+                  <lb ed="#R" n="40"/>Ad propositum, sola diuina bonitas est finis 
+      per<lb ed="#R" n="41" break="no"/>ficiens istius benedictae vnionis, quae hanc propter. 
+      <lb ed="#R" n="42"/>semetipsam fecit, sicut omnia alia: finis vero ex 
+      <lb ed="#R" n="43"/>hoc fine, &amp; bonitate proueniens est reparatio 
+      natu<lb ed="#R" n="44" break="no"/>rae lapsae. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e2971">
+                  <lb ed="#R" n="45"/>Ad rationes ergo in oppositum, dico ad primam, 
+      <lb ed="#R" n="46"/>quod tunc concluderet, si reparatio esset finis 
+      perfi<lb ed="#R" n="47" break="no"/>ciens. Ad secundum similiter dico, sicut ad istud. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e2980">
+                  <lb ed="#R" n="48"/>Vltra hoc est dubium de hoc, quod si homo non 
+      <lb ed="#R" n="49"/>peccasset, Filius Dei incarnatus non fuisset: istud 
+      <lb ed="#R" n="50"/>autem dubium, quia in libera Dei potestate est, in 
+      <lb ed="#R" n="51"/>talibus autem debet se homo conformare. &amp; 
+      con<lb ed="#R" n="52" break="no"/>firmatur auctoritatibus Sanctorum, sed multae sunt, 
+      <lb ed="#R" n="53"/>quae videntur dicere, quod non venisset, nisi homo 
+      <lb ed="#R" n="54"/>fuisset, vel peccasset; &amp; Doctores videntur haec 
+      sen<lb ed="#R" n="55" break="no"/>tire: ego autem dico, quod venisset, sed non eo 
+      mo<lb ed="#R" n="56" break="no"/>do quo venit, scilicet ad immolationem, &amp; mortem. 
+      <lb ed="#R" n="57"/>sustinendum: quamuis autem videtur dicere 
+      ex<lb ed="#R" n="58" break="no"/>presse alius, quod non venisset. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e3006">
+                  <lb ed="#R" n="59"/>Item Anselmus: memento homo, quia non 
+      <lb ed="#R" n="60"/>fuisset in te Deus homo, nisi in te peccasset homo, 
+      <lb ed="#R" n="61"/>&amp; ideo est dubium mihi, nec inuenio claras 
+      aucto<lb ed="#R" n="62" break="no"/>ritates ad oppositum: nisi illud, quod dicit 
+      Bernar<lb ed="#R" n="63" break="no"/>dus super Jonam, super illud verbum: propter me 
+      <lb ed="#R" n="64"/>orta est tempestas, dicit ibi, quod hoc fuit verbum 
+      <lb ed="#R" n="65"/>Christi ad Trinitatem: nam cum fuisset Adam 
+      for<lb ed="#R" n="66" break="no"/>matus, &amp; immisisset ei Dominus soporem, vidit in 
+      <lb ed="#R" n="67"/>somnis, quod natura sua esset assumptibilis, &amp; tunc 
+      <lb ed="#R" n="68"/>excitatus protulit verbum hoc: Nunc os de carne 
+      <!--0375.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>mea, &amp; postea daemon fuit conatus ad decipiendum 
+      <lb ed="#R" n="70"/>ipsum, &amp; ipsum ad pecc. itum excitauit, sicque 
+      ho<lb ed="#R" n="71" break="no"/>mo lapsus fuit, quod videns Christus ait: propter 
+      <lb ed="#R" n="72"/>me orta est haec tempestas, quia assumpturus eram 
+      <lb ed="#R" n="73"/>naturam humanam, fuit Adam ad peccatum per 
+      dia<lb ed="#R" n="74" break="no"/>bolum tractus: sed de hoc nihil determino. Sed si 
+      <lb ed="#R" n="75"/>fuisset incarnatus posito, quod homo non 
+      peccas<lb ed="#R" n="76" break="no"/>set, non propter hoc fuisset occasionatus, quia 
+      ha<lb ed="#R" n="77" break="no"/>buisset finem per se, scilicet bonitatem diuinam, 
+      <lb ed="#R" n="78"/>licet propter illud fuisset, sicut ita possem 
+      dice<lb ed="#R" n="79" break="no"/>re: Ego gaudeo de bono, scilicet de interfectione, 
+      <lb ed="#R" n="80"/>quam fecerunt Judaei, &amp; tamen non debeo gaudere. 
+      <lb ed="#R" n="81"/>Ad rationes principales de lapsu, soluun tur per 
+      <lb ed="#R" n="82"/>hoc, quod voluntas est libera, &amp; potest velle 
+      gau<lb ed="#R" n="83" break="no"/>dere, &amp; nolle: intellectus autem necessario assentit 
+      <lb ed="#R" n="84"/>imperio voluntatis. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e3069">
+                  <lb ed="#R" n="85"/>Ad primum principale in oppositum dico, quod 
+      <lb ed="#R" n="86"/>ista sunt verba infidelis, &amp; friuola, quia sola 
+      pecca<lb ed="#R" n="87" break="no"/>ti impuritas est, quae reddit naturam indigentem 
+      <lb ed="#R" n="88"/>vnionis verbi. Sed alia puritas arguit magis Dei 
+      <lb ed="#R" n="89"/>bonitatem, quae nequit maculari, &amp; ipsam etiam 
+      <lb ed="#R" n="90"/>beatam Virginem purificauit. 
+      </p>
+               <p xml:id="olm8ij-g11607-d1e3085">
+                  <lb ed="#R" n="91"/>Ad aliud dico, quod testimonia fuerunt talia, 
+      <lb ed="#R" n="92"/>quod ille homo erat Deus, non quod ipsa 
+      natura<lb ed="#R" n="93" break="no"/>humana esset diuina, sicut idolatrae faciunt, qui 
+      la<lb ed="#R" n="94" break="no"/>pides, &amp; ligna adorant, vt Deum verum, ad quae 
+      <lb ed="#R" n="95"/>adoranda moti fuerunt solum ex phantasia, non 
+      <lb ed="#R" n="96"/>per miracula. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

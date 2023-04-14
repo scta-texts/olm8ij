@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-14">April 14, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b3">Roma 1605, Book 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-14" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="447"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-g39777"><!-- l3-d16q1 -->
+            <head xml:id="olm8ij-g39777-Hd1e101">Quaestio 1</head>
+            <p xml:id="olm8ij-g39777-d1e103">
+               <lb ed="#R" n="7"/>DISTJNCTJO XVJ. 
+      <lb ed="#R" n="8"/>Nunc videndum est, quae concurrunt ad 
+      cau<lb ed="#R" n="9" break="no"/>sandum passiones, circa quod quatuor sunt 
+      <lb ed="#R" n="10"/>videnda. Primo de passionibus 
+      corporali<lb ed="#R" n="11" break="no"/>bus, vt deDolore, &amp; Delectatione. 
+      Secun<lb ed="#R" n="12" break="no"/>do de animalibus in concupiscibili. 
+      Ter<lb ed="#R" n="13" break="no"/>tio, vtrum ad passiones corporales 
+      concur<lb ed="#R" n="14" break="no"/>runt passiones animales contormiter. Quar 
+      <lb ed="#R" n="15"/>currant actus conformes in 
+      </p>
+            <p xml:id="olm8ij-g39777-d1e125">
+               <lb ed="#R" n="16"/>Quaestio J. 
+      </p>
+            <div xml:id="olm8ij-g39777-Dd1e130">
+               <head xml:id="olm8ij-g39777-Hd1e132">Articulus 1</head>
+               <head xml:id="olm8ij-g39777-Hd1e134" type="question-title">
+        De dolore, et delectatione quomodo causentur
+      </head>
+               <p xml:id="olm8ij-g39777-d1e137">
+                  <lb ed="#R" n="17"/>ARTJCVLVS J. 
+      <lb ed="#R" n="18"/>De dolore, &amp; delectatione quomodo 
+      cau<lb ed="#R" n="19" break="no"/>sentur. 
+      </p>
+               <p xml:id="olm8ij-g39777-d1e146">
+                  <lb ed="#R" n="20"/>CIRCA primum sunt duo 
+      <lb ed="#R" n="21"/>modi dicendi. Primus autem 
+      <lb ed="#R" n="22"/>est <ref xml:id="olm8ij-g39777-Rd1e154">
+                     <name xml:id="olm8ij-g39777-Nd1e156">Doct. Henrici</name> in 
+      quoli<lb ed="#R" n="23" break="no"/>bet.</ref> ad causandum 
+      dilecta<lb ed="#R" n="24" break="no"/>tiones sunt duae radices. 
+      Pri<lb ed="#R" n="25" break="no"/>ma est abiectio 
+      dispositio<lb ed="#R" n="26" break="no"/>nis consequentis, quia alias 
+      <lb ed="#R" n="27"/>corpus glorificatum in igne 
+      <lb ed="#R" n="28"/>pateretur, &amp; combureretur, 
+      <lb ed="#R" n="29"/>sed sola apprehensione fieret dolor: potest enim 
+      <lb ed="#R" n="30"/>ignem percipere, &amp; tamen non est dolor, quia 
+      ni<lb ed="#R" n="31" break="no"/>hil abijcitur: ergo abiectio remouetur. 
+      </p>
+               <p xml:id="olm8ij-g39777-d1e180">
+                  <lb ed="#R" n="32"/>Secunda radix est apprehensio, quia alias non 
+      <lb ed="#R" n="33"/>doleret, vt patet de dormientibus, qui scinduntur, 
+      <lb ed="#R" n="34"/>&amp; non dolent eo quod sensus eorum sint sine actu, 
+      <lb ed="#R" n="35"/>&amp; simile est de calefactis in praelio. Requiritur 
+      er<lb ed="#R" n="36" break="no"/>go sensata apprehensio tanquam radix ad 
+      causan<lb ed="#R" n="37" break="no"/>dum dolorem: haec est apprehensio quae fertur 
+      di<lb ed="#R" n="38" break="no"/>recte super obiectum, quod ignis est calidus. 
+      Per<lb ed="#R" n="39" break="no"/>ceptio etiam exigitur, quae est actus, qui fertur in 
+      <lb ed="#R" n="40"/>disconueniens, &amp; sic sunt tres radices. 
+      <lb ed="#R" n="41"/>Prima immutatio, vel corruptio abiectiua. 
+      Se<lb ed="#R" n="42" break="no"/>cunda comprehensio sensata. Tertia perceptio. 
+      <lb ed="#R" n="43"/>Modo dicit iste, quod ad verum dolorem, vel 
+      de<lb ed="#R" n="44" break="no"/>lectationem exigitur abiectio corruptiua, vel 
+      sal<lb ed="#R" n="45" break="no"/>uatio. Secunda apprehensio, vt causa sine qua 
+      <lb ed="#R" n="46"/>non. Tertio perceptio disconuenientis, &amp; tunc 
+      se<lb ed="#R" n="47" break="no"/>quitur dolor. 
+      </p>
+               <p xml:id="olm8ij-g39777-d1e218">
+                  <lb ed="#R" n="48"/>Est alius Doctor, cui non placet istud. Et 
+      pri<lb ed="#R" n="49" break="no"/>mo ostendit, quod non sit necessaria prima radix, 
+      <lb ed="#R" n="50"/>scilicet abiectio corruptiua. Secundo dicit, quod 
+      <lb ed="#R" n="51"/>non distinguitur ibi apprehensio, &amp; perceptio. 
+      Ter<lb ed="#R" n="52" break="no"/>tio ostendit, quomodo fit dolor. 
+      <lb ed="#R" n="53"/>Circa primum dicit, quod immutatio corrupti- 
+      <!--0449.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="54"/>ua non est necessaria, imo aliquis potest dolere sine 
+      <lb ed="#R" n="55"/>hoc, quod aliquid abijciatur, &amp; probatur hoc sic: 
+      <lb ed="#R" n="56"/>Sicut est de delectatione, sic de dolore per 
+      opposi<lb ed="#R" n="57" break="no"/>tum: sed delectatio causatur absque inturbatione 
+      <lb ed="#R" n="58"/>ne consequentis realis, vt video pulchrum 
+      colo<lb ed="#R" n="59" break="no"/>rem, ostendo, quod hic non est mutatio per 
+      ali<lb ed="#R" n="60" break="no"/>quam dispositionem realem inductam, quia ista 
+      <lb ed="#R" n="61"/>introductio, vel terminatur ad visionem, &amp; non, 
+      <lb ed="#R" n="62"/>quia non est realis; nec ad aliquid consequens 
+      vi<lb ed="#R" n="63" break="no"/>sionem vt patet; nec ad speciem, quia non est 
+      sal<lb ed="#R" n="64" break="no"/>uata, imo posito, quod ante insit species, non 
+      ter<lb ed="#R" n="65" break="no"/>minaretur ad ipsam. 
+      </p>
+               <p xml:id="olm8ij-g39777-d1e264">
+                  <lb ed="#R" n="66"/>Secundo sic: Excellens sensibile corrumpit subie 
+      <lb ed="#R" n="67"/>ctum, inquantum est perceptiuum: sed sensus 
+      per<lb ed="#R" n="68" break="no"/>ceptiuus non recipit aliquid reale: sed solum 
+      in<lb ed="#R" n="69" break="no"/>tentionale: ergo. Item: Obiectum delectabile 
+      <lb ed="#R" n="70"/>nullam dispositionem includit: sic etiam, nec 
+      tri<lb ed="#R" n="71" break="no"/>stabile, vt patet, de potatione quae introducit 
+      bo<lb ed="#R" n="72" break="no"/>nam dispositionem, &amp; tamen est amara. Sic ergo 
+      <lb ed="#R" n="73"/>prima radix, scilicet immutatio rationalis 
+      corru<lb ed="#R" n="74" break="no"/>ptiua, non est necessaria ad dolorem. 
+      </p>
+               <p xml:id="olm8ij-g39777-d1e286">
+                  <lb ed="#R" n="75"/>Secundo arguo, quia ibi non distinguitur 
+      ap<lb ed="#R" n="76" break="no"/>prehensio a perceptione: ergo vnius potentiae vnus 
+      <lb ed="#R" n="77"/>est actus: sed sensus tactus, est vna potentia, &amp; 
+      po<lb ed="#R" n="78" break="no"/>nitur idem obiectum: ergo potentia illa non 
+      ha<lb ed="#R" n="79" break="no"/>bebit nisi vnum actum. 
+      </p>
+               <p xml:id="olm8ij-g39777-d1e299">
+                  <lb ed="#R" n="80"/>Item: quae differunt sicut vnus, &amp; gradus, non 
+      <lb ed="#R" n="81"/>sunt duo actus: sed percipere non est nisi attenta 
+      <lb ed="#R" n="82"/>apprehensio compilata per voluntatem: ergo. 
+      </p>
+               <p xml:id="olm8ij-g39777-d1e308">
+                  <lb ed="#R" n="83"/>Item, si sic, vnus sensus esset duo sensus: ita quod 
+      <lb ed="#R" n="84"/>vnus feretur in obiectum ad indisconuenientiam. 
+      <lb ed="#R" n="85"/>Item: obiectum tactus per te est perceptiuus, sed 
+      <lb ed="#R" n="86"/>perceptio est relatio: ergo tunc relatio terminabit 
+      <lb ed="#R" n="87"/>actum potentiae. 
+      </p>
+               <p xml:id="olm8ij-g39777-d1e321">
+                  <lb ed="#R" n="88"/>Dicit ergo aliud, quod ad causandum dolorem, 
+      <lb ed="#R" n="89"/>&amp; tristitiam requiritur vnus actus, qui si est 
+      re<lb ed="#R" n="90" break="no"/>missus, vocatur apprehensio, si intensus vocatur 
+      per<lb ed="#R" n="91" break="no"/>ceptio. Secundo dicit, quod sola apprehensio 
+      spi<lb ed="#R" n="92" break="no"/>ritualis requiritur, &amp; non oportet, quod 
+      introdu<lb ed="#R" n="93" break="no"/>catur dispositio disconueniens, vnde dicit, quod hic 
+      <lb ed="#R" n="94"/>vnum obiectum abiicit potentiam absolutam 
+      or<lb ed="#R" n="95" break="no"/>ganicam. Secundo inclinationem ad obiectum, &amp; 
+      <lb ed="#R" n="96"/>quod terminatur ad obiectum. Ista inclinatio est 
+      <lb ed="#R" n="97"/>perfectio obiecti in potentia, tunc apprehenso 
+      obie<lb ed="#R" n="98" break="no"/>cto secundum suum absolutum, si sit perficiens, 
+      <lb ed="#R" n="99"/>statim oritur delectatio; si autem imperficiens, ex 
+      <lb ed="#R" n="100"/>isto absoluto oritur dolor: ergo non ex 
+      consequen<lb ed="#R" n="101" break="no"/>tia, vel relatione, sed ex absoluto oritur 
+      dele<lb ed="#R" n="102" break="no"/>ctatio, &amp; dolor, verbi gratia: Inter actionem, &amp; 
+      <lb ed="#R" n="103"/>passionem est relatio, &amp; est prima relatio inter 
+      ip<lb ed="#R" n="104" break="no"/>sam ipsa inclinatio, ipsa tamen sunt absoluta 
+      <lb ed="#R" n="105"/>tunc sequitur relatio secunda ab inclinatione 
+      <lb ed="#R" n="106"/>quae est applicatio, ex qua sequitur statim forma 
+      <lb ed="#R" n="107"/>producta, non quod sequatur per applicationem 
+      <lb ed="#R" n="108"/>relationem aliquam, vt per causam effectiuam, 
+      <lb ed="#R" n="109"/>nisi per causam sine qua non, sed solum modo 
+      se<lb ed="#R" n="110" break="no"/>quitur per absolutum, tunc concludit, quod sola 
+      <lb ed="#R" n="111"/>apprehensio sensitina est radix, &amp;c. 
+      <lb ed="#R" n="112"/>Nunc dico, quod mihi videtur hic. Si 
+      loqua<lb ed="#R" n="113" break="no"/>mur de facto quantum ad radicem de 
+      immutatio<lb ed="#R" n="114" break="no"/>ne corporali, dico, quod de facto dolor, &amp; 
+      tristi<lb ed="#R" n="115" break="no"/>tia corporalis non sunt sine immutatione aliqua 
+      <lb ed="#R" n="116"/>reali. Si autem loquamur de possibili, est aliud 
+      di<lb ed="#R" n="117" break="no"/>cendum propter corpora damnatorum. Dico 
+      er<lb ed="#R" n="118" break="no"/>go, quod delectationum quaedam sunt naturae 
+      in<lb ed="#R" n="119" break="no"/>digentis, quaedam autem sunt naturae non 
+      indi<lb ed="#R" n="120" break="no"/>gentis. Secundo modo sunt, &amp; dicuntur dele- 
+      <!--0450.xml-->
+      <pb ed="#R" n="448"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>ctationes simpliciter, hoc est, quae omni tempore 
+      <lb ed="#R" n="2"/>sunt aptae natae delectare, vt speculatio, &amp; 
+      huius<lb ed="#R" n="3" break="no"/>modi; naturae vero indigentis sunt delectationes 
+      <lb ed="#R" n="4"/>non simpliciter, quia non in omni tempore, vt 
+      de<lb ed="#R" n="5" break="no"/>lectatio cibi, &amp; potus. Nam satiatus cibo magis 
+      <lb ed="#R" n="6"/>tristatur, quam delectatur. Tunc dico, quod ad 
+      <lb ed="#R" n="7"/>causandum delectationes de primo modo, quae sunt 
+      <lb ed="#R" n="8"/>naturae indigentis, requitur immutatio realis, vt 
+      <lb ed="#R" n="9"/>acquiratur realis dispositio causans 
+      delectatio<lb ed="#R" n="10" break="no"/>nem. In alijs autem delectationibus de secundo 
+      <lb ed="#R" n="11"/>modo non oportet. Ista probo. 
+      </p>
+               <p xml:id="olm8ij-g39777-d1e426">
+                  <lb ed="#R" n="12"/>Primo sic: Omnis delectatio, quae est ex genere 
+      <lb ed="#R" n="13"/>non operatiuo, est ex acquisitione reali, hoc patet 
+      <lb ed="#R" n="14"/>statim, quia generatio est motus realis, &amp; 
+      termi<lb ed="#R" n="15" break="no"/>natur ad realem formam, vnde generatio hic 
+      acci<lb ed="#R" n="16" break="no"/>pitur de perfectione rei, nam dum sic generatur 
+      <lb ed="#R" n="17"/>res, idest perficitur, non dicitur alterari: sed omnes 
+      <lb ed="#R" n="18"/>tales delectationes naturae, scilicet indigentis sunt 
+      <lb ed="#R" n="19"/>generatio: ergo. ista probatur per Philosophum 
+      <lb ed="#R" n="20"/>1. Ethic. 13. 
+      </p>
+               <p xml:id="olm8ij-g39777-d1e448">
+                  <lb ed="#R" n="21"/>Item: ostendo hoc exemplo manu ducto, nam 
+      <lb ed="#R" n="22"/>delectatio, quae est in comedendo, est generatio, eo 
+      <lb ed="#R" n="23"/>quod generatio consistit in acquisitione alicuius 
+      <lb ed="#R" n="24"/>complexionis, &amp; durante tali acquisitione manet 
+      <lb ed="#R" n="25"/>delectatio cibi; dum autem est completa, est 
+      soma<lb ed="#R" n="26" break="no"/>chus fastiditus, &amp; ob hoc ponebant antiqui, quod 
+      <lb ed="#R" n="27"/>delectatio non est bona, eo quod delectatio est 
+      ge<lb ed="#R" n="28" break="no"/>neratio. Probo etiam de dolore, qui consistit 
+      in<lb ed="#R" n="29" break="no"/>abiectione dispositionis consequentis, quod probo 
+      <lb ed="#R" n="30"/>eo, quod terminatur ad communem dispositionem 
+      <lb ed="#R" n="31"/>conuenientis: ergo oritur ex reali immutatione. 
+      <lb ed="#R" n="32"/>Item Arist. lib. 7. Ethic. cap. 12. &amp; lib. 10. cap. 3. De. 
+      <lb ed="#R" n="33"/>lectatio est in acquisitione habitus, nam secundum 
+      <lb ed="#R" n="34"/>eum delectatio non est naturae constitutae, sed 
+      con<lb ed="#R" n="35" break="no"/>stituendae: sed talis habitus est realis dispositio: 
+      <lb ed="#R" n="36"/>ergo. Item ex quo delectationes tales sunt naturae 
+      <lb ed="#R" n="37"/>indigentis, non habet delectationem, nam aliquis 
+      <lb ed="#R" n="38"/>non delectatur indigentia: natura enim indigens 
+      <lb ed="#R" n="39"/>non habet delectationem: ergo delectatur, quando 
+      <lb ed="#R" n="40"/>completur indigentia: hoc autem est per 
+      acquisi<lb ed="#R" n="41" break="no"/>tionem alicuius realis: ergo. 
+      </p>
+               <p xml:id="olm8ij-g39777-d1e496">
+                  <lb ed="#R" n="42"/>Item: ostendo quod omnis delectatio 
+      corpora<lb ed="#R" n="43" break="no"/>lis est dolor, siue tristitia, haec sit saluatiua, illa 
+      <lb ed="#R" n="44"/>autem abiectiua, &amp; hoc sic. Omne, quod magis 
+      <lb ed="#R" n="45"/>factum totaliter corrumpit, in aliquo gradu 
+      fa<lb ed="#R" n="46" break="no"/>ctum aliquid corrumpit: sed omne obiectum 
+      con<lb ed="#R" n="47" break="no"/>tristans subiectum corporaliter magis factum 
+      to<lb ed="#R" n="48" break="no"/>taliter corrumpit: ergo. Probatio minoris, quia 
+      <lb ed="#R" n="49"/>visus corrumpitur ab obiecto tristante, vt scilicet 
+      <lb ed="#R" n="50"/>quando est nimis excellens. Jdem dico de auditu, 
+      <lb ed="#R" n="51"/>vnde sonus acutus aliquid corrumpit in auditu, 
+      <lb ed="#R" n="52"/>quod patet, quia tantum potest intendi, quod 
+      to<lb ed="#R" n="53" break="no"/>taliter corrumpit auditum. Sic dico de 
+      omni<lb ed="#R" n="54" break="no"/>bus obiectis: haec enim si multum intendantur 
+      <lb ed="#R" n="55"/>corrumpunt sensum secundo de anima, excellens sen 
+      <lb ed="#R" n="56"/>sibile, &amp;c. ergo in aliquo gradu vltra proprium ad 
+      <lb ed="#R" n="57"/>porentiam, &amp; ideo non separantur ista duo, scilicet 
+      <lb ed="#R" n="58"/>subiectum contristari, &amp; dispositionem in sensu 
+      cor<lb ed="#R" n="59" break="no"/>rumpi. Tunc per oppositum de delectatione: 
+      om<lb ed="#R" n="60" break="no"/>ne obiectum delectans non solum percipitur, sed 
+      <lb ed="#R" n="61"/>saluat dispositionem in sensu, vnde oculus 
+      dispo<lb ed="#R" n="62" break="no"/>nitur vel ex luce media, &amp; colore medio, &amp; 
+      cor<lb ed="#R" n="63" break="no"/>rumpitur excellenti, vt tantum quis stare posset in 
+      <lb ed="#R" n="64"/>tenebris, quod amitteret visum, quare patet, quod 
+      <lb ed="#R" n="65"/>color medius saluat medium in organo, &amp; talis 
+      co<lb ed="#R" n="66" break="no"/>lor est delectabiiis, &amp; hinc fit, quod nigredo, vel 
+      <lb ed="#R" n="67"/>albedo nimia non delectant: restat ergo, quod 
+      <!--0450.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="68"/>acquisitio conuenientis dispositionis realis sit 
+      de<lb ed="#R" n="69" break="no"/>lectatio. 
+      </p>
+               <p xml:id="olm8ij-g39777-d1e564">
+                  <lb ed="#R" n="70"/>Item, si sola reali apprehensione visus 
+      delectare<lb ed="#R" n="71" break="no"/>tur, nunquam in aliquo tristaretur. Probo, quia 
+      <lb ed="#R" n="72"/>potentia perficitur per actum, &amp; actus 
+      intentiona<lb ed="#R" n="73" break="no"/>lis est perfectio potentiae: si ergo in apprehensione 
+      <lb ed="#R" n="74"/>albi nihil sit nisi intentionale, cum omne obiectum 
+      <lb ed="#R" n="75"/>vt obiectum sit solum consequens, nunquam 
+      sequi<lb ed="#R" n="76" break="no"/>tur, vt oriatur tristitia, cuius oppositum 
+      experi<lb ed="#R" n="77" break="no"/>mur. Vbi enim nulla disconuenientia, nunquam 
+      <lb ed="#R" n="78"/>tristitia oritur. Sed oritur tristitia inquantum 
+      <lb ed="#R" n="79"/>potentia organica est, &amp; ad obiectum agit realiter, 
+      <lb ed="#R" n="80"/>non solum vt obiectum ad corruptionem alicuius 
+      <lb ed="#R" n="81"/>dispositionis consequentis. Tunc respondeo ad 
+      <lb ed="#R" n="82"/>motiua Doct. in propositione opposita sua. 
+      </p>
+               <p xml:id="olm8ij-g39777-d1e595">
+                  <lb ed="#R" n="83"/>Ad primum, cum dicit, non acquiritur actus, nec 
+      <lb ed="#R" n="84"/>species, quia non sunt realitas; Dico, quod verum 
+      <lb ed="#R" n="85"/>est, sed hoc non sufficit. quoniam acquiritur 
+      dispo<lb ed="#R" n="86" break="no"/>sitio saluans, vt in oculo acquiritur dispositio 
+      sal<lb ed="#R" n="87" break="no"/>uans glacialem humorem, &amp; hoc est, quod 
+      praecipi<lb ed="#R" n="88" break="no"/>tur respicere in colores medios, &amp; in aquam, siue 
+      <lb ed="#R" n="89"/>in speculum, ad recuperandam dispositionem, 
+      <lb ed="#R" n="90"/>quae corrumpitur in humore glaciali per colores 
+      <lb ed="#R" n="91"/>extremos, qui humor est complexio organi 
+      vi<lb ed="#R" n="92" break="no"/>sus. Ad aliud dico, per interemptionem, nam 
+      obie<lb ed="#R" n="93" break="no"/>ctum inquantum cognoscibile perficit; &amp; ideo, vt 
+      <lb ed="#R" n="94"/>sic, non corrumpit, nec tristat: ergo non ad 
+      con<lb ed="#R" n="95" break="no"/>tristandum sola apprehensio, sed obiecttio, cuius 
+      <lb ed="#R" n="96"/>oppositum sumit, cum dicit, excellens 
+      sensibile<lb ed="#R" n="97" break="no"/>corrumpit sensum, inquantum est perceptiuus 
+      in<lb ed="#R" n="98" break="no"/>tentionaliter non realiter: hoc enim non est 
+      ve<lb ed="#R" n="99" break="no"/>rum, sed solum inquantum abijcitur dispositio 
+      rea<lb ed="#R" n="100" break="no"/>liter. 
+      </p>
+               <p xml:id="olm8ij-g39777-d1e637">
+                  <lb ed="#R" n="101"/>Ad aliud dico, quod potio amara est tristabilis 
+      <lb ed="#R" n="102"/>gustui, &amp; ab eo dispositionem abiicit aliquam 
+      rea<lb ed="#R" n="103" break="no"/>lem conuenientem: sed in corpore inducit 
+      disposi<lb ed="#R" n="104" break="no"/>tionem, vbi non est ille sensus. Vnde nunquam 
+      <lb ed="#R" n="105"/>abiiciens dispositionem congruam est delectabile, 
+      <lb ed="#R" n="106"/>nisi illa dispositio non sit potentiae. Sicut multa 
+      <lb ed="#R" n="107"/>dulcia delectant gustum, quae tamen abijciunt 
+      di<lb ed="#R" n="108" break="no"/>spositionem interiorem. Quid ergo dicendum de 
+      <lb ed="#R" n="109"/>facto? Dicendum est, quod delectationes, vel 
+      conse<lb ed="#R" n="110" break="no"/>quuntur apprehensionem sensitiuam, cuiusmodi sunt 
+      <lb ed="#R" n="111"/>delectationes corporales, vel non; de secundo 
+      mo<lb ed="#R" n="112" break="no"/>do non est abiectio; sed de primis, quae sunt 
+      cor<lb ed="#R" n="113" break="no"/>porales. Tunc dico de talibus, quod inter 
+      poten<lb ed="#R" n="114" break="no"/>tiam, &amp; obiectum est relatio cognoscentis, &amp; 
+      co<lb ed="#R" n="115" break="no"/>gniti, &amp; quantum ad hoc est semper 
+      consequen<lb ed="#R" n="116" break="no"/>tia inter potentiam, &amp; obiectum, &amp; sic semper 
+      <lb ed="#R" n="117"/>sequitur delectatio. Sed vlterius, quoniam 
+      huius<lb ed="#R" n="118" break="no"/>modi actus vel sunt formaliter immutationes 
+      rea<lb ed="#R" n="119" break="no"/>liter contra intentionales, vt Philosophus vult, 
+      <lb ed="#R" n="120"/>quod in parte sensitiua sit alteratio, sicut 
+      disgre<lb ed="#R" n="121" break="no"/>gare albedinis est abiectio formaliter, quia idem 
+      <lb ed="#R" n="122"/>est, quod speciem recipi in glaciali humore 
+      rare<lb ed="#R" n="123" break="no"/>faciendo, &amp; ideo est abiectiua. 
+      </p>
+               <p xml:id="olm8ij-g39777-d1e690">
+                  <lb ed="#R" n="124"/>Item: tactus consistit in medio, &amp; ideo 
+      nun<lb ed="#R" n="125" break="no"/>quam potest pati, nisi reali actione, quae 
+      abijci<lb ed="#R" n="126" break="no"/>tur a medio, ex hoc ergo patiuntur potentiae ab 
+      <lb ed="#R" n="127"/>obiecto realem immutationem. Tunc, quorum 
+      <lb ed="#R" n="128"/>obiectorum actio est abiectiua, vt obiectorum 
+      ex<lb ed="#R" n="129" break="no"/>cellentium, vt lux, &amp; tenebra, ex talibus dico 
+      <lb ed="#R" n="130"/>oritur tristitia, siue dolor; quorum vero actio 
+      <lb ed="#R" n="131"/>est saluatica, vt obiectorum mediorum, ex istis 
+      <lb ed="#R" n="132"/>oritur delectatio: Non oritur autem ex istis 
+      dele<lb ed="#R" n="133" break="no"/>ctatio, vel tristitia, inquantum sunt cognitiua, 
+      <lb ed="#R" n="134"/>sed inquantum potentia est talis, quod eius passio 
+      <!--0451.xml-->
+      <pb ed="#R" n="449"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>non est nisi realis, &amp; abiectiua, vel saluatiua: ex 
+      <lb ed="#R" n="2"/>hoc autem sequitur, quod delectatio in 
+      apprehen<lb ed="#R" n="3" break="no"/>dendo non est contrarium, quia non cooperatur ad 
+      <lb ed="#R" n="4"/>potentiam, nisi vt sensibilis non immutans 
+      ratio<lb ed="#R" n="5" break="no"/>nalem dispositionem. Vnde priuatio actus non 
+      es<lb ed="#R" n="6" break="no"/>set tristitia, sed solum abiectio alicuius realis. Quia 
+      <lb ed="#R" n="7"/>vero obiecta sensus immutant realiter, ideo si solum 
+      <lb ed="#R" n="8"/>esset apprehensiua, delectationi sensus non esset 
+      con<lb ed="#R" n="9" break="no"/>trarium: sed quia realiter immutant, sunt 
+      saluati<lb ed="#R" n="10" break="no"/>ua, vel abiectiua necessario, &amp; ideo contrarium 
+      de<lb ed="#R" n="11" break="no"/>lectationi secundum sensum. Et hoc est, quod 
+      di<lb ed="#R" n="12" break="no"/>citur in 1. Topic. cap. 13. Delectationi, quae est in 
+      <lb ed="#R" n="13"/>intelligendo, nihil est contrarium. 
+      </p>
+               <p xml:id="olm8ij-g39777-d1e751">
+                  <lb ed="#R" n="14"/>Sed quid dicemus de damnatis? Est hic 
+      maxi<lb ed="#R" n="15" break="no"/>ma difficultas, &amp; magna, similiter de beatis, 
+      quo<lb ed="#R" n="16" break="no"/>niam ita iudicat calorem digitus beati, sicut 
+      digi<lb ed="#R" n="17" break="no"/>tus damnati, &amp; tamen non dolet, sicut damnatus: 
+      <lb ed="#R" n="18"/>ergo dolor inest damnato ex alio, quam ex 
+      appre<lb ed="#R" n="19" break="no"/>hensione, quia ista est communis beatis. Igitur 
+      di<lb ed="#R" n="20" break="no"/>co, quod delectatio, vel tristitia est ab 
+      immutatio<lb ed="#R" n="21" break="no"/>ne ab obiecto, quod sic, vel sic trahit. Sed dubium 
+      <lb ed="#R" n="22"/>est de damnatis, quia impossibile est, quod effectus 
+      <lb ed="#R" n="23"/>separetur a causa: sed secundum te tristitia est ex 
+      <lb ed="#R" n="24"/>abiectione, quae sequitur ex immutatione reali ab 
+      <lb ed="#R" n="25"/>obiecto: ergo. 
+      </p>
+               <p xml:id="olm8ij-g39777-d1e780">
+                  <lb ed="#R" n="26"/>Posset dici, quod forte est, quod tristitia oritur 
+      <lb ed="#R" n="27"/>ex obiecto, vt est aptum natum abijcere: sed dicam 
+      <lb ed="#R" n="28"/>sic de beatis, quid igitur dicendum. Ista 
+      difficul<lb ed="#R" n="29" break="no"/>tas habet locum in quarto, &amp; ideo modo 
+      superse<lb ed="#R" n="30" break="no"/>deo. In hoc autem resideo, quod tristitia est 
+      rea<lb ed="#R" n="31" break="no"/>lis abiectio conuenientis alicuius. Delectatio 
+      ve<lb ed="#R" n="32" break="no"/>ro e conuerso, sicut de sono medio patet, qui ideo 
+      <lb ed="#R" n="33"/>delectat, quoniam saluat aerem complantarem, 
+      <lb ed="#R" n="34"/>quem abijcit sonus acutus. hoc ergo dictum sit de 
+      <lb ed="#R" n="35"/>radice passionum corporalium. 
+      </p>
+               <p xml:id="olm8ij-g39777-d1e804">
+                  <lb ed="#R" n="36"/>Sed an vltra apprehensionem sit necessaria 
+      per<lb ed="#R" n="37" break="no"/>ceptio, vt dicit prima opinio, non oportet negare 
+      <lb ed="#R" n="38"/>hoc propter rationem Doctoris arguentis ad oppo 
+      <lb ed="#R" n="39"/>situm, quoniam iste Doctor imaginatur, quod aliud 
+      <lb ed="#R" n="40"/>sit apprehensio, &amp; aliud perceptio, ita quod 
+      perce<lb ed="#R" n="41" break="no"/>ptio sit actus potentiae superioris iudicantis, &amp; ideo 
+      <lb ed="#R" n="42"/>non doleret homo, nisi esset perceptio, quod patet 
+      <lb ed="#R" n="43"/>de beatis, non enim dolent, quoniam iudicant non 
+      <lb ed="#R" n="44"/>esse disconueniens. Quod ergo ibi sit apprehensio, 
+      <lb ed="#R" n="45"/>&amp; perceptio per potentiam iudicatiuam 
+      superio<lb ed="#R" n="46" break="no"/>rem, ex quibus sequitur dolor, non video 
+      opposi<lb ed="#R" n="47" break="no"/>tum, &amp; respondeo ad argumenta, quae alius Doctor 
+      <lb ed="#R" n="48"/>adducit contra eum. 
+      </p>
+               <p xml:id="olm8ij-g39777-d1e835">
+                  <lb ed="#R" n="49"/>Ad primum patet, quod non possint 
+      apprehen<lb ed="#R" n="50" break="no"/>dere, &amp; percipere esse actus vnius potentiae, sed 
+      <lb ed="#R" n="51"/>duarum. Ad secundum dico, quod non concludit, 
+      <lb ed="#R" n="52"/>quia non est verum, quod dicit, eo quod contra 
+      <lb ed="#R" n="53"/>idem est apprehensio, &amp; perceptio. Ad aliud 
+      di<lb ed="#R" n="54" break="no"/>co, quod non sunt duo sensus, sed sicut ad iudicium 
+      <lb ed="#R" n="55"/>de re visa concurrit sensus visus, &amp; sensus 
+      commu<lb ed="#R" n="56" break="no"/>nis, sic in proposito. Ad aliud dico, quod idem 
+      <lb ed="#R" n="57"/>dicam de aestimatiua, quae apprehendit inimicitiam 
+      <lb ed="#R" n="58"/>in lupo, &amp; in filio conuenientiam, vnde dicere 
+      op<lb ed="#R" n="59" break="no"/>positum est contra experientiam. Et si dicit, aliud 
+      <lb ed="#R" n="60"/>apprehendit, non relationem, sufficit mihi, quia 
+      il<lb ed="#R" n="61" break="no"/>lud voco conueniens. Sic ergo posset 
+      respondere<lb ed="#R" n="62" break="no"/>Henricus ad obiectiones istius Doctoris: sed ego 
+      <lb ed="#R" n="63"/>non teneo, quod ad causandum dolorem exigatur 
+      <lb ed="#R" n="64"/>iudicium aestimatiuae: sed dico, quod sola apprehen 
+      <lb ed="#R" n="65"/>sio exterior requiratur, &amp; ratio est, quoniam dolor 
+      <lb ed="#R" n="66"/>est in appetitu exteriori subiectiue, vnde non est 
+      <lb ed="#R" n="67"/>subiectiue in corde: quoniam alius est dolor carnis 
+      <lb ed="#R" n="68"/>&amp; delectatio, quam dolor, &amp; delectatio cordis, tūc 
+      <!--0451.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>aestimatiua non causat aliquid exteriori: ergo. 
+      <lb ed="#R" n="70"/>Maior patet, quia diuersis appetitibus respondent 
+      <lb ed="#R" n="71"/>diuersae apprehensiuae, &amp; aestimatiuae: sed 
+      appeti<lb ed="#R" n="72" break="no"/>tui interiori respondet aestimatiua: ergo. 
+      </p>
+               <p xml:id="olm8ij-g39777-d1e894">
+                  <lb ed="#R" n="73"/>Item, tunc sequeretur, quod in sensu exteriori 
+      es<lb ed="#R" n="74" break="no"/>set delectatio, &amp; tristitia suturorum, quae iudicat 
+      <lb ed="#R" n="75"/>aesttimatio.
+      </p>
+               <p xml:id="olm8ij-g39777-d1e904">
+                  <lb ed="#R" n="76"/>Item, ex sola apprehensione aestimatiuae sequun 
+      <lb ed="#R" n="77"/>tur omnes passiones eam concomitantes, vt 
+      passio<lb ed="#R" n="78" break="no"/>nes cordis, tunc ergo sequitur, quod per solam 
+      ap<lb ed="#R" n="79" break="no"/>prehensionem aestimatiuae fieret dolor exterius. 
+      </p>
+               <p xml:id="olm8ij-g39777-d1e915">
+                  <lb ed="#R" n="80"/>Tunc cuilibet apprehensioni respondet 
+      appeti<lb ed="#R" n="81" break="no"/>tus proprius: ergo non oportet concurrere 
+      iudi<lb ed="#R" n="82" break="no"/>cium: ergo videtur quod sufficiat appetitus 
+      exte<lb ed="#R" n="83" break="no"/>rior. Vel potest intelligi, quod obiectum causet 
+      <lb ed="#R" n="84"/>dolorem immediate idem. Vt ergo videtur primo 
+      <lb ed="#R" n="85"/>apprehensum, primo modo non: sed oportet quod 
+      <lb ed="#R" n="86"/>sit apprehensum sensu, &amp; ideo quando sensus non 
+      <lb ed="#R" n="87"/>est in actu, non sentitur dolor, vt patet de 
+      dormiem<lb ed="#R" n="88" break="no"/>te: tunc sicut obiectum non mouet appetitum 
+      ani<lb ed="#R" n="89" break="no"/>malem, nisi sit apprehensum interiori 
+      apprehensio<lb ed="#R" n="90" break="no"/>ne, sic in proposito: ergo obiectum causat dolorem 
+      <lb ed="#R" n="91"/>in potentia organica, non solum vt cognitiua est, 
+      <lb ed="#R" n="92"/>sed etiam quia est immutatio in organo reale, &amp; 
+      <lb ed="#R" n="93"/>eodem iudicio capitur obiectum, &amp; 
+      disconuenien<lb ed="#R" n="94" break="no"/>tia de excellenti obiecto, non quia sensus 
+      corpora<lb ed="#R" n="95" break="no"/>lis iudicet obiectum conueniens, vel inconueniens: 
+      <lb ed="#R" n="96"/>Dico, quod ad causandum passionem non 
+      requiri<lb ed="#R" n="97" break="no"/>tur acquisitio dispositionis realis, quae non sit 
+      sen<lb ed="#R" n="98" break="no"/>sus, vt dicit prima opinio, nec exigitur acquisitio 
+      <lb ed="#R" n="99"/>dispositionis solum intentionalis, vt tangit 
+      secun<lb ed="#R" n="100" break="no"/>da opinio, sed eo modo, quo dixi superius, &amp; hoc 
+      <lb ed="#R" n="101"/>dictum sit de causantibus passiones corporales. 
+      </p>
+               <p xml:id="olm8ij-g39777-d1e965">
+                  <lb ed="#R" n="102"/>Nunc videndum est de ijs, quae concurrunt ad 
+      <lb ed="#R" n="103"/>causandum passiones animales, scilicet irascibiles, 
+      <lb ed="#R" n="104"/>&amp; concupiscibilis. Dico autem, quod non sufficit 
+      <lb ed="#R" n="105"/>apprehensio exterior, nec imaginatiua solum, 
+      <lb ed="#R" n="106"/>sed aestimatio in brutis, in nobis vero 
+      cogita<lb ed="#R" n="107" break="no"/>tiua 
+      </p>
+               <p xml:id="olm8ij-g39777-d1e981">
+                  <lb ed="#R" n="108"/>Sed contra hoc videtur experientia, quoniam 
+      <lb ed="#R" n="109"/>ex visione amici statim sine alio commouetur, &amp; 
+      <lb ed="#R" n="110"/>tristatur de inimico. Respondeo: Dico quod 
+      nul<lb ed="#R" n="111" break="no"/>lo modo, &amp; probo primo sic de imaginatione, 
+      quo<lb ed="#R" n="112" break="no"/>niam 2. de anima tex. 153. ad ea, quae sunt in 
+      ima<lb ed="#R" n="113" break="no"/>ginatione, nos habemus sicut ad picturam: sed ista 
+      <lb ed="#R" n="114"/>non inducit passionem: ergo multo minus illa, cum 
+      <lb ed="#R" n="115"/>ista sit simplicior. 
+      </p>
+               <p xml:id="olm8ij-g39777-d1e1001">
+                  <lb ed="#R" n="116"/>Item, appetitus interior dicitur animalis 
+      perfe<lb ed="#R" n="117" break="no"/>cti, appetitus autem exterior dicitur etiam 
+      imper<lb ed="#R" n="118" break="no"/>fectorum: ergo sensus interior non mouetur solum 
+      <lb ed="#R" n="119"/>apprehensione exteriori. 
+      </p>
+               <p xml:id="olm8ij-g39777-d1e1012">
+                  <lb ed="#R" n="120"/>Item, illa apprehensio causat dolorem, 
+      inquan<lb ed="#R" n="121" break="no"/>tum fertur in obiectum. vt causatiuum doloris, 
+      obie<lb ed="#R" n="122" break="no"/>ctum enim non praesentatur huiusmodi, vt spes 
+      <lb ed="#R" n="123"/>boni acquisibilis cum difficultate. Dico, quod 
+      il<lb ed="#R" n="124" break="no"/>lud. quod est bonum, potest imaginatio praesentare, 
+      <lb ed="#R" n="125"/>sed non arduum, quia actus cogitatiuae 
+      componem<lb ed="#R" n="126" break="no"/>tis arduitatem cum illo, igitur appetitus non 
+      mo<lb ed="#R" n="127" break="no"/>uetur ad spem solum imaginatione. Item: 
+      Obie<lb ed="#R" n="128" break="no"/>ctum spei est bonum, vt futurum, sed imaginatio 
+      <lb ed="#R" n="129"/>non apprehendit vnquam futurum, vt quod 
+      attri<lb ed="#R" n="130" break="no"/>buat futuri rationem obiecti, quoniam actus 
+      ima<lb ed="#R" n="131" break="no"/>ginatiuae non est, nisi vti formis sensatis: sed 
+      com<lb ed="#R" n="132" break="no"/>ponere imaginata est actus imaginatiuae: ergo 
+      ob<lb ed="#R" n="133" break="no"/>iectum suturum, vt quod attribuat, nunquam 
+      po<lb ed="#R" n="134" break="no"/>test praesentari appetitur nisi per cogitatiuam, 
+      qua<lb ed="#R" n="135" break="no"/>re obiectum vt apprehensum imaginatione solum 
+      <lb ed="#R" n="136"/>non causat passionem, quae est spes. Idem dico de 
+      <!--0452.xml-->
+      <pb ed="#R" n="450"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>morte: imaginans enim mortem, vt sui 
+      comestio<lb ed="#R" n="2" break="no"/>nem, istud non inducit dolorem, nisi prout 
+      attri<lb ed="#R" n="3" break="no"/>buit sibi cogitatio mortis opinionem. 
+      </p>
+               <p xml:id="olm8ij-g39777-d1e1065">
+                  <lb ed="#R" n="4"/>Ideo tertio de anima dicitur, opinio ab 
+      imagi<lb ed="#R" n="5" break="no"/>natione, quia illa mouet, sic dico etiam de actu 
+      con<lb ed="#R" n="6" break="no"/>cupiscibilis, vnde obiectum concupiscibilis est, cui 
+      <lb ed="#R" n="7"/>attribuit cogitatio conuenientiam. 
+      </p>
+               <p xml:id="olm8ij-g39777-d1e1076">
+                  <lb ed="#R" n="8"/>Ad aliud de amico, quod simul cum hoc est actus 
+      <lb ed="#R" n="9"/>interior, vt ex visu lupi statim apprehendit eius 
+      <lb ed="#R" n="10"/>inimicitiam. Sed hic dubium, quaero enim, Vtrum 
+      <lb ed="#R" n="11"/>aestimatiua apprehendat intentiones non sensatas, 
+      <lb ed="#R" n="12"/>&amp; quod sic, videtur per Auicennam de oue 
+      respe<lb ed="#R" n="13" break="no"/>ctu lupi. 
+    </p>
+               <p xml:id="olm8ij-g39777-d1e1092">
+                  <lb ed="#R" n="14"/>Item, ratione eadem potentia apprehensiua non 
+      <lb ed="#R" n="15"/>immutata sequitur idem motus appetitus: sed 
+      ap<lb ed="#R" n="16" break="no"/>prehenso lupo in communi, eo quod potest 
+      imagi<lb ed="#R" n="17" break="no"/>nari, non sequitur motus, sed appetitus, quod 
+      pro<lb ed="#R" n="18" break="no"/>bo, nam equus videt vnam rem, quam timet, toties 
+      <lb ed="#R" n="19"/>autem potest duci, quod non timet: ergo quid 
+      mo<lb ed="#R" n="20" break="no"/>do, vel ante magis imaginabatur, vnde primo erat 
+      <lb ed="#R" n="21"/>motus in appetitu, &amp; modo non? certe nihil aliud 
+      <lb ed="#R" n="22"/>ante imaginabatur illud, vt terribile, modo non: 
+      <lb ed="#R" n="23"/>ergo disconuenientia ante apprehendebatur. 
+      De<lb ed="#R" n="24" break="no"/>inde intentiones sensatae sunt quaedam relationes, 
+      <lb ed="#R" n="25"/>relatio autem nullo sensu apprehenditur: ergo. 
+      </p>
+               <p xml:id="olm8ij-g39777-d1e1121">
+                  <lb ed="#R" n="26"/>Respondeo. Distinguo de relatione. Est 
+      quae<lb ed="#R" n="27" break="no"/>dam relatio de genere relationis, &amp; in talem non 
+      <lb ed="#R" n="28"/>fertur sensus, nec per se, nec cum obiecto. Sunt aliae 
+      <lb ed="#R" n="29"/>relationes aliorum generum, vt simus, &amp; 
+      huius<lb ed="#R" n="30" break="no"/>modi, &amp; de talibus, vtrum cadant in sensu, 
+      distin<lb ed="#R" n="31" break="no"/>guo. Vel capitur in se, vel cum fundamentis, vt fit, 
+      <lb ed="#R" n="32"/>quando capitur variatio duorum: loquendo 
+      pri<lb ed="#R" n="33" break="no"/>mo modo dico, quod sic. Secundo modo, quod 
+      <lb ed="#R" n="34"/>non. Hoc autem patet de sensu iudicante modo 
+      <lb ed="#R" n="35"/>duo corpora vnita, nulla facta in aliquo illorum 
+      <lb ed="#R" n="36"/>mutatione, praeterquam in eorum relatione, vt hãc 
+      <lb ed="#R" n="37"/>percipit sensus semper cum substrato, &amp; talia 
+      sen<lb ed="#R" n="38" break="no"/>sibilia commmunia sunt quinque sensibus. 
+      </p>
+               <p xml:id="olm8ij-g39777-d1e1152">
+                  <lb ed="#R" n="39"/>De his tunc, Vtrum talia sunt quae mouent 
+      ap<lb ed="#R" n="40" break="no"/>petitum? Dico, quod non primo, &amp; directe, vnde 
+      <lb ed="#R" n="41"/>ouis apprehendens lupum, sua aestimatiua 
+      compo<lb ed="#R" n="42" break="no"/>nit, eo quod potest copulare futurum, &amp; sic potest 
+      <lb ed="#R" n="43"/>sui comestionem imaginarit potest enim imaginari 
+      <lb ed="#R" n="44"/>comestionem, &amp; futuritionem, &amp; sua aestimatiua 
+      <lb ed="#R" n="45"/>copulare vtrumque, &amp; tunc dicitur, quod 
+      appre<lb ed="#R" n="46" break="no"/>hendit inimicitiam, &amp; sic comestio imaginata 
+      mo<lb ed="#R" n="47" break="no"/>uet appetitum, non vt sic, sed prout copulatur, &amp; 
+      <lb ed="#R" n="48"/>quia componit vnum sensatum cum alio sensato, 
+      <lb ed="#R" n="49"/>dicitur componere, &amp; dicuntur intentiones non 
+      <lb ed="#R" n="50"/>sensatae, quia aliae fiunt, vel cadunt sub sensu, semper 
+      <lb ed="#R" n="51"/>tamen cum fundamento. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

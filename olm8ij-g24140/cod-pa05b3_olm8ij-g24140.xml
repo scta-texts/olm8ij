@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-14">April 14, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b3">Roma 1605, Book 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-14" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="401"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-g24140"><!-- l3-d10q1 -->
+            <head xml:id="olm8ij-g24140-Hd1e101">Quaestio 1</head>
+            <p xml:id="olm8ij-g24140-d1e103">
+               <lb ed="#R" n="63"/>DISTINCTIO X. 
+      <lb ed="#R" n="64"/>Circa Distinctionem Decimam quaerit Magi- 
+      <!--0403.xml-->
+      <cb ed="#R" n="b"/>
+               <lb ed="#R" n="65"/>ster: Vtrum Christus in quantum homo 
+      <lb ed="#R" n="66"/>fuerit persona. Item de Praedestinatione, 
+      <lb ed="#R" n="67"/>Vtrum fuerit praedestinatus. Tertio de 
+      <lb ed="#R" n="68"/>Adoptione: Vtrum fuerit filius adoptiuus. 
+      <lb ed="#R" n="69"/>De primis duobus iam patet in 
+      praeceden<lb ed="#R" n="70" break="no"/>tibus. Solum quaero, Vtrum Christus 
+      fue<lb ed="#R" n="71" break="no"/>rit filius adoptiuus: vel, Vtrum in Christo 
+      <lb ed="#R" n="72"/>fuerit filiatio adoptiua. Quod sic: Vbi est 
+      <lb ed="#R" n="73"/>praecise, &amp; immediatum fundamentum 
+      ali<lb ed="#R" n="74" break="no"/>cuius relationis, ibi est relatio sequens 
+      fun<lb ed="#R" n="75" break="no"/>damentum: sed immediatum fundamentum 
+      <lb ed="#R" n="76"/>filiationis adoptiuae est in Christo: ergo.
+    </p>
+            <p xml:id="olm8ij-g24140-d1e140">
+               <lb ed="#R" n="77"/>Probatio minoris, immediatum fundamentum 
+      <lb ed="#R" n="78"/>filiationis adoptiuae est natura rationalis 
+      <lb ed="#R" n="79"/>gratia informata, vt omnes concedunt: 
+      <lb ed="#R" n="80"/>sed hoc maxime fuit in Christo: ergo.
+    </p>
+            <p xml:id="olm8ij-g24140-d1e151">
+               <lb ed="#R" n="81"/>Item, quicquid est dignitatis in creaturis, 
+      to<lb ed="#R" n="82" break="no"/>tum est attribuendum Verbo: sed 
+      digni<lb ed="#R" n="83" break="no"/>tatis est inter homines esse filium 
+      adopti<lb ed="#R" n="84" break="no"/>uum: ergo. 
+    </p>
+            <p xml:id="olm8ij-g24140-d1e162">
+               <lb ed="#R" n="85"/>Item: Christus, secundum quod homo est 
+      Fi<lb ed="#R" n="86" break="no"/>lius Dei, &amp; secundum quod homo est 
+      gra<lb ed="#R" n="87" break="no"/>tuitus Filius Dei, non naturalis, quia sic est 
+      <lb ed="#R" n="88"/>a Deo per generationem aeternam: ergo 
+      <lb ed="#R" n="89"/>relinquitur, quod sit gratuitum: tunc 
+      se<lb ed="#R" n="90" break="no"/>quitur quem his vocamus, esse filium 
+      ado<lb ed="#R" n="91" break="no"/>ptionis. Sed hic sunt tria inquirenda. 
+    </p>
+            <p xml:id="olm8ij-g24140-d1e181">
+               <lb ed="#R" n="92"/>Quaestio J.
+      </p>
+            <div xml:id="olm8ij-g24140-Dd1e186">
+               <head xml:id="olm8ij-g24140-Hd1e188">Articulus 1</head>
+               <head xml:id="olm8ij-g24140-Hd1e190" type="question-title">
+        An Deo conueniat actiue adoptare.
+      </head>
+               <p xml:id="olm8ij-g24140-d1e193">
+                  <lb ed="#R" n="93"/>ARTJCVLVS J. 
+      <lb ed="#R" n="94"/>An Deo conueniat actiue adoptare. 
+      </p>
+               <p xml:id="olm8ij-g24140-d1e200">
+                  <lb ed="#R" n="95"/>PRIMO, An Deo 
+      conue<lb ed="#R" n="96" break="no"/>niat actiue adoptare. 
+      Se<lb ed="#R" n="97" break="no"/>cundo: Cui personae in 
+      di<lb ed="#R" n="98" break="no"/>uinis conueniat adoptare. 
+      <lb ed="#R" n="99"/>Et tertio: an adoptio 
+      passi<lb ed="#R" n="100" break="no"/>ua conueniat Christo. 
+      </p>
+               <p xml:id="olm8ij-g24140-d1e216">
+                  <lb ed="#R" n="101"/>Est autem regula <ref xml:id="olm8ij-g24140-Rd1e220">Ansel. 
+      <lb ed="#R" n="102"/>Monol. 5.</ref> quod quicquid 
+      <lb ed="#R" n="103"/>perfectionis naturalis, vel 
+      <lb ed="#R" n="104"/>mrggccc cuetudinalis est in creatura, totum 
+      <lb ed="#R" n="105"/>debet attribui Deo: tunc licet filiatio adoptiua 
+      a<lb ed="#R" n="106" break="no"/>ctiue non sit perfectio naturalis, est tamen 
+      consue<lb ed="#R" n="107" break="no"/>tudinalis: nam adoptio inter homines fuit 
+      inuen<lb ed="#R" n="108" break="no"/>ta, quando scilicet aliquis habens affluentem 
+      hae<lb ed="#R" n="109" break="no"/>reditatem non habet liberos ad illam, vel quia sunt 
+      <lb ed="#R" n="110"/>indigni, si habet, vel quia haereditas tanta, quod 
+      po<lb ed="#R" n="111" break="no"/>test alios admittere extraneos non absolute, sed 
+      <lb ed="#R" n="112"/>aduptando intrinsece vt sic admittat eum ad amo 
+      <lb ed="#R" n="113"/>rem filialem. hoc autem patet esse perfectionis in 
+      <lb ed="#R" n="114"/>hominibus; sed aliud attribuendum est Deo: vnde 
+      <lb ed="#R" n="115"/>esto, quod Deus habeat Filium aeternum dignum, 
+      <lb ed="#R" n="116"/>&amp; alios, vt angelos, quia tamen haereditas est 
+      tan<lb ed="#R" n="117" break="no"/>ta, quod potest absque sui diminutione ab alijs pos 
+      <lb ed="#R" n="118"/>sideri, dignum est aliquos adoptare ad hanc 
+      haere<lb ed="#R" n="119" break="no"/>ditatem, quos admittat ad amorem filialem: ex 
+      <lb ed="#R" n="120"/>hoc colligitur, quod adoptio non est, nisi admissio 
+      <lb ed="#R" n="121"/>personae extraneae ad amorem naturalem, ex quo 
+      <lb ed="#R" n="122"/>deputetur ad haereditatem.
+      </p>
+               <p xml:id="olm8ij-g24140-d1e270">
+      <!--0404.xml-->
+                  <pb ed="#R" n="402"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Dico autem admissio extranei, quia si esset 
+      na<lb ed="#R" n="2" break="no"/>turalis, non esset adoptio. 
+      </p>
+               <p xml:id="olm8ij-g24140-d1e283">
+                  <lb ed="#R" n="3"/>Secundo dico, aut ad amorem filialem, quoniam 
+      <lb ed="#R" n="4"/>si esset ad aliquod aliud donum, non propter hoc 
+      <lb ed="#R" n="5"/>magis diceretur filius, quam alius. 
+      </p>
+               <p xml:id="olm8ij-g24140-d1e292">
+                  <lb ed="#R" n="6"/>Dico tertio, ex quo amore deputetur ad 
+      haere<lb ed="#R" n="7" break="no"/>ditatem, quia si hoc deficeret, non esset filiatio ado 
+      <lb ed="#R" n="8"/>ptionis: sed hoc Deo competit, quod nos deputet 
+      <lb ed="#R" n="9"/>amore filiali ad haereditatem gloriae, iuxta illud 
+      <lb ed="#R" n="10"/>Pauli ad Haebr. cap. 1. Ego ero illi in Patrem, ipse 
+      <lb ed="#R" n="11"/>erit mihi in Filium: ergo. Ergo Deo attribuetur 
+      <lb ed="#R" n="12"/>ista perfectio, licet sit consuetudinalis: hoc de 
+      pri<lb ed="#R" n="13" break="no"/>mo articulo. 
+      </p>
+            </div>
+            <div xml:id="olm8ij-g24140-Dd1e313">
+               <head xml:id="olm8ij-g24140-Hd1e315">Articulus 2</head>
+               <head xml:id="olm8ij-g24140-Hd1e317" type="question-title">
+        Cui Personae in diuinis attribuatur adoptio
+      </head>
+               <p xml:id="olm8ij-g24140-d1e320">
+                  <lb ed="#R" n="14"/>ARTJCVLVS JJ. 
+      <lb ed="#R" n="15"/>Cui Personae in diuinis attribuatur adoptio. 
+      </p>
+               <p xml:id="olm8ij-g24140-d1e327">
+                  <lb ed="#R" n="16"/>CIrca secundum, cui Personae in diuinis 
+      attri<lb ed="#R" n="17" break="no"/>buamus adoptionem actiuam. Videtur quod 
+      <lb ed="#R" n="18"/>Patri, quia habet Filium naturalem: ad eundem 
+      <lb ed="#R" n="19"/>autem pertinet adoptare, ad quem pertinet filium 
+      <lb ed="#R" n="20"/>naturalem habere. 
+      </p>
+               <p xml:id="olm8ij-g24140-d1e340">
+                  <lb ed="#R" n="21"/>Sed quod Filio, videtur per illud Apostoli ad 
+      <lb ed="#R" n="22"/>Galatas cap. 4. Misit Deus Filium suum natum ex 
+      <lb ed="#R" n="23"/>muliere, factum sub lege, vt eos, qui sub lege 
+      <lb ed="#R" n="24"/>erant redimeret, vt adoptionem filiorum 
+      reci<lb ed="#R" n="25" break="no"/>peremus. 
+      </p>
+               <p xml:id="olm8ij-g24140-d1e354">
+                  <lb ed="#R" n="26"/>Tertio videtur, quod Spiritus sanctus, quia 
+      ado<lb ed="#R" n="27" break="no"/>ptio fit per gratiam: ergo. 
+      </p>
+               <p xml:id="olm8ij-g24140-d1e361">
+                  <lb ed="#R" n="28"/>Dico, quod toti Trinitati conuenit adoptare: 
+      <lb ed="#R" n="29"/>nam tota Trinitas vnica adoptione adoptat: sed 
+      <lb ed="#R" n="30"/>appropriate tanquam principali agenti ex 
+      aucto<lb ed="#R" n="31" break="no"/>ritate debetur Patri, sicut potentia, quia illius est 
+      <lb ed="#R" n="32"/>primo communicare haereditatem, cuius est primo 
+      <lb ed="#R" n="33"/>haereditas: sed Patris est primo, vt dicit Glossa 
+      <lb ed="#R" n="34"/>prioritate originis: ergo. Per modum autem 
+      me<lb ed="#R" n="35" break="no"/>riti &amp; exemplaris debetur Filio, eo quod sua 
+      pas<lb ed="#R" n="36" break="no"/>sio fuit nobis meritum, &amp; medium ad hoc, vt 
+      esse<lb ed="#R" n="37" break="no"/>mus filij adoptionis; sed quia adoptio formaliter 
+      <lb ed="#R" n="38"/>fit per gratiam: &amp; gratia Spiritui sancto 
+      lappropria<lb ed="#R" n="39" break="no"/>tur, isto modo dico appropriate debetur Spiritui 
+      <lb ed="#R" n="40"/>sancto. hoc de secundo articulo. 
+      </p>
+            </div>
+            <div xml:id="olm8ij-g24140-Dd1e393">
+               <head xml:id="olm8ij-g24140-Hd1e395">Articulus 3</head>
+               <head xml:id="olm8ij-g24140-Hd1e397" type="question-title">
+        An adoptio passiua conueniat Christo
+      </head>
+               <p xml:id="olm8ij-g24140-d1e400">
+                  <lb ed="#R" n="41"/>ARTJCVLVS III. 
+      <lb ed="#R" n="42"/>An adoptio passiua conueniat Christo.
+      </p>
+               <p xml:id="olm8ij-g24140-d1e407">
+                  <lb ed="#R" n="43"/>DE tertio articulo dicitur, quod adoptio 
+      pas<lb ed="#R" n="44" break="no"/>siua non conuenit Christo, &amp; ratio est, quia, 
+      <lb ed="#R" n="45"/>vt dictum est, adoptio non debetur nisi personae 
+      <lb ed="#R" n="46"/>extraneae ab haereditate: sed persona, quae est in 
+      <lb ed="#R" n="47"/>Christo, non est extranea ab haereditate, nec etiam 
+      <lb ed="#R" n="48"/>filiatione: ergo. Igitur secundum istos Christus 
+      <lb ed="#R" n="49"/>est filius naturalis, non adoptiuus. 
+      </p>
+               <p xml:id="olm8ij-g24140-d1e425">
+                  <lb ed="#R" n="50"/>Contra: Ista ratio concluderet, si siliatio esset 
+      im<lb ed="#R" n="51" break="no"/>mediata conditio suppositi, &amp; formaliter: sed hoc 
+      <lb ed="#R" n="52"/>non est, quia solum est conditio suppositi vt quod, 
+      <lb ed="#R" n="53"/>non vt quo, quia filiatio temporalis non fundatur 
+      <lb ed="#R" n="54"/>immediate super persona Verbi: sed super 
+      hu<lb ed="#R" n="55" break="no"/>manitate: ergo videtur, quod Verbum possit esse 
+      <lb ed="#R" n="56"/>filius adoptiuus vt quod, sed per humanitatem 
+      <lb ed="#R" n="57"/>vt quo, sicut supposito Verbi attribuitur filiatio 
+      <lb ed="#R" n="58"/>temporalis vt quod: sed per naturam humanam vt 
+      <lb ed="#R" n="59"/>quo formaliter est filius temporalis beatae 
+      Virgi<lb ed="#R" n="60" break="no"/>nis: non ergo videtur inconueniens sequi, si 
+      pona<lb ed="#R" n="61" break="no"/>tur filiatio adoptiua, vel si adoptio in Christo, 
+      <lb ed="#R" n="62"/>quam si ponatur filiatio temporalis ex Virgine 
+      <!--0404.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="63"/>&amp; tamen hoc conceditur ab omnibus. 
+      </p>
+               <p xml:id="olm8ij-g24140-d1e463">
+                  <lb ed="#R" n="64"/>Dices forte, quod in Christo natura humana 
+      <lb ed="#R" n="65"/>nunquam fuit extrauea, &amp; ideo sibi, vt sic non 
+      con<lb ed="#R" n="66" break="no"/>uenit adoptio. 
+      </p>
+               <p xml:id="olm8ij-g24140-d1e472">
+                  <lb ed="#R" n="67"/>Contra, vel intelligis per extraneum esse 
+      odi<lb ed="#R" n="68" break="no"/>tum, &amp; tunc cum beata Virgo, nec Angeli boni 
+      <lb ed="#R" n="69"/>nunquam fuerint oditi: sequitur, quod non 
+      fue<lb ed="#R" n="70" break="no"/>rint filii adoptiui, quod falsum videtur. 
+      </p>
+               <p xml:id="olm8ij-g24140-d1e483">
+                  <lb ed="#R" n="71"/>Item, non video, quod esse oditum requirat 
+      ado<lb ed="#R" n="72" break="no"/>ptionem, nam nulla imperfectio confert aliquid 
+      a<lb ed="#R" n="73" break="no"/>licui, vt perfectionem recipiat. Et videmus 
+      com<lb ed="#R" n="74" break="no"/>muniter contrarium de multis. Vel dicis, quod 
+      <lb ed="#R" n="75"/>importat carentiam gratiae: sed nec hoc stat, quia 
+      <lb ed="#R" n="76"/>vel requiritur carentia gratiae praecedere 
+      adoptio<lb ed="#R" n="77" break="no"/>nem prioritate temporis, &amp; planum est, quod non: 
+      <lb ed="#R" n="78"/>nam angelus nunquam fuit in tempore sine 
+      gra<lb ed="#R" n="79" break="no"/>tia, &amp; tamen est filius adoptiuus: vel dicis, quod 
+      <lb ed="#R" n="80"/>requiritur prius carentia gratiae ordine naturae, &amp; 
+      <lb ed="#R" n="81"/>hoc non, quia humanitas Christi ordine naturae 
+      <lb ed="#R" n="82"/>praecessit gratiam: ergo. Jgitur tota difficultas est, 
+      <lb ed="#R" n="83"/>quia filiatio adoptiua est conditio suppositi, non 
+      <lb ed="#R" n="84"/>tanquam fundamenti, sed naturae: ergo sicut 
+      natu<lb ed="#R" n="85" break="no"/>ra dat Verbo, quod sit filius beatae Virginis, 
+      non<lb ed="#R" n="86" break="no"/>video, quare non dat, quod sit filius adoptiuus. &amp; 
+      <lb ed="#R" n="87"/>ob hoc dicunt quidam, quod sic. Sed quia hoc 
+      vi<lb ed="#R" n="88" break="no"/>detur repugnare auctoritatibus Sanctorum, ideo non 
+      <lb ed="#R" n="89"/>teneo cum eis ex toto. 
+      </p>
+               <p xml:id="olm8ij-g24140-d1e527">
+                  <lb ed="#R" n="90"/>Dico ergo, quod potest concedi, quod ibi fuit 
+      <lb ed="#R" n="91"/>vera ratio adoptionis, quia fuit ibi creatura, 
+      scili<lb ed="#R" n="92" break="no"/>cet natura humana: sed propter hoc non debet 
+      <lb ed="#R" n="93"/>concedi, quod sit filius adoptiuus. Probo, quia 
+      <lb ed="#R" n="94"/>quando aliquod praedicatum potest inesse 
+      simplici<lb ed="#R" n="95" break="no"/>ter, &amp; secundum quid, &amp; secundum partem 
+      dimi<lb ed="#R" n="96" break="no"/>nuentem, cum tale praedicatum contigerit actu 
+      in<lb ed="#R" n="97" break="no"/>esse, vtroque modo non debet dici. Si enim 
+      tale<lb ed="#R" n="98" break="no"/>simpliciter, quod sit tale secundum quid, &amp; 
+      secun<lb ed="#R" n="99" break="no"/>dum partem diminuentem, vt Sortes. 
+      </p>
+               <p xml:id="olm8ij-g24140-d1e551">
+                  <lb ed="#R" n="100"/>Si enim simpliciter albus non debet dici, &amp; 
+      ad<lb ed="#R" n="101" break="no"/>di, quod est albus secundum dentes, non quod 
+      prae<lb ed="#R" n="102" break="no"/>dicatio non sit vera, sed est suspecta, quia quando 
+      <lb ed="#R" n="103"/>fit praedicatio secundum partem diminuentem, quia 
+      <lb ed="#R" n="104"/>innuitur, quod talis praedicatio non sit vera 
+      sim<lb ed="#R" n="105" break="no"/>pliciter, vt si dico, Sortes est albus secundum dentem, 
+      <lb ed="#R" n="106"/>quodammodo debeo intelligere, quod non 
+      simpli<lb ed="#R" n="107" break="no"/>citer, sed silius naturalis &amp; adoptiuus se habent 
+      si<lb ed="#R" n="108" break="no"/>cuti simpliciter, &amp; secundum quid, quod dicitur de 
+      <lb ed="#R" n="109"/>isto, ille est silius non simpliciter, sed adoptiuus, 
+      <lb ed="#R" n="110"/>quae est dictio diminuens: Christus autem non 
+      so<lb ed="#R" n="111" break="no"/>lum est filius adoptiuus, sed naturalis: ergo licet 
+      <lb ed="#R" n="112"/>ratio adoptionis sit in Christo, &amp; hoc ratione 
+      hu<lb ed="#R" n="113" break="no"/>manitatis, non tamen debet concedi, quod sit 
+      fi<lb ed="#R" n="114" break="no"/>lius adoptiuus, quia esset sensus, vel motiuum 
+      <lb ed="#R" n="115"/>praui intellectus, scilicet, quod non est filius 
+      na<lb ed="#R" n="116" break="no"/>turalis, sicut si dico, iste est pulcher in oculis, est 
+      <lb ed="#R" n="117"/>sensus, quod non sit in alio corpore toto: &amp; hoc 
+      <lb ed="#R" n="118"/>maxime est attendendum, ad excludendum 
+      erro<lb ed="#R" n="119" break="no"/>rem dicentium, quod Christus non est filius 
+      natu<lb ed="#R" n="120" break="no"/>ralis. Sed si velis separare rationem adoptionis a 
+      <lb ed="#R" n="121"/>Christo, licet non videam hoc, dicerem tunc, quod 
+      <lb ed="#R" n="122"/>nullus dicitur filius adoptiuus, qui per gratiam 
+      <lb ed="#R" n="123"/>habet ius in haereditate, tunc Christus, licet inquã- 
+      <lb ed="#R" n="124"/>tum homo generatus per comparationem ad 
+      ter<lb ed="#R" n="125" break="no"/>minum, praecise non habeat illud, habet tamen 
+      <lb ed="#R" n="126"/>quantum ad communicans, &amp; coinclusum, &amp; illud 
+      <lb ed="#R" n="127"/>est Deitas. Sed de hoc non curo, quia non habeo 
+      <lb ed="#R" n="128"/>pro inconuenienti, quod in Christo sit ratio 
+      adop<lb ed="#R" n="129" break="no"/>tionis, dummodo propositio non concedatur ex 
+      <lb ed="#R" n="130"/>causa praeasignata. 
+      </p>
+               <p xml:id="olm8ij-g24140-d1e621">
+      <!--0405.xml-->
+                  <pb ed="#R" n="403"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Ad primum autem in oppositum concedo 
+      ma<lb ed="#R" n="2" break="no"/>iorem. Ad minorem dico, quod gratia &amp; gloria 
+      <lb ed="#R" n="3"/>in Christo non fuerunt ratio vnionis; sed magis e 
+      <lb ed="#R" n="4"/>conuerso: Vnde Deus prius praeordinauit hunc 
+      ho<lb ed="#R" n="5" break="no"/>minem vniri, quam tantum gloriae sibi dari; tunc 
+      <lb ed="#R" n="6"/>dico, quod in Christo filiatio naturalis, &amp; vnio 
+      <lb ed="#R" n="7"/>praecesserunt filiationem adoptionis: ergo dico, 
+      <lb ed="#R" n="8"/>quod virtute vnionis debetur sibi gloria, non 
+      vir<lb ed="#R" n="9" break="no"/>tute gratiae, quare sequitur, quod non habuit ius 
+      <lb ed="#R" n="10"/>in haereditate per gratiam, sed per vnionem, &amp; 
+      <lb ed="#R" n="11"/>ideo non fuit in Christo ratio adoptionis, &amp; haec 
+      <lb ed="#R" n="12"/>videtur intentio Magistri dist. 4. cap. supra allegato, 
+      <lb ed="#R" n="13"/>igitur est filius: sed ratio filiationis istius non est 
+      <lb ed="#R" n="14"/>gratia, sed vnio: &amp; quia vnio fuit gratia, potest 
+      di<lb ed="#R" n="15" break="no"/>ci, quod est filius gratiae, &amp; per gratiam habet ius 
+      <lb ed="#R" n="16"/>in haereditate: sed ista gratia est gratia vnionis, non 
+      <lb ed="#R" n="17"/>adoptionis, &amp; diffferunt istae duae gratiae, quia 
+      gra<lb ed="#R" n="18" break="no"/>tia adoptionis fundamentum habet gratiam 
+      gra<lb ed="#R" n="19" break="no"/>tum facientem, ista autem est excellentior gratia, 
+      <lb ed="#R" n="20"/>scilicet ad vnionem personae. 
+      </p>
+               <p xml:id="olm8ij-g24140-d1e674">
+                  <lb ed="#R" n="21"/>Ad argumenta in oppositum. Ad primum 
+      di<lb ed="#R" n="22" break="no"/>co, quod minor est falsa. Ad probationem dico, 
+      <lb ed="#R" n="23"/>quod Christus habuit vnionem per aliquam 
+      gra<lb ed="#R" n="24" break="no"/>tiam. Vel concedendo minorem dico, quod conclu 
+      <lb ed="#R" n="25"/>sio non sequitur, quia fieret praedicatio secundum 
+      <lb ed="#R" n="26"/>dictionem diminuentem. 
+      </p>
+               <p xml:id="olm8ij-g24140-d1e690">
+                  <lb ed="#R" n="27"/>Ad secundum dico, quod adoptio simpliciter 
+      <lb ed="#R" n="28"/>non est perfectio, imo includit imperfectionem: 
+      <lb ed="#R" n="29"/>nam ex hoc dicitur filius adoptiuus, quia non 
+      po<lb ed="#R" n="30" break="no"/>test esse naturalis. 
+      </p>
+               <p xml:id="olm8ij-g24140-d1e701">
+                  <lb ed="#R" n="31"/>Ad aliud dico, quod diuisio non est sufficiens, 
+      <lb ed="#R" n="32"/>quia ex aliquo alio potest esse, quod sit filius, vt for 
+      <lb ed="#R" n="33"/>te ratione vnionis, vel dato, quod sit non debet con 
+      <lb ed="#R" n="34"/>cedi ratione erroris inducendi. 
+      </p>
+               <p xml:id="olm8ij-g24140-d1e712">
+                  <lb ed="#R" n="35"/>Ad argumenta de fundamento per 
+      interemptio<lb ed="#R" n="36" break="no"/>nem, vnde dico, quod illa natura per aliam gratiam 
+      <lb ed="#R" n="37"/>quam per adoptionem: vel dicam, quod est ibi 
+      fun<lb ed="#R" n="38" break="no"/>damentum illa natura, tamen non debet dici filius 
+      <lb ed="#R" n="39"/>adoptiuus, propter malum intellectum. 
+      </p>
+               <p xml:id="olm8ij-g24140-d1e725">
+                  <lb ed="#R" n="40"/>Ad aliud dico, quod non est perfectio 
+      simplici<lb ed="#R" n="41" break="no"/>ter, sed in hominibus alijs. 
+      </p>
+               <p xml:id="olm8ij-g24140-d1e732">
+                  <lb ed="#R" n="42"/>Ad aliud dico, quod licet sit gratia informatus, 
+      <lb ed="#R" n="43"/>tamen non est propter hoc filius adoptiuus, vt 
+      pa<lb ed="#R" n="44" break="no"/>tet. Vel dico, quod est filius adoptiuus quantum 
+      <lb ed="#R" n="45"/>est ex se, non tamen debet concedi. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

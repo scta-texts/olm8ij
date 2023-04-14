@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-14">April 14, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b3">Roma 1605, Book 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-14" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="466"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-g46115"><!-- l3-d20q1 -->
+            <head xml:id="olm8ij-g46115-Hd1e101">Quaestio 1</head>
+            <p xml:id="olm8ij-g46115-d1e103">
+               <lb ed="#R" n="22"/>DISTINCTIO XX. 
+      <lb ed="#R" n="23"/>DE PASSJONE CHRJSTJ. 
+      </p>
+            <p xml:id="olm8ij-g46115-d1e110">
+               <lb ed="#R" n="24"/>Circa Distinctionem Vigesimam, vbi 
+      agi<lb ed="#R" n="25" break="no"/>tur de necessitate passionis Christi 
+      quae<lb ed="#R" n="26" break="no"/>ro duas Quaestiones. Primo de efficacia 
+      <lb ed="#R" n="27"/>passionis. Secundo de necessitate. Prima 
+      <lb ed="#R" n="28"/>quaestio est: Vtrum meritum passionis Chri 
+      <lb ed="#R" n="29"/>sti fuit infinitum. Secunda quaestio est: 
+      <lb ed="#R" n="30"/>Vtrum mors Dei hominis fuerit necessaria 
+      <lb ed="#R" n="31"/>pro lapsu humani generis reparando. 
+      </p>
+            <p xml:id="olm8ij-g46115-d1e130">
+               <lb ed="#R" n="32"/>Quaestio J.
+      </p>
+            <div xml:id="olm8ij-g46115-Dd1e135">
+               <head xml:id="olm8ij-g46115-Hd1e137">Articulus 1</head>
+               <head xml:id="olm8ij-g46115-Hd1e139" type="question-title">
+        Utrum meritum passionis Christi fuerit infinitum
+      </head>
+               <p xml:id="olm8ij-g46115-d1e142">
+                  <lb ed="#R" n="33"/>ARTJCVLVS VNJCVS. 
+      <lb ed="#R" n="34"/>Vtrum meritum passionis Christi fuerit infinitum. 
+      </p>
+               <p xml:id="olm8ij-g46115-d1e149">
+                  <lb ed="#R" n="35"/>CIRCA primum arguo quod 
+      <lb ed="#R" n="36"/>non primo sic: Meritum 
+      <lb ed="#R" n="37"/>passionis fuit nullum: ergo 
+      <lb ed="#R" n="38"/>non fuit infinitum. 
+      Proba<lb ed="#R" n="39" break="no"/>tio antecedentis, est, quia 
+      <lb ed="#R" n="40"/>sactum facere nihil est 
+      fa<lb ed="#R" n="41" break="no"/>cere: ergo quod factum est, 
+      <lb ed="#R" n="42"/>debitum fuit. 
+      </p>
+               <p xml:id="olm8ij-g46115-d1e169">
+                  <lb ed="#R" n="43"/>Item: non fuit debitum, 
+      <lb ed="#R" n="44"/>sed Christus ab instanti suae conceptionis fecit sibi 
+      <lb ed="#R" n="45"/>debitum praemium: ergo. Et confirmatur ista 
+      ra<lb ed="#R" n="46" break="no"/>tio, quia Christus ab instanti suae conceptionis 
+      me<lb ed="#R" n="47" break="no"/>ruit: tunc autem meruit omne meritum, aut aliquod; 
+      <lb ed="#R" n="48"/>non isto secundo modo, quia meritum Christi fuit 
+      <lb ed="#R" n="49"/>infinitum: si primo modo, qui dicit omne, nil 
+      ex<lb ed="#R" n="50" break="no"/>cludit: ergo. Item in passionibus non meremur, 
+      <lb ed="#R" n="51"/>vt Philosophum iustum pati non est iustum. Item 
+      <lb ed="#R" n="52"/>secundo sic: Non est possibile in toto vniuerso 
+      prae<lb ed="#R" n="53" break="no"/>mium infinitum: ergo nec meritum. Antecedens 
+      <lb ed="#R" n="54"/>patet, quia Deus non potest dare beatitudinem 
+      <lb ed="#R" n="55"/>infinitam, quia nec sic in Christi anima. 
+      Conse<lb ed="#R" n="56" break="no"/>quentia probatur, quia meritum, &amp; praemium 
+      si<lb ed="#R" n="57" break="no"/>bi correspondent. Et confirmatur, quia secundum. 
+      <!--0468.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="58"/>hoc plus posset esse meritum, quam Deus posset 
+      re<lb ed="#R" n="59" break="no"/>praemiare. Dicis, quod Christus habuit meritum 
+      <lb ed="#R" n="60"/>infinitum, quia heatificationem infinitorum, si 
+      es<lb ed="#R" n="61" break="no"/>sent infiniti beati. 
+      </p>
+               <p xml:id="olm8ij-g46115-d1e218">
+                  <lb ed="#R" n="62"/>Contra: Meritum &amp; praemium correlatiua: ergo 
+      <lb ed="#R" n="63"/>si vnum &amp; aliud. Item, pono vnum meritum, cui 
+      re<lb ed="#R" n="64" break="no"/>spondebit illud, tunc accipio aliud, &amp; istti vel 
+      re<lb ed="#R" n="65" break="no"/>spondebit illud, vel nihil. &amp; erit otiosum. Item: 
+      <lb ed="#R" n="66"/>Meritum est circumstantia actus: sed stante 
+      subie<lb ed="#R" n="67" break="no"/>cto finito nullum accidens infinitum: sed velle 
+      <lb ed="#R" n="68"/>Christi, &amp; actus, quo volebat pati, erat finitus: 
+      er<lb ed="#R" n="69" break="no"/>go. Item, meritum non potest excedere principia 
+      <lb ed="#R" n="70"/>elicitiua: sed voluntas Christi, &amp; eius electio erant 
+      <lb ed="#R" n="71"/>finita: ergo &amp; meritum. 
+      </p>
+               <p xml:id="olm8ij-g46115-d1e242">
+                  <lb ed="#R" n="72"/>Dicit, quod fuit infinitum ratione personae. 
+      Con<lb ed="#R" n="73" break="no"/>tra: illi non competit mereri, quod potest dare 
+      al<lb ed="#R" n="74" break="no"/>teri, quod mereatur. Item, nullum creatum est 
+      <lb ed="#R" n="75"/>infinitum: meritum est creatum: ergo non est 
+      in<lb ed="#R" n="76" break="no"/>finitum. 
+      </p>
+               <p xml:id="olm8ij-g46115-d1e255">
+                  <lb ed="#R" n="77"/>Contra, quod per continuam resecationem &amp; 
+      <lb ed="#R" n="78"/>sectionem partis de subiecto non diminuitur, ipsum 
+      <lb ed="#R" n="79"/>est infinitum, quia omne finitum per ablationem 
+      <lb ed="#R" n="80"/>partis finitae finitur: sed meritum Christi est 
+      huius<lb ed="#R" n="81" break="no"/>modi, patet per baptisma cuiuslibet, &amp; per omnia 
+      <lb ed="#R" n="82"/>talia huiusmodi semper accipitur aliquid de 
+      meri<lb ed="#R" n="83" break="no"/>to Christi, &amp; tamen ipsum non diminuitur: ergo. 
+      <lb ed="#R" n="84"/>Item: Merito Christi respondent merita infinita, 
+      <lb ed="#R" n="85"/>deletio culparum insinitarum, &amp; gratia delens 
+      cul<lb ed="#R" n="86" break="no"/>pas insinitas cadit sub merito. Respondeo, bic 
+      <lb ed="#R" n="87"/>quatuor agam, primo de quaesito, secundo de quan 
+      <lb ed="#R" n="88"/>to, tertio de quidditate eius, quod nobis meruit. 
+      <lb ed="#R" n="89"/>Vtrum meruit nobis omnem gratiam &amp; gloriam, 
+      <lb ed="#R" n="90"/>vel: Vtrum gratia, &amp; gloria cadant sub merito, &amp; 
+      <lb ed="#R" n="91"/>vtrum ab instanti suae conceptionis, &amp; quarto: Vtrum 
+      <lb ed="#R" n="92"/>post. mortem aliquid meruit. 
+      </p>
+               <p xml:id="olm8ij-g46115-d1e292">
+                  <lb ed="#R" n="93"/>De primo dicit quidam Doctor, quod ex natura 
+      <lb ed="#R" n="94"/>rei, &amp; forma, Christi meritum non est infinitum 
+      <lb ed="#R" n="95"/>sed bene Deo acceptante, quia res sunt bonae tantum, 
+      <lb ed="#R" n="96"/>quantum Deus vult, &amp; sic Deus acceptans in 
+      infini<lb ed="#R" n="97" break="no"/>tum meritum, facit infinitum, inquantum acceptat 
+      <lb ed="#R" n="98"/>pro infinitis hominibus redimendis. Primum autem 
+      <lb ed="#R" n="99"/>sic probo, quia actus tantum acceptatur quantum 
+      <lb ed="#R" n="100"/>est: sed velle obedire vsque ad mortem non est ex 
+      <lb ed="#R" n="101"/>natura rei infinitum: ergo. Item, velle verbi in 
+      <lb ed="#R" n="102"/>se est magis infinitum, quam velle naturae humanae 
+      <lb ed="#R" n="103"/>existentis in Verbo: sed velle verbi non est 
+      formali<lb ed="#R" n="104" break="no"/>ter infinitum: ergo. 
+      </p>
+               <p xml:id="olm8ij-g46115-d1e321">
+                  <lb ed="#R" n="105"/>Item, nullus actus excedit principia elicitiua: 
+      <lb ed="#R" n="106"/>sed humana voluntas quae erat eliciens, &amp; charitas, 
+      <lb ed="#R" n="107"/>qua informabatur erant finita: ergo. Si dicit, quod 
+      <lb ed="#R" n="108"/>erat infinitum ratione personae. 
+      </p>
+               <p xml:id="olm8ij-g46115-d1e332">
+                  <lb ed="#R" n="109"/>Contra hoc arguo dupliciter. Primo, quod 
+      per<lb ed="#R" n="110" break="no"/>sona Verbi non est apta mereri: sed meritum 
+      Chri<lb ed="#R" n="111" break="no"/>sti dependebat ab humanitate: ergo. Sic ergo 
+      for<lb ed="#R" n="112" break="no"/>maliter, &amp; ex natura rei meritum Christi secundum 
+      <lb ed="#R" n="113"/>istum Doctorem non fuit infinitum: sed tamen Deus 
+      <lb ed="#R" n="114"/>imponit pretium libere quod vult, &amp; acceptat 
+      me<lb ed="#R" n="115" break="no"/>ritum Christi pro infinitis hominibus redimendis, 
+      <lb ed="#R" n="116"/>&amp; quantum ad hoc potest concedi, quod meritum 
+      <lb ed="#R" n="117"/>Christi sit infinitum. 
+      </p>
+               <p xml:id="olm8ij-g46115-d1e355">
+                  <lb ed="#R" n="118"/>Hoc non placet mihi, videlicet sic omnia 
+      attri<lb ed="#R" n="119" break="no"/>buere voluntati diuinae, vel acceptioni diuinae. Imo 
+      <lb ed="#R" n="120"/>ex natura rei ostendo, quod oportet esse rationem 
+      <lb ed="#R" n="121"/>acceptationis in re. Arguo primo sic: Tanta, &amp; 
+      ta<lb ed="#R" n="122" break="no"/>lis est diligibilitas, &amp; acceptabilitas passionis Chri 
+      <lb ed="#R" n="123"/>sti, quantum est odibilitas peccatorum, quod secun 
+      <lb ed="#R" n="124"/>dum istos iuste fuit redemptum genus humanum: 
+      <lb ed="#R" n="125"/>sed peccata ex natura rei habent odibilitatem, vt 
+      <!--0469.xml-->
+      <pb ed="#R" n="467"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>patet per illud Psal. 44. Dilexisti iustitiam, &amp; odisti 
+      <lb ed="#R" n="2"/>iniquitatem. Item: Ista odibilitas est ex natura rei, 
+      <lb ed="#R" n="3"/>quia odire malum est perfectio, &amp; ideo posset Deus 
+      <lb ed="#R" n="4"/>dispensare obediendo ei, vt infinito per 
+      accepta<lb ed="#R" n="5" break="no"/>tionem, nec potest dispensare in praeceptis 
+      pri<lb ed="#R" n="6" break="no"/>mae tabulae. Item: Peccata habent odibilitatem 
+      <lb ed="#R" n="7"/>infinitam, quia peccata possunt esse infinita: sicut 
+      <lb ed="#R" n="8"/>ergo peccata ex natura rei habent infinitam 
+      odi<lb ed="#R" n="9" break="no"/>bilitatem; sic passio Christi ex natura rei habet 
+      in<lb ed="#R" n="10" break="no"/>finitam acceptibilitatem. 
+      </p>
+               <p xml:id="olm8ij-g46115-d1e403">
+                  <lb ed="#R" n="11"/>Item probo, quod in ordine ad personam possit 
+      <lb ed="#R" n="12"/>esse acceptatio infinita. Philosophus 5. Ethic. 
+      di<lb ed="#R" n="13" break="no"/>cit, quod contra passum non est iustum, nisi 
+      per<lb ed="#R" n="14" break="no"/>sona ponderetur, vt quaelibet persona abstrahens 
+      <lb ed="#R" n="15"/>oculum cuius libet personae, non est iustum, quod 
+      <lb ed="#R" n="16"/>abstrahatur sibi oculus: ergo conditio personae est, 
+      <lb ed="#R" n="17"/>&amp; esse potest intra rationem meriti: sed persona 
+      <lb ed="#R" n="18"/>Christi ex natura habuit infinitam acceptationem: 
+      <lb ed="#R" n="19"/>ergo potuit elicere actus infinite acceptos, &amp; sic 
+      <lb ed="#R" n="20"/>meritorios. 
+      </p>
+               <p xml:id="olm8ij-g46115-d1e427">
+                  <lb ed="#R" n="21"/>Ad rationes suas, ad primam, dico per 
+      interem<lb ed="#R" n="22" break="no"/>ptionem maioris, quod actus est acceptabilis ex 
+      <lb ed="#R" n="23"/>conditione. Ad aliud, quod non est magis 
+      acce<lb ed="#R" n="24" break="no"/>ptum, nec minus, quia nullo modo. In velle enim, 
+      <lb ed="#R" n="25"/>vbi non cadit ratio meriti, quia non habet 
+      conne<lb ed="#R" n="26" break="no"/>xionem ad finem, cum sit finis simpliciter. Ad aliud 
+      <lb ed="#R" n="27"/>verum dicit. Sed aduertendum ad solutionem 
+      argu<lb ed="#R" n="28" break="no"/>menti, quod principia non solum sunt agentia, sed 
+      <lb ed="#R" n="29"/>suppositum. Nunc ad propositum, persona eliciens 
+      <lb ed="#R" n="30"/>actus erat infinita. Et ad confirmationem suam. 
+      <lb ed="#R" n="31"/>Re spondeo, quod verum est per modum efficientis, 
+      <lb ed="#R" n="32"/>non autem per modum suppositi, quia pater non 
+      <lb ed="#R" n="33"/>moriebatur: sed verum est, quod filius Dei 
+      morie<lb ed="#R" n="34" break="no"/>batur. Ad aliud dico, quod effectus est infinitus per 
+      <lb ed="#R" n="35"/>meritum infinitum; imo est vnum integrum, ita 
+      <lb ed="#R" n="36"/>quod vna pars potest esse a principio infinito, &amp; 
+      <lb ed="#R" n="37"/>alia a principio finito. 
+      </p>
+               <p xml:id="olm8ij-g46115-d1e466">
+                  <lb ed="#R" n="38"/>Ideo dicit vnus alius, quod meritum Christi fuit 
+      <lb ed="#R" n="39"/>infinitum ex natura rei, &amp; ex se secundum iustitiam 
+      <lb ed="#R" n="40"/>commutatiuam. Sed meritum potest dupliciter 
+      <lb ed="#R" n="41"/>considerari, vel quantum ad materiale, quod est 
+      <lb ed="#R" n="42"/>bonitas; vel quantum ad formale, quod est 
+      acce<lb ed="#R" n="43" break="no"/>ptatio passiua. Si primo modo adhuc, quod est 
+      que<lb ed="#R" n="44" break="no"/>dam bonitas extrinseca quae est formalis 
+      denomi<lb ed="#R" n="45" break="no"/>natio: aut actus: aut est intrinseca bonitas, quae 
+      de<lb ed="#R" n="46" break="no"/>betur ex obiecto, &amp; actu, &amp; talis bonitas fuit 
+      fi<lb ed="#R" n="47" break="no"/>nita, quia actus voluntatis Christi fuit finitus. 
+      Lo<lb ed="#R" n="48" break="no"/>quendo autem de extrinseca bonitate actus, quae est 
+      <lb ed="#R" n="49"/>denominatio, sic dicit, quod quia Verbum 
+      elicie<lb ed="#R" n="50" break="no"/>bat istum actum, qui denominatur in ordine ad 
+      per<lb ed="#R" n="51" break="no"/>sonam, potest dici bonitas actus infinita. Si vero 
+      lo<lb ed="#R" n="52" break="no"/>quamur de formali, quod est in ipso merito 
+      acce<lb ed="#R" n="53" break="no"/>ptatio passiua. Dicit iste Doctor, quod illud 
+      for<lb ed="#R" n="54" break="no"/>male potest dupliciter considerari, aut quantum 
+      <lb ed="#R" n="55"/>sequitur rationem intrinsecam actus secundum 
+      <lb ed="#R" n="56"/>iustitiam commutatiuam, &amp; sic est dicendum 
+      <lb ed="#R" n="57"/>quod fuit finitum: vel vt sequitur denominationem 
+      <lb ed="#R" n="58"/>in ordine ad personam, &amp; tunc dicit, quod fuit 
+      in<lb ed="#R" n="59" break="no"/>finita actio passiua, quia persona est acceptabilis 
+      <lb ed="#R" n="60"/>in infinitum. Non capio istud de acceptatione 
+      ex<lb ed="#R" n="61" break="no"/>trinseca, &amp; intrinseca; ostendo enim, quod 
+      acce<lb ed="#R" n="62" break="no"/>ptabilitas personae sit intrinseca, arguo autem sic. 
+      <lb ed="#R" n="63"/>Jlla acceptatio est intrinscca actui, sine qua actus 
+      <lb ed="#R" n="64"/>non habet certam acceptationem: sed aliquis actus 
+      <lb ed="#R" n="65"/>non habet certam acceptationem, nisi vt est 
+      pon<lb ed="#R" n="66" break="no"/>derata persona: ergo. Maior patet, probo minorem. 
+      <lb ed="#R" n="67"/>Dico enim, quod actus, qui est alicuius, non habet 
+      <lb ed="#R" n="68"/>certam acceptationem, nisi consideratione personae, 
+      <!--0469.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>nam potest esse persona, quae sic adsignificat, vt nul 
+      <lb ed="#R" n="70"/>la sit acceptabilitas, aut si talis sit vilis: ergo 
+      con<lb ed="#R" n="71" break="no"/>ditio personae est intrinseca. &amp; confirmatur per 
+      Phi<lb ed="#R" n="72" break="no"/>losophum 5. Ethic. Contra passum non est 
+      iustum<lb ed="#R" n="73" break="no"/>&amp; c. quia intra ipsum oportet includi conditionem 
+      <lb ed="#R" n="74"/>personae. 
+      </p>
+               <p xml:id="olm8ij-g46115-d1e553">
+                  <lb ed="#R" n="75"/>Item: Actus non plus valet propter 
+      denominatio<lb ed="#R" n="76" break="no"/>nem extrinsecam, nisi habet plus de bonitate 
+      forma<lb ed="#R" n="77" break="no"/>liter: sed conditio personae praecedit valorem actus: 
+      <lb ed="#R" n="78"/>ergo conditio personae pertinet ad bonitatem 
+      in<lb ed="#R" n="79" break="no"/>trinsecam actus. Item: Quando aliquid aspicit actum, 
+      <lb ed="#R" n="80"/>fine quo non est talis actus, illud est de intrinseco 
+      <lb ed="#R" n="81"/>illius actus: sed actus non elicitur sine persona agen 
+      <lb ed="#R" n="82"/>te: ergo conditio personae est intrinseca 
+      acceptatio<lb ed="#R" n="83" break="no"/>ni. Hoc autem declaro sic: Sic se habet de 
+      acceptabili<lb ed="#R" n="84" break="no"/>tate actus, sicut de moralitate eiusdem: sed bonitas 
+      <lb ed="#R" n="85"/>moralis in actu non solum est actus, sed integritas om 
+      <lb ed="#R" n="86"/>nium circumstantiarum: ergo. Sed integritas 
+      circun<lb ed="#R" n="87" break="no"/>stantiarum non solum oritur ex intrinsecis actus, sed 
+      <lb ed="#R" n="88"/>ex conditione omnium requisitorum, quae sunt 
+      <lb ed="#R" n="89"/>quinque, tempus, modus, &amp; c. Item 5. Physic. 
+      per<lb ed="#R" n="90" break="no"/>sona est de circumstantijs: ergo. Sic dicendum est 
+      <lb ed="#R" n="91"/>de acceptatione actus, quod non solum erat ex ipso 
+      <lb ed="#R" n="92"/>actu: sed ex omnibus exigitis condentibus fiet vna 
+      <lb ed="#R" n="93"/>integra acceptatio actus: ergo bonitas speciei in 
+      <lb ed="#R" n="94"/>actu est bonitas intrinseca: sed bonitas moralis est 
+      <lb ed="#R" n="95"/>ex circumstantijs, inter quas cadit persona: ergo. 
+      <lb ed="#R" n="96"/>Confirmatur 5. Ethic. contra passum non est 
+      iu<lb ed="#R" n="97" break="no"/>stum, &amp;c. 
+      </p>
+               <p xml:id="olm8ij-g46115-d1e605">
+                  <lb ed="#R" n="98"/>Et post dicit, quod est iustum, cuius ratio est, quia 
+      <lb ed="#R" n="99"/>quando solum ponderatur actus, non est iustum, nec 
+      <lb ed="#R" n="100"/>est contra passum. Quando autem ponderatur 
+      ma<lb ed="#R" n="101" break="no"/>lum, quod inde potest elici: puta, si Rex patiatur, 
+      <lb ed="#R" n="102"/>tunc si debet esse contra passum, oportet 
+      pondera<lb ed="#R" n="103" break="no"/>ri conditionem personae, &amp; aliarum 
+      circunstantia<lb ed="#R" n="104" break="no"/>rum, de quibus oritur conditio actus: ita quod 
+      om<lb ed="#R" n="105" break="no"/>nes circunstantiae faciant vnam bonitatem. 
+      </p>
+               <p xml:id="olm8ij-g46115-d1e626">
+                  <lb ed="#R" n="106"/>Hic nota, quod acceptabilitas non est nisi 
+      boni<lb ed="#R" n="107" break="no"/>tas consurgens ex integritate circunstantiarum in 
+      <lb ed="#R" n="108"/>ordine ad acceptantem iuste: &amp; ideo bonitas 
+      mora<lb ed="#R" n="109" break="no"/>lis est ilta acceptabilitas, quae non est bonitas infor 
+      <lb ed="#R" n="110"/>mans, sed circunstans: ita quod ex hoc, &amp; hoc 
+      cir<lb ed="#R" n="111" break="no"/>cunstantibus oritur bonitas, quae est ratio, quod 
+      <lb ed="#R" n="112"/>actus acceptetur in infinitum. Secundo dico, quod 
+      <lb ed="#R" n="113"/>actus de se non habet acceptabilitatem, sicut nec 
+      <lb ed="#R" n="114"/>actus solum ex obiecto habet moralitatem: tunc 
+      <lb ed="#R" n="115"/>dico, quod actui, vt sic, nullum praemium debetur, 
+      <lb ed="#R" n="116"/>quia non habet bonitatem moralem, &amp; per consequens 
+      <lb ed="#R" n="117"/>nec acceptationē. Tunc ad quaestionem dico, quod 
+      <lb ed="#R" n="118"/>meritum passionis Christi est infinitum habens 
+      <lb ed="#R" n="119"/>infinitam acceptabilitatem ex natura rei, &amp; 
+      in<lb ed="#R" n="120" break="no"/>trinsece. 
+      </p>
+               <p xml:id="olm8ij-g46115-d1e661">
+                  <lb ed="#R" n="121"/>Ad maiorem autem euidentiam primo insto, 
+      ar<lb ed="#R" n="122" break="no"/>guo sic: Bonitas meritoria fundatur aeque super 
+      <lb ed="#R" n="123"/>connexionem, quae est ad finem, &amp; ipsius finis: sed 
+      <lb ed="#R" n="124"/>in actu Christi non erat aliquod infinitum habens 
+      <lb ed="#R" n="125"/>habitudinem ad finem. Probo, quia persona 
+      <lb ed="#R" n="126"/>non habebat hanc habitudinem ad finem: ergo. 
+      <lb ed="#R" n="127"/>Item, quod formaliter non habet ex se rationem 
+      <lb ed="#R" n="128"/>meriti, alteri non dat rationem merendi: sed 
+      per<lb ed="#R" n="129" break="no"/>sona non habet ex se rationem merendi: ergo. 
+      <lb ed="#R" n="130"/>Item: Ratio meriti fundatur super actum 
+      circunstan<lb ed="#R" n="131" break="no"/>tiarum: sed nullus actus Christi erat infinitus, nec 
+      <lb ed="#R" n="132"/>capiens circunstantiam infinitam: ergo meritum 
+      <lb ed="#R" n="133"/>Christi non erat infinitum. Respondeo, dico, 
+      <lb ed="#R" n="134"/>quod imo, probo sic. Quanta est bonitas actus 
+      <lb ed="#R" n="135"/>moralis, tanta est eius acceptabilitas: quantae 
+      au<lb ed="#R" n="136" break="no"/>tem sunt circunstantiae, tanta est bonitas: ergo 
+      <!--0470.xml-->
+      <pb ed="#R" n="468"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>quantae sunt circunstantiae, tanta es 
+      acceptabili<lb ed="#R" n="2" break="no"/>tas: sed circunstantiae istius actus erat conditio per 
+      <lb ed="#R" n="3"/>quam est diligibilis in infinitum: ergo. Item: In 
+      <lb ed="#R" n="4"/>creaturis actus ordinatus personae dat dignitatem, 
+      <lb ed="#R" n="5"/>&amp; indignitatem improportionalis, vt patet de 
+      mo<lb ed="#R" n="6" break="no"/>derato oculo, quod in praedicante verbum Dei 
+      es<lb ed="#R" n="7" break="no"/>set peccatum mortale, quia sic esset generalis in 
+      <lb ed="#R" n="8"/>audientibus susceptio, &amp; tamen in alio esset 
+      pec<lb ed="#R" n="9" break="no"/>catum veniale: ergo conditio personae facit 
+      distan<lb ed="#R" n="10" break="no"/>tiam infinitam, quia vnum peccatum mortale 
+      <lb ed="#R" n="11"/>damnat hominem, quem non damnant infinita 
+      <lb ed="#R" n="12"/>venialia: ergo sic in proposito, iste actus a tali 
+      per<lb ed="#R" n="13" break="no"/>sona elicitus excederet ratione personae omnem 
+      <lb ed="#R" n="14"/>alium actum in infinitum. Exemplum ad hoc, 
+      as<lb ed="#R" n="15" break="no"/>surrectio Regis in aduentu tuo esset 
+      incompara<lb ed="#R" n="16" break="no"/>biliter acceptior, quam socij tui, &amp; Imperatoris 
+      <lb ed="#R" n="17"/>acceptior, quam Regis, &amp; maioris maior, &amp; 
+      in<lb ed="#R" n="18" break="no"/>finiti infinita; sic etiam in proposito, si mereretur 
+      <lb ed="#R" n="19"/>maior persona, est maior acceptio, &amp; si infinita 
+      <lb ed="#R" n="20"/>persona, est acceptio infinita, quare potuit 
+      meri<lb ed="#R" n="21" break="no"/>tum passionis Christi esse infinitum. 
+      </p>
+               <p xml:id="olm8ij-g46115-d1e750">
+                  <lb ed="#R" n="22"/>Quod autem sic sit de facto, probo secundum 
+      <lb ed="#R" n="23"/>quod tenent Doctores, quod si essent infiniti 
+      mun<lb ed="#R" n="24" break="no"/>di, &amp; infiniti homines, sufficeret, quod semel 
+      <lb ed="#R" n="25"/>oblatus est in conseruationem seculorum. Tunc 
+      <lb ed="#R" n="26"/>arguitur sic: Omne acceptans aliquid pro aliquo, 
+      <lb ed="#R" n="27"/>illud, quo acceptat, vel aequatur, vel excedit 
+      il<lb ed="#R" n="28" break="no"/>lud, quod acceptat: sed Christus pro nobis 
+      acce<lb ed="#R" n="29" break="no"/>ptauit, siue acceptam fecit infinitam acceptionem, 
+      <lb ed="#R" n="30"/>quia remissionem infinitae odibilitatis, &amp; hoc 
+      ra<lb ed="#R" n="31" break="no"/>tione suae diligibilitatis passiuae, vt quo: ergo sicut 
+      <lb ed="#R" n="32"/>diligibilitas fuit infinita, sic acceptabilitas, &amp; 
+      me<lb ed="#R" n="33" break="no"/>ritum fuit infinitum. 
+      </p>
+               <p xml:id="olm8ij-g46115-d1e779">
+                  <lb ed="#R" n="34"/>Ad primum contra istum articulum dico, quod 
+      <lb ed="#R" n="35"/>persona, Verbi non est ad finem, sed differt persona, 
+      <lb ed="#R" n="36"/>vt persona autem nunquam dat rationem meriti, 
+      <lb ed="#R" n="37"/>sed bene inquantum circumstantia, inquantum 
+      <lb ed="#R" n="38"/>actus acceptatur infinite, non quod persona 
+      im<lb ed="#R" n="39" break="no"/>primat infinitatem in actu, quia aut est de 
+      agen<lb ed="#R" n="40" break="no"/>te naturali, &amp; intellectuali, quod sufficit in 
+      ordi<lb ed="#R" n="41" break="no"/>ne ad intelligentem, quod infinitas sit ab alio, sicut 
+      <lb ed="#R" n="42"/>a circumstantia, &amp; dico quod hoc est connexio, &amp; 
+      <lb ed="#R" n="43"/>ordo ad infinitum meritum. Ad aliud dico, quod 
+      <lb ed="#R" n="44"/>licet verum est, vt in se, non tamen est verum, vt 
+      <lb ed="#R" n="45"/>actus erat ab illo, diligere autem est actus 
+      infini<lb ed="#R" n="46" break="no"/>tus, sicut &amp; ipsum est infinitum. 
+      <lb ed="#R" n="47"/>Verum est autem, quod est alia diligibilitas 
+      <lb ed="#R" n="48"/>actus, vt ad finem. 
+      </p>
+               <p xml:id="olm8ij-g46115-d1e814">
+                  <lb ed="#R" n="49"/>Ad aliud dico, quod actus vt actus est, finitur 
+      rea<lb ed="#R" n="50" break="no"/>liter, &amp; naturaliter: sed in ordine moralis 
+      bonita<lb ed="#R" n="51" break="no"/>tis, quae non est intrinseca, sed circunstans, non est 
+      <lb ed="#R" n="52"/>sic. &amp; hoc de isto articulo. 
+    </p>
+               <p xml:id="olm8ij-g46115-d1e825">
+                  <lb ed="#R" n="53"/>Sed hic est dubium: Vtrum quodlibet meritum 
+      <lb ed="#R" n="54"/>Christi fuerit infinitum, &amp; videtur, quod sic. Dicunt 
+      <lb ed="#R" n="55"/>enim Sancti, quod minimus sudor, &amp; huiusmodi 
+      <lb ed="#R" n="56"/>suffecisset ad redemptionem: ergo in quolibet actu 
+      <lb ed="#R" n="57"/>Christi fuit meritum infinitum. Contra, tunc 
+      se<lb ed="#R" n="58" break="no"/>quitur, quod frustra voluerit pati. Videtur mihi 
+      <lb ed="#R" n="59"/>dicendum, quod meritum passionis fuerit maius 
+      <lb ed="#R" n="60"/>merito omnium aliorum actuum: sed hoc est 
+      diffi<lb ed="#R" n="61" break="no"/>cile, cum omnia alia sint infinita. Probo de 
+      passio<lb ed="#R" n="62" break="no"/>ne, quoniam Sacramenta, &amp; omnia alia 
+      attribuun<lb ed="#R" n="63" break="no"/>tur passioni: ergo miracula, &amp; passio sunt pondus 
+      <lb ed="#R" n="64"/>omnium. Item: Conditio actus, &amp; modus multum 
+      <lb ed="#R" n="65"/>faciunt ad acceptationem, esto quod sit eadem 
+      <lb ed="#R" n="66"/>persona, vt si Rex veniat ad te, &amp; vocet te, hic est 
+      <lb ed="#R" n="67"/>eadem persona, sed acceptabilitas ponderatur 
+      hu<lb ed="#R" n="68" break="no"/>miliatione. 
+    </p>
+               <p xml:id="olm8ij-g46115-d1e863">
+      <!--0470.xml-->
+                  <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>Ad propositum, maior fuit humilitas Christi, qua 
+      <lb ed="#R" n="70"/>se humiliauit vsque ad passionem, &amp; mortem, 
+      <lb ed="#R" n="71"/>quam vigilia &amp; huiusmodi, &amp; sic ratione maioris 
+      <lb ed="#R" n="72"/>humilitatis debuit actus ent magis esse acceptus, &amp; 
+      <lb ed="#R" n="73"/>sic credo, quod pondus totius meriti sit passio. Sed 
+      <lb ed="#R" n="74"/>de alijs meritis aliorum actuum. Dico, quod sunt 
+      <lb ed="#R" n="75"/>infinita: sed quomodo est possibile, quod dictum 
+      <lb ed="#R" n="76"/>est, quia infinito non est maius? Respondeo, dico, 
+      <lb ed="#R" n="77"/>non est maius entitatiue, sed voluntate 
+      acceptan<lb ed="#R" n="78" break="no"/>te actu intellectus, &amp; voluntatis potest esse magis 
+      <lb ed="#R" n="79"/>acceptus. Vel posset dici, quod meritum 
+      passio<lb ed="#R" n="80" break="no"/>nis cum omnibus alijs fuit vnum, quia totum 
+      or<lb ed="#R" n="81" break="no"/>dinatur ad passionem, &amp; ideo talis actus 
+      passio<lb ed="#R" n="82" break="no"/>nis, &amp; huiusmodi, non deberet distingui, quia tota 
+      <lb ed="#R" n="83"/>vita Christi fuit vna potentia habens rationem vnius 
+      <lb ed="#R" n="84"/>meriti. Dico ergo, quod meritum Christi ex 
+      na<lb ed="#R" n="85" break="no"/>tura rei est infinitum; ita quod iustitia 
+      commuta<lb ed="#R" n="86" break="no"/>tiua debet infinite acceptari. 
+      </p>
+               <p xml:id="olm8ij-g46115-d1e909">
+                  <lb ed="#R" n="87"/>De secundo articulo videtur, quod non, quia 
+      <lb ed="#R" n="88"/>quando aliquid est infinitum, non compatitur 
+      ali<lb ed="#R" n="89" break="no"/>quid aliud secum, vt si esset vnum corpus infinitum, 
+      <lb ed="#R" n="90"/>non esset aliud corpus: si ergo meritum Christi fuit 
+      <lb ed="#R" n="91"/>infinitum, non compatitur aliud meritum, &amp; sic San 
+      <lb ed="#R" n="92"/>cti non meruerunt. Item: sic meruit omnem 
+      gra<lb ed="#R" n="93" break="no"/>tiam omnium simpliciter, &amp; hoc non est verum 
+      <lb ed="#R" n="94"/>quia non meruit Antichristi, nec Adae, aut omnium, 
+      <lb ed="#R" n="95"/>qui modo sunt, &amp; non sunt, quia eiusdem rationis est 
+      <lb ed="#R" n="96"/>gratia ista cum illa: si ergo non illam, nec istam: 
+      <lb ed="#R" n="97"/>tunc si non meruit omnem gratiam, non fuit 
+      meri<lb ed="#R" n="98" break="no"/>tum Christi infinitum. 
+      </p>
+               <p xml:id="olm8ij-g46115-d1e938">
+                  <lb ed="#R" n="99"/>Videtur, quod primum, quod meruit, fuerit 
+      de<lb ed="#R" n="100" break="no"/>letio culpae, &amp; gratia vt deletiuum culpae, quia fi 
+      <lb ed="#R" n="101"/>gratia, vt gratia caderet sub merito, tunc 
+      meri<lb ed="#R" n="102" break="no"/>tum hominis euacuaretur: ergo non aspicit 
+      gra<lb ed="#R" n="103" break="no"/>tiam: sed gratiam, vt deletiuum, quia sua mors 
+      <lb ed="#R" n="104"/>fuit ad redimendum ordinata: hoc autem 
+      fa<lb ed="#R" n="105" break="no"/>ctum est per gratiam: ergo. Et in hoc concordat 
+      <lb ed="#R" n="106"/>Ecclesia: Vnde dicimus, quod gratia 
+      Sacramento<lb ed="#R" n="107" break="no"/>rum cadit sub merito, quia omnis remissio 
+      pecca<lb ed="#R" n="108" break="no"/>torum fit in sanguine eius, &amp; sic gratia, quae in 
+      An<lb ed="#R" n="109" break="no"/>gelis, vel in Adam, cadit sub merito Christi; &amp; 
+      <lb ed="#R" n="110"/>quia omnis gratia praesupponit gratiam primam, 
+      <lb ed="#R" n="111"/>ideo omnes, qui merentur, in virtute datae gratiae 
+      <lb ed="#R" n="112"/>merentur, ideo iuste omnis gratia est in virtute 
+      <lb ed="#R" n="113"/>passionis Christi. Vnde non video, quod ex hoc fiat 
+      <lb ed="#R" n="114"/>aliqua iniuria Christo: ergo acceptatiue, vel 
+      me<lb ed="#R" n="115" break="no"/>ruit omnem gratiam, vel deletiuam culpae, &amp; ista 
+      <lb ed="#R" n="116"/>est infinita, quia deletio infinitorum 
+      peccato<lb ed="#R" n="117" break="no"/>rum. 
+      </p>
+               <p xml:id="olm8ij-g46115-d1e982">
+                  <lb ed="#R" n="118"/>Dico etiam ad relaxandum poenam, &amp; ideo 
+      om<lb ed="#R" n="119" break="no"/>nis indulgentia cadit sub merito. 
+      </p>
+               <p xml:id="olm8ij-g46115-d1e989">
+                  <lb ed="#R" n="120"/>Sed meruitne omnibus? Dicunt quidam, quod 
+      <lb ed="#R" n="121"/>non quantum ad efficientiam. Si hoc intelligitur 
+      <lb ed="#R" n="122"/>quantum ex parte, est verum; sed propter aliam 
+      <lb ed="#R" n="123"/>rationem credo, quod hoc est verum. 
+      </p>
+               <p xml:id="olm8ij-g46115-d1e1000">
+                  <lb ed="#R" n="124"/>Tunc ad primum dico, quod prima gratia cadit 
+      <lb ed="#R" n="125"/>sub merito Christi, &amp; omnis gratia, quae ordinem 
+      <lb ed="#R" n="126"/>habet ad hoc, vt resistere tentationi, &amp; Daemoni, 
+      <lb ed="#R" n="127"/>&amp; huiusmodi, &amp; haec est intentio Magistri: &amp; licet 
+      <lb ed="#R" n="128"/>ex merito alterius nempe Christi est gratia; non 
+      <lb ed="#R" n="129"/>quod iste habet ibi ius, sed Christus. 
+      </p>
+               <p xml:id="olm8ij-g46115-d1e1017">
+                  <lb ed="#R" n="130"/>De Tertio Articulo dico, quod sicut actus extrin 
+      <lb ed="#R" n="131"/>secus non addit nouum meritum ad inferiorem, 
+      <lb ed="#R" n="132"/>sic propositum Christi ab instanti suae 
+      conceptio<lb ed="#R" n="133" break="no"/>nis cum actibus exequentibus, &amp; ponentibus 
+      post<lb ed="#R" n="134" break="no"/>modum in effectu, totum hoc complet rationem 
+      <lb ed="#R" n="135"/>vnius meriti, nec fuit aliquod aliud, sed ex isto, &amp; 
+      <lb ed="#R" n="136"/>illo fuit vnum meritum. 
+      </p>
+               <p xml:id="olm8ij-g46115-d1e1035">
+      <!--0471.xml-->
+                  <pb ed="#R" n="469"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>De quarto articulo videtur quod sic, quia secun 
+      <lb ed="#R" n="2"/>dum Joan. 19. Christus post mortem fuit lanceatus, 
+      <lb ed="#R" n="3"/>aut ergo tunc meruit, &amp; habeo propositum; aut non, 
+      <lb ed="#R" n="4"/>&amp; tunc sequitur inconueniens magnum, cum 
+      Sacra<lb ed="#R" n="5" break="no"/>menta fuerint formata de latere Christi. Contra: 
+      <lb ed="#R" n="6"/>Nullum meritum est nisi actu viuentis, non autem 
+      <lb ed="#R" n="7"/>existentis in termino: ergo. Propter hoc dicunt 
+      ali<lb ed="#R" n="8" break="no"/>qui, quod Christus viuebat, dum lanceatus fuit: sed 
+      <lb ed="#R" n="9"/>hoc est contra textum canonis. 
+      </p>
+               <p xml:id="olm8ij-g46115-d1e1064">
+                  <lb ed="#R" n="10"/>Et ideo hoc arguit, quod Christus non solum 
+      <lb ed="#R" n="11"/>meruit in lanceatione, sed etiam in sepultura, non 
+      <lb ed="#R" n="12"/>secundum talem actum in se, vt talis actus: sed ex 
+      <lb ed="#R" n="13"/>actu voluntatis praeexistente, vnde ab instanti suae 
+      <lb ed="#R" n="14"/>conceptionis praeuidit, quod erat sic tractandus post 
+      <lb ed="#R" n="15"/>mortem, &amp; tunc voluntas sua acceptauit omnia 
+      <lb ed="#R" n="16"/>quae facta fuerunt postmodum post mortem, sicut 
+      <lb ed="#R" n="17"/>verus obediens patri, &amp; ratione huius &amp; 
+      accepta<lb ed="#R" n="18" break="no"/>tionis omnia talia fuerunt vere meritoria, ita quod 
+      <lb ed="#R" n="19"/>omnia aduenientia non habuerunt rationem 
+      alte<lb ed="#R" n="20" break="no"/>rius meriti, sed vna simul cum illo proposito 
+      vo<lb ed="#R" n="21" break="no"/>luntatis, totale meritum compleuerunt. Tunc ad 
+      <lb ed="#R" n="22"/>argumenta. 
+      </p>
+               <p xml:id="olm8ij-g46115-d1e1095">
+                  <lb ed="#R" n="23"/>Ad primum nego antecedens, quia est vnum 
+      me<lb ed="#R" n="24" break="no"/>ritum. Ad aliud dico, quod passio, vt passio non 
+      <lb ed="#R" n="25"/>fuit meritoria, sed acceptatio eius. Ad aliud dico, 
+      <lb ed="#R" n="26"/>quod meritum, &amp; praemium vniformiter 
+      respon<lb ed="#R" n="27" break="no"/>dent, tunc si accipit vnum actum meriti intrinsecum, 
+      <lb ed="#R" n="28"/>sic datur aliud finitum; sed si accipis actum quoad 
+      <lb ed="#R" n="29"/>circunstantias, sic datur meritum infinitum, quia 
+      <lb ed="#R" n="30"/>persona erat conditio intrinseca, &amp; ideo 
+      possibile<lb ed="#R" n="31" break="no"/>est, quod detur meritum infinitum, &amp; tamen quod 
+      <lb ed="#R" n="32"/>persona erat conditio intrinseca: vnde meritum 
+      <lb ed="#R" n="33"/>capit conditionem infinitam, scilicet primam. 
+      </p>
+               <p xml:id="olm8ij-g46115-d1e1121">
+                  <lb ed="#R" n="34"/>Ad aliud dico, quod ibi creatum, &amp; increatum est 
+      <lb ed="#R" n="35"/>conditio Personae. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

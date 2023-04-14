@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-14">April 14, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b3">Roma 1605, Book 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-14" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="524"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-g65137"><!-- l3-d34q1 -->
+            <head xml:id="olm8ij-g65137-Hd1e101">Quaestio 1</head>
+            <p xml:id="olm8ij-g65137-d1e103">
+               <lb ed="#R" n="40"/>DISTINCTIO XXXIV. 
+      <lb ed="#R" n="41"/>DE DONJS JN GENERALJ.
+      <lb ed="#R" n="42"/>Quaestio J. 
+      </p>
+            <div xml:id="olm8ij-g65137-Dd1e112">
+               <head xml:id="olm8ij-g65137-Hd1e114">Articulus 1</head>
+               <head xml:id="olm8ij-g65137-Hd1e116" type="question-title">
+        Utrum Dona, Virtutes, Fructus, et Beatitudines realiter distinguantur
+      </head>
+               <p xml:id="olm8ij-g65137-d1e119">
+                  <lb ed="#R" n="43"/>ARTJCVLVS VNJCVS. 
+      <lb ed="#R" n="44"/>Vtrum Dona, Virtutes, Fructus, &amp; Beatitudines 
+      <lb ed="#R" n="45"/>realiter distinguantur. 
+      </p>
+               <p xml:id="olm8ij-g65137-d1e128">
+                  <lb ed="#R" n="46"/>VIDETVR primo, quod sic, 
+      <lb ed="#R" n="47"/>quia quando aliqua sunt 
+      <lb ed="#R" n="48"/>idem realiter, mutuo, &amp; 
+      <lb ed="#R" n="49"/>proportionaliter 
+      connu<lb ed="#R" n="50" break="no"/>merantur: modo praedicta 
+      <lb ed="#R" n="51"/>non connumerantur 
+      pro<lb ed="#R" n="52" break="no"/>portionaliter, sunt enim 
+      <lb ed="#R" n="53"/>duodecim fructus, &amp; octo 
+      <lb ed="#R" n="54"/>beatitudines. Licet enim 
+      <lb ed="#R" n="55"/>sint septem dona, &amp; septem virtutes, tamen 
+      non<lb ed="#R" n="56" break="no"/>proportionaliter connumerantur, vt vni 
+      correspon<lb ed="#R" n="57" break="no"/>deat aliud. Contra per auctoritatem Ambros. 
+      po<lb ed="#R" n="58" break="no"/>sitam in literas quia septem dona sunt septemi 
+      vir<lb ed="#R" n="59" break="no"/>tutes. Respondeo, Punctus quaestionis est, quia- 
+      <!--0526.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="60"/>aliqui dicunt, quod praedicta distinguuntur, vt 
+      <lb ed="#R" n="61"/>diuersi habitus, sic quod per virtutes homo 
+      opera<lb ed="#R" n="62" break="no"/>tur recte expedite, &amp; perfecte. Alij vero dicunt, 
+      <lb ed="#R" n="63"/>quod distinguuntur per hoc, quod virtutes dantur 
+      <lb ed="#R" n="64"/>ad bene operandum, dona autem ad resistendum 
+      <lb ed="#R" n="65"/>malo. 
+      </p>
+               <p xml:id="olm8ij-g65137-d1e178">
+                  <lb ed="#R" n="66"/>Sed contra istum modum remanet praetacta 
+      <lb ed="#R" n="67"/>difficultas, scilicet quod per eundem habitum 
+      mo<lb ed="#R" n="68" break="no"/>ralem aliquis bene operatur, &amp; resistit malo 
+      con<lb ed="#R" n="69" break="no"/>trario bono, vt temperatur per habitum 
+      Tempe<lb ed="#R" n="70" break="no"/>rantiae bene operatur, &amp; resistit passionibus 
+      con<lb ed="#R" n="71" break="no"/>trarijs: &amp; vlterius, dona dantur ad bene operandum, 
+      <lb ed="#R" n="72"/>sicut &amp; virtutes. 
+      </p>
+               <p xml:id="olm8ij-g65137-d1e197">
+                  <lb ed="#R" n="73"/>Vnde tres dicunt aliter, &amp; habet dictum illorum 
+      <lb ed="#R" n="74"/>ortum ex dicto Gregorij super illud Iob, quod Iob 
+      <lb ed="#R" n="75"/>habuit septem filios, qui sunt septem dona, &amp; septem 
+      <lb ed="#R" n="76"/>Virtutes dantur ad tollendum peccata. Dona 
+      au<lb ed="#R" n="77" break="no"/>tem ad tollendum reliquias peccatorum, vt donum 
+      <lb ed="#R" n="78"/>scientiae tollit ignorantiam, quae est reliquia 
+      pecca<lb ed="#R" n="79" break="no"/>ti, vel sequela, &amp; sic de alijs. Sed hoc non valet, 
+      <lb ed="#R" n="80"/>quia idem habitus tollit peccatum, &amp; sequelam 
+      <lb ed="#R" n="81"/>peccati, &amp; vlterius, scientia acquisita, quae est 
+      vir<lb ed="#R" n="82" break="no"/>tus, expellit ignorantiam, vel stultitiam, quam 
+      di<lb ed="#R" n="83" break="no"/>cunt esse sequelam peccati: vnde Augustinus 
+      di<lb ed="#R" n="84" break="no"/>stinguit illa ex modo agendi, modus enim agendi 
+      <lb ed="#R" n="85"/>potest esse humanus, &amp; iste pertinet ad Virtutes, 
+      <lb ed="#R" n="86"/>quae faciunt bonum agere, siue modum humanum, 
+      <lb ed="#R" n="87"/>&amp; de hoc modo dicitur a Philosopho, cum dicit 7. 
+      <lb ed="#R" n="88"/>Ethic. quod quaedam sunt Virtutes humanae, &amp; 
+      po<lb ed="#R" n="89" break="no"/>liticae, quae faciunt agere, sicut patet etiam in 
+      Vi<lb ed="#R" n="90" break="no"/>tijs. Intemperantia enim est vitium humanum, sed 
+      <lb ed="#R" n="91"/>bestialitas est vitium modum humanum excedens, 
+      <lb ed="#R" n="92"/>&amp; descendens vsque ad modum bestialem, quando 
+      <lb ed="#R" n="93"/>scilicet homo delectatur in ijs, in quibus delectari 
+      <lb ed="#R" n="94"/>non debet, sicut aliqui delectantur comedendo car 
+      <lb ed="#R" n="95"/>bones, &amp; ista distinctio est pulchra &amp; substantialis. 
+      <lb ed="#R" n="96"/>Contra istam tamen arguunt aliqui dicentes, quod 
+      <lb ed="#R" n="97"/>magis &amp; minus diuersificant species, &amp; ideo per 
+      ta<lb ed="#R" n="98" break="no"/>les modos agendi, qui non differunt nisi secundum 
+      <lb ed="#R" n="99"/>magis &amp; minus, non habetur quod praedicta 
+      diffe<lb ed="#R" n="100" break="no"/>runt specie. Sed obiectio non valet. Destruit enim 
+      <lb ed="#R" n="101"/>7. Ethic. vbi dicitur, quod bestialitas aliud est 
+      vi<lb ed="#R" n="102" break="no"/>tium a vitio humano, &amp; tamen non differt nisi 
+      se<lb ed="#R" n="103" break="no"/>cundum magis &amp; minus. Similiter virtutes 
+      heroi<lb ed="#R" n="104" break="no"/>cae differunt a virtutibus humanis. Bene diceretur 
+      <lb ed="#R" n="105"/>ad hoc, quod magis &amp; minus diuersificant speciem 
+      <lb ed="#R" n="106"/>in Moralibus, quando sumuntur secundum 
+      con<lb ed="#R" n="107" break="no"/>gruentiam ad aliam naturam, nec virtus humana 
+      <lb ed="#R" n="108"/>sumitur vt conuenit homini, haeroica, vt conuenit 
+      <lb ed="#R" n="109"/>Angelo, &amp; sic specifice distinguuntur. 
+      </p>
+               <p xml:id="olm8ij-g65137-d1e280">
+                  <lb ed="#R" n="110"/>Aliqui arguunt contra praedictum modum, ex 
+      <lb ed="#R" n="111"/>hoc quod Charitas, quae est Virtus nobilissima 
+      <lb ed="#R" n="112"/>facit operari differenter ad hoc, quod est dare Cha 
+      <lb ed="#R" n="113"/>ritatem, quae est erga Deum, puta Sapientiam, 
+      <lb ed="#R" n="114"/>idest sapidam scientiam, quae nihil sapit nisi Deum, 
+      <lb ed="#R" n="115"/>&amp; ista est nobilissima, &amp; facit nobilissime 
+      ope<lb ed="#R" n="116" break="no"/>rari.
+      </p>
+               <p xml:id="olm8ij-g65137-d1e298">
+                  <lb ed="#R" n="117"/>Item arguitur, quod quicumque habet virtutes 
+      <lb ed="#R" n="118"/>Morales infusas, modo superhumano operatur. 
+      <lb ed="#R" n="119"/>Diceretur ad hoc, quod bene verum est, quod 
+      vir<lb ed="#R" n="120" break="no"/>tutes infusae communiter loquendo 
+      supernaturali<lb ed="#R" n="121" break="no"/>ter, &amp; modo superhumano operantur: sed vltra 
+      <lb ed="#R" n="122"/>istum modum dona specialiter faciunt operari mo 
+      <lb ed="#R" n="123"/>do superhumano, &amp; sic praedictae obiectiones non 
+      <lb ed="#R" n="124"/>tollunt praedictum modum. Tamen iste modus 
+      dif<lb ed="#R" n="125" break="no"/>ficultatem patitur, quod oportet dare tot dona, 
+      <lb ed="#R" n="126"/>quot sunt virtutes, quia in materia cuiuslibet 
+      vir<lb ed="#R" n="127" break="no"/>tutis conuenit operari modo superhumano, &amp; sie 
+      <!--0527.xml-->
+      <pb ed="#R" n="525"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>cuilibet virtuti debet correspondere proprium 
+      do<lb ed="#R" n="2" break="no"/>num: sacra autem Scriptura videtur esse aliquid 
+      <lb ed="#R" n="3"/>contrarium, quod videtur praefigere numerum 
+      do<lb ed="#R" n="4" break="no"/>norum, puta septenarium, vt patet per septem 
+      cor<lb ed="#R" n="5" break="no"/>nua agni, per septem candelabra, &amp; sigilla, 
+      haben<lb ed="#R" n="6" break="no"/>tur septem dona praecise, &amp; in multis alijs locis 
+      sa<lb ed="#R" n="7" break="no"/>crae Scripturae. Vnde est quintus modus Doct. 
+      anti<lb ed="#R" n="8" break="no"/>quis, scilicet Alex. Thomae, quod voluntas potest 
+      <lb ed="#R" n="9"/>dupliciter accipi, vno modo vt mouetur a ratione, 
+      <lb ed="#R" n="10"/>&amp; sic non est pure passiua, sed per se agit ad actum 
+      <lb ed="#R" n="11"/>suum bonum, &amp; secundum hoc indiget virtutibus, 
+      <lb ed="#R" n="12"/>quibus perficitur. 
+      </p>
+               <p xml:id="olm8ij-g65137-d1e357">
+                  <lb ed="#R" n="13"/>Alio modo, vt mouetur a Spiritu sancto, &amp; sic se 
+      <lb ed="#R" n="14"/>habet pure passiue, &amp; indiget donis, vt sit bene 
+      mo<lb ed="#R" n="15" break="no"/>bilis a Spiritu sancto, &amp; iste modus coincidit cum 
+      <lb ed="#R" n="16"/>modo immediate dicto, &amp; habet difficultatem 
+      <lb ed="#R" n="17"/>quia sicut homo mouetur ita in diligendo Deum 
+      <lb ed="#R" n="18"/>charitatiue mouetur a Spiritu sancto, &amp; in 
+      adhae<lb ed="#R" n="19" break="no"/>rendo, &amp; in sperando. Vnde est alius modus, qui 
+      <lb ed="#R" n="20"/>dicit, quod virtutes, dona, beatitudines, &amp; fructus 
+      <lb ed="#R" n="21"/>sunt idem habitus, nec differunt, nisi voce &amp; nomine, 
+      <lb ed="#R" n="22"/>ita quod omnes virtutes tam Theologicae, quam 
+      <lb ed="#R" n="23"/>Morales, sunt idem quod dona, ita quod timor idem 
+      <lb ed="#R" n="24"/>est quod Temperantia, Pietas, Justitia, Fortitudo, 
+      <lb ed="#R" n="25"/>Sapientia, Charitas. Fidei autem, quae est virtus, 
+      <lb ed="#R" n="26"/>correspondent duo dona, scilicet Intellectus, &amp; 
+      Scien<lb ed="#R" n="27" break="no"/>tia, Prudentiae vero correspondet Donum consilij. 
+      <lb ed="#R" n="28"/>&amp; eodem modo possunt beatitudines, &amp; fructus ad 
+      <lb ed="#R" n="29"/>praedicta reduci. Sed hic est difficultas, quia in 
+      <lb ed="#R" n="30"/>ista adaptatione relinquitur Spes, cui non 
+      corre<lb ed="#R" n="31" break="no"/>spondet aliquod donum, &amp; item postquam posuit 
+      <lb ed="#R" n="32"/>septem dona Isai. non enumerat aliquas alias 
+      vir<lb ed="#R" n="33" break="no"/>tutes, &amp; est, inquit, Justitia cingulum lumborum 
+      <lb ed="#R" n="34"/>eius, &amp;c. quod non faceret, si dona essent idem 
+      <lb ed="#R" n="35"/>cum virtutibus: &amp; Item, quod Pietas sit Justitia 
+      <lb ed="#R" n="36"/>non videtur, imo magis videtur esse Temperantia, 
+      <lb ed="#R" n="37"/>vt etiam timor non est Temperantia formaliter 
+      ni<lb ed="#R" n="38" break="no"/>si enuntiatiue, &amp; causaliter, sicut omnes aliae 
+      vir<lb ed="#R" n="39" break="no"/>tutes. Et item secundum istam assignationem, 
+      qua<lb ed="#R" n="40" break="no"/>tuor dona sunt in Intellectu, &amp; tria in Voluntate: 
+      <lb ed="#R" n="41"/>non sic autem de Virtutibus, sed vna tantum est 
+      <lb ed="#R" n="42"/>in Intellectu, scilicet Fides, vel duae, si ponatur 
+      Pru<lb ed="#R" n="43" break="no"/>dentia, &amp; reliquae in voluntate, vel in appetitu 
+      sen<lb ed="#R" n="44" break="no"/>sitiuo. Mltem: Iste modus videtur repugnare sacrae 
+      <lb ed="#R" n="45"/>Scripturae, quae praecise videtur ponere septem 
+      do<lb ed="#R" n="46" break="no"/>na, non tot, quot sunt virtutes. 
+      </p>
+               <p xml:id="olm8ij-g65137-d1e433">
+                  <lb ed="#R" n="47"/>Nunc pono tres alios modos, quibus praedicta 
+      <lb ed="#R" n="48"/>possunt distingui. Primus modus potest accipi 
+      pe<lb ed="#R" n="49" break="no"/>nes agere, &amp; penes agi, quia fide &amp; experientia 
+      <lb ed="#R" n="50"/>percipimus, &amp; tenemus, quod in sanctis viris sunt 
+      <lb ed="#R" n="51"/>aliqui actus, qui sunt redacti ad potestatem 
+      ipso<lb ed="#R" n="52" break="no"/>rum, vt in illos exeant quando volunt, &amp; quando non 
+      <lb ed="#R" n="53"/>placet eis cessent, vt est diligere Deum actu, vel 
+      ora<lb ed="#R" n="54" break="no"/>re, vel aliquid tale facere. Secundo, sunt aliqui, 
+      <lb ed="#R" n="55"/>qui non sunt in potestate ipsorum, imo subito 
+      pro<lb ed="#R" n="56" break="no"/>rumpunt in tales actus, secundum quod Spiritus 
+      <lb ed="#R" n="57"/>irruit in ipsos, sicut sunt prophetandi vel laudandi 
+      <lb ed="#R" n="58"/>Deum, vel aliquid tale, secundum quod de 
+      Samsc<lb ed="#R" n="59" break="no"/>ne dicitur, quod irruit Spiritus Domini in eum, &amp; 
+      <lb ed="#R" n="60"/>occidit leonem, &amp; de Saul, quod lacera uit boues, 
+      <lb ed="#R" n="61"/>&amp; erat inter prophetas, &amp; de Balaam, &amp; de multis 
+      <lb ed="#R" n="62"/>talibus: &amp; secundum hoc possumus dicere, quod 
+      <lb ed="#R" n="63"/>virtutes sunt habitus, quibus aliquis vtitur ad 
+      a<lb ed="#R" n="64" break="no"/>ctum cum vult, vel quod actus illorum habituum 
+      <lb ed="#R" n="65"/>sunt in potestate habentis virtutes. Dona vero 
+      <lb ed="#R" n="66"/>sunt habitus, qui sunt ad actus, vel sunt ipsius actus, 
+      <lb ed="#R" n="67"/>qui non sunt in potestate hominis, &amp; iste modus 
+      <lb ed="#R" n="68"/>concordat cum illo de modo humano, &amp; cum illo 
+      <!--0527.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>de voluntate, quae mouetur a ratione, &amp; hoc est in 
+      <lb ed="#R" n="70"/>potestate sua: &amp; a Spiritu sancto, &amp; tunc non est in 
+      <lb ed="#R" n="71"/>potestate sua. Voluntas enim virtutibus agit, sed 
+      <lb ed="#R" n="72"/>a donis agitur. 
+      </p>
+               <p xml:id="olm8ij-g65137-d1e496">
+                  <lb ed="#R" n="73"/>Secundus modus est, vt distinctio debeat fieri 
+      <lb ed="#R" n="74"/>secundum medios actus, vel media obiecta, vnde 
+      <lb ed="#R" n="75"/>sciendum, quod aliquae virtutes habent Deum 
+      im<lb ed="#R" n="76" break="no"/>mediate pro obiecto, vt Theologicae. Aliae autem, 
+      <lb ed="#R" n="77"/>scilicet Morales, habent actus exteriores, qui sunt 
+      <lb ed="#R" n="78"/>circa Deum. Alij autem sunt actus interiores, qui 
+      <lb ed="#R" n="79"/>non progrediuntur extra intellectum, &amp; 
+      volunta<lb ed="#R" n="80" break="no"/>tem, &amp; dicuntur pure spirituales, &amp; ad istos sunt 
+      <lb ed="#R" n="81"/>dona Spiritus sancti, ita quod quidam habitus sunt 
+      <lb ed="#R" n="82"/>respectu Dei, vt virtutes Theologicae: alij respectu 
+      <lb ed="#R" n="83"/>actuum exteriorum, &amp; sunt virtutes Morales: aliae 
+      <lb ed="#R" n="84"/>respectu actuum interiorum intellectus &amp; 
+      volunta<lb ed="#R" n="85" break="no"/>tis spiritualium, &amp; dicuntur dona: &amp; secundum 
+      <lb ed="#R" n="86"/>hoc potest accipi sufficientia ipsorum donorum 
+      <lb ed="#R" n="87"/>Aut enim respiciunt actus interiores Intellectus, 
+      <lb ed="#R" n="88"/>aut Voluntatis. Si Intellectus, aut sunt in 
+      parte<lb ed="#R" n="89" break="no"/>contemplatiua, &amp; in ipsa sunt duo principia, 
+      scili<lb ed="#R" n="90" break="no"/>cet Intellectus, qui est in mera contemplatione 
+      <lb ed="#R" n="91"/>Dei, &amp; Sapientia, quae est in contemplatione, quae 
+      <lb ed="#R" n="92"/>redundat ad affectum, &amp; ideo dicitur sapida Sapien 
+      <lb ed="#R" n="93"/>tia; aut sunt in Intellectu practico, &amp; sic sunt duo, 
+      <lb ed="#R" n="94"/>Consilium inquirendo intrinsece, &amp; Scientia in 
+      diri<lb ed="#R" n="95" break="no"/>gendo, &amp; isti actus semper manent intrinsece. Sed 
+      <lb ed="#R" n="96"/>ex parte Voluntatis sunt tria, vnum respectu mali 
+      <lb ed="#R" n="97"/>culpae, scilicet Timor, &amp; aliud respectu mali poenae, 
+      <lb ed="#R" n="98"/>scilicet Fortitudo, &amp; haec duo sunt in irascibili, 
+      Pie<lb ed="#R" n="99" break="no"/>tas autem est in concupiscibili, &amp; ex hoc patet 
+      do<lb ed="#R" n="100" break="no"/>norum, &amp; virtutum differentia. Fortitudo enim, 
+      <lb ed="#R" n="101"/>quae est virtus, est habitus, per quem homo exterius 
+      <lb ed="#R" n="102"/>tolerat aduersa, &amp; tristabilia. Fortitudo autem, 
+      <lb ed="#R" n="103"/>quae est donum, est habitus, quo homo est 
+      vigoro<lb ed="#R" n="104" break="no"/>sus interius, non curans de quacumque 
+      aduersita<lb ed="#R" n="105" break="no"/>te, &amp; sic de alijs suo modo.
+      </p>
+               <p xml:id="olm8ij-g65137-d1e571">
+                  <lb ed="#R" n="106"/>Tertius modus potest poni secundum Doctores 
+      <lb ed="#R" n="107"/>sic: Dona non possunt esse insormia, quia non sunt 
+      <lb ed="#R" n="108"/>sine Charitate, cum sint sequelae ipsius Charitatis, 
+      <lb ed="#R" n="109"/>modo ex amore alicuius oriuntur diuersimode 
+      se<lb ed="#R" n="110" break="no"/>quelae diuersae, &amp; sic etiam ex amore Dei 
+      charita<lb ed="#R" n="111" break="no"/>tiuo oriuntur tria in affectu, scilicet Reuerentia, 
+      <lb ed="#R" n="112"/>quae reueretur amicum, &amp; Deum, &amp; non offendit, 
+      <lb ed="#R" n="113"/>&amp; sic est spiritus Timoris. Oritur zelus ad 
+      defen<lb ed="#R" n="114" break="no"/>dendum amicum, vel Deum, &amp; legem Dei, &amp; sic 
+      di<lb ed="#R" n="115" break="no"/>citur spiritus Vigoris &amp; Fortitudinis: oritur etiam 
+      <lb ed="#R" n="116"/>bona affectio ad amicos Dei, &amp; dicitur spiritus 
+      Pie<lb ed="#R" n="117" break="no"/>tatis respectu proximi. 
+      </p>
+               <p xml:id="olm8ij-g65137-d1e600">
+                  <lb ed="#R" n="118"/>In Intellectu autem ex Charitate oriuntur 
+      qua<lb ed="#R" n="119" break="no"/>tuor: primum est meditatio de amico, quia vbi 
+      a<lb ed="#R" n="120" break="no"/>mor, ibi oculus, &amp; dicitur spiritus Intellectus. 
+      Se<lb ed="#R" n="121" break="no"/>cundum est complacentia, quia qui meditatur 
+      de<lb ed="#R" n="122" break="no"/>Deo eo modo, quo pertinet ad donum Intellectus, 
+      <lb ed="#R" n="123"/>necessario complacet in ipso, sicut cogitans de ami 
+      <lb ed="#R" n="124"/>co complacet in meditando ipsum, &amp; sic dicitur 
+      <lb ed="#R" n="125"/>Sapientia. Oritur autem tertio notitia de amico, 
+      <lb ed="#R" n="126"/>quoniam qui diligit, vult cogitare quem diligit, 
+      <lb ed="#R" n="127"/>&amp; sic est spiritus Scientiae. Quartum, quod oritur, 
+      <lb ed="#R" n="128"/>est Prouidentia, ne faciat aliquid contra 
+      volunta<lb ed="#R" n="129" break="no"/>tem amici, &amp; dicitur Consilium, &amp; sic possent isto 
+      <lb ed="#R" n="130"/>triplici modo distingui vltimate. Tamen videtur 
+      es<lb ed="#R" n="131" break="no"/>se dicendum distinguendo, quia aliter possunt 
+      di<lb ed="#R" n="132" break="no"/>stingui proprie loquendo, ac propriate: si proprie, 
+      <lb ed="#R" n="133"/>ita quod distinguantur sicut habitus specifice 
+      di<lb ed="#R" n="134" break="no"/>stincti, tunc dicendum quod non, imo omnes 
+      vir<lb ed="#R" n="135" break="no"/>tutes infusae sunt idem, quod dona &amp; beatitudines, 
+      <lb ed="#R" n="136"/>&amp; fructus, ita quod haec dona sunt habitus realiter, 
+      <!--0528.xml-->
+      <pb ed="#R" n="526"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>sed virtutes in comparatione ad actum, quia 
+      vir<lb ed="#R" n="2" break="no"/>tus pensatur secundum vltimum potentiae, dona 
+      <lb ed="#R" n="3"/>autem in comparatione ad principium, a quo 
+      ha<lb ed="#R" n="4" break="no"/>bentur. Fructus vero dicuntur in comparatione 
+      <lb ed="#R" n="5"/>ad delectationem &amp; gaudium annexum operi 
+      spi<lb ed="#R" n="6" break="no"/>rituali: sed dicuntur habitudines in comparatione 
+      <lb ed="#R" n="7"/>ad principium quod eis debetur. Et sic tot sunt 
+      do<lb ed="#R" n="8" break="no"/>na quot virtutes, &amp; quot beatitudines, ita quod 
+      <lb ed="#R" n="9"/>aequantur in natura, &amp; hoc videtur esse de 
+      intentio<lb ed="#R" n="10" break="no"/>ne sacrae Scripturae, quae ponit alia dona Spiritus 
+      <lb ed="#R" n="11"/>sanci, quam septem praenominata. Puta, 
+      Spiri<lb ed="#R" n="12" break="no"/>tum ardoris, Spiritum lenitatis, &amp; multos 
+      a<lb ed="#R" n="13" break="no"/>lios Spiritus inuenies in sacra Scriptura. De 
+      Bea<lb ed="#R" n="14" break="no"/>titudinibus etiam, vnde: Beati immaculati 
+      in<lb ed="#R" n="15" break="no"/>via, &amp;: Beatus vir, qui non abijt in consilio 
+      impio<lb ed="#R" n="16" break="no"/>rum, &amp;: Beati omnes qui timent Dominum. Si enim 
+      <lb ed="#R" n="17"/>Christus posuisset vnam aliam beatitudinem, tunc 
+      <lb ed="#R" n="18"/>essemus coacti ponere nouem Beatitudines, quot do 
+      <lb ed="#R" n="19"/>na &amp; virtutes proprie loquendo, &amp; similiter 
+      dicen<lb ed="#R" n="20" break="no"/>dum est de fructibus. Appropriate autem 
+      loquen<lb ed="#R" n="21" break="no"/>do possumus dicere, quod distinguuntur, quia quã- 
+      <lb ed="#R" n="22"/>uis virtutibus approprientur septem dona, non 
+      ta<lb ed="#R" n="23" break="no"/>men virtutibus septem principalibus, vt prius 
+      fa<lb ed="#R" n="24" break="no"/>cta fuit coaptatio, sed alijs quibuscumque, &amp; sic 
+      <lb ed="#R" n="25"/>de alijs, vt patere potest inducendo. Quia fructus 
+      <lb ed="#R" n="26"/>dicunt aliquam suauitatem, ideo illis virtutibus 
+      <lb ed="#R" n="27"/>attribuuntur, in quibus maxime suauitas 
+      reperi<lb ed="#R" n="28" break="no"/>tur: Modo primo &amp; principaliter in virtute 
+      Chari<lb ed="#R" n="29" break="no"/>tatis reperitur delectatio, &amp; ideo primus fructus 
+      <lb ed="#R" n="30"/>charitatis Gaudium, similiter de suauitate: &amp; sic 
+      <lb ed="#R" n="31"/>de duodecim fructibus, quos Apostolus enumerat, 
+      <lb ed="#R" n="32"/>qui sunt Charitas, Gaudium, Pax, Patientia, 
+      Beni<lb ed="#R" n="33" break="no"/>gnitas, idest beneuolentia, Bonitas, idest 
+      clemen<lb ed="#R" n="34" break="no"/>tia: Longanimitas contra taedium: Mansuetudo, 
+      <lb ed="#R" n="35"/>Fides, Modestia, quae continet in se multas alias 
+      <lb ed="#R" n="36"/>virtutes, quae pertinent ad gestus honestos. 
+      Conti<lb ed="#R" n="37" break="no"/>nentia, quae est respectu actus principalis: Castitas, 
+      <lb ed="#R" n="38"/>quae est respectu actuum impudicorum, &amp; aliorum 
+      <lb ed="#R" n="39"/>annexorum actui principali. Modo isti 
+      duode<lb ed="#R" n="40" break="no"/>cim fructus sunt duodecim virtutes habentes 
+      spe<lb ed="#R" n="41" break="no"/>ciales delectationes, &amp; ideo appropriate fructus 
+      <lb ed="#R" n="42"/>vocantur, &amp; hoc patet per vitia opposita, quae 
+      A<lb ed="#R" n="43" break="no"/>postolus ibidem enumerat, quae sunt vitia &amp; 
+      ope<lb ed="#R" n="44" break="no"/>ra carnis, sicut ista duodecim dicuntur fructus, 
+      <lb ed="#R" n="45"/>vel opera Spiritus sancti; similiter de 
+      Beatitudi<lb ed="#R" n="46" break="no"/>nibus. 
+      </p>
+               <p xml:id="olm8ij-g65137-d1e750">
+                  <lb ed="#R" n="47"/>Quarto dicit Beatitudines, quae videntur sibi 
+      <lb ed="#R" n="48"/>vendicare ius in praemio aeterno, &amp; in 
+      beatitudi<lb ed="#R" n="49" break="no"/>ne supernaturali, &amp; posuit illas per oppositum ad 
+      <lb ed="#R" n="50"/>illa, in quibus aliqui dixerunt beatitudinem esse, 
+      <lb ed="#R" n="51"/>in diuitijs, contra quos dicitur: Beati pauperes. 
+      <lb ed="#R" n="52"/>Alij in delicijs: contra quos dicitur: Beati qui 
+      lu<lb ed="#R" n="53" break="no"/>gent. Alij in excellentijs, contra quos dicitur: 
+      <lb ed="#R" n="54"/>Beati mites, secundum illud: Discite a me, quia 
+      <lb ed="#R" n="55"/>mitis sum, &amp; humilis corde. Alij in victoria 
+      ha<lb ed="#R" n="56" break="no"/>benda, vt patet 7. Psal. Contra quos: Beati 
+      pacifi<lb ed="#R" n="57" break="no"/>ci. Alij in imperio, &amp; in regnare, &amp; dominari 
+      <lb ed="#R" n="58"/>alijs, vt Romani, ita quod finem ciuilitatis 
+      dixe<lb ed="#R" n="59" break="no"/>runt regnum &amp; dominium: contra quos dicitur: 
+      <lb ed="#R" n="60"/>Beati, qui persecutionem patiuntur. Alij in 
+      con<lb ed="#R" n="61" break="no"/>templatione naturali, contra quos: Beati mundo 
+      <lb ed="#R" n="62"/>corde. Alij in vita politica, quae maxime 
+      consi<lb ed="#R" n="63" break="no"/>stit in actu Justitiae, &amp; ideo dicitur: Beati qui 
+      esu<lb ed="#R" n="64" break="no"/>riunt, &amp; sitiunt iustitiam, &amp; istae duae vltimae 
+      de<lb ed="#R" n="65" break="no"/>buissent prius poni. Similiter potest dici quantum 
+      <lb ed="#R" n="66"/>ad dona, vt patet ex dictis, quae appropriate 
+      di<lb ed="#R" n="67" break="no"/>stinguuntur, non autem proprie loquendo de 
+      <lb ed="#R" n="68"/>dittinctione ipecinca. Et per hoc possunt saluari 
+      <!--0528.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>auctoritates sacrae Scripturae, ponentes praecise 
+      se<lb ed="#R" n="70" break="no"/>ptem dona, septem beatitudines, &amp; septem fructus. 
+      <lb ed="#R" n="71"/>Argumentum patet ex dictis. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

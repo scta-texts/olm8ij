@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-14">April 14, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b3">Roma 1605, Book 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-14" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="483"/>
+            <cb ed="#R" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-g51791"><!-- l3-d23q1 -->
+            <head xml:id="olm8ij-g51791-Hd1e101">Quaestio 1</head>
+            <p xml:id="olm8ij-g51791-d1e103">
+      <!--0485.xml-->
+               <cb ed="#R" n="b"/>
+               <lb ed="#R" n="66"/>DISTINCTIO XXIII. 
+      <lb ed="#R" n="67"/>DE MODO VNIONJS EX PARTE 
+      <lb ed="#R" n="68"/>ASSVMENTJS. 
+      </p>
+            <p xml:id="olm8ij-g51791-d1e116">
+               <lb ed="#R" n="69"/>Quaestio I. 
+      </p>
+            <div xml:id="olm8ij-g51791-Dd1e121">
+               <head xml:id="olm8ij-g51791-Hd1e123">Articulus 1</head>
+               <head xml:id="olm8ij-g51791-Hd1e125" type="question-title">
+        Utrum aliqua persona diuina posset assumere 
+        hominem sine quantitate
+      </head>
+               <p xml:id="olm8ij-g51791-d1e128">
+                  <lb ed="#R" n="70"/>ARTJCVLVS VNJCVS. 
+      <lb ed="#R" n="71"/>Vtrum aliqua persona diuina posset assumere 
+      ho<lb ed="#R" n="72" break="no"/>minem sine quantitate. 
+      </p>
+               <p xml:id="olm8ij-g51791-d1e137">
+                  <lb ed="#R" n="73"/>ARGVJTVR quod 
+      non<lb ed="#R" n="74" break="no"/>quia quantitas non potest 
+      <lb ed="#R" n="75"/>assumi sine subiecto: ergo 
+      <lb ed="#R" n="76"/>nec substantia materialis 
+      <lb ed="#R" n="77"/>poterit assumi sine 
+      quan<lb ed="#R" n="78" break="no"/>titate. Consequentia 
+      pa<lb ed="#R" n="79" break="no"/>tet, quia id quod frequen 
+      <lb ed="#R" n="80"/>tius inuenitur separatum 
+      <lb ed="#R" n="81"/>ab aliquo, facilius potest 
+      <lb ed="#R" n="82"/>assumi sine eo, quam illud, quod non inuenitur sine 
+      <lb ed="#R" n="83"/>eo: sed frequenter inuenitur quantitas sine 
+      substan<lb ed="#R" n="84" break="no"/>tia materiali, sicut patet in Sacramento altaris: Con 
+      <lb ed="#R" n="85"/>tra autem materialis nunquam inuenitur a 
+      quan<lb ed="#R" n="86" break="no"/>titate separata: ergo facilius potest assumi 
+      quanti<lb ed="#R" n="87" break="no"/>tas sine substantia, quam substantia sine quantitate. 
+      <lb ed="#R" n="88"/>Antecedens probatur sic, quia accidens nulli potest 
+      <lb ed="#R" n="89"/>inhaerere, nisi illud perficiatur, &amp; quia de 
+      ratione<lb ed="#R" n="90" break="no"/>accidentis est perficere, &amp; informare illud, cui 
+      in<lb ed="#R" n="91" break="no"/>haeret, &amp; a quo dependet: sed impossibile est quod 
+      <lb ed="#R" n="92"/>quantitas informata perficiat personam diuinam, 
+      <lb ed="#R" n="93"/>quia tunc persona diuina esset in potentia respectu 
+      <lb ed="#R" n="94"/>talis accidentis, quod est falsum: ergo nec 
+      supposi<lb ed="#R" n="95" break="no"/>to diuino potest inhaerere, nec ab eodem pendere, 
+      <lb ed="#R" n="96"/>&amp; per consequens nec assumi potest a persona 
+      <lb ed="#R" n="97"/>diuina. 
+      </p>
+               <p xml:id="olm8ij-g51791-d1e194">
+                  <lb ed="#R" n="98"/>Si dicatur ad istud argumentum, quod imo quan 
+      <lb ed="#R" n="99"/>titas posset ab aliquo dependere, &amp; ei inhaerere, &amp; 
+      <lb ed="#R" n="100"/>tamen non perficeret ipsum, nec informaret, quia 
+      <lb ed="#R" n="101"/>dependere a subiecto, &amp; perficere subiectum, habent 
+      <lb ed="#R" n="102"/>quendam ordinem inter se, ita quod dependere, &amp; 
+      <lb ed="#R" n="103"/>inhaerere est prius, &amp; ita sequitur, quod quantitas 
+      <lb ed="#R" n="104"/>possit inhaerere supposito, &amp; tamen ipsum non 
+      per<lb ed="#R" n="105" break="no"/>ciet, nec informabit, &amp; per consequens assumi 
+      pote<lb ed="#R" n="106" break="no"/>rit. Contra: Formam dependere a subiecto, &amp; 
+      ip<lb ed="#R" n="107" break="no"/>sum perficere se habent essentialiter: sed secundum 
+      <lb ed="#R" n="108"/>non potest separari a priori, quia impossibile est, 
+      <lb ed="#R" n="109"/>quod accidens informaret subiectum, &amp; non 
+      depende<lb ed="#R" n="110" break="no"/>ret ab eo: ergo eodem modo nec primum poterit a 
+      <lb ed="#R" n="111"/>secundo separari. Item: Jmpossibilius est quod 
+      ac<lb ed="#R" n="112" break="no"/>cidens subiecto inhaereat, &amp; quod ipsum non 
+      perfi<lb ed="#R" n="113" break="no"/>ciat. Sed accidens non potest suppositum diuinum 
+      <lb ed="#R" n="114"/>perficere: ergo nec ei potest inhaerere, nec per 
+      con<lb ed="#R" n="115" break="no"/>sequens assumi. Quod autem imposibile sit, quod 
+      <lb ed="#R" n="116"/>aliquid perficit subiectum, &amp; ab eo non dependeat, 
+      <lb ed="#R" n="117"/>probatur, quia si esset possibilius, Spiritus sanctus 
+      <lb ed="#R" n="118"/>posset perficere voluntatem, &amp; tamen ab ipsa non 
+      <lb ed="#R" n="119"/>dependere, cuius oppositum communiter dicitur. 
+      </p>
+               <p xml:id="olm8ij-g51791-d1e245">
+                  <lb ed="#R" n="120"/>Ad aliud argumentum sic: Natura humana depen 
+      <!--0486.xml-->
+      <pb ed="#R" n="484"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>det verius a suo supposito, &amp; verius facit vnum cum 
+      <lb ed="#R" n="2"/>eo, quam substantia cum quantitate: quia natura 
+      <lb ed="#R" n="3"/>cum proprio supposito facit vnum per se, &amp; natura 
+      <lb ed="#R" n="4"/>suppositi sui est in potentia essentiali ad 
+      supposi<lb ed="#R" n="5" break="no"/>tum; substantia autem &amp; quantitas faciunt 
+      tan<lb ed="#R" n="6" break="no"/>tum vnum per accidens, nec substantia respectu 
+      <lb ed="#R" n="7"/>quantitatis est, nisi in potentia accidentali, &amp; 
+      na<lb ed="#R" n="8" break="no"/>tura potest assumi sine proprio supposito: ergo 
+      <lb ed="#R" n="9"/>multo magis poterit homo assumi sine quantitate, 
+      <lb ed="#R" n="10"/>quia illud melius se habet ad substantiam, quam 
+      <lb ed="#R" n="11"/>natura ad suppositum. 
+      </p>
+               <p xml:id="olm8ij-g51791-d1e280">
+                  <lb ed="#R" n="12"/>Ad istam Quaestionem dicunt aliqui sic, quod 
+      <lb ed="#R" n="13"/>non est possibilius, etiam Deo, quod posset 
+      assu<lb ed="#R" n="14" break="no"/>mere hominem sine quantitate, &amp; hoc ipsi 
+      multi<lb ed="#R" n="15" break="no"/>pliciter declarant. Primo sic: Illud quod 
+      impossi<lb ed="#R" n="16" break="no"/>bile est esse in effectu sine alio, impossibile est 
+      assu<lb ed="#R" n="17" break="no"/>mi sine eo: sed impossibilius est hominem esse in 
+      <lb ed="#R" n="18"/>effectu sine quantitate: ergo impossibilius est eum 
+      <lb ed="#R" n="19"/>assumi sine quantitate. Minor probatur, quia 
+      de<lb ed="#R" n="20" break="no"/>terminata forma, habet esse in determinata 
+      mate<lb ed="#R" n="21" break="no"/>ria, quia secundo de Anima dicitur, quod actus 
+      a<lb ed="#R" n="22" break="no"/>ctiuorum sunt in patiente recte disposito, &amp; non 
+      <lb ed="#R" n="23"/>quaelibet forma recipitur in qualibet materia: sed 
+      <lb ed="#R" n="24"/>anima intellectiua est determinata forma: ergo 
+      re<lb ed="#R" n="25" break="no"/>quirit determinatam materiam: sed eius 
+      determi<lb ed="#R" n="26" break="no"/>nata materia est corpus organicum physicum: 
+      er<lb ed="#R" n="27" break="no"/>go non potest esse nisi in corpore organico 
+      physi<lb ed="#R" n="28" break="no"/>co. Sed impossibile est corpus organicum esse in 
+      <lb ed="#R" n="29"/>effectu sine quantitate: ergo impossibilius est 
+      ani<lb ed="#R" n="30" break="no"/>mam intellectiuam esse nisi in materia quanta, &amp; 
+      <lb ed="#R" n="31"/>per consequens sequitur, quod impossibilius est ho 
+      <lb ed="#R" n="32"/>minem assumi sine quantitate. 
+      </p>
+               <p xml:id="olm8ij-g51791-d1e328">
+                  <lb ed="#R" n="33"/>Item: De ratione per se hominis est, quod sit 
+      ani<lb ed="#R" n="34" break="no"/>mal, &amp; de ratione per se animalis est, quod sit 
+      sen<lb ed="#R" n="35" break="no"/>sibile, &amp; de ratione per se sensibilis, quod sit 
+      orga<lb ed="#R" n="36" break="no"/>nicum, quia impossibile est sensum sentire sine 
+      or<lb ed="#R" n="37" break="no"/>gano, &amp; sensibilem hominem complere organum, 
+      <lb ed="#R" n="38"/>quod non est sine quantitate: ergo a primo ad 
+      vlti<lb ed="#R" n="39" break="no"/>mum impossibilius est hominem esse in effectu sine 
+      <lb ed="#R" n="40"/>quantitate, &amp; per consequens impossibile est ipsum 
+      <lb ed="#R" n="41"/>sine quantitate. 
+      </p>
+               <p xml:id="olm8ij-g51791-d1e350">
+                  <lb ed="#R" n="42"/>Item: Sicut videmus in entibus quod quaedam 
+      <lb ed="#R" n="43"/>accidentia sunt determinantia sibi determinatum 
+      <lb ed="#R" n="44"/>subiectum, sicut accidentia mathematica, vt 
+      quan<lb ed="#R" n="45" break="no"/>titas, &amp; talia, possunt a subiectis in quibus sunt 
+      se<lb ed="#R" n="46" break="no"/>parari, sicut patet, quod quantitas est sine subiecto in 
+      <lb ed="#R" n="47"/>Sacramento altaris: sicut ergo est de acc identibus, 
+      <lb ed="#R" n="48"/>sic est de formis. Nam quaedam est forma, quae 
+      de<lb ed="#R" n="49" break="no"/>terminat sibi in materia determinata accidentia, 
+      <lb ed="#R" n="50"/>&amp; talis forma non potest ab illis accidentibus 
+      se<lb ed="#R" n="51" break="no"/>parari, quia inest: sic anima intellectiua 
+      deter<lb ed="#R" n="52" break="no"/>minat sibi in materia determinata accidentia, vt 
+      <lb ed="#R" n="53"/>quantitatemi, mpossibile est quod anima 
+      intellecti<lb ed="#R" n="54" break="no"/>ua habeat esse in materia sine quantitate: ergo 
+      im<lb ed="#R" n="55" break="no"/>possibilius hominem assumi sine quantitate. Quod 
+      <lb ed="#R" n="56"/>autem anima intellectiua non determinat aliqua 
+      <lb ed="#R" n="57"/>accidentia, vt albedinem, &amp; nigredinem, hinc est 
+      <lb ed="#R" n="58"/>quod homo non potestt esse sine albedine, &amp; 
+      nigre<lb ed="#R" n="59" break="no"/>dine 
+      </p>
+               <p xml:id="olm8ij-g51791-d1e392">
+                  <lb ed="#R" n="60"/>Dicunt ergo isti, quod impossibile est hominem 
+      <lb ed="#R" n="61"/>assumi sine quantitate, quia impossibile est eum 
+      <lb ed="#R" n="62"/>esse in effectu sine quantitate: sed quia non video, 
+      <lb ed="#R" n="63"/>quod illud contradictionem includat, ideo videtur 
+      <lb ed="#R" n="64"/>mihi dicendum esse, quod Deus posset assumere 
+      si<lb ed="#R" n="65" break="no"/>ne quantitate hominem. Ad cuius euidentiam, &amp; 
+      <lb ed="#R" n="66"/>praedictae opinionis impugnationem. 
+      </p>
+               <p xml:id="olm8ij-g51791-d1e410">
+                  <lb ed="#R" n="67"/>Est aduertendum, quod de homine possumus 
+      lo<lb ed="#R" n="68" break="no"/>qui dupliciter: Vno modo, vt est ens naturale, &amp; vt 
+      <!--0486.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>est de consideratione naturalis Philosophi, &amp; vt ab 
+      <lb ed="#R" n="70"/>eo est definibile. Alio modo possumus de homine 
+      <lb ed="#R" n="71"/>loqui, vt ens metaphysicum est, &amp; vt de 
+      considera<lb ed="#R" n="72" break="no"/>tione eius est, &amp; vt ab eo definibile. De primo 
+      di<lb ed="#R" n="73" break="no"/>co, quod impossibile est hominem assumi sine quan 
+      <lb ed="#R" n="74"/>titate. Et hoc declaro sic: Quando aliquid cadit in 
+      <lb ed="#R" n="75"/>definitione alicuius (vt est de consideratione 
+      natu<lb ed="#R" n="76" break="no"/>ralis Philosophi) impossibilius est illud vt sic 
+      consi<lb ed="#R" n="77" break="no"/>deratum reperiri in effectu sine eo, quod in eius 
+      de<lb ed="#R" n="78" break="no"/>finitione cadit, vt de consideratione naturalis 
+      Phi<lb ed="#R" n="79" break="no"/>losophi est: sed in per se definitione hominis, vt ens 
+      <lb ed="#R" n="80"/>naturale est, &amp; vt de consideratione naturalis 
+      Phi<lb ed="#R" n="81" break="no"/>losophi est, cadit quantitas: ergo impossibile, vt de 
+      <lb ed="#R" n="82"/>consideratione naturalis Philosophi est, reperiri in 
+      <lb ed="#R" n="83"/>effectu sine quantitate &amp; qualitate, &amp; per 
+      conse<lb ed="#R" n="84" break="no"/>quens vt ens naturale, non poterit sine quantitate 
+      <lb ed="#R" n="85"/>assumi. Minor patet: In hoc differunt naturalis Phi 
+      <lb ed="#R" n="86"/>losophus, Metaphysicus &amp; Dialecticus, quod 
+      iste<lb ed="#R" n="87" break="no"/>abstrahit a quantitate, &amp; qualitate; Metaphysicus 
+      <lb ed="#R" n="88"/>autem licet abstrahit a qualitate sensibili, non 
+      ta<lb ed="#R" n="89" break="no"/>men a quantitate; Naturalis autem non abstrahit 
+      <lb ed="#R" n="90"/>a quantitate sensibili, nec a qualitate. &amp; ista possunt 
+      <lb ed="#R" n="91"/>elici ex secundo Physic. tex. 16. &amp; infra: in ratione 
+      <lb ed="#R" n="92"/>ergo hominis, vt ens naturale est, &amp; vt de 
+      conside<lb ed="#R" n="93" break="no"/>ratione est naturalis Philosophi, cadit quantitas, &amp; 
+      <lb ed="#R" n="94"/>per consequens vt sic consideratum, impossibile est 
+      <lb ed="#R" n="95"/>ipsum sine quantitate assumi. 
+      </p>
+               <p xml:id="olm8ij-g51791-d1e481">
+                  <lb ed="#R" n="96"/>Item: Sic se habent actus, &amp; potentia ad 
+      conside<lb ed="#R" n="97" break="no"/>rationem Metaphysici, sicut qualitas &amp; quantitas 
+      <lb ed="#R" n="98"/>ad considerationem Naturalis: sed impossibile est 
+      <lb ed="#R" n="99"/>aliquid ese de consideratione Naturalis sine 
+      quali<lb ed="#R" n="100" break="no"/>tate, &amp; quantitate: Impossibilius est ergo 
+      homi<lb ed="#R" n="101" break="no"/>nem, vt de consideratione naturalis est, esse sine 
+      <lb ed="#R" n="102"/>quantitate &amp; qualitate, &amp; per consequens sine quã- 
+      <lb ed="#R" n="103"/>titate assumi. 
+      </p>
+               <p xml:id="olm8ij-g51791-d1e501">
+                  <lb ed="#R" n="104"/>Item: Si Philosophus naturalis consideraret de 
+      <lb ed="#R" n="105"/>substantia composita praecise, &amp; vt consideratur 
+      si<lb ed="#R" n="106" break="no"/>ne omni accidente, &amp; vt sic consideratam definiret 
+      <lb ed="#R" n="107"/>eam, non esset differentia inter naturalem 
+      philoso<lb ed="#R" n="108" break="no"/>phum, &amp; metaphysicum: sed istud est falsum, quia 
+      <lb ed="#R" n="109"/>non esset materia concurrens ad compositionem: 
+      <lb ed="#R" n="110"/>ergo Naturalis non considerat substantiam compo 
+      <lb ed="#R" n="111"/>sitam praecise, sine omni accidente, sed cum 
+      quan<lb ed="#R" n="112" break="no"/>titate, nec solum cum quantitate, alioquin non 
+      dis<lb ed="#R" n="113" break="no"/>fert a Mathematico, si tantum consideret 
+      substan<lb ed="#R" n="114" break="no"/>tiam cum quantitate: ergo impossibile est 
+      homi<lb ed="#R" n="115" break="no"/>nem, vt de consideratione naturalis est, reperiri 
+      si<lb ed="#R" n="116" break="no"/>ne quantitate in effectu, &amp; per consequens nec 
+      as<lb ed="#R" n="117" break="no"/>sumi. 
+      </p>
+               <p xml:id="olm8ij-g51791-d1e534">
+                  <lb ed="#R" n="118"/>Item, quod quantitas &amp; qualitas sit de ratione 
+      <lb ed="#R" n="119"/>hominis, &amp; impossibile sit ipsum esse sine eis, de 
+      <lb ed="#R" n="120"/>consideratione naturalis sine qualitate &amp; 
+      quan<lb ed="#R" n="121" break="no"/>titate patet per Philosophum 2. de anima tex. 4. 
+      <lb ed="#R" n="122"/>vbi etiam definiens animam dicit: Anima est 
+      <lb ed="#R" n="123"/>actus corporis organici physici: corpus autem, vt 
+      <lb ed="#R" n="124"/>est organicum non potest esse sine quantitate, 
+      ho<lb ed="#R" n="125" break="no"/>mo ergo, secundum quod ens naturale, &amp; vt de cō- 
+      <lb ed="#R" n="126"/>sideratione naturalis est, non tantum in ratione 
+      <lb ed="#R" n="127"/>sua includit materiam &amp; formam, sed &amp; accidens. 
+      <lb ed="#R" n="128"/>Ad istud confirmatur etiam per <ref xml:id="olm8ij-g51791-Rd1e560">Commentatorem 
+      <lb ed="#R" n="129"/>7. Metaph. commento 37.</ref> vbi loquens magis vt 
+      <lb ed="#R" n="130"/>naturalis, quam vt metaphysicus dicit sic, quod 
+      <lb ed="#R" n="131"/>impossibile est hominem intelligi sine carnibus &amp; 
+      <lb ed="#R" n="132"/>ossibus, carnes autem &amp; ossa non sunt sine 
+      quanti<lb ed="#R" n="133" break="no"/>tate, &amp; <ref xml:id="olm8ij-g51791-Rd1e573">Commento 39.</ref> dicit: Impossibilius est res 
+      <lb ed="#R" n="134"/>naturales intelligi sine motibus, &amp; qualitatibus 
+      <lb ed="#R" n="135"/>actiuis, &amp; passiuis. 
+      </p>
+               <p xml:id="olm8ij-g51791-d1e581">
+                  <lb ed="#R" n="136"/>Dico ergo, quod homo vt sub consideratione est 
+      <!--0487.xml-->
+      <pb ed="#R" n="485"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Naturalis impossibile est ipsum in effectu sine 
+      quan<lb ed="#R" n="2" break="no"/>titate reperiri, &amp; per consequens sine quantitate 
+      <lb ed="#R" n="3"/>assumi. Sed loquendo de homine, vt ens 
+      metaphi<lb ed="#R" n="4" break="no"/>sicum est, &amp; vt de consideratione metaphisici, 
+      di<lb ed="#R" n="5" break="no"/>co, quod possibilius est hominem sine quantitate 
+      <lb ed="#R" n="6"/>aslumi. Et hoc declaro primo sic: Secundum 
+      <lb ed="#R" n="7"/>Philosophum anima duplicem comparationem 
+      <lb ed="#R" n="8"/>habet ad corpus, comparatur enim ad corpus: 
+      <lb ed="#R" n="9"/>vt forma, &amp; vt motor, sed nunc est ita, quod 
+      <lb ed="#R" n="10"/>comparatio animae ad corpus vt forma, est prior, 
+      <lb ed="#R" n="11"/>&amp; essentialior, quam comparatio eius, vt 
+      mo<lb ed="#R" n="12" break="no"/>tor: ergo anima potest corpus perficere dando ei 
+      <lb ed="#R" n="13"/>esse primum, quod dat vt forma, non dando 
+      mo<lb ed="#R" n="14" break="no"/>tum, &amp; potest vniri corpori sicut perfectio 
+      per<lb ed="#R" n="15" break="no"/>fectibili, absque hoc, quod vniatur sibi, vt motor 
+      <lb ed="#R" n="16"/>mobili, quomodo vnitur, vt dat ei actus 
+      secun<lb ed="#R" n="17" break="no"/>dos, vt sentire, &amp; similes actus: ergo homo 
+      pote<lb ed="#R" n="18" break="no"/>rit sine omni quantitate assumi, &amp; sine omni actu 
+      <lb ed="#R" n="19"/>secundo, qui quiditatem acquirant. 
+      </p>
+               <p xml:id="olm8ij-g51791-d1e633">
+                  <lb ed="#R" n="20"/>Aduertendum tamen, quod homo sic assumptus 
+      <lb ed="#R" n="21"/>penitus an esset homo naturalis, quia esset sine 
+      <lb ed="#R" n="22"/>quantitate, esset tamen naturale, &amp; inquantum 
+      <lb ed="#R" n="23"/>haberet materiam natam subiici quantitati, &amp; 
+      qua<lb ed="#R" n="24" break="no"/>litati naturali, nec iste homo esset penitus 
+      meta<lb ed="#R" n="25" break="no"/>physicus, sicut Angelus est ens Metaphysicum 
+      <lb ed="#R" n="26"/>quia licet in eo nullum accidens esset, haberet 
+      ta<lb ed="#R" n="27" break="no"/>men inclinationem naturalem, vt eius qualitati 
+      <lb ed="#R" n="28"/>vniuersali subiiceretur, sicut nec anima 
+      intellecti<lb ed="#R" n="29" break="no"/>ua separata non est penitus naturalis, quia est sine 
+      <lb ed="#R" n="30"/>omni accidente, nec penitus de 
+      consideratione<lb ed="#R" n="31" break="no"/>metaphysici, quia habet inclinationem naturalem, 
+      <lb ed="#R" n="32"/>an perseitet corpus naturale, quod repugnat enti 
+      <lb ed="#R" n="33"/>penitus metaphysico. Item, quod homo sic 
+      de<lb ed="#R" n="34" break="no"/>consideratione metaphysici consideratus possit 
+      as<lb ed="#R" n="35" break="no"/>sumi, declaro ex dictis eorum, qui hoc negant, 
+      <lb ed="#R" n="36"/>nam ipsi in illa quaestione: Vtrum materia possit 
+      <lb ed="#R" n="37"/>esse sine omni forma. Dicunt, quod sic, &amp; ratio 
+      <lb ed="#R" n="38"/>vna eorum est, quia materia dicit essentiam, &amp; 
+      na<lb ed="#R" n="39" break="no"/>turam absolutam distinctam ab esse formae. 
+      </p>
+               <p xml:id="olm8ij-g51791-d1e679">
+                  <lb ed="#R" n="40"/>Si ista ratio valet, sequitur, quod multo 
+      forma<lb ed="#R" n="41" break="no"/>lius homo, qui dicit animam completam 
+      distin<lb ed="#R" n="42" break="no"/>ctam a quantitate, poterit sine quantitate assumi. 
+      <lb ed="#R" n="43"/>Probo hoc idem, quia sic materia potest esse sine 
+      <lb ed="#R" n="44"/>forma, sicut substantia sine homine, vt de 
+      consi<lb ed="#R" n="45" break="no"/>deratione metaphysici est, secundum quod 
+      inclu<lb ed="#R" n="46" break="no"/>dit tantum materiam, &amp; formam substantialem 
+      <lb ed="#R" n="47"/>poterit sine quantitate; quia quanto aliqua faciunt 
+      <lb ed="#R" n="48"/>verius vnum, tanto eorum separatio est magis 
+      im<lb ed="#R" n="49" break="no"/>possibilis: quia de ratione vnionis est, quod 
+      quan<lb ed="#R" n="50" break="no"/>to magis sunt vnita, tanto magis sunt indiuisibilia. 
+      <lb ed="#R" n="51"/>Sed materia, &amp; forma verius faciunt vnum, quam 
+      <lb ed="#R" n="52"/>homo &amp; quantitas, quia materia, &amp; forma faciunt 
+      <lb ed="#R" n="53"/>per se vnum, homo &amp; quantitas vnum per accidens: 
+      <lb ed="#R" n="54"/>si ergo materia potest esse sine forma, &amp; ab ea 
+      se<lb ed="#R" n="55" break="no"/>parari, multo fortius homo poterit esse sine 
+      quan<lb ed="#R" n="56" break="no"/>titate, &amp; ab ea separari, &amp; sine quantitate assumi. 
+      <lb ed="#R" n="57"/>Item Philosophus 7. metaphisicae dicit, quod 
+      <lb ed="#R" n="58"/>substantia prior est accidente definitione, natura, 
+      <lb ed="#R" n="59"/>&amp; tempore. &amp; Commentator hoc deducens 4. 
+      com<lb ed="#R" n="60" break="no"/>mento dicit, quod ideo substantia prior accidente 
+      <lb ed="#R" n="61"/>definitione, quia substantia ponitur in definitione 
+      <lb ed="#R" n="62"/>accidentis: ergo est prior, &amp; ex hoc concludit Cō- 
+      <lb ed="#R" n="63"/>mentator, quod substantia potest separari ab 
+      acci<lb ed="#R" n="64" break="no"/>dente, non autem accidens a substantia. Vnde 
+      <lb ed="#R" n="65"/>maius inconueniens esset Philosopho, quod 
+      acci<lb ed="#R" n="66" break="no"/>dens esset sine substantia, quam e conuerso: at 
+      sub<lb ed="#R" n="67" break="no"/>stantia sine accidente esse potest: ergo homo sine 
+      <lb ed="#R" n="68"/>quantitate, &amp; per consequens assumi, vt tantum 
+      <!--0487.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>materiam &amp; formam includit, &amp; vt de 
+      considera<lb ed="#R" n="70" break="no"/>tione metaphysici est. 
+      </p>
+               <p xml:id="olm8ij-g51791-d1e754">
+                  <lb ed="#R" n="71"/>Item ipsi in quaestione praedicta de materia 
+      fa<lb ed="#R" n="72" break="no"/>ciunt talem rationem, quod materia possit esse 
+      si<lb ed="#R" n="73" break="no"/>ne forma, quia licet forma sit forma materiae, non 
+      <lb ed="#R" n="74"/>tamen est causa formalis materiae, quia materia 
+      <lb ed="#R" n="75"/>non est materia formae: ergo sic in proposito, haec 
+      <lb ed="#R" n="76"/>ratio valet, licet quantitas dat esse substantiae, vt 
+      <lb ed="#R" n="77"/>forma accidentalis, non tamen est eius causa 
+      for<lb ed="#R" n="78" break="no"/>malis, quia substantia non est substantia 
+      formali<lb ed="#R" n="79" break="no"/>ter ipsa quantitate: ergo substantia poterit etiam 
+      <lb ed="#R" n="80"/>sine quantitate assumi. Item alia ratio eorum in 
+      <lb ed="#R" n="81"/>eadem quaestione est, quod materia habet vnam 
+      <lb ed="#R" n="82"/>ideam in Deo distinctam ab idea formae, ideo 
+      po<lb ed="#R" n="83" break="no"/>test esse sine forma: ergo cum substantia completa 
+      <lb ed="#R" n="84"/>multo magis habeat ideam distinctam in Deo ab 
+      <lb ed="#R" n="85"/>idea quantitatis, eo quod sunt res diuersorum 
+      ge<lb ed="#R" n="86" break="no"/>nerum, poterit substantia a quantitate separari, &amp; 
+      <lb ed="#R" n="87"/>per consequens homo, vt de consideratione 
+      meta<lb ed="#R" n="88" break="no"/>physici est, assumi sine quantitate. 
+      </p>
+               <p xml:id="olm8ij-g51791-d1e796">
+                  <lb ed="#R" n="89"/>Item alia ratio secundum eos, quod materia 
+      po<lb ed="#R" n="90" break="no"/>test esse sine forma, est, quia materia est capax 
+      for<lb ed="#R" n="91" break="no"/>mae, non tamen est ipsa capacitas, quia non est 
+      po<lb ed="#R" n="92" break="no"/>tentialitas tantum: ergo arguitur in proposito, 
+      li<lb ed="#R" n="93" break="no"/>cet substantia sit capax quantitatis, quia tamen 
+      <lb ed="#R" n="94"/>substantia non est ipsa capacitas quantitatis, 
+      pote<lb ed="#R" n="95" break="no"/>rit substantia a quantitate separari, &amp; per 
+      conse<lb ed="#R" n="96" break="no"/>quens homo sine quantitate assumi. Et ideo videtur 
+      <lb ed="#R" n="97"/>mihi esse possibile, quod homo, vt tantum includit 
+      <lb ed="#R" n="98"/>materiam substantialem, &amp; formam, &amp; vt de 
+      con<lb ed="#R" n="99" break="no"/>sideratione metaphysici est, possit sine quantitate 
+      <lb ed="#R" n="100"/>assumi; iste tamen homo sic assumptus non erit 
+      na<lb ed="#R" n="101" break="no"/>turalis penitus, quia non erit sub quantitate, &amp; 
+      <lb ed="#R" n="102"/>qualitate naturali, nec erit penitus metaphisicus, 
+      <lb ed="#R" n="103"/>quia habebit inclinationem naturalem, quod 
+      su<lb ed="#R" n="104" break="no"/>biiciatur qualitati, &amp; quantitati naturali. Hoc 
+      <lb ed="#R" n="105"/>itaque tenendo restat respondere ad rationes 
+      in<lb ed="#R" n="106" break="no"/>oppositum.
+      </p>
+               <p xml:id="olm8ij-g51791-d1e838">
+                  <lb ed="#R" n="107"/>Ad primum, quando dicitur sic, quantitas 
+      non<lb ed="#R" n="108" break="no"/>potest assumi sine substantia, &amp;c. nego 
+      consequen<lb ed="#R" n="109" break="no"/>tiam, &amp; ratio est, quod licet id, quod non est 
+      perso<lb ed="#R" n="110" break="no"/>nale, nec hipostabile non possit ad vnitatem personae, 
+      <lb ed="#R" n="111"/>vel hipostasis sine contradictione assumi, 
+      cuiusmo<lb ed="#R" n="112" break="no"/>di est natura accidentis: natura tamen 
+      personabi<lb ed="#R" n="113" break="no"/>lis, &amp; hyposcabilis, cuiusmodi est homo, cum sit de 
+      <lb ed="#R" n="114"/>consideratione metaphysici, ad vnitatem personae, 
+      <lb ed="#R" n="115"/>potest assumi, &amp; ista consequentia non valet. 
+      At<lb ed="#R" n="116" break="no"/>tamen Respondeo quando dicitur, quod 
+      quanti<lb ed="#R" n="117" break="no"/>tas sine substantia non potest assumi, nego istud 
+      an<lb ed="#R" n="118" break="no"/>recedens, imo dico, quod accidens potest assumi, &amp; 
+      <lb ed="#R" n="119"/>istud probo. Primo sic: Magis dependet 
+      quanti<lb ed="#R" n="120" break="no"/>tas a supposito alieno, quam faciat natura 
+      huma<lb ed="#R" n="121" break="no"/>na, quia quantitas, si per se existat, sicut in 
+      Sacra<lb ed="#R" n="122" break="no"/>mento altaris, semper tamen habet naturalem 
+      in<lb ed="#R" n="123" break="no"/>clinationem ad subiectum, quam inclinationem 
+      <lb ed="#R" n="124"/>non haberet natura humana, si existeret in 
+      supposi<lb ed="#R" n="125" break="no"/>to proprio: si ergo quantitas magis dependet a sup 
+      <lb ed="#R" n="126"/>posito alieno, quam natura humana: ergo magis 
+      <lb ed="#R" n="127"/>poterit in supposito alieno sustentari, quam natura 
+      <lb ed="#R" n="128"/>humana: ergo &amp; quantitas a supposito assumi 
+      po<lb ed="#R" n="129" break="no"/>terit. Nec tamen dicam conuenienter ad dica 
+      <lb ed="#R" n="130"/>quia supra dixi, quod impossibile est, quod 
+      na<lb ed="#R" n="131" break="no"/>tura non personalis assumatur ad vnitatem 
+      per<lb ed="#R" n="132" break="no"/>sonae, quia natura irrationalis non est personalis, 
+      <lb ed="#R" n="133"/>Ideo ad vnitatem personae non potest assumi, sed, 
+      <lb ed="#R" n="134"/>quod est natura irrationalis, potest ad vnitatem hy 
+      <lb ed="#R" n="135"/>postasis assumi. 
+      </p>
+               <p xml:id="olm8ij-g51791-d1e903">
+                  <lb ed="#R" n="136"/>Nunc autem ita est, quod natura accidentis, vt 
+      <!--0488.xml-->
+      <pb ed="#R" n="486"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>quantitas, vel aliud accidens, nec est natura 
+      ratio<lb ed="#R" n="2" break="no"/>nalis, nec hypostabilis a Deo supposito diuino, nec 
+      <lb ed="#R" n="3"/>potest ad vnitatem personae, nec ad vnitatem 
+      hy<lb ed="#R" n="4" break="no"/>postasis assumi. Sed tunc quaeret aliquis, si per te 
+      <lb ed="#R" n="5"/>quantitas potest assumi, quia accidens 
+      compara<lb ed="#R" n="6" break="no"/>tum ad subiectum, illud non perficit, neque 
+      in<lb ed="#R" n="7" break="no"/>format: Et tu probas, quod accidens non potest 
+      <lb ed="#R" n="8"/>assumi, quia accidens non potest alicui inhaerere, 
+      <lb ed="#R" n="9"/>nisi ipsum, cui inhaeret, perficiat, nego istud: Imo 
+      <lb ed="#R" n="10"/>dico, quod quantitas potest inexistere, &amp; non 
+      in<lb ed="#R" n="11" break="no"/>sormabit, sed proprie non dicetur inexistere, sed 
+      <lb ed="#R" n="12"/>existere tantum, sicut videmus, quod quantitas in 
+      <lb ed="#R" n="13"/>Sacramento altaris existit, &amp; tamen non informat; 
+      <lb ed="#R" n="14"/>sic poterit etiam Deus supponere illam 
+      quantita<lb ed="#R" n="15" break="no"/>tem, &amp; tamen non informabit eam. Et vt 
+      possi<lb ed="#R" n="16" break="no"/>bilitatem huius clarius videamus, sciendum, 
+      <lb ed="#R" n="17"/>quod accidens ad subiectum dupliciter 
+      compara<lb ed="#R" n="18" break="no"/>tur. Vno modo sicut ad eiusmodi subiectum, quod 
+      <lb ed="#R" n="19"/>respectu eius est in potentia, hoc imperfectionis est 
+      <lb ed="#R" n="20"/>in subiecto, quod respectu eius est in potentia 
+      <lb ed="#R" n="21"/>respectu accidentis. Alio modo comparatur ad 
+      su<lb ed="#R" n="22" break="no"/>biectum, sicut ad eius causam. Isto modo 
+      com<lb ed="#R" n="23" break="no"/>paratum accidens ad subiectum non ipsum 
+      infor<lb ed="#R" n="24" break="no"/>mat, nec perficit, &amp; isto modo potest Deus 
+      quan<lb ed="#R" n="25" break="no"/>titatem supportare, &amp; tamen ipsum non 
+      informa<lb ed="#R" n="26" break="no"/>bit, nec perficiet. Isto enim modo omnia 
+      depen<lb ed="#R" n="27" break="no"/>dent ab eo, &amp; omnia sustentat, vt omnium causa 
+      <lb ed="#R" n="28"/>sicut dicit Augustinus super Genes. 4.
+      </p>
+               <p xml:id="olm8ij-g51791-d1e975">
+                  <lb ed="#R" n="29"/>Ad aliud, quo dicitur, sic dependere ab aliquo, 
+      <lb ed="#R" n="30"/>&amp;c. Dico, quod non est verum: sed dependere se 
+      <lb ed="#R" n="31"/>habet in plus in accidente, quam informare; 
+      si<lb ed="#R" n="32" break="no"/>cut patet, nam natura humana assumpta dependet 
+      <lb ed="#R" n="33"/>a proprio supposito, &amp; tamen ipsum non informat. 
+      <lb ed="#R" n="34"/>Similiter quantitas in Sacramento dependet a 
+      su<lb ed="#R" n="35" break="no"/>biecto, &amp; tamen ipsum non informat actu: ergo nul 
+      <lb ed="#R" n="36"/>lius subiectum format. Et quia dependere se habet 
+      <lb ed="#R" n="37"/>in plus, &amp; per consequens est prius, quam 
+      infor<lb ed="#R" n="38" break="no"/>mare, ideo dico, quod potest quantitas 
+      depen<lb ed="#R" n="39" break="no"/>dere a supposito verbi, &amp; in ipso supponitur, &amp; 
+      ta<lb ed="#R" n="40" break="no"/>men ipsum non informabit. 
+      </p>
+               <p xml:id="olm8ij-g51791-d1e1004">
+                  <lb ed="#R" n="41"/>Ad primum pro opinione, quando arguitur: sic 
+      <lb ed="#R" n="42"/>finita forma, requirit determinatam materiam, con 
+      <lb ed="#R" n="43"/>cedo, &amp; quando assumitur: anima est determinata 
+      <lb ed="#R" n="44"/>sorma, verum est: ergo requirit determinatam 
+      ma<lb ed="#R" n="45" break="no"/>teriam; bene volo: sed quando additur; 
+      determi<lb ed="#R" n="46" break="no"/>nata materia formae intellectiuae est habere corpus 
+      <lb ed="#R" n="47"/>organicum, dico quod verum est. Tamen si dico 
+      <lb ed="#R" n="48"/>animam, secundum quod est de 
+      consideratione<lb ed="#R" n="49" break="no"/>naturalis Philosophi, &amp; isto modo bene dico, quod 
+      <lb ed="#R" n="50"/>non est sine quantitate, nec esse potest, sed 
+      consi<lb ed="#R" n="51" break="no"/>derando animam secundum esse metaphysicum, &amp; 
+      <lb ed="#R" n="52"/>vt de consideratione metaphysica est, nego: &amp; secun 
+      <lb ed="#R" n="53"/>dum illud esse potest homo sine omni quantitate, 
+      <lb ed="#R" n="54"/>&amp; sic considerata potest sine omni quantitate 
+      assu<lb ed="#R" n="55" break="no"/>mi natura humana 
+      </p>
+               <p xml:id="olm8ij-g51791-d1e1040">
+                  <lb ed="#R" n="56"/>Ad aliud, quando dicitur, de per se ratione 
+      ho<lb ed="#R" n="57" break="no"/>minis est esse animal, concedo de per se ratione ani 
+      <lb ed="#R" n="58"/>malis est esse sensibile. Dico hoc, quod si homo 
+      <lb ed="#R" n="59"/>esset sine quantitate, vt homo metaphysicus, dico, 
+      <lb ed="#R" n="60"/>quod secundum quod tale ens metaphysicum 
+      in<lb ed="#R" n="61" break="no"/>cludit totam quidditatem animalis, sicut facit vt 
+      <lb ed="#R" n="62"/>ens physicum consideratum. Cum dicis: de 
+      ratio<lb ed="#R" n="63" break="no"/>ne animalis est esse sensibile. Dico, quod verum 
+      <lb ed="#R" n="64"/>est non actu, sed in potentia; &amp; secundum 
+      natu<lb ed="#R" n="65" break="no"/>ralem inclinationem. Vnde, quod homo sit 
+      ani<lb ed="#R" n="66" break="no"/>mal sufficit, quod sit aptum natum sentire, &amp; 
+      ta<lb ed="#R" n="67" break="no"/>lem inclinationem naturalem haberet homo, si 
+      es<lb ed="#R" n="68" break="no"/>set ens metaphysicum, &amp; sine omni quantitate, nam 
+      <!--0488.xml-->
+      <cb ed="#R" n="b"/>
+                  <lb ed="#R" n="69"/>haberet materiam aptam subijci organis 
+      sensibili<lb ed="#R" n="70" break="no"/>bus, &amp; tamen dico, quod licet talis homo non 
+      <lb ed="#R" n="71"/>actu sentiret, tamen intelligere actu posset, quia 
+      <lb ed="#R" n="72"/>actus sentiendi non refertur ad actum 
+      intelligen<lb ed="#R" n="73" break="no"/>di, tanquam ad actum prius, nisi pro actu, &amp; 
+      or<lb ed="#R" n="74" break="no"/>dine naturae sic constitutae; hunc autem ordinem 
+      <lb ed="#R" n="75"/>posset Deus mutare si vellet, sicut dicit Hugo de 
+      <lb ed="#R" n="76"/>de Sanc. Vict. Pro viij. dico, quod si Deus sub 
+      ra<lb ed="#R" n="77" break="no"/>tione obiecti obijceret se tali homini 
+      metaphysi<lb ed="#R" n="78" break="no"/>co, quod eum intelligere posset, nam quod actus 
+      <lb ed="#R" n="79"/>sensitiuus requiratur, ratio est animalis, 
+      imperfe<lb ed="#R" n="80" break="no"/>ctionis in natura. 
+      </p>
+               <p xml:id="olm8ij-g51791-d1e1101">
+                  <lb ed="#R" n="81"/>Ad aliud, quando dicitur: sicut accidentia, quae 
+      <lb ed="#R" n="82"/>determinant sibi subiectum, &amp;c. Dico, quod si 
+      ra<lb ed="#R" n="83" break="no"/>tio valet, sequitur, quod quantitas non poterit a 
+      <lb ed="#R" n="84"/>substantia separari, quod quantitas tanquam 
+      su<lb ed="#R" n="85" break="no"/>biectum proximum, &amp; immediatum determinat 
+      <lb ed="#R" n="86"/>sibi subiectum, &amp; tamen hoc non obstante 
+      vide<lb ed="#R" n="87" break="no"/>mus, quod a substantia separatur. &amp; quando 
+      affu<lb ed="#R" n="88" break="no"/>mitur, quod propria passio non potest esse sine 
+      pro<lb ed="#R" n="89" break="no"/>prio subiecto, verum est, quia non dicit aliam 
+      <lb ed="#R" n="90"/>naturam absolutam, quia risibile non dicit nisi 
+      ap<lb ed="#R" n="91" break="no"/>titudinem ad ridendum, &amp; ideo non potest per se 
+      <lb ed="#R" n="92"/>esse, quia non potest esse terminus compositi 
+      ani<lb ed="#R" n="93" break="no"/>malis: quantitas autem potest esse sine substantiali, 
+      <lb ed="#R" n="94"/>&amp; eam sibi pro subiecto determinaret, quae 
+      natu<lb ed="#R" n="95" break="no"/>ram aptam dicit distinctam a substantia. 
+      Quan<lb ed="#R" n="96" break="no"/>tum tamen ad argumentum dico, quod anima 
+      or<lb ed="#R" n="97" break="no"/>ganicum corpus determinat sibi, vt habet esse 
+      phy<lb ed="#R" n="98" break="no"/>sicum, &amp; non vt metaphysicum. &amp; sic patet ad 
+      <lb ed="#R" n="99"/>obiecta. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

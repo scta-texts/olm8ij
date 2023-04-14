@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Aureoli">Petrus Aureolus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-04-14">April 14, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="R" n="cod-pa05b3">Roma 1605, Book 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-14" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#R" n="526"/>
+            <cb ed="#R" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="olm8ij-g65851"><!-- l3-d34q2 -->
+            <head xml:id="olm8ij-g65851-Hd1e101">Quaestio 2</head>
+            <p xml:id="olm8ij-g65851-d1e103">
+               <lb ed="#R" n="72"/>Quaestio JJ. 
+      <lb ed="#R" n="73"/>DE DONO TJMORJS.
+      </p>
+            <div xml:id="olm8ij-g65851-Dd1e110">
+               <head xml:id="olm8ij-g65851-Hd1e112">Articulus 1</head>
+               <head xml:id="olm8ij-g65851-Hd1e114" type="question-title">Utrum actus Timoris seruilis sit bonus</head>
+               <p xml:id="olm8ij-g65851-d1e117">
+                  <lb ed="#R" n="74"/>ARTJCVLVS VNJCVS. 
+      <lb ed="#R" n="75"/>Vtrum actus Timoris seruilis sit bonus. 
+      </p>
+               <p xml:id="olm8ij-g65851-d1e124">
+                  <lb ed="#R" n="76"/>VIDETVR, quod non, 
+      <lb ed="#R" n="77"/>quia non est amore 
+      bo<lb ed="#R" n="78" break="no"/>ni, sed amore mali 
+      poe<lb ed="#R" n="79" break="no"/>nae. Contra, Glosa 
+      su<lb ed="#R" n="80" break="no"/>per illud: Non accepistis 
+      <lb ed="#R" n="81"/>Spiritum, &amp;c. Dicit quod 
+      <lb ed="#R" n="82"/>spiritus Timoris est 
+      do<lb ed="#R" n="83" break="no"/>num Dei. Respondeo, 
+      <lb ed="#R" n="84"/>Sciendum, quod est 
+      qua<lb ed="#R" n="85" break="no"/>druplex timor, vnus filialis, qui est respectu 
+      per<lb ed="#R" n="86" break="no"/>sonae, puta reuerentia ad personam, &amp; dicitur 
+      quae<lb ed="#R" n="87" break="no"/>dam humilitas: alius est castus, qui est respectu 
+      <lb ed="#R" n="88"/>offensae, quando aliquis timet offendere contra 
+      <lb ed="#R" n="89"/>aliquam legem, vel personam, secundum quem 
+      <lb ed="#R" n="90"/>sponsa timet virum timore casto, nolens venire 
+      <lb ed="#R" n="91"/>contra legem matrimonij. Alius est respectu 
+      per<lb ed="#R" n="92" break="no"/>sonae temporaneae &amp; mundanae, &amp; dicitur timor 
+      <lb ed="#R" n="93"/>mundanus, &amp; est iste malus. Alius est respectu 
+      <lb ed="#R" n="94"/>poenae aeternae, vel temporalis debitae alicui 
+      pec<lb ed="#R" n="95" break="no"/>cato, &amp; est malus similiter, &amp; ille timor dicitur 
+      <lb ed="#R" n="96"/>etiam initialis, quia initialis est ad bonum, &amp; ad 
+      <lb ed="#R" n="97"/>timorem filialem. Primus timor dicitur 
+      humili<lb ed="#R" n="98" break="no"/>tas, &amp; est initium omnis boni: secundus est virtus: 
+      <lb ed="#R" n="99"/>tertius vitium: quartus est donum Spiritus sancti 
+      <lb ed="#R" n="100"/>gratis datum. 
+      </p>
+               <p xml:id="olm8ij-g65851-d1e181">
+                  <lb ed="#R" n="101"/>Secundo, quantum ad conclusionem intentam. 
+      <lb ed="#R" n="102"/>dicendum quod timor seruilis est bonus, &amp; actus 
+      <lb ed="#R" n="103"/>eius: quia iste actus est bonus, qui inuenitur 
+      in<lb ed="#R" n="104" break="no"/>homine existente in charitate: sed talis est actus 
+      <lb ed="#R" n="105"/>timoris seruilis: aliquis enim existens in 
+      chari<lb ed="#R" n="106" break="no"/>tate, propter timorem poenae aeternae potest se 
+      re<lb ed="#R" n="107" break="no"/>trahere a peccato, non tamen praecise, sed 
+      princi<lb ed="#R" n="108" break="no"/>paliter, cum hoc fit propter amorem Dei, &amp; 
+      timo<lb ed="#R" n="109" break="no"/>rem filialem vel castum. 
+      </p>
+               <p xml:id="olm8ij-g65851-d1e204">
+                  <lb ed="#R" n="110"/>Secundo, quia in illo actu sunt tria, scilicet 
+      ti<lb ed="#R" n="111" break="no"/>mere mortem aeternam, secundo retrahere se a 
+      <lb ed="#R" n="112"/>peccato: &amp; tertio quod haec non facit propter 
+      a<lb ed="#R" n="113" break="no"/>morem Dei. Modo neutrum est malum, &amp; 
+      cer<lb ed="#R" n="114" break="no"/>tum est de primis duobus: de tertio etiam pa-- 
+      <lb ed="#R" n="115"/>tet, licet enim sit priuatio alicuius boni, non 
+      ta<lb ed="#R" n="116" break="no"/>men est propter hoc malum, nisi saltem quando 
+      <lb ed="#R" n="117"/>dicitur inesse. Dicitur autem iste timor donum 
+      <lb ed="#R" n="118"/>gratis datum, &amp; potest esse cum amore, nec 
+      pro<lb ed="#R" n="119" break="no"/>prie habet rationem virtutis, quia virtus debet 
+      <lb ed="#R" n="120"/>operari propter amorem: iste timor non 
+      opera<lb ed="#R" n="121" break="no"/>tur propter amorem, scilicet propter euasionem 
+      <lb ed="#R" n="122"/>poenae. Nec etiam proprie potest formari, sed 
+      po<lb ed="#R" n="123" break="no"/>test excludi, quando enim aliud est timor filialis, 
+      <lb ed="#R" n="124"/>&amp; amor, tunc proprie excluditur iste timor, qui 
+      <lb ed="#R" n="125"/>est cum praecisione amoris Dei, tamen quando cum 
+      <lb ed="#R" n="126"/>seruili est amor Dei, tunc proprie non dicitur 
+      ser<lb ed="#R" n="127" break="no"/>uilis.
+      </p>
+               <p xml:id="olm8ij-g65851-d1e246">
+      <!--0529.xml-->
+                  <pb ed="#R" n="527"/>
+                  <cb ed="#R" n="a"/>
+                  <lb ed="#R" n="1"/>Ad argumentum patet, quia operari propter 
+      <lb ed="#R" n="2"/>euasionem poenae non est malum, licet non sit 
+      bo<lb ed="#R" n="3" break="no"/>num meritorium. 
+    </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
