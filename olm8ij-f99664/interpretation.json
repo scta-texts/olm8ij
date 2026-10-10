@@ -1,0 +1,69 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-10T20:02:01Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "68c4220d544f720f9bd04fdeae7747d85c5c058f",
+    "generation_method": "hierarchical"
+  },
+  "olm8ij-f99664-d1e103": {
+    "summary": "Rubric-like opening line giving the number of the distinction (Distinctio XLIV). It is a section label and makes no argument.",
+    "claims": [],
+    "concepts": [],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "olm8ij-f99664",
+        "olm8ij-f99664-d1e114"
+      ]
+    }
+  },
+  "olm8ij-f99664-d1e114": {
+    "summary": "Aureol introduces Distinction 44, the last distinction of Book II, which opens with 'Post praedicta'. He describes its content: Lombard's main subject is the power to sin, and he takes up, as an incidental topic, secular power and rule and whether it must necessarily be obeyed. Aureol then announces that he will raise four questions to clarify the distinction. These questions are the four articles of the single quaestio that follows.",
+    "claims": [
+      "Distinction 44 is the last distinction of Book II.",
+      "The Master's principal subject in the distinction is the power to sin.",
+      "The distinction also treats secular power and whether obedience to it is necessary.",
+      "Four questions are to be raised to clarify the distinction."
+    ],
+    "concepts": [
+      "potentia peccandi",
+      "potestas saecularis",
+      "principatus",
+      "obedientia",
+      "divisio quaestionum"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "olm8ij-f99664",
+        "olm8ij-f99693-d1e108"
+      ]
+    }
+  },
+  "olm8ij-f99664": {
+    "summary": "Brief preamble to Aureol's commentary on Book II, Distinction 44, the last distinction of the book. After the rubric, a single paragraph says that the distinction is mainly about the power to sin (potentia peccandi) and treats, as a secondary topic, secular power and rule and whether obedience to it is necessary. It announces four questions. These are taken up as the four articles of the single question that follows: (1) whether free choice is the precise foundation of the power to sin; (2) whether that power is from God; (3) whether all secular power is from God; (4) whether obedience is a virtue. The preamble sets the agenda and does not argue.",
+    "claims": [
+      "Distinction 44 concludes Book II.",
+      "The distinction's main theme is the power to sin; its secondary theme is secular power and obedience to it.",
+      "Four questions are proposed to clarify the distinction."
+    ],
+    "concepts": [
+      "potentia peccandi",
+      "potestas saecularis",
+      "principatus",
+      "obedientia"
+    ],
+    "_metadata": {
+      "level": "item",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "olm8ij-f99664-d1e103",
+        "olm8ij-f99664-d1e114"
+      ]
+    }
+  }
+}
